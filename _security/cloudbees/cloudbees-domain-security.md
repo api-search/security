@@ -5,115 +5,115 @@ api_specs:
   label: CloudBees Computer API
   slug: cloudbees-computer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-computer-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-computer-api-openapi.yml
 - filename: cloudbees-createitem-api-openapi.yml
   format: yaml
   label: CloudBees CreateItem API
   slug: cloudbees-createitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-createitem-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-createitem-api-openapi.yml
 - filename: cloudbees-job-api-openapi.yml
   format: yaml
   label: CloudBees Job API
   slug: cloudbees-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-job-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-job-api-openapi.yml
 - filename: cloudbees-json-api-openapi.yml
   format: yaml
   label: CloudBees Json API
   slug: cloudbees-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-json-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-json-api-openapi.yml
 - filename: cloudbees-python-api-openapi.yml
   format: yaml
   label: CloudBees Python API
   slug: cloudbees-python-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-python-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-python-api-openapi.yml
 - filename: cloudbees-queue-api-openapi.yml
   format: yaml
   label: CloudBees Queue API
   slug: cloudbees-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-queue-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-queue-api-openapi.yml
 - filename: cloudbees-xml-api-openapi.yml
   format: yaml
   label: CloudBees Xml API
   slug: cloudbees-xml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-xml-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-xml-api-openapi.yml
 - filename: cloudbees-components-api-openapi.yml
   format: yaml
   label: CloudBees Components API
   slug: cloudbees-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-components-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-components-api-openapi.yml
 - filename: cloudbees-environments-api-openapi.yml
   format: yaml
   label: CloudBees Environments API
   slug: cloudbees-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-environments-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-environments-api-openapi.yml
 - filename: cloudbees-flag-configurations-api-openapi.yml
   format: yaml
   label: CloudBees Flag configurations API
   slug: cloudbees-flag-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flag-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-flag-configurations-api-openapi.yml
 - filename: cloudbees-flag-custom-properties-api-openapi.yml
   format: yaml
   label: CloudBees Flag custom properties API
   slug: cloudbees-flag-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flag-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-flag-custom-properties-api-openapi.yml
 - filename: cloudbees-flag-lifecycle-api-openapi.yml
   format: yaml
   label: CloudBees Flag lifecycle API
   slug: cloudbees-flag-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flag-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-flag-lifecycle-api-openapi.yml
 - filename: cloudbees-flags-api-openapi.yml
   format: yaml
   label: CloudBees Flags API
   slug: cloudbees-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-flags-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-flags-api-openapi.yml
 - filename: cloudbees-organizations-api-openapi.yml
   format: yaml
   label: CloudBees Organizations API
   slug: cloudbees-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-organizations-api-openapi.yml
 - filename: cloudbees-runs-api-openapi.yml
   format: yaml
   label: CloudBees Runs API
   slug: cloudbees-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-runs-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-runs-api-openapi.yml
 - filename: cloudbees-target-groups-api-openapi.yml
   format: yaml
   label: CloudBees Target groups API
   slug: cloudbees-target-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-target-groups-api-openapi.yml
-- filename: cloudbees-team-memberships-api-openapi.yml
-  format: yaml
-  label: CloudBees Team Memberships API
-  slug: cloudbees-team-memberships-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-team-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-target-groups-api-openapi.yml
 - filename: cloudbees-teams-api-openapi.yml
   format: yaml
   label: CloudBees Teams API
   slug: cloudbees-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-teams-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-teams-api-openapi.yml
 - filename: cloudbees-users-api-openapi.yml
   format: yaml
   label: CloudBees Users API
   slug: cloudbees-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/openapi/cloudbees-users-api-openapi.yml
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-users-api-openapi.yml
+- filename: cloudbees-edge-runners-api-openapi.yml
+  format: yaml
+  label: CloudBees Edge runners API
+  slug: cloudbees-edge-runners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudbees/openapi/cloudbees-edge-runners-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -157,7 +157,7 @@ source_filename: cloudbees-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudbees.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 21:06:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.cloudbees.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 16:52:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: example.cloudbees.com\n  https: false\ndomains:\n- domain: cloudbees.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"rapidssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudbees/refs/heads/main/security/cloudbees-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudbees/security/cloudbees-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CI/CD

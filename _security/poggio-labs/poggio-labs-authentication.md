@@ -7,31 +7,31 @@ api_specs:
   label: Poggio Labs API Tokens API
   slug: poggio-labs-api-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-api-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-api-tokens-api-openapi.yml
 - filename: poggio-labs-authentication-api-openapi.yml
   format: yaml
   label: Poggio Labs Authentication API
   slug: poggio-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-authentication-api-openapi.yml
 - filename: poggio-labs-goals-api-openapi.yml
   format: yaml
   label: Poggio Labs Goals API
   slug: poggio-labs-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-goals-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-goals-api-openapi.yml
 - filename: poggio-labs-organizations-api-openapi.yml
   format: yaml
   label: Poggio Labs Organizations API
   slug: poggio-labs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-organizations-api-openapi.yml
 - filename: poggio-labs-system-api-openapi.yml
   format: yaml
   label: Poggio Labs System API
   slug: poggio-labs-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/openapi/poggio-labs-system-api-openapi.yml
+  url: https://artifacts.apis.io/poggio-labs/openapi/poggio-labs-system-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -82,7 +82,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://poggio.io/docs/api and https://api.poggio.io/.well-known/oauth-authorization-server\ndocs: https://poggio.io/docs/api/v2/oauth/token\nsummary:\n  types: [oauth2, http]\n  http_schemes: [bearer]\n  oauth2_flows: [authorizationCode, clientCredentials, refreshToken]\n  dynamic_client_registration: true\n  pkce: [S256]\nschemes:\n- name: OAuth2\n  type: oauth2\n  description: >-\n    The v2 API and the MCP server authenticate with OAuth 2.0. Organization is\n    inferred automatically from the access token. Dynamic Client Registration\n    (RFC 7591) is supported for AI desktop clients.\n  issuer: https://securetoken.google.com/poggio-production-experiments\n  authorization_endpoint: https://poggio.io/app/oauth/authorize\n  token_endpoint: https://api.poggio.io/v2/oauth/token\n  registration_endpoint: https://api.poggio.io/v2/oauth/register\n  grant_types: [authorization_code, client_credentials, refresh_token]\n  response_types:\
   \ [code]\n  code_challenge_methods: [S256]\n  token_endpoint_auth_methods: [client_secret_post]\n  sources: [well-known/poggio-labs-oauth-authorization-server.json]\n- name: BearerToken\n  type: http\n  scheme: bearer\n  description: >-\n    Authenticated endpoints and the MCP server accept a Bearer access token in\n    the Authorization header; intended for quick prototyping and simple scripts\n    where full OAuth is unnecessary overhead.\n  sources: [https://poggio.io/docs/mcp]\nenterprise_identity:\n  sso: SAML 2.0    # https://poggio.io/docs/admin/saml\n  provisioning: SCIM 2.0  # https://poggio.io/docs/admin/scim\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/poggio-labs/refs/heads/main/authentication/poggio-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/poggio-labs/authentication/poggio-labs-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company

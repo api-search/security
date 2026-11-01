@@ -40,7 +40,7 @@ source_filename: awardco-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.awardco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 00:58:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: code.awardco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  6 06:02:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.awardco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  6 06:02:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: awardco.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/awardco/refs/heads/main/security/awardco-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/awardco/security/awardco-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Employee Recognition

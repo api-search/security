@@ -8,25 +8,25 @@ api_specs:
   label: WalletConnect Relay (SDK-mediated)
   slug: walletconnect-protocol
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/asyncapi/reown-asyncapi.yml
+  url: https://artifacts.apis.io/reown/asyncapi/reown-asyncapi.yml
 - filename: reown-chains-api-openapi.yml
   format: yaml
   label: Reown Chains API
   slug: reown-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/openapi/reown-chains-api-openapi.yml
+  url: https://artifacts.apis.io/reown/openapi/reown-chains-api-openapi.yml
 - filename: reown-listings-api-openapi.yml
   format: yaml
   label: Reown Listings API
   slug: reown-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/openapi/reown-listings-api-openapi.yml
+  url: https://artifacts.apis.io/reown/openapi/reown-listings-api-openapi.yml
 - filename: reown-logos-api-openapi.yml
   format: yaml
   label: Reown Logos API
   slug: reown-logos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/openapi/reown-logos-api-openapi.yml
+  url: https://artifacts.apis.io/reown/openapi/reown-logos-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -58,7 +58,7 @@ source_filename: reown-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reown-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: projectIdAuth\n  type: apiKey\n  in: query\n  parameter: projectId\n  description: |-\n    Reown project ID from the Reown Dashboard at\n    https://dashboard.reown.com. Passed as a `projectId` query parameter\n    on every request.\n  sources:\n  - openapi/reown-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reown/refs/heads/main/authentication/reown-authentication.yml
+source_yaml_url: https://artifacts.apis.io/reown/authentication/reown-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Web3

@@ -8,13 +8,13 @@ api_specs:
   label: positionstack Forward Geocoding API
   slug: positionstack-forward-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/openapi/positionstack-forward-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/positionstack/openapi/positionstack-forward-geocoding-api-openapi.yml
 - filename: positionstack-reverse-geocoding-api-openapi.yml
   format: yaml
   label: positionstack Reverse Geocoding API
   slug: positionstack-reverse-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/openapi/positionstack-reverse-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/positionstack/openapi/positionstack-reverse-geocoding-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: positionstack-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/positionstack-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: AccessKeyAuth\n  type: apiKey\n  in: query\n  parameter: access_key\n  description: API access key obtained from your positionstack dashboard.\n  sources:\n  - openapi/positionstack-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/positionstack/refs/heads/main/authentication/positionstack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/positionstack/authentication/positionstack-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Geocoding

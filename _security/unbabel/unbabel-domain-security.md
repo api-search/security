@@ -5,37 +5,37 @@ api_specs:
   label: Unbabel Account API
   slug: unbabel-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-account-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-account-api-openapi.yml
 - filename: unbabel-language-pairs-api-openapi.yml
   format: yaml
   label: Unbabel Language Pairs API
   slug: unbabel-language-pairs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-language-pairs-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-language-pairs-api-openapi.yml
 - filename: unbabel-machine-translation-api-openapi.yml
   format: yaml
   label: Unbabel Machine Translation API
   slug: unbabel-machine-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-machine-translation-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-machine-translation-api-openapi.yml
 - filename: unbabel-tone-and-topic-api-openapi.yml
   format: yaml
   label: Unbabel Tone and Topic API
   slug: unbabel-tone-and-topic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-tone-and-topic-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-tone-and-topic-api-openapi.yml
 - filename: unbabel-translation-api-openapi.yml
   format: yaml
   label: Unbabel Translation API
   slug: unbabel-translation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-translation-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-translation-api-openapi.yml
 - filename: unbabel-word-count-api-openapi.yml
   format: yaml
   label: Unbabel Word Count API
   slug: unbabel-word-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/openapi/unbabel-word-count-api-openapi.yml
+  url: https://artifacts.apis.io/unbabel/openapi/unbabel-word-count-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: unbabel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: unbabel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 11:54:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.unbabel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 10:43:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.unbabel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 11:54:47 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: unbabel.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"certainly.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unbabel/refs/heads/main/security/unbabel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unbabel/security/unbabel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Translation

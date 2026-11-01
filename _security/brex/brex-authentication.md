@@ -7,19 +7,67 @@ api_specs:
   label: Brex Budget Programs API
   slug: brex-budget-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-budget-programs-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-budget-programs-api-openapi.yml
 - filename: brex-budgets-api-openapi.yml
   format: yaml
   label: Brex Budgets API
   slug: brex-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-budgets-api-openapi.yml
 - filename: brex-spend-limits-api-openapi.yml
   format: yaml
   label: Brex Spend Limits API
   slug: brex-spend-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/openapi/brex-spend-limits-api-openapi.yml
+  url: https://artifacts.apis.io/brex/openapi/brex-spend-limits-api-openapi.yml
+- filename: brex-cards-api-openapi.yml
+  format: yaml
+  label: Brex Cards API
+  slug: brex-cards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brex/openapi/brex-cards-api-openapi.yml
+- filename: brex-companies-api-openapi.yml
+  format: yaml
+  label: Brex Companies API
+  slug: brex-companies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brex/openapi/brex-companies-api-openapi.yml
+- filename: brex-cost-centers-api-openapi.yml
+  format: yaml
+  label: Brex Cost Centers API
+  slug: brex-cost-centers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brex/openapi/brex-cost-centers-api-openapi.yml
+- filename: brex-departments-api-openapi.yml
+  format: yaml
+  label: Brex Departments API
+  slug: brex-departments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brex/openapi/brex-departments-api-openapi.yml
+- filename: brex-legal-entities-api-openapi.yml
+  format: yaml
+  label: Brex Legal Entities API
+  slug: brex-legal-entities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brex/openapi/brex-legal-entities-api-openapi.yml
+- filename: brex-locations-api-openapi.yml
+  format: yaml
+  label: Brex Locations API
+  slug: brex-locations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brex/openapi/brex-locations-api-openapi.yml
+- filename: brex-titles-api-openapi.yml
+  format: yaml
+  label: Brex Titles API
+  slug: brex-titles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brex/openapi/brex-titles-api-openapi.yml
+- filename: brex-users-api-openapi.yml
+  format: yaml
+  label: Brex Users API
+  slug: brex-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brex/openapi/brex-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +94,7 @@ source_filename: brex-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/brex-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/brex-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/authentication/brex-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brex/authentication/brex-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Bill Pay

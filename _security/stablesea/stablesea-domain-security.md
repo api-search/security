@@ -5,13 +5,13 @@ api_specs:
   label: Stablesea Liquidity Providers API
   slug: stablesea-liquidity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stablesea/refs/heads/main/openapi/stablesea-liquidity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/stablesea/openapi/stablesea-liquidity-providers-api-openapi.yml
 - filename: stablesea-organizations-api-openapi.yml
   format: yaml
   label: Stablesea Organizations API
   slug: stablesea-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stablesea/refs/heads/main/openapi/stablesea-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/stablesea/openapi/stablesea-organizations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: stablesea-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.stablesea.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 19:18:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-sandbox.stablesea.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: stablesea.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stablesea/refs/heads/main/security/stablesea-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/stablesea/security/stablesea-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

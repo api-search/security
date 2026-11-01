@@ -5,37 +5,37 @@ api_specs:
   label: Openhandle Instagram API
   slug: openhandle-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-instagram-api-openapi.yml
 - filename: openhandle-reddit-api-openapi.yml
   format: yaml
   label: Openhandle Reddit API
   slug: openhandle-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-reddit-api-openapi.yml
 - filename: openhandle-test-data-api-openapi.yml
   format: yaml
   label: Openhandle Test Data API
   slug: openhandle-test-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-test-data-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-test-data-api-openapi.yml
 - filename: openhandle-tiktok-api-openapi.yml
   format: yaml
   label: Openhandle Tiktok API
   slug: openhandle-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-tiktok-api-openapi.yml
 - filename: openhandle-twitter-api-openapi.yml
   format: yaml
   label: Openhandle Twitter API
   slug: openhandle-twitter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-twitter-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-twitter-api-openapi.yml
 - filename: openhandle-utilities-api-openapi.yml
   format: yaml
   label: Openhandle Utilities API
   slug: openhandle-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-utilities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: openhandle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openhandle.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 17:41:09 2026 GMT\n  hsts: false\n- host: api.openhandle.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 13:26:52 2026 GMT\n  hsts: null\ndomains:\n- domain: openhandle.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/security/openhandle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openhandle/security/openhandle-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Social Data

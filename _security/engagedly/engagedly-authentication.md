@@ -8,49 +8,49 @@ api_specs:
   label: Engagedly Activities API
   slug: engagedly-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-activities-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-activities-api-openapi.yml
 - filename: engagedly-businesses-api-openapi.yml
   format: yaml
   label: Engagedly Businesses API
   slug: engagedly-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-businesses-api-openapi.yml
 - filename: engagedly-departments-api-openapi.yml
   format: yaml
   label: Engagedly Departments API
   slug: engagedly-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-departments-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-departments-api-openapi.yml
 - filename: engagedly-job-titles-api-openapi.yml
   format: yaml
   label: Engagedly Job Titles API
   slug: engagedly-job-titles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-job-titles-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-job-titles-api-openapi.yml
 - filename: engagedly-locations-api-openapi.yml
   format: yaml
   label: Engagedly Locations API
   slug: engagedly-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-locations-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-locations-api-openapi.yml
 - filename: engagedly-permissions-api-openapi.yml
   format: yaml
   label: Engagedly Permissions API
   slug: engagedly-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-permissions-api-openapi.yml
 - filename: engagedly-user-attributes-api-openapi.yml
   format: yaml
   label: Engagedly User Attributes API
   slug: engagedly-user-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-user-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-user-attributes-api-openapi.yml
 - filename: engagedly-users-api-openapi.yml
   format: yaml
   label: Engagedly Users API
   slug: engagedly-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/openapi/engagedly-users-api-openapi.yml
+  url: https://artifacts.apis.io/engagedly/openapi/engagedly-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -85,7 +85,7 @@ source_filename: engagedly-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/engagedly-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: clientKeyAuth\n  type: apiKey\n  in: header\n  parameter: ClientKey\n  description: Client key obtained from the Engagedly portal under Integrations > Engagedly\n    API\n  sources:\n  - openapi/engagedly-openapi.yml\n- name: secretKeyAuth\n  type: apiKey\n  in: header\n  parameter: SecretKey\n  description: Secret key obtained from the Engagedly portal. Shown only once upon generation.\n  sources:\n  - openapi/engagedly-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/engagedly/refs/heads/main/authentication/engagedly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/engagedly/authentication/engagedly-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Performance Management

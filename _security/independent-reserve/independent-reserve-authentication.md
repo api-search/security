@@ -7,13 +7,13 @@ api_specs:
   label: Independent Reserve Private API
   slug: independent-reserve-private-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/openapi/independent-reserve-private-api-openapi.yml
+  url: https://artifacts.apis.io/independent-reserve/openapi/independent-reserve-private-api-openapi.yml
 - filename: independent-reserve-public-api-openapi.yml
   format: yaml
   label: Independent Reserve Public API
   slug: independent-reserve-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/openapi/independent-reserve-public-api-openapi.yml
+  url: https://artifacts.apis.io/independent-reserve/openapi/independent-reserve-public-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -54,7 +54,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: searched\nsource: https://www.independentreserve.com/features/api#authentication-api-key\ndocs: https://www.independentreserve.com/features/api#authentication-api-key\nsummary: 'Public methods need no authentication. Private methods are POSTs carrying apiKey, a nonce OR an expiry (one, not both), and a signature: a hex HMAC-SHA256 over a comma-separated string of the method URL and every parameter as parameterName=parameterValue, keyed with the API secret.'\nschemes:\n- name: IR API key + HMAC-SHA256 signature\n  type: apiKey\n  in: body\n  parameters:\n  - apiKey\n  - nonce\n  - expiry\n  - signature\n  signature:\n    algorithm: HMAC-SHA256\n    encoding: hex\n    message: method URL, then parameterName=parameterValue pairs, comma-separated, in documented order\n  key_management:\n  - Keys are generated under Settings > API Keys with a selectable access level\n  - IP whitelisting strongly recommended; non-whitelisted IPs are rejected\n  -\
   \ Keys created without IP whitelisting are disabled after 6 months unused\n  applies_to: /Private/* and /rfq/*\n- name: none\n  type: none\n  applies_to: /Public/*\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/independent-reserve/refs/heads/main/authentication/independent-reserve-authentication.yml
+source_yaml_url: https://artifacts.apis.io/independent-reserve/authentication/independent-reserve-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

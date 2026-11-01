@@ -5,13 +5,13 @@ api_specs:
   label: Tank Utility Authentication API
   slug: tank-utility-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/openapi/tank-utility-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tank-utility/openapi/tank-utility-authentication-api-openapi.yml
 - filename: tank-utility-devices-api-openapi.yml
   format: yaml
   label: Tank Utility Devices API
   slug: tank-utility-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/openapi/tank-utility-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tank-utility/openapi/tank-utility-devices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: tank-utility-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tankutility.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 17:17:13 2026 GMT\n  hsts: false\n- host: data.tankutility.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 17:17:13 2026 GMT\n  hsts: null\ndomains:\n- domain: tankutility.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tank-utility/refs/heads/main/security/tank-utility-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tank-utility/security/tank-utility-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Propane

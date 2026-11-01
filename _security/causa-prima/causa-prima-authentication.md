@@ -7,19 +7,19 @@ api_specs:
   label: Causa Prima Invoices API
   slug: causa-prima-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/causa-prima-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/causa-prima/openapi/causa-prima-invoices-api-openapi.yml
 - filename: causa-prima-jurisdictions-api-openapi.yml
   format: yaml
   label: Causa Prima Jurisdictions API
   slug: causa-prima-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/causa-prima-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/causa-prima/openapi/causa-prima-jurisdictions-api-openapi.yml
 - filename: causa-prima-scribo-api-openapi.yml
   format: yaml
   label: Causa Prima Scribo API
   slug: causa-prima-scribo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/openapi/causa-prima-scribo-api-openapi.yml
+  url: https://artifacts.apis.io/causa-prima/openapi/causa-prima-scribo-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: causa-prima-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/causa-prima-scribo-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Optional API key for elevated quotas. Unauthenticated requests are accepted and\n    rate-limited per IP.\n  sources:\n  - openapi/causa-prima-scribo-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/causa-prima/refs/heads/main/authentication/causa-prima-authentication.yml
+source_yaml_url: https://artifacts.apis.io/causa-prima/authentication/causa-prima-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

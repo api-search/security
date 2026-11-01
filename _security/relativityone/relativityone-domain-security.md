@@ -5,37 +5,37 @@ api_specs:
   label: RelativityOne Communications API
   slug: relativityone-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-communications-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-communications-api-openapi.yml
 - filename: relativityone-custodians-api-openapi.yml
   format: yaml
   label: RelativityOne Custodians API
   slug: relativityone-custodians-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-custodians-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-custodians-api-openapi.yml
 - filename: relativityone-entities-api-openapi.yml
   format: yaml
   label: RelativityOne Entities API
   slug: relativityone-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-entities-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-entities-api-openapi.yml
 - filename: relativityone-legal-hold-projects-api-openapi.yml
   format: yaml
   label: RelativityOne Legal Hold Projects API
   slug: relativityone-legal-hold-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-legal-hold-projects-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-legal-hold-projects-api-openapi.yml
 - filename: relativityone-preservation-api-openapi.yml
   format: yaml
   label: RelativityOne Preservation API
   slug: relativityone-preservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-preservation-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-preservation-api-openapi.yml
 - filename: relativityone-tasks-api-openapi.yml
   format: yaml
   label: RelativityOne Tasks API
   slug: relativityone-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/openapi/relativityone-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/relativityone/openapi/relativityone-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -84,7 +84,7 @@ source_filename: relativityone-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.relativity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: platform.relativity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: relativity.rest\n  https: false\ndomains:\n- domain: relativity.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"stratossl.digitalcertvalidation.com\"\n  - 0 issuewild \"thawte.com\"\n  - 0 issuewild \"volusion.digitalcertvalidation.com\"\n  - 0 issuewild \"www.digicert.com\"\n  - 0 issue \"1and1.digitalcertvalidation.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: relativity.rest\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/security/relativityone-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/relativityone/security/relativityone-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - eDiscovery

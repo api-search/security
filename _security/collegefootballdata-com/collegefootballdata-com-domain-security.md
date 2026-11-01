@@ -26,7 +26,7 @@ source_filename: collegefootballdata-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: collegefootballdata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 04:46:47 2026 GMT\n  hsts: false\ndomains:\n- domain: collegefootballdata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/collegefootballdata-com/refs/heads/main/security/collegefootballdata-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/collegefootballdata-com/security/collegefootballdata-com-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Public APIs

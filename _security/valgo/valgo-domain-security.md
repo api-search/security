@@ -5,55 +5,55 @@ api_specs:
   label: Valgo Compute API
   slug: valgo-compute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-api-openapi.yml
 - filename: valgo-compute-batch-api-openapi.yml
   format: yaml
   label: Valgo Compute Batch API
   slug: valgo-compute-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-batch-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-batch-api-openapi.yml
 - filename: valgo-compute-depot-route-api-openapi.yml
   format: yaml
   label: Valgo Compute Depot Route API
   slug: valgo-compute-depot-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-depot-route-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-depot-route-api-openapi.yml
 - filename: valgo-compute-route-api-openapi.yml
   format: yaml
   label: Valgo Compute Route API
   slug: valgo-compute-route-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-compute-route-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-compute-route-api-openapi.yml
 - filename: valgo-health-api-openapi.yml
   format: yaml
   label: Valgo Health API
   slug: valgo-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-health-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-health-api-openapi.yml
 - filename: valgo-manifest-api-openapi.yml
   format: yaml
   label: Valgo Manifest API
   slug: valgo-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-manifest-api-openapi.yml
 - filename: valgo-request-api-key-api-openapi.yml
   format: yaml
   label: Valgo Request Api Key API
   slug: valgo-request-api-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-request-api-key-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-request-api-key-api-openapi.yml
 - filename: valgo-filters-api-openapi.yml
   format: yaml
   label: Valgo Filters API
   slug: valgo-filters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-filters-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-filters-api-openapi.yml
 - filename: valgo-regions-api-openapi.yml
   format: yaml
   label: Valgo Regions API
   slug: valgo-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/openapi/valgo-regions-api-openapi.yml
+  url: https://artifacts.apis.io/valgo/openapi/valgo-regions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: valgo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: valgo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 05:33:24 2026 GMT\n  hsts: false\n- host: docs.humanbaselines.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 04:03:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: humanbaselines.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 17:19:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: valgo.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: humanbaselines.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valgo/refs/heads/main/security/valgo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/valgo/security/valgo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

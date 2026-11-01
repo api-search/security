@@ -8,121 +8,121 @@ api_specs:
   label: MandateShield Account execution control API
   slug: mandateshield-com-account-execution-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-account-execution-control-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-account-execution-control-api-openapi.yml
 - filename: mandateshield-com-advisory-intelligence-api-openapi.yml
   format: yaml
   label: MandateShield Advisory intelligence API
   slug: mandateshield-com-advisory-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-advisory-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-advisory-intelligence-api-openapi.yml
 - filename: mandateshield-com-analysis-only-api-openapi.yml
   format: yaml
   label: MandateShield Analysis only API
   slug: mandateshield-com-analysis-only-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-analysis-only-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-analysis-only-api-openapi.yml
 - filename: mandateshield-com-deployment-activation-proofs-api-openapi.yml
   format: yaml
   label: MandateShield Deployment activation proofs API
   slug: mandateshield-com-deployment-activation-proofs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-deployment-activation-proofs-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-deployment-activation-proofs-api-openapi.yml
 - filename: mandateshield-com-deployment-proofs-api-openapi.yml
   format: yaml
   label: MandateShield Deployment Proofs API
   slug: mandateshield-com-deployment-proofs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-deployment-proofs-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-deployment-proofs-api-openapi.yml
 - filename: mandateshield-com-execution-authorizations-api-openapi.yml
   format: yaml
   label: MandateShield Execution Authorizations API
   slug: mandateshield-com-execution-authorizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-execution-authorizations-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-execution-authorizations-api-openapi.yml
 - filename: mandateshield-com-execution-evidence-api-openapi.yml
   format: yaml
   label: MandateShield Execution evidence API
   slug: mandateshield-com-execution-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-execution-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-execution-evidence-api-openapi.yml
 - filename: mandateshield-com-execution-permits-api-openapi.yml
   format: yaml
   label: MandateShield Execution Permits API
   slug: mandateshield-com-execution-permits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-execution-permits-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-execution-permits-api-openapi.yml
 - filename: mandateshield-com-execution-receipts-api-openapi.yml
   format: yaml
   label: MandateShield Execution Receipts API
   slug: mandateshield-com-execution-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-execution-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-execution-receipts-api-openapi.yml
 - filename: mandateshield-com-normalize-api-openapi.yml
   format: yaml
   label: MandateShield Normalize API
   slug: mandateshield-com-normalize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-normalize-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-normalize-api-openapi.yml
 - filename: mandateshield-com-preflight-api-openapi.yml
   format: yaml
   label: MandateShield Preflight API
   slug: mandateshield-com-preflight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-preflight-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-preflight-api-openapi.yml
 - filename: mandateshield-com-production-authority-api-openapi.yml
   format: yaml
   label: MandateShield Production authority API
   slug: mandateshield-com-production-authority-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-production-authority-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-production-authority-api-openapi.yml
 - filename: mandateshield-com-proof-network-api-openapi.yml
   format: yaml
   label: MandateShield Proof Network API
   slug: mandateshield-com-proof-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-proof-network-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-proof-network-api-openapi.yml
 - filename: mandateshield-com-protocol-adapters-api-openapi.yml
   format: yaml
   label: MandateShield Protocol adapters API
   slug: mandateshield-com-protocol-adapters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-protocol-adapters-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-protocol-adapters-api-openapi.yml
 - filename: mandateshield-com-provider-submissions-api-openapi.yml
   format: yaml
   label: MandateShield Provider Submissions API
   slug: mandateshield-com-provider-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-provider-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-provider-submissions-api-openapi.yml
 - filename: mandateshield-com-public-proof-network-api-openapi.yml
   format: yaml
   label: MandateShield Public proof network API
   slug: mandateshield-com-public-proof-network-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-public-proof-network-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-public-proof-network-api-openapi.yml
 - filename: mandateshield-com-public-sandbox-api-openapi.yml
   format: yaml
   label: MandateShield Public sandbox API
   slug: mandateshield-com-public-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-public-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-public-sandbox-api-openapi.yml
 - filename: mandateshield-com-receipts-api-openapi.yml
   format: yaml
   label: MandateShield Receipts API
   slug: mandateshield-com-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-receipts-api-openapi.yml
 - filename: mandateshield-com-sandbox-api-openapi.yml
   format: yaml
   label: MandateShield Sandbox API
   slug: mandateshield-com-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-sandbox-api-openapi.yml
 - filename: mandateshield-com-verify-api-openapi.yml
   format: yaml
   label: MandateShield Verify API
   slug: mandateshield-com-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/openapi/mandateshield-com-verify-api-openapi.yml
+  url: https://artifacts.apis.io/mandateshield-com/openapi/mandateshield-com-verify-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -163,7 +163,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://mandate
   - getReceiptTransparency\n- listPublicProofAttestations\n- getPublicProofAttestation\n- getPublicProofBadge\n- createPublicProofChallenge\n- issuePublicProofAttestation\n- listDeploymentActivationProofs\n- getDeploymentActivationProof\n- getDeploymentActivationProofBadge\n- getThreatIntelligence\noptional_auth_operations:\n  note: security lists both bearerAuth and {} — anonymous calls use the rate-limited non-persisted sandbox and can\n    never reserve authority\n  operations:\n  - evaluatePurchase\n  - evaluatePurchaseBatch\n  - verifyCryptographicAuthority\n  - verifyCryptographicAuthorityBatch\ncontrol_plane:\n  scheme: hostingSession\n  operations:\n  - getGlobalExecutionInterlock\n  - setGlobalExecutionInterlock\n  note: The OAI-Authenticated-User-Email header is injected by the hosting boundary after a \"Sign in with ChatGPT\"\n    session (dashboard redirects to auth.openai.com); callers cannot supply it. State changes also require a trusted\n    same-origin check.\nprovider_webhook:\n\
   \  operation: receiveStripeProviderWebhook\n  auth: Stripe-Signature header verified against the connection's signing secret; the event is treated as a hint,\n    never terminal proof\nkey_management:\n  where: https://mandateshield.com/dashboard\n  trust_anchors: Authority-issuer public JWKs are pinned per account with issuer, audience, protocol and RFC 7638\n    thumbprint; a JWK supplied in a request verifies signature math but establishes no trust. Private keys are rejected.\n    Mandates and keys can be revoked independently.\n  replay_boundary: account-wide idempotency tombstones survive API-key rotation\nagent_surfaces:\n  mcp: 'https://mandateshield.com/api/mcp — anonymous initialize/tools/list; optional Bearer VERIFY key for the\n    strict tool (server.json: Authorization isRequired false)'\n  a2a: securitySchemes.bearerAuth httpAuthSecurityScheme Bearer, ms_test_... or ms_live_...\n  oauth_discovery: /.well-known/oauth-authorization-server and /.well-known/oauth-protected-resource\
   \ both 404 (well-known/)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mandateshield-com/refs/heads/main/authentication/mandateshield-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mandateshield-com/authentication/mandateshield-com-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

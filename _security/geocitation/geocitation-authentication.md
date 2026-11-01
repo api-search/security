@@ -8,37 +8,79 @@ api_specs:
   label: GEOCitation Audits API
   slug: geocitation-audits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-audits-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-audits-api-openapi.yml
 - filename: geocitation-gdpr-api-openapi.yml
   format: yaml
   label: GEOCitation Gdpr API
   slug: geocitation-gdpr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-gdpr-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-gdpr-api-openapi.yml
 - filename: geocitation-health-api-openapi.yml
   format: yaml
   label: GEOCitation Health API
   slug: geocitation-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-health-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-health-api-openapi.yml
 - filename: geocitation-meta-api-openapi.yml
   format: yaml
   label: GEOCitation Meta API
   slug: geocitation-meta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-meta-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-meta-api-openapi.yml
 - filename: geocitation-opt-out-api-openapi.yml
   format: yaml
   label: GEOCitation Opt Out API
   slug: geocitation-opt-out-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-opt-out-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-opt-out-api-openapi.yml
 - filename: geocitation-usage-api-openapi.yml
   format: yaml
   label: GEOCitation Usage API
   slug: geocitation-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/openapi/geocitation-usage-api-openapi.yml
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-usage-api-openapi.yml
+- filename: geocitation-agent-tasks-api-openapi.yml
+  format: yaml
+  label: GEOCitation Agent Tasks API
+  slug: geocitation-agent-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-agent-tasks-api-openapi.yml
+- filename: geocitation-agents-api-openapi.yml
+  format: yaml
+  label: GEOCitation Agents API
+  slug: geocitation-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-agents-api-openapi.yml
+- filename: geocitation-campaigns-api-openapi.yml
+  format: yaml
+  label: GEOCitation Campaigns API
+  slug: geocitation-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-campaigns-api-openapi.yml
+- filename: geocitation-crawler-traffic-api-openapi.yml
+  format: yaml
+  label: GEOCitation Crawler Traffic API
+  slug: geocitation-crawler-traffic-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-crawler-traffic-api-openapi.yml
+- filename: geocitation-google-auth-api-openapi.yml
+  format: yaml
+  label: GEOCitation Google Auth API
+  slug: geocitation-google-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-google-auth-api-openapi.yml
+- filename: geocitation-report-pptx-api-openapi.yml
+  format: yaml
+  label: GEOCitation Report Pptx API
+  slug: geocitation-report-pptx-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-report-pptx-api-openapi.yml
+- filename: geocitation-user-agents-api-openapi.yml
+  format: yaml
+  label: GEOCitation User Agents API
+  slug: geocitation-user-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geocitation/openapi/geocitation-user-agents-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -72,12 +114,12 @@ source_filename: geocitation-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: searched\nsource: openapi/geocitation-openapi.json\ndocs: https://www.geocitation.io/en/documentation\nsummary:\n  types:\n  - http\n  - apiKey\n  api_key_in:\n  - header\n  notes: >-\n    The OpenAPI declares only HTTPBearer (http/bearer), but the live API and the\n    published docs accept an API key in the X-API-Key header (keys are prefixed\n    \"geo_citation_\"). An unauthenticated request to https://api.geocitation.io/v1/usage\n    returns 401 with `WWW-Authenticate: Bearer, ApiKey`, confirming both schemes.\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/geocitation-openapi.json\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter_name: X-API-Key\n  key_prefix: geo_citation_\n  source: https://www.geocitation.io/en/documentation\n  evidence: 'live 401 WWW-Authenticate: Bearer, ApiKey; docs example -H \"X-API-Key: geo_citation_YOUR_KEY\"'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geocitation/refs/heads/main/authentication/geocitation-authentication.yml
+source_yaml_url: https://artifacts.apis.io/geocitation/authentication/geocitation-authentication.yml
 summary_line: http/apiKey · 2 schemes
 tags:
 - SEO
 - Geo
-- AEO
+- Answer Engine Optimization
 - AI Search Visibility
 - Content Intelligence
 - Competitive Intelligence

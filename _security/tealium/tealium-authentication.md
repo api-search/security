@@ -7,31 +7,31 @@ api_specs:
   label: Tealium Auth API
   slug: tealium-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-auth-api-openapi.yml
+  url: https://artifacts.apis.io/tealium/openapi/tealium-auth-api-openapi.yml
 - filename: tealium-collect-api-openapi.yml
   format: yaml
   label: Tealium Collect API
   slug: tealium-collect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-collect-api-openapi.yml
+  url: https://artifacts.apis.io/tealium/openapi/tealium-collect-api-openapi.yml
 - filename: tealium-customer-api-openapi.yml
   format: yaml
   label: Tealium Customer API
   slug: tealium-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-customer-api-openapi.yml
+  url: https://artifacts.apis.io/tealium/openapi/tealium-customer-api-openapi.yml
 - filename: tealium-personalization-api-openapi.yml
   format: yaml
   label: Tealium Personalization API
   slug: tealium-personalization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-personalization-api-openapi.yml
+  url: https://artifacts.apis.io/tealium/openapi/tealium-personalization-api-openapi.yml
 - filename: tealium-privacy-api-openapi.yml
   format: yaml
   label: Tealium Privacy API
   slug: tealium-privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/openapi/tealium-privacy-api-openapi.yml
+  url: https://artifacts.apis.io/tealium/openapi/tealium-privacy-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -143,7 +143,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ engine defines exactly which audiences, badges and attributes are returned, capped at\n      1 kB per visitor per engine, maximum 10 engines per profile.\n\n  - name: TealiumMcpApiKey\n    type: apiKey\n    in: header\n    header_name: X-Tealium-Api-Key\n    applies_to:\n      - Moments API managed MCP server\n    description: >-\n      A dedicated static API key issued by Tealium Support specifically for managed MCP server\n      access. It is not the standard Tealium iQ API key and not a V3 JWT. Origin and Referer\n      headers are also required.\n    endpoint: https://us-west-2.prod.developer.tealiumapis.com/v1/personalization/mcp\n    provisioning: request from Tealium Support\n    probed:\n      method: 'POST tools/list without the header'\n      http_status: 401\n      body: '{\"message\":\"Unauthorized\",\"http_status_code\":401}'\n      date: '2026-08-13'\n    oauth_metadata: >-\n      No /.well-known/oauth-protected-resource (RFC 9728) and no\n      /.well-known/oauth-authorization-server\
   \ (RFC 8414) on the MCP host — both 404. This server\n      does not implement the MCP OAuth authorization flow.\n\napi_keys:\n  management: https://docs.tealium.com/administration/security-access/api-keys/\n  scoping: 'Per user, per account/profile, governed by Tealium permission groups and admin roles.'\n  test_keys: false\n  test_keys_note: There is no test-vs-live key distinction. See sandbox/tealium-sandbox.yml.\n  rotation: >-\n    No documented automatic rotation or expiry for the underlying API key. Only the derived tokens\n    expire (30 minutes for V3, 90 days for long-lived).\n\naccount_security:\n  sso:\n    protocol: SAML 2.0\n    idps: [ADFS (Active Directory), Azure, Okta]\n    certificate_status_monitoring: true\n    docs: https://docs.tealium.com/administration/security-access/single-sign-on/sso/\n  mfa:\n    supported: true\n    docs: https://docs.tealium.com/administration/security-access/multi-factor-authentication-mfa/\n  password_policy: https://docs.tealium.com/administration/security-access/password-policy/\n\
   \  session_timeout: https://docs.tealium.com/administration/security-access/session-timeout/\n  ip_allowlist: https://docs.tealium.com/administration/security-access/ip-allow-list/\n  scim_provisioning: https://docs.tealium.com/api/v3/scim-api/about/\n\ngaps:\n  - No OAuth 2.0 authorization flow and no OpenID Connect discovery.\n  - No token scopes — a V3 JWT carries the full permissions of the user who minted it.\n  - No documented API-key rotation policy or key expiry.\n  - No test-mode credentials.\n  - The MCP server's static header key cannot be scoped, rotated per client, or short-lived.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tealium/refs/heads/main/authentication/tealium-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tealium/authentication/tealium-authentication.yml
 summary_line: http/apiKey/none · 4 schemes
 tags:
 - Customer Data Platform

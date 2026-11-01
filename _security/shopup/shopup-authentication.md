@@ -8,19 +8,19 @@ api_specs:
   label: ShopUp Areas API
   slug: shopup-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/openapi/shopup-areas-api-openapi.yml
+  url: https://artifacts.apis.io/shopup/openapi/shopup-areas-api-openapi.yml
 - filename: shopup-parcels-api-openapi.yml
   format: yaml
   label: ShopUp Parcels API
   slug: shopup-parcels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/openapi/shopup-parcels-api-openapi.yml
+  url: https://artifacts.apis.io/shopup/openapi/shopup-parcels-api-openapi.yml
 - filename: shopup-pickup-stores-api-openapi.yml
   format: yaml
   label: ShopUp Pickup Stores API
   slug: shopup-pickup-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/openapi/shopup-pickup-stores-api-openapi.yml
+  url: https://artifacts.apis.io/shopup/openapi/shopup-pickup-stores-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: shopup-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/shopup-redx-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiAccessToken\n  type: apiKey\n  in: header\n  parameter: API-ACCESS-TOKEN\n  description: 'Merchant access token, sent as: API-ACCESS-TOKEN: Bearer {jwt_token}'\n  sources:\n  - openapi/shopup-redx-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopup/refs/heads/main/authentication/shopup-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shopup/authentication/shopup-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

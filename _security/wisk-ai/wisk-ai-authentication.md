@@ -8,7 +8,7 @@ api_specs:
   label: WISK Sales API
   slug: wisk-ai-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/openapi/wisk-ai-sales-api-openapi.yml
+  url: https://artifacts.apis.io/wisk-ai/openapi/wisk-ai-sales-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: wisk-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wisk-sales-upload-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: venueIdHeader\n  type: apiKey\n  in: header\n  parameter: X-Wisk-Venue-Id\n  description: Venue unique identifier provisioned by WISK for the partner. The public guide\n    instructs partners to \"ask WISK to give the venue unique identifier\" and supply it in the\n    request header. The exact header name is assigned by WISK per integration; X-Wisk-Venue-Id\n    is used here as a representative placeholder.\n  sources:\n  - openapi/wisk-sales-upload-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wisk-ai/refs/heads/main/authentication/wisk-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wisk-ai/authentication/wisk-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Inventory

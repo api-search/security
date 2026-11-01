@@ -5,43 +5,43 @@ api_specs:
   label: Alice api keys API
   slug: alice-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-api-keys-api-openapi.yml
 - filename: alice-collection-api-openapi.yml
   format: yaml
   label: Alice Collection API
   slug: alice-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-collection-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-collection-api-openapi.yml
 - filename: alice-content-api-openapi.yml
   format: yaml
   label: Alice Content API
   slug: alice-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-content-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-content-api-openapi.yml
 - filename: alice-flags-api-openapi.yml
   format: yaml
   label: Alice Flags API
   slug: alice-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-flags-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-flags-api-openapi.yml
 - filename: alice-users-api-openapi.yml
   format: yaml
   label: Alice Users API
   slug: alice-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-users-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-users-api-openapi.yml
 - filename: alice-wonderbuild-api-openapi.yml
   format: yaml
   label: Alice WonderBuild API
   slug: alice-wonderbuild-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-wonderbuild-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-wonderbuild-api-openapi.yml
 - filename: alice-wonderfence-api-openapi.yml
   format: yaml
   label: Alice WonderFence API
   slug: alice-wonderfence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/openapi/alice-wonderfence-api-openapi.yml
+  url: https://artifacts.apis.io/alice/openapi/alice-wonderfence-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: alice-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: alice.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 08:46:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.alice.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 12:42:14 2026 GMT\n  hsts: null\ndomains:\n- domain: alice.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/security/alice-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alice/security/alice-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

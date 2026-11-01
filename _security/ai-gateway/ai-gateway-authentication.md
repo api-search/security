@@ -8,139 +8,139 @@ api_specs:
   label: AI Gateway Analytics API
   slug: ai-gateway-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-analytics-api-openapi.yml
 - filename: ai-gateway-assistants-api-openapi.yml
   format: yaml
   label: AI Gateway Assistants API
   slug: ai-gateway-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-assistants-api-openapi.yml
 - filename: ai-gateway-audio-api-openapi.yml
   format: yaml
   label: AI Gateway Audio API
   slug: ai-gateway-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-audio-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-audio-api-openapi.yml
 - filename: ai-gateway-batches-api-openapi.yml
   format: yaml
   label: AI Gateway Batches API
   slug: ai-gateway-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-batches-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-batches-api-openapi.yml
 - filename: ai-gateway-completions-api-openapi.yml
   format: yaml
   label: AI Gateway Completions API
   slug: ai-gateway-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-completions-api-openapi.yml
 - filename: ai-gateway-configs-api-openapi.yml
   format: yaml
   label: AI Gateway Configs API
   slug: ai-gateway-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-configs-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-configs-api-openapi.yml
 - filename: ai-gateway-embeddings-api-openapi.yml
   format: yaml
   label: AI Gateway Embeddings API
   slug: ai-gateway-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-embeddings-api-openapi.yml
 - filename: ai-gateway-feedback-api-openapi.yml
   format: yaml
   label: AI Gateway Feedback API
   slug: ai-gateway-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-feedback-api-openapi.yml
 - filename: ai-gateway-files-api-openapi.yml
   format: yaml
   label: AI Gateway Files API
   slug: ai-gateway-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-files-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-files-api-openapi.yml
 - filename: ai-gateway-guardrails-api-openapi.yml
   format: yaml
   label: AI Gateway Guardrails API
   slug: ai-gateway-guardrails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-guardrails-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-guardrails-api-openapi.yml
 - filename: ai-gateway-images-api-openapi.yml
   format: yaml
   label: AI Gateway Images API
   slug: ai-gateway-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-images-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-images-api-openapi.yml
 - filename: ai-gateway-integrations-api-openapi.yml
   format: yaml
   label: AI Gateway Integrations API
   slug: ai-gateway-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-integrations-api-openapi.yml
 - filename: ai-gateway-logs-api-openapi.yml
   format: yaml
   label: AI Gateway Logs API
   slug: ai-gateway-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-logs-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-logs-api-openapi.yml
 - filename: ai-gateway-mcp-api-openapi.yml
   format: yaml
   label: AI Gateway MCP API
   slug: ai-gateway-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-mcp-api-openapi.yml
 - filename: ai-gateway-policies-api-openapi.yml
   format: yaml
   label: AI Gateway Policies API
   slug: ai-gateway-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-policies-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-policies-api-openapi.yml
 - filename: ai-gateway-prompts-api-openapi.yml
   format: yaml
   label: AI Gateway Prompts API
   slug: ai-gateway-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-prompts-api-openapi.yml
 - filename: ai-gateway-responses-api-openapi.yml
   format: yaml
   label: AI Gateway Responses API
   slug: ai-gateway-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-responses-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-responses-api-openapi.yml
 - filename: ai-gateway-threads-api-openapi.yml
   format: yaml
   label: AI Gateway Threads API
   slug: ai-gateway-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-threads-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-threads-api-openapi.yml
 - filename: ai-gateway-workspaces-api-openapi.yml
   format: yaml
   label: AI Gateway Workspaces API
   slug: ai-gateway-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-workspaces-api-openapi.yml
 - filename: ai-gateway-api-keys-api-openapi.yml
   format: yaml
   label: AI Gateway API Keys API
   slug: ai-gateway-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-api-keys-api-openapi.yml
 - filename: ai-gateway-chat-completions-api-openapi.yml
   format: yaml
   label: AI Gateway Chat Completions API
   slug: ai-gateway-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-chat-completions-api-openapi.yml
 - filename: ai-gateway-fine-tuning-api-openapi.yml
   format: yaml
   label: AI Gateway Fine Tuning API
   slug: ai-gateway-fine-tuning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-fine-tuning-api-openapi.yml
 - filename: ai-gateway-virtual-keys-api-openapi.yml
   format: yaml
   label: AI Gateway Virtual Keys API
   slug: ai-gateway-virtual-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/openapi/ai-gateway-virtual-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ai-gateway/openapi/ai-gateway-virtual-keys-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -175,7 +175,7 @@ source_filename: ai-gateway-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ai-gateway-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: PortkeyApiKey\n  type: apiKey\n  in: header\n  parameter: x-portkey-api-key\n  description: Portkey API key header.\n  sources:\n  - openapi/ai-gateway-openapi.yml\n- name: PortkeyProvider\n  type: apiKey\n  in: header\n  parameter: x-portkey-provider\n  description: Upstream provider selector header.\n  sources:\n  - openapi/ai-gateway-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ai-gateway/refs/heads/main/authentication/ai-gateway-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ai-gateway/authentication/ai-gateway-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - AI Gateway

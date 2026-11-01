@@ -5,43 +5,43 @@ api_specs:
   label: ShipMonk Webhooks
   slug: shipmonk-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/asyncapi/shipmonk-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/shipmonk/asyncapi/shipmonk-webhooks-asyncapi.yml
 - filename: shipmonk-orders-api-openapi.yml
   format: yaml
   label: ShipMonk Orders API
   slug: shipmonk-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-orders-api-openapi.yml
 - filename: shipmonk-products-api-openapi.yml
   format: yaml
   label: ShipMonk Products API
   slug: shipmonk-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-products-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-products-api-openapi.yml
 - filename: shipmonk-receivings-api-openapi.yml
   format: yaml
   label: ShipMonk Receivings API
   slug: shipmonk-receivings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-receivings-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-receivings-api-openapi.yml
 - filename: shipmonk-returns-api-openapi.yml
   format: yaml
   label: ShipMonk Returns API
   slug: shipmonk-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-returns-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-returns-api-openapi.yml
 - filename: shipmonk-warehouses-api-openapi.yml
   format: yaml
   label: ShipMonk Warehouses API
   slug: shipmonk-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-warehouses-api-openapi.yml
 - filename: shipmonk-webhooks-api-openapi.yml
   format: yaml
   label: ShipMonk Webhooks API
   slug: shipmonk-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/openapi/shipmonk-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/shipmonk/openapi/shipmonk-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: shipmonk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgeglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 20:15:48 2026 GMT\n  hsts: null\n- host: api.shipmonk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 22:12:32 2026 GMT\n  hsts: null\n- host: sandbox.shipmonk.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 02:58:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: forgeglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: shipmonk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shipmonk/refs/heads/main/security/shipmonk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shipmonk/security/shipmonk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Logistics

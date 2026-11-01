@@ -5,55 +5,55 @@ api_specs:
   label: Gitea Admin API
   slug: gitea-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-admin-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-admin-api-openapi.yml
 - filename: gitea-issue-api-openapi.yml
   format: yaml
   label: Gitea Issue API
   slug: gitea-issue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-issue-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-issue-api-openapi.yml
 - filename: gitea-miscellaneous-api-openapi.yml
   format: yaml
   label: Gitea Miscellaneous API
   slug: gitea-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-miscellaneous-api-openapi.yml
 - filename: gitea-notification-api-openapi.yml
   format: yaml
   label: Gitea Notification API
   slug: gitea-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-notification-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-notification-api-openapi.yml
 - filename: gitea-organization-api-openapi.yml
   format: yaml
   label: Gitea Organization API
   slug: gitea-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-organization-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-organization-api-openapi.yml
 - filename: gitea-package-api-openapi.yml
   format: yaml
   label: Gitea Package API
   slug: gitea-package-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-package-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-package-api-openapi.yml
 - filename: gitea-repository-api-openapi.yml
   format: yaml
   label: Gitea Repository API
   slug: gitea-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-repository-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-repository-api-openapi.yml
 - filename: gitea-settings-api-openapi.yml
   format: yaml
   label: Gitea Settings API
   slug: gitea-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-settings-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-settings-api-openapi.yml
 - filename: gitea-user-api-openapi.yml
   format: yaml
   label: Gitea User API
   slug: gitea-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/openapi/gitea-user-api-openapi.yml
+  url: https://artifacts.apis.io/gitea/openapi/gitea-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,11 +92,10 @@ source_filename: gitea-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: about.gitea.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:44:39 2026 GMT\n  hsts: false\n- host: docs.gitea.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: false\n- host: gitea.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: gitea.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gitea/refs/heads/main/security/gitea-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gitea/security/gitea-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Gitea
-- Git
 - Version Control
 - DevOps
 - CI/CD

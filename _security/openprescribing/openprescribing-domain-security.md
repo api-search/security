@@ -5,25 +5,25 @@ api_specs:
   label: OpenPrescribing Measures API
   slug: openprescribing-measures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-measures-api-openapi.yml
+  url: https://artifacts.apis.io/openprescribing/openapi/openprescribing-measures-api-openapi.yml
 - filename: openprescribing-reference-api-openapi.yml
   format: yaml
   label: OpenPrescribing Reference API
   slug: openprescribing-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-reference-api-openapi.yml
+  url: https://artifacts.apis.io/openprescribing/openapi/openprescribing-reference-api-openapi.yml
 - filename: openprescribing-spending-api-openapi.yml
   format: yaml
   label: OpenPrescribing Spending API
   slug: openprescribing-spending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-spending-api-openapi.yml
+  url: https://artifacts.apis.io/openprescribing/openapi/openprescribing-spending-api-openapi.yml
 - filename: openprescribing-tariff-api-openapi.yml
   format: yaml
   label: OpenPrescribing Tariff API
   slug: openprescribing-tariff-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/openapi/openprescribing-tariff-api-openapi.yml
+  url: https://artifacts.apis.io/openprescribing/openapi/openprescribing-tariff-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: openprescribing-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openprescribing.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 12:18:45 2026 GMT\n  hsts: false\ndomains:\n- domain: openprescribing.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openprescribing/refs/heads/main/security/openprescribing-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openprescribing/security/openprescribing-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Healthcare

@@ -17,67 +17,67 @@ api_specs:
   label: FreshBooks Auth API
   slug: freshbooks-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-auth-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-auth-api-openapi.yml
 - filename: freshbooks-clients-api-openapi.yml
   format: yaml
   label: FreshBooks Clients API
   slug: freshbooks-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-clients-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-clients-api-openapi.yml
 - filename: freshbooks-estimates-api-openapi.yml
   format: yaml
   label: FreshBooks Estimates API
   slug: freshbooks-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-estimates-api-openapi.yml
 - filename: freshbooks-expenses-api-openapi.yml
   format: yaml
   label: FreshBooks Expenses API
   slug: freshbooks-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-expenses-api-openapi.yml
 - filename: freshbooks-invoices-api-openapi.yml
   format: yaml
   label: FreshBooks Invoices API
   slug: freshbooks-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-invoices-api-openapi.yml
 - filename: freshbooks-items-api-openapi.yml
   format: yaml
   label: FreshBooks Items API
   slug: freshbooks-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-items-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-items-api-openapi.yml
 - filename: freshbooks-payments-api-openapi.yml
   format: yaml
   label: FreshBooks Payments API
   slug: freshbooks-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-payments-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-payments-api-openapi.yml
 - filename: freshbooks-projects-api-openapi.yml
   format: yaml
   label: FreshBooks Projects API
   slug: freshbooks-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-projects-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-projects-api-openapi.yml
 - filename: freshbooks-tasks-api-openapi.yml
   format: yaml
   label: FreshBooks Tasks API
   slug: freshbooks-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-tasks-api-openapi.yml
 - filename: freshbooks-taxes-api-openapi.yml
   format: yaml
   label: FreshBooks Taxes API
   slug: freshbooks-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-taxes-api-openapi.yml
 - filename: freshbooks-time-entries-api-openapi.yml
   format: yaml
   label: FreshBooks Time Entries API
   slug: freshbooks-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-time-entries-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -116,7 +116,7 @@ source_filename: freshbooks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.freshbooks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 02:55:52 2026 GMT\n  hsts: false\n- host: api.freshbooks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 01:44:32 2026 GMT\n  hsts: null\ndomains:\n- domain: freshbooks.com\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/security/freshbooks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/freshbooks/security/freshbooks-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Accounting

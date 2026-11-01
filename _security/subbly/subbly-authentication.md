@@ -8,25 +8,25 @@ api_specs:
   label: Subbly Cart API
   slug: subbly-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-cart-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-cart-api-openapi.yml
 - filename: subbly-customers-api-openapi.yml
   format: yaml
   label: Subbly Customers API
   slug: subbly-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-customers-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-customers-api-openapi.yml
 - filename: subbly-products-api-openapi.yml
   format: yaml
   label: Subbly Products API
   slug: subbly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-products-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-products-api-openapi.yml
 - filename: subbly-subscriptions-api-openapi.yml
   format: yaml
   label: Subbly Subscriptions API
   slug: subbly-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/openapi/subbly-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/subbly/openapi/subbly-subscriptions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: subbly-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/subbly-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Subbly-Api-Key\n  description: Modeled. Subbly's storefront SDK is configured with an apiKey issued in the Subbly\n    admin (Shop Settings). The exact header/parameter name is not published by Subbly.\n  sources:\n  - openapi/subbly-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subbly/refs/heads/main/authentication/subbly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/subbly/authentication/subbly-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Subscription

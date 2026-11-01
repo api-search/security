@@ -5,25 +5,25 @@ api_specs:
   label: Apinizer Endpoints API
   slug: apinizer-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/apinizer/openapi/apinizer-endpoints-api-openapi.yml
 - filename: apinizer-gateways-api-openapi.yml
   format: yaml
   label: Apinizer Gateways API
   slug: apinizer-gateways-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-gateways-api-openapi.yml
+  url: https://artifacts.apis.io/apinizer/openapi/apinizer-gateways-api-openapi.yml
 - filename: apinizer-monitoring-api-openapi.yml
   format: yaml
   label: Apinizer Monitoring API
   slug: apinizer-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/apinizer/openapi/apinizer-monitoring-api-openapi.yml
 - filename: apinizer-policies-api-openapi.yml
   format: yaml
   label: Apinizer Policies API
   slug: apinizer-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/openapi/apinizer-policies-api-openapi.yml
+  url: https://artifacts.apis.io/apinizer/openapi/apinizer-policies-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: apinizer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apinizer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug  4 10:59:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.apinizer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 06:29:07 2026 GMT\n  hsts: null\ndomains:\n- domain: apinizer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apinizer/refs/heads/main/security/apinizer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apinizer/security/apinizer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Gateway

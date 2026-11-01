@@ -5,37 +5,37 @@ api_specs:
   label: S2 Dev Access Tokens API
   slug: s2-dev-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-access-tokens-api-openapi.yml
 - filename: s2-dev-basins-api-openapi.yml
   format: yaml
   label: S2 Dev Basins API
   slug: s2-dev-basins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-basins-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-basins-api-openapi.yml
 - filename: s2-dev-locations-api-openapi.yml
   format: yaml
   label: S2 Dev Locations API
   slug: s2-dev-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-locations-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-locations-api-openapi.yml
 - filename: s2-dev-metrics-api-openapi.yml
   format: yaml
   label: S2 Dev Metrics API
   slug: s2-dev-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-metrics-api-openapi.yml
 - filename: s2-dev-records-api-openapi.yml
   format: yaml
   label: S2 Dev Records API
   slug: s2-dev-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-records-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-records-api-openapi.yml
 - filename: s2-dev-streams-api-openapi.yml
   format: yaml
   label: S2 Dev Streams API
   slug: s2-dev-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/openapi/s2-dev-streams-api-openapi.yml
+  url: https://artifacts.apis.io/s2-dev/openapi/s2-dev-streams-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -54,7 +54,7 @@ source_filename: s2-dev-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: false\nsource: https://s2.dev/docs/platform/security\ncontact: mailto:trust@s2.dev\ncertifications:\n  - SOC 2\n  - HIPAA\n  - GDPR\ncompliance_notes: |\n  S2 provides SOC 2 reports on request, and data processing agreements for\n  HIPAA and GDPR. Request documents via trust@s2.dev. Encryption: TLS in transit\n  (including internal service-to-service), cloud provider encryption at rest,\n  plus optional client-supplied cipher keys per basin and client-side\n  end-to-end encryption. ISO 27001 and PCI DSS are not advertised.\nevidence:\n  - source: https://s2.dev/docs/platform/security\n    keywords: [soc 2, hipaa, gdpr, trust@s2.dev, responsible disclosure]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/s2-dev/refs/heads/main/security/s2-dev-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/s2-dev/security/s2-dev-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company

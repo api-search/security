@@ -5,13 +5,13 @@ api_specs:
   label: Uber Eats Customers API
   slug: uber-eats-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/openapi/uber-eats-customers-api-openapi.yml
+  url: https://artifacts.apis.io/uber-eats/openapi/uber-eats-customers-api-openapi.yml
 - filename: uber-eats-eats-api-openapi.yml
   format: yaml
   label: Uber Eats API
   slug: uber-eats-eats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/openapi/uber-eats-eats-api-openapi.yml
+  url: https://artifacts.apis.io/uber-eats/openapi/uber-eats-eats-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: uber-eats-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\n- host: developer.uber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\n- host: api.uber.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: uber.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uber-eats/refs/heads/main/security/uber-eats-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uber-eats/security/uber-eats-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Uber Eats

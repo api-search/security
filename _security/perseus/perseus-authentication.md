@@ -27,7 +27,7 @@ source_filename: perseus-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://perseus.computer/docs\ndocs: https://perseus.computer/docs\nsummary:\n  types: [token]\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    Authentication is handled through the Perseus CLI, not a public HTTP API. `perseus login`\n    performs an interactive browser-based sign-in; `perseus login --device` runs a device\n    authorization flow for headless/remote environments. The resulting token is stored by the CLI\n    and used for subsequent commands. No API-key header or documented OAuth2 authorization-server\n    endpoints are published as of this pass (no OpenAPI, no /.well-known/openid-configuration or\n    /oauth-authorization-server — both returned 404).\nschemes:\n- name: cli-token\n  type: token\n  via: perseus login\n  device_flow: true\n  sources: [https://perseus.computer/docs]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/perseus/refs/heads/main/authentication/perseus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/perseus/authentication/perseus-authentication.yml
 summary_line: token · 1 scheme
 tags:
 - Company

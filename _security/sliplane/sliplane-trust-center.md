@@ -16,7 +16,7 @@ source_filename: sliplane-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://sliplane.io/compliance\nurl: https://sliplane.io/compliance\ncertifications:\n- ISO 27001\n- GDPR\nevidence:\n- source: https://sliplane.io/compliance\n  keywords:\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sliplane/refs/heads/main/security/sliplane-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/sliplane/security/sliplane-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
 - Container Hosting

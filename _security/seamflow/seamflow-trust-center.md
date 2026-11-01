@@ -14,7 +14,7 @@ source_filename: seamflow-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://trust.seamflow.com/\nprobe: true\nurl: https://trust.seamflow.com/\nplatform: Vanta\ncertifications: []\nnotes: >-\n  Seamflow operates a dedicated Trust Center at trust.seamflow.com, hosted on the\n  Vanta trust-management platform (confirmed via the served signature-manifest and\n  Vanta backend markers). The named certification/framework list is rendered\n  client-side (JavaScript SPA) and could not be enumerated verbatim from a static\n  fetch, so certifications are left empty rather than guessed. The Trust Center\n  itself is verified present and dedicated to this company.\nevidence:\n  - source: https://trust.seamflow.com/\n    kind: trust-center\n    detail: dedicated trust subdomain served by Vanta (assets.vanta.com signature manifest)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seamflow/refs/heads/main/security/seamflow-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/seamflow/security/seamflow-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

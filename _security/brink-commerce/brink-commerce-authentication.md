@@ -7,31 +7,31 @@ api_specs:
   label: Brink Commerce Custom API
   slug: brink-commerce-custom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/brink-commerce-custom-api-openapi.yml
+  url: https://artifacts.apis.io/brink-commerce/openapi/brink-commerce-custom-api-openapi.yml
 - filename: brink-commerce-deliveries-api-openapi.yml
   format: yaml
   label: Brink Commerce Deliveries API
   slug: brink-commerce-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/brink-commerce-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/brink-commerce/openapi/brink-commerce-deliveries-api-openapi.yml
 - filename: brink-commerce-orders-api-openapi.yml
   format: yaml
   label: Brink Commerce Orders API
   slug: brink-commerce-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/brink-commerce-orders-api-openapi.yml
+  url: https://artifacts.apis.io/brink-commerce/openapi/brink-commerce-orders-api-openapi.yml
 - filename: brink-commerce-products-api-openapi.yml
   format: yaml
   label: Brink Commerce Products API
   slug: brink-commerce-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/brink-commerce-products-api-openapi.yml
+  url: https://artifacts.apis.io/brink-commerce/openapi/brink-commerce-products-api-openapi.yml
 - filename: brink-commerce-technical-api-openapi.yml
   format: yaml
   label: Brink Commerce Technical API
   slug: brink-commerce-technical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/openapi/brink-commerce-technical-api-openapi.yml
+  url: https://artifacts.apis.io/brink-commerce/openapi/brink-commerce-technical-api-openapi.yml
 auth_types: []
 description: Authentication methods for Brink Commerce APIs
 kind: authentication
@@ -74,7 +74,7 @@ source_heading: Authentication Profile
 source_url: https://docs.brinkcommerce.com/getting-started/essentials/authentication.md
 source_yaml: "generated: '2026-10-15'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.brinkcommerce.com/getting-started/essentials/authentication.md\nsources:\n- https://docs.brinkcommerce.com/getting-started/essentials/authentication.md\n- https://docs.brinkcommerce.com/getting-started/essentials.md\n- https://docs.brinkcommerce.com/getting-started/essentials/api-architecture.md\n- https://docs.brinkcommerce.com/getting-started/guides.md\ndescription: Authentication methods for Brink Commerce APIs\nschemes:\n- type: oauth2\n  name: OAuth2\n  evidence: '* `Authorization: Bearer {access_token}`\n\n    * `x-api-key: {api_key}`'\n  location: header\n  header: Authorization\n  flows:\n  - client_credentials\n  token_url: /oauth2/token\n  scopes:\n  - product-management/addon:read\n  - product-management/product:write\n  - product-management/addon:write\n  - product-management/product:read\n  how_to_obtain: Obtain `client_id`, `client_secret`, and `x-api-key`\
   \ from the Merchant Portal\n- type: apiKey\n  name: x-api-key\n  evidence: '* `x-api-key: {api_key}`'\n  location: header\n  header: x-api-key\n  how_to_obtain: Obtain `x-api-key` from the Merchant Portal\ndocs: https://docs.brinkcommerce.com/getting-started/essentials/authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brink-commerce/refs/heads/main/authentication/brink-commerce-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brink-commerce/authentication/brink-commerce-authentication.yml
 summary_line: 2 schemes
 tags:
 - E-Commerce

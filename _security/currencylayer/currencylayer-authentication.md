@@ -9,31 +9,31 @@ api_specs:
   label: Currencylayer Change API
   slug: currencylayer-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-change-api-openapi.yml
+  url: https://artifacts.apis.io/currencylayer/openapi/currencylayer-change-api-openapi.yml
 - filename: currencylayer-conversion-api-openapi.yml
   format: yaml
   label: Currencylayer Conversion API
   slug: currencylayer-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/currencylayer/openapi/currencylayer-conversion-api-openapi.yml
 - filename: currencylayer-rates-api-openapi.yml
   format: yaml
   label: Currencylayer Rates API
   slug: currencylayer-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-rates-api-openapi.yml
+  url: https://artifacts.apis.io/currencylayer/openapi/currencylayer-rates-api-openapi.yml
 - filename: currencylayer-symbols-api-openapi.yml
   format: yaml
   label: Currencylayer Symbols API
   slug: currencylayer-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/currencylayer/openapi/currencylayer-symbols-api-openapi.yml
 - filename: currencylayer-time-frame-api-openapi.yml
   format: yaml
   label: Currencylayer Time Frame API
   slug: currencylayer-time-frame-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/openapi/currencylayer-time-frame-api-openapi.yml
+  url: https://artifacts.apis.io/currencylayer/openapi/currencylayer-time-frame-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -68,7 +68,7 @@ source_filename: currencylayer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/currencylayer-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: APILayer marketplace API key (https://apilayer.com/marketplace/currency_data-api).\n  sources:\n  - openapi/currencylayer-openapi.yml\n- name: AccessKeyQuery\n  type: apiKey\n  in: query\n  parameter: access_key\n  description: Legacy Currencylayer access key (https://currencylayer.com/dashboard).\n  sources:\n  - openapi/currencylayer-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/authentication/currencylayer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/currencylayer/authentication/currencylayer-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Foreign Exchange

@@ -7,55 +7,55 @@ api_specs:
   label: Green Screens AI Prediction API
   slug: green-screens-ai-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-prediction-api-openapi.yml
 - filename: green-screens-ai-auth-api-openapi.yml
   format: yaml
   label: Green Screens AI Auth API
   slug: green-screens-ai-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-auth-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-auth-api-openapi.yml
 - filename: green-screens-ai-analytics-api-openapi.yml
   format: yaml
   label: Green Screens AI Analytics API
   slug: green-screens-ai-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-analytics-api-openapi.yml
 - filename: green-screens-ai-bids-api-openapi.yml
   format: yaml
   label: Green Screens AI Bids API
   slug: green-screens-ai-bids-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-bids-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-bids-api-openapi.yml
 - filename: green-screens-ai-history-api-openapi.yml
   format: yaml
   label: Green Screens AI History API
   slug: green-screens-ai-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-history-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-history-api-openapi.yml
 - filename: green-screens-ai-pricing-api-openapi.yml
   format: yaml
   label: Green Screens AI Pricing API
   slug: green-screens-ai-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-pricing-api-openapi.yml
 - filename: green-screens-ai-quotes-api-openapi.yml
   format: yaml
   label: Green Screens AI Quotes API
   slug: green-screens-ai-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-quotes-api-openapi.yml
 - filename: green-screens-ai-tms-api-openapi.yml
   format: yaml
   label: Green Screens AI TMS API
   slug: green-screens-ai-tms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-tms-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-tms-api-openapi.yml
 - filename: green-screens-ai-market-intelligence-api-openapi.yml
   format: yaml
   label: Green Screens AI Market Intelligence API
   slug: green-screens-ai-market-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/openapi/green-screens-ai-market-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/green-screens-ai/openapi/green-screens-ai-market-intelligence-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -131,7 +131,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: searched\nsource: >-\n  securityS
   \ Entitlement is enforced by Keycloak ROLES granted per account\n    (the provider's release notes gate RFP Manager on \"a Keycloak role\"), not by caller-requested\n    scopes — so there is no scopes artifact to write. 403 access_forbidden is the runtime signal that\n    an account lacks a feature.\n  probed:\n    url: https://api.greenscreens.ai/v1/auth/token\n    method: POST\n    status: 400\n    body: '{\"error\":\"invalid_request\",\"error_description\":\"Missing form parameter: grant_type\"}'\n    date: '2026-09-12'\nprovisioning:\n  self_serve: false\n  path: >-\n    Credentials are created inside the Triumph Intelligence application: Profile icon > Preferences >\n    Credentials. Only Admin users can see the tab. Each credential set has a Client ID (auto-generated),\n    a Client Secret (auto-generated, viewable/copyable), a Description, and an enabled/disabled Status.\n  provider_guidance: >-\n    The provider explicitly recommends one credential set per integration so a single\
   \ partner can be\n    disabled or deleted without revoking the others, and warns that a shared credential set cannot be\n    revoked per-partner later.\n  rotation: >-\n    Credentials can be disabled without deletion, and a new set can be generated at any time. No\n    automatic expiry or forced-rotation policy is published.\nbrowser_use:\n  supported: conditional\n  note: >-\n    For browser callers the provider documents a back-end wrapper: your own server calls /v1/auth/token\n    with the client credentials and proxies only the access_token to the front end, behind your own\n    authentication. A Google id_token path (gauth) also exists but must be enabled per application by\n    the provider on request. Your origins must additionally be added to the provider's CORS allowlist.\n  source: https://intelligencehelp.triumph.io/en/articles/12461044-acquiring-the-access-token-for-triumph-intelligence-apis\nruntime_evidence:\n- url: https://api.greenscreens.ai/v3/prediction/rates\n  method:\
   \ POST\n  status: 401\n  header: 'WWW-Authenticate: Bearer'\n  date: '2026-09-12'\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/green-screens-ai/refs/heads/main/authentication/green-screens-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/green-screens-ai/authentication/green-screens-ai-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Artificial Intelligence

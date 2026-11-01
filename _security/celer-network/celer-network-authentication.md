@@ -34,7 +34,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://cbridge-docs.celer.network/developer/cbridge-sdk + grpc/celer-network-gateway.proto\ndocs: https://cbridge-docs.celer.network/developer/cbridge-sdk\nsummary:\n  types: [none, signature]\n  api_key_in: []\n  oauth2_flows: []\n  note: >-\n    The cBridge gateway API carries no API-key, OAuth, or bearer authentication.\n    Read/query operations (getTransferConfigs, getTokenInfo, estimateAmt,\n    getTransferStatus, transferHistory, estimateWithdrawAmt) are public. The\n    only state-changing gateway call, withdrawLiquidity, is authorized by a\n    client-side cryptographic signature over the serialized WithdrawReq\n    (withdraw_req + sig fields) produced by the user's wallet — the SGN validators\n    verify the signature on chain, so there is no server-issued API credential.\nschemes:\n  - name: public\n    type: none\n    applies_to: read/query operations\n    sources: [grpc/celer-network-gateway.proto]\n  - name:\
   \ client-signature\n    type: signature\n    scheme: wallet-signed request (EIP-712 style)\n    applies_to: WithdrawLiquidity\n    sources: [grpc/celer-network-gateway.proto]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/authentication/celer-network-authentication.yml
+source_yaml_url: https://artifacts.apis.io/celer-network/authentication/celer-network-authentication.yml
 summary_line: none/signature · 2 schemes
 tags:
 - Company

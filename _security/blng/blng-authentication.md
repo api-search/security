@@ -7,85 +7,97 @@ api_specs:
   label: BLNG User API
   slug: blng-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-user-api-openapi.yml
 - filename: blng-billing-api-openapi.yml
   format: yaml
   label: BLNG Billing API
   slug: blng-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-billing-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-billing-api-openapi.yml
 - filename: blng-chat-prompts-api-openapi.yml
   format: yaml
   label: Blng Chat Prompts API
   slug: blng-chat-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-chat-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-chat-prompts-api-openapi.yml
 - filename: blng-composite-api-openapi.yml
   format: yaml
   label: Blng Composite API
   slug: blng-composite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-composite-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-composite-api-openapi.yml
 - filename: blng-design-journey-api-openapi.yml
   format: yaml
   label: Blng Design Journey API
   slug: blng-design-journey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-design-journey-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-design-journey-api-openapi.yml
 - filename: blng-invitation-api-openapi.yml
   format: yaml
   label: Blng Invitation API
   slug: blng-invitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-invitation-api-openapi.yml
 - filename: blng-journeys-api-openapi.yml
   format: yaml
   label: Blng Journeys API
   slug: blng-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-journeys-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-journeys-api-openapi.yml
 - filename: blng-organization-api-openapi.yml
   format: yaml
   label: Blng Organization API
   slug: blng-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-organization-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-organization-api-openapi.yml
 - filename: blng-prompts-api-openapi.yml
   format: yaml
   label: Blng Prompts API
   slug: blng-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-prompts-api-openapi.yml
 - filename: blng-subscription-api-openapi.yml
   format: yaml
   label: Blng Subscription API
   slug: blng-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-subscription-api-openapi.yml
 - filename: blng-user-subscription-api-openapi.yml
   format: yaml
   label: Blng User Subscription API
   slug: blng-user-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-user-subscription-api-openapi.yml
 - filename: blng-user-tooltip-api-openapi.yml
   format: yaml
   label: Blng User Tooltip API
   slug: blng-user-tooltip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-user-tooltip-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-user-tooltip-api-openapi.yml
 - filename: blng-webhook-api-openapi.yml
   format: yaml
   label: Blng Webhook API
   slug: blng-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-webhook-api-openapi.yml
 - filename: blng-workspace-api-openapi.yml
   format: yaml
   label: Blng Workspace API
   slug: blng-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/openapi/blng-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/blng/openapi/blng-workspace-api-openapi.yml
+- filename: blng-user-library-api-openapi.yml
+  format: yaml
+  label: Blng User Library API
+  slug: blng-user-library-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blng/openapi/blng-user-library-api-openapi.yml
+- filename: blng-user-settings-api-openapi.yml
+  format: yaml
+  label: Blng User Settings API
+  slug: blng-user-settings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blng/openapi/blng-user-settings-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -127,7 +139,7 @@ source_filename: blng-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/blng-billing-api-openapi.yml, openapi/blng-journey-api-openapi.yml, openapi/blng-user-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: cognitoUserAuth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://auth.app.blng.ai/oauth2/authorize\n    scopes: 4\n  description: Cognito authorization code flow for users\n  sources:\n  - openapi/blng-billing-api-openapi.yml\n  - openapi/blng-journey-api-openapi.yml\n  - openapi/blng-user-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: \"Use your Cognito \\\"access_token\\\" or \\\"id_token\\\" obtained from AWS Cognito\\\n    \\ Hosted UI \\nor CLI. Click \\\"Authorize\\\" and paste the token.\"\n  sources:\n  - openapi/blng-journey-api-openapi.yml\n  - openapi/blng-user-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blng/refs/heads/main/authentication/blng-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blng/authentication/blng-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

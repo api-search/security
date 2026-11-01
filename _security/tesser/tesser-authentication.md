@@ -7,85 +7,85 @@ api_specs:
   label: Tesser Accounts API
   slug: tesser-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-accounts-api-openapi.yml
 - filename: tesser-admin-api-openapi.yml
   format: yaml
   label: Tesser Admin API
   slug: tesser-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-admin-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-admin-api-openapi.yml
 - filename: tesser-api-keys-api-openapi.yml
   format: yaml
   label: Tesser API Keys API
   slug: tesser-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-api-keys-api-openapi.yml
 - filename: tesser-counterparties-api-openapi.yml
   format: yaml
   label: Tesser Counterparties API
   slug: tesser-counterparties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-counterparties-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-counterparties-api-openapi.yml
 - filename: tesser-currencies-api-openapi.yml
   format: yaml
   label: Tesser Currencies API
   slug: tesser-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-currencies-api-openapi.yml
 - filename: tesser-health-api-openapi.yml
   format: yaml
   label: Tesser Health API
   slug: tesser-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-health-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-health-api-openapi.yml
 - filename: tesser-mcp-api-openapi.yml
   format: yaml
   label: Tesser MCP API
   slug: tesser-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-mcp-api-openapi.yml
 - filename: tesser-networks-api-openapi.yml
   format: yaml
   label: Tesser Networks API
   slug: tesser-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-networks-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-networks-api-openapi.yml
 - filename: tesser-organizations-api-openapi.yml
   format: yaml
   label: Tesser Organizations API
   slug: tesser-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-organizations-api-openapi.yml
 - filename: tesser-payments-api-openapi.yml
   format: yaml
   label: Tesser Payments API
   slug: tesser-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-payments-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-payments-api-openapi.yml
 - filename: tesser-tenants-api-openapi.yml
   format: yaml
   label: Tesser Tenants API
   slug: tesser-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-tenants-api-openapi.yml
 - filename: tesser-treasury-api-openapi.yml
   format: yaml
   label: Tesser Treasury API
   slug: tesser-treasury-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-treasury-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-treasury-api-openapi.yml
 - filename: tesser-users-api-openapi.yml
   format: yaml
   label: Tesser Users API
   slug: tesser-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-users-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-users-api-openapi.yml
 - filename: tesser-webhooks-api-openapi.yml
   format: yaml
   label: Tesser Webhooks API
   slug: tesser-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/openapi/tesser-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tesser/openapi/tesser-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -117,7 +117,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.tesser.xyz/overviews/authentication\ndocs: https://docs.tesser.xyz/overviews/authentication\nsummary:\n  types: [oauth2, http]\n  scheme: bearer\n  bearer_format: JWT\n  oauth2_flows: [clientCredentials]\n  identity_provider: Auth0\ndescription: >-\n  Every request to the Tesser API must carry a JWT access token. Tokens are\n  minted via the OAuth 2.0 client-credentials grant against Tesser's Auth0\n  tenant. Each workspace has a Client ID + Client Secret pair (Dashboard ->\n  Settings > API Keys). The token is presented as an HTTP bearer token. The\n  OpenAPI declares a single `bearer` (http/bearer, JWT) security scheme applied\n  globally.\nschemes:\n  - name: bearer\n    type: http\n    scheme: bearer\n    bearer_format: JWT\n    applied: global\n    sources: [openapi/tesser-openapi-original.json]\ntoken_endpoints:\n  - environment: production\n    url: https://auth.tesser.xyz/oauth/token\n    audience: https://api.tesser.xyz\n\
   \    grant_type: client_credentials\n    authorization_server: https://tesser-payments.us.auth0.com\n    token_lifetime_seconds: 86400\n  - environment: sandbox\n    audience: https://sandbox.tesserx.co\n    grant_type: client_credentials\n    authorization_server: https://dev-awqy75wdabpsnsvu.us.auth0.com\ntoken_request_body:\n  client_id: YOUR_CLIENT_ID\n  client_secret: YOUR_CLIENT_SECRET\n  audience: https://api.tesser.xyz\n  grant_type: client_credentials\ntoken_response_fields:\n  - {field: access_token, description: JWT to include in the Authorization header}\n  - {field: token_type, description: Always \"Bearer\"}\n  - {field: expires_in, description: Token lifetime in seconds (default 86400 = 24h)}\nusage:\n  header: Authorization\n  format: 'Bearer <access_token>'\ncredentials_location: https://app.tesser.xyz (Settings > API Keys)\nnotes: >-\n  OAuth Protected Resource metadata (RFC 9728) is served at\n  /.well-known/oauth-protected-resource on both api.tesser.xyz and\n  sandbox.tesserx.co,\
   \ advertising the Auth0 authorization server so MCP/OAuth\n  clients can auto-discover the auth flow. No fine-grained OAuth scopes are\n  documented; access is audience-scoped per environment.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesser/refs/heads/main/authentication/tesser-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tesser/authentication/tesser-authentication.yml
 summary_line: oauth2/http · 1 scheme
 tags:
 - Company

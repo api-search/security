@@ -8,25 +8,25 @@ api_specs:
   label: Speechmatics API Keys API
   slug: speechmatics-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-api-keys-api-openapi.yml
 - filename: speechmatics-jobs-api-openapi.yml
   format: yaml
   label: Speechmatics Jobs API
   slug: speechmatics-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-jobs-api-openapi.yml
 - filename: speechmatics-projects-api-openapi.yml
   format: yaml
   label: Speechmatics Projects API
   slug: speechmatics-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-projects-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-projects-api-openapi.yml
 - filename: speechmatics-usage-api-openapi.yml
   format: yaml
   label: Speechmatics Usage API
   slug: speechmatics-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/openapi/speechmatics-usage-api-openapi.yml
+  url: https://artifacts.apis.io/speechmatics/openapi/speechmatics-usage-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: speechmatics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/speechmatics-batch-transcription-api-openapi.yml, openapi/speechmatics-management-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Bearer token authentication. Use the format: Bearer $API_KEY_OR_JWT'\n  sources:\n  - openapi/speechmatics-batch-transcription-api-openapi.yml\n  - openapi/speechmatics-management-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/speechmatics/refs/heads/main/authentication/speechmatics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/speechmatics/authentication/speechmatics-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Speech Recognition

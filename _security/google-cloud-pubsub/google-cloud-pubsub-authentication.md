@@ -7,19 +7,19 @@ api_specs:
   label: Google Cloud Pub/Sub Schemas API
   slug: google-cloud-pubsub-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/openapi/google-cloud-pubsub-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-schemas-api-openapi.yml
 - filename: google-cloud-pubsub-subscriptions-api-openapi.yml
   format: yaml
   label: Google Cloud Pub/Sub Subscriptions API
   slug: google-cloud-pubsub-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/openapi/google-cloud-pubsub-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-subscriptions-api-openapi.yml
 - filename: google-cloud-pubsub-topics-api-openapi.yml
   format: yaml
   label: Google Cloud Pub/Sub Topics API
   slug: google-cloud-pubsub-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/openapi/google-cloud-pubsub-topics-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-topics-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-cloud-pubsub-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-cloud-pubsub-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/google-cloud-pubsub-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-pubsub/refs/heads/main/authentication/google-cloud-pubsub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-pubsub/authentication/google-cloud-pubsub-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Event-Driven

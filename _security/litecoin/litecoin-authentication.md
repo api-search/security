@@ -7,55 +7,55 @@ api_specs:
   label: Litecoin Addresses API
   slug: litecoin-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-addresses-api-openapi.yml
 - filename: litecoin-blockchain-api-openapi.yml
   format: yaml
   label: Litecoin Blockchain API
   slug: litecoin-blockchain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-blockchain-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-blockchain-api-openapi.yml
 - filename: litecoin-blocks-api-openapi.yml
   format: yaml
   label: Litecoin Blocks API
   slug: litecoin-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-blocks-api-openapi.yml
 - filename: litecoin-fees-api-openapi.yml
   format: yaml
   label: Litecoin Fees API
   slug: litecoin-fees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-fees-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-fees-api-openapi.yml
 - filename: litecoin-json-rpc-api-openapi.yml
   format: yaml
   label: Litecoin JSON-RPC API
   slug: litecoin-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-json-rpc-api-openapi.yml
 - filename: litecoin-mempool-api-openapi.yml
   format: yaml
   label: Litecoin Mempool API
   slug: litecoin-mempool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-mempool-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-mempool-api-openapi.yml
 - filename: litecoin-mining-api-openapi.yml
   format: yaml
   label: Litecoin Mining API
   slug: litecoin-mining-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-mining-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-mining-api-openapi.yml
 - filename: litecoin-transactions-api-openapi.yml
   format: yaml
   label: Litecoin Transactions API
   slug: litecoin-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-transactions-api-openapi.yml
 - filename: litecoin-utxo-api-openapi.yml
   format: yaml
   label: Litecoin UTXO API
   slug: litecoin-utxo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/openapi/litecoin-utxo-api-openapi.yml
+  url: https://artifacts.apis.io/litecoin/openapi/litecoin-utxo-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: litecoin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/litecoin-core-json-rpc.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using credentials from the .litecoin/.cookie file or\n    configured via rpcauth in litecoin.conf.\n  sources:\n  - openapi/litecoin-core-json-rpc.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/litecoin/refs/heads/main/authentication/litecoin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/litecoin/authentication/litecoin-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Cryptocurrency

@@ -7,19 +7,19 @@ api_specs:
   label: NavigaTUM
   slug: navigatum
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-locations-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-locations-api-openapi.yml
 - filename: tum-menu-api-openapi.yml
   format: yaml
   label: eat-api — Munich Student Canteen Menus
   slug: eat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-menu-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-menu-api-openapi.yml
 - filename: tum-campus-api-openapi.yml
   format: yaml
   label: Technical University of Munich Campus API
   slug: tum-campus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/openapi/tum-campus-api-openapi.yml
+  url: https://artifacts.apis.io/tum/openapi/tum-campus-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: >-\n  Live probes
   \ authentication exists or could exist.\n  evidence:\n  - url: https://tum-dev.github.io/eat-api/enums/canteens.json\n    status: 200\n\n- surface: TUMonline (CAMPUSonline)\n  x-operator: tenant\n  base_url: https://campus.tum.de/tumonline\n  scheme: oauth2\n  openid_configuration: >-\n    https://campus.tum.de/tumonline/co/public/sec/auth/realms/CAMPUSonline/.well-known/openid-configuration\n  detail: >-\n    TUM's student information system runs CAMPUSonline, and its Keycloak realm publishes a complete\n    OpenID Connect discovery document on TUM's own campus.tum.de host. The realm is named\n    CAMPUSonline, not TUM — the contract shape is the vendor's; the deployment, the users and the\n    data are TUM's. This is the operator distinction this pipeline exists to keep straight, so it is\n    recorded as a tenant relationship and NOT saved as a TUM contract.\n  endpoints:\n    issuer: https://campus.tum.de/tumonline/co/public/sec/auth/realms/CAMPUSonline\n    authorization: https://campus.tum.de/tumonline/co/public/sec/auth/realms/CAMPUSonline/protocol/openid-connect/auth\n\
   \    token: https://campus.tum.de/tumonline/co/public/sec/auth/realms/CAMPUSonline/protocol/openid-connect/token\n    userinfo: https://campus.tum.de/tumonline/co/public/sec/auth/realms/CAMPUSonline/protocol/openid-connect/userinfo\n    jwks: https://campus.tum.de/tumonline/co/public/sec/auth/realms/CAMPUSonline/protocol/openid-connect/certs\n    introspection: https://campus.tum.de/tumonline/co/public/sec/auth/realms/CAMPUSonline/protocol/openid-connect/token/introspect\n    end_session: https://campus.tum.de/tumonline/co/public/sec/auth/realms/CAMPUSonline/protocol/openid-connect/logout\n    dynamic_registration: https://campus.tum.de/tumonline/co/public/sec/auth/realms/CAMPUSonline/clients-registrations/openid-connect\n  grant_types:\n  - authorization_code\n  - client_credentials\n  - implicit\n  - password\n  - refresh_token\n  - urn:ietf:params:oauth:grant-type:device_code\n  - urn:ietf:params:oauth:grant-type:token-exchange\n  - urn:ietf:params:oauth:grant-type:uma-ticket\n  - urn:openid:params:grant-type:ciba\n\
   \  pkce_methods:\n  - plain\n  - S256\n  notes:\n  - >-\n    The realm still advertises the implicit and resource-owner-password grants alongside\n    authorization_code + PKCE. Both are discouraged by OAuth 2.1 / BCP 225.\n  evidence:\n  - url: https://campus.tum.de/tumonline/co/public/sec/auth/realms/CAMPUSonline/.well-known/openid-configuration\n    status: 200\n\n- surface: TUM Shibboleth Identity Provider\n  x-operator: institution\n  base_url: https://login.tum.de/idp\n  scheme: saml2\n  detail: >-\n    SAML 2.0 / Shibboleth IdP, DFN-AAI registered, eduGAIN reachable, asserting scope tum.de and\n    carrying REFEDS Research & Scholarship plus SIRTFI and SIRTFI2 assurance certifications. This is\n    the one authentication surface a university operates by definition, and it is machine-readable.\n  evidence:\n  - url: https://login.tum.de/idp/shibboleth\n    status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tum/refs/heads/main/authentication/tum-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tum/authentication/tum-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

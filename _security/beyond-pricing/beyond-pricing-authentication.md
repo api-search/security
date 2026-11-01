@@ -7,49 +7,55 @@ api_specs:
   label: Beyond Pricing Accounts API
   slug: beyond-pricing-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-accounts-api-openapi.yml
 - filename: beyond-pricing-compsets-api-openapi.yml
   format: yaml
   label: Beyond Pricing Compsets API
   slug: beyond-pricing-compsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-compsets-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-compsets-api-openapi.yml
 - filename: beyond-pricing-customizations-api-openapi.yml
   format: yaml
   label: Beyond Pricing Customizations API
   slug: beyond-pricing-customizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-customizations-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-customizations-api-openapi.yml
 - filename: beyond-pricing-insights-api-openapi.yml
   format: yaml
   label: Beyond Pricing Insights API
   slug: beyond-pricing-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-insights-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-insights-api-openapi.yml
 - filename: beyond-pricing-listings-api-openapi.yml
   format: yaml
   label: Beyond Pricing Listings API
   slug: beyond-pricing-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-listings-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-listings-api-openapi.yml
 - filename: beyond-pricing-users-api-openapi.yml
   format: yaml
   label: Beyond Pricing Users API
   slug: beyond-pricing-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-users-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-users-api-openapi.yml
 - filename: beyond-pricing-webhooks-api-openapi.yml
   format: yaml
   label: Beyond Pricing Webhooks API
   slug: beyond-pricing-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-webhooks-api-openapi.yml
 - filename: beyond-pricing-oauth2-api-openapi.yml
   format: yaml
   label: Beyond Pricing O Auth2 API
   slug: beyond-pricing-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/openapi/beyond-pricing-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-oauth2-api-openapi.yml
+- filename: beyond-pricing-reservations-api-openapi.yml
+  format: yaml
+  label: Beyond Pricing Reservations API
+  slug: beyond-pricing-reservations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/beyond-pricing/openapi/beyond-pricing-reservations-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -89,7 +95,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/beyond-pricing-openapi-original.yml\ndocs: https://developers.beyondpricing.com/getting-started/authentication/\nstandards:\n- RFC 9700 (OAuth 2.0 Security Best Current Practice)\n- RFC 8414 (OAuth 2.0 Authorization Server Metadata)\nauthorization_server_metadata: https://developers.beyondpricing.com/.well-known/oauth-authorization-server\nnotes: >-\n  Partners use OAuth2 client-credentials on a confidential client; access tokens\n  expire after 1 hour and can be narrowed with user_id (user-scoped) and\n  credential_id (credential-scoped). Individual users use self-service personal\n  access tokens (bpat_ prefix) created in the Beyond dashboard, sent as\n  Authorization: Bearer. IP allowlists can be enforced per application.\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: /o/token/\n    scopes:\
   \ 9\n  description: Use OAuth2 client credentials to mint an application token, or add `user_id`\n    and optional `credential_id` in the Authorize dialog to request a user- or credential-scoped\n    token.\n  sources:\n  - openapi/beyond-pricing-openapi-original.yml\n- name: personalAccessToken\n  type: http\n  scheme: bearer\n  bearerFormat: PersonalAccessToken\n  description: Paste a `bpat_...` personal access token. PATs use the same Bearer header as\n    OAuth2 tokens and must still include the runtime-required scopes for each endpoint, even\n    though OpenAPI cannot encode scopes for non-OAuth bearer schemes.\n  sources:\n  - openapi/beyond-pricing-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beyond-pricing/refs/heads/main/authentication/beyond-pricing-authentication.yml
+source_yaml_url: https://artifacts.apis.io/beyond-pricing/authentication/beyond-pricing-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

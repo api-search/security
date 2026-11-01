@@ -8,25 +8,25 @@ api_specs:
   label: BankruptcyWatch Cases API
   slug: bankruptcywatch-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-cases-api-openapi.yml
+  url: https://artifacts.apis.io/bankruptcywatch/openapi/bankruptcywatch-cases-api-openapi.yml
 - filename: bankruptcywatch-claims-api-openapi.yml
   format: yaml
   label: BankruptcyWatch Claims API
   slug: bankruptcywatch-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-claims-api-openapi.yml
+  url: https://artifacts.apis.io/bankruptcywatch/openapi/bankruptcywatch-claims-api-openapi.yml
 - filename: bankruptcywatch-docket-api-openapi.yml
   format: yaml
   label: BankruptcyWatch Docket API
   slug: bankruptcywatch-docket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-docket-api-openapi.yml
+  url: https://artifacts.apis.io/bankruptcywatch/openapi/bankruptcywatch-docket-api-openapi.yml
 - filename: bankruptcywatch-monitoring-api-openapi.yml
   format: yaml
   label: BankruptcyWatch Monitoring API
   slug: bankruptcywatch-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/openapi/bankruptcywatch-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/bankruptcywatch/openapi/bankruptcywatch-monitoring-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: bankruptcywatch-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bankruptcywatch-pacer-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: BankruptcyWatch API key\n  sources:\n  - openapi/bankruptcywatch-pacer-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/authentication/bankruptcywatch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bankruptcywatch/authentication/bankruptcywatch-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Bankruptcy

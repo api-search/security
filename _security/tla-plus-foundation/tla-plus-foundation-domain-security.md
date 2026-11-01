@@ -40,7 +40,7 @@ source_filename: tla-plus-foundation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: foundation.tlapl.us\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 12:47:48 2026 GMT\n  hsts: false\n- host: tla.msr-inria.inria.fr\n  https: false\n- host: marketplace.visualstudio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 13:38:08 2026 GMT\n  hsts: null\ndomains:\n- domain: tlapl.us\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n- domain: inria.fr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tla-plus-foundation/refs/heads/main/security/tla-plus-foundation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tla-plus-foundation/security/tla-plus-foundation-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Formal Methods

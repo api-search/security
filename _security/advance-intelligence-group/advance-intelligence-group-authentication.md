@@ -8,25 +8,25 @@ api_specs:
   label: Advance Intelligence Group Authentication API
   slug: advance-intelligence-group-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/openapi/advance-intelligence-group-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/advance-intelligence-group/openapi/advance-intelligence-group-authentication-api-openapi.yml
 - filename: advance-intelligence-group-document-verification-api-openapi.yml
   format: yaml
   label: Advance Intelligence Group Document Verification API
   slug: advance-intelligence-group-document-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/openapi/advance-intelligence-group-document-verification-api-openapi.yml
+  url: https://artifacts.apis.io/advance-intelligence-group/openapi/advance-intelligence-group-document-verification-api-openapi.yml
 - filename: advance-intelligence-group-face-recognition-api-openapi.yml
   format: yaml
   label: Advance Intelligence Group Face Recognition API
   slug: advance-intelligence-group-face-recognition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/openapi/advance-intelligence-group-face-recognition-api-openapi.yml
+  url: https://artifacts.apis.io/advance-intelligence-group/openapi/advance-intelligence-group-face-recognition-api-openapi.yml
 - filename: advance-intelligence-group-ocr-api-openapi.yml
   format: yaml
   label: Advance Intelligence Group OCR API
   slug: advance-intelligence-group-ocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/openapi/advance-intelligence-group-ocr-api-openapi.yml
+  url: https://artifacts.apis.io/advance-intelligence-group/openapi/advance-intelligence-group-ocr-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/advance-intelligence-group-advance-ai-openapi.yml\ndocs: https://doc.advance.ai/global_document_verification.html\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  model: >-\n    Two-step: obtain a short-lived access token by signing a request with your\n    accessKey + secretKey, then pass the token in the X-ACCESS-TOKEN header on\n    every API call.\nschemes:\n- name: AccessToken\n  type: apiKey\n  in: header\n  parameter: X-ACCESS-TOKEN\n  description: >-\n    Short-lived access token passed on every request. Obtained from\n    POST /openapi/auth/ticket/v1/generate-token.\n  sources:\n  - openapi/advance-intelligence-group-advance-ai-openapi.yml\ntoken_flow:\n  endpoint: POST /openapi/auth/ticket/v1/generate-token\n  request:\n    accessKey: Account access key.\n    timestamp: 13-digit Unix epoch milliseconds.\n    signature: SHA256(accessKey + secretKey + timestamp).\n    periodSecond: Optional token\
   \ TTL in seconds (default 3600, range 60-86400).\n  response:\n    token: Value for the X-ACCESS-TOKEN header.\n    expiredTime: Unix expiry timestamp; re-request when expired.\nnotes:\n- No OAuth 2.0 or OpenID Connect; credentials are an accessKey/secretKey pair.\n- Signature-based token issuance prevents replay via the timestamp component.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advance-intelligence-group/refs/heads/main/authentication/advance-intelligence-group-authentication.yml
+source_yaml_url: https://artifacts.apis.io/advance-intelligence-group/authentication/advance-intelligence-group-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

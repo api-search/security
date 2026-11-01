@@ -11,7 +11,7 @@ api_specs:
   label: Statuspage Pages API
   slug: statuspage-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/openapi/statuspage-pages-api-openapi.yml
+  url: https://artifacts.apis.io/statuspage/openapi/statuspage-pages-api-openapi.yml
 certification_count: 1
 certifications:
 - FedRAMP
@@ -28,7 +28,7 @@ source_filename: statuspage-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/trust\nurl: https://www.atlassian.com/trust\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/trust\n  keywords:\n  - fedramp\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/security/statuspage-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/statuspage/security/statuspage-trust-center.yml
 summary_line: FedRAMP
 tags:
 - Status Pages

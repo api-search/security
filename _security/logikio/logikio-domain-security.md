@@ -5,67 +5,67 @@ api_specs:
   label: Logik.io Blueprint > Export API
   slug: logikio-blueprint-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-blueprint-export-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-blueprint-export-api-openapi.yml
 - filename: logikio-blueprint-import-api-openapi.yml
   format: yaml
   label: Logik.io Blueprint > Import API
   slug: logikio-blueprint-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-blueprint-import-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-blueprint-import-api-openapi.yml
 - filename: logikio-bom-api-openapi.yml
   format: yaml
   label: Logik.io BOM API
   slug: logikio-bom-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-bom-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-bom-api-openapi.yml
 - filename: logikio-configuration-api-openapi.yml
   format: yaml
   label: Logik.io Configuration API
   slug: logikio-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-configuration-api-openapi.yml
 - filename: logikio-configuration-v2-api-openapi.yml
   format: yaml
   label: Logik.io Configuration (V2) API
   slug: logikio-configuration-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-configuration-v2-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-configuration-v2-api-openapi.yml
 - filename: logikio-managed-tables-export-tables-api-openapi.yml
   format: yaml
   label: Logik.io Managed Tables > Export Tables API
   slug: logikio-managed-tables-export-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-export-tables-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-managed-tables-export-tables-api-openapi.yml
 - filename: logikio-managed-tables-import-tables-api-openapi.yml
   format: yaml
   label: Logik.io Managed Tables > Import Tables API
   slug: logikio-managed-tables-import-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-import-tables-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-managed-tables-import-tables-api-openapi.yml
 - filename: logikio-managed-tables-metadata-api-openapi.yml
   format: yaml
   label: Logik.io Managed Tables > Metadata API
   slug: logikio-managed-tables-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-managed-tables-metadata-api-openapi.yml
 - filename: logikio-managed-tables-table-rows-api-openapi.yml
   format: yaml
   label: Logik.io Managed Tables > Table Rows API
   slug: logikio-managed-tables-table-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-table-rows-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-managed-tables-table-rows-api-openapi.yml
 - filename: logikio-managed-tables-tables-api-openapi.yml
   format: yaml
   label: Logik.io Managed Tables > Tables API
   slug: logikio-managed-tables-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-managed-tables-tables-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-managed-tables-tables-api-openapi.yml
 - filename: logikio-runtime-bill-of-materials-api-openapi.yml
   format: yaml
   label: Logik.io Runtime - Bill of Materials API
   slug: logikio-runtime-bill-of-materials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/openapi/logikio-runtime-bill-of-materials-api-openapi.yml
+  url: https://artifacts.apis.io/logikio/openapi/logikio-runtime-bill-of-materials-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -104,7 +104,7 @@ source_filename: logikio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.logik.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 23:59:59 2027 GMT\n  hsts: null\n- host: api-docs.logik.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 21:48:18 2026 GMT\n  hsts: false\ndomains:\n- domain: logik.io\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:security@logik.io\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/logikio/refs/heads/main/security/logikio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/logikio/security/logikio-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

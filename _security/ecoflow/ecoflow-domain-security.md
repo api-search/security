@@ -5,19 +5,19 @@ api_specs:
   label: EcoFlow Devices API
   slug: ecoflow-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-devices-api-openapi.yml
+  url: https://artifacts.apis.io/ecoflow/openapi/ecoflow-devices-api-openapi.yml
 - filename: ecoflow-mqtt-api-openapi.yml
   format: yaml
   label: EcoFlow MQTT API
   slug: ecoflow-mqtt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-mqtt-api-openapi.yml
+  url: https://artifacts.apis.io/ecoflow/openapi/ecoflow-mqtt-api-openapi.yml
 - filename: ecoflow-quota-api-openapi.yml
   format: yaml
   label: EcoFlow Quota API
   slug: ecoflow-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/openapi/ecoflow-quota-api-openapi.yml
+  url: https://artifacts.apis.io/ecoflow/openapi/ecoflow-quota-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: ecoflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ecoflow.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: developer.ecoflow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 23:59:59 2026 GMT\n  hsts: false\n- host: api.ecoflow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: ecoflow.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ecoflow/refs/heads/main/security/ecoflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ecoflow/security/ecoflow-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

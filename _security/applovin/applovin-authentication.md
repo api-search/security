@@ -9,67 +9,67 @@ api_specs:
   label: AppLovin Ad Units API
   slug: applovin-ad-units-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-ad-units-api-openapi.yml
 - filename: applovin-asset-reporting-api-openapi.yml
   format: yaml
   label: AppLovin Asset Reporting API
   slug: applovin-asset-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-asset-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-asset-reporting-api-openapi.yml
 - filename: applovin-assets-api-openapi.yml
   format: yaml
   label: AppLovin Assets API
   slug: applovin-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-assets-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-assets-api-openapi.yml
 - filename: applovin-campaigns-api-openapi.yml
   format: yaml
   label: AppLovin Campaigns API
   slug: applovin-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-campaigns-api-openapi.yml
 - filename: applovin-conversion-events-api-openapi.yml
   format: yaml
   label: AppLovin Conversion Events API
   slug: applovin-conversion-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-conversion-events-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-conversion-events-api-openapi.yml
 - filename: applovin-creative-sets-api-openapi.yml
   format: yaml
   label: AppLovin Creative Sets API
   slug: applovin-creative-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-creative-sets-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-creative-sets-api-openapi.yml
 - filename: applovin-experiments-api-openapi.yml
   format: yaml
   label: AppLovin Experiments API
   slug: applovin-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-experiments-api-openapi.yml
 - filename: applovin-growth-reporting-api-openapi.yml
   format: yaml
   label: AppLovin Growth Reporting API
   slug: applovin-growth-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-growth-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-growth-reporting-api-openapi.yml
 - filename: applovin-revenue-reporting-api-openapi.yml
   format: yaml
   label: AppLovin Revenue Reporting API
   slug: applovin-revenue-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-revenue-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-revenue-reporting-api-openapi.yml
 - filename: applovin-test-devices-api-openapi.yml
   format: yaml
   label: AppLovin Test Devices API
   slug: applovin-test-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-test-devices-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-test-devices-api-openapi.yml
 - filename: applovin-waterfalls-api-openapi.yml
   format: yaml
   label: AppLovin Waterfalls API
   slug: applovin-waterfalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/openapi/applovin-waterfalls-api-openapi.yml
+  url: https://artifacts.apis.io/applovin/openapi/applovin-waterfalls-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -126,7 +126,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/*.yml +
   \  - openapi/applovin-creative-sets-api-openapi.yml\n  - openapi/applovin-assets-api-openapi.yml\n  - openapi/applovin-conversion-events-api-openapi.yml\n  note: >-\n    Modelled as http/bearer in the spec, but AppLovin's documented examples send the raw\n    key with no `Bearer ` prefix. Treat as an opaque Authorization-header credential.\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Report Key.\n  sources:\n  - openapi/applovin-revenue-reporting-api-openapi.yml\n  - openapi/applovin-growth-reporting-api-openapi.yml\n  - openapi/applovin-asset-reporting-api-openapi.yml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: Api-Key\n  description: Management Key from the AppLovin dashboard (Account > General > Keys).\n  sources:\n  - openapi/applovin-ad-units-api-openapi.yml\n  - openapi/applovin-waterfalls-api-openapi.yml\n  - openapi/applovin-experiments-api-openapi.yml\n  - openapi/applovin-test-devices-api-openapi.yml\nagent_readiness:\n\
   \  scoped_credentials: false\n  short_lived_tokens: false\n  programmatic_rotation: false\n  revocation_api: false\n  least_privilege: false\n  assessment: >-\n    Every AppLovin credential is a long-lived, account-wide, full-privilege static key with\n    no expiry and no API-driven rotation or revocation. There is no read-only variant of\n    any key: the Management Key that lists ad units is the same key that rewrites their\n    waterfalls, and the Campaign Management key that lists campaigns is the same key that\n    creates them and spends money. An agent cannot be given a narrower credential than a\n    human employee, which makes delegation to an autonomous agent an all-or-nothing\n    decision.\ngaps:\n- No OAuth 2.0, no OpenID Connect, no token endpoint, no /.well-known/oauth-authorization-server (probed, 404/400 on every API host).\n- No scopes, so scopes/applovin-scopes.yml is intentionally not emitted.\n- No mTLS.\n- No key expiry or rotation API; rotation is a manual dashboard\
   \ action.\n- Report Key travels in the query string.\n- Same header name (Api-Key) reused for two different credentials on two different hosts.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/authentication/applovin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/applovin/authentication/applovin-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Advertising

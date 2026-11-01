@@ -7,37 +7,37 @@ api_specs:
   label: Printify Catalog API
   slug: printify-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-catalog-api-openapi.yml
 - filename: printify-orders-api-openapi.yml
   format: yaml
   label: Printify Orders API
   slug: printify-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-orders-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-orders-api-openapi.yml
 - filename: printify-products-api-openapi.yml
   format: yaml
   label: Printify Products API
   slug: printify-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-products-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-products-api-openapi.yml
 - filename: printify-shops-api-openapi.yml
   format: yaml
   label: Printify Shops API
   slug: printify-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-shops-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-shops-api-openapi.yml
 - filename: printify-uploads-api-openapi.yml
   format: yaml
   label: Printify Uploads API
   slug: printify-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-uploads-api-openapi.yml
 - filename: printify-webhooks-api-openapi.yml
   format: yaml
   label: Printify Webhooks API
   slug: printify-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/openapi/printify-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/printify/openapi/printify-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: printify-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/printify-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'Personal Access Token or OAuth 2.0 access token sent as Authorization: Bearer\n    {token}. A User-Agent header is also required.'\n  sources:\n  - openapi/printify-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/printify/refs/heads/main/authentication/printify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/printify/authentication/printify-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Print on Demand

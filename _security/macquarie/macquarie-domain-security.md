@@ -5,7 +5,7 @@ api_specs:
   label: Macquarie University Harvesting API
   slug: macquarie-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/openapi/macquarie-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/macquarie/openapi/macquarie-harvesting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: macquarie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "# authorship: written by API Evangelist from live DNS/TLS/HTTP probes of this repo's hosts.\n# x-method: derived\ngenerated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mq.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 11:52:37 2026 GMT\n  hsts: null\n- host: research-management.mq.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 06:59:38 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: idp.mq.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: mq.edu.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/security/macquarie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/macquarie/security/macquarie-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

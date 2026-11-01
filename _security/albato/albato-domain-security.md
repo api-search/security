@@ -5,37 +5,37 @@ api_specs:
   label: Albato Automations API
   slug: albato-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-automations-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-automations-api-openapi.yml
 - filename: albato-connectors-api-openapi.yml
   format: yaml
   label: Albato Connectors API
   slug: albato-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-connectors-api-openapi.yml
 - filename: albato-executions-api-openapi.yml
   format: yaml
   label: Albato Executions API
   slug: albato-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-executions-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-executions-api-openapi.yml
 - filename: albato-teams-api-openapi.yml
   format: yaml
   label: Albato Teams API
   slug: albato-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-teams-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-teams-api-openapi.yml
 - filename: albato-templates-api-openapi.yml
   format: yaml
   label: Albato Templates API
   slug: albato-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-templates-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-templates-api-openapi.yml
 - filename: albato-users-api-openapi.yml
   format: yaml
   label: Albato Users API
   slug: albato-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-users-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: albato-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: albato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: albato.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/security/albato-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/albato/security/albato-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - No-Code Automation

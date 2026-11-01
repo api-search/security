@@ -5,7 +5,7 @@ api_specs:
   label: Novita AI Openai API
   slug: novita-ai-openai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/openapi/novita-ai-openai-api-openapi.yml
+  url: https://artifacts.apis.io/novita-ai/openapi/novita-ai-openai-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: novita-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: novita.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 14:31:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.novita.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: novita.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/security/novita-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/novita-ai/security/novita-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

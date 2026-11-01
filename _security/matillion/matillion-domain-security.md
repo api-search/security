@@ -5,55 +5,55 @@ api_specs:
   label: Matillion DPC Agents API
   slug: matillion-dpc-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-agents-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-agents-api-openapi.yml
 - filename: matillion-dpc-environments-api-openapi.yml
   format: yaml
   label: Matillion DPC Environments API
   slug: matillion-dpc-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-environments-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-environments-api-openapi.yml
 - filename: matillion-dpc-pipeline-executions-api-openapi.yml
   format: yaml
   label: Matillion DPC Pipeline Executions API
   slug: matillion-dpc-pipeline-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-pipeline-executions-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-pipeline-executions-api-openapi.yml
 - filename: matillion-dpc-projects-api-openapi.yml
   format: yaml
   label: Matillion DPC Projects API
   slug: matillion-dpc-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-projects-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-projects-api-openapi.yml
 - filename: matillion-dpc-schedules-api-openapi.yml
   format: yaml
   label: Matillion DPC Schedules API
   slug: matillion-dpc-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-dpc-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-dpc-schedules-api-openapi.yml
 - filename: matillion-etl-groups-projects-api-openapi.yml
   format: yaml
   label: Matillion ETL Groups & Projects API
   slug: matillion-etl-groups-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-groups-projects-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-groups-projects-api-openapi.yml
 - filename: matillion-etl-jobs-runs-api-openapi.yml
   format: yaml
   label: Matillion ETL Jobs & Runs API
   slug: matillion-etl-jobs-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-jobs-runs-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-jobs-runs-api-openapi.yml
 - filename: matillion-etl-schedules-api-openapi.yml
   format: yaml
   label: Matillion ETL Schedules API
   slug: matillion-etl-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-schedules-api-openapi.yml
 - filename: matillion-etl-tasks-api-openapi.yml
   format: yaml
   label: Matillion ETL Tasks API
   slug: matillion-etl-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/openapi/matillion-etl-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/matillion/openapi/matillion-etl-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: matillion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.matillion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 07:00:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.matillion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 04:24:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: eu1.api.matillion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 16:12:07 2026 GMT\n  hsts: null\ndomains:\n- domain: matillion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/matillion/refs/heads/main/security/matillion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/matillion/security/matillion-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Integration

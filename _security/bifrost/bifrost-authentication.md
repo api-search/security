@@ -8,13 +8,13 @@ api_specs:
   label: Bifrost Health API
   slug: bifrost-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/openapi/bifrost-health-api-openapi.yml
+  url: https://artifacts.apis.io/bifrost/openapi/bifrost-health-api-openapi.yml
 - filename: bifrost-chat-completions-api-openapi.yml
   format: yaml
   label: Bifrost Chat Completions API
   slug: bifrost-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/openapi/bifrost-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/bifrost/openapi/bifrost-chat-completions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: bifrost-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bifrost-http-gateway-api.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: BifrostProviderAuth\n  type: apiKey\n  in: header\n  parameter: x-bf-provider-key\n  description: Provider API key passed as x-bf-provider-key header. Alternatively, provider\n    keys can be configured server-side in bifrost configuration.\n  sources:\n  - openapi/bifrost-http-gateway-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bifrost/refs/heads/main/authentication/bifrost-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bifrost/authentication/bifrost-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - AI Gateway

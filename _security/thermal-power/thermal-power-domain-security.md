@@ -5,19 +5,19 @@ api_specs:
   label: Thermal Power Capacity API
   slug: thermal-power-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-capacity-api-openapi.yml
+  url: https://artifacts.apis.io/thermal-power/openapi/thermal-power-capacity-api-openapi.yml
 - filename: thermal-power-plant-operations-api-openapi.yml
   format: yaml
   label: Thermal Power Plant Operations API
   slug: thermal-power-plant-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-plant-operations-api-openapi.yml
+  url: https://artifacts.apis.io/thermal-power/openapi/thermal-power-plant-operations-api-openapi.yml
 - filename: thermal-power-power-operations-api-openapi.yml
   format: yaml
   label: Thermal Power Operations API
   slug: thermal-power-power-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/openapi/thermal-power-power-operations-api-openapi.yml
+  url: https://artifacts.apis.io/thermal-power/openapi/thermal-power-power-operations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: thermal-power-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eia.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 23:59:59 2026 GMT\n  hsts: null\n- host: api.eia.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 17:20:52 2026 GMT\n  hsts: null\ndomains:\n- domain: eia.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/security/thermal-power-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thermal-power/security/thermal-power-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Energy

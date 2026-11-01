@@ -5,7 +5,7 @@ api_specs:
   label: Keller Williams Search API
   slug: keller-williams-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/openapi/keller-williams-search-api-openapi.yml
+  url: https://artifacts.apis.io/keller-williams/openapi/keller-williams-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: keller-williams-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kw.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 04:12:52 2026 GMT\n  hsts: null\n- host: developer.kw.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 06:57:46 2026 GMT\n  hsts: null\n- host: partners.api.kw.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 23:40:30 2026 GMT\n  hsts: null\ndomains:\n- domain: kw.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keller-williams/refs/heads/main/security/keller-williams-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/keller-williams/security/keller-williams-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Real Estate

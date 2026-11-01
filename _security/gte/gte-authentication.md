@@ -7,37 +7,37 @@ api_specs:
   label: GTE Exchange API
   slug: gte-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-exchange-api-openapi.yml
 - filename: gte-health-api-openapi.yml
   format: yaml
   label: GTE Health API
   slug: gte-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-health-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-health-api-openapi.yml
 - filename: gte-info-api-openapi.yml
   format: yaml
   label: GTE Info API
   slug: gte-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-info-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-info-api-openapi.yml
 - filename: gte-markets-api-openapi.yml
   format: yaml
   label: GTE Markets API
   slug: gte-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-markets-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-markets-api-openapi.yml
 - filename: gte-tokens-api-openapi.yml
   format: yaml
   label: GTE Tokens API
   slug: gte-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-tokens-api-openapi.yml
 - filename: gte-users-api-openapi.yml
   format: yaml
   label: GTE Users API
   slug: gte-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/openapi/gte-users-api-openapi.yml
+  url: https://artifacts.apis.io/gte/openapi/gte-users-api-openapi.yml
 auth_types:
 - signature
 description: ''
@@ -58,7 +58,7 @@ source_filename: gte-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.gte.xyz/openapi.yaml\ndocs: https://docs.gte.xyz\nsummary:\n  types: [signature]\n  api_key_in: []\n  oauth2_flows: []\nmodel: evm-wallet-signature\nnotes: >-\n  GTE is a non-custodial decentralized exchange on MegaETH. The OpenAPI declares no\n  securitySchemes (apiKey / http / oauth2 / openIdConnect / mutualTLS): all read\n  endpoints (tokens, markets, candles, trades, book, user portfolio/orders) are\n  public and unauthenticated, keyed only by the EVM wallet address in the path\n  (e.g. /users/{user_address}/portfolio). Write access is via POST /exchange, which\n  accepts a signed EVM transaction body — authorization is cryptographic (the user\n  signs the order/trade transaction with their wallet key), not an API key or OAuth\n  token. The GTE Python SDK (packages/gte-packages.yml) constructs and signs the\n  transaction body.\nschemes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gte/refs/heads/main/authentication/gte-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gte/authentication/gte-authentication.yml
 summary_line: signature · 0 schemes
 tags:
 - Company

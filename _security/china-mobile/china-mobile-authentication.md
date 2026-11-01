@@ -8,19 +8,19 @@ api_specs:
   label: China Mobile Application Development API
   slug: china-mobile-application-development-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-application-development-api-openapi.yml
+  url: https://artifacts.apis.io/china-mobile/openapi/china-mobile-application-development-api-openapi.yml
 - filename: china-mobile-device-management-api-openapi.yml
   format: yaml
   label: China Mobile Device Management API
   slug: china-mobile-device-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-device-management-api-openapi.yml
+  url: https://artifacts.apis.io/china-mobile/openapi/china-mobile-device-management-api-openapi.yml
 - filename: china-mobile-voice-call-service-api-openapi.yml
   format: yaml
   label: China Mobile Voice Call Service API
   slug: china-mobile-voice-call-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/openapi/china-mobile-voice-call-service-api-openapi.yml
+  url: https://artifacts.apis.io/china-mobile/openapi/china-mobile-voice-call-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +56,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: derived\nsource: openapi/china-mobile-onenet-studio-openapi.yml, openapi/china-mobile-vcs-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: onenetAuthorization\n  type: apiKey\n  in: header\n  parameter: authorization\n  description: 'OneNET signed authorization token: version=2020-05-29&res=userid/{userid}&et={epoch}&method={md5|sha1|sha256}&sign={signature},\n    where sign = base64(hmac_method(base64decode(accessKey), et + \"\\n\" + method + \"\\n\" + res\n    + \"\\n\" + version)). Reference: https://open.iot.10086.cn/doc/iot_platform/book/api/auth.html'\n  sources:\n  - openapi/china-mobile-onenet-studio-openapi.yml\n- name: onenetAuthorization\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'OneNET signed authorization token: `version=2020-05-29&res=userid/{userid}&et={epoch}&method={md5|sha1|sha256}&sign={signature}`\n    where sign = base64(hmac_method(base64decode(accessKey),\
   \ et + \"\\n\" + method + \"\\n\" + res\n    + \"\\n\" + version)). See https://open.iot.10086.cn/doc/iot_platform/book/api/auth.html'\n  sources:\n  - openapi/china-mobile-vcs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/china-mobile/refs/heads/main/authentication/china-mobile-authentication.yml
+source_yaml_url: https://artifacts.apis.io/china-mobile/authentication/china-mobile-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Telecommunications

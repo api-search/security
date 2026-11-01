@@ -5,31 +5,31 @@ api_specs:
   label: Towers Watson Benefits API
   slug: towers-watson-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/towers-watson/openapi/towers-watson-benefits-api-openapi.yml
 - filename: towers-watson-cases-api-openapi.yml
   format: yaml
   label: Towers Watson Cases API
   slug: towers-watson-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-cases-api-openapi.yml
+  url: https://artifacts.apis.io/towers-watson/openapi/towers-watson-cases-api-openapi.yml
 - filename: towers-watson-content-api-openapi.yml
   format: yaml
   label: Towers Watson Content API
   slug: towers-watson-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-content-api-openapi.yml
+  url: https://artifacts.apis.io/towers-watson/openapi/towers-watson-content-api-openapi.yml
 - filename: towers-watson-employees-api-openapi.yml
   format: yaml
   label: Towers Watson Employees API
   slug: towers-watson-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-employees-api-openapi.yml
+  url: https://artifacts.apis.io/towers-watson/openapi/towers-watson-employees-api-openapi.yml
 - filename: towers-watson-total-rewards-api-openapi.yml
   format: yaml
   label: Towers Watson Total Rewards API
   slug: towers-watson-total-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/openapi/towers-watson-total-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/towers-watson/openapi/towers-watson-total-rewards-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: towers-watson-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wtwco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 06:40:43 2026 GMT\n  hsts: null\n- host: api.wtwco.com\n  https: false\ndomains:\n- domain: wtwco.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/towers-watson/refs/heads/main/security/towers-watson-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/towers-watson/security/towers-watson-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Human Resources

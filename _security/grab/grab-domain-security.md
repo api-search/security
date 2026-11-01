@@ -5,19 +5,19 @@ api_specs:
   label: Grab GrabExpress API
   slug: grab-grabexpress-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabexpress-api-openapi.yml
+  url: https://artifacts.apis.io/grab/openapi/grab-grabexpress-api-openapi.yml
 - filename: grab-grabid-api-openapi.yml
   format: yaml
   label: Grab GrabID API
   slug: grab-grabid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabid-api-openapi.yml
+  url: https://artifacts.apis.io/grab/openapi/grab-grabid-api-openapi.yml
 - filename: grab-grabpay-api-openapi.yml
   format: yaml
   label: Grab GrabPay API
   slug: grab-grabpay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/openapi/grab-grabpay-api-openapi.yml
+  url: https://artifacts.apis.io/grab/openapi/grab-grabpay-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: grab-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.grab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: false\n- host: developer.grab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  5 23:59:59 2027 GMT\n  hsts: false\n- host: api.grab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: grab.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grab/refs/heads/main/security/grab-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/grab/security/grab-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Ride Hailing

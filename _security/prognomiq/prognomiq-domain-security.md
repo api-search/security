@@ -27,7 +27,7 @@ source_filename: prognomiq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: prognomiq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 19:47:54 2026 GMT\n  hsts: false\ndomains:\n- domain: prognomiq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prognomiq/refs/heads/main/security/prognomiq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/prognomiq/security/prognomiq-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

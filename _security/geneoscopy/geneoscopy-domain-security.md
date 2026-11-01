@@ -37,7 +37,7 @@ source_filename: geneoscopy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.geneoscopy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 13:03:38 2026 GMT\n  hsts: null\n- host: colosense.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 19:41:02 2026 GMT\n  hsts: null\ndomains:\n- domain: geneoscopy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: colosense.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geneoscopy/refs/heads/main/security/geneoscopy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/geneoscopy/security/geneoscopy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

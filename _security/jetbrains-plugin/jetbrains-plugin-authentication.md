@@ -7,13 +7,13 @@ api_specs:
   label: JetBrains Marketplace Plugins API
   slug: jetbrains-plugin-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/openapi/jetbrains-plugin-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/jetbrains-plugin/openapi/jetbrains-plugin-plugins-api-openapi.yml
 - filename: jetbrains-plugin-updates-api-openapi.yml
   format: yaml
   label: JetBrains Marketplace Updates API
   slug: jetbrains-plugin-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/openapi/jetbrains-plugin-updates-api-openapi.yml
+  url: https://artifacts.apis.io/jetbrains-plugin/openapi/jetbrains-plugin-updates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: jetbrains-plugin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/jetbrains-plugin-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerToken\n  type: http\n  scheme: bearer\n  bearerFormat: PermanentToken\n  description: JetBrains Hub permanent token\n  sources:\n  - openapi/jetbrains-plugin-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jetbrains-plugin/refs/heads/main/authentication/jetbrains-plugin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jetbrains-plugin/authentication/jetbrains-plugin-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Plugins

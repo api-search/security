@@ -7,7 +7,7 @@ api_specs:
   label: The Graph Subgraphs API
   slug: the-graph-subgraphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-graph/refs/heads/main/openapi/the-graph-subgraphs-api-openapi.yml
+  url: https://artifacts.apis.io/the-graph/openapi/the-graph-subgraphs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: the-graph-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/the-graph-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: The Graph API key passed as an Authorization Bearer token.\n  sources:\n  - openapi/the-graph-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-graph/refs/heads/main/authentication/the-graph-authentication.yml
+source_yaml_url: https://artifacts.apis.io/the-graph/authentication/the-graph-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Web3

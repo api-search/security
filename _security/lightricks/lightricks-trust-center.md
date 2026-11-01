@@ -5,19 +5,19 @@ api_specs:
   label: Lightricks Async Video Generation API
   slug: lightricks-asyncvideogeneration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-asyncvideogeneration-api-openapi.yml
+  url: https://artifacts.apis.io/lightricks/openapi/lightricks-asyncvideogeneration-api-openapi.yml
 - filename: lightricks-upload-api-openapi.yml
   format: yaml
   label: Lightricks Upload API
   slug: lightricks-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-upload-api-openapi.yml
+  url: https://artifacts.apis.io/lightricks/openapi/lightricks-upload-api-openapi.yml
 - filename: lightricks-video-generation-api-openapi.yml
   format: yaml
   label: Lightricks Video Generation API
   slug: lightricks-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/openapi/lightricks-video-generation-api-openapi.yml
+  url: https://artifacts.apis.io/lightricks/openapi/lightricks-video-generation-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -37,7 +37,7 @@ source_filename: lightricks-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://trust.lightricks.com/\nurl: https://trust.lightricks.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- GDPR\nevidence:\n- source: https://trust.lightricks.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n  - pci dss\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightricks/refs/heads/main/security/lightricks-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/lightricks/security/lightricks-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Company

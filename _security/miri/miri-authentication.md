@@ -27,7 +27,7 @@ source_filename: miri-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://www.miri.ai/developer/docs/alpha/main\ndocs: https://www.miri.ai/developer/docs/alpha/main\nsummary:\n  types:\n  - apiKey\n  notes: >-\n    Miri's developer program is in alpha. Server-side communication with the Miri API\n    uses a unique per-account API key (API_KEY) issued when a developer registers in\n    their Miri developer account. The React Native Component SDK is initialized with\n    the same key via its context provider. Webhooks are authenticated with API keys or\n    tokens per the integrator's security needs. No public OAuth or OpenID Connect flow\n    is documented at this alpha stage.\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  description: >-\n    Per-account API key (API_KEY) used for server-side calls to the Miri API and to\n    initialize the Miri Component SDK. Issued on developer-account registration.\n  sources:\n  - https://www.miri.ai/developer/docs/alpha/main\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/miri/refs/heads/main/authentication/miri-authentication.yml
+source_yaml_url: https://artifacts.apis.io/miri/authentication/miri-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

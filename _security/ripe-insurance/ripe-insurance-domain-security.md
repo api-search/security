@@ -5,13 +5,13 @@ api_specs:
   label: Ripe Insurance Content API
   slug: ripe-insurance-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/openapi/ripe-insurance-content-api-openapi.yml
+  url: https://artifacts.apis.io/ripe-insurance/openapi/ripe-insurance-content-api-openapi.yml
 - filename: ripe-insurance-media-api-openapi.yml
   format: yaml
   label: Ripe Insurance Media API
   slug: ripe-insurance-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/openapi/ripe-insurance-media-api-openapi.yml
+  url: https://artifacts.apis.io/ripe-insurance/openapi/ripe-insurance-media-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: ripe-insurance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ripeinsurance.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: ripeinsurance.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripe-insurance/refs/heads/main/security/ripe-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ripe-insurance/security/ripe-insurance-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Insurance

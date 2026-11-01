@@ -5,61 +5,61 @@ api_specs:
   label: Fulfil Authentication API
   slug: fulfil-io-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-authentication-api-openapi.yml
 - filename: fulfil-io-customers-api-openapi.yml
   format: yaml
   label: Fulfil Customers API
   slug: fulfil-io-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-customers-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-customers-api-openapi.yml
 - filename: fulfil-io-inventory-stock-api-openapi.yml
   format: yaml
   label: Fulfil Inventory & Stock API
   slug: fulfil-io-inventory-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-inventory-stock-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-inventory-stock-api-openapi.yml
 - filename: fulfil-io-manufacturing-api-openapi.yml
   format: yaml
   label: Fulfil Manufacturing API
   slug: fulfil-io-manufacturing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-manufacturing-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-manufacturing-api-openapi.yml
 - filename: fulfil-io-model-interface-api-openapi.yml
   format: yaml
   label: Fulfil Model Interface API
   slug: fulfil-io-model-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-model-interface-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-model-interface-api-openapi.yml
 - filename: fulfil-io-products-variants-api-openapi.yml
   format: yaml
   label: Fulfil Products & Variants API
   slug: fulfil-io-products-variants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-products-variants-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-products-variants-api-openapi.yml
 - filename: fulfil-io-purchases-api-openapi.yml
   format: yaml
   label: Fulfil Purchases API
   slug: fulfil-io-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-purchases-api-openapi.yml
 - filename: fulfil-io-sales-orders-api-openapi.yml
   format: yaml
   label: Fulfil Sales Orders API
   slug: fulfil-io-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-sales-orders-api-openapi.yml
 - filename: fulfil-io-shipments-api-openapi.yml
   format: yaml
   label: Fulfil Shipments API
   slug: fulfil-io-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-shipments-api-openapi.yml
 - filename: fulfil-io-webhooks-api-openapi.yml
   format: yaml
   label: Fulfil Webhooks API
   slug: fulfil-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/openapi/fulfil-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fulfil-io/openapi/fulfil-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -105,7 +105,7 @@ source_filename: fulfil-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fulfil.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 22:47:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.fulfil.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 22:47:38 2026 GMT\n  hsts: false\n- host: docs.fulfil.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 19:39:20 2026 GMT\n  hsts: false\ndomains:\n- domain: fulfil.io\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fulfil-io/refs/heads/main/security/fulfil-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fulfil-io/security/fulfil-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - ERP

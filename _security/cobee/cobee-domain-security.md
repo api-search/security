@@ -5,13 +5,13 @@ api_specs:
   label: Cobee by Pluxee Companies API
   slug: cobee-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-companies-api-openapi.yml
+  url: https://artifacts.apis.io/cobee/openapi/cobee-companies-api-openapi.yml
 - filename: cobee-oauth-api-openapi.yml
   format: yaml
   label: Cobee by Pluxee OAUTH API
   slug: cobee-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/openapi/cobee-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/cobee/openapi/cobee-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: cobee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cobee.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 19:46:51 2026 GMT\n  hsts: false\n- host: pre-public-api.cobee.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: null\n- host: public-api.cobee.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cobee.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cobee/refs/heads/main/security/cobee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cobee/security/cobee-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

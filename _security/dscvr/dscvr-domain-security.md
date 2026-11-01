@@ -37,7 +37,7 @@ source_filename: dscvr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dscvr.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 06:33:45 2026 GMT\n  hsts: false\n- host: docs.dscvr.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 22:12:47 2026 GMT\n  hsts: false\n- host: api.dscvr.one\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 03:27:03 2026 GMT\n  hsts: null\ndomains:\n- domain: dscvr.one\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dscvr/refs/heads/main/security/dscvr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dscvr/security/dscvr-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

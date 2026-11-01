@@ -38,7 +38,7 @@ source_filename: annex-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.annexcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 11:03:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: annexcloud.redocly.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 04:58:02 2026 GMT\n  hsts: false\ndomains:\n- domain: annexcloud.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: redocly.app\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/annex-cloud/refs/heads/main/security/annex-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/annex-cloud/security/annex-cloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Loyalty

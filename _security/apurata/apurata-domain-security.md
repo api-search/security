@@ -5,25 +5,25 @@ api_specs:
   label: Apurata Config API
   slug: apurata-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-config-api-openapi.yml
+  url: https://artifacts.apis.io/apurata/openapi/apurata-config-api-openapi.yml
 - filename: apurata-orders-api-openapi.yml
   format: yaml
   label: Apurata Orders API
   slug: apurata-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-orders-api-openapi.yml
+  url: https://artifacts.apis.io/apurata/openapi/apurata-orders-api-openapi.yml
 - filename: apurata-refunds-api-openapi.yml
   format: yaml
   label: Apurata Refunds API
   slug: apurata-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/apurata/openapi/apurata-refunds-api-openapi.yml
 - filename: apurata-widgets-api-openapi.yml
   format: yaml
   label: Apurata Widgets API
   slug: apurata-widgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/openapi/apurata-widgets-api-openapi.yml
+  url: https://artifacts.apis.io/apurata/openapi/apurata-widgets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: apurata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apurata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: null\n- host: docs.apurata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: apurata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apurata/refs/heads/main/security/apurata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apurata/security/apurata-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

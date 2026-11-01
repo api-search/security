@@ -36,7 +36,7 @@ source_filename: starfish-space-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: derived\nsource: openapi/starfish-space-wordpress-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: WordPress application password (username + application password).\n  sources:\n  - openapi/starfish-space-wordpress-openapi.yml\n- name: cookieNonce\n  type: apiKey\n  in: header\n  parameter: X-WP-Nonce\n  description: WordPress cookie authentication nonce, for same-origin requests.\n  sources:\n  - openapi/starfish-space-wordpress-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starfish-space/refs/heads/main/authentication/starfish-space-authentication.yml
+source_yaml_url: https://artifacts.apis.io/starfish-space/authentication/starfish-space-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

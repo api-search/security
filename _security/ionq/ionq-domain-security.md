@@ -5,37 +5,25 @@ api_specs:
   label: IonQ Backends API
   slug: ionq-backends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-backends-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-backends-api-openapi.yml
 - filename: ionq-characterizations-api-openapi.yml
   format: yaml
   label: IonQ Characterizations API
   slug: ionq-characterizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-characterizations-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-characterizations-api-openapi.yml
 - filename: ionq-jobs-api-openapi.yml
   format: yaml
   label: IonQ Jobs API
   slug: ionq-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-jobs-api-openapi.yml
-- filename: ionq-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-jobs-api-openapi.yml
+- filename: ionq-calibrations-api-openapi.yml
   format: yaml
-  label: IonQ Sessions API
-  slug: ionq-sessions-api
+  label: IonQ Calibrations API
+  slug: ionq-calibrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-sessions-api-openapi.yml
-- filename: ionq-usage-api-openapi.yml
-  format: yaml
-  label: IonQ Usage API
-  slug: ionq-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-usage-api-openapi.yml
-- filename: ionq-whoami-api-openapi.yml
-  format: yaml
-  label: IonQ Whoami API
-  slug: ionq-whoami-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-whoami-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-calibrations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +65,7 @@ source_filename: ionq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ionq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 18:24:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cloud.ionq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 21:13:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.ionq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 05:58:00 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: ionq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/security/ionq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ionq/security/ionq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Quantum Computing

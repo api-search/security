@@ -26,7 +26,7 @@ source_filename: indian-mutual-fund-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mfapi.in\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 09:40:36 2026 GMT\n  hsts: false\ndomains:\n- domain: mfapi.in\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indian-mutual-fund/refs/heads/main/security/indian-mutual-fund-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/indian-mutual-fund/security/indian-mutual-fund-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Finance

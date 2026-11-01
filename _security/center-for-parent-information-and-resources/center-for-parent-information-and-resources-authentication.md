@@ -30,7 +30,7 @@ source_filename: center-for-parent-information-and-resources-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: derived\nsource: openapi/center-for-parent-information-and-resources-oembed-api-openapi.yml, openapi/center-for-parent-information-and-resources-parent-center-directory-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: cookieNonce\n  type: apiKey\n  in: header\n  parameter: X-WP-Nonce\n  description: WordPress cookie authentication paired with an `X-WP-Nonce` header.\n  sources:\n  - openapi/center-for-parent-information-and-resources-oembed-api-openapi.yml\n  - openapi/center-for-parent-information-and-resources-parent-center-directory-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/center-for-parent-information-and-resources/refs/heads/main/authentication/center-for-parent-information-and-resources-authentication.yml
+source_yaml_url: https://artifacts.apis.io/center-for-parent-information-and-resources/authentication/center-for-parent-information-and-resources-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Disability

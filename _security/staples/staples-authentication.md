@@ -7,31 +7,31 @@ api_specs:
   label: Staples Account API
   slug: staples-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-account-api-openapi.yml
+  url: https://artifacts.apis.io/staples/openapi/staples-account-api-openapi.yml
 - filename: staples-catalog-api-openapi.yml
   format: yaml
   label: Staples Catalog API
   slug: staples-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/staples/openapi/staples-catalog-api-openapi.yml
 - filename: staples-delivery-api-openapi.yml
   format: yaml
   label: Staples Delivery API
   slug: staples-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/staples/openapi/staples-delivery-api-openapi.yml
 - filename: staples-invoices-api-openapi.yml
   format: yaml
   label: Staples Invoices API
   slug: staples-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/staples/openapi/staples-invoices-api-openapi.yml
 - filename: staples-orders-api-openapi.yml
   format: yaml
   label: Staples Orders API
   slug: staples-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/openapi/staples-orders-api-openapi.yml
+  url: https://artifacts.apis.io/staples/openapi/staples-orders-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: staples-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/staples-advantage-eprocurement-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/staples-advantage-eprocurement-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/staples/refs/heads/main/authentication/staples-authentication.yml
+source_yaml_url: https://artifacts.apis.io/staples/authentication/staples-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Office Supplies

@@ -5,19 +5,19 @@ api_specs:
   label: Fundamental Research Labs Authentication API
   slug: fundamental-research-labs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/fundamental-research-labs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/fundamental-research-labs/openapi/fundamental-research-labs-authentication-api-openapi.yml
 - filename: fundamental-research-labs-spreadsheets-api-openapi.yml
   format: yaml
   label: Fundamental Research Labs Spreadsheets API
   slug: fundamental-research-labs-spreadsheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/fundamental-research-labs-spreadsheets-api-openapi.yml
+  url: https://artifacts.apis.io/fundamental-research-labs/openapi/fundamental-research-labs-spreadsheets-api-openapi.yml
 - filename: fundamental-research-labs-usage-api-openapi.yml
   format: yaml
   label: Fundamental Research Labs Usage API
   slug: fundamental-research-labs-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/openapi/fundamental-research-labs-usage-api-openapi.yml
+  url: https://artifacts.apis.io/fundamental-research-labs/openapi/fundamental-research-labs-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fundamentalresearchlabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 01:05:58 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: shortcut.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.shortcut.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 01:30:43 2026 GMT\n  hsts: null\ndomains:\n- domain: fundamentalresearchlabs.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: shortcut.ai\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy:\
   \ none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/security/fundamental-research-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fundamental-research-labs/security/fundamental-research-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

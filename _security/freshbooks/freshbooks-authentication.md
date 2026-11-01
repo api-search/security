@@ -19,67 +19,67 @@ api_specs:
   label: FreshBooks Auth API
   slug: freshbooks-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-auth-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-auth-api-openapi.yml
 - filename: freshbooks-clients-api-openapi.yml
   format: yaml
   label: FreshBooks Clients API
   slug: freshbooks-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-clients-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-clients-api-openapi.yml
 - filename: freshbooks-estimates-api-openapi.yml
   format: yaml
   label: FreshBooks Estimates API
   slug: freshbooks-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-estimates-api-openapi.yml
 - filename: freshbooks-expenses-api-openapi.yml
   format: yaml
   label: FreshBooks Expenses API
   slug: freshbooks-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-expenses-api-openapi.yml
 - filename: freshbooks-invoices-api-openapi.yml
   format: yaml
   label: FreshBooks Invoices API
   slug: freshbooks-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-invoices-api-openapi.yml
 - filename: freshbooks-items-api-openapi.yml
   format: yaml
   label: FreshBooks Items API
   slug: freshbooks-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-items-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-items-api-openapi.yml
 - filename: freshbooks-payments-api-openapi.yml
   format: yaml
   label: FreshBooks Payments API
   slug: freshbooks-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-payments-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-payments-api-openapi.yml
 - filename: freshbooks-projects-api-openapi.yml
   format: yaml
   label: FreshBooks Projects API
   slug: freshbooks-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-projects-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-projects-api-openapi.yml
 - filename: freshbooks-tasks-api-openapi.yml
   format: yaml
   label: FreshBooks Tasks API
   slug: freshbooks-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-tasks-api-openapi.yml
 - filename: freshbooks-taxes-api-openapi.yml
   format: yaml
   label: FreshBooks Taxes API
   slug: freshbooks-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-taxes-api-openapi.yml
 - filename: freshbooks-time-entries-api-openapi.yml
   format: yaml
   label: FreshBooks Time Entries API
   slug: freshbooks-time-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/openapi/freshbooks-time-entries-api-openapi.yml
+  url: https://artifacts.apis.io/freshbooks/openapi/freshbooks-time-entries-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -106,7 +106,7 @@ source_filename: freshbooks-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/freshbooks-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token obtained via the FreshBooks authorization code flow.\n  sources:\n  - openapi/freshbooks-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/authentication/freshbooks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/freshbooks/authentication/freshbooks-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Accounting

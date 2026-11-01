@@ -23,7 +23,7 @@ source_filename: geodata-gov-gr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: geodata.gov.gr\n  https: false\ndomains:\n- domain: geodata.gov.gr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geodata-gov-gr/refs/heads/main/security/geodata-gov-gr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/geodata-gov-gr/security/geodata-gov-gr-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Geocoding

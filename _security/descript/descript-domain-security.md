@@ -5,19 +5,19 @@ api_specs:
   label: Descript API Endpoints API
   slug: descript-api-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-api-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-api-endpoints-api-openapi.yml
 - filename: descript-edit-in-descript-api-openapi.yml
   format: yaml
   label: Descript Edit in Descript API
   slug: descript-edit-in-descript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-edit-in-descript-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-edit-in-descript-api-openapi.yml
 - filename: descript-export-from-descript-api-openapi.yml
   format: yaml
   label: Descript Export from Descript API
   slug: descript-export-from-descript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-export-from-descript-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-export-from-descript-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: descript-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.descript.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 22:38:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.descriptapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 04:34:36 2026 GMT\n  hsts: false\n- host: descriptapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 14:39:28 2026 GMT\n  hsts: false\ndomains:\n- domain: descript.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: descriptapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/security/descript-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/descript/security/descript-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

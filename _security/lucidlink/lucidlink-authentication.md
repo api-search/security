@@ -7,19 +7,19 @@ api_specs:
   label: LucidLink Billing API
   slug: lucidlink-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-billing-api-openapi.yml
+  url: https://artifacts.apis.io/lucidlink/openapi/lucidlink-billing-api-openapi.yml
 - filename: lucidlink-domain-api-openapi.yml
   format: yaml
   label: LucidLink Domain API
   slug: lucidlink-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-domain-api-openapi.yml
+  url: https://artifacts.apis.io/lucidlink/openapi/lucidlink-domain-api-openapi.yml
 - filename: lucidlink-filespace-api-openapi.yml
   format: yaml
   label: LucidLink Filespace API
   slug: lucidlink-filespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-filespace-api-openapi.yml
+  url: https://artifacts.apis.io/lucidlink/openapi/lucidlink-filespace-api-openapi.yml
 auth_types:
 - oauth2
 - http-bearer
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: >-\n  openapi/l
   \ shown only once, at generation or rotation.\n  revocation: Deleting a service account immediately invalidates all of its credentials.\n  scope: >-\n    IMPORTANT — for the initial release a service account \"inherits the full\n    permissions/scope of a workspace administrator, granting access to all available API\n    functionalities\". There is no least-privilege option on a standard service account.\n  transport_warning: >-\n    The Management API container serves plain HTTP on port 3003. LucidLink's own\n    best-practices article requires putting it behind a TLS-terminating reverse proxy so the\n    bearer token is never sent in clear text, and restricting the port to trusted internal\n    systems.\n  sources:\n  - https://support.lucidlink.com/hc/en-us/articles/40222074543757-Getting-Started-with-Service-Accounts-API-Authentication\n  - https://support.lucidlink.com/hc/en-us/articles/40222376164365-Best-Practices-Operating-the-LucidLink-API-Container\n- name: collaborator-service-account\n\
   \  api: LucidLink Management API v1\n  type: http\n  scheme: bearer\n  status: beta\n  since: build 3.7.8584 (2026-08-08)\n  purpose: >-\n    Scope automation to specific LucidLink folders and filespaces \"without handing out full\n    administrator credentials\" — the least-privilege answer to the scope gap above.\n  availability: All plans including Trial.\n  note: >-\n    No UI in this beta; Collaborator Service Accounts are created and managed through the\n    LucidLink API itself.\n  sources:\n  - https://support.lucidlink.com/hc/en-us/articles/48014583746573-Collaborator-Service-Accounts-Beta\nend_user_identity:\n  sso:\n    protocol: SAML 2.0\n    providers: [Okta, Microsoft Entra ID / Azure AD, Google Workspace, OneLogin]\n    docs: https://support.lucidlink.com/hc/en-us/sections/31125114361741-Single-Sign-On-SAML\n  provisioning:\n    protocol: SCIM 2.0\n    docs: https://support.lucidlink.com/hc/en-us/articles/38861860730637-Understanding-SCIM-Integration-in-LucidLink\n    note:\
   \ Requires SSO first. Google Workspace group provisioning is not supported.\n  mfa:\n    supported: true\n    scope: Two-factor authentication for non-SSO users\n    docs: https://support.lucidlink.com/hc/en-us/articles/44137711794189-Configure-Multi-Factor-Authentication-for-your-User-Account\n  proxy_auth:\n    kerberos: 'Windows only, since build 3.7.8468 (2026-07-11)'\ngaps:\n- No OAuth2 scopes are declared or documented — a client credential is all-or-nothing across domains, filespaces and billing including setPaymentDetails.\n- No RFC 8414 authorization-server metadata and no OIDC discovery document at auth.lucidlink.com (both probed, both 404).\n- No 401 or 403 response is declared on any operation in the published Swagger document, although the live API returns 401.\n- Standard service accounts carry full workspace-admin authority; least privilege is only available through the Collaborator Service Accounts beta.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/authentication/lucidlink-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lucidlink/authentication/lucidlink-authentication.yml
 summary_line: oauth2/http-bearer · 3 schemes
 tags:
 - Company

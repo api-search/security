@@ -5,43 +5,43 @@ api_specs:
   label: Travel Risk API Adb API
   slug: travel-risk-api-adb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-adb-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-adb-api-openapi.yml
 - filename: travel-risk-api-auth-api-openapi.yml
   format: yaml
   label: Travel Risk API Auth API
   slug: travel-risk-api-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-auth-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-auth-api-openapi.yml
 - filename: travel-risk-api-billing-api-openapi.yml
   format: yaml
   label: Travel Risk API Billing API
   slug: travel-risk-api-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-billing-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-billing-api-openapi.yml
 - filename: travel-risk-api-ext-api-openapi.yml
   format: yaml
   label: Travel Risk API Ext API
   slug: travel-risk-api-ext-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-ext-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-ext-api-openapi.yml
 - filename: travel-risk-api-public-data-api-openapi.yml
   format: yaml
   label: Travel Risk API Public Data API
   slug: travel-risk-api-public-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-public-data-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-public-data-api-openapi.yml
 - filename: travel-risk-api-system-api-openapi.yml
   format: yaml
   label: Travel Risk API System API
   slug: travel-risk-api-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-system-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-system-api-openapi.yml
 - filename: travel-risk-api-usage-api-openapi.yml
   format: yaml
   label: Travel Risk API Usage API
   slug: travel-risk-api-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/openapi/travel-risk-api-usage-api-openapi.yml
+  url: https://artifacts.apis.io/travel-risk-api/openapi/travel-risk-api-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: travel-risk-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: travelriskapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 20:12:34 2027 GMT\n  hsts: null\ndomains:\n- domain: travelriskapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/travel-risk-api/refs/heads/main/security/travel-risk-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/travel-risk-api/security/travel-risk-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Travel

@@ -7,25 +7,25 @@ api_specs:
   label: Airport Gap Airports API
   slug: airport-gap-airports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-airports-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-airports-api-openapi.yml
 - filename: airport-gap-distance-api-openapi.yml
   format: yaml
   label: Airport Gap Distance API
   slug: airport-gap-distance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-distance-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-distance-api-openapi.yml
 - filename: airport-gap-favorites-api-openapi.yml
   format: yaml
   label: Airport Gap Favorites API
   slug: airport-gap-favorites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-favorites-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-favorites-api-openapi.yml
 - filename: airport-gap-tokens-api-openapi.yml
   format: yaml
   label: Airport Gap Tokens API
   slug: airport-gap-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/openapi/airport-gap-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/airport-gap/openapi/airport-gap-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: airport-gap-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: token\n  description: 'Token-based authentication. Include the token generated from POST /tokens. Header\n    format: Authorization: Bearer token=<Your Airport Gap Token>'\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airport-gap/refs/heads/main/authentication/airport-gap-authentication.yml
+source_yaml_url: https://artifacts.apis.io/airport-gap/authentication/airport-gap-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Airports

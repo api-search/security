@@ -5,7 +5,7 @@ api_specs:
   label: 1Token Public API
   slug: 1token-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/openapi/1token-public-api-openapi.yml
+  url: https://artifacts.apis.io/1token/openapi/1token-public-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_filename: 1token-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 1token.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 07:02:15 2026 GMT\n  hsts: false\n- host: 1ndex.1token.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 17:19:24 2026 GMT\n  hsts: false\ndomains:\n- domain: 1token.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1token/refs/heads/main/security/1token-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/1token/security/1token-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Digital Assets

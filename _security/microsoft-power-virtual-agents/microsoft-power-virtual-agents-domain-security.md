@@ -5,13 +5,13 @@ api_specs:
   label: Microsoft Power Virtual Agents Conversations API
   slug: microsoft-power-virtual-agents-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/openapi/microsoft-power-virtual-agents-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-virtual-agents/openapi/microsoft-power-virtual-agents-conversations-api-openapi.yml
 - filename: microsoft-power-virtual-agents-tokens-api-openapi.yml
   format: yaml
   label: Microsoft Power Virtual Agents Tokens API
   slug: microsoft-power-virtual-agents-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/openapi/microsoft-power-virtual-agents-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-power-virtual-agents/openapi/microsoft-power-virtual-agents-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -52,7 +52,7 @@ source_filename: microsoft-power-virtual-agents-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: copilotstudio.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 22:51:39 2027 GMT\n  hsts: null\n- host: www.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 19:55:21 2027 GMT\n  hsts: false\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/security/microsoft-power-virtual-agents-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-power-virtual-agents/security/microsoft-power-virtual-agents-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Chatbots

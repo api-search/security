@@ -5,25 +5,25 @@ api_specs:
   label: Famxplor Family Travel API Activities API
   slug: famxplor-family-travel-api-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/openapi/famxplor-family-travel-api-activities-api-openapi.yml
+  url: https://artifacts.apis.io/famxplor-family-travel-api/openapi/famxplor-family-travel-api-activities-api-openapi.yml
 - filename: famxplor-family-travel-api-nearest-activities-api-openapi.yml
   format: yaml
   label: Famxplor Family Travel API Nearest Activities API
   slug: famxplor-family-travel-api-nearest-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/openapi/famxplor-family-travel-api-nearest-activities-api-openapi.yml
+  url: https://artifacts.apis.io/famxplor-family-travel-api/openapi/famxplor-family-travel-api-nearest-activities-api-openapi.yml
 - filename: famxplor-family-travel-api-nearest-posts-api-openapi.yml
   format: yaml
   label: Famxplor Family Travel API Nearest Posts API
   slug: famxplor-family-travel-api-nearest-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/openapi/famxplor-family-travel-api-nearest-posts-api-openapi.yml
+  url: https://artifacts.apis.io/famxplor-family-travel-api/openapi/famxplor-family-travel-api-nearest-posts-api-openapi.yml
 - filename: famxplor-family-travel-api-travel-time-api-openapi.yml
   format: yaml
   label: Famxplor Family Travel API Travel Time API
   slug: famxplor-family-travel-api-travel-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/openapi/famxplor-family-travel-api-travel-time-api-openapi.yml
+  url: https://artifacts.apis.io/famxplor-family-travel-api/openapi/famxplor-family-travel-api-travel-time-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: famxplor-family-travel-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: famxplor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 07:24:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.famxplor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 21:09:17 2026 GMT\n  hsts: null\ndomains:\n- domain: famxplor.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/famxplor-family-travel-api/refs/heads/main/security/famxplor-family-travel-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/famxplor-family-travel-api/security/famxplor-family-travel-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Activities

@@ -28,7 +28,7 @@ source_filename: accent-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: accenttx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 16:23:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: accenttx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accent-therapeutics/refs/heads/main/security/accent-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/accent-therapeutics/security/accent-therapeutics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

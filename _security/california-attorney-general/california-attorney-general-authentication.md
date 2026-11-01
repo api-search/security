@@ -7,43 +7,43 @@ api_specs:
   label: California Attorney General Content API
   slug: california-attorney-general-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-content-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-content-api-openapi.yml
 - filename: california-attorney-general-discovery-api-openapi.yml
   format: yaml
   label: California Attorney General Discovery API
   slug: california-attorney-general-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-discovery-api-openapi.yml
 - filename: california-attorney-general-feedback-api-openapi.yml
   format: yaml
   label: California Attorney General Feedback API
   slug: california-attorney-general-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-feedback-api-openapi.yml
 - filename: california-attorney-general-files-api-openapi.yml
   format: yaml
   label: California Attorney General Files API
   slug: california-attorney-general-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-files-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-files-api-openapi.yml
 - filename: california-attorney-general-paragraphs-api-openapi.yml
   format: yaml
   label: California Attorney General Paragraphs API
   slug: california-attorney-general-paragraphs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-paragraphs-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-paragraphs-api-openapi.yml
 - filename: california-attorney-general-site-configuration-api-openapi.yml
   format: yaml
   label: California Attorney General Site Configuration API
   slug: california-attorney-general-site-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-site-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-site-configuration-api-openapi.yml
 - filename: california-attorney-general-taxonomies-api-openapi.yml
   format: yaml
   label: California Attorney General Taxonomies API
   slug: california-attorney-general-taxonomies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/openapi/california-attorney-general-taxonomies-api-openapi.yml
+  url: https://artifacts.apis.io/california-attorney-general/openapi/california-attorney-general-taxonomies-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live anonymous pr
   \  with no documented way for a member of the public to obtain credentials — those routes exist for DOJ content editors.'\nschemes: []\nsecurity_requirement: []\nmodel:\n  anonymous_read: true\n  credentialed_read: not-offered\n  write: anonymous on node--signup / node--suggestion / node--bug only; credentialed (undocumented, staff) elsewhere\n  note: Empty-body anonymous POST returns 400 \"Empty request body.\" on the three feedback routes (authorisation\n    passed, validation failed) and 401 on every other route probed. No populated write was sent.\nauthorization_visible_in_responses:\n  mechanism: Drupal entity access, applied silently per resource type\n  signal: meta.omitted\n  detail: 32 of the 70 advertised resource types return HTTP 200 with an empty data array and a meta.omitted block.\n    These are configuration entities (views, field definitions, roles, webforms, workflows) plus the three feedback\n    types and node--dataset when paged with page[limit]=1 (its lowest-id node\
   \ is unpublished). A caller sees a 200\n    and an empty collection, not a 401 or 403.\nprobes:\n- url: https://data-openjustice.doj.ca.gov/jsonapi\n  method: GET\n  credentials: none\n  status: 200\n- url: https://data-openjustice.doj.ca.gov/jsonapi/node/dataset\n  method: GET\n  credentials: none\n  status: 200\n- url: https://data-openjustice.doj.ca.gov/jsonapi/node/signup\n  method: POST\n  credentials: none\n  body: (empty)\n  status: 400\n- url: https://data-openjustice.doj.ca.gov/jsonapi/node/suggestion\n  method: POST\n  credentials: none\n  body: (empty)\n  status: 400\n- url: https://data-openjustice.doj.ca.gov/jsonapi/node/bug\n  method: POST\n  credentials: none\n  body: (empty)\n  status: 400\n- url: https://data-openjustice.doj.ca.gov/jsonapi/node/dataset\n  method: POST\n  credentials: none\n  body: (empty)\n  status: 401\n- url: https://data-openjustice.doj.ca.gov/jsonapi/node/stats/1a1dff1d-24e8-4050-a617-8f45dba7445f\n  method: PATCH\n  credentials: none\n  status: 401\n\
   - url: https://data-openjustice.doj.ca.gov/jsonapi/node/dataset/1a1dff1d-24e8-4050-a617-8f45dba7445f\n  method: DELETE\n  credentials: none\n  status: 401\n- url: https://oag.ca.gov/.well-known/openid-configuration\n  method: GET\n  status: 404\n- url: https://oag.ca.gov/.well-known/oauth-authorization-server\n  method: GET\n  status: 404\n- url: https://data-openjustice.doj.ca.gov/.well-known/oauth-authorization-server\n  method: GET\n  status: 301\n  note: redirects to the site root\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/california-attorney-general/refs/heads/main/authentication/california-attorney-general-authentication.yml
+source_yaml_url: https://artifacts.apis.io/california-attorney-general/authentication/california-attorney-general-authentication.yml
 summary_line: 0 schemes
 tags:
 - State Government

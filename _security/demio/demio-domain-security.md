@@ -5,19 +5,19 @@ api_specs:
   label: Demio Events API
   slug: demio-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-events-api-openapi.yml
+  url: https://artifacts.apis.io/demio/openapi/demio-events-api-openapi.yml
 - filename: demio-intro-api-openapi.yml
   format: yaml
   label: Demio Intro API
   slug: demio-intro-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-intro-api-openapi.yml
+  url: https://artifacts.apis.io/demio/openapi/demio-intro-api-openapi.yml
 - filename: demio-reports-api-openapi.yml
   format: yaml
   label: Demio Reports API
   slug: demio-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/openapi/demio-reports-api-openapi.yml
+  url: https://artifacts.apis.io/demio/openapi/demio-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: demio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.demio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 17:44:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: publicdemioapi.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: null\n- host: my.demio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: demio.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/demio/refs/heads/main/security/demio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/demio/security/demio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

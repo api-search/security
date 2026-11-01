@@ -24,7 +24,7 @@ source_filename: airexenergy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: airex-energy.com\n  https: false\ndomains:\n- domain: airex-energy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\nnote: 'The TLS/HTTP leg of this probe ran while the airex-energy.com origin (51.79.107.79)\n  had stopped answering on port 443 mid-pass; hosts[0].https: false is that outage,\n  not a missing certificate. Earlier in the same run the apex answered HTTP 200 over\n  HTTPS and www.airex-energy.com 301-redirected to it. The DNS findings (DNSSEC absent,\n  no CAA, SPF and DMARC published with p=quarantine) are unaffected.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airexenergy/refs/heads/main/security/airexenergy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airexenergy/security/airexenergy-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

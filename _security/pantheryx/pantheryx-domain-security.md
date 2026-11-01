@@ -45,7 +45,7 @@ source_filename: pantheryx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pantheryx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 15:58:47 2026 GMT\n  hsts: false\n- host: relesium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 21:14:32 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\n- host: www.lifesfirstnaturals.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 12:18:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: pantheryx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: relesium.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pantheryx/refs/heads/main/security/pantheryx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pantheryx/security/pantheryx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

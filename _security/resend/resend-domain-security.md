@@ -5,37 +5,37 @@ api_specs:
   label: Resend Audiences API
   slug: resend-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-audiences-api-openapi.yml
 - filename: resend-broadcasts-api-openapi.yml
   format: yaml
   label: Resend Broadcasts API
   slug: resend-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-broadcasts-api-openapi.yml
 - filename: resend-domains-api-openapi.yml
   format: yaml
   label: Resend Domains API
   slug: resend-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-domains-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-domains-api-openapi.yml
 - filename: resend-emails-api-openapi.yml
   format: yaml
   label: Resend Emails API
   slug: resend-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-emails-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-emails-api-openapi.yml
 - filename: resend-send-api-openapi.yml
   format: yaml
   label: Resend Send API
   slug: resend-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-send-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-send-api-openapi.yml
 - filename: resend-apis-api-openapi.yml
   format: yaml
   label: Resend APIS API
   slug: resend-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/openapi/resend-apis-api-openapi.yml
+  url: https://artifacts.apis.io/resend/openapi/resend-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: resend-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: resend.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 17:52:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.resend.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 13:48:19 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: resend.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resend/refs/heads/main/security/resend-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/resend/security/resend-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email

@@ -5,19 +5,19 @@ api_specs:
   label: Novo Accounts
   slug: novo-accounts
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/openapi/_original/novo-bank-openapi.yml
+  url: https://artifacts.apis.io/novo-bank/openapi/_original/novo-bank-openapi.yml
 - filename: novo-bank-openapi.yml
   format: yaml
   label: Novo Transactions
   slug: novo-transactions
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/openapi/_original/novo-bank-openapi.yml
+  url: https://artifacts.apis.io/novo-bank/openapi/_original/novo-bank-openapi.yml
 - filename: novo-bank-openapi.yml
   format: yaml
   label: Novo Payments
   slug: novo-payments
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/openapi/_original/novo-bank-openapi.yml
+  url: https://artifacts.apis.io/novo-bank/openapi/_original/novo-bank-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -34,7 +34,7 @@ source_filename: novo-bank-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.novo.co/\nurl: https://trust.novo.co/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.novo.co/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/novo-bank/refs/heads/main/security/novo-bank-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/novo-bank/security/novo-bank-trust-center.yml
 summary_line: SOC 2
 tags:
 - Banking

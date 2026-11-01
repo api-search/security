@@ -8,19 +8,19 @@ api_specs:
   label: Credgenics Authentication API
   slug: credgenics-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-authentication-api-openapi.yml
 - filename: credgenics-credit-line-api-openapi.yml
   format: yaml
   label: Credgenics Credit Line API
   slug: credgenics-credit-line-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-credit-line-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-credit-line-api-openapi.yml
 - filename: credgenics-lending-api-openapi.yml
   format: yaml
   label: Credgenics Lending API
   slug: credgenics-lending-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/openapi/credgenics-lending-api-openapi.yml
+  url: https://artifacts.apis.io/credgenics/openapi/credgenics-lending-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -49,7 +49,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/credgenics-recovery-openapi.yml\ndocs: https://docs.credgenics.com/#getting-started\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  model: client-credentials-exchange\nschemes:\n- name: authenticationToken\n  type: apiKey\n  in: header\n  parameter: authenticationtoken\n  description: >-\n    Short-lived API token supplied in the `authenticationtoken` header on every\n    resource request. Obtained by exchanging client credentials at\n    POST /user/public/access-token.\n  sources:\n  - openapi/credgenics-recovery-openapi.yml\nflow:\n  token_endpoint: https://apiprod.credgenics.com/user/public/access-token\n  grant: client_credentials\n  request_fields: [client_id, client_secret, token_expiry_duration]\n  response_token_field: api_key\n  header: authenticationtoken\n  tenant_scoping:\n    parameter: company_id\n    location: query\n    required: true\n  token_expiry_default_seconds: 900\n  token_expiry_max_seconds:\
   \ 86400\n  client_secret_validity: 6 months\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/credgenics/refs/heads/main/authentication/credgenics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/credgenics/authentication/credgenics-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

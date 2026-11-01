@@ -27,7 +27,7 @@ source_filename: partyslate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: partyslate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  8 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: partyslate.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/partyslate/refs/heads/main/security/partyslate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/partyslate/security/partyslate-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

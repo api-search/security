@@ -31,7 +31,7 @@ source_filename: flipkart-marketplace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: seller.flipkart.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 29 13:30:06 2026 GMT\n  hsts: false\ndomains:\n- domain: flipkart.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flipkart-marketplace/refs/heads/main/security/flipkart-marketplace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flipkart-marketplace/security/flipkart-marketplace-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Shopping

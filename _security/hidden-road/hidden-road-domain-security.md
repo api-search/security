@@ -50,7 +50,7 @@ source_filename: hidden-road-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ripple.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 07:42:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.hiddenroad.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: null\n- host: static.hiddenroad.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: ripple.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: hiddenroad.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hidden-road/refs/heads/main/security/hidden-road-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hidden-road/security/hidden-road-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

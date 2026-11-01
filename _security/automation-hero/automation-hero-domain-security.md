@@ -26,7 +26,7 @@ source_filename: automation-hero-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: automationhero.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  9 03:29:44 2027 GMT\n  hsts: false\ndomains:\n- domain: automationhero.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-hero/refs/heads/main/security/automation-hero-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/automation-hero/security/automation-hero-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

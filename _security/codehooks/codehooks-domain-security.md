@@ -5,25 +5,25 @@ api_specs:
   label: Codehooks Events (AsyncAPI)
   slug: codehooks-events
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/asyncapi/codehooks-events-asyncapi.yml
+  url: https://artifacts.apis.io/codehooks/asyncapi/codehooks-events-asyncapi.yml
 - filename: codehooks-documents-api-openapi.yml
   format: yaml
   label: Codehooks Documents API
   slug: codehooks-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-documents-api-openapi.yml
+  url: https://artifacts.apis.io/codehooks/openapi/codehooks-documents-api-openapi.yml
 - filename: codehooks-key-value-store-api-openapi.yml
   format: yaml
   label: Codehooks Key-Value Store API
   slug: codehooks-key-value-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-key-value-store-api-openapi.yml
+  url: https://artifacts.apis.io/codehooks/openapi/codehooks-key-value-store-api-openapi.yml
 - filename: codehooks-queue-api-openapi.yml
   format: yaml
   label: Codehooks Queue API
   slug: codehooks-queue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/openapi/codehooks-queue-api-openapi.yml
+  url: https://artifacts.apis.io/codehooks/openapi/codehooks-queue-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -54,7 +54,7 @@ source_filename: codehooks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: codehooks.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 20:43:32 2026 GMT\n  hsts: false\ndomains:\n- domain: codehooks.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/security/codehooks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/codehooks/security/codehooks-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Backend

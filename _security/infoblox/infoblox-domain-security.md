@@ -5,37 +5,37 @@ api_specs:
   label: Infoblox DHCP API
   slug: infoblox-dhcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dhcp-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dhcp-api-openapi.yml
 - filename: infoblox-dns-records-api-openapi.yml
   format: yaml
   label: Infoblox DNS Records API
   slug: infoblox-dns-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dns-records-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dns-records-api-openapi.yml
 - filename: infoblox-dns-zones-api-openapi.yml
   format: yaml
   label: Infoblox DNS Zones API
   slug: infoblox-dns-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dns-zones-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dns-zones-api-openapi.yml
 - filename: infoblox-grid-api-openapi.yml
   format: yaml
   label: Infoblox Grid API
   slug: infoblox-grid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-grid-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-grid-api-openapi.yml
 - filename: infoblox-ip-address-management-api-openapi.yml
   format: yaml
   label: Infoblox IP Address Management API
   slug: infoblox-ip-address-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-ip-address-management-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-ip-address-management-api-openapi.yml
 - filename: infoblox-networks-api-openapi.yml
   format: yaml
   label: Infoblox Networks API
   slug: infoblox-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-networks-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-networks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: infoblox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.infoblox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 06:17:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: csp.infoblox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.infoblox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 21:29:52 2026 GMT\n  hsts: true\n  hsts_max_age: 34560000\ndomains:\n- domain: infoblox.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issuevmc \"digicert.com\"\n  - 0 issuemail \"digicert.com\"\n  - 128 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/security/infoblox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/infoblox/security/infoblox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cloud

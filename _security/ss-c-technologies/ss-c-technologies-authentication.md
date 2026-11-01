@@ -7,31 +7,31 @@ api_specs:
   label: SS&C Technologies Market Data Service API
   slug: ss-c-technologies-marketdataservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/openapi/ss-c-technologies-marketdataservice-api-openapi.yml
+  url: https://artifacts.apis.io/ss-c-technologies/openapi/ss-c-technologies-marketdataservice-api-openapi.yml
 - filename: ss-c-technologies-submitorderservice-api-openapi.yml
   format: yaml
   label: SS&C Technologies Submit Order Service API
   slug: ss-c-technologies-submitorderservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/openapi/ss-c-technologies-submitorderservice-api-openapi.yml
+  url: https://artifacts.apis.io/ss-c-technologies/openapi/ss-c-technologies-submitorderservice-api-openapi.yml
 - filename: ss-c-technologies-userservices-api-openapi.yml
   format: yaml
   label: SS&C Technologies User Services API
   slug: ss-c-technologies-userservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/openapi/ss-c-technologies-userservices-api-openapi.yml
+  url: https://artifacts.apis.io/ss-c-technologies/openapi/ss-c-technologies-userservices-api-openapi.yml
 - filename: ss-c-technologies-xapiserver-api-openapi.yml
   format: yaml
   label: SS&C Technologies XAPI Server API
   slug: ss-c-technologies-xapiserver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/openapi/ss-c-technologies-xapiserver-api-openapi.yml
+  url: https://artifacts.apis.io/ss-c-technologies/openapi/ss-c-technologies-xapiserver-api-openapi.yml
 - filename: ss-c-technologies-utility-services-api-openapi.yml
   format: yaml
   label: SS&C Technologies Utility Services API
   slug: ss-c-technologies-utility-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/openapi/ss-c-technologies-utility-services-api-openapi.yml
+  url: https://artifacts.apis.io/ss-c-technologies/openapi/ss-c-technologies-utility-services-api-openapi.yml
 auth_types:
 - http
 - session-token
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: searched\nsource: >-\n  openapi/s
   \  applies_to: SS&C Eze EMS xAPI, where the client domain is SRP-enabled\n  sources:\n  - grpc/ss-c-technologies-xapi-utilities.proto\n  - https://github.com/ezesoft/xapi/blob/master/faq.md\n  description: >-\n    Secure Remote Password (SRP) login, a zero-knowledge password proof, exposed as the\n    StartLoginSrp / CompleteLoginSrp RPC pair (REST GET /api/v1/authentication/start-login-srp and\n    /api/v1/authentication/complete-login-srp) plus ChangePasswordSRP.\n  availability: >-\n    SS&C's FAQ states both SRP and standard login work on an SRP-enabled domain, and only standard\n    login works on a domain that is not SRP-enabled. Whether a domain is SRP-enabled is set by SS&C.\n- name: MFA\n  type: mfa\n  applies_to: SS&C Eze EMS xAPI\n  sources:\n  - grpc/ss-c-technologies-xapi-utilities.proto\n  description: >-\n    UtilityServices.MultiFactorAuthentication (REST GET\n    /api/v1/authentication/multi-factor-authentication). ConnectResponse carries MFASecurityCode,\n    MFAtotpPreference\
   \ and MFAtotpValue fields, so TOTP is a supported second factor.\n- name: SS&C APIM OpenID Connect\n  type: openIdConnect\n  openIdConnectUrl: https://ssoprod.ssnc.cloud/auth/realms/APIM/.well-known/openid-configuration\n  applies_to: the SS&C APIM developer portal (developer.ssctech.com / apim.ssnc.cloud)\n  sources:\n  - well-known/ss-c-technologies-openid-configuration.json\n  description: >-\n    A Keycloak realm named APIM. The discovery document advertises authorization_code,\n    client_credentials, implicit, password, refresh_token, device_code, jwt-bearer, token-exchange,\n    uma-ticket and CIBA grants, PKCE (S256), and a scope list that includes one API-specific scope,\n    events_enrichment_api_member.\n  note: >-\n    This governs the developer portal and the Kong gateway it fronts, not the Eze EMS xAPI. Every\n    portal catalog endpoint probed anonymously 302s to https://developer.ssctech.com/sso/login.\ncredential_acquisition:\n  self_serve: false\n  note: >-\n    No surface\
   \ here issues credentials without a human. SS&C Eze says \"Server details and\n    authentication credentials will be provided by your SS&C Eze representative\"; the SS&C APIM\n    portal says to contact a Client Relationship manager; Black Diamond routes new partners to a\n    request form and existing clients to their account team.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ss-c-technologies/refs/heads/main/authentication/ss-c-technologies-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ss-c-technologies/authentication/ss-c-technologies-authentication.yml
 summary_line: http/session-token/srp/openIdConnect · 5 schemes
 tags:
 - Financial Services

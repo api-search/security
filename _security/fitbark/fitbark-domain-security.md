@@ -5,31 +5,31 @@ api_specs:
   label: FitBark Activity API
   slug: fitbark-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-activity-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-activity-api-openapi.yml
 - filename: fitbark-dog-api-openapi.yml
   format: yaml
   label: FitBark Dog API
   slug: fitbark-dog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-dog-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-dog-api-openapi.yml
 - filename: fitbark-goals-api-openapi.yml
   format: yaml
   label: FitBark Goals API
   slug: fitbark-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-goals-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-goals-api-openapi.yml
 - filename: fitbark-user-api-openapi.yml
   format: yaml
   label: FitBark User API
   slug: fitbark-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-user-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-user-api-openapi.yml
 - filename: fitbark-oauth-api-openapi.yml
   format: yaml
   label: FitBark O Auth API
   slug: fitbark-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/openapi/fitbark-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/fitbark/openapi/fitbark-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: fitbark-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fitbark.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 21:16:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: fitbark.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fitbark/refs/heads/main/security/fitbark-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fitbark/security/fitbark-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

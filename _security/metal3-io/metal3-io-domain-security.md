@@ -26,7 +26,7 @@ source_filename: metal3-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: metal3.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 19:23:53 2026 GMT\n  hsts: false\ndomains:\n- domain: metal3.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/metal3-io/refs/heads/main/security/metal3-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/metal3-io/security/metal3-io-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Bare Metal

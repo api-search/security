@@ -51,10 +51,10 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: searched\nsource: https://snap.flyhold.in/docs.html\ndocs: https://snap.flyhold.in/docs.html\ncorroboration: >-\n  https://snap.flyhold.in/llms.txt states: Auth (any one) — query api_key, or header X-API-Key,\n  or Authorization Bearer <key>.\nchecked: '2026-09-17'\nsummary:\n  types: [apiKey, http]\n  api_key_in: [query, header]\n  http_schemes: [bearer]\nnote: >-\n  Snap API uses a single opaque API key issued from the dashboard after signup (register.html grants\n  200 free credits). The same key may be presented three interchangeable ways. There is no OpenAPI\n  securityScheme published; this profile is read from the developer documentation and llms.txt, not\n  derived from a machine-readable contract.\nschemes:\n  - name: api_key_query\n    type: apiKey\n    in: query\n    parameter_name: api_key\n    aliases: [token, apiKey]\n    description: >-\n      Pass the dashboard API key as the api_key query parameter (aliases token / apiKey accepted).\n\
   \      Convenient for browser and n8n HTTP-node use; note it exposes the key in URLs and logs.\n    sources: [docs.html, llms.txt]\n  - name: api_key_header\n    type: apiKey\n    in: header\n    parameter_name: X-API-Key\n    description: Pass the dashboard API key in the X-API-Key request header. Recommended for server-to-server use.\n    sources: [docs.html, llms.txt]\n  - name: bearer\n    type: http\n    scheme: bearer\n    description: >-\n      Pass the dashboard API key as a bearer token via Authorization: Bearer <key>. Same key value\n      as the other two methods.\n    sources: [docs.html, llms.txt]\nfailure:\n  status: 403\n  meaning: Missing, invalid, or inactive API key.\nkey_provisioning:\n  signup_url: https://snap.flyhold.in/register.html\n  free_grant: 200 credits/month on the Developer tier\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snap-api-website-screenshots-in-one-call/refs/heads/main/authentication/snap-api-website-screenshots-in-one-call-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snap-api-website-screenshots-in-one-call/authentication/snap-api-website-screenshots-in-one-call-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- screenshot-api
+- Screenshots
 - Developer Tools
 - Web Capture
 - n8n

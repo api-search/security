@@ -5,25 +5,25 @@ api_specs:
   label: Politecnico di Milano Catalog API
   slug: politecnico-di-milano-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-milano/openapi/politecnico-di-milano-catalog-api-openapi.yml
 - filename: politecnico-di-milano-distributions-api-openapi.yml
   format: yaml
   label: Politecnico di Milano Distributions API
   slug: politecnico-di-milano-distributions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-distributions-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-milano/openapi/politecnico-di-milano-distributions-api-openapi.yml
 - filename: politecnico-di-milano-federation-api-openapi.yml
   format: yaml
   label: Politecnico di Milano Federation API
   slug: politecnico-di-milano-federation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-federation-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-milano/openapi/politecnico-di-milano-federation-api-openapi.yml
 - filename: politecnico-di-milano-harvesting-api-openapi.yml
   format: yaml
   label: Politecnico di Milano Harvesting API
   slug: politecnico-di-milano-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/openapi/politecnico-di-milano-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/politecnico-di-milano/openapi/politecnico-di-milano-harvesting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: politecnico-di-milano-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.polimi.it\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 15:12:43 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: re.public.polimi.it\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 13:14:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: opendata.polimi.it\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 01:00:39 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: polimi.it\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/security/politecnico-di-milano-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/politecnico-di-milano/security/politecnico-di-milano-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education

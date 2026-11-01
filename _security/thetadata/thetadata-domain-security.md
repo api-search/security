@@ -5,37 +5,37 @@ api_specs:
   label: ThetaData Streaming WebSocket API
   slug: thetadata-streaming-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/asyncapi/thetadata-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/thetadata/asyncapi/thetadata-streaming-asyncapi.yml
 - filename: thetadata-calendar-api-openapi.yml
   format: yaml
   label: ThetaData Calendar API
   slug: thetadata-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/thetadata/openapi/thetadata-calendar-api-openapi.yml
 - filename: thetadata-index-api-openapi.yml
   format: yaml
   label: ThetaData Index API
   slug: thetadata-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-index-api-openapi.yml
+  url: https://artifacts.apis.io/thetadata/openapi/thetadata-index-api-openapi.yml
 - filename: thetadata-interest-rate-api-openapi.yml
   format: yaml
   label: ThetaData Interest Rate API
   slug: thetadata-interest-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-interest-rate-api-openapi.yml
+  url: https://artifacts.apis.io/thetadata/openapi/thetadata-interest-rate-api-openapi.yml
 - filename: thetadata-option-api-openapi.yml
   format: yaml
   label: ThetaData Option API
   slug: thetadata-option-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-option-api-openapi.yml
+  url: https://artifacts.apis.io/thetadata/openapi/thetadata-option-api-openapi.yml
 - filename: thetadata-stock-api-openapi.yml
   format: yaml
   label: ThetaData Stock API
   slug: thetadata-stock-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/openapi/thetadata-stock-api-openapi.yml
+  url: https://artifacts.apis.io/thetadata/openapi/thetadata-stock-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: thetadata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thetadata.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 13:54:04 2026 GMT\n  hsts: false\n- host: docs.thetadata.us\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 14:31:18 2026 GMT\n  hsts: false\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: thetadata.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: thetadata.us\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/security/thetadata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/thetadata/security/thetadata-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Finance

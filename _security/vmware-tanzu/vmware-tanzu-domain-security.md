@@ -5,31 +5,31 @@ api_specs:
   label: VMware Tanzu Authentication API
   slug: vmware-tanzu-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-authentication-api-openapi.yml
 - filename: vmware-tanzu-clusters-api-openapi.yml
   format: yaml
   label: VMware Tanzu Clusters API
   slug: vmware-tanzu-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-clusters-api-openapi.yml
 - filename: vmware-tanzu-global-namespaces-api-openapi.yml
   format: yaml
   label: VMware Tanzu Global Namespaces API
   slug: vmware-tanzu-global-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-global-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-global-namespaces-api-openapi.yml
 - filename: vmware-tanzu-resource-groups-api-openapi.yml
   format: yaml
   label: VMware Tanzu Resource Groups API
   slug: vmware-tanzu-resource-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-resource-groups-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-resource-groups-api-openapi.yml
 - filename: vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml
   format: yaml
   label: VMware Tanzu Kubernetes Clusters API
   slug: vmware-tanzu-tanzu-kubernetes-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/openapi/vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/vmware-tanzu/openapi/vmware-tanzu-tanzu-kubernetes-clusters-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: vmware-tanzu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tanzu.vmware.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.vmware.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: prod-2.nsxservicemesh.vmware.com\n  https: false\ndomains:\n- domain: vmware.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"entrust.net\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/security/vmware-tanzu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vmware-tanzu/security/vmware-tanzu-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Cloud-Native

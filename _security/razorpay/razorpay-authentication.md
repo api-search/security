@@ -19,19 +19,19 @@ api_specs:
   label: Razorpay Orders API
   slug: razorpay-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-orders-api-openapi.yml
+  url: https://artifacts.apis.io/razorpay/openapi/razorpay-orders-api-openapi.yml
 - filename: razorpay-payments-api-openapi.yml
   format: yaml
   label: Razorpay Payments API
   slug: razorpay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/razorpay/openapi/razorpay-payments-api-openapi.yml
 - filename: razorpay-refunds-api-openapi.yml
   format: yaml
   label: Razorpay Refunds API
   slug: razorpay-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/openapi/razorpay-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/razorpay/openapi/razorpay-refunds-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: razorpay-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/razorpay-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth — username is Razorpay key_id, password is key_secret.\n  sources:\n  - openapi/razorpay-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/authentication/razorpay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/razorpay/authentication/razorpay-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Payments

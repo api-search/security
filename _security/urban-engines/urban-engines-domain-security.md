@@ -25,7 +25,7 @@ source_filename: urban-engines-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.urbanengines.com\n  https: false\ndomains:\n- domain: urbanengines.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/urban-engines/refs/heads/main/security/urban-engines-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/urban-engines/security/urban-engines-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

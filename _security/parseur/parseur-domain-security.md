@@ -5,37 +5,37 @@ api_specs:
   label: Parseur Async API
   slug: parseur-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-async-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-async-api-openapi.yml
 - filename: parseur-bootstrap-api-openapi.yml
   format: yaml
   label: Parseur Bootstrap API
   slug: parseur-bootstrap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-bootstrap-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-bootstrap-api-openapi.yml
 - filename: parseur-document-api-openapi.yml
   format: yaml
   label: Parseur Document API
   slug: parseur-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-document-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-document-api-openapi.yml
 - filename: parseur-parser-api-openapi.yml
   format: yaml
   label: Parseur Parser API
   slug: parseur-parser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-parser-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-parser-api-openapi.yml
 - filename: parseur-template-api-openapi.yml
   format: yaml
   label: Parseur Template API
   slug: parseur-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-template-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-template-api-openapi.yml
 - filename: parseur-webhook-api-openapi.yml
   format: yaml
   label: Parseur Webhook API
   slug: parseur-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/openapi/parseur-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/parseur/openapi/parseur-webhook-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: parseur-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: parseur.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 00:49:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.parseur.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 14:33:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.parseur.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jul 21 00:05:23 2026 GMT\n  hsts: false\ndomains:\n- domain: parseur.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parseur/refs/heads/main/security/parseur-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parseur/security/parseur-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

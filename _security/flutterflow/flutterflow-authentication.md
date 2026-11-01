@@ -34,7 +34,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.flutterflow.io/resources/projects/settings/project-apis/\ndocs: https://docs.flutterflow.io/resources/projects/settings/project-apis/\nnotes: >-\n  FlutterFlow has no published OpenAPI for its Project APIs, so this profile is\n  captured from the documentation rather than derived from a securityScheme. All\n  Project API endpoints require a Bearer FlutterFlow API token in the Authorization\n  header. The same token authenticates the flutterflow_cli client and the AI MCP\n  server. There is no OAuth / scope surface.\nsummary:\n  types: [http]\n  http_schemes: [bearer]\n  oauth2: false\n  api_key_in: []\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearer_format: FlutterFlow API token\n  in: header\n  header: Authorization\n  value_format: 'Bearer <FLUTTERFLOW_API_TOKEN>'\n  token_management:\n    cli_env: FLUTTERFLOW_API_TOKEN\n    credentials_file: ~/.flutterflow/credentials.json\n  sources:\
   \ [docs]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flutterflow/refs/heads/main/authentication/flutterflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flutterflow/authentication/flutterflow-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

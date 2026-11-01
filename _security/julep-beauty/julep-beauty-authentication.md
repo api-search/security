@@ -7,19 +7,19 @@ api_specs:
   label: Julep Beauty Cart API
   slug: julep-beauty-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/openapi/julep-beauty-cart-api-openapi.yml
+  url: https://artifacts.apis.io/julep-beauty/openapi/julep-beauty-cart-api-openapi.yml
 - filename: julep-beauty-discovery-api-openapi.yml
   format: yaml
   label: Julep Beauty Discovery API
   slug: julep-beauty-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/openapi/julep-beauty-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/julep-beauty/openapi/julep-beauty-discovery-api-openapi.yml
 - filename: julep-beauty-search-api-openapi.yml
   format: yaml
   label: Julep Beauty Search API
   slug: julep-beauty-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/openapi/julep-beauty-search-api-openapi.yml
+  url: https://artifacts.apis.io/julep-beauty/openapi/julep-beauty-search-api-openapi.yml
 auth_types: []
 description: Julep's storefront has two distinct authentication postures. The public read-only catalog surface requires no credentials at all. The customer-account surface is a full OpenID Connect deployment (Shopify Customer Accounts) whose discovery document is served on Julep's own domain, with the interactive endpoints branded on account.julep.com.
 kind: authentication
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.jul
   \  openIdConnectUrl: https://www.julep.com/.well-known/openid-configuration\n  applies_to: Customer account (order history, profile, saved addresses)\n  description: >-\n    OpenID Connect authorization-code flow with PKCE. Discovery is also exposed as\n    RFC 8414 authorization-server metadata at /.well-known/oauth-authorization-server\n    (byte-identical at time of probe).\n  issuer: https://shopify.com/authentication/2228781091\n  endpoints:\n    authorization: https://account.julep.com/authentication/oauth/authorize\n    token: https://account.julep.com/authentication/oauth/token\n    end_session: https://account.julep.com/authentication/logout\n    jwks: https://account.julep.com/authentication/.well-known/jwks.json\n  response_types_supported: [code]\n  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  - 'urn:ietf:params:oauth:grant-type:jwt-bearer'\n  code_challenge_methods_supported: [S256]\n  token_endpoint_auth_methods_supported: [client_secret_basic]\n \
   \ id_token_signing_alg_values_supported: [RS256]\n  subject_types_supported: [public]\n  claims_supported: [iss, sub, aud, exp, iat, nonce, sid, email, email_verified]\n  scopes: scopes/julep-beauty-scopes.yml\n  files:\n  - well-known/julep-beauty-openid-configuration.json\n  - well-known/julep-beauty-oauth-authorization-server.json\n- id: ucp-agent-profile\n  type: other\n  applies_to: UCP/MCP commerce endpoint (POST /api/ucp/mcp)\n  description: >-\n    The MCP endpoint does not accept anonymous callers. Probing tools/list without an\n    agent identity returns JSON-RPC error -32001 \"UCP discovery failed\" with code\n    invalid_profile_url and the message \"Unable to fetch agent profile: Missing profile\n    uri\" — i.e. the caller must present a resolvable UCP agent profile URI. Payment\n    additionally requires explicit, contemporaneous buyer approval.\n  evidence: https://www.julep.com/.well-known/ucp\n  probed: '2026-07-19'\nnotes:\n- Julep publishes no developer portal, no API\
   \ keys, and no partner/server-to-server\n  credential program of its own; all machine access is either anonymous storefront JSON\n  or platform-mediated (Shopify Customer Accounts OIDC, UCP agent profiles).\n- No RFC 9116 security.txt is published (404 on 2026-07-19).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/julep-beauty/refs/heads/main/authentication/julep-beauty-authentication.yml
+source_yaml_url: https://artifacts.apis.io/julep-beauty/authentication/julep-beauty-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

@@ -7,163 +7,163 @@ api_specs:
   label: Qwiet Ai Alerting API
   slug: qwiet-ai-alerting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-alerting-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-alerting-api-openapi.yml
 - filename: qwiet-ai-analyze-api-openapi.yml
   format: yaml
   label: Qwiet Ai Analyze API
   slug: qwiet-ai-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-analyze-api-openapi.yml
 - filename: qwiet-ai-app-groups-api-openapi.yml
   format: yaml
   label: Qwiet Ai App Groups API
   slug: qwiet-ai-app-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-app-groups-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-app-groups-api-openapi.yml
 - filename: qwiet-ai-app-labels-api-openapi.yml
   format: yaml
   label: Qwiet Ai App Labels API
   slug: qwiet-ai-app-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-app-labels-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-app-labels-api-openapi.yml
 - filename: qwiet-ai-apps-api-openapi.yml
   format: yaml
   label: Qwiet Ai Apps API
   slug: qwiet-ai-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-apps-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-apps-api-openapi.yml
 - filename: qwiet-ai-autofix-api-openapi.yml
   format: yaml
   label: Qwiet Ai Autofix API
   slug: qwiet-ai-autofix-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-autofix-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-autofix-api-openapi.yml
 - filename: qwiet-ai-azureboard-api-openapi.yml
   format: yaml
   label: Qwiet Ai Azureboard API
   slug: qwiet-ai-azureboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-azureboard-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-azureboard-api-openapi.yml
 - filename: qwiet-ai-branches-api-openapi.yml
   format: yaml
   label: Qwiet Ai Branches API
   slug: qwiet-ai-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-branches-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-branches-api-openapi.yml
 - filename: qwiet-ai-comments-api-openapi.yml
   format: yaml
   label: Qwiet Ai Comments API
   slug: qwiet-ai-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-comments-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-comments-api-openapi.yml
 - filename: qwiet-ai-compounds-api-openapi.yml
   format: yaml
   label: Qwiet Ai Compounds API
   slug: qwiet-ai-compounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-compounds-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-compounds-api-openapi.yml
 - filename: qwiet-ai-findings-api-openapi.yml
   format: yaml
   label: Qwiet Ai Findings API
   slug: qwiet-ai-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-findings-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-findings-api-openapi.yml
 - filename: qwiet-ai-org-backup-api-openapi.yml
   format: yaml
   label: Qwiet Ai Org Backup API
   slug: qwiet-ai-org-backup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-org-backup-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-org-backup-api-openapi.yml
 - filename: qwiet-ai-orgs-api-openapi.yml
   format: yaml
   label: Qwiet Ai Orgs API
   slug: qwiet-ai-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-orgs-api-openapi.yml
 - filename: qwiet-ai-rbac-api-openapi.yml
   format: yaml
   label: Qwiet Ai Rbac API
   slug: qwiet-ai-rbac-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-rbac-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-rbac-api-openapi.yml
 - filename: qwiet-ai-reports-api-openapi.yml
   format: yaml
   label: Qwiet Ai Reports API
   slug: qwiet-ai-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-reports-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-reports-api-openapi.yml
 - filename: qwiet-ai-saml-api-openapi.yml
   format: yaml
   label: Qwiet Ai SAML API
   slug: qwiet-ai-saml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-saml-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-saml-api-openapi.yml
 - filename: qwiet-ai-sarif-api-openapi.yml
   format: yaml
   label: Qwiet Ai Sarif API
   slug: qwiet-ai-sarif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-sarif-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-sarif-api-openapi.yml
 - filename: qwiet-ai-saved-searches-api-openapi.yml
   format: yaml
   label: Qwiet Ai Saved Searches API
   slug: qwiet-ai-saved-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-saved-searches-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-saved-searches-api-openapi.yml
 - filename: qwiet-ai-sca-api-openapi.yml
   format: yaml
   label: Qwiet Ai Sca API
   slug: qwiet-ai-sca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-sca-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-sca-api-openapi.yml
 - filename: qwiet-ai-scans-api-openapi.yml
   format: yaml
   label: Qwiet Ai Scans API
   slug: qwiet-ai-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-scans-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-scans-api-openapi.yml
 - filename: qwiet-ai-scopes-api-openapi.yml
   format: yaml
   label: Qwiet Ai Scopes API
   slug: qwiet-ai-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-scopes-api-openapi.yml
 - filename: qwiet-ai-slack-api-openapi.yml
   format: yaml
   label: Qwiet Ai Slack API
   slug: qwiet-ai-slack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-slack-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-slack-api-openapi.yml
 - filename: qwiet-ai-team-config-api-openapi.yml
   format: yaml
   label: Qwiet Ai Team Config API
   slug: qwiet-ai-team-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-team-config-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-team-config-api-openapi.yml
 - filename: qwiet-ai-tokens-api-openapi.yml
   format: yaml
   label: Qwiet Ai Tokens API
   slug: qwiet-ai-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-tokens-api-openapi.yml
 - filename: qwiet-ai-users-api-openapi.yml
   format: yaml
   label: Qwiet Ai Users API
   slug: qwiet-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-users-api-openapi.yml
 - filename: qwiet-ai-versions-api-openapi.yml
   format: yaml
   label: Qwiet Ai Versions API
   slug: qwiet-ai-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-versions-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-versions-api-openapi.yml
 - filename: qwiet-ai-wiz-api-openapi.yml
   format: yaml
   label: Qwiet Ai Wiz API
   slug: qwiet-ai-wiz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/openapi/qwiet-ai-wiz-api-openapi.yml
+  url: https://artifacts.apis.io/qwiet-ai/openapi/qwiet-ai-wiz-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -192,7 +192,7 @@ source_filename: qwiet-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/qwiet-ai-openapi-original.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerToken\n  type: http\n  scheme: bearer\n  description: |-\n    Use of the Qwiet API requires an access token, which is available via the Qwiet Dashboard (either under [Account Settings](https://app.shiftleft.io/user/profile) or [Integration Tokens](https://app.shiftleft.io/integrations)) or via the `/tokens` endpoints. You can pass an access token to the API using the HTTP `Authorization` Request header as follows:\\\n    `Authorization: Bearer {access token}`\n  sources:\n  - openapi/qwiet-ai-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qwiet-ai/refs/heads/main/authentication/qwiet-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qwiet-ai/authentication/qwiet-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

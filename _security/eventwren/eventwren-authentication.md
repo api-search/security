@@ -7,31 +7,31 @@ api_specs:
   label: Eventwren Accounts API
   slug: eventwren-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/eventwren/openapi/eventwren-accounts-api-openapi.yml
 - filename: eventwren-discovery-api-openapi.yml
   format: yaml
   label: Eventwren Discovery API
   slug: eventwren-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/eventwren/openapi/eventwren-discovery-api-openapi.yml
 - filename: eventwren-posts-api-openapi.yml
   format: yaml
   label: Eventwren Posts API
   slug: eventwren-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-posts-api-openapi.yml
+  url: https://artifacts.apis.io/eventwren/openapi/eventwren-posts-api-openapi.yml
 - filename: eventwren-webhooks-api-openapi.yml
   format: yaml
   label: Eventwren Webhooks API
   slug: eventwren-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/eventwren/openapi/eventwren-webhooks-api-openapi.yml
 - filename: eventwren-oauth-api-openapi.yml
   format: yaml
   label: Eventwren OAuth API
   slug: eventwren-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/openapi/eventwren-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/eventwren/openapi/eventwren-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: eventwren-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: derived\nsource: openapi/eventwren-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: apiKey\n  type: http\n  scheme: bearer\n  description: API key from POST /v1/accounts\n  sources:\n  - openapi/eventwren-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eventwren/refs/heads/main/authentication/eventwren-authentication.yml
+source_yaml_url: https://artifacts.apis.io/eventwren/authentication/eventwren-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Agents

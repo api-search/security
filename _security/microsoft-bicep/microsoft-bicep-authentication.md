@@ -7,19 +7,19 @@ api_specs:
   label: Microsoft Bicep Deployments API
   slug: microsoft-bicep-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bicep/openapi/microsoft-bicep-deployments-api-openapi.yml
 - filename: microsoft-bicep-template-spec-versions-api-openapi.yml
   format: yaml
   label: Microsoft Bicep Template Spec Versions API
   slug: microsoft-bicep-template-spec-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-template-spec-versions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bicep/openapi/microsoft-bicep-template-spec-versions-api-openapi.yml
 - filename: microsoft-bicep-template-specs-api-openapi.yml
   format: yaml
   label: Microsoft Bicep Template Specs API
   slug: microsoft-bicep-template-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/openapi/microsoft-bicep-template-specs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-bicep/openapi/microsoft-bicep-template-specs-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -51,7 +51,7 @@ source_filename: microsoft-bicep-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-bicep-deployments-openapi.yml, openapi/microsoft-bicep-template-specs-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/microsoft-bicep-deployments-openapi.yml\n  - openapi/microsoft-bicep-template-specs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/authentication/microsoft-bicep-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-bicep/authentication/microsoft-bicep-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - ArmTemplates

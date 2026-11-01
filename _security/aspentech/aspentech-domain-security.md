@@ -5,25 +5,25 @@ api_specs:
   label: AspenTech Data API
   slug: aspentech-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/aspentech-data-api-openapi.yml
+  url: https://artifacts.apis.io/aspentech/openapi/aspentech-data-api-openapi.yml
 - filename: aspentech-historical-api-openapi.yml
   format: yaml
   label: AspenTech Historical API
   slug: aspentech-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/aspentech-historical-api-openapi.yml
+  url: https://artifacts.apis.io/aspentech/openapi/aspentech-historical-api-openapi.yml
 - filename: aspentech-items-api-openapi.yml
   format: yaml
   label: AspenTech Items API
   slug: aspentech-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/aspentech-items-api-openapi.yml
+  url: https://artifacts.apis.io/aspentech/openapi/aspentech-items-api-openapi.yml
 - filename: aspentech-system-api-openapi.yml
   format: yaml
   label: AspenTech System API
   slug: aspentech-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/openapi/aspentech-system-api-openapi.yml
+  url: https://artifacts.apis.io/aspentech/openapi/aspentech-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: aspentech-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aspentech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: dev.knowledgecenter.aspentech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 08:30:25 2026 GMT\n  hsts: null\n- host: atdocs.inmation.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 21:21:29 2026 GMT\n  hsts: false\ndomains:\n- domain: aspentech.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: inmation.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/security/aspentech-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aspentech/security/aspentech-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Industrial IoT

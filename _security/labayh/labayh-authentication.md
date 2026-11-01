@@ -36,7 +36,7 @@ source_filename: labayh-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/labayh-content-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: 'WordPress application passwords, advertised by the API index at https://labayh.net/wp-json/\n    (authorization endpoint: https://labayh.net/wp-admin/authorize-application.php). Required\n    for every write operation; the documented read operations need no credentials.'\n  sources:\n  - openapi/labayh-content-openapi.yml\n- name: cookieNonce\n  type: apiKey\n  in: header\n  parameter: X-WP-Nonce\n  description: Cookie-authenticated first-party requests pass a nonce in the X-WP-Nonce header.\n  sources:\n  - openapi/labayh-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/labayh/refs/heads/main/authentication/labayh-authentication.yml
+source_yaml_url: https://artifacts.apis.io/labayh/authentication/labayh-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

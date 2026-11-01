@@ -7,31 +7,31 @@ api_specs:
   label: Sila Accounts API
   slug: sila-money-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-accounts-api-openapi.yml
 - filename: sila-money-identity-api-openapi.yml
   format: yaml
   label: Sila Identity API
   slug: sila-money-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-identity-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-identity-api-openapi.yml
 - filename: sila-money-payment-methods-api-openapi.yml
   format: yaml
   label: Sila Payment Methods API
   slug: sila-money-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-payment-methods-api-openapi.yml
 - filename: sila-money-payments-api-openapi.yml
   format: yaml
   label: Sila Payments API
   slug: sila-money-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-payments-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-payments-api-openapi.yml
 - filename: sila-money-wallets-api-openapi.yml
   format: yaml
   label: Sila Wallets API
   slug: sila-money-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/openapi/sila-money-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/sila-money/openapi/sila-money-wallets-api-openapi.yml
 auth_types:
 - signature
 description: ''
@@ -84,7 +84,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://docs.silamoney.com/docs/ecdsa-overview\nsummary:\n  types:\n  - signature\nschemes:\n- name: authsignature\n  type: signature\n  algorithm: ECDSA\n  curve: secp256k1\n  hash: Keccak-256\n  in: header\n  scope: application\n  description: >-\n    Hex-encoded ECDSA (secp256k1) signature over a Keccak-256 (SHA3) hash of the\n    stringified JSON message body, signed with the application's private key.\n    Sent in the \"authsignature\" request header. Sila stores only addresses\n    (derived from public keys); private keys never leave the client. Confirmed\n    live - a POST to /0.2/check_handle with no signature header returns HTTP 400\n    with validation_details.header \"This field is required.\"\n  sources:\n  - https://docs.silamoney.com/docs/ecdsa-overview\n- name: usersignature\n  type: signature\n  algorithm: ECDSA\n  curve: secp256k1\n  hash: Keccak-256\n  in: header\n  scope: user\n  description: >-\n    Second\
   \ ECDSA signature over the same message hash, signed with the end\n    user's registered keypair (from /register or /register_wallet). Required in\n    addition to authsignature on user-scoped endpoints (link_account, issue_sila,\n    transfer_sila, redeem_sila, get_transactions, etc.). Sent in the\n    \"usersignature\" header.\n  sources:\n  - https://docs.silamoney.com/docs/ecdsa-overview\n- name: businesssignature\n  type: signature\n  algorithm: ECDSA\n  curve: secp256k1\n  hash: Keccak-256\n  in: header\n  scope: business\n  description: >-\n    Third ECDSA signature signed with a registered business keypair, used\n    alongside authsignature (and usersignature) for KYB / business-entity\n    operations. Sent in the \"businesssignature\" header. The precise set of\n    endpoints that require it is not exhaustively enumerated in the pages\n    reviewed.\n  sources:\n  - https://docs.silamoney.com/docs/ecdsa-overview\nnotes: >-\n  Sila uses no bearer token or API key in the classic\
   \ sense - authentication is\n  request signing. Because standard tooling (Postman, generic OpenAPI clients)\n  cannot compute a per-body ECDSA signature, Sila publishes helper tooling:\n  sila-postman-signer (a local signing proxy) and language SDKs\n  (JavaScript, Python, Java, PHP, C#) at https://github.com/sila-Money. Private\n  keys are hex-encoded 64-character strings (no 0x prefix). An \"app handle\" plus\n  its address is provisioned per application in the Sila console.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sila-money/refs/heads/main/authentication/sila-money-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sila-money/authentication/sila-money-authentication.yml
 summary_line: signature · 3 schemes
 tags:
 - Embedded Finance

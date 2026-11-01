@@ -5,67 +5,67 @@ api_specs:
   label: Canada Health Infoway Code System API
   slug: canada-health-infoway-codesystem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-codesystem-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-codesystem-api-openapi.yml
 - filename: canada-health-infoway-conceptmap-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Concept Map API
   slug: canada-health-infoway-conceptmap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-conceptmap-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-conceptmap-api-openapi.yml
 - filename: canada-health-infoway-maps-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Maps API
   slug: canada-health-infoway-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-maps-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-maps-api-openapi.yml
 - filename: canada-health-infoway-notification-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Notification API
   slug: canada-health-infoway-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-notification-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-notification-api-openapi.yml
 - filename: canada-health-infoway-packages-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Packages API
   slug: canada-health-infoway-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-packages-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-packages-api-openapi.yml
 - filename: canada-health-infoway-session-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Session API
   slug: canada-health-infoway-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-session-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-session-api-openapi.yml
 - filename: canada-health-infoway-subsets-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Subsets API
   slug: canada-health-infoway-subsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-subsets-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-subsets-api-openapi.yml
 - filename: canada-health-infoway-valueset-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Value Set API
   slug: canada-health-infoway-valueset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-valueset-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-valueset-api-openapi.yml
 - filename: canada-health-infoway-capability-statement-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Capability Statement API
   slug: canada-health-infoway-capability-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-capability-statement-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-capability-statement-api-openapi.yml
 - filename: canada-health-infoway-code-systems-api-openapi.yml
   format: yaml
   label: Canada Health Infoway code systems API
   slug: canada-health-infoway-code-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-code-systems-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-code-systems-api-openapi.yml
 - filename: canada-health-infoway-resource-locations-api-openapi.yml
   format: yaml
   label: Canada Health Infoway Resource Locations API
   slug: canada-health-infoway-resource-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/openapi/canada-health-infoway-resource-locations-api-openapi.yml
+  url: https://artifacts.apis.io/canada-health-infoway/openapi/canada-health-infoway-resource-locations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: canada-health-infoway-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.infoway-inforoute.ca\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 29 19:48:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: termapi.infoway-inforoute.ca\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 31 07:45:56 2026 GMT\n  hsts: null\ndomains:\n- domain: infoway-inforoute.ca\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/security/canada-health-infoway-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/canada-health-infoway/security/canada-health-infoway-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Healthcare

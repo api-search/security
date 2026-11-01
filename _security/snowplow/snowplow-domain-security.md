@@ -5,19 +5,19 @@ api_specs:
   label: Snowplow Authentication API
   slug: snowplow-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-authentication-api-openapi.yml
 - filename: snowplow-data-products-api-openapi.yml
   format: yaml
   label: Snowplow Data Products API
   slug: snowplow-data-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-products-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-data-products-api-openapi.yml
 - filename: snowplow-data-structures-api-openapi.yml
   format: yaml
   label: Snowplow Data Structures API
   slug: snowplow-data-structures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/openapi/snowplow-data-structures-api-openapi.yml
+  url: https://artifacts.apis.io/snowplow/openapi/snowplow-data-structures-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -69,7 +69,7 @@ source_filename: snowplow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snowplow.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 22:52:10 2026 GMT\n  hsts: false\n- host: docs.snowplow.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 11:15:27 2026 GMT\n  hsts: false\n- host: console.snowplowanalytics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: snowplow.io\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: snowplowanalytics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snowplow/refs/heads/main/security/snowplow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snowplow/security/snowplow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Analytics Platform

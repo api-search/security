@@ -5,25 +5,25 @@ api_specs:
   label: Automation Preflight API Acceptance Pack API
   slug: automation-preflight-api-acceptance-pack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/openapi/automation-preflight-api-acceptance-pack-api-openapi.yml
+  url: https://artifacts.apis.io/automation-preflight-api/openapi/automation-preflight-api-acceptance-pack-api-openapi.yml
 - filename: automation-preflight-api-analyze-api-openapi.yml
   format: yaml
   label: Automation Preflight API Analyze API
   slug: automation-preflight-api-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/openapi/automation-preflight-api-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/automation-preflight-api/openapi/automation-preflight-api-analyze-api-openapi.yml
 - filename: automation-preflight-api-direct-api-openapi.yml
   format: yaml
   label: Automation Preflight API Direct API
   slug: automation-preflight-api-direct-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/openapi/automation-preflight-api-direct-api-openapi.yml
+  url: https://artifacts.apis.io/automation-preflight-api/openapi/automation-preflight-api-direct-api-openapi.yml
 - filename: automation-preflight-api-health-api-openapi.yml
   format: yaml
   label: Automation Preflight API Health API
   slug: automation-preflight-api-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/openapi/automation-preflight-api-health-api-openapi.yml
+  url: https://artifacts.apis.io/automation-preflight-api/openapi/automation-preflight-api-health-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: automation-preflight-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tinyopsstudio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 04:53:55 2026 GMT\n  hsts: false\n- host: preflight.tinyopsstudio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 04:53:55 2026 GMT\n  hsts: null\ndomains:\n- domain: tinyopsstudio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/automation-preflight-api/refs/heads/main/security/automation-preflight-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/automation-preflight-api/security/automation-preflight-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Automation

@@ -5,37 +5,37 @@ api_specs:
   label: apipj (MASTER BI TECNOLOGIA LTDA) Billing API
   slug: apipj-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-billing-api-openapi.yml
+  url: https://artifacts.apis.io/apipj/openapi/apipj-billing-api-openapi.yml
 - filename: apipj-chaves-api-openapi.yml
   format: yaml
   label: apipj (MASTER BI TECNOLOGIA LTDA) Chaves API
   slug: apipj-chaves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-chaves-api-openapi.yml
+  url: https://artifacts.apis.io/apipj/openapi/apipj-chaves-api-openapi.yml
 - filename: apipj-consulta-api-openapi.yml
   format: yaml
   label: apipj (MASTER BI TECNOLOGIA LTDA) Consulta API
   slug: apipj-consulta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-consulta-api-openapi.yml
+  url: https://artifacts.apis.io/apipj/openapi/apipj-consulta-api-openapi.yml
 - filename: apipj-conta-api-openapi.yml
   format: yaml
   label: apipj (MASTER BI TECNOLOGIA LTDA) Conta API
   slug: apipj-conta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-conta-api-openapi.yml
+  url: https://artifacts.apis.io/apipj/openapi/apipj-conta-api-openapi.yml
 - filename: apipj-interno-api-openapi.yml
   format: yaml
   label: apipj (MASTER BI TECNOLOGIA LTDA) Interno API
   slug: apipj-interno-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-interno-api-openapi.yml
+  url: https://artifacts.apis.io/apipj/openapi/apipj-interno-api-openapi.yml
 - filename: apipj-p-blico-api-openapi.yml
   format: yaml
   label: apipj (MASTER BI TECNOLOGIA LTDA) Público API
   slug: apipj-p-blico-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/openapi/apipj-p-blico-api-openapi.yml
+  url: https://artifacts.apis.io/apipj/openapi/apipj-p-blico-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: apipj-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apipj.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 20:08:31 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apipj.com.br\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apipj/refs/heads/main/security/apipj-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apipj/security/apipj-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company

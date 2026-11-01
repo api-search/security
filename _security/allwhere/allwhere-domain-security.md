@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: allwhere-openapi-generated.yml
+  format: yaml
+  label: Allwhere API
+  slug: allwhere-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/allwhere/openapi/_ae-authored/allwhere-openapi-generated.yml
 - filename: allwhere-beta-api-openapi.yml
   format: yaml
   label: allwhere Beta API
   slug: allwhere-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allwhere/refs/heads/main/openapi/allwhere-beta-api-openapi.yml
+  url: https://artifacts.apis.io/allwhere/openapi/allwhere-beta-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,12 +41,12 @@ source_filename: allwhere-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.allwhere.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 09:09:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: allwhere.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allwhere/refs/heads/main/security/allwhere-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/allwhere/security/allwhere-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - IT
-- Asset-Management
+- Asset Management
 - Procurement
 - Remote-Workforce
 - Enterprise

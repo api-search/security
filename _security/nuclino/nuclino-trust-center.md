@@ -5,37 +5,37 @@ api_specs:
   label: Nuclino Collections API
   slug: nuclino-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-collections-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-collections-api-openapi.yml
 - filename: nuclino-files-api-openapi.yml
   format: yaml
   label: Nuclino Files API
   slug: nuclino-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-files-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-files-api-openapi.yml
 - filename: nuclino-items-api-openapi.yml
   format: yaml
   label: Nuclino Items API
   slug: nuclino-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-items-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-items-api-openapi.yml
 - filename: nuclino-teams-api-openapi.yml
   format: yaml
   label: Nuclino Teams API
   slug: nuclino-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-teams-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-teams-api-openapi.yml
 - filename: nuclino-users-api-openapi.yml
   format: yaml
   label: Nuclino Users API
   slug: nuclino-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-users-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-users-api-openapi.yml
 - filename: nuclino-workspaces-api-openapi.yml
   format: yaml
   label: Nuclino Workspaces API
   slug: nuclino-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/openapi/nuclino-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/nuclino/openapi/nuclino-workspaces-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -55,7 +55,7 @@ source_filename: nuclino-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.nuclino.com/security\nurl: https://www.nuclino.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27018\n- GDPR\nevidence:\n- source: https://www.nuclino.com/security\n  keywords:\n  - soc2\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nuclino/refs/heads/main/security/nuclino-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/nuclino/security/nuclino-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27018, GDPR
 tags:
 - Knowledge Management

@@ -7,43 +7,43 @@ api_specs:
   label: Pie Insurance Appetite API
   slug: pie-insurance-appetite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-appetite-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-appetite-api-openapi.yml
 - filename: pie-insurance-classcodesearch-api-openapi.yml
   format: yaml
   label: Pie Insurance ClassCodeSearch API
   slug: pie-insurance-classcodesearch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-classcodesearch-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-classcodesearch-api-openapi.yml
 - filename: pie-insurance-eligibility-api-openapi.yml
   format: yaml
   label: Pie Insurance Eligibility API
   slug: pie-insurance-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-eligibility-api-openapi.yml
 - filename: pie-insurance-priceindication-api-openapi.yml
   format: yaml
   label: Pie Insurance PriceIndication API
   slug: pie-insurance-priceindication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-priceindication-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-priceindication-api-openapi.yml
 - filename: pie-insurance-quotedocument-api-openapi.yml
   format: yaml
   label: Pie Insurance QuoteDocument API
   slug: pie-insurance-quotedocument-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotedocument-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-quotedocument-api-openapi.yml
 - filename: pie-insurance-quotepdf-api-openapi.yml
   format: yaml
   label: Pie Insurance QuotePdf API
   slug: pie-insurance-quotepdf-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotepdf-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-quotepdf-api-openapi.yml
 - filename: pie-insurance-quotes-api-openapi.yml
   format: yaml
   label: Pie Insurance Quotes API
   slug: pie-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/openapi/pie-insurance-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/pie-insurance/openapi/pie-insurance-quotes-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: pie-insurance-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pie-insurance-partner-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: Bearer\n  description: JWT Authorization header using the Bearer scheme. Enter token\n  sources:\n  - openapi/pie-insurance-partner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pie-insurance/refs/heads/main/authentication/pie-insurance-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pie-insurance/authentication/pie-insurance-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Insurance

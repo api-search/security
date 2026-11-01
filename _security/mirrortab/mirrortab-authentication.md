@@ -8,7 +8,7 @@ api_specs:
   label: MirrorTab Sessions API
   slug: mirrortab-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mirrortab/refs/heads/main/openapi/mirrortab-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/mirrortab/openapi/mirrortab-sessions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: mirrortab-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/mirrortab-api-openapi.yml\ndocs: https://github.com/MirrorTab/api_v1\nnotes: >-\n  MirrorTab authenticates every API call with a single API key sent as the\n  api_key field in the JSON request body (not a header or query parameter).\n  Keys are issued from the account dashboard at https://mirrortab.com/API. Free\n  accounts do not have API access; Enterprise and paid tiers gate the number of\n  concurrent sessions and maximum session duration. No OAuth, OIDC, or mTLS\n  surface is published.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - body\nschemes:\n- name: apiKey\n  type: apiKey\n  in: body\n  parameter: api_key\n  description: >-\n    API key passed as the api_key field in the JSON request body. Obtain a key\n    at https://mirrortab.com/API. Represented in the OpenAPI as an apiKey scheme\n    because OpenAPI 3.0 cannot express a body-carried key.\n  sources:\n  - openapi/mirrortab-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mirrortab/refs/heads/main/authentication/mirrortab-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mirrortab/authentication/mirrortab-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

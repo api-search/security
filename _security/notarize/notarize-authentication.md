@@ -8,103 +8,103 @@ api_specs:
   label: Notarize Cost Centers API
   slug: notarize-cost-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-cost-centers-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-cost-centers-api-openapi.yml
 - filename: notarize-documents-api-openapi.yml
   format: yaml
   label: Notarize Documents API
   slug: notarize-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-documents-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-documents-api-openapi.yml
 - filename: notarize-eligibilities-api-openapi.yml
   format: yaml
   label: Notarize Eligibilities API
   slug: notarize-eligibilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-eligibilities-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-eligibilities-api-openapi.yml
 - filename: notarize-enote-api-openapi.yml
   format: yaml
   label: Notarize E Note API
   slug: notarize-enote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-enote-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-enote-api-openapi.yml
 - filename: notarize-integrations-api-openapi.yml
   format: yaml
   label: Notarize Integrations API
   slug: notarize-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-integrations-api-openapi.yml
 - filename: notarize-notaries-api-openapi.yml
   format: yaml
   label: Notarize Notaries API
   slug: notarize-notaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-notaries-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-notaries-api-openapi.yml
 - filename: notarize-notarization-records-api-openapi.yml
   format: yaml
   label: Notarize Notarization Records API
   slug: notarize-notarization-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-notarization-records-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-notarization-records-api-openapi.yml
 - filename: notarize-oauth-2-0-api-openapi.yml
   format: yaml
   label: Notarize OAuth 2.0 API
   slug: notarize-oauth-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-oauth-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-oauth-2-0-api-openapi.yml
 - filename: notarize-oid4vp-api-openapi.yml
   format: yaml
   label: Notarize OID4VP API
   slug: notarize-oid4vp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-oid4vp-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-oid4vp-api-openapi.yml
 - filename: notarize-organizations-api-openapi.yml
   format: yaml
   label: Notarize Organizations API
   slug: notarize-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-organizations-api-openapi.yml
 - filename: notarize-referrals-api-openapi.yml
   format: yaml
   label: Notarize Referrals API
   slug: notarize-referrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-referrals-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-referrals-api-openapi.yml
 - filename: notarize-scim-api-openapi.yml
   format: yaml
   label: Notarize SCIM API
   slug: notarize-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-scim-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-scim-api-openapi.yml
 - filename: notarize-security-events-api-openapi.yml
   format: yaml
   label: Notarize Security Events API
   slug: notarize-security-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-security-events-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-security-events-api-openapi.yml
 - filename: notarize-templates-api-openapi.yml
   format: yaml
   label: Notarize Templates API
   slug: notarize-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-templates-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-templates-api-openapi.yml
 - filename: notarize-title-agencies-api-openapi.yml
   format: yaml
   label: Notarize Title Agencies API
   slug: notarize-title-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-title-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-title-agencies-api-openapi.yml
 - filename: notarize-transactions-api-openapi.yml
   format: yaml
   label: Notarize Transactions API
   slug: notarize-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-transactions-api-openapi.yml
 - filename: notarize-webhooks-api-openapi.yml
   format: yaml
   label: Notarize Webhooks API
   slug: notarize-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/openapi/notarize-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/notarize/openapi/notarize-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -154,7 +154,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://dev.proof.com/docs/api-keys\ndocs:\n  - https://dev.proof.com/docs/api-keys\n  - https://dev.proof.com/docs/oauth-client-credentials\nsummary:\n  types: [apiKey, oauth2]\n  api_key_in: [header]\n  api_key_header: ApiKey\n  oauth2_flows: [clientCredentials]\nschemes:\n  - name: ApiKey\n    type: apiKey\n    in: header\n    parameter_name: ApiKey\n    description: >-\n      Static API key sent in the `ApiKey` request header. Two access levels are\n      issued: Full Access (create/update/delete transactions; secret, server-side\n      only) and Client Only (create transactions only; safe to expose in\n      client-facing apps, powers EasyLinks).\n    key_prefixes:\n      full_access_production: prf_\n      full_access_fairfax: prf_test_\n      client_only_production: prf_cli_\n      client_only_fairfax: prf_cli_test_\n    secret_scanning: >-\n      Proof partners with GitHub Secret Scanning; leaked keys are detected and\n\
   \      should be revoked immediately.\n    docs: https://dev.proof.com/docs/api-keys\n  - name: OAuth2\n    type: oauth2\n    description: >-\n      OAuth 2.0 client_credentials grant as an alternative to API keys. Client\n      apps are provisioned under Settings > OAuth; client_id/client_secret are\n      passed via HTTP Basic auth to the token endpoint. Access tokens are Bearer\n      tokens (expires_in 7200s / 2h). Requires\n      `Content-Type: application/x-www-form-urlencoded` (else HTTP 415).\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://api.proof.com/oauth/v2/token\n        tokenUrl_fairfax: https://api.fairfax.proof.com/oauth/v2/token\n        token_info_url: https://api.proof.com/oauth/v2/token/info\n        token_type: Bearer\n        expires_in: 7200\n        scopes:\n          read: Read access\n          write: Write access\n    docs: https://dev.proof.com/docs/oauth-client-credentials\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/notarize/refs/heads/main/authentication/notarize-authentication.yml
+source_yaml_url: https://artifacts.apis.io/notarize/authentication/notarize-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

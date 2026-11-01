@@ -27,7 +27,7 @@ source_filename: boundless-bio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-08'\nmethod: derived\nsource: openapi/boundless-bio-content-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords, advertised by the site at https://boundlessbio.com/wp-json/\n    under authentication.application-passwords; authorization endpoint https://boundlessbio.com/wp-admin/authorize-application.php.\n    Read operations on wp/v2 are anonymous.\n  sources:\n  - openapi/boundless-bio-content-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boundless-bio/refs/heads/main/authentication/boundless-bio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/boundless-bio/authentication/boundless-bio-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -7,7 +7,7 @@ api_specs:
   label: Ostium Builder API
   slug: ostium-builder-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/asyncapi/ostium-labs-prices-asyncapi.yml
+  url: https://artifacts.apis.io/ostium-labs/asyncapi/ostium-labs-prices-asyncapi.yml
 auth_types:
 - wallet-signature
 - delegated-key
@@ -52,7 +52,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.ostium.com/developer/client-modes/overview\nsummary:\n  types: [wallet-signature, delegated-key, public-read]\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    Ostium is a self-custodial DeFi protocol; there is no server-side API key or\n    OAuth. Authentication and authorization happen at the wallet / smart-contract\n    layer. The public Builder API read endpoints (prices, OHLC, subgraph, price\n    stream) require no credentials.\nschemes:\n- name: trader-wallet-signature\n  type: wallet-signature\n  description: >-\n    Trader-owned positions signed directly by the trader's EOA (self + self / self +\n    gasless modes). The connected trader address authorizes on-chain actions via\n    wallet signatures; Safe-based gasless modes submit sponsored user operations.\n  modes: [self-and-self, self-and-gasless]\n- name: delegate-key\n  type: delegated-key\n  description: >-\n    Backend-controlled delegated\
   \ execution. A delegate address/EOA registered via\n    setDelegate signs and (optionally) pays gas on behalf of a trader. The delegate\n    private key is generated/exported from the Ostium app.\n  modes: [delegated-and-self, delegated-and-gasless]\n  setup_operations: [setDelegate, removeDelegate, setupGaslessDelegation]\n- name: public-read\n  type: none\n  description: >-\n    Read-only market and account data (createReadOnly mode) and the public Builder\n    API endpoints require no authentication.\n  modes: [read-only]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ostium-labs/refs/heads/main/authentication/ostium-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ostium-labs/authentication/ostium-labs-authentication.yml
 summary_line: wallet-signature/delegated-key/public-read · 3 schemes
 tags:
 - Company

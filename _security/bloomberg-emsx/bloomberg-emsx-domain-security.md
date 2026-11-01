@@ -5,37 +5,37 @@ api_specs:
   label: Bloomberg EMSX Brokers API
   slug: bloomberg-emsx-brokers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-brokers-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-brokers-api-openapi.yml
 - filename: bloomberg-emsx-field-lists-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Field Lists API
   slug: bloomberg-emsx-field-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-field-lists-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-field-lists-api-openapi.yml
 - filename: bloomberg-emsx-fills-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Fills API
   slug: bloomberg-emsx-fills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-fills-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-fills-api-openapi.yml
 - filename: bloomberg-emsx-orders-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Orders API
   slug: bloomberg-emsx-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-orders-api-openapi.yml
 - filename: bloomberg-emsx-routes-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Routes API
   slug: bloomberg-emsx-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-routes-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-routes-api-openapi.yml
 - filename: bloomberg-emsx-teams-api-openapi.yml
   format: yaml
   label: Bloomberg EMSX Teams API
   slug: bloomberg-emsx-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/openapi/bloomberg-emsx-teams-api-openapi.yml
+  url: https://artifacts.apis.io/bloomberg-emsx/openapi/bloomberg-emsx-teams-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -91,7 +91,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bloomberg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 14 23:59:59 2027 GMT\n  hsts: null\n- host: emsx-api-doc.readthedocs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 13:13:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.bloomberg.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 21 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: bloomberg.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 iodef \"mailto:reportvuln@bloomberg.net\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: readthedocs.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"\
   ssl.com\"\n  - 0 issue \" amazontrust.com\"\n  - 0 issue \"comodoca.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloomberg-emsx/refs/heads/main/security/bloomberg-emsx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bloomberg-emsx/security/bloomberg-emsx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bloomberg

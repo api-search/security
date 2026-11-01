@@ -24,7 +24,7 @@ source_filename: festivo-public-holidays-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.getfestivo.com\n  https: false\ndomains:\n- domain: getfestivo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/festivo-public-holidays/refs/heads/main/security/festivo-public-holidays-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/festivo-public-holidays/security/festivo-public-holidays-domain-security.yml
 summary_line: DMARC
 tags:
 - Calendar

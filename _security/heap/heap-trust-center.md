@@ -5,31 +5,31 @@ api_specs:
   label: Heap Add Account Properties API
   slug: heap-add-account-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-add-account-properties-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-add-account-properties-api-openapi.yml
 - filename: heap-add-user-properties-api-openapi.yml
   format: yaml
   label: Heap Add User Properties API
   slug: heap-add-user-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-add-user-properties-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-add-user-properties-api-openapi.yml
 - filename: heap-identify-api-openapi.yml
   format: yaml
   label: Heap Identify API
   slug: heap-identify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-identify-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-identify-api-openapi.yml
 - filename: heap-track-api-openapi.yml
   format: yaml
   label: Heap Track API
   slug: heap-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-track-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-track-api-openapi.yml
 - filename: heap-webhooks-api-openapi.yml
   format: yaml
   label: Heap Webhooks API
   slug: heap-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/openapi/heap-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/heap/openapi/heap-webhooks-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -49,7 +49,7 @@ source_filename: heap-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.contentsquare.com/?product=heapio\nurl: https://trust.contentsquare.com/?product=heapio\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\nevidence:\n- source: https://trust.contentsquare.com/?product=heapio\n  keywords:\n  - soc 2\n  - iso 27001\n  - iso/iec 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/security/heap-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/heap/security/heap-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018
 tags:
 - Analytics

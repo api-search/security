@@ -8,31 +8,31 @@ api_specs:
   label: Tapcart Development API - Block Templates API
   slug: tapcart-development-api-block-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapcart/refs/heads/main/openapi/tapcart-development-api-block-templates-api-openapi.yml
+  url: https://artifacts.apis.io/tapcart/openapi/tapcart-development-api-block-templates-api-openapi.yml
 - filename: tapcart-development-api-blocks-api-openapi.yml
   format: yaml
   label: Tapcart Development API - Blocks API
   slug: tapcart-development-api-blocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapcart/refs/heads/main/openapi/tapcart-development-api-blocks-api-openapi.yml
+  url: https://artifacts.apis.io/tapcart/openapi/tapcart-development-api-blocks-api-openapi.yml
 - filename: tapcart-development-api-components-api-openapi.yml
   format: yaml
   label: Tapcart Development API - Components API
   slug: tapcart-development-api-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapcart/refs/heads/main/openapi/tapcart-development-api-components-api-openapi.yml
+  url: https://artifacts.apis.io/tapcart/openapi/tapcart-development-api-components-api-openapi.yml
 - filename: tapcart-development-api-dependencies-api-openapi.yml
   format: yaml
   label: Tapcart Development API - Dependencies API
   slug: tapcart-development-api-dependencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapcart/refs/heads/main/openapi/tapcart-development-api-dependencies-api-openapi.yml
+  url: https://artifacts.apis.io/tapcart/openapi/tapcart-development-api-dependencies-api-openapi.yml
 - filename: tapcart-development-api-layouts-api-openapi.yml
   format: yaml
   label: Tapcart Development API - Layouts API
   slug: tapcart-development-api-layouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tapcart/refs/heads/main/openapi/tapcart-development-api-layouts-api-openapi.yml
+  url: https://artifacts.apis.io/tapcart/openapi/tapcart-development-api-layouts-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-08-05'\nmethod: searched\nsource: openapi/tapcart
   \ — the key is not\n      self-service issuable.\n    sources:\n      - https://dev.tapcart.com/reference/insights-api\n  - name: app-id\n    type: apiKey\n    in: header\n    parameter_name: app-id\n    role: tenant-selector\n    description: >-\n      The organization's Tapcart app id. Documented as good practice on all\n      requests; must match the appId in the request body when using\n      session-based auth. Not a credential on its own.\n    sources:\n      - https://dev.tapcart.com/reference/insights-api\n  - name: installation-id\n    type: apiKey\n    in: header\n    parameter_name: installation-id\n    role: reusable-parameter\n    description: >-\n      Declared as a reusable header parameter in components.parameters but not\n      referenced by any published operation. Present in the spec, unused by the\n      documented surface.\n    sources:\n      - openapi/tapcart-client-api-openapi-original.json\n  - name: session-token\n    type: apiKey\n    in: header\n    parameter_name:\
   \ session-token\n    role: reusable-parameter\n    description: >-\n      Declared as a reusable header parameter in components.parameters but not\n      referenced by any published operation. Implies a session-based auth mode\n      alongside the bearer JWT.\n    sources:\n      - openapi/tapcart-client-api-openapi-original.json\ninteractive:\n  - surface: Tapcart CLI + MCP server\n    mechanism: Auth0 browser login\n    command: tapcart auth login\n    credential_store: ~/.tapcart/auth.json\n    plan_gate: Tapcart Enterprise plan required for CLI / custom block access.\n    app_id_source: https://app.tapcart.com/settings (Tapcart CLI API Key section)\n    sources:\n      - https://dev.tapcart.com/docs/tapcart-cli\n      - https://dev.tapcart.com/docs/mcp\nauthorization_model:\n  granularity: read vs write\n  description: >-\n    Operation descriptions in the Development API distinguish \"Requires read\n    auth\" from \"Requires write auth\", but the spec expresses both with the same\n\
   \    global bearerAuth requirement and defines no scopes. The read/write split\n    is documented in prose only and is not machine-readable.\ngaps:\n  - No OAuth 2.0 / OIDC machine-to-machine flow is documented for any surface.\n  - No scope or permission reference page exists.\n  - >-\n    The read/write distinction is prose-only; per-operation security\n    requirements in the OpenAPI do not differentiate it.\n  - >-\n    Insights API keys are issued by support, not self-service, so an agent\n    cannot obtain a credential without a human loop.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tapcart/refs/heads/main/authentication/tapcart-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tapcart/authentication/tapcart-authentication.yml
 summary_line: http/apiKey · 5 schemes
 tags:
 - Company

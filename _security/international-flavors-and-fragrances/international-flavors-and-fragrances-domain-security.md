@@ -27,7 +27,7 @@ source_filename: international-flavors-and-fragrances-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.iff.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 17:14:18 2026 GMT\n  hsts: null\ndomains:\n- domain: iff.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/international-flavors-and-fragrances/refs/heads/main/security/international-flavors-and-fragrances-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/international-flavors-and-fragrances/security/international-flavors-and-fragrances-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Consumer Products

@@ -5,67 +5,67 @@ api_specs:
   label: BRL Accounts API
   slug: brl-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-accounts-api-openapi.yml
 - filename: brl-assets-api-openapi.yml
   format: yaml
   label: BRL Assets API
   slug: brl-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-assets-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-assets-api-openapi.yml
 - filename: brl-claims-api-openapi.yml
   format: yaml
   label: BRL Claims API
   slug: brl-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-claims-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-claims-api-openapi.yml
 - filename: brl-nft-transfers-api-openapi.yml
   format: yaml
   label: BRL Nft Transfers API
   slug: brl-nft-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-nft-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-nft-transfers-api-openapi.yml
 - filename: brl-orders-api-openapi.yml
   format: yaml
   label: BRL Orders API
   slug: brl-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-orders-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-orders-api-openapi.yml
 - filename: brl-quotes-api-openapi.yml
   format: yaml
   label: BRL Quotes API
   slug: brl-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-quotes-api-openapi.yml
 - filename: brl-tax-exemption-api-openapi.yml
   format: yaml
   label: BRL Tax Exemption API
   slug: brl-tax-exemption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-tax-exemption-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-tax-exemption-api-openapi.yml
 - filename: brl-transfers-api-openapi.yml
   format: yaml
   label: BRL Transfers API
   slug: brl-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-transfers-api-openapi.yml
 - filename: brl-wallets-api-openapi.yml
   format: yaml
   label: BRL Wallets API
   slug: brl-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-wallets-api-openapi.yml
 - filename: brl-withdrawals-api-openapi.yml
   format: yaml
   label: BRL Withdrawals API
   slug: brl-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-withdrawals-api-openapi.yml
 - filename: brl-crown-api-webhooks-api-openapi.yml
   format: yaml
   label: BRL Crown API & Webhooks API
   slug: brl-crown-api-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/openapi/brl-crown-api-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/brl/openapi/brl-crown-api-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -111,7 +111,7 @@ source_filename: brl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: brl.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 11:15:07 2026 GMT\n  hsts: false\n- host: docs.crown-brlv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 01:52:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.crown-brlv.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: brl.xyz\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: crown-brlv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/security/brl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brl/security/brl-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

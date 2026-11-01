@@ -5,49 +5,49 @@ api_specs:
   label: DagsHub Branches API
   slug: dagshub-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-branches-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-branches-api-openapi.yml
 - filename: dagshub-issues-api-openapi.yml
   format: yaml
   label: DagsHub Issues API
   slug: dagshub-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-issues-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-issues-api-openapi.yml
 - filename: dagshub-orgs-api-openapi.yml
   format: yaml
   label: DagsHub Orgs API
   slug: dagshub-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-orgs-api-openapi.yml
 - filename: dagshub-repos-api-openapi.yml
   format: yaml
   label: DagsHub Repos API
   slug: dagshub-repos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-repos-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-repos-api-openapi.yml
 - filename: dagshub-storage-api-openapi.yml
   format: yaml
   label: DagsHub Storage API
   slug: dagshub-storage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-storage-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-storage-api-openapi.yml
 - filename: dagshub-user-api-openapi.yml
   format: yaml
   label: DagsHub User API
   slug: dagshub-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-user-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-user-api-openapi.yml
 - filename: dagshub-users-api-openapi.yml
   format: yaml
   label: DagsHub Users API
   slug: dagshub-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-users-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-users-api-openapi.yml
 - filename: dagshub-pull-requests-api-openapi.yml
   format: yaml
   label: DagsHub Pull Requests API
   slug: dagshub-pull-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/openapi/dagshub-pull-requests-api-openapi.yml
+  url: https://artifacts.apis.io/dagshub/openapi/dagshub-pull-requests-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,12 +76,12 @@ source_filename: dagshub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dagshub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: dagshub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dagshub/refs/heads/main/security/dagshub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dagshub/security/dagshub-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Machine Learning
 - MLOps
 - Data Versioning
-- Git
+- Version Control
 - MLflow
 ---

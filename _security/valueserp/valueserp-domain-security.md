@@ -5,37 +5,37 @@ api_specs:
   label: ValueSERP Images API
   slug: valueserp-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-images-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-images-api-openapi.yml
 - filename: valueserp-news-api-openapi.yml
   format: yaml
   label: ValueSERP News API
   slug: valueserp-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-news-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-news-api-openapi.yml
 - filename: valueserp-places-api-openapi.yml
   format: yaml
   label: ValueSERP Places API
   slug: valueserp-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-places-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-places-api-openapi.yml
 - filename: valueserp-product-api-openapi.yml
   format: yaml
   label: ValueSERP Product API
   slug: valueserp-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-product-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-product-api-openapi.yml
 - filename: valueserp-search-api-openapi.yml
   format: yaml
   label: ValueSERP Search API
   slug: valueserp-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-search-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-search-api-openapi.yml
 - filename: valueserp-shopping-api-openapi.yml
   format: yaml
   label: ValueSERP Shopping API
   slug: valueserp-shopping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/openapi/valueserp-shopping-api-openapi.yml
+  url: https://artifacts.apis.io/valueserp/openapi/valueserp-shopping-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,13 +75,12 @@ source_filename: valueserp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trajectdata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:54:17 2026 GMT\n  hsts: false\n- host: api.valueserp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 20:22:47 2026 GMT\n  hsts: null\ndomains:\n- domain: trajectdata.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: valueserp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/valueserp/refs/heads/main/security/valueserp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/valueserp/security/valueserp-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - SERP
 - Search Engine Results
 - Google Search
-- Search API
 - SEO
 - Web Scraping
 - Shopping Results

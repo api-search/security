@@ -8,31 +8,31 @@ api_specs:
   label: Satispay Authentication Keys API
   slug: satispay-authentication-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-authentication-keys-api-openapi.yml
+  url: https://artifacts.apis.io/satispay/openapi/satispay-authentication-keys-api-openapi.yml
 - filename: satispay-g-business-api-openapi.yml
   format: yaml
   label: Satispay G Business API
   slug: satispay-g-business-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-g-business-api-openapi.yml
+  url: https://artifacts.apis.io/satispay/openapi/satispay-g-business-api-openapi.yml
 - filename: satispay-payments-api-openapi.yml
   format: yaml
   label: Satispay Payments API
   slug: satispay-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-payments-api-openapi.yml
+  url: https://artifacts.apis.io/satispay/openapi/satispay-payments-api-openapi.yml
 - filename: satispay-reports-api-openapi.yml
   format: yaml
   label: Satispay Reports API
   slug: satispay-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-reports-api-openapi.yml
+  url: https://artifacts.apis.io/satispay/openapi/satispay-reports-api-openapi.yml
 - filename: satispay-wally-services-api-openapi.yml
   format: yaml
   label: Satispay Wally Services API
   slug: satispay-wally-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/openapi/satispay-wally-services-api-openapi.yml
+  url: https://artifacts.apis.io/satispay/openapi/satispay-wally-services-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -64,7 +64,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: >-\n  https://d
   \ later request\n    note: Activation codes are single use; re-pairing an already-paired token returns error code 45.\n  per_request:\n  - step: 3\n    name: Create the Digest of the body\n    docs: https://developers.satispay.com/reference/create-the-digest\n    header: 'Digest: SHA-256=<base64 sha256 of the raw body>'\n  - step: 4\n    name: Compose the Message (signing string)\n    docs: https://developers.satispay.com/reference/create-the-string\n    components:\n    - (request-target)\n    - host\n    - date\n    - digest\n  - step: 5\n    name: Sign the Message with the RSA private key\n    docs: https://developers.satispay.com/reference/sign-the-string\n    algorithm: rsa-sha256\n  - step: 6\n    name: Compose the Authorization header\n    docs: https://developers.satispay.com/reference/compose-the-authentication-header\nverification:\n  test_endpoint: POST https://staging.authservices.satispay.com/wally-services/protocol/tests/signature\n  operation: testinput\n  docs: https://developers.satispay.com/reference/testinput\n\
   \  note: The test endpoint accepts GET, POST, PUT, DELETE and PATCH and echoes whether the signature verified.\ncredentials:\n  sandbox:\n    obtain: https://satispay-sandbox.paperform.co/\n    docs: https://developers.satispay.com/docs/credentials\n    note: A form request; Satispay emails the staging app links and the staging activation code.\n  production:\n    obtain: https://dashboard.satispay.com\n    docs: https://developers.satispay.com/docs/credentials\n    note: >-\n      Create a Satispay Business account, get the business profile verified, create a shop, then generate\n      the shop's activation code in the Dashboard and exchange it for a KeyId.\ncallback_authentication:\n  docs: https://developers.satispay.com/reference/callback-s2s\n  digest: Every callback carries a Digest header with the SHA-256 of the body.\n  signature: >-\n    Callbacks MAY carry an Authorization header with an asymmetric signature over Digest and Date,\n    verifiable with Satispay's public key. Whether\
   \ a given callback is signed depends on how the\n    integration is configured — Satispay's own docs say not all callbacks are signed.\ndevice_headers:\n  note: >-\n    The KeyId exchange accepts optional x-satispay-* device identification headers that are not\n    authentication but are recorded here because they travel with the credential exchange.\n  headers:\n  - x-satispay-deviceinfo\n  - x-satispay-devicetype\n  - x-satispay-os\n  - x-satispay-osv\n  - x-satispay-apph\n  - x-satispay-appn\n  - x-satispay-appv\n  - x-satispay-tracking-code\n  devicetype_enum:\n  - SMARTPHONE\n  - TABLET\n  - CASH REGISTER\n  - POS\n  - PC\n  - ECOMMERCE_PLUGIN\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/satispay/refs/heads/main/authentication/satispay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/satispay/authentication/satispay-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Payments

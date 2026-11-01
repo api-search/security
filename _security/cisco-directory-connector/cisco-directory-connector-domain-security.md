@@ -5,19 +5,19 @@ api_specs:
   label: Cisco Directory Connector Groups API
   slug: cisco-directory-connector-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-groups-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-directory-connector/openapi/cisco-directory-connector-groups-api-openapi.yml
 - filename: cisco-directory-connector-organizations-api-openapi.yml
   format: yaml
   label: Cisco Directory Connector Organizations API
   slug: cisco-directory-connector-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-directory-connector/openapi/cisco-directory-connector-organizations-api-openapi.yml
 - filename: cisco-directory-connector-people-api-openapi.yml
   format: yaml
   label: Cisco Directory Connector People API
   slug: cisco-directory-connector-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/openapi/cisco-directory-connector-people-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-directory-connector/openapi/cisco-directory-connector-people-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -78,7 +78,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.webex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 09:08:54 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: www.cisco.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 01:46:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: admin.webex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 09:59:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: webex.com\n  dnssec: false\n  caa:\n  - 128 issuewild \"identrust.com\"\n  - 128 iodef \"mailto:infosec@cisco.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: cisco.com\n  dnssec: false\n  caa:\n  - 128 issuewild \"digicert.com\"\n  - 128 iodef \"mailto:infosec@cisco.com\"\n  -\
   \ 128 issuewild \"identrust.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"ssl.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-directory-connector/refs/heads/main/security/cisco-directory-connector-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cisco-directory-connector/security/cisco-directory-connector-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Active Directory

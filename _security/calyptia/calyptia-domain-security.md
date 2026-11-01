@@ -1,251 +1,197 @@
 ---
 api_specs:
-- filename: calyptia-agent-api-openapi.yml
+- filename: calyptia-bucket-api-openapi.yml
   format: yaml
-  label: Calyptia Agent API
-  slug: calyptia-agent-api
+  label: Calyptia Bucket API
+  slug: calyptia-bucket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-agent-api-openapi.yml
-- filename: calyptia-agent-config-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-bucket-api-openapi.yml
+- filename: calyptia-classicdashboard-api-openapi.yml
   format: yaml
-  label: Calyptia Agent Config API
-  slug: calyptia-agent-config-api
+  label: Calyptia Classic Dashboard API
+  slug: calyptia-classicdashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-agent-config-api-openapi.yml
-- filename: calyptia-agent-error-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-classicdashboard-api-openapi.yml
+- filename: calyptia-collection-api-openapi.yml
   format: yaml
-  label: Calyptia Agent Error API
-  slug: calyptia-agent-error-api
+  label: Calyptia Collection API
+  slug: calyptia-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-agent-error-api-openapi.yml
-- filename: calyptia-aggregator-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-collection-api-openapi.yml
+- filename: calyptia-dashboard-api-openapi.yml
   format: yaml
-  label: Calyptia Aggregator API
-  slug: calyptia-aggregator-api
+  label: Calyptia Dashboard API
+  slug: calyptia-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-aggregator-api-openapi.yml
-- filename: calyptia-audit-log-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-dashboard-api-openapi.yml
+- filename: calyptia-dataset-api-openapi.yml
   format: yaml
-  label: Calyptia Audit Log API
-  slug: calyptia-audit-log-api
+  label: Calyptia Dataset API
+  slug: calyptia-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-audit-log-api-openapi.yml
-- filename: calyptia-aws-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-dataset-api-openapi.yml
+- filename: calyptia-derivedlabel-api-openapi.yml
   format: yaml
-  label: Calyptia Aws Marketplace API
-  slug: calyptia-aws-marketplace-api
+  label: Calyptia Derived Label API
+  slug: calyptia-derivedlabel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-aws-marketplace-api-openapi.yml
-- filename: calyptia-cluster-object-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-derivedlabel-api-openapi.yml
+- filename: calyptia-derivedmetric-api-openapi.yml
   format: yaml
-  label: Calyptia Cluster Object API
-  slug: calyptia-cluster-object-api
+  label: Calyptia Derived Metric API
+  slug: calyptia-derivedmetric-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-cluster-object-api-openapi.yml
-- filename: calyptia-cluster-object-regex-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-derivedmetric-api-openapi.yml
+- filename: calyptia-droprule-api-openapi.yml
   format: yaml
-  label: Calyptia Cluster Object Regex API
-  slug: calyptia-cluster-object-regex-api
+  label: Calyptia Drop Rule API
+  slug: calyptia-droprule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-cluster-object-regex-api-openapi.yml
-- filename: calyptia-config-section-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-droprule-api-openapi.yml
+- filename: calyptia-gcpmetricsintegration-api-openapi.yml
   format: yaml
-  label: Calyptia Config Section API
-  slug: calyptia-config-section-api
+  label: Calyptia Gcp Metrics Integration API
+  slug: calyptia-gcpmetricsintegration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-config-section-api-openapi.yml
-- filename: calyptia-config-validator-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-gcpmetricsintegration-api-openapi.yml
+- filename: calyptia-logallocationconfig-api-openapi.yml
   format: yaml
-  label: Calyptia Config Validator API
-  slug: calyptia-config-validator-api
+  label: Calyptia Log Allocation Config API
+  slug: calyptia-logallocationconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-config-validator-api-openapi.yml
-- filename: calyptia-config-validator-v2-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-logallocationconfig-api-openapi.yml
+- filename: calyptia-logingestconfig-api-openapi.yml
   format: yaml
-  label: Calyptia Config Validator V2 API
-  slug: calyptia-config-validator-v2-api
+  label: Calyptia Log Ingest Config API
+  slug: calyptia-logingestconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-config-validator-v2-api-openapi.yml
-- filename: calyptia-core-instance-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-logingestconfig-api-openapi.yml
+- filename: calyptia-logscaleaction-api-openapi.yml
   format: yaml
-  label: Calyptia Core Instance API
-  slug: calyptia-core-instance-api
+  label: Calyptia Log Scale Action API
+  slug: calyptia-logscaleaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-core-instance-api-openapi.yml
-- filename: calyptia-core-instance-check-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-logscaleaction-api-openapi.yml
+- filename: calyptia-logscalealert-api-openapi.yml
   format: yaml
-  label: Calyptia Core Instance Check API
-  slug: calyptia-core-instance-check-api
+  label: Calyptia Log Scale Alert API
+  slug: calyptia-logscalealert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-core-instance-check-api-openapi.yml
-- filename: calyptia-core-instance-file-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-logscalealert-api-openapi.yml
+- filename: calyptia-mappingrule-api-openapi.yml
   format: yaml
-  label: Calyptia Core Instance File API
-  slug: calyptia-core-instance-file-api
+  label: Calyptia Mapping Rule API
+  slug: calyptia-mappingrule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-core-instance-file-api-openapi.yml
-- filename: calyptia-core-instance-secret-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-mappingrule-api-openapi.yml
+- filename: calyptia-monitor-api-openapi.yml
   format: yaml
-  label: Calyptia Core Instance Secret API
-  slug: calyptia-core-instance-secret-api
+  label: Calyptia Monitor API
+  slug: calyptia-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-core-instance-secret-api-openapi.yml
-- filename: calyptia-environment-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-monitor-api-openapi.yml
+- filename: calyptia-mutingrule-api-openapi.yml
   format: yaml
-  label: Calyptia Environment API
-  slug: calyptia-environment-api
+  label: Calyptia Muting Rule API
+  slug: calyptia-mutingrule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-environment-api-openapi.yml
-- filename: calyptia-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-mutingrule-api-openapi.yml
+- filename: calyptia-notifier-api-openapi.yml
   format: yaml
-  label: Calyptia Fleet API
-  slug: calyptia-fleet-api
+  label: Calyptia Notifier API
+  slug: calyptia-notifier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-fleet-api-openapi.yml
-- filename: calyptia-invitation-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-notifier-api-openapi.yml
+- filename: calyptia-otelmetricsingestion-api-openapi.yml
   format: yaml
-  label: Calyptia Invitation API
-  slug: calyptia-invitation-api
+  label: Calyptia Otel Metrics Ingestion API
+  slug: calyptia-otelmetricsingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-invitation-api-openapi.yml
-- filename: calyptia-membership-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-otelmetricsingestion-api-openapi.yml
+- filename: calyptia-recordingrule-api-openapi.yml
   format: yaml
-  label: Calyptia Membership API
-  slug: calyptia-membership-api
+  label: Calyptia Recording Rule API
+  slug: calyptia-recordingrule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-membership-api-openapi.yml
-- filename: calyptia-metric-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-recordingrule-api-openapi.yml
+- filename: calyptia-rolluprule-api-openapi.yml
   format: yaml
-  label: Calyptia Metric API
-  slug: calyptia-metric-api
+  label: Calyptia Rollup Rule API
+  slug: calyptia-rolluprule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-metric-api-openapi.yml
-- filename: calyptia-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-rolluprule-api-openapi.yml
+- filename: calyptia-service-api-openapi.yml
   format: yaml
-  label: Calyptia Pipeline API
-  slug: calyptia-pipeline-api
+  label: Calyptia Service API
+  slug: calyptia-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-pipeline-api-openapi.yml
-- filename: calyptia-pipeline-check-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-service-api-openapi.yml
+- filename: calyptia-slo-api-openapi.yml
   format: yaml
-  label: Calyptia Pipeline Check API
-  slug: calyptia-pipeline-check-api
+  label: Calyptia SLO API
+  slug: calyptia-slo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-pipeline-check-api-openapi.yml
-- filename: calyptia-pipeline-cluster-objects-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-slo-api-openapi.yml
+- filename: calyptia-team-api-openapi.yml
   format: yaml
-  label: Calyptia Pipeline Cluster Objects API
-  slug: calyptia-pipeline-cluster-objects-api
+  label: Calyptia Team API
+  slug: calyptia-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-pipeline-cluster-objects-api-openapi.yml
-- filename: calyptia-pipeline-config-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-team-api-openapi.yml
+- filename: calyptia-tracebehavior-api-openapi.yml
   format: yaml
-  label: Calyptia Pipeline Config API
-  slug: calyptia-pipeline-config-api
+  label: Calyptia Trace Behavior API
+  slug: calyptia-tracebehavior-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-pipeline-config-api-openapi.yml
-- filename: calyptia-pipeline-file-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-tracebehavior-api-openapi.yml
+- filename: calyptia-tracebehaviorconfig-api-openapi.yml
   format: yaml
-  label: Calyptia Pipeline File API
-  slug: calyptia-pipeline-file-api
+  label: Calyptia Trace Behavior Config API
+  slug: calyptia-tracebehaviorconfig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-pipeline-file-api-openapi.yml
-- filename: calyptia-pipeline-log-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-tracebehaviorconfig-api-openapi.yml
+- filename: calyptia-tracejaegerremotesamplingstrategy-api-openapi.yml
   format: yaml
-  label: Calyptia Pipeline Log API
-  slug: calyptia-pipeline-log-api
+  label: Calyptia Trace Jaeger Remote Sampling Strategy API
+  slug: calyptia-tracejaegerremotesamplingstrategy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-pipeline-log-api-openapi.yml
-- filename: calyptia-pipeline-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-tracejaegerremotesamplingstrategy-api-openapi.yml
+- filename: calyptia-tracemetricsrule-api-openapi.yml
   format: yaml
-  label: Calyptia Pipeline Metadata API
-  slug: calyptia-pipeline-metadata-api
+  label: Calyptia Trace Metrics Rule API
+  slug: calyptia-tracemetricsrule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-pipeline-metadata-api-openapi.yml
-- filename: calyptia-pipeline-port-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-tracemetricsrule-api-openapi.yml
+- filename: calyptia-tracetailsamplingrules-api-openapi.yml
   format: yaml
-  label: Calyptia Pipeline Port API
-  slug: calyptia-pipeline-port-api
+  label: Calyptia Trace Tail Sampling Rules API
+  slug: calyptia-tracetailsamplingrules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-pipeline-port-api-openapi.yml
-- filename: calyptia-pipeline-secret-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-tracetailsamplingrules-api-openapi.yml
+- filename: calyptia-grafana-dashboard-api-openapi.yml
   format: yaml
-  label: Calyptia Pipeline Secret API
-  slug: calyptia-pipeline-secret-api
+  label: Calyptia Grafana Dashboard API
+  slug: calyptia-grafana-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-pipeline-secret-api-openapi.yml
-- filename: calyptia-pipeline-status-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-grafana-dashboard-api-openapi.yml
+- filename: calyptia-notification-policy-api-openapi.yml
   format: yaml
-  label: Calyptia Pipeline Status API
-  slug: calyptia-pipeline-status-api
+  label: Calyptia Notification Policy API
+  slug: calyptia-notification-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-pipeline-status-api-openapi.yml
-- filename: calyptia-processing-rule-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-notification-policy-api-openapi.yml
+- filename: calyptia-resource-pools-api-openapi.yml
   format: yaml
-  label: Calyptia Processing Rule API
-  slug: calyptia-processing-rule-api
+  label: Calyptia Resource Pools API
+  slug: calyptia-resource-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-processing-rule-api-openapi.yml
-- filename: calyptia-processing-rule-template-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-resource-pools-api-openapi.yml
+- filename: calyptia-service-account-api-openapi.yml
   format: yaml
-  label: Calyptia Processing Rule Template API
-  slug: calyptia-processing-rule-template-api
+  label: Calyptia Service Account API
+  slug: calyptia-service-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-processing-rule-template-api-openapi.yml
-- filename: calyptia-project-api-openapi.yml
-  format: yaml
-  label: Calyptia Project API
-  slug: calyptia-project-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-project-api-openapi.yml
-- filename: calyptia-resource-profile-api-openapi.yml
-  format: yaml
-  label: Calyptia Resource Profile API
-  slug: calyptia-resource-profile-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-resource-profile-api-openapi.yml
-- filename: calyptia-saml-mapping-api-openapi.yml
-  format: yaml
-  label: Calyptia Saml Mapping API
-  slug: calyptia-saml-mapping-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-saml-mapping-api-openapi.yml
-- filename: calyptia-search-api-openapi.yml
-  format: yaml
-  label: Calyptia Search API
-  slug: calyptia-search-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-search-api-openapi.yml
-- filename: calyptia-sidecar-api-openapi.yml
-  format: yaml
-  label: Calyptia Sidecar API
-  slug: calyptia-sidecar-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-sidecar-api-openapi.yml
-- filename: calyptia-token-api-openapi.yml
-  format: yaml
-  label: Calyptia Token API
-  slug: calyptia-token-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-token-api-openapi.yml
-- filename: calyptia-trace-record-api-openapi.yml
-  format: yaml
-  label: Calyptia Trace Record API
-  slug: calyptia-trace-record-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-trace-record-api-openapi.yml
-- filename: calyptia-trace-session-api-openapi.yml
-  format: yaml
-  label: Calyptia Trace Session API
-  slug: calyptia-trace-session-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-trace-session-api-openapi.yml
-- filename: calyptia-user-api-openapi.yml
-  format: yaml
-  label: Calyptia User API
-  slug: calyptia-user-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/openapi/calyptia-user-api-openapi.yml
+  url: https://artifacts.apis.io/calyptia/openapi/calyptia-service-account-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -290,7 +236,7 @@ source_filename: calyptia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: calyptia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 19:16:52 2026 GMT\n  hsts: false\n- host: cloud-api.calyptia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 17:15:25 2026 GMT\n  hsts: null\n- host: cloud-api-dev.calyptia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 12:13:02 2026 GMT\n  hsts: null\ndomains:\n- domain: calyptia.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calyptia/refs/heads/main/security/calyptia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/calyptia/security/calyptia-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

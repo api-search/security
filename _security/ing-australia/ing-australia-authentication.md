@@ -7,43 +7,43 @@ api_specs:
   label: ING Australia Banking Account Balances API
   slug: ing-australia-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-account-balances-api-openapi.yml
 - filename: ing-australia-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: ING Australia Banking Account Direct Debits API
   slug: ing-australia-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-account-direct-debits-api-openapi.yml
 - filename: ing-australia-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: ING Australia Banking Account Scheduled Payments API
   slug: ing-australia-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-account-scheduled-payments-api-openapi.yml
 - filename: ing-australia-banking-account-transactions-api-openapi.yml
   format: yaml
   label: ING Australia Banking Account Transactions API
   slug: ing-australia-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-account-transactions-api-openapi.yml
 - filename: ing-australia-banking-accounts-api-openapi.yml
   format: yaml
   label: ING Australia Banking Accounts API
   slug: ing-australia-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-accounts-api-openapi.yml
 - filename: ing-australia-banking-payees-api-openapi.yml
   format: yaml
   label: ING Australia Banking Payees API
   slug: ing-australia-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-payees-api-openapi.yml
 - filename: ing-australia-banking-products-api-openapi.yml
   format: yaml
   label: ING Australia Banking Products API
   slug: ing-australia-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/openapi/ing-australia-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/ing-australia/openapi/ing-australia-banking-products-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://id.ob.i
   \ and the Consumer Data\n  Standards security profile.\nsummary:\n  types: [oauth2, openIdConnect, mutualTLS]\n  profile: FAPI 1.0 Advanced (AU CDR)\n  public_endpoints: [listBankingProducts, getBankingProductDetail]\n  oauth2_flows: [authorizationCode, clientCredentials]\n  token_endpoint_auth: [private_key_jwt]\n  par_required: true\n  mtls_bound_tokens: true\n  pkce: S256\nschemes:\n  - name: CDR-OIDC\n    type: openIdConnect\n    openIdConnectUrl: https://id.ob.ing.com.au/.well-known/openid-configuration\n    issuer: https://id.ob.ing.com.au\n    sources: [well-known/ing-australia-openid-configuration.json]\n  - name: CDR-OAuth2\n    type: oauth2\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://id.ob.ing.com.au/authorize\n        tokenUrl: https://secure.ob.ing.com.au/token\n        pushed_authorization_request_endpoint: https://secure.ob.ing.com.au/par\n        require_pushed_authorization_requests: true\n        response_types: [code id_token, code]\n\
   \        response_modes: [query, form_post, fragment, jwt]\n        code_challenge_methods: [S256]\n      - flow: clientCredentials\n        tokenUrl: https://secure.ob.ing.com.au/token\n    token_endpoint_auth_methods_supported: [private_key_jwt]\n    id_token_signing_alg_values_supported: [PS256]\n    request_object_signing_alg_values_supported: [PS256]\n    acr_values_supported: [urn:cds.au:cdr:2, urn:cds.au:cdr:3]\n    tls_client_certificate_bound_access_tokens: true\n    registration_endpoint: https://secure.ob.ing.com.au/register\n    cdr_arrangement_revocation_endpoint: true\n    sources: [well-known/ing-australia-openid-configuration.json]\n  - name: CDR-mTLS\n    type: mutualTLS\n    description: >-\n      Data-holder resource and token endpoints require mutual TLS with certificates\n      issued under the CDR Register PKI; access tokens are certificate-bound\n      (RFC 8705). The OpenAPI's MTLS server (mtls.dh.example.com) is the CDS\n      placeholder for this host.\n    sources:\
   \ [openapi/ing-australia-cds-banking-products-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/authentication/ing-australia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ing-australia/authentication/ing-australia-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
 - Finance

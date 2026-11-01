@@ -27,7 +27,7 @@ source_filename: envelop-risk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.enveloprisk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 23:13:57 2026 GMT\n  hsts: false\ndomains:\n- domain: enveloprisk.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/envelop-risk/refs/heads/main/security/envelop-risk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/envelop-risk/security/envelop-risk-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

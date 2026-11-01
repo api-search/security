@@ -5,61 +5,61 @@ api_specs:
   label: Optus Delete Multiple Lists API
   slug: optus-delete-multiple-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-delete-multiple-lists-api-openapi.yml
+  url: https://artifacts.apis.io/optus/openapi/optus-delete-multiple-lists-api-openapi.yml
 - filename: optus-documentation-api-openapi.yml
   format: yaml
   label: Optus Documentation API
   slug: optus-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/optus/openapi/optus-documentation-api-openapi.yml
 - filename: optus-lists-api-openapi.yml
   format: yaml
   label: Optus Lists API
   slug: optus-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-lists-api-openapi.yml
+  url: https://artifacts.apis.io/optus/openapi/optus-lists-api-openapi.yml
 - filename: optus-messages-api-openapi.yml
   format: yaml
   label: Optus Messages API
   slug: optus-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-messages-api-openapi.yml
+  url: https://artifacts.apis.io/optus/openapi/optus-messages-api-openapi.yml
 - filename: optus-report-api-openapi.yml
   format: yaml
   label: Optus Report API
   slug: optus-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-report-api-openapi.yml
+  url: https://artifacts.apis.io/optus/openapi/optus-report-api-openapi.yml
 - filename: optus-scheduled-campaigns-api-openapi.yml
   format: yaml
   label: Optus Scheduled Campaigns API
   slug: optus-scheduled-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-scheduled-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/optus/openapi/optus-scheduled-campaigns-api-openapi.yml
 - filename: optus-services-api-openapi.yml
   format: yaml
   label: Optus Services API
   slug: optus-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-services-api-openapi.yml
+  url: https://artifacts.apis.io/optus/openapi/optus-services-api-openapi.yml
 - filename: optus-status-api-openapi.yml
   format: yaml
   label: Optus Status API
   slug: optus-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-status-api-openapi.yml
+  url: https://artifacts.apis.io/optus/openapi/optus-status-api-openapi.yml
 - filename: optus-templates-api-openapi.yml
   format: yaml
   label: Optus Templates API
   slug: optus-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-templates-api-openapi.yml
+  url: https://artifacts.apis.io/optus/openapi/optus-templates-api-openapi.yml
 - filename: optus-healthz-api-openapi.yml
   format: yaml
   label: Optus Healthz API
   slug: optus-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/openapi/optus-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/optus/openapi/optus-healthz-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -106,7 +106,7 @@ source_filename: optus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.optus.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: sms.optus.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.sms.optus.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 27 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: optus.com.au\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/optus/refs/heads/main/security/optus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/optus/security/optus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Telecommunications

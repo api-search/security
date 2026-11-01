@@ -8,37 +8,37 @@ api_specs:
   label: Betfair Exchange Stream API
   slug: betfair-exchange-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/asyncapi/betfair-asyncapi.yml
+  url: https://artifacts.apis.io/betfair/asyncapi/betfair-asyncapi.yml
 - filename: betfair-accounts-api-openapi.yml
   format: yaml
   label: Betfair Accounts API
   slug: betfair-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-accounts-api-openapi.yml
 - filename: betfair-betting-api-openapi.yml
   format: yaml
   label: Betfair Betting API
   slug: betfair-betting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-betting-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-betting-api-openapi.yml
 - filename: betfair-heartbeat-api-openapi.yml
   format: yaml
   label: Betfair Heartbeat API
   slug: betfair-heartbeat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-heartbeat-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-heartbeat-api-openapi.yml
 - filename: betfair-historic-data-api-openapi.yml
   format: yaml
   label: Betfair Historic Data API
   slug: betfair-historic-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-historic-data-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-historic-data-api-openapi.yml
 - filename: betfair-identity-api-openapi.yml
   format: yaml
   label: Betfair Identity API
   slug: betfair-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/openapi/betfair-identity-api-openapi.yml
+  url: https://artifacts.apis.io/betfair/openapi/betfair-identity-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -73,7 +73,7 @@ source_filename: betfair-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/betfair-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: appKey\n  type: apiKey\n  in: header\n  parameter: X-Application\n  description: The developer Application Key (delayed or live).\n  sources:\n  - openapi/betfair-openapi.yml\n- name: sessionToken\n  type: apiKey\n  in: header\n  parameter: X-Authentication\n  description: The session token (ssoid) obtained from identity SSO login.\n  sources:\n  - openapi/betfair-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betfair/refs/heads/main/authentication/betfair-authentication.yml
+source_yaml_url: https://artifacts.apis.io/betfair/authentication/betfair-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Betting Exchange

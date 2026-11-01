@@ -5,13 +5,13 @@ api_specs:
   label: ShippingEasy Orders API
   slug: shippingeasy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/openapi/shippingeasy-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shippingeasy/openapi/shippingeasy-orders-api-openapi.yml
 - filename: shippingeasy-stores-api-openapi.yml
   format: yaml
   label: ShippingEasy Stores API
   slug: shippingeasy-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/openapi/shippingeasy-stores-api-openapi.yml
+  url: https://artifacts.apis.io/shippingeasy/openapi/shippingeasy-stores-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: shippingeasy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: shippingeasy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 03:09:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: shippingeasy.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.shippingeasy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 19:14:31 2026 GMT\n  hsts: false\ndomains:\n- domain: shippingeasy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/security/shippingeasy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shippingeasy/security/shippingeasy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Shipping

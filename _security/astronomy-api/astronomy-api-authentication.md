@@ -7,25 +7,25 @@ api_specs:
   label: Astronomy API Bodies API
   slug: astronomy-api-bodies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-bodies-api-openapi.yml
+  url: https://artifacts.apis.io/astronomy-api/openapi/astronomy-api-bodies-api-openapi.yml
 - filename: astronomy-api-events-api-openapi.yml
   format: yaml
   label: Astronomy API Events API
   slug: astronomy-api-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-events-api-openapi.yml
+  url: https://artifacts.apis.io/astronomy-api/openapi/astronomy-api-events-api-openapi.yml
 - filename: astronomy-api-search-api-openapi.yml
   format: yaml
   label: Astronomy API Search API
   slug: astronomy-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/astronomy-api/openapi/astronomy-api-search-api-openapi.yml
 - filename: astronomy-api-studio-api-openapi.yml
   format: yaml
   label: Astronomy API Studio API
   slug: astronomy-api-studio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/openapi/astronomy-api-studio-api-openapi.yml
+  url: https://artifacts.apis.io/astronomy-api/openapi/astronomy-api-studio-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  https://d
   \ accepted in the query string, where they would be recorded in\n      logs and browser history.\n    failure_status: 401\n    sources:\n      - openapi/astronomy-api-v3-openapi.yaml\ncredential_lifecycle:\n  issuance: >-\n    Self-serve. Create a free account at https://astronomyapi.com/auth/signup,\n    then \"Create Application\" in the dashboard to receive an Application ID and\n    an Application Secret.\n  secret_visibility: once\n  secret_visibility_quote: >-\n    \"The Application Secret is visible to you only once during application\n    creation. Save it somewhere because there's no way to retrieve it back. If\n    you lost your secret create a new application and delete the old\n    application.\"\n  rotation:\n    supported: false\n    note: >-\n      There is no rotation flow. Rotating a credential means creating a new\n      application and deleting the old one — and the docs warn \"once an\n      application is deleted there's no way to recover it,\" so the two cannot\n\
   \      overlap safely without a deliberate cut-over.\n  expiry: none documented\n  revocation: Delete the application in the dashboard.\n  scoping:\n    dimension: origin\n    note: >-\n      An application carries an `Origin` value which the API echoes as the\n      Access-Control-Allow-Origin header. This is the only scoping mechanism —\n      there are no permissions, roles or scopes of any kind. Every credential\n      can call every operation.\nbrowser_exposure:\n  note: >-\n    The first-party widget library takes the same base64 Basic credential\n    embedded in page JavaScript, so a browser integration necessarily exposes\n    the application secret to anyone who reads the page. Setting the\n    application's Origin is the only mitigation the provider offers. See\n    components/astronomy-api-components.yml.\nmarketplace:\n  rapidapi:\n    note: >-\n      RapidAPI callers may share a pooled key and be throttled as one consumer;\n      the docs advise getting a first-party key from\
   \ the Astronomy API console\n      instead.\n    source: https://docs.astronomyapi.com/known-issues\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astronomy-api/refs/heads/main/authentication/astronomy-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/astronomy-api/authentication/astronomy-api-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Astronomy

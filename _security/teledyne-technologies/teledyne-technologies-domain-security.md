@@ -5,19 +5,19 @@ api_specs:
   label: Teledyne Technologies Alarms API
   slug: teledyne-technologies-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/openapi/teledyne-technologies-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/teledyne-technologies/openapi/teledyne-technologies-alarms-api-openapi.yml
 - filename: teledyne-technologies-images-api-openapi.yml
   format: yaml
   label: Teledyne Technologies Images API
   slug: teledyne-technologies-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/openapi/teledyne-technologies-images-api-openapi.yml
+  url: https://artifacts.apis.io/teledyne-technologies/openapi/teledyne-technologies-images-api-openapi.yml
 - filename: teledyne-technologies-measurements-api-openapi.yml
   format: yaml
   label: Teledyne Technologies Measurements API
   slug: teledyne-technologies-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/openapi/teledyne-technologies-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/teledyne-technologies/openapi/teledyne-technologies-measurements-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: teledyne-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.teledyne.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 15:58:22 2026 GMT\n  hsts: false\n- host: www.teledynelecroy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 22:34:51 2026 GMT\n  hsts: null\n- host: www.teledyneimaging.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 11 18:02:10 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: teledyne.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: teledynelecroy.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/security/teledyne-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/teledyne-technologies/security/teledyne-technologies-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Aerospace

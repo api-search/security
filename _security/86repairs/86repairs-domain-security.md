@@ -28,14 +28,14 @@ source_filename: 86repairs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.86repairs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 04:25:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: 86repairs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/86repairs/refs/heads/main/security/86repairs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/86repairs/security/86repairs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant
 - Food Service
 - Facilities Management
 - Maintenance
-- Field Service
+- Field Service Management
 - Equipment
 - Asset Management
 - Hospitality

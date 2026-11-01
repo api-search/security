@@ -23,7 +23,7 @@ source_filename: natural-intelligence-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: naturalsemi.com\n  https: false\ndomains:\n- domain: naturalsemi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/natural-intelligence-systems/refs/heads/main/security/natural-intelligence-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/natural-intelligence-systems/security/natural-intelligence-systems-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

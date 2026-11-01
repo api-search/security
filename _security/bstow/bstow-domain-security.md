@@ -27,7 +27,7 @@ source_filename: bstow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cheerfulgiving.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 19:02:19 2026 GMT\n  hsts: false\ndomains:\n- domain: cheerfulgiving.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bstow/refs/heads/main/security/bstow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bstow/security/bstow-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

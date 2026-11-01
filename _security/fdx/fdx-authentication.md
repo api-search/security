@@ -7,37 +7,37 @@ api_specs:
   label: Financial Data Exchange (FDX) Account Information API
   slug: fdx-account-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-account-information-api-openapi.yml
 - filename: fdx-account-statements-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Account Statements API
   slug: fdx-account-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-statements-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-account-statements-api-openapi.yml
 - filename: fdx-account-transactions-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Account Transactions API
   slug: fdx-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-account-transactions-api-openapi.yml
 - filename: fdx-asset-transfer-networks-information-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Asset Transfer Networks Information API
   slug: fdx-asset-transfer-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-asset-transfer-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-asset-transfer-networks-information-api-openapi.yml
 - filename: fdx-payment-networks-information-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Payment Networks Information API
   slug: fdx-payment-networks-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-payment-networks-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-payment-networks-information-api-openapi.yml
 - filename: fdx-personal-information-api-openapi.yml
   format: yaml
   label: Financial Data Exchange (FDX) Personal Information API
   slug: fdx-personal-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/openapi/fdx-personal-information-api-openapi.yml
+  url: https://artifacts.apis.io/fdx/openapi/fdx-personal-information-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -81,7 +81,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fdx-corex-6.0.0.yaml, openapi/fdx-corex-6.2.0.yaml, openapi/fdx-corex-6.3.1.yaml\nsummary:\n  types:\n  - oauth2\n  - openIdConnect\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: openIdConnect\n  type: openIdConnect\n  openIdConnectUrl: https://www.your-organization.com/.well-known/openid-configuration\n  description: 'This API uses an [OpenID Connect (OIDC) authentication flow](/core-exchange/authentication)\n    and accepts the resulting [access token](/core-exchange/authentication#response-parameters)\n    as a bearer token. For example,  `curl -H ''Authorization: Bearer <ACCESS&#95;TOKEN|''`.'\n  sources:\n  - openapi/fdx-corex-6.0.0.yaml\n  - openapi/fdx-corex-6.2.0.yaml\n  - openapi/fdx-corex-6.3.1.yaml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.your-organization.com/authorize\n    tokenUrl: https://www.your-organization.com/token\n    scopes:\
   \ 3\n  description: 'This API uses an [OAuth2.0 authorization code flow](https://auth0.com/docs/get-started/authentication-and-authorization-flow/authorization-code-flow)\n    and accepts the resulting access token as a bearer token. For example,  `curl -H ''Authorization:\n    Bearer <ACCESS&#95;TOKEN|''`.'\n  sources:\n  - openapi/fdx-corex-6.0.0.yaml\n  - openapi/fdx-corex-6.2.0.yaml\n  - openapi/fdx-corex-6.3.1.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fdx/refs/heads/main/authentication/fdx-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fdx/authentication/fdx-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Financial Data

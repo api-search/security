@@ -27,7 +27,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.macro.com/AI/mcp/overview.md\nname: Macro Authentication\ntype: Authentication\ndescription: >-\n  How programmatic clients authenticate to Macro. Macro's public programmatic surface\n  is its hosted MCP server; clients authenticate with OAuth via a browser sign-in when\n  the MCP client first connects. There is no documented public REST API key scheme.\ndocs: https://docs.macro.com/AI/mcp/overview.md\nschemes:\n- id: mcp_oauth\n  type: oauth2\n  flow: authorization_code\n  interaction: browser\n  applies_to: https://mcp-server.macro.com/mcp\n  description: >-\n    Authentication happens through Macro's OAuth flow when the MCP client connects.\n    The user logs in via the browser during the initial connection. MCP access is\n    available on all plans including free.\nconnected_accounts:\n- provider: Gmail\n  purpose: Email sync (keyboard-driven email with Gmail sync)\n  docs: https://docs.macro.com/product/email.md\n\
   - provider: GitHub\n  purpose: Link pull requests to tasks; third-party OAuth approval required\n  docs: https://docs.macro.com/integrations/github.md\nnotes: >-\n  Macro is an end-user workspace application (desktop/iOS/web) rather than a developer\n  API platform; the primary agent-facing authenticated entry point is the MCP server.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/macro/refs/heads/main/authentication/macro-authentication.yml
+source_yaml_url: https://artifacts.apis.io/macro/authentication/macro-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

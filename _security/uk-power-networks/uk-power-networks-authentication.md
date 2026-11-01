@@ -8,13 +8,13 @@ api_specs:
   label: UK Power Networks Catalog API
   slug: uk-power-networks-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/openapi/uk-power-networks-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/uk-power-networks/openapi/uk-power-networks-catalog-api-openapi.yml
 - filename: uk-power-networks-dataset-api-openapi.yml
   format: yaml
   label: UK Power Networks Dataset API
   slug: uk-power-networks-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/openapi/uk-power-networks-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/uk-power-networks/openapi/uk-power-networks-dataset-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/uk-powe
   \ rather than embedding it in shared URLs.\nschemes:\n- name: apikey\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: API key to make authenticated requests.\n  applied: global (spec-level security requirement on both the v2.0 and v2.1 documents)\n  sources:\n  - openapi/uk-power-networks-explore-api-v2-0-openapi.json\n  - openapi/uk-power-networks-explore-api-v2-1-openapi.json\nanonymous_access:\n  supported: true\n  scope: >-\n    The whole catalogue surface answers anonymously — dataset listing, dataset metadata, facets and\n    the DCAT-AP export. Records answer anonymously for 36 of the 136 catalogued datasets; the other\n    99 return HTTP 403 ForbiddenAccess until a key is supplied. Verified 2026-07-27 by enumerating\n    every dataset_id and issuing an anonymous records call against each.\n  rate_limit: 10000 calls per day (x-ratelimit-limit header on an anonymous 200)\nonboarding:\n  gate: self-serve\n  approval_required: false\n  cost: free\n  steps:\n  - Create\
   \ a free account at https://ukpowernetworks.opendatasoft.com/signup/\n  - Sign in and open https://ukpowernetworks.opendatasoft.com/account/api-keys/\n  - Generate a key\n  - Pass it on every call as the apikey query parameter\n  sdk_convention: >-\n    The official Python client (ukpyn) reads the key from a UKPN_API_KEY environment variable or a\n    .env file rather than taking it inline.\nevidence:\n- source: openapi securitySchemes (both documents)\n  value: '{\"apikey\": {\"type\": \"apiKey\", \"name\": \"apikey\", \"in\": \"query\"}}'\n- source: https://ukpowernetworks.opendatasoft.com/account/api-keys/\n  http_status: 200\n  fetched: '2026-07-27'\n  note: Redirects to /login/?next=/account/api-keys/ when unauthenticated.\n- source: https://ukpowernetworks.opendatasoft.com/.well-known/openid-configuration\n  http_status: 404\n  fetched: '2026-07-27'\n- source: https://ukpowernetworks.opendatasoft.com/.well-known/oauth-authorization-server\n  http_status: 404\n  fetched: '2026-07-27'\n\
   related:\n  scopes: null\n  conventions: conventions/uk-power-networks-conventions.yml\n  well_known: well-known/uk-power-networks-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uk-power-networks/refs/heads/main/authentication/uk-power-networks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uk-power-networks/authentication/uk-power-networks-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Energy

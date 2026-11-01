@@ -46,7 +46,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: thedroneracingleague.com\n  https: false\n  note: TLS handshake rejected by the origin (tlsv1 alert internal error); no certificate\n    presented on 2026-08-04\n- host: www.drl.io\n  https: false\n  note: CNAME to proxy-ssl.webflow.com; TLS handshake failure on client hello, no certificate\n    presented on 2026-08-04\n- host: drl.io\n  https: false\n  note: TLS handshake rejected by the origin; HTTP 301 to https:// which then fails\n- host: metaverse.drl.io\n  https: true\n  note: Cloudflare Pages SPA (\"DRL Interactive Marathon\"); returns 200 text/html for every\n    path probed, including /openapi.json - catch-all, not an API\n- host: api.nft.drl.io\n  https: true\n  http_status: 503\n  note: Google-hosted; 503 on every path probed - decommissioned NFT platform API host\ndomains:\n- domain: thedroneracingleague.com\n  dnssec: false\n  caa: []\n  spf: true\n\
   \  dmarc: true\n  dmarc_policy: none\n- domain: drl.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n  dmarc_rua: dmarc-reports@drl.io\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drone-racing-league/refs/heads/main/security/drone-racing-league-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/drone-racing-league/security/drone-racing-league-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

@@ -7,37 +7,37 @@ api_specs:
   label: TradeStation Streaming API
   slug: tradestation-streaming
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/asyncapi/tradestation-streaming-asyncapi.yml
+  url: https://artifacts.apis.io/tradestation/asyncapi/tradestation-streaming-asyncapi.yml
 - filename: tradestation-accounts-api-openapi.yml
   format: yaml
   label: TradeStation Accounts API
   slug: tradestation-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-accounts-api-openapi.yml
 - filename: tradestation-market-data-api-openapi.yml
   format: yaml
   label: TradeStation Market Data API
   slug: tradestation-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-market-data-api-openapi.yml
 - filename: tradestation-options-api-openapi.yml
   format: yaml
   label: TradeStation Options API
   slug: tradestation-options-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-options-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-options-api-openapi.yml
 - filename: tradestation-order-execution-api-openapi.yml
   format: yaml
   label: TradeStation Order Execution API
   slug: tradestation-order-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-order-execution-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-order-execution-api-openapi.yml
 - filename: tradestation-reference-data-api-openapi.yml
   format: yaml
   label: TradeStation Reference Data API
   slug: tradestation-reference-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/openapi/tradestation-reference-data-api-openapi.yml
+  url: https://artifacts.apis.io/tradestation/openapi/tradestation-reference-data-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -69,7 +69,7 @@ source_filename: tradestation-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tradestation-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2AuthCode\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://signin.tradestation.com/authorize\n    tokenUrl: https://signin.tradestation.com/oauth/token\n    scopes: 3\n  description: OAuth 2.0 authorization code flow for accessing TradeStation API resources. Requires\n    user authorization and supports token refresh.\n  sources:\n  - openapi/tradestation-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tradestation/refs/heads/main/authentication/tradestation-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tradestation/authentication/tradestation-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Brokerage

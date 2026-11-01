@@ -5,37 +5,37 @@ api_specs:
   label: Airmeet Authentication API
   slug: airmeet-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/airmeet/openapi/airmeet-authentication-api-openapi.yml
 - filename: airmeet-event-details-api-openapi.yml
   format: yaml
   label: Airmeet Event Details API
   slug: airmeet-event-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-event-details-api-openapi.yml
+  url: https://artifacts.apis.io/airmeet/openapi/airmeet-event-details-api-openapi.yml
 - filename: airmeet-manage-event-api-openapi.yml
   format: yaml
   label: Airmeet Manage Event API
   slug: airmeet-manage-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-manage-event-api-openapi.yml
+  url: https://artifacts.apis.io/airmeet/openapi/airmeet-manage-event-api-openapi.yml
 - filename: airmeet-manage-event-series-api-openapi.yml
   format: yaml
   label: Airmeet Manage Event Series API
   slug: airmeet-manage-event-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-manage-event-series-api-openapi.yml
+  url: https://artifacts.apis.io/airmeet/openapi/airmeet-manage-event-series-api-openapi.yml
 - filename: airmeet-manage-registrations-api-openapi.yml
   format: yaml
   label: Airmeet Manage Registrations API
   slug: airmeet-manage-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-manage-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/airmeet/openapi/airmeet-manage-registrations-api-openapi.yml
 - filename: airmeet-webhooks-api-openapi.yml
   format: yaml
   label: Airmeet Webhooks API
   slug: airmeet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/openapi/airmeet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/airmeet/openapi/airmeet-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: airmeet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.airmeet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 15:01:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api-gateway.airmeet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 15:01:56 2026 GMT\n  hsts: null\n- host: api-gateway-prod.eu.airmeet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 04:43:41 2026 GMT\n  hsts: null\ndomains:\n- domain: airmeet.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airmeet/refs/heads/main/security/airmeet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airmeet/security/airmeet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

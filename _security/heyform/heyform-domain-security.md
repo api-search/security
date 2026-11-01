@@ -5,43 +5,43 @@ api_specs:
   label: HeyForm Auth API
   slug: heyform-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-auth-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-auth-api-openapi.yml
 - filename: heyform-config-api-openapi.yml
   format: yaml
   label: HeyForm Config API
   slug: heyform-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-config-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-config-api-openapi.yml
 - filename: heyform-forms-api-openapi.yml
   format: yaml
   label: HeyForm Forms API
   slug: heyform-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-forms-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-forms-api-openapi.yml
 - filename: heyform-images-api-openapi.yml
   format: yaml
   label: HeyForm Images API
   slug: heyform-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-images-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-images-api-openapi.yml
 - filename: heyform-submissions-api-openapi.yml
   format: yaml
   label: HeyForm Submissions API
   slug: heyform-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-submissions-api-openapi.yml
 - filename: heyform-upload-api-openapi.yml
   format: yaml
   label: HeyForm Upload API
   slug: heyform-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-upload-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-upload-api-openapi.yml
 - filename: heyform-graph-ql-api-openapi.yml
   format: yaml
   label: HeyForm Graph QL API
   slug: heyform-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/openapi/heyform-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/heyform/openapi/heyform-graph-ql-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: heyform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: heyform.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 15:12:26 2026 GMT\n  hsts: false\n- host: docs.heyform.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 13:11:47 2026 GMT\n  hsts: false\n- host: api.heyform.net\n  https: false\ndomains:\n- domain: heyform.net\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heyform/refs/heads/main/security/heyform-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/heyform/security/heyform-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Forms

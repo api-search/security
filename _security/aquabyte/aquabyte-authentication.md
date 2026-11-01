@@ -8,43 +8,43 @@ api_specs:
   label: Aquabyte Behaviour API
   slug: aquabyte-behaviour-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-behaviour-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-behaviour-api-openapi.yml
 - filename: aquabyte-biomass-api-openapi.yml
   format: yaml
   label: Aquabyte Biomass API
   slug: aquabyte-biomass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-biomass-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-biomass-api-openapi.yml
 - filename: aquabyte-environmental-api-openapi.yml
   format: yaml
   label: Aquabyte Environmental API
   slug: aquabyte-environmental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-environmental-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-environmental-api-openapi.yml
 - filename: aquabyte-lice-api-openapi.yml
   format: yaml
   label: Aquabyte Lice API
   slug: aquabyte-lice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-lice-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-lice-api-openapi.yml
 - filename: aquabyte-sites-api-openapi.yml
   format: yaml
   label: Aquabyte Sites API
   slug: aquabyte-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-sites-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-sites-api-openapi.yml
 - filename: aquabyte-welfare-api-openapi.yml
   format: yaml
   label: Aquabyte Welfare API
   slug: aquabyte-welfare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-welfare-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-welfare-api-openapi.yml
 - filename: aquabyte-pens-api-openapi.yml
   format: yaml
   label: Aquabyte Pens API
   slug: aquabyte-pens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/openapi/aquabyte-pens-api-openapi.yml
+  url: https://artifacts.apis.io/aquabyte/openapi/aquabyte-pens-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -76,7 +76,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: https://api.aquabyte.ai/openapi.json\ndocs: https://api.aquabyte.ai/v3/docs\nnote: >-\n  The OpenAPI 3.1 document Aquabyte serves at api.aquabyte.ai/openapi.json declares NO\n  components.securitySchemes and no top-level security requirement — the auth contract is\n  documented in prose inside info.description instead. This profile is therefore SEARCHED\n  from that published description (and confirmed by probing a protected operation), not\n  derived from securitySchemes. The gap is worth reporting to the provider: adding an\n  apiKey securityScheme and applying it would make the contract machine-readable.\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\n  spec_declares_security_schemes: false\nschemes:\n- name: apikey\n  type: apiKey\n  in: header\n  parameter_name: apikey\n  description: >-\n    Per-customer API key issued by Aquabyte. Sent on every HTTPS request as the `apikey`\n    request\
   \ header. Quoted verbatim from the published API description: \"To use our API you\n    must be issued an API key. Instructions: For all HTTPS requests you will need to pass in\n    your API key as part of the header: `apikey: {API_KEY}`\".\n  issuance: manual — keys are issued by Aquabyte to existing customers; there is no public\n    self-service signup for API credentials.\n  sources:\n  - https://api.aquabyte.ai/openapi.json (info.description)\n  applies_to: all operations\nx-evidence:\n- fetched: '2026-08-06'\n  url: https://api.aquabyte.ai/openapi.json\n  http_status: 200\n  content_type: application/json\n  note: OpenAPI 3.1.0, 19 operations, no securitySchemes object\n- fetched: '2026-08-06'\n  url: https://api.aquabyte.ai/v3/sites\n  http_status: 401\n  note: unauthenticated request to a documented operation is rejected, confirming the key\n    requirement is enforced\n- fetched: '2026-08-06'\n  url: https://api.aquabyte.ai/v3/docs\n  http_status: 200\n  content_type: text/html\n\
   \  note: public ReDoc rendering of the same specification\ngaps:\n- No `components.securitySchemes` in the OpenAPI, so no machine-readable auth contract.\n- No OAuth 2.0 or OpenID Connect surface; no scopes, so `scopes/` is not applicable.\n- No `/.well-known/openid-configuration` or `/.well-known/oauth-authorization-server`\n  (both probed, both 404 on api.aquabyte.ai).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aquabyte/refs/heads/main/authentication/aquabyte-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aquabyte/authentication/aquabyte-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Aquaculture

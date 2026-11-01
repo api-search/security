@@ -5,19 +5,19 @@ api_specs:
   label: RockSolid Allocations API
   slug: rocksolid-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/openapi/rocksolid-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/rocksolid/openapi/rocksolid-allocations-api-openapi.yml
 - filename: rocksolid-performance-api-openapi.yml
   format: yaml
   label: RockSolid Performance API
   slug: rocksolid-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/openapi/rocksolid-performance-api-openapi.yml
+  url: https://artifacts.apis.io/rocksolid/openapi/rocksolid-performance-api-openapi.yml
 - filename: rocksolid-vaults-api-openapi.yml
   format: yaml
   label: RockSolid Vaults API
   slug: rocksolid-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/openapi/rocksolid-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/rocksolid/openapi/rocksolid-vaults-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: rocksolid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rocksolid.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 00:33:24 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app-integration.rocksolid.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 00:58:47 2026 GMT\n  hsts: false\ndomains:\n- domain: rocksolid.network\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/security/rocksolid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rocksolid/security/rocksolid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

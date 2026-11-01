@@ -25,7 +25,7 @@ source_filename: ksoft-si-lyrics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.ksoft.si\n  https: false\ndomains:\n- domain: ksoft.si\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ksoft-si-lyrics/refs/heads/main/security/ksoft-si-lyrics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ksoft-si-lyrics/security/ksoft-si-lyrics-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Music

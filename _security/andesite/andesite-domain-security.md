@@ -27,7 +27,7 @@ source_filename: andesite-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: andesite.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 11 15:54:16 2026 GMT\n  hsts: false\ndomains:\n- domain: andesite.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/andesite/refs/heads/main/security/andesite-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/andesite/security/andesite-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

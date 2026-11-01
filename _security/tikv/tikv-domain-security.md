@@ -5,31 +5,31 @@ api_specs:
   label: TiKV Configuration API
   slug: tikv-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/tikv/openapi/tikv-configuration-api-openapi.yml
 - filename: tikv-debug-api-openapi.yml
   format: yaml
   label: TiKV Debug API
   slug: tikv-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-debug-api-openapi.yml
+  url: https://artifacts.apis.io/tikv/openapi/tikv-debug-api-openapi.yml
 - filename: tikv-metrics-api-openapi.yml
   format: yaml
   label: TiKV Metrics API
   slug: tikv-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/tikv/openapi/tikv-metrics-api-openapi.yml
 - filename: tikv-regions-api-openapi.yml
   format: yaml
   label: TiKV Regions API
   slug: tikv-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-regions-api-openapi.yml
+  url: https://artifacts.apis.io/tikv/openapi/tikv-regions-api-openapi.yml
 - filename: tikv-status-api-openapi.yml
   format: yaml
   label: TiKV Status API
   slug: tikv-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/openapi/tikv-status-api-openapi.yml
+  url: https://artifacts.apis.io/tikv/openapi/tikv-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: tikv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tikv.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 03:13:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tikv.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tikv/refs/heads/main/security/tikv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tikv/security/tikv-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - ACID

@@ -35,7 +35,7 @@ source_filename: electronic-payment-exchange-inc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.north.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 25 23:59:59 2027 GMT\n  hsts: false\n- host: secure.epx.com\n  https: false\ndomains:\n- domain: north.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: epx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/electronic-payment-exchange-inc/refs/heads/main/security/electronic-payment-exchange-inc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/electronic-payment-exchange-inc/security/electronic-payment-exchange-inc-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

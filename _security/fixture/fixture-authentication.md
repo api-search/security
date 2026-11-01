@@ -7,67 +7,85 @@ api_specs:
   label: Fixture Accounts API
   slug: fixture-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-accounts-api-openapi.yml
 - filename: fixture-activities-api-openapi.yml
   format: yaml
   label: Fixture Activities API
   slug: fixture-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-activities-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-activities-api-openapi.yml
 - filename: fixture-contacts-api-openapi.yml
   format: yaml
   label: Fixture Contacts API
   slug: fixture-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-contacts-api-openapi.yml
 - filename: fixture-deals-api-openapi.yml
   format: yaml
   label: Fixture Deals API
   slug: fixture-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-deals-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-deals-api-openapi.yml
 - filename: fixture-fixture-api-api-openapi.yml
   format: yaml
   label: Fixture API
   slug: fixture-fixture-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-fixture-api-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-fixture-api-api-openapi.yml
 - filename: fixture-leads-api-openapi.yml
   format: yaml
   label: Fixture Leads API
   slug: fixture-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-leads-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-leads-api-openapi.yml
 - filename: fixture-notes-api-openapi.yml
   format: yaml
   label: Fixture Notes API
   slug: fixture-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-notes-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-notes-api-openapi.yml
 - filename: fixture-pipelines-api-openapi.yml
   format: yaml
   label: Fixture Pipelines API
   slug: fixture-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-pipelines-api-openapi.yml
 - filename: fixture-task-statuses-api-openapi.yml
   format: yaml
   label: Fixture Task Statuses API
   slug: fixture-task-statuses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-task-statuses-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-task-statuses-api-openapi.yml
 - filename: fixture-tasks-api-openapi.yml
   format: yaml
   label: Fixture Tasks API
   slug: fixture-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-tasks-api-openapi.yml
 - filename: fixture-users-api-openapi.yml
   format: yaml
   label: Fixture Users API
   slug: fixture-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/openapi/fixture-users-api-openapi.yml
+  url: https://artifacts.apis.io/fixture/openapi/fixture-users-api-openapi.yml
+- filename: fixture-custom-fields-api-openapi.yml
+  format: yaml
+  label: Fixture Custom Fields API
+  slug: fixture-custom-fields-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fixture/openapi/fixture-custom-fields-api-openapi.yml
+- filename: fixture-lead-lists-api-openapi.yml
+  format: yaml
+  label: Fixture Lead Lists API
+  slug: fixture-lead-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fixture/openapi/fixture-lead-lists-api-openapi.yml
+- filename: fixture-reporting-api-openapi.yml
+  format: yaml
+  label: Fixture Reporting API
+  slug: fixture-reporting-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fixture/openapi/fixture-reporting-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -147,7 +165,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://fixture
   - name: api-key\n  type: apiKey\n  in: header\n  header: Authorization\n  value_format: Bearer [example key]\n  key_prefix: fx_\n  description: Workspace API keys are the service-to-service credential for external integrations.\n    Owner-only to list, create, or revoke. Shown once at creation; scopes are chosen explicitly\n    at creation time with no implicit full-access default. Revocation is immediate and permanent.\n  used_by: External integrations and service jobs\n  docs: https://fixture.app/docs/authentication/api-keys\n  sources:\n  - https://fixture.app/docs/authentication/api-keys\n- name: fixture-oauth\n  type: oauth2\n  description: Fixture OAuth is used by first-party Agent and CLI clients and by remote MCP\n    clients. Authorization Server metadata is published at /.well-known/oauth-authorization-server\n    on the API host, and the MCP endpoint publishes /.well-known/oauth-protected-resource.\n    Public clients with PKCE S256; dynamic client registration is supported.\n\
   \  issuer: https://beta-api.fixture.app\n  flows:\n    authorizationCode:\n      authorizationUrl: https://beta-api.fixture.app/api/oauth/authorize\n      tokenUrl: https://beta-api.fixture.app/api/oauth/token\n      refreshUrl: https://beta-api.fixture.app/api/oauth/token\n      scopes:\n        crm:read: Read CRM records\n        crm:write: Create and update CRM records\n        tasks:read: Read Tasks\n        tasks:write: Create and update Tasks\n        users:read: Read team Users\n  endpoints:\n    authorization: https://beta-api.fixture.app/api/oauth/authorize\n    token: https://beta-api.fixture.app/api/oauth/token\n    revocation: https://beta-api.fixture.app/api/oauth/revoke\n    registration: https://beta-api.fixture.app/api/oauth/register\n  grant_types_supported:\n  - authorization_code\n  - refresh_token\n  response_types_supported:\n  - code\n  token_endpoint_auth_methods_supported:\n  - none\n  code_challenge_methods_supported:\n  - S256\n  token_format: JWT-shaped bearer\
   \ (eyJ...)\n  used_by: Fixture CLI, in-app Agent clients, and remote MCP clients\n  sources:\n  - https://beta-api.fixture.app/.well-known/oauth-authorization-server\n  - https://beta-api.fixture.app/.well-known/oauth-protected-resource\n  - https://fixture.app/docs/guides/agents/fixture-mcp\nfailure_modes:\n- status: 401\n  code: unauthorized\n  when: Missing or invalid bearer token.\n- status: 403\n  code: forbidden\n  when: Valid bearer token but missing the required scope. Message names the missing scope.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fixture/refs/heads/main/authentication/fixture-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fixture/authentication/fixture-authentication.yml
 summary_line: http/apiKey/oauth2 · 3 schemes
 tags:
 - Company

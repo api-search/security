@@ -5,19 +5,19 @@ api_specs:
   label: Open Liberty Configuration API
   slug: open-liberty-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/open-liberty/openapi/open-liberty-configuration-api-openapi.yml
 - filename: open-liberty-health-api-openapi.yml
   format: yaml
   label: Open Liberty Health API
   slug: open-liberty-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-health-api-openapi.yml
+  url: https://artifacts.apis.io/open-liberty/openapi/open-liberty-health-api-openapi.yml
 - filename: open-liberty-metrics-api-openapi.yml
   format: yaml
   label: Open Liberty Metrics API
   slug: open-liberty-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/openapi/open-liberty-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/open-liberty/openapi/open-liberty-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: open-liberty-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openliberty.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 15:38:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: openliberty.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/security/open-liberty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/open-liberty/security/open-liberty-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Application Server

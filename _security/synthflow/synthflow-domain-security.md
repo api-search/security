@@ -5,109 +5,109 @@ api_specs:
   label: Synthflow Chat API
   slug: synthflow-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-chat-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-chat-api-openapi.yml
 - filename: synthflow-contacts-api-openapi.yml
   format: yaml
   label: Synthflow Contacts API
   slug: synthflow-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-contacts-api-openapi.yml
 - filename: synthflow-mcp-api-openapi.yml
   format: yaml
   label: Synthflow MCP API
   slug: synthflow-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-mcp-api-openapi.yml
 - filename: synthflow-memory-stores-api-openapi.yml
   format: yaml
   label: Synthflow Memory Stores API
   slug: synthflow-memory-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-memory-stores-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-memory-stores-api-openapi.yml
 - filename: synthflow-actions-api-openapi.yml
   format: yaml
   label: Synthflow Actions API
   slug: synthflow-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-actions-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-actions-api-openapi.yml
 - filename: synthflow-analytics-api-openapi.yml
   format: yaml
   label: Synthflow Analytics API
   slug: synthflow-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-analytics-api-openapi.yml
 - filename: synthflow-assistants-api-openapi.yml
   format: yaml
   label: Synthflow Assistants API
   slug: synthflow-assistants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-assistants-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-assistants-api-openapi.yml
 - filename: synthflow-calls-api-openapi.yml
   format: yaml
   label: Synthflow Calls API
   slug: synthflow-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-calls-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-calls-api-openapi.yml
 - filename: synthflow-knowledge-base-api-openapi.yml
   format: yaml
   label: Synthflow Knowledge Base API
   slug: synthflow-knowledge-base-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-knowledge-base-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-knowledge-base-api-openapi.yml
 - filename: synthflow-phonebooks-api-openapi.yml
   format: yaml
   label: Synthflow Phonebooks API
   slug: synthflow-phonebooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phonebooks-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-phonebooks-api-openapi.yml
 - filename: synthflow-simulation-cases-api-openapi.yml
   format: yaml
   label: Synthflow Simulation Cases API
   slug: synthflow-simulation-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-cases-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulation-cases-api-openapi.yml
 - filename: synthflow-simulation-scenarios-api-openapi.yml
   format: yaml
   label: Synthflow Simulation Scenarios API
   slug: synthflow-simulation-scenarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-scenarios-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulation-scenarios-api-openapi.yml
 - filename: synthflow-simulation-suites-api-openapi.yml
   format: yaml
   label: Synthflow Simulation Suites API
   slug: synthflow-simulation-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulation-suites-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulation-suites-api-openapi.yml
 - filename: synthflow-simulations-api-openapi.yml
   format: yaml
   label: Synthflow Simulations API
   slug: synthflow-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-simulations-api-openapi.yml
 - filename: synthflow-subaccounts-api-openapi.yml
   format: yaml
   label: Synthflow Subaccounts API
   slug: synthflow-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-subaccounts-api-openapi.yml
 - filename: synthflow-voices-api-openapi.yml
   format: yaml
   label: Synthflow Voices API
   slug: synthflow-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-voices-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-voices-api-openapi.yml
 - filename: synthflow-phone-numbers-api-openapi.yml
   format: yaml
   label: Synthflow Phone Numbers API
   slug: synthflow-phone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-phone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-phone-numbers-api-openapi.yml
 - filename: synthflow-webhook-logs-api-openapi.yml
   format: yaml
   label: Synthflow Webhook Logs API
   slug: synthflow-webhook-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/openapi/synthflow-webhook-logs-api-openapi.yml
+  url: https://artifacts.apis.io/synthflow/openapi/synthflow-webhook-logs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -148,7 +148,7 @@ source_filename: synthflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: synthflow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 01:03:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.synthflow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 17:14:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.synthflow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 22:23:27 2026 GMT\n  hsts: null\ndomains:\n- domain: synthflow.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synthflow/refs/heads/main/security/synthflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/synthflow/security/synthflow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Voice

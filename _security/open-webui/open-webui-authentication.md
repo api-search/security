@@ -7,19 +7,19 @@ api_specs:
   label: Open WebUI Anthropic API
   slug: open-webui-anthropic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/openapi/open-webui-anthropic-api-openapi.yml
+  url: https://artifacts.apis.io/open-webui/openapi/open-webui-anthropic-api-openapi.yml
 - filename: open-webui-ollama-api-openapi.yml
   format: yaml
   label: Open WebUI Ollama API
   slug: open-webui-ollama-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/openapi/open-webui-ollama-api-openapi.yml
+  url: https://artifacts.apis.io/open-webui/openapi/open-webui-ollama-api-openapi.yml
 - filename: open-webui-chat-completions-api-openapi.yml
   format: yaml
   label: Open WebUI Chat Completions API
   slug: open-webui-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/openapi/open-webui-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/open-webui/openapi/open-webui-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -48,7 +48,7 @@ source_filename: open-webui-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/open-webui-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    Bearer token: Open WebUI session token or per-user API key. Each API key\n    inherits the permissions of the user who created it.\n  sources:\n  - openapi/open-webui-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/open-webui/refs/heads/main/authentication/open-webui-authentication.yml
+source_yaml_url: https://artifacts.apis.io/open-webui/authentication/open-webui-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - LLM

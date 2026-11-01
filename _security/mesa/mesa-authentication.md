@@ -8,13 +8,13 @@ api_specs:
   label: Mesa Authentication API
   slug: mesa-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/openapi/mesa-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/mesa/openapi/mesa-authentication-api-openapi.yml
 - filename: mesa-invoices-api-openapi.yml
   format: yaml
   label: Mesa Invoices API
   slug: mesa-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/openapi/mesa-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/mesa/openapi/mesa-invoices-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -62,7 +62,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.joinmesa.com/set-up/api-keys\ndocs: https://docs.joinmesa.com/embedded-ui/auth-flow\nsummary:\n  types: [apiKey, http, openIdConnect]\n  api_key_in: [body]\n  oauth2_flows: [authorizationCode]\n  model: >-\n    Server-side API keys (clientId + clientSecret) are exchanged for a short-lived JWT session token\n    scoped to a single end user (vendorId + userId). The JWT is used as a Bearer token on Partner API\n    calls and passed to the MesaClient embed handshake. End users authenticate either with Mesa native\n    sign-up/sign-in or via the partner's OIDC provider.\nschemes:\n- name: apiKeyCredentials\n  type: apiKey\n  in: body\n  description: >-\n    clientId + clientSecret pair issued in the Mesa partner portal (partners.joinmesa.com). Sent in\n    the JSON body of POST /token and POST /partners/{partnerId}/auth. Must stay server-side.\n  sources: [openapi/mesa-partner-api-openapi.yml, https://docs.joinmesa.com/set-up/api-keys]\n\
   - name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Short-lived JWT returned by the token endpoints; used on subsequent Partner API calls.\n  sources: [openapi/mesa-partner-api-openapi.yml]\n- name: oidc\n  type: openIdConnect\n  description: >-\n    Optional end-user authentication via the partner's OpenID Provider (Okta, Azure AD, Google) using\n    the Authorization Code flow with scopes openid, email, profile. The partner shares Issuer URL,\n    Client ID, and Client Secret with Mesa; contact support@joinmesa.com to enable.\n  scopes: [openid, email, profile]\n  sources: [https://docs.joinmesa.com/embedded-ui/user-flows]\njwt_payload:\n  origin: Allowed iframe origin; scopes the token to the partner domain.\n  partnerId: Mesa-assigned partner identifier.\n  programCode: Controls which payment programs appear in onboarding.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mesa/refs/heads/main/authentication/mesa-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mesa/authentication/mesa-authentication.yml
 summary_line: apiKey/http/openIdConnect · 3 schemes
 tags:
 - Company

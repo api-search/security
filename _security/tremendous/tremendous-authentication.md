@@ -7,55 +7,55 @@ api_specs:
   label: Tremendous Campaigns API
   slug: tremendous-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-campaigns-api-openapi.yml
 - filename: tremendous-funding-sources-api-openapi.yml
   format: yaml
   label: Tremendous Funding Sources API
   slug: tremendous-funding-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-funding-sources-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-funding-sources-api-openapi.yml
 - filename: tremendous-invoices-api-openapi.yml
   format: yaml
   label: Tremendous Invoices API
   slug: tremendous-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-invoices-api-openapi.yml
 - filename: tremendous-members-api-openapi.yml
   format: yaml
   label: Tremendous Members API
   slug: tremendous-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-members-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-members-api-openapi.yml
 - filename: tremendous-orders-api-openapi.yml
   format: yaml
   label: Tremendous Orders API
   slug: tremendous-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-orders-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-orders-api-openapi.yml
 - filename: tremendous-organizations-api-openapi.yml
   format: yaml
   label: Tremendous Organizations API
   slug: tremendous-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-organizations-api-openapi.yml
 - filename: tremendous-products-api-openapi.yml
   format: yaml
   label: Tremendous Products API
   slug: tremendous-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-products-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-products-api-openapi.yml
 - filename: tremendous-rewards-api-openapi.yml
   format: yaml
   label: Tremendous Rewards API
   slug: tremendous-rewards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-rewards-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-rewards-api-openapi.yml
 - filename: tremendous-webhooks-api-openapi.yml
   format: yaml
   label: Tremendous Webhooks API
   slug: tremendous-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/openapi/tremendous-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/tremendous/openapi/tremendous-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -94,7 +94,7 @@ source_filename: tremendous-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tremendous-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token authentication using a Tremendous API key. Generate API keys in\n    your Tremendous dashboard Settings > API.\n  sources:\n  - openapi/tremendous-api-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.tremendous.com/oauth/authorize\n    tokenUrl: https://www.tremendous.com/oauth/token\n    scopes: 3\n  description: OAuth 2.0 for third-party integrations\n  sources:\n  - openapi/tremendous-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tremendous/refs/heads/main/authentication/tremendous-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tremendous/authentication/tremendous-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Employee Incentives

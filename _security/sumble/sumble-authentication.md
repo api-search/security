@@ -8,61 +8,61 @@ api_specs:
   label: Sumble Contact Lists API
   slug: sumble-contact-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-contact-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-contact-lists-api-openapi.yml
 - filename: sumble-jobs-api-openapi.yml
   format: yaml
   label: Sumble Jobs API
   slug: sumble-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-jobs-api-openapi.yml
 - filename: sumble-organization-lists-api-openapi.yml
   format: yaml
   label: Sumble Organization Lists API
   slug: sumble-organization-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-organization-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-organization-lists-api-openapi.yml
 - filename: sumble-organizations-api-openapi.yml
   format: yaml
   label: Sumble Organizations API
   slug: sumble-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-organizations-api-openapi.yml
 - filename: sumble-people-api-openapi.yml
   format: yaml
   label: Sumble People API
   slug: sumble-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-people-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-people-api-openapi.yml
 - filename: sumble-projects-api-openapi.yml
   format: yaml
   label: Sumble Projects API
   slug: sumble-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-projects-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-projects-api-openapi.yml
 - filename: sumble-signals-api-openapi.yml
   format: yaml
   label: Sumble Signals API
   slug: sumble-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-signals-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-signals-api-openapi.yml
 - filename: sumble-support-api-openapi.yml
   format: yaml
   label: Sumble Support API
   slug: sumble-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-support-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-support-api-openapi.yml
 - filename: sumble-teams-api-openapi.yml
   format: yaml
   label: Sumble Teams API
   slug: sumble-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-teams-api-openapi.yml
 - filename: sumble-technologies-api-openapi.yml
   format: yaml
   label: Sumble Technologies API
   slug: sumble-technologies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/openapi/sumble-technologies-api-openapi.yml
+  url: https://artifacts.apis.io/sumble/openapi/sumble-technologies-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  openapi/_
   \    applied_to: 'all 26 operations (declared per-operation as security[{api_token: []}])'\n    key_management:\n      url: https://sumble.com/account/api-keys\n      issuance: 'Account > API Keys > Create Key; name the key, copy the token immediately'\n      display: shown in full only once at creation\n      rotation: keys can be revoked at any time; lost keys are deleted and regenerated\n      availability: API keys can be generated on all plans\n    failure_status: 401\n  - name: mcp_oauth\n    surface: MCP server (https://mcp.sumble.com)\n    type: oauth2\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.sumble.com/authorize\n        tokenUrl: https://mcp.sumble.com/token\n        registrationUrl: https://mcp.sumble.com/register\n        code_challenge_methods: [S256]\n        grant_types: [authorization_code, refresh_token]\n        token_endpoint_auth_methods: [client_secret_post, client_secret_basic]\n        scopes: {}\n    dynamic_client_registration:\
   \ true\n    discovery:\n      - {spec: 'RFC 8414 (Authorization Server Metadata)', url: 'https://mcp.sumble.com/.well-known/oauth-authorization-server', status: 200, file: ../well-known/sumble-mcp-oauth-authorization-server.json}\n      - {spec: 'RFC 9728 (Protected Resource Metadata)', url: 'https://mcp.sumble.com/.well-known/oauth-protected-resource', status: 200, file: ../well-known/sumble-mcp-oauth-protected-resource.json}\n    bearer_methods_supported: [header]\n    failure_status: 401\n    challenge: 'WWW-Authenticate: Bearer error=\"invalid_token\", error_description=\"Authentication required\", resource_metadata=\"https://mcp.sumble.com/.well-known/oauth-protected-resource\"'\n    scopes_published: false\n    note: >-\n      scopes_supported is absent from the authorization-server metadata and no\n      scope/permission reference is published, so there is no scope surface to\n      capture; scopes/ is intentionally not emitted.\nuser_authentication:\n  surface: web app (not the\
   \ API)\n  methods:\n    - {method: magic-link, detail: users sign in with their email address via magic link}\n    - {method: sso, protocol: 'Okta OIDC', availability: enterprise plans, docs: 'https://docs.sumble.com/system-setup-and-configuration/users-access/okta-sso-oidc'}\n  session: JWT-based\n  source: https://docs.sumble.com/trust-and-security/trust-and-security\nevidence:\n  - {url: 'https://docs.sumble.com/api/api.md', status: 200}\n  - {url: 'https://mcp.sumble.com/.well-known/oauth-authorization-server', status: 200}\n  - {url: 'https://mcp.sumble.com/.well-known/oauth-protected-resource', status: 200}\n  - {url: 'https://api.sumble.com/v9/organizations', status: 401, note: live unauthenticated POST confirms bearer enforcement}\nchecked: '2026-08-13'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sumble/refs/heads/main/authentication/sumble-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sumble/authentication/sumble-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

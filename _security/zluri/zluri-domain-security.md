@@ -5,25 +5,25 @@ api_specs:
   label: Zluri Data Upload API
   slug: zluri-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-data-upload-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-data-upload-api-openapi.yml
 - filename: zluri-instances-api-openapi.yml
   format: yaml
   label: Zluri Instances API
   slug: zluri-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-instances-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-instances-api-openapi.yml
 - filename: zluri-syncs-api-openapi.yml
   format: yaml
   label: Zluri Syncs API
   slug: zluri-syncs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-syncs-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-syncs-api-openapi.yml
 - filename: zluri-webhooks-api-openapi.yml
   format: yaml
   label: Zluri Webhooks API
   slug: zluri-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/openapi/zluri-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/zluri/openapi/zluri-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: zluri-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zluri.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 20:58:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api-ext.zluri.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 14:32:01 2026 GMT\n  hsts: null\ndomains:\n- domain: zluri.com\n  dnssec: true\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zluri/refs/heads/main/security/zluri-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zluri/security/zluri-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Identity and Access Management

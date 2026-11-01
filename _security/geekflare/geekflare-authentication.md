@@ -9,7 +9,7 @@ api_specs:
   label: Geekflare API Tool API
   slug: geekflare-api-tool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/geekflare/refs/heads/main/openapi/geekflare-api-tool-api-openapi.yml
+  url: https://artifacts.apis.io/geekflare/openapi/geekflare-api-tool-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -60,7 +60,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: openapi/geekflare-openapi.json + https://docs.geekflare.com/intro\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\n  - header\nschemes:\n- name: x-api-key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API Key required for all endpoints\n  sources:\n  - openapi/geekflare-openapi.json\n- name: bearer-token\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT token for Admin endpoints\n  sources:\n  - openapi/geekflare-openapi.json\n- name: gf_auth_session\n  type: apiKey\n  in: cookie\n  parameter: gf_auth_session\n  description: IDP session cookie\n  sources:\n  - openapi/geekflare-openapi.json\n- name: x-internal-key\n  type: apiKey\n  in: header\n  parameter: x-internal-key\n  description: Internal API key (Swagger only)\n  sources:\n  - openapi/geekflare-openapi.json\ndocs: https://docs.geekflare.com/intro\nnote: 'Public API consumers authenticate with the x-api-key\
   \ header only — one key across every endpoint, single shared credit\n  pool, obtained free at auth.geekflare.com/register. The bearer-token (JWT, admin), gf_auth_session (IDP cookie) and x-internal-key\n  schemes declared in the spec are internal/dashboard surfaces, not for API customers. 401 bodies: \"Missing x-api-key header\"\n  / \"Invalid x-api-key\".'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/geekflare/refs/heads/main/authentication/geekflare-authentication.yml
+source_yaml_url: https://artifacts.apis.io/geekflare/authentication/geekflare-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Development

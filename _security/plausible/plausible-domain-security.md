@@ -5,49 +5,49 @@ api_specs:
   label: Plausible CustomProps API
   slug: plausible-customprops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-customprops-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-customprops-api-openapi.yml
 - filename: plausible-events-api-openapi.yml
   format: yaml
   label: Plausible Events API
   slug: plausible-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-events-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-events-api-openapi.yml
 - filename: plausible-goals-api-openapi.yml
   format: yaml
   label: Plausible Goals API
   slug: plausible-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-goals-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-goals-api-openapi.yml
 - filename: plausible-guests-api-openapi.yml
   format: yaml
   label: Plausible Guests API
   slug: plausible-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-guests-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-guests-api-openapi.yml
 - filename: plausible-query-api-openapi.yml
   format: yaml
   label: Plausible Query API
   slug: plausible-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-query-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-query-api-openapi.yml
 - filename: plausible-sites-api-openapi.yml
   format: yaml
   label: Plausible Sites API
   slug: plausible-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-sites-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-sites-api-openapi.yml
 - filename: plausible-teams-api-openapi.yml
   format: yaml
   label: Plausible Teams API
   slug: plausible-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-teams-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-teams-api-openapi.yml
 - filename: plausible-shared-links-api-openapi.yml
   format: yaml
   label: Plausible Shared Links API
   slug: plausible-shared-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/openapi/plausible-shared-links-api-openapi.yml
+  url: https://artifacts.apis.io/plausible/openapi/plausible-shared-links-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: plausible-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: plausible.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 03:03:54 2026 GMT\n  hsts: false\ndomains:\n- domain: plausible.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plausible/refs/heads/main/security/plausible-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/plausible/security/plausible-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Analytics

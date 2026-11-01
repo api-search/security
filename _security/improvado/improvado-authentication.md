@@ -3,12 +3,102 @@ anonymous_access: true
 api_key_in:
 - header
 api_specs:
-- filename: improvado-ask-api-openapi.yml
+- filename: improvado-accounts-api-openapi.yml
   format: yaml
-  label: Improvado Ask API
-  slug: improvado-ask-api
+  label: Improvado Accounts API
+  slug: improvado-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/openapi/improvado-ask-api-openapi.yml
+  url: https://artifacts.apis.io/improvado/openapi/improvado-accounts-api-openapi.yml
+- filename: improvado-authentication-api-openapi.yml
+  format: yaml
+  label: Improvado Authentication API
+  slug: improvado-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-authentication-api-openapi.yml
+- filename: improvado-automated-recipes-api-openapi.yml
+  format: yaml
+  label: Improvado Automated Recipes API
+  slug: improvado-automated-recipes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-automated-recipes-api-openapi.yml
+- filename: improvado-data-source-connections-api-openapi.yml
+  format: yaml
+  label: Improvado Data source connections API
+  slug: improvado-data-source-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-data-source-connections-api-openapi.yml
+- filename: improvado-data-sources-api-openapi.yml
+  format: yaml
+  label: Improvado Data sources API
+  slug: improvado-data-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-data-sources-api-openapi.yml
+- filename: improvado-data-tables-api-openapi.yml
+  format: yaml
+  label: Improvado Data tables API
+  slug: improvado-data-tables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-data-tables-api-openapi.yml
+- filename: improvado-destination-connections-api-openapi.yml
+  format: yaml
+  label: Improvado Destination connections API
+  slug: improvado-destination-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-destination-connections-api-openapi.yml
+- filename: improvado-destinations-api-openapi.yml
+  format: yaml
+  label: Improvado Destinations API
+  slug: improvado-destinations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-destinations-api-openapi.yml
+- filename: improvado-extraction-templates-api-openapi.yml
+  format: yaml
+  label: Improvado Extraction templates API
+  slug: improvado-extraction-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-extraction-templates-api-openapi.yml
+- filename: improvado-extracts-api-openapi.yml
+  format: yaml
+  label: Improvado Extracts API
+  slug: improvado-extracts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-extracts-api-openapi.yml
+- filename: improvado-iframe-api-openapi.yml
+  format: yaml
+  label: Improvado Iframe API
+  slug: improvado-iframe-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-iframe-api-openapi.yml
+- filename: improvado-loads-api-openapi.yml
+  format: yaml
+  label: Improvado Loads API
+  slug: improvado-loads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-loads-api-openapi.yml
+- filename: improvado-recipes-api-openapi.yml
+  format: yaml
+  label: Improvado Recipes API
+  slug: improvado-recipes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-recipes-api-openapi.yml
+- filename: improvado-roles-api-openapi.yml
+  format: yaml
+  label: Improvado Roles API
+  slug: improvado-roles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-roles-api-openapi.yml
+- filename: improvado-webhooks-api-openapi.yml
+  format: yaml
+  label: Improvado Webhooks API
+  slug: improvado-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-webhooks-api-openapi.yml
+- filename: improvado-workspaces-api-openapi.yml
+  format: yaml
+  label: Improvado Workspaces API
+  slug: improvado-workspaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/improvado/openapi/improvado-workspaces-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -102,7 +192,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ own API key.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://report.improvado.io/api/dts/v2/oauth/o/authorize/\n    tokenUrl: https://report.improvado.io/api/dts/v2/oauth/o/token/\n    revocationUrl: https://report.improvado.io/api/dts/v2/oauth/o/revoke_token/\n    introspectionUrl: https://report.improvado.io/api/dts/v2/oauth/o/introspect/\n    registrationUrl: https://report.improvado.io/api/dts/v2/oauth/o/register/\n    pkce: [plain, S256]\n    scopes: [mcp:customer]\n  token_endpoint_auth_methods: [client_secret_basic, client_secret_post, none]\n  session_ttl: 15 minutes (Redis-backed, workspace-scoped)\n  discovery:\n    authorization_server_metadata: https://report.improvado.io/.well-known/oauth-authorization-server\n    protected_resource_metadata: https://report.improvado.io/.well-known/oauth-protected-resource/experimental/agent/api/mcp-customer/v1/invoke/\n    rfcs: [RFC 8414, RFC 9728, RFC 7591, RFC 7636]\n  used_for: [MCP tool calls]\n  cross_link: scopes/improvado-scopes.yml\n\
   \  host_note: >-\n    The issuer is the tenant's own domain. On a whitelabel domain (e.g. acme.improvado.io),\n    report.improvado.io will NOT authenticate the client — Improvado states this explicitly.\n- name: none\n  type: none\n  surface: Improvado Public Agent Ask API\n  method: searched\n  source: https://improvado.io/openapi.json\n  description: >-\n    POST https://agent.improvado.io/ask requires no authentication. The published OpenAPI declares no\n    securitySchemes and its info.description states \"This endpoint is open and does not require\n    authentication.\" Improvado's llms.txt adds the usage boundary: one public non-sensitive question,\n    never send credentials or personal data, abusive bulk traffic may be rate limited.\n  used_for: [public product and architecture Q&A]\nx-evidence:\n- fetched: '2026-08-13'\n  url: https://report.improvado.io/.well-known/oauth-authorization-server\n  http_status: 200\n- fetched: '2026-08-13'\n  url: https://report.improvado.io/experimental/agent/api/mcp-customer/v1/invoke/\n\
   \  http_status: 401\n  note: 'WWW-Authenticate: Bearer resource_metadata=\"...\", scope=\"mcp:customer\"'\n- fetched: '2026-08-13'\n  url: https://improvado.io/openapi.json\n  http_status: 200\n- fetched: '2026-08-13'\n  url: https://developers.improvado.io/auth.md\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/improvado/refs/heads/main/authentication/improvado-authentication.yml
+source_yaml_url: https://artifacts.apis.io/improvado/authentication/improvado-authentication.yml
 summary_line: http/oauth2/none · 5 schemes
 tags:
 - Company

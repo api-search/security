@@ -5,13 +5,13 @@ api_specs:
   label: Ocient HTTP Query API
   slug: ocient-ocient-http-query-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/ocient-ocient-http-query-api-api-openapi.yml
+  url: https://artifacts.apis.io/ocient/openapi/ocient-ocient-http-query-api-api-openapi.yml
 - filename: ocient-system-information-rest-endpoints-api-openapi.yml
   format: yaml
   label: Ocient System Information REST Endpoints API
   slug: ocient-system-information-rest-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/openapi/ocient-system-information-rest-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/ocient/openapi/ocient-system-information-rest-endpoints-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -31,7 +31,7 @@ source_filename: ocient-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: searched\nprobe: true\nsource: https://ocient.com/security-and-compliance/\nurl: https://ocient.com/security-and-compliance/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- GDPR\nevidence:\n- source: https://ocient.com/security-and-compliance/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - iso/iec 27001\n  - pci dss\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ocient/refs/heads/main/security/ocient-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/ocient/security/ocient-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Company

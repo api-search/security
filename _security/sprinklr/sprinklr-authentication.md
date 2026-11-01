@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://dev.spr
   \    the developer portal's Authorize section. No certificate-issuance\n      procedure is published publicly.\n  - name: communityToken\n    type: apiKey\n    in: header\n    description: >-\n      The Community APIs use a separate authorization process entirely,\n      requiring a projectId and preSharedKey to mint unauthenticated and\n      authenticated tokens. Sprinklr routes access through a success manager;\n      the endpoints are Create Unauthenticated Token and Create Authenticated\n      Token.\n    docs: https://dev.sprinklr.com/community-apis\ntoken:\n  type: Bearer\n  access_token_ttl_seconds: 2591999\n  access_token_ttl_human: 30 days\n  refresh:\n    supported: true\n    grant_type: refresh_token\n    single_use: true\n    note: >-\n      The refresh token has no expiry but can be used only once — regenerating\n      produces a new refresh token and invalidates the previous one. Refresh\n      token must be URL-encoded.\n  constraints:\n    - >-\n      ONE TOKEN PER API\
   \ KEY. If two stateless instances share a client_id, the\n      second token generation invalidates the first instance's access AND\n      refresh token. Each instance needs its own key/token pair.\n    - >-\n      Tokens are environment-specific. A key/token minted for one Sprinklr\n      environment returns HTTP 421 Misdirected Request against another.\n    - Tokens remain valid only while the authenticating user's Sprinklr password is valid.\n    - The user must hold the \"Generate Token\" permission inside the Sprinklr platform.\nenvironments:\n  pattern: 'https://api3.sprinklr.com/{env}/api/{version}/{endpoint}'\n  note: >-\n    {env} is the Sprinklr hosting environment (prod0, prod2, prod3, prod4,\n    prod8, ...). For the default Production environment (app.sprinklr.com) the\n    {env} segment is omitted entirely:\n    https://api3.sprinklr.com/api/v1/{endpoint}. Customers find their\n    environment by searching the Sprinklr UI page source for\n    \"sentry-environment\".\nrequired_headers:\n\
   \  - {name: Authorization, value: 'Bearer {access_token}'}\n  - {name: key, value: '{api_key}'}\n  - {name: Content-Type, value: application/json}\ngaps:\n  - No OAuth scopes published; no /.well-known/oauth-authorization-server and no /.well-known/openid-configuration on any Sprinklr host (all 404 — see well-known/).\n  - No public self-service signup that yields a working token; the OAuth flow requires an existing licensed Sprinklr platform account.\n  - Access-token TTL is documented inconsistently (2591999s / 30 days on the getting-started page; 28799s / 8 hours in the refresh-token example response).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sprinklr/refs/heads/main/authentication/sprinklr-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sprinklr/authentication/sprinklr-authentication.yml
 summary_line: oauth2/apiKey/mutualTLS · 5 schemes
 tags:
 - Social Media Management
@@ -91,7 +91,7 @@ tags:
 - Customer Service
 - Marketing
 - Advertising
-- Listening
+- Social Listening
 - Publishing
 - Reporting
 - Unified CXM

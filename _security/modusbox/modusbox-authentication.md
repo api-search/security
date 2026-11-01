@@ -7,7 +7,7 @@ api_specs:
   label: PortX ORCA (Open Reusable Core API)
   slug: portx-orca-open-reusable-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/openapi/modusbox-orca-contract-notice.yml
+  url: https://artifacts.apis.io/modusbox/openapi/modusbox-orca-contract-notice.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -45,7 +45,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: >-\n  https://o
   \    means the published contract does not name a real OIDC issuer an integrator could\n    resolve.\n\ntoken_flow:\n  protocol: OAuth 2.0\n  grant_type: client_credentials\n  token_endpoint_documented: https://auth.portx.io/oauth/token\n  token_endpoint_resolves: false\n  token_endpoint_note: >-\n    auth.portx.io does not resolve in DNS (NXDOMAIN, probed 2026-08-26). As with\n    api.portx.io, the documented host appears illustrative; a real deployment issues\n    tokens from the issuer configured for that institution's connector.\n  request_content_type: application/json\n  request_fields:\n  - client_id\n  - client_secret\n  - grant_type\n  response: 'bearer access token presented as `Authorization: Bearer <token>`'\n\nscopes:\n  published: false\n  note: >-\n    No OAuth scopes are declared. Both security schemes are applied with empty scope\n    arrays and no scope reference page exists in the documentation, so no scopes/\n    artifact is written — there is no scope surface to record.\n\
   \nrequest_context_headers:\n  note: >-\n    Beyond authentication, ORCA carries deployment context in headers rather than in the\n    token, which an integrator must supply per call.\n  headers:\n  - name: servicerId\n    required: false\n    purpose: Account servicer identification (the bank).\n  - name: servicerBranchId\n    required: false\n    purpose: Account servicer identification at branch or centre level.\n\ntransport_security:\n  tls_required: true\n  mtls: >-\n    Not declared in the ORCA contract. PortX does ship automated mTLS management for\n    Integration Manager hosted APIs (announced on the PortX blog), which is a platform\n    capability rather than an ORCA contract requirement.\n\ngaps:\n- No self-service credential issuance; every integrator needs a sales conversation.\n- The documented token host and API host do not resolve.\n- The OIDC discovery URL in the published contract is a localhost placeholder.\n- No scopes, so authorisation granularity is not expressible\
   \ in the contract.\n- No documented token lifetime, refresh behaviour or rotation guidance.\n\nx-evidence:\n- url: https://orca-docs.portx.io/docs/getting-started/\n  status: 200\n- url: https://auth.portx.io/oauth/token\n  status: 0\n  note: DNS resolution failed (NXDOMAIN)\n- url: https://portx.io/contact\n  status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/modusbox/refs/heads/main/authentication/modusbox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/modusbox/authentication/modusbox-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

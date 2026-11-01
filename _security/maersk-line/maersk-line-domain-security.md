@@ -5,61 +5,61 @@ api_specs:
   label: Maersk AirBookings API
   slug: maersk-line-airbookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-airbookings-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-airbookings-api-openapi.yml
 - filename: maersk-line-bookings-api-openapi.yml
   format: yaml
   label: Maersk Bookings API
   slug: maersk-line-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-bookings-api-openapi.yml
 - filename: maersk-line-containers-api-openapi.yml
   format: yaml
   label: Maersk Containers API
   slug: maersk-line-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-containers-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-containers-api-openapi.yml
 - filename: maersk-line-demurragedetention-api-openapi.yml
   format: yaml
   label: Maersk DemurrageDetention API
   slug: maersk-line-demurragedetention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-demurragedetention-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-demurragedetention-api-openapi.yml
 - filename: maersk-line-locations-api-openapi.yml
   format: yaml
   label: Maersk Locations API
   slug: maersk-line-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-locations-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-locations-api-openapi.yml
 - filename: maersk-line-offers-api-openapi.yml
   format: yaml
   label: Maersk Offers API
   slug: maersk-line-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-offers-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-offers-api-openapi.yml
 - filename: maersk-line-schedules-api-openapi.yml
   format: yaml
   label: Maersk Schedules API
   slug: maersk-line-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-schedules-api-openapi.yml
 - filename: maersk-line-tracking-api-openapi.yml
   format: yaml
   label: Maersk Tracking API
   slug: maersk-line-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-tracking-api-openapi.yml
 - filename: maersk-line-vgm-api-openapi.yml
   format: yaml
   label: Maersk VGM API
   slug: maersk-line-vgm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-vgm-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-vgm-api-openapi.yml
 - filename: maersk-line-bill-of-lading-api-openapi.yml
   format: yaml
   label: Maersk Bill of Lading API
   slug: maersk-line-bill-of-lading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/openapi/maersk-line-bill-of-lading-api-openapi.yml
+  url: https://artifacts.apis.io/maersk-line/openapi/maersk-line-bill-of-lading-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -97,7 +97,7 @@ source_filename: maersk-line-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.maersk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 02:24:27 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: www.maersk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 02:20:42 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: api.productmanagement.maersk.com\n  https: false\ndomains:\n- domain: maersk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maersk-line/refs/heads/main/security/maersk-line-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/maersk-line/security/maersk-line-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Shipping

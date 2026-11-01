@@ -8,31 +8,31 @@ api_specs:
   label: Liquid M Ads API
   slug: liquid-m-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-ads-api-openapi.yml
+  url: https://artifacts.apis.io/liquid-m/openapi/liquid-m-ads-api-openapi.yml
 - filename: liquid-m-authentication-api-openapi.yml
   format: yaml
   label: Liquid M Authentication API
   slug: liquid-m-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/liquid-m/openapi/liquid-m-authentication-api-openapi.yml
 - filename: liquid-m-budgets-api-openapi.yml
   format: yaml
   label: Liquid M Budgets API
   slug: liquid-m-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/liquid-m/openapi/liquid-m-budgets-api-openapi.yml
 - filename: liquid-m-campaigns-api-openapi.yml
   format: yaml
   label: Liquid M Campaigns API
   slug: liquid-m-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/liquid-m/openapi/liquid-m-campaigns-api-openapi.yml
 - filename: liquid-m-reporting-api-openapi.yml
   format: yaml
   label: Liquid M Reporting API
   slug: liquid-m-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/openapi/liquid-m-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/liquid-m/openapi/liquid-m-reporting-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -64,7 +64,7 @@ source_filename: liquid-m-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/liquid-m-ads-api-openapi.yml, openapi/liquid-m-authentication-api-openapi.yml,\n  openapi/liquid-m-budgets-api-openapi.yml, openapi/liquid-m-campaigns-api-openapi.yml, openapi/liquid-m-reporting-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: authToken\n  type: apiKey\n  in: query\n  parameter: auth_token\n  description: AUTH_TOKEN passed as a query parameter on every request, including POSTs.\n  sources:\n  - openapi/liquid-m-ads-api-openapi.yml\n  - openapi/liquid-m-authentication-api-openapi.yml\n  - openapi/liquid-m-budgets-api-openapi.yml\n  - openapi/liquid-m-campaigns-api-openapi.yml\n  - openapi/liquid-m-reporting-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/liquid-m/refs/heads/main/authentication/liquid-m-authentication.yml
+source_yaml_url: https://artifacts.apis.io/liquid-m/authentication/liquid-m-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

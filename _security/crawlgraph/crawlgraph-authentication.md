@@ -7,31 +7,31 @@ api_specs:
   label: CrawlGraph Backlinks API
   slug: crawlgraph-backlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-backlinks-api-openapi.yml
+  url: https://artifacts.apis.io/crawlgraph/openapi/crawlgraph-backlinks-api-openapi.yml
 - filename: crawlgraph-changes-api-openapi.yml
   format: yaml
   label: CrawlGraph Changes API
   slug: crawlgraph-changes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-changes-api-openapi.yml
+  url: https://artifacts.apis.io/crawlgraph/openapi/crawlgraph-changes-api-openapi.yml
 - filename: crawlgraph-free-key-api-openapi.yml
   format: yaml
   label: CrawlGraph Free Key API
   slug: crawlgraph-free-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-free-key-api-openapi.yml
+  url: https://artifacts.apis.io/crawlgraph/openapi/crawlgraph-free-key-api-openapi.yml
 - filename: crawlgraph-gap-analysis-api-openapi.yml
   format: yaml
   label: CrawlGraph Gap Analysis API
   slug: crawlgraph-gap-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-gap-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/crawlgraph/openapi/crawlgraph-gap-analysis-api-openapi.yml
 - filename: crawlgraph-releases-api-openapi.yml
   format: yaml
   label: CrawlGraph Releases API
   slug: crawlgraph-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/openapi/crawlgraph-releases-api-openapi.yml
+  url: https://artifacts.apis.io/crawlgraph/openapi/crawlgraph-releases-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://crawlgr
   \    key_length: ~52 characters\n    description: >-\n      Every request to /api/v1/* needs a bearer token in the Authorization header. Keys are\n      prefixed cg_live_ and are roughly 52 characters long.\n    sources:\n      - https://crawlgraph.com/docs/api\n      - openapi/crawlgraph-v1-api-openapi.yml\n\nkey_management:\n  self_service: true\n  free_key_endpoint: POST /api/v1/free-key\n  free_key_note: >-\n    The one unauthenticated route. Takes an email address and mails a free-tier key (15 backlink\n    calls/month). No card, no signup, one active key per email. The key is NEVER returned in the\n    HTTP response — only by email.\n  paid_key_console: https://crawlgraph.com/account\n  max_active_keys: 10\n  labels_supported: true\n  shown_once: true\n  recovery: none\n  rotation: revoke and create a new key\n  note: >-\n    The full key is shown only once at creation; there is no recovery path. Up to 10 active keys\n    per user, each labelable (e.g. \"production\", \"n8n-bot\"\
   ).\n\ntier_gating:\n  - tier: free\n    quota: 15 backlink calls / month\n    tools: [backlinks, releases]\n    note: Free keys can call backlinks. Gap analysis and outreach targets are rejected.\n  - tier: lifetime\n    price: $99 one-time\n    quota: 1,000 backlink calls + 50 gap jobs / month\n    tools: [backlinks, releases, gap_analysis, gap_outreach_targets]\n\nfailure_modes:\n  - code: auth_missing\n    status: 401\n    meaning: Authorization header missing or malformed.\n  - code: auth_invalid\n    status: 401\n    meaning: Key unknown, revoked, or owner refunded.\n\nmcp:\n  shares_credential: true\n  env: CRAWLGRAPH_API_KEY\n  note: >-\n    The hosted MCP server at https://crawlgraph.com/mcp uses the same bearer key and the same\n    quotas as the HTTP API. tools/list is answerable anonymously; tool invocation is not.\n\nx-evidence:\n  - {url: 'https://crawlgraph.com/api/v1/releases', status: 401, note: anonymous GET rejected}\n  - {url: 'https://crawlgraph.com/api/v1/openapi.json',\
   \ status: 200, note: spec served anonymously but declares no securitySchemes}\n  - {url: 'https://crawlgraph.com/docs/api', status: 200, note: section 2 documents the bearer scheme and cg_live_ prefix}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crawlgraph/refs/heads/main/authentication/crawlgraph-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crawlgraph/authentication/crawlgraph-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - SEO

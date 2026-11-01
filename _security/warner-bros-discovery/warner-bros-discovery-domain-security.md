@@ -5,25 +5,25 @@ api_specs:
   label: Warner Bros. Discovery Assets API
   slug: warner-bros-discovery-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-assets-api-openapi.yml
+  url: https://artifacts.apis.io/warner-bros-discovery/openapi/warner-bros-discovery-assets-api-openapi.yml
 - filename: warner-bros-discovery-deliveries-api-openapi.yml
   format: yaml
   label: Warner Bros. Discovery Deliveries API
   slug: warner-bros-discovery-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/warner-bros-discovery/openapi/warner-bros-discovery-deliveries-api-openapi.yml
 - filename: warner-bros-discovery-metadata-api-openapi.yml
   format: yaml
   label: Warner Bros. Discovery Metadata API
   slug: warner-bros-discovery-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/warner-bros-discovery/openapi/warner-bros-discovery-metadata-api-openapi.yml
 - filename: warner-bros-discovery-status-api-openapi.yml
   format: yaml
   label: Warner Bros. Discovery Status API
   slug: warner-bros-discovery-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/openapi/warner-bros-discovery-status-api-openapi.yml
+  url: https://artifacts.apis.io/warner-bros-discovery/openapi/warner-bros-discovery-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: warner-bros-discovery-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wbd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 17:31:01 2026 GMT\n  hsts: true\n  hsts_max_age: 60\n- host: partnerhub.warnermedia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: false\n- host: www.max.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 17:02:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: wbd.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: warnermedia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/security/warner-bros-discovery-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/warner-bros-discovery/security/warner-bros-discovery-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Entertainment

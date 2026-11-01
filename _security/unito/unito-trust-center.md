@@ -5,19 +5,19 @@ api_specs:
   label: Unito Reports API
   slug: unito-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/openapi/unito-reports-api-openapi.yml
+  url: https://artifacts.apis.io/unito/openapi/unito-reports-api-openapi.yml
 - filename: unito-server-api-openapi.yml
   format: yaml
   label: Unito Server API
   slug: unito-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/openapi/unito-server-api-openapi.yml
+  url: https://artifacts.apis.io/unito/openapi/unito-server-api-openapi.yml
 - filename: unito-workspaces-api-openapi.yml
   format: yaml
   label: Unito Workspaces API
   slug: unito-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/openapi/unito-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/unito/openapi/unito-workspaces-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -36,7 +36,7 @@ source_filename: unito-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nsource: https://unito.io/security/\nurl: https://unito.io/security/\ncertifications:\n- SOC 2\n- PCI DSS\n- GDPR\nevidence:\n- source: https://unito.io/security/\n  keywords:\n  - soc 2\n  - pci dss\n  - pci-dss\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unito/refs/heads/main/security/unito-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/unito/security/unito-trust-center.yml
 summary_line: SOC 2, PCI DSS, GDPR
 tags:
 - Integration

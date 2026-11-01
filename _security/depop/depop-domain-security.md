@@ -5,79 +5,85 @@ api_specs:
   label: depop API status API
   slug: depop-api-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-api-status-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-api-status-api-openapi.yml
 - filename: depop-authentication-api-openapi.yml
   format: yaml
   label: depop Authentication API
   slug: depop-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-authentication-api-openapi.yml
 - filename: depop-docs-api-openapi.yml
   format: yaml
   label: depop Docs API
   slug: depop-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-docs-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-docs-api-openapi.yml
 - filename: depop-insights-api-openapi.yml
   format: yaml
   label: depop Insights API
   slug: depop-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-insights-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-insights-api-openapi.yml
 - filename: depop-orders-api-openapi.yml
   format: yaml
   label: depop Orders API
   slug: depop-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-orders-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-orders-api-openapi.yml
 - filename: depop-pricing-inspiration-api-openapi.yml
   format: yaml
   label: depop Pricing Inspiration API
   slug: depop-pricing-inspiration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-pricing-inspiration-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-pricing-inspiration-api-openapi.yml
 - filename: depop-products-api-openapi.yml
   format: yaml
   label: depop Products API
   slug: depop-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-api-openapi.yml
 - filename: depop-products-by-product-id-api-openapi.yml
   format: yaml
   label: depop Products - By Product ID API
   slug: depop-products-by-product-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-by-product-id-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-by-product-id-api-openapi.yml
 - filename: depop-products-by-sku-api-openapi.yml
   format: yaml
   label: depop Products - By SKU API
   slug: depop-products-by-sku-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-by-sku-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-by-sku-api-openapi.yml
 - filename: depop-products-by-slug-api-openapi.yml
   format: yaml
   label: depop Products - By Slug API
   slug: depop-products-by-slug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-by-slug-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-by-slug-api-openapi.yml
 - filename: depop-products-legacy-deprecated-api-openapi.yml
   format: yaml
   label: depop Products - Legacy (Deprecated) API
   slug: depop-products-legacy-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-legacy-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-legacy-deprecated-api-openapi.yml
 - filename: depop-shop-management-api-openapi.yml
   format: yaml
   label: depop Shop Management API
   slug: depop-shop-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-shop-management-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-shop-management-api-openapi.yml
 - filename: depop-seller-api-api-openapi.yml
   format: yaml
   label: depop Seller API
   slug: depop-seller-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-seller-api-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-seller-api-api-openapi.yml
+- filename: depop-webhook-configuration-api-openapi.yml
+  format: yaml
+  label: depop Webhook Configuration API
+  slug: depop-webhook-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/depop/openapi/depop-webhook-configuration-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +112,7 @@ source_filename: depop-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.depop.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 16:44:08 2026 GMT\n  hsts: null\ndomains:\n- domain: depop.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/security/depop-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/depop/security/depop-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

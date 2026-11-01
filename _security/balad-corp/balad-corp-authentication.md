@@ -7,43 +7,43 @@ api_specs:
   label: BALAD CORP APIs/Authentication API
   slug: balad-corp-apis-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/balad-corp/openapi/balad-corp-apis-authentication-api-openapi.yml
 - filename: balad-corp-apis-core-balance-api-openapi.yml
   format: yaml
   label: BALAD CORP APIs/Core/Balance API
   slug: balad-corp-apis-core-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-core-balance-api-openapi.yml
+  url: https://artifacts.apis.io/balad-corp/openapi/balad-corp-apis-core-balance-api-openapi.yml
 - filename: balad-corp-apis-core-exchange-rate-api-openapi.yml
   format: yaml
   label: BALAD CORP APIs/Core/Exchange rate API
   slug: balad-corp-apis-core-exchange-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-core-exchange-rate-api-openapi.yml
+  url: https://artifacts.apis.io/balad-corp/openapi/balad-corp-apis-core-exchange-rate-api-openapi.yml
 - filename: balad-corp-apis-core-secrets-api-openapi.yml
   format: yaml
   label: BALAD CORP APIs/Core/Secrets API
   slug: balad-corp-apis-core-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-core-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/balad-corp/openapi/balad-corp-apis-core-secrets-api-openapi.yml
 - filename: balad-corp-apis-link-lookups-api-openapi.yml
   format: yaml
   label: BALAD CORP APIs/Link/Lookups API
   slug: balad-corp-apis-link-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-link-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/balad-corp/openapi/balad-corp-apis-link-lookups-api-openapi.yml
 - filename: balad-corp-apis-link-reconciliation-api-openapi.yml
   format: yaml
   label: BALAD CORP APIs/Link/Reconciliation API
   slug: balad-corp-apis-link-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-link-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/balad-corp/openapi/balad-corp-apis-link-reconciliation-api-openapi.yml
 - filename: balad-corp-apis-link-transactions-api-openapi.yml
   format: yaml
   label: BALAD CORP APIs/Link/Transactions API
   slug: balad-corp-apis-link-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/openapi/balad-corp-apis-link-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/balad-corp/openapi/balad-corp-apis-link-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -88,7 +88,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://developers.balad.tech/authorization-1459814m0.md\ndocs: https://developers.balad.tech/authorization-1459814m0.md\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  server_to_server: true\n  transport: Bearer access token in Authorization header\nschemes:\n  - name: OAuth2ClientCredentials\n    type: oauth2\n    flow: clientCredentials\n    token_endpoint: /identity/v1/token\n    grant_type: client_credentials\n    request_content_type: application/x-www-form-urlencoded\n    request_fields: [grant_type, client_id, client_secret]\n    response_fields: [access_token, token_type, expires_in, scope]\n    token_type: Bearer\n    expires_in_seconds: 3600\n    header: 'Authorization: Bearer <ACCESS_TOKEN>'\n    scoped: true\n    scope_note: >-\n      Tokens are scoped to specific product APIs (remittances, collections, bills, vouchers).\n      Balad does not publish an enumerated scope reference; scope is\
   \ returned on the token response.\n    sources: [openapi/balad-corp-gateway-openapi.yml]\nnotes:\n  credentials: >-\n    Client ID and Client Secret are issued during partner onboarding and managed from the\n    Balad Dashboard (Developer -> Client Secrets). A maximum of 5 active secrets is allowed.\n  ip_whitelisting: >-\n    Production API access is IP-restricted; partners must supply static IP(s) to be whitelisted\n    before authenticating against production APIs (see Go Live).\n  revocation: Access tokens/secrets can be revoked instantly from the Balad Dashboard.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/authentication/balad-corp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/balad-corp/authentication/balad-corp-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

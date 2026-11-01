@@ -46,7 +46,7 @@ source_filename: wasabi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wasabi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 14:04:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.wasabi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 01:12:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: s3.wasabisys.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: wasabi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: wasabisys.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wasabi/refs/heads/main/security/wasabi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wasabi/security/wasabi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Storage

@@ -37,7 +37,7 @@ source_filename: bitbiome-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: equityzen.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: null\n- host: bitbiome.bio\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 20:18:32 2026 GMT\n  hsts: false\ndomains:\n- domain: equityzen.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: bitbiome.bio\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitbiome/refs/heads/main/security/bitbiome-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bitbiome/security/bitbiome-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Biotechnology

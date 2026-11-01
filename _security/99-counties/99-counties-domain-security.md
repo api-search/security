@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: 99-counties-openapi-generated.yml
+  format: yaml
+  label: 99 Counties API
+  slug: 99-counties-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/99-counties/openapi/_ae-authored/99-counties-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -28,7 +35,7 @@ source_filename: 99-counties-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 99counties.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 08:38:02 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: 99counties.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/99-counties/refs/heads/main/security/99-counties-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/99-counties/security/99-counties-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

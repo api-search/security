@@ -7,37 +7,37 @@ api_specs:
   label: Adobe Premiere Pro Elements API
   slug: adobe-premiere-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-elements-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-elements-api-openapi.yml
 - filename: adobe-premiere-libraries-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Libraries API
   slug: adobe-premiere-libraries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-libraries-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-libraries-api-openapi.yml
 - filename: adobe-premiere-representations-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Representations API
   slug: adobe-premiere-representations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-representations-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-representations-api-openapi.yml
 - filename: adobe-premiere-library-service-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service API
   slug: adobe-premiere-library-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-library-service-api-openapi.yml
 - filename: adobe-premiere-library-service-bookmarks-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service - Bookmarks API
   slug: adobe-premiere-library-service-bookmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-bookmarks-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-library-service-bookmarks-api-openapi.yml
 - filename: adobe-premiere-library-service-public-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service - Public API
   slug: adobe-premiere-library-service-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/openapi/adobe-premiere-library-service-public-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-library-service-public-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -70,7 +70,7 @@ source_filename: adobe-premiere-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: openapi/adobe-premiere-elements-api-openapi.yml, openapi/adobe-premiere-libraries-api-openapi.yml,\n  openapi/adobe-premiere-representations-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ims-na1.adobelogin.com/ims/authorize/v2\n    tokenUrl: https://ims-na1.adobelogin.com/ims/token/v3\n    scopes: 3\n  sources:\n  - openapi/adobe-premiere-elements-api-openapi.yml\n  - openapi/adobe-premiere-libraries-api-openapi.yml\n  - openapi/adobe-premiere-representations-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-premiere/refs/heads/main/authentication/adobe-premiere-authentication.yml
+source_yaml_url: https://artifacts.apis.io/adobe-premiere/authentication/adobe-premiere-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Adobe

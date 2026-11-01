@@ -5,43 +5,43 @@ api_specs:
   label: Scorecard Metrics API
   slug: scorecard-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/scorecard/openapi/scorecard-metrics-api-openapi.yml
 - filename: scorecard-projects-api-openapi.yml
   format: yaml
   label: Scorecard Projects API
   slug: scorecard-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-projects-api-openapi.yml
+  url: https://artifacts.apis.io/scorecard/openapi/scorecard-projects-api-openapi.yml
 - filename: scorecard-records-api-openapi.yml
   format: yaml
   label: Scorecard Records API
   slug: scorecard-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-records-api-openapi.yml
+  url: https://artifacts.apis.io/scorecard/openapi/scorecard-records-api-openapi.yml
 - filename: scorecard-runs-api-openapi.yml
   format: yaml
   label: Scorecard Runs API
   slug: scorecard-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-runs-api-openapi.yml
+  url: https://artifacts.apis.io/scorecard/openapi/scorecard-runs-api-openapi.yml
 - filename: scorecard-systems-api-openapi.yml
   format: yaml
   label: Scorecard Systems API
   slug: scorecard-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-systems-api-openapi.yml
+  url: https://artifacts.apis.io/scorecard/openapi/scorecard-systems-api-openapi.yml
 - filename: scorecard-test-cases-api-openapi.yml
   format: yaml
   label: Scorecard Test Cases API
   slug: scorecard-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-test-cases-api-openapi.yml
+  url: https://artifacts.apis.io/scorecard/openapi/scorecard-test-cases-api-openapi.yml
 - filename: scorecard-test-sets-api-openapi.yml
   format: yaml
   label: Scorecard Test Sets API
   slug: scorecard-test-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/openapi/scorecard-test-sets-api-openapi.yml
+  url: https://artifacts.apis.io/scorecard/openapi/scorecard-test-sets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: scorecard-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.scorecard.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 00:39:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.scorecard.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 04:10:14 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api2.scorecard.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 16:30:58 2026 GMT\n  hsts: null\ndomains:\n- domain: scorecard.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scorecard/refs/heads/main/security/scorecard-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scorecard/security/scorecard-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

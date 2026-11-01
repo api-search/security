@@ -32,7 +32,7 @@ source_filename: adventusio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: adventus.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 23 02:39:06 2026 GMT\n  hsts: false\n- host: api.adventus.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: adventus.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adventusio/refs/heads/main/security/adventusio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adventusio/security/adventusio-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

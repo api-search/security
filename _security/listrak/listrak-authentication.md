@@ -8,337 +8,337 @@ api_specs:
   label: Listrak App Push Mobile Client Device API
   slug: listrak-app-push-mobile-client-device-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-app-push-mobile-client-device-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-app-push-mobile-client-device-api-openapi.yml
 - filename: listrak-app-push-mobile-client-engagements-api-openapi.yml
   format: yaml
   label: Listrak App Push Mobile Client Engagements API
   slug: listrak-app-push-mobile-client-engagements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-app-push-mobile-client-engagements-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-app-push-mobile-client-engagements-api-openapi.yml
 - filename: listrak-broadcastmessage-api-openapi.yml
   format: yaml
   label: Listrak BroadcastMessage API
   slug: listrak-broadcastmessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-broadcastmessage-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-broadcastmessage-api-openapi.yml
 - filename: listrak-campaign-api-openapi.yml
   format: yaml
   label: Listrak Campaign API
   slug: listrak-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-campaign-api-openapi.yml
 - filename: listrak-contact-api-openapi.yml
   format: yaml
   label: Listrak Contact API
   slug: listrak-contact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-contact-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-contact-api-openapi.yml
 - filename: listrak-contactlistsubscription-api-openapi.yml
   format: yaml
   label: Listrak ContactListSubscription API
   slug: listrak-contactlistsubscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-contactlistsubscription-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-contactlistsubscription-api-openapi.yml
 - filename: listrak-contactsegmentationfield-api-openapi.yml
   format: yaml
   label: Listrak ContactSegmentationField API
   slug: listrak-contactsegmentationfield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-contactsegmentationfield-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-contactsegmentationfield-api-openapi.yml
 - filename: listrak-content-api-openapi.yml
   format: yaml
   label: Listrak Content API
   slug: listrak-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-content-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-content-api-openapi.yml
 - filename: listrak-contentfolder-api-openapi.yml
   format: yaml
   label: Listrak ContentFolder API
   slug: listrak-contentfolder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-contentfolder-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-contentfolder-api-openapi.yml
 - filename: listrak-conversation-api-openapi.yml
   format: yaml
   label: Listrak Conversation API
   slug: listrak-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-conversation-api-openapi.yml
 - filename: listrak-conversationmessage-api-openapi.yml
   format: yaml
   label: Listrak ConversationMessage API
   slug: listrak-conversationmessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-conversationmessage-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-conversationmessage-api-openapi.yml
 - filename: listrak-conversationmessageactivity-api-openapi.yml
   format: yaml
   label: Listrak ConversationMessageActivity API
   slug: listrak-conversationmessageactivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-conversationmessageactivity-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-conversationmessageactivity-api-openapi.yml
 - filename: listrak-conversationmessagelink-api-openapi.yml
   format: yaml
   label: Listrak ConversationMessageLink API
   slug: listrak-conversationmessagelink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-conversationmessagelink-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-conversationmessagelink-api-openapi.yml
 - filename: listrak-conversationmessagelinkclicker-api-openapi.yml
   format: yaml
   label: Listrak ConversationMessageLinkClicker API
   slug: listrak-conversationmessagelinkclicker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-conversationmessagelinkclicker-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-conversationmessagelinkclicker-api-openapi.yml
 - filename: listrak-conversationmessagesummary-api-openapi.yml
   format: yaml
   label: Listrak ConversationMessageSummary API
   slug: listrak-conversationmessagesummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-conversationmessagesummary-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-conversationmessagesummary-api-openapi.yml
 - filename: listrak-conversationsummary-api-openapi.yml
   format: yaml
   label: Listrak ConversationSummary API
   slug: listrak-conversationsummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-conversationsummary-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-conversationsummary-api-openapi.yml
 - filename: listrak-customer-api-openapi.yml
   format: yaml
   label: Listrak Customer API
   slug: listrak-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-customer-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-customer-api-openapi.yml
 - filename: listrak-event-api-openapi.yml
   format: yaml
   label: Listrak Event API
   slug: listrak-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-event-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-event-api-openapi.yml
 - filename: listrak-eventgroup-api-openapi.yml
   format: yaml
   label: Listrak EventGroup API
   slug: listrak-eventgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-eventgroup-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-eventgroup-api-openapi.yml
 - filename: listrak-events-api-openapi.yml
   format: yaml
   label: Listrak Events API
   slug: listrak-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-events-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-events-api-openapi.yml
 - filename: listrak-folder-api-openapi.yml
   format: yaml
   label: Listrak Folder API
   slug: listrak-folder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-folder-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-folder-api-openapi.yml
 - filename: listrak-forget-api-openapi.yml
   format: yaml
   label: Listrak Forget API
   slug: listrak-forget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-forget-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-forget-api-openapi.yml
 - filename: listrak-list-api-openapi.yml
   format: yaml
   label: Listrak List API
   slug: listrak-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-list-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-list-api-openapi.yml
 - filename: listrak-listimportcontact-api-openapi.yml
   format: yaml
   label: Listrak ListImportContact API
   slug: listrak-listimportcontact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-listimportcontact-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-listimportcontact-api-openapi.yml
 - filename: listrak-listimportstatus-api-openapi.yml
   format: yaml
   label: Listrak ListImportStatus API
   slug: listrak-listimportstatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-listimportstatus-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-listimportstatus-api-openapi.yml
 - filename: listrak-listimportsummary-api-openapi.yml
   format: yaml
   label: Listrak ListImportSummary API
   slug: listrak-listimportsummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-listimportsummary-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-listimportsummary-api-openapi.yml
 - filename: listrak-message-api-openapi.yml
   format: yaml
   label: Listrak Message API
   slug: listrak-message-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-message-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-message-api-openapi.yml
 - filename: listrak-messageactivity-api-openapi.yml
   format: yaml
   label: Listrak MessageActivity API
   slug: listrak-messageactivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-messageactivity-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-messageactivity-api-openapi.yml
 - filename: listrak-messagelink-api-openapi.yml
   format: yaml
   label: Listrak MessageLink API
   slug: listrak-messagelink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-messagelink-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-messagelink-api-openapi.yml
 - filename: listrak-messagelinkclicker-api-openapi.yml
   format: yaml
   label: Listrak MessageLinkClicker API
   slug: listrak-messagelinkclicker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-messagelinkclicker-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-messagelinkclicker-api-openapi.yml
 - filename: listrak-messagestatus-api-openapi.yml
   format: yaml
   label: Listrak MessageStatus API
   slug: listrak-messagestatus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-messagestatus-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-messagestatus-api-openapi.yml
 - filename: listrak-messagestream-api-openapi.yml
   format: yaml
   label: Listrak Messagestream API
   slug: listrak-messagestream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-messagestream-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-messagestream-api-openapi.yml
 - filename: listrak-messagesummary-api-openapi.yml
   format: yaml
   label: Listrak MessageSummary API
   slug: listrak-messagesummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-messagesummary-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-messagesummary-api-openapi.yml
 - filename: listrak-order-api-openapi.yml
   format: yaml
   label: Listrak Order API
   slug: listrak-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-order-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-order-api-openapi.yml
 - filename: listrak-phonelist-api-openapi.yml
   format: yaml
   label: Listrak PhoneList API
   slug: listrak-phonelist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-phonelist-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-phonelist-api-openapi.yml
 - filename: listrak-product-api-openapi.yml
   format: yaml
   label: Listrak Product API
   slug: listrak-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-product-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-product-api-openapi.yml
 - filename: listrak-ratingsummary-api-openapi.yml
   format: yaml
   label: Listrak RatingSummary API
   slug: listrak-ratingsummary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-ratingsummary-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-ratingsummary-api-openapi.yml
 - filename: listrak-review-api-openapi.yml
   format: yaml
   label: Listrak Review API
   slug: listrak-review-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-review-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-review-api-openapi.yml
 - filename: listrak-savedaudience-api-openapi.yml
   format: yaml
   label: Listrak SavedAudience API
   slug: listrak-savedaudience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-savedaudience-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-savedaudience-api-openapi.yml
 - filename: listrak-savedmessage-api-openapi.yml
   format: yaml
   label: Listrak SavedMessage API
   slug: listrak-savedmessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-savedmessage-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-savedmessage-api-openapi.yml
 - filename: listrak-segmentation-api-openapi.yml
   format: yaml
   label: Listrak Segmentation API
   slug: listrak-segmentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-segmentation-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-segmentation-api-openapi.yml
 - filename: listrak-segmentationfield-api-openapi.yml
   format: yaml
   label: Listrak SegmentationField API
   slug: listrak-segmentationfield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-segmentationfield-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-segmentationfield-api-openapi.yml
 - filename: listrak-segmentationfieldgroup-api-openapi.yml
   format: yaml
   label: Listrak SegmentationFieldGroup API
   slug: listrak-segmentationfieldgroup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-segmentationfieldgroup-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-segmentationfieldgroup-api-openapi.yml
 - filename: listrak-send-api-openapi.yml
   format: yaml
   label: Listrak Send API
   slug: listrak-send-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-send-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-send-api-openapi.yml
 - filename: listrak-sendercode-api-openapi.yml
   format: yaml
   label: Listrak SenderCode API
   slug: listrak-sendercode-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-sendercode-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-sendercode-api-openapi.yml
 - filename: listrak-tickets-api-openapi.yml
   format: yaml
   label: Listrak Tickets API
   slug: listrak-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-tickets-api-openapi.yml
 - filename: listrak-transactionalmessage-api-openapi.yml
   format: yaml
   label: Listrak TransactionalMessage API
   slug: listrak-transactionalmessage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-transactionalmessage-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-transactionalmessage-api-openapi.yml
 - filename: listrak-transactionalmessageactivity-api-openapi.yml
   format: yaml
   label: Listrak TransactionalMessageActivity API
   slug: listrak-transactionalmessageactivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-transactionalmessageactivity-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-transactionalmessageactivity-api-openapi.yml
 - filename: listrak-transactionalmessageresend-api-openapi.yml
   format: yaml
   label: Listrak TransactionalMessageResend API
   slug: listrak-transactionalmessageresend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-transactionalmessageresend-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-transactionalmessageresend-api-openapi.yml
 - filename: listrak-directories-api-openapi.yml
   format: yaml
   label: Listrak Directories API
   slug: listrak-directories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-directories-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-directories-api-openapi.yml
 - filename: listrak-files-api-openapi.yml
   format: yaml
   label: Listrak Files API
   slug: listrak-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-files-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-files-api-openapi.yml
 - filename: listrak-fonts-api-openapi.yml
   format: yaml
   label: Listrak Fonts API
   slug: listrak-fonts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-fonts-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-fonts-api-openapi.yml
 - filename: listrak-event-configurations-api-openapi.yml
   format: yaml
   label: Listrak Event Configurations API
   slug: listrak-event-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-event-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-event-configurations-api-openapi.yml
 - filename: listrak-ip-pool-api-openapi.yml
   format: yaml
   label: Listrak IP Pool API
   slug: listrak-ip-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-ip-pool-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-ip-pool-api-openapi.yml
 - filename: listrak-list-import-api-openapi.yml
   format: yaml
   label: Listrak List Import API
   slug: listrak-list-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-list-import-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-list-import-api-openapi.yml
 - filename: listrak-split-test-api-openapi.yml
   format: yaml
   label: Listrak Split Test API
   slug: listrak-split-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/openapi/listrak-split-test-api-openapi.yml
+  url: https://artifacts.apis.io/listrak/openapi/listrak-split-test-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -404,7 +404,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api.lis
   \ client_id and client_secret as\n    application/x-www-form-urlencoded to the token endpoint; send the returned token as\n    `Authorization: Bearer <token>`.\n  sources:\n  - openapi/_original/listrak-email-openapi.json\n  - openapi/_original/listrak-sms-openapi.json\n  - openapi/_original/listrak-data-openapi.json\n  - openapi/_original/listrak-privacy-openapi.json\n- name: Bearer\n  type: http\n  scheme: bearer\n  bearerFormat: Listrak encrypted token\n  description: >-\n    Media REST API. Same OAuth 2.0 client_credentials token as above, declared as an HTTP bearer\n    scheme. The token must additionally carry the `Media` role plus CompanyID / MasterAdminID claims\n    or the API returns 403 ERROR_FORBIDDEN.\n  sources:\n  - openapi/_original/listrak-media-openapi.json\n  - openapi/listrak-media-directories-api-openapi.yml\n  - openapi/listrak-media-files-api-openapi.yml\n  - openapi/listrak-media-fonts-api-openapi.yml\n- name: Authorizer\n  type: apiKey\n  in: header\n  parameter:\
   \ Authorization\n  description: >-\n    Cross Channel and Two-Way SMS are fronted by AWS API Gateway with a custom authorizer\n    (`x-amazon-apigateway-authtype: custom`). The value is the same OAuth 2.0 bearer token; the\n    spec simply declares the header rather than the oauth2 flow.\n  sources:\n  - openapi/_original/listrak-crosschannel-openapi.json\n  - openapi/_original/listrak-twowaysms-openapi.json\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: >-\n    Mobile App Push client API. Device/app-side key issued per mobile integration, sent as\n    `x-api-key`. This is the only Listrak API that is not bearer-token authenticated.\n  sources:\n  - openapi/_original/listrak-mobileclient-openapi.json\ncredential_lifecycle:\n  issued_in: Listrak application -> Integrations -> Integration Management\n  integration_types:\n  - Email\n  - SMS\n  - Cross Channel\n  - Two-Way SMS\n  - Data Import\n  - Privacy\n  secret_retrievable: false\n  pause_resume:\
   \ >-\n    API access can be paused and unpaused per integration. While paused, all requests are rejected,\n    including requests to the token endpoint.\n  ip_allowlist: >-\n    Integrations may be restricted by IP; requests from an unauthorized IP fail with\n    ERROR_INVALID_CREDENTIALS or ERROR_UNAUTHORIZED.\ntransport:\n  https_required: true\n  error_on_plain_http: ERROR_UNSUPPORTED_PROTOCOL\ncross_links:\n  scopes: scopes/listrak-scopes.yml\n  conventions: conventions/listrak-conventions.yml\n  errors: errors/listrak-error-codes.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listrak/refs/heads/main/authentication/listrak-authentication.yml
+source_yaml_url: https://artifacts.apis.io/listrak/authentication/listrak-authentication.yml
 summary_line: oauth2/apiKey/http · 4 schemes
 tags:
 - Email Marketing

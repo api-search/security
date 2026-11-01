@@ -26,7 +26,7 @@ source_filename: ypxfood-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ypxfood.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 15:28:55 2026 GMT\n  hsts: null\ndomains:\n- domain: ypxfood.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ypxfood/refs/heads/main/security/ypxfood-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ypxfood/security/ypxfood-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

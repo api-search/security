@@ -5,37 +5,37 @@ api_specs:
   label: Oracle Container Engine for Kubernetes Add-ons API
   slug: oracle-container-engine-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-add-ons-api-openapi.yml
 - filename: oracle-container-engine-clusters-api-openapi.yml
   format: yaml
   label: Oracle Container Engine for Kubernetes Clusters API
   slug: oracle-container-engine-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-clusters-api-openapi.yml
 - filename: oracle-container-engine-credentials-api-openapi.yml
   format: yaml
   label: Oracle Container Engine for Kubernetes Credentials API
   slug: oracle-container-engine-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-credentials-api-openapi.yml
 - filename: oracle-container-engine-node-pools-api-openapi.yml
   format: yaml
   label: Oracle Container Engine for Kubernetes Node Pools API
   slug: oracle-container-engine-node-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-node-pools-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-node-pools-api-openapi.yml
 - filename: oracle-container-engine-virtual-node-pools-api-openapi.yml
   format: yaml
   label: Oracle Container Engine for Kubernetes Virtual Node Pools API
   slug: oracle-container-engine-virtual-node-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-virtual-node-pools-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-virtual-node-pools-api-openapi.yml
 - filename: oracle-container-engine-work-requests-api-openapi.yml
   format: yaml
   label: Oracle Container Engine for Kubernetes Work Requests API
   slug: oracle-container-engine-work-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/openapi/oracle-container-engine-work-requests-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-container-engine/openapi/oracle-container-engine-work-requests-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: oracle-container-engine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.oracle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: containerengine.us-ashburn-1.oci.oraclecloud.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: oracle.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: oraclecloud.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"symantec.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-container-engine/refs/heads/main/security/oracle-container-engine-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/oracle-container-engine/security/oracle-container-engine-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud

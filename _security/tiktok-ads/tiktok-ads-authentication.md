@@ -8,109 +8,109 @@ api_specs:
   label: TikTok Marketing API Account Management API
   slug: tiktok-ads-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-account-management-api-openapi.yml
 - filename: tiktok-ads-ad-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Ad API
   slug: tiktok-ads-ad-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ad-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-ad-api-openapi.yml
 - filename: tiktok-ads-ads-management-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Ads Management API
   slug: tiktok-ads-ads-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ads-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-ads-management-api-openapi.yml
 - filename: tiktok-ads-app-management-api-openapi.yml
   format: yaml
   label: TikTok Marketing API APP Management API
   slug: tiktok-ads-app-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-app-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-app-management-api-openapi.yml
 - filename: tiktok-ads-audience-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Audience API
   slug: tiktok-ads-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-audience-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-audience-api-openapi.yml
 - filename: tiktok-ads-automated-rules-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Automated Rules API
   slug: tiktok-ads-automated-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-automated-rules-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-automated-rules-api-openapi.yml
 - filename: tiktok-ads-bc-api-openapi.yml
   format: yaml
   label: TikTok Marketing API BC API
   slug: tiktok-ads-bc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-bc-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-bc-api-openapi.yml
 - filename: tiktok-ads-campaign-creation-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Campaign Creation API
   slug: tiktok-ads-campaign-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-campaign-creation-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-campaign-creation-api-openapi.yml
 - filename: tiktok-ads-catalog-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Catalog API
   slug: tiktok-ads-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-catalog-api-openapi.yml
 - filename: tiktok-ads-comments-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Comments API
   slug: tiktok-ads-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-comments-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-comments-api-openapi.yml
 - filename: tiktok-ads-creative-management-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Creative Management API
   slug: tiktok-ads-creative-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-creative-management-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-creative-management-api-openapi.yml
 - filename: tiktok-ads-identity-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Identity API
   slug: tiktok-ads-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-identity-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-identity-api-openapi.yml
 - filename: tiktok-ads-measurement-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Measurement API
   slug: tiktok-ads-measurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-measurement-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-measurement-api-openapi.yml
 - filename: tiktok-ads-reporting-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Reporting API
   slug: tiktok-ads-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-reporting-api-openapi.yml
 - filename: tiktok-ads-store-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Store API
   slug: tiktok-ads-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-store-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-store-api-openapi.yml
 - filename: tiktok-ads-tool-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Tool API
   slug: tiktok-ads-tool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-tool-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-tool-api-openapi.yml
 - filename: tiktok-ads-video-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Video API
   slug: tiktok-ads-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-video-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-video-api-openapi.yml
 - filename: tiktok-ads-ad-group-api-openapi.yml
   format: yaml
   label: TikTok Marketing API Ad Group API
   slug: tiktok-ads-ad-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/openapi/tiktok-ads-ad-group-api-openapi.yml
+  url: https://artifacts.apis.io/tiktok-ads/openapi/tiktok-ads-ad-group-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -169,7 +169,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/tiktok-
   \ and create a developer app on the TikTok API for Business portal.\n    - Select the permission scope for the app (see scopes/tiktok-ads-scopes.yml).\n    - Send the app's Advertiser authorization URL to the advertiser; up to 10 redirect URLs may be configured, localhost included.\n    - The advertiser approves the permission list, agrees to the Platform Service Agreement, and confirms an emailed verification code.\n    - TikTok redirects to your redirect_uri with auth_code appended; auth_code is valid for 1 hour and single-use.\n    - POST app_id + secret + auth_code to /oauth2/access_token/ to receive access_token, advertiser_ids[] and the granted scope[].\n    - Send Access-Token on every subsequent request.\n  mcp:\n    - Point an MCP client at one of the two server URLs; no developer app or API key is required.\n    - The client is challenged with 401 + WWW-Authenticate carrying the RFC 9728 resource metadata URL.\n    - Standard OAuth authorization-code + PKCE flow against the discovered\
   \ authorization server, with dynamic client registration.\n    - The user signs in to TikTok Ads Manager and authorizes; the grant lasts 30 days and must then be renewed.\ntoken:\n  type: opaque\n  expiry: >-\n    The Marketing API long-term access token does not expire on a timer. It becomes invalid when the\n    advertiser cancels the authorization, or when it is explicitly revoked via /oauth2/revoke_token/.\n  revocation_endpoint: /oauth2/revoke_token/\n  refresh: not applicable for the long-term Marketing API token; the MCP OAuth token supports refresh_token\n  introspection_endpoint: /oauth2/advertiser/get/\n  introspection_note: returns the full list of advertiser accounts an access token can reach\n  scope_note: >-\n    The token carries only the permissions the ADVERTISER granted, which may be narrower than the\n    permissions the developer app requested.\nverification:\n  advertiser_reauth_window_hours: 48\n  note: >-\n    An ad account that has already authorized a given developer\
   \ app does not have to re-verify by email for\n    48 hours. Authorizing a DIFFERENT developer app always requires a fresh verification.\nsandbox:\n  base_url: https://sandbox-ads.tiktok.com/open_api\n  note: sandbox access tokens are generated per developer app; see sandbox/tiktok-ads-sandbox.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tiktok-ads/refs/heads/main/authentication/tiktok-ads-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tiktok-ads/authentication/tiktok-ads-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Advertising

@@ -17,43 +17,43 @@ api_specs:
   label: SE Ranking Account & system API
   slug: se-ranking-account-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-account-system-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-account-system-api-openapi.yml
 - filename: se-ranking-ai-search-api-openapi.yml
   format: yaml
   label: SE Ranking AI search API
   slug: se-ranking-ai-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-ai-search-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-ai-search-api-openapi.yml
 - filename: se-ranking-backlinks-api-openapi.yml
   format: yaml
   label: SE Ranking Backlinks API
   slug: se-ranking-backlinks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-backlinks-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-backlinks-api-openapi.yml
 - filename: se-ranking-domain-analysis-api-openapi.yml
   format: yaml
   label: SE Ranking Domain Analysis API
   slug: se-ranking-domain-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-domain-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-domain-analysis-api-openapi.yml
 - filename: se-ranking-keyword-research-api-openapi.yml
   format: yaml
   label: SE Ranking Keyword Research API
   slug: se-ranking-keyword-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-keyword-research-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-keyword-research-api-openapi.yml
 - filename: se-ranking-serp-results-classic-api-openapi.yml
   format: yaml
   label: SE Ranking SERP Results > classic API
   slug: se-ranking-serp-results-classic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-serp-results-classic-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-serp-results-classic-api-openapi.yml
 - filename: se-ranking-website-audit-api-openapi.yml
   format: yaml
   label: SE Ranking Website Audit API
   slug: se-ranking-website-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/openapi/se-ranking-website-audit-api-openapi.yml
+  url: https://artifacts.apis.io/se-ranking/openapi/se-ranking-website-audit-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: se-ranking-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: seranking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 22:17:43 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: api.seranking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 05:46:42 2026 GMT\n  hsts: null\ndomains:\n- domain: seranking.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/security/se-ranking-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/se-ranking/security/se-ranking-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - SEO

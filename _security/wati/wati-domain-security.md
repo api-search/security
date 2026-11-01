@@ -5,19 +5,19 @@ api_specs:
   label: WATI Contacts API
   slug: wati-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-contacts-api-openapi.yml
 - filename: wati-messages-api-openapi.yml
   format: yaml
   label: WATI Messages API
   slug: wati-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-messages-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-messages-api-openapi.yml
 - filename: wati-templates-api-openapi.yml
   format: yaml
   label: WATI Templates API
   slug: wati-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/openapi/wati-templates-api-openapi.yml
+  url: https://artifacts.apis.io/wati/openapi/wati-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: wati-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wati.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 03:08:59 2026 GMT\n  hsts: false\n- host: docs.wati.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 09:37:39 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: live-mt-server.wati.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 22:20:23 2026 GMT\n  hsts: false\ndomains:\n- domain: wati.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/security/wati-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wati/security/wati-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - WhatsApp

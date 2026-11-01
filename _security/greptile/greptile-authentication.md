@@ -8,19 +8,19 @@ api_specs:
   label: Greptile Query API
   slug: greptile-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-query-api-openapi.yml
+  url: https://artifacts.apis.io/greptile/openapi/greptile-query-api-openapi.yml
 - filename: greptile-repositories-api-openapi.yml
   format: yaml
   label: Greptile Repositories API
   slug: greptile-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/greptile/openapi/greptile-repositories-api-openapi.yml
 - filename: greptile-search-api-openapi.yml
   format: yaml
   label: Greptile Search API
   slug: greptile-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/openapi/greptile-search-api-openapi.yml
+  url: https://artifacts.apis.io/greptile/openapi/greptile-search-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -55,7 +55,7 @@ source_filename: greptile-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/greptile-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Greptile API key supplied as `Authorization: Bearer <GREPTILE_API_KEY>`.'\n  sources:\n  - openapi/greptile-openapi.yml\n- name: gitHubToken\n  type: apiKey\n  in: header\n  parameter: X-GitHub-Token\n  description: Git provider access token (a GitHub personal access token for GitHub remotes)\n    Greptile uses to read repository source code.\n  sources:\n  - openapi/greptile-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greptile/refs/heads/main/authentication/greptile-authentication.yml
+source_yaml_url: https://artifacts.apis.io/greptile/authentication/greptile-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence

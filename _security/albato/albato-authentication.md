@@ -8,37 +8,37 @@ api_specs:
   label: Albato Automations API
   slug: albato-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-automations-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-automations-api-openapi.yml
 - filename: albato-connectors-api-openapi.yml
   format: yaml
   label: Albato Connectors API
   slug: albato-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-connectors-api-openapi.yml
 - filename: albato-executions-api-openapi.yml
   format: yaml
   label: Albato Executions API
   slug: albato-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-executions-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-executions-api-openapi.yml
 - filename: albato-teams-api-openapi.yml
   format: yaml
   label: Albato Teams API
   slug: albato-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-teams-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-teams-api-openapi.yml
 - filename: albato-templates-api-openapi.yml
   format: yaml
   label: Albato Templates API
   slug: albato-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-templates-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-templates-api-openapi.yml
 - filename: albato-users-api-openapi.yml
   format: yaml
   label: Albato Users API
   slug: albato-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/openapi/albato-users-api-openapi.yml
+  url: https://artifacts.apis.io/albato/openapi/albato-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_filename: albato-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/albato-automations-openapi.yaml, openapi/albato-embedded-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Albato account API key\n  sources:\n  - openapi/albato-automations-openapi.yaml\n  - openapi/albato-embedded-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albato/refs/heads/main/authentication/albato-authentication.yml
+source_yaml_url: https://artifacts.apis.io/albato/authentication/albato-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - No-Code Automation

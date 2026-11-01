@@ -5,25 +5,25 @@ api_specs:
   label: Walk Score Cities API
   slug: walk-score-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-cities-api-openapi.yml
+  url: https://artifacts.apis.io/walk-score/openapi/walk-score-cities-api-openapi.yml
 - filename: walk-score-routes-api-openapi.yml
   format: yaml
   label: Walk Score Routes API
   slug: walk-score-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-routes-api-openapi.yml
+  url: https://artifacts.apis.io/walk-score/openapi/walk-score-routes-api-openapi.yml
 - filename: walk-score-scores-api-openapi.yml
   format: yaml
   label: Walk Score Scores API
   slug: walk-score-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-scores-api-openapi.yml
+  url: https://artifacts.apis.io/walk-score/openapi/walk-score-scores-api-openapi.yml
 - filename: walk-score-stops-api-openapi.yml
   format: yaml
   label: Walk Score Stops API
   slug: walk-score-stops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/openapi/walk-score-stops-api-openapi.yml
+  url: https://artifacts.apis.io/walk-score/openapi/walk-score-stops-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: walk-score-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.walkscore.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: false\n- host: api.walkscore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 06:05:02 2026 GMT\n  hsts: false\n- host: transit.walkscore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 08:16:03 2026 GMT\n  hsts: false\ndomains:\n- domain: walkscore.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/walk-score/refs/heads/main/security/walk-score-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/walk-score/security/walk-score-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Walkability

@@ -5,25 +5,25 @@ api_specs:
   label: OpenSanctions Data access API
   slug: opensanctions-data-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-data-access-api-openapi.yml
+  url: https://artifacts.apis.io/opensanctions/openapi/opensanctions-data-access-api-openapi.yml
 - filename: opensanctions-matching-api-openapi.yml
   format: yaml
   label: OpenSanctions Matching API
   slug: opensanctions-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-matching-api-openapi.yml
+  url: https://artifacts.apis.io/opensanctions/openapi/opensanctions-matching-api-openapi.yml
 - filename: opensanctions-reconciliation-api-openapi.yml
   format: yaml
   label: OpenSanctions Reconciliation API
   slug: opensanctions-reconciliation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-reconciliation-api-openapi.yml
+  url: https://artifacts.apis.io/opensanctions/openapi/opensanctions-reconciliation-api-openapi.yml
 - filename: opensanctions-system-information-api-openapi.yml
   format: yaml
   label: OpenSanctions System information API
   slug: opensanctions-system-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/openapi/opensanctions-system-information-api-openapi.yml
+  url: https://artifacts.apis.io/opensanctions/openapi/opensanctions-system-information-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -61,7 +61,7 @@ source_filename: opensanctions-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.opensanctions.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 22:09:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.opensanctions.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 10:07:58 2026 GMT\n  hsts: null\ndomains:\n- domain: opensanctions.org\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:security@opensanctions.org\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opensanctions/refs/heads/main/security/opensanctions-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opensanctions/security/opensanctions-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sanctions Screening

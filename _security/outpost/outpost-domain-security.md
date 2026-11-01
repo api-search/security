@@ -39,7 +39,7 @@ source_filename: outpost-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: outpostnow.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 20 23:59:59 2026 GMT\n  hsts: false\n- host: api.outpostanywhere.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: null\n- host: partner.outpostanywhere.com\n  https: false\ndomains:\n- domain: outpostnow.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: outpostanywhere.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/outpost/refs/heads/main/security/outpost-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/outpost/security/outpost-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

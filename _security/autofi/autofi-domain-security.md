@@ -5,37 +5,37 @@ api_specs:
   label: AutoFi Authorization API
   slug: autofi-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-authorization-api-openapi.yml
 - filename: autofi-calculate-payment-api-openapi.yml
   format: yaml
   label: AutoFi Calculate Payment API
   slug: autofi-calculate-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-calculate-payment-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-calculate-payment-api-openapi.yml
 - filename: autofi-dealers-api-openapi.yml
   format: yaml
   label: AutoFi Dealers API
   slug: autofi-dealers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-dealers-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-dealers-api-openapi.yml
 - filename: autofi-dealmaker-api-openapi.yml
   format: yaml
   label: AutoFi Dealmaker API
   slug: autofi-dealmaker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-dealmaker-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-dealmaker-api-openapi.yml
 - filename: autofi-loan-applications-api-openapi.yml
   format: yaml
   label: AutoFi Loan Applications API
   slug: autofi-loan-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-loan-applications-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-loan-applications-api-openapi.yml
 - filename: autofi-prequalification-api-openapi.yml
   format: yaml
   label: AutoFi Prequalification API
   slug: autofi-prequalification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/openapi/autofi-prequalification-api-openapi.yml
+  url: https://artifacts.apis.io/autofi/openapi/autofi-prequalification-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: autofi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: autofi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 03:19:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.autofi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api-uat.autofi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: autofi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autofi/refs/heads/main/security/autofi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/autofi/security/autofi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

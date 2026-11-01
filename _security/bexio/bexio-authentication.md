@@ -7,55 +7,55 @@ api_specs:
   label: bexio Accounting API
   slug: bexio-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-accounting-api-openapi.yml
 - filename: bexio-banking-api-openapi.yml
   format: yaml
   label: bexio Banking API
   slug: bexio-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-banking-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-banking-api-openapi.yml
 - filename: bexio-contacts-api-openapi.yml
   format: yaml
   label: bexio Contacts API
   slug: bexio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-contacts-api-openapi.yml
 - filename: bexio-files-api-openapi.yml
   format: yaml
   label: bexio Files API
   slug: bexio-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-files-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-files-api-openapi.yml
 - filename: bexio-items-api-openapi.yml
   format: yaml
   label: bexio Items API
   slug: bexio-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-items-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-items-api-openapi.yml
 - filename: bexio-payroll-api-openapi.yml
   format: yaml
   label: bexio Payroll API
   slug: bexio-payroll-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-payroll-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-payroll-api-openapi.yml
 - filename: bexio-projects-api-openapi.yml
   format: yaml
   label: bexio Projects API
   slug: bexio-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-projects-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-projects-api-openapi.yml
 - filename: bexio-purchase-api-openapi.yml
   format: yaml
   label: bexio Purchase API
   slug: bexio-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-purchase-api-openapi.yml
 - filename: bexio-sales-orders-api-openapi.yml
   format: yaml
   label: bexio Sales Orders API
   slug: bexio-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/openapi/bexio-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bexio/openapi/bexio-sales-orders-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -126,7 +126,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: >-\n  https://auth.bexio.com/realms/bexio/.well-known/openid-configuration (live probe)\n  and https://docs.bexio.com/ / https://developer.bexio.com/\nsummary:\n  types:\n  - oauth2\n  - http\nnotes: >-\n  bexio supports two auth styles, both presented as an Authorization: Bearer\n  token against https://api.bexio.com/2.0. (1) OAuth 2.0 Authorization Code /\n  OpenID Connect via the Keycloak realm at https://auth.bexio.com/realms/bexio\n  for user-delegated app access. (2) Personal Access Tokens (PAT) for\n  server-to-server access. Fine-grained OAuth scopes gate each module\n  (contact_show/edit, kb_invoice_show/edit, accounting, project_show/edit,\n  payroll_employee_show/edit, etc.). offline_access grants refresh tokens.\nschemes:\n- name: oauth2_authorization_code\n  type: oauth2\n  flow: authorizationCode\n  issuer: https://auth.bexio.com/realms/bexio\n  authorizationUrl: https://auth.bexio.com/realms/bexio/protocol/openid-connect/auth\n\
   \  tokenUrl: https://auth.bexio.com/realms/bexio/protocol/openid-connect/token\n  scopes:\n  - openid\n  - profile\n  - email\n  - offline_access\n  - company_profile\n  - contact_show\n  - contact_edit\n  - kb_offer_show\n  - kb_offer_edit\n  - kb_order_show\n  - kb_order_edit\n  - kb_invoice_show\n  - kb_invoice_edit\n  - article_show\n  - article_edit\n  - accounting\n  - project_show\n  - project_edit\n  - task_show\n  - task_edit\n  - file\n  - kb_bill_show\n  - kb_bill_edit\n  - kb_expense_show\n  - kb_expense_edit\n  - payroll_employee_show\n  - payroll_employee_edit\n  - payroll_absence_show\n  - payroll_absence_edit\n  - bank_account_show\n  - bank_payment_show\n  sources:\n  - https://auth.bexio.com/realms/bexio/.well-known/openid-configuration\n  - https://developer.bexio.com/\n- name: personal_access_token\n  type: http\n  scheme: bearer\n  bearerFormat: PAT\n  sources:\n  - https://docs.bexio.com/\n  - https://developer.bexio.com/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/authentication/bexio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bexio/authentication/bexio-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Accounting

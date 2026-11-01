@@ -27,7 +27,7 @@ source_filename: cytomx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cytomx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 19:25:45 2026 GMT\n  hsts: false\ndomains:\n- domain: cytomx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cytomx/refs/heads/main/security/cytomx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cytomx/security/cytomx-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

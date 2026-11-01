@@ -7,19 +7,19 @@ api_specs:
   label: Subspace AcceleratorService API
   slug: subspace-acceleratorservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-acceleratorservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-acceleratorservice-api-openapi.yml
 - filename: subspace-sipteleportservice-api-openapi.yml
   format: yaml
   label: Subspace SipTeleportService API
   slug: subspace-sipteleportservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-sipteleportservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-sipteleportservice-api-openapi.yml
 - filename: subspace-webrtccdnservice-api-openapi.yml
   format: yaml
   label: Subspace WebRtcCdnService API
   slug: subspace-webrtccdnservice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/openapi/subspace-webrtccdnservice-api-openapi.yml
+  url: https://artifacts.apis.io/subspace/openapi/subspace-webrtccdnservice-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -49,7 +49,7 @@ source_filename: subspace-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/subspace-openapi-original.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: accessCode\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://id.subspace.com/oauth/token\n    scopes: 9\n  sources:\n  - openapi/subspace-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/subspace/refs/heads/main/authentication/subspace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/subspace/authentication/subspace-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

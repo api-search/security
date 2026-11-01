@@ -7,25 +7,25 @@ api_specs:
   label: Gentrace Datasets API
   slug: gentrace-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-datasets-api-openapi.yml
 - filename: gentrace-experiments-api-openapi.yml
   format: yaml
   label: Gentrace Experiments API
   slug: gentrace-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-experiments-api-openapi.yml
 - filename: gentrace-pipelines-api-openapi.yml
   format: yaml
   label: Gentrace Pipelines API
   slug: gentrace-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-pipelines-api-openapi.yml
 - filename: gentrace-test-cases-api-openapi.yml
   format: yaml
   label: Gentrace Test Cases API
   slug: gentrace-test-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/openapi/gentrace-test-cases-api-openapi.yml
+  url: https://artifacts.apis.io/gentrace/openapi/gentrace-test-cases-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: gentrace-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/gentrace-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Enter Gentrace API key (Format: Authorization: Bearer <token>)'\n  sources:\n  - openapi/gentrace-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gentrace/refs/heads/main/authentication/gentrace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gentrace/authentication/gentrace-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

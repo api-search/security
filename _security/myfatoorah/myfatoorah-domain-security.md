@@ -5,55 +5,55 @@ api_specs:
   label: MyFatoorah Invoicing API
   slug: myfatoorah-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-invoicing-api-openapi.yml
 - filename: myfatoorah-payment-status-api-openapi.yml
   format: yaml
   label: MyFatoorah Payment Status API
   slug: myfatoorah-payment-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-payment-status-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-payment-status-api-openapi.yml
 - filename: myfatoorah-payments-api-openapi.yml
   format: yaml
   label: MyFatoorah Payments API
   slug: myfatoorah-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-payments-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-payments-api-openapi.yml
 - filename: myfatoorah-recurring-api-openapi.yml
   format: yaml
   label: MyFatoorah Recurring API
   slug: myfatoorah-recurring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-recurring-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-recurring-api-openapi.yml
 - filename: myfatoorah-refunds-api-openapi.yml
   format: yaml
   label: MyFatoorah Refunds API
   slug: myfatoorah-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-refunds-api-openapi.yml
 - filename: myfatoorah-sessions-api-openapi.yml
   format: yaml
   label: MyFatoorah Sessions API
   slug: myfatoorah-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-sessions-api-openapi.yml
 - filename: myfatoorah-shipping-api-openapi.yml
   format: yaml
   label: MyFatoorah Shipping API
   slug: myfatoorah-shipping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-shipping-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-shipping-api-openapi.yml
 - filename: myfatoorah-suppliers-api-openapi.yml
   format: yaml
   label: MyFatoorah Suppliers API
   slug: myfatoorah-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-suppliers-api-openapi.yml
 - filename: myfatoorah-webhooks-api-openapi.yml
   format: yaml
   label: MyFatoorah Webhooks API
   slug: myfatoorah-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/openapi/myfatoorah-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/myfatoorah/openapi/myfatoorah-webhooks-api-openapi.yml
 description: ''
 domains:
 - dmarc: true
@@ -123,7 +123,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: myfatoorah.com\n  https: true\n  http_status: 301\n  tls_issuer: DigiCert Global G2 TLS RSA SHA256 2020 CA1\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  server: cloudflare\n- host: api.myfatoorah.com\n  https: true\n  http_status: 200\n  tls_issuer: DigiCert Global G2 TLS RSA SHA256 2020 CA1\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_preload: true\n  server: cloudflare\n- host: apitest.myfatoorah.com\n  https: true\n  http_status: 200\n  tls_issuer: DigiCert Global G2 TLS RSA SHA256 2020 CA1\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_preload: true\n  server: cloudflare\n- host: api-sa.myfatoorah.com\n  https: true\n  http_status: 200\n  tls_issuer: DigiCert Global G2 TLS RSA SHA256 2020 CA1\n  cert_expires: Mar 19 23:59:59 2027\
   \ GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_preload: true\n  server: cloudflare\n- host: api-ae.myfatoorah.com\n  https: true\n  http_status: 200\n  tls_issuer: DigiCert Global G2 TLS RSA SHA256 2020 CA1\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_preload: true\n  server: cloudflare\ndomains:\n- domain: myfatoorah.com\n  spf: true\n  spf_record: 'v=spf1 include:spf.protection.outlook.com include:mail.zendesk.com include:145768466.spf06.hubspotemail.net -all'\n  dmarc: true\n  dmarc_policy: reject\n  dmarc_pct: 100\n  dmarc_rua: 'mailto:info@myfatoorah.com'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/myfatoorah/refs/heads/main/security/myfatoorah-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/myfatoorah/security/myfatoorah-domain-security.yml
 summary_line: HSTS · DMARC
 tags:
 - Payments

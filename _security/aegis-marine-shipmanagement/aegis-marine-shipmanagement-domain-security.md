@@ -27,7 +27,7 @@ source_filename: aegis-marine-shipmanagement-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aegisships.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:40:51 2026 GMT\n  hsts: false\ndomains:\n- domain: aegisships.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aegis-marine-shipmanagement/refs/heads/main/security/aegis-marine-shipmanagement-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aegis-marine-shipmanagement/security/aegis-marine-shipmanagement-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: beautiful-soup-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.crummy.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 28 20:16:37 2026 GMT\n  hsts: false\ndomains:\n- domain: crummy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beautiful-soup/refs/heads/main/security/beautiful-soup-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/beautiful-soup/security/beautiful-soup-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Data Extraction

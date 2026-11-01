@@ -8,7 +8,7 @@ api_specs:
   label: Amazon SimpleDB Amazon SimpleDB API
   slug: amazon-simpledb-amazon-simpledb-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/openapi/amazon-simpledb-amazon-simpledb-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-simpledb/openapi/amazon-simpledb-amazon-simpledb-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: amazon-simpledb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-simpledb.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v2\n  sources:\n  - openapi/amazon-simpledb.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-simpledb/refs/heads/main/authentication/amazon-simpledb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-simpledb/authentication/amazon-simpledb-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cloud Storage

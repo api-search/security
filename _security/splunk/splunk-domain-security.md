@@ -5,19 +5,19 @@ api_specs:
   label: Splunk Data Inputs API
   slug: splunk-data-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-data-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/splunk/openapi/splunk-data-inputs-api-openapi.yml
 - filename: splunk-index-api-openapi.yml
   format: yaml
   label: Splunk Index API
   slug: splunk-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-index-api-openapi.yml
+  url: https://artifacts.apis.io/splunk/openapi/splunk-index-api-openapi.yml
 - filename: splunk-search-api-openapi.yml
   format: yaml
   label: Splunk Search API
   slug: splunk-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/openapi/splunk-search-api-openapi.yml
+  url: https://artifacts.apis.io/splunk/openapi/splunk-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: splunk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.splunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: help.splunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 04:05:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.splunk.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: splunk.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/security/splunk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/splunk/security/splunk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

@@ -5,19 +5,25 @@ api_specs:
   label: Karumi Analytics API
   slug: karumi-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-analytics-api-openapi.yml
 - filename: karumi-sessions-api-openapi.yml
   format: yaml
   label: Karumi Sessions API
   slug: karumi-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-sessions-api-openapi.yml
 - filename: karumi-targets-api-openapi.yml
   format: yaml
   label: Karumi Targets API
   slug: karumi-targets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/openapi/karumi-targets-api-openapi.yml
+  url: https://artifacts.apis.io/karumi/openapi/karumi-targets-api-openapi.yml
+- filename: karumi-chat-onboarding-api-openapi.yml
+  format: yaml
+  label: Karumi Chat onboarding API
+  slug: karumi-chat-onboarding-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/karumi/openapi/karumi-chat-onboarding-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -36,7 +42,7 @@ source_filename: karumi-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://www.karumi.ai/\nurl: https://trust.delve.co/karumi\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\ncontrols:\n- Role-Based Access Control (RBAC)\n- Encryption\nevidence:\n- source: https://www.karumi.ai/\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n  - rbac\n  - encryption\n- source: https://trust.delve.co/karumi\n  kind: trust-center\nnotes: Security portal hosted on Delve (trust.delve.co/karumi). Compliance certifications\n  (GDPR, SOC 2, ISO 27001) and enterprise security controls (RBAC, encryption) are\n  published in the enterprise-security section of the karumi.ai homepage. Trust portal\n  returned HTTP 429 (rate limited) on direct fetch; certification list taken verbatim\n  from the provider homepage.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/karumi/refs/heads/main/security/karumi-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/karumi/security/karumi-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company

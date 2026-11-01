@@ -8,7 +8,7 @@ api_specs:
   label: Skyhigh Security Tenant API
   slug: skyhigh-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/openapi/skyhigh-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/skyhigh/openapi/skyhigh-tenant-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -51,7 +51,7 @@ source_filename: skyhigh-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/skyhigh-incidents-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - implicit\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/skyhigh-incidents-openapi-original.yml\n- name: internalApiKey\n  type: apiKey\n  in: query\n  parameter: accessToken\n  sources:\n  - openapi/skyhigh-incidents-openapi-original.yml\n- name: tenantAuth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: http://com.shn/api/oauth/dialog\n    scopes: 3\n  sources:\n  - openapi/skyhigh-incidents-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skyhigh/refs/heads/main/authentication/skyhigh-authentication.yml
+source_yaml_url: https://artifacts.apis.io/skyhigh/authentication/skyhigh-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Company

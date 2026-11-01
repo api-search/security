@@ -7,31 +7,31 @@ api_specs:
   label: Kno2 Attachments API
   slug: kno2-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/kno2/openapi/kno2-attachments-api-openapi.yml
 - filename: kno2-authentication-api-openapi.yml
   format: yaml
   label: Kno2 Authentication API
   slug: kno2-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/kno2/openapi/kno2-authentication-api-openapi.yml
 - filename: kno2-directory-api-openapi.yml
   format: yaml
   label: Kno2 Directory API
   slug: kno2-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-directory-api-openapi.yml
+  url: https://artifacts.apis.io/kno2/openapi/kno2-directory-api-openapi.yml
 - filename: kno2-intake-api-openapi.yml
   format: yaml
   label: Kno2 Intake API
   slug: kno2-intake-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-intake-api-openapi.yml
+  url: https://artifacts.apis.io/kno2/openapi/kno2-intake-api-openapi.yml
 - filename: kno2-messaging-api-openapi.yml
   format: yaml
   label: Kno2 Messaging API
   slug: kno2-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/openapi/kno2-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/kno2/openapi/kno2-messaging-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -73,7 +73,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/kno2-attachments-api-openapi.yml, openapi/kno2-authentication-api-openapi.yml,\n  openapi/kno2-directory-api-openapi.yml, openapi/kno2-intake-api-openapi.yml, openapi/kno2-messaging-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer access token obtained from POST /api/token.\n  sources:\n  - openapi/kno2-attachments-api-openapi.yml\n  - openapi/kno2-authentication-api-openapi.yml\n  - openapi/kno2-directory-api-openapi.yml\n  - openapi/kno2-intake-api-openapi.yml\n  - openapi/kno2-messaging-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic with base64(client_id:client_secret), used only against /api/token\n    to obtain a Bearer token.\n  sources:\n  - openapi/kno2-attachments-api-openapi.yml\n  - openapi/kno2-authentication-api-openapi.yml\n  - openapi/kno2-directory-api-openapi.yml\n  - openapi/kno2-intake-api-openapi.yml\n\
   \  - openapi/kno2-messaging-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/authentication/kno2-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kno2/authentication/kno2-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Interoperability

@@ -28,7 +28,7 @@ source_filename: atoms-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: atoms.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 09:33:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: atoms.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atoms/refs/heads/main/security/atoms-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/atoms/security/atoms-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

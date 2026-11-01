@@ -8,7 +8,7 @@ api_specs:
   label: ZenRows Universal Scraper API
   slug: zenrows-universal-scraper-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/openapi/zenrows-universal-scraper-api-openapi.yml
+  url: https://artifacts.apis.io/zenrows/openapi/zenrows-universal-scraper-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: zenrows-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zenrows-universal-scraper-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: apikey\n  description: ZenRows API key, passed as the `apikey` query parameter on every request.\n  sources:\n  - openapi/zenrows-universal-scraper-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/authentication/zenrows-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zenrows/authentication/zenrows-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Web Scraping

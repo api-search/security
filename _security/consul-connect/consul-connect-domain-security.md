@@ -5,13 +5,13 @@ api_specs:
   label: Consul Connect CA API
   slug: consul-connect-ca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/openapi/consul-connect-ca-api-openapi.yml
+  url: https://artifacts.apis.io/consul-connect/openapi/consul-connect-ca-api-openapi.yml
 - filename: consul-connect-intentions-api-openapi.yml
   format: yaml
   label: Consul Connect Intentions API
   slug: consul-connect-intentions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/openapi/consul-connect-intentions-api-openapi.yml
+  url: https://artifacts.apis.io/consul-connect/openapi/consul-connect-intentions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: consul-connect-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.consul.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 22:56:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.hashicorp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 05:45:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: consul.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: hashicorp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/consul-connect/refs/heads/main/security/consul-connect-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/consul-connect/security/consul-connect-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Consul

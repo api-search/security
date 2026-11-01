@@ -33,7 +33,7 @@ source_filename: portal-yoda-dit-upm-es-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal-yoda.dit.upm.es\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  7 11:57:39 2026 GMT\n  hsts: false\ndomains:\n- domain: upm.es\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 iodef \"mailto:abuse@upm.es\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"fnmt.es\"\n  - 0 issue \"harica.gr\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/security/portal-yoda-dit-upm-es-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/portal-yoda-dit-upm-es/security/portal-yoda-dit-upm-es-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Open Data

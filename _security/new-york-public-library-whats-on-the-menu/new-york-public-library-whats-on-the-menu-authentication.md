@@ -8,13 +8,13 @@ api_specs:
   label: New York Public Library What's On The Menu Dishes API
   slug: new-york-public-library-whats-on-the-menu-dishes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/openapi/new-york-public-library-whats-on-the-menu-dishes-api-openapi.yml
+  url: https://artifacts.apis.io/new-york-public-library-whats-on-the-menu/openapi/new-york-public-library-whats-on-the-menu-dishes-api-openapi.yml
 - filename: new-york-public-library-whats-on-the-menu-menus-api-openapi.yml
   format: yaml
   label: New York Public Library What's On The Menu Menus API
   slug: new-york-public-library-whats-on-the-menu-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/openapi/new-york-public-library-whats-on-the-menu-menus-api-openapi.yml
+  url: https://artifacts.apis.io/new-york-public-library-whats-on-the-menu/openapi/new-york-public-library-whats-on-the-menu-menus-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: new-york-public-library-whats-on-the-menu-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/new-york-public-library-whats-on-the-menu-openapi-original.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiToken\n  type: apiKey\n  in: query\n  parameter: token\n  description: 26-character API token. Request access by emailing menus@nypl.org with subject\n    \"API ACCESS\".\n  sources:\n  - openapi/new-york-public-library-whats-on-the-menu-openapi-original.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/authentication/new-york-public-library-whats-on-the-menu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/new-york-public-library-whats-on-the-menu/authentication/new-york-public-library-whats-on-the-menu-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Library

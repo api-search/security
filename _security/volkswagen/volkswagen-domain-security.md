@@ -5,19 +5,19 @@ api_specs:
   label: Volkswagen Catalog API
   slug: volkswagen-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/volkswagen/openapi/volkswagen-catalog-api-openapi.yml
 - filename: volkswagen-configuration-api-openapi.yml
   format: yaml
   label: Volkswagen Configuration API
   slug: volkswagen-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/volkswagen/openapi/volkswagen-configuration-api-openapi.yml
 - filename: volkswagen-information-api-openapi.yml
   format: yaml
   label: Volkswagen Information API
   slug: volkswagen-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/openapi/volkswagen-information-api-openapi.yml
+  url: https://artifacts.apis.io/volkswagen/openapi/volkswagen-information-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: volkswagen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: okapi-ddp.productdata.volkswagenag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 23:59:59 2026 GMT\n  hsts: null\n- host: productdata.volkswagenag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: volkswagenag.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/security/volkswagen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/volkswagen/security/volkswagen-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Automobiles

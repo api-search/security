@@ -32,7 +32,7 @@ source_filename: telenav-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: telenav.com\n  https: false\n  notes: Apex host fails the TLS handshake; the site is served from www.telenav.com.\n- host: www.telenav.com\n  https: true\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.telenav.com\n  https: true\n  hsts: false\ndomains:\n- domain: telenav.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/telenav/refs/heads/main/security/telenav-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/telenav/security/telenav-domain-security.yml
 summary_line: HSTS · DMARC
 tags:
 - Mapping

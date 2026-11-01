@@ -5,7 +5,7 @@ api_specs:
   label: Adonmo Private Limited Acumen API
   slug: adonmoprivatelimited-acumen-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adonmoprivatelimited/refs/heads/main/openapi/adonmoprivatelimited-acumen-api-openapi.yml
+  url: https://artifacts.apis.io/adonmoprivatelimited/openapi/adonmoprivatelimited-acumen-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: adonmoprivatelimited-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: adonmo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 12:00:54 2026 GMT\n  hsts: false\n- host: api.adonmo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 27 13:01:29 2026 GMT\n  hsts: null\ndomains:\n- domain: adonmo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adonmoprivatelimited/refs/heads/main/security/adonmoprivatelimited-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adonmoprivatelimited/security/adonmoprivatelimited-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Advertising

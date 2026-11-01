@@ -33,7 +33,7 @@ source_filename: epiroc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: epiroc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 20 19:01:00 2026 GMT\n  hsts: null\ndomains:\n- domain: epiroc.com\n  dnssec: true\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/epiroc/refs/heads/main/security/epiroc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/epiroc/security/epiroc-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

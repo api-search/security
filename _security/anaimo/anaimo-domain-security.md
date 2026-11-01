@@ -27,12 +27,12 @@ source_filename: anaimo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: anaimo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 16:12:06 2026 GMT\n  hsts: false\ndomains:\n- domain: anaimo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anaimo/refs/heads/main/security/anaimo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/anaimo/security/anaimo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Artificial Intelligence
 - Automation
-- VirtualAssistant
+- Virtual Assistant
 - Retail
 ---

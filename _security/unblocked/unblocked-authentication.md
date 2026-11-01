@@ -8,19 +8,19 @@ api_specs:
   label: Unblocked Answers API
   slug: unblocked-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-answers-api-openapi.yml
+  url: https://artifacts.apis.io/unblocked/openapi/unblocked-answers-api-openapi.yml
 - filename: unblocked-collections-api-openapi.yml
   format: yaml
   label: Unblocked Collections API
   slug: unblocked-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-collections-api-openapi.yml
+  url: https://artifacts.apis.io/unblocked/openapi/unblocked-collections-api-openapi.yml
 - filename: unblocked-documents-api-openapi.yml
   format: yaml
   label: Unblocked Documents API
   slug: unblocked-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/openapi/unblocked-documents-api-openapi.yml
+  url: https://artifacts.apis.io/unblocked/openapi/unblocked-documents-api-openapi.yml
 auth_types:
 - http-bearer
 - oauth2
@@ -69,7 +69,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.getunblocked.com/api-reference/quickstart\ndocs: https://docs.getunblocked.com/api-reference/quickstart\ndescription: >-\n  Authentication profile for the Unblocked Public API and tooling surface,\n  captured from the API quickstart, the published OpenAPI securitySchemes, the\n  CLI auth docs, and the OAuth authorization-server metadata published at\n  /.well-known/oauth-authorization-server on getunblocked.com.\nsummary:\n  types: [http-bearer, oauth2]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\nschemes:\n  - name: ApiKeyBearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: Unblocked API Key\n    description: >-\n      API token sent as `Authorization: Bearer <token>` on every request.\n      Obtainable from the web dashboard under Settings -> API Tokens.\n    sources: [openapi/unblocked-public-api-openapi-original.json]\n  - name: oauth-authorization-server\n    type: oauth2\n  \
   \  description: >-\n      OAuth 2.0 authorization server published via RFC 8414 metadata at\n      https://getunblocked.com/.well-known/oauth-authorization-server (used by\n      the remote MCP integration). Authorization-code + refresh-token grants,\n      PKCE S256 required option, dynamic client registration with no auth.\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://getunblocked.com/dashboard/login/oauth\n        tokenUrl: https://getunblocked.com/api/auth/oauth/token\n    registration_endpoint: https://getunblocked.com/api/auth/oauth/register\n    revocation_endpoint: https://getunblocked.com/api/auth/oauth/revoke\n    jwks_uri: https://getunblocked.com/api/auth/oauth/jwks\n    code_challenge_methods: [S256]\n    grant_types: [authorization_code, refresh_token]\n    sources: [well-known/unblocked-oauth-authorization-server.json]\ntoken_types:\n  - name: Personal Access Token\n    scope: Individual user account; user-level isolation on the Answers\
   \ API (only that user's questions are returned).\n    limits: 1,000 API calls per day\n    data_source_scoping: Token can be limited to specific data sources at creation time.\n  - name: Team Access Token\n    scope: Organization-wide; grants access to all documents in the team's data sources.\n    guidance: Rotate regularly; use carefully.\n    data_source_scoping: Token can be limited to specific data sources at creation time.\ncli_and_ci: >-\n  The CLI authenticates interactively via `unblocked auth` (browser flow) or\n  headlessly via the UNBLOCKED_API_TOKEN environment variable using the same\n  personal/team tokens.\nsso: >-\n  End-user sign-in supports SAML 2.0 SSO (Okta, Microsoft Entra ID, Google\n  Workspace, AWS Identity Center, PingOne, and other SAML providers) plus SCIM\n  provisioning; documented under team-settings/sso in the provider docs.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unblocked/refs/heads/main/authentication/unblocked-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unblocked/authentication/unblocked-authentication.yml
 summary_line: http-bearer/oauth2 · 2 schemes
 tags:
 - Company

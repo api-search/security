@@ -5,55 +5,55 @@ api_specs:
   label: Quandela Api - Job Token API
   slug: quandela-api-job-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-job-token-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-api-job-token-api-openapi.yml
 - filename: quandela-api-perceval-job-api-openapi.yml
   format: yaml
   label: Quandela Api - Perceval Job API
   slug: quandela-api-perceval-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-perceval-job-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-api-perceval-job-api-openapi.yml
 - filename: quandela-api-perceval-job-token-api-openapi.yml
   format: yaml
   label: Quandela Api - Perceval Job Token API
   slug: quandela-api-perceval-job-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-api-perceval-job-token-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-api-perceval-job-token-api-openapi.yml
 - filename: quandela-qrng-api-openapi.yml
   format: yaml
   label: Quandela QRNG API
   slug: quandela-qrng-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-qrng-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-qrng-api-openapi.yml
 - filename: quandela-quantumtoolbox-api-openapi.yml
   format: yaml
   label: Quandela Quantum Toolbox API
   slug: quandela-quantumtoolbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-quantumtoolbox-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-quantumtoolbox-api-openapi.yml
 - filename: quandela-health-api-openapi.yml
   format: yaml
   label: Quandela Health API
   slug: quandela-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-health-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-health-api-openapi.yml
 - filename: quandela-openapi-json-api-openapi.yml
   format: yaml
   label: Quandela Openapi.json API
   slug: quandela-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-openapi-json-api-openapi.yml
 - filename: quandela-qt-openapi-json-api-openapi.yml
   format: yaml
   label: Quandela Qt Openapi.json API
   slug: quandela-qt-openapi-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-qt-openapi-json-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-qt-openapi-json-api-openapi.yml
 - filename: quandela-quandela-cloud-api-api-openapi.yml
   format: yaml
   label: Quandela Quandela Cloud API
   slug: quandela-quandela-cloud-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/openapi/quandela-quandela-cloud-api-api-openapi.yml
+  url: https://artifacts.apis.io/quandela/openapi/quandela-quandela-cloud-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: quandela-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.quandela.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 12:57:55 2026 GMT\n  hsts: false\n- host: api.cloud.quandela.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 10 22:09:50 2026 GMT\n  hsts: false\ndomains:\n- domain: quandela.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quandela/refs/heads/main/security/quandela-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quandela/security/quandela-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Quantum Computing

@@ -5,61 +5,61 @@ api_specs:
   label: Workato Data Tables API
   slug: workato-data-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-data-tables-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-data-tables-api-openapi.yml
 - filename: workato-genies-api-openapi.yml
   format: yaml
   label: Workato Genies API
   slug: workato-genies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-genies-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-genies-api-openapi.yml
 - filename: workato-knowledge-bases-api-openapi.yml
   format: yaml
   label: Workato Knowledge Bases API
   slug: workato-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-knowledge-bases-api-openapi.yml
 - filename: workato-mcp-servers-api-openapi.yml
   format: yaml
   label: Workato MCP Servers API
   slug: workato-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-mcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-mcp-servers-api-openapi.yml
 - filename: workato-messages-api-openapi.yml
   format: yaml
   label: Workato Messages API
   slug: workato-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-messages-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-messages-api-openapi.yml
 - filename: workato-policies-api-openapi.yml
   format: yaml
   label: Workato Policies API
   slug: workato-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-policies-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-policies-api-openapi.yml
 - filename: workato-recipes-api-openapi.yml
   format: yaml
   label: Workato Recipes API
   slug: workato-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-recipes-api-openapi.yml
 - filename: workato-skills-api-openapi.yml
   format: yaml
   label: Workato Skills API
   slug: workato-skills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-skills-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-skills-api-openapi.yml
 - filename: workato-tools-api-openapi.yml
   format: yaml
   label: Workato Tools API
   slug: workato-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-tools-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-tools-api-openapi.yml
 - filename: workato-user-groups-api-openapi.yml
   format: yaml
   label: Workato User Groups API
   slug: workato-user-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/openapi/workato-user-groups-api-openapi.yml
+  url: https://artifacts.apis.io/workato/openapi/workato-user-groups-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -106,7 +106,7 @@ source_filename: workato-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.workato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 10:44:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.workato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 25 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.eu.workato.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: workato.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/security/workato-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workato/security/workato-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

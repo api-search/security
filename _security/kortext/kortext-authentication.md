@@ -7,49 +7,49 @@ api_specs:
   label: Kortext Chat API
   slug: kortext-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-chat-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-chat-api-openapi.yml
 - filename: kortext-content-api-openapi.yml
   format: yaml
   label: Kortext Content API
   slug: kortext-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-content-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-content-api-openapi.yml
 - filename: kortext-health-checks-api-openapi.yml
   format: yaml
   label: Kortext Health Checks API
   slug: kortext-health-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-health-checks-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-health-checks-api-openapi.yml
 - filename: kortext-labs-api-openapi.yml
   format: yaml
   label: Kortext Labs API
   slug: kortext-labs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-labs-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-labs-api-openapi.yml
 - filename: kortext-podcast-api-openapi.yml
   format: yaml
   label: Kortext Podcast API
   slug: kortext-podcast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-podcast-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-podcast-api-openapi.yml
 - filename: kortext-quiz-api-openapi.yml
   format: yaml
   label: Kortext Quiz API
   slug: kortext-quiz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-quiz-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-quiz-api-openapi.yml
 - filename: kortext-reading-list-api-openapi.yml
   format: yaml
   label: Kortext Reading List API
   slug: kortext-reading-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-reading-list-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-reading-list-api-openapi.yml
 - filename: kortext-test-api-openapi.yml
   format: yaml
   label: Kortext Test API
   slug: kortext-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/openapi/kortext-test-api-openapi.yml
+  url: https://artifacts.apis.io/kortext/openapi/kortext-test-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -92,7 +92,7 @@ source_yaml: "generated: '2026-08-23'\nmethod: searched\nsource: >-\n  openapi/k
   \ public.\ninstitutional_authentication:\n  mechanism: 1EdTech LTI launch\n  note: >-\n    For institutional users the real front door is not an API credential at all — it is an LTI 1.1\n    or LTI 1.3 launch from the university's VLE, which carries identity from the institution into\n    Kortext. LTI 1.3 is built on an OIDC third-party-initiated login, so an OIDC flow is\n    implemented behind these endpoints even though no discovery document is served.\n  endpoints:\n    lti_1_1_launch: https://vle.kortext.com/api/v1/lti/v1.1/launch\n    lti_1_3_deep_link_request: https://vle.kortext.com/api/v1/lti/v1.3/deep-link-request\n    jwks: https://lti.dev.kortext.com/jwks\n  jwks_observed:\n    url: https://lti.dev.kortext.com/jwks\n    status: 200\n    body: '{\"keys\":[]}'\n    note: >-\n      A JWKS keyset endpoint is deployed on the LTI dev host but is empty; no production keyset is\n      served on a discoverable path.\n  cross_ref: conformance/kortext-conformance.yml\nnot_supported:\n\
   \  oauth2: >-\n    No oauth2 securityScheme, no authorization or token metadata document. See scopes/ — none\n    written, because there is no scope surface to derive.\n  openIdConnect: No openIdConnect scheme declared and no /.well-known/openid-configuration served.\n  apiKey: No apiKey scheme declared on any operation.\n  mutualTLS: Not declared.\n  oauth_discovery:\n  - url: https://api-demo.labs.kortext.com/.well-known/oauth-authorization-server\n    status: 404\n  - url: https://api-demo.labs.kortext.com/.well-known/openid-configuration\n    status: 404\n  - url: https://kortext.com/.well-known/openid-configuration\n    status: 301\n    note: Redirects to the marketing homepage — a soft-404, not a document.\ngaps:\n- No published authentication documentation of any kind.\n- No token lifetime, refresh mechanism, or revocation path documented.\n- No scopes or permission model — the bearer token is all-or-nothing across 55 operations.\n- 403 used in place of 401, which breaks conventional\
   \ client retry logic.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kortext/refs/heads/main/authentication/kortext-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kortext/authentication/kortext-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Education

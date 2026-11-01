@@ -5,13 +5,13 @@ api_specs:
   label: Resistant AI Submission API
   slug: resistant-ai-submission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-submission-api-openapi.yml
+  url: https://artifacts.apis.io/resistant-ai/openapi/resistant-ai-submission-api-openapi.yml
 - filename: resistant-ai-tenants-api-openapi.yml
   format: yaml
   label: Resistant AI Tenants API
   slug: resistant-ai-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/openapi/resistant-ai-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/resistant-ai/openapi/resistant-ai-tenants-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -27,7 +27,7 @@ source_filename: resistant-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: false\ntype: TrustCenter\nurl: https://trust.resistant.ai/\nsource: https://resistant.ai (homepage link), https://trust.resistant.ai/\ncertifications: []\nnote: >-\n  Resistant AI operates a public Trust Center at https://trust.resistant.ai/, linked from the\n  homepage. The page renders its certification/compliance list client-side (returns a \"Loading...\"\n  shell to an unauthenticated fetch), so specific named certifications could not be captured\n  verbatim and are intentionally left empty rather than fabricated. The Trust Center URL itself is\n  verified to exist.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resistant-ai/refs/heads/main/security/resistant-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/resistant-ai/security/resistant-ai-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

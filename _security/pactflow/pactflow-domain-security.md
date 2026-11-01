@@ -5,49 +5,49 @@ api_specs:
   label: PactFlow AI API
   slug: pactflow-ai-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-ai-api-openapi.yml
+  url: https://artifacts.apis.io/pactflow/openapi/pactflow-ai-api-openapi.yml
 - filename: pactflow-drift-api-openapi.yml
   format: yaml
   label: PactFlow Drift API
   slug: pactflow-drift-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-drift-api-openapi.yml
+  url: https://artifacts.apis.io/pactflow/openapi/pactflow-drift-api-openapi.yml
 - filename: pactflow-orders-api-openapi.yml
   format: yaml
   label: PactFlow Orders API
   slug: pactflow-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-orders-api-openapi.yml
+  url: https://artifacts.apis.io/pactflow/openapi/pactflow-orders-api-openapi.yml
 - filename: pactflow-pact-foundation-api-openapi.yml
   format: yaml
   label: PactFlow Pact Foundation API
   slug: pactflow-pact-foundation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-pact-foundation-api-openapi.yml
+  url: https://artifacts.apis.io/pactflow/openapi/pactflow-pact-foundation-api-openapi.yml
 - filename: pactflow-pacts-api-openapi.yml
   format: yaml
   label: PactFlow Pacts API
   slug: pactflow-pacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-pacts-api-openapi.yml
+  url: https://artifacts.apis.io/pactflow/openapi/pactflow-pacts-api-openapi.yml
 - filename: pactflow-product-api-openapi.yml
   format: yaml
   label: PactFlow Product API
   slug: pactflow-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-product-api-openapi.yml
+  url: https://artifacts.apis.io/pactflow/openapi/pactflow-product-api-openapi.yml
 - filename: pactflow-products-api-openapi.yml
   format: yaml
   label: PactFlow Products API
   slug: pactflow-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-products-api-openapi.yml
+  url: https://artifacts.apis.io/pactflow/openapi/pactflow-products-api-openapi.yml
 - filename: pactflow-test-api-openapi.yml
   format: yaml
   label: PactFlow Test API
   slug: pactflow-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/openapi/pactflow-test-api-openapi.yml
+  url: https://artifacts.apis.io/pactflow/openapi/pactflow-test-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: pactflow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pactflow.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 10368000\ndomains:\n- domain: pactflow.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pactflow/refs/heads/main/security/pactflow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pactflow/security/pactflow-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

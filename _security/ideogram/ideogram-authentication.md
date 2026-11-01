@@ -8,25 +8,25 @@ api_specs:
   label: Ideogram Subpackage Datasets API
   slug: ideogram-subpackage-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-datasets-api-openapi.yml
 - filename: ideogram-subpackage-generate-api-openapi.yml
   format: yaml
   label: Ideogram Subpackage Generate API
   slug: ideogram-subpackage-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-generate-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-generate-api-openapi.yml
 - filename: ideogram-subpackage-models-api-openapi.yml
   format: yaml
   label: Ideogram Subpackage Models API
   slug: ideogram-subpackage-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-models-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-models-api-openapi.yml
 - filename: ideogram-subpackage-vision-api-openapi.yml
   format: yaml
   label: Ideogram Subpackage Vision API
   slug: ideogram-subpackage-vision-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/openapi/ideogram-subpackage-vision-api-openapi.yml
+  url: https://artifacts.apis.io/ideogram/openapi/ideogram-subpackage-vision-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: ideogram-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ideogram-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Api-Key\n  description: API key for access control. Use in the header with the name \\\"Api-Key\\\"\n  sources:\n  - openapi/ideogram-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ideogram/refs/heads/main/authentication/ideogram-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ideogram/authentication/ideogram-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

@@ -8,13 +8,13 @@ api_specs:
   label: Baseten Chat Completions API
   slug: baseten-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/openapi/baseten-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/baseten/openapi/baseten-chat-completions-api-openapi.yml
 - filename: baseten-messages-api-openapi.yml
   format: yaml
   label: Baseten Messages API
   slug: baseten-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/openapi/baseten-messages-api-openapi.yml
+  url: https://artifacts.apis.io/baseten/openapi/baseten-messages-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -43,7 +43,7 @@ source_filename: baseten-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/baseten-llm-openapi.json, openapi/baseten-messages-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Use `Api-Key` as the scheme in the Authorization header: `Authorization: Api-Key\n    YOUR_API_KEY`.'\n  sources:\n  - openapi/baseten-llm-openapi.json\n  - openapi/baseten-messages-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baseten/refs/heads/main/authentication/baseten-authentication.yml
+source_yaml_url: https://artifacts.apis.io/baseten/authentication/baseten-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

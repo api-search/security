@@ -7,43 +7,43 @@ api_specs:
   label: Eat App Concierge - Availability API
   slug: eat-app-concierge-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-availability-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-availability-api-openapi.yml
 - filename: eat-app-concierge-guests-api-openapi.yml
   format: yaml
   label: Eat App Concierge - Guests API
   slug: eat-app-concierge-guests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-guests-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-guests-api-openapi.yml
 - filename: eat-app-concierge-reference-api-openapi.yml
   format: yaml
   label: Eat App Concierge - Reference API
   slug: eat-app-concierge-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-reference-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-reference-api-openapi.yml
 - filename: eat-app-concierge-reservations-api-openapi.yml
   format: yaml
   label: Eat App Concierge - Reservations API
   slug: eat-app-concierge-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-concierge-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-concierge-reservations-api-openapi.yml
 - filename: eat-app-partner-availability-api-openapi.yml
   format: yaml
   label: Eat App Partner - Availability API
   slug: eat-app-partner-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-partner-availability-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-partner-availability-api-openapi.yml
 - filename: eat-app-partner-reservations-api-openapi.yml
   format: yaml
   label: Eat App Partner - Reservations API
   slug: eat-app-partner-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-partner-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-partner-reservations-api-openapi.yml
 - filename: eat-app-tables-and-floor-plans-modeled-api-openapi.yml
   format: yaml
   label: Eat App Tables and Floor Plans (Modeled) API
   slug: eat-app-tables-and-floor-plans-modeled-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/openapi/eat-app-tables-and-floor-plans-modeled-api-openapi.yml
+  url: https://artifacts.apis.io/eat-app/openapi/eat-app-tables-and-floor-plans-modeled-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: eat-app-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/eat-app-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token (the API key Eat App issues to a partner or Concierge user). Sent\n    as Authorization: Bearer <api_token>.'\n  sources:\n  - openapi/eat-app-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eat-app/refs/heads/main/authentication/eat-app-authentication.yml
+source_yaml_url: https://artifacts.apis.io/eat-app/authentication/eat-app-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Restaurant

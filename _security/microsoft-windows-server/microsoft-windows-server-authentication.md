@@ -7,19 +7,19 @@ api_specs:
   label: Microsoft Windows Server Application Pools API
   slug: microsoft-windows-server-application-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-application-pools-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-windows-server/openapi/microsoft-windows-server-application-pools-api-openapi.yml
 - filename: microsoft-windows-server-applications-api-openapi.yml
   format: yaml
   label: Microsoft Windows Server Applications API
   slug: microsoft-windows-server-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-applications-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-windows-server/openapi/microsoft-windows-server-applications-api-openapi.yml
 - filename: microsoft-windows-server-websites-api-openapi.yml
   format: yaml
   label: Microsoft Windows Server Websites API
   slug: microsoft-windows-server-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/openapi/microsoft-windows-server-websites-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-windows-server/openapi/microsoft-windows-server-websites-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: microsoft-windows-server-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/iis-administration-api.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: accessToken\n  type: http\n  scheme: bearer\n  description: Access token for authenticating with the IIS Administration API. Tokens are generated\n    through the API management portal at https://localhost:55539.\n  sources:\n  - openapi/iis-administration-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/authentication/microsoft-windows-server-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-windows-server/authentication/microsoft-windows-server-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Data Center

@@ -25,7 +25,7 @@ source_filename: aijieboya-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agilebio.com.cn\n  https: false\n  note: >-\n    No TLS listener on port 443. The only site this company operates is served over\n    plaintext HTTP; https://agilebio.com.cn/ does not connect at all (curl exit 7 /\n    HTTP code 000). The apex is a CNAME to agilebio.gotoip11.com -> web.s1312.vhostgo.com\n    (211.149.233.219), Chinese shared hosting.\ndomains:\n- domain: agilebio.com.cn\n  dnssec: false\n  caa: []\n  caa_note: >-\n    No CAA record is published. `dig +short CAA agilebio.com.cn` answers only with the\n    apex CNAME (agilebio.gotoip11.com.), which probe-domain-security.py 0.x records as a\n    CAA value; the authoritative answer section carries a CNAME RR and no CAA RR. Hand\n    corrected 2026-09-14 — see the note in the enrichment report.\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aijieboya/refs/heads/main/security/aijieboya-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aijieboya/security/aijieboya-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

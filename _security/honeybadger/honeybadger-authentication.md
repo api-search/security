@@ -14,37 +14,37 @@ api_specs:
   label: Honeybadger Check In API
   slug: honeybadger-check-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-check-in-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-check-in-api-openapi.yml
 - filename: honeybadger-deploys-api-openapi.yml
   format: yaml
   label: Honeybadger Deploys API
   slug: honeybadger-deploys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-deploys-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-deploys-api-openapi.yml
 - filename: honeybadger-events-api-openapi.yml
   format: yaml
   label: Honeybadger Events API
   slug: honeybadger-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-events-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-events-api-openapi.yml
 - filename: honeybadger-notices-api-openapi.yml
   format: yaml
   label: Honeybadger Notices API
   slug: honeybadger-notices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-notices-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-notices-api-openapi.yml
 - filename: honeybadger-projects-api-openapi.yml
   format: yaml
   label: Honeybadger Projects API
   slug: honeybadger-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-projects-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-projects-api-openapi.yml
 - filename: honeybadger-source-maps-api-openapi.yml
   format: yaml
   label: Honeybadger Source Maps API
   slug: honeybadger-source-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/openapi/honeybadger-source-maps-api-openapi.yml
+  url: https://artifacts.apis.io/honeybadger/openapi/honeybadger-source-maps-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -83,7 +83,7 @@ source_filename: honeybadger-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/honeybadger-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: |-\n    HTTP Basic auth. Use your personal AUTH_TOKEN as the username and\n    leave the password empty: `-u AUTH_TOKEN:`. Required for the\n    Data API (`/v2/*`).\n  sources:\n  - openapi/honeybadger-openapi.yml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Project API key used by the Reporting API (`/v1/*`).\n  sources:\n  - openapi/honeybadger-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/authentication/honeybadger-authentication.yml
+source_yaml_url: https://artifacts.apis.io/honeybadger/authentication/honeybadger-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Error Monitoring

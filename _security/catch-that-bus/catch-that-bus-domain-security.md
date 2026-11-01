@@ -26,7 +26,7 @@ source_filename: catch-that-bus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: catchthatbus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 07:39:44 2026 GMT\n  hsts: null\ndomains:\n- domain: catchthatbus.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/catch-that-bus/refs/heads/main/security/catch-that-bus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/catch-that-bus/security/catch-that-bus-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

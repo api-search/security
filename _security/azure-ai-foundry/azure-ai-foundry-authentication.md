@@ -8,49 +8,49 @@ api_specs:
   label: Microsoft Azure AI Foundry Chat Completions API
   slug: azure-ai-foundry-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-chat-completions-api-openapi.yml
 - filename: azure-ai-foundry-completions-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Completions API
   slug: azure-ai-foundry-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-completions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-completions-api-openapi.yml
 - filename: azure-ai-foundry-embeddings-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Embeddings API
   slug: azure-ai-foundry-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-embeddings-api-openapi.yml
 - filename: azure-ai-foundry-images-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Images API
   slug: azure-ai-foundry-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-images-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-images-api-openapi.yml
 - filename: azure-ai-foundry-models-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Models API
   slug: azure-ai-foundry-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-models-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-models-api-openapi.yml
 - filename: azure-ai-foundry-operations-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Operations API
   slug: microsoft-azure-ai-foundry-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-operations-api-openapi.yml
 - filename: azure-ai-foundry-workspaces-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Workspaces API
   slug: microsoft-azure-ai-foundry-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-workspaces-api-openapi.yml
 - filename: azure-ai-foundry-decisions-api-openapi.yml
   format: yaml
   label: Microsoft Azure AI Foundry Decisions API
   slug: azure-ai-foundry-decisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/openapi/azure-ai-foundry-decisions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-foundry/openapi/azure-ai-foundry-decisions-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -89,7 +89,7 @@ source_filename: azure-ai-foundry-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-ai-foundry-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: api-key\n  description: Foundry/Azure OpenAI resource API key\n  sources:\n  - openapi/azure-ai-foundry-openapi.yml\n- name: entra\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  description: Microsoft Entra ID OAuth 2.0 bearer token (scope https://ai.azure.com/.default)\n  sources:\n  - openapi/azure-ai-foundry-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-ai-foundry/refs/heads/main/authentication/azure-ai-foundry-authentication.yml
+source_yaml_url: https://artifacts.apis.io/azure-ai-foundry/authentication/azure-ai-foundry-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence

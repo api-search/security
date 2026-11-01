@@ -8,25 +8,25 @@ api_specs:
   label: Element5 Authorization API
   slug: element5-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-authorization-api-openapi.yml
 - filename: element5-eligibility-api-openapi.yml
   format: yaml
   label: Element5 Eligibility API
   slug: element5-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-eligibility-api-openapi.yml
 - filename: element5-object-store-api-openapi.yml
   format: yaml
   label: Element5 Object Store API
   slug: element5-object-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-object-store-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-object-store-api-openapi.yml
 - filename: element5-automation-api-openapi.yml
   format: yaml
   label: Element5 Automation API
   slug: element5-automation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/openapi/element5-automation-api-openapi.yml
+  url: https://artifacts.apis.io/element5/openapi/element5-automation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: element5-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/element5-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: API key provided by Element5 to authenticate and authorize the Element5 APIs\n  sources:\n  - openapi/element5-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/element5/refs/heads/main/authentication/element5-authentication.yml
+source_yaml_url: https://artifacts.apis.io/element5/authentication/element5-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

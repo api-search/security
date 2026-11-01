@@ -7,25 +7,25 @@ api_specs:
   label: Turso Auth API
   slug: turso-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-auth-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-auth-api-openapi.yml
 - filename: turso-locations-api-openapi.yml
   format: yaml
   label: Turso Locations API
   slug: turso-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-locations-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-locations-api-openapi.yml
 - filename: turso-organizations-api-openapi.yml
   format: yaml
   label: Turso Organizations API
   slug: turso-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-organizations-api-openapi.yml
 - filename: turso-user-api-openapi.yml
   format: yaml
   label: Turso User API
   slug: turso-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/openapi/turso-user-api-openapi.yml
+  url: https://artifacts.apis.io/turso/openapi/turso-user-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: turso-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/turso-platform-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/turso-platform-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turso/refs/heads/main/authentication/turso-authentication.yml
+source_yaml_url: https://artifacts.apis.io/turso/authentication/turso-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Database

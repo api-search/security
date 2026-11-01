@@ -7,7 +7,7 @@ api_specs:
   label: Apidog Import And Export API
   slug: apidog-import-and-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/openapi/apidog-import-and-export-api-openapi.yml
+  url: https://artifacts.apis.io/apidog/openapi/apidog-import-and-export-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: apidog-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apidog-apidog-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Apidog API uses Bearer Token authorization. Include your personal API access\n    token in the Authorization header as \"Bearer {token}\". Tokens are generated under Avatar\n    -> Account Settings -> API Access Token.\n  sources:\n  - openapi/apidog-apidog-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/authentication/apidog-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apidog/authentication/apidog-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AI Coding

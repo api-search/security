@@ -8,19 +8,19 @@ api_specs:
   label: RoomKeyPMS POS API
   slug: roomkeypms-pos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-pos-api-openapi.yml
+  url: https://artifacts.apis.io/roomkeypms/openapi/roomkeypms-pos-api-openapi.yml
 - filename: roomkeypms-reservation-data-api-openapi.yml
   format: yaml
   label: RoomKeyPMS Reservation Data API
   slug: roomkeypms-reservation-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-reservation-data-api-openapi.yml
+  url: https://artifacts.apis.io/roomkeypms/openapi/roomkeypms-reservation-data-api-openapi.yml
 - filename: roomkeypms-statistics-api-openapi.yml
   format: yaml
   label: RoomKeyPMS Statistics API
   slug: roomkeypms-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/openapi/roomkeypms-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/roomkeypms/openapi/roomkeypms-statistics-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: roomkeypms-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/roomkeypms-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key issued by RoomKeyPMS after a hotel's IT team requests access and the\n    property signs off.\n  sources:\n  - openapi/roomkeypms-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roomkeypms/refs/heads/main/authentication/roomkeypms-authentication.yml
+source_yaml_url: https://artifacts.apis.io/roomkeypms/authentication/roomkeypms-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Hospitality

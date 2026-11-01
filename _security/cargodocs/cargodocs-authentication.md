@@ -7,43 +7,43 @@ api_specs:
   label: CargoDocs Common API
   slug: cargodocs-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-common-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-common-api-openapi.yml
 - filename: cargodocs-documents-api-openapi.yml
   format: yaml
   label: CargoDocs Documents API
   slug: cargodocs-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-documents-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-documents-api-openapi.yml
 - filename: cargodocs-exchange-api-openapi.yml
   format: yaml
   label: CargoDocs Exchange API
   slug: cargodocs-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-exchange-api-openapi.yml
 - filename: cargodocs-import-api-openapi.yml
   format: yaml
   label: CargoDocs Import API
   slug: cargodocs-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-import-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-import-api-openapi.yml
 - filename: cargodocs-issuance-api-openapi.yml
   format: yaml
   label: CargoDocs Issuance API
   slug: cargodocs-issuance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-issuance-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-issuance-api-openapi.yml
 - filename: cargodocs-surrender-api-openapi.yml
   format: yaml
   label: CargoDocs Surrender API
   slug: cargodocs-surrender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-surrender-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-surrender-api-openapi.yml
 - filename: cargodocs-transactions-api-openapi.yml
   format: yaml
   label: CargoDocs Transactions API
   slug: cargodocs-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -72,7 +72,7 @@ source_filename: cargodocs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cargodocs-customer-openapi.yml, openapi/cargodocs-issuer-openapi.yml, openapi/cargodocs-partner-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/cargodocs-customer-openapi.yml\n  - openapi/cargodocs-issuer-openapi.yml\n  - openapi/cargodocs-partner-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/authentication/cargodocs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cargodocs/authentication/cargodocs-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Bills of Lading

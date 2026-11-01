@@ -7,55 +7,55 @@ api_specs:
   label: Hamad Bin Khalifa University Arabic NLP API
   slug: hbku-arabic-nlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-arabic-nlp-api-openapi.yml
+  url: https://artifacts.apis.io/hbku/openapi/hbku-arabic-nlp-api-openapi.yml
 - filename: hbku-audio-api-openapi.yml
   format: yaml
   label: Hamad Bin Khalifa University Audio API
   slug: hbku-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-audio-api-openapi.yml
+  url: https://artifacts.apis.io/hbku/openapi/hbku-audio-api-openapi.yml
 - filename: hbku-images-api-openapi.yml
   format: yaml
   label: Hamad Bin Khalifa University Images API
   slug: hbku-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-images-api-openapi.yml
+  url: https://artifacts.apis.io/hbku/openapi/hbku-images-api-openapi.yml
 - filename: hbku-models-api-openapi.yml
   format: yaml
   label: Hamad Bin Khalifa University Models API
   slug: hbku-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-models-api-openapi.yml
+  url: https://artifacts.apis.io/hbku/openapi/hbku-models-api-openapi.yml
 - filename: hbku-moderations-api-openapi.yml
   format: yaml
   label: Hamad Bin Khalifa University Moderations API
   slug: hbku-moderations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-moderations-api-openapi.yml
+  url: https://artifacts.apis.io/hbku/openapi/hbku-moderations-api-openapi.yml
 - filename: hbku-poems-api-openapi.yml
   format: yaml
   label: Hamad Bin Khalifa University Poems API
   slug: hbku-poems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-poems-api-openapi.yml
+  url: https://artifacts.apis.io/hbku/openapi/hbku-poems-api-openapi.yml
 - filename: hbku-tokens-api-openapi.yml
   format: yaml
   label: Hamad Bin Khalifa University Tokens API
   slug: hbku-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/hbku/openapi/hbku-tokens-api-openapi.yml
 - filename: hbku-translations-api-openapi.yml
   format: yaml
   label: Hamad Bin Khalifa University Translations API
   slug: hbku-translations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-translations-api-openapi.yml
+  url: https://artifacts.apis.io/hbku/openapi/hbku-translations-api-openapi.yml
 - filename: hbku-chat-completions-api-openapi.yml
   format: yaml
   label: Hamad Bin Khalifa University Chat Completions API
   slug: hbku-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/openapi/hbku-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/hbku/openapi/hbku-chat-completions-api-openapi.yml
 auth_types:
 - http-bearer
 - api-key-in-body
@@ -110,7 +110,7 @@ source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: derived\nsource:\n- openapi/_original/hbku-fanar-api-openapi.json\n- openapi/hbku-farasa-api-openapi.yml\nprovider: Hamad Bin Khalifa University\nproviderId: hbku\ndescription: >-\n  Authentication across the two APIs Hamad Bin Khalifa University actually operates. Both are\n  key-based and both require registration; neither offers OAuth, and neither publishes a scope\n  vocabulary, so this repository carries no scopes/ artifact. This file replaces an earlier one\n  derived from Figshare's OAuth contract, which described a vendor's authentication scheme and not\n  the university's.\nsummary:\n  types:\n  - http-bearer\n  - api-key-in-body\n  oauth2_flows: []\n  scopes_published: false\nschemes:\n- name: Bearer\n  api: Fanar API\n  x-operator: institution\n  type: http\n  scheme: bearer\n  in: header\n  parameter: Authorization\n  description: >-\n    \"Provide your API key in the Authorization header using the Bearer scheme.\" Declared at\n\
   \    components.securitySchemes.Bearer and applied document-wide via a root security requirement, so\n    every one of the 12 operations is authenticated.\n  registration: https://api.fanar.qa/request/en\n  verified:\n    probe: GET https://api.fanar.qa/v1/models\n    status: 401\n    body: '{\"error\":{\"code\":\"invalid_authentication\",\"message\":\"Invalid authentication\",\"status\":401}}'\n    date: '2026-08-30'\n  sources:\n  - openapi/_original/hbku-fanar-api-openapi.json\n- name: api_key\n  api: Farasa Web API\n  x-operator: institution\n  type: apiKey\n  in: body\n  parameter: api_key\n  description: >-\n    Farasa carries its key as a body field alongside the text, in both the JSON and the\n    form-encoded variants. This is the provider's own documented pattern, taken from the Python,\n    Java, JavaScript and curl samples published on each module page — not a reconstruction.\n  registration: https://farasa.qcri.org/\n  verified:\n    probe: POST https://farasa.qcri.org/webapi/lemmatization/\n\
   \    status: 400\n    body: 'invalid api key. please register at: https://farasa.qcri.org'\n    date: '2026-08-30'\n  sources:\n  - https://farasa.qcri.org/lemmatization/\nnotes: >-\n  HBKU publishes no institutional identity-federation surface. It is not registered in eduGAIN\n  (technical.edugain.org holds no Qatari federation and no hbku.edu.qa entity, checked 2026-08-30),\n  idp.hbku.edu.qa does not resolve, and sso.hbku.edu.qa presents a certificate that does not match\n  the hostname. So there is no IdentityFederation pointer to record.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hbku/refs/heads/main/authentication/hbku-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hbku/authentication/hbku-authentication.yml
 summary_line: http-bearer/api-key-in-body · 2 schemes
 tags:
 - University

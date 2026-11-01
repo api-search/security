@@ -7,7 +7,7 @@ api_specs:
   label: Google Earth Engine REST Projects API
   slug: google-earth-engine-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/openapi/google-earth-engine-projects-api-openapi.yml
+  url: https://artifacts.apis.io/google-earth-engine/openapi/google-earth-engine-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -38,7 +38,7 @@ source_filename: google-earth-engine-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/earth-engine.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 3\n  sources:\n  - openapi/earth-engine.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-earth-engine/refs/heads/main/authentication/google-earth-engine-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-earth-engine/authentication/google-earth-engine-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Climate

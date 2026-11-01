@@ -7,13 +7,13 @@ api_specs:
   label: Beatoven.ai Tasks API
   slug: beatoven-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/openapi/beatoven-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/beatoven/openapi/beatoven-tasks-api-openapi.yml
 - filename: beatoven-tracks-api-openapi.yml
   format: yaml
   label: Beatoven.ai Tracks API
   slug: beatoven-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/openapi/beatoven-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/beatoven/openapi/beatoven-tracks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: beatoven-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/beatoven-composition-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Beatoven API token, issued by hello@beatoven.ai or from the API dashboard.\n  sources:\n  - openapi/beatoven-composition-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/beatoven/refs/heads/main/authentication/beatoven-authentication.yml
+source_yaml_url: https://artifacts.apis.io/beatoven/authentication/beatoven-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

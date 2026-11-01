@@ -36,7 +36,7 @@ source_filename: jaris-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://jaris.io/developer-overview\ndocs: https://docs.jaris.com\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  oauth2_flows: []\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  description: |\n    Jaris authenticates API integrations with an API key generated in the\n    Jaris Dashboard. Documented on the Developer Overview; the full reference\n    lives behind a password-protected ReadMe portal at docs.jaris.com, so this\n    profile captures the model without a machine-readable securityScheme.\n  sources:\n  - https://jaris.io/developer-overview\nnotes: |\n  No public OpenAPI is available for Jaris (developer docs are gated), so this\n  authentication profile is searched from the public developer overview rather\n  than derived from a spec.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jaris/refs/heads/main/authentication/jaris-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jaris/authentication/jaris-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

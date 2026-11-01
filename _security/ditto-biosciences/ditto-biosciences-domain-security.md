@@ -31,7 +31,7 @@ source_filename: ditto-biosciences-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dittobio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 03:17:39 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: dittobio.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ditto-biosciences/refs/heads/main/security/ditto-biosciences-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ditto-biosciences/security/ditto-biosciences-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

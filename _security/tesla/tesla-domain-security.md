@@ -5,25 +5,25 @@ api_specs:
   label: Tesla Authentication API
   slug: tesla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tesla/openapi/tesla-authentication-api-openapi.yml
 - filename: tesla-media-control-api-openapi.yml
   format: yaml
   label: Tesla Media Control API
   slug: tesla-media-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-media-control-api-openapi.yml
+  url: https://artifacts.apis.io/tesla/openapi/tesla-media-control-api-openapi.yml
 - filename: tesla-vehicle-commands-api-openapi.yml
   format: yaml
   label: Tesla Vehicle Commands API
   slug: tesla-vehicle-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-vehicle-commands-api-openapi.yml
+  url: https://artifacts.apis.io/tesla/openapi/tesla-vehicle-commands-api-openapi.yml
 - filename: tesla-vehicles-api-openapi.yml
   format: yaml
   label: Tesla Vehicles API
   slug: tesla-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/openapi/tesla-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/tesla/openapi/tesla-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: tesla-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.tesla.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: www.tesla.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: null\n- host: fleet-api.prd.na.vn.cloud.tesla.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tesla.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesla/refs/heads/main/security/tesla-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tesla/security/tesla-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automobiles

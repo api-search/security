@@ -7,31 +7,31 @@ api_specs:
   label: BNSF AUTOMOTIVE API
   slug: bnsf-automotive-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-automotive-api-openapi.yml
+  url: https://artifacts.apis.io/bnsf/openapi/bnsf-automotive-api-openapi.yml
 - filename: bnsf-carload-api-openapi.yml
   format: yaml
   label: BNSF CARLOAD API
   slug: bnsf-carload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-carload-api-openapi.yml
+  url: https://artifacts.apis.io/bnsf/openapi/bnsf-carload-api-openapi.yml
 - filename: bnsf-intermodal-api-openapi.yml
   format: yaml
   label: BNSF INTERMODAL API
   slug: bnsf-intermodal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-intermodal-api-openapi.yml
+  url: https://artifacts.apis.io/bnsf/openapi/bnsf-intermodal-api-openapi.yml
 - filename: bnsf-requests-api-openapi.yml
   format: yaml
   label: BNSF Requests API
   slug: bnsf-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-requests-api-openapi.yml
+  url: https://artifacts.apis.io/bnsf/openapi/bnsf-requests-api-openapi.yml
 - filename: bnsf-trains-api-openapi.yml
   format: yaml
   label: BNSF TRAINS API
   slug: bnsf-trains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/openapi/bnsf-trains-api-openapi.yml
+  url: https://artifacts.apis.io/bnsf/openapi/bnsf-trains-api-openapi.yml
 auth_types:
 - mutualTLS
 description: 'The BNSF Customer API has exactly one authentication mechanism: certificate-based mutual TLS. There is no API key, no bearer token, no OAuth and no OpenID Connect anywhere on the surface. Identity is the client certificate itself, and authorisation — which shipments a caller may see — is bound to the company on that certificate through the BNSF.com profile it is registered against.'
@@ -88,11 +88,12 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://www.bns
   \  - Entrust\n  - Sectigo\n  - GoDaddy\n  - Comodo\n  - DigiCert\n  sources:\n  - https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/getting-started/\n- name: Restricted\n  type: mutualTLS\n  description: >-\n    A second authorisation tier layered on the same client certificate. Operations flagged as\n    Restricted Services require the certificate to be separately approved for that service; an\n    unapproved caller receives HTTP 403 with \"Insufficient privileges\". Restricted Services are\n    available in the Production environment only, and BNSF requires at least one unrestricted\n    service to be working before it will move a caller to Production.\n  request_channel: Customer Portal \"Message Us\" — Business Segment, Web Support, Reason \"Application\n    Programming Interface (API)\", Sub Reason \"Restricted Services\"\n  operations_declared_restricted_in_the_specs: 27\n  operations_total: 59\n  restricted_share: 46%\n  sources:\n  - https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/support/\n\
   \  - https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/developers-console/\nauthorization_model:\n  subject: the company named on the client certificate, bound to a BNSF.com User ID\n  data_scope: >-\n    A caller only receives data for equipment whose waybill names their company. A company not on\n    the waybill sees an empty result, not an error. Third-party visibility is granted either by\n    being added to the waybill in the ZS monitoring role at waybill creation, or by a Letter of\n    Authorization (LOA) issued by the shipper through the BNSF Customer Portal.\n  sources:\n  - https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/support/\nonboarding:\n  self_service: false\n  steps:\n  - Obtain a BNSF.com User ID for an individual in the organisation (one per company is normally enough).\n  - Obtain a conforming client certificate from an accepted Certificate Authority.\n  - Register the certificate through the Customer Portal \"Message Us\" box — Business\
   \ Segment,\n    Web Support, Reason \"Application Programming Interface (API)\", Sub Reason \"API Registration\".\n  - Wait for BNSF to complete configuration; the provider states this takes up to five business days\n    and is confirmed by email.\n  provisioning_sla_days: 5\n  source: https://www.bnsf.com/ship-with-bnsf/support-services/customer-api/registration/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bnsf/refs/heads/main/authentication/bnsf-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bnsf/authentication/bnsf-authentication.yml
 summary_line: mutualTLS · 2 schemes
 tags:
 - Freight
 - Railroad
+- Rail
 - Shipping
 - Trains
 - Intermodal

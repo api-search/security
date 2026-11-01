@@ -5,31 +5,31 @@ api_specs:
   label: Symantec Administrators API
   slug: symantec-administrators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-administrators-api-openapi.yml
+  url: https://artifacts.apis.io/symantec/openapi/symantec-administrators-api-openapi.yml
 - filename: symantec-api-version-api-openapi.yml
   format: yaml
   label: Symantec API Version API
   slug: symantec-api-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-api-version-api-openapi.yml
+  url: https://artifacts.apis.io/symantec/openapi/symantec-api-version-api-openapi.yml
 - filename: symantec-authentication-api-openapi.yml
   format: yaml
   label: Symantec Authentication API
   slug: symantec-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/symantec/openapi/symantec-authentication-api-openapi.yml
 - filename: symantec-computers-api-openapi.yml
   format: yaml
   label: Symantec Computers API
   slug: symantec-computers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-computers-api-openapi.yml
+  url: https://artifacts.apis.io/symantec/openapi/symantec-computers-api-openapi.yml
 - filename: symantec-groups-api-openapi.yml
   format: yaml
   label: Symantec Groups API
   slug: symantec-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/openapi/symantec-groups-api-openapi.yml
+  url: https://artifacts.apis.io/symantec/openapi/symantec-groups-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: symantec-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.broadcom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: techdocs.broadcom.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apidocs.securitycloud.symantec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  2 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: broadcom.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: symantec.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"symantec.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/symantec/refs/heads/main/security/symantec-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/symantec/security/symantec-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Broadcom

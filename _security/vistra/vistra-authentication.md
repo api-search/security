@@ -7,13 +7,13 @@ api_specs:
   label: Vistra Documents API
   slug: vistra-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/openapi/vistra-documents-api-openapi.yml
+  url: https://artifacts.apis.io/vistra/openapi/vistra-documents-api-openapi.yml
 - filename: vistra-incorporations-api-openapi.yml
   format: yaml
   label: Vistra Incorporations API
   slug: vistra-incorporations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/openapi/vistra-incorporations-api-openapi.yml
+  url: https://artifacts.apis.io/vistra/openapi/vistra-incorporations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: vistra-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vistra-incorporations-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: OAuth2Bearer\n  type: http\n  scheme: bearer\n  description: OAuth2 bearer token obtained from the Vistra Developer Portal. Include in the\n    Authorization header as \"Bearer {token}\".\n  sources:\n  - openapi/vistra-incorporations-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/authentication/vistra-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vistra/authentication/vistra-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Compliance

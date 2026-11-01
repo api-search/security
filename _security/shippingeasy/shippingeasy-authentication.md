@@ -8,13 +8,13 @@ api_specs:
   label: ShippingEasy Orders API
   slug: shippingeasy-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/openapi/shippingeasy-orders-api-openapi.yml
+  url: https://artifacts.apis.io/shippingeasy/openapi/shippingeasy-orders-api-openapi.yml
 - filename: shippingeasy-stores-api-openapi.yml
   format: yaml
   label: ShippingEasy Stores API
   slug: shippingeasy-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/openapi/shippingeasy-stores-api-openapi.yml
+  url: https://artifacts.apis.io/shippingeasy/openapi/shippingeasy-stores-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -56,7 +56,7 @@ source_filename: shippingeasy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shippingeasy-customer-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Account API key. Generated at https://app.shippingeasy.com/settings/api_credentials.\n  sources:\n  - openapi/shippingeasy-customer-api-openapi.yml\n- name: apiTimestamp\n  type: apiKey\n  in: query\n  parameter: api_timestamp\n  description: Unix epoch seconds when the request signature was generated.\n  sources:\n  - openapi/shippingeasy-customer-api-openapi.yml\n- name: apiSignature\n  type: apiKey\n  in: query\n  parameter: api_signature\n  description: HMAC-SHA256 hex digest of the canonical request string computed with the account's\n    API secret.\n  sources:\n  - openapi/shippingeasy-customer-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/authentication/shippingeasy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shippingeasy/authentication/shippingeasy-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Shipping

@@ -8,55 +8,55 @@ api_specs:
   label: Azure AI Document Intelligence DocumentClassifiers:authorizeCopy API
   slug: azure-document-intelligence-documentclassifiers-authorizecopy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-documentclassifiers-authorizecopy-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-documentclassifiers-authorizecopy-api-openapi.yml
 - filename: azure-document-intelligence-info-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Info API
   slug: azure-document-intelligence-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-info-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-info-api-openapi.yml
 - filename: azure-document-intelligence-operations-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Operations API
   slug: azure-document-intelligence-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-operations-api-openapi.yml
 - filename: azure-document-intelligence-document-classifiers-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Classifiers API
   slug: azure-document-intelligence-document-classifiers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-classifiers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-classifiers-api-openapi.yml
 - filename: azure-document-intelligence-document-classifiers-build-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Classifiers:build API
   slug: azure-document-intelligence-document-classifiers-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-classifiers-build-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-classifiers-build-api-openapi.yml
 - filename: azure-document-intelligence-document-models-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Models API
   slug: azure-document-intelligence-document-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-models-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-api-openapi.yml
 - filename: azure-document-intelligence-document-models-authorize-copy-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Models:authorize Copy API
   slug: azure-document-intelligence-document-models-authorize-copy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-models-authorize-copy-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-authorize-copy-api-openapi.yml
 - filename: azure-document-intelligence-document-models-build-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Models:build API
   slug: azure-document-intelligence-document-models-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-models-build-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-build-api-openapi.yml
 - filename: azure-document-intelligence-document-models-compose-api-openapi.yml
   format: yaml
   label: Azure AI Document Intelligence Document Models:compose API
   slug: azure-document-intelligence-document-models-compose-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/openapi/azure-document-intelligence-document-models-compose-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-compose-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -94,7 +94,7 @@ source_filename: azure-document-intelligence-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-document-intelligence-openapi.json\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Ocp-Apim-Subscription-Key\n  sources:\n  - openapi/azure-document-intelligence-openapi.json\n- name: OAuth2Auth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n    scopes: 1\n  sources:\n  - openapi/azure-document-intelligence-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-document-intelligence/refs/heads/main/authentication/azure-document-intelligence-authentication.yml
+source_yaml_url: https://artifacts.apis.io/azure-document-intelligence/authentication/azure-document-intelligence-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Artificial Intelligence

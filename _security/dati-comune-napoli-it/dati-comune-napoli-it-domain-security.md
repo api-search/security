@@ -27,7 +27,7 @@ source_filename: dati-comune-napoli-it-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dati.comune.napoli.it\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 14 09:13:50 2027 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: napoli.it\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dati-comune-napoli-it/refs/heads/main/security/dati-comune-napoli-it-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dati-comune-napoli-it/security/dati-comune-napoli-it-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Open Data

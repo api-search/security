@@ -5,25 +5,25 @@ api_specs:
   label: Bitpanda Assets API
   slug: bitpanda-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-assets-api-openapi.yml
 - filename: bitpanda-market-data-api-openapi.yml
   format: yaml
   label: Bitpanda Market Data API
   slug: bitpanda-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-market-data-api-openapi.yml
 - filename: bitpanda-transactions-api-openapi.yml
   format: yaml
   label: Bitpanda Transactions API
   slug: bitpanda-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-transactions-api-openapi.yml
 - filename: bitpanda-wallets-api-openapi.yml
   format: yaml
   label: Bitpanda Wallets API
   slug: bitpanda-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/openapi/bitpanda-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/bitpanda/openapi/bitpanda-wallets-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -42,7 +42,7 @@ source_filename: bitpanda-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://www.bitpanda.com/en/security\nurl: https://www.bitpanda.com/en/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.bitpanda.com/en/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/security/bitpanda-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/bitpanda/security/bitpanda-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company

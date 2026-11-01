@@ -8,37 +8,49 @@ api_specs:
   label: Amazon Data Exchange Assets API
   slug: amazon-data-exchange-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-assets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-assets-api-openapi.yml
 - filename: amazon-data-exchange-event-actions-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Event Actions API
   slug: amazon-data-exchange-event-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-event-actions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-event-actions-api-openapi.yml
 - filename: amazon-data-exchange-jobs-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Jobs API
   slug: amazon-data-exchange-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-jobs-api-openapi.yml
 - filename: amazon-data-exchange-revisions-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Revisions API
   slug: amazon-data-exchange-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-revisions-api-openapi.yml
 - filename: amazon-data-exchange-tags-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Tags API
   slug: amazon-data-exchange-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-tags-api-openapi.yml
 - filename: amazon-data-exchange-datasets-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Datasets API
   slug: amazon-data-exchange-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/openapi/amazon-data-exchange-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-datasets-api-openapi.yml
+- filename: amazon-data-exchange-data-grants-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Data Exchange Data Grants API
+  slug: amazon-data-exchange-data-grants-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-data-grants-api-openapi.yml
+- filename: amazon-data-exchange-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Data Exchange Operations API
+  slug: amazon-data-exchange-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +78,7 @@ source_filename: amazon-data-exchange-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-data-exchange-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSignatureV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-data-exchange-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/authentication/amazon-data-exchange-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-data-exchange/authentication/amazon-data-exchange-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data Exchange

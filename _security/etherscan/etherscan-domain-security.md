@@ -5,7 +5,7 @@ api_specs:
   label: Etherscan Accounts API
   slug: etherscan-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/openapi/etherscan-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/etherscan/openapi/etherscan-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: etherscan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: etherscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 03:43:38 2026 GMT\n  hsts: false\n- host: docs.etherscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 12:02:09 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.etherscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: etherscan.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/etherscan/refs/heads/main/security/etherscan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/etherscan/security/etherscan-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain

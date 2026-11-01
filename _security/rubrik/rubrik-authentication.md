@@ -7,25 +7,25 @@ api_specs:
   label: Rubrik Client Token API
   slug: rubrik-client-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-client-token-api-openapi.yml
+  url: https://artifacts.apis.io/rubrik/openapi/rubrik-client-token-api-openapi.yml
 - filename: rubrik-session-api-openapi.yml
   format: yaml
   label: Rubrik Session API
   slug: rubrik-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-session-api-openapi.yml
+  url: https://artifacts.apis.io/rubrik/openapi/rubrik-session-api-openapi.yml
 - filename: rubrik-oauth-api-openapi.yml
   format: yaml
   label: Rubrik OAUTH API
   slug: rubrik-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/rubrik/openapi/rubrik-oauth-api-openapi.yml
 - filename: rubrik-graph-ql-api-openapi.yml
   format: yaml
   label: Rubrik Graph QL API
   slug: rubrik-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/openapi/rubrik-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/rubrik/openapi/rubrik-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: rubrik-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rubrik-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth2 access token obtained via /client_token or /oauth/token.\n  sources:\n  - openapi/rubrik-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rubrik/refs/heads/main/authentication/rubrik-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rubrik/authentication/rubrik-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Backup

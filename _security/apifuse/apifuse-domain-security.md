@@ -5,31 +5,31 @@ api_specs:
   label: Apifuse Analytics API
   slug: apifuse-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/apifuse/openapi/apifuse-analytics-api-openapi.yml
 - filename: apifuse-connectors-api-openapi.yml
   format: yaml
   label: Apifuse Connectors API
   slug: apifuse-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/apifuse/openapi/apifuse-connectors-api-openapi.yml
 - filename: apifuse-integrations-api-openapi.yml
   format: yaml
   label: Apifuse Integrations API
   slug: apifuse-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/apifuse/openapi/apifuse-integrations-api-openapi.yml
 - filename: apifuse-users-api-openapi.yml
   format: yaml
   label: Apifuse Users API
   slug: apifuse-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-users-api-openapi.yml
+  url: https://artifacts.apis.io/apifuse/openapi/apifuse-users-api-openapi.yml
 - filename: apifuse-workflows-api-openapi.yml
   format: yaml
   label: Apifuse Workflows API
   slug: apifuse-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/openapi/apifuse-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/apifuse/openapi/apifuse-workflows-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: apifuse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apifuse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: false\n- host: api.apifuse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: apifuse.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apifuse/refs/heads/main/security/apifuse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apifuse/security/apifuse-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Embedded Integrations

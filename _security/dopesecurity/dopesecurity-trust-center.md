@@ -5,25 +5,25 @@ api_specs:
   label: dope.security Authorization API
   slug: dopesecurity-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-authorization-api-openapi.yml
 - filename: dopesecurity-custom-categories-api-openapi.yml
   format: yaml
   label: dope.security Custom Categories API
   slug: dopesecurity-custom-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-custom-categories-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-custom-categories-api-openapi.yml
 - filename: dopesecurity-endpoints-api-openapi.yml
   format: yaml
   label: dope.security Endpoints API
   slug: dopesecurity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-endpoints-api-openapi.yml
 - filename: dopesecurity-policies-api-openapi.yml
   format: yaml
   label: dope.security Policies API
   slug: dopesecurity-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/openapi/dopesecurity-policies-api-openapi.yml
+  url: https://artifacts.apis.io/dopesecurity/openapi/dopesecurity-policies-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type II
@@ -41,7 +41,7 @@ source_filename: dopesecurity-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://dope.security/legal/soc-2\nurl: https://dope.security/legal/soc-2\ncertifications:\n- SOC 2 Type II\n- GDPR\nevidence:\n- source: https://dope.security/legal/soc-2\n  keywords:\n  - soc 2 type ii\n  - soc 2 type 2\n  - gdpr\nnotes: 'SOC 2 Type II report covers the period 2024-01-16 to 2025-01-15. GDPR-compliant with a\n  published DPA (https://dope.security/legal/dpa). No dedicated hosted trust portal\n  (trust.dope.security not served); compliance posture is published on the legal pages.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/security/dopesecurity-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/dopesecurity/security/dopesecurity-trust-center.yml
 summary_line: SOC 2 Type II, GDPR
 tags:
 - Company

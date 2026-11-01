@@ -7,7 +7,7 @@ api_specs:
   label: Pipefy Graph QL API
   slug: pipefy-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/openapi/pipefy-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/pipefy/openapi/pipefy-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -36,7 +36,7 @@ source_filename: pipefy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pipefy-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: |-\n    Personal Access Token or Service Account token. Pass as\n    `Authorization: Bearer <token>`.\n  sources:\n  - openapi/pipefy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/authentication/pipefy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pipefy/authentication/pipefy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Workflow Automation

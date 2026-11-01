@@ -1,161 +1,131 @@
 ---
 api_specs:
-- filename: emnify-subpackage-applicationtokens-api-openapi.yml
+- filename: emnify-applicationtokens-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Application Tokens API
-  slug: emnify-subpackage-applicationtokens-api
+  label: emnify Application Tokens API
+  slug: emnify-applicationtokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-applicationtokens-api-openapi.yml
-- filename: emnify-subpackage-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-applicationtokens-api-openapi.yml
+- filename: emnify-authentication-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Authentication API
-  slug: emnify-subpackage-authentication-api
+  label: emnify Authentication API
+  slug: emnify-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-authentication-api-openapi.yml
-- filename: emnify-subpackage-automations-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-authentication-api-openapi.yml
+- filename: emnify-cloudconnect-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Automations API
-  slug: emnify-subpackage-automations-api
+  label: emnify Cloud Connect API
+  slug: emnify-cloudconnect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-automations-api-openapi.yml
-- filename: emnify-subpackage-cloudconnect-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-cloudconnect-api-openapi.yml
+- filename: emnify-endpoint-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Cloud Connect API
-  slug: emnify-subpackage-cloudconnect-api
+  label: emnify Endpoint API
+  slug: emnify-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-cloudconnect-api-openapi.yml
-- filename: emnify-subpackage-customevents-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-endpoint-api-openapi.yml
+- filename: emnify-events-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Custom Events API
-  slug: emnify-subpackage-customevents-api
+  label: emnify Events API
+  slug: emnify-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-customevents-api-openapi.yml
-- filename: emnify-subpackage-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-events-api-openapi.yml
+- filename: emnify-flowlogs-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Endpoint API
-  slug: emnify-subpackage-endpoint-api
+  label: emnify Flow Logs API
+  slug: emnify-flowlogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-endpoint-api-openapi.yml
-- filename: emnify-subpackage-euicc-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-flowlogs-api-openapi.yml
+- filename: emnify-integrations-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Euicc API
-  slug: emnify-subpackage-euicc-api
+  label: emnify Integrations API
+  slug: emnify-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-euicc-api-openapi.yml
-- filename: emnify-subpackage-euiccoperation-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-integrations-api-openapi.yml
+- filename: emnify-ipaddressspaces-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Euicc Operation API
-  slug: emnify-subpackage-euiccoperation-api
+  label: emnify Ip Address Spaces API
+  slug: emnify-ipaddressspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-euiccoperation-api-openapi.yml
-- filename: emnify-subpackage-events-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-ipaddressspaces-api-openapi.yml
+- filename: emnify-lookups-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Events API
-  slug: emnify-subpackage-events-api
+  label: emnify Lookups API
+  slug: emnify-lookups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-events-api-openapi.yml
-- filename: emnify-subpackage-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-lookups-api-openapi.yml
+- filename: emnify-operator-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Integrations API
-  slug: emnify-subpackage-integrations-api
+  label: emnify Operator API
+  slug: emnify-operator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-integrations-api-openapi.yml
-- filename: emnify-subpackage-ipaddressspaces-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-operator-api-openapi.yml
+- filename: emnify-organization-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Ip Address Spaces API
-  slug: emnify-subpackage-ipaddressspaces-api
+  label: emnify Organization API
+  slug: emnify-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-ipaddressspaces-api-openapi.yml
-- filename: emnify-subpackage-lookups-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-organization-api-openapi.yml
+- filename: emnify-passwordmanagementandactivation-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Lookups API
-  slug: emnify-subpackage-lookups-api
+  label: emnify Password Management And Activation API
+  slug: emnify-passwordmanagementandactivation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-lookups-api-openapi.yml
-- filename: emnify-subpackage-operator-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-passwordmanagementandactivation-api-openapi.yml
+- filename: emnify-permissionandrolemanagement-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Operator API
-  slug: emnify-subpackage-operator-api
+  label: emnify Permission And Role Management API
+  slug: emnify-permissionandrolemanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-operator-api-openapi.yml
-- filename: emnify-subpackage-organization-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-permissionandrolemanagement-api-openapi.yml
+- filename: emnify-servicelookupsandconfiguration-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Organization API
-  slug: emnify-subpackage-organization-api
+  label: emnify Service Lookups And Configuration API
+  slug: emnify-servicelookupsandconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-organization-api-openapi.yml
-- filename: emnify-subpackage-passwordmanagementandactivation-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-servicelookupsandconfiguration-api-openapi.yml
+- filename: emnify-serviceprofiles-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Password Management And Activation API
-  slug: emnify-subpackage-passwordmanagementandactivation-api
+  label: emnify Service Profiles API
+  slug: emnify-serviceprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-passwordmanagementandactivation-api-openapi.yml
-- filename: emnify-subpackage-servicelookupsandconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-serviceprofiles-api-openapi.yml
+- filename: emnify-sim-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Service Lookups And Configuration API
-  slug: emnify-subpackage-servicelookupsandconfiguration-api
+  label: emnify Sim API
+  slug: emnify-sim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-servicelookupsandconfiguration-api-openapi.yml
-- filename: emnify-subpackage-serviceprofiles-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-sim-api-openapi.yml
+- filename: emnify-tagmanagement-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Service Profiles API
-  slug: emnify-subpackage-serviceprofiles-api
+  label: emnify Tag Management API
+  slug: emnify-tagmanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-serviceprofiles-api-openapi.yml
-- filename: emnify-subpackage-sim-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-tagmanagement-api-openapi.yml
+- filename: emnify-tariffplans-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Sim API
-  slug: emnify-subpackage-sim-api
+  label: emnify Tariff Plans API
+  slug: emnify-tariffplans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-sim-api-openapi.yml
-- filename: emnify-subpackage-simoperation-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-tariffplans-api-openapi.yml
+- filename: emnify-tariffprofiles-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Sim Operation API
-  slug: emnify-subpackage-simoperation-api
+  label: emnify Tariff Profiles API
+  slug: emnify-tariffprofiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-simoperation-api-openapi.yml
-- filename: emnify-subpackage-simunlinkedproductstatistics-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-tariffprofiles-api-openapi.yml
+- filename: emnify-workspaces-api-openapi.yml
   format: yaml
-  label: emnify Subpackage Sim Unlinked Product Statistics API
-  slug: emnify-subpackage-simunlinkedproductstatistics-api
+  label: emnify Workspaces API
+  slug: emnify-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-simunlinkedproductstatistics-api-openapi.yml
-- filename: emnify-subpackage-systemevents-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-workspaces-api-openapi.yml
+- filename: emnify-user-management-api-openapi.yml
   format: yaml
-  label: emnify Subpackage System Events API
-  slug: emnify-subpackage-systemevents-api
+  label: emnify User Management API
+  slug: emnify-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-systemevents-api-openapi.yml
-- filename: emnify-subpackage-tagmanagement-api-openapi.yml
-  format: yaml
-  label: emnify Subpackage Tag Management API
-  slug: emnify-subpackage-tagmanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-tagmanagement-api-openapi.yml
-- filename: emnify-subpackage-tariffplans-api-openapi.yml
-  format: yaml
-  label: emnify Subpackage Tariff Plans API
-  slug: emnify-subpackage-tariffplans-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-tariffplans-api-openapi.yml
-- filename: emnify-subpackage-tariffprofiles-api-openapi.yml
-  format: yaml
-  label: emnify Subpackage Tariff Profiles API
-  slug: emnify-subpackage-tariffprofiles-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-tariffprofiles-api-openapi.yml
-- filename: emnify-subpackage-usermanagement-api-openapi.yml
-  format: yaml
-  label: emnify Subpackage User Management API
-  slug: emnify-subpackage-usermanagement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-usermanagement-api-openapi.yml
-- filename: emnify-subpackage-workspaces-api-openapi.yml
-  format: yaml
-  label: emnify Subpackage Workspaces API
-  slug: emnify-subpackage-workspaces-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/openapi/emnify-subpackage-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/emnify/openapi/emnify-user-management-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -205,7 +175,7 @@ source_filename: emnify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.emnify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 11:55:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.emnify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 19:42:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: cdn.emnify.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 14 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: emnify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: emnify.net\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:steffen.gebert+caa-emnify-net@emnify.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emnify/refs/heads/main/security/emnify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/emnify/security/emnify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - IoT

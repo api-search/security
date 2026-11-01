@@ -8,235 +8,235 @@ api_specs:
   label: F5 BIG-IP iControl REST (Mgmt)
   slug: f5-mgmt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-mgmt-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-mgmt-api-openapi.yml
 - filename: f5-nodes-api-openapi.yml
   format: yaml
   label: F5 Networks Nodes API
   slug: f5-networks-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-nodes-api-openapi.yml
 - filename: f5-pool-members-api-openapi.yml
   format: yaml
   label: F5 Networks Pool Members API
   slug: f5-networks-pool-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-pool-members-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-pool-members-api-openapi.yml
 - filename: f5-pools-api-openapi.yml
   format: yaml
   label: F5 Networks Pools API
   slug: f5-networks-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-pools-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-pools-api-openapi.yml
 - filename: f5-profiles-api-openapi.yml
   format: yaml
   label: F5 Networks Profiles API
   slug: f5-networks-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-profiles-api-openapi.yml
 - filename: f5-virtual-servers-api-openapi.yml
   format: yaml
   label: F5 Networks Virtual Servers API
   slug: f5-networks-virtual-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-virtual-servers-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-virtual-servers-api-openapi.yml
 - filename: f5-application-management-api-openapi.yml
   format: yaml
   label: F5 Application Management API
   slug: f5-application-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-application-management-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-application-management-api-openapi.yml
 - filename: f5-configuration-api-openapi.yml
   format: yaml
   label: F5 Configuration API
   slug: f5-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-configuration-api-openapi.yml
 - filename: f5-connections-api-openapi.yml
   format: yaml
   label: F5 Connections API
   slug: f5-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-connections-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-connections-api-openapi.yml
 - filename: f5-fast-extension-api-openapi.yml
   format: yaml
   label: F5 FAST Extension API
   slug: f5-fast-extension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-fast-extension-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-fast-extension-api-openapi.yml
 - filename: f5-general-info-api-openapi.yml
   format: yaml
   label: F5 General Info API
   slug: f5-general-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-general-info-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-general-info-api-openapi.yml
 - filename: f5-http-api-openapi.yml
   format: yaml
   label: F5 HTTP API
   slug: f5-http-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-http-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-http-api-openapi.yml
 - filename: f5-http-caches-api-openapi.yml
   format: yaml
   label: F5 HTTP Caches API
   slug: f5-http-caches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-http-caches-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-http-caches-api-openapi.yml
 - filename: f5-http-keyvals-api-openapi.yml
   format: yaml
   label: F5 HTTP Keyvals API
   slug: f5-http-keyvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-http-keyvals-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-http-keyvals-api-openapi.yml
 - filename: f5-http-limit-conns-api-openapi.yml
   format: yaml
   label: F5 HTTP Limit Conns API
   slug: f5-http-limit-conns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-http-limit-conns-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-http-limit-conns-api-openapi.yml
 - filename: f5-http-limit-reqs-api-openapi.yml
   format: yaml
   label: F5 HTTP Limit Reqs API
   slug: f5-http-limit-reqs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-http-limit-reqs-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-http-limit-reqs-api-openapi.yml
 - filename: f5-http-location-zones-api-openapi.yml
   format: yaml
   label: F5 HTTP Location Zones API
   slug: f5-http-location-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-http-location-zones-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-http-location-zones-api-openapi.yml
 - filename: f5-http-requests-api-openapi.yml
   format: yaml
   label: F5 HTTP Requests API
   slug: f5-http-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-http-requests-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-http-requests-api-openapi.yml
 - filename: f5-http-server-zones-api-openapi.yml
   format: yaml
   label: F5 HTTP Server Zones API
   slug: f5-http-server-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-http-server-zones-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-http-server-zones-api-openapi.yml
 - filename: f5-http-upstreams-api-openapi.yml
   format: yaml
   label: F5 HTTP Upstreams API
   slug: f5-http-upstreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-http-upstreams-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-http-upstreams-api-openapi.yml
 - filename: f5-information-api-openapi.yml
   format: yaml
   label: F5 Information API
   slug: f5-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-information-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-information-api-openapi.yml
 - filename: f5-inspect-api-openapi.yml
   format: yaml
   label: F5 Inspect API
   slug: f5-inspect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-inspect-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-inspect-api-openapi.yml
 - filename: f5-license-api-openapi.yml
   format: yaml
   label: F5 License API
   slug: f5-license-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-license-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-license-api-openapi.yml
 - filename: f5-offbox-templatesets-management-api-openapi.yml
   format: yaml
   label: F5 Offbox Templatesets Management API
   slug: f5-offbox-templatesets-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-offbox-templatesets-management-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-offbox-templatesets-management-api-openapi.yml
 - filename: f5-processes-api-openapi.yml
   format: yaml
   label: F5 Processes API
   slug: f5-processes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-processes-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-processes-api-openapi.yml
 - filename: f5-resolvers-api-openapi.yml
   format: yaml
   label: F5 Resolvers API
   slug: f5-resolvers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-resolvers-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-resolvers-api-openapi.yml
 - filename: f5-settings-api-openapi.yml
   format: yaml
   label: F5 Settings API
   slug: f5-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-settings-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-settings-api-openapi.yml
 - filename: f5-slabs-api-openapi.yml
   format: yaml
   label: F5 Slabs API
   slug: f5-slabs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-slabs-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-slabs-api-openapi.yml
 - filename: f5-ssl-api-openapi.yml
   format: yaml
   label: F5 SSL API
   slug: f5-ssl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-ssl-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-ssl-api-openapi.yml
 - filename: f5-stream-api-openapi.yml
   format: yaml
   label: F5 Stream API
   slug: f5-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-stream-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-stream-api-openapi.yml
 - filename: f5-stream-keyvals-api-openapi.yml
   format: yaml
   label: F5 Stream Keyvals API
   slug: f5-stream-keyvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-stream-keyvals-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-stream-keyvals-api-openapi.yml
 - filename: f5-stream-limit-conns-api-openapi.yml
   format: yaml
   label: F5 Stream Limit Conns API
   slug: f5-stream-limit-conns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-stream-limit-conns-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-stream-limit-conns-api-openapi.yml
 - filename: f5-stream-server-zones-api-openapi.yml
   format: yaml
   label: F5 Stream Server Zones API
   slug: f5-stream-server-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-stream-server-zones-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-stream-server-zones-api-openapi.yml
 - filename: f5-stream-upstreams-api-openapi.yml
   format: yaml
   label: F5 Stream Upstreams API
   slug: f5-stream-upstreams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-stream-upstreams-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-stream-upstreams-api-openapi.yml
 - filename: f5-stream-zone-sync-api-openapi.yml
   format: yaml
   label: F5 Stream Zone Sync API
   slug: f5-stream-zone-sync-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-stream-zone-sync-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-stream-zone-sync-api-openapi.yml
 - filename: f5-task-api-openapi.yml
   format: yaml
   label: F5 Task API
   slug: f5-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-task-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-task-api-openapi.yml
 - filename: f5-task-tracking-api-openapi.yml
   format: yaml
   label: F5 Task Tracking API
   slug: f5-task-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-task-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-task-tracking-api-openapi.yml
 - filename: f5-template-management-api-openapi.yml
   format: yaml
   label: F5 Template Management API
   slug: f5-template-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-template-management-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-template-management-api-openapi.yml
 - filename: f5-workers-api-openapi.yml
   format: yaml
   label: F5 Workers API
   slug: f5-workers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/openapi/f5-workers-api-openapi.yml
+  url: https://artifacts.apis.io/f5/openapi/f5-workers-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -325,7 +325,7 @@ source_yaml: "generated: '2026-09-07'\nmethod: searched\nsource: >-\n  Derived f
   \ auth is awkward for ephemeral agent and CI environments — plan the secret\n      handling before choosing it over the API token.\n    sources:\n      - https://docs.nginx.com/nginx-one-console/api/authentication/\n      - https://gitlab.com/volterra.io/vesctl/-/raw/main/README.md\n  - name: NoneDeclared\n    type: none\n    applies_to:\n      - NGINX Plus REST API\n    description: >-\n      The NGINX Plus REST API declares no securityScheme, and that is deliberate rather than an\n      omission in the contract. Access control is a configuration concern enforced in the nginx.conf\n      location that serves the API — allow/deny, auth_basic, or client certificates, whatever the\n      operator chose. Write access is separately gated by the `api write=on;` directive; without it\n      every mutation returns 405 with internal error code MethodDisabled.\n      The practical consequence: an NGINX Plus API is unauthenticated and read-only until an\n      operator decides otherwise, and an\
   \ agent cannot discover which of those it is facing except\n      by trying.\n    sources:\n      - openapi/f5-nginx-plus-api-openapi.yml\n      - https://nginx.org/en/docs/http/ngx_http_api_module.html\nbase_urls:\n  - api: F5 BIG-IP iControl REST / AS3 / FAST / DO\n    base: https://{bigip}/mgmt/\n    hosted_by: customer\n  - api: NGINX Plus REST API\n    base: https://{nginx-host}/api/{version}\n    hosted_by: customer\n  - api: F5 Distributed Cloud\n    base: https://{tenant}.console.ves.volterra.io/api\n    hosted_by: F5\n  - api: NGINX One Console\n    base: https://{tenant}.console.ves.volterra.io/api/nginx/one/namespaces/{namespace}/{kind}\n    hosted_by: F5\nportal_identity:\n  host: my.f5.com\n  protocol: OpenID Connect\n  discovery: well-known/f5-my-openid-configuration.json\n  issuer: https://my.f5.com\n  note: >-\n    F5's customer support portal serves a complete OIDC discovery document. It runs on Salesforce\n    Experience Cloud — the scopes_supported list is the Salesforce\
   \ platform vocabulary — and it\n    authorizes the portal, not BIG-IP, NGINX or Distributed Cloud APIs. Recorded here so it is not\n    mistaken for a product API auth surface.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/f5/refs/heads/main/authentication/f5-authentication.yml
+source_yaml_url: https://artifacts.apis.io/f5/authentication/f5-authentication.yml
 summary_line: http/apiKey/mutualTLS/none · 5 schemes
 tags:
 - Application

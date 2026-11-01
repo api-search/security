@@ -5,7 +5,7 @@ api_specs:
   label: Nansen Smart Money API
   slug: nansen-smart-money-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/openapi/nansen-smart-money-api-openapi.yml
+  url: https://artifacts.apis.io/nansen/openapi/nansen-smart-money-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: nansen-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nansen.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.nansen.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 17:11:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nansen.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 01:56:08 2026 GMT\n  hsts: false\ndomains:\n- domain: nansen.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nansen/refs/heads/main/security/nansen-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nansen/security/nansen-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web3

@@ -8,7 +8,7 @@ api_specs:
   label: LocalClarity Endpoints API
   slug: localclarity-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/openapi/localclarity-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/localclarity/openapi/localclarity-endpoints-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: localclarity-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/localclarity-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AuthorizationToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Token provided by LocalClarity (apiDoc header field `Authorization`). Generated\n    by an administrator in Reporting -> Data Studio -> API.\n  sources:\n  - openapi/localclarity-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/localclarity/refs/heads/main/authentication/localclarity-authentication.yml
+source_yaml_url: https://artifacts.apis.io/localclarity/authentication/localclarity-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Local SEO

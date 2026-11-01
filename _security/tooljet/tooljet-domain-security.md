@@ -5,25 +5,25 @@ api_specs:
   label: ToolJet Applications API
   slug: tooljet-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-applications-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-applications-api-openapi.yml
 - filename: tooljet-groups-api-openapi.yml
   format: yaml
   label: ToolJet Groups API
   slug: tooljet-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-groups-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-groups-api-openapi.yml
 - filename: tooljet-users-api-openapi.yml
   format: yaml
   label: ToolJet Users API
   slug: tooljet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-users-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-users-api-openapi.yml
 - filename: tooljet-workspaces-api-openapi.yml
   format: yaml
   label: ToolJet Workspaces API
   slug: tooljet-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/openapi/tooljet-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/tooljet/openapi/tooljet-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +66,7 @@ source_filename: tooljet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tooljet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:08:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.tooljet.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:08:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: your-tooljet-instance.com\n  https: false\ndomains:\n- domain: tooljet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: your-tooljet-instance.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tooljet/refs/heads/main/security/tooljet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tooljet/security/tooljet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Low-Code

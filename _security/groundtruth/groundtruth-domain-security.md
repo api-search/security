@@ -5,109 +5,121 @@ api_specs:
   label: GroundTruth Accounts API
   slug: groundtruth-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-accounts-api-openapi.yml
 - filename: groundtruth-ad-groups-api-openapi.yml
   format: yaml
   label: GroundTruth Ad Groups API
   slug: groundtruth-ad-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-ad-groups-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-ad-groups-api-openapi.yml
 - filename: groundtruth-audiences-api-openapi.yml
   format: yaml
   label: GroundTruth Audiences API
   slug: groundtruth-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-audiences-api-openapi.yml
 - filename: groundtruth-campaigns-api-openapi.yml
   format: yaml
   label: GroundTruth Campaigns API
   slug: groundtruth-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-campaigns-api-openapi.yml
 - filename: groundtruth-creative-assets-api-openapi.yml
   format: yaml
   label: GroundTruth Creative Assets API
   slug: groundtruth-creative-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-creative-assets-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-creative-assets-api-openapi.yml
 - filename: groundtruth-creatives-api-openapi.yml
   format: yaml
   label: GroundTruth Creatives API
   slug: groundtruth-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-creatives-api-openapi.yml
 - filename: groundtruth-demand-api-openapi.yml
   format: yaml
   label: GroundTruth Demand API
   slug: groundtruth-demand-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-demand-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-demand-api-openapi.yml
 - filename: groundtruth-direct-mail-api-openapi.yml
   format: yaml
   label: GroundTruth Direct Mail API
   slug: groundtruth-direct-mail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-direct-mail-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-direct-mail-api-openapi.yml
 - filename: groundtruth-health-api-openapi.yml
   format: yaml
   label: GroundTruth Health API
   slug: groundtruth-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-health-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-health-api-openapi.yml
 - filename: groundtruth-jobs-api-openapi.yml
   format: yaml
   label: GroundTruth Jobs API
   slug: groundtruth-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-jobs-api-openapi.yml
 - filename: groundtruth-miscellaneous-api-openapi.yml
   format: yaml
   label: GroundTruth Miscellaneous API
   slug: groundtruth-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-miscellaneous-api-openapi.yml
 - filename: groundtruth-organizations-api-openapi.yml
   format: yaml
   label: GroundTruth Organizations API
   slug: groundtruth-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-organizations-api-openapi.yml
 - filename: groundtruth-reporting-api-openapi.yml
   format: yaml
   label: GroundTruth Reporting API
   slug: groundtruth-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-reporting-api-openapi.yml
 - filename: groundtruth-search-api-openapi.yml
   format: yaml
   label: GroundTruth Search API
   slug: groundtruth-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-search-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-search-api-openapi.yml
 - filename: groundtruth-static-api-openapi.yml
   format: yaml
   label: GroundTruth Static API
   slug: groundtruth-static-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-static-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-static-api-openapi.yml
 - filename: groundtruth-tenants-api-openapi.yml
   format: yaml
   label: GroundTruth Tenants API
   slug: groundtruth-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-tenants-api-openapi.yml
 - filename: groundtruth-upload-api-openapi.yml
   format: yaml
   label: GroundTruth Upload API
   slug: groundtruth-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-upload-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-upload-api-openapi.yml
 - filename: groundtruth-users-api-openapi.yml
   format: yaml
   label: GroundTruth Users API
   slug: groundtruth-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/openapi/groundtruth-users-api-openapi.yml
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-users-api-openapi.yml
+- filename: groundtruth-location-groups-api-openapi.yml
+  format: yaml
+  label: GroundTruth Location Groups API
+  slug: groundtruth-location-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-location-groups-api-openapi.yml
+- filename: groundtruth-pois-api-openapi.yml
+  format: yaml
+  label: GroundTruth POIs API
+  slug: groundtruth-pois-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/groundtruth/openapi/groundtruth-pois-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -147,7 +159,7 @@ source_filename: groundtruth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.groundtruth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 11:19:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api-docs.groundtruth.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  2 00:02:52 2026 GMT\n  hsts: false\n- host: api-public.groundtruth.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 12 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: groundtruth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groundtruth/refs/heads/main/security/groundtruth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/groundtruth/security/groundtruth-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

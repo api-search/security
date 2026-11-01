@@ -15,7 +15,7 @@ source_filename: honorlock-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.honorlock.com/\nurl: https://trust.honorlock.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.honorlock.com/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/honorlock/refs/heads/main/security/honorlock-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/honorlock/security/honorlock-trust-center.yml
 summary_line: SOC 2
 tags:
 - Proctoring

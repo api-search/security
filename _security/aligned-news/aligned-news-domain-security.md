@@ -5,43 +5,43 @@ api_specs:
   label: Aligned News Bundles API
   slug: aligned-news-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-bundles-api-openapi.yml
 - filename: aligned-news-news-feed-api-openapi.yml
   format: yaml
   label: Aligned News Feed API
   slug: aligned-news-news-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-news-feed-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-news-feed-api-openapi.yml
 - filename: aligned-news-reports-api-openapi.yml
   format: yaml
   label: Aligned News Reports API
   slug: aligned-news-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-reports-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-reports-api-openapi.yml
 - filename: aligned-news-search-api-openapi.yml
   format: yaml
   label: Aligned News Search API
   slug: aligned-news-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-search-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-search-api-openapi.yml
 - filename: aligned-news-sections-api-openapi.yml
   format: yaml
   label: Aligned News Sections API
   slug: aligned-news-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-sections-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-sections-api-openapi.yml
 - filename: aligned-news-signals-api-openapi.yml
   format: yaml
   label: Aligned News Signals API
   slug: aligned-news-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-signals-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-signals-api-openapi.yml
 - filename: aligned-news-stories-api-openapi.yml
   format: yaml
   label: Aligned News Stories API
   slug: aligned-news-stories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/openapi/aligned-news-stories-api-openapi.yml
+  url: https://artifacts.apis.io/aligned-news/openapi/aligned-news-stories-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: aligned-news-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: alignednews.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 23:33:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: alignednews.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/security/aligned-news-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aligned-news/security/aligned-news-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

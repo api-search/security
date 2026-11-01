@@ -7,55 +7,55 @@ api_specs:
   label: Microsoft SharePoint Files API
   slug: sharepoint-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-files-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-files-api-openapi.yml
 - filename: sharepoint-items-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Items API
   slug: sharepoint-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-items-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-items-api-openapi.yml
 - filename: sharepoint-lists-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Lists API
   slug: sharepoint-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-lists-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-lists-api-openapi.yml
 - filename: sharepoint-search-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Search API
   slug: sharepoint-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-search-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-search-api-openapi.yml
 - filename: sharepoint-sites-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Sites API
   slug: sharepoint-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-sites-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-sites-api-openapi.yml
 - filename: sharepoint-user-profiles-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint User Profiles API
   slug: sharepoint-user-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-user-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-user-profiles-api-openapi.yml
 - filename: sharepoint-batch-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint $batch API
   slug: microsoft-sharepoint-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-batch-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-batch-api-openapi.yml
 - filename: sharepoint-listitems-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint ListItems API
   slug: microsoft-sharepoint-listitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-listitems-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-listitems-api-openapi.yml
 - filename: sharepoint-site-api-openapi.yml
   format: yaml
   label: Microsoft SharePoint Site API
   slug: microsoft-sharepoint-site-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/openapi/sharepoint-site-api-openapi.yml
+  url: https://artifacts.apis.io/sharepoint/openapi/sharepoint-site-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -88,7 +88,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/sharepoint-rest-api.yaml\ndocs: https://learn.microsoft.com/en-us/graph/auth/\ndocs_sharepoint_rest: https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins\nnotes: >-\n  Both the SharePoint REST API and Microsoft Graph authenticate with OAuth 2.0 through\n  Microsoft Entra (Azure AD / Microsoft identity platform). Supports authorization code\n  (delegated), client credentials (app-only), and on-behalf-of flows. Tokens are bearer\n  tokens issued by login.microsoftonline.com. Write operations against the SharePoint REST\n  service additionally require the X-RequestDigest form-digest header.\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n\
   \    scopes: 4\n  description: OAuth 2.0 via Azure AD / Microsoft Identity Platform.\n  sources:\n  - openapi/sharepoint-rest-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sharepoint/refs/heads/main/authentication/sharepoint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sharepoint/authentication/sharepoint-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Collaboration

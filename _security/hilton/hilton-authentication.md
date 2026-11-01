@@ -7,7 +7,7 @@ api_specs:
   label: Hilton Hotels API
   slug: hilton-hotels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hilton/refs/heads/main/openapi/hilton-hotels-api-openapi.yml
+  url: https://artifacts.apis.io/hilton/openapi/hilton-hotels-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -33,7 +33,7 @@ source_filename: hilton-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hilton-hilton-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/hilton-hilton-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hilton/refs/heads/main/authentication/hilton-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hilton/authentication/hilton-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Hospitality

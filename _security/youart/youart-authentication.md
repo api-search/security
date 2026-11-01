@@ -30,7 +30,7 @@ source_filename: youart-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://youart.ai/mcp\ndocs: https://youart.ai/mcp\nsummary:\n  types: [oauth2]\n  oauth2_flows: [authorizationCode]\n  api_key_in: []\n  notes: >-\n    YouArt does not publish a public REST API or API-key program; programmatic\n    access is delivered through its hosted MCP server, which authenticates via\n    OAuth (browser sign-in, no API keys). Unauthenticated JSON-RPC calls to the\n    MCP endpoint return HTTP 200 with {\"error\":\"invalid_token\"}.\nschemes:\n- name: youart_oauth\n  type: oauth2\n  applies_to: https://mcp.youart.ai/mcp\n  flows:\n  - flow: authorizationCode\n    notes: >-\n      Interactive browser OAuth sign-in on first MCP connect; the agent reuses\n      the creator's existing YouArt account, credits, and projects. Discrete\n      /.well-known/oauth-authorization-server and oauth-protected-resource\n      documents were not published at probe time (404).\n  sources: [https://youart.ai/mcp]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/youart/refs/heads/main/authentication/youart-authentication.yml
+source_yaml_url: https://artifacts.apis.io/youart/authentication/youart-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

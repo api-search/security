@@ -8,19 +8,19 @@ api_specs:
   label: Taalas API
   slug: taalas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/openapi/taalas-inference-api-openapi.yml
+  url: https://artifacts.apis.io/taalas/openapi/taalas-inference-api-openapi.yml
 - filename: taalas-models-api-openapi.yml
   format: yaml
   label: Taalas Models API
   slug: taalas-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/openapi/taalas-models-api-openapi.yml
+  url: https://artifacts.apis.io/taalas/openapi/taalas-models-api-openapi.yml
 - filename: taalas-monitoring-api-openapi.yml
   format: yaml
   label: Taalas Monitoring API
   slug: taalas-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/openapi/taalas-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/taalas/openapi/taalas-monitoring-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -55,7 +55,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: https://api.taala
   \ form at https://api.taalas.com/bug-report.\nsummary:\n  types:\n  - http\n  api_key_in:\n  - header\n  oauth2_flows: []\n  scopes: false\n  multi_tenant: false\nschemes:\n- name: bearerApiKey\n  type: http\n  scheme: bearer\n  bearer_format: opaque-api-key\n  in: header\n  header: Authorization\n  description: >-\n    Opaque API key presented as an HTTP bearer credential. Applies to every operation on\n    api.taalas.com except GET /health, which is anonymously reachable.\n  sources:\n  - probe:https://api.taalas.com/models\n  - probe:https://api.taalas.com/v1/models\n  - probe:https://api.taalas.com/v1/chat/completions\nanonymous_operations:\n- operationId: health_health_get\n  path: /health\n  method: get\n  evidence: 'GET https://api.taalas.com/health -> 200 {\"status\":\"healthy\",\"queue_size\":0,\"current_adapter\":\"none\"}'\ncredential_issuance:\n  self_serve: false\n  request_form: https://taalas.com/api-request-form/\n  status: closed\n  statement: >-\n    \"Thank you for your\
   \ interest in our API. Due to overwhelming demand, we are no longer taking\n    applications at this time.\"\n  contact: info@taalas.com\ngaps:\n- The OpenAPI documents declare no securitySchemes and no top-level security requirement, so the\n  machine-readable contract does not describe how to authenticate. Adding an http/bearer scheme\n  would make the published spec self-sufficient for code generation and agent use.\n- No 401 response is declared on any operation in either spec, although 401 is the observed\n  behaviour for every authenticated path.\nx-evidence:\n- fetched: '2026-08-02'\n  url: https://api.taalas.com/models\n  http_status: 401\n  body: '{\"detail\":\"Unauthorized\"}'\n  request_headers: none\n- fetched: '2026-08-02'\n  url: https://api.taalas.com/models\n  http_status: 401\n  body: '{\"detail\":\"Unauthorized: Invalid API Key\"}'\n  request_headers: 'Authorization: Bearer <test value>'\n- fetched: '2026-08-02'\n  url: https://api.taalas.com/health\n  http_status: 200\n\
   \  content_type: application/json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taalas/refs/heads/main/authentication/taalas-authentication.yml
+source_yaml_url: https://artifacts.apis.io/taalas/authentication/taalas-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

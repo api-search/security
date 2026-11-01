@@ -7,7 +7,7 @@ api_specs:
   label: Runway Export API
   slug: runway-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/openapi/runway-financial-export-api-openapi.yml
+  url: https://artifacts.apis.io/runway-financial/openapi/runway-financial-export-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: runway-financial-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/runway-financial-export-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token using an API secret generated in the Runway app under Settings\n    > API. Pass it as `Authorization: Bearer <your API secret>`.'\n  sources:\n  - openapi/runway-financial-export-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runway-financial/refs/heads/main/authentication/runway-financial-authentication.yml
+source_yaml_url: https://artifacts.apis.io/runway-financial/authentication/runway-financial-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -7,31 +7,31 @@ api_specs:
   label: Retool Apps API
   slug: retool-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-apps-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-apps-api-openapi.yml
 - filename: retool-folders-api-openapi.yml
   format: yaml
   label: Retool Folders API
   slug: retool-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-folders-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-folders-api-openapi.yml
 - filename: retool-groups-api-openapi.yml
   format: yaml
   label: Retool Groups API
   slug: retool-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-groups-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-groups-api-openapi.yml
 - filename: retool-resources-api-openapi.yml
   format: yaml
   label: Retool Resources API
   slug: retool-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-resources-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-resources-api-openapi.yml
 - filename: retool-users-api-openapi.yml
   format: yaml
   label: Retool Users API
   slug: retool-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/openapi/retool-users-api-openapi.yml
+  url: https://artifacts.apis.io/retool/openapi/retool-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: retool-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/retool-management-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token generated in Retool workspace settings under API Access Tokens.\n    Format: Authorization: Bearer <token>'\n  sources:\n  - openapi/retool-management-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/retool/refs/heads/main/authentication/retool-authentication.yml
+source_yaml_url: https://artifacts.apis.io/retool/authentication/retool-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Admin Panel

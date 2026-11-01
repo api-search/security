@@ -8,31 +8,31 @@ api_specs:
   label: SnackMagic Authentication API
   slug: snackmagic-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-authentication-api-openapi.yml
 - filename: snackmagic-automation-management-api-openapi.yml
   format: yaml
   label: SnackMagic Automation management API
   slug: snackmagic-automation-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-automation-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-automation-management-api-openapi.yml
 - filename: snackmagic-order-management-api-openapi.yml
   format: yaml
   label: SnackMagic Order management API
   slug: snackmagic-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-order-management-api-openapi.yml
 - filename: snackmagic-store-management-api-openapi.yml
   format: yaml
   label: SnackMagic Store management API
   slug: snackmagic-store-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-store-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-store-management-api-openapi.yml
 - filename: snackmagic-user-management-api-openapi.yml
   format: yaml
   label: SnackMagic User management API
   slug: snackmagic-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/openapi/snackmagic-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/snackmagic/openapi/snackmagic-user-management-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -76,7 +76,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/snackmagic-stadium-openapi.yml\ndocs: https://api.bystadium.com/api/v2/docs\nsummary:\n  types:\n  - http\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\n  - authorizationCode\n  - authorizationCodePKCE\n  - refreshToken\nnotes: >-\n  The Stadium API (SnackMagic is a Stadium brand) authorizes most endpoints with a\n  bearer JWT access token (the `Token` HTTP bearer scheme). Access tokens are obtained\n  through OAuth2 flows documented in the API description: Client Credentials (global\n  organizer accounts), Authorization Code (act on behalf of a Stadium user via\n  /oauth/authorize -> /oauth/token_by_code), Authorization Code with PKCE (native/SPA\n  clients), and refresh-token exchange. The webhook automation endpoints\n  (/automations/orders, /automations/order_status) instead authenticate with a static\n  `api_key` request header tied to a configured automation. The OpenAPI\
   \ only formally\n  declares the `Token` http-bearer scheme; the OAuth2 flows and the automation api_key\n  header are documented in prose and in the operation parameters, and are captured here.\nschemes:\n- name: Token\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  applies_to: most endpoints (users, stores, orders, send_points)\n  sources:\n  - openapi/snackmagic-stadium-openapi.yml\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: api_key\n  applies_to: webhook automation endpoints (/automations/orders, /automations/order_status)\n  description: API key of the configured webhook automation.\n  sources:\n  - openapi/snackmagic-stadium-openapi.yml\noauth2:\n  authorize_url: https://api.bystadium.com/api/v2/oauth/authorize\n  token_url: https://api.bystadium.com/api/v2/oauth/token\n  token_by_code_url: https://api.bystadium.com/api/v2/oauth/token_by_code\n  refresh_url: https://api.bystadium.com/api/v2/oauth/token_by_refresh_token\n  validate_url: https://api.bystadium.com/api/v2/oauth/validate\n\
   \  pkce: true\n  scopes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snackmagic/refs/heads/main/authentication/snackmagic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/snackmagic/authentication/snackmagic-authentication.yml
 summary_line: http/apiKey/oauth2 · 2 schemes
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: Kyushu University Repository API
   slug: kyushu-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/openapi/kyushu-repository-api-openapi.yml
+  url: https://artifacts.apis.io/kyushu/openapi/kyushu-repository-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: kyushu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kyushu-u.ac.jp\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 12 23:18:16 2027 GMT\n  hsts: false\n- host: www.lib.kyushu-u.ac.jp\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 19 05:08:25 2027 GMT\n  hsts: false\n- host: catalog.lib.kyushu-u.ac.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 02:33:05 2027 GMT\n  hsts: null\ndomains:\n- domain: kyushu-u.ac.jp\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kyushu/refs/heads/main/security/kyushu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kyushu/security/kyushu-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - University

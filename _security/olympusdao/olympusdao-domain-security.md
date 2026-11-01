@@ -5,37 +5,37 @@ api_specs:
   label: OlympusDAO Health API
   slug: olympusdao-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-health-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-health-api-openapi.yml
 - filename: olympusdao-legacy-api-openapi.yml
   format: yaml
   label: OlympusDAO Legacy API
   slug: olympusdao-legacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-legacy-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-legacy-api-openapi.yml
 - filename: olympusdao-metadata-api-openapi.yml
   format: yaml
   label: OlympusDAO Metadata API
   slug: olympusdao-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-metadata-api-openapi.yml
 - filename: olympusdao-ohm-supply-api-openapi.yml
   format: yaml
   label: OlympusDAO OHM Supply API
   slug: olympusdao-ohm-supply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-ohm-supply-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-ohm-supply-api-openapi.yml
 - filename: olympusdao-protocol-metrics-api-openapi.yml
   format: yaml
   label: OlympusDAO Protocol Metrics API
   slug: olympusdao-protocol-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-protocol-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-protocol-metrics-api-openapi.yml
 - filename: olympusdao-treasury-api-openapi.yml
   format: yaml
   label: OlympusDAO Treasury API
   slug: olympusdao-treasury-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/openapi/olympusdao-treasury-api-openapi.yml
+  url: https://artifacts.apis.io/olympusdao/openapi/olympusdao-treasury-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: olympusdao-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.olympusdao.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 01:13:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: treasury-subgraph-api.olympusdao.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 11:13:05 2026 GMT\n  hsts: null\n- host: circulating-supply.api.olympusdao.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 21:33:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: olympusdao.finance\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/olympusdao/refs/heads/main/security/olympusdao-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/olympusdao/security/olympusdao-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - DeFi

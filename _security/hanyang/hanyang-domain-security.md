@@ -5,7 +5,7 @@ api_specs:
   label: Hanyang University OAI PMH API
   slug: hanyang-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hanyang/refs/heads/main/openapi/hanyang-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/hanyang/openapi/hanyang-oai-pmh-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_filename: hanyang-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hanyang.ac.kr\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 16 23:59:59 2026 GMT\n  hsts: false\n- host: api.hanyang.ac.kr\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 24 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: hanyang.ac.kr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hanyang/refs/heads/main/security/hanyang-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hanyang/security/hanyang-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Education

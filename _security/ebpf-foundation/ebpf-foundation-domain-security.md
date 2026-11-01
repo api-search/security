@@ -27,7 +27,7 @@ source_filename: ebpf-foundation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ebpf.foundation\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 19:15:50 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: ebpf.foundation\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ebpf-foundation/refs/heads/main/security/ebpf-foundation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ebpf-foundation/security/ebpf-foundation-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - eBPF

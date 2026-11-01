@@ -8,25 +8,25 @@ api_specs:
   label: Google Safe Browsing fullHashes:find API
   slug: google-safe-browsing-fullhashes-find-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-fullhashes-find-api-openapi.yml
+  url: https://artifacts.apis.io/google-safe-browsing/openapi/google-safe-browsing-fullhashes-find-api-openapi.yml
 - filename: google-safe-browsing-threatlists-api-openapi.yml
   format: yaml
   label: Google Safe Browsing Threat Lists API
   slug: google-safe-browsing-threatlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-threatlists-api-openapi.yml
+  url: https://artifacts.apis.io/google-safe-browsing/openapi/google-safe-browsing-threatlists-api-openapi.yml
 - filename: google-safe-browsing-threatlistupdates-fetch-api-openapi.yml
   format: yaml
   label: Google Safe Browsing Threat List Updates:fetch API
   slug: google-safe-browsing-threatlistupdates-fetch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-threatlistupdates-fetch-api-openapi.yml
+  url: https://artifacts.apis.io/google-safe-browsing/openapi/google-safe-browsing-threatlistupdates-fetch-api-openapi.yml
 - filename: google-safe-browsing-threatmatches-find-api-openapi.yml
   format: yaml
   label: Google Safe Browsing Threat Matches:find API
   slug: google-safe-browsing-threatmatches-find-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/openapi/google-safe-browsing-threatmatches-find-api-openapi.yml
+  url: https://artifacts.apis.io/google-safe-browsing/openapi/google-safe-browsing-threatmatches-find-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -53,7 +53,7 @@ source_filename: google-safe-browsing-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-safe-browsing/refs/heads/main/authentication/google-safe-browsing-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-safe-browsing/authentication/google-safe-browsing-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Google

@@ -33,7 +33,7 @@ source_filename: south32-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: south32.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 14 05:38:38 2027 GMT\n  hsts: null\ndomains:\n- domain: south32.net\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/south32/refs/heads/main/security/south32-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/south32/security/south32-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

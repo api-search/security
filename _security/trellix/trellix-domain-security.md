@@ -5,85 +5,85 @@ api_specs:
   label: Trellix ePO API
   slug: trellix-epo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-epo-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-epo-api-openapi.yml
 - filename: trellix-action-history-api-openapi.yml
   format: yaml
   label: Trellix Action History API
   slug: trellix-action-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-action-history-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-action-history-api-openapi.yml
 - filename: trellix-affected-hosts-api-openapi.yml
   format: yaml
   label: Trellix Affected Hosts API
   slug: trellix-affected-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-affected-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-affected-hosts-api-openapi.yml
 - filename: trellix-alerts-api-openapi.yml
   format: yaml
   label: Trellix Alerts API
   slug: trellix-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-alerts-api-openapi.yml
 - filename: trellix-detections-api-openapi.yml
   format: yaml
   label: Trellix Detections API
   slug: trellix-detections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-detections-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-detections-api-openapi.yml
 - filename: trellix-devices-api-openapi.yml
   format: yaml
   label: Trellix Devices API
   slug: trellix-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-devices-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-devices-api-openapi.yml
 - filename: trellix-epo-api-openapi.yml
   format: yaml
   label: Trellix Epo API
   slug: trellix-epo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-epo-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-epo-api-openapi.yml
 - filename: trellix-events-api-openapi.yml
   format: yaml
   label: Trellix Events API
   slug: trellix-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-events-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-events-api-openapi.yml
 - filename: trellix-groups-api-openapi.yml
   format: yaml
   label: Trellix Groups API
   slug: trellix-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-groups-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-groups-api-openapi.yml
 - filename: trellix-queries-api-openapi.yml
   format: yaml
   label: Trellix Queries API
   slug: trellix-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-queries-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-queries-api-openapi.yml
 - filename: trellix-reactions-api-openapi.yml
   format: yaml
   label: Trellix Reactions API
   slug: trellix-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-reactions-api-openapi.yml
 - filename: trellix-response-actions-api-openapi.yml
   format: yaml
   label: Trellix Response Actions API
   slug: trellix-response-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-response-actions-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-response-actions-api-openapi.yml
 - filename: trellix-searches-api-openapi.yml
   format: yaml
   label: Trellix Searches API
   slug: trellix-searches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-searches-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-searches-api-openapi.yml
 - filename: trellix-threats-api-openapi.yml
   format: yaml
   label: Trellix Threats API
   slug: trellix-threats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/openapi/trellix-threats-api-openapi.yml
+  url: https://artifacts.apis.io/trellix/openapi/trellix-threats-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -129,7 +129,7 @@ source_filename: trellix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.trellix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:59:59 2026 GMT\n  hsts: null\n- host: docs.trellix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.manage.trellix.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: trellix.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/security/trellix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trellix/security/trellix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Security

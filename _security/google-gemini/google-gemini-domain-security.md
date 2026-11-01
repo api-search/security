@@ -5,13 +5,13 @@ api_specs:
   label: Google Gemini Content Generation API
   slug: google-gemini-content-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/openapi/google-gemini-content-generation-api-openapi.yml
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-content-generation-api-openapi.yml
 - filename: google-gemini-embeddings-api-openapi.yml
   format: yaml
   label: Google Gemini Embeddings API
   slug: google-gemini-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/openapi/google-gemini-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-embeddings-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -61,7 +61,7 @@ source_filename: google-gemini-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ai.google.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: generativelanguage.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\n- host: docs.cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:10 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: google.dev\n  dnssec: false\n  caa:\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/security/google-gemini-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-gemini/security/google-gemini-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

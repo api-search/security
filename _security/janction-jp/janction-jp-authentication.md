@@ -1,0 +1,187 @@
+---
+anonymous_access: false
+api_key_in: []
+api_specs:
+- filename: janction-jp-assets-api-openapi.yml
+  format: yaml
+  label: janction-jp Assets API
+  slug: janction-jp-assets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-assets-api-openapi.yml
+- filename: janction-jp-batches-api-openapi.yml
+  format: yaml
+  label: janction-jp Batches API
+  slug: janction-jp-batches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-batches-api-openapi.yml
+- filename: janction-jp-billing-api-openapi.yml
+  format: yaml
+  label: janction-jp Billing API
+  slug: janction-jp-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-billing-api-openapi.yml
+- filename: janction-jp-capabilities-api-openapi.yml
+  format: yaml
+  label: janction-jp Capabilities API
+  slug: janction-jp-capabilities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-capabilities-api-openapi.yml
+- filename: janction-jp-connections-api-openapi.yml
+  format: yaml
+  label: janction-jp Connections API
+  slug: janction-jp-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-connections-api-openapi.yml
+- filename: janction-jp-drops-api-openapi.yml
+  format: yaml
+  label: janction-jp Drops API
+  slug: janction-jp-drops-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-drops-api-openapi.yml
+- filename: janction-jp-email-api-openapi.yml
+  format: yaml
+  label: janction-jp Email API
+  slug: janction-jp-email-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-email-api-openapi.yml
+- filename: janction-jp-estimate-api-openapi.yml
+  format: yaml
+  label: janction-jp Estimate API
+  slug: janction-jp-estimate-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-estimate-api-openapi.yml
+- filename: janction-jp-files-api-openapi.yml
+  format: yaml
+  label: janction-jp Files API
+  slug: janction-jp-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-files-api-openapi.yml
+- filename: janction-jp-health-api-openapi.yml
+  format: yaml
+  label: janction-jp Health API
+  slug: janction-jp-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-health-api-openapi.yml
+- filename: janction-jp-janction-render-api-api-openapi.yml
+  format: yaml
+  label: janction-jp JANCTION Render API
+  slug: janction-jp-janction-render-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-janction-render-api-api-openapi.yml
+- filename: janction-jp-jobs-api-openapi.yml
+  format: yaml
+  label: janction-jp Jobs API
+  slug: janction-jp-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-jobs-api-openapi.yml
+- filename: janction-jp-keys-api-openapi.yml
+  format: yaml
+  label: janction-jp Keys API
+  slug: janction-jp-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-keys-api-openapi.yml
+- filename: janction-jp-ledger-api-openapi.yml
+  format: yaml
+  label: janction-jp Ledger API
+  slug: janction-jp-ledger-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-ledger-api-openapi.yml
+- filename: janction-jp-me-api-openapi.yml
+  format: yaml
+  label: janction-jp Me API
+  slug: janction-jp-me-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-me-api-openapi.yml
+- filename: janction-jp-outcomes-api-openapi.yml
+  format: yaml
+  label: janction-jp Outcomes API
+  slug: janction-jp-outcomes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-outcomes-api-openapi.yml
+- filename: janction-jp-pricing-api-openapi.yml
+  format: yaml
+  label: janction-jp Pricing API
+  slug: janction-jp-pricing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-pricing-api-openapi.yml
+- filename: janction-jp-scenes-api-openapi.yml
+  format: yaml
+  label: janction-jp Scenes API
+  slug: janction-jp-scenes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-scenes-api-openapi.yml
+- filename: janction-jp-shares-api-openapi.yml
+  format: yaml
+  label: janction-jp Shares API
+  slug: janction-jp-shares-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-shares-api-openapi.yml
+- filename: janction-jp-start-api-openapi.yml
+  format: yaml
+  label: janction-jp Start API
+  slug: janction-jp-start-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-start-api-openapi.yml
+- filename: janction-jp-stats-api-openapi.yml
+  format: yaml
+  label: janction-jp Stats API
+  slug: janction-jp-stats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-stats-api-openapi.yml
+- filename: janction-jp-tasks-api-openapi.yml
+  format: yaml
+  label: janction-jp Tasks API
+  slug: janction-jp-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-tasks-api-openapi.yml
+- filename: janction-jp-try-api-openapi.yml
+  format: yaml
+  label: janction-jp Try API
+  slug: janction-jp-try-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-try-api-openapi.yml
+- filename: janction-jp-ui-api-openapi.yml
+  format: yaml
+  label: janction-jp UI API
+  slug: janction-jp-ui-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-ui-api-openapi.yml
+- filename: janction-jp-uploads-api-openapi.yml
+  format: yaml
+  label: janction-jp Uploads API
+  slug: janction-jp-uploads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/janction-jp/openapi/janction-jp-uploads-api-openapi.yml
+auth_types: []
+description: ''
+kind: authentication
+layout: security
+mechanism_count: 1
+method: searched
+name: Janction Jp Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: janction-jp declares 1 security scheme(s) across its OpenAPI definitions.
+provider_name: janction-jp
+provider_slug: janction-jp
+scheme_count: 1
+schemes:
+- description: API key provided via X-API-Key header.
+  in: header
+  name: X-API-Key
+  type: apiKey
+slug: janction-jp-authentication
+source_filename: janction-jp-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://render.janction.jp/.well-known/auth.md\nschemes:\n  - type: apiKey\n    name: X-API-Key\n    in: header\n    description: API key provided via X-API-Key header.\n"
+source_yaml_url: https://artifacts.apis.io/janction-jp/authentication/janction-jp-authentication.yml
+summary_line: 1 scheme
+tags:
+- Company
+- Rendering
+- GPU
+- Blender
+- AI
+- Cloud
+---

@@ -5,31 +5,31 @@ api_specs:
   label: Windsurf CascadeAnalytics API
   slug: windsurf-cascadeanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-cascadeanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-cascadeanalytics-api-openapi.yml
 - filename: windsurf-creditbalance-api-openapi.yml
   format: yaml
   label: Windsurf CreditBalance API
   slug: windsurf-creditbalance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-creditbalance-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-creditbalance-api-openapi.yml
 - filename: windsurf-customanalytics-api-openapi.yml
   format: yaml
   label: Windsurf CustomAnalytics API
   slug: windsurf-customanalytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-customanalytics-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-customanalytics-api-openapi.yml
 - filename: windsurf-usageconfiguration-api-openapi.yml
   format: yaml
   label: Windsurf UsageConfiguration API
   slug: windsurf-usageconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-usageconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-usageconfiguration-api-openapi.yml
 - filename: windsurf-user-analytics-api-openapi.yml
   format: yaml
   label: Windsurf User Analytics API
   slug: windsurf-user-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/openapi/windsurf-user-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/windsurf/openapi/windsurf-user-analytics-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -47,7 +47,7 @@ source_filename: windsurf-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.windsurf.com/\nurl: https://trust.windsurf.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.windsurf.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windsurf/refs/heads/main/security/windsurf-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/windsurf/security/windsurf-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Artificial Intelligence

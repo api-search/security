@@ -5,67 +5,67 @@ api_specs:
   label: Teradata API Info API
   slug: teradata-api-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-api-info-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-api-info-api-openapi.yml
 - filename: teradata-configuration-api-openapi.yml
   format: yaml
   label: Teradata Configuration API
   slug: teradata-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-configuration-api-openapi.yml
 - filename: teradata-issues-api-openapi.yml
   format: yaml
   label: Teradata Issues API
   slug: teradata-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-issues-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-issues-api-openapi.yml
 - filename: teradata-managers-api-openapi.yml
   format: yaml
   label: Teradata Managers API
   slug: teradata-managers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-managers-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-managers-api-openapi.yml
 - filename: teradata-nodes-api-openapi.yml
   format: yaml
   label: Teradata Nodes API
   slug: teradata-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-nodes-api-openapi.yml
 - filename: teradata-operations-api-openapi.yml
   format: yaml
   label: Teradata Operations API
   slug: teradata-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-operations-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-operations-api-openapi.yml
 - filename: teradata-queries-api-openapi.yml
   format: yaml
   label: Teradata Queries API
   slug: teradata-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-queries-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-queries-api-openapi.yml
 - filename: teradata-sessions-api-openapi.yml
   format: yaml
   label: Teradata Sessions API
   slug: teradata-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-sessions-api-openapi.yml
 - filename: teradata-software-api-openapi.yml
   format: yaml
   label: Teradata Software API
   slug: teradata-software-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-software-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-software-api-openapi.yml
 - filename: teradata-systems-api-openapi.yml
   format: yaml
   label: Teradata Systems API
   slug: teradata-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-systems-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-systems-api-openapi.yml
 - filename: teradata-users-api-openapi.yml
   format: yaml
   label: Teradata Users API
   slug: teradata-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/openapi/teradata-users-api-openapi.yml
+  url: https://artifacts.apis.io/teradata/openapi/teradata-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -103,7 +103,7 @@ source_filename: teradata-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.teradata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 31 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.teradata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 29 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: querygrid.teradata.com\n  https: false\ndomains:\n- domain: teradata.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teradata/refs/heads/main/security/teradata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/teradata/security/teradata-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Analytics

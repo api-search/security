@@ -28,7 +28,7 @@ source_filename: chobani-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chobani.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 19:53:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: chobani.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chobani/refs/heads/main/security/chobani-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chobani/security/chobani-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

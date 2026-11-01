@@ -7,55 +7,55 @@ api_specs:
   label: Famous Internal API
   slug: famous-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-internal-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-internal-api-openapi.yml
 - filename: famous-seller-api-openapi.yml
   format: yaml
   label: Famous Seller API
   slug: famous-seller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-seller-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-seller-api-openapi.yml
 - filename: famous-auth-tokens-api-openapi.yml
   format: yaml
   label: Famous Auth Tokens API
   slug: famous-auth-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-auth-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-auth-tokens-api-openapi.yml
 - filename: famous-campaigns-api-openapi.yml
   format: yaml
   label: Famous Campaigns API
   slug: famous-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-campaigns-api-openapi.yml
 - filename: famous-categories-api-openapi.yml
   format: yaml
   label: Famous Categories API
   slug: famous-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-categories-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-categories-api-openapi.yml
 - filename: famous-recommenders-api-openapi.yml
   format: yaml
   label: Famous Recommenders API
   slug: famous-recommenders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-recommenders-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-recommenders-api-openapi.yml
 - filename: famous-rush-prices-api-openapi.yml
   format: yaml
   label: Famous Rush Prices API
   slug: famous-rush-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-rush-prices-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-rush-prices-api-openapi.yml
 - filename: famous-search-suggestions-api-openapi.yml
   format: yaml
   label: Famous Search Suggestions API
   slug: famous-search-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-search-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-search-suggestions-api-openapi.yml
 - filename: famous-users-api-openapi.yml
   format: yaml
   label: Famous Users API
   slug: famous-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/openapi/famous-users-api-openapi.yml
+  url: https://artifacts.apis.io/famous/openapi/famous-users-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -101,7 +101,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://api.tee
   \    No developer console, key page, or self-serve credential issuance was found on\n    api.teespring.com, spri.ng, amazecommerce.com or amaze.co. An agent has no anonymous path to\n    an app_id; a human must request one from Spring.\ntoken_flow:\n  steps:\n  - Obtain an app_id from Teespring.\n  - POST /v1/auth-tokens with formData app_id, email, password (the account's Spring/Teespring\n    login credentials).\n  - Read the access_token from the 201 response body.\n  - Send access_token as a query parameter on every subsequent seller request.\n  verbatim_docs: >-\n    \"1. Obtain an app_id from Teespring. 2. Use the /v1/auth-tokens API endpoint with your email,\n    password, and the provided app_id. 3. Take the token from the response. This is your\n    access_token for future requests. It will last one day, and then you'll need a new one,\n    although you can request a token as often as you want (it will always give you the current\n    one). 4. Make sure your requests always have\
   \ access_token set. Always use https for security!\"\n  grant_type: resource owner password credentials (custom, non-OAuth2 endpoint)\n  response_status: 201\n  response_description: 'Logs in a user and returns an OAuth token'\nobservations:\n  probed: '2026-08-13'\n  unauthenticated_reads:\n  - url: https://api.teespring.com/v1/search-suggestions/trending\n    status: 200\n    note: Returns real data with no credential at all — the only fully anonymous operation observed.\n  missing_credential_behavior:\n  - url: https://api.teespring.com/seller/v1/summary\n    status: 400\n    body: '{\"error\":\"access_token is missing, period is missing\"}'\n  - url: https://api.teespring.com/v1/campaigns/12345\n    status: 400\n    body: '{\"error\":{\"message\":\"app_id is missing\"}}'\ngaps:\n- No OAuth 2.0 authorization server, no OpenID Connect discovery, and no\n  /.well-known/oauth-authorization-server or /.well-known/oauth-protected-resource on any Amaze or\n  Spring host (all probed 2026-08-13,\
   \ all 404/301 — see well-known/famous-well-known.yml).\n- No scopes. The access_token is all-or-nothing over the seller's account; there is no way to mint\n  a read-only or campaign-only credential.\n- Credentials are sent in the URL query string rather than an Authorization header, so tokens land\n  in proxy logs, browser history and Referer headers.\n- The token exchange requires the account PASSWORD, so any integration must hold the seller's\n  primary login credential rather than a revocable API key.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/famous/refs/heads/main/authentication/famous-authentication.yml
+source_yaml_url: https://artifacts.apis.io/famous/authentication/famous-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

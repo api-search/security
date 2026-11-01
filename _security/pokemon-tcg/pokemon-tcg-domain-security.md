@@ -5,19 +5,19 @@ api_specs:
   label: Pokémon TCG API Cards API
   slug: pokemon-tcg-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-cards-api-openapi.yml
+  url: https://artifacts.apis.io/pokemon-tcg/openapi/pokemon-tcg-cards-api-openapi.yml
 - filename: pokemon-tcg-metadata-api-openapi.yml
   format: yaml
   label: Pokémon TCG API Metadata API
   slug: pokemon-tcg-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/pokemon-tcg/openapi/pokemon-tcg-metadata-api-openapi.yml
 - filename: pokemon-tcg-sets-api-openapi.yml
   format: yaml
   label: Pokémon TCG API Sets API
   slug: pokemon-tcg-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/openapi/pokemon-tcg-sets-api-openapi.yml
+  url: https://artifacts.apis.io/pokemon-tcg/openapi/pokemon-tcg-sets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +55,7 @@ source_filename: pokemon-tcg-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pokemontcg.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 08:30:14 2026 GMT\n  hsts: false\n- host: docs.pokemontcg.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 08:30:14 2026 GMT\n  hsts: false\n- host: api.pokemontcg.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 08:30:14 2026 GMT\n  hsts: null\ndomains:\n- domain: pokemontcg.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pokemon-tcg/refs/heads/main/security/pokemon-tcg-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pokemon-tcg/security/pokemon-tcg-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Pokemon

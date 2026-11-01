@@ -5,19 +5,19 @@ api_specs:
   label: World Health Organization (WHO) Foundation API
   slug: who-foundation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-foundation-api-openapi.yml
+  url: https://artifacts.apis.io/who/openapi/who-foundation-api-openapi.yml
 - filename: who-icd10-api-openapi.yml
   format: yaml
   label: World Health Organization (WHO) ICD10 API
   slug: who-icd10-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-icd10-api-openapi.yml
+  url: https://artifacts.apis.io/who/openapi/who-icd10-api-openapi.yml
 - filename: who-linearization-classification-endpoints-api-openapi.yml
   format: yaml
   label: World Health Organization (WHO) Linearization (classification endpoints) API
   slug: who-linearization-classification-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/openapi/who-linearization-classification-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/who/openapi/who-linearization-classification-endpoints-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.who.int\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 14:46:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: ghoapi.azureedge.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 05:48:59 2026 GMT\n  hsts: null\n- host: icd.who.int\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 09:58:40 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: who.int\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azureedge.net\n  dnssec: false\n  caa:\n  - 0 issue \"microsoft.com\"\n  - 0 issuewild \"microsoft.com\"\n  - 0 issue \"digicert.com; account=488f180f66637f6181c0f055bdfe0e1c40852d9cc7ac5affded3c97e2fab3f1e\"\
   \n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"digicert.com; account=37519e363bd0f3f470682383a25b2daa13232906ff77b9eb03d1269486782a2a\"\n  - 0 issue \"digicert.com; account=4735470c395ee719a2a0c2a15a49193ff5add1d47d164d31d186797e73892a18\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/who/refs/heads/main/security/who-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/who/security/who-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Health

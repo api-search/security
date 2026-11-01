@@ -5,55 +5,55 @@ api_specs:
   label: 01Mind Campaigns API
   slug: 01mind-net-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-campaigns-api-openapi.yml
 - filename: 01mind-net-charon-api-openapi.yml
   format: yaml
   label: 01Mind Charon API
   slug: 01mind-net-charon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-charon-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-charon-api-openapi.yml
 - filename: 01mind-net-document-templates-api-openapi.yml
   format: yaml
   label: 01Mind Document Templates API
   slug: 01mind-net-document-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-document-templates-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-document-templates-api-openapi.yml
 - filename: 01mind-net-execute-api-openapi.yml
   format: yaml
   label: 01Mind Execute API
   slug: 01mind-net-execute-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-execute-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-execute-api-openapi.yml
 - filename: 01mind-net-research-api-openapi.yml
   format: yaml
   label: 01Mind Research API
   slug: 01mind-net-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-research-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-research-api-openapi.yml
 - filename: 01mind-net-sandbox-api-openapi.yml
   format: yaml
   label: 01Mind Sandbox API
   slug: 01mind-net-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-sandbox-api-openapi.yml
 - filename: 01mind-net-token-topups-api-openapi.yml
   format: yaml
   label: 01Mind Token Topups API
   slug: 01mind-net-token-topups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-token-topups-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-token-topups-api-openapi.yml
 - filename: 01mind-net-tool-requests-api-openapi.yml
   format: yaml
   label: 01Mind Tool Requests API
   slug: 01mind-net-tool-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-tool-requests-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-tool-requests-api-openapi.yml
 - filename: 01mind-net-venue-api-openapi.yml
   format: yaml
   label: 01Mind Venue API
   slug: 01mind-net-venue-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/openapi/01mind-net-venue-api-openapi.yml
+  url: https://artifacts.apis.io/01mind-net/openapi/01mind-net-venue-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: 01mind-net-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 01mind.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 06:10:44 2026 GMT\n  hsts: false\ndomains:\n- domain: 01mind.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/01mind-net/refs/heads/main/security/01mind-net-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/01mind-net/security/01mind-net-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Agents

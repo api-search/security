@@ -7,97 +7,97 @@ api_specs:
   label: Worklittle Job Boards API
   slug: worklittle-job-boards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-job-boards-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-job-boards-api-openapi.yml
 - filename: worklittle-jobs-api-openapi.yml
   format: yaml
   label: Worklittle Jobs API
   slug: worklittle-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-jobs-api-openapi.yml
 - filename: worklittle-agent-documents-api-openapi.yml
   format: yaml
   label: Worklittle Agent Documents API
   slug: worklittle-agent-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-agent-documents-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-agent-documents-api-openapi.yml
 - filename: worklittle-apply-api-openapi.yml
   format: yaml
   label: Worklittle Apply API
   slug: worklittle-apply-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-apply-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-apply-api-openapi.yml
 - filename: worklittle-attendance-api-openapi.yml
   format: yaml
   label: Worklittle Attendance API
   slug: worklittle-attendance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-attendance-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-attendance-api-openapi.yml
 - filename: worklittle-billing-api-openapi.yml
   format: yaml
   label: Worklittle Billing API
   slug: worklittle-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-billing-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-billing-api-openapi.yml
 - filename: worklittle-candidates-api-openapi.yml
   format: yaml
   label: Worklittle Candidates API
   slug: worklittle-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-candidates-api-openapi.yml
 - filename: worklittle-documents-api-openapi.yml
   format: yaml
   label: Worklittle Documents API
   slug: worklittle-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-documents-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-documents-api-openapi.yml
 - filename: worklittle-email-offers-api-openapi.yml
   format: yaml
   label: Worklittle Email Offers API
   slug: worklittle-email-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-email-offers-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-email-offers-api-openapi.yml
 - filename: worklittle-employees-api-openapi.yml
   format: yaml
   label: Worklittle Employees API
   slug: worklittle-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-employees-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-employees-api-openapi.yml
 - filename: worklittle-employer-jobs-api-openapi.yml
   format: yaml
   label: Worklittle Employer Jobs API
   slug: worklittle-employer-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-employer-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-employer-jobs-api-openapi.yml
 - filename: worklittle-job-listings-api-openapi.yml
   format: yaml
   label: Worklittle Job Listings API
   slug: worklittle-job-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-job-listings-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-job-listings-api-openapi.yml
 - filename: worklittle-organization-api-openapi.yml
   format: yaml
   label: Worklittle Organization API
   slug: worklittle-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-organization-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-organization-api-openapi.yml
 - filename: worklittle-people-api-openapi.yml
   format: yaml
   label: Worklittle People API
   slug: worklittle-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-people-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-people-api-openapi.yml
 - filename: worklittle-surveys-api-openapi.yml
   format: yaml
   label: Worklittle Surveys API
   slug: worklittle-surveys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-surveys-api-openapi.yml
 - filename: worklittle-webhooks-api-openapi.yml
   format: yaml
   label: Worklittle Webhooks API
   slug: worklittle-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/openapi/worklittle-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -139,7 +139,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: openapi/worklittle-jobs-api-openapi.yml, openapi/worklittle-platform-api-openapi.yml\ndocs: https://docs.worklittle.com/jobs/get-started/api-keys\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: sk-wl-api01\n  description: >-\n    API keys created in Worklittle Business (worklittle.com/business/api-keys), prefix sk-wl-api01-,\n    shown once. Sent as Authorization Bearer on REST, MCP and CLI/SDK (WORKLITTLE_API_KEY). Keys\n    carry scopes (jobs:read, jobs:apply, jobs:post, jobs:applications, webhooks:manage, agent:tools)\n    and inherit the creator's role. Default 60 requests/minute per key. Public job-board GETs and\n    applies work without a key under IP rate limits.\n  sources:\n  - openapi/worklittle-jobs-api-openapi.yml\n  - openapi/worklittle-platform-api-openapi.yml\n- name: mcpConnectOAuth\n  type: oauth2\n\
   \  description: >-\n    OAuth 2.0 authorization server on api.worklittle.com (RFC 8414 metadata saved at\n    well-known/worklittle-oauth-authorization-server.json) used by MCP Connect sessions:\n    authorization_code + refresh_token, PKCE S256, dynamic client registration (RFC 7591),\n    client_id metadata documents and resource indicators. The MCP server publishes a matching\n    RFC 9728 protected-resource document naming this issuer.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.worklittle.com/oauth/authorize\n    tokenUrl: https://api.worklittle.com/oauth/token\n    scopes: 6\n  sources:\n  - well-known/worklittle-oauth-authorization-server.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worklittle/refs/heads/main/authentication/worklittle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/worklittle/authentication/worklittle-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Job Search

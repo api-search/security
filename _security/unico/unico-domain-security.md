@@ -5,19 +5,19 @@ api_specs:
   label: Unico IDCloud API
   slug: idcloud-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/postman/unico-api-integration.postman_collection.json
+  url: https://artifacts.apis.io/unico/postman/unico-api-integration.postman_collection.json
 - filename: unico-web-sdk-integration.postman_collection.json
   format: json
   label: Unico IDCloud Web & SDK API
   slug: idcloud-web-sdk
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/postman/unico-web-sdk-integration.postman_collection.json
+  url: https://artifacts.apis.io/unico/postman/unico-web-sdk-integration.postman_collection.json
 - filename: unico-oauth2.postman_collection.json
   format: json
   label: Unico Identity OAuth2
   slug: identity-oauth2
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/postman/unico-oauth2.postman_collection.json
+  url: https://artifacts.apis.io/unico/postman/unico-oauth2.postman_collection.json
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unico.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 17:47:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.unico.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 22:18:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.id.unico.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 15:02:26 2026 GMT\n  hsts: null\ndomains:\n- domain: unico.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: unico.app\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issue \"\
   globalsign.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"godaddy.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unico/refs/heads/main/security/unico-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unico/security/unico-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Identity Verification

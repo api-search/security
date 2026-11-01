@@ -5,7 +5,7 @@ api_specs:
   label: Serval Auth API
   slug: serval-auth-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/openapi/serval-auth-api-api-openapi.yml
+  url: https://artifacts.apis.io/serval/openapi/serval-auth-api-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -22,7 +22,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://trust.serval.com/ ; https://docs.serval.com/sections/documentation/platform/product-security.md\nurl: https://trust.serval.com/\nplatform: Vanta\nverified: true   # trust.serval.com returns HTTP 200 and is referenced as the compliance source in Serval product-security docs\ncertifications: []   # the trust center renders its certification list client-side (Vanta); specific certs not asserted here without a verified static source\nevidence:\n  - {source: https://trust.serval.com/, kind: trust-center, detail: Vanta-hosted trust report}\n  - {source: https://docs.serval.com/sections/documentation/platform/product-security.md, kind: docs, detail: \"\\\"Compliance — See the Serval Trust Center\\\"\"}\nnotes: >\n  Serval publishes a Vanta-managed trust center at trust.serval.com and points to it from its\n  product-security documentation for compliance posture. The certification badges are loaded\n  dynamically by the Vanta\
   \ client, so no specific certification (e.g. SOC 2) is recorded here\n  without a verifiable static source; request the trust report directly to enumerate them.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/serval/refs/heads/main/security/serval-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/serval/security/serval-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

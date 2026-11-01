@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: https://www.izoto
   \    token_endpoint: https://account.izotope.com/authentication/oauth/token\n    end_session_endpoint: https://account.izotope.com/authentication/logout\n    jwks_uri: https://account.izotope.com/authentication/.well-known/jwks.json\n    response_types_supported: [code]\n    grant_types_supported:\n      - authorization_code\n      - refresh_token\n      - 'urn:ietf:params:oauth:grant-type:jwt-bearer'\n    token_endpoint_auth_methods_supported: [client_secret_basic]\n    code_challenge_methods_supported: [S256]\n    id_token_signing_alg_values_supported: [RS256]\n    subject_types_supported: [public]\n    claims_supported: [iss, sub, aud, exp, iat, nonce, sid, email, email_verified]\n    scopes_supported:\n      - openid\n      - email\n      - 'customer-account-api:full'\n      - 'customer-account-mcp-api:full'\n    sources:\n      - well-known/izotope-openid-configuration.json\n      - well-known/izotope-oauth-authorization-server.json\nprotected_resource:\n  spec: RFC 9728 OAuth 2.0\
   \ Protected Resource Metadata\n  url: https://www.izotope.com/.well-known/oauth-protected-resource\n  resource: https://www.izotope.com\n  authorization_servers:\n    - https://account.izotope.com\n    - https://shopify.com/authentication/73782919339\n  source: well-known/izotope-oauth-protected-resource.json\nagent_identity:\n  mechanism: UCP agent profile\n  parameter: meta.ucp-agent.profile\n  required: true\n  description: >-\n    The MCP tools do not take a bearer token for read operations; instead every\n    tool call must carry a `meta.ucp-agent.profile` URI identifying the calling\n    agent. Omitting it returns JSON-RPC error -32001 (invalid_profile_url).\n    Buyer payment is authorized out-of-band and requires contemporaneous human\n    approval per iZotope's own llms.txt.\nx-evidence:\n  fetched: '2026-08-12'\n  urls:\n    - {url: 'https://www.izotope.com/.well-known/openid-configuration', status: 200}\n    - {url: 'https://www.izotope.com/.well-known/oauth-protected-resource',\
   \ status: 200}\n    - {url: 'https://account.izotope.com/authentication/.well-known/jwks.json', status: 200}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/izotope/refs/heads/main/authentication/izotope-authentication.yml
+source_yaml_url: https://artifacts.apis.io/izotope/authentication/izotope-authentication.yml
 summary_line: oauth2/openIdConnect · 1 scheme
 tags:
 - Audio
@@ -76,7 +76,7 @@ tags:
 - Mastering
 - Audio Restoration
 - Audio Repair
-- Post Production
+- Post-Production
 - Plugins
 - VST
 - AudioUnit

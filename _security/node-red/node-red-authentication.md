@@ -7,37 +7,37 @@ api_specs:
   label: Node-RED Auth API
   slug: node-red-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-auth-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-auth-api-openapi.yml
 - filename: node-red-diagnostics-api-openapi.yml
   format: yaml
   label: Node-RED Diagnostics API
   slug: node-red-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-diagnostics-api-openapi.yml
 - filename: node-red-flow-api-openapi.yml
   format: yaml
   label: Node-RED Flow API
   slug: node-red-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-flow-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-flow-api-openapi.yml
 - filename: node-red-flows-api-openapi.yml
   format: yaml
   label: Node-RED Flows API
   slug: node-red-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-flows-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-flows-api-openapi.yml
 - filename: node-red-nodes-api-openapi.yml
   format: yaml
   label: Node-RED Nodes API
   slug: node-red-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-nodes-api-openapi.yml
 - filename: node-red-settings-api-openapi.yml
   format: yaml
   label: Node-RED Settings API
   slug: node-red-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-settings-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-settings-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: node-red-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/node-red-admin-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/node-red-admin-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/authentication/node-red-authentication.yml
+source_yaml_url: https://artifacts.apis.io/node-red/authentication/node-red-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Self-Hosted

@@ -5,25 +5,25 @@ api_specs:
   label: Google Sheets API
   slug: google-sheets-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-sheets-api-openapi.yml
 - filename: google-sheets-spreadsheets-api-openapi.yml
   format: yaml
   label: Google Sheets Spreadsheets API
   slug: google-sheets-spreadsheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-spreadsheets-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-spreadsheets-api-openapi.yml
 - filename: google-sheets-values-api-openapi.yml
   format: yaml
   label: Google Sheets Values API
   slug: google-sheets-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-values-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-values-api-openapi.yml
 - filename: google-sheets-developer-metadata-api-openapi.yml
   format: yaml
   label: Google Sheets Developer Metadata API
   slug: google-sheets-developer-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/openapi/google-sheets-developer-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-developer-metadata-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_filename: google-sheets-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: sheets.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/security/google-sheets-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-sheets/security/google-sheets-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Google Workspace

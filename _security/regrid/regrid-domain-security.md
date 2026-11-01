@@ -5,31 +5,31 @@ api_specs:
   label: Regrid Metadata API
   slug: regrid-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-metadata-api-openapi.yml
 - filename: regrid-parcel-query-api-openapi.yml
   format: yaml
   label: Regrid Parcel Query API
   slug: regrid-parcel-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-parcel-query-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-parcel-query-api-openapi.yml
 - filename: regrid-parcel-search-api-openapi.yml
   format: yaml
   label: Regrid Parcel Search API
   slug: regrid-parcel-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-parcel-search-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-parcel-search-api-openapi.yml
 - filename: regrid-schemas-api-openapi.yml
   format: yaml
   label: Regrid Schemas API
   slug: regrid-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-schemas-api-openapi.yml
 - filename: regrid-typeahead-api-openapi.yml
   format: yaml
   label: Regrid Typeahead API
   slug: regrid-typeahead-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/openapi/regrid-typeahead-api-openapi.yml
+  url: https://artifacts.apis.io/regrid/openapi/regrid-typeahead-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: regrid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: regrid.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 11:00:01 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.regrid.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 27 23:04:59 2026 GMT\n  hsts: false\ndomains:\n- domain: regrid.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regrid/refs/heads/main/security/regrid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/regrid/security/regrid-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Land Data

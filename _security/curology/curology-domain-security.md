@@ -28,7 +28,7 @@ source_filename: curology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.curology.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 01:57:23 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: curology.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curology/refs/heads/main/security/curology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/curology/security/curology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

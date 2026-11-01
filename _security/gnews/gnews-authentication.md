@@ -8,13 +8,13 @@ api_specs:
   label: GNews Headlines API
   slug: gnews-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/openapi/gnews-headlines-api-openapi.yml
+  url: https://artifacts.apis.io/gnews/openapi/gnews-headlines-api-openapi.yml
 - filename: gnews-search-api-openapi.yml
   format: yaml
   label: GNews Search API
   slug: gnews-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/openapi/gnews-search-api-openapi.yml
+  url: https://artifacts.apis.io/gnews/openapi/gnews-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: gnews-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gnews-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apikeyQuery\n  type: apiKey\n  in: query\n  parameter: apikey\n  sources:\n  - openapi/gnews-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gnews/refs/heads/main/authentication/gnews-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gnews/authentication/gnews-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Articles

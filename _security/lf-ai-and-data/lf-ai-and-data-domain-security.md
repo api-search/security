@@ -43,7 +43,7 @@ source_filename: lf-ai-and-data-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lfaidata.foundation\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 19:15:50 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: onnx.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 17:59:20 2026 GMT\n  hsts: false\n- host: milvus.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: lfaidata.foundation\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: onnx.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lf-ai-and-data/refs/heads/main/security/lf-ai-and-data-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lf-ai-and-data/security/lf-ai-and-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

@@ -29,7 +29,7 @@ source_filename: mobilecoin-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://mobilecoin.gitbook.io/full-service-api/usage/api-key\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    The Full-Service JSON-RPC API runs locally (default 127.0.0.1:9090) and is\n    unauthenticated by default. Optional API-key protection is enabled by\n    setting MC_API_KEY in the service .env; when set, every request must carry\n    the key in the X-API-KEY header. There is no OAuth/OIDC and no scope\n    surface. Network transport can additionally be secured with TLS for the\n    validator and mirror services.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: X-API-KEY\n  optional: true\n  configured_via: MC_API_KEY environment variable (.env)\n  docs: https://mobilecoin.gitbook.io/full-service-api/usage/api-key\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mobilecoin/refs/heads/main/authentication/mobilecoin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mobilecoin/authentication/mobilecoin-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -8,19 +8,19 @@ api_specs:
   label: uChecker Аутентификация API
   slug: uchecker-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/openapi/uchecker-default-api-openapi.yml
+  url: https://artifacts.apis.io/uchecker/openapi/uchecker-default-api-openapi.yml
 - filename: uchecker-email-api-openapi.yml
   format: yaml
   label: uChecker Валидация Email API
   slug: uchecker-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/openapi/uchecker-email-api-openapi.yml
+  url: https://artifacts.apis.io/uchecker/openapi/uchecker-email-api-openapi.yml
 - filename: uchecker-esp-api-openapi.yml
   format: yaml
   label: uChecker ESP Провайдеры API
   slug: uchecker-esp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/openapi/uchecker-esp-api-openapi.yml
+  url: https://artifacts.apis.io/uchecker/openapi/uchecker-esp-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-08-16'\nmethod: searched\nsource: >-\n  https://a
   \  - openapi/uchecker-default-api-openapi.yml\n  - openapi/uchecker-email-api-openapi.yml\n  - openapi/uchecker-esp-api-openapi.yml\n- name: esp-provider-token\n  type: bearer-token\n  declared_in_spec: false\n  scope: /api/v1/esp/price, /api/v1/esp/provision\n  description: >-\n    NOT a declared securityScheme — inferred from the 401 descriptions on both ESP\n    operations (\"Токен ESP-провайдера отсутствует, невалиден или просрочен\" / ESP provider\n    token missing, invalid or expired). A partner-issued credential distinct from the\n    ordinary `uk_` account key; there is no self-service path to obtain one.\n  obtain: partner arrangement — support@uchecker.net\n  sources:\n  - openapi/uchecker-esp-api-openapi.yml\noauth:\n  supported: false\n  probes:\n    - url: https://api.uchecker.net/.well-known/oauth-authorization-server\n      status: 404\n    - url: https://api.uchecker.net/.well-known/oauth-protected-resource\n      status: 404\n    - url: https://api.uchecker.net/.well-known/openid-configuration\n\
   \      status: 404\n  note: >-\n    No OAuth 2.0 or OpenID Connect anywhere, including on the MCP endpoint — the MCP server\n    authenticates with the same static API key rather than an OAuth flow. See\n    scopes/ (absent: no oauth2 securityScheme, so there is nothing to derive).\nfailure_modes:\n  - status: 401\n    meaning: Missing or invalid API key / JWT, or an expired access token.\n  - status: 403\n    meaning: >-\n      Authenticated but not permitted — insufficient credits, or a feature (the affiliate\n      programme) not enabled on the account. Authentication succeeded; authorisation or\n      quota failed.\ntransport_security:\n  https_only: true\n  tls: TLSv1.3\n  hsts: max-age=31536000\n  see_also: security/uchecker-domain-security.yml\ngaps_for_the_provider:\n  - Declare the ESP provider token as a securityScheme instead of leaving it in prose.\n  - Document the API key entropy/format beyond the `uk_` prefix.\n  - No scoped keys: one key grants full access to validation,\
   \ billing and account management.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uchecker/refs/heads/main/authentication/uchecker-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uchecker/authentication/uchecker-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Email Verification

@@ -5,25 +5,25 @@ api_specs:
   label: United States Postal Service Addresses API
   slug: usps-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/usps/openapi/usps-addresses-api-openapi.yml
 - filename: usps-carrier-pickup-api-openapi.yml
   format: yaml
   label: United States Postal Service Carrier Pickup API
   slug: usps-carrier-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-carrier-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/usps/openapi/usps-carrier-pickup-api-openapi.yml
 - filename: usps-domestic-prices-api-openapi.yml
   format: yaml
   label: United States Postal Service Domestic Prices API
   slug: usps-domestic-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-domestic-prices-api-openapi.yml
+  url: https://artifacts.apis.io/usps/openapi/usps-domestic-prices-api-openapi.yml
 - filename: usps-tracking-api-openapi.yml
   format: yaml
   label: United States Postal Service Tracking API
   slug: usps-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/openapi/usps-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/usps/openapi/usps-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: usps-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.usps.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.usps.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apis.usps.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: usps.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usps/refs/heads/main/security/usps-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/usps/security/usps-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Government

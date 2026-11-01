@@ -55,7 +55,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fireflyhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 23:59:59 2027 GMT\n  hsts: false\n- host: members.firefly.health\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: false\n- host: api-prod.firefly.health\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  server: gunicorn\n  csp: true\n  x_frame_options: DENY\n  x_content_type_options: nosniff\n  note: 'HSTS/CSP observed on a follow-up HEAD of https://api-prod.firefly.health/ on\n    2026-08-01; the automated probe recorded null.'\ndomains:\n- domain: fireflyhealth.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: firefly.health\n  dnssec: true\n  caa:\n  - 0 issue \"\
   amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firefly-health/refs/heads/main/security/firefly-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/firefly-health/security/firefly-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

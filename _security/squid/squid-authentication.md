@@ -7,31 +7,31 @@ api_specs:
   label: Squid Cache Statistics API
   slug: squid-cache-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-cache-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-cache-statistics-api-openapi.yml
 - filename: squid-configuration-api-openapi.yml
   format: yaml
   label: Squid Configuration API
   slug: squid-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-configuration-api-openapi.yml
 - filename: squid-connections-api-openapi.yml
   format: yaml
   label: Squid Connections API
   slug: squid-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-connections-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-connections-api-openapi.yml
 - filename: squid-memory-api-openapi.yml
   format: yaml
   label: Squid Memory API
   slug: squid-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-memory-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-memory-api-openapi.yml
 - filename: squid-operations-api-openapi.yml
   format: yaml
   label: Squid Operations API
   slug: squid-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/openapi/squid-operations-api-openapi.yml
+  url: https://artifacts.apis.io/squid/openapi/squid-operations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: squid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/squid-cache-manager-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: Cache manager password configured via cachemgr_passwd in squid.conf\n  sources:\n  - openapi/squid-cache-manager-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/squid/refs/heads/main/authentication/squid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/squid/authentication/squid-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Caching Proxy

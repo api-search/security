@@ -54,13 +54,12 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://auth.adonis.io/.well-known/openid-configuration\ndocs: https://adonis.io/platform\nsummary:\n  types: [oauth2, openIdConnect]\n  identity_provider: Auth0\n  issuer: https://auth.adonis.io/\n  oauth2_flows: [authorizationCode, clientCredentials, refreshToken, deviceCode, tokenExchange]\nschemes:\n- name: OpenIDConnect\n  type: openIdConnect\n  openIdConnectUrl: https://auth.adonis.io/.well-known/openid-configuration\n  issuer: https://auth.adonis.io/\n  sources: [well-known/adonis-openid-configuration.json]\n- name: OAuth2\n  type: oauth2\n  authorizationUrl: https://auth.adonis.io/authorize\n  tokenUrl: https://auth.adonis.io/oauth/token\n  userinfoUrl: https://auth.adonis.io/userinfo\n  jwksUrl: https://auth.adonis.io/.well-known/jwks.json\n  revocationUrl: https://auth.adonis.io/oauth/revoke\n  grant_types:\n  - client_credentials\n  - authorization_code\n  - refresh_token\n  - urn:ietf:params:oauth:grant-type:device_code\n\
   \  - urn:ietf:params:oauth:grant-type:token-exchange\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  - client_secret_post\n  - private_key_jwt\n  - none\n  sources: [well-known/adonis-oauth-authorization-server.json]\nnotes: >-\n  Auth is provided by Auth0 (issuer https://auth.adonis.io/). client_credentials\n  supports machine-to-machine partner/API integrations; authorization_code (with\n  PKCE via the \"none\" auth method for public clients) backs the app.adonis.io\n  web application. Scopes are documented in scopes/adonis-scopes.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adonis/refs/heads/main/authentication/adonis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/adonis/authentication/adonis-authentication.yml
 summary_line: oauth2/openIdConnect · 2 schemes
 tags:
 - Company
 - Healthcare
 - Revenue Cycle Management
-- RCM
 - Medical Billing
 - Health IT
 - Eligibility Verification

@@ -5,31 +5,31 @@ api_specs:
   label: Colossyan Avatars API
   slug: colossyan-avatars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-avatars-api-openapi.yml
+  url: https://artifacts.apis.io/colossyan/openapi/colossyan-avatars-api-openapi.yml
 - filename: colossyan-experimental-api-openapi.yml
   format: yaml
   label: Colossyan Experimental API
   slug: colossyan-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/colossyan/openapi/colossyan-experimental-api-openapi.yml
 - filename: colossyan-generated-videos-api-openapi.yml
   format: yaml
   label: Colossyan Generated Videos API
   slug: colossyan-generated-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-generated-videos-api-openapi.yml
+  url: https://artifacts.apis.io/colossyan/openapi/colossyan-generated-videos-api-openapi.yml
 - filename: colossyan-video-generation-api-openapi.yml
   format: yaml
   label: Colossyan Video Generation API
   slug: colossyan-video-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-video-generation-api-openapi.yml
+  url: https://artifacts.apis.io/colossyan/openapi/colossyan-video-generation-api-openapi.yml
 - filename: colossyan-voices-api-openapi.yml
   format: yaml
   label: Colossyan Voices API
   slug: colossyan-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/openapi/colossyan-voices-api-openapi.yml
+  url: https://artifacts.apis.io/colossyan/openapi/colossyan-voices-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -77,7 +77,7 @@ source_filename: colossyan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.colossyan.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 14:15:45 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.colossyan.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 19:12:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.colossyan.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 15:39:33 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: colossyan.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/colossyan/refs/heads/main/security/colossyan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/colossyan/security/colossyan-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

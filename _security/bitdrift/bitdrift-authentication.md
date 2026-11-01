@@ -30,7 +30,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://docs.bitdrift.io/api-guide/calling-the-api.html\ndocs: https://docs.bitdrift.io/api-guide/calling-the-api.html\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    The public API authenticates with an API key sent in the x-bitdrift-api-key header. JWT-\n    authenticated requests against the public API are not supported. The bd CLI additionally offers a\n    browser-based user login (bd auth) for interactive/user-authenticated access; that login flow is\n    a CLI capability, not a public-API auth mode.\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: x-bitdrift-api-key\n  description: >-\n    API key minted via `bd key create api` or the AdminService CreateKey method. Sent on every\n    request in the x-bitdrift-api-key header. Keys carry explicit permissions for public-API access.\n  sources: [grpc/src/bitdrift/public/unary/admin/v1/keys.proto]\n\
   key_management:\n  create_cli: bd key create api\n  create_api: AdminService.CreateKey\n  list_api: AdminService.GetKeys\n  revoke_api: AdminService.RevokeKey\n  env_var: BD_API_KEY\ncli_user_login:\n  command: bd auth\n  mechanism: browser-based SaaS login (user-authenticated)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/authentication/bitdrift-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bitdrift/authentication/bitdrift-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

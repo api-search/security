@@ -10,109 +10,109 @@ api_specs:
   label: Hometrack Authentication API
   slug: hometrack-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-authentication-api-openapi.yml
 - filename: hometrack-brands-api-openapi.yml
   format: yaml
   label: Hometrack Brands API
   slug: hometrack-brands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-brands-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-brands-api-openapi.yml
 - filename: hometrack-broker-api-openapi.yml
   format: yaml
   label: Hometrack Broker API
   slug: hometrack-broker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-broker-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-broker-api-openapi.yml
 - filename: hometrack-epc-hometrack-api-openapi.yml
   format: yaml
   label: Hometrack Epc Hometrack API
   slug: hometrack-epc-hometrack-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-epc-hometrack-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-epc-hometrack-api-openapi.yml
 - filename: hometrack-flood-twinn-api-openapi.yml
   format: yaml
   label: Hometrack Flood Twinn API
   slug: hometrack-flood-twinn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-flood-twinn-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-flood-twinn-api-openapi.yml
 - filename: hometrack-ground-coastalerosion-twinn-api-openapi.yml
   format: yaml
   label: Hometrack Ground Coastalerosion Twinn API
   slug: hometrack-ground-coastalerosion-twinn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-ground-coastalerosion-twinn-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-ground-coastalerosion-twinn-api-openapi.yml
 - filename: hometrack-ground-subsidence-twinn-api-openapi.yml
   format: yaml
   label: Hometrack Ground Subsidence Twinn API
   slug: hometrack-ground-subsidence-twinn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-ground-subsidence-twinn-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-ground-subsidence-twinn-api-openapi.yml
 - filename: hometrack-ground-terrafirma-api-openapi.yml
   format: yaml
   label: Hometrack Ground Terrafirma API
   slug: hometrack-ground-terrafirma-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-ground-terrafirma-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-ground-terrafirma-api-openapi.yml
 - filename: hometrack-internal-api-openapi.yml
   format: yaml
   label: Hometrack Internal API
   slug: hometrack-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-internal-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-internal-api-openapi.yml
 - filename: hometrack-licences-api-openapi.yml
   format: yaml
   label: Hometrack Licences API
   slug: hometrack-licences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-licences-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-licences-api-openapi.yml
 - filename: hometrack-organisation-api-openapi.yml
   format: yaml
   label: Hometrack Organisation API
   slug: hometrack-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-organisation-api-openapi.yml
 - filename: hometrack-partners-api-openapi.yml
   format: yaml
   label: Hometrack Partners API
   slug: hometrack-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-partners-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-partners-api-openapi.yml
 - filename: hometrack-pvrplugin-api-openapi.yml
   format: yaml
   label: Hometrack Pvrplugin API
   slug: hometrack-pvrplugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-pvrplugin-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-pvrplugin-api-openapi.yml
 - filename: hometrack-reporting-api-openapi.yml
   format: yaml
   label: Hometrack Reporting API
   slug: hometrack-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-reporting-api-openapi.yml
 - filename: hometrack-status-api-openapi.yml
   format: yaml
   label: Hometrack Status API
   slug: hometrack-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-status-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-status-api-openapi.yml
 - filename: hometrack-trial-api-openapi.yml
   format: yaml
   label: Hometrack Trial API
   slug: hometrack-trial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-trial-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-trial-api-openapi.yml
 - filename: hometrack-valuation-api-openapi.yml
   format: yaml
   label: Hometrack Valuation API
   slug: hometrack-valuation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-valuation-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-valuation-api-openapi.yml
 - filename: hometrack-zoopla-api-openapi.yml
   format: yaml
   label: Hometrack Zoopla API
   slug: hometrack-zoopla-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/openapi/hometrack-zoopla-api-openapi.yml
+  url: https://artifacts.apis.io/hometrack/openapi/hometrack-zoopla-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -196,7 +196,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\ndocs: https://developer
   \ sources:\n  - openapi/hometrack-api-public-openapi.yml\n  - openapi/hometrack-broker-avm-api-openapi.yml\n  - openapi/hometrack-climate-api-v2-openapi.yml\n  - openapi/hometrack-climate-graphql-api-openapi.yml\n  - openapi/hometrack-prh-core-external-client-api-v2-openapi.yml\n  - openapi/hometrack-valuation-api-v1-openapi.yml\n- name: ValuationApiToken\n  type: http\n  scheme: Token\n  in: header\n  parameter: Authorization\n  format: 'Token token=\"<guid>\"'\n  ttl_seconds: 300\n  exchange_operation: openapi/hometrack-valuation-api-v1-openapi.yml#authentication\n  sources: [openapi/hometrack-valuation-api-v1-openapi.yml]\n  note: >-\n    POST /authentication/{apiKey} returns a temporary token \"valid for 5\n    minutes\". The spec documents that the header is also accepted without the\n    quotes and without the `token=` prefix.\n- name: PublicApiPathToken\n  type: apiKey\n  in: path\n  parameter: token\n  exchange_operation: openapi/hometrack-api-public-openapi.yml#AuthenticationApi_Post\n\
   \  sources: [openapi/hometrack-api-public-openapi.yml]\n  note: >-\n    POST /api/authentication/{apiKey} returns a plain-text GUID token that is\n    then passed as a URL path segment on the reporting, brands, licences,\n    partners, pvrplugin and trial operations. Credentials in the path are\n    logged by intermediaries — recorded as an observed design weakness, not a\n    recommendation.\nprobes:\n- {url: 'https://api.hometrack.com/valuation/v2/broker/order/1', anonymous: true, status: 401, body: '{\"statusCode\": 401, \"message\": \"Unauthorized. Access token is missing or invalid.\"}'}\n- {url: 'https://api.hometrack.com/climate/graphql', anonymous: true, method: POST, status: 401, body: '{\"statusCode\": 401, \"message\": \"Unauthorized. Access token is missing or invalid.\"}'}\n- {url: 'https://api.hometrack.com/valuation-api/v1/status', anonymous: true, status: 200, body: '(zero bytes)'}\nonboarding:\n  self_service: false\n  path: https://www.hometrack.com/uk/#contactus\n  verbatim:\
   \ >-\n    \"To interact with any of our APIs you will need to have a valid API Key for\n    that respective product. If you do not yet have an API Key, please contact\n    us.\"\ncross_links:\n  scopes: scopes/hometrack-scopes.yml\n  well_known: well-known/hometrack-well-known.yml\n  conventions: conventions/hometrack-conventions.yml\n  conformance: conformance/hometrack-conformance.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hometrack/refs/heads/main/authentication/hometrack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hometrack/authentication/hometrack-authentication.yml
 summary_line: oauth2/apiKey/http · 5 schemes
 tags:
 - Real Estate

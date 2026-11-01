@@ -39,7 +39,7 @@ source_filename: unit4-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unit4.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: null\n- host: develop.unit4rd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 20 23:59:59 2026 GMT\n  hsts: false\n- host: api.unit4.com\n  https: false\ndomains:\n- domain: unit4.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: unit4rd.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unit4/refs/heads/main/security/unit4-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unit4/security/unit4-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - ERP

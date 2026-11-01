@@ -5,55 +5,55 @@ api_specs:
   label: SingleStore Files API
   slug: singlestore-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-files-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-files-api-openapi.yml
 - filename: singlestore-health-api-openapi.yml
   format: yaml
   label: SingleStore Health API
   slug: singlestore-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-health-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-health-api-openapi.yml
 - filename: singlestore-jobs-api-openapi.yml
   format: yaml
   label: SingleStore Jobs API
   slug: singlestore-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-jobs-api-openapi.yml
 - filename: singlestore-organizations-api-openapi.yml
   format: yaml
   label: SingleStore Organizations API
   slug: singlestore-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-organizations-api-openapi.yml
 - filename: singlestore-queries-api-openapi.yml
   format: yaml
   label: SingleStore Queries API
   slug: singlestore-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-queries-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-queries-api-openapi.yml
 - filename: singlestore-regions-api-openapi.yml
   format: yaml
   label: SingleStore Regions API
   slug: singlestore-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-regions-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-regions-api-openapi.yml
 - filename: singlestore-secrets-api-openapi.yml
   format: yaml
   label: SingleStore Secrets API
   slug: singlestore-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-secrets-api-openapi.yml
 - filename: singlestore-workspaces-api-openapi.yml
   format: yaml
   label: SingleStore Workspaces API
   slug: singlestore-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-workspaces-api-openapi.yml
 - filename: singlestore-workspace-groups-api-openapi.yml
   format: yaml
   label: SingleStore Workspace Groups API
   slug: singlestore-workspace-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/openapi/singlestore-workspace-groups-api-openapi.yml
+  url: https://artifacts.apis.io/singlestore/openapi/singlestore-workspace-groups-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: singlestore-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.singlestore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.singlestore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.singlestore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 02:40:54 2026 GMT\n  hsts: null\ndomains:\n- domain: singlestore.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/singlestore/refs/heads/main/security/singlestore-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/singlestore/security/singlestore-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

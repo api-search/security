@@ -3,18 +3,30 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: kpmg-movements-api-openapi.yml
+- filename: kpmg-locations-api-openapi.yml
   format: yaml
-  label: KPMG Movements API
-  slug: kpmg-movements-api
+  label: KPMG Locations API
+  slug: kpmg-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-movements-api-openapi.yml
-- filename: kpmg-registries-api-openapi.yml
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-locations-api-openapi.yml
+- filename: kpmg-organizations-api-openapi.yml
   format: yaml
-  label: KPMG Registries API
-  slug: kpmg-registries-api
+  label: KPMG Organizations API
+  slug: kpmg-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/openapi/kpmg-registries-api-openapi.yml
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-organizations-api-openapi.yml
+- filename: kpmg-producttemplates-api-openapi.yml
+  format: yaml
+  label: KPMG Product Templates API
+  slug: kpmg-producttemplates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-producttemplates-api-openapi.yml
+- filename: kpmg-token-api-openapi.yml
+  format: yaml
+  label: KPMG Token API
+  slug: kpmg-token-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kpmg/openapi/kpmg-token-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +60,7 @@ source_filename: kpmg-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kpmg-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Operator-generated API access key from KPMG Origins account\n    settings. The integration guide describes the key as required\n    for all calls to the client-api surface; see\n    https://help.kpmgorigins.com/en/articles/1850-integrating-with-origins\n  sources:\n  - openapi/kpmg-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kpmg/refs/heads/main/authentication/kpmg-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kpmg/authentication/kpmg-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Consulting

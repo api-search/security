@@ -7,37 +7,37 @@ api_specs:
   label: EvolutionaryScale Embeddings API
   slug: evolutionaryscale-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-embeddings-api-openapi.yml
 - filename: evolutionaryscale-encoding-api-openapi.yml
   format: yaml
   label: EvolutionaryScale Encoding API
   slug: evolutionaryscale-encoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-encoding-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-encoding-api-openapi.yml
 - filename: evolutionaryscale-generation-api-openapi.yml
   format: yaml
   label: EvolutionaryScale Generation API
   slug: evolutionaryscale-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-generation-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-generation-api-openapi.yml
 - filename: evolutionaryscale-msa-api-openapi.yml
   format: yaml
   label: EvolutionaryScale MSA API
   slug: evolutionaryscale-msa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-msa-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-msa-api-openapi.yml
 - filename: evolutionaryscale-sampling-api-openapi.yml
   format: yaml
   label: EvolutionaryScale Sampling API
   slug: evolutionaryscale-sampling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-sampling-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-sampling-api-openapi.yml
 - filename: evolutionaryscale-structure-api-openapi.yml
   format: yaml
   label: EvolutionaryScale Structure API
   slug: evolutionaryscale-structure-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/openapi/evolutionaryscale-structure-api-openapi.yml
+  url: https://artifacts.apis.io/evolutionaryscale/openapi/evolutionaryscale-structure-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -66,7 +66,7 @@ source_filename: evolutionaryscale-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/evolutionaryscale-forge-esm3-api-openapi.yml, openapi/evolutionaryscale-forge-esmc-api-openapi.yml,\n  openapi/evolutionaryscale-forge-folding-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Forge API token issued via forge.evolutionaryscale.ai.\n  sources:\n  - openapi/evolutionaryscale-forge-esm3-api-openapi.yml\n  - openapi/evolutionaryscale-forge-esmc-api-openapi.yml\n  - openapi/evolutionaryscale-forge-folding-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/authentication/evolutionaryscale-authentication.yml
+source_yaml_url: https://artifacts.apis.io/evolutionaryscale/authentication/evolutionaryscale-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

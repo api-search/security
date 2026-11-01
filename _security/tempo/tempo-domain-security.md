@@ -5,31 +5,31 @@ api_specs:
   label: Tempo Health API
   slug: tempo-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-health-api-openapi.yml
+  url: https://artifacts.apis.io/tempo/openapi/tempo-health-api-openapi.yml
 - filename: tempo-metrics-api-openapi.yml
   format: yaml
   label: Tempo Metrics API
   slug: tempo-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/tempo/openapi/tempo-metrics-api-openapi.yml
 - filename: tempo-search-api-openapi.yml
   format: yaml
   label: Tempo Search API
   slug: tempo-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-search-api-openapi.yml
+  url: https://artifacts.apis.io/tempo/openapi/tempo-search-api-openapi.yml
 - filename: tempo-tags-api-openapi.yml
   format: yaml
   label: Tempo Tags API
   slug: tempo-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-tags-api-openapi.yml
+  url: https://artifacts.apis.io/tempo/openapi/tempo-tags-api-openapi.yml
 - filename: tempo-traces-api-openapi.yml
   format: yaml
   label: Tempo Traces API
   slug: tempo-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/openapi/tempo-traces-api-openapi.yml
+  url: https://artifacts.apis.io/tempo/openapi/tempo-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: tempo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: grafana.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: grafana.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tempo/refs/heads/main/security/tempo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tempo/security/tempo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Distributed Tracing

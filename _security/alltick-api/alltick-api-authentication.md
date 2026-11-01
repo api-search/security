@@ -7,19 +7,19 @@ api_specs:
   label: AllTick API Quote B API
   slug: alltick-api-quote-b-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/openapi/alltick-api-quote-b-api-api-openapi.yml
+  url: https://artifacts.apis.io/alltick-api/openapi/alltick-api-quote-b-api-api-openapi.yml
 - filename: alltick-api-quote-stock-b-api-api-openapi.yml
   format: yaml
   label: AllTick API Quote Stock B API
   slug: alltick-api-quote-stock-b-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/openapi/alltick-api-quote-stock-b-api-api-openapi.yml
+  url: https://artifacts.apis.io/alltick-api/openapi/alltick-api-quote-stock-b-api-api-openapi.yml
 - filename: alltick-api-suspension-api-openapi.yml
   format: yaml
   label: AllTick API Suspension API
   slug: alltick-api-suspension-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/openapi/alltick-api-suspension-api-openapi.yml
+  url: https://artifacts.apis.io/alltick-api/openapi/alltick-api-suspension-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-08-18'\nmethod: searched\nsource: >-\n  https://e
   \ the plan the\n  token belongs to (errors 604 `code unauthorized` and 603 `token level not enough`).\nschemes:\n  - id: token\n    type: apiKey\n    in: query\n    name: token\n    required: true\n    applies_to:\n      - https://quote.alltick.co/quote-stock-b-api/*\n      - https://quote.alltick.co/quote-b-api/*\n      - https://quote.alltick.co/api/suspension/*\n      - wss://quote.alltick.co/quote-stock-b-ws-api\n      - wss://quote.alltick.co/quote-b-ws-api\n    example_form: https://quote.alltick.co/quote-stock-b-api/kline?token=yourToken&query=queryData\n    websocket_form: wss://quote.alltick.co/quote-stock-b-ws-api?token=yourToken\n    format: opaque string; no documented prefix, length or structure\n    rotation: not documented\n    expiry: tied to subscription validity — an expired account yields ret 401 \"token invalid\"\nissuance:\n  self_serve: true\n  steps:\n    - Register at https://alltick.co/register with an email address and password.\n    - Confirm the emailed verification\
   \ code.\n    - On success you land in the dashboard.\n    - Read the token from the dashboard \"API keys\" section.\n  url: https://alltick.co/register\n  approval_required: false\n  note: AllTick's FAQ states registration includes a one-week free trial.\nmissing_from_spec:\n  components_securitySchemes: false\n  root_security: false\n  note: >-\n    openapi/alltick-api-openapi.json has NO components.securitySchemes block and NO top-level\n    `security` requirement. The token appears only as an ordinary required query parameter on each\n    operation, carrying the literal default value \"YOUR_TOKEN_HERE\". A generator reading this spec\n    produces a client with no auth concept at all. Adding an `apiKey`/`in: query` scheme and applying\n    it globally is a one-block fix.\ncredential_exposure:\n  concern: >-\n    Passing a long-lived bearer credential in the query string, on both HTTP and the WebSocket URL,\n    puts it in proxy logs, browser history, Referer headers and server access\
   \ logs. AllTick's own\n    guidance is limited to \"keep your token secure and avoid sharing it\". A header (or\n    `Authorization: Bearer`) alternative is not offered.\n  documented_by_provider: false\nscopes:\n  present: false\n  note: >-\n    No OAuth scopes exist, so no scopes/ artifact is written. Authorization is plan-level, not\n    scope-level: the token's plan determines symbol basket, market coverage, request rate and\n    history depth.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alltick-api/refs/heads/main/authentication/alltick-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alltick-api/authentication/alltick-api-authentication.yml
 summary_line: 1 scheme
 tags:
 - Financial market data

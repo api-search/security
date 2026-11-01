@@ -8,13 +8,13 @@ api_specs:
   label: CertiK Security Score API
   slug: certik-security-score-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/openapi/certik-security-score-api-openapi.yml
+  url: https://artifacts.apis.io/certik/openapi/certik-security-score-api-openapi.yml
 - filename: certik-token-scan-api-openapi.yml
   format: yaml
   label: CertiK Token Scan API
   slug: certik-token-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/openapi/certik-token-scan-api-openapi.yml
+  url: https://artifacts.apis.io/certik/openapi/certik-token-scan-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: certik-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/certik-skynet-openapi.yml\ndocs: https://api.certik-skynet.com/public-docs/authentication\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: CertikApiKey\n  type: apiKey\n  in: header\n  parameter: X-Certik-Api-Key\n  description: Partner API key issued by the CertiK Business Team, sent on every request in\n    the X-Certik-Api-Key header.\n  sources:\n  - openapi/certik-skynet-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/certik/refs/heads/main/authentication/certik-authentication.yml
+source_yaml_url: https://artifacts.apis.io/certik/authentication/certik-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

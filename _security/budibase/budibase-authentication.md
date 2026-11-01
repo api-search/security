@@ -8,55 +8,55 @@ api_specs:
   label: Budibase Applications API
   slug: budibase-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-applications-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-applications-api-openapi.yml
 - filename: budibase-queries-api-openapi.yml
   format: yaml
   label: Budibase Queries API
   slug: budibase-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-queries-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-queries-api-openapi.yml
 - filename: budibase-rows-api-openapi.yml
   format: yaml
   label: Budibase Rows API
   slug: budibase-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-rows-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-rows-api-openapi.yml
 - filename: budibase-tables-api-openapi.yml
   format: yaml
   label: Budibase Tables API
   slug: budibase-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-tables-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-tables-api-openapi.yml
 - filename: budibase-users-api-openapi.yml
   format: yaml
   label: Budibase Users API
   slug: budibase-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-users-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-users-api-openapi.yml
 - filename: budibase-metrics-api-openapi.yml
   format: yaml
   label: Budibase Metrics API
   slug: budibase-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-metrics-api-openapi.yml
 - filename: budibase-roles-api-openapi.yml
   format: yaml
   label: Budibase Roles API
   slug: budibase-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-roles-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-roles-api-openapi.yml
 - filename: budibase-views-api-openapi.yml
   format: yaml
   label: Budibase Views API
   slug: budibase-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-views-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-views-api-openapi.yml
 - filename: budibase-workspaces-api-openapi.yml
   format: yaml
   label: Budibase Workspaces API
   slug: budibase-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-workspaces-api-openapi.yml
 auth_types:
 - apiKey
 description: 'The Budibase Public API has exactly one authentication mechanism: a static per-user API key in a request header. There is no OAuth, no token exchange, no refresh, no scopes and no service account. Authorization is inherited wholesale from the RBAC role of the human user who generated the key.'
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  https://d
   \ immediately invalidates the previous one. No overlap window, so\n    rotation is a hard cutover with downtime for every integration using that key.\n  revocation: Implicit — regenerate to revoke.\n  expiry: None. Keys do not expire.\n  service_accounts: >-\n    Not supported. Any automation must borrow a human user's identity and privileges, and\n    inherits everything that user can do.\nauthorization:\n  model: RBAC inherited from the key owner\n  roles:\n    - BASIC\n    - ADMIN\n    - custom role IDs\n    - per-app builder\n    - global builder\n    - global admin\n  scoping_api: /roles/assign and /roles/unassign\n  detail: >-\n    There are no API scopes. Least privilege is achievable only by creating a dedicated\n    Budibase user with a restricted role and using that user's key — a workaround, not a\n    feature.\nobserved_failures:\n  - status: 400\n    message: Invalid API key provided, please check the x-budibase-api-key header.\n    note: A missing or invalid key returns 400,\
   \ NOT 401. See errors/budibase-problem-types.yml.\n  - status: 401\n    message: Session not authenticated\n  - status: 403\n    message: Workspace Admin/Builder user only endpoint.\ntransport_security:\n  https_required: true\n  tls: TLSv1.3\n  hsts: max-age=31536000; includeSubDomains; preload\n  observed: '2026-09-04'\nwell_known:\n  openid_configuration: not served (404/502 on every host)\n  oauth_authorization_server: not served (404/502 on every host)\n  evidence: well-known/budibase-well-known.yml\nsso_note: >-\n  Budibase supports SSO including OpenID Connect for END USERS signing in to Budibase.\n  That is a product feature and has no bearing on Public API authentication — the API\n  accepts only the API key header.\ngaps:\n  - No scoped or least-privilege credentials.\n  - No key expiry or rotation window; rotation is breaking by design.\n  - No service accounts, so every integration is tied to a person who may leave.\n  - Credential failure signalled with 400 rather than the\
   \ conventional 401.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/authentication/budibase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/budibase/authentication/budibase-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - AI Agents

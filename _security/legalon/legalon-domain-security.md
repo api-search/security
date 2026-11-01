@@ -44,7 +44,7 @@ source_filename: legalon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.legalontech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 03:11:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: legalontech.jp\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 10:47:16 2026 GMT\n  hsts: false\n- host: api.legalontech.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 06:01:53 2026 GMT\n  hsts: null\ndomains:\n- domain: legalontech.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: legalontech.jp\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legalon/refs/heads/main/security/legalon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/legalon/security/legalon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

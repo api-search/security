@@ -7,55 +7,55 @@ api_specs:
   label: WunderCorp AI Generation API
   slug: aureliusagent-dev-ai-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-ai-generation-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-ai-generation-api-openapi.yml
 - filename: aureliusagent-dev-app-planning-api-openapi.yml
   format: yaml
   label: WunderCorp App Planning API
   slug: aureliusagent-dev-app-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-app-planning-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-app-planning-api-openapi.yml
 - filename: aureliusagent-dev-builderstudio-api-openapi.yml
   format: yaml
   label: WunderCorp Builder Studio API
   slug: aureliusagent-dev-builderstudio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-builderstudio-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-builderstudio-api-openapi.yml
 - filename: aureliusagent-dev-capacity-api-openapi.yml
   format: yaml
   label: WunderCorp Capacity API
   slug: aureliusagent-dev-capacity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-capacity-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-capacity-api-openapi.yml
 - filename: aureliusagent-dev-commerce-api-openapi.yml
   format: yaml
   label: WunderCorp Commerce API
   slug: aureliusagent-dev-commerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-commerce-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-commerce-api-openapi.yml
 - filename: aureliusagent-dev-inference-gateway-api-openapi.yml
   format: yaml
   label: WunderCorp Inference Gateway API
   slug: aureliusagent-dev-inference-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-inference-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-inference-gateway-api-openapi.yml
 - filename: aureliusagent-dev-machine-payments-api-openapi.yml
   format: yaml
   label: WunderCorp Machine Payments API
   slug: aureliusagent-dev-machine-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-machine-payments-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-machine-payments-api-openapi.yml
 - filename: aureliusagent-dev-mpp-api-openapi.yml
   format: yaml
   label: WunderCorp Mpp API
   slug: aureliusagent-dev-mpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-mpp-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-mpp-api-openapi.yml
 - filename: aureliusagent-dev-openmodel-pricing-api-openapi.yml
   format: yaml
   label: WunderCorp OpenModel Pricing API
   slug: aureliusagent-dev-openmodel-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/openapi/aureliusagent-dev-openmodel-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/aureliusagent-dev/openapi/aureliusagent-dev-openmodel-pricing-api-openapi.yml
 auth_types:
 - none
 - http
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource:\n- openapi/aure
   \  sources: [https://mpp.openmodel.sh/v1/capabilities]\n  probe: {url: 'https://mpp.openmodel.sh/v1/chat/completions', method: 'POST (unpaid)', status: 402, content_type: application/problem+json}\n- name: X-Capacity-Access-Token\n  type: apiKey\n  in: header\n  surface: Walton Capacity MPP API session routes (GET /mpp/capacity/sessions/{sessionId}, POST .../peering-profile, .../connection-confirmed, .../cancel)\n  description: >-\n    Not declared as a securityScheme; modelled in the spec as a required header parameter on each session\n    route and returned as a response header (and CapacitySession.accessToken) from the paid 201 of POST\n    /mpp/capacity/sessions. mpp.json names it capacity.accessHeader and marks those routes payment mode\n    \"already_paid\" with authorization.header X-Capacity-Access-Token. A per-session capability token\n    issued by payment, not an account key.\n  sources:\n  - openapi/aureliusagent-dev-walton-capacity-mpp-api-openapi.yml\n  - https://mpp.openmodel.sh/.well-known/mpp.json\n\
   - name: bearerAuth\n  type: http\n  scheme: bearer\n  surface: Walton Capacity MPP API provider-side routes (POST /capacity/assets, POST /capacity/sessions/{sessionId}/peering-offer)\n  description: >-\n    Declared securityScheme applied to the two capacity-PROVIDER operations (listing an asset, publishing a\n    peering handoff). mpp.json labels the peering-offer route \"authenticated provider\". How a provider\n    obtains the bearer token is not documented publicly.\n  sources: [openapi/aureliusagent-dev-walton-capacity-mpp-api-openapi.yml]\noauth: false\nopenid_connect: false\napi_keys: false\napi_keys_note: >-\n  The 402 body's humanFallback points at https://api.wundership.com/api-keys (\"Subscribe for persistent API\n  keys, higher quotas, deployment access, managed BuilderStudio resources, and usage-based billing\"); it\n  returned 403 {\"error\":\"Origin is not allowed.\"} on 2026-09-19 and no key format, header name or scope\n  model is published, so no key scheme is recorded.\n\
   notes: >-\n  /.well-known/oauth-authorization-server, /.well-known/oauth-protected-resource and\n  /.well-known/openid-configuration are absent on every host (well-known/aureliusagent-dev-well-known.yml);\n  no scopes/ artifact is written because there is no scope surface.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aureliusagent-dev/refs/heads/main/authentication/aureliusagent-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aureliusagent-dev/authentication/aureliusagent-dev-authentication.yml
 summary_line: none/http · 5 schemes
 tags:
 - Company

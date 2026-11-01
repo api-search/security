@@ -31,7 +31,7 @@ source_filename: 8i-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 8i.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 18:49:42 2026 GMT\n  hsts: false\n- host: player.8i.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  2 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: 8i.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/8i/refs/heads/main/security/8i-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/8i/security/8i-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Volumetric Video

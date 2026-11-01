@@ -29,7 +29,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://support.transcelestial.com/support/solutions/articles/51000334340-centauri-connectivity-requirements\ndocs: https://support.transcelestial.com/support/solutions/articles/51000235505-centauri-product-manual\nsummary:\n  types:\n  - http\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    The CENTAURI Management API and Management UI are served on-device over HTTPS and require\n    authenticated access using token-based authentication. No OpenAPI/Swagger specification is\n    published, so this profile is derived from the CENTAURI support documentation rather than a\n    machine-readable security scheme.\nschemes:\n- name: token\n  type: http\n  scheme: bearer\n  transport: https\n  description: >-\n    Token-based authentication over HTTPS for the CENTAURI device RESTful management API and\n    Management UI. A per-device token authorizes viewing and modifying detailed configuration\n    settings on the CENTAURI\
   \ appliance.\n  sources:\n  - https://support.transcelestial.com/support/solutions/articles/51000334340-centauri-connectivity-requirements\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transcelestial/refs/heads/main/authentication/transcelestial-authentication.yml
+source_yaml_url: https://artifacts.apis.io/transcelestial/authentication/transcelestial-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

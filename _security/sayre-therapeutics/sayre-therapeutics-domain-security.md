@@ -27,7 +27,7 @@ source_filename: sayre-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sayretherapeutics.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 17 07:02:23 2027 GMT\n  hsts: false\ndomains:\n- domain: sayretherapeutics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sayre-therapeutics/refs/heads/main/security/sayre-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sayre-therapeutics/security/sayre-therapeutics-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

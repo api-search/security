@@ -8,25 +8,25 @@ api_specs:
   label: ADVANCE.AI Authentication API
   slug: advanceai-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-authentication-api-openapi.yml
 - filename: advanceai-document-verification-api-openapi.yml
   format: yaml
   label: ADVANCE.AI Document Verification API
   slug: advanceai-document-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-document-verification-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-document-verification-api-openapi.yml
 - filename: advanceai-face-comparison-api-openapi.yml
   format: yaml
   label: ADVANCE.AI Face Comparison API
   slug: advanceai-face-comparison-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-face-comparison-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-face-comparison-api-openapi.yml
 - filename: advanceai-liveness-detection-api-openapi.yml
   format: yaml
   label: ADVANCE.AI Liveness Detection API
   slug: advanceai-liveness-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/openapi/advanceai-liveness-detection-api-openapi.yml
+  url: https://artifacts.apis.io/advanceai/openapi/advanceai-liveness-detection-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -58,7 +58,7 @@ source_yaml: "generated: '2026-09-07'\nmethod: searched\nsource: https://doc.adv
   \  - https://doc.advance.ai/liveness_detection.html\ncredentials:\n  issued_via: >-\n    accessKey and secretKey are issued per account and read from the ADVANCE.AI Websaas platform\n    under Account > Account Management. There is no self-service key issuance — access is sales-led\n    via https://advance.ai/book-free-demo/.\n  key_pair:\n  - name: accessKey\n    role: public identifier, sent in the token request body\n  - name: secretKey\n    role: shared secret, never transmitted; used only to compute the signature\ntoken_exchange:\n  operation_id: generateAccessToken\n  method: POST\n  url: https://api.advance.ai/openapi/auth/ticket/v1/generate-token\n  unauthenticated: true\n  request_fields:\n  - name: accessKey\n    required: true\n  - name: signature\n    required: true\n    description: SHA256 hex digest of the concatenation accessKey + secretKey + timestamp.\n  - name: timestamp\n    required: true\n    description: >-\n      13-digit epoch milliseconds. Must be the same value\
   \ used inside the signature. ADVANCE.AI\n      suggests staying within 300 seconds of current time; a stale value returns\n      PARAMETER_ERROR \"Timestamp error\".\n  - name: periodSecond\n    required: false\n    description: Requested token lifetime in seconds. Default 3600, minimum 60, maximum 86400.\n  signature_algorithm: SHA256\n  signature_recipe: SHA256(accessKey || secretKey || timestamp)\n  response_fields:\n  - token\n  - expiredTime\n  token_lifetime_seconds:\n    default: 3600\n    min: 60\n    max: 86400\nfailure_modes:\n- code: PARAMETER_ERROR\n  meaning: Missing field, \"Timestamp error\", or \"Signature error\".\n  billed: false\n- code: ACCOUNT_DISABLED\n  meaning: Account Disabled — contact the ADVANCE.AI sales manager.\n  billed: false\n- code: IAM_FAILED\n  meaning: >-\n    Returned by the business operations rather than the token endpoint. Covers \"Token not found or\n    expired\", \"Access Key not found or expired\", \"Account not authorized for this country\"\
   ,\n    \"Account not authorized for this domain\", \"Account is expired\" and \"Account is disabled\".\n  billed: false\nnotes:\n- >-\n  The HTTP status is 200 even for authentication failure. Clients must branch on the envelope `code`\n  field, never on the HTTP status.\n- >-\n  ADVANCE.AI explicitly advises re-obtaining a token when the previous one expires, and states the\n  token is shared across every Open API, so one token cache serves the whole integration.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/advanceai/refs/heads/main/authentication/advanceai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/advanceai/authentication/advanceai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

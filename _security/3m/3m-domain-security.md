@@ -5,25 +5,25 @@ api_specs:
   label: 3M Deliveries API
   slug: 3m-deliveries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-deliveries-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-deliveries-api-openapi.yml
 - filename: 3m-invoices-api-openapi.yml
   format: yaml
   label: 3M Invoices API
   slug: 3m-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-invoices-api-openapi.yml
 - filename: 3m-orders-api-openapi.yml
   format: yaml
   label: 3M Orders API
   slug: 3m-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-orders-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-orders-api-openapi.yml
 - filename: 3m-products-api-openapi.yml
   format: yaml
   label: 3M Products API
   slug: 3m-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/openapi/3m-products-api-openapi.yml
+  url: https://artifacts.apis.io/3m/openapi/3m-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +61,7 @@ source_filename: 3m-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.3m.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.3m.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 19:59:51 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.3m.com\n  https: false\ndomains:\n- domain: 3m.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/security/3m-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/3m/security/3m-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Industrial

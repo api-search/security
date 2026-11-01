@@ -5,13 +5,13 @@ api_specs:
   label: Edmunds Vehicle API
   slug: edmunds-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/openapi/edmunds-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/edmunds/openapi/edmunds-vehicle-api-openapi.yml
 - filename: edmunds-aiplugin-api-openapi.yml
   format: yaml
   label: Edmunds Aiplugin API
   slug: edmunds-aiplugin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/openapi/edmunds-aiplugin-api-openapi.yml
+  url: https://artifacts.apis.io/edmunds/openapi/edmunds-aiplugin-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: edmunds-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.edmunds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 29 23:59:59 2026 GMT\n  hsts: false\n- host: api.edmunds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: edmunds.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/edmunds/refs/heads/main/security/edmunds-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/edmunds/security/edmunds-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Automobiles

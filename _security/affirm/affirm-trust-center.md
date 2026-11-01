@@ -5,55 +5,55 @@ api_specs:
   label: Affirm Transactions API
   slug: affirm-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-transactions-api-openapi.yml
 - filename: affirm-authorization-api-openapi.yml
   format: yaml
   label: Affirm Authorization API
   slug: affirm-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-authorization-api-openapi.yml
 - filename: affirm-cards-api-openapi.yml
   format: yaml
   label: Affirm Cards API
   slug: affirm-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-cards-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-cards-api-openapi.yml
 - filename: affirm-checkouts-api-openapi.yml
   format: yaml
   label: Affirm Checkouts API
   slug: affirm-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-checkouts-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-checkouts-api-openapi.yml
 - filename: affirm-disputes-api-openapi.yml
   format: yaml
   label: Affirm Disputes API
   slug: affirm-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-disputes-api-openapi.yml
 - filename: affirm-promos-api-openapi.yml
   format: yaml
   label: Affirm Promos API
   slug: affirm-promos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-promos-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-promos-api-openapi.yml
 - filename: affirm-settlement-events-api-openapi.yml
   format: yaml
   label: Affirm Settlement Events API
   slug: affirm-settlement-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-settlement-events-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-settlement-events-api-openapi.yml
 - filename: affirm-transaction-events-api-openapi.yml
   format: yaml
   label: Affirm Transaction Events API
   slug: affirm-transaction-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transaction-events-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-transaction-events-api-openapi.yml
 - filename: affirm-transactions-api-openapi.yml
   format: yaml
   label: Affirm Transactions API
   slug: affirm-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/openapi/affirm-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/affirm/openapi/affirm-transactions-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -71,7 +71,7 @@ source_filename: affirm-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.affirm.com/\nurl: https://trust.affirm.com/\ncertifications:\n- SOC 2\n- PCI DSS\nevidence:\n- source: https://trust.affirm.com/\n  keywords:\n  - soc 2\n  - pci dss\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/security/affirm-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/affirm/security/affirm-trust-center.yml
 summary_line: SOC 2, PCI DSS
 tags:
 - Fintech

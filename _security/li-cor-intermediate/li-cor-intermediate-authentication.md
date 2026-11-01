@@ -7,13 +7,13 @@ api_specs:
   label: LI-COR Intermediate Data API
   slug: li-cor-intermediate-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/openapi/li-cor-intermediate-data-api-openapi.yml
+  url: https://artifacts.apis.io/li-cor-intermediate/openapi/li-cor-intermediate-data-api-openapi.yml
 - filename: li-cor-intermediate-newa-api-openapi.yml
   format: yaml
   label: LI-COR Intermediate Newa API
   slug: li-cor-intermediate-newa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/openapi/li-cor-intermediate-newa-api-openapi.yml
+  url: https://artifacts.apis.io/li-cor-intermediate/openapi/li-cor-intermediate-newa-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: li-cor-intermediate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/li-cor-intermediate-hobolink-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/li-cor-intermediate-hobolink-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/li-cor-intermediate/refs/heads/main/authentication/li-cor-intermediate-authentication.yml
+source_yaml_url: https://artifacts.apis.io/li-cor-intermediate/authentication/li-cor-intermediate-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

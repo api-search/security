@@ -8,13 +8,13 @@ api_specs:
   label: F5 Distributed Cloud Services Config API
   slug: f5-distributed-cloud-services-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/openapi/f5-distributed-cloud-services-config-api-openapi.yml
+  url: https://artifacts.apis.io/f5-distributed-cloud-services/openapi/f5-distributed-cloud-services-config-api-openapi.yml
 - filename: f5-distributed-cloud-services-data-api-openapi.yml
   format: yaml
   label: F5 Distributed Cloud Services Data API
   slug: f5-distributed-cloud-services-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/openapi/f5-distributed-cloud-services-data-api-openapi.yml
+  url: https://artifacts.apis.io/f5-distributed-cloud-services/openapi/f5-distributed-cloud-services-data-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -46,7 +46,7 @@ source_filename: f5-distributed-cloud-services-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/f5-distributed-cloud-services-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Send \"Authorization: APIToken {token}\" using a token issued from\n    the F5 Distributed Cloud Console (Personal Tokens or Service\n    Credentials).\n  sources:\n  - openapi/f5-distributed-cloud-services-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/f5-distributed-cloud-services/refs/heads/main/authentication/f5-distributed-cloud-services-authentication.yml
+source_yaml_url: https://artifacts.apis.io/f5-distributed-cloud-services/authentication/f5-distributed-cloud-services-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Application Security

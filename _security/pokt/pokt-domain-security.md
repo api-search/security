@@ -5,31 +5,31 @@ api_specs:
   label: Pocket Network Msg API
   slug: pokt-msg-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-msg-api-openapi.yml
+  url: https://artifacts.apis.io/pokt/openapi/pokt-msg-api-openapi.yml
 - filename: pokt-query-api-openapi.yml
   format: yaml
   label: Pocket Network Query API
   slug: pokt-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-query-api-openapi.yml
+  url: https://artifacts.apis.io/pokt/openapi/pokt-query-api-openapi.yml
 - filename: pokt-disqualified-endpoints-api-openapi.yml
   format: yaml
   label: Pocket Network Disqualified Endpoints API
   slug: pokt-disqualified-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-disqualified-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/pokt/openapi/pokt-disqualified-endpoints-api-openapi.yml
 - filename: pokt-healthz-api-openapi.yml
   format: yaml
   label: Pocket Network Healthz API
   slug: pokt-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/pokt/openapi/pokt-healthz-api-openapi.yml
 - filename: pokt-path-path-api-toolkit-harness-api-openapi.yml
   format: yaml
   label: Pocket Network PATH Path API & Toolkit Harness API
   slug: pokt-path-path-api-toolkit-harness-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/openapi/pokt-path-path-api-toolkit-harness-api-openapi.yml
+  url: https://artifacts.apis.io/pokt/openapi/pokt-path-path-api-toolkit-harness-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: pokt-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pocket.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 15:47:38 2026 GMT\n  hsts: false\n- host: api.pocket.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 12:56:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.pocket.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 18:32:18 2026 GMT\n  hsts: false\ndomains:\n- domain: pocket.network\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pokt/refs/heads/main/security/pokt-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pokt/security/pokt-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Blockchain

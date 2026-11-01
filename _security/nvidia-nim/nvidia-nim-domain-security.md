@@ -5,61 +5,61 @@ api_specs:
   label: NVIDIA NIM Completions API
   slug: nvidia-nim-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-completions-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-completions-api-openapi.yml
 - filename: nvidia-nim-embeddings-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Embeddings API
   slug: nvidia-nim-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-embeddings-api-openapi.yml
 - filename: nvidia-nim-reranking-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Reranking API
   slug: nvidia-nim-reranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-reranking-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-reranking-api-openapi.yml
 - filename: nvidia-nim-models-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Models API
   slug: nvidia-nim-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-models-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-models-api-openapi.yml
 - filename: nvidia-nim-health-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Health API
   slug: nvidia-nim-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-health-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-health-api-openapi.yml
 - filename: nvidia-nim-biology-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Biology (BioNeMo) API
   slug: nvidia-nim-biology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-biology-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-biology-api-openapi.yml
 - filename: nvidia-nim-asr-api-openapi.yml
   format: yaml
   label: NVIDIA NIM ASR API
   slug: nvidia-nim-asr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-asr-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-asr-api-openapi.yml
 - filename: nvidia-nim-images-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Images API
   slug: nvidia-nim-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-images-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-images-api-openapi.yml
 - filename: nvidia-nim-tts-api-openapi.yml
   format: yaml
   label: NVIDIA NIM TTS API
   slug: nvidia-nim-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-tts-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-tts-api-openapi.yml
 - filename: nvidia-nim-chat-completions-api-openapi.yml
   format: yaml
   label: NVIDIA NIM Chat Completions API
   slug: nvidia-nim-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/openapi/nvidia-nim-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/nvidia-nim/openapi/nvidia-nim-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: nvidia-nim-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: build.nvidia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: false\n- host: docs.api.nvidia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 16:45:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: integrate.api.nvidia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: nvidia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/security/nvidia-nim-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nvidia-nim/security/nvidia-nim-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

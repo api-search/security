@@ -3,18 +3,30 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: cloudmersive-scan-api-openapi.yml
+- filename: cloudmersive-imageocr-api-openapi.yml
   format: yaml
-  label: Cloudmersive Scan API
-  slug: cloudmersive-scan-api
+  label: Cloudmersive Image Ocr API
+  slug: cloudmersive-imageocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-scan-api-openapi.yml
-- filename: cloudmersive-scancloudstorage-api-openapi.yml
+  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-imageocr-api-openapi.yml
+- filename: cloudmersive-pdfocr-api-openapi.yml
   format: yaml
-  label: Cloudmersive ScanCloudStorage API
-  slug: cloudmersive-scancloudstorage-api
+  label: Cloudmersive PDF Ocr API
+  slug: cloudmersive-pdfocr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/openapi/cloudmersive-scancloudstorage-api-openapi.yml
+  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-pdfocr-api-openapi.yml
+- filename: cloudmersive-preprocessing-api-openapi.yml
+  format: yaml
+  label: Cloudmersive Preprocessing API
+  slug: cloudmersive-preprocessing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-preprocessing-api-openapi.yml
+- filename: cloudmersive-receipts-api-openapi.yml
+  format: yaml
+  label: Cloudmersive Receipts API
+  slug: cloudmersive-receipts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-receipts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +54,7 @@ source_filename: cloudmersive-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudmersive-virus-scan-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Apikey\n  type: apiKey\n  in: header\n  parameter: Apikey\n  description: API Key Authentication\n  sources:\n  - openapi/cloudmersive-virus-scan-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/authentication/cloudmersive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudmersive/authentication/cloudmersive-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Barcodes

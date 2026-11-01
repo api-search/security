@@ -5,31 +5,31 @@ api_specs:
   label: JarvisLabs Account API
   slug: jarvislabs-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-account-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-account-api-openapi.yml
 - filename: jarvislabs-filesystems-api-openapi.yml
   format: yaml
   label: JarvisLabs Filesystems API
   slug: jarvislabs-filesystems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-filesystems-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-filesystems-api-openapi.yml
 - filename: jarvislabs-gpu-types-api-openapi.yml
   format: yaml
   label: JarvisLabs GPU Types API
   slug: jarvislabs-gpu-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-gpu-types-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-gpu-types-api-openapi.yml
 - filename: jarvislabs-instances-api-openapi.yml
   format: yaml
   label: JarvisLabs Instances API
   slug: jarvislabs-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-instances-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-instances-api-openapi.yml
 - filename: jarvislabs-templates-api-openapi.yml
   format: yaml
   label: JarvisLabs Templates API
   slug: jarvislabs-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/openapi/jarvislabs-templates-api-openapi.yml
+  url: https://artifacts.apis.io/jarvislabs/openapi/jarvislabs-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +67,7 @@ source_filename: jarvislabs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jarvislabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 22:34:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.jarvislabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 00:45:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.jarvislabs.ai\n  https: false\ndomains:\n- domain: jarvislabs.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/security/jarvislabs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jarvislabs/security/jarvislabs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

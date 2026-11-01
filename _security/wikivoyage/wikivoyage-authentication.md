@@ -8,55 +8,55 @@ api_specs:
   label: Wikivoyage Edit API
   slug: wikivoyage-edit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-edit-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-edit-api-openapi.yml
 - filename: wikivoyage-files-api-openapi.yml
   format: yaml
   label: Wikivoyage Files API
   slug: wikivoyage-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-files-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-files-api-openapi.yml
 - filename: wikivoyage-history-api-openapi.yml
   format: yaml
   label: Wikivoyage History API
   slug: wikivoyage-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-history-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-history-api-openapi.yml
 - filename: wikivoyage-links-api-openapi.yml
   format: yaml
   label: Wikivoyage Links API
   slug: wikivoyage-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-links-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-links-api-openapi.yml
 - filename: wikivoyage-pages-api-openapi.yml
   format: yaml
   label: Wikivoyage Pages API
   slug: wikivoyage-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-pages-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-pages-api-openapi.yml
 - filename: wikivoyage-query-api-openapi.yml
   format: yaml
   label: Wikivoyage Query API
   slug: wikivoyage-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-query-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-query-api-openapi.yml
 - filename: wikivoyage-revisions-api-openapi.yml
   format: yaml
   label: Wikivoyage Revisions API
   slug: wikivoyage-revisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-revisions-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-revisions-api-openapi.yml
 - filename: wikivoyage-search-api-openapi.yml
   format: yaml
   label: Wikivoyage Search API
   slug: wikivoyage-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-search-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-search-api-openapi.yml
 - filename: wikivoyage-transforms-api-openapi.yml
   format: yaml
   label: Wikivoyage Transforms API
   slug: wikivoyage-transforms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/openapi/wikivoyage-transforms-api-openapi.yml
+  url: https://artifacts.apis.io/wikivoyage/openapi/wikivoyage-transforms-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -92,7 +92,7 @@ source_filename: wikivoyage-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wikivoyage-mediawiki-action-api-openapi.yaml, openapi/wikivoyage-mediawiki-core-rest-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 bearer token from meta.wikimedia.org\n  sources:\n  - openapi/wikivoyage-mediawiki-action-api-openapi.yaml\n  - openapi/wikivoyage-mediawiki-core-rest-openapi.yaml\n- name: CookieAuth\n  type: apiKey\n  in: cookie\n  parameter: wikivoyagewikiUserID\n  description: Session cookie obtained via action=login or action=clientlogin\n  sources:\n  - openapi/wikivoyage-mediawiki-action-api-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/authentication/wikivoyage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wikivoyage/authentication/wikivoyage-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Travel

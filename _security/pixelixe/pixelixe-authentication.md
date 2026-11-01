@@ -7,19 +7,19 @@ api_specs:
   label: Pixelixe Authentication API
   slug: pixelixe-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/openapi/pixelixe-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pixelixe/openapi/pixelixe-authentication-api-openapi.yml
 - filename: pixelixe-document-api-openapi.yml
   format: yaml
   label: Pixelixe Document API
   slug: pixelixe-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/openapi/pixelixe-document-api-openapi.yml
+  url: https://artifacts.apis.io/pixelixe/openapi/pixelixe-document-api-openapi.yml
 - filename: pixelixe-graphic-api-openapi.yml
   format: yaml
   label: Pixelixe Graphic API
   slug: pixelixe-graphic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/openapi/pixelixe-graphic-api-openapi.yml
+  url: https://artifacts.apis.io/pixelixe/openapi/pixelixe-graphic-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +45,7 @@ source_filename: pixelixe-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pixelixe-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/pixelixe-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixelixe/refs/heads/main/authentication/pixelixe-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pixelixe/authentication/pixelixe-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Graphics

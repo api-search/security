@@ -7,7 +7,7 @@ api_specs:
   label: Zircuit Orders API
   slug: zircuit-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/openapi/zircuit-orders-api-openapi.yml
+  url: https://artifacts.apis.io/zircuit/openapi/zircuit-orders-api-openapi.yml
 auth_types:
 - http
 - none
@@ -43,7 +43,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/zircuit-gud-trading-engine-openapi.yml\ndocs: https://docs.zircuit.com/infra/gud-trading-engine-beta/api-endpoint\nsummary:\n  types:\n  - http\n  - none\n  notes: >-\n    Zircuit exposes two distinct API surfaces with different auth models. The\n    public Ethereum JSON-RPC endpoints (mainnet.zircuit.com,\n    garfield-testnet.zircuit.com) are unauthenticated public RPC — access is\n    open, with paid higher-throughput node access available from third parties\n    such as DRPC. The GUD Trading Engine REST API requires an HTTP Bearer API\n    key provisioned by the Zircuit team.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  api: Zircuit GUD Trading Engine API (Beta)\n  description: >-\n    API key passed as an HTTP Bearer token (Authorization: Bearer <API_KEY>).\n    Keys are provisioned by the Zircuit team and are also shared at hackathons;\n    contact the team to obtain one.\n  docs: https://docs.zircuit.com/infra/gud-trading-engine-beta/api-endpoint\n\
   \  sources:\n  - openapi/zircuit-gud-trading-engine-openapi.yml\n- name: publicRpc\n  type: none\n  api: Zircuit JSON-RPC API\n  description: >-\n    Public, unauthenticated Ethereum JSON-RPC 2.0 access over HTTPS and WSS.\n    No API key required for the community endpoints; paid dedicated node access\n    is offered by DRPC.\n  docs: https://docs.zircuit.com/infra/rpcs\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zircuit/refs/heads/main/authentication/zircuit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zircuit/authentication/zircuit-authentication.yml
 summary_line: http/none · 2 schemes
 tags:
 - Company

@@ -26,7 +26,7 @@ source_filename: digitalsurgery-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: digitalsurgery.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: digitalsurgery.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digitalsurgery/refs/heads/main/security/digitalsurgery-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/digitalsurgery/security/digitalsurgery-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

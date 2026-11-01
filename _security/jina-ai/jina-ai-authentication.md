@@ -7,25 +7,25 @@ api_specs:
   label: Jina AI Batch API
   slug: jina-ai-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-batch-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-batch-api-openapi.yml
 - filename: jina-ai-embeddings-api-openapi.yml
   format: yaml
   label: Jina AI Embeddings API
   slug: jina-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-embeddings-api-openapi.yml
 - filename: jina-ai-reader-api-openapi.yml
   format: yaml
   label: Jina AI Reader API
   slug: jina-ai-reader-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-reader-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reader-api-openapi.yml
 - filename: jina-ai-reranker-api-openapi.yml
   format: yaml
   label: Jina AI Reranker API
   slug: jina-ai-reranker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/openapi/jina-ai-reranker-api-openapi.yml
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reranker-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -54,7 +54,7 @@ source_filename: jina-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/jina-ai-embeddings-openapi.yml, openapi/jina-ai-reader-openapi.yml, openapi/jina-ai-reranker-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  sources:\n  - openapi/jina-ai-embeddings-openapi.yml\n  - openapi/jina-ai-reader-openapi.yml\n  - openapi/jina-ai-reranker-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/authentication/jina-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jina-ai/authentication/jina-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

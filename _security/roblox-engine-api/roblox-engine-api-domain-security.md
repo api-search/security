@@ -5,43 +5,43 @@ api_specs:
   label: Roblox Engine API Assets API
   slug: roblox-engine-api-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-assets-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-assets-api-openapi.yml
 - filename: roblox-engine-api-groups-api-openapi.yml
   format: yaml
   label: Roblox Engine API Groups API
   slug: roblox-engine-api-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-groups-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-groups-api-openapi.yml
 - filename: roblox-engine-api-messaging-api-openapi.yml
   format: yaml
   label: Roblox Engine API Messaging API
   slug: roblox-engine-api-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-messaging-api-openapi.yml
 - filename: roblox-engine-api-places-api-openapi.yml
   format: yaml
   label: Roblox Engine API Places API
   slug: roblox-engine-api-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-places-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-places-api-openapi.yml
 - filename: roblox-engine-api-universes-api-openapi.yml
   format: yaml
   label: Roblox Engine API Universes API
   slug: roblox-engine-api-universes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-universes-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-universes-api-openapi.yml
 - filename: roblox-engine-api-users-api-openapi.yml
   format: yaml
   label: Roblox Engine API Users API
   slug: roblox-engine-api-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-users-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-users-api-openapi.yml
 - filename: roblox-engine-api-datastores-api-openapi.yml
   format: yaml
   label: Roblox Engine API Datastores API
   slug: roblox-engine-api-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/openapi/roblox-engine-api-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/roblox-engine-api/openapi/roblox-engine-api-datastores-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -88,7 +88,7 @@ source_filename: roblox-engine-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.roblox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: create.roblox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: apis.roblox.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: roblox.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/roblox-engine-api/refs/heads/main/security/roblox-engine-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/roblox-engine-api/security/roblox-engine-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Gaming

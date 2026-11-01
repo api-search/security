@@ -8,79 +8,79 @@ api_specs:
   label: AgentPhone Agent Webhooks API
   slug: agentphone-agent-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-agent-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-agent-webhooks-api-openapi.yml
 - filename: agentphone-agents-api-openapi.yml
   format: yaml
   label: AgentPhone Agents API
   slug: agentphone-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-agents-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-agents-api-openapi.yml
 - filename: agentphone-calls-api-openapi.yml
   format: yaml
   label: AgentPhone Calls API
   slug: agentphone-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-calls-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-calls-api-openapi.yml
 - filename: agentphone-contactcards-api-openapi.yml
   format: yaml
   label: AgentPhone Contact Cards API
   slug: agentphone-contactcards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-contactcards-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-contactcards-api-openapi.yml
 - filename: agentphone-contacts-api-openapi.yml
   format: yaml
   label: AgentPhone Contacts API
   slug: agentphone-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-contacts-api-openapi.yml
 - filename: agentphone-conversations-api-openapi.yml
   format: yaml
   label: AgentPhone Conversations API
   slug: agentphone-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-conversations-api-openapi.yml
 - filename: agentphone-location-api-openapi.yml
   format: yaml
   label: AgentPhone Location API
   slug: agentphone-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-location-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-location-api-openapi.yml
 - filename: agentphone-messages-api-openapi.yml
   format: yaml
   label: AgentPhone Messages API
   slug: agentphone-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-messages-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-messages-api-openapi.yml
 - filename: agentphone-numbers-api-openapi.yml
   format: yaml
   label: AgentPhone Numbers API
   slug: agentphone-numbers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-numbers-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-numbers-api-openapi.yml
 - filename: agentphone-registration-api-openapi.yml
   format: yaml
   label: AgentPhone Registration API
   slug: agentphone-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-registration-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-registration-api-openapi.yml
 - filename: agentphone-usage-api-openapi.yml
   format: yaml
   label: AgentPhone Usage API
   slug: agentphone-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-usage-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-usage-api-openapi.yml
 - filename: agentphone-webhooks-api-openapi.yml
   format: yaml
   label: AgentPhone Webhooks API
   slug: agentphone-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-webhooks-api-openapi.yml
 - filename: agentphone-subaccounts-api-openapi.yml
   format: yaml
   label: AgentPhone Subaccounts API
   slug: agentphone-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/openapi/agentphone-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-subaccounts-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -124,7 +124,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: openapi/agentphone-openapi-original.json\ndocs: https://docs.agentphone.ai/welcome\nsummary:\n  types:\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\ndescription: >-\n  The AgentPhone REST API authenticates with an API key passed as an HTTP\n  Bearer token on every request (Authorization: Bearer <API_KEY>). Keys are\n  created in the dashboard under Settings -> API Keys. A separate OAuth 2.0\n  authorization server (advertised at /.well-known/oauth-authorization-server\n  and /.well-known/openid-configuration on api.agentphone.ai) secures the\n  remote MCP surface with authorization_code + PKCE, dynamic client\n  registration, refresh tokens, and a single `mcp` scope.\nschemes:\n- name: HTTPBearer\n  type: http\n  scheme: bearer\n  description: API key supplied as a Bearer token on every REST request.\n  sources:\n  - openapi/agentphone-openapi-original.json\n- name: MCPOAuth2\n  type:\
   \ oauth2\n  description: >-\n    OAuth 2.0 / OIDC authorization server protecting the remote MCP surface\n    (RFC 8414 metadata). Not used by the core REST API.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://agentphone.ai/oauth/authorize\n    tokenUrl: https://api.agentphone.ai/oauth/token\n    registrationUrl: https://api.agentphone.ai/oauth/register\n    revocationUrl: https://api.agentphone.ai/oauth/revoke\n    scopes:\n      mcp: Access the AgentPhone MCP tools\n  pkce: true\n  sources:\n  - well-known/agentphone-oauth-authorization-server.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentphone/refs/heads/main/authentication/agentphone-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agentphone/authentication/agentphone-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

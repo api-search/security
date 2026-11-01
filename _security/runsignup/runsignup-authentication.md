@@ -8,55 +8,55 @@ api_specs:
   label: RunSignup Corrals API
   slug: runsignup-corrals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-corrals-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-corrals-api-openapi.yml
 - filename: runsignup-divisions-api-openapi.yml
   format: yaml
   label: RunSignup Divisions API
   slug: runsignup-divisions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-divisions-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-divisions-api-openapi.yml
 - filename: runsignup-donations-api-openapi.yml
   format: yaml
   label: RunSignup Donations API
   slug: runsignup-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-donations-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-donations-api-openapi.yml
 - filename: runsignup-participants-api-openapi.yml
   format: yaml
   label: RunSignup Participants API
   slug: runsignup-participants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-participants-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-participants-api-openapi.yml
 - filename: runsignup-races-api-openapi.yml
   format: yaml
   label: RunSignup Races API
   slug: runsignup-races-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-races-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-races-api-openapi.yml
 - filename: runsignup-reference-api-openapi.yml
   format: yaml
   label: RunSignup Reference API
   slug: runsignup-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-reference-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-reference-api-openapi.yml
 - filename: runsignup-results-api-openapi.yml
   format: yaml
   label: RunSignup Results API
   slug: runsignup-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-results-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-results-api-openapi.yml
 - filename: runsignup-teams-api-openapi.yml
   format: yaml
   label: RunSignup Teams API
   slug: runsignup-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-teams-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-teams-api-openapi.yml
 - filename: runsignup-users-api-openapi.yml
   format: yaml
   label: RunSignup Users API
   slug: runsignup-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/openapi/runsignup-users-api-openapi.yml
+  url: https://artifacts.apis.io/runsignup/openapi/runsignup-users-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -96,7 +96,7 @@ source_filename: runsignup-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/runsignup-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://runsignup.com/OAuth/Authorize\n    tokenUrl: https://runsignup.com/OAuth/Token\n    scopes: 2\n  description: OAuth 2.0 authentication (preferred)\n  sources:\n  - openapi/runsignup-openapi.yml\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Permanent API key for affiliates, partners, and timers. Pass api_key and api_secret\n    as query parameters.\n  sources:\n  - openapi/runsignup-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/runsignup/refs/heads/main/authentication/runsignup-authentication.yml
+source_yaml_url: https://artifacts.apis.io/runsignup/authentication/runsignup-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Race Registration

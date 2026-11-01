@@ -8,13 +8,13 @@ api_specs:
   label: Virix Labs Account API
   slug: humanbrowser-cloud-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/openapi/humanbrowser-cloud-account-api-openapi.yml
+  url: https://artifacts.apis.io/humanbrowser-cloud/openapi/humanbrowser-cloud-account-api-openapi.yml
 - filename: humanbrowser-cloud-session-api-openapi.yml
   format: yaml
   label: Virix Labs Session API
   slug: humanbrowser-cloud-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/openapi/humanbrowser-cloud-session-api-openapi.yml
+  url: https://artifacts.apis.io/humanbrowser-cloud/openapi/humanbrowser-cloud-session-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -161,7 +161,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/humanbr
   \ method: POST, status: 404, body: '{\"error\":\"not-found\",\"path\":\"/oauth/token\"}'}\n  sources:\n  - openapi/humanbrowser-cloud-openapi.json\n- name: mcp-oauth (RFC 8414 / RFC 9728, not in the OpenAPI)\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://agent.humanbrowser.cloud/authorize\n    tokenUrl: https://agent.humanbrowser.cloud/token\n    refreshUrl: https://agent.humanbrowser.cloud/token\n    registrationUrl: https://agent.humanbrowser.cloud/register\n    revocationUrl: https://agent.humanbrowser.cloud/revoke\n    pkce: S256 required (only method listed)\n    client_auth: [none, client_secret_post]\n    client_ids: 'CIMD URL (https://) or DCR id hbc_<32hex>'\n    scopes: [mcp:run, mcp:read]\n  resource: https://agent.humanbrowser.cloud/mcp\n  description: The OAuth 2.1 door an MCP client following RFC 9728 discovery would find; scopes and endpoints from the two well-known documents. No human-readable documentation exists for it.\n  status:\
   \ live but undocumented\n  observed:\n  - {url: 'GET /authorize', status: 400, body: 'unsupported_response_type — response_type must be code'}\n  - {url: 'GET /authorize?response_type=code&client_id=probe', status: 400, body: 'invalid_client — client_id must be CIMD URL (https://) or DCR id (hbc_<32hex>)'}\n  - {url: 'POST /token (empty form)', status: 400, body: 'unsupported_grant_type — grant_type must be authorization_code or refresh_token'}\n  - {url: 'GET /token', status: 404}\n  - {url: 'GET /register', status: 404, note: 'POST not attempted (would register a client)'}\n  - {url: 'https://humanbrowser.cloud/docs/oauth (service_documentation)', status: 404}\n  sources:\n  - well-known/humanbrowser-cloud-oauth-authorization-server.json\n  - well-known/humanbrowser-cloud-oauth-protected-resource.json\na2a_card_scheme:\n  http_bearer: {type: http, scheme: bearer, description: 'Skill token issued by humanbrowser.cloud. Required on every /a2a call.'}\n  security: [{http_bearer: []}]\n\
   environment_variables:\n  HB_TOKEN: canonical since 5.0.2 (stdio MCP server, CLI)\n  HUMANBROWSER_API_TOKEN: legacy alias, still accepted\n  HB_API_BASE / HUMANBROWSER_API_BASE: 'override the agent host (default https://agent.humanbrowser.cloud)'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/humanbrowser-cloud/refs/heads/main/authentication/humanbrowser-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/humanbrowser-cloud/authentication/humanbrowser-cloud-authentication.yml
 summary_line: http/apiKey/oauth2 · 4 schemes
 tags:
 - Browser Automation

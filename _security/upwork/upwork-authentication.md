@@ -7,43 +7,43 @@ api_specs:
   label: Upwork Authentication API
   slug: upwork-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-authentication-api-openapi.yml
 - filename: upwork-contracts-api-openapi.yml
   format: yaml
   label: Upwork Contracts API
   slug: upwork-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-contracts-api-openapi.yml
 - filename: upwork-jobs-api-openapi.yml
   format: yaml
   label: Upwork Jobs API
   slug: upwork-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-jobs-api-openapi.yml
 - filename: upwork-messages-api-openapi.yml
   format: yaml
   label: Upwork Messages API
   slug: upwork-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-messages-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-messages-api-openapi.yml
 - filename: upwork-organizations-api-openapi.yml
   format: yaml
   label: Upwork Organizations API
   slug: upwork-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-organizations-api-openapi.yml
 - filename: upwork-profiles-api-openapi.yml
   format: yaml
   label: Upwork Profiles API
   slug: upwork-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-profiles-api-openapi.yml
 - filename: upwork-reports-api-openapi.yml
   format: yaml
   label: Upwork Reports API
   slug: upwork-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/openapi/upwork-reports-api-openapi.yml
+  url: https://artifacts.apis.io/upwork/openapi/upwork-reports-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -76,7 +76,7 @@ source_filename: upwork-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/upwork-graphql-api-openapi.yml, openapi/upwork-rest-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2AuthCode\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.upwork.com/ab/account-security/oauth2/authorize\n    tokenUrl: https://www.upwork.com/api/v3/oauth2/token\n    scopes: 9\n  description: OAuth 2.0 authorization code flow for Upwork API access. Obtain an authorization\n    code by redirecting users to the Upwork OAuth consent page, then exchange for access and\n    refresh tokens.\n  sources:\n  - openapi/upwork-graphql-api-openapi.yml\n  - openapi/upwork-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upwork/refs/heads/main/authentication/upwork-authentication.yml
+source_yaml_url: https://artifacts.apis.io/upwork/authentication/upwork-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Freelancing

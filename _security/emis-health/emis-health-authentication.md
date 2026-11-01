@@ -7,61 +7,61 @@ api_specs:
   label: EMIS Health Appointments API
   slug: emis-health-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-appointments-api-openapi.yml
 - filename: emis-health-cors-api-openapi.yml
   format: yaml
   label: EMIS Health CORS API
   slug: emis-health-cors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-cors-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-cors-api-openapi.yml
 - filename: emis-health-health-api-openapi.yml
   format: yaml
   label: EMIS Health API
   slug: emis-health-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-health-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-health-api-openapi.yml
 - filename: emis-health-medicalrecord-api-openapi.yml
   format: yaml
   label: EMIS Health Medical Record API
   slug: emis-health-medicalrecord-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-medicalrecord-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-medicalrecord-api-openapi.yml
 - filename: emis-health-organisation-api-openapi.yml
   format: yaml
   label: EMIS Health Organisation API
   slug: emis-health-organisation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-organisation-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-organisation-api-openapi.yml
 - filename: emis-health-patient-api-openapi.yml
   format: yaml
   label: EMIS Health Patient API
   slug: emis-health-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-patient-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-patient-api-openapi.yml
 - filename: emis-health-patientmatching-api-openapi.yml
   format: yaml
   label: EMIS Health Patient Matching API
   slug: emis-health-patientmatching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-patientmatching-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-patientmatching-api-openapi.yml
 - filename: emis-health-search-api-openapi.yml
   format: yaml
   label: EMIS Health Search API
   slug: emis-health-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-search-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-search-api-openapi.yml
 - filename: emis-health-swagger-api-openapi.yml
   format: yaml
   label: EMIS Health Swagger API
   slug: emis-health-swagger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-swagger-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-swagger-api-openapi.yml
 - filename: emis-health-user-api-openapi.yml
   format: yaml
   label: EMIS Health User API
   slug: emis-health-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/openapi/emis-health-user-api-openapi.yml
+  url: https://artifacts.apis.io/emis-health/openapi/emis-health-user-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -106,7 +106,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-24'\nmethod: searched\nsource: openapi/emis-health-partner-api-openapi.json\ndocs: https://docs.partner.emis-x.uk/auth/\nsummary:\n  types: [http, oauth2, openIdConnect]\n  api_key_in: []\n  oauth2_flows: [authorizationCode, clientCredentials, authorizationCodePKCE, resourceOwnerPassword]\n  token_format: JWT bearer\n  token_validity: ~1 hour (issuer may change at any time)\n  identity_provider: Microsoft Entra External ID / Azure AD B2C (identity.stg.emis-x.uk)\n  extra_authorization: >-\n    Access tokens carry an \"authorizations\" JWT claim array of ERN-scoped grants\n    (e.g. clinical-cr.read, clinical-cr.write) plus userERN / orgERN / orgName\n    identity context, governing EMIS-X clinical record access per partner agreement.\nflows_documented:\n- flow: client_credentials\n  client: Machine-to-machine, confidential client\n  user_present: false\n  tokens: access\n- flow: authorization_code\n  client: Web app, confidential client\n  user_present:\
   \ true\n  tokens: [id, access, refresh]\n- flow: authorization_code_pkce\n  client: Mobile / SPA / desktop, public client\n  user_present: true\n  tokens: [id, access, refresh]\n- flow: resource_owner_password\n  client: Automated testing only (not for production)\n  user_present: false\n  tokens: [access, refresh]\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  applied_to: all 38 partner operations (every operation also accepts OAuth2CodeEMIS-X-GP-PAPI)\n  sources: [openapi/emis-health-partner-api-openapi.json]\n- name: OAuth2CodeEMIS-X-GP-PAPI\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    scopes: 7\n    authorizationUrl: https://identity.stg.emis-x.uk/b205162c-c95a-4639-8076-bb1fcb152d2b/b2c_1a_clientcredentials/oauth2/authorize\n    tokenUrl: https://identity.stg.emis-x.uk/b205162c-c95a-4639-8076-bb1fcb152d2b/b2c_1a_clientcredentials/oauth2/token\n  sources: [openapi/emis-health-partner-api-openapi.json]\nrequest_context:\n  header: applicationId\n\
   \  required: true\n  note: Every partner operation requires an applicationId header identifying the calling partner application.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/emis-health/refs/heads/main/authentication/emis-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/emis-health/authentication/emis-health-authentication.yml
 summary_line: http/oauth2/openIdConnect · 2 schemes
 tags:
 - Healthcare

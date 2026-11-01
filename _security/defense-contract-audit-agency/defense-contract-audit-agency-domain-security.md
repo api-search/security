@@ -43,7 +43,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dcaa.mil\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 19:35:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: fao.dcaa.mil\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 11 17:19:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n  hsts_include_subdomains: true\n- host: csp.dcaa.mil\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 11 17:19:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n  hsts_include_subdomains: true\ndomains:\n- domain: dcaa.mil\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\nnotes:\n- >-\n  HSTS was re-read by hand on 2026-09-07 with a browser User-Agent because the mechanical\n  probe recorded null on all three hosts. All three do send Strict-Transport-Security on\n  GET / : www.dcaa.mil max-age=31536000, fao.dcaa.mil and csp.dcaa.mil\n  max-age=31557600;\
   \ includeSubDomains.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defense-contract-audit-agency/refs/heads/main/security/defense-contract-audit-agency-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/defense-contract-audit-agency/security/defense-contract-audit-agency-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

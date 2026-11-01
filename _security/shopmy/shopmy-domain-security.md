@@ -5,37 +5,37 @@ api_specs:
   label: ShopMy Catalog API
   slug: shopmy-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-catalog-api-openapi.yml
 - filename: shopmy-collections-api-openapi.yml
   format: yaml
   label: ShopMy Collections API
   slug: shopmy-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-collections-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-collections-api-openapi.yml
 - filename: shopmy-links-api-openapi.yml
   format: yaml
   label: ShopMy Links API
   slug: shopmy-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-links-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-links-api-openapi.yml
 - filename: shopmy-order-reporting-api-openapi.yml
   format: yaml
   label: ShopMy Order Reporting API
   slug: shopmy-order-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-order-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-order-reporting-api-openapi.yml
 - filename: shopmy-profile-api-openapi.yml
   format: yaml
   label: ShopMy Profile API
   slug: shopmy-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-profile-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-profile-api-openapi.yml
 - filename: shopmy-oauth-api-openapi.yml
   format: yaml
   label: ShopMy O Auth API
   slug: shopmy-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/openapi/shopmy-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/shopmy/openapi/shopmy-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: shopmy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: shopmy.us\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: shopmy.us\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopmy/refs/heads/main/security/shopmy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/shopmy/security/shopmy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

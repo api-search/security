@@ -7,67 +7,67 @@ api_specs:
   label: ZnanyLekarz Addresses API
   slug: znanylekarz-addresses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-addresses-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-addresses-api-openapi.yml
 - filename: znanylekarz-api-notification-callbacks-api-openapi.yml
   format: yaml
   label: ZnanyLekarz API Notification Callbacks API
   slug: znanylekarz-api-notification-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-api-notification-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-api-notification-callbacks-api-openapi.yml
 - filename: znanylekarz-bookings-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Bookings API
   slug: znanylekarz-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-bookings-api-openapi.yml
 - filename: znanylekarz-calendar-breaks-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Calendar Breaks API
   slug: znanylekarz-calendar-breaks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-calendar-breaks-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-calendar-breaks-api-openapi.yml
 - filename: znanylekarz-calendars-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Calendars API
   slug: znanylekarz-calendars-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-calendars-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-calendars-api-openapi.yml
 - filename: znanylekarz-doctors-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Doctors API
   slug: znanylekarz-doctors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-doctors-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-doctors-api-openapi.yml
 - filename: znanylekarz-facilities-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Facilities API
   slug: znanylekarz-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-facilities-api-openapi.yml
 - filename: znanylekarz-insurances-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Insurances API
   slug: znanylekarz-insurances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-insurances-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-insurances-api-openapi.yml
 - filename: znanylekarz-patient-presence-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Patient Presence API
   slug: znanylekarz-patient-presence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-patient-presence-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-patient-presence-api-openapi.yml
 - filename: znanylekarz-services-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Services API
   slug: znanylekarz-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-services-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-services-api-openapi.yml
 - filename: znanylekarz-slots-api-openapi.yml
   format: yaml
   label: ZnanyLekarz Slots API
   slug: znanylekarz-slots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/openapi/znanylekarz-slots-api-openapi.yml
+  url: https://artifacts.apis.io/znanylekarz/openapi/znanylekarz-slots-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -114,7 +114,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://integrations.docplanner.com/guide/fundamentals/authorization.html\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://www.{domain}/oauth/v2/token\n    scopes: 1\n  description: 'The API utilizes the industry-standard [OAuth 2.0](https://tools.ietf.org/html/rfc6749)\n    protocol.\n\n\n    All requests to our API must be authenticated and must include a valid access token.\n\n\n    `NOTE! Our SSO Api version is v2 while our Integration Api version is v3`\n\n\n    You can get a token for testing purposes with cURL\n\n\n    ```\n\n    curl -u {client_id}:{client_secret} https://www.{domain}/oauth/v2/token -d ''grant_ty'\n  sources:\n  - openapi/znanylekarz-integrations-api.yml\ndocs: https://integrations.docplanner.com/guide/fundamentals/authorization.html\nderived_from: openapi/znanylekarz-integrations-api.yml\n\
   note: 'Single-scheme API: OAuth 2.0 client_credentials only. No API-key header, no HTTP Basic on the resource\n  endpoints, no mutual TLS, no OpenID Connect. Credentials are issued per integration partner through\n  a manual onboarding, so there is no self-service key. Verified live on 2026-09-05: an unauthenticated\n  GET of https://www.znanylekarz.pl/api/v3/integration/facilities returns HTTP 401 with {\"message\":\"Authentication\n  credentials could not be found.\"}'\ntoken_endpoint_resolved: https://www.znanylekarz.pl/oauth/v2/token\ntoken_endpoint_templated: https://www.{domain}/oauth/v2/token\ntoken_lifetime_seconds: 3600\ntoken_type: bearer\nrefresh_token: false\nrequest_header: 'Authorization: Bearer {access_token}'\ntoken_exchange: HTTP Basic — curl -u {client_id}:{client_secret} ... -d grant_type=client_credentials&scope=integration\nsso_version_note: '\"NOTE! Our SSO Api version is v2 while our Integration Api version is v3\" — the token\n  endpoint lives under /oauth/v2/ while\
   \ the API lives under /api/v3/.'\nself_service: false\ncredential_issuance:\n  gated: true\n  audience: medical software providers\n  sandbox_first: true\n  contact: integrations@docplanner.com\n  source: https://integrations.docplanner.com/guide/integration-process.html\ndiscovery:\n  openid_configuration: false\n  oauth_authorization_server: false\n  note: No RFC 8414 authorization-server metadata and no OpenID Connect discovery document is served on\n    any host — both 404. The token endpoint is discoverable only by reading the OpenAPI securityScheme,\n    which means an agent cannot bootstrap auth from /.well-known/.\nlive_probe:\n  url: https://www.znanylekarz.pl/api/v3/integration/facilities\n  status: 401\n  body: '{\"message\":\"Authentication credentials could not be found.\"}'\n  checked: '2026-09-05'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/znanylekarz/refs/heads/main/authentication/znanylekarz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/znanylekarz/authentication/znanylekarz-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

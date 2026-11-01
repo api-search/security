@@ -28,7 +28,7 @@ source_filename: hurl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hurl.dev\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 25 21:02:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hurl.dev\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hurl/refs/heads/main/security/hurl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hurl/security/hurl-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Command Line Interface

@@ -8,19 +8,19 @@ api_specs:
   label: Scribe Documents API
   slug: scribe-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-documents-api-openapi.yml
+  url: https://artifacts.apis.io/scribe/openapi/scribe-documents-api-openapi.yml
 - filename: scribe-search-api-openapi.yml
   format: yaml
   label: Scribe Search API
   slug: scribe-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-search-api-openapi.yml
+  url: https://artifacts.apis.io/scribe/openapi/scribe-search-api-openapi.yml
 - filename: scribe-teams-api-openapi.yml
   format: yaml
   label: Scribe Teams API
   slug: scribe-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/openapi/scribe-teams-api-openapi.yml
+  url: https://artifacts.apis.io/scribe/openapi/scribe-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: scribe-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/scribe-search-retrieval-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: 'API key authentication. Add your API key as the header value. Example: `X-API-Key:\n    sc_1234567890abcdefg.hijklmnopqrstuvwx`'\n  sources:\n  - openapi/scribe-search-retrieval-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scribe/refs/heads/main/authentication/scribe-authentication.yml
+source_yaml_url: https://artifacts.apis.io/scribe/authentication/scribe-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

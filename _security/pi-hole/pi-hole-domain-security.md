@@ -5,25 +5,25 @@ api_specs:
   label: Pi-hole Auth API
   slug: pi-hole-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-auth-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-auth-api-openapi.yml
 - filename: pi-hole-dns-api-openapi.yml
   format: yaml
   label: Pi-hole DNS API
   slug: pi-hole-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-dns-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-dns-api-openapi.yml
 - filename: pi-hole-groups-api-openapi.yml
   format: yaml
   label: Pi-hole Groups API
   slug: pi-hole-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-groups-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-groups-api-openapi.yml
 - filename: pi-hole-info-api-openapi.yml
   format: yaml
   label: Pi-hole Info API
   slug: pi-hole-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-info-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-info-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +70,7 @@ source_filename: pi-hole-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pi-hole.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 04:50:35 2026 GMT\n  hsts: false\n- host: docs.pi-hole.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 16:53:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: pi.hole\n  https: false\ndomains:\n- domain: pi-hole.net\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:servers@pi-hole.net\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: pi.hole\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/security/pi-hole-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pi-hole/security/pi-hole-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DNS

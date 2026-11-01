@@ -7,115 +7,115 @@ api_specs:
   label: Synup Automations API
   slug: synup-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-automations-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-automations-api-openapi.yml
 - filename: synup-connected-accounts-api-openapi.yml
   format: yaml
   label: Synup Connected Accounts API
   slug: synup-connected-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-connected-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-connected-accounts-api-openapi.yml
 - filename: synup-grid-rank-api-openapi.yml
   format: yaml
   label: Synup Grid Rank API
   slug: synup-grid-rank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-grid-rank-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-grid-rank-api-openapi.yml
 - filename: synup-listings-api-openapi.yml
   format: yaml
   label: Synup Listings API
   slug: synup-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-listings-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-listings-api-openapi.yml
 - filename: synup-local-post-ideas-api-openapi.yml
   format: yaml
   label: Synup Local Post Ideas API
   slug: synup-local-post-ideas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-local-post-ideas-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-local-post-ideas-api-openapi.yml
 - filename: synup-locations-api-openapi.yml
   format: yaml
   label: Synup Locations API
   slug: synup-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-locations-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-locations-api-openapi.yml
 - filename: synup-menus-api-openapi.yml
   format: yaml
   label: Synup Menus API
   slug: synup-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-menus-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-menus-api-openapi.yml
 - filename: synup-organizing-locations-api-openapi.yml
   format: yaml
   label: Synup Organizing locations API
   slug: synup-organizing-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-organizing-locations-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-organizing-locations-api-openapi.yml
 - filename: synup-posts-api-openapi.yml
   format: yaml
   label: Synup Posts API
   slug: synup-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-posts-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-posts-api-openapi.yml
 - filename: synup-profile-analytics-api-openapi.yml
   format: yaml
   label: Synup Profile Analytics API
   slug: synup-profile-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-profile-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-profile-analytics-api-openapi.yml
 - filename: synup-rankings-api-openapi.yml
   format: yaml
   label: Synup Rankings API
   slug: synup-rankings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-rankings-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-rankings-api-openapi.yml
 - filename: synup-review-campaigns-api-openapi.yml
   format: yaml
   label: Synup Review Campaigns API
   slug: synup-review-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-review-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-review-campaigns-api-openapi.yml
 - filename: synup-reviews-api-openapi.yml
   format: yaml
   label: Synup Reviews API
   slug: synup-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-reviews-api-openapi.yml
 - filename: synup-reviews-review-sources-api-openapi.yml
   format: yaml
   label: Synup Reviews/Review Sources API
   slug: synup-reviews-review-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-reviews-review-sources-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-reviews-review-sources-api-openapi.yml
 - filename: synup-social-api-openapi.yml
   format: yaml
   label: Synup Social API
   slug: synup-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-social-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-social-api-openapi.yml
 - filename: synup-social-post-ideas-api-openapi.yml
   format: yaml
   label: Synup Social Post Ideas API
   slug: synup-social-post-ideas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-social-post-ideas-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-social-post-ideas-api-openapi.yml
 - filename: synup-user-management-api-openapi.yml
   format: yaml
   label: Synup User Management API
   slug: synup-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-user-management-api-openapi.yml
 - filename: synup-webhooks-api-openapi.yml
   format: yaml
   label: Synup Webhooks API
   slug: synup-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-webhooks-api-openapi.yml
 - filename: synup-webhooks-webhooks-api-openapi.yml
   format: yaml
   label: Synup Webhooks/Webhooks API
   slug: synup-webhooks-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/openapi/synup-webhooks-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/synup/openapi/synup-webhooks-webhooks-api-openapi.yml
 auth_types: []
 description: Synup v4 is API-key authenticated with a custom Authorization scheme. The published OpenAPI documents declare no components.securitySchemes; instead every operation declares Authorization as a required HEADER PARAMETER. The MCP server adds a full OAuth 2.1 path on top of the same credential.
 kind: authentication
@@ -198,7 +198,7 @@ source_yaml: "name: Synup API authentication\ngenerated: '2026-08-13'\nmethod: s
   \ https://mcp-agent.synup.com/.well-known/jwks.json\n  scopes:\n  - mcp:read\n  - mcp:write\n  pkce: S256\n  require_state_parameter: true\n  token_endpoint_auth_methods:\n  - none\n  - client_secret_post\n  discovery: https://mcp-agent.synup.com/.well-known/oauth-authorization-server\n  evidence:\n    url: https://mcp-agent.synup.com/.well-known/oauth-authorization-server\n    http_status: 200\n    probed: '2026-08-13'\n- id: mcp_api_key\n  type: apiKey\n  in: header\n  name: X-api-key\n  description: The same Synup API key passed to the MCP server, optionally with X-user-email. Used by\n    editor-based clients.\n  companion_headers:\n  - X-user-email\n  - X-access-mode\n  env_vars:\n  - SYNUP_API_KEY\n  - SYNUP_USER_EMAIL\n- id: mcp_bearer\n  type: http\n  scheme: bearer\n  description: 'Authorization: Bearer accepting an API key, an encoded credential, or a Synup token, on\n    the MCP surface only.'\n- id: connected_accounts_oauth\n  type: oauth2\n  flow: authorization_code\n  third_party:\
   \ true\n  description: 'Downstream, per-directory OAuth: the Connected Accounts endpoints broker Google Business\n    Profile, Facebook and Apple connections on behalf of a customer. This is Synup calling out, not Synup\n    authenticating you.'\n  docs: https://developer.synup.com/connected-accounts-custom-endpoint-300825\nauthorization_model:\n  rest: No scopes. A key carries whatever the issuing account and user role can see; user roles are managed\n    through the User Management endpoints.\n  mcp: Two coarse scopes (mcp:read, mcp:write) plus an X-access-mode header (read|write) for key-authenticated\n    sessions.\ngaps:\n- components.securitySchemes is empty in every published OpenAPI document — the credential is documented\n  only as a per-operation header parameter, so generated SDKs and agents cannot discover it from the spec\n  alone.\n- No key rotation, expiry or scoping policy is published for REST API keys.\n- The custom \"API <key>\" Authorization scheme is not a registered\
   \ HTTP auth scheme; generic OpenAPI tooling\n  will not model it correctly.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/authentication/synup-authentication.yml
+source_yaml_url: https://artifacts.apis.io/synup/authentication/synup-authentication.yml
 summary_line: 5 schemes
 tags:
 - Local Marketing

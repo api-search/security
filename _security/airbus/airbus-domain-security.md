@@ -5,13 +5,13 @@ api_specs:
   label: Airbus Authentication API
   slug: airbus-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/openapi/airbus-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/airbus/openapi/airbus-authentication-api-openapi.yml
 - filename: airbus-catalog-api-openapi.yml
   format: yaml
   label: Airbus Catalog API
   slug: airbus-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/openapi/airbus-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/airbus/openapi/airbus-catalog-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: airbus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.airbus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 10:03:55 2026 GMT\n  hsts: true\n  hsts_max_age: 1000\n- host: api.oneatlas.airbus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 12:49:46 2026 GMT\n  hsts: false\n- host: authenticate.foundation.api.oneatlas.airbus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 10:40:28 2026 GMT\n  hsts: null\ndomains:\n- domain: airbus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/security/airbus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/airbus/security/airbus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Aerospace

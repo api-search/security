@@ -5,13 +5,13 @@ api_specs:
   label: Palmetto Bem API
   slug: palmetto-bem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palmetto/refs/heads/main/openapi/palmetto-bem-api-openapi.yml
+  url: https://artifacts.apis.io/palmetto/openapi/palmetto-bem-api-openapi.yml
 - filename: palmetto-health-api-openapi.yml
   format: yaml
   label: Palmetto Health API
   slug: palmetto-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palmetto/refs/heads/main/openapi/palmetto-health-api-openapi.yml
+  url: https://artifacts.apis.io/palmetto/openapi/palmetto-health-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: palmetto-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: palmetto.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 03:44:03 2026 GMT\n  hsts: false\n- host: ei.palmetto.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 03:44:03 2026 GMT\n  hsts: false\ndomains:\n- domain: palmetto.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/palmetto/refs/heads/main/security/palmetto-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/palmetto/security/palmetto-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

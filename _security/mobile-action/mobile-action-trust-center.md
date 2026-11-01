@@ -16,7 +16,7 @@ source_filename: mobile-action-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.mobileaction.co/\nurl: https://trust.mobileaction.co/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.mobileaction.co/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mobile-action/refs/heads/main/security/mobile-action-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/mobile-action/security/mobile-action-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

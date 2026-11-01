@@ -5,31 +5,31 @@ api_specs:
   label: Wagestream Absences API
   slug: wagestream-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-absences-api-openapi.yml
+  url: https://artifacts.apis.io/wagestream/openapi/wagestream-absences-api-openapi.yml
 - filename: wagestream-employees-api-openapi.yml
   format: yaml
   label: Wagestream Employees API
   slug: wagestream-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-employees-api-openapi.yml
+  url: https://artifacts.apis.io/wagestream/openapi/wagestream-employees-api-openapi.yml
 - filename: wagestream-enrollment-api-openapi.yml
   format: yaml
   label: Wagestream Enrollment API
   slug: wagestream-enrollment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-enrollment-api-openapi.yml
+  url: https://artifacts.apis.io/wagestream/openapi/wagestream-enrollment-api-openapi.yml
 - filename: wagestream-off-cycle-payment-api-openapi.yml
   format: yaml
   label: Wagestream Off Cycle Payment API
   slug: wagestream-off-cycle-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-off-cycle-payment-api-openapi.yml
+  url: https://artifacts.apis.io/wagestream/openapi/wagestream-off-cycle-payment-api-openapi.yml
 - filename: wagestream-shifts-api-openapi.yml
   format: yaml
   label: Wagestream Shifts API
   slug: wagestream-shifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/openapi/wagestream-shifts-api-openapi.yml
+  url: https://artifacts.apis.io/wagestream/openapi/wagestream-shifts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: wagestream-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: stream.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 06:57:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: connect.stream.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 11:44:32 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: publicapi.wagestream.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 25 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: stream.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: wagestream.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wagestream/refs/heads/main/security/wagestream-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wagestream/security/wagestream-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Wellbeing

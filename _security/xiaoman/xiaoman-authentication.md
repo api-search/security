@@ -8,43 +8,43 @@ api_specs:
   label: OKKI Go Companies API
   slug: xiaoman-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-companies-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-companies-api-openapi.yml
 - filename: xiaoman-contacts-api-openapi.yml
   format: yaml
   label: OKKI Go Contacts API
   slug: xiaoman-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-contacts-api-openapi.yml
 - filename: xiaoman-credits-api-openapi.yml
   format: yaml
   label: OKKI Go Credits API
   slug: xiaoman-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-credits-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-credits-api-openapi.yml
 - filename: xiaoman-default-api-openapi.yml
   format: yaml
   label: Xiaoman (OKKI CRM) 产品 API
   slug: xiaoman-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-default-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-default-api-openapi.yml
 - filename: xiaoman-emails-api-openapi.yml
   format: yaml
   label: OKKI Go Emails API
   slug: xiaoman-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-emails-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-emails-api-openapi.yml
 - filename: xiaoman-s7-1-api-openapi.yml
   format: yaml
   label: Xiaoman (OKKI CRM) s7.1 API
   slug: xiaoman-s7-1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-s7-1-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-s7-1-api-openapi.yml
 - filename: xiaoman-dev-ops-api-openapi.yml
   format: yaml
   label: Xiaoman (OKKI) Dev Ops API
   slug: xiaoman-dev-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/openapi/xiaoman-dev-ops-api-openapi.yml
+  url: https://artifacts.apis.io/xiaoman/openapi/xiaoman-dev-ops-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -86,7 +86,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://open.xiaoman.cn/api-3473041 and npm @okki-global/okki-go skill/references/api-reference.md\ndocs:\n  - https://open.xiaoman.cn/api-3473041\n  - https://open.xiaoman.cn/doc-338276\nsummary:\n  types: [oauth2, apiKey]\n  oauth2_flows: [password, clientCredentials]\n  api_key_in: [header]\nschemes:\n  - name: XiaomanOAuth2\n    api: Xiaoman OKKI CRM Open API\n    type: oauth2\n    description: >-\n      OAuth2 token issued by POST /v1/oauth2/access_token on\n      https://api-sandbox.xiaoman.cn. Supports grant_type password (username =\n      Xiaoman login email, password SHA-256 hashed) and client_credentials.\n      client_id and client_secret come from the OKKI CRM admin console\n      (企业管理 → 外部对接 → API对接). Tokens are Bearer, valid 8 hours\n      (expires_in 28800); password grant also returns a refresh_token\n      (refresh endpoint documented separately). client_credentials responses\n      carry no expires_in/refresh_token\
   \ — re-request before expiry. The scope\n      parameter is a space-separated list of module scopes (see\n      scopes/xiaoman-scopes.yml); calls outside granted scopes fail with\n      \"no permission <module> scopes\".\n    flows:\n      - flow: password\n        tokenUrl: https://api-sandbox.xiaoman.cn/v1/oauth2/access_token\n      - flow: clientCredentials\n        tokenUrl: https://api-sandbox.xiaoman.cn/v1/oauth2/access_token\n    token_lifetime_seconds: 28800\n    header: Authorization\n  - name: OkkiGoApiKey\n    api: OKKI Go API\n    type: apiKey\n    in: header\n    parameter: Authorization\n    description: >-\n      API key auth for https://go.okki.ai — header form\n      \"Authorization: ApiKey sk-...\". Keys are issued at https://go.okki.ai\n      after registration; the OKKI Go Agent Skill caches the key in\n      ~/.config/okki-go/credentials.json (mode 0600) via its okki-auth.js\n      helper. All authenticated endpoints share a 60 requests/minute rate\n      limit.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xiaoman/refs/heads/main/authentication/xiaoman-authentication.yml
+source_yaml_url: https://artifacts.apis.io/xiaoman/authentication/xiaoman-authentication.yml
 summary_line: oauth2/apiKey · 2 schemes
 tags:
 - Company

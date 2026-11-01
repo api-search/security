@@ -8,19 +8,19 @@ api_specs:
   label: ERPNext Method API
   slug: erpnext-method-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/openapi/erpnext-method-api-openapi.yml
+  url: https://artifacts.apis.io/erpnext/openapi/erpnext-method-api-openapi.yml
 - filename: erpnext-naive-authentication-api-openapi.yml
   format: yaml
   label: ERPNext Naive Authentication API
   slug: erpnext-naive-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/openapi/erpnext-naive-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/erpnext/openapi/erpnext-naive-authentication-api-openapi.yml
 - filename: erpnext-resource-api-openapi.yml
   format: yaml
   label: ERPNext Resource API
   slug: erpnext-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/openapi/erpnext-resource-api-openapi.yml
+  url: https://artifacts.apis.io/erpnext/openapi/erpnext-resource-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -74,7 +74,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yaml\nsummary:\n  types:\n  - apiKey\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: |-\n    Get your API keys at User -> Api Access -> Generate Keys.\n    \"headers = {'Authorization': 'token <api_key>:<api_secret>'}\"\n  sources:\n  - openapi/openapi.yaml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: |-\n    Get your API keys at User -> Api Access -> Generate Keys.\n    username = api_key; password = api_secret\n    [More info](https://frappe.io/docs/user/en/guides/integration/token_based_auth)\n  sources:\n  - openapi/openapi.yaml\n- name: oAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: /method/frappe.integrations.oauth2.authorize\n    tokenUrl: /method/frappe.integrations.oauth2.get_token\n    scopes: 1\n  description:\
   \ \"This API uses OAuth 2 with the authorization code flow. \\n[More info]https://frappe.io/docs/user/en/guides/integration/using_oauth)\"\n  sources:\n  - openapi/openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/erpnext/refs/heads/main/authentication/erpnext-authentication.yml
+source_yaml_url: https://artifacts.apis.io/erpnext/authentication/erpnext-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - ERP

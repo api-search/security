@@ -33,7 +33,7 @@ source_filename: podia-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.podia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 17:06:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: help.podia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 21:17:55 2026 GMT\n  hsts: null\ndomains:\n- domain: podia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/podia/refs/heads/main/security/podia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/podia/security/podia-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Creator Economy

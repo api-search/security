@@ -7,13 +7,13 @@ api_specs:
   label: FedEx Authorization API
   slug: fedex-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/openapi/fedex-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/fedex/openapi/fedex-authorization-api-openapi.yml
 - filename: fedex-track-api-openapi.yml
   format: yaml
   label: FedEx Track API
   slug: fedex-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/openapi/fedex-track-api-openapi.yml
+  url: https://artifacts.apis.io/fedex/openapi/fedex-track-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -43,7 +43,7 @@ source_filename: fedex-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fedex-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    OAuth 2.0 access token returned by POST /oauth/token using\n    client_credentials with FedEx Developer Portal credentials.\n  sources:\n  - openapi/fedex-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/authentication/fedex-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fedex/authentication/fedex-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Address Validation

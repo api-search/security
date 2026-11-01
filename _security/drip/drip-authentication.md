@@ -7,61 +7,61 @@ api_specs:
   label: Drip Accounts API
   slug: drip-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-accounts-api-openapi.yml
 - filename: drip-broadcasts-api-openapi.yml
   format: yaml
   label: Drip Broadcasts API
   slug: drip-broadcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-broadcasts-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-broadcasts-api-openapi.yml
 - filename: drip-campaigns-api-openapi.yml
   format: yaml
   label: Drip Campaigns API
   slug: drip-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-campaigns-api-openapi.yml
 - filename: drip-conversions-api-openapi.yml
   format: yaml
   label: Drip Conversions API
   slug: drip-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-conversions-api-openapi.yml
 - filename: drip-custom-fields-api-openapi.yml
   format: yaml
   label: Drip Custom Fields API
   slug: drip-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-custom-fields-api-openapi.yml
 - filename: drip-events-api-openapi.yml
   format: yaml
   label: Drip Events API
   slug: drip-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-events-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-events-api-openapi.yml
 - filename: drip-forms-api-openapi.yml
   format: yaml
   label: Drip Forms API
   slug: drip-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-forms-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-forms-api-openapi.yml
 - filename: drip-orders-api-openapi.yml
   format: yaml
   label: Drip Orders API
   slug: drip-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-orders-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-orders-api-openapi.yml
 - filename: drip-shopper-activity-api-openapi.yml
   format: yaml
   label: Drip Shopper Activity API
   slug: drip-shopper-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-shopper-activity-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-shopper-activity-api-openapi.yml
 - filename: drip-subscribers-api-openapi.yml
   format: yaml
   label: Drip Subscribers API
   slug: drip-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/openapi/drip-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/drip/openapi/drip-subscribers-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -120,7 +120,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ basicAuth\n    type: http\n    scheme: basic\n    description: >-\n      Personal API Token as the Basic username with an empty password\n      (`-u 'YOUR_API_KEY:'`). Intended for private, single-account\n      integrations. Token is found in the Drip account settings.\n    docs: https://developer.drip.com/#authentication\n    sources:\n      - openapi/drip-openapi.yml\n      - https://developer.drip.com/#authentication\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: OAuth2 access token\n    description: >-\n      `Authorization: Bearer <access_token>` using a token issued by the Drip\n      OAuth 2.0 authorization server. Intended for public integrations acting\n      on behalf of other people's Drip accounts.\n    docs: https://developer.drip.com/#oauth\n    sources:\n      - openapi/drip-openapi.yml\n      - https://developer.drip.com/#oauth\n  - name: oauth2\n    type: oauth2\n    flow: authorizationCode\n    authorizationUrl: https://www.getdrip.com/oauth/authorize\n\
   \    tokenUrl: https://www.getdrip.com/oauth/token\n    registrationUrl: https://api.getdrip.com/oauth/register\n    scopes:\n      public: Default scope returned in the token response.\n      write: Mutating access across the account.\n    pkce: S256\n    dynamic_client_registration: true\n    description: >-\n      Authorization code flow. Applications are registered with Drip to obtain\n      a client id and secret and must supply a valid callback URL before they\n      can be activated. The verification code expires in 10 minutes. Drip's\n      docs state access tokens do not expire, though the authorization server\n      metadata advertises refresh_token support.\n    docs: https://developer.drip.com/#oauth\n    detail: scopes/drip-scopes.yml\n    sources:\n      - https://developer.drip.com/#oauth\n      - well-known/drip-oauth-authorization-server.json\nconventions:\n  required_headers:\n    - name: User-Agent\n      required: recommended\n      format: Your App Name (www.yourapp.com)\n\
   \      note: Present in every curl example in the reference.\n    - name: Content-Type\n      required: true\n      value: application/json\n      note: >-\n        Parameters must be serialized as JSON in the request body — not in the\n        query string and not as form parameters.\n  transport: HTTPS only, SNI required\n  unauthenticated_response: 401 Unauthorized with an errors[] envelope\n  insufficient_permissions_response: 403 Forbidden, code authorization_error\nmcp:\n  note: >-\n    The MCP endpoint at https://api.getdrip.com/mcp is protected by the same\n    OAuth authorization server and advertises RFC 9728 protected-resource\n    metadata. See mcp/drip-mcp.yml.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drip/refs/heads/main/authentication/drip-authentication.yml
+source_yaml_url: https://artifacts.apis.io/drip/authentication/drip-authentication.yml
 summary_line: http/oauth2 · 3 schemes
 tags:
 - Email Marketing

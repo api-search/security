@@ -7,61 +7,61 @@ api_specs:
   label: Autopay Accounting API
   slug: autopay-accounting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-accounting-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-accounting-api-openapi.yml
 - filename: autopay-booking-api-openapi.yml
   format: yaml
   label: Autopay Booking API
   slug: autopay-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-booking-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-booking-api-openapi.yml
 - filename: autopay-customer-club-api-openapi.yml
   format: yaml
   label: Autopay Customer Club API
   slug: autopay-customer-club-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-customer-club-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-customer-club-api-openapi.yml
 - filename: autopay-fleet-api-openapi.yml
   format: yaml
   label: Autopay Fleet API
   slug: autopay-fleet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-fleet-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-fleet-api-openapi.yml
 - filename: autopay-parking-api-openapi.yml
   format: yaml
   label: Autopay Parking API
   slug: autopay-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-parking-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-parking-api-openapi.yml
 - filename: autopay-payment-api-openapi.yml
   format: yaml
   label: Autopay Payment API
   slug: autopay-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-payment-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-payment-api-openapi.yml
 - filename: autopay-permit-api-openapi.yml
   format: yaml
   label: Autopay Permit API
   slug: autopay-permit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-permit-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-permit-api-openapi.yml
 - filename: autopay-statistics-api-openapi.yml
   format: yaml
   label: Autopay Statistics API
   slug: autopay-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-statistics-api-openapi.yml
 - filename: autopay-status-api-openapi.yml
   format: yaml
   label: Autopay Status API
   slug: autopay-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-status-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-status-api-openapi.yml
 - filename: autopay-vehicle-api-openapi.yml
   format: yaml
   label: Autopay Vehicle API
   slug: autopay-vehicle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/openapi/autopay-vehicle-api-openapi.yml
+  url: https://artifacts.apis.io/autopay/openapi/autopay-vehicle-api-openapi.yml
 auth_types:
 - oauth2
 description: 'Every Autopay API is secured with a single mechanism: OAuth 2.0 client credentials against an Auth0-hosted authorization server, presented as a Bearer token. Credentials are issued by a human at Autopay and are bound to ONE operator — a partner integrating across several operators holds one client_id/client_secret pair per operator and must send the right pair per call.'
@@ -147,7 +147,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: https://develop
   \ require a named scope on the token —\n    permit_booking (Booking API), customer_club (Customer Club API), zone_status (Status API).\n  sources:\n  - https://developer.autopay.io/authentication/\n  - https://api-auth.autopay.io/.well-known/openid-configuration\n  - openapi/autopay-openapi.yml\nauthorization_server:\n  issuer: https://api-auth.autopay.io/\n  token_endpoint: https://api-auth.autopay.io/oauth/token\n  jwks_uri: https://api-auth.autopay.io/.well-known/jwks.json\n  id_token_signing_alg_values_supported: [RS256]\n  discovery_document: well-known/autopay-openid-configuration.json\n  probed: '2026-09-06'\n  http_status: 200\n  vendor: Auth0 (inferred from the audience-parameter token request and the discovery document shape; not stated by Autopay)\ncredential_issuance:\n  self_serve: false\n  process: >-\n    \"Contact your Autopay representative to acquire the Client Credentials (Client ID and\n    Secret) for your application.\" There is no developer signup, no console and\
   \ no key-rotation\n    endpoint. The integrator must also register a Technical Contact Person with\n    partner-support@autopay.io, naming the client_id(s) it applies to.\n  rotation: not documented\n  scoping: One credential pair per operator; a credential used against another operator's facilities returns an error.\ntoken_claims_used_by_the_api:\n  note: >-\n    Several documented error ids reveal that Autopay reads tenancy claims out of the token\n    rather than from the request — missing_tenant_id_token_error, missing_landlord_id_token_error,\n    missing_operator_token_error and invalid_operator_id. The tenant, landlord and operator an\n    agent acts as are fixed by the credential, not chosen per call.\noutbound_authentication:\n  note: >-\n    Autopay also authenticates ITSELF to integrator-hosted callback endpoints. Supported methods\n    are Basic, Bearer, API key (X-API-Key) and OAuth2 client credentials — see\n    asyncapi/autopay-webhooks.yml.\ngaps:\n- No OAuth 2.0 Protected\
   \ Resource Metadata (RFC 9728) is served on api.autopay.io.\n- No dynamic client registration.\n- No mTLS, no request signing, no key rotation endpoint.\n- No documented scope reference page; the three scope names above are the only ones the reference mentions.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autopay/refs/heads/main/authentication/autopay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/autopay/authentication/autopay-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Parking

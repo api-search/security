@@ -5,25 +5,25 @@ api_specs:
   label: Nubela Company API
   slug: nubela-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-company-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-company-api-openapi.yml
 - filename: nubela-competitor-api-openapi.yml
   format: yaml
   label: Nubela Competitor API
   slug: nubela-competitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-competitor-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-competitor-api-openapi.yml
 - filename: nubela-customer-api-openapi.yml
   format: yaml
   label: Nubela Customer API
   slug: nubela-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-customer-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-customer-api-openapi.yml
 - filename: nubela-employee-api-openapi.yml
   format: yaml
   label: Nubela Employee API
   slug: nubela-employee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/openapi/nubela-employee-api-openapi.yml
+  url: https://artifacts.apis.io/nubela/openapi/nubela-employee-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: nubela-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nubela.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 17:10:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: nubela.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nubela/refs/heads/main/security/nubela-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nubela/security/nubela-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Companies

@@ -7,31 +7,55 @@ api_specs:
   label: Inflection.io Contact Activity API
   slug: inflectionio-contact-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-contact-activity-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-contact-activity-api-openapi.yml
 - filename: inflectionio-contacts-api-openapi.yml
   format: yaml
   label: Inflection.io Contacts API
   slug: inflectionio-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-contacts-api-openapi.yml
 - filename: inflectionio-emails-api-openapi.yml
   format: yaml
   label: Inflection.io Emails API
   slug: inflectionio-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-emails-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-emails-api-openapi.yml
 - filename: inflectionio-email-versions-api-openapi.yml
   format: yaml
   label: Inflection.io Email Versions API
   slug: inflectionio-email-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-email-versions-api-openapi.yml
-- filename: inflectionio-lists-and-members-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-email-versions-api-openapi.yml
+- filename: inflectionio-journeys-api-openapi.yml
   format: yaml
-  label: Inflection.io Lists and Members API
-  slug: inflectionio-lists-and-members-api
+  label: Inflection.io Journeys API
+  slug: inflectionio-journeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/openapi/inflectionio-lists-and-members-api-openapi.yml
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-journeys-api-openapi.yml
+- filename: inflectionio-lists-api-openapi.yml
+  format: yaml
+  label: Inflection.io Lists API
+  slug: inflectionio-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-lists-api-openapi.yml
+- filename: inflectionio-organizations-api-openapi.yml
+  format: yaml
+  label: Inflection.io Organizations API
+  slug: inflectionio-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-organizations-api-openapi.yml
+- filename: inflectionio-product-users-api-openapi.yml
+  format: yaml
+  label: Inflection.io Product Users API
+  slug: inflectionio-product-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-product-users-api-openapi.yml
+- filename: inflectionio-stats-api-openapi.yml
+  format: yaml
+  label: Inflection.io Stats API
+  slug: inflectionio-stats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inflectionio/openapi/inflectionio-stats-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -114,7 +138,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.in
   \ a long-lived secret. The same access token works on the Developer\n    API and on the MCP server.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://auth-v2.inflection.io/oauth2/authorize\n    tokenUrl: https://auth-v2.inflection.io/oauth2/token\n    revocationUrl: https://auth-v2.inflection.io/oauth2/revoke\n    introspectionUrl: https://auth-v2.inflection.io/oauth2/introspect\n    jwksUri: https://auth-v2.inflection.io/oauth2/jwks\n    registrationUrl: https://auth-v2.inflection.io/client-app/connect/register\n    scopes: [inflection_app]\n  discovery:\n    authorization_server_metadata: https://auth-v2.inflection.io/.well-known/oauth-authorization-server\n    protected_resource_metadata: https://mcp.inflection.io/.well-known/oauth-protected-resource\n    specs: [RFC 8414, RFC 9728]\n  authorization_model: >-\n    Acts as the user who authorized the app — workspace admins and members read and write, viewers are\n    read-only. There is no client-credentials grant;\
   \ service-to-service tokens are rejected with 403.\n  token_lifetime_seconds: 900\n  refresh: refresh_token grant with rotation and reuse detection\n  authorization_code_ttl_seconds: 300\n  client_auth_methods: [client_secret_basic, client_secret_post, private_key_jwt]\n  applies_to:\n  - https://api.inflection.io/v1\n  - https://mcp.inflection.io/\n  - https://campaign.inflection.io/api/v1\n  sources:\n  - https://docs.inflection.io/agents/connected-apps-oauth\n  - https://auth-v2.inflection.io/.well-known/oauth-authorization-server\n  see: scopes/inflectionio-scopes.yml\nfailures:\n  '401': >-\n    Missing, malformed, or invalid token. Also returned for unknown paths/methods under /v1\n    (deny-by-default) — a mistyped path is indistinguishable from a bad credential.\n  '403': >-\n    Token is valid but lacks the required permission — a READ-scoped PAT attempting a write, a viewer's\n    OAuth token doing the same, or a service-to-service token with no user behind it.\n  body: Gateway\
   \ auth errors (401/403) return an empty body; the status code carries the meaning.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/authentication/inflectionio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/inflectionio/authentication/inflectionio-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

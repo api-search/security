@@ -7,7 +7,7 @@ api_specs:
   label: OpsLevel Graph QL API
   slug: opslevel-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/heads/main/openapi/opslevel-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/opslevel/openapi/opslevel-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -37,7 +37,7 @@ source_filename: opslevel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/opslevel-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: Token\n  description: |-\n    OpsLevel API token created in the OpsLevel app. Supply as\n    `Authorization: Bearer ${TOKEN}`.\n  sources:\n  - openapi/opslevel-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/heads/main/authentication/opslevel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/opslevel/authentication/opslevel-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Developer Portal

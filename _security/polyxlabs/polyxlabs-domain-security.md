@@ -27,7 +27,7 @@ source_filename: polyxlabs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: polyxlabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 12:37:18 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: polyxlabs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polyxlabs/refs/heads/main/security/polyxlabs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/polyxlabs/security/polyxlabs-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

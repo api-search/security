@@ -27,7 +27,7 @@ source_filename: trusted-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trustedhealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 21:26:17 2026 GMT\n  hsts: false\ndomains:\n- domain: trustedhealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trusted-health/refs/heads/main/security/trusted-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trusted-health/security/trusted-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

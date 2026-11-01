@@ -5,31 +5,31 @@ api_specs:
   label: IronCore Labs Configuration Assignment API
   slug: ironcore-labs-configuration-assignment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-configuration-assignment-api-openapi.yml
+  url: https://artifacts.apis.io/ironcore-labs/openapi/ironcore-labs-configuration-assignment-api-openapi.yml
 - filename: ironcore-labs-kms-configuration-api-openapi.yml
   format: yaml
   label: IronCore Labs KMS Configuration API
   slug: ironcore-labs-kms-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-kms-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/ironcore-labs/openapi/ironcore-labs-kms-configuration-api-openapi.yml
 - filename: ironcore-labs-tag-api-openapi.yml
   format: yaml
   label: IronCore Labs Tag API
   slug: ironcore-labs-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-tag-api-openapi.yml
+  url: https://artifacts.apis.io/ironcore-labs/openapi/ironcore-labs-tag-api-openapi.yml
 - filename: ironcore-labs-tenant-api-openapi.yml
   format: yaml
   label: IronCore Labs Tenant API
   slug: ironcore-labs-tenant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-tenant-api-openapi.yml
+  url: https://artifacts.apis.io/ironcore-labs/openapi/ironcore-labs-tenant-api-openapi.yml
 - filename: ironcore-labs-tenant-secret-api-openapi.yml
   format: yaml
   label: IronCore Labs Tenant Secret API
   slug: ironcore-labs-tenant-secret-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/openapi/ironcore-labs-tenant-secret-api-openapi.yml
+  url: https://artifacts.apis.io/ironcore-labs/openapi/ironcore-labs-tenant-secret-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +65,7 @@ source_filename: ironcore-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ironcorelabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 06:54:09 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: ironcorelabs.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ironcore-labs/refs/heads/main/security/ironcore-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ironcore-labs/security/ironcore-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

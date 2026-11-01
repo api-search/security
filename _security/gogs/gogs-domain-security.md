@@ -5,55 +5,55 @@ api_specs:
   label: Gogs Administration API
   slug: gogs-administration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-administration-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-administration-api-openapi.yml
 - filename: gogs-collaborators-and-deploy-keys-api-openapi.yml
   format: yaml
   label: Gogs Collaborators and Deploy Keys API
   slug: gogs-collaborators-and-deploy-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-collaborators-and-deploy-keys-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-collaborators-and-deploy-keys-api-openapi.yml
 - filename: gogs-issues-api-openapi.yml
   format: yaml
   label: Gogs Issues API
   slug: gogs-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-issues-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-issues-api-openapi.yml
 - filename: gogs-miscellaneous-api-openapi.yml
   format: yaml
   label: Gogs Miscellaneous API
   slug: gogs-miscellaneous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-miscellaneous-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-miscellaneous-api-openapi.yml
 - filename: gogs-organizations-api-openapi.yml
   format: yaml
   label: Gogs Organizations API
   slug: gogs-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-organizations-api-openapi.yml
 - filename: gogs-releases-api-openapi.yml
   format: yaml
   label: Gogs Releases API
   slug: gogs-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-releases-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-releases-api-openapi.yml
 - filename: gogs-repositories-api-openapi.yml
   format: yaml
   label: Gogs Repositories API
   slug: gogs-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-repositories-api-openapi.yml
 - filename: gogs-users-api-openapi.yml
   format: yaml
   label: Gogs Users API
   slug: gogs-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-users-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-users-api-openapi.yml
 - filename: gogs-webhooks-api-openapi.yml
   format: yaml
   label: Gogs Webhooks API
   slug: gogs-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/openapi/gogs-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gogs/openapi/gogs-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,11 +82,11 @@ source_filename: gogs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gogs.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 18:43:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: gogs.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gogs/refs/heads/main/security/gogs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gogs/security/gogs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- Git
+- Version Control
 - Self-Hosted
 - Open Source
 - Go

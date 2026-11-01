@@ -7,115 +7,115 @@ api_specs:
   label: Namely Comments API
   slug: namely-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-comments-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-comments-api-openapi.yml
 - filename: namely-company-info-api-openapi.yml
   format: yaml
   label: Namely Company Info API
   slug: namely-company-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-company-info-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-company-info-api-openapi.yml
 - filename: namely-company-resources-api-openapi.yml
   format: yaml
   label: Namely Company Resources API
   slug: namely-company-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-company-resources-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-company-resources-api-openapi.yml
 - filename: namely-countries-api-openapi.yml
   format: yaml
   label: Namely Countries API
   slug: namely-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-countries-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-countries-api-openapi.yml
 - filename: namely-events-api-openapi.yml
   format: yaml
   label: Namely Events API
   slug: namely-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-events-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-events-api-openapi.yml
 - filename: namely-groups-api-openapi.yml
   format: yaml
   label: Namely Groups API
   slug: namely-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-groups-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-groups-api-openapi.yml
 - filename: namely-groups-teams-api-openapi.yml
   format: yaml
   label: Namely Groups & Teams API
   slug: namely-groups-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-groups-teams-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-groups-teams-api-openapi.yml
 - filename: namely-home-feed-api-openapi.yml
   format: yaml
   label: Namely Home Feed API
   slug: namely-home-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-home-feed-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-home-feed-api-openapi.yml
 - filename: namely-job-tier-api-openapi.yml
   format: yaml
   label: Namely Job Tier API
   slug: namely-job-tier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-job-tier-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-job-tier-api-openapi.yml
 - filename: namely-job-title-api-openapi.yml
   format: yaml
   label: Namely Job Title API
   slug: namely-job-title-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-job-title-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-job-title-api-openapi.yml
 - filename: namely-jobs-info-api-openapi.yml
   format: yaml
   label: Namely Jobs Info API
   slug: namely-jobs-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-jobs-info-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-jobs-info-api-openapi.yml
 - filename: namely-likes-api-openapi.yml
   format: yaml
   label: Namely Likes API
   slug: namely-likes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-likes-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-likes-api-openapi.yml
 - filename: namely-namely-system-info-api-openapi.yml
   format: yaml
   label: Namely System Info API
   slug: namely-namely-system-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-namely-system-info-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-namely-system-info-api-openapi.yml
 - filename: namely-notifications-api-openapi.yml
   format: yaml
   label: Namely Notifications API
   slug: namely-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-notifications-api-openapi.yml
 - filename: namely-profile-fields-api-openapi.yml
   format: yaml
   label: Namely Profile Fields API
   slug: namely-profile-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-profile-fields-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-profile-fields-api-openapi.yml
 - filename: namely-profile-fields-sections-api-openapi.yml
   format: yaml
   label: Namely Profile Fields Sections API
   slug: namely-profile-fields-sections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-profile-fields-sections-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-profile-fields-sections-api-openapi.yml
 - filename: namely-profiles-api-openapi.yml
   format: yaml
   label: Namely Profiles API
   slug: namely-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-profiles-api-openapi.yml
 - filename: namely-reports-api-openapi.yml
   format: yaml
   label: Namely Reports API
   slug: namely-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-reports-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-reports-api-openapi.yml
 - filename: namely-teams-api-openapi.yml
   format: yaml
   label: Namely Teams API
   slug: namely-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/openapi/namely-teams-api-openapi.yml
+  url: https://artifacts.apis.io/namely/openapi/namely-teams-api-openapi.yml
 auth_types: []
 description: 'The Namely API supports two authentication models, both documented on the provider''s own developer portal: a 3-legged OAuth 2.0 authorization code grant for partner integrations, and Personal Access Tokens (bearer tokens) for a client''s own internal integrations. All requests must be made over HTTPS; plaintext HTTP is refused. Credentials are minted inside the customer''s own Namely HRIS tenant under the API menu item, which requires an administrator to grant access.'
 kind: authentication
@@ -183,7 +183,7 @@ source_yaml: "generated: '2026-08-26'\nmethod: searched\nsource: https://develop
   \ redirect URIs; returns a client identifier and\n      client secret.\n  - id: personal_access_token\n    type: http\n    scheme: bearer\n    from_spec: false\n    source: https://developers.namely.com/docs/getting-started/authentication.md\n    header: 'Authorization: Bearer <token>'\n    lifetime: 2 years\n    permission_model: >-\n      A PAT carries exactly the permissions of the Namely user who created it. Namely recommends\n      creating integration PATs under a dedicated administrator \"Integrations User\" profile that\n      persists through staff turnover.\n    failure_mode: >-\n      If the profile that created a PAT becomes inactive or is deleted, the API returns HTTP 403\n      to every request using that token and the integration breaks.\n    intended_for: A Namely client building their own custom integration.\n    not_intended_for: >-\n      Partner integrations. Namely's docs explicitly say partners should use an OAuth application\n      instead of a PAT.\nidentity_federation:\n\
   \  saml:\n    supported: true\n    version: SAML 2.0\n    role: Service Provider only\n    source: https://developers.namely.com/docs/getting-started/sso.md\n    note: >-\n      Namely performs no credential authentication of its own for SSO. It verifies the assertion\n      from the customer's Identity Provider and matches the NameID email against an existing\n      Namely profile. Namely publishes a SAML metadata endpoint for IdP configuration. Named\n      supported IdPs are Okta, OneLogin and Microsoft Entra ID (Azure AD).\n    provisioning: >-\n      Namely does NOT provision accounts into the IdP. Inbound/outbound user provisioning is\n      handled separately through the SCIM 2.0 surface (see conformance/namely-conformance.yml).\n  scim:\n    supported: true\n    version: SCIM 2.0\n    endpoint: https://{company}.namely.com/api/scim/v2/Users.json\n    source: https://developers.namely.com/docs/okta/syncing-custom-fields.md\n    note: >-\n      Namely acts as the SCIM source of record\
   \ for user profiles flowing into Okta. Custom\n      attributes are carried under the standard SCIM extension URN\n      urn:ietf:params:scim:schemas:extension:custom:2.0:User.\ngaps:\n  - >-\n    The published Swagger 2.0 document declares no `security` requirement on any of its 54\n    operations, so a generated client will not attach the Authorization header without the\n    integrator reading the prose docs.\n  - >-\n    The OAuth 2.0 flow is documented only in prose. It is absent from the machine-readable\n    contract, which declares apiKey only.\n  - No published OAuth scope vocabulary; consent is all-or-nothing at the user's permission level.\n  - No /.well-known/openid-configuration or /.well-known/oauth-authorization-server on any host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/namely/refs/heads/main/authentication/namely-authentication.yml
+source_yaml_url: https://artifacts.apis.io/namely/authentication/namely-authentication.yml
 summary_line: 3 schemes
 tags:
 - Human Resources

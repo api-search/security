@@ -5,19 +5,19 @@ api_specs:
   label: Singularity Emissions API
   slug: singularity-energy-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/openapi/singularity-energy-emissions-api-openapi.yml
+  url: https://artifacts.apis.io/singularity-energy/openapi/singularity-energy-emissions-api-openapi.yml
 - filename: singularity-energy-events-api-openapi.yml
   format: yaml
   label: Singularity Events API
   slug: singularity-energy-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/openapi/singularity-energy-events-api-openapi.yml
+  url: https://artifacts.apis.io/singularity-energy/openapi/singularity-energy-events-api-openapi.yml
 - filename: singularity-energy-interchange-api-openapi.yml
   format: yaml
   label: Singularity Interchange API
   slug: singularity-energy-interchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/openapi/singularity-energy-interchange-api-openapi.yml
+  url: https://artifacts.apis.io/singularity-energy/openapi/singularity-energy-interchange-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: singularity-energy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.singularity.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 23:55:17 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.singularity.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 06:04:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.singularity.energy\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: singularity.energy\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/singularity-energy/refs/heads/main/security/singularity-energy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/singularity-energy/security/singularity-energy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

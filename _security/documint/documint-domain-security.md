@@ -45,7 +45,7 @@ source_filename: documint-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.documint.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 15:03:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: documint.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 22:51:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.documint.me\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 01:57:24 2026 GMT\n  hsts: false\ndomains:\n- domain: documint.me\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/documint/refs/heads/main/security/documint-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/documint/security/documint-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Document Generation

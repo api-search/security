@@ -7,13 +7,13 @@ api_specs:
   label: NumLookupAPI Account API
   slug: numlookupapi-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/openapi/numlookupapi-account-api-openapi.yml
+  url: https://artifacts.apis.io/numlookupapi/openapi/numlookupapi-account-api-openapi.yml
 - filename: numlookupapi-validation-api-openapi.yml
   format: yaml
   label: NumLookupAPI Validation API
   slug: numlookupapi-validation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/openapi/numlookupapi-validation-api-openapi.yml
+  url: https://artifacts.apis.io/numlookupapi/openapi/numlookupapi-validation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -51,7 +51,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://numlookupapi.com/docs/authentication\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameterName: apikey\n  description: >-\n    API key passed in the `apikey` HTTP request header. This is the recommended\n    method. Example: `curl \"https://api.numlookupapi.com/v1/status\" -H \"apikey:\n    YOUR-API-KEY\"`.\n  recommended: true\n  sources:\n  - https://numlookupapi.com/docs/authentication\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameterName: apikey\n  description: >-\n    API key passed as the `apikey` query-string parameter. Not recommended - the\n    docs warn it can expose your API key in access logs and similar. Example:\n    `curl \"https://api.numlookupapi.com/v1/status?apikey=YOUR-API-KEY\"`.\n  recommended: false\n  sources:\n  - https://numlookupapi.com/docs/authentication\nnotes: >-\n  Live-probed 2026-07-12: unauthenticated requests return\
   \ HTTP 401 with\n  {\"message\":\"No API key found in request\"} and a `WWW-Authenticate: Key\n  realm=\"kong\"` header, confirming an API-key model behind a Kong gateway. A key\n  is obtained from the NumLookupAPI account dashboard after signing up (free tier\n  available).\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/numlookupapi/refs/heads/main/authentication/numlookupapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/numlookupapi/authentication/numlookupapi-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Number Verification

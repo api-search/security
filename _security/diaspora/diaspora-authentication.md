@@ -7,85 +7,85 @@ api_specs:
   label: Diaspora Aspects API
   slug: diaspora-aspects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-aspects-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-aspects-api-openapi.yml
 - filename: diaspora-comments-api-openapi.yml
   format: yaml
   label: Diaspora Comments API
   slug: diaspora-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-comments-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-comments-api-openapi.yml
 - filename: diaspora-contacts-api-openapi.yml
   format: yaml
   label: Diaspora Contacts API
   slug: diaspora-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-contacts-api-openapi.yml
 - filename: diaspora-conversations-api-openapi.yml
   format: yaml
   label: Diaspora Conversations API
   slug: diaspora-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-conversations-api-openapi.yml
 - filename: diaspora-likes-api-openapi.yml
   format: yaml
   label: Diaspora Likes API
   slug: diaspora-likes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-likes-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-likes-api-openapi.yml
 - filename: diaspora-notifications-api-openapi.yml
   format: yaml
   label: Diaspora Notifications API
   slug: diaspora-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-notifications-api-openapi.yml
 - filename: diaspora-photos-api-openapi.yml
   format: yaml
   label: Diaspora Photos API
   slug: diaspora-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-photos-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-photos-api-openapi.yml
 - filename: diaspora-post-interactions-api-openapi.yml
   format: yaml
   label: Diaspora Post interactions API
   slug: diaspora-post-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-post-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-post-interactions-api-openapi.yml
 - filename: diaspora-posts-api-openapi.yml
   format: yaml
   label: Diaspora Posts API
   slug: diaspora-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-posts-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-posts-api-openapi.yml
 - filename: diaspora-reshares-api-openapi.yml
   format: yaml
   label: Diaspora Reshares API
   slug: diaspora-reshares-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-reshares-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-reshares-api-openapi.yml
 - filename: diaspora-search-api-openapi.yml
   format: yaml
   label: Diaspora Search API
   slug: diaspora-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-search-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-search-api-openapi.yml
 - filename: diaspora-streams-api-openapi.yml
   format: yaml
   label: Diaspora Streams API
   slug: diaspora-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-streams-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-streams-api-openapi.yml
 - filename: diaspora-tag-followings-api-openapi.yml
   format: yaml
   label: Diaspora Tag followings API
   slug: diaspora-tag-followings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-tag-followings-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-tag-followings-api-openapi.yml
 - filename: diaspora-users-api-openapi.yml
   format: yaml
   label: Diaspora Users API
   slug: diaspora-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/openapi/diaspora-users-api-openapi.yml
+  url: https://artifacts.apis.io/diaspora/openapi/diaspora-users-api-openapi.yml
 auth_types:
 - openIdConnect
 description: diaspora* authenticates API clients with OpenID Connect Core 1.0. Because diaspora* is decentralized, a manual application registration on a single pod is not sufficient, so the project also implements OpenID Connect Discovery 1.0 and OpenID Connect Dynamic Client Registration 1.0 — an application discovers a pod's endpoints and registers itself at runtime against pods it has never seen before. There is no static API key and no shared client credential across the network.
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  https://d
   \ /api/openid_connect/clients\n  method: POST\n  minimal_request_fields:\n  - client_name\n  - redirect_uris\n  returns:\n  - client_id\n  - client_secret\n  rationale: >-\n    Decentralization: an application cannot be manually pre-registered on every pod in the\n    network, so it registers itself on first contact with an unknown pod.\n\nflows:\n- id: authorization_code\n  name: Authorization Code Flow\n  spec: http://openid.net/specs/openid-connect-core-1_0.html#CodeFlowAuth\n  typical_client: Native client applications\n  description: >-\n    After authorization the client receives an authorization code and exchanges it for an access\n    token at the token endpoint.\n- id: implicit\n  name: Implicit Flow\n  spec: http://openid.net/specs/openid-connect-core-1_0.html#ImplicitFlowAuth\n  typical_client: Browser-based applications\n  description: >-\n    After authorization the access token is returned directly to the redirect endpoint via the\n    user agent.\n\nendpoints:\n  note: >-\n\
   \    Paths are identical on every pod; only the host varies. The values below are the live values\n    discovered on the diaspora.social pod.\n  authorization_endpoint: https://diaspora.social/api/openid_connect/authorizations/new\n  token_endpoint: https://diaspora.social/api/openid_connect/access_tokens\n  userinfo_endpoint: https://diaspora.social/api/openid_connect/user_info\n  registration_endpoint: https://diaspora.social/api/openid_connect/clients\n  jwks_uri: https://diaspora.social/api/openid_connect/jwks.json\n\ntoken_endpoint_auth_methods_supported:\n- client_secret_basic\n- client_secret_post\n- private_key_jwt\n\nid_token_signing_alg_values_supported:\n- RS256\n\nsubject_types_supported:\n- public\n- pairwise\n\nclaims_supported:\n- sub\n- name\n- nickname\n- profile\n- picture\n\ntoken_transmission:\n- style: header\n  example: 'Authorization: Bearer <access token>'\n  preferred: true\n- style: query_parameter\n  example: https://example.com/api/v0/example?access_token=<access\
   \ token>\n- style: form_parameter\n  content_type: application/x-www-form-urlencoded\n  example: access_token=<access token>\n\nerrors:\n- status: 401\n  meaning: >-\n    No token or an invalid token was supplied. All API endpoints require authentication.\n- status: 403\n  meaning: >-\n    The client tried to access an endpoint whose OAuth scope was not part of the authorization\n    grant.\n\nrelated:\n  scopes: scopes/diaspora-scopes.yml\n  conventions: conventions/diaspora-conventions.yml\n  well_known: well-known/diaspora-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/diaspora/refs/heads/main/authentication/diaspora-authentication.yml
+source_yaml_url: https://artifacts.apis.io/diaspora/authentication/diaspora-authentication.yml
 summary_line: openIdConnect · 1 scheme
 tags:
 - Company

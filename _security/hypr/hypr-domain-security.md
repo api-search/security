@@ -5,37 +5,37 @@ api_specs:
   label: HYPR Analytics API
   slug: hypr-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/openapi/hypr-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/hypr/openapi/hypr-analytics-api-openapi.yml
 - filename: hypr-control-center-api-openapi.yml
   format: yaml
   label: HYPR Control Center API
   slug: hypr-control-center-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/openapi/hypr-control-center-api-openapi.yml
+  url: https://artifacts.apis.io/hypr/openapi/hypr-control-center-api-openapi.yml
 - filename: hypr-fido-api-api-openapi.yml
   format: yaml
   label: HYPR FIDO API
   slug: hypr-fido-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/openapi/hypr-fido-api-api-openapi.yml
+  url: https://artifacts.apis.io/hypr/openapi/hypr-fido-api-api-openapi.yml
 - filename: hypr-fido2-rp-api-api-openapi.yml
   format: yaml
   label: HYPR FIDO2 RP API
   slug: hypr-fido2-rp-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/openapi/hypr-fido2-rp-api-api-openapi.yml
+  url: https://artifacts.apis.io/hypr/openapi/hypr-fido2-rp-api-api-openapi.yml
 - filename: hypr-radius-api-openapi.yml
   format: yaml
   label: HYPR RADIUS API
   slug: hypr-radius-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/openapi/hypr-radius-api-openapi.yml
+  url: https://artifacts.apis.io/hypr/openapi/hypr-radius-api-openapi.yml
 - filename: hypr-rp-applications-api-openapi.yml
   format: yaml
   label: HYPR RP Applications API
   slug: hypr-rp-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/openapi/hypr-rp-applications-api-openapi.yml
+  url: https://artifacts.apis.io/hypr/openapi/hypr-rp-applications-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: hypr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hypr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 12:52:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hypr.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:csec-alerts@hypr.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hypr/refs/heads/main/security/hypr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hypr/security/hypr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Tribute Technology Authentication API
   slug: tributetech-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/openapi/tributetech-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/tributetech/openapi/tributetech-authentication-api-openapi.yml
 - filename: tributetech-obituaries-api-openapi.yml
   format: yaml
   label: Tribute Technology Obituaries API
   slug: tributetech-obituaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/openapi/tributetech-obituaries-api-openapi.yml
+  url: https://artifacts.apis.io/tributetech/openapi/tributetech-obituaries-api-openapi.yml
 - filename: tributetech-serving-locations-api-openapi.yml
   format: yaml
   label: Tribute Technology Serving Locations API
   slug: tributetech-serving-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/openapi/tributetech-serving-locations-api-openapi.yml
+  url: https://artifacts.apis.io/tributetech/openapi/tributetech-serving-locations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: tributetech-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tributetech-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'HTML bearer token obtained from POST /token/. Include as Authorization: Bearer\n    {TOKEN}.'\n  sources:\n  - openapi/tributetech-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tributetech/refs/heads/main/authentication/tributetech-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tributetech/authentication/tributetech-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Funeral Technology

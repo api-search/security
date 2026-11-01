@@ -7,13 +7,13 @@ api_specs:
   label: Traceable Specifications API
   slug: traceable-specifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-specifications-api-openapi.yml
+  url: https://artifacts.apis.io/traceable/openapi/traceable-specifications-api-openapi.yml
 - filename: traceable-graph-ql-api-openapi.yml
   format: yaml
   label: Traceable Graph QL API
   slug: traceable-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/openapi/traceable-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/traceable/openapi/traceable-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: traceable-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/traceable-platform-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Platform API token generated through the Traceable dashboard. Pass as a Bearer\n    token in the Authorization header. Tokens are single-use and cannot be retrieved after initial\n    generation.\n  sources:\n  - openapi/traceable-platform-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traceable/refs/heads/main/authentication/traceable-authentication.yml
+source_yaml_url: https://artifacts.apis.io/traceable/authentication/traceable-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Discovery

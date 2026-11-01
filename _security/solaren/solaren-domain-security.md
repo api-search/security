@@ -26,7 +26,7 @@ source_filename: solaren-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.solarenspace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 08:33:18 2026 GMT\n  hsts: false\ndomains:\n- domain: solarenspace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/solaren/refs/heads/main/security/solaren-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/solaren/security/solaren-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

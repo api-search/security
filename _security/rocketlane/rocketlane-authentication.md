@@ -8,79 +8,79 @@ api_specs:
   label: Rocketlane Comments API
   slug: rocketlane-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-comments-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-comments-api-openapi.yml
 - filename: rocketlane-conversations-api-openapi.yml
   format: yaml
   label: Rocketlane Conversations API
   slug: rocketlane-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-conversations-api-openapi.yml
 - filename: rocketlane-fields-api-openapi.yml
   format: yaml
   label: Rocketlane Fields API
   slug: rocketlane-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-fields-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-fields-api-openapi.yml
 - filename: rocketlane-invoices-api-openapi.yml
   format: yaml
   label: Rocketlane Invoices API
   slug: rocketlane-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-invoices-api-openapi.yml
 - filename: rocketlane-phases-api-openapi.yml
   format: yaml
   label: Rocketlane Phases API
   slug: rocketlane-phases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-phases-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-phases-api-openapi.yml
 - filename: rocketlane-projects-api-openapi.yml
   format: yaml
   label: Rocketlane Projects API
   slug: rocketlane-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-projects-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-projects-api-openapi.yml
 - filename: rocketlane-resource-allocations-api-openapi.yml
   format: yaml
   label: Rocketlane Resource Allocations API
   slug: rocketlane-resource-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-resource-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-resource-allocations-api-openapi.yml
 - filename: rocketlane-space-documents-api-openapi.yml
   format: yaml
   label: Rocketlane Space Documents API
   slug: rocketlane-space-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-space-documents-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-space-documents-api-openapi.yml
 - filename: rocketlane-spaces-api-openapi.yml
   format: yaml
   label: Rocketlane Spaces API
   slug: rocketlane-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-spaces-api-openapi.yml
 - filename: rocketlane-tasks-api-openapi.yml
   format: yaml
   label: Rocketlane Tasks API
   slug: rocketlane-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-tasks-api-openapi.yml
 - filename: rocketlane-time-offs-api-openapi.yml
   format: yaml
   label: Rocketlane Time-Offs API
   slug: rocketlane-time-offs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-time-offs-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-time-offs-api-openapi.yml
 - filename: rocketlane-time-tracking-api-openapi.yml
   format: yaml
   label: Rocketlane Time Tracking API
   slug: rocketlane-time-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-time-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-time-tracking-api-openapi.yml
 - filename: rocketlane-users-api-openapi.yml
   format: yaml
   label: Rocketlane Users API
   slug: rocketlane-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/openapi/rocketlane-users-api-openapi.yml
+  url: https://artifacts.apis.io/rocketlane/openapi/rocketlane-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -106,7 +106,7 @@ source_filename: rocketlane-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.rocketlane.com/docs/overview + https://developer.rocketlane.com/docs/api-explorer\ndocs: https://developer.rocketlane.com/docs/overview\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter_name: api-key\n  description: Requests authenticate with a per-workspace API key passed in the\n    'api-key' request header. Keys are generated from Rocketlane workspace settings.\nnotes: Rocketlane uses a static API-key header ('api-key') for all API access; no\n  OAuth 2.0 / OpenID Connect flow is documented, so scopes/ is intentionally not\n  produced (key auth has no scope surface).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocketlane/refs/heads/main/authentication/rocketlane-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rocketlane/authentication/rocketlane-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: LittleHorse External Events API
   slug: littlehorse-external-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-external-events-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-external-events-api-openapi.yml
 - filename: littlehorse-node-runs-api-openapi.yml
   format: yaml
   label: LittleHorse Node Runs API
   slug: littlehorse-node-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-node-runs-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-node-runs-api-openapi.yml
 - filename: littlehorse-task-definitions-api-openapi.yml
   format: yaml
   label: LittleHorse Task Definitions API
   slug: littlehorse-task-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-task-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-task-definitions-api-openapi.yml
 - filename: littlehorse-user-tasks-api-openapi.yml
   format: yaml
   label: LittleHorse User Tasks API
   slug: littlehorse-user-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-user-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-user-tasks-api-openapi.yml
 - filename: littlehorse-workflow-runs-api-openapi.yml
   format: yaml
   label: LittleHorse Workflow Runs API
   slug: littlehorse-workflow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-workflow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-workflow-runs-api-openapi.yml
 - filename: littlehorse-workflow-specs-api-openapi.yml
   format: yaml
   label: LittleHorse Workflow Specs API
   slug: littlehorse-workflow-specs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/openapi/littlehorse-workflow-specs-api-openapi.yml
+  url: https://artifacts.apis.io/littlehorse/openapi/littlehorse-workflow-specs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: littlehorse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: littlehorse.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 05:54:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: littlehorse.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/security/littlehorse-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/littlehorse/security/littlehorse-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Microservices

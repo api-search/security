@@ -7,31 +7,31 @@ api_specs:
   label: Aptean Consumers API
   slug: aptean-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-consumers-api-openapi.yml
 - filename: aptean-events-api-openapi.yml
   format: yaml
   label: Aptean Events API
   slug: aptean-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-events-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-events-api-openapi.yml
 - filename: aptean-producers-api-openapi.yml
   format: yaml
   label: Aptean Producers API
   slug: aptean-producers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-producers-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-producers-api-openapi.yml
 - filename: aptean-event-definitions-api-openapi.yml
   format: yaml
   label: Aptean Event Definitions API
   slug: aptean-event-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-event-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-event-definitions-api-openapi.yml
 - filename: aptean-public-keys-api-openapi.yml
   format: yaml
   label: Aptean Public Keys API
   slug: aptean-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/openapi/aptean-public-keys-api-openapi.yml
+  url: https://artifacts.apis.io/aptean/openapi/aptean-public-keys-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: aptean-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/aptean-integration-platform-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: Bearer\n  type: http\n  scheme: bearer\n  description: 'JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer\n    {token}\"'\n  sources:\n  - openapi/aptean-integration-platform-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptean/refs/heads/main/authentication/aptean-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aptean/authentication/aptean-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

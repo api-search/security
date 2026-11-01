@@ -5,79 +5,79 @@ api_specs:
   label: Qonto Cards API
   slug: qonto-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-cards-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-cards-api-openapi.yml
 - filename: qonto-client-invoices-api-openapi.yml
   format: yaml
   label: Qonto Client Invoices API
   slug: qonto-client-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-client-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-client-invoices-api-openapi.yml
 - filename: qonto-internal-transfers-api-openapi.yml
   format: yaml
   label: Qonto Internal Transfers API
   slug: qonto-internal-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-internal-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-internal-transfers-api-openapi.yml
 - filename: qonto-international-transfers-api-openapi.yml
   format: yaml
   label: Qonto International Transfers API
   slug: qonto-international-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-international-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-international-transfers-api-openapi.yml
 - filename: qonto-organizations-accounts-api-openapi.yml
   format: yaml
   label: Qonto Organizations & Accounts API
   slug: qonto-organizations-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-organizations-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-organizations-accounts-api-openapi.yml
 - filename: qonto-payment-links-api-openapi.yml
   format: yaml
   label: Qonto Payment Links API
   slug: qonto-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-payment-links-api-openapi.yml
 - filename: qonto-sepa-direct-debit-api-openapi.yml
   format: yaml
   label: Qonto SEPA Direct Debit API
   slug: qonto-sepa-direct-debit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-sepa-direct-debit-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-sepa-direct-debit-api-openapi.yml
 - filename: qonto-sepa-transfers-api-openapi.yml
   format: yaml
   label: Qonto SEPA Transfers API
   slug: qonto-sepa-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-sepa-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-sepa-transfers-api-openapi.yml
 - filename: qonto-supplier-invoices-api-openapi.yml
   format: yaml
   label: Qonto Supplier Invoices API
   slug: qonto-supplier-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-supplier-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-supplier-invoices-api-openapi.yml
 - filename: qonto-terminals-api-openapi.yml
   format: yaml
   label: Qonto Terminals API
   slug: qonto-terminals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-terminals-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-terminals-api-openapi.yml
 - filename: qonto-webhooks-api-openapi.yml
   format: yaml
   label: Qonto Webhooks API
   slug: qonto-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-webhooks-api-openapi.yml
 - filename: qonto-oauth-api-openapi.yml
   format: yaml
   label: Qonto O Auth API
   slug: qonto-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-oauth-api-openapi.yml
 - filename: qonto-transactions-and-statements-api-openapi.yml
   format: yaml
   label: Qonto Transactions and Statements API
   slug: qonto-transactions-and-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/openapi/qonto-transactions-and-statements-api-openapi.yml
+  url: https://artifacts.apis.io/qonto/openapi/qonto-transactions-and-statements-api-openapi.yml
 certification_count: 1
 certifications:
 - GDPR
@@ -95,7 +95,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nprobe: true\nsource: https://qonto.com/en/security\nurl: https://qonto.com/en/security\nregulatory:\n- statement: >-\n    Qonto SA is a licensed payment institution authorized by the French Autorite\n    de Controle Prudentiel et de Resolution (ACPR), registration number 16958,\n    granted on 2018-06-21. The licence is EU-passported.\n  regulator: ACPR (France)\n  registrationNumber: '16958'\nfundSafeguarding:\n- Deposit protection up to EUR 100,000 per client via the Fonds de Garantie des Depots et de Resolution (FGDR).\n- Remaining funds covered by stand-alone guarantees from Credit Agricole CIB and BNP Paribas.\nsecurityFeatures:\n- Strong Customer Authentication (SCA) on critical operations (PSD2).\n- Verification of Payee (VoP) to confirm payee name matches bank account.\n- AI-powered fraud detection (machine learning + GenAI agents).\n- Device and session protection with adaptive monitoring.\n- Virtual cards with automatic per-transaction\
   \ number renewal.\ncertifications:\n- GDPR\nnotes: >-\n  As of the review date the public security page emphasizes regulatory status\n  (ACPR payment institution), fund safeguarding (FGDR + bank guarantees), PSD2\n  SCA, and GDPR/EU data protection. It does not publicly enumerate PCI DSS, ISO\n  27001, or SOC 2 on this page; do not assert those without a primary source.\nevidence:\n- source: https://qonto.com/en/security\n  keywords:\n  - payment institution\n  - ACPR\n  - registration number 16958\n  - Strong Customer Authentication\n  - Verification of Payee\n  - FGDR\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qonto/refs/heads/main/security/qonto-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/qonto/security/qonto-trust-center.yml
 summary_line: GDPR
 tags:
 - Business Banking

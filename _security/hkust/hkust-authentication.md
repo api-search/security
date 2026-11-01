@@ -7,25 +7,25 @@ api_specs:
   label: Hong Kong University of Science and Technology Buildings API
   slug: hkust-buildings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-buildings-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-buildings-api-openapi.yml
 - filename: hkust-floors-api-openapi.yml
   format: yaml
   label: Hong Kong University of Science and Technology Floors API
   slug: hkust-floors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-floors-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-floors-api-openapi.yml
 - filename: hkust-nodes-api-openapi.yml
   format: yaml
   label: Hong Kong University of Science and Technology Nodes API
   slug: hkust-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-nodes-api-openapi.yml
 - filename: hkust-tags-api-openapi.yml
   format: yaml
   label: Hong Kong University of Science and Technology Tags API
   slug: hkust-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/openapi/hkust-tags-api-openapi.yml
+  url: https://artifacts.apis.io/hkust/openapi/hkust-tags-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -49,7 +49,7 @@ source_yaml: "name: Hong Kong University of Science and Technology — authentic
   \    enrollment: https://hkust.developer.azure-api.net/signup\n    documentation: https://itso.hkust.edu.hk/services/it-infrastructure/smart-campus-infrastructure/open-data-platform/retrieve-iot-data-api\n    evidence:\n      - url: https://hkust.azure-api.net/sensor-data/_search\n        status: 401\n        body: 'Access denied due to missing subscription key.'\n      - url: https://hkust.azure-api.net/sensor-inventory/_search?q=location:LTL\n        status: 401\n  - surface: HKUST Shibboleth Identity Provider\n    entityID: https://idp.ust.hk/idp/shibboleth\n    x-operator: institution\n    scheme: SAML 2.0 / Shibboleth\n    description: >-\n      The institution's own SAML 2.0 identity provider — the authentication surface HKUST\n      genuinely operates itself. Asserts the scopes ust.hk, connect.ust.hk and alumni.ust.hk.\n      Supports SAML 2.0 HTTP-POST, HTTP-Redirect and SOAP/ECP bindings plus the legacy\n      Shibboleth 1.0 profile. Registered by the Hong Kong Access Federation\
   \ and published\n      into eduGAIN, carrying the REFEDS Research & Scholarship and SIRTFI entity categories.\n    endpoints:\n      - https://idp.ust.hk/idp/profile/SAML2/POST/SSO\n      - https://idp.ust.hk/idp/profile/SAML2/Redirect/SSO\n      - https://idp.ust.hk/idp/profile/SAML2/SOAP/ECP\n    securityContact: security@ust.hk\n    evidence:\n      - url: https://idp.ust.hk/idp/shibboleth\n        status: 200\n      - url: https://technical.edugain.org/api.php?action=show_entity&entityid=https://idp.ust.hk/idp/shibboleth\n        status: 200\n  - surface: DataSpace@HKUST (Dataverse Native API)\n    baseURL: https://dataspace.hkust.edu.hk/api\n    x-operator: institution\n    scheme: apiKey\n    parameter: X-Dataverse-key\n    in: header\n    description: >-\n      Read access to published datasets is unauthenticated — /api/info/version and\n      /api/search answered without credentials. Write and administrative operations use the\n      upstream Dataverse X-Dataverse-key header. The\
   \ authentication contract is the Dataverse\n      project's, not HKUST's; HKUST operates the deployment on its own domain and hardware.\n    evidence:\n      - url: https://dataspace.hkust.edu.hk/api/info/version\n        status: 200\n      - url: https://dataspace.hkust.edu.hk/api/search?q=*&type=dataset&per_page=1\n        status: 200\nnotFound:\n  - No OAuth 2.0 or OpenID Connect authorization server is published on any HKUST host probed.\n  - No .well-known/security.txt on www.ust.hk, itso.hkust.edu.hk or dataspace.hkust.edu.hk (404).\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/authentication/hkust-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hkust/authentication/hkust-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

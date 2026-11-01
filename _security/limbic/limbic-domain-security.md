@@ -27,7 +27,7 @@ source_filename: limbic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: limbic.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 11:22:06 2026 GMT\n  hsts: false\ndomains:\n- domain: limbic.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/limbic/refs/heads/main/security/limbic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/limbic/security/limbic-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

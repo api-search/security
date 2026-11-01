@@ -32,7 +32,7 @@ source_filename: switch-ch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.switch.ch\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  3 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: switch.ch\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"digicert.com; account=88646c566474fb435c2a73b7e885f93cee64611d831bca6d567ff2f5f8de6d76\"\n  - 0 issue \"digicert.com; account=88646c566474fb435c2a73b7e885f93cee64611d831bca6d567ff2f5f8de6d76\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/switch-ch/refs/heads/main/security/switch-ch-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/switch-ch/security/switch-ch-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -5,91 +5,91 @@ api_specs:
   label: Leonardo.AI 3D Model Assets API
   slug: leonardo-ai-3d-model-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-3d-model-assets-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-3d-model-assets-api-openapi.yml
 - filename: leonardo-ai-blueprints-api-openapi.yml
   format: yaml
   label: Leonardo.AI Blueprints API
   slug: leonardo-ai-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-blueprints-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-blueprints-api-openapi.yml
 - filename: leonardo-ai-dataset-api-openapi.yml
   format: yaml
   label: Leonardo.AI Dataset API
   slug: leonardo-ai-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-dataset-api-openapi.yml
 - filename: leonardo-ai-elements-api-openapi.yml
   format: yaml
   label: Leonardo.AI Elements API
   slug: leonardo-ai-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-elements-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-elements-api-openapi.yml
 - filename: leonardo-ai-image-api-openapi.yml
   format: yaml
   label: Leonardo.AI Image API
   slug: leonardo-ai-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-image-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-image-api-openapi.yml
 - filename: leonardo-ai-init-images-api-openapi.yml
   format: yaml
   label: Leonardo.AI Init Images API
   slug: leonardo-ai-init-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-init-images-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-init-images-api-openapi.yml
 - filename: leonardo-ai-media-api-openapi.yml
   format: yaml
   label: Leonardo.AI Media API
   slug: leonardo-ai-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-media-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-media-api-openapi.yml
 - filename: leonardo-ai-models-api-openapi.yml
   format: yaml
   label: Leonardo.AI Models API
   slug: leonardo-ai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-models-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-models-api-openapi.yml
 - filename: leonardo-ai-motion-api-openapi.yml
   format: yaml
   label: Leonardo.AI Motion API
   slug: leonardo-ai-motion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-motion-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-motion-api-openapi.yml
 - filename: leonardo-ai-pricing-calculator-api-openapi.yml
   format: yaml
   label: Leonardo.AI Pricing Calculator API
   slug: leonardo-ai-pricing-calculator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-pricing-calculator-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-pricing-calculator-api-openapi.yml
 - filename: leonardo-ai-prompt-api-openapi.yml
   format: yaml
   label: Leonardo.AI Prompt API
   slug: leonardo-ai-prompt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-prompt-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-prompt-api-openapi.yml
 - filename: leonardo-ai-realtime-canvas-api-openapi.yml
   format: yaml
   label: Leonardo.AI Realtime Canvas API
   slug: leonardo-ai-realtime-canvas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-realtime-canvas-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-realtime-canvas-api-openapi.yml
 - filename: leonardo-ai-user-api-openapi.yml
   format: yaml
   label: Leonardo.AI User API
   slug: leonardo-ai-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-user-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-user-api-openapi.yml
 - filename: leonardo-ai-variation-api-openapi.yml
   format: yaml
   label: Leonardo.AI Variation API
   slug: leonardo-ai-variation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-variation-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-variation-api-openapi.yml
 - filename: leonardo-ai-generations-api-openapi.yml
   format: yaml
   label: Leonardo.AI Generations API
   slug: leonardo-ai-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/openapi/leonardo-ai-generations-api-openapi.yml
+  url: https://artifacts.apis.io/leonardo-ai/openapi/leonardo-ai-generations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -128,7 +128,7 @@ source_filename: leonardo-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: leonardo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 04:08:50 2026 GMT\n  hsts: null\n- host: app.leonardo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 08:10:04 2026 GMT\n  hsts: null\n- host: docs.leonardo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 11:17:03 2026 GMT\n  hsts: null\ndomains:\n- domain: leonardo.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/security/leonardo-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/leonardo-ai/security/leonardo-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

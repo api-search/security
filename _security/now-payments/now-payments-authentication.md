@@ -14,43 +14,43 @@ api_specs:
   label: NOWPayments Authentication API
   slug: now-payments-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-authentication-api-openapi.yml
 - filename: now-payments-currencies-api-openapi.yml
   format: yaml
   label: NOWPayments Currencies API
   slug: now-payments-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-currencies-api-openapi.yml
 - filename: now-payments-estimates-api-openapi.yml
   format: yaml
   label: NOWPayments Estimates API
   slug: now-payments-estimates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-estimates-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-estimates-api-openapi.yml
 - filename: now-payments-invoices-api-openapi.yml
   format: yaml
   label: NOWPayments Invoices API
   slug: now-payments-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-invoices-api-openapi.yml
 - filename: now-payments-payments-api-openapi.yml
   format: yaml
   label: NOWPayments Payments API
   slug: now-payments-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-payments-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-payments-api-openapi.yml
 - filename: now-payments-payouts-api-openapi.yml
   format: yaml
   label: NOWPayments Payouts API
   slug: now-payments-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-payouts-api-openapi.yml
 - filename: now-payments-status-api-openapi.yml
   format: yaml
   label: NOWPayments Status API
   slug: now-payments-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/openapi/now-payments-status-api-openapi.yml
+  url: https://artifacts.apis.io/now-payments/openapi/now-payments-status-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -86,7 +86,7 @@ source_filename: now-payments-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: NOWPayments API key obtained from your merchant dashboard\n  sources:\n  - openapi/openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JWT token obtained from the /auth endpoint (required for mass payout operations)\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/authentication/now-payments-authentication.yml
+source_yaml_url: https://artifacts.apis.io/now-payments/authentication/now-payments-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Crypto Payments

@@ -5,43 +5,43 @@ api_specs:
   label: Safello Account API
   slug: safello-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-account-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-account-api-openapi.yml
 - filename: safello-auth-api-openapi.yml
   format: yaml
   label: Safello Auth API
   slug: safello-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-auth-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-auth-api-openapi.yml
 - filename: safello-compliance-api-openapi.yml
   format: yaml
   label: Safello Compliance API
   slug: safello-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-compliance-api-openapi.yml
 - filename: safello-market-api-openapi.yml
   format: yaml
   label: Safello Market API
   slug: safello-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-market-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-market-api-openapi.yml
 - filename: safello-orders-api-openapi.yml
   format: yaml
   label: Safello Orders API
   slug: safello-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-orders-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-orders-api-openapi.yml
 - filename: safello-prices-api-openapi.yml
   format: yaml
   label: Safello Prices API
   slug: safello-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-prices-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-prices-api-openapi.yml
 - filename: safello-wallet-api-openapi.yml
   format: yaml
   label: Safello Wallet API
   slug: safello-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/openapi/safello-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/safello/openapi/safello-wallet-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: safello-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: safello.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 13:07:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.safello.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.safello.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: safello.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/safello/refs/heads/main/security/safello-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/safello/security/safello-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: brightback Retention API
   slug: brightback-retention-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/openapi/brightback-retention-api-openapi.yml
+  url: https://artifacts.apis.io/brightback/openapi/brightback-retention-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: brightback-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: brightback.com\n  https: false\n- host: app.brightback.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: null\n- host: app.retention.chargebee.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: brightback.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: chargebee.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/security/brightback-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brightback/security/brightback-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

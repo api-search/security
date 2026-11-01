@@ -9,25 +9,25 @@ api_specs:
   label: Docparser Documents API
   slug: docparser-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-documents-api-openapi.yml
+  url: https://artifacts.apis.io/docparser/openapi/docparser-documents-api-openapi.yml
 - filename: docparser-parsers-api-openapi.yml
   format: yaml
   label: Docparser Parsers API
   slug: docparser-parsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-parsers-api-openapi.yml
+  url: https://artifacts.apis.io/docparser/openapi/docparser-parsers-api-openapi.yml
 - filename: docparser-ping-api-openapi.yml
   format: yaml
   label: Docparser Ping API
   slug: docparser-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-ping-api-openapi.yml
+  url: https://artifacts.apis.io/docparser/openapi/docparser-ping-api-openapi.yml
 - filename: docparser-results-api-openapi.yml
   format: yaml
   label: Docparser Results API
   slug: docparser-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/openapi/docparser-results-api-openapi.yml
+  url: https://artifacts.apis.io/docparser/openapi/docparser-results-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -69,7 +69,7 @@ source_filename: docparser-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/docparser-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication. Use your API key as the username and leave the password\n    blank.\n  sources:\n  - openapi/docparser-rest-api-openapi.yml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: api_key\n  description: API key passed as a custom request header.\n  sources:\n  - openapi/docparser-rest-api-openapi.yml\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: API key passed as a URL query parameter.\n  sources:\n  - openapi/docparser-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docparser/refs/heads/main/authentication/docparser-authentication.yml
+source_yaml_url: https://artifacts.apis.io/docparser/authentication/docparser-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Document Parsing

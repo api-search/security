@@ -8,85 +8,85 @@ api_specs:
   label: Iru Audit API
   slug: kandji-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-audit-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-audit-api-openapi.yml
 - filename: kandji-behavioral-detections-api-openapi.yml
   format: yaml
   label: Iru Behavioral Detections API
   slug: kandji-behavioral-detections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-behavioral-detections-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-behavioral-detections-api-openapi.yml
 - filename: kandji-blueprints-api-openapi.yml
   format: yaml
   label: Iru Blueprints API
   slug: kandji-blueprints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-blueprints-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-blueprints-api-openapi.yml
 - filename: kandji-devices-api-openapi.yml
   format: yaml
   label: Iru Devices API
   slug: kandji-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-devices-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-devices-api-openapi.yml
 - filename: kandji-integrations-api-openapi.yml
   format: yaml
   label: Iru Integrations API
   slug: kandji-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-integrations-api-openapi.yml
 - filename: kandji-library-api-openapi.yml
   format: yaml
   label: Iru Library API
   slug: kandji-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-library-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-library-api-openapi.yml
 - filename: kandji-prism-api-openapi.yml
   format: yaml
   label: Iru Prism API
   slug: kandji-prism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-prism-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-prism-api-openapi.yml
 - filename: kandji-self-service-api-openapi.yml
   format: yaml
   label: Iru Self Service API
   slug: kandji-self-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-self-service-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-self-service-api-openapi.yml
 - filename: kandji-settings-api-openapi.yml
   format: yaml
   label: Iru Settings API
   slug: kandji-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-settings-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-settings-api-openapi.yml
 - filename: kandji-tags-api-openapi.yml
   format: yaml
   label: Iru Tags API
   slug: kandji-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-tags-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-tags-api-openapi.yml
 - filename: kandji-threat-details-api-openapi.yml
   format: yaml
   label: Iru Threat Details API
   slug: kandji-threat-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-threat-details-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-threat-details-api-openapi.yml
 - filename: kandji-upload-to-s3-api-openapi.yml
   format: yaml
   label: Iru Upload To S3 API
   slug: kandji-upload-to-s3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-upload-to-s3-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-upload-to-s3-api-openapi.yml
 - filename: kandji-users-api-openapi.yml
   format: yaml
   label: Iru Users API
   slug: kandji-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-users-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-users-api-openapi.yml
 - filename: kandji-vulnerability-management-api-openapi.yml
   format: yaml
   label: Iru Vulnerability Management API
   slug: kandji-vulnerability-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/openapi/kandji-vulnerability-management-api-openapi.yml
+  url: https://artifacts.apis.io/kandji/openapi/kandji-vulnerability-management-api-openapi.yml
 - filename: how-to-set-up-the-iru-endpoint-api-in-postman.md
   format: yaml
   label: Iru Endpoint Management API
@@ -144,7 +144,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: >-\n  openapi/k
   \ globally via the spec root security[]; every one of the 121 operations inherits it\n  sources:\n  - openapi/kandji-endpoint-management-openapi.json\n  note: >-\n    The spec declares bearerFormat: JWT, but the docs describe the credential only as a\n    \"tenant-level bearer token\"; the token's internal format is not documented and should not be\n    parsed by clients.\n- name: MCP X-API-Key\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  value_format: 'sk_live:<key>'\n  surface: mcp\n  sources:\n  - https://docs.iru.com/en/endpoint/integrations/ai-assistants/iru-mcp\n- name: MCP X-MCP-Profile\n  type: apiKey\n  in: header\n  parameter: X-MCP-Profile\n  surface: mcp\n  role: selects the MCP profile issued with the token\n  sources:\n  - https://docs.iru.com/en/endpoint/integrations/ai-assistants/iru-mcp\ntoken_lifecycle:\n  issuance: Web App > Account Menu > Access > API tokens > Add Token (name + description required)\n  scope: tenant\n  one_time_display: true\n  one_time_display_note:\
   \ >-\n    The token value and the MCP configuration JSON are shown once, on the creation success screen.\n    If lost, the token must be revoked and re-created.\n  rotation_policy_documented: false\n  expiry_documented: false\n  revocation: 'Access > API tokens; revoking a token kills both its REST and its MCP access.'\n  audit: >-\n    Token created / updated / deleted events appear in the tenant-wide Unified Activity timeline and\n    on each token's Activity tab; the API also exposes /api/v1/audit/events (listAuditEvents).\nauthorization:\n  model: per-endpoint permission grid\n  granularity: individual endpoint, groupable by category (e.g. \"Blueprints Management\")\n  configurable: at creation (\"Configure\") or later (\"Edit\")\n  default: a token can be created with no permissions and configured later\n  scopes: null\n  scopes_note: >-\n    This is NOT an OAuth scope model — there is no scope string, no consent screen and no\n    authorization server, so no scopes/ artifact is emitted.\
   \ Authorization is an operator-selected\n    allowlist of API endpoints attached to the token.\n  applies_to_mcp: true\nregions:\n  us: https://{subdomain}.api.kandji.io\n  eu: https://{subdomain}.api.eu.kandji.io\n  note: >-\n    A token is bound to its tenant's regional hostname, shown as \"Your organization's API URL\" on\n    the Access > API tokens page.\nfailure_modes:\n  '401': Missing, malformed, revoked or wrong-tenant token (declared on 113 of 121 operations).\n  '403': Not declared anywhere in the spec — how an insufficient-permission denial surfaces is undocumented.\nsee_also:\n  conventions: conventions/kandji-conventions.yml\n  errors: errors/kandji-problem-types.yml\n  mcp: mcp/kandji-mcp.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kandji/refs/heads/main/authentication/kandji-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kandji/authentication/kandji-authentication.yml
 summary_line: http/apiKey · 3 schemes
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Apache Pinot Cluster API
   slug: apache-pinot-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pinot/openapi/apache-pinot-cluster-api-openapi.yml
 - filename: apache-pinot-queries-api-openapi.yml
   format: yaml
   label: Apache Pinot Queries API
   slug: apache-pinot-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-queries-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pinot/openapi/apache-pinot-queries-api-openapi.yml
 - filename: apache-pinot-schemas-api-openapi.yml
   format: yaml
   label: Apache Pinot Schemas API
   slug: apache-pinot-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pinot/openapi/apache-pinot-schemas-api-openapi.yml
 - filename: apache-pinot-segments-api-openapi.yml
   format: yaml
   label: Apache Pinot Segments API
   slug: apache-pinot-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-segments-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pinot/openapi/apache-pinot-segments-api-openapi.yml
 - filename: apache-pinot-tables-api-openapi.yml
   format: yaml
   label: Apache Pinot Tables API
   slug: apache-pinot-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/openapi/apache-pinot-tables-api-openapi.yml
+  url: https://artifacts.apis.io/apache-pinot/openapi/apache-pinot-tables-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: apache-pinot-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.pinot.apache.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 23:43:50 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: apache.org\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:root@apache.org\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-pinot/refs/heads/main/security/apache-pinot-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apache-pinot/security/apache-pinot-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

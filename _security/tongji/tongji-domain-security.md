@@ -5,37 +5,37 @@ api_specs:
   label: Tongji University AI Services API
   slug: tongji-ai-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-ai-services-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-ai-services-api-openapi.yml
 - filename: tongji-assets-and-procurement-api-openapi.yml
   format: yaml
   label: Tongji University Assets and Procurement API
   slug: tongji-assets-and-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-assets-and-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-assets-and-procurement-api-openapi.yml
 - filename: tongji-education-data-verification-api-openapi.yml
   format: yaml
   label: Tongji University Education Data Verification API
   slug: tongji-education-data-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-education-data-verification-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-education-data-verification-api-openapi.yml
 - filename: tongji-library-api-openapi.yml
   format: yaml
   label: Tongji University Library API
   slug: tongji-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-library-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-library-api-openapi.yml
 - filename: tongji-reference-metadata-api-openapi.yml
   format: yaml
   label: Tongji University Reference Metadata API
   slug: tongji-reference-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-reference-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-reference-metadata-api-openapi.yml
 - filename: tongji-research-api-openapi.yml
   format: yaml
   label: Tongji University Research API
   slug: tongji-research-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/openapi/tongji-research-api-openapi.yml
+  url: https://artifacts.apis.io/tongji/openapi/tongji-research-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: tongji-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tongji.edu.cn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 11:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: en.tongji.edu.cn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 11:59:59 2026 GMT\n  hsts: false\n- host: api.tongji.edu.cn\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 11:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: tongji.edu.cn\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tongji/refs/heads/main/security/tongji-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tongji/security/tongji-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

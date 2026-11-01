@@ -7,31 +7,31 @@ api_specs:
   label: Autify Autify Cli API
   slug: autify-autify-cli-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/autify-autify-cli-api-openapi.yml
+  url: https://artifacts.apis.io/autify/openapi/autify-autify-cli-api-openapi.yml
 - filename: autify-default-api-openapi.yml
   format: yaml
   label: Autify ~ API
   slug: autify-default-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/autify-default-api-openapi.yml
+  url: https://artifacts.apis.io/autify/openapi/autify-default-api-openapi.yml
 - filename: autify-payload-api-openapi.yml
   format: yaml
   label: Autify Payload API
   slug: autify-payload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/autify-payload-api-openapi.yml
+  url: https://artifacts.apis.io/autify/openapi/autify-payload-api-openapi.yml
 - filename: autify-projects-api-openapi.yml
   format: yaml
   label: Autify Projects API
   slug: autify-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/autify-projects-api-openapi.yml
+  url: https://artifacts.apis.io/autify/openapi/autify-projects-api-openapi.yml
 - filename: autify-workspaces-api-openapi.yml
   format: yaml
   label: Autify Workspaces API
   slug: autify-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/openapi/autify-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/autify/openapi/autify-workspaces-api-openapi.yml
 auth_types: []
 description: Authentication schemes supported by Autify as documented.
 kind: authentication
@@ -55,7 +55,7 @@ source_filename: autify-authentication.yml
 source_heading: Authentication Profile
 source_url: https://help.autify.com/docs/authentication.md
 source_yaml: "generated: '2026-09-26'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://help.autify.com/docs/authentication.md\nsources:\n- https://help.autify.com/docs/authentication.md\n- https://help.autify.com/docs/testing-various-authentication.md\n- https://help.autify.com/docs/basic-authentication.md\n- https://help.autify.com/docs/how-to-test-two-factor-authent.md\ndescription: Authentication schemes supported by Autify as documented.\nschemes:\n- type: http-basic\n  name: Basic authentication\n  evidence: You can set up Basic authentication on a per-domain basis.\n  how_to_obtain: Configure the domain, username, and password in Settings → Basic auth credentials.\ndocs: https://help.autify.com/docs/authentication.md\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/autify/refs/heads/main/authentication/autify-authentication.yml
+source_yaml_url: https://artifacts.apis.io/autify/authentication/autify-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

@@ -33,7 +33,7 @@ source_filename: studocu-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.studocu.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 12:15:31 2026 GMT\n  hsts: null\ndomains:\n- domain: studocu.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:security@studocu.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/studocu/refs/heads/main/security/studocu-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/studocu/security/studocu-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

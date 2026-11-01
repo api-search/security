@@ -15,11 +15,11 @@ source_filename: baselayer-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: searched\nprobe: true\nsource: https://trust.baselayer.com/\nurl: https://trust.baselayer.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.baselayer.com/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/baselayer/refs/heads/main/security/baselayer-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/baselayer/security/baselayer-trust-center.yml
 summary_line: SOC 2
 tags:
 - Business
-- IdentityVerification
+- Identity Verification
 - Risk Management
 - Fintech
 trust_url: https://trust.baselayer.com/

@@ -35,7 +35,7 @@ source_filename: take-two-interactive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.take2games.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 27 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.take2games.com\n  https: false\n- host: api.take2games.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: take2games.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/take-two-interactive/refs/heads/main/security/take-two-interactive-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/take-two-interactive/security/take-two-interactive-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Gaming

@@ -8,25 +8,25 @@ api_specs:
   label: Malt Fee Invoices API
   slug: malt-fee-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-fee-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-fee-invoices-api-openapi.yml
 - filename: malt-invoices-api-openapi.yml
   format: yaml
   label: Malt Invoices API
   slug: malt-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-invoices-api-openapi.yml
 - filename: malt-payments-api-openapi.yml
   format: yaml
   label: Malt Payments API
   slug: malt-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-payments-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-payments-api-openapi.yml
 - filename: malt-scim-api-openapi.yml
   format: yaml
   label: Malt SCIM API
   slug: malt-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/openapi/malt-scim-api-openapi.yml
+  url: https://artifacts.apis.io/malt/openapi/malt-scim-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -71,7 +71,7 @@ source_yaml: "generated: '2026-08-17'\nmethod: searched\nsource: openapi/malt-ex
   \  - /freelancer/payments\n  - /freelancer/fee-invoices\n  - /freelancer/fee-invoices/{id}\n  - /freelancer/fee-invoices/{id}/pdf\n- name: Client team token\n  audience: a buying team inside a client company\n  self_serve: false\n  obtain: Contact your Malt representative.\n- name: Organization token\n  audience: an enterprise organization\n  self_serve: false\n  obtain: Contact your Malt representative.\n  covers:\n  - /scim/v2/Users\n  - /scim/v2/Users/{userId}\nauthorization_model:\n  kind: identity-based\n  detail: >-\n    Malt's own wording: \"APIs are accessible with a given identity based scope at malt.\" The token's\n    identity — freelancer, client team, or organization — determines what is visible, rather than a\n    scope string presented per request. A practical consequence: a 403 from this API most often\n    means the WRONG TOKEN TYPE was used, not a missing scope.\ntoken_handling:\n  displayed_once: true\n  displayed_once_note: >-\n    Malt's instructions state the token\
   \ \"will only be accessible at the moment you see it\" — capture\n    it at creation.\n  published_guidance:\n  - Never expose your token in client-side code\n  - Store tokens securely\n  - Rotate tokens regularly\n  - Monitor token usage in your API dashboard\n  guidance_gap: >-\n    The guidance refers to monitoring \"token usage in your API dashboard\", but no such dashboard is\n    documented or linked anywhere in the public surface.\ndiscovery:\n  oauth_authorization_server: 404 at https://api.malt.com/.well-known/oauth-authorization-server\n  oauth_protected_resource: 404 at https://api.malt.com/.well-known/oauth-protected-resource\n  openid_configuration: 404 at https://api.malt.com/.well-known/openid-configuration\n  finding: >-\n    No machine-readable auth discovery of any kind. An agent cannot negotiate credentials; a human\n    must obtain a token out of band.\nlive_behaviour:\n- url: https://api.malt.com/freelancer/invoices?since=2026-01-01\n  no_credentials: true\n  http_status:\
   \ 401\n  content_length: 0\n  fetched: '2026-08-17'\n  note: >-\n    Confirms the freelancer surface is auth-gated at runtime despite declaring no security in the\n    spec. The 401 carries no body, so not even the documented error envelope appears.\n- url: https://api.malt.com/scim/v2/Users\n  no_credentials: true\n  http_status: 401\n  content_length: 0\n  fetched: '2026-08-17'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/malt/refs/heads/main/authentication/malt-authentication.yml
+source_yaml_url: https://artifacts.apis.io/malt/authentication/malt-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

@@ -5,67 +5,67 @@ api_specs:
   label: Wayflyer Auth API
   slug: wayflyer-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-auth-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-auth-api-openapi.yml
 - filename: wayflyer-company-details-api-openapi.yml
   format: yaml
   label: Wayflyer Company Details API
   slug: wayflyer-company-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-company-details-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-company-details-api-openapi.yml
 - filename: wayflyer-company-search-api-openapi.yml
   format: yaml
   label: Wayflyer Company Search API
   slug: wayflyer-company-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-company-search-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-company-search-api-openapi.yml
 - filename: wayflyer-cta-api-openapi.yml
   format: yaml
   label: Wayflyer CTA API
   slug: wayflyer-cta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-cta-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-cta-api-openapi.yml
 - filename: wayflyer-data-upload-api-openapi.yml
   format: yaml
   label: Wayflyer Data Upload API
   slug: wayflyer-data-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-data-upload-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-data-upload-api-openapi.yml
 - filename: wayflyer-documents-api-openapi.yml
   format: yaml
   label: Wayflyer Documents API
   slug: wayflyer-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-documents-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-documents-api-openapi.yml
 - filename: wayflyer-handover-api-openapi.yml
   format: yaml
   label: Wayflyer Handover API
   slug: wayflyer-handover-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-handover-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-handover-api-openapi.yml
 - filename: wayflyer-industry-classification-api-openapi.yml
   format: yaml
   label: Wayflyer Industry Classification API
   slug: wayflyer-industry-classification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-industry-classification-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-industry-classification-api-openapi.yml
 - filename: wayflyer-simulation-api-openapi.yml
   format: yaml
   label: Wayflyer Simulation API
   slug: wayflyer-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-simulation-api-openapi.yml
 - filename: wayflyer-tracked-login-api-openapi.yml
   format: yaml
   label: Wayflyer Tracked Login API
   slug: wayflyer-tracked-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-tracked-login-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-tracked-login-api-openapi.yml
 - filename: wayflyer-user-details-api-openapi.yml
   format: yaml
   label: Wayflyer User Details API
   slug: wayflyer-user-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/openapi/wayflyer-user-details-api-openapi.yml
+  url: https://artifacts.apis.io/wayflyer/openapi/wayflyer-user-details-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: wayflyer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wayflyer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 10:36:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.wayflyer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: false\n- host: sandbox-api.wayflyer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: wayflyer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wayflyer/refs/heads/main/security/wayflyer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wayflyer/security/wayflyer-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

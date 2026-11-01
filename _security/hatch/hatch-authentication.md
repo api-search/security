@@ -7,7 +7,7 @@ api_specs:
   label: Hatch Contacts API
   slug: hatch-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/openapi/hatch-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/hatch/openapi/hatch-contacts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -36,7 +36,7 @@ source_filename: hatch-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/hatch-openapi-original.json\ndocs: https://docs.usehatchapp.com/integrations/hatch-api/hatch-api-reference\nsummary:\n  types:\n  - http\n  scheme: bearer\n  token_type: api-key\n  token_management: >-\n    API keys are created and managed in the API Keys tab of the App Marketplace\n    on the Hatch platform. Keys are passed as an HTTP bearer token.\nschemes:\n- name: authorization\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  format: 'Authorization: Bearer <api_key>'\n  sources:\n  - openapi/hatch-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hatch/refs/heads/main/authentication/hatch-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hatch/authentication/hatch-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

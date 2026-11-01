@@ -28,12 +28,12 @@ source_filename: carbonsix-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.carbon6robotics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 02:17:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: carbon6robotics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/carbonsix/refs/heads/main/security/carbonsix-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/carbonsix/security/carbonsix-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Robotics
-- Physical-AI
+- Physical AI
 - Manufacturing
 - Automation
 - Artificial Intelligence

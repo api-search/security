@@ -7,13 +7,13 @@ api_specs:
   label: Recurrency E-Procurement API
   slug: recurrency-e-procurement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/openapi/recurrency-e-procurement-api-openapi.yml
+  url: https://artifacts.apis.io/recurrency/openapi/recurrency-e-procurement-api-openapi.yml
 - filename: recurrency-orders-api-openapi.yml
   format: yaml
   label: Recurrency Orders API
   slug: recurrency-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/openapi/recurrency-orders-api-openapi.yml
+  url: https://artifacts.apis.io/recurrency/openapi/recurrency-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -44,7 +44,7 @@ source_filename: recurrency-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/recurrency-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.recurrency.com/oauth/token\n    scopes: 1\n  description: 'OAuth 2.0 client-credentials. POST to the token endpoint with grant_type=client_credentials\n    plus client_id/client_secret to receive a Bearer access token (scope recurrency:api:tenant),\n    valid for 7 days (604800 seconds). Send it as `authorization: Bearer {token}`.'\n  sources:\n  - openapi/recurrency-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recurrency/refs/heads/main/authentication/recurrency-authentication.yml
+source_yaml_url: https://artifacts.apis.io/recurrency/authentication/recurrency-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

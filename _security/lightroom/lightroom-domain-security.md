@@ -5,61 +5,61 @@ api_specs:
   label: Adobe Lightroom Album Assets API
   slug: lightroom-album-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-album-assets-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-album-assets-api-openapi.yml
 - filename: lightroom-albums-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Albums API
   slug: lightroom-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-albums-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-albums-api-openapi.yml
 - filename: lightroom-assets-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Assets API
   slug: lightroom-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-assets-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-assets-api-openapi.yml
 - filename: lightroom-auto-straighten-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Auto Straighten API
   slug: lightroom-auto-straighten-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-auto-straighten-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-auto-straighten-api-openapi.yml
 - filename: lightroom-auto-tone-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Auto Tone API
   slug: lightroom-auto-tone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-auto-tone-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-auto-tone-api-openapi.yml
 - filename: lightroom-catalog-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Catalog API
   slug: lightroom-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-catalog-api-openapi.yml
 - filename: lightroom-edit-image-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Edit Image API
   slug: lightroom-edit-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-edit-image-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-edit-image-api-openapi.yml
 - filename: lightroom-health-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Health API
   slug: lightroom-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-health-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-health-api-openapi.yml
 - filename: lightroom-presets-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Presets API
   slug: lightroom-presets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-presets-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-presets-api-openapi.yml
 - filename: lightroom-renditions-api-openapi.yml
   format: yaml
   label: Adobe Lightroom Renditions API
   slug: lightroom-renditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/openapi/lightroom-renditions-api-openapi.yml
+  url: https://artifacts.apis.io/lightroom/openapi/lightroom-renditions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: lightroom-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.adobe.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: lr.adobe.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 23:59:59 2026 GMT\n  hsts: null\n- host: image.adobe.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: adobe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: adobe.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/security/lightroom-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lightroom/security/lightroom-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Cloud Storage

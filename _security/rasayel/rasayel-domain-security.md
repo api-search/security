@@ -5,43 +5,43 @@ api_specs:
   label: Rasayel Channels API
   slug: rasayel-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-channels-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-channels-api-openapi.yml
 - filename: rasayel-contacts-api-openapi.yml
   format: yaml
   label: Rasayel Contacts API
   slug: rasayel-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-contacts-api-openapi.yml
 - filename: rasayel-conversations-api-openapi.yml
   format: yaml
   label: Rasayel Conversations API
   slug: rasayel-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-conversations-api-openapi.yml
 - filename: rasayel-messages-api-openapi.yml
   format: yaml
   label: Rasayel Messages API
   slug: rasayel-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-messages-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-messages-api-openapi.yml
 - filename: rasayel-properties-api-openapi.yml
   format: yaml
   label: Rasayel Properties API
   slug: rasayel-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-properties-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-properties-api-openapi.yml
 - filename: rasayel-tags-api-openapi.yml
   format: yaml
   label: Rasayel Tags API
   slug: rasayel-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-tags-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-tags-api-openapi.yml
 - filename: rasayel-templates-api-openapi.yml
   format: yaml
   label: Rasayel Templates API
   slug: rasayel-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/openapi/rasayel-templates-api-openapi.yml
+  url: https://artifacts.apis.io/rasayel/openapi/rasayel-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: rasayel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rasayel.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 15:39:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: rasayel.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rasayel/refs/heads/main/security/rasayel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rasayel/security/rasayel-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

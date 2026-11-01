@@ -5,7 +5,7 @@ api_specs:
   label: AISStream AIS Stream API
   slug: aisstream-ais-stream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aisstream/refs/heads/main/asyncapi/aisstream-asyncapi.yml
+  url: https://artifacts.apis.io/aisstream/asyncapi/aisstream-asyncapi.yml
 description: ''
 domains:
 - caa:
@@ -54,7 +54,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + WebSocket hosts\nhosts:\n- host: aisstream.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 03:21:49 2026 GMT\n  hsts: false\n  http_status: 403\n  notes: Homepage/docs sit behind Cloudflare (managed challenge to bots); returns 403 to non-browser clients.\n- host: stream.aisstream.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 19 22:34:56 2026 GMT\n  hsts: false\n  http_status: 404\n  notes: WebSocket endpoint host (wss://stream.aisstream.io/v0/stream). A plain HTTPS GET returns 404; the socket is reached via the WebSocket upgrade.\ndomains:\n- domain: aisstream.io\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\
   \n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aisstream/refs/heads/main/security/aisstream-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aisstream/security/aisstream-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Vessel Tracking

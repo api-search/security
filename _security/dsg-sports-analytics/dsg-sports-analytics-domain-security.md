@@ -37,7 +37,7 @@ source_filename: dsg-sports-analytics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: datasportsgroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 21:09:47 2026 GMT\n  hsts: null\n- host: dsg-api.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 28 16:26:16 2027 GMT\n  hsts: false\ndomains:\n- domain: datasportsgroup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: dsg-api.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dsg-sports-analytics/refs/heads/main/security/dsg-sports-analytics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dsg-sports-analytics/security/dsg-sports-analytics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Analysis

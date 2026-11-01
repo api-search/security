@@ -11,43 +11,43 @@ api_specs:
   label: Westpac Banking Corporation Banking Account Balances API
   slug: westpac-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-balances-api-openapi.yml
 - filename: westpac-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Account Direct Debits API
   slug: westpac-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-direct-debits-api-openapi.yml
 - filename: westpac-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Account Scheduled Payments API
   slug: westpac-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-scheduled-payments-api-openapi.yml
 - filename: westpac-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Account Transactions API
   slug: westpac-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-account-transactions-api-openapi.yml
 - filename: westpac-banking-accounts-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Accounts API
   slug: westpac-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-accounts-api-openapi.yml
 - filename: westpac-banking-payees-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Payees API
   slug: westpac-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-payees-api-openapi.yml
 - filename: westpac-banking-products-api-openapi.yml
   format: yaml
   label: Westpac Banking Corporation Banking Products API
   slug: westpac-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/openapi/westpac-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/westpac/openapi/westpac-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -99,7 +99,7 @@ source_filename: westpac-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.westpac.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: www.payway.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  6 23:59:59 2027 GMT\n  hsts: null\n- host: api.payway.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: westpac.com.au\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: payway.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/westpac/refs/heads/main/security/westpac-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/westpac/security/westpac-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

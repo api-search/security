@@ -7,19 +7,19 @@ api_specs:
   label: Huntington Bancshares Accounts API
   slug: huntington-bancshares-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-accounts-api-openapi.yml
 - filename: huntington-bancshares-payments-api-openapi.yml
   format: yaml
   label: Huntington Bancshares Payments API
   slug: huntington-bancshares-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-payments-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-payments-api-openapi.yml
 - filename: huntington-bancshares-transactions-api-openapi.yml
   format: yaml
   label: Huntington Bancshares Transactions API
   slug: huntington-bancshares-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-transactions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -49,7 +49,7 @@ source_filename: huntington-bancshares-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/huntington-bank-treasury-management-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.huntington.com/oauth/token\n    scopes: 3\n  sources:\n  - openapi/huntington-bank-treasury-management-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/authentication/huntington-bancshares-authentication.yml
+source_yaml_url: https://artifacts.apis.io/huntington-bancshares/authentication/huntington-bancshares-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Banking

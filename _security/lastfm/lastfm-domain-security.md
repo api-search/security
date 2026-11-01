@@ -5,55 +5,55 @@ api_specs:
   label: Last.fm Album API
   slug: lastfm-album-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-album-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-album-api-openapi.yml
 - filename: lastfm-artist-api-openapi.yml
   format: yaml
   label: Last.fm Artist API
   slug: lastfm-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-artist-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-artist-api-openapi.yml
 - filename: lastfm-auth-api-openapi.yml
   format: yaml
   label: Last.fm Auth API
   slug: lastfm-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-auth-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-auth-api-openapi.yml
 - filename: lastfm-chart-api-openapi.yml
   format: yaml
   label: Last.fm Chart API
   slug: lastfm-chart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-chart-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-chart-api-openapi.yml
 - filename: lastfm-geo-api-openapi.yml
   format: yaml
   label: Last.fm Geo API
   slug: lastfm-geo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-geo-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-geo-api-openapi.yml
 - filename: lastfm-library-api-openapi.yml
   format: yaml
   label: Last.fm Library API
   slug: lastfm-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-library-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-library-api-openapi.yml
 - filename: lastfm-tag-api-openapi.yml
   format: yaml
   label: Last.fm Tag API
   slug: lastfm-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-tag-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-tag-api-openapi.yml
 - filename: lastfm-track-api-openapi.yml
   format: yaml
   label: Last.fm Track API
   slug: lastfm-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-track-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-track-api-openapi.yml
 - filename: lastfm-user-api-openapi.yml
   format: yaml
   label: Last.fm User API
   slug: lastfm-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/openapi/lastfm-user-api-openapi.yml
+  url: https://artifacts.apis.io/lastfm/openapi/lastfm-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -93,7 +93,7 @@ source_filename: lastfm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.last.fm\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 25 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: ws.audioscrobbler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: last.fm\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: audioscrobbler.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lastfm/refs/heads/main/security/lastfm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lastfm/security/lastfm-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Music

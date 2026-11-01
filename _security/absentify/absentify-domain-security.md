@@ -5,43 +5,43 @@ api_specs:
   label: Absentify Absences API
   slug: absentify-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-absences-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-absences-api-openapi.yml
 - filename: absentify-departments-api-openapi.yml
   format: yaml
   label: Absentify Departments API
   slug: absentify-departments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-departments-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-departments-api-openapi.yml
 - filename: absentify-leave-types-api-openapi.yml
   format: yaml
   label: Absentify Leave types API
   slug: absentify-leave-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-leave-types-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-leave-types-api-openapi.yml
 - filename: absentify-members-api-openapi.yml
   format: yaml
   label: Absentify Members API
   slug: absentify-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-members-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-members-api-openapi.yml
 - filename: absentify-public-holidays-api-openapi.yml
   format: yaml
   label: Absentify Public holidays API
   slug: absentify-public-holidays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-public-holidays-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-public-holidays-api-openapi.yml
 - filename: absentify-requests-api-openapi.yml
   format: yaml
   label: Absentify Requests API
   slug: absentify-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-requests-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-requests-api-openapi.yml
 - filename: absentify-workspace-api-openapi.yml
   format: yaml
   label: Absentify Workspace API
   slug: absentify-workspace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/openapi/absentify-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/absentify/openapi/absentify-workspace-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: absentify-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: absentify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 09:13:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.absentify.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: absentify.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/security/absentify-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/absentify/security/absentify-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Absence Management

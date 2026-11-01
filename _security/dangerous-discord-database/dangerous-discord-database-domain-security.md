@@ -29,7 +29,7 @@ source_filename: dangerous-discord-database-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: discord.riverside.rocks\n  https: false\ndomains:\n- domain: riverside.rocks\n  dnssec: true\n  caa:\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dangerous-discord-database/refs/heads/main/security/dangerous-discord-database-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dangerous-discord-database/security/dangerous-discord-database-domain-security.yml
 summary_line: DNSSEC
 tags:
 - Social

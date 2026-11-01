@@ -5,19 +5,19 @@ api_specs:
   label: Lacuna Music API Events
   slug: lacuna-lacuna-music-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-lacuna-music-api-api-openapi.yml
+  url: https://artifacts.apis.io/lacuna/openapi/lacuna-lacuna-music-api-api-openapi.yml
 - filename: lacuna-music-api-openapi.yml
   format: yaml
   label: Lacuna Music API
   slug: lacuna-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-music-api-openapi.yml
+  url: https://artifacts.apis.io/lacuna/openapi/lacuna-music-api-openapi.yml
 - filename: lacuna-account-api-openapi.yml
   format: yaml
   label: Lacuna Account API
   slug: lacuna-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/openapi/lacuna-account-api-openapi.yml
+  url: https://artifacts.apis.io/lacuna/openapi/lacuna-account-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: lacuna-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lacuna.fm\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 09:49:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: lacuna.fm\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lacuna/refs/heads/main/security/lacuna-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lacuna/security/lacuna-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Music

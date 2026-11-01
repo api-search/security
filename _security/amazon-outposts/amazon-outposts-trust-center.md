@@ -5,43 +5,61 @@ api_specs:
   label: Amazon Outposts Catalog API
   slug: amazon-outposts-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-catalog-api-openapi.yml
 - filename: amazon-outposts-connections-api-openapi.yml
   format: yaml
   label: Amazon Outposts Connections API
   slug: amazon-outposts-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-connections-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-connections-api-openapi.yml
 - filename: amazon-outposts-list-orders-api-openapi.yml
   format: yaml
   label: Amazon Outposts List Orders API
   slug: amazon-outposts-list-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-list-orders-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-list-orders-api-openapi.yml
 - filename: amazon-outposts-orders-api-openapi.yml
   format: yaml
   label: Amazon Outposts Orders API
   slug: amazon-outposts-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-orders-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-orders-api-openapi.yml
 - filename: amazon-outposts-outposts-api-openapi.yml
   format: yaml
   label: Amazon Outposts API
   slug: amazon-outposts-outposts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-outposts-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-outposts-api-openapi.yml
 - filename: amazon-outposts-sites-api-openapi.yml
   format: yaml
   label: Amazon Outposts Sites API
   slug: amazon-outposts-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-sites-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-sites-api-openapi.yml
 - filename: amazon-outposts-tags-api-openapi.yml
   format: yaml
   label: Amazon Outposts Tags API
   slug: amazon-outposts-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/openapi/amazon-outposts-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-tags-api-openapi.yml
+- filename: amazon-outposts-capacity-api-openapi.yml
+  format: yaml
+  label: Amazon Outposts Outposts Capacity API
+  slug: amazon-outposts-capacity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-capacity-api-openapi.yml
+- filename: amazon-outposts-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Outposts Outposts Operations API
+  slug: amazon-outposts-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-operations-api-openapi.yml
+- filename: amazon-outposts-quotes-api-openapi.yml
+  format: yaml
+  label: Amazon Outposts Outposts Quotes API
+  slug: amazon-outposts-quotes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-quotes-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -62,7 +80,7 @@ source_filename: amazon-outposts-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-outposts/refs/heads/main/security/amazon-outposts-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-outposts/security/amazon-outposts-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Edge Computing

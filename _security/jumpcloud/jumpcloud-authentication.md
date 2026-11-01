@@ -8,25 +8,25 @@ api_specs:
   label: JumpCloud Application Templates API
   slug: jumpcloud-application-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-application-templates-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-application-templates-api-openapi.yml
 - filename: jumpcloud-applications-api-openapi.yml
   format: yaml
   label: JumpCloud Applications API
   slug: jumpcloud-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-applications-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-applications-api-openapi.yml
 - filename: jumpcloud-command-results-api-openapi.yml
   format: yaml
   label: JumpCloud Command Results API
   slug: jumpcloud-command-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-command-results-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-command-results-api-openapi.yml
 - filename: jumpcloud-commands-api-openapi.yml
   format: yaml
   label: JumpCloud Commands API
   slug: jumpcloud-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-commands-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-commands-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: jumpcloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/jumpcloud-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: JumpCloud API key from the Admin Console > API Settings.\n  sources:\n  - openapi/jumpcloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/authentication/jumpcloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jumpcloud/authentication/jumpcloud-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Identity

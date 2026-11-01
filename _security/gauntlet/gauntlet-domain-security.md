@@ -5,31 +5,37 @@ api_specs:
   label: Gauntlet Prices API
   slug: gauntlet-prices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-prices-api-openapi.yml
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-prices-api-openapi.yml
 - filename: gauntlet-system-api-openapi.yml
   format: yaml
   label: Gauntlet System API
   slug: gauntlet-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-system-api-openapi.yml
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-system-api-openapi.yml
 - filename: gauntlet-tvl-api-openapi.yml
   format: yaml
   label: Gauntlet TVL API
   slug: gauntlet-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-tvl-api-openapi.yml
 - filename: gauntlet-users-api-openapi.yml
   format: yaml
   label: Gauntlet Users API
   slug: gauntlet-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-users-api-openapi.yml
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-users-api-openapi.yml
 - filename: gauntlet-vaults-api-openapi.yml
   format: yaml
   label: Gauntlet Vaults API
   slug: gauntlet-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/openapi/gauntlet-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-vaults-api-openapi.yml
+- filename: gauntlet-strategies-api-openapi.yml
+  format: yaml
+  label: Gauntlet Strategies API
+  slug: gauntlet-strategies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gauntlet/openapi/gauntlet-strategies-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +75,7 @@ source_filename: gauntlet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gauntlet.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 03:34:07 2026 GMT\n  hsts: false\n- host: docs.gauntlet.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 10:44:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.gauntlet.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 10:45:13 2026 GMT\n  hsts: false\ndomains:\n- domain: gauntlet.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gauntlet/refs/heads/main/security/gauntlet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gauntlet/security/gauntlet-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

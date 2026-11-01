@@ -5,25 +5,25 @@ api_specs:
   label: GridX Authentication API
   slug: gridx-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/gridx/openapi/gridx-authentication-api-openapi.yml
 - filename: gridx-customer-api-openapi.yml
   format: yaml
   label: GridX Customer API
   slug: gridx-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-customer-api-openapi.yml
+  url: https://artifacts.apis.io/gridx/openapi/gridx-customer-api-openapi.yml
 - filename: gridx-openadr-api-openapi.yml
   format: yaml
   label: GridX OpenADR API
   slug: gridx-openadr-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-openadr-api-openapi.yml
+  url: https://artifacts.apis.io/gridx/openapi/gridx-openadr-api-openapi.yml
 - filename: gridx-pricing-api-openapi.yml
   format: yaml
   label: GridX Pricing API
   slug: gridx-pricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/openapi/gridx-pricing-api-openapi.yml
+  url: https://artifacts.apis.io/gridx/openapi/gridx-pricing-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: gridx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gridx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 13:44:50 2026 GMT\n  hsts: false\n- host: api-calculate-docs.gridx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 604800\n- host: pge-pe-api.gridx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: gridx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gridx/refs/heads/main/security/gridx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gridx/security/gridx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

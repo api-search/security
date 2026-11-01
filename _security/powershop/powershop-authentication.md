@@ -7,55 +7,55 @@ api_specs:
   label: Powershop Data Holder Customers API
   slug: powershop-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-data-holder-customers-api-openapi.yml
 - filename: powershop-data-holder-operations-api-openapi.yml
   format: yaml
   label: Powershop Data Holder Operations API
   slug: powershop-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-data-holder-operations-api-openapi.yml
 - filename: powershop-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Powershop Distributed Energy Resources API
   slug: powershop-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-distributed-energy-resources-api-openapi.yml
 - filename: powershop-electricity-service-points-api-openapi.yml
   format: yaml
   label: Powershop Electricity Service Points API
   slug: powershop-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-electricity-service-points-api-openapi.yml
 - filename: powershop-electricity-usage-api-openapi.yml
   format: yaml
   label: Powershop Electricity Usage API
   slug: powershop-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-electricity-usage-api-openapi.yml
 - filename: powershop-energy-account-balances-api-openapi.yml
   format: yaml
   label: Powershop Energy Account Balances API
   slug: powershop-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-energy-account-balances-api-openapi.yml
 - filename: powershop-energy-account-billing-api-openapi.yml
   format: yaml
   label: Powershop Energy Account Billing API
   slug: powershop-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-energy-account-billing-api-openapi.yml
 - filename: powershop-energy-accounts-api-openapi.yml
   format: yaml
   label: Powershop Energy Accounts API
   slug: powershop-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-energy-accounts-api-openapi.yml
 - filename: powershop-energy-plans-api-openapi.yml
   format: yaml
   label: Powershop Energy Plans API
   slug: powershop-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/openapi/powershop-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/powershop/openapi/powershop-energy-plans-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -85,7 +85,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  openapi/p
   \ CDR Consumer Data Standards v1.36.0 security profile\n  docs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\n  protocols:\n  - {name: OAuth 2.0, role: authorisation framework}\n  - {name: OpenID Connect, role: identity layer and authorisation code flow}\n  - {name: FAPI, role: financial-grade API hardening profile mandated by the CDS security profile}\n  - {name: Mutual TLS, role: client authentication and sender-constrained tokens using CDR Register-issued certificates}\n  - {name: PAR (RFC 9126), role: pushed authorisation requests}\n  - {name: JARM, role: signed authorisation responses}\n  grant: authorization_code\n  client_registration: >-\n    Dynamic client registration against the data holder, brokered by the CDR\n    Register; the accredited data recipient's software product must be listed on\n    the Register and hold Register-issued transport and signing certificates.\n  scopes: scopes/powershop-scopes.yml\nconsumer_authorisation_flow:\n  source:\
   \ https://www.powershop.com.au/privacy-policy/cdr-policy\n  steps:\n  - The consumer starts in the accredited data recipient's app and selects Powershop as their energy provider.\n  - The consumer is redirected to Powershop to authenticate.\n  - Powershop verifies identity with a one-time password sent to the email address on the account.\n  - The consumer selects which accounts, which data clusters, and the sharing duration.\n  - Powershop issues the authorisation; the ADR exchanges it for a mutual-TLS-bound access token.\n  dashboard: https://dashboard.cdr.powershop.com.au/\n  dashboard_note: Consumer-facing consent management UI (HTTP 200 on 2026-07-27), not a developer surface.\nwhat_a_developer_must_do:\n  public_data: Nothing. Send an x-v header. No signup, no key, no accreditation.\n  consumer_data: >-\n    Become an ACCC accredited data recipient (or operate as the authorised\n    representative or CDR representative of one), be listed on the CDR Register,\n    hold Register-issued\
   \ mutual-TLS certificates, and obtain an explicit,\n    time-bounded, scoped consent from each consumer. There is no commercial,\n    partner or sandbox path around this. Powershop issues no API key at any tier.\nno_first_party_program: >-\n  Powershop runs no developer portal, no API key issuance, no sandbox and no\n  partner API programme. It stated publicly in 2017 that it has no public API and\n  directed customers to download usage data from the account UI instead.\ncross_links:\n  scopes: scopes/powershop-scopes.yml\n  conventions: conventions/powershop-conventions.yml\n  conformance: conformance/powershop-conformance.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powershop/refs/heads/main/authentication/powershop-authentication.yml
+source_yaml_url: https://artifacts.apis.io/powershop/authentication/powershop-authentication.yml
 summary_line: oauth2/openIdConnect/mutualTLS · 0 schemes
 tags:
 - Energy

@@ -5,37 +5,37 @@ api_specs:
   label: Datalastic Historical API
   slug: datalastic-historical-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-historical-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-historical-api-openapi.yml
 - filename: datalastic-live-tracking-api-openapi.yml
   format: yaml
   label: Datalastic Live Tracking API
   slug: datalastic-live-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-live-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-live-tracking-api-openapi.yml
 - filename: datalastic-ports-api-openapi.yml
   format: yaml
   label: Datalastic Ports API
   slug: datalastic-ports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-ports-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-ports-api-openapi.yml
 - filename: datalastic-reports-and-usage-api-openapi.yml
   format: yaml
   label: Datalastic Reports and Usage API
   slug: datalastic-reports-and-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-reports-and-usage-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-reports-and-usage-api-openapi.yml
 - filename: datalastic-vessel-data-api-openapi.yml
   format: yaml
   label: Datalastic Vessel Data API
   slug: datalastic-vessel-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-vessel-data-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-vessel-data-api-openapi.yml
 - filename: datalastic-zone-traffic-api-openapi.yml
   format: yaml
   label: Datalastic Zone Traffic API
   slug: datalastic-zone-traffic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/openapi/datalastic-zone-traffic-api-openapi.yml
+  url: https://artifacts.apis.io/datalastic/openapi/datalastic-zone-traffic-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: datalastic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: datalastic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 18:02:35 2026 GMT\n  hsts: false\n- host: api.datalastic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 18:50:43 2026 GMT\n  hsts: false\ndomains:\n- domain: datalastic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/datalastic/refs/heads/main/security/datalastic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/datalastic/security/datalastic-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Vessel Tracking

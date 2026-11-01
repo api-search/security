@@ -5,73 +5,73 @@ api_specs:
   label: Azure Cosmos DB Collections API
   slug: azure-cosmos-db-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-collections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-collections-api-openapi.yml
 - filename: azure-cosmos-db-databases-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Databases API
   slug: azure-cosmos-db-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-databases-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-databases-api-openapi.yml
 - filename: azure-cosmos-db-documents-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Documents API
   slug: azure-cosmos-db-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-documents-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-documents-api-openapi.yml
 - filename: azure-cosmos-db-offers-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Offers API
   slug: azure-cosmos-db-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-offers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-offers-api-openapi.yml
 - filename: azure-cosmos-db-permissions-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Permissions API
   slug: azure-cosmos-db-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-permissions-api-openapi.yml
 - filename: azure-cosmos-db-stored-procedures-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Stored Procedures API
   slug: azure-cosmos-db-stored-procedures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-stored-procedures-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-stored-procedures-api-openapi.yml
 - filename: azure-cosmos-db-triggers-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Triggers API
   slug: azure-cosmos-db-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-triggers-api-openapi.yml
 - filename: azure-cosmos-db-user-defined-functions-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB User Defined Functions API
   slug: azure-cosmos-db-user-defined-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-user-defined-functions-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-user-defined-functions-api-openapi.yml
 - filename: azure-cosmos-db-users-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Users API
   slug: azure-cosmos-db-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-users-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-users-api-openapi.yml
 - filename: azure-cosmos-db-collections-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Collections API
   slug: microsoft-azure-cosmos-db-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-collections-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-collections-api-openapi.yml
 - filename: azure-cosmos-db-databases-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Databases API
   slug: microsoft-azure-cosmos-db-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-databases-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-databases-api-openapi.yml
 - filename: azure-cosmos-db-documents-api-openapi.yml
   format: yaml
   label: Azure Cosmos DB Documents API
   slug: microsoft-azure-cosmos-db-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/openapi/azure-cosmos-db-documents-api-openapi.yml
+  url: https://artifacts.apis.io/azure-cosmos-db/openapi/azure-cosmos-db-documents-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -119,13 +119,13 @@ source_filename: azure-cosmos-db-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: management.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:36:21 2026 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-cosmos-db/refs/heads/main/security/azure-cosmos-db-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/azure-cosmos-db/security/azure-cosmos-db-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database
 - NoSQL
 - Document Database
-- Vector Database
+- Vector Search
 - Globally Distributed
 - Cloud
 - Microsoft Azure

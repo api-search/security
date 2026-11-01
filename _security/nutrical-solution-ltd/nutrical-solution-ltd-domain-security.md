@@ -5,37 +5,37 @@ api_specs:
   label: Nutrical Solution Ltd Entity API
   slug: nutrical-solution-ltd-entity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-entity-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-entity-api-openapi.yml
 - filename: nutrical-solution-ltd-ingredients-api-openapi.yml
   format: yaml
   label: Nutrical Solution Ltd Ingredients API
   slug: nutrical-solution-ltd-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-ingredients-api-openapi.yml
 - filename: nutrical-solution-ltd-meal-plans-api-openapi.yml
   format: yaml
   label: Nutrical Solution Ltd Meal Plans API
   slug: nutrical-solution-ltd-meal-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-meal-plans-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-meal-plans-api-openapi.yml
 - filename: nutrical-solution-ltd-metadata-api-openapi.yml
   format: yaml
   label: Nutrical Solution Ltd Metadata API
   slug: nutrical-solution-ltd-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-metadata-api-openapi.yml
 - filename: nutrical-solution-ltd-recipe-categories-api-openapi.yml
   format: yaml
   label: Nutrical Solution Ltd Recipe Categories API
   slug: nutrical-solution-ltd-recipe-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-recipe-categories-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-recipe-categories-api-openapi.yml
 - filename: nutrical-solution-ltd-recipes-api-openapi.yml
   format: yaml
   label: Nutrical Solution Ltd Recipes API
   slug: nutrical-solution-ltd-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/openapi/nutrical-solution-ltd-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/nutrical-solution-ltd/openapi/nutrical-solution-ltd-recipes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: nutrical-solution-ltd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nutrical.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 18:37:34 2026 GMT\n  hsts: false\n- host: api.nutrical.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: null\n- host: preprodapi.nutrical.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: nutrical.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nutrical-solution-ltd/refs/heads/main/security/nutrical-solution-ltd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nutrical-solution-ltd/security/nutrical-solution-ltd-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

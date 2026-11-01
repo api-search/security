@@ -5,13 +5,13 @@ api_specs:
   label: Bounti Llms Full.txt API
   slug: bounti-llms-full-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/openapi/bounti-llms-full-txt-api-openapi.yml
+  url: https://artifacts.apis.io/bounti/openapi/bounti-llms-full-txt-api-openapi.yml
 - filename: bounti-llms-txt-api-openapi.yml
   format: yaml
   label: Bounti Llms.txt API
   slug: bounti-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/openapi/bounti-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/bounti/openapi/bounti-llms-txt-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts (0-working/probe-domain-security.py, plus hand probes of the product subdomains)\nhosts:\n- host: bounti.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 00:49:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n  hsts_include_subdomains: false\n- host: claw.bounti.ai\n  https: true\n  cert_expires: Oct 16 05:28:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  server: Google Frontend\n  note: >-\n    B.Claw application host. Response headers also carry x-frame-options DENY, x-content-type-options\n    nosniff, referrer-policy strict-origin-when-cross-origin, cross-origin-resource-policy\n    same-origin, permissions-policy camera=() geolocation=() and cache-control no-store — a\n    materially stronger header posture than the marketing apex.\n- host: re.bounti.ai\n  https: true\n  cert_expires: Sep 20 04:16:34 2026 GMT\n\
   \  hsts: false\n  note: Real-estate product sign-in host; no Strict-Transport-Security header observed.\n- host: api.bounti.ai\n  https: true\n  note: Resolves and terminates TLS but returns HTTP 404 with an empty body for every path probed.\ndomains:\n- domain: bounti.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n  note: >-\n    DMARC policy is p=none (monitor only) — it publishes a record but enforces nothing. No CAA\n    records and no DNSSEC.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bounti/refs/heads/main/security/bounti-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bounti/security/bounti-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

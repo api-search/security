@@ -7,31 +7,31 @@ api_specs:
   label: Capitalist Payments API (v1, deprecated)
   slug: capitalist-capitalist-payments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-capitalist-payments-api-api-openapi.yml
+  url: https://artifacts.apis.io/capitalist/openapi/capitalist-capitalist-payments-api-api-openapi.yml
 - filename: capitalist-account-api-openapi.yml
   format: yaml
   label: Capitalist Account API
   slug: capitalist-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-account-api-openapi.yml
+  url: https://artifacts.apis.io/capitalist/openapi/capitalist-account-api-openapi.yml
 - filename: capitalist-exchange-api-openapi.yml
   format: yaml
   label: Capitalist Exchange API
   slug: capitalist-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/capitalist/openapi/capitalist-exchange-api-openapi.yml
 - filename: capitalist-payment-api-openapi.yml
   format: yaml
   label: Capitalist Payment API
   slug: capitalist-payment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-payment-api-openapi.yml
+  url: https://artifacts.apis.io/capitalist/openapi/capitalist-payment-api-openapi.yml
 - filename: capitalist-rate-api-openapi.yml
   format: yaml
   label: Capitalist Rate API
   slug: capitalist-rate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/openapi/capitalist-rate-api-openapi.yml
+  url: https://artifacts.apis.io/capitalist/openapi/capitalist-rate-api-openapi.yml
 auth_types: []
 description: 'Capitalist runs two authentication models side by side. The current Integration API (v2, https://api2.capitalist.net) uses a three-header signed-request scheme: an API key, a millisecond epoch timestamp, and a SHA-256 hex signature over the timestamp, the raw request body and the API secret. The deprecated v1 API (https://api.capitalist.net) authenticates with the account login plus either a plain password, an encrypted password or a certificate signature carried as form fields. Neither surface uses OAuth, and no /.well-known/openid-configuration or oauth-authorization-server document is served on any Capitalist host (all probed 404 on 2026-09-05).'
 kind: authentication
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  https://d
   \      url: https://api2.capitalist.net/v1/rate?from=USD&to=EUR\n      status: 401\n      body: 'Missing `API-Key`'\n      checked: '2026-09-05'\n\n  - name: Capitalist Payments API (v1, deprecated)\n    base_url: https://api.capitalist.net\n    status: deprecated\n    docs: https://capitalist.net/developers/deprecated/v1/api\n    schemes:\n      - id: form-credentials\n        type: apiKey\n        in: formData\n        name: login\n        description: Capitalist account username (not the account email), sent as a form field.\n      - id: form-password\n        type: apiKey\n        in: formData\n        name: password\n        description: >-\n          Plain password, an encrypted password, or a certificate-derived\n          signature depending on the operation's verification level. The\n          provider publishes PHP and Java reference implementations of the\n          encryption and signing at https://github.com/capitalist-net.\n      - id: one-time-token\n        type: apiKey\n\
   \        in: formData\n        name: token\n        description: One-time security token obtained via the get_token operation.\n    live_probe:\n      url: https://api.capitalist.net/\n      status: 200\n      note: >-\n        GET returns 150;\"Received a non-POST request. (API version 1.9.8)\".\n        A POST without the x-response-format header returns\n        {\"code\":4,\"message\":\"Only x-response-format=json is available.\"}; with\n        the header it returns a validation error naming login, encrypted_password\n        and token as required. Probed anonymously 2026-09-05.\n      checked: '2026-09-05'\n\noauth:\n  supported: false\n  note: >-\n    No OAuth 2.0 or OpenID Connect surface. /.well-known/openid-configuration\n    and /.well-known/oauth-authorization-server return 404 on capitalist.net,\n    api.capitalist.net and api2.capitalist.net (probed 2026-09-05). There is\n    therefore no scopes/ artifact for this provider.\n\nmtls:\n  supported: false\n  note: >-\n    v1\
   \ uses client-held certificates to SIGN request payloads (see\n    https://github.com/capitalist-net/Capitalist-API-Java-crypto), not for\n    transport-layer mutual TLS.\n\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/authentication/capitalist-authentication.yml
+source_yaml_url: https://artifacts.apis.io/capitalist/authentication/capitalist-authentication.yml
 summary_line: 0 schemes
 tags:
 - Bulk Payouts

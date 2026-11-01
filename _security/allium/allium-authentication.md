@@ -8,19 +8,19 @@ api_specs:
   label: Allium Explorer API
   slug: allium-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-explorer-api-openapi.yml
 - filename: allium-ping-api-openapi.yml
   format: yaml
   label: Allium Ping API
   slug: allium-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-ping-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-ping-api-openapi.yml
 - filename: allium-polygon-api-openapi.yml
   format: yaml
   label: Allium Polygon API
   slug: allium-polygon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-polygon-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-polygon-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -47,7 +47,7 @@ source_filename: allium-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: derived\nsource: openapi/allium-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKeyBearer\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  sources:\n  - openapi/allium-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/authentication/allium-authentication.yml
+source_yaml_url: https://artifacts.apis.io/allium/authentication/allium-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

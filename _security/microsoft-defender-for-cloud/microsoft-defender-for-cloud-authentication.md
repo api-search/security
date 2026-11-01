@@ -7,25 +7,25 @@ api_specs:
   label: Microsoft Defender for Cloud Alerts API
   slug: microsoft-defender-for-cloud-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-alerts-api-openapi.yml
 - filename: microsoft-defender-for-cloud-assessments-api-openapi.yml
   format: yaml
   label: Microsoft Defender for Cloud Assessments API
   slug: microsoft-defender-for-cloud-assessments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-assessments-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-assessments-api-openapi.yml
 - filename: microsoft-defender-for-cloud-pricings-api-openapi.yml
   format: yaml
   label: Microsoft Defender for Cloud Pricings API
   slug: microsoft-defender-for-cloud-pricings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-pricings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-pricings-api-openapi.yml
 - filename: microsoft-defender-for-cloud-securescores-api-openapi.yml
   format: yaml
   label: Microsoft Defender for Cloud SecureScores API
   slug: microsoft-defender-for-cloud-securescores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/openapi/microsoft-defender-for-cloud-securescores-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-defender-for-cloud/openapi/microsoft-defender-for-cloud-securescores-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -56,7 +56,7 @@ source_filename: microsoft-defender-for-cloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-defender-for-cloud-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth 2.0\n  sources:\n  - openapi/microsoft-defender-for-cloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/authentication/microsoft-defender-for-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-defender-for-cloud/authentication/microsoft-defender-for-cloud-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Cloud Security

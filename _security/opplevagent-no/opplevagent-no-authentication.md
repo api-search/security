@@ -7,25 +7,25 @@ api_specs:
   label: Opplevagent A2a API
   slug: opplevagent-no-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/opplevagent-no/openapi/opplevagent-no-a2a-api-openapi.yml
 - filename: opplevagent-no-llms-txt-api-openapi.yml
   format: yaml
   label: Opplevagent Llms.txt API
   slug: opplevagent-no-llms-txt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-llms-txt-api-openapi.yml
+  url: https://artifacts.apis.io/opplevagent-no/openapi/opplevagent-no-llms-txt-api-openapi.yml
 - filename: opplevagent-no-opplevelser-api-openapi.yml
   format: yaml
   label: Opplevagent Opplevelser API
   slug: opplevagent-no-opplevelser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-opplevelser-api-openapi.yml
+  url: https://artifacts.apis.io/opplevagent-no/openapi/opplevagent-no-opplevelser-api-openapi.yml
 - filename: opplevagent-no-well-known-api-openapi.yml
   format: yaml
   label: Opplevagent .well Known API
   slug: opplevagent-no-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/openapi/opplevagent-no-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/opplevagent-no/openapi/opplevagent-no-well-known-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -66,7 +66,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://oppleva
   \ (info.description)\n  - https://opplevagent.no/.well-known/mcp/server-card.json (authentication.schemes [none])\n  - https://opplevagent.no/.well-known/agent-card.json (authentication.schemes [none])\n- name: consumerApiKey\n  type: apiKey\n  in: header\n  header: X-API-Key\n  required: false\n  description: >-\n    Voluntary, free identity key for AI agents. No login, account or identity check — issued instantly by POST\n    /api/keys. Sending it raises the rate ceiling roughly 3x (200 -> 600 per 900 s on /a2a and /mcp, 300 -> 900 on\n    REST) and records calls in an aggregated per-key usage ledger (endpoint/tool name and date only, never content\n    or arguments).\n  sources:\n  - https://opplevagent.no/llms.txt (\"Frivillig API-nøkkel (forbruker-identitet)\")\n  - https://opplevagent.no/.well-known/agent-card.json (securitySchemes.consumerApiKey)\ncredentials:\n- id: consumer-key\n  header: 'X-API-Key: <key>'\n  prefix: null\n  use: Optional higher rate-limit tier on any REST, MCP\
   \ or A2A call\n  issued_by: >-\n    POST https://opplevagent.no/api/keys — optional JSON body {\"label\": \"...\", \"contact_email\": \"...\"}; the\n    response contains `key`, shown once and not retrievable again\n  lifecycle:\n    revoke: POST https://opplevagent.no/api/keys/revoke — stops the key, retains history\n    erase: POST https://opplevagent.no/api/keys/erase — GDPR deletion of label and e-mail\n    body: '{\"key\": \"...\"} or the key as the X-API-Key header'\n  note: >-\n    The key lifecycle endpoints are documented in llms.txt but are not declared in the OpenAPI (see\n    overlays/opplevagent-no-api-overlay.yaml). The agent card warns that the same header name may elsewhere denote\n    a producer/write key, but opplevagent.no has no write API behind it, so here X-API-Key means only this key.\noauth: null\nscopes: null\nmcp_auth:\n  scheme: none\n  session: mcp-session-id header issued on initialize and required on every later call (a transport session, not a credential)\n\
   a2a_auth:\n  scheme: none\n  card_declares: authentication.schemes [none]; securitySchemes.consumerApiKey optional\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opplevagent-no/refs/heads/main/authentication/opplevagent-no-authentication.yml
+source_yaml_url: https://artifacts.apis.io/opplevagent-no/authentication/opplevagent-no-authentication.yml
 summary_line: none/apiKey · 2 schemes
 tags:
 - Travel

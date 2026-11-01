@@ -5,43 +5,43 @@ api_specs:
   label: Calico BGPConfiguration API
   slug: calico-bgpconfiguration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-bgpconfiguration-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-bgpconfiguration-api-openapi.yml
 - filename: calico-bgppeer-api-openapi.yml
   format: yaml
   label: Calico BGPPeer API
   slug: calico-bgppeer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-bgppeer-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-bgppeer-api-openapi.yml
 - filename: calico-globalnetworkpolicy-api-openapi.yml
   format: yaml
   label: Calico GlobalNetworkPolicy API
   slug: calico-globalnetworkpolicy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-globalnetworkpolicy-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-globalnetworkpolicy-api-openapi.yml
 - filename: calico-hostendpoint-api-openapi.yml
   format: yaml
   label: Calico HostEndpoint API
   slug: calico-hostendpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-hostendpoint-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-hostendpoint-api-openapi.yml
 - filename: calico-profile-api-openapi.yml
   format: yaml
   label: Calico Profile API
   slug: calico-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-profile-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-profile-api-openapi.yml
 - filename: calico-ip-pool-api-openapi.yml
   format: yaml
   label: Calico IP Pool API
   slug: calico-ip-pool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-ip-pool-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-ip-pool-api-openapi.yml
 - filename: calico-network-policy-api-openapi.yml
   format: yaml
   label: Calico Network Policy API
   slug: calico-network-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/openapi/calico-network-policy-api-openapi.yml
+  url: https://artifacts.apis.io/calico/openapi/calico-network-policy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: calico-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tigera.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 05:50:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.tigera.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 16:53:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: tigera.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calico/refs/heads/main/security/calico-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/calico/security/calico-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CNI

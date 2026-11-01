@@ -5,31 +5,31 @@ api_specs:
   label: Billie Authentication API
   slug: billie-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-authentication-api-openapi.yml
 - filename: billie-back-end-order-creation-api-openapi.yml
   format: yaml
   label: Billie Back-end Order Creation API
   slug: billie-back-end-order-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-back-end-order-creation-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-back-end-order-creation-api-openapi.yml
 - filename: billie-captures-api-openapi.yml
   format: yaml
   label: Billie Captures API
   slug: billie-captures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-captures-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-captures-api-openapi.yml
 - filename: billie-front-end-order-creation-api-openapi.yml
   format: yaml
   label: Billie Front-end Order Creation API
   slug: billie-front-end-order-creation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-front-end-order-creation-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-front-end-order-creation-api-openapi.yml
 - filename: billie-order-management-api-openapi.yml
   format: yaml
   label: Billie Order Management API
   slug: billie-order-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/openapi/billie-order-management-api-openapi.yml
+  url: https://artifacts.apis.io/billie/openapi/billie-order-management-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: billie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.billie.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.billie.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 15:12:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: paella.billie.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: billie.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/billie/refs/heads/main/security/billie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/billie/security/billie-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

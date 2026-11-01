@@ -8,7 +8,7 @@ api_specs:
   label: Shopify Storefront API Graph QL API
   slug: shopify-storefront-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/openapi/shopify-storefront-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/shopify-storefront/openapi/shopify-storefront-graph-ql-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: shopify-storefront-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/shopify-storefront-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: StorefrontAccessToken\n  type: apiKey\n  in: header\n  parameter: X-Shopify-Storefront-Access-Token\n  description: Public Storefront API access token for the store\n  sources:\n  - openapi/shopify-storefront-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/authentication/shopify-storefront-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shopify-storefront/authentication/shopify-storefront-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Commerce

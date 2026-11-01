@@ -7,43 +7,43 @@ api_specs:
   label: Thunes Account Management API
   slug: thunes-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-account-management-api-openapi.yml
 - filename: thunes-connectivity-api-openapi.yml
   format: yaml
   label: Thunes Connectivity API
   slug: thunes-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-connectivity-api-openapi.yml
 - filename: thunes-credit-parties-api-openapi.yml
   format: yaml
   label: Thunes Credit Parties API
   slug: thunes-credit-parties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-credit-parties-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-credit-parties-api-openapi.yml
 - filename: thunes-discovery-api-openapi.yml
   format: yaml
   label: Thunes Discovery API
   slug: thunes-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-discovery-api-openapi.yml
 - filename: thunes-quotations-api-openapi.yml
   format: yaml
   label: Thunes Quotations API
   slug: thunes-quotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-quotations-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-quotations-api-openapi.yml
 - filename: thunes-simulation-api-openapi.yml
   format: yaml
   label: Thunes Simulation API
   slug: thunes-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-simulation-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-simulation-api-openapi.yml
 - filename: thunes-transactions-api-openapi.yml
   format: yaml
   label: Thunes Transactions API
   slug: thunes-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/openapi/thunes-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/thunes/openapi/thunes-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: thunes-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/thunes-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using API key as user-ID and API secret as password.\n  sources:\n  - openapi/thunes-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thunes/refs/heads/main/authentication/thunes-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thunes/authentication/thunes-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fintech

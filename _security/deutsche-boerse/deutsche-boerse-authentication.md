@@ -8,73 +8,73 @@ api_specs:
   label: A7 Analytics Platform - Order Book API
   slug: a7-order-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-order-book-api-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-order-book-api-api-openapi.yml
 - filename: deutsche-boerse-market-data-api-eobi-api-openapi.yml
   format: yaml
   label: A7 Analytics Platform - Market Data API (EOBI)
   slug: a7-market-data-eobi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-market-data-api-eobi-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-market-data-api-eobi-api-openapi.yml
 - filename: deutsche-boerse-exchanges-assets-securities-api-openapi.yml
   format: yaml
   label: A7 Analytics Platform - CME Market Data API (MDP)
   slug: a7-cme-market-data-mdp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-exchanges-assets-securities-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-exchanges-assets-securities-api-openapi.yml
 - filename: deutsche-boerse-reference-data-api-api-openapi.yml
   format: yaml
   label: A7 Analytics Platform - Reference Data API (RDI) v2
   slug: a7-reference-data-rdi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-reference-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-reference-data-api-api-openapi.yml
 - filename: deutsche-boerse-cme-reference-data-api-api-openapi.yml
   format: yaml
   label: A7 Analytics Platform - CME Reference Data API (SD)
   slug: a7-cme-reference-data-sd-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-cme-reference-data-api-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-cme-reference-data-api-api-openapi.yml
 - filename: deutsche-boerse-algo-management-api-api-openapi.yml
   format: yaml
   label: A7 Analytics Platform - Algo Management API
   slug: a7-algo-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-algo-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-algo-management-api-api-openapi.yml
 - filename: deutsche-boerse-dataset-api-api-openapi.yml
   format: yaml
   label: A7 Analytics Platform - Dataset API
   slug: a7-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-dataset-api-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-dataset-api-api-openapi.yml
 - filename: deutsche-boerse-latency-historgram-api-openapi.yml
   format: yaml
   label: A7 Analytics Platform - Market Data Insights API
   slug: a7-market-data-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-latency-historgram-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-latency-historgram-api-openapi.yml
 - filename: deutsche-boerse-option-prices-and-greeks-api-openapi.yml
   format: yaml
   label: A7 Analytics Platform - Option Analytics API
   slug: a7-option-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-option-prices-and-greeks-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-option-prices-and-greeks-api-openapi.yml
 - filename: deutsche-boerse-precalc-api-api-openapi.yml
   format: yaml
   label: A7 Analytics Platform - Precalc API
   slug: a7-precalc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-precalc-api-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-precalc-api-api-openapi.yml
 - filename: deutsche-boerse-auctions-api-openapi.yml
   format: yaml
   label: A7 Analytics Platform - Auction Simulation API
   slug: a7-auction-simulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/openapi/deutsche-boerse-auctions-api-openapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/openapi/deutsche-boerse-auctions-api-openapi.yml
 - filename: deutsche-boerse-cloud-stream-asyncapi.yml
   format: yaml
   label: Deutsche Börse Cloud Stream Market Data API
   slug: cloud-stream-market-data-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/asyncapi/deutsche-boerse-cloud-stream-asyncapi.yml
+  url: https://artifacts.apis.io/deutsche-boerse/asyncapi/deutsche-boerse-cloud-stream-asyncapi.yml
 auth_types:
 - http
 - apiKey
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-07-22'\nmethod: searched\ndocs: https://docs.deve
   \ use HTTP Bearer tokens issued in the A7 GUI\n    (derived from all 18 OpenAPI specs). Group API Platform APIs use an API key in\n    the X-DBP-APIKEY header, generated per application in the developer console;\n    some publishers additionally require mutual TLS (X.509 client certificates) or\n    publisher-issued keys. OAuth2/OIDC is documented as \"Coming soon\". The free\n    Eurex T7 reference data GraphQL API accepts a published shared rate-limited\n    X-DBP-APIKEY (see https://www.eurex.com/ex-en/data/free-reference-data-api).\nschemes:\n- name: X-DBP-APIKEY\n  type: apiKey\n  in: header\n  parameter: X-DBP-APIKEY\n  docs: https://docs.developer.deutsche-boerse.com/docs/consumer/getting-started/consume/\n  sources:\n  - https://docs.developer.deutsche-boerse.com/docs/consumer/getting-started/consume/\n  - https://www.eurex.com/ex-en/data/free-reference-data-api\n- name: mutualTLS (per-API option)\n  type: mutualTLS\n  docs: https://docs.developer.deutsche-boerse.com/docs/consumer/mTLS-consumer\n\
   \  sources:\n  - https://docs.developer.deutsche-boerse.com/docs/consumer/mTLS-consumer\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/deutsche-boerse-algo-management-api-api-openapi.yml\n  - openapi/deutsche-boerse-auctions-api-openapi.yml\n  - openapi/deutsche-boerse-cme-reference-data-api-api-openapi.yml\n  - openapi/deutsche-boerse-dataset-api-api-openapi.yml\n  - openapi/deutsche-boerse-datasets-api-openapi.yml\n  - openapi/deutsche-boerse-exchanges-assets-securities-api-openapi.yml\n  - openapi/deutsche-boerse-exchanges-symbols-securities-api-openapi.yml\n  - openapi/deutsche-boerse-historical-time-series-api-openapi.yml\n  - openapi/deutsche-boerse-indicators-api-openapi.yml\n  - openapi/deutsche-boerse-latency-historgram-api-openapi.yml\n  - openapi/deutsche-boerse-market-data-api-eobi-api-openapi.yml\n  - openapi/deutsche-boerse-option-prices-and-greeks-api-openapi.yml\n  - openapi/deutsche-boerse-order-book-api-api-openapi.yml\n  - openapi/deutsche-boerse-pace-of-the-roll-api-openapi.yml\n\
   \  - openapi/deutsche-boerse-precalc-api-api-openapi.yml\n  - openapi/deutsche-boerse-reference-data-api-api-openapi.yml\n  - openapi/deutsche-boerse-sending-times-packets-messages-api-openapi.yml\n  - openapi/deutsche-boerse-symbols-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/authentication/deutsche-boerse-authentication.yml
+source_yaml_url: https://artifacts.apis.io/deutsche-boerse/authentication/deutsche-boerse-authentication.yml
 summary_line: http/apiKey · 3 schemes
 tags:
 - Finance

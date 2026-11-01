@@ -5,19 +5,19 @@ api_specs:
   label: DetectLanguage Account API
   slug: detectlanguage-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/openapi/detectlanguage-account-api-openapi.yml
+  url: https://artifacts.apis.io/detectlanguage/openapi/detectlanguage-account-api-openapi.yml
 - filename: detectlanguage-detection-api-openapi.yml
   format: yaml
   label: DetectLanguage Detection API
   slug: detectlanguage-detection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/openapi/detectlanguage-detection-api-openapi.yml
+  url: https://artifacts.apis.io/detectlanguage/openapi/detectlanguage-detection-api-openapi.yml
 - filename: detectlanguage-languages-api-openapi.yml
   format: yaml
   label: DetectLanguage Languages API
   slug: detectlanguage-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/openapi/detectlanguage-languages-api-openapi.yml
+  url: https://artifacts.apis.io/detectlanguage/openapi/detectlanguage-languages-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: detectlanguage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: detectlanguage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 07:16:37 2026 GMT\n  hsts: false\n- host: ws.detectlanguage.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: detectlanguage.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/detectlanguage/refs/heads/main/security/detectlanguage-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/detectlanguage/security/detectlanguage-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Language Detection

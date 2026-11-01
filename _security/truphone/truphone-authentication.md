@@ -8,31 +8,31 @@ api_specs:
   label: Truphone (1GLOBAL) Connectivity API
   slug: truphone-connectivity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-connectivity-api-openapi.yml
+  url: https://artifacts.apis.io/truphone/openapi/truphone-connectivity-api-openapi.yml
 - filename: truphone-devices-api-openapi.yml
   format: yaml
   label: Truphone (1GLOBAL) Devices API
   slug: truphone-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-devices-api-openapi.yml
+  url: https://artifacts.apis.io/truphone/openapi/truphone-devices-api-openapi.yml
 - filename: truphone-organization-api-openapi.yml
   format: yaml
   label: Truphone (1GLOBAL) Organization API
   slug: truphone-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-organization-api-openapi.yml
+  url: https://artifacts.apis.io/truphone/openapi/truphone-organization-api-openapi.yml
 - filename: truphone-plans-api-openapi.yml
   format: yaml
   label: Truphone (1GLOBAL) Plans API
   slug: truphone-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-plans-api-openapi.yml
+  url: https://artifacts.apis.io/truphone/openapi/truphone-plans-api-openapi.yml
 - filename: truphone-sims-api-openapi.yml
   format: yaml
   label: Truphone (1GLOBAL) SI Ms API
   slug: truphone-sims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/openapi/truphone-sims-api-openapi.yml
+  url: https://artifacts.apis.io/truphone/openapi/truphone-sims-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: truphone-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/truphone-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: TokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Token-based authentication. Supply the header `Authorization: Token <api-key>`.\n    (1GLOBAL Connect and the 1GLOBAL platform API on services.truphone.com use OAuth2 / bearer\n    tokens instead; see provider documentation.)'\n  sources:\n  - openapi/truphone-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/truphone/refs/heads/main/authentication/truphone-authentication.yml
+source_yaml_url: https://artifacts.apis.io/truphone/authentication/truphone-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - eSIM

@@ -7,13 +7,13 @@ api_specs:
   label: Suno Lyrics API
   slug: suno-lyrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/openapi/suno-lyrics-api-openapi.yml
+  url: https://artifacts.apis.io/suno/openapi/suno-lyrics-api-openapi.yml
 - filename: suno-music-api-openapi.yml
   format: yaml
   label: Suno Music API
   slug: suno-music-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/openapi/suno-music-api-openapi.yml
+  url: https://artifacts.apis.io/suno/openapi/suno-music-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,13 +40,13 @@ source_filename: suno-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/suno-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  sources:\n  - openapi/suno-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suno/refs/heads/main/authentication/suno-authentication.yml
+source_yaml_url: https://artifacts.apis.io/suno/authentication/suno-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence
 - Music Generation
 - Audio
 - Generative
-- TTS
+- Text-to-Speech
 - Music
 ---

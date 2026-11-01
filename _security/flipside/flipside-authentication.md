@@ -8,7 +8,7 @@ api_specs:
   label: Flipside Crypto JSON-RPC API
   slug: flipside-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/openapi/flipside-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/flipside/openapi/flipside-json-rpc-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: flipside-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/flipside-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: Flipside Data API key, created in the Flipside account settings.\n  sources:\n  - openapi/flipside-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flipside/refs/heads/main/authentication/flipside-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flipside/authentication/flipside-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Blockchain

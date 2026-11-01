@@ -5,61 +5,61 @@ api_specs:
   label: OpsRamp Alerts API
   slug: opsramp-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-alerts-api-openapi.yml
 - filename: opsramp-alerts-search-api-openapi.yml
   format: yaml
   label: OpsRamp Alerts Search API
   slug: opsramp-alerts-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-alerts-search-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-alerts-search-api-openapi.yml
 - filename: opsramp-jobs-api-openapi.yml
   format: yaml
   label: OpsRamp Jobs API
   slug: opsramp-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-jobs-api-openapi.yml
 - filename: opsramp-monitoring-api-openapi.yml
   format: yaml
   label: OpsRamp Monitoring API
   slug: opsramp-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-monitoring-api-openapi.yml
 - filename: opsramp-resourcemonitors-api-openapi.yml
   format: yaml
   label: OpsRamp Resourcemonitors API
   slug: opsramp-resourcemonitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-resourcemonitors-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-resourcemonitors-api-openapi.yml
 - filename: opsramp-resources-api-openapi.yml
   format: yaml
   label: OpsRamp Resources API
   slug: opsramp-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-resources-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-resources-api-openapi.yml
 - filename: opsramp-resources-search-api-openapi.yml
   format: yaml
   label: OpsRamp Resources Search API
   slug: opsramp-resources-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-resources-search-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-resources-search-api-openapi.yml
 - filename: opsramp-tenancy-api-openapi.yml
   format: yaml
   label: OpsRamp Tenancy API
   slug: opsramp-tenancy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-tenancy-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-tenancy-api-openapi.yml
 - filename: opsramp-ticketentity-api-openapi.yml
   format: yaml
   label: OpsRamp Ticketentity API
   slug: opsramp-ticketentity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-ticketentity-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-ticketentity-api-openapi.yml
 - filename: opsramp-ticketentity-search-api-openapi.yml
   format: yaml
   label: OpsRamp Ticketentity Search API
   slug: opsramp-ticketentity-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/openapi/opsramp-ticketentity-search-api-openapi.yml
+  url: https://artifacts.apis.io/opsramp/openapi/opsramp-ticketentity-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -100,7 +100,7 @@ source_filename: opsramp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.opsramp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 04:17:34 2026 GMT\n  hsts: null\n- host: api.opsramp.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: opsramp.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog\"\n  - 0 issuewild \"rapidssl.com\"\n  - 0 issue \";\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opsramp/refs/heads/main/security/opsramp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opsramp/security/opsramp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AIOps

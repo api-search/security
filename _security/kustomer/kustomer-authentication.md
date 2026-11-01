@@ -7,13 +7,13 @@ api_specs:
   label: Kustomer Conversations API
   slug: kustomer-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/openapi/kustomer-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/kustomer/openapi/kustomer-conversations-api-openapi.yml
 - filename: kustomer-customers-api-openapi.yml
   format: yaml
   label: Kustomer Customers API
   slug: kustomer-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/openapi/kustomer-customers-api-openapi.yml
+  url: https://artifacts.apis.io/kustomer/openapi/kustomer-customers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: kustomer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kustomer-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Provide an API key issued from Settings > Security > API Keys in the Kustomer\n    console. Header format: `Authorization: Bearer {API_KEY}`.'\n  sources:\n  - openapi/kustomer-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/authentication/kustomer-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kustomer/authentication/kustomer-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Customer Service

@@ -5,7 +5,7 @@ api_specs:
   label: Cities Database API Cities API
   slug: cities-database-api-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/openapi/cities-database-api-cities-api-openapi.yml
+  url: https://artifacts.apis.io/cities-database-api/openapi/cities-database-api-cities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: cities-database-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: airlabs.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 16:58:36 2026 GMT\n  hsts: false\ndomains:\n- domain: airlabs.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cities-database-api/refs/heads/main/security/cities-database-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cities-database-api/security/cities-database-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cities

@@ -5,19 +5,19 @@ api_specs:
   label: MarketAux Entities API
   slug: marketaux-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-entities-api-openapi.yml
+  url: https://artifacts.apis.io/marketaux/openapi/marketaux-entities-api-openapi.yml
 - filename: marketaux-news-api-openapi.yml
   format: yaml
   label: MarketAux News API
   slug: marketaux-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-news-api-openapi.yml
+  url: https://artifacts.apis.io/marketaux/openapi/marketaux-news-api-openapi.yml
 - filename: marketaux-sources-api-openapi.yml
   format: yaml
   label: MarketAux Sources API
   slug: marketaux-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/openapi/marketaux-sources-api-openapi.yml
+  url: https://artifacts.apis.io/marketaux/openapi/marketaux-sources-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: marketaux-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.marketaux.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 04:37:20 2026 GMT\n  hsts: false\ndomains:\n- domain: marketaux.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/marketaux/refs/heads/main/security/marketaux-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/marketaux/security/marketaux-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - News

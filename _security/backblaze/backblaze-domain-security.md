@@ -5,37 +5,37 @@ api_specs:
   label: Backblaze Application Keys API
   slug: backblaze-application-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-application-keys-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-application-keys-api-openapi.yml
 - filename: backblaze-authorization-api-openapi.yml
   format: yaml
   label: Backblaze Authorization API
   slug: backblaze-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-authorization-api-openapi.yml
 - filename: backblaze-buckets-api-openapi.yml
   format: yaml
   label: Backblaze Buckets API
   slug: backblaze-buckets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-buckets-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-buckets-api-openapi.yml
 - filename: backblaze-files-api-openapi.yml
   format: yaml
   label: Backblaze Files API
   slug: backblaze-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-files-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-files-api-openapi.yml
 - filename: backblaze-large-files-api-openapi.yml
   format: yaml
   label: Backblaze Large Files API
   slug: backblaze-large-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-large-files-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-large-files-api-openapi.yml
 - filename: backblaze-notifications-api-openapi.yml
   format: yaml
   label: Backblaze Notifications API
   slug: backblaze-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/openapi/backblaze-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/backblaze/openapi/backblaze-notifications-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: backblaze-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.backblaze.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 21:09:01 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\n- host: api.backblazeb2.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 19:08:51 2026 GMT\n  hsts: null\ndomains:\n- domain: backblaze.com\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: backblazeb2.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/backblaze/refs/heads/main/security/backblaze-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/backblaze/security/backblaze-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cloud Storage

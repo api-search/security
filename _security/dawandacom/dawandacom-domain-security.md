@@ -26,7 +26,7 @@ source_filename: dawandacom-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dawanda.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  4 04:59:11 2026 GMT\n  hsts: null\ndomains:\n- domain: dawanda.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dawandacom/refs/heads/main/security/dawandacom-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dawandacom/security/dawandacom-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

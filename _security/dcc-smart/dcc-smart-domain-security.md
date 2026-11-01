@@ -5,13 +5,13 @@ api_specs:
   label: Smart DCC Sign API
   slug: dcc-smart-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/openapi/dcc-smart-sign-api-openapi.yml
+  url: https://artifacts.apis.io/dcc-smart/openapi/dcc-smart-sign-api-openapi.yml
 - filename: dcc-smart-verify-api-openapi.yml
   format: yaml
   label: Smart DCC Verify API
   slug: dcc-smart-verify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/openapi/dcc-smart-verify-api-openapi.yml
+  url: https://artifacts.apis.io/dcc-smart/openapi/dcc-smart-verify-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,7 +41,7 @@ source_filename: dcc-smart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smartdcc.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 10886400\ndomains:\n- domain: smartdcc.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dcc-smart/refs/heads/main/security/dcc-smart-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dcc-smart/security/dcc-smart-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Energy

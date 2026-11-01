@@ -27,7 +27,7 @@ source_filename: massachusetts-mutual-life-insurance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.massmutual.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  8 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: massmutual.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/massachusetts-mutual-life-insurance/refs/heads/main/security/massachusetts-mutual-life-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/massachusetts-mutual-life-insurance/security/massachusetts-mutual-life-insurance-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Annuities

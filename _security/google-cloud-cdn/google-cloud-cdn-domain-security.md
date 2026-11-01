@@ -5,19 +5,19 @@ api_specs:
   label: Google Cloud CDN BackendServices API
   slug: google-cloud-cdn-backendservices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/google-cloud-cdn-backendservices-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-cdn/openapi/google-cloud-cdn-backendservices-api-openapi.yml
 - filename: google-cloud-cdn-cache-invalidation-api-openapi.yml
   format: yaml
   label: Google Cloud CDN Cache Invalidation API
   slug: google-cloud-cdn-cache-invalidation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/google-cloud-cdn-cache-invalidation-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-cdn/openapi/google-cloud-cdn-cache-invalidation-api-openapi.yml
 - filename: google-cloud-cdn-url-maps-api-openapi.yml
   format: yaml
   label: Google Cloud CDN URL maps API
   slug: google-cloud-cdn-url-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/openapi/google-cloud-cdn-url-maps-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-cdn/openapi/google-cloud-cdn-url-maps-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -60,7 +60,7 @@ source_filename: google-cloud-cdn-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: compute.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-cdn/refs/heads/main/security/google-cloud-cdn-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-cdn/security/google-cloud-cdn-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Caching

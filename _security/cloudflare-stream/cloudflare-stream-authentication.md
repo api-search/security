@@ -7,37 +7,37 @@ api_specs:
   label: Cloudflare Stream Analytics API
   slug: cloudflare-stream-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-analytics-api-openapi.yml
 - filename: cloudflare-stream-captions-api-openapi.yml
   format: yaml
   label: Cloudflare Stream Captions API
   slug: cloudflare-stream-captions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-captions-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-captions-api-openapi.yml
 - filename: cloudflare-stream-live-inputs-api-openapi.yml
   format: yaml
   label: Cloudflare Stream Live Inputs API
   slug: cloudflare-stream-live-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-live-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-live-inputs-api-openapi.yml
 - filename: cloudflare-stream-signed-urls-api-openapi.yml
   format: yaml
   label: Cloudflare Stream Signed URLs API
   slug: cloudflare-stream-signed-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-signed-urls-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-signed-urls-api-openapi.yml
 - filename: cloudflare-stream-videos-api-openapi.yml
   format: yaml
   label: Cloudflare Stream Videos API
   slug: cloudflare-stream-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-videos-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-videos-api-openapi.yml
 - filename: cloudflare-stream-webhooks-api-openapi.yml
   format: yaml
   label: Cloudflare Stream Webhooks API
   slug: cloudflare-stream-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/openapi/cloudflare-stream-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudflare-stream/openapi/cloudflare-stream-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: cloudflare-stream-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudflare-stream-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Cloudflare API token passed in an Authorization Bearer header.\n  sources:\n  - openapi/cloudflare-stream-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudflare-stream/refs/heads/main/authentication/cloudflare-stream-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudflare-stream/authentication/cloudflare-stream-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Video

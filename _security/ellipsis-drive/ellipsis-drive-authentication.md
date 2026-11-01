@@ -42,7 +42,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.ellipsis-drive.com/developers/api-v3\ndocs: https://docs.ellipsis-drive.com/developers/api-v3/oauth/authorization\nsummary:\n  types: [http, oauth2]\n  http_scheme: bearer\n  oauth2_flows: [authorizationCode]\n  notes: >-\n    Requests authenticate with a Bearer access token in the Authorization header. Tokens can be\n    created and managed under the account (personal access tokens) or obtained via the OAuth2\n    authorization-code flow (PKCE supported) for third-party integrations.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Personal or OAuth-issued access token passed as `Authorization: Bearer <token>`. Personal\n    access tokens are managed at Account > Access tokens.\n  docs: https://docs.ellipsis-drive.com/developers/api-v3/account/access-tokens\n  sources: [docs]\n- name: oauth2\n  type: oauth2\n  description: OAuth2 authorization-code flow (PKCE supported) for\
   \ delegated third-party access.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.ellipsis-drive.com/v3/oauth/authorize\n    scopes:\n      projects: Allows the use of all API calls except those in /settings/account (default and currently the only scope).\n  docs: https://docs.ellipsis-drive.com/developers/api-v3/oauth/authorization\n  sources: [docs]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ellipsis-drive/refs/heads/main/authentication/ellipsis-drive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ellipsis-drive/authentication/ellipsis-drive-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

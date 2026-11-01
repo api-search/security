@@ -5,13 +5,13 @@ api_specs:
   label: Amazon IoT Greengrass API
   slug: amazon-iot-greengrass-greengrass-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/openapi/amazon-iot-greengrass-greengrass-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-greengrass-api-openapi.yml
 - filename: amazon-iot-greengrass-tags-api-openapi.yml
   format: yaml
   label: Amazon IoT Greengrass Tags API
   slug: amazon-iot-greengrass-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/openapi/amazon-iot-greengrass-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-tags-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -32,7 +32,7 @@ source_filename: amazon-iot-greengrass-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-iot-greengrass/refs/heads/main/security/amazon-iot-greengrass-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-iot-greengrass/security/amazon-iot-greengrass-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Edge Computing

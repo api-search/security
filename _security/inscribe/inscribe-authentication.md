@@ -8,49 +8,49 @@ api_specs:
   label: Inscribe Bank Accounts API
   slug: inscribe-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-bank-accounts-api-openapi.yml
 - filename: inscribe-collect-sessions-api-openapi.yml
   format: yaml
   label: Inscribe Collect Sessions API
   slug: inscribe-collect-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-collect-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-collect-sessions-api-openapi.yml
 - filename: inscribe-credit-insights-api-openapi.yml
   format: yaml
   label: Inscribe Credit Insights API
   slug: inscribe-credit-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-credit-insights-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-credit-insights-api-openapi.yml
 - filename: inscribe-customers-api-openapi.yml
   format: yaml
   label: Inscribe Customers API
   slug: inscribe-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-customers-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-customers-api-openapi.yml
 - filename: inscribe-documents-api-openapi.yml
   format: yaml
   label: Inscribe Documents API
   slug: inscribe-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-documents-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-documents-api-openapi.yml
 - filename: inscribe-open-banking-api-openapi.yml
   format: yaml
   label: Inscribe Open Banking API
   slug: inscribe-open-banking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-open-banking-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-open-banking-api-openapi.yml
 - filename: inscribe-reachability-check-api-openapi.yml
   format: yaml
   label: Inscribe Reachability Check API
   slug: inscribe-reachability-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-reachability-check-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-reachability-check-api-openapi.yml
 - filename: inscribe-transactions-api-openapi.yml
   format: yaml
   label: Inscribe Transactions API
   slug: inscribe-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/openapi/inscribe-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/inscribe/openapi/inscribe-transactions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -77,7 +77,7 @@ source_filename: inscribe-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/inscribe-core-resources-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/inscribe-core-resources-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inscribe/refs/heads/main/authentication/inscribe-authentication.yml
+source_yaml_url: https://artifacts.apis.io/inscribe/authentication/inscribe-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Fraud Prevention

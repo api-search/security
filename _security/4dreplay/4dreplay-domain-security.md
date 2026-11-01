@@ -38,7 +38,7 @@ source_filename: 4dreplay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 4dreplay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:22:32 2026 GMT\n  hsts: false\n- host: 4dist.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 15:37:16 2026 GMT\n  hsts: false\ndomains:\n- domain: 4dreplay.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: 4dist.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n  dmarc_policy: null\nfindings:\n- No HSTS on either host.\n- No CAA records on either registrable domain.\n- No DNSSEC on either registrable domain.\n- 4dist.com publishes neither SPF nor DMARC; 4dreplay.com publishes both, but DMARC policy is p=none (monitor only).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/4dreplay/refs/heads/main/security/4dreplay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/4dreplay/security/4dreplay-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

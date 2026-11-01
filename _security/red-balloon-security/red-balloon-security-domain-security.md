@@ -27,7 +27,7 @@ source_filename: red-balloon-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: redballoonsecurity.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 12:59:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: redballoonsecurity.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-balloon-security/refs/heads/main/security/red-balloon-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/red-balloon-security/security/red-balloon-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

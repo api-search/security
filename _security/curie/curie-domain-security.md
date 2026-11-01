@@ -5,13 +5,13 @@ api_specs:
   label: Curie Catalog API
   slug: curie-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/openapi/curie-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/curie/openapi/curie-catalog-api-openapi.yml
 - filename: curie-products-api-openapi.yml
   format: yaml
   label: Curie Products API
   slug: curie-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/openapi/curie-products-api-openapi.yml
+  url: https://artifacts.apis.io/curie/openapi/curie-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: curie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: curie.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 00:24:35 2026 GMT\n  hsts: false\n- host: chat.curie.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 01:55:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: curie-api.curievision.workers.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 16:48:26 2026 GMT\n  hsts: null\ndomains:\n- domain: curie.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: curie.app\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/security/curie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/curie/security/curie-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

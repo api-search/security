@@ -8,103 +8,103 @@ api_specs:
   label: CircleCI Self-Hosted Runner API
   slug: runner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-runner-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-runner-api-openapi.yml
 - filename: circleci-webhooks-asyncapi.yml
   format: yaml
   label: CircleCI Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/asyncapi/circleci-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/circleci/asyncapi/circleci-webhooks-asyncapi.yml
 - filename: circleci-artifact-api-openapi.yml
   format: yaml
   label: CircleCI Artifact API
   slug: circleci-artifact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-artifact-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-artifact-api-openapi.yml
 - filename: circleci-build-api-openapi.yml
   format: yaml
   label: CircleCI Build API
   slug: circleci-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-build-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-build-api-openapi.yml
 - filename: circleci-context-api-openapi.yml
   format: yaml
   label: CircleCI Context API
   slug: circleci-context-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-context-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-context-api-openapi.yml
 - filename: circleci-insights-api-openapi.yml
   format: yaml
   label: CircleCI Insights API
   slug: circleci-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-insights-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-insights-api-openapi.yml
 - filename: circleci-job-api-openapi.yml
   format: yaml
   label: CircleCI Job API
   slug: circleci-job-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-job-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-job-api-openapi.yml
 - filename: circleci-pipeline-api-openapi.yml
   format: yaml
   label: CircleCI Pipeline API
   slug: circleci-pipeline-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-pipeline-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-pipeline-api-openapi.yml
 - filename: circleci-project-api-openapi.yml
   format: yaml
   label: CircleCI Project API
   slug: circleci-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-project-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-project-api-openapi.yml
 - filename: circleci-resource-class-api-openapi.yml
   format: yaml
   label: CircleCI Resource Class API
   slug: circleci-resource-class-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-resource-class-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-resource-class-api-openapi.yml
 - filename: circleci-runner-task-api-openapi.yml
   format: yaml
   label: CircleCI Runner Task API
   slug: circleci-runner-task-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-runner-task-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-runner-task-api-openapi.yml
 - filename: circleci-schedule-api-openapi.yml
   format: yaml
   label: CircleCI Schedule API
   slug: circleci-schedule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-schedule-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-schedule-api-openapi.yml
 - filename: circleci-ssh-key-api-openapi.yml
   format: yaml
   label: CircleCI SSH Key API
   slug: circleci-ssh-key-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-ssh-key-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-ssh-key-api-openapi.yml
 - filename: circleci-test-metadata-api-openapi.yml
   format: yaml
   label: CircleCI Test Metadata API
   slug: circleci-test-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-test-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-test-metadata-api-openapi.yml
 - filename: circleci-user-api-openapi.yml
   format: yaml
   label: CircleCI User API
   slug: circleci-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-user-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-user-api-openapi.yml
 - filename: circleci-webhook-api-openapi.yml
   format: yaml
   label: CircleCI Webhook API
   slug: circleci-webhook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-webhook-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-webhook-api-openapi.yml
 - filename: circleci-workflow-api-openapi.yml
   format: yaml
   label: CircleCI Workflow API
   slug: circleci-workflow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/openapi/circleci-workflow-api-openapi.yml
+  url: https://artifacts.apis.io/circleci/openapi/circleci-workflow-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -148,7 +148,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/circleci-rest-api-v1-openapi.yml, openapi/circleci-rest-api-v2-openapi.yml,\n  openapi/circleci-runner-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiToken\n  type: apiKey\n  in: header\n  parameter: Circle-Token\n  description: Personal API token for authenticating with the CircleCI API. Can also be passed\n    as a query parameter.\n  sources:\n  - openapi/circleci-rest-api-v1-openapi.yml\n  - openapi/circleci-rest-api-v2-openapi.yml\n  - openapi/circleci-runner-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP basic authentication using a personal API token as the username with an\n    empty password.\n  sources:\n  - openapi/circleci-rest-api-v2-openapi.yml\n- name: resourceClassToken\n  type: http\n  scheme: bearer\n  description: Resource class token generated when creating a new resource class. This token\n    is only\
   \ displayed once and cannot be retrieved again.\n  sources:\n  - openapi/circleci-runner-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/authentication/circleci-authentication.yml
+source_yaml_url: https://artifacts.apis.io/circleci/authentication/circleci-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - CI/CD

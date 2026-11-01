@@ -5,25 +5,25 @@ api_specs:
   label: Yearn Finance Chains API
   slug: yearn-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-chains-api-openapi.yml
+  url: https://artifacts.apis.io/yearn/openapi/yearn-chains-api-openapi.yml
 - filename: yearn-info-api-openapi.yml
   format: yaml
   label: Yearn Finance Info API
   slug: yearn-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-info-api-openapi.yml
+  url: https://artifacts.apis.io/yearn/openapi/yearn-info-api-openapi.yml
 - filename: yearn-tvl-api-openapi.yml
   format: yaml
   label: Yearn Finance TVL API
   slug: yearn-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/yearn/openapi/yearn-tvl-api-openapi.yml
 - filename: yearn-vaults-api-openapi.yml
   format: yaml
   label: Yearn Finance Vaults API
   slug: yearn-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/openapi/yearn-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/yearn/openapi/yearn-vaults-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: yearn-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.yearn.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 04:06:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: ydaemon.yearn.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 10:21:12 2026 GMT\n  hsts: null\n- host: kong.yearn.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 04:34:17 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: yearn.fi\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yearn/refs/heads/main/security/yearn-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yearn/security/yearn-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - DeFi

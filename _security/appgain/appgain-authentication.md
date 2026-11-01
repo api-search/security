@@ -15,13 +15,13 @@ api_specs:
   label: Appgain Notify API
   slug: appgain-notify-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/postman/appgain-omnichannel.postman_collection.json
+  url: https://artifacts.apis.io/appgain/postman/appgain-omnichannel.postman_collection.json
 - filename: appgain-omnichannel.postman_collection.json
   format: json
   label: Appgain Automator API
   slug: appgain-automator-api
   spec_type: Postman
-  url: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/postman/appgain-omnichannel.postman_collection.json
+  url: https://artifacts.apis.io/appgain/postman/appgain-omnichannel.postman_collection.json
 auth_types:
 - apiKey
 description: ''
@@ -100,7 +100,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  postman/a
   \ reseller claims. It is not issued by any documented Appgain\n    token endpoint; the docs do not say how an integrator obtains or refreshes it.\n  sources: ['https://docs.appgain.io/integrations/n8n-integration/']\n- name: whatsappAuthToken\n  type: apiKey\n  in: header\n  parameter_name: authToken\n  description: >-\n    A second JWT header sent alongside Authorization on the WhatsApp template-creation\n    call. Its issuance and lifetime are undocumented.\n  sources: ['https://docs.appgain.io/integrations/n8n-integration/']\npath_scoping:\n  parameter: projectId\n  location: path\n  description: >-\n    Tenancy is expressed in the path, not in the credential. Every operation is\n    scoped by a projectId that the caller supplies; the API key is bound to that\n    project.\n  examples:\n  - https://notify.appgain.io/{projectId}/send\n  - https://automator.appgain.io/automessages/{projectId}/firevent/{trigger}/{userId}\n  - https://{account_subdomain}.appgain.io/apps/{projectId}/smartlinks\n\
   credentials_source: Appgain dashboard -> Project Settings -> API and SDK Keys\nrotation:\n  documented: false\n  notes: No key-rotation, key-expiry or multi-key policy is published.\nfailure_behaviour:\n  method: probed\n  probed: '2026-08-13'\n  observations:\n  - host: automator.appgain.io\n    request: GET /automessages/{projectId}/firevent/{trigger}/{userId} with an invalid appApiKey\n    status: 401\n    body: '{\"status\": \"failed\", \"message\": \"Not Authorized Api Key\"}'\n  - host: api.appgain.io\n    request: GET /user_log_event/{projectId}/{userId}?appApiKey=<invalid>\n    status: 401\n    body: '{\"status\": \"failed\", \"message\": \"app API key or user authentication required\"}'\n  - host: notify.appgain.io\n    request: POST /{projectId}/send with an invalid appapikey\n    status: 500\n    body: '{\"exception\": \"''NoneType'' object has no attribute ''api_key''\", \"message\": \"something went wrong\", \"status\": \"Failed\"}'\n    note: >-\n      The send endpoint does\
   \ not return 401 for a bad credential. It returns HTTP 500\n      and echoes a server-side Python AttributeError back to the caller. An agent\n      cannot distinguish \"your key is wrong\" from \"the service is broken\" on the\n      single most important endpoint in the API.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/authentication/appgain-authentication.yml
+source_yaml_url: https://artifacts.apis.io/appgain/authentication/appgain-authentication.yml
 summary_line: apiKey · 6 schemes
 tags:
 - Company

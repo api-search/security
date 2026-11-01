@@ -5,31 +5,31 @@ api_specs:
   label: CargoSmart Bookings API
   slug: cargosmart-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-bookings-api-openapi.yml
 - filename: cargosmart-containers-api-openapi.yml
   format: yaml
   label: CargoSmart Containers API
   slug: cargosmart-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-containers-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-containers-api-openapi.yml
 - filename: cargosmart-documents-api-openapi.yml
   format: yaml
   label: CargoSmart Documents API
   slug: cargosmart-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-documents-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-documents-api-openapi.yml
 - filename: cargosmart-shipments-api-openapi.yml
   format: yaml
   label: CargoSmart Shipments API
   slug: cargosmart-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-shipments-api-openapi.yml
 - filename: cargosmart-vessels-api-openapi.yml
   format: yaml
   label: CargoSmart Vessels API
   slug: cargosmart-vessels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/openapi/cargosmart-vessels-api-openapi.yml
+  url: https://artifacts.apis.io/cargosmart/openapi/cargosmart-vessels-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: cargosmart-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cargosmart.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 13 18:23:36 2026 GMT\n  hsts: false\n- host: api.cargosmart.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 18:23:36 2026 GMT\n  hsts: null\ndomains:\n- domain: cargosmart.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargosmart/refs/heads/main/security/cargosmart-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cargosmart/security/cargosmart-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Booking

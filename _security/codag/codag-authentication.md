@@ -7,115 +7,121 @@ api_specs:
   label: Codag Activate API
   slug: codag-activate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-activate-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-activate-api-openapi.yml
 - filename: codag-admin-api-openapi.yml
   format: yaml
   label: Codag Admin API
   slug: codag-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-admin-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-admin-api-openapi.yml
 - filename: codag-anonymous-api-openapi.yml
   format: yaml
   label: Codag Anonymous API
   slug: codag-anonymous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-anonymous-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-anonymous-api-openapi.yml
 - filename: codag-auth-api-openapi.yml
   format: yaml
   label: Codag Auth API
   slug: codag-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-auth-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-auth-api-openapi.yml
 - filename: codag-billing-api-openapi.yml
   format: yaml
   label: Codag Billing API
   slug: codag-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-billing-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-billing-api-openapi.yml
 - filename: codag-capsule-api-openapi.yml
   format: yaml
   label: Codag Capsule API
   slug: codag-capsule-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-capsule-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-capsule-api-openapi.yml
 - filename: codag-cli-api-openapi.yml
   format: yaml
   label: Codag Cli API
   slug: codag-cli-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-cli-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-cli-api-openapi.yml
 - filename: codag-compact-api-openapi.yml
   format: yaml
   label: Codag Compact API
   slug: codag-compact-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-compact-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-compact-api-openapi.yml
 - filename: codag-free-api-openapi.yml
   format: yaml
   label: Codag Free API
   slug: codag-free-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-free-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-free-api-openapi.yml
 - filename: codag-health-api-openapi.yml
   format: yaml
   label: Codag Health API
   slug: codag-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-health-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-health-api-openapi.yml
 - filename: codag-incident-memory-api-openapi.yml
   format: yaml
   label: Codag Incident Memory API
   slug: codag-incident-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-incident-memory-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-incident-memory-api-openapi.yml
 - filename: codag-install-sh-api-openapi.yml
   format: yaml
   label: Codag Install.sh API
   slug: codag-install-sh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-install-sh-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-install-sh-api-openapi.yml
 - filename: codag-internal-api-openapi.yml
   format: yaml
   label: Codag Internal API
   slug: codag-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-internal-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-internal-api-openapi.yml
 - filename: codag-onboard-api-openapi.yml
   format: yaml
   label: Codag Onboard API
   slug: codag-onboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-onboard-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-onboard-api-openapi.yml
 - filename: codag-org-api-openapi.yml
   format: yaml
   label: Codag Org API
   slug: codag-org-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-org-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-org-api-openapi.yml
 - filename: codag-orgs-api-openapi.yml
   format: yaml
   label: Codag Orgs API
   slug: codag-orgs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-orgs-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-orgs-api-openapi.yml
 - filename: codag-parse-api-openapi.yml
   format: yaml
   label: Codag Parse API
   slug: codag-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-parse-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-parse-api-openapi.yml
 - filename: codag-whoami-api-openapi.yml
   format: yaml
   label: Codag Whoami API
   slug: codag-whoami-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-whoami-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-whoami-api-openapi.yml
 - filename: codag-oauth-api-openapi.yml
   format: yaml
   label: Codag OAUTH API
   slug: codag-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/openapi/codag-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/codag/openapi/codag-oauth-api-openapi.yml
+- filename: codag-agent-cost-api-openapi.yml
+  format: yaml
+  label: Codag Agent Cost API
+  slug: codag-agent-cost-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codag/openapi/codag-agent-cost-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -174,7 +180,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://codag.ai/docs/rest-api.html\ndocs: https://codag.ai/docs\nnotes: >-\n  The published openapi.json declares no components.securitySchemes (FastAPI app\n  applies auth via dependencies), so this profile is reconstructed from the REST\n  API docs and the spec's OAuth/key operations. Two request-time credential\n  models: an org-scoped Bearer API token for the compaction API, and an OAuth 2.0\n  device-authorization flow used by the CLI. Console/web sessions use Google\n  sign-in. The free compaction path is unauthenticated.\nsummary:\n  types: [http, oauth2, apiKey]\n  http_schemes: [bearer]\n  oauth2_flows: [deviceCode]\nschemes:\n  - name: BearerToken\n    type: http\n    scheme: bearer\n    location: header\n    header: Authorization\n    format: \"Authorization: Bearer <api-token>\"\n    issued_via:\n      - POST /api/orgs/{slug}/keys       # create_key (org-scoped API key)\n      - POST /api/org/keys             \
   \  # create_current_org_key\n    used_by:\n      - POST /v1/compact                 # inference compaction (Pro) / drain (Free)\n      - GET  /v1/whoami\n    docs: https://codag.ai/docs/rest-api.html\n  - name: OAuthDeviceFlow\n    type: oauth2\n    flow: deviceCode\n    device_authorization_endpoint: https://api.codag.ai/oauth/device/code\n    token_endpoint: https://api.codag.ai/oauth/token\n    used_by:\n      - codag auth login (CLI)\n    notes: RFC 8628 device authorization grant used by the codag CLI to obtain tokens.\n  - name: GoogleSignIn\n    type: openIdConnect\n    provider: google\n    used_by:\n      - POST /api/auth/google            # google_login (console/web session)\n      - POST /api/auth/console-session   # mint_console_session\n  - name: AnonymousToken\n    type: http\n    scheme: bearer\n    issued_via:\n      - POST /v1/anonymous/token         # anonymous_token_endpoint\n    notes: Short-lived anonymous token for trial / unauthenticated free usage.\nunauthenticated:\n\
   \  - POST /v1/free/compact                # deterministic drain compaction, no auth\n  - GET  /health\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/codag/refs/heads/main/authentication/codag-authentication.yml
+source_yaml_url: https://artifacts.apis.io/codag/authentication/codag-authentication.yml
 summary_line: http/oauth2/apiKey · 4 schemes
 tags:
 - Company

@@ -36,7 +36,7 @@ source_filename: clockwise-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getclockwise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 16:02:11 2026 GMT\n  hsts: false\n- host: api.getclockwise.com\n  https: false\ndomains:\n- domain: getclockwise.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clockwise/refs/heads/main/security/clockwise-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clockwise/security/clockwise-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Calendar

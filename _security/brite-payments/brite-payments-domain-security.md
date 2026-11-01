@@ -1,41 +1,47 @@
 ---
 api_specs:
+- filename: brite-payments-openapi-generated.yml
+  format: yaml
+  label: Brite Payments API
+  slug: brite-payments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/brite-payments/openapi/_ae-authored/brite-payments-openapi-generated.yml
 - filename: brite-payments-assets-api-openapi.yml
   format: yaml
   label: Brite Payments Assets API
   slug: brite-payments-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-assets-api-openapi.yml
+  url: https://artifacts.apis.io/brite-payments/openapi/brite-payments-assets-api-openapi.yml
 - filename: brite-payments-bank-account-api-openapi.yml
   format: yaml
   label: Brite Payments Bank Account API
   slug: brite-payments-bank-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-bank-account-api-openapi.yml
+  url: https://artifacts.apis.io/brite-payments/openapi/brite-payments-bank-account-api-openapi.yml
 - filename: brite-payments-brite-payments-api-api-openapi.yml
   format: yaml
   label: Brite Payments Brite Payments API
   slug: brite-payments-brite-payments-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-brite-payments-api-api-openapi.yml
+  url: https://artifacts.apis.io/brite-payments/openapi/brite-payments-brite-payments-api-api-openapi.yml
 - filename: brite-payments-callback-api-openapi.yml
   format: yaml
   label: Brite Payments Callback API
   slug: brite-payments-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-callback-api-openapi.yml
+  url: https://artifacts.apis.io/brite-payments/openapi/brite-payments-callback-api-openapi.yml
 - filename: brite-payments-session-api-openapi.yml
   format: yaml
   label: Brite Payments Session API
   slug: brite-payments-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-session-api-openapi.yml
+  url: https://artifacts.apis.io/brite-payments/openapi/brite-payments-session-api-openapi.yml
 - filename: brite-payments-transaction-api-openapi.yml
   format: yaml
   label: Brite Payments Transaction API
   slug: brite-payments-transaction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/openapi/brite-payments-transaction-api-openapi.yml
+  url: https://artifacts.apis.io/brite-payments/openapi/brite-payments-transaction-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,12 +70,12 @@ source_filename: brite-payments-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: britepayments.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 17:55:07 2027 GMT\n  hsts: false\ndomains:\n- domain: britepayments.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brite-payments/refs/heads/main/security/brite-payments-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brite-payments/security/brite-payments-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Payments
 - Fintech
 - Europe
-- OnlinePayments
+- Online Payments
 ---

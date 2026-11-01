@@ -5,25 +5,25 @@ api_specs:
   label: PointCheckout Branches API
   slug: pointcheckout-branches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-branches-api-openapi.yml
+  url: https://artifacts.apis.io/pointcheckout/openapi/pointcheckout-branches-api-openapi.yml
 - filename: pointcheckout-checkout-api-openapi.yml
   format: yaml
   label: PointCheckout Checkout API
   slug: pointcheckout-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/pointcheckout/openapi/pointcheckout-checkout-api-openapi.yml
 - filename: pointcheckout-customer-subscription-api-openapi.yml
   format: yaml
   label: PointCheckout Customer subscription API
   slug: pointcheckout-customer-subscription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-customer-subscription-api-openapi.yml
+  url: https://artifacts.apis.io/pointcheckout/openapi/pointcheckout-customer-subscription-api-openapi.yml
 - filename: pointcheckout-webhooks-api-openapi.yml
   format: yaml
   label: PointCheckout Webhooks API
   slug: pointcheckout-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/openapi/pointcheckout-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/pointcheckout/openapi/pointcheckout-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: pointcheckout-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: pointcheckout.com\n  https: false\n- host: api.paymennt.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 23:59:59 2026 GMT\n  hsts: null\n- host: api.test.paymennt.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  6 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: pointcheckout.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: paymennt.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pointcheckout/refs/heads/main/security/pointcheckout-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pointcheckout/security/pointcheckout-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

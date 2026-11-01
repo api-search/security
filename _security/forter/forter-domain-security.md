@@ -5,25 +5,25 @@ api_specs:
   label: Forter Accounts API
   slug: forter-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-accounts-api-openapi.yml
 - filename: forter-data-privacy-api-openapi.yml
   format: yaml
   label: Forter Data Privacy API
   slug: forter-data-privacy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-data-privacy-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-data-privacy-api-openapi.yml
 - filename: forter-disputes-api-openapi.yml
   format: yaml
   label: Forter Disputes API
   slug: forter-disputes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-disputes-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-disputes-api-openapi.yml
 - filename: forter-orders-api-openapi.yml
   format: yaml
   label: Forter Orders API
   slug: forter-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/openapi/forter-orders-api-openapi.yml
+  url: https://artifacts.apis.io/forter/openapi/forter-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 18:55:22 2026 GMT\n  cert_issuer: Google Trust Services (WE1)\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.forter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 11:58:39 2026 GMT\n  cert_issuer: Google Trust Services (WE1)\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: portal.forter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 23:59:59 2027 GMT\n  cert_issuer: Amazon (Amazon RSA 2048 M04)\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: api.forter.secure.com\n  https: unknown\n  note: >-\n    The bare host api.forter.secure.com does not resolve. The Forter API is\n    served on a per-tenant host - requests go to https://{siteId}.api.forter.secure.com -\n    so the generic\
   \ host has no public DNS record and could not be probed\n    directly.\ndomains:\n- domain: forter.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:95bc97.workshop-spf.net include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:2776164.spf01.hubspotemail.net include:_spf.atlassian.net include:_spf.salesforce.com ~all\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forter/refs/heads/main/security/forter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/forter/security/forter-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Prevention

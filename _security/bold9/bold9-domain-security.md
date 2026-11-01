@@ -28,7 +28,7 @@ source_filename: bold9-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: boldlog.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 00:54:07 2026 GMT\n  hsts: false\ndomains:\n- domain: boldlog.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bold9/refs/heads/main/security/bold9-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bold9/security/bold9-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

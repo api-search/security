@@ -8,55 +8,55 @@ api_specs:
   label: LeanData 🗓️ Availability API
   slug: leandata-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-availability-api-openapi.yml
+  url: https://artifacts.apis.io/leandata/openapi/leandata-availability-api-openapi.yml
 - filename: leandata-legacy-still-supported-api-openapi.yml
   format: yaml
   label: LeanData Legacy (still supported) API
   slug: leandata-legacy-still-supported-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-legacy-still-supported-api-openapi.yml
+  url: https://artifacts.apis.io/leandata/openapi/leandata-legacy-still-supported-api-openapi.yml
 - filename: leandata-matching-api-openapi.yml
   format: yaml
   label: LeanData Matching API
   slug: leandata-matching-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-matching-api-openapi.yml
+  url: https://artifacts.apis.io/leandata/openapi/leandata-matching-api-openapi.yml
 - filename: leandata-meetings-create-api-openapi.yml
   format: yaml
   label: LeanData 📆 Meetings > Create API
   slug: leandata-meetings-create-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-meetings-create-api-openapi.yml
+  url: https://artifacts.apis.io/leandata/openapi/leandata-meetings-create-api-openapi.yml
 - filename: leandata-meetings-manage-api-openapi.yml
   format: yaml
   label: LeanData 📆 Meetings > Manage API
   slug: leandata-meetings-manage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-meetings-manage-api-openapi.yml
+  url: https://artifacts.apis.io/leandata/openapi/leandata-meetings-manage-api-openapi.yml
 - filename: leandata-meetings-retrieve-api-openapi.yml
   format: yaml
   label: LeanData 📆 Meetings > Retrieve API
   slug: leandata-meetings-retrieve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-meetings-retrieve-api-openapi.yml
+  url: https://artifacts.apis.io/leandata/openapi/leandata-meetings-retrieve-api-openapi.yml
 - filename: leandata-one-time-routing-api-openapi.yml
   format: yaml
   label: LeanData One Time Routing API
   slug: leandata-one-time-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-one-time-routing-api-openapi.yml
+  url: https://artifacts.apis.io/leandata/openapi/leandata-one-time-routing-api-openapi.yml
 - filename: leandata-retrieve-routing-graphs-information-api-openapi.yml
   format: yaml
   label: LeanData Retrieve Routing Graphs Information API
   slug: leandata-retrieve-routing-graphs-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-retrieve-routing-graphs-information-api-openapi.yml
+  url: https://artifacts.apis.io/leandata/openapi/leandata-retrieve-routing-graphs-information-api-openapi.yml
 - filename: leandata-scheduling-inputs-api-openapi.yml
   format: yaml
   label: LeanData 🧠 Scheduling Inputs API
   slug: leandata-scheduling-inputs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/openapi/leandata-scheduling-inputs-api-openapi.yml
+  url: https://artifacts.apis.io/leandata/openapi/leandata-scheduling-inputs-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -165,7 +165,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://docs.le
   \ token from the LeanData tab in Salesforce, and\n      asks their LeanData CSM to provision the Matching API for that Salesforce org id.\n      Partners request access at partners@leandatainc.com.\n    failure: >-\n      Salesforce error envelope, e.g.\n      {\"message\":\"Session expired or invalid\",\"errorCode\":\"INVALID_SESSION_ID\"}\n    note: >-\n      This is Salesforce's auth, not LeanData's. The access token, instance URL and refresh\n      token all come from Salesforce, and the request is executed inside the customer's own org\n      under the managed package's Apex REST service.\n    sources:\n      - https://docs.leandata.com\n\n  - name: BookItMcpOAuth\n    type: oauth2\n    flows:\n      - flow: authorizationCode\n        authorizationUrl: https://mcp.leandata.com/authorize\n        tokenUrl: https://mcp.leandata.com/token\n        refresh: supported\n        pkce: S256\n    registration_endpoint: https://mcp.leandata.com/register\n    dynamic_client_registration: true\n\
   \    token_endpoint_auth_methods: [none]\n    bearer_methods_supported: [header]\n    scopes: [admin, user, partner, offline_access]\n    host: https://mcp.leandata.com\n    resource: https://mcp.leandata.com\n    identity:\n      - Salesforce OAuth for LeanData admins and reps; the caller's BookIt permission set is detected after login\n      - >-\n        One-time code for external partners or AI agents that have no Salesforce credentials\n        in the org; an email address and a permission set are assigned in advance\n    failure: >-\n      HTTP 401 {\"error\":\"Missing or invalid Authorization header\"} with\n      WWW-Authenticate: Bearer resource_metadata=\".../.well-known/oauth-protected-resource\"\n    sources:\n      - https://mcp.leandata.com/.well-known/oauth-authorization-server\n      - https://mcp.leandata.com/.well-known/oauth-protected-resource\n      - https://www.leandata.com/resources/leandatas-bookit-mcp/\n\nrecommendations:\n  - >-\n    Declare the X-Api-Key apiKey\
   \ securityScheme in the published BookIt and Graph OpenAPI and\n    apply it at the document level. Today the specs are silent and every consumer has to read\n    prose to authenticate.\n  - >-\n    Publish the MCP scope semantics (what admin / user / partner each grant) alongside the\n    protected-resource metadata; the scope names are discoverable but their meaning is not.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/leandata/refs/heads/main/authentication/leandata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/leandata/authentication/leandata-authentication.yml
 summary_line: apiKey/oauth2 · 4 schemes
 tags:
 - Revenue Operations

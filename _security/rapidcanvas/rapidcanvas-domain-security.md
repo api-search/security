@@ -40,7 +40,7 @@ source_filename: rapidcanvas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rapidcanvas.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 13:01:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.rapidcanvas.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 00:55:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: app.rapidcanvas.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 04:53:57 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: rapidcanvas.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rapidcanvas/refs/heads/main/security/rapidcanvas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rapidcanvas/security/rapidcanvas-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

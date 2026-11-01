@@ -5,19 +5,19 @@ api_specs:
   label: Owler Company Premium API
   slug: owler-company-premium-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-company-premium-api-api-openapi.yml
+  url: https://artifacts.apis.io/owler/openapi/owler-company-premium-api-api-openapi.yml
 - filename: owler-competitor-premium-api-api-openapi.yml
   format: yaml
   label: Owler Competitor Premium API
   slug: owler-competitor-premium-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-competitor-premium-api-api-openapi.yml
+  url: https://artifacts.apis.io/owler/openapi/owler-competitor-premium-api-api-openapi.yml
 - filename: owler-feed-api-api-openapi.yml
   format: yaml
   label: Owler Feed API
   slug: owler-feed-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/openapi/owler-feed-api-api-openapi.yml
+  url: https://artifacts.apis.io/owler/openapi/owler-feed-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: owler-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: corp.owler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 05:27:50 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developers.owler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: false\n- host: apiv2.owler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: owler.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/owler/refs/heads/main/security/owler-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/owler/security/owler-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

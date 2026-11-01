@@ -5,43 +5,43 @@ api_specs:
   label: Bank First Banking Account Balances API
   slug: bank-first-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-account-balances-api-openapi.yml
 - filename: bank-first-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Bank First Banking Account Direct Debits API
   slug: bank-first-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-account-direct-debits-api-openapi.yml
 - filename: bank-first-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Bank First Banking Account Scheduled Payments API
   slug: bank-first-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-account-scheduled-payments-api-openapi.yml
 - filename: bank-first-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Bank First Banking Account Transactions API
   slug: bank-first-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-account-transactions-api-openapi.yml
 - filename: bank-first-banking-accounts-api-openapi.yml
   format: yaml
   label: Bank First Banking Accounts API
   slug: bank-first-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-accounts-api-openapi.yml
 - filename: bank-first-banking-payees-api-openapi.yml
   format: yaml
   label: Bank First Banking Payees API
   slug: bank-first-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-payees-api-openapi.yml
 - filename: bank-first-banking-products-api-openapi.yml
   format: yaml
   label: Bank First Banking Products API
   slug: bank-first-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/openapi/bank-first-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/bank-first/openapi/bank-first-banking-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: bank-first-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.bankfirst.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: false\n- host: public.cdr.bankfirst.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: bankfirst.com.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bank-first/refs/heads/main/security/bank-first-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bank-first/security/bank-first-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Finance

@@ -8,13 +8,13 @@ api_specs:
   label: Springer Nature Open Access API
   slug: springer-nature-open-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-open-access-api-openapi.yml
+  url: https://artifacts.apis.io/springer-nature/openapi/springer-nature-open-access-api-openapi.yml
 - filename: springer-nature-search-api-openapi.yml
   format: yaml
   label: Springer Nature Search API
   slug: springer-nature-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-search-api-openapi.yml
+  url: https://artifacts.apis.io/springer-nature/openapi/springer-nature-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: springer-nature-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/springer-nature-meta-openapi.yml, openapi/springer-nature-openaccess-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-ApiKey\n  sources:\n  - openapi/springer-nature-meta-openapi.yml\n  - openapi/springer-nature-openaccess-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/authentication/springer-nature-authentication.yml
+source_yaml_url: https://artifacts.apis.io/springer-nature/authentication/springer-nature-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Scholarly Publishing

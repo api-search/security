@@ -7,37 +7,37 @@ api_specs:
   label: Gett Authentication API
   slug: gett-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-authentication-api-openapi.yml
 - filename: gett-employee-management-api-openapi.yml
   format: yaml
   label: Gett Employee Management API
   slug: gett-employee-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-employee-management-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-employee-management-api-openapi.yml
 - filename: gett-finance-api-openapi.yml
   format: yaml
   label: Gett Finance API
   slug: gett-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-finance-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-finance-api-openapi.yml
 - filename: gett-orders-api-openapi.yml
   format: yaml
   label: Gett Orders API
   slug: gett-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-orders-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-orders-api-openapi.yml
 - filename: gett-products-api-openapi.yml
   format: yaml
   label: Gett Products API
   slug: gett-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-products-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-products-api-openapi.yml
 - filename: gett-webhooks-api-openapi.yml
   format: yaml
   label: Gett Webhooks API
   slug: gett-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/openapi/gett-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/gett/openapi/gett-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,7 +65,7 @@ source_filename: gett-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token obtained from /oauth/token endpoint. Valid for 899 seconds.\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gett/refs/heads/main/authentication/gett-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gett/authentication/gett-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Ground Transportation

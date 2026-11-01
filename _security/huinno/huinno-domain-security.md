@@ -27,7 +27,7 @@ source_filename: huinno-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: huinno.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: huinno.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/huinno/refs/heads/main/security/huinno-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/huinno/security/huinno-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

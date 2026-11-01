@@ -5,55 +5,55 @@ api_specs:
   label: Echo Global Logistics Documents API
   slug: echo-global-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-documents-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-documents-api-openapi.yml
 - filename: echo-global-health-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Health API
   slug: echo-global-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-health-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-health-api-openapi.yml
 - filename: echo-global-ping-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Ping API
   slug: echo-global-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-ping-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-ping-api-openapi.yml
 - filename: echo-global-query-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Query API
   slug: echo-global-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-query-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-query-api-openapi.yml
 - filename: echo-global-quotes-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Quotes API
   slug: echo-global-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-quotes-api-openapi.yml
 - filename: echo-global-rates-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Rates API
   slug: echo-global-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-rates-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-rates-api-openapi.yml
 - filename: echo-global-shipments-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Shipments API
   slug: echo-global-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-shipments-api-openapi.yml
 - filename: echo-global-token-api-openapi.yml
   format: yaml
   label: Echo Global Logistics Token API
   slug: echo-global-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echo-global-token-api-openapi.yml
+  url: https://artifacts.apis.io/echo-global/openapi/echo-global-token-api-openapi.yml
 - filename: echosync-carrier-api.json
   format: json
   label: EchoSync Carrier API
   slug: carrier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/openapi/echosync-carrier-api.json
+  url: https://artifacts.apis.io/echo-global/openapi/echosync-carrier-api.json
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: echo-global-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.echo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 09:28:03 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.echo.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: null\n- host: virtserver.swaggerhub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: echo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: swaggerhub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/echo-global/refs/heads/main/security/echo-global-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/echo-global/security/echo-global-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Freight

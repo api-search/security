@@ -7,43 +7,43 @@ api_specs:
   label: University of Lisbon Campus Life API
   slug: university-of-lisbon-campus-life-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-campus-life-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-campus-life-api-openapi.yml
 - filename: university-of-lisbon-courses-api-openapi.yml
   format: yaml
   label: University of Lisbon Courses API
   slug: university-of-lisbon-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-courses-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-courses-api-openapi.yml
 - filename: university-of-lisbon-degrees-api-openapi.yml
   format: yaml
   label: University of Lisbon Degrees API
   slug: university-of-lisbon-degrees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-degrees-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-degrees-api-openapi.yml
 - filename: university-of-lisbon-domain-model-api-openapi.yml
   format: yaml
   label: University of Lisbon Domain Model API
   slug: university-of-lisbon-domain-model-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-domain-model-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-domain-model-api-openapi.yml
 - filename: university-of-lisbon-institution-api-openapi.yml
   format: yaml
   label: University of Lisbon Institution API
   slug: university-of-lisbon-institution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-institution-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-institution-api-openapi.yml
 - filename: university-of-lisbon-person-api-openapi.yml
   format: yaml
   label: University of Lisbon Person API
   slug: university-of-lisbon-person-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-person-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-person-api-openapi.yml
 - filename: university-of-lisbon-spaces-api-openapi.yml
   format: yaml
   label: University of Lisbon Spaces API
   slug: university-of-lisbon-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/openapi/university-of-lisbon-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-lisbon/openapi/university-of-lisbon-spaces-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -67,7 +67,7 @@ source_yaml: "---\nname: University of Lisbon — Authentication\ngenerated: '20
   \ Instituto Superior Tecnico\n      account. There is no self-service developer signup open to the public, and no\n      published application-review or rate-limit policy.\n    token_transport: Bearer access token\n    scopes_published: false\n    scopes_note: >-\n      Access scopes are chosen per registered application inside FenixEdu rather than\n      enumerated in any machine-readable or public document. No scope names are\n      asserted here — see scopes/university-of-lisbon-scopes.yml.\n  - surface: Universidade de Lisboa SAML 2.0 identity provider\n    x-operator: institution\n    scheme: SAML 2.0 Web Browser SSO\n    entity_id: https://id.ulisboa.pt/nidp/saml2/metadata\n    metadata_url: https://id.ulisboa.pt/nidp/saml2/metadata\n    federation: RCTSaai (FCCN), published onward to eduGAIN\n    bindings:\n      - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST\n      - urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect\n    name_id_formats:\n      - urn:oasis:names:tc:SAML:2.0:nameid-format:persistent\n\
   \      - urn:oasis:names:tc:SAML:2.0:nameid-format:transient\n    roles: [IDPSSODescriptor, SPSSODescriptor, AttributeAuthorityDescriptor]\n    scope: ulisboa.pt\n    evidence:\n      - url: https://id.ulisboa.pt/nidp/saml2/metadata\n        status: 200\n        note: >-\n          Live SAML 2.0 EntityDescriptor. OrganizationName \"Universidade de Lisboa\",\n          OrganizationURL www.ulisboa.pt.\n  - surface: Instituto Superior Tecnico SAML 2.0 identity provider\n    x-operator: institution\n    scheme: SAML 2.0 Web Browser SSO\n    entity_id: https://id.tecnico.ulisboa.pt/saml\n    federation: RCTSaai (FCCN), published onward to eduGAIN\n    scope: tecnico.ulisboa.pt\n    assurance: SIRTFI asserted in the eduGAIN registry record\n    evidence:\n      - url: https://technical.edugain.org/api.php?action=list_entities&format=json\n        status: 200\n        note: >-\n          eduGAIN entity 673215, IDPSSODescriptor, registration authority\n          https://www.fccn.pt, first seen\
   \ 2018-01-30, eccs_status 1, sirtfi_status 1.\n    caveat: >-\n      The entityID is an identifier, not a dereferenceable endpoint; GET on it returns\n      404 from nginx. Metadata is distributed through the RCTSaai and eduGAIN\n      aggregates, not from this URL.\n  - surface: Repositorio ULisboa (DSpace 7.6.1)\n    x-operator: institution\n    anonymous_access: true\n    anonymous_scope: >-\n      The full REST and OAI-PMH read surface is anonymous. Probed 2026-09-01:\n      GET /server/api and GET /server/api/core/communities both 200.\n    scheme: Session token plus OIDC/SAML login for deposit and administration\n    evidence:\n      - url: https://repositorio.ulisboa.pt/server/api\n        status: 200\n        note: HAL root advertises authn, authorizations, oidc and groups endpoints.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-lisbon/refs/heads/main/authentication/university-of-lisbon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/university-of-lisbon/authentication/university-of-lisbon-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

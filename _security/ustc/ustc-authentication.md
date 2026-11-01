@@ -7,13 +7,13 @@ api_specs:
   label: University of Science and Technology of China Health API
   slug: ustc-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/openapi/ustc-health-api-openapi.yml
+  url: https://artifacts.apis.io/ustc/openapi/ustc-health-api-openapi.yml
 - filename: ustc-status-api-openapi.yml
   format: yaml
   label: University of Science and Technology of China Status API
   slug: ustc-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/openapi/ustc-status-api-openapi.yml
+  url: https://artifacts.apis.io/ustc/openapi/ustc-status-api-openapi.yml
 auth_types: []
 description: 'Authentication posture across every University of Science and Technology of China surface reachable from the open internet. The headline result is that USTC''s identity layer is the institution''s real programmable footprint: USTC''s Network Information Center operates its own CAS/OAuth 2.0/OIDC authorization server at id.ustc.edu.cn, publishes a first-party developer manual for it, serves an anonymously readable OpenID Connect discovery document and JWKS, and runs a separate Shibboleth 5.2.2 identity provider at idp.ustc.edu.cn for federated access. Everything that carries data behind that layer — the enrollment status API, the course catalog, the library OPAC, the campus AI assistant — is gated, and USTC states plainly that relying parties outside the ustc.edu.cn domain are not supported at all.'
 kind: authentication
@@ -151,7 +151,7 @@ source_yaml: "specification: API Evangelist Authentication Posture\nspecificatio
   \  - https://id.ustc.edu.cn/cas/oidc/jwks\n  - https://id.ustc.edu.cn/doc/api/health\n  - https://passport.ustc.edu.cn/healthcheck\n  - https://idp.ustc.edu.cn/idp/shibboleth\n  - https://mirrors.ustc.edu.cn/\n  detail: >-\n    What USTC does publish openly is protocol metadata, two health checks and a package mirror.\n    All six are institution-operated — mirrors.ustc.edu.cn resolves into 202.38.95.110, inside\n    the APNIC block registered to \"The University of Science and Technology of China\" itself.\n\nobservations:\n- >-\n  USTC advertises the `password` and `client_credentials` grant types and the `token` and\n  `id_token token` response types in its live OIDC discovery document. The implicit-style\n  response types and the resource-owner password grant are both deprecated by OAuth 2.1 and the\n  IETF security BCP. This is what the institution's discovery document currently tells clients\n  is available.\n- >-\n  `id_token_signing_alg_values_supported` includes `none` alongside\
   \ RS256. An unsigned ID token\n  is accepted at the protocol level by anything that reads this document literally.\n- >-\n  `code_challenge_methods_supported` is absent, so PKCE cannot be discovered by a conformant\n  client even if the server supports it.\n- >-\n  A `registration_endpoint` is advertised at /cas/oidc/register but returns 404 to an\n  unauthenticated GET. Dynamic client registration is announced in metadata and not actually\n  open — the discovery document overstates what an integrator can do.\n- >-\n  There is no route to a client_id for anyone outside the institution. USTC says so directly\n  rather than leaving it to be discovered, which is more honest than most of this cohort.\n- >-\n  passport.ustc.edu.cn and id.ustc.edu.cn resolve to the same address, 210.45.67.89. passport\n  is the legacy hostname kept alive for redirects since the February 2025 cutover; it still\n  answers the CAS validation and healthcheck paths but 404s the OIDC discovery path, so the two\n \
   \ names are not interchangeable for integrators.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/authentication/ustc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ustc/authentication/ustc-authentication.yml
 summary_line: 7 schemes
 tags:
 - University

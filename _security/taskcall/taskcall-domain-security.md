@@ -5,13 +5,13 @@ api_specs:
   label: TaskCall Components API
   slug: taskcall-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-components-api-openapi.yml
+  url: https://artifacts.apis.io/taskcall/openapi/taskcall-components-api-openapi.yml
 - filename: taskcall-incidents-api-openapi.yml
   format: yaml
   label: TaskCall Incidents API
   slug: taskcall-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/openapi/taskcall-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/taskcall/openapi/taskcall-incidents-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: taskcall-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: taskcallapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 06:21:47 2026 GMT\n  hsts: null\n- host: docs.taskcallapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 06:21:47 2026 GMT\n  hsts: null\n- host: incidents-api.taskcallapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 19:06:43 2026 GMT\n  hsts: null\ndomains:\n- domain: taskcallapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskcall/refs/heads/main/security/taskcall-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/taskcall/security/taskcall-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Incident Management

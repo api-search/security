@@ -5,7 +5,7 @@ api_specs:
   label: Rightmove Property API
   slug: rightmove-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/openapi/rightmove-property-api-openapi.yml
+  url: https://artifacts.apis.io/rightmove/openapi/rightmove-property-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -44,7 +44,7 @@ source_filename: rightmove-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rightmove.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 13:53:21 2026 GMT\n  hsts: false\n- host: api-docs.rightmove.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 15:52:53 2026 GMT\n  hsts: null\n- host: api-services.rightmove.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 13:58:51 2026 GMT\n  hsts: null\ndomains:\n- domain: rightmove.co.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rightmove/refs/heads/main/security/rightmove-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rightmove/security/rightmove-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Real Estate

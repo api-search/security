@@ -5,25 +5,25 @@ api_specs:
   label: 6sense Company API
   slug: 6sense-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-company-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-company-api-openapi.yml
 - filename: 6sense-enrichment-api-openapi.yml
   format: yaml
   label: 6sense Enrichment API
   slug: 6sense-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-enrichment-api-openapi.yml
 - filename: 6sense-people-api-openapi.yml
   format: yaml
   label: 6sense People API
   slug: 6sense-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-people-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-people-api-openapi.yml
 - filename: 6sense-scoring-api-openapi.yml
   format: yaml
   label: 6sense Scoring API
   slug: 6sense-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/openapi/6sense-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/6sense/openapi/6sense-scoring-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -42,7 +42,7 @@ source_filename: 6sense-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.6sense.com/\nurl: https://trust.6sense.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.6sense.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/security/6sense-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/6sense/security/6sense-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Account Based Marketing

@@ -8,13 +8,13 @@ api_specs:
   label: ParseHub Projects API
   slug: parsehub-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/openapi/parsehub-projects-api-openapi.yml
+  url: https://artifacts.apis.io/parsehub/openapi/parsehub-projects-api-openapi.yml
 - filename: parsehub-runs-api-openapi.yml
   format: yaml
   label: ParseHub Runs API
   slug: parsehub-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/openapi/parsehub-runs-api-openapi.yml
+  url: https://artifacts.apis.io/parsehub/openapi/parsehub-runs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: parsehub-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/parsehub-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/parsehub-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsehub/refs/heads/main/authentication/parsehub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/parsehub/authentication/parsehub-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data Extraction

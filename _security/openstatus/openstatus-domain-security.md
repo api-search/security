@@ -5,31 +5,31 @@ api_specs:
   label: OpenStatus Check API
   slug: openstatus-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-check-api-openapi.yml
+  url: https://artifacts.apis.io/openstatus/openapi/openstatus-check-api-openapi.yml
 - filename: openstatus-incident-api-openapi.yml
   format: yaml
   label: OpenStatus Incident API
   slug: openstatus-incident-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-incident-api-openapi.yml
+  url: https://artifacts.apis.io/openstatus/openapi/openstatus-incident-api-openapi.yml
 - filename: openstatus-monitor-api-openapi.yml
   format: yaml
   label: OpenStatus Monitor API
   slug: openstatus-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/openstatus/openapi/openstatus-monitor-api-openapi.yml
 - filename: openstatus-page-api-openapi.yml
   format: yaml
   label: OpenStatus Page API
   slug: openstatus-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-page-api-openapi.yml
+  url: https://artifacts.apis.io/openstatus/openapi/openstatus-page-api-openapi.yml
 - filename: openstatus-status-report-api-openapi.yml
   format: yaml
   label: OpenStatus Status Report API
   slug: openstatus-status-report-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/openapi/openstatus-status-report-api-openapi.yml
+  url: https://artifacts.apis.io/openstatus/openapi/openstatus-status-report-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -67,7 +67,7 @@ source_filename: openstatus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.openstatus.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 21:15:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.openstatus.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 23:24:22 2026 GMT\n  hsts: null\ndomains:\n- domain: openstatus.dev\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openstatus/refs/heads/main/security/openstatus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openstatus/security/openstatus-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Monitoring

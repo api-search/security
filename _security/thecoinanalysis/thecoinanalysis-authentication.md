@@ -8,7 +8,7 @@ api_specs:
   label: The Coin Analysis Public API
   slug: thecoinanalysis-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/openapi/thecoinanalysis-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/thecoinanalysis/openapi/thecoinanalysis-public-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: thecoinanalysis-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: derived\nsource: openapi/thecoinanalysis-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: publicApiKey\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/thecoinanalysis-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thecoinanalysis/refs/heads/main/authentication/thecoinanalysis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thecoinanalysis/authentication/thecoinanalysis-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

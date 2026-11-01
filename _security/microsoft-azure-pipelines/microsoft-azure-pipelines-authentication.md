@@ -7,49 +7,49 @@ api_specs:
   label: Azure Pipelines Artifacts API
   slug: microsoft-azure-pipelines-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml
 - filename: microsoft-azure-pipelines-build-artifacts-api-openapi.yml
   format: yaml
   label: Azure Pipelines Build Artifacts API
   slug: microsoft-azure-pipelines-build-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml
 - filename: microsoft-azure-pipelines-build-definitions-api-openapi.yml
   format: yaml
   label: Azure Pipelines Build Definitions API
   slug: microsoft-azure-pipelines-build-definitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml
 - filename: microsoft-azure-pipelines-build-tags-api-openapi.yml
   format: yaml
   label: Azure Pipelines Build Tags API
   slug: microsoft-azure-pipelines-build-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml
 - filename: microsoft-azure-pipelines-builds-api-openapi.yml
   format: yaml
   label: Azure Pipelines Builds API
   slug: microsoft-azure-pipelines-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-builds-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-builds-api-openapi.yml
 - filename: microsoft-azure-pipelines-logs-api-openapi.yml
   format: yaml
   label: Azure Pipelines Logs API
   slug: microsoft-azure-pipelines-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-logs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-logs-api-openapi.yml
 - filename: microsoft-azure-pipelines-pipelines-api-openapi.yml
   format: yaml
   label: Azure Pipelines API
   slug: microsoft-azure-pipelines-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml
 - filename: microsoft-azure-pipelines-runs-api-openapi.yml
   format: yaml
   label: Azure Pipelines Runs API
   slug: microsoft-azure-pipelines-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/openapi/microsoft-azure-pipelines-runs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-pipelines/openapi/microsoft-azure-pipelines-runs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -84,7 +84,7 @@ source_filename: microsoft-azure-pipelines-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-pipelines-build-api-openapi.yml, openapi/azure-pipelines-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Azure AD OAuth 2.0 bearer token with vso.build scope\n  sources:\n  - openapi/azure-pipelines-build-api-openapi.yml\n  - openapi/azure-pipelines-rest-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Basic authentication using a Personal Access Token (PAT)\n  sources:\n  - openapi/azure-pipelines-build-api-openapi.yml\n  - openapi/azure-pipelines-rest-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/authentication/microsoft-azure-pipelines-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-pipelines/authentication/microsoft-azure-pipelines-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Automation

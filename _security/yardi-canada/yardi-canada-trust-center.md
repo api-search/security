@@ -5,25 +5,25 @@ api_specs:
   label: Yardi Canada Components API
   slug: yardi-canada-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-components-api-openapi.yml
+  url: https://artifacts.apis.io/yardi-canada/openapi/yardi-canada-components-api-openapi.yml
 - filename: yardi-canada-incidents-api-openapi.yml
   format: yaml
   label: Yardi Canada Incidents API
   slug: yardi-canada-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/yardi-canada/openapi/yardi-canada-incidents-api-openapi.yml
 - filename: yardi-canada-maintenance-api-openapi.yml
   format: yaml
   label: Yardi Canada Maintenance API
   slug: yardi-canada-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/yardi-canada/openapi/yardi-canada-maintenance-api-openapi.yml
 - filename: yardi-canada-status-api-openapi.yml
   format: yaml
   label: Yardi Canada Status API
   slug: yardi-canada-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/openapi/yardi-canada-status-api-openapi.yml
+  url: https://artifacts.apis.io/yardi-canada/openapi/yardi-canada-status-api-openapi.yml
 certification_count: 8
 certifications:
 - SOC 2 (annual)
@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-07-26'\nmethod: searched\nprobe: false\nurl: http
   \ each request.\n  encryption_at_rest: Optional AES-256 database encryption available on request; keys managed in a FIPS 140-2 compliant system.\n  access_control: SSO integration, granular multi-level user/group privileges, administrator-set password complexity and expiration, automated inactivity log-off.\n  network: Intrusion Prevention Systems (IPS) and multiple firewalls.\n  testing: Third-party penetration tests and audits by external security vendors, described as regular and ongoing.\n  physical: 15 global data centres with 24/7 server-operations monitoring, biometric screening, video surveillance and on-premises personnel.\n  monitoring: 24/7 system monitoring, disaster recovery.\nevidence:\n  - source: https://www.yardi.com/company/cloud-security/\n    status: 200\n    keywords: [PCI, SSAE 18, Sarbanes-Oxley, HIPAA, SOC2, SOC1, CSA Star Level 2, FIPS140-2, AES256, penetration tests]\n    quote: >-\n      \"Feel confident your Cloud solution complies with PCI, SSAE 18 and Sarbanes-Oxley\n\
   \      regulations. Senior Living providers can rest assured with resident health data\n      adhering to the latest HIPAA rules. Annual SOC2 and biannual SOC1 reports are\n      provided to ensure compliance with SSAE18 and other accounting standards. The\n      Yardi Coud is CSA Star Level 2 certified by the Cloud Security Alliance.\"\nmisses:\n  - {url: 'https://trust.yardi.com/', status: 000, note: does not resolve}\n  - {url: 'https://www.yardi.com/trust/', status: 404}\n  - {url: 'https://www.yardi.com/security/', status: 404}\n  - {url: 'https://www.yardi.com/company/security/', status: 404}\n  - {url: 'https://www.yardi.com/security-and-compliance/', status: 404}\ngaps:\n  - No report request/download portal; SOC 1 and SOC 2 reports are described as \"provided\" but no request path is published.\n  - No vulnerability disclosure policy, bug bounty or security.txt anywhere on the estate (see security/yardi-canada-vulnerability-disclosure — none found).\n  - No Canadian data-residency\
   \ statement, despite Voyager, Breeze, Elevate, Investor Portal, Resident Screening and EHR Interfaces each running an explicit Canada region on the status page.\n  - No sub-processor list on the security page; a sub-processor page exists separately at https://www.yardi.com/about-us/legal/yardi-sub-processors.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yardi-canada/refs/heads/main/security/yardi-canada-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/yardi-canada/security/yardi-canada-trust-center.yml
 summary_line: SOC 2 (annual), SOC 1 (biannual), SSAE 18, PCI, HIPAA, Sarbanes-Oxley, CSA STAR Level 2, FIPS 140-2 (key management)
 tags:
 - Real Estate

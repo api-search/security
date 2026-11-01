@@ -5,43 +5,43 @@ api_specs:
   label: WHMCS Authentication API
   slug: whmcs-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-authentication-api-openapi.yml
 - filename: whmcs-billing-api-openapi.yml
   format: yaml
   label: WHMCS Billing API
   slug: whmcs-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-billing-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-billing-api-openapi.yml
 - filename: whmcs-clients-api-openapi.yml
   format: yaml
   label: WHMCS Clients API
   slug: whmcs-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-clients-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-clients-api-openapi.yml
 - filename: whmcs-domains-api-openapi.yml
   format: yaml
   label: WHMCS Domains API
   slug: whmcs-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-domains-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-domains-api-openapi.yml
 - filename: whmcs-orders-api-openapi.yml
   format: yaml
   label: WHMCS Orders API
   slug: whmcs-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-orders-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-orders-api-openapi.yml
 - filename: whmcs-support-api-openapi.yml
   format: yaml
   label: WHMCS Support API
   slug: whmcs-support-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-support-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-support-api-openapi.yml
 - filename: whmcs-system-api-openapi.yml
   format: yaml
   label: WHMCS System API
   slug: whmcs-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/openapi/whmcs-system-api-openapi.yml
+  url: https://artifacts.apis.io/whmcs/openapi/whmcs-system-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: whmcs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.whmcs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 23:18:12 2026 GMT\n  hsts: false\n- host: developers.whmcs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 06:40:00 2026 GMT\n  hsts: false\ndomains:\n- domain: whmcs.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whmcs/refs/heads/main/security/whmcs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/whmcs/security/whmcs-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Web Hosting

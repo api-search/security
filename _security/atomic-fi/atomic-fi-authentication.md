@@ -8,55 +8,55 @@ api_specs:
   label: Atomic Access Tokens API
   slug: atomic-fi-access-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-access-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-access-tokens-api-openapi.yml
 - filename: atomic-fi-company-api-openapi.yml
   format: yaml
   label: Atomic Company API
   slug: atomic-fi-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-company-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-company-api-openapi.yml
 - filename: atomic-fi-data-api-openapi.yml
   format: yaml
   label: Atomic Data API
   slug: atomic-fi-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-data-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-data-api-openapi.yml
 - filename: atomic-fi-linked-accounts-api-openapi.yml
   format: yaml
   label: Atomic Linked Accounts API
   slug: atomic-fi-linked-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-linked-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-linked-accounts-api-openapi.yml
 - filename: atomic-fi-paylink-api-openapi.yml
   format: yaml
   label: Atomic PayLink API
   slug: atomic-fi-paylink-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-paylink-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-paylink-api-openapi.yml
 - filename: atomic-fi-secrets-api-openapi.yml
   format: yaml
   label: Atomic Secrets API
   slug: atomic-fi-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-secrets-api-openapi.yml
 - filename: atomic-fi-tasks-api-openapi.yml
   format: yaml
   label: Atomic Tasks API
   slug: atomic-fi-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-tasks-api-openapi.yml
 - filename: atomic-fi-users-api-openapi.yml
   format: yaml
   label: Atomic Users API
   slug: atomic-fi-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-users-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-users-api-openapi.yml
 - filename: atomic-fi-webhooks-api-openapi.yml
   format: yaml
   label: Atomic Webhooks API
   slug: atomic-fi-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/openapi/atomic-fi-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/atomic-fi/openapi/atomic-fi-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -91,7 +91,7 @@ source_filename: atomic-fi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/atomic-fi-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API Key sent in the x-api-key header, paired with the x-api-secret header. Used\n    for backend-to-backend calls.\n  sources:\n  - openapi/atomic-fi-openapi.yml\n- name: PublicTokenAuth\n  type: apiKey\n  in: header\n  parameter: x-public-token\n  description: Public token for permitted client-side requests.\n  sources:\n  - openapi/atomic-fi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atomic-fi/refs/heads/main/authentication/atomic-fi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/atomic-fi/authentication/atomic-fi-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Fintech

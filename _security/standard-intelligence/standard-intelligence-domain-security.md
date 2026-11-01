@@ -26,7 +26,7 @@ source_filename: standard-intelligence-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: si.inc\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 20:47:40 2026 GMT\n  hsts: false\ndomains:\n- domain: si.inc\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/standard-intelligence/refs/heads/main/security/standard-intelligence-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/standard-intelligence/security/standard-intelligence-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

@@ -27,7 +27,7 @@ source_filename: data-essex-gov-uk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: data.essex.gov.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 21:48:07 2026 GMT\n  hsts: null\ndomains:\n- domain: essex.gov.uk\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/data-essex-gov-uk/refs/heads/main/security/data-essex-gov-uk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/data-essex-gov-uk/security/data-essex-gov-uk-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Open Data

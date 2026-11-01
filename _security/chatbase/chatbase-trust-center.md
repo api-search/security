@@ -5,31 +5,31 @@ api_specs:
   label: Chatbase Chat API
   slug: chatbase-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-chat-api-openapi.yml
+  url: https://artifacts.apis.io/chatbase/openapi/chatbase-chat-api-openapi.yml
 - filename: chatbase-chatbots-api-openapi.yml
   format: yaml
   label: Chatbase Chatbots API
   slug: chatbase-chatbots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-chatbots-api-openapi.yml
+  url: https://artifacts.apis.io/chatbase/openapi/chatbase-chatbots-api-openapi.yml
 - filename: chatbase-contacts-api-openapi.yml
   format: yaml
   label: Chatbase Contacts API
   slug: chatbase-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/chatbase/openapi/chatbase-contacts-api-openapi.yml
 - filename: chatbase-conversations-api-openapi.yml
   format: yaml
   label: Chatbase Conversations API
   slug: chatbase-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/chatbase/openapi/chatbase-conversations-api-openapi.yml
 - filename: chatbase-leads-api-openapi.yml
   format: yaml
   label: Chatbase Leads API
   slug: chatbase-leads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/openapi/chatbase-leads-api-openapi.yml
+  url: https://artifacts.apis.io/chatbase/openapi/chatbase-leads-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -47,7 +47,7 @@ source_filename: chatbase-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.chatbase.co/security\nurl: https://www.chatbase.co/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.chatbase.co/security\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chatbase/refs/heads/main/security/chatbase-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/chatbase/security/chatbase-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Artificial Intelligence

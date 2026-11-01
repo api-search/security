@@ -25,7 +25,7 @@ source_filename: quibb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quibb.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate\n    (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: quibb.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quibb/refs/heads/main/security/quibb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/quibb/security/quibb-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

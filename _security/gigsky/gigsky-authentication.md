@@ -7,25 +7,25 @@ api_specs:
   label: GigSky Plans & Catalog API
   slug: gigsky-plans-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/_original/gigsky-openapi.yml
+  url: https://artifacts.apis.io/gigsky/openapi/_original/gigsky-openapi.yml
 - filename: gigsky-openapi.yml
   format: yaml
   label: GigSky eSIM Provisioning API
   slug: gigsky-esim-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/_original/gigsky-openapi.yml
+  url: https://artifacts.apis.io/gigsky/openapi/_original/gigsky-openapi.yml
 - filename: gigsky-openapi.yml
   format: yaml
   label: GigSky Orders API
   slug: gigsky-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/_original/gigsky-openapi.yml
+  url: https://artifacts.apis.io/gigsky/openapi/_original/gigsky-openapi.yml
 - filename: gigsky-openapi.yml
   format: yaml
   label: GigSky Usage API
   slug: gigsky-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/openapi/_original/gigsky-openapi.yml
+  url: https://artifacts.apis.io/gigsky/openapi/_original/gigsky-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: gigsky-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gigsky-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: GigSkyPartnerAuth\n  type: http\n  scheme: bearer\n  description: Placeholder. GigSky does not publicly document its authentication scheme. Partner/enterprise\n    credentials are issued during account-gated onboarding; the actual mechanism (API key, bearer\n    token, OAuth, or mutual TLS) must be confirmed with GigSky directly.\n  sources:\n  - openapi/gigsky-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gigsky/refs/heads/main/authentication/gigsky-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gigsky/authentication/gigsky-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - eSIM

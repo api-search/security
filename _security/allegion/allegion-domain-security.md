@@ -5,31 +5,31 @@ api_specs:
   label: Allegion Access Codes API
   slug: allegion-access-codes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-access-codes-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-access-codes-api-openapi.yml
 - filename: allegion-commands-api-openapi.yml
   format: yaml
   label: Allegion Commands API
   slug: allegion-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-commands-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-commands-api-openapi.yml
 - filename: allegion-devices-api-openapi.yml
   format: yaml
   label: Allegion Devices API
   slug: allegion-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-devices-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-devices-api-openapi.yml
 - filename: allegion-mobile-credentials-api-openapi.yml
   format: yaml
   label: Allegion Mobile Credentials API
   slug: allegion-mobile-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-mobile-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-mobile-credentials-api-openapi.yml
 - filename: allegion-webhook-subscriptions-api-openapi.yml
   format: yaml
   label: Allegion Webhook Subscriptions API
   slug: allegion-webhook-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/openapi/allegion-webhook-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/allegion/openapi/allegion-webhook-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: allegion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developerapi.allegion.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.allegion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 21:26:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.allegion.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: allegion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allegion/refs/heads/main/security/allegion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/allegion/security/allegion-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Access Control

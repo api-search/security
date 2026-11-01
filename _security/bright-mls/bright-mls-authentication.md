@@ -8,31 +8,31 @@ api_specs:
   label: Bright MLS Auth API
   slug: bright-mls-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/openapi/bright-mls-auth-api-openapi.yml
+  url: https://artifacts.apis.io/bright-mls/openapi/bright-mls-auth-api-openapi.yml
 - filename: bright-mls-listing-api-openapi.yml
   format: yaml
   label: Bright MLS Listing API
   slug: bright-mls-listing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/openapi/bright-mls-listing-api-openapi.yml
+  url: https://artifacts.apis.io/bright-mls/openapi/bright-mls-listing-api-openapi.yml
 - filename: bright-mls-manifests-api-openapi.yml
   format: yaml
   label: Bright MLS Manifests API
   slug: bright-mls-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/openapi/bright-mls-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/bright-mls/openapi/bright-mls-manifests-api-openapi.yml
 - filename: bright-mls-user-api-openapi.yml
   format: yaml
   label: Bright MLS User API
   slug: bright-mls-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/openapi/bright-mls-user-api-openapi.yml
+  url: https://artifacts.apis.io/bright-mls/openapi/bright-mls-user-api-openapi.yml
 - filename: bright-mls-data-hub-api-openapi.yml
   format: yaml
   label: Bright MLS Data Hub API
   slug: bright-mls-data-hub-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/openapi/bright-mls-data-hub-api-openapi.yml
+  url: https://artifacts.apis.io/bright-mls/openapi/bright-mls-data-hub-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -71,7 +71,7 @@ source_filename: bright-mls-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: derived\nsource: openapi/bright-mls-data-hub-ingestion-service-openapi.json, openapi/bright-mls-datalake-distribution-service-openapi.json,\n  openapi/bright-mls-manifest-services-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/bright-mls-data-hub-ingestion-service-openapi.json\n- name: Authorization\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/bright-mls-datalake-distribution-service-openapi.json\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/bright-mls-manifest-services-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bright-mls/refs/heads/main/authentication/bright-mls-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bright-mls/authentication/bright-mls-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

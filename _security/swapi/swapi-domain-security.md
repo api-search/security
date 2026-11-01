@@ -5,37 +5,37 @@ api_specs:
   label: SWAPI - Star Wars API Films API
   slug: swapi-films-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-films-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-films-api-openapi.yml
 - filename: swapi-people-api-openapi.yml
   format: yaml
   label: SWAPI - Star Wars API People API
   slug: swapi-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-people-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-people-api-openapi.yml
 - filename: swapi-planets-api-openapi.yml
   format: yaml
   label: SWAPI - Star Wars API Planets API
   slug: swapi-planets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-planets-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-planets-api-openapi.yml
 - filename: swapi-species-api-openapi.yml
   format: yaml
   label: SWAPI - Star Wars API Species API
   slug: swapi-species-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-species-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-species-api-openapi.yml
 - filename: swapi-starships-api-openapi.yml
   format: yaml
   label: SWAPI - Star Wars API Starships API
   slug: swapi-starships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-starships-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-starships-api-openapi.yml
 - filename: swapi-vehicles-api-openapi.yml
   format: yaml
   label: SWAPI - Star Wars API Vehicles API
   slug: swapi-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/openapi/swapi-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/swapi/openapi/swapi-vehicles-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: swapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: swapi.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: www.swapi.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 15:57:50 2026 GMT\n  hsts: null\ndomains:\n- domain: swapi.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: swapi.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/security/swapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/swapi/security/swapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Star Wars

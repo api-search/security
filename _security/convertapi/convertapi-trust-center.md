@@ -5,19 +5,19 @@ api_specs:
   label: ConvertAPI Conversion API
   slug: convertapi-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/convertapi/openapi/convertapi-conversion-api-openapi.yml
 - filename: convertapi-file-server-api-openapi.yml
   format: yaml
   label: ConvertAPI File Server API
   slug: convertapi-file-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-file-server-api-openapi.yml
+  url: https://artifacts.apis.io/convertapi/openapi/convertapi-file-server-api-openapi.yml
 - filename: convertapi-user-api-openapi.yml
   format: yaml
   label: ConvertAPI User API
   slug: convertapi-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/openapi/convertapi-user-api-openapi.yml
+  url: https://artifacts.apis.io/convertapi/openapi/convertapi-user-api-openapi.yml
 certification_count: 1
 certifications:
 - ISO 27001
@@ -34,7 +34,7 @@ source_filename: convertapi-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.convertapi.com/compliance\nurl: https://www.convertapi.com/compliance\ncertifications:\n- ISO 27001\nevidence:\n- source: https://www.convertapi.com/compliance\n  keywords:\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/convertapi/refs/heads/main/security/convertapi-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/convertapi/security/convertapi-trust-center.yml
 summary_line: ISO 27001
 tags:
 - File Conversion

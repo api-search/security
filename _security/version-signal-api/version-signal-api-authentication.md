@@ -7,7 +7,7 @@ api_specs:
   label: Version Signal Version API
   slug: version-signal-api-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/version-signal-api/refs/heads/main/openapi/version-signal-api-version-api-openapi.yml
+  url: https://artifacts.apis.io/version-signal-api/openapi/version-signal-api-version-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -28,7 +28,7 @@ source_filename: version-signal-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-20'\nmethod: searched\nsource: https://version-signal.inboxtzdjqv.workers.dev/ (homepage/docs) + openapi/version-signal-api-openapi.json\nsummary:\n  types: [none]\n  api_key_in: []\n  oauth2_flows: []\n  note: >-\n    Public, no-auth API. The OpenAPI declares no securitySchemes and the homepage states the\n    service is free with no signup. Requests to GET /api/version succeed anonymously (verified\n    live 2026-09-20). No API key, token, or account is required.\nschemes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/version-signal-api/refs/heads/main/authentication/version-signal-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/version-signal-api/authentication/version-signal-api-authentication.yml
 summary_line: none · 0 schemes
 tags:
 - Developer Tools

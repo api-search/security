@@ -8,7 +8,7 @@ api_specs:
   label: Acko APIs API
   slug: acko-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/openapi/acko-apis-api-openapi.yml
+  url: https://artifacts.apis.io/acko/openapi/acko-apis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -41,7 +41,7 @@ source_filename: acko-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/acko-apisetu-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-APISETU-APIKEY\n  sources:\n  - openapi/acko-apisetu-openapi-original.json\n- name: clientId\n  type: apiKey\n  in: header\n  parameter: X-APISETU-CLIENTID\n  sources:\n  - openapi/acko-apisetu-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acko/refs/heads/main/authentication/acko-authentication.yml
+source_yaml_url: https://artifacts.apis.io/acko/authentication/acko-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

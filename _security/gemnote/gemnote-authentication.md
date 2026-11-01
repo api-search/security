@@ -8,19 +8,19 @@ api_specs:
   label: Gemnote Gifts API
   slug: gemnote-gifts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/openapi/gemnote-gifts-api-openapi.yml
+  url: https://artifacts.apis.io/gemnote/openapi/gemnote-gifts-api-openapi.yml
 - filename: gemnote-greeting-cards-api-openapi.yml
   format: yaml
   label: Gemnote Greeting Cards API
   slug: gemnote-greeting-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/openapi/gemnote-greeting-cards-api-openapi.yml
+  url: https://artifacts.apis.io/gemnote/openapi/gemnote-greeting-cards-api-openapi.yml
 - filename: gemnote-shipments-api-openapi.yml
   format: yaml
   label: Gemnote Shipments API
   slug: gemnote-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/openapi/gemnote-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/gemnote/openapi/gemnote-shipments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: gemnote-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/gemnote-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AuthorizationToken\n  type: apiKey\n  in: header\n  parameter: AUTHORIZATION\n  description: A token issued by your Gemnote account manager. Sandbox tokens begin with `t_`\n    and production tokens begin with `p_`.\n  sources:\n  - openapi/gemnote-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/authentication/gemnote-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gemnote/authentication/gemnote-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

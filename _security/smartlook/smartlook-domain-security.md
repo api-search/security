@@ -5,43 +5,43 @@ api_specs:
   label: Smartlook Events API
   slug: smartlook-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-events-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-events-api-openapi.yml
 - filename: smartlook-funnels-api-openapi.yml
   format: yaml
   label: Smartlook Funnels API
   slug: smartlook-funnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-funnels-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-funnels-api-openapi.yml
 - filename: smartlook-mappingfiles-api-openapi.yml
   format: yaml
   label: Smartlook Mapping Files API
   slug: smartlook-mappingfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-mappingfiles-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-mappingfiles-api-openapi.yml
 - filename: smartlook-sessions-api-openapi.yml
   format: yaml
   label: Smartlook Sessions API
   slug: smartlook-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-sessions-api-openapi.yml
 - filename: smartlook-system-api-openapi.yml
   format: yaml
   label: Smartlook System API
   slug: smartlook-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-system-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-system-api-openapi.yml
 - filename: smartlook-visitors-api-openapi.yml
   format: yaml
   label: Smartlook Visitors API
   slug: smartlook-visitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-visitors-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-visitors-api-openapi.yml
 - filename: smartlook-webhooks-api-openapi.yml
   format: yaml
   label: Smartlook Webhooks API
   slug: smartlook-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/openapi/smartlook-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartlook/openapi/smartlook-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -99,7 +99,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smartlook.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: integrations.smartlook.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 19:10:39 2026 GMT\n  hsts: null\n- host: api.eu.smartlook.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: smartlook.com\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: smartlook.cloud\n  dnssec: false\n  caa:\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n\
   \  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartlook/refs/heads/main/security/smartlook-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smartlook/security/smartlook-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Product Analytics

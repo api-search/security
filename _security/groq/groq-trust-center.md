@@ -5,55 +5,55 @@ api_specs:
   label: Groq Audio API
   slug: groq-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-audio-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-audio-api-openapi.yml
 - filename: groq-batch-api-openapi.yml
   format: yaml
   label: Groq Batch API
   slug: groq-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-batch-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-batch-api-openapi.yml
 - filename: groq-embeddings-api-openapi.yml
   format: yaml
   label: Groq Embeddings API
   slug: groq-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-embeddings-api-openapi.yml
 - filename: groq-files-api-openapi.yml
   format: yaml
   label: Groq Files API
   slug: groq-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-files-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-files-api-openapi.yml
 - filename: groq-fine-tuning-api-openapi.yml
   format: yaml
   label: Groq Fine Tuning API
   slug: groq-fine-tuning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-fine-tuning-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-fine-tuning-api-openapi.yml
 - filename: groq-models-api-openapi.yml
   format: yaml
   label: Groq Models API
   slug: groq-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-models-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-models-api-openapi.yml
 - filename: groq-reranking-api-openapi.yml
   format: yaml
   label: Groq Reranking API
   slug: groq-reranking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-reranking-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-reranking-api-openapi.yml
 - filename: groq-responses-api-openapi.yml
   format: yaml
   label: Groq Responses API
   slug: groq-responses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-responses-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-responses-api-openapi.yml
 - filename: groq-chat-completions-api-openapi.yml
   format: yaml
   label: Groq Chat Completions API
   slug: groq-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/openapi/groq-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/groq/openapi/groq-chat-completions-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -72,7 +72,7 @@ source_filename: groq-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://groq.com/security\nurl: https://groq.com/security\ncertifications:\n- SOC 2\n- HIPAA\n- GDPR\nevidence:\n- source: https://groq.com/security\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/groq/refs/heads/main/security/groq-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/groq/security/groq-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Artificial Intelligence

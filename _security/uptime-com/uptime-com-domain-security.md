@@ -5,43 +5,43 @@ api_specs:
   label: Uptime.com Checks API
   slug: uptime-com-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-checks-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-checks-api-openapi.yml
 - filename: uptime-com-contacts-api-openapi.yml
   format: yaml
   label: Uptime.com Contacts API
   slug: uptime-com-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-contacts-api-openapi.yml
 - filename: uptime-com-integrations-api-openapi.yml
   format: yaml
   label: Uptime.com Integrations API
   slug: uptime-com-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-integrations-api-openapi.yml
 - filename: uptime-com-outages-api-openapi.yml
   format: yaml
   label: Uptime.com Outages API
   slug: uptime-com-outages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-outages-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-outages-api-openapi.yml
 - filename: uptime-com-sla-reports-api-openapi.yml
   format: yaml
   label: Uptime.com SLA Reports API
   slug: uptime-com-sla-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-sla-reports-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-sla-reports-api-openapi.yml
 - filename: uptime-com-status-pages-api-openapi.yml
   format: yaml
   label: Uptime.com Status Pages API
   slug: uptime-com-status-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-status-pages-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-status-pages-api-openapi.yml
 - filename: uptime-com-tags-api-openapi.yml
   format: yaml
   label: Uptime.com Tags API
   slug: uptime-com-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/openapi/uptime-com-tags-api-openapi.yml
+  url: https://artifacts.apis.io/uptime-com/openapi/uptime-com-tags-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: uptime-com-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: uptime.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  5 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 604800\ndomains:\n- domain: uptime.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uptime-com/refs/heads/main/security/uptime-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/uptime-com/security/uptime-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Monitoring

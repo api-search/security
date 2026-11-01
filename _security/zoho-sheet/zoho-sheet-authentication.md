@@ -7,7 +7,7 @@ api_specs:
   label: Zoho Sheet Workbook API
   slug: zoho-sheet-workbook-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/openapi/zoho-sheet-workbook-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-sheet/openapi/zoho-sheet-workbook-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -47,7 +47,7 @@ source_filename: zoho-sheet-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\n  - implicit\nschemes:\n- name: oauthToken\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    tokenUrl: https://accounts.zoho.com/oauth/v2/token\n    scopes: 2\n  - flow: implicit\n    authorizationUrl: https://accounts.zoho.com/oauth/v2/auth\n    scopes: 2\n  - flow: clientCredentials\n    tokenUrl: https://accounts.zoho.com/oauth/v3/device/token\n    scopes: 2\n  description: Zoho OAuth 2.0 authentication\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-sheet/refs/heads/main/authentication/zoho-sheet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zoho-sheet/authentication/zoho-sheet-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Spreadsheets

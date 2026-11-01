@@ -28,7 +28,7 @@ source_filename: nextsilicon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nextsilicon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 06:10:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: nextsilicon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextsilicon/refs/heads/main/security/nextsilicon-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nextsilicon/security/nextsilicon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

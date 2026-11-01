@@ -28,7 +28,7 @@ source_filename: craftmypdf-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: craftmypdf.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 22:48:49 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: craftmypdf.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/craftmypdf/refs/heads/main/security/craftmypdf-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/craftmypdf/security/craftmypdf-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Public APIs

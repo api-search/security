@@ -5,31 +5,31 @@ api_specs:
   label: Duck Creek Billing API
   slug: duck-creek-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-billing-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-billing-api-openapi.yml
 - filename: duck-creek-claims-api-openapi.yml
   format: yaml
   label: Duck Creek Claims API
   slug: duck-creek-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-claims-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-claims-api-openapi.yml
 - filename: duck-creek-policies-api-openapi.yml
   format: yaml
   label: duck-creek Policies API
   slug: duck-creek-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-policies-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-policies-api-openapi.yml
 - filename: duck-creek-products-api-openapi.yml
   format: yaml
   label: duck-creek Products API
   slug: duck-creek-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-products-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-products-api-openapi.yml
 - filename: duck-creek-quotes-api-openapi.yml
   format: yaml
   label: duck-creek Quotes API
   slug: duck-creek-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/openapi/duck-creek-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/duck-creek/openapi/duck-creek-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: duck-creek-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.duckcreek.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 09:02:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: duckcreek.dev\n  https: false\n- host: api.duckcreek.com\n  https: false\ndomains:\n- domain: duckcreek.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: duckcreek.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/duck-creek/refs/heads/main/security/duck-creek-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/duck-creek/security/duck-creek-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

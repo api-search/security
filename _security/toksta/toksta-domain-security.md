@@ -5,55 +5,55 @@ api_specs:
   label: toksta Account API
   slug: toksta-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-account-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-account-api-openapi.yml
 - filename: toksta-analysis-api-openapi.yml
   format: yaml
   label: toksta Analysis API
   slug: toksta-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-analysis-api-openapi.yml
 - filename: toksta-campaigns-api-openapi.yml
   format: yaml
   label: toksta Campaigns API
   slug: toksta-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-campaigns-api-openapi.yml
 - filename: toksta-creator-lists-api-openapi.yml
   format: yaml
   label: toksta Creator Lists API
   slug: toksta-creator-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-creator-lists-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-creator-lists-api-openapi.yml
 - filename: toksta-creators-api-openapi.yml
   format: yaml
   label: toksta Creators API
   slug: toksta-creators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-creators-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-creators-api-openapi.yml
 - filename: toksta-enrichment-api-openapi.yml
   format: yaml
   label: toksta Enrichment API
   slug: toksta-enrichment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-enrichment-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-enrichment-api-openapi.yml
 - filename: toksta-evidence-api-openapi.yml
   format: yaml
   label: toksta Evidence API
   slug: toksta-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-evidence-api-openapi.yml
 - filename: toksta-jobs-api-openapi.yml
   format: yaml
   label: toksta Jobs API
   slug: toksta-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-jobs-api-openapi.yml
 - filename: toksta-system-api-openapi.yml
   format: yaml
   label: toksta System API
   slug: toksta-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/openapi/toksta-system-api-openapi.yml
+  url: https://artifacts.apis.io/toksta/openapi/toksta-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -87,7 +87,7 @@ source_filename: toksta-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.toksta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 04:43:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.toksta.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 08:41:15 2026 GMT\n  hsts: null\ndomains:\n- domain: toksta.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/toksta/refs/heads/main/security/toksta-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/toksta/security/toksta-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

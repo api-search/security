@@ -50,7 +50,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts (both brand domains)\nhosts:\n- host: www.suncoast.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 00:35:43 2026 GMT\n  hsts: null\n  hsts_max_age: null\n  note: >-\n    Canonical brand domain (Cloudflare-fronted). Returns HTTP 403 to non-browser\n    clients (bot protection), so HSTS/response headers could not be read.\n    www.suncoastcreditunion.com issues a 301 redirect here.\n- host: www.suncoastcreditunion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 21:01:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  note: Legacy domain; 301-redirects to www.suncoast.com.\ndomains:\n- domain: suncoast.com\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: >-\n    v=spf1 include:spf.protection.outlook.com include:_phishspf.knowbe4.com\n    include:sendgrid.net ip4:198.51.245.68 ip4:65.89.183.150 -all\n  dmarc: true\n  dmarc_policy: reject\n\
   - domain: suncoastcreditunion.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suncoast/refs/heads/main/security/suncoast-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/suncoast/security/suncoast-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Financial Services

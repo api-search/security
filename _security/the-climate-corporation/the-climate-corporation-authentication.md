@@ -8,49 +8,49 @@ api_specs:
   label: The Climate Corporation Boundaries API
   slug: the-climate-corporation-boundaries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-boundaries-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-boundaries-api-openapi.yml
 - filename: the-climate-corporation-exports-api-openapi.yml
   format: yaml
   label: The Climate Corporation Exports API
   slug: the-climate-corporation-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-exports-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-exports-api-openapi.yml
 - filename: the-climate-corporation-farmorganizations-api-openapi.yml
   format: yaml
   label: The Climate Corporation FarmOrganizations API
   slug: the-climate-corporation-farmorganizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-farmorganizations-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-farmorganizations-api-openapi.yml
 - filename: the-climate-corporation-fields-api-openapi.yml
   format: yaml
   label: The Climate Corporation Fields API
   slug: the-climate-corporation-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-fields-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-fields-api-openapi.yml
 - filename: the-climate-corporation-layers-api-openapi.yml
   format: yaml
   label: The Climate Corporation Layers API
   slug: the-climate-corporation-layers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-layers-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-layers-api-openapi.yml
 - filename: the-climate-corporation-operations-api-openapi.yml
   format: yaml
   label: The Climate Corporation Operations API
   slug: the-climate-corporation-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-operations-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-operations-api-openapi.yml
 - filename: the-climate-corporation-resourceowners-api-openapi.yml
   format: yaml
   label: The Climate Corporation ResourceOwners API
   slug: the-climate-corporation-resourceowners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-resourceowners-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-resourceowners-api-openapi.yml
 - filename: the-climate-corporation-uploads-api-openapi.yml
   format: yaml
   label: The Climate Corporation Uploads API
   slug: the-climate-corporation-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/openapi/the-climate-corporation-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/the-climate-corporation/openapi/the-climate-corporation-uploads-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -97,7 +97,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: >-\n  openapi/the-climate-corporation-platform-openapi-original.yml (v4.0.11),\n  upgraded from the FieldView OAuth2 Overview at\n  https://dev.fieldview.com/api-details/\ndocs: https://dev.fieldview.com/api-details/\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\n  required_together: >-\n    Every call requires BOTH a Bearer access_token (OAuth2) AND the X-Api-Key\n    header. Missing token -> 401 {\"message\":\"Unauthorized\"}; missing/invalid\n    X-Api-Key -> 403 {\"message\":\"Forbidden\"}.\n  token_endpoint_auth: HTTP Basic base64(clientId:clientSecret) on POST https://api.climate.com/api/oauth/token\n  grants: [authorization_code, refresh_token]\n  access_token_ttl: 4 hours\n  refresh_token_ttl: 30 days (single-use)\n  tls: TLS 1.2, HTTPS only\nschemes:\n- name: oauth2_authorization_code\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl:\
   \ https://climate.com/static/app-login/\n    tokenUrl: https://api.climate.com/api/oauth/token\n    scopes: 21\n  description: |-\n    Log in with FieldView OAuth2 provider (Authorization Code Grant). Used to authorize the client (partner) and\n    user. The *access_token* is required to be provided in the `Authorization` header on all calls to the FieldView\n    APIs with the following format `Bearer $access_token`.\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: |-\n    API access key used to control throttling (429 responses).  This key is typically formatted:\n    `partner-{name}-{uuid}`\n  sources:\n  - openapi/the-climate-corporation-platform-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-climate-corporation/refs/heads/main/authentication/the-climate-corporation-authentication.yml
+source_yaml_url: https://artifacts.apis.io/the-climate-corporation/authentication/the-climate-corporation-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

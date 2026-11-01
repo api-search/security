@@ -5,91 +5,91 @@ api_specs:
   label: Agrology Alerts API
   slug: agrology-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-alerts-api-openapi.yml
 - filename: agrology-charts-api-openapi.yml
   format: yaml
   label: Agrology Charts API
   slug: agrology-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-charts-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-charts-api-openapi.yml
 - filename: agrology-dashboards-api-openapi.yml
   format: yaml
   label: Agrology Dashboards API
   slug: agrology-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-dashboards-api-openapi.yml
 - filename: agrology-experiments-api-openapi.yml
   format: yaml
   label: Agrology Experiments API
   slug: agrology-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-experiments-api-openapi.yml
 - filename: agrology-feedback-api-openapi.yml
   format: yaml
   label: Agrology Feedback API
   slug: agrology-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-feedback-api-openapi.yml
 - filename: agrology-files-api-openapi.yml
   format: yaml
   label: Agrology Files API
   slug: agrology-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-files-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-files-api-openapi.yml
 - filename: agrology-ground-truth-api-openapi.yml
   format: yaml
   label: Agrology Ground Truth API
   slug: agrology-ground-truth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-ground-truth-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-ground-truth-api-openapi.yml
 - filename: agrology-metrics-api-openapi.yml
   format: yaml
   label: Agrology Metrics API
   slug: agrology-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-metrics-api-openapi.yml
 - filename: agrology-microclimate-api-openapi.yml
   format: yaml
   label: Agrology Microclimate API
   slug: agrology-microclimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-microclimate-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-microclimate-api-openapi.yml
 - filename: agrology-reports-api-openapi.yml
   format: yaml
   label: Agrology Reports API
   slug: agrology-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-reports-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-reports-api-openapi.yml
 - filename: agrology-summary-data-api-openapi.yml
   format: yaml
   label: Agrology Summary Data API
   slug: agrology-summary-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-summary-data-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-summary-data-api-openapi.yml
 - filename: agrology-synthetics-api-openapi.yml
   format: yaml
   label: Agrology Synthetics API
   slug: agrology-synthetics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-synthetics-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-synthetics-api-openapi.yml
 - filename: agrology-topology-api-openapi.yml
   format: yaml
   label: Agrology Topology API
   slug: agrology-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-topology-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-topology-api-openapi.yml
 - filename: agrology-user-api-openapi.yml
   format: yaml
   label: Agrology User API
   slug: agrology-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-user-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-user-api-openapi.yml
 - filename: agrology-weather-api-openapi.yml
   format: yaml
   label: Agrology Weather API
   slug: agrology-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/openapi/agrology-weather-api-openapi.yml
+  url: https://artifacts.apis.io/agrology/openapi/agrology-weather-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,7 +124,7 @@ source_filename: agrology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agrology.ag\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 15:53:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: api.agrology.ag\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: agrology.ag\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agrology/refs/heads/main/security/agrology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agrology/security/agrology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

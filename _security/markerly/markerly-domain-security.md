@@ -40,7 +40,7 @@ source_filename: markerly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: markerly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 18:36:16 2026 GMT\n  hsts: false\n- host: media-processor-65la52ndha-uc.a.run.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 18:05:36 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: markerly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: run.app\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/markerly/refs/heads/main/security/markerly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/markerly/security/markerly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

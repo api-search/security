@@ -27,7 +27,7 @@ source_filename: tupperware-brands-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tupperwarebrands.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 22 07:06:05 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: tupperwarebrands.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tupperware-brands/refs/heads/main/security/tupperware-brands-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tupperware-brands/security/tupperware-brands-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Consumer Goods

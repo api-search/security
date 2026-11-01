@@ -5,31 +5,31 @@ api_specs:
   label: Authzed Experimental API
   slug: authzed-experimental-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-experimental-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-experimental-api-openapi.yml
 - filename: authzed-permissions-api-openapi.yml
   format: yaml
   label: Authzed Permissions API
   slug: authzed-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-permissions-api-openapi.yml
 - filename: authzed-relationships-api-openapi.yml
   format: yaml
   label: Authzed Relationships API
   slug: authzed-relationships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-relationships-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-relationships-api-openapi.yml
 - filename: authzed-schema-api-openapi.yml
   format: yaml
   label: Authzed Schema API
   slug: authzed-schema-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-schema-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-schema-api-openapi.yml
 - filename: authzed-watch-api-openapi.yml
   format: yaml
   label: Authzed Watch API
   slug: authzed-watch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/openapi/authzed-watch-api-openapi.yml
+  url: https://artifacts.apis.io/authzed/openapi/authzed-watch-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: authzed-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: authzed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 07:09:15 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: grpc.authzed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 17:42:15 2026 GMT\n  hsts: null\n- host: app.authzed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 05:46:25 2026 GMT\n  hsts: null\ndomains:\n- domain: authzed.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authzed/refs/heads/main/security/authzed-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/authzed/security/authzed-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authorization

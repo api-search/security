@@ -30,7 +30,7 @@ source_filename: stream-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://dev.streamlabs.com/docs/oauth-2\ndocs: https://dev.streamlabs.com/docs/oauth-2\nsummary:\n  types:\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - authorizationCode\n  token_delivery: bearer-header-only\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://streamlabs.com/api/v2.0/authorize\n    tokenUrl: https://streamlabs.com/api/v2.0/token\n    refresh: true\n  notes: >-\n    All endpoints require authentication. In v2.0 the access token cannot be\n    passed as a query parameter; it must be sent in an Authorization Bearer\n    header. Per-feature OAuth scopes gate each resource (see\n    scopes/stream-labs-scopes.yml).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stream-labs/refs/heads/main/authentication/stream-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stream-labs/authentication/stream-labs-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

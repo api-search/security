@@ -1,0 +1,124 @@
+---
+api_specs:
+- filename: codecov-branches-api-openapi.yml
+  format: yaml
+  label: Codecov Branches API
+  slug: codecov-branches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-branches-api-openapi.yml
+- filename: codecov-commits-api-openapi.yml
+  format: yaml
+  label: Codecov Commits API
+  slug: codecov-commits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-commits-api-openapi.yml
+- filename: codecov-comparison-api-openapi.yml
+  format: yaml
+  label: Codecov Comparison API
+  slug: codecov-comparison-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-comparison-api-openapi.yml
+- filename: codecov-components-api-openapi.yml
+  format: yaml
+  label: Codecov Components API
+  slug: codecov-components-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-components-api-openapi.yml
+- filename: codecov-coverage-api-openapi.yml
+  format: yaml
+  label: Codecov Coverage API
+  slug: codecov-coverage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-coverage-api-openapi.yml
+- filename: codecov-evaluations-api-openapi.yml
+  format: yaml
+  label: Codecov Evaluations API
+  slug: codecov-evaluations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-evaluations-api-openapi.yml
+- filename: codecov-flags-api-openapi.yml
+  format: yaml
+  label: Codecov Flags API
+  slug: codecov-flags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-flags-api-openapi.yml
+- filename: codecov-pulls-api-openapi.yml
+  format: yaml
+  label: Codecov Pulls API
+  slug: codecov-pulls-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-pulls-api-openapi.yml
+- filename: codecov-repos-api-openapi.yml
+  format: yaml
+  label: Codecov Repos API
+  slug: codecov-repos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-repos-api-openapi.yml
+- filename: codecov-test-analytics-api-openapi.yml
+  format: yaml
+  label: Codecov Test Analytics API
+  slug: codecov-test-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-test-analytics-api-openapi.yml
+- filename: codecov-test-results-api-openapi.yml
+  format: yaml
+  label: Codecov Test Results API
+  slug: codecov-test-results-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-test-results-api-openapi.yml
+- filename: codecov-users-api-openapi.yml
+  format: yaml
+  label: Codecov Users API
+  slug: codecov-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/codecov/openapi/codecov-users-api-openapi.yml
+description: ''
+domains:
+- caa:
+  - 0 issuewild "comodoca.com"
+  - 0 issuewild "amazontrust.com"
+  - 0 issuewild "awstrust.com"
+  - 0 issuewild "amazonaws.com"
+  - 0 issue "comodoca.com"
+  - 0 issuewild "amazon.com"
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: codecov.io
+  spf: true
+hosts:
+- cert_expires: Dec 14 16:42:45 2026 GMT
+  host: about.codecov.io
+  hsts: true
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Apr 20 23:59:59 2027 GMT
+  host: api.codecov.io
+  hsts: true
+  hsts_max_age: 3104000
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 2
+kind: domain-security
+layout: security
+method: probed
+name: Codecov Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Codecov, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: Codecov
+provider_slug: codecov
+slug: codecov-domain-security
+source_filename: codecov-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-10-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: about.codecov.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 16:42:45 2026 GMT\n  hsts: true\n- host: api.codecov.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 20 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 3104000\ndomains:\n- domain: codecov.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml_url: https://artifacts.apis.io/codecov/security/codecov-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- Company
+- Code Coverage
+- CI/CD
+- DevOps
+- Testing
+- Analytics
+---

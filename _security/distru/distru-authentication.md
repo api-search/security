@@ -7,127 +7,127 @@ api_specs:
   label: Distru Assemblies API
   slug: distru-assemblies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-assemblies-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-assemblies-api-openapi.yml
 - filename: distru-batches-api-openapi.yml
   format: yaml
   label: Distru Batches API
   slug: distru-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-batches-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-batches-api-openapi.yml
 - filename: distru-companies-api-openapi.yml
   format: yaml
   label: Distru Companies API
   slug: distru-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-companies-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-companies-api-openapi.yml
 - filename: distru-contacts-api-openapi.yml
   format: yaml
   label: Distru Contacts API
   slug: distru-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-contacts-api-openapi.yml
 - filename: distru-inventory-api-openapi.yml
   format: yaml
   label: Distru Inventory API
   slug: distru-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-inventory-api-openapi.yml
 - filename: distru-invoices-api-openapi.yml
   format: yaml
   label: Distru Invoices API
   slug: distru-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-invoices-api-openapi.yml
 - filename: distru-locations-api-openapi.yml
   format: yaml
   label: Distru Locations API
   slug: distru-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-locations-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-locations-api-openapi.yml
 - filename: distru-menus-api-openapi.yml
   format: yaml
   label: Distru Menus API
   slug: distru-menus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-menus-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-menus-api-openapi.yml
 - filename: distru-orders-api-openapi.yml
   format: yaml
   label: Distru Orders API
   slug: distru-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-orders-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-orders-api-openapi.yml
 - filename: distru-packages-api-openapi.yml
   format: yaml
   label: Distru Packages API
   slug: distru-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-packages-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-packages-api-openapi.yml
 - filename: distru-productposmappings-api-openapi.yml
   format: yaml
   label: Distru ProductPosMappings API
   slug: distru-productposmappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-productposmappings-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-productposmappings-api-openapi.yml
 - filename: distru-products-api-openapi.yml
   format: yaml
   label: Distru Products API
   slug: distru-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-products-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-products-api-openapi.yml
 - filename: distru-purchases-api-openapi.yml
   format: yaml
   label: Distru Purchases API
   slug: distru-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-purchases-api-openapi.yml
 - filename: distru-returns-api-openapi.yml
   format: yaml
   label: Distru Returns API
   slug: distru-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-returns-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-returns-api-openapi.yml
 - filename: distru-stockadjustments-api-openapi.yml
   format: yaml
   label: Distru StockAdjustments API
   slug: distru-stockadjustments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-stockadjustments-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-stockadjustments-api-openapi.yml
 - filename: distru-strains-api-openapi.yml
   format: yaml
   label: Distru Strains API
   slug: distru-strains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-strains-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-strains-api-openapi.yml
 - filename: distru-vehicles-api-openapi.yml
   format: yaml
   label: Distru Vehicles API
   slug: distru-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-vehicles-api-openapi.yml
 - filename: distru-custom-fields-api-openapi.yml
   format: yaml
   label: Distru Custom Fields API
   slug: distru-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-custom-fields-api-openapi.yml
 - filename: distru-file-attachments-api-openapi.yml
   format: yaml
   label: Distru File Attachments API
   slug: distru-file-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-file-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-file-attachments-api-openapi.yml
 - filename: distru-payment-methods-api-openapi.yml
   format: yaml
   label: Distru Payment Methods API
   slug: distru-payment-methods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-payment-methods-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-payment-methods-api-openapi.yml
 - filename: distru-test-results-api-openapi.yml
   format: yaml
   label: Distru Test Results API
   slug: distru-test-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/openapi/distru-test-results-api-openapi.yml
+  url: https://artifacts.apis.io/distru/openapi/distru-test-results-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -154,7 +154,7 @@ source_filename: distru-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/distru-openapi.yml\ndocs: https://help.distru.com/en/articles/12314293-distru-api-faq\nnotes: >-\n  Single scheme: a Bearer API key generated in the Distru app under Settings >\n  Integrations > Distru API. Keys expire one year from issue date. No OAuth,\n  OpenID Connect, or scopes surface. There is no separate sandbox/test mode.\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key issued in the Distru app under Settings > Integrations > Distru API,\n    sent as `Authorization: Bearer <API_KEY>`. Keys expire one year from issue date.'\n  sources:\n  - openapi/distru-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/distru/refs/heads/main/authentication/distru-authentication.yml
+source_yaml_url: https://artifacts.apis.io/distru/authentication/distru-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

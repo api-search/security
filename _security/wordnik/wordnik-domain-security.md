@@ -5,31 +5,31 @@ api_specs:
   label: Wordnik Account API
   slug: wordnik-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-account-api-openapi.yml
+  url: https://artifacts.apis.io/wordnik/openapi/wordnik-account-api-openapi.yml
 - filename: wordnik-word-api-openapi.yml
   format: yaml
   label: Wordnik Word API
   slug: wordnik-word-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-word-api-openapi.yml
+  url: https://artifacts.apis.io/wordnik/openapi/wordnik-word-api-openapi.yml
 - filename: wordnik-word-list-api-openapi.yml
   format: yaml
   label: Wordnik Word List API
   slug: wordnik-word-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-word-list-api-openapi.yml
+  url: https://artifacts.apis.io/wordnik/openapi/wordnik-word-list-api-openapi.yml
 - filename: wordnik-word-lists-api-openapi.yml
   format: yaml
   label: Wordnik Word Lists API
   slug: wordnik-word-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-word-lists-api-openapi.yml
+  url: https://artifacts.apis.io/wordnik/openapi/wordnik-word-lists-api-openapi.yml
 - filename: wordnik-words-api-openapi.yml
   format: yaml
   label: Wordnik Words API
   slug: wordnik-words-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/openapi/wordnik-words-api-openapi.yml
+  url: https://artifacts.apis.io/wordnik/openapi/wordnik-words-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,11 +71,10 @@ source_filename: wordnik-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wordnik.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developer.wordnik.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.wordnik.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: wordnik.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wordnik/refs/heads/main/security/wordnik-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wordnik/security/wordnik-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Dictionaries
-- Dictionary
 - Word Data
 - English
 - Lexicography

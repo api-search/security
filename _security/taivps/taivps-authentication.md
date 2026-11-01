@@ -25,7 +25,7 @@ source_filename: taivps-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: searched\nsource: https://taivps.net/api-docs\ndocs: https://taivps.net/api-docs\nschemes:\n- name: token\n  type: apiKey\n  in: body\n  parameter: token\n  description: 'Every documented endpoint is a POST to https://taivps.net/api/<name>.php taking a required body parameter \"token\" (String, \"Token API\").'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taivps/refs/heads/main/authentication/taivps-authentication.yml
+source_yaml_url: https://artifacts.apis.io/taivps/authentication/taivps-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

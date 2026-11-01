@@ -5,157 +5,157 @@ api_specs:
   label: Select Star Bi API
   slug: select-star-bi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-bi-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-bi-api-openapi.yml
 - filename: select-star-collections-api-openapi.yml
   format: yaml
   label: Select Star Collections API
   slug: select-star-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-collections-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-collections-api-openapi.yml
 - filename: select-star-columns-api-openapi.yml
   format: yaml
   label: Select Star Columns API
   slug: select-star-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-columns-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-columns-api-openapi.yml
 - filename: select-star-comments-api-openapi.yml
   format: yaml
   label: Select Star Comments API
   slug: select-star-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-comments-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-comments-api-openapi.yml
 - filename: select-star-custom-attribute-values-api-openapi.yml
   format: yaml
   label: Select Star Custom Attribute Values API
   slug: select-star-custom-attribute-values-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-custom-attribute-values-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-custom-attribute-values-api-openapi.yml
 - filename: select-star-custom-attributes-api-openapi.yml
   format: yaml
   label: Select Star Custom Attributes API
   slug: select-star-custom-attributes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-custom-attributes-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-custom-attributes-api-openapi.yml
 - filename: select-star-custom-attributes-with-value-api-openapi.yml
   format: yaml
   label: Select Star Custom Attributes With Value API
   slug: select-star-custom-attributes-with-value-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-custom-attributes-with-value-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-custom-attributes-with-value-api-openapi.yml
 - filename: select-star-data-metrics-api-openapi.yml
   format: yaml
   label: Select Star Data Metrics API
   slug: select-star-data-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-data-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-data-metrics-api-openapi.yml
 - filename: select-star-data-sources-api-openapi.yml
   format: yaml
   label: Select Star Data Sources API
   slug: select-star-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-data-sources-api-openapi.yml
 - filename: select-star-databases-api-openapi.yml
   format: yaml
   label: Select Star Databases API
   slug: select-star-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-databases-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-databases-api-openapi.yml
 - filename: select-star-dbt-api-openapi.yml
   format: yaml
   label: Select Star Dbt API
   slug: select-star-dbt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-dbt-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-dbt-api-openapi.yml
 - filename: select-star-documents-api-openapi.yml
   format: yaml
   label: Select Star Documents API
   slug: select-star-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-documents-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-documents-api-openapi.yml
 - filename: select-star-ingestion-api-openapi.yml
   format: yaml
   label: Select Star Ingestion API
   slug: select-star-ingestion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-ingestion-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-ingestion-api-openapi.yml
 - filename: select-star-jobs-api-openapi.yml
   format: yaml
   label: Select Star Jobs API
   slug: select-star-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-jobs-api-openapi.yml
 - filename: select-star-joins-api-openapi.yml
   format: yaml
   label: Select Star Joins API
   slug: select-star-joins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-joins-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-joins-api-openapi.yml
 - filename: select-star-lineage-api-openapi.yml
   format: yaml
   label: Select Star Lineage API
   slug: select-star-lineage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-lineage-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-lineage-api-openapi.yml
 - filename: select-star-metadata-api-openapi.yml
   format: yaml
   label: Select Star Metadata API
   slug: select-star-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-metadata-api-openapi.yml
 - filename: select-star-metrics-api-openapi.yml
   format: yaml
   label: Select Star Metrics API
   slug: select-star-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-metrics-api-openapi.yml
 - filename: select-star-pii-api-openapi.yml
   format: yaml
   label: Select Star Pii API
   slug: select-star-pii-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-pii-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-pii-api-openapi.yml
 - filename: select-star-schemas-api-openapi.yml
   format: yaml
   label: Select Star Schemas API
   slug: select-star-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-schemas-api-openapi.yml
 - filename: select-star-scim-api-openapi.yml
   format: yaml
   label: Select Star SCIM API
   slug: select-star-scim-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-scim-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-scim-api-openapi.yml
 - filename: select-star-search-api-openapi.yml
   format: yaml
   label: Select Star Search API
   slug: select-star-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-search-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-search-api-openapi.yml
 - filename: select-star-tables-api-openapi.yml
   format: yaml
   label: Select Star Tables API
   slug: select-star-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-tables-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-tables-api-openapi.yml
 - filename: select-star-tags-api-openapi.yml
   format: yaml
   label: Select Star Tags API
   slug: select-star-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-tags-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-tags-api-openapi.yml
 - filename: select-star-teams-api-openapi.yml
   format: yaml
   label: Select Star Teams API
   slug: select-star-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-teams-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-teams-api-openapi.yml
 - filename: select-star-terms-api-openapi.yml
   format: yaml
   label: Select Star Terms API
   slug: select-star-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/openapi/select-star-terms-api-openapi.yml
+  url: https://artifacts.apis.io/select-star/openapi/select-star-terms-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type II
@@ -173,7 +173,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.selectstar.com/security-compliance\ndescription: >-\n  Select Star's published security and compliance posture. Formal reports are\n  shared under MNDA on request rather than via a self-service trust portal.\ntrust_center_url: https://www.selectstar.com/security-compliance\ncertifications:\n- name: SOC 2 Type II\n  scope: Security, Confidentiality, and Availability trust service criteria\n  status: current\n  evidence: >-\n    Annual SOC 2 Type II audit completed with no exceptions since May 2021.\n    Report available upon request under MNDA.\npractices:\n- Third-party penetration testing (report available under MNDA)\n- Encryption in transit and at rest\n- Audit logging and endpoint monitoring\n- Least-privilege access controls\ndocuments_on_request:\n- SOC 2 Type II audit report\n- Third-party penetration test report\n- Technical and organizational security summaries\nnotes: >-\n  PCI, HIPAA, FedRAMP and GDPR\
   \ are referenced only in the context of the\n  underlying AWS platform, not as Select Star's own certifications.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/select-star/refs/heads/main/security/select-star-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/select-star/security/select-star-trust-center.yml
 summary_line: SOC 2 Type II
 tags:
 - Company

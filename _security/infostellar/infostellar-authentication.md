@@ -31,7 +31,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://github.com/infostellarinc/stellarstation-api#authentication\ndocs: https://github.com/infostellarinc/stellarstation-api#authentication\nsummary:\n  types: [jwt-bearer]\n  transport: grpc\n  token_kind: service-account-jwt\n  audience: https://api.stellarstation.com\nschemes:\n- name: ServiceAccountJWT\n  type: bearer\n  scheme: jwt\n  description: >-\n    Authentication to the StellarStation gRPC API uses JWT bearer tokens signed\n    with a service-account private key downloaded from the StellarStation\n    Console. Credentials are registered as gRPC call credentials on the channel\n    (e.g. ServiceAccountJwtAccessCredentials in Java, google-auth JWT\n    OnDemandCredentials in Python). The token audience is\n    https://api.stellarstation.com. Keys revoked in the Console stop working\n    immediately.\n  audience: https://api.stellarstation.com\n  key_source: StellarStation Console (downloaded private key JSON)\n\
   \  sources: [grpc/infostellar-stellarstation.proto, README]\nnotes: >-\n  gRPC over TLS on api.stellarstation.com:443. No API-key or OAuth2\n  authorization-code flow is documented; the only mechanism is service-account\n  JWT bearer credentials. There is no OAuth scope surface, so no scopes/\n  artifact applies.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infostellar/refs/heads/main/authentication/infostellar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infostellar/authentication/infostellar-authentication.yml
 summary_line: jwt-bearer · 1 scheme
 tags:
 - Company

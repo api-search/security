@@ -7,7 +7,7 @@ api_specs:
   label: Aignostics Public API
   slug: aignostics-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/openapi/aignostics-public-api-openapi.yml
+  url: https://artifacts.apis.io/aignostics/openapi/aignostics-public-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -57,7 +57,7 @@ source_yaml: "generated: '2026-09-14'\nmethod: searched\nsource: >-\n  https://a
   \    parameter: share_token (query parameter on the run, item and artifact read operations)\n    secret_handling: >-\n      \"The returned share_token value is shown only once and is never stored.\"\n    expiry: caller-set expires_at at creation\n    revocation: >-\n      DELETE /v1/access/share-tokens/{share_token_id} \"invalidates the credential regardless of any\n      active grants\".\n    note: >-\n      This is the one credential in the system a machine can mint for another machine - and it is\n      well-shaped: single-display secret, caller-set expiry, independent revocation, and a\n      least-privilege default of viewer. It is scoped to sharing results, not to submitting work.\nsecondary_credentials:\n  warning: >-\n    GET /v1/me returns the organization's Google Cloud Storage HMAC access key ID AND secret access\n    key, a Logfire ingest token and a Sentry DSN inside the OrganizationReadResponse body. The\n    identity endpoint is therefore also a credential-distribution endpoint:\
   \ anything that logs,\n    caches or forwards a /v1/me response is handling live storage credentials. See\n    data-model/aignostics-data-model.yml.\n  source: openapi/aignostics-platform-api-openapi.json (OrganizationReadResponse field descriptions)\ngaps:\n- id: device-flow-undeclared-in-spec\n  detail: >-\n    The flow the documentation teaches is absent from the machine-readable contract. Adding a\n    deviceCode entry to the securityScheme flows would close the gap between the spec and the docs.\n- id: empty-scopes\n  detail: >-\n    The oauth2 scheme declares zero scopes, so the contract expresses no authorization granularity at\n    all - every token is, as far as a generated client can tell, all-or-nothing.\n- id: staging-urls-in-the-vendored-spec\n  detail: >-\n    The OpenAPI copy vendored in the SDK repo at docs/source/_static/openapi_v1.json (info.version\n    1.4.0) points its authorizationUrl and tokenUrl at\n    https://aignostics-platform-STAGING.eu.auth0.com. The live\
   \ document served at\n    https://platform.aignostics.com/api/v1/openapi.json (1.8.0) correctly points at the production\n    tenant. A developer generating a client from the repo copy - which the README links as the\n    OpenAPI specification - gets a client that authenticates against staging.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aignostics/refs/heads/main/authentication/aignostics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aignostics/authentication/aignostics-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

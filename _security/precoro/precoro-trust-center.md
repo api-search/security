@@ -1,59 +1,65 @@
 ---
 api_specs:
+- filename: precoro-openapi-generated.yml
+  format: yaml
+  label: Precoro API
+  slug: precoro-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/precoro/openapi/_ae-authored/precoro-openapi-generated.yml
 - filename: precoro-invoices-api-openapi.yml
   format: yaml
   label: Precoro Invoices API
   slug: precoro-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/precoro/openapi/precoro-invoices-api-openapi.yml
 - filename: precoro-items-api-openapi.yml
   format: yaml
   label: Precoro Items API
   slug: precoro-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-items-api-openapi.yml
+  url: https://artifacts.apis.io/precoro/openapi/precoro-items-api-openapi.yml
 - filename: precoro-legalentities-api-openapi.yml
   format: yaml
   label: Precoro Legalentities API
   slug: precoro-legalentities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-legalentities-api-openapi.yml
+  url: https://artifacts.apis.io/precoro/openapi/precoro-legalentities-api-openapi.yml
 - filename: precoro-locations-api-openapi.yml
   format: yaml
   label: Precoro Locations API
   slug: precoro-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-locations-api-openapi.yml
+  url: https://artifacts.apis.io/precoro/openapi/precoro-locations-api-openapi.yml
 - filename: precoro-purchaseorders-api-openapi.yml
   format: yaml
   label: Precoro Purchaseorders API
   slug: precoro-purchaseorders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-purchaseorders-api-openapi.yml
+  url: https://artifacts.apis.io/precoro/openapi/precoro-purchaseorders-api-openapi.yml
 - filename: precoro-purchaserequisitions-api-openapi.yml
   format: yaml
   label: Precoro Purchaserequisitions API
   slug: precoro-purchaserequisitions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-purchaserequisitions-api-openapi.yml
+  url: https://artifacts.apis.io/precoro/openapi/precoro-purchaserequisitions-api-openapi.yml
 - filename: precoro-receipts-api-openapi.yml
   format: yaml
   label: Precoro Receipts API
   slug: precoro-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/precoro/openapi/precoro-receipts-api-openapi.yml
 - filename: precoro-suppliers-api-openapi.yml
   format: yaml
   label: Precoro Suppliers API
   slug: precoro-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/precoro/openapi/precoro-suppliers-api-openapi.yml
 - filename: precoro-taxes-api-openapi.yml
   format: yaml
   label: Precoro Taxes API
   slug: precoro-taxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/openapi/precoro-taxes-api-openapi.yml
+  url: https://artifacts.apis.io/precoro/openapi/precoro-taxes-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -73,7 +79,7 @@ source_filename: precoro-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: searched\nprobe: true\nsource: https://precoro.com/trust-and-security\nurl: https://precoro.com/trust-and-security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://precoro.com/trust-and-security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/precoro/refs/heads/main/security/precoro-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/precoro/security/precoro-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Procurement

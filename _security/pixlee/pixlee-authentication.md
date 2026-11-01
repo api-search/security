@@ -8,19 +8,19 @@ api_specs:
   label: Pixlee Content API
   slug: pixlee-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-content-api-openapi.yml
+  url: https://artifacts.apis.io/pixlee/openapi/pixlee-content-api-openapi.yml
 - filename: pixlee-albums-api-openapi.yml
   format: yaml
   label: Pixlee Albums API
   slug: pixlee-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-albums-api-openapi.yml
+  url: https://artifacts.apis.io/pixlee/openapi/pixlee-albums-api-openapi.yml
 - filename: pixlee-media-api-openapi.yml
   format: yaml
   label: Pixlee Media API
   slug: pixlee-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-media-api-openapi.yml
+  url: https://artifacts.apis.io/pixlee/openapi/pixlee-media-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: pixlee-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/pixlee-content-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: api_key\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: Pixlee ACCOUNT API KEY (read) or ACCOUNT PRIVATE API KEY (write). Found under\n    the API tab in Pixlee account settings.\n  sources:\n  - openapi/pixlee-content-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/authentication/pixlee-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pixlee/authentication/pixlee-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

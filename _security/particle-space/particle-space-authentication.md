@@ -7,31 +7,31 @@ api_specs:
   label: Particle Space Address Search API
   slug: particle-space-address-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-address-search-api-openapi.yml
+  url: https://artifacts.apis.io/particle-space/openapi/particle-space-address-search-api-openapi.yml
 - filename: particle-space-comparables-api-openapi.yml
   format: yaml
   label: Particle Space Comparables API
   slug: particle-space-comparables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-comparables-api-openapi.yml
+  url: https://artifacts.apis.io/particle-space/openapi/particle-space-comparables-api-openapi.yml
 - filename: particle-space-listings-api-openapi.yml
   format: yaml
   label: Particle Space Listings API
   slug: particle-space-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-listings-api-openapi.yml
+  url: https://artifacts.apis.io/particle-space/openapi/particle-space-listings-api-openapi.yml
 - filename: particle-space-property-records-api-openapi.yml
   format: yaml
   label: Particle Space Property Records API
   slug: particle-space-property-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-property-records-api-openapi.yml
+  url: https://artifacts.apis.io/particle-space/openapi/particle-space-property-records-api-openapi.yml
 - filename: particle-space-valuations-api-openapi.yml
   format: yaml
   label: Particle Space Valuations API
   slug: particle-space-valuations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/openapi/particle-space-valuations-api-openapi.yml
+  url: https://artifacts.apis.io/particle-space/openapi/particle-space-valuations-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: particle-space-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/particle-space-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: SecretKeyAuth\n  type: http\n  scheme: bearer\n  description: Authenticate with a Particle Space secret API key (PS_SECRET_KEY) as a bearer\n    token. The key determines live versus test mode. Confirm the exact authentication scheme\n    and header in the live API reference.\n  sources:\n  - openapi/particle-space-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/particle-space/refs/heads/main/authentication/particle-space-authentication.yml
+source_yaml_url: https://artifacts.apis.io/particle-space/authentication/particle-space-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Real Estate

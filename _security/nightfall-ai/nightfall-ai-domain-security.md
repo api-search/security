@@ -5,7 +5,7 @@ api_specs:
   label: Nightfall AI Scan API
   slug: nightfall-ai-scan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/openapi/nightfall-ai-scan-api-openapi.yml
+  url: https://artifacts.apis.io/nightfall-ai/openapi/nightfall-ai-scan-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: nightfall-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nightfall.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 04:39:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.nightfall.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 11 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: nightfall.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nightfall-ai/refs/heads/main/security/nightfall-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nightfall-ai/security/nightfall-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

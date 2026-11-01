@@ -5,85 +5,85 @@ api_specs:
   label: Cora Balance API
   slug: cora-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-balance-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-balance-api-openapi.yml
 - filename: cora-banks-api-openapi.yml
   format: yaml
   label: Cora Banks API
   slug: cora-banks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-banks-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-banks-api-openapi.yml
 - filename: cora-boletos-v2-api-openapi.yml
   format: yaml
   label: Cora Boletos V2 API
   slug: cora-boletos-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-boletos-v2-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-boletos-v2-api-openapi.yml
 - filename: cora-businesses-api-openapi.yml
   format: yaml
   label: Cora Businesses API
   slug: cora-businesses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-businesses-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-businesses-api-openapi.yml
 - filename: cora-credentials-api-openapi.yml
   format: yaml
   label: Cora Credentials API
   slug: cora-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-credentials-api-openapi.yml
 - filename: cora-dados-de-conta-api-openapi.yml
   format: yaml
   label: Cora Dados De Conta API
   slug: cora-dados-de-conta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-dados-de-conta-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-dados-de-conta-api-openapi.yml
 - filename: cora-initiate-api-openapi.yml
   format: yaml
   label: Cora Initiate API
   slug: cora-initiate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-initiate-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-initiate-api-openapi.yml
 - filename: cora-issuer-api-openapi.yml
   format: yaml
   label: Cora Issuer API
   slug: cora-issuer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-issuer-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-issuer-api-openapi.yml
 - filename: cora-notifica-es-api-openapi.yml
   format: yaml
   label: Cora Notificações API
   slug: cora-notifica-es-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-notifica-es-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-notifica-es-api-openapi.yml
 - filename: cora-notifications-api-openapi.yml
   format: yaml
   label: Cora Notifications API
   slug: cora-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-notifications-api-openapi.yml
 - filename: cora-pagamento-de-impostos-api-openapi.yml
   format: yaml
   label: Cora Pagamento De Impostos API
   slug: cora-pagamento-de-impostos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-pagamento-de-impostos-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-pagamento-de-impostos-api-openapi.yml
 - filename: cora-pay-api-openapi.yml
   format: yaml
   label: Cora Pay API
   slug: cora-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-pay-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-pay-api-openapi.yml
 - filename: cora-service-receipt-api-openapi.yml
   format: yaml
   label: Cora Service Receipt API
   slug: cora-service-receipt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-service-receipt-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-service-receipt-api-openapi.yml
 - filename: cora-statement-api-openapi.yml
   format: yaml
   label: Cora Statement API
   slug: cora-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/openapi/cora-statement-api-openapi.yml
+  url: https://artifacts.apis.io/cora/openapi/cora-statement-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,7 +124,7 @@ source_filename: cora-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cora.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 09:11:55 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.cora.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 21:22:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: matls-clients.api.cora.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cora.com.br\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/security/cora-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cora/security/cora-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

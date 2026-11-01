@@ -9,61 +9,61 @@ api_specs:
   label: Quasar Cluster API
   slug: quasar-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-cluster-api-openapi.yml
 - filename: quasar-login-api-openapi.yml
   format: yaml
   label: Quasar Login API
   slug: quasar-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-login-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-login-api-openapi.yml
 - filename: quasar-max-in-buffer-size-api-openapi.yml
   format: yaml
   label: Quasar Max In Buffer Size API
   slug: quasar-max-in-buffer-size-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-max-in-buffer-size-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-max-in-buffer-size-api-openapi.yml
 - filename: quasar-option-api-openapi.yml
   format: yaml
   label: Quasar Option API
   slug: quasar-option-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-option-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-option-api-openapi.yml
 - filename: quasar-parallelism-api-openapi.yml
   format: yaml
   label: Quasar Parallelism API
   slug: quasar-parallelism-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-parallelism-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-parallelism-api-openapi.yml
 - filename: quasar-prometheus-api-openapi.yml
   format: yaml
   label: Quasar Prometheus API
   slug: quasar-prometheus-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-prometheus-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-prometheus-api-openapi.yml
 - filename: quasar-query-api-openapi.yml
   format: yaml
   label: Quasar Query API
   slug: quasar-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-query-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-query-api-openapi.yml
 - filename: quasar-status-api-openapi.yml
   format: yaml
   label: Quasar Status API
   slug: quasar-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-status-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-status-api-openapi.yml
 - filename: quasar-tables-api-openapi.yml
   format: yaml
   label: Quasar Tables API
   slug: quasar-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-tables-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-tables-api-openapi.yml
 - filename: quasar-tags-api-openapi.yml
   format: yaml
   label: Quasar Tags API
   slug: quasar-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/openapi/quasar-tags-api-openapi.yml
+  url: https://artifacts.apis.io/quasar/openapi/quasar-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -99,7 +99,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/quasar-rest-openapi-original.json\ndocs: https://doc.quasar.ai/master/administration/security.html\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\n  model: JWT bearer token (REST) over public/private key cluster credentials with server-side RBAC.\nschemes:\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: \"JWT bearer token obtained from POST /api/login (valid 12 hours); pass as 'Authorization: Bearer <token>'.\"\n  sources:\n  - openapi/quasar-rest-openapi-original.json\n- name: UrlParam\n  type: apiKey\n  in: query\n  parameter: token\n  description: The same JWT passed as a `token` query-string parameter for clients that cannot set headers.\n  sources:\n  - openapi/quasar-rest-openapi-original.json\ncluster_auth:\n  method: public/private key\n  components: [username, user private key, cluster public key]\n  rbac_privileges: [select, insert, update, delete,\
   \ create, drop, grant, user_manage, system, set_transaction]\n  transport_encryption: Optional AES-GCM 256-bit full-stream encryption; TLS on the REST server (port 40443).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quasar/refs/heads/main/authentication/quasar-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quasar/authentication/quasar-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

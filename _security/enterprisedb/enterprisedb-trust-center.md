@@ -5,7 +5,7 @@ api_specs:
   label: EDB Utility API
   slug: enterprisedb-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/openapi/enterprisedb-utility-api-openapi.yml
+  url: https://artifacts.apis.io/enterprisedb/openapi/enterprisedb-utility-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -24,7 +24,7 @@ source_filename: enterprisedb-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: searched\nprobe: true\nsource: https://trust.enterprisedb.com/\nurl: https://trust.enterprisedb.com/\ncertifications:\n- SOC 2\n- GDPR\n- CSA STAR\nevidence:\n- source: https://trust.enterprisedb.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n  - csa star\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/enterprisedb/refs/heads/main/security/enterprisedb-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/enterprisedb/security/enterprisedb-trust-center.yml
 summary_line: SOC 2, GDPR, CSA STAR
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: rtcStats API
   slug: rtcstats-rtcstats-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/openapi/rtcstats-rtcstats-api-api-openapi.yml
+  url: https://artifacts.apis.io/rtcstats/openapi/rtcstats-rtcstats-api-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -23,7 +23,7 @@ source_filename: rtcstats-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: searched\nprobe: true\nsource: https://rtcstats.com/trust\nurl: https://rtcstats.com/trust\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://rtcstats.com/trust\n  keywords:\n  - soc 2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rtcstats/refs/heads/main/security/rtcstats-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/rtcstats/security/rtcstats-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - WebRTC

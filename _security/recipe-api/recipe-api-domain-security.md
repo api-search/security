@@ -5,31 +5,31 @@ api_specs:
   label: Recipe API Discovery API
   slug: recipe-api-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/openapi/recipe-api-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/recipe-api/openapi/recipe-api-discovery-api-openapi.yml
 - filename: recipe-api-image-generation-api-openapi.yml
   format: yaml
   label: Recipe API Image Generation API
   slug: recipe-api-image-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/openapi/recipe-api-image-generation-api-openapi.yml
+  url: https://artifacts.apis.io/recipe-api/openapi/recipe-api-image-generation-api-openapi.yml
 - filename: recipe-api-ingredients-api-openapi.yml
   format: yaml
   label: Recipe API Ingredients API
   slug: recipe-api-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/openapi/recipe-api-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/recipe-api/openapi/recipe-api-ingredients-api-openapi.yml
 - filename: recipe-api-public-api-openapi.yml
   format: yaml
   label: Recipe API Public API
   slug: recipe-api-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/openapi/recipe-api-public-api-openapi.yml
+  url: https://artifacts.apis.io/recipe-api/openapi/recipe-api-public-api-openapi.yml
 - filename: recipe-api-recipes-api-openapi.yml
   format: yaml
   label: Recipe API Recipes API
   slug: recipe-api-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/openapi/recipe-api-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/recipe-api/openapi/recipe-api-recipes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: recipe-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: recipeapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 13:04:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: recipeapi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/recipe-api/refs/heads/main/security/recipe-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/recipe-api/security/recipe-api-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Recipes

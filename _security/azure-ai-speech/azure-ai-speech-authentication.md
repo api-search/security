@@ -2,36 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: azure-ai-speech-openapi-generated.yml
+  format: yaml
+  label: Azure AI Speech API
+  slug: azure-ai-speech-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/_ae-authored/azure-ai-speech-openapi-generated.yml
 - filename: azure-ai-speech-azure-ai-speech-api-api-openapi.yml
   format: yaml
   label: Azure AI Speech Azure AI Speech API
   slug: azure-ai-speech-azure-ai-speech-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-azure-ai-speech-api-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/azure-ai-speech-azure-ai-speech-api-api-openapi.yml
 - filename: azure-ai-speech-swagger-api-openapi.yml
   format: yaml
   label: Azure AI Speech Swagger API
   slug: azure-ai-speech-swagger-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-swagger-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/azure-ai-speech-swagger-api-openapi.yml
 - filename: azure-ai-speech-todoitems-api-openapi.yml
   format: yaml
   label: Azure AI Speech Todoitems API
   slug: azure-ai-speech-todoitems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-todoitems-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/azure-ai-speech-todoitems-api-openapi.yml
 - filename: azure-ai-speech-weatherforecast-api-openapi.yml
   format: yaml
   label: Azure AI Speech Weatherforecast API
   slug: azure-ai-speech-weatherforecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-weatherforecast-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/azure-ai-speech-weatherforecast-api-openapi.yml
 - filename: azure-ai-speech-to-dos-api-openapi.yml
   format: yaml
   label: Azure AI Speech To Dos API
   slug: azure-ai-speech-to-dos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/openapi/azure-ai-speech-to-dos-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-speech/openapi/azure-ai-speech-to-dos-api-openapi.yml
 auth_types: []
 description: Authentication uses JWT bearer tokens sent in the Authorization header.
 kind: authentication
@@ -58,7 +64,7 @@ source_heading: Authentication Profile
 source_url: https://learn.microsoft.com/en-us/previous-versions/azure/developer/mobile-apps/azure-mobile-apps/quickstarts/maui/authentication
 source_yaml: "generated: '2026-10-13'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://learn.microsoft.com/en-us/previous-versions/azure/developer/mobile-apps/azure-mobile-apps/quickstarts/maui/authentication\nsources:\n- https://learn.microsoft.com/en-us/previous-versions/azure/developer/mobile-apps/azure-mobile-apps/quickstarts/maui/authentication\n- https://learn.microsoft.com/en-us/aspnet/core/security/authentication/?view=aspnetcore-10.0\n- https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/\n- https://learn.microsoft.com/en-us/adaptive-cards/sdk/rendering-cards/android/getting-started\ndescription: Authentication uses JWT bearer tokens sent in the Authorization header.\nschemes:\n- type: http-bearer\n  name: Bearer\n  evidence: The Microsoft Data sync Framework has built-in support for any authentication provider that uses a Json Web Token (JWT) within a header\n    of the HTTP transaction.\n  location: header\n  header: Authorization\n\
   \  how_to_obtain: Obtain a JWT from Azure AD (Microsoft Entra ID) using the Microsoft Identity platform (MSAL) and include it in the Authorization\n    header as a Bearer token.\ndocs: https://learn.microsoft.com/en-us/previous-versions/azure/developer/mobile-apps/azure-mobile-apps/quickstarts/maui/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/azure-ai-speech/refs/heads/main/authentication/azure-ai-speech-authentication.yml
+source_yaml_url: https://artifacts.apis.io/azure-ai-speech/authentication/azure-ai-speech-authentication.yml
 summary_line: 1 scheme
 tags:
 - Cloud

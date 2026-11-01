@@ -8,31 +8,31 @@ api_specs:
   label: Turnkey Organizations API
   slug: turnkey-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-organizations-api-openapi.yml
 - filename: turnkey-private-keys-api-openapi.yml
   format: yaml
   label: Turnkey Private Keys API
   slug: turnkey-private-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-private-keys-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-private-keys-api-openapi.yml
 - filename: turnkey-signing-api-openapi.yml
   format: yaml
   label: Turnkey Signing API
   slug: turnkey-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-signing-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-signing-api-openapi.yml
 - filename: turnkey-users-policies-api-openapi.yml
   format: yaml
   label: Turnkey Users & Policies API
   slug: turnkey-users-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-users-policies-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-users-policies-api-openapi.yml
 - filename: turnkey-wallets-api-openapi.yml
   format: yaml
   label: Turnkey Wallets API
   slug: turnkey-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/openapi/turnkey-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/turnkey/openapi/turnkey-wallets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_filename: turnkey-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/turnkey-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiStamp\n  type: apiKey\n  in: header\n  parameter: X-Stamp\n  description: Base64URL-encoded JSON stamp `{publicKey, signature, scheme}` where `signature`\n    is a DER-encoded, hex-encoded signature over the exact JSON POST body produced by the registered\n    API key. `scheme` is one of SIGNATURE_SCHEME_TK_API_P256, SIGNATURE_SCHEME_TK_API_SECP256K1,\n    SIGNATURE_SCHEME_TK_API_ED25519, or SIGNATURE_SCHEME_TK_API_SECP256K1_EIP191. Passkey-stamped\n    requests use the alternate `X-Stamp-\n  sources:\n  - openapi/turnkey-openapi.yml\n- name: webauthnStamp\n  type: apiKey\n  in: header\n  parameter: X-Stamp-Webauthn\n  description: Plain-JSON WebAuthn assertion stamp for passkey-authenticated requests.\n  sources:\n  - openapi/turnkey-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/turnkey/refs/heads/main/authentication/turnkey-authentication.yml
+source_yaml_url: https://artifacts.apis.io/turnkey/authentication/turnkey-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Cryptocurrency

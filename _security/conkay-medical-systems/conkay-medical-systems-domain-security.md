@@ -27,7 +27,7 @@ source_filename: conkay-medical-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.conkaymedical.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 07:16:41 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: conkaymedical.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/conkay-medical-systems/refs/heads/main/security/conkay-medical-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/conkay-medical-systems/security/conkay-medical-systems-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Medical Devices

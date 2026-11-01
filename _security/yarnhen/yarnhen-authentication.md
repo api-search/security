@@ -7,31 +7,31 @@ api_specs:
   label: Yarnhen Accounts API
   slug: yarnhen-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yarnhen/refs/heads/main/openapi/yarnhen-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/yarnhen/openapi/yarnhen-accounts-api-openapi.yml
 - filename: yarnhen-discovery-api-openapi.yml
   format: yaml
   label: Yarnhen Discovery API
   slug: yarnhen-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yarnhen/refs/heads/main/openapi/yarnhen-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/yarnhen/openapi/yarnhen-discovery-api-openapi.yml
 - filename: yarnhen-posts-api-openapi.yml
   format: yaml
   label: Yarnhen Posts API
   slug: yarnhen-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yarnhen/refs/heads/main/openapi/yarnhen-posts-api-openapi.yml
+  url: https://artifacts.apis.io/yarnhen/openapi/yarnhen-posts-api-openapi.yml
 - filename: yarnhen-webhooks-api-openapi.yml
   format: yaml
   label: Yarnhen Webhooks API
   slug: yarnhen-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yarnhen/refs/heads/main/openapi/yarnhen-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/yarnhen/openapi/yarnhen-webhooks-api-openapi.yml
 - filename: yarnhen-oauth-api-openapi.yml
   format: yaml
   label: Yarnhen OAuth API
   slug: yarnhen-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yarnhen/refs/heads/main/openapi/yarnhen-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/yarnhen/openapi/yarnhen-oauth-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: yarnhen-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-26'\nmethod: derived\nsource: openapi/yarnhen-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: apiKey\n  type: http\n  scheme: bearer\n  description: API key from POST /v1/accounts\n  sources:\n  - openapi/yarnhen-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yarnhen/refs/heads/main/authentication/yarnhen-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yarnhen/authentication/yarnhen-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Agents

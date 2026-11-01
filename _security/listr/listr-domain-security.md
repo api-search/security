@@ -26,7 +26,7 @@ source_filename: listr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: listr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 05:55:33 2026 GMT\n  hsts: null\ndomains:\n- domain: listr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/listr/refs/heads/main/security/listr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/listr/security/listr-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

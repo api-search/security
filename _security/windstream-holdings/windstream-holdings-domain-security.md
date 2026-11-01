@@ -5,55 +5,55 @@ api_specs:
   label: Windstream Holdings Agents API
   slug: windstream-holdings-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-agents-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-agents-api-openapi.yml
 - filename: windstream-holdings-auto-attendants-api-openapi.yml
   format: yaml
   label: Windstream Holdings Auto Attendants API
   slug: windstream-holdings-auto-attendants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-auto-attendants-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-auto-attendants-api-openapi.yml
 - filename: windstream-holdings-calls-api-openapi.yml
   format: yaml
   label: Windstream Holdings Calls API
   slug: windstream-holdings-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-calls-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-calls-api-openapi.yml
 - filename: windstream-holdings-extensions-api-openapi.yml
   format: yaml
   label: Windstream Holdings Extensions API
   slug: windstream-holdings-extensions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-extensions-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-extensions-api-openapi.yml
 - filename: windstream-holdings-products-api-openapi.yml
   format: yaml
   label: Windstream Holdings Products API
   slug: windstream-holdings-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-products-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-products-api-openapi.yml
 - filename: windstream-holdings-roles-api-openapi.yml
   format: yaml
   label: Windstream Holdings Roles API
   slug: windstream-holdings-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-roles-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-roles-api-openapi.yml
 - filename: windstream-holdings-system-api-openapi.yml
   format: yaml
   label: Windstream Holdings System API
   slug: windstream-holdings-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-system-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-system-api-openapi.yml
 - filename: windstream-holdings-tenants-api-openapi.yml
   format: yaml
   label: Windstream Holdings Tenants API
   slug: windstream-holdings-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-tenants-api-openapi.yml
 - filename: windstream-holdings-users-api-openapi.yml
   format: yaml
   label: Windstream Holdings Users API
   slug: windstream-holdings-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/openapi/windstream-holdings-users-api-openapi.yml
+  url: https://artifacts.apis.io/windstream-holdings/openapi/windstream-holdings-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -96,7 +96,7 @@ source_filename: windstream-holdings-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.windstreamenterprise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 13:47:21 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.solutions.uniti.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 04:18:42 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: webadmin.windstreamenterprise.com\n  https: false\ndomains:\n- domain: windstreamenterprise.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: uniti.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windstream-holdings/refs/heads/main/security/windstream-holdings-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/windstream-holdings/security/windstream-holdings-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Broadband

@@ -38,7 +38,7 @@ source_filename: casa-aviation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.casa.gov.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 22:18:29 2026 GMT\n  hsts: null\n- host: my.casa.gov.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: services.casa.gov.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: casa.gov.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/casa-aviation/refs/heads/main/security/casa-aviation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/casa-aviation/security/casa-aviation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Travel

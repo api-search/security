@@ -8,25 +8,25 @@ api_specs:
   label: Amazon MediaPackage Channels API
   slug: amazon-mediapackage-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-channels-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-channels-api-openapi.yml
 - filename: amazon-mediapackage-harvest-jobs-api-openapi.yml
   format: yaml
   label: Amazon MediaPackage Harvest Jobs API
   slug: amazon-mediapackage-harvest-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-harvest-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-harvest-jobs-api-openapi.yml
 - filename: amazon-mediapackage-origin-endpoints-api-openapi.yml
   format: yaml
   label: Amazon MediaPackage Origin Endpoints API
   slug: amazon-mediapackage-origin-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-origin-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-origin-endpoints-api-openapi.yml
 - filename: amazon-mediapackage-tags-api-openapi.yml
   format: yaml
   label: Amazon MediaPackage Tags API
   slug: amazon-mediapackage-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/openapi/amazon-mediapackage-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: amazon-mediapackage-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-mediapackage-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-mediapackage-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-mediapackage/refs/heads/main/authentication/amazon-mediapackage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-mediapackage/authentication/amazon-mediapackage-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Broadcasting

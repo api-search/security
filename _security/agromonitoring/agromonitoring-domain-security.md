@@ -5,37 +5,37 @@ api_specs:
   label: Agromonitoring NDVI History API
   slug: agromonitoring-ndvi-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-ndvi-history-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-ndvi-history-api-openapi.yml
 - filename: agromonitoring-polygons-api-openapi.yml
   format: yaml
   label: Agromonitoring Polygons API
   slug: agromonitoring-polygons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-polygons-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-polygons-api-openapi.yml
 - filename: agromonitoring-satellite-imagery-api-openapi.yml
   format: yaml
   label: Agromonitoring Satellite Imagery API
   slug: agromonitoring-satellite-imagery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-satellite-imagery-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-satellite-imagery-api-openapi.yml
 - filename: agromonitoring-soil-api-openapi.yml
   format: yaml
   label: Agromonitoring Soil API
   slug: agromonitoring-soil-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-soil-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-soil-api-openapi.yml
 - filename: agromonitoring-uv-index-api-openapi.yml
   format: yaml
   label: Agromonitoring UV Index API
   slug: agromonitoring-uv-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-uv-index-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-uv-index-api-openapi.yml
 - filename: agromonitoring-weather-api-openapi.yml
   format: yaml
   label: Agromonitoring Weather API
   slug: agromonitoring-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/openapi/agromonitoring-weather-api-openapi.yml
+  url: https://artifacts.apis.io/agromonitoring/openapi/agromonitoring-weather-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -68,7 +68,7 @@ source_filename: agromonitoring-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agromonitoring.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 07:15:24 2026 GMT\n  hsts: false\n- host: api.agromonitoring.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug  8 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: agromonitoring.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agromonitoring/refs/heads/main/security/agromonitoring-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agromonitoring/security/agromonitoring-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Agriculture

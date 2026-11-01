@@ -5,49 +5,49 @@ api_specs:
   label: Delphi Audience API
   slug: delphi-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-audience-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-audience-api-openapi.yml
 - filename: delphi-clone-api-openapi.yml
   format: yaml
   label: Delphi Clone API
   slug: delphi-clone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-clone-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-clone-api-openapi.yml
 - filename: delphi-conversations-api-openapi.yml
   format: yaml
   label: Delphi Conversations API
   slug: delphi-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-conversations-api-openapi.yml
 - filename: delphi-questions-api-openapi.yml
   format: yaml
   label: Delphi Questions API
   slug: delphi-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-questions-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-questions-api-openapi.yml
 - filename: delphi-search-api-openapi.yml
   format: yaml
   label: Delphi Search API
   slug: delphi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-search-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-search-api-openapi.yml
 - filename: delphi-tags-api-openapi.yml
   format: yaml
   label: Delphi Tags API
   slug: delphi-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-tags-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-tags-api-openapi.yml
 - filename: delphi-usage-api-openapi.yml
   format: yaml
   label: Delphi Usage API
   slug: delphi-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-usage-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-usage-api-openapi.yml
 - filename: delphi-voice-api-openapi.yml
   format: yaml
   label: Delphi Voice API
   slug: delphi-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/openapi/delphi-voice-api-openapi.yml
+  url: https://artifacts.apis.io/delphi/openapi/delphi-voice-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: delphi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: delphi.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 13:06:12 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.delphi.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 20:39:31 2026 GMT\n  hsts: null\ndomains:\n- domain: delphi.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delphi/refs/heads/main/security/delphi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/delphi/security/delphi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

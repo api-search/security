@@ -5,49 +5,49 @@ api_specs:
   label: ZebPay Futures API
   slug: zebpay-futures-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-api-openapi.yml
 - filename: zebpay-futures-exchange-api-openapi.yml
   format: yaml
   label: ZebPay Futures > Exchange API
   slug: zebpay-futures-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-exchange-api-openapi.yml
 - filename: zebpay-futures-market-api-openapi.yml
   format: yaml
   label: ZebPay Futures > Market API
   slug: zebpay-futures-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-market-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-market-api-openapi.yml
 - filename: zebpay-futures-trade-api-openapi.yml
   format: yaml
   label: ZebPay Futures > Trade API
   slug: zebpay-futures-trade-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-trade-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-trade-api-openapi.yml
 - filename: zebpay-futures-user-leverage-api-openapi.yml
   format: yaml
   label: ZebPay Futures > User Leverage API
   slug: zebpay-futures-user-leverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-user-leverage-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-user-leverage-api-openapi.yml
 - filename: zebpay-futures-wallet-api-openapi.yml
   format: yaml
   label: ZebPay Futures > Wallet API
   slug: zebpay-futures-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-futures-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-futures-wallet-api-openapi.yml
 - filename: zebpay-market-api-openapi.yml
   format: yaml
   label: ZebPay Market API
   slug: zebpay-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-market-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-market-api-openapi.yml
 - filename: zebpay-trade-api-api-openapi.yml
   format: yaml
   label: ZebPay Trade API
   slug: zebpay-trade-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/openapi/zebpay-trade-api-api-openapi.yml
+  url: https://artifacts.apis.io/zebpay/openapi/zebpay-trade-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: zebpay-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zebpay.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  8 07:51:28 2027 GMT\n  hsts: true\n  hsts_max_age: 7776000\ndomains:\n- domain: zebpay.com\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zebpay/refs/heads/main/security/zebpay-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zebpay/security/zebpay-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

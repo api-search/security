@@ -7,61 +7,61 @@ api_specs:
   label: CompanyCam Checklists API
   slug: companycam-checklists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-checklists-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-checklists-api-openapi.yml
 - filename: companycam-company-api-openapi.yml
   format: yaml
   label: CompanyCam Company API
   slug: companycam-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-company-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-company-api-openapi.yml
 - filename: companycam-groups-api-openapi.yml
   format: yaml
   label: CompanyCam Groups API
   slug: companycam-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-groups-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-groups-api-openapi.yml
 - filename: companycam-photos-api-openapi.yml
   format: yaml
   label: CompanyCam Photos API
   slug: companycam-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-photos-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-photos-api-openapi.yml
 - filename: companycam-projects-api-openapi.yml
   format: yaml
   label: CompanyCam Projects API
   slug: companycam-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-projects-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-projects-api-openapi.yml
 - filename: companycam-tags-api-openapi.yml
   format: yaml
   label: CompanyCam Tags API
   slug: companycam-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-tags-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-tags-api-openapi.yml
 - filename: companycam-templates-api-openapi.yml
   format: yaml
   label: CompanyCam Templates API
   slug: companycam-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-templates-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-templates-api-openapi.yml
 - filename: companycam-users-api-openapi.yml
   format: yaml
   label: CompanyCam Users API
   slug: companycam-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-users-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-users-api-openapi.yml
 - filename: companycam-videos-api-openapi.yml
   format: yaml
   label: CompanyCam Videos API
   slug: companycam-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-videos-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-videos-api-openapi.yml
 - filename: companycam-webhooks-api-openapi.yml
   format: yaml
   label: CompanyCam Webhooks API
   slug: companycam-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/openapi/companycam-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/companycam/openapi/companycam-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -106,13 +106,13 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/companycam-openapi-original.yml\ndocs: https://docs.companycam.com/docs/getting-started\nsummary:\n  types:\n  - http\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - authorizationCode\n  bearer: true\nnotes: >-\n  Two token paths: (1) a personal access token generated in the CompanyCam app\n  (https://app.companycam.com/access_tokens), sent as an HTTP Bearer token — this\n  is the only scheme declared in the published OpenAPI; (2) full OAuth 2.0\n  authorization-code (with refresh tokens and PKCE S256) for partner integrations,\n  documented separately and advertised at the RFC 8414 authorization-server\n  metadata endpoint. API access requires a Pro, Premium, or Elite plan.\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer <API_TOKEN> in the Authorization header. Tokens are minted in-app at\n    https://app.companycam.com/access_tokens or issued via the OAuth flow.\n \
   \ sources:\n  - openapi/companycam-openapi-original.yml\n- name: OAuth2\n  type: oauth2\n  description: >-\n    Authorization-code grant for confidential partner clients. Scopes are\n    space-delimited (read/write/destroy plus per-resource resource:action\n    scopes). See scopes/companycam-scopes.yml.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.companycam.com/oauth/authorize\n    tokenUrl: https://app.companycam.com/oauth/token\n    refreshUrl: https://app.companycam.com/oauth/token\n  pkce: S256\n  revocation_endpoint: https://app.companycam.com/oauth/revoke\n  introspection_endpoint: https://app.companycam.com/oauth/introspect\n  registration_endpoint: https://app.companycam.com/oauth/register\n  sources:\n  - https://app.companycam.com/.well-known/oauth-authorization-server\n  - https://docs.companycam.com/docs/oauth\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/companycam/refs/heads/main/authentication/companycam-authentication.yml
+source_yaml_url: https://artifacts.apis.io/companycam/authentication/companycam-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
 - Construction
 - Photos
-- Field Service
+- Field Service Management
 - Project Management
 - Contractors
 - Documentation

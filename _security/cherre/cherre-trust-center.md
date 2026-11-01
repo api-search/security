@@ -5,13 +5,13 @@ api_specs:
   label: Cherre Auth API
   slug: cherre-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-auth-api-openapi.yml
+  url: https://artifacts.apis.io/cherre/openapi/cherre-auth-api-openapi.yml
 - filename: cherre-graph-ql-api-openapi.yml
   format: yaml
   label: Cherre Graph QL API
   slug: cherre-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/openapi/cherre-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/cherre/openapi/cherre-graph-ql-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -29,7 +29,7 @@ source_filename: cherre-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://cherre.com/security/\nurl: https://cherre.com/security/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://cherre.com/security/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cherre/refs/heads/main/security/cherre-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cherre/security/cherre-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Real Estate

@@ -5,43 +5,43 @@ api_specs:
   label: WorkMotion Absences API
   slug: workmotion-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-absences-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-absences-api-openapi.yml
 - filename: workmotion-contracts-api-openapi.yml
   format: yaml
   label: WorkMotion Contracts API
   slug: workmotion-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-contracts-api-openapi.yml
 - filename: workmotion-cost-calculator-api-openapi.yml
   format: yaml
   label: WorkMotion Cost Calculator API
   slug: workmotion-cost-calculator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-cost-calculator-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-cost-calculator-api-openapi.yml
 - filename: workmotion-documents-api-openapi.yml
   format: yaml
   label: WorkMotion Documents API
   slug: workmotion-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-documents-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-documents-api-openapi.yml
 - filename: workmotion-employees-api-openapi.yml
   format: yaml
   label: WorkMotion Employees API
   slug: workmotion-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-employees-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-employees-api-openapi.yml
 - filename: workmotion-onboarding-api-openapi.yml
   format: yaml
   label: WorkMotion Onboarding API
   slug: workmotion-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-onboarding-api-openapi.yml
 - filename: workmotion-webhooks-api-openapi.yml
   format: yaml
   label: WorkMotion Webhooks API
   slug: workmotion-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: workmotion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.workmotion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 07:58:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: workmotion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 10:29:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.workmotion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 14:18:58 2026 GMT\n  hsts: null\ndomains:\n- domain: workmotion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/security/workmotion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/workmotion/security/workmotion-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Employer of Record

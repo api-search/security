@@ -7,31 +7,31 @@ api_specs:
   label: Paedae Applications API
   slug: paedae-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/openapi/paedae-applications-api-openapi.yml
+  url: https://artifacts.apis.io/paedae/openapi/paedae-applications-api-openapi.yml
 - filename: paedae-beacon-configurations-api-openapi.yml
   format: yaml
   label: Paedae Beacon Configurations API
   slug: paedae-beacon-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/openapi/paedae-beacon-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/paedae/openapi/paedae-beacon-configurations-api-openapi.yml
 - filename: paedae-beacons-api-openapi.yml
   format: yaml
   label: Paedae Beacons API
   slug: paedae-beacons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/openapi/paedae-beacons-api-openapi.yml
+  url: https://artifacts.apis.io/paedae/openapi/paedae-beacons-api-openapi.yml
 - filename: paedae-communications-api-openapi.yml
   format: yaml
   label: Paedae Communications API
   slug: paedae-communications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/openapi/paedae-communications-api-openapi.yml
+  url: https://artifacts.apis.io/paedae/openapi/paedae-communications-api-openapi.yml
 - filename: paedae-places-api-openapi.yml
   format: yaml
   label: Paedae Places API
   slug: paedae-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/openapi/paedae-places-api-openapi.yml
+  url: https://artifacts.apis.io/paedae/openapi/paedae-places-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ a standard Bearer scheme.\n    applies_to: >-\n      Manager REST API (applications, places, beacons, beacon configurations,\n      beacon tags, communications)\n    rotation_documented: false\n  - id: ProximityOAuth2\n    type: oauth2\n    flow: authorizationCode\n    authorization_url: https://manager.gimbal.com/oauth/authorize\n    token_url: https://manager.gimbal.com/oauth/token\n    token_placement: query\n    token_param: access_token\n    description: >-\n      The transmitter REST APIs are protected with OAuth and \"must have a user\n      token passed as a query parameter\" — e.g.\n      `POST /api/v1/transmitters?access_token={token}`. Access is restricted to\n      transmitters owned by the account associated with the token. OAuth also\n      backs the Gimbal Manager portal login\n      (manager.gimbal.com/auth/railsoauth).\n    scopes_documented: false\n    security_note: >-\n      Passing a bearer credential in the query string puts it in server logs,\n      proxy logs\
   \ and Referer headers. This is the provider's documented\n      mechanism, recorded as found.\n    applies_to: Transmitter / Proximity APIs (/api/v1/transmitters)\n  - id: InfillionGatewayOAuth2\n    type: oauth2\n    flow: authorizationCode\n    pkce: S256\n    issuer: https://mcp.infillion.com\n    authorization_url: https://mcp.infillion.com/oauth/authorize\n    token_url: https://mcp.infillion.com/oauth/token\n    registration_url: https://mcp.infillion.com/register\n    token_placement: header\n    description: >-\n      Parent-brand gateway protecting the Infillion Agent Connector MCP\n      endpoint (https://mcp.infillion.com/mcp). An anonymous request returns\n      HTTP 401 with `WWW-Authenticate: Bearer realm=\"Infillion Gateway\"` and an\n      RFC 9728 resource_metadata pointer. Supports dynamic client registration\n      for public clients.\n    scopes_documented: false\n    applies_to: Infillion Agent Connector (MCP) — NOT the Gimbal REST API\n    cross_ref: mcp/paedae-mcp.yml\n\
   content_type: application/json\nunauthorized_status: 401\ndocs: https://docs.gimbal.com/rest.html\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paedae/refs/heads/main/authentication/paedae-authentication.yml
+source_yaml_url: https://artifacts.apis.io/paedae/authentication/paedae-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Greenbrier Companies Export API
   slug: greenbrier-cos-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-export-api-openapi.yml
+  url: https://artifacts.apis.io/greenbrier-cos/openapi/greenbrier-cos-export-api-openapi.yml
 - filename: greenbrier-cos-gauge-tables-api-openapi.yml
   format: yaml
   label: Greenbrier Companies Gauge Tables API
   slug: greenbrier-cos-gauge-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-gauge-tables-api-openapi.yml
+  url: https://artifacts.apis.io/greenbrier-cos/openapi/greenbrier-cos-gauge-tables-api-openapi.yml
 - filename: greenbrier-cos-reporting-marks-api-openapi.yml
   format: yaml
   label: Greenbrier Companies Reporting Marks API
   slug: greenbrier-cos-reporting-marks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/openapi/greenbrier-cos-reporting-marks-api-openapi.yml
+  url: https://artifacts.apis.io/greenbrier-cos/openapi/greenbrier-cos-reporting-marks-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: >-\n  Live anonym
   \      applies_to: product/category/attribute reads\n      - type: cookie\n        name: Nonce / cart token\n        applies_to: cart and checkout routes\n        note: >-\n          The /wc/store/v1/cart and /wc/store/v1/checkout routes are session-scoped and require a\n          WooCommerce Store API nonce. Those routes are deliberately excluded from the catalogued\n          contract.\n    model: anonymous-read\n    evidence: >-\n      GET https://www.gbrx.com/wp-json/wc/store/v1/products?per_page=1 returned 200 with X-WP-Total\n      207 and no credentials.\n    write_surface: session-scoped\n  - api: Greenbrier Press Room API\n    host: www.gbrx.com\n    schemes:\n      - type: none\n        applies_to: read (GET)\n    model: anonymous-read\n    evidence: GET /wp-json/wp/v2/posts?per_page=1 returned 200 with X-WP-Total 245 and no credentials.\n    write_surface: credentialed-only\n  - api: Greenbrier Site Content and Discovery API\n    host: www.gbrx.com\n    schemes:\n      - type:\
   \ none\n        applies_to: read (GET)\n    model: anonymous-read\n    evidence: GET /wp-json/wp/v2/pages?per_page=1 returned 200 with X-WP-Total 51 and no credentials.\n    write_surface: credentialed-only\ngated_surfaces:\n  - host: shop.gbrx.com\n    product: Greenbrier Aftermarket Parts store (Salesforce Experience Cloud)\n    model: oauth2 / openid-connect\n    discovery: https://shop.gbrx.com/.well-known/openid-configuration\n    issuer: https://shop.gbrx.com\n    authorization_endpoint: https://shop.gbrx.com/services/oauth2/authorize\n    token_endpoint: https://shop.gbrx.com/services/oauth2/token\n    jwks_uri: https://shop.gbrx.com/id/keys\n    grant_types: [authorization_code, refresh_token]\n    pkce: S256\n    evidence: >-\n      The discovery document is served anonymously (200). Every data route under it answered 401\n      INVALID_SESSION_ID. The scopes advertised are Salesforce's standard platform scope list, not a\n      Greenbrier-authored scope vocabulary, so no scopes/\
   \ artifact is emitted.\n    note: >-\n      Salesforce Experience Cloud running on a Greenbrier-controlled host. Greenbrier does not\n      document or issue API credentials against it; it backs a human parts-ordering storefront.\n  - host: enspire.gbrx.com\n    product: GMS Partners / Enspire railcar management software\n    model: form-login\n    evidence: >-\n      https://enspire.gbrx.com/ serves an ASP.NET MVC login form. Every /.well-known/* path answers\n      200 with the same login shell. No API surface is reachable anonymously.\n  - host: grsecomm.gbrx.com\n    product: GRS Wheelsets ordering portal\n    model: form-login\n    evidence: https://grsecomm.gbrx.com/ serves an ASP.NET login form; /.well-known/* paths 404.\n  - host: proveedores.gbrx.com\n    product: Greenbrier GIMSA supplier application (Monclova, Mexico)\n    model: form-login\n    evidence: https://proveedores.gbrx.com/ serves a login form; /.well-known/* paths 404.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/greenbrier-cos/refs/heads/main/authentication/greenbrier-cos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/greenbrier-cos/authentication/greenbrier-cos-authentication.yml
 summary_line: 0 schemes
 tags:
 - Rail

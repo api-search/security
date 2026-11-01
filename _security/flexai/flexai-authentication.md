@@ -7,43 +7,43 @@ api_specs:
   label: FlexAI Audio API
   slug: flexai-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-audio-api-openapi.yml
 - filename: flexai-completions-api-openapi.yml
   format: yaml
   label: FlexAI Completions API
   slug: flexai-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-completions-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-completions-api-openapi.yml
 - filename: flexai-embeddings-api-openapi.yml
   format: yaml
   label: FlexAI Embeddings API
   slug: flexai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-embeddings-api-openapi.yml
 - filename: flexai-images-api-openapi.yml
   format: yaml
   label: FlexAI Images API
   slug: flexai-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-images-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-images-api-openapi.yml
 - filename: flexai-models-api-openapi.yml
   format: yaml
   label: FlexAI Models API
   slug: flexai-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-models-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-models-api-openapi.yml
 - filename: flexai-video-api-openapi.yml
   format: yaml
   label: FlexAI Video API
   slug: flexai-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-video-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-video-api-openapi.yml
 - filename: flexai-chat-completions-api-openapi.yml
   format: yaml
   label: FlexAI Chat Completions API
   slug: flexai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/openapi/flexai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/flexai/openapi/flexai-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: flexai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/flexai-token-factory-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'FlexAI API key passed as a bearer token: `Authorization: Bearer $FLEXAI_API_KEY`.\n    Create a key at https://tokens.flex.ai/signup.'\n  sources:\n  - openapi/flexai-token-factory-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flexai/refs/heads/main/authentication/flexai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/flexai/authentication/flexai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

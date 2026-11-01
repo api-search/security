@@ -5,13 +5,13 @@ api_specs:
   label: Cuein Answers API
   slug: cuein-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-answers-api-openapi.yml
+  url: https://artifacts.apis.io/cuein/openapi/cuein-answers-api-openapi.yml
 - filename: cuein-conversations-api-openapi.yml
   format: yaml
   label: Cuein Conversations API
   slug: cuein-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/cuein/openapi/cuein-conversations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -48,7 +48,7 @@ source_filename: cuein-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cuein-api.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.cuein.ai\n  https: false\ndomains:\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: cuein.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/security/cuein-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cuein/security/cuein-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

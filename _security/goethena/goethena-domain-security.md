@@ -5,31 +5,31 @@ api_specs:
   label: Goethena Learner Training Campaigns API
   slug: goethena-learner-training-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-learner-training-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/goethena/openapi/goethena-learner-training-campaigns-api-openapi.yml
 - filename: goethena-learner-training-modules-api-openapi.yml
   format: yaml
   label: Goethena Learner Training Modules API
   slug: goethena-learner-training-modules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-learner-training-modules-api-openapi.yml
+  url: https://artifacts.apis.io/goethena/openapi/goethena-learner-training-modules-api-openapi.yml
 - filename: goethena-learners-api-openapi.yml
   format: yaml
   label: Goethena Learners API
   slug: goethena-learners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-learners-api-openapi.yml
+  url: https://artifacts.apis.io/goethena/openapi/goethena-learners-api-openapi.yml
 - filename: goethena-training-campaigns-api-openapi.yml
   format: yaml
   label: Goethena Training Campaigns API
   slug: goethena-training-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-training-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/goethena/openapi/goethena-training-campaigns-api-openapi.yml
 - filename: goethena-webhooks-api-openapi.yml
   format: yaml
   label: Goethena Webhooks API
   slug: goethena-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/openapi/goethena-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/goethena/openapi/goethena-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: goethena-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: goethena.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 19:34:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.goethena.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: goethena.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goethena/refs/heads/main/security/goethena-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/goethena/security/goethena-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

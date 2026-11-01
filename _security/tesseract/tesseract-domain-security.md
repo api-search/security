@@ -5,31 +5,31 @@ api_specs:
   label: Tesseract Clients API
   slug: tesseract-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-clients-api-openapi.yml
+  url: https://artifacts.apis.io/tesseract/openapi/tesseract-clients-api-openapi.yml
 - filename: tesseract-health-api-openapi.yml
   format: yaml
   label: Tesseract Health API
   slug: tesseract-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-health-api-openapi.yml
+  url: https://artifacts.apis.io/tesseract/openapi/tesseract-health-api-openapi.yml
 - filename: tesseract-insights-api-openapi.yml
   format: yaml
   label: Tesseract Insights API
   slug: tesseract-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-insights-api-openapi.yml
+  url: https://artifacts.apis.io/tesseract/openapi/tesseract-insights-api-openapi.yml
 - filename: tesseract-strategies-api-openapi.yml
   format: yaml
   label: Tesseract Strategies API
   slug: tesseract-strategies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-strategies-api-openapi.yml
+  url: https://artifacts.apis.io/tesseract/openapi/tesseract-strategies-api-openapi.yml
 - filename: tesseract-vaults-api-openapi.yml
   format: yaml
   label: Tesseract Vaults API
   slug: tesseract-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/openapi/tesseract-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/tesseract/openapi/tesseract-vaults-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: tesseract-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tesseract.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 10:03:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.tesseract.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 15:26:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.vault.tesseract.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: tesseract.fi\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tesseract/refs/heads/main/security/tesseract-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tesseract/security/tesseract-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

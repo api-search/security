@@ -5,49 +5,49 @@ api_specs:
   label: Tenor Autocomplete API
   slug: tenor-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/openapi/tenor-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/tenor/openapi/tenor-autocomplete-api-openapi.yml
 - filename: tenor-categories-api-openapi.yml
   format: yaml
   label: Tenor Categories API
   slug: tenor-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/openapi/tenor-categories-api-openapi.yml
+  url: https://artifacts.apis.io/tenor/openapi/tenor-categories-api-openapi.yml
 - filename: tenor-featured-api-openapi.yml
   format: yaml
   label: Tenor Featured API
   slug: tenor-featured-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/openapi/tenor-featured-api-openapi.yml
+  url: https://artifacts.apis.io/tenor/openapi/tenor-featured-api-openapi.yml
 - filename: tenor-posts-api-openapi.yml
   format: yaml
   label: Tenor Posts API
   slug: tenor-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/openapi/tenor-posts-api-openapi.yml
+  url: https://artifacts.apis.io/tenor/openapi/tenor-posts-api-openapi.yml
 - filename: tenor-registershare-api-openapi.yml
   format: yaml
   label: Tenor Registershare API
   slug: tenor-registershare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/openapi/tenor-registershare-api-openapi.yml
+  url: https://artifacts.apis.io/tenor/openapi/tenor-registershare-api-openapi.yml
 - filename: tenor-search-api-openapi.yml
   format: yaml
   label: Tenor Search API
   slug: tenor-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/openapi/tenor-search-api-openapi.yml
+  url: https://artifacts.apis.io/tenor/openapi/tenor-search-api-openapi.yml
 - filename: tenor-search-suggestions-api-openapi.yml
   format: yaml
   label: Tenor Search Suggestions API
   slug: tenor-search-suggestions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/openapi/tenor-search-suggestions-api-openapi.yml
+  url: https://artifacts.apis.io/tenor/openapi/tenor-search-suggestions-api-openapi.yml
 - filename: tenor-trending-terms-api-openapi.yml
   format: yaml
   label: Tenor Trending Terms API
   slug: tenor-trending-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/openapi/tenor-trending-terms-api-openapi.yml
+  url: https://artifacts.apis.io/tenor/openapi/tenor-trending-terms-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -90,7 +90,7 @@ source_filename: tenor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: tenor.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tenor/refs/heads/main/security/tenor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tenor/security/tenor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - GIFs

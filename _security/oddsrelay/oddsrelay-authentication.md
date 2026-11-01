@@ -8,25 +8,25 @@ api_specs:
   label: OddsRelay Account API
   slug: oddsrelay-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/openapi/oddsrelay-account-api-openapi.yml
+  url: https://artifacts.apis.io/oddsrelay/openapi/oddsrelay-account-api-openapi.yml
 - filename: oddsrelay-discovery-api-openapi.yml
   format: yaml
   label: OddsRelay Discovery API
   slug: oddsrelay-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/openapi/oddsrelay-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/oddsrelay/openapi/oddsrelay-discovery-api-openapi.yml
 - filename: oddsrelay-odds-api-openapi.yml
   format: yaml
   label: OddsRelay Odds API
   slug: oddsrelay-odds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/openapi/oddsrelay-odds-api-openapi.yml
+  url: https://artifacts.apis.io/oddsrelay/openapi/oddsrelay-odds-api-openapi.yml
 - filename: oddsrelay-service-api-openapi.yml
   format: yaml
   label: OddsRelay Service API
   slug: oddsrelay-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/openapi/oddsrelay-service-api-openapi.yml
+  url: https://artifacts.apis.io/oddsrelay/openapi/oddsrelay-service-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -61,7 +61,7 @@ source_filename: oddsrelay-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-09'\nmethod: derived\nsource: openapi/oddsrelay-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: '`Authorization: Bearer or_live_…`'\n  sources:\n  - openapi/oddsrelay-openapi.yml\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: The same key in `x-api-key`.\n  sources:\n  - openapi/oddsrelay-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oddsrelay/refs/heads/main/authentication/oddsrelay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/oddsrelay/authentication/oddsrelay-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

@@ -7,43 +7,43 @@ api_specs:
   label: Sendoso Marketplace and SmartSend API
   slug: sendoso-marketplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-marketplace-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-marketplace-api-openapi.yml
 - filename: sendoso-webhooks-asyncapi.yml
   format: yaml
   label: Sendoso Webhooks
   slug: sendoso-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/asyncapi/sendoso-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/sendoso/asyncapi/sendoso-webhooks-asyncapi.yml
 - filename: sendoso-campaigns-api-openapi.yml
   format: yaml
   label: Sendoso Campaigns API
   slug: sendoso-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-campaigns-api-openapi.yml
 - filename: sendoso-sends-api-openapi.yml
   format: yaml
   label: Sendoso Sends API
   slug: sendoso-sends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-sends-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-sends-api-openapi.yml
 - filename: sendoso-smartsend-api-openapi.yml
   format: yaml
   label: Sendoso Smart Send API
   slug: sendoso-smartsend-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-smartsend-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-smartsend-api-openapi.yml
 - filename: sendoso-teams-api-openapi.yml
   format: yaml
   label: Sendoso Teams API
   slug: sendoso-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-teams-api-openapi.yml
 - filename: sendoso-users-api-openapi.yml
   format: yaml
   label: Sendoso Users API
   slug: sendoso-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/openapi/sendoso-users-api-openapi.yml
+  url: https://artifacts.apis.io/sendoso/openapi/sendoso-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ live 7200\n    seconds (2 hours) and are refreshed at the same token endpoint. Tokens are sent as `Authorization:\n    Bearer <token>`.'\n  sources:\n  - openapi/sendoso-core-api-openapi.yml\n  - openapi/sendoso-marketplace-api-openapi.yml\n  - openapi/sendoso-scim-api-openapi.yml\nregistration:\n  self_serve: false\n  process: >-\n    Client ID and client secret are issued by hand. Sendoso's docs say to request credentials\n    by emailing developers@sendoso.com, and to include your production redirect URI — by\n    default only the standard Postman redirect URI is allowlisted. SCIM requires a SEPARATE\n    client id and secret; Core API credentials do not work against the SCIM API.\n  contact: developers@sendoso.com\ntoken:\n  type: bearer\n  header: 'Authorization: Bearer <token>'\n  lifetime_seconds: 7200\n  refresh: >-\n    POST the same token endpoint with grant_type=refresh_token. Refresh tokens only expire\n    after they are used.\n  revocation_endpoint: https://app.sendoso.com/oauth/revoke\n\
   \  revocation_auth: 'Basic base64(client_id:client_secret)'\n  revocation_note: The token to revoke is passed as a `token` query parameter.\ntransport_security:\n  claim: >-\n    Sendoso's security page states data is encrypted at rest with AES-256 and in transit over\n    HTTPS TLS 1.2 with RSA 256-bit.\n  source: https://developer.sendoso.com/rest-api/overview/security\n  observed_tls: TLSv1.3 on app.sendoso.com, developer.sendoso.com and sendoso.com (probed 2026-08-13)\nadditional_authorization_servers:\n  - name: Sendoso MCP Server\n    resource: https://app.sendoso.com/mcp\n    issuer: https://app.sendoso.com/mcp\n    discovery:\n      protected_resource_metadata: https://app.sendoso.com/.well-known/oauth-protected-resource/mcp\n      authorization_server_metadata: https://app.sendoso.com/.well-known/oauth-authorization-server/mcp\n    grant_types: [authorization_code, refresh_token]\n    pkce: S256\n    dynamic_client_registration: https://app.sendoso.com/mcp/oauth/register\n   \
   \ scopes: [openid, profile, email, offline_access]\n    idp: Auth0 (jwks https://sendosoprod.auth0.com/.well-known/jwks.json)\n    note: >-\n      Separate from the developer API's OAuth server. This one supports OIDC scopes, PKCE and\n      dynamic client registration, none of which the developer API advertises — the MCP\n      surface is materially more modern than the REST surface it fronts.\nnotes:\n  - >-\n    Sendoso's own security page tells you to \"revoke your API key\" when finished, but the API\n    has no API keys — it is OAuth only. That sentence is a leftover.\n  - >-\n    The docs describe the authorization code grant as \"two-legged\" / \"two-step\" OAuth. That\n    is a misnomer; authorization code is three-legged.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sendoso/refs/heads/main/authentication/sendoso-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sendoso/authentication/sendoso-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Corporate Gifting

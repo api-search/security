@@ -5,7 +5,7 @@ api_specs:
   label: Bored API Activities API
   slug: bored-api-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/openapi/bored-api-activities-api-openapi.yml
+  url: https://artifacts.apis.io/bored-api/openapi/bored-api-activities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: bored-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bored-api.appbrewery.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 02:59:42 2026 GMT\n  hsts: false\ndomains:\n- domain: appbrewery.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bored-api/refs/heads/main/security/bored-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bored-api/security/bored-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Activities

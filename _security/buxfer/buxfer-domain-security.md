@@ -5,31 +5,31 @@ api_specs:
   label: Buxfer Accounts API
   slug: buxfer-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/buxfer/openapi/buxfer-accounts-api-openapi.yml
 - filename: buxfer-authentication-api-openapi.yml
   format: yaml
   label: Buxfer Authentication API
   slug: buxfer-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/buxfer/openapi/buxfer-authentication-api-openapi.yml
 - filename: buxfer-organization-api-openapi.yml
   format: yaml
   label: Buxfer Organization API
   slug: buxfer-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-organization-api-openapi.yml
+  url: https://artifacts.apis.io/buxfer/openapi/buxfer-organization-api-openapi.yml
 - filename: buxfer-social-api-openapi.yml
   format: yaml
   label: Buxfer Social API
   slug: buxfer-social-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-social-api-openapi.yml
+  url: https://artifacts.apis.io/buxfer/openapi/buxfer-social-api-openapi.yml
 - filename: buxfer-transactions-api-openapi.yml
   format: yaml
   label: Buxfer Transactions API
   slug: buxfer-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/openapi/buxfer-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/buxfer/openapi/buxfer-transactions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -64,7 +64,7 @@ source_filename: buxfer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.buxfer.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  1 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: buxfer.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"symantec.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/security/buxfer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/buxfer/security/buxfer-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company

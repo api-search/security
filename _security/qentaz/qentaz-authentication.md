@@ -8,7 +8,7 @@ api_specs:
   label: Trazo API
   slug: trazo-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qentaz/refs/heads/main/asyncapi/qentaz-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/qentaz/asyncapi/qentaz-webhooks-asyncapi.yml
 auth_types:
 - apiKey
 - http
@@ -58,7 +58,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.qentaz.com/documentation/autenticacion/token\ndocs: https://docs.qentaz.com/documentation/autenticacion/token\nsummary:\n  types: [apiKey, http]\n  model: two-step-bearer\n  api_key_in: [header]\n  notes: >-\n    Two-step bearer authentication. A static, long-lived authentication key\n    (auth_key, issued per integration) is sent as an HTTP Bearer credential to\n    GET /token, which returns a short-lived access_token (expires_in seconds,\n    e.g. 3600). That access_token is then sent on every subsequent request in\n    the custom x-auth-token header. No OAuth2/OIDC discovery is published; the\n    auth_key is provisioned out of band. Administered (\"child\") accounts are\n    selected with an optional child-id header.\nschemes:\n- name: authKeyBearer\n  type: http\n  scheme: bearer\n  used_on: GET /token\n  header: Authorization\n  format: 'Bearer {auth_key}'\n  description: >-\n    Static per-integration authentication\
   \ key exchanged for a temporary access\n    token. Presented as an HTTP Bearer credential to the token endpoint.\n- name: accessToken\n  type: apiKey\n  in: header\n  name_param: x-auth-token\n  used_on: all protected endpoints (e.g. POST /transaction, GET /v1/merchant/transaction/)\n  description: >-\n    Short-lived access token returned by GET /token, sent on every protected\n    request. Value is the access_token from the token response.\n- name: childId\n  type: apiKey\n  in: header\n  name_param: child-id\n  required: false\n  description: >-\n    Optional business/account selector used with administered (managed / child)\n    accounts to scope a request to a sub-account.\n- name: webhookSignature\n  type: apiKey\n  in: header\n  name_param: Authorization\n  format: 'Bearer base64(client_id:client_secret_key)'\n  direction: inbound-to-your-endpoint\n  description: >-\n    Trazo signs outbound webhook deliveries with a Bearer credential built from\n    base64(client_id:client_secret_key)\
   \ so your endpoint can verify authenticity.\ntoken_endpoint:\n  method: GET\n  path: /token\n  response:\n    access_token: string\n    expires_in: integer (seconds)\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qentaz/refs/heads/main/authentication/qentaz-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qentaz/authentication/qentaz-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Company

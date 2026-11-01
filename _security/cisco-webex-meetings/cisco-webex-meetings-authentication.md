@@ -7,25 +7,25 @@ api_specs:
   label: Cisco Webex Meetings Invitees API
   slug: cisco-webex-meetings-invitees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-invitees-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-invitees-api-openapi.yml
 - filename: cisco-webex-meetings-meetings-api-openapi.yml
   format: yaml
   label: Cisco Webex Meetings API
   slug: cisco-webex-meetings-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-meetings-api-openapi.yml
 - filename: cisco-webex-meetings-recordings-api-openapi.yml
   format: yaml
   label: Cisco Webex Meetings Recordings API
   slug: cisco-webex-meetings-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-recordings-api-openapi.yml
 - filename: cisco-webex-meetings-transcripts-api-openapi.yml
   format: yaml
   label: Cisco Webex Meetings Transcripts API
   slug: cisco-webex-meetings-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/openapi/cisco-webex-meetings-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/cisco-webex-meetings/openapi/cisco-webex-meetings-transcripts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: cisco-webex-meetings-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cisco-webex-meetings-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: OAuth2-Access-Token\n  sources:\n  - openapi/cisco-webex-meetings-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/authentication/cisco-webex-meetings-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cisco-webex-meetings/authentication/cisco-webex-meetings-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Collaboration

@@ -8,43 +8,43 @@ api_specs:
   label: Totalis API Keys API
   slug: totalis-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/totalis/openapi/totalis-api-keys-api-openapi.yml
 - filename: totalis-markets-api-openapi.yml
   format: yaml
   label: Totalis Markets API
   slug: totalis-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-markets-api-openapi.yml
+  url: https://artifacts.apis.io/totalis/openapi/totalis-markets-api-openapi.yml
 - filename: totalis-portfolio-api-openapi.yml
   format: yaml
   label: Totalis Portfolio API
   slug: totalis-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/totalis/openapi/totalis-portfolio-api-openapi.yml
 - filename: totalis-user-api-openapi.yml
   format: yaml
   label: Totalis User API
   slug: totalis-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-user-api-openapi.yml
+  url: https://artifacts.apis.io/totalis/openapi/totalis-user-api-openapi.yml
 - filename: totalis-vault-api-openapi.yml
   format: yaml
   label: Totalis Vault API
   slug: totalis-vault-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-vault-api-openapi.yml
+  url: https://artifacts.apis.io/totalis/openapi/totalis-vault-api-openapi.yml
 - filename: totalis-webhooks-api-openapi.yml
   format: yaml
   label: Totalis Webhooks API
   slug: totalis-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/totalis/openapi/totalis-webhooks-api-openapi.yml
 - filename: totalis-rfqs-api-openapi.yml
   format: yaml
   label: Totalis RF Qs API
   slug: totalis-rfqs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/openapi/totalis-rfqs-api-openapi.yml
+  url: https://artifacts.apis.io/totalis/openapi/totalis-rfqs-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.to
   - name: ApiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: 'Programmatic API key. Sent as `X-API-Key: <key>`. Generate one from the Totalis\n    dashboard (app.totalis.trade, account settings). The full key is shown only at creation.\n    The same header is accepted on the WebSocket auth message\n    ({\"type\": \"auth\", \"api_key\": \"<key>\"}).'\n  sources:\n  - openapi/totalis-openapi-original.json\nkey_scopes:\n  description: >-\n    Every API key carries a set of scopes chosen at creation. A request to an\n    endpoint whose scope the key lacks is rejected with 403 (insufficient_scope).\n    Webhook deliveries are also gated on the key's scopes, re-checked at delivery\n    time.\n  docs: https://docs.totalis.trade/guides/authentication#scopes\n  scopes:\n  - scope: account:read\n    grants: View account profile and username.\n    risk: low\n  - scope: markets:read\n    grants: Browse markets and exclusion groups.\n    risk: low\n  - scope: positions:read\n\
   \    grants: View quote requests, portfolio, stats, and P&L.\n    risk: low\n  - scope: balances:read\n    grants: View wallet and vault balances and delegation status.\n    risk: low\n  - scope: trading:write\n    grants: Create, modify, commit, and cancel quote requests (place parlays).\n    risk: medium\n  - scope: funds:deposit\n    grants: Move USDC into the vault.\n    risk: low\n  - scope: funds:withdraw\n    grants: Move USDC out of the vault/wallet to any address. Can drain the account.\n    risk: high\n  - scope: account:write\n    grants: Change username and profile settings.\n    risk: medium\n  - scope: tx:sign\n    grants: Submit arbitrary signed Solana transactions.\n    risk: high\n  - scope: keys:manage\n    grants: Create, list, and revoke API keys. Lets a key mint more keys.\n    risk: high\n  - scope: mm:quote\n    grants: Read RFQs and submit/confirm quotes as a market maker.\n    risk: medium\nkey_lifecycle:\n  states: [active, revoked, expired]\n  management:\n \
   \   list: GET /v1/api-keys\n    create: POST /v1/api-keys (Privy JWT or keys:manage scope required)\n    revoke: DELETE /v1/api-keys/{prefix}\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/totalis/refs/heads/main/authentication/totalis-authentication.yml
+source_yaml_url: https://artifacts.apis.io/totalis/authentication/totalis-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

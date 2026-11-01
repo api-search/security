@@ -27,7 +27,7 @@ source_filename: evolv-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.evolvtechnology.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 16:01:51 2026 GMT\n  hsts: null\ndomains:\n- domain: evolvtechnology.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evolv-technology/refs/heads/main/security/evolv-technology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/evolv-technology/security/evolv-technology-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

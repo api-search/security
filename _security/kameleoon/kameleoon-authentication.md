@@ -7,19 +7,19 @@ api_specs:
   label: Kameleoon Experiments API
   slug: kameleoon-experiments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-experiments-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-experiments-api-openapi.yml
 - filename: kameleoon-personalizations-api-openapi.yml
   format: yaml
   label: Kameleoon Personalizations API
   slug: kameleoon-personalizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-personalizations-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-personalizations-api-openapi.yml
 - filename: kameleoon-oauth-api-openapi.yml
   format: yaml
   label: Kameleoon O Auth API
   slug: kameleoon-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/openapi/kameleoon-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/kameleoon/openapi/kameleoon-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -62,7 +62,7 @@ source_filename: kameleoon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/kameleoon-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: OAuth 2.0 access token\n  description: OAuth 2.0 access token obtained from /oauth/token, supplied as a Bearer token\n    in the Authorization header.\n  sources:\n  - openapi/kameleoon-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.kameleoon.com/oauth/token\n    scopes: 0\n  - flow: authorizationCode\n    authorizationUrl: https://api.kameleoon.com/oauth/authorize\n    tokenUrl: https://api.kameleoon.com/oauth/token\n    scopes: 0\n  sources:\n  - openapi/kameleoon-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kameleoon/refs/heads/main/authentication/kameleoon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kameleoon/authentication/kameleoon-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Experimentation

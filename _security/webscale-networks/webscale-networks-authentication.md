@@ -7,151 +7,151 @@ api_specs:
   label: Webscale Networks Accounts API
   slug: webscale-networks-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-accounts-api-openapi.yml
 - filename: webscale-networks-address-sets-api-openapi.yml
   format: yaml
   label: Webscale Networks Address sets API
   slug: webscale-networks-address-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-address-sets-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-address-sets-api-openapi.yml
 - filename: webscale-networks-application-test-api-openapi.yml
   format: yaml
   label: Webscale Networks Application test API
   slug: webscale-networks-application-test-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-application-test-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-application-test-api-openapi.yml
 - filename: webscale-networks-applications-api-openapi.yml
   format: yaml
   label: Webscale Networks Applications API
   slug: webscale-networks-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-applications-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-applications-api-openapi.yml
 - filename: webscale-networks-builders-api-openapi.yml
   format: yaml
   label: Webscale Networks Builders API
   slug: webscale-networks-builders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-builders-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-builders-api-openapi.yml
 - filename: webscale-networks-clusters-api-openapi.yml
   format: yaml
   label: Webscale Networks Clusters API
   slug: webscale-networks-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-clusters-api-openapi.yml
 - filename: webscale-networks-environments-api-openapi.yml
   format: yaml
   label: Webscale Networks Environments API
   slug: webscale-networks-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-environments-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-environments-api-openapi.yml
 - filename: webscale-networks-files-api-openapi.yml
   format: yaml
   label: Webscale Networks Files API
   slug: webscale-networks-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-files-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-files-api-openapi.yml
 - filename: webscale-networks-groups-api-openapi.yml
   format: yaml
   label: Webscale Networks Groups API
   slug: webscale-networks-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-groups-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-groups-api-openapi.yml
 - filename: webscale-networks-labelers-api-openapi.yml
   format: yaml
   label: Webscale Networks Labelers API
   slug: webscale-networks-labelers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-labelers-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-labelers-api-openapi.yml
 - filename: webscale-networks-log-schemas-api-openapi.yml
   format: yaml
   label: Webscale Networks Log schemas API
   slug: webscale-networks-log-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-log-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-log-schemas-api-openapi.yml
 - filename: webscale-networks-logs-api-openapi.yml
   format: yaml
   label: Webscale Networks Logs API
   slug: webscale-networks-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-logs-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-logs-api-openapi.yml
 - filename: webscale-networks-metrics-api-openapi.yml
   format: yaml
   label: Webscale Networks Metrics API
   slug: webscale-networks-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-metrics-api-openapi.yml
 - filename: webscale-networks-monitors-api-openapi.yml
   format: yaml
   label: Webscale Networks Monitors API
   slug: webscale-networks-monitors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-monitors-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-monitors-api-openapi.yml
 - filename: webscale-networks-reports-api-openapi.yml
   format: yaml
   label: Webscale Networks Reports API
   slug: webscale-networks-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-reports-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-reports-api-openapi.yml
 - filename: webscale-networks-roles-api-openapi.yml
   format: yaml
   label: Webscale Networks Roles API
   slug: webscale-networks-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-roles-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-roles-api-openapi.yml
 - filename: webscale-networks-secrets-api-openapi.yml
   format: yaml
   label: Webscale Networks Secrets API
   slug: webscale-networks-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-secrets-api-openapi.yml
 - filename: webscale-networks-servers-api-openapi.yml
   format: yaml
   label: Webscale Networks Servers API
   slug: webscale-networks-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-servers-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-servers-api-openapi.yml
 - filename: webscale-networks-service-users-api-openapi.yml
   format: yaml
   label: Webscale Networks Service users API
   slug: webscale-networks-service-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-service-users-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-service-users-api-openapi.yml
 - filename: webscale-networks-ssh-hosts-api-openapi.yml
   format: yaml
   label: Webscale Networks SSH Hosts API
   slug: webscale-networks-ssh-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-ssh-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-ssh-hosts-api-openapi.yml
 - filename: webscale-networks-ssh-public-keys-api-openapi.yml
   format: yaml
   label: Webscale Networks SSH Public Keys API
   slug: webscale-networks-ssh-public-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-ssh-public-keys-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-ssh-public-keys-api-openapi.yml
 - filename: webscale-networks-tasks-api-openapi.yml
   format: yaml
   label: Webscale Networks Tasks API
   slug: webscale-networks-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-tasks-api-openapi.yml
 - filename: webscale-networks-templates-api-openapi.yml
   format: yaml
   label: Webscale Networks Templates API
   slug: webscale-networks-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-templates-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-templates-api-openapi.yml
 - filename: webscale-networks-url-maps-api-openapi.yml
   format: yaml
   label: Webscale Networks URL maps API
   slug: webscale-networks-url-maps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-url-maps-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-url-maps-api-openapi.yml
 - filename: webscale-networks-users-api-openapi.yml
   format: yaml
   label: Webscale Networks Users API
   slug: webscale-networks-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/openapi/webscale-networks-users-api-openapi.yml
+  url: https://artifacts.apis.io/webscale-networks/openapi/webscale-networks-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -211,7 +211,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  openapi/w
   \ /users/{id}/roles/{role_id}\n    user_group_membership: /users/{id}/groups, /users/{id}/groups/{group_id}\n    service_users: /accounts/{id}/service-users\n  scopes_published: false\n  permission_reference_published: false\n  finding: >-\n    Authorization is real and richly modelled — 20 operations across roles, groups, invitations and\n    memberships — but NO permission or scope reference is published. There is no document saying which\n    role grants which operation, and the contract attaches no per-operation scope requirement. A caller\n    cannot determine in advance whether a given key may perform a given call; they must attempt it.\n\ntoken_properties:\n  expiry_published: false\n  rotation_policy_published: false\n  revocation: DELETE /users/{user_id}/access-keys/{id}\n  prefix: none published\n  format: opaque secret\n\nobserved_runtime:\n  method: probed\n  probed: '2026-09-04'\n  unauthenticated_response:\n    status: 401\n    body: '{ \"status\": 401, \"error\": { \"type\"\
   : \"unauthorized\", \"message\": \"Your request must include an authorizationheader including a bearer token\" } }'\n    header_www_authenticate: not returned\n  control_probe: >-\n    A nonsense path (/v2/definitely-not-a-real-endpoint-9f3a) returns the identical 401 body as a real\n    path (/v2/applications). The API does not distinguish \"unauthenticated\" from \"not found\" to an\n    anonymous caller — an intentional non-enumeration posture.\n  note: >-\n    The live 401 body does not match the contract's declared `Error` schema. See\n    errors/webscale-networks-problem-types.yml.\n\ndiscovery_documents:\n  openid_configuration: not served (404 on webscale.com, api.webscale.com, docs.webscale.com)\n  oauth_authorization_server: not served\n  oauth_protected_resource: not served\n  note: See well-known/webscale-networks-well-known.yml for the full 48-probe record.\n\nconsole_security_docs:\n  mfa: https://docs.webscale.com/docs/how-tos/security/mfa/\n  secure_access: https://docs.webscale.com/docs/how-tos/security/secure-access/\n\
   \  password_guidance: https://docs.webscale.com/docs/how-tos/security/password-guidance/\n  note: These cover human console login, not API credentials.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/webscale-networks/refs/heads/main/authentication/webscale-networks-authentication.yml
+source_yaml_url: https://artifacts.apis.io/webscale-networks/authentication/webscale-networks-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - E-Commerce

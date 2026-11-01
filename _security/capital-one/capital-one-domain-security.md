@@ -32,7 +32,7 @@ source_filename: capital-one-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.capitalone.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: capitalone.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:domainmgr@capitalone.com\"\n  - 0 issue \"entrust.net\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/security/capital-one-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/capital-one/security/capital-one-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Auto Finance

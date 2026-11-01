@@ -5,67 +5,67 @@ api_specs:
   label: Polar Benefits API
   slug: polar-sh-benefits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-benefits-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-benefits-api-openapi.yml
 - filename: polar-sh-checkouts-api-openapi.yml
   format: yaml
   label: Polar Checkouts API
   slug: polar-sh-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-checkouts-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-checkouts-api-openapi.yml
 - filename: polar-sh-customer-portal-api-openapi.yml
   format: yaml
   label: Polar Customer Portal API
   slug: polar-sh-customer-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-customer-portal-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-customer-portal-api-openapi.yml
 - filename: polar-sh-customers-api-openapi.yml
   format: yaml
   label: Polar Customers API
   slug: polar-sh-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-customers-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-customers-api-openapi.yml
 - filename: polar-sh-events-api-openapi.yml
   format: yaml
   label: Polar Events API
   slug: polar-sh-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-events-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-events-api-openapi.yml
 - filename: polar-sh-license-keys-api-openapi.yml
   format: yaml
   label: Polar License Keys API
   slug: polar-sh-license-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-license-keys-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-license-keys-api-openapi.yml
 - filename: polar-sh-meters-api-openapi.yml
   format: yaml
   label: Polar Meters API
   slug: polar-sh-meters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-meters-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-meters-api-openapi.yml
 - filename: polar-sh-orders-api-openapi.yml
   format: yaml
   label: Polar Orders API
   slug: polar-sh-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-orders-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-orders-api-openapi.yml
 - filename: polar-sh-products-api-openapi.yml
   format: yaml
   label: Polar Products API
   slug: polar-sh-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-products-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-products-api-openapi.yml
 - filename: polar-sh-subscriptions-api-openapi.yml
   format: yaml
   label: Polar Subscriptions API
   slug: polar-sh-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-subscriptions-api-openapi.yml
 - filename: polar-sh-webhooks-api-openapi.yml
   format: yaml
   label: Polar Webhooks API
   slug: polar-sh-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/openapi/polar-sh-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/polar-sh/openapi/polar-sh-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -105,7 +105,7 @@ source_filename: polar-sh-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: polar.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 20:42:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.polar.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 04:39:11 2026 GMT\n  hsts: null\n- host: sandbox-api.polar.sh\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 20:31:04 2026 GMT\n  hsts: null\ndomains:\n- domain: polar.sh\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/polar-sh/refs/heads/main/security/polar-sh-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/polar-sh/security/polar-sh-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Billing

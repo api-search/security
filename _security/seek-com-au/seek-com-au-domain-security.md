@@ -32,7 +32,7 @@ source_filename: seek-com-au-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.seek.com.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 05:37:54 2026 GMT\n  hsts: null\ndomains:\n- domain: seek.com.au\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seek-com-au/refs/heads/main/security/seek-com-au-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/seek-com-au/security/seek-com-au-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

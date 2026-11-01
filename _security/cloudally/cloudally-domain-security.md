@@ -1,47 +1,53 @@
 ---
 api_specs:
-- filename: cloudally-authentication-api-openapi.yml
+- filename: cloudally-api-authorization-api-openapi.yml
   format: yaml
-  label: CloudAlly Authentication API
-  slug: cloudally-authentication-api
+  label: CloudAlly API Authorization API
+  slug: cloudally-api-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-authentication-api-openapi.yml
-- filename: cloudally-backups-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-api-authorization-api-openapi.yml
+- filename: cloudally-backup-management-api-openapi.yml
   format: yaml
-  label: CloudAlly Backups API
-  slug: cloudally-backups-api
+  label: CloudAlly Backup management API
+  slug: cloudally-backup-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-backups-api-openapi.yml
-- filename: cloudally-billing-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-backup-management-api-openapi.yml
+- filename: cloudally-billing-management-api-openapi.yml
   format: yaml
-  label: CloudAlly Billing API
-  slug: cloudally-billing-api
+  label: CloudAlly Billing management API
+  slug: cloudally-billing-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-billing-api-openapi.yml
-- filename: cloudally-partners-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-billing-management-api-openapi.yml
+- filename: cloudally-distributor-backup-management-api-openapi.yml
   format: yaml
-  label: CloudAlly Partners API
-  slug: cloudally-partners-api
+  label: CloudAlly Distributor Backup management API
+  slug: cloudally-distributor-backup-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-partners-api-openapi.yml
-- filename: cloudally-restore-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-distributor-backup-management-api-openapi.yml
+- filename: cloudally-partner-portal-api-openapi.yml
   format: yaml
-  label: CloudAlly Restore API
-  slug: cloudally-restore-api
+  label: CloudAlly Partner Portal API
+  slug: cloudally-partner-portal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-restore-api-openapi.yml
-- filename: cloudally-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-partner-portal-api-openapi.yml
+- filename: cloudally-reseller-backup-management-api-openapi.yml
   format: yaml
-  label: CloudAlly Tasks API
-  slug: cloudally-tasks-api
+  label: CloudAlly Reseller Backup management API
+  slug: cloudally-reseller-backup-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-tasks-api-openapi.yml
-- filename: cloudally-users-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-reseller-backup-management-api-openapi.yml
+- filename: cloudally-restore-download-api-openapi.yml
   format: yaml
-  label: CloudAlly Users API
-  slug: cloudally-users-api
+  label: CloudAlly Restore & Download API
+  slug: cloudally-restore-download-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/openapi/cloudally-users-api-openapi.yml
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-restore-download-api-openapi.yml
+- filename: cloudally-user-management-api-openapi.yml
+  format: yaml
+  label: CloudAlly User management API
+  slug: cloudally-user-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudally/openapi/cloudally-user-management-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +82,7 @@ source_filename: cloudally-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cloudally.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 03:16:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.cloudally.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: cloudally.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudally/refs/heads/main/security/cloudally-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudally/security/cloudally-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Backup

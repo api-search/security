@@ -5,25 +5,25 @@ api_specs:
   label: Avis Budget Group Car Availability API
   slug: avis-budget-car-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-availability-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-car-availability-api-openapi.yml
 - filename: avis-budget-car-locations-api-openapi.yml
   format: yaml
   label: Avis Budget Group Car Locations API
   slug: avis-budget-car-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-locations-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-car-locations-api-openapi.yml
 - filename: avis-budget-car-reservation-api-openapi.yml
   format: yaml
   label: Avis Budget Group Car Reservation API
   slug: avis-budget-car-reservation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-car-reservation-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-car-reservation-api-openapi.yml
 - filename: avis-budget-terms-and-conditions-api-openapi.yml
   format: yaml
   label: Avis Budget Group Terms And Conditions API
   slug: avis-budget-terms-and-conditions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/openapi/avis-budget-terms-and-conditions-api-openapi.yml
+  url: https://artifacts.apis.io/avis-budget/openapi/avis-budget-terms-and-conditions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: avis-budget-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.avisbudgetgroup.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: developer.avis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: stage.abgapiservices.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: avisbudgetgroup.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: avis.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/avis-budget/refs/heads/main/security/avis-budget-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/avis-budget/security/avis-budget-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fortune 500

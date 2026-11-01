@@ -7,7 +7,7 @@ api_specs:
   label: Tana AddToNodeV2 API
   slug: tana-addtonodev2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/openapi/tana-addtonodev2-api-openapi.yml
+  url: https://artifacts.apis.io/tana/openapi/tana-addtonodev2-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: tana-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/tana-input-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Workspace-scoped API token, generated in the Tana client under API Tokens. Sent\n    as `Authorization: Bearer <token>`.'\n  sources:\n  - openapi/tana-input-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tana/refs/heads/main/authentication/tana-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tana/authentication/tana-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

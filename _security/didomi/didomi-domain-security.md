@@ -5,193 +5,193 @@ api_specs:
   label: Didomi consents/events API
   slug: didomi-consents-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-consents-events-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-consents-events-api-openapi.yml
 - filename: didomi-consents-proofs-api-openapi.yml
   format: yaml
   label: Didomi consents/proofs API
   slug: didomi-consents-proofs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-consents-proofs-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-consents-proofs-api-openapi.yml
 - filename: didomi-consents-tokens-api-openapi.yml
   format: yaml
   label: Didomi Consents/tokens API
   slug: didomi-consents-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-consents-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-consents-tokens-api-openapi.yml
 - filename: didomi-consents-users-api-openapi.yml
   format: yaml
   label: Didomi Consents/users API
   slug: didomi-consents-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-consents-users-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-consents-users-api-openapi.yml
 - filename: didomi-cookies-api-openapi.yml
   format: yaml
   label: Didomi Cookies API
   slug: didomi-cookies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-cookies-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-cookies-api-openapi.yml
 - filename: didomi-dashboards-urls-api-openapi.yml
   format: yaml
   label: Didomi Dashboards URLs API
   slug: didomi-dashboards-urls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-dashboards-urls-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-dashboards-urls-api-openapi.yml
 - filename: didomi-domains-api-openapi.yml
   format: yaml
   label: Didomi Domains API
   slug: didomi-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-domains-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-domains-api-openapi.yml
 - filename: didomi-integrations-api-openapi.yml
   format: yaml
   label: Didomi Integrations API
   slug: didomi-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-integrations-api-openapi.yml
 - filename: didomi-keys-api-openapi.yml
   format: yaml
   label: Didomi Keys API
   slug: didomi-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-keys-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-keys-api-openapi.yml
 - filename: didomi-languages-api-openapi.yml
   format: yaml
   label: Didomi Languages API
   slug: didomi-languages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-languages-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-languages-api-openapi.yml
 - filename: didomi-members-api-openapi.yml
   format: yaml
   label: Didomi Members API
   slug: didomi-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-members-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-members-api-openapi.yml
 - filename: didomi-metadata-api-openapi.yml
   format: yaml
   label: Didomi Metadata API
   slug: didomi-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-metadata-api-openapi.yml
 - filename: didomi-metadata-purpose-regulation-override-api-openapi.yml
   format: yaml
   label: Didomi Metadata Purpose Regulation Override API
   slug: didomi-metadata-purpose-regulation-override-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-metadata-purpose-regulation-override-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-metadata-purpose-regulation-override-api-openapi.yml
 - filename: didomi-notices-api-openapi.yml
   format: yaml
   label: Didomi Notices API
   slug: didomi-notices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-notices-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-notices-api-openapi.yml
 - filename: didomi-organizations-api-openapi.yml
   format: yaml
   label: Didomi Organizations API
   slug: didomi-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-organizations-api-openapi.yml
 - filename: didomi-organizations-source-systems-api-openapi.yml
   format: yaml
   label: Didomi Organizations Source Systems API
   slug: didomi-organizations-source-systems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-organizations-source-systems-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-organizations-source-systems-api-openapi.yml
 - filename: didomi-partners-api-openapi.yml
   format: yaml
   label: Didomi Partners API
   slug: didomi-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-partners-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-partners-api-openapi.yml
 - filename: didomi-partners-default-purposes-api-openapi.yml
   format: yaml
   label: Didomi Partners Default Purposes API
   slug: didomi-partners-default-purposes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-partners-default-purposes-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-partners-default-purposes-api-openapi.yml
 - filename: didomi-partners-legitimate-interest-purposes-api-openapi.yml
   format: yaml
   label: Didomi Partners Legitimate Interest Purposes API
   slug: didomi-partners-legitimate-interest-purposes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-partners-legitimate-interest-purposes-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-partners-legitimate-interest-purposes-api-openapi.yml
 - filename: didomi-partners-spi-purposes-api-openapi.yml
   format: yaml
   label: Didomi Partners Spi Purposes API
   slug: didomi-partners-spi-purposes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-partners-spi-purposes-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-partners-spi-purposes-api-openapi.yml
 - filename: didomi-partners-storages-api-openapi.yml
   format: yaml
   label: Didomi Partners Storages API
   slug: didomi-partners-storages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-partners-storages-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-partners-storages-api-openapi.yml
 - filename: didomi-premium-features-api-openapi.yml
   format: yaml
   label: Didomi Premium Features API
   slug: didomi-premium-features-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-premium-features-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-premium-features-api-openapi.yml
 - filename: didomi-privacy-centers-api-openapi.yml
   format: yaml
   label: Didomi Privacy Centers API
   slug: didomi-privacy-centers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-privacy-centers-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-privacy-centers-api-openapi.yml
 - filename: didomi-purposes-api-openapi.yml
   format: yaml
   label: Didomi Purposes API
   slug: didomi-purposes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-purposes-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-purposes-api-openapi.yml
 - filename: didomi-purposes-groups-api-openapi.yml
   format: yaml
   label: Didomi Purposes Groups API
   slug: didomi-purposes-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-purposes-groups-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-purposes-groups-api-openapi.yml
 - filename: didomi-quotas-api-openapi.yml
   format: yaml
   label: Didomi Quotas API
   slug: didomi-quotas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-quotas-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-quotas-api-openapi.yml
 - filename: didomi-secrets-api-openapi.yml
   format: yaml
   label: Didomi Secrets API
   slug: didomi-secrets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-secrets-api-openapi.yml
 - filename: didomi-sessions-api-openapi.yml
   format: yaml
   label: Didomi Sessions API
   slug: didomi-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-sessions-api-openapi.yml
 - filename: didomi-sso-connections-api-openapi.yml
   format: yaml
   label: Didomi SSO Connections API
   slug: didomi-sso-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-sso-connections-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-sso-connections-api-openapi.yml
 - filename: didomi-taxonomies-api-openapi.yml
   format: yaml
   label: Didomi Taxonomies API
   slug: didomi-taxonomies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-taxonomies-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-taxonomies-api-openapi.yml
 - filename: didomi-vendors-api-openapi.yml
   format: yaml
   label: Didomi Vendors API
   slug: didomi-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-vendors-api-openapi.yml
 - filename: didomi-widgets-notices-remote-configs-api-openapi.yml
   format: yaml
   label: Didomi Widgets/notices/remote Configs API
   slug: didomi-widgets-notices-remote-configs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/openapi/didomi-widgets-notices-remote-configs-api-openapi.yml
+  url: https://artifacts.apis.io/didomi/openapi/didomi-widgets-notices-remote-configs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -232,7 +232,7 @@ source_filename: didomi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.didomi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 13:30:45 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.didomi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 00:17:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.didomi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: didomi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/didomi/refs/heads/main/security/didomi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/didomi/security/didomi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising

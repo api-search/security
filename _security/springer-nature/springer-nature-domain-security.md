@@ -5,13 +5,13 @@ api_specs:
   label: Springer Nature Open Access API
   slug: springer-nature-open-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-open-access-api-openapi.yml
+  url: https://artifacts.apis.io/springer-nature/openapi/springer-nature-open-access-api-openapi.yml
 - filename: springer-nature-search-api-openapi.yml
   format: yaml
   label: Springer Nature Search API
   slug: springer-nature-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/openapi/springer-nature-search-api-openapi.yml
+  url: https://artifacts.apis.io/springer-nature/openapi/springer-nature-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: springer-nature-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: dev.springernature.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 11:12:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.springernature.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 11:12:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.springernature.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 07:05:25 2026 GMT\n  hsts: null\ndomains:\n- domain: springernature.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/security/springer-nature-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/springer-nature/security/springer-nature-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Scholarly Publishing

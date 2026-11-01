@@ -7,7 +7,7 @@ api_specs:
   label: Google Play Developer Androidpublisher API
   slug: google-play-androidpublisher-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/openapi/google-play-androidpublisher-api-openapi.yml
+  url: https://artifacts.apis.io/google-play/openapi/google-play-androidpublisher-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -38,7 +38,7 @@ source_filename: google-play-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-play/refs/heads/main/authentication/google-play-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-play/authentication/google-play-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Android

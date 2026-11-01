@@ -7,43 +7,43 @@ api_specs:
   label: Waste Management Cases API
   slug: waste-management-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-cases-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-cases-api-openapi.yml
 - filename: waste-management-contacts-api-openapi.yml
   format: yaml
   label: Waste Management Contacts API
   slug: waste-management-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-contacts-api-openapi.yml
 - filename: waste-management-customers-api-openapi.yml
   format: yaml
   label: Waste Management Customers API
   slug: waste-management-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-customers-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-customers-api-openapi.yml
 - filename: waste-management-invoices-api-openapi.yml
   format: yaml
   label: Waste Management Invoices API
   slug: waste-management-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-invoices-api-openapi.yml
 - filename: waste-management-preferences-api-openapi.yml
   format: yaml
   label: Waste Management Preferences API
   slug: waste-management-preferences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-preferences-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-preferences-api-openapi.yml
 - filename: waste-management-services-api-openapi.yml
   format: yaml
   label: Waste Management Services API
   slug: waste-management-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-services-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-services-api-openapi.yml
 - filename: waste-management-tickets-api-openapi.yml
   format: yaml
   label: Waste Management Tickets API
   slug: waste-management-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/openapi/waste-management-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/waste-management/openapi/waste-management-tickets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: waste-management-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/waste-management-customer-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: JSON Web Token (JWT) provided by WM.\n  sources:\n  - openapi/waste-management-customer-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waste-management/refs/heads/main/authentication/waste-management-authentication.yml
+source_yaml_url: https://artifacts.apis.io/waste-management/authentication/waste-management-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Environmental Services

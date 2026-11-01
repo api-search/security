@@ -7,85 +7,85 @@ api_specs:
   label: Facebook Business Manager Ad Accounts API
   slug: facebook-business-manager-ad-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-accounts-api-openapi.yml
 - filename: facebook-business-manager-ad-creatives-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ad Creatives API
   slug: facebook-business-manager-ad-creatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-creatives-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-creatives-api-openapi.yml
 - filename: facebook-business-manager-ad-images-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ad Images API
   slug: facebook-business-manager-ad-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-images-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-images-api-openapi.yml
 - filename: facebook-business-manager-ad-sets-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ad Sets API
   slug: facebook-business-manager-ad-sets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ad-sets-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ad-sets-api-openapi.yml
 - filename: facebook-business-manager-ads-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Ads API
   slug: facebook-business-manager-ads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-ads-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-ads-api-openapi.yml
 - filename: facebook-business-manager-campaigns-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Campaigns API
   slug: facebook-business-manager-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-campaigns-api-openapi.yml
 - filename: facebook-business-manager-comments-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Comments API
   slug: facebook-business-manager-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-comments-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-comments-api-openapi.yml
 - filename: facebook-business-manager-custom-audiences-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Custom Audiences API
   slug: facebook-business-manager-custom-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-custom-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-custom-audiences-api-openapi.yml
 - filename: facebook-business-manager-insights-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Insights API
   slug: facebook-business-manager-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-insights-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-insights-api-openapi.yml
 - filename: facebook-business-manager-page-insights-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Page Insights API
   slug: facebook-business-manager-page-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-page-insights-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-page-insights-api-openapi.yml
 - filename: facebook-business-manager-pages-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Pages API
   slug: facebook-business-manager-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-pages-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-pages-api-openapi.yml
 - filename: facebook-business-manager-photos-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Photos API
   slug: facebook-business-manager-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-photos-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-photos-api-openapi.yml
 - filename: facebook-business-manager-posts-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Posts API
   slug: facebook-business-manager-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-posts-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-posts-api-openapi.yml
 - filename: facebook-business-manager-videos-api-openapi.yml
   format: yaml
   label: Facebook Business Manager Videos API
   slug: facebook-business-manager-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/openapi/facebook-business-manager-videos-api-openapi.yml
+  url: https://artifacts.apis.io/facebook-business-manager/openapi/facebook-business-manager-videos-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -136,7 +136,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ only. Never ship an app access token to a client.\n  - name: System user access token\n    obtained_via: Business Manager > Business Settings > System Users\n    lifetime: Non-expiring\n    rate_limit_regime: Business Use Case Rate Limits\n    note: >-\n      The right credential for unattended server-to-server automation. Not tied to a human account, so it\n      does not break when an employee leaves or when the 90-day permission decay fires.\n  - name: Client token\n    obtained_via: App Dashboard > Settings > Advanced\n    lifetime: Static\n    note: Limited-privilege identifier for mobile/web clients; not a substitute for a user token.\nrequest_signing:\n  name: appsecret_proof\n  algorithm: HMAC-SHA256 of the access token, keyed by the app secret, hex-encoded\n  transport: appsecret_proof query parameter (with appsecret_time)\n  required: false\n  note: >-\n    Recommended for all server-side calls. Prevents a stolen access token being replayed by a different app.\n    Can be made\
   \ mandatory per app in the App Dashboard.\ntoken_introspection:\n  endpoint: 'GET /debug_token?input_token={token}&access_token={app-token}'\n  tool: https://developers.facebook.com/tools/debug/accesstoken/\n  returns: app_id, type, application, expires_at, is_valid, scopes granted, user_id\nmcp_authentication:\n  servers:\n    - endpoint: https://mcp.facebook.com/ads\n      scheme: OAuth 2.0 bearer\n      challenge: >-\n        HTTP 401 with WWW-Authenticate: Bearer resource_metadata=\"https://mcp.facebook.com/.well-known/\n        oauth-protected-resource/ads\", scope=\"ads_management ads_read catalog_management business_management\n        pages_show_list instagram_basic ads_mcp_management\"\n      probed: '2026-08-13'\n    - endpoint: https://mcp.facebook.com/devtools\n      scheme: OAuth 2.0 bearer\n      probed: '2026-08-13'\n  rfc9728: true\n  revocation: facebook.com > Settings > Business Integrations\nauthorization_lifecycle:\n  - name: App Review\n    description: Required before\
   \ an app can use any permission granting access to data it does not own.\n  - name: Business Verification\n    description: Required for all apps requesting Advanced Access.\n  - name: Data Use Checkup\n    description: Annual recertification of permission use.\n  - name: 90-day regrant\n    description: >-\n      A permission unused for 90 days must be granted again by the app user. This revokes working\n      authorization without any API-level warning.\nauthorization_lifecycle_reference: lifecycle/facebook-business-manager-lifecycle.yml\nmutual_tls: false\napi_keys: false\napi_keys_note: >-\n  There is no static API key on this platform. Every call carries an OAuth access token; the closest thing\n  to a long-lived key is a system user token.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/authentication/facebook-business-manager-authentication.yml
+source_yaml_url: https://artifacts.apis.io/facebook-business-manager/authentication/facebook-business-manager-authentication.yml
 summary_line: oauth2/http/openIdConnect · 3 schemes
 tags:
 - Advertising

@@ -7,43 +7,43 @@ api_specs:
   label: Australian Military Bank Banking Account Balances API
   slug: australian-military-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-account-balances-api-openapi.yml
 - filename: australian-military-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Account Direct Debits API
   slug: australian-military-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-account-direct-debits-api-openapi.yml
 - filename: australian-military-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Account Scheduled Payments API
   slug: australian-military-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: australian-military-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Account Transactions API
   slug: australian-military-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-account-transactions-api-openapi.yml
 - filename: australian-military-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Accounts API
   slug: australian-military-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-accounts-api-openapi.yml
 - filename: australian-military-bank-banking-payees-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Payees API
   slug: australian-military-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-payees-api-openapi.yml
 - filename: australian-military-bank-banking-products-api-openapi.yml
   format: yaml
   label: Australian Military Bank Banking Products API
   slug: australian-military-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/openapi/australian-military-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/australian-military-bank/openapi/australian-military-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -88,7 +88,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\ndocs: https://consumerdatastandardsaustralia.github.io/standards/#security-profile\nsummary:\n  types: [none, oauth2, openIdConnect, mutualTLS]\n  public_surface: unauthenticated\n  authenticated_surface: cdr-fapi\nnotes: >-\n  The OpenAPI in this repo is the Data Standards Body CDR Banking API. Only the\n  Product Reference Data (PRD) endpoints (GET /banking/products and\n  GET /banking/products/{productId}) are exposed on Australian Military Bank's\n  public host and they require NO authentication. All consumer-data endpoints\n  (accounts, balances, transactions, direct debits, scheduled payments, payees)\n  are available only to CDR-accredited data recipients over the authenticated,\n  FAPI-profiled CDR data-holder flow; the spec documents the required CDR scopes\n  as x-scopes extensions (bank:accounts.basic:read, bank:accounts.detail:read,\n\
   \  bank:transactions:read, bank:regular_payments:read, bank:payees:read) but\n  declares no formal OpenAPI securitySchemes.\nschemes:\n  - name: public-prd\n    type: none\n    applies_to:\n      - listBankingProducts\n      - getBankingProductDetail\n    description: >-\n      Public, unauthenticated Product Reference Data. No API key, token, or\n      client certificate is required. Callers MUST send an x-v header to\n      negotiate the endpoint version (currently x-v: 3 for products).\n  - name: cdr-fapi\n    type: oauth2\n    scheme: authorization_code\n    profile: FAPI 2.0 (AU-CDR)\n    token_binding: mutualTLS\n    description: >-\n      Consumer data sharing uses the CDR security profile: OpenID Connect\n      hybrid/authorization-code flow with PAR, mTLS-bound access tokens, and\n      the AU adaptations of FAPI. Access is limited to software products\n      registered with the CDR Register and accredited by the ACCC/OAIC. Not\n      exercisable via this public repo.\n    scopes:\n\
   \      - bank:accounts.basic:read\n      - bank:accounts.detail:read\n      - bank:transactions:read\n      - bank:regular_payments:read\n      - bank:payees:read\n      - common:customer.basic:read\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/australian-military-bank/refs/heads/main/authentication/australian-military-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/australian-military-bank/authentication/australian-military-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 2 schemes
 tags:
 - Finance

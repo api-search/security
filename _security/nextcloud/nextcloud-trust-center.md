@@ -5,25 +5,25 @@ api_specs:
   label: Nextcloud Autocomplete API
   slug: nextcloud-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/openapi/nextcloud-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/nextcloud/openapi/nextcloud-autocomplete-api-openapi.yml
 - filename: nextcloud-capabilities-api-openapi.yml
   format: yaml
   label: Nextcloud Capabilities API
   slug: nextcloud-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/openapi/nextcloud-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/nextcloud/openapi/nextcloud-capabilities-api-openapi.yml
 - filename: nextcloud-dav-api-openapi.yml
   format: yaml
   label: Nextcloud DAV API
   slug: nextcloud-dav-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/openapi/nextcloud-dav-api-openapi.yml
+  url: https://artifacts.apis.io/nextcloud/openapi/nextcloud-dav-api-openapi.yml
 - filename: nextcloud-users-api-openapi.yml
   format: yaml
   label: Nextcloud Users API
   slug: nextcloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/openapi/nextcloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/nextcloud/openapi/nextcloud-users-api-openapi.yml
 certification_count: 4
 certifications:
 - ISO 27001
@@ -43,7 +43,7 @@ source_filename: nextcloud-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://nextcloud.com/compliance/\nurl: https://nextcloud.com/compliance/\ncertifications:\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://nextcloud.com/compliance/\n  keywords:\n  - iso 27001\n  - pci dss\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/security/nextcloud-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/nextcloud/security/nextcloud-trust-center.yml
 summary_line: ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - File Sync

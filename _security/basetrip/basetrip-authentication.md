@@ -8,43 +8,43 @@ api_specs:
   label: Basetrip Cities API
   slug: basetrip-cities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-cities-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-cities-api-openapi.yml
 - filename: basetrip-cost-api-openapi.yml
   format: yaml
   label: Basetrip Cost API
   slug: basetrip-cost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-cost-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-cost-api-openapi.yml
 - filename: basetrip-countries-api-openapi.yml
   format: yaml
   label: Basetrip Countries API
   slug: basetrip-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-countries-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-countries-api-openapi.yml
 - filename: basetrip-health-api-openapi.yml
   format: yaml
   label: Basetrip Health API
   slug: basetrip-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-health-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-health-api-openapi.yml
 - filename: basetrip-phrases-api-openapi.yml
   format: yaml
   label: Basetrip Phrases API
   slug: basetrip-phrases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-phrases-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-phrases-api-openapi.yml
 - filename: basetrip-safety-api-openapi.yml
   format: yaml
   label: Basetrip Safety API
   slug: basetrip-safety-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-safety-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-safety-api-openapi.yml
 - filename: basetrip-visa-api-openapi.yml
   format: yaml
   label: Basetrip Visa API
   slug: basetrip-visa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/openapi/basetrip-visa-api-openapi.yml
+  url: https://artifacts.apis.io/basetrip/openapi/basetrip-visa-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -71,7 +71,7 @@ source_filename: basetrip-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/basetrip-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/basetrip-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/authentication/basetrip-authentication.yml
+source_yaml_url: https://artifacts.apis.io/basetrip/authentication/basetrip-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cities

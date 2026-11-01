@@ -8,7 +8,7 @@ api_specs:
   label: Skymerse Notams API
   slug: skymerse-notams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/skymerse/refs/heads/main/openapi/skymerse-notams-api-openapi.yml
+  url: https://artifacts.apis.io/skymerse/openapi/skymerse-notams-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -39,7 +39,7 @@ source_filename: skymerse-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/skymerse-notamify-openapi-original.json\ndocs: https://skymerse.gitbook.io/notamify-api/basics/authentication-guide\nsummary:\n  types:\n  - http\n  api_key_in:\n  - header\n  oauth2_flows: []\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  format: 'Authorization: Bearer YOUR_API_KEY'\n  key_management: https://notamify.com/api-manager\n  notes: >-\n    Notamify API keys are passed as bearer tokens in the Authorization header.\n    Generate and rotate keys in the API Manager. All endpoints are served\n    exclusively over TLS; plain-HTTP requests are rejected. The Python SDK can\n    read the token from the NOTAMIFY_TOKEN environment variable or\n    ~/.config/notamify/config.json. No OAuth scopes are documented — access is a\n    single API-key credential metered by a credit-based usage model.\n  sources:\n  - openapi/skymerse-notamify-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/skymerse/refs/heads/main/authentication/skymerse-authentication.yml
+source_yaml_url: https://artifacts.apis.io/skymerse/authentication/skymerse-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

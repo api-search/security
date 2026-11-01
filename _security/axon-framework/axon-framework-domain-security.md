@@ -5,55 +5,55 @@ api_specs:
   label: Axon Framework Applications API
   slug: axon-framework-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-applications-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-applications-api-openapi.yml
 - filename: axon-framework-cluster-api-openapi.yml
   format: yaml
   label: Axon Framework Cluster API
   slug: axon-framework-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-cluster-api-openapi.yml
 - filename: axon-framework-commands-api-openapi.yml
   format: yaml
   label: Axon Framework Commands API
   slug: axon-framework-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-commands-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-commands-api-openapi.yml
 - filename: axon-framework-contexts-api-openapi.yml
   format: yaml
   label: Axon Framework Contexts API
   slug: axon-framework-contexts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-contexts-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-contexts-api-openapi.yml
 - filename: axon-framework-event-processors-api-openapi.yml
   format: yaml
   label: Axon Framework Event Processors API
   slug: axon-framework-event-processors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-event-processors-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-event-processors-api-openapi.yml
 - filename: axon-framework-events-api-openapi.yml
   format: yaml
   label: Axon Framework Events API
   slug: axon-framework-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-events-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-events-api-openapi.yml
 - filename: axon-framework-queries-api-openapi.yml
   format: yaml
   label: Axon Framework Queries API
   slug: axon-framework-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-queries-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-queries-api-openapi.yml
 - filename: axon-framework-snapshots-api-openapi.yml
   format: yaml
   label: Axon Framework Snapshots API
   slug: axon-framework-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-snapshots-api-openapi.yml
 - filename: axon-framework-users-api-openapi.yml
   format: yaml
   label: Axon Framework Users API
   slug: axon-framework-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/openapi/axon-framework-users-api-openapi.yml
+  url: https://artifacts.apis.io/axon-framework/openapi/axon-framework-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: axon-framework-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.axoniq.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 18:43:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: axoniq.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/axon-framework/refs/heads/main/security/axon-framework-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/axon-framework/security/axon-framework-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - CQRS

@@ -5,49 +5,49 @@ api_specs:
   label: Flatcar Container Linux Activity API
   slug: flatcar-container-linux-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-activity-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-activity-api-openapi.yml
 - filename: flatcar-container-linux-apps-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Apps API
   slug: flatcar-container-linux-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-apps-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-apps-api-openapi.yml
 - filename: flatcar-container-linux-channels-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Channels API
   slug: flatcar-container-linux-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-channels-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-channels-api-openapi.yml
 - filename: flatcar-container-linux-config-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Config API
   slug: flatcar-container-linux-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-config-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-config-api-openapi.yml
 - filename: flatcar-container-linux-health-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Health API
   slug: flatcar-container-linux-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-health-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-health-api-openapi.yml
 - filename: flatcar-container-linux-instances-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Instances API
   slug: flatcar-container-linux-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-instances-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-instances-api-openapi.yml
 - filename: flatcar-container-linux-login-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Login API
   slug: flatcar-container-linux-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-login-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-login-api-openapi.yml
 - filename: flatcar-container-linux-update-api-openapi.yml
   format: yaml
   label: Flatcar Container Linux Update API
   slug: flatcar-container-linux-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/openapi/flatcar-container-linux-update-api-openapi.yml
+  url: https://artifacts.apis.io/flatcar-container-linux/openapi/flatcar-container-linux-update-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: flatcar-container-linux-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.flatcar.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 07:02:28 2026 GMT\n  hsts: true\n  hsts_max_age: 10886400\n- host: nebraska.flatcar-linux.org\n  https: false\ndomains:\n- domain: flatcar.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: flatcar-linux.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flatcar-container-linux/refs/heads/main/security/flatcar-container-linux-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flatcar-container-linux/security/flatcar-container-linux-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Cloud-Native

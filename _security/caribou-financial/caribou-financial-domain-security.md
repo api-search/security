@@ -26,12 +26,12 @@ source_filename: caribou-financial-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cariboufinancial.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 19 21:31:30 2027 GMT\n  hsts: false\ndomains:\n- domain: cariboufinancial.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/caribou-financial/refs/heads/main/security/caribou-financial-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/caribou-financial/security/caribou-financial-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
 - Fintech
-- AutoLoans
+- Auto Loans
 - Refinancing
-- ConsumerFinance
+- Consumer Finance
 ---

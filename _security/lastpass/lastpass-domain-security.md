@@ -42,7 +42,7 @@ source_filename: lastpass-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lastpass.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 12:51:12 2026 GMT\n  hsts: true\n  hsts_max_age: 86400000\n- host: support.lastpass.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\n- host: lastpass.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 12:51:12 2026 GMT\n  hsts: true\n  hsts_max_age: 86400000\ndomains:\n- domain: lastpass.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 iodef \"mailto:domain@lastpass.com\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lastpass/refs/heads/main/security/lastpass-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lastpass/security/lastpass-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security

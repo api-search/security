@@ -5,37 +5,49 @@ api_specs:
   label: Amazon SNS Amazon SNS Amazon Simple Notification Service (SNS) API
   slug: amazon-sns-amazon-sns-amazon-simple-notification-service-sns-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-amazon-sns-amazon-simple-notification-service-sns-api-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-amazon-sns-amazon-simple-notification-service-sns-api-api-openapi.yml
 - filename: amazon-sns-platform-applications-api-openapi.yml
   format: yaml
   label: Amazon SNS Platform Applications API
   slug: amazon-sns-platform-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-platform-applications-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-platform-applications-api-openapi.yml
 - filename: amazon-sns-publishing-api-openapi.yml
   format: yaml
   label: Amazon SNS Publishing API
   slug: amazon-sns-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-publishing-api-openapi.yml
 - filename: amazon-sns-sms-api-openapi.yml
   format: yaml
   label: Amazon SNS SMS API
   slug: amazon-sns-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-sms-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-sms-api-openapi.yml
 - filename: amazon-sns-subscriptions-api-openapi.yml
   format: yaml
   label: Amazon SNS Subscriptions API
   slug: amazon-sns-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-subscriptions-api-openapi.yml
 - filename: amazon-sns-topics-api-openapi.yml
   format: yaml
   label: Amazon SNS Topics API
   slug: amazon-sns-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/openapi/amazon-sns-topics-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-topics-api-openapi.yml
+- filename: amazon-sns-operations-api-openapi.yml
+  format: yaml
+  label: Amazon SNS Sns Operations API
+  slug: amazon-sns-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-operations-api-openapi.yml
+- filename: amazon-sns-sms-sandbox-phone-number-api-openapi.yml
+  format: yaml
+  label: Amazon SNS Sns Sms Sandbox Phone Number API
+  slug: amazon-sns-sms-sandbox-phone-number-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sns/openapi/amazon-sns-sms-sandbox-phone-number-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +77,7 @@ source_filename: amazon-sns-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/security/amazon-sns-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-sns/security/amazon-sns-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email

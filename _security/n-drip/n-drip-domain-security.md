@@ -33,7 +33,7 @@ source_filename: n-drip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ndrip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 11:45:46 2026 GMT\n  hsts: false\n- host: app.ndrip.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: false\n  note: N-Drip Connect web application (S3 + CloudFront origin); added by the enrichment pass because\n    apis[] is empty so the automated probe did not reach it.\ndomains:\n- domain: ndrip.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\nnote: ndrip.com serves no HSTS header and publishes no CAA record or DNSSEC; SPF and DMARC are present\n  but DMARC policy is p=none (monitor only, no enforcement). Both company hosts negotiate TLS 1.3.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/n-drip/refs/heads/main/security/n-drip-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/n-drip/security/n-drip-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

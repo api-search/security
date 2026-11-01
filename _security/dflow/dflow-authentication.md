@@ -8,43 +8,43 @@ api_specs:
   label: DFlow Admin API
   slug: dflow-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-admin-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-admin-api-openapi.yml
 - filename: dflow-intent-api-openapi.yml
   format: yaml
   label: DFlow Intent API
   slug: dflow-intent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-intent-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-intent-api-openapi.yml
 - filename: dflow-order-api-openapi.yml
   format: yaml
   label: DFlow Order API
   slug: dflow-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-order-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-order-api-openapi.yml
 - filename: dflow-prediction-market-api-openapi.yml
   format: yaml
   label: DFlow Prediction Market API
   slug: dflow-prediction-market-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-prediction-market-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-prediction-market-api-openapi.yml
 - filename: dflow-swap-api-openapi.yml
   format: yaml
   label: DFlow Swap API
   slug: dflow-swap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-swap-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-swap-api-openapi.yml
 - filename: dflow-tokens-api-openapi.yml
   format: yaml
   label: DFlow Tokens API
   slug: dflow-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-tokens-api-openapi.yml
 - filename: dflow-venues-api-openapi.yml
   format: yaml
   label: DFlow Venues API
   slug: dflow-venues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/openapi/dflow-venues-api-openapi.yml
+  url: https://artifacts.apis.io/dflow/openapi/dflow-venues-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: dflow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/dflow-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key for authentication. Contact hello@dflow.net to obtain an API key.\n  sources:\n  - openapi/dflow-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dflow/refs/heads/main/authentication/dflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/dflow/authentication/dflow-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

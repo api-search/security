@@ -7,13 +7,13 @@ api_specs:
   label: Contentful Webhooks
   slug: contentful-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/contentful/openapi/contentful-webhooks-asyncapi.yml
 - filename: contentful-spaces-api-openapi.yml
   format: yaml
   label: Contentful Spaces API
   slug: contentful-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/openapi/contentful-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/contentful/openapi/contentful-spaces-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -39,7 +39,7 @@ source_filename: contentful-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/contentful-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/contentful-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contentful/refs/heads/main/authentication/contentful-authentication.yml
+source_yaml_url: https://artifacts.apis.io/contentful/authentication/contentful-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - CMS

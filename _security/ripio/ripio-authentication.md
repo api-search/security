@@ -7,79 +7,79 @@ api_specs:
   label: Ripio Book API
   slug: ripio-book-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-book-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-book-api-openapi.yml
 - filename: ripio-cryptocurrency-deposits-api-openapi.yml
   format: yaml
   label: Ripio Cryptocurrency Deposits API
   slug: ripio-cryptocurrency-deposits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-cryptocurrency-deposits-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-cryptocurrency-deposits-api-openapi.yml
 - filename: ripio-cryptocurrency-withdrawals-api-openapi.yml
   format: yaml
   label: Ripio Cryptocurrency Withdrawals API
   slug: ripio-cryptocurrency-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-cryptocurrency-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-cryptocurrency-withdrawals-api-openapi.yml
 - filename: ripio-general-endpoints-api-openapi.yml
   format: yaml
   label: Ripio General endpoints API
   slug: ripio-general-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-general-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-general-endpoints-api-openapi.yml
 - filename: ripio-orders-api-openapi.yml
   format: yaml
   label: Ripio Orders API
   slug: ripio-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-orders-api-openapi.yml
 - filename: ripio-public-api-openapi.yml
   format: yaml
   label: Ripio Public API
   slug: ripio-public-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-public-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-public-api-openapi.yml
 - filename: ripio-ticker-api-openapi.yml
   format: yaml
   label: Ripio Ticker API
   slug: ripio-ticker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-ticker-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-ticker-api-openapi.yml
 - filename: ripio-ticket-api-openapi.yml
   format: yaml
   label: Ripio Ticket API
   slug: ripio-ticket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-ticket-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-ticket-api-openapi.yml
 - filename: ripio-transactions-api-openapi.yml
   format: yaml
   label: Ripio Transactions API
   slug: ripio-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-transactions-api-openapi.yml
 - filename: ripio-user-api-openapi.yml
   format: yaml
   label: Ripio User API
   slug: ripio-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-user-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-user-api-openapi.yml
 - filename: ripio-wallets-api-openapi.yml
   format: yaml
   label: Ripio Wallets API
   slug: ripio-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-wallets-api-openapi.yml
 - filename: ripio-websocket-api-api-openapi.yml
   format: yaml
   label: Ripio WebSocket API
   slug: ripio-websocket-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-websocket-api-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-websocket-api-api-openapi.yml
 - filename: ripio-websocket-stream-api-openapi.yml
   format: yaml
   label: Ripio WebSocket Stream API
   slug: ripio-websocket-stream-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/openapi/ripio-websocket-stream-api-openapi.yml
+  url: https://artifacts.apis.io/ripio/openapi/ripio-websocket-stream-api-openapi.yml
 auth_types:
 - apiToken
 description: ''
@@ -105,7 +105,7 @@ source_filename: ripio-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/ripio-trade-openapi.yml\nsummary:\n  types:\n  - apiToken\nschemes:\n- name: API Credentials\n  type: apiToken\n  description: |-\n    You can create API Credentials on: <https://trade.ripio.com/market/api/token>.\n\n     After creating the **API Credentials**, you'll need to save in a safe place two pieces of information, an **API Token** and a **Secret Key**. The credentials are required respectively to **Authenticate** and **Sign** all Private REST Requests.\n\n     **Attention**: The Secret Key can only be viewed once and cannot be retri\n  sources:\n  - openapi/ripio-trade-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ripio/refs/heads/main/authentication/ripio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ripio/authentication/ripio-authentication.yml
 summary_line: apiToken · 1 scheme
 tags:
 - Company

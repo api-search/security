@@ -7,37 +7,37 @@ api_specs:
   label: AgentGateway Config API
   slug: agentgateway-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-config-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-config-api-openapi.yml
 - filename: agentgateway-debug-api-openapi.yml
   format: yaml
   label: AgentGateway Debug API
   slug: agentgateway-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-debug-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-debug-api-openapi.yml
 - filename: agentgateway-lifecycle-api-openapi.yml
   format: yaml
   label: AgentGateway Lifecycle API
   slug: agentgateway-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-lifecycle-api-openapi.yml
 - filename: agentgateway-logging-api-openapi.yml
   format: yaml
   label: AgentGateway Logging API
   slug: agentgateway-logging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-logging-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-logging-api-openapi.yml
 - filename: agentgateway-memory-api-openapi.yml
   format: yaml
   label: AgentGateway Memory API
   slug: agentgateway-memory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-memory-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-memory-api-openapi.yml
 - filename: agentgateway-profiling-api-openapi.yml
   format: yaml
   label: AgentGateway Profiling API
   slug: agentgateway-profiling-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/openapi/agentgateway-profiling-api-openapi.yml
+  url: https://artifacts.apis.io/agentgateway/openapi/agentgateway-profiling-api-openapi.yml
 auth_types: []
 description: Authentication for agentgateway has two distinct sides and they must not be conflated. (1) The ADMIN/DEBUG API this repo describes in openapi/ has NO authentication at all - it is protected by binding to loopback. (2) The gateway's DATA PLANE offers a rich inbound and backend authentication toolkit that YOU configure for the traffic passing through. Nothing here is a credential you obtain from agentgateway; there is no account, no key issuance, no signup.
 kind: authentication
@@ -65,7 +65,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: https://agentga
   \ it proxies to.\n  methods:\n    - id: static-key\n      name: Static keys and passthrough\n      docs: https://agentgateway.dev/docs/standalone/latest/configuration/security/backend-authn/key/\n    - id: jwt-sign\n      name: Signed JWT assertion (jwtSign)\n      docs: https://agentgateway.dev/docs/standalone/latest/configuration/security/backend-authn/jwt-sign/\n      detail: For upstreams that refuse a durable credential, such as Snowflake.\n    - id: oauth-token-exchange\n      name: OAuth token exchange (RFC 8693)\n      docs: https://agentgateway.dev/docs/standalone/latest/configuration/security/backend-authn/oauth-token-exchange/\n    - id: cross-app-access\n      name: Cross App Access (ID-JAG)\n      docs: https://agentgateway.dev/docs/standalone/latest/configuration/security/backend-authn/cross-app-access/\n    - id: aws\n      name: AWS SigV4 request signing\n      docs: https://agentgateway.dev/docs/standalone/latest/configuration/security/backend-authn/providers/aws/\n  \
   \  - id: gcp\n      name: Google Cloud credentials\n      docs: https://agentgateway.dev/docs/standalone/latest/configuration/security/backend-authn/providers/gcp/\n    - id: azure\n      name: Microsoft Entra ID token\n      docs: https://agentgateway.dev/docs/standalone/latest/configuration/security/backend-authn/providers/azure/\n    - id: copilot\n      name: GitHub Copilot token\n      docs: https://agentgateway.dev/docs/standalone/latest/configuration/security/backend-authn/providers/copilot/\n    - id: backend-tls\n      name: Backend TLS\n      docs: https://agentgateway.dev/docs/standalone/latest/configuration/security/backend-tls/\n    - id: spiffe\n      name: SPIFFE workload identity mTLS\n      docs: https://github.com/agentgateway/agentgateway/tree/main/examples/traffic-spiffe\nscopes:\n  applicable: false\n  note: >-\n    Agentgateway issues no OAuth scopes of its own. Scopes belong to whichever identity provider a\n    deployment configures; agentgateway validates the resulting\
   \ token. No scopes/ artifact is written -\n    an empty scope registry would misrepresent the product.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentgateway/refs/heads/main/authentication/agentgateway-authentication.yml
+source_yaml_url: https://artifacts.apis.io/agentgateway/authentication/agentgateway-authentication.yml
 summary_line: 0 schemes
 tags:
 - AI Gateway

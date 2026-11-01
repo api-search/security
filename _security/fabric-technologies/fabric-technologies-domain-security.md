@@ -33,7 +33,7 @@ source_filename: fabric-technologies-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: meetfabric.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 15:09:22 2026 GMT\n  hsts: null\ndomains:\n- domain: meetfabric.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:security@meetfabric.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.apple.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fabric-technologies/refs/heads/main/security/fabric-technologies-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fabric-technologies/security/fabric-technologies-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

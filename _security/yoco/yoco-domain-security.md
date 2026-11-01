@@ -5,31 +5,31 @@ api_specs:
   label: Yoco Checkout API
   slug: yoco-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-checkout-api-openapi.yml
 - filename: yoco-payment-links-api-openapi.yml
   format: yaml
   label: Yoco Payment Links API
   slug: yoco-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-payment-links-api-openapi.yml
 - filename: yoco-payments-api-openapi.yml
   format: yaml
   label: Yoco Payments API
   slug: yoco-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-payments-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-payments-api-openapi.yml
 - filename: yoco-refunds-api-openapi.yml
   format: yaml
   label: Yoco Refunds API
   slug: yoco-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-refunds-api-openapi.yml
 - filename: yoco-webhooks-api-openapi.yml
   format: yaml
   label: Yoco Webhooks API
   slug: yoco-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/openapi/yoco-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/yoco/openapi/yoco-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -97,7 +97,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: payments.yoco.com\n  https: true\n  http_version: HTTP/2\n  tls_versions:\n  - TLSv1.2\n  - TLSv1.3\n  cert_issuer: Google Trust Services (WE1)\n  cert_not_before: May 19 21:44:52 2026 GMT\n  cert_expires: Aug 17 22:44:48 2026 GMT\n  hsts: not observed on 303 response\n  note: Checkout API and webhooks host. Root path returns 303.\n- host: api.yoco.com\n  https: true\n  http_version: HTTP/2\n  cert_issuer: Google Trust Services (WE1)\n  cert_not_before: May 19 21:44:52 2026 GMT\n  cert_expires: Aug 17 22:44:48 2026 GMT\n  hsts: not observed on 303 response\n  note: Versioned Yoco API (v1) host. Root path returns 303.\n- host: developer.yoco.com\n  https: true\n  http_version: HTTP/2\n  cert_issuer: Google Trust Services (WE1)\n  cert_not_before: May 19 21:44:52 2026 GMT\n  cert_expires: Aug 17 22:44:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n  hsts_include_subdomains:\
   \ true\n  hsts_preload: true\n  note: Developer hub (Fern-hosted docs).\n- host: yoco.com\n  https: true\n  http_version: HTTP/2\n  cert_issuer: Google Trust Services (WE1)\n  cert_not_before: May 19 21:44:52 2026 GMT\n  cert_expires: Aug 17 22:44:48 2026 GMT\n  hsts: not observed on 301 response\n  note: Marketing root; redirects (301).\ndomains:\n- domain: yoco.com\n  dnssec: false\n  dmarc: true\n  dmarc_policy: reject\n  dmarc_pct: 100\n  caa:\n  - '0 issuewild \"comodoca.com\"'\n  - '0 issuewild \"digicert.com; cansignhttpexchanges=yes\"'\n  - '0 issuewild \"letsencrypt.org\"'\n  spf: not_probed\nnotes: >-\n  All four probed hosts presented the same Google Trust Services (WE1)\n  certificate (consistent with a wildcard *.yoco.com), TLS 1.2 and 1.3, over\n  HTTP/2. HSTS with a two-year max-age, includeSubDomains, and preload was\n  observed on developer.yoco.com; it was not present on the redirect responses\n  from the API hosts at probe time. yoco.com publishes a strict DMARC policy\n\
   \  (p=reject, pct=100) and a CAA record limiting issuance. _dmarc / CAA lookups\n  on the API subdomains returned no records at probe time (they inherit the\n  organizational domain policy). Probes run 2026-07-12.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yoco/refs/heads/main/security/yoco-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/yoco/security/yoco-domain-security.yml
 summary_line: HSTS · DMARC
 tags:
 - Payments

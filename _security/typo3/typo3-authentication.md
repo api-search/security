@@ -7,25 +7,25 @@ api_specs:
   label: TYPO3 Cache API
   slug: typo3-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-cache-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-cache-api-openapi.yml
 - filename: typo3-major-api-openapi.yml
   format: yaml
   label: TYPO3 Major API
   slug: typo3-major-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-major-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-major-api-openapi.yml
 - filename: typo3-release-api-openapi.yml
   format: yaml
   label: TYPO3 Release API
   slug: typo3-release-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-release-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-release-api-openapi.yml
 - filename: typo3-sitepackage-api-openapi.yml
   format: yaml
   label: TYPO3 Sitepackage API
   slug: typo3-sitepackage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/openapi/typo3-sitepackage-api-openapi.yml
+  url: https://artifacts.apis.io/typo3/openapi/typo3-sitepackage-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ source_filename: typo3-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/typo3-releases-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: Basic\n  type: http\n  scheme: basic\n  sources:\n  - openapi/typo3-releases-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/typo3/refs/heads/main/authentication/typo3-authentication.yml
+source_yaml_url: https://artifacts.apis.io/typo3/authentication/typo3-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - CMS

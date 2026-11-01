@@ -9,13 +9,13 @@ api_specs:
   label: Electricity North West Catalog API
   slug: electricity-north-west-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/openapi/electricity-north-west-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/electricity-north-west/openapi/electricity-north-west-catalog-api-openapi.yml
 - filename: electricity-north-west-dataset-api-openapi.yml
   format: yaml
   label: Electricity North West Dataset API
   slug: electricity-north-west-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/openapi/electricity-north-west-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/electricity-north-west/openapi/electricity-north-west-dataset-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: >-\n  Derived f
   \ registration yields a client_id and client_secret and\n    requires a redirect URI.\n  token_lifetime: >-\n    The authorization code is 30 characters and must be exchanged within 1 hour.\n    Bearer tokens expire and are renewed with a refresh token.\n  documented_only: true\n  probe:\n    authorize_endpoint_status: 200 (redirects to /login/?next=/oauth2/authorize/)\n    token_endpoint_status: 405 on GET (POST-only, as documented)\n  sources: [https://help.opendatasoft.com/apis/ods-explore-v2/#section/Authentication]\nkey_management:\n  url: https://electricitynorthwest.opendatasoft.com/account/\n  page: My API keys tab of the portal account page\n  registration: https://electricitynorthwest.opendatasoft.com/pages/registration_log_in/\n  cost: free self-serve account\n  scoping: >-\n    By default an API key inherits the full rights of the user that created it,\n    so keys must not be shared. Per-key permissions can be narrowed through the\n    separate Automation API.\n  revocation:\
   \ Keys can be listed and revoked from the same account page.\naccess_observations:\n  generated: '2026-07-27'\n  anonymous_allowed:\n  - GET /api/explore/v2.1/catalog/datasets — 200, total_count 146\n  - GET /api/explore/v2.1/catalog/datasets/{dataset_id} — 200\n  - GET /api/explore/v2.1/catalog/facets — 200\n  - GET /api/explore/v2.1/catalog/exports — 200\n  - GET /api/explore/v2.1/catalog/exports/dcat — 200 (4.9 MB RDF/XML)\n  anonymous_denied:\n  - >-\n    GET /api/explore/v2.1/catalog/datasets/{dataset_id}/records — error_code\n    \"ForbiddenAccess\" on all five datasets probed (dfes-lv-headroom-monitored,\n    enwl_control_boundary, biodiversity-tree-opportunity, lv_load_duration,\n    enwl-lsoa-polygons). Several dataset descriptions state \"Actual dataset\n    content is available to registered users only\".\n  conclusion: >-\n    Metadata is open; record-level data requires a free registered account and an\n    API key. This is a registration wall, not a paywall.\nunauthorized_response:\n\
   \  status: 401\n  note: >-\n    Documented for private catalogs. In practice on this domain a missing\n    credential for record data surfaces as an error_code \"ForbiddenAccess\" body.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/electricity-north-west/refs/heads/main/authentication/electricity-north-west-authentication.yml
+source_yaml_url: https://artifacts.apis.io/electricity-north-west/authentication/electricity-north-west-authentication.yml
 summary_line: apiKey/oauth2/cookie · 4 schemes
 tags:
 - Energy

@@ -7,31 +7,31 @@ api_specs:
   label: Actionpower Image API
   slug: actionpower-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-image-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-image-api-openapi.yml
 - filename: actionpower-nlp-api-openapi.yml
   format: yaml
   label: Actionpower NLP API
   slug: actionpower-nlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-nlp-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-nlp-api-openapi.yml
 - filename: actionpower-stt-api-openapi.yml
   format: yaml
   label: Actionpower STT API
   slug: actionpower-stt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-stt-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-stt-api-openapi.yml
 - filename: actionpower-tts-api-openapi.yml
   format: yaml
   label: Actionpower TTS API
   slug: actionpower-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-tts-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-tts-api-openapi.yml
 - filename: actionpower-video-api-openapi.yml
   format: yaml
   label: Actionpower Video API
   slug: actionpower-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-video-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-video-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: actionpower-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: derived\nsource: openapi/actionpower-daglo-cloud-api-dev-openapi.yml, openapi/actionpower-daglo-cloud-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/actionpower-daglo-cloud-api-dev-openapi.yml\n  - openapi/actionpower-daglo-cloud-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/authentication/actionpower-authentication.yml
+source_yaml_url: https://artifacts.apis.io/actionpower/authentication/actionpower-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Speech Recognition

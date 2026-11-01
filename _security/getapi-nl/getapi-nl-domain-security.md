@@ -1,0 +1,141 @@
+---
+api_specs:
+- filename: getapi-nl-bag-addresses-and-buildings-register-api-openapi.yml
+  format: yaml
+  label: getapi-nl BAG – Addresses and Buildings Register API
+  slug: getapi-nl-bag-addresses-and-buildings-register-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-bag-addresses-and-buildings-register-api-openapi.yml
+- filename: getapi-nl-cbs-sbi-codes-api-openapi.yml
+  format: yaml
+  label: getapi-nl CBS - SBI Codes API
+  slug: getapi-nl-cbs-sbi-codes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-cbs-sbi-codes-api-openapi.yml
+- filename: getapi-nl-dns-lookup-api-openapi.yml
+  format: yaml
+  label: getapi-nl DNS Lookup API
+  slug: getapi-nl-dns-lookup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-dns-lookup-api-openapi.yml
+- filename: getapi-nl-dnsbl-spam-blacklist-api-openapi.yml
+  format: yaml
+  label: getapi-nl DNSBL / Spam Blacklist API
+  slug: getapi-nl-dnsbl-spam-blacklist-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-dnsbl-spam-blacklist-api-openapi.yml
+- filename: getapi-nl-dso-environmental-information-api-openapi.yml
+  format: yaml
+  label: getapi-nl DSO - Environmental information API
+  slug: getapi-nl-dso-environmental-information-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-dso-environmental-information-api-openapi.yml
+- filename: getapi-nl-email-validation-api-openapi.yml
+  format: yaml
+  label: getapi-nl Email Validation API
+  slug: getapi-nl-email-validation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-email-validation-api-openapi.yml
+- filename: getapi-nl-geolocation-services-api-openapi.yml
+  format: yaml
+  label: getapi-nl Geolocation services API
+  slug: getapi-nl-geolocation-services-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-geolocation-services-api-openapi.yml
+- filename: getapi-nl-iban-bic-validation-api-openapi.yml
+  format: yaml
+  label: getapi-nl IBAN / BIC Validation API
+  slug: getapi-nl-iban-bic-validation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-iban-bic-validation-api-openapi.yml
+- filename: getapi-nl-ip-location-lookup-api-openapi.yml
+  format: yaml
+  label: getapi-nl IP Location Lookup API
+  slug: getapi-nl-ip-location-lookup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-ip-location-lookup-api-openapi.yml
+- filename: getapi-nl-ndw-charging-points-api-openapi.yml
+  format: yaml
+  label: getapi-nl NDW - Charging points API
+  slug: getapi-nl-ndw-charging-points-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-ndw-charging-points-api-openapi.yml
+- filename: getapi-nl-ndw-emission-zones-api-openapi.yml
+  format: yaml
+  label: getapi-nl NDW - Emission zones API
+  slug: getapi-nl-ndw-emission-zones-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-ndw-emission-zones-api-openapi.yml
+- filename: getapi-nl-ndw-truckparking-api-openapi.yml
+  format: yaml
+  label: getapi-nl NDW - Truckparking API
+  slug: getapi-nl-ndw-truckparking-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-ndw-truckparking-api-openapi.yml
+- filename: getapi-nl-property-data-api-openapi.yml
+  format: yaml
+  label: getapi-nl Property data API
+  slug: getapi-nl-property-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-property-data-api-openapi.yml
+- filename: getapi-nl-rdw-api-openapi.yml
+  format: yaml
+  label: getapi-nl RDW API
+  slug: getapi-nl-rdw-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-rdw-api-openapi.yml
+- filename: getapi-nl-rvo-api-openapi.yml
+  format: yaml
+  label: getapi-nl RVO API
+  slug: getapi-nl-rvo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-rvo-api-openapi.yml
+- filename: getapi-nl-site-scraping-api-openapi.yml
+  format: yaml
+  label: getapi-nl Site Scraping API
+  slug: getapi-nl-site-scraping-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-site-scraping-api-openapi.yml
+- filename: getapi-nl-vat-validation-api-openapi.yml
+  format: yaml
+  label: getapi-nl VAT Validation API
+  slug: getapi-nl-vat-validation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getapi-nl/openapi/getapi-nl-vat-validation-api-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: getapi.nl
+  spf: true
+hosts:
+- cert_expires: Dec  6 09:42:40 2026 GMT
+  host: getapi.nl
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Getapi Nl Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for getapi-nl, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: getapi-nl
+provider_slug: getapi-nl
+slug: getapi-nl-domain-security
+source_filename: getapi-nl-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: getapi.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 09:42:40 2026 GMT\n  hsts: false\ndomains:\n- domain: getapi.nl\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://artifacts.apis.io/getapi-nl/security/getapi-nl-domain-security.yml
+summary_line: TLSv1.3 · DMARC
+tags:
+- Company
+- API
+- Dutch
+- WebScraping
+- DataValidation
+---

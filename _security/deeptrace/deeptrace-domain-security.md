@@ -5,13 +5,13 @@ api_specs:
   label: Deeptrace Chat API
   slug: deeptrace-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/openapi/deeptrace-chat-api-openapi.yml
+  url: https://artifacts.apis.io/deeptrace/openapi/deeptrace-chat-api-openapi.yml
 - filename: deeptrace-investigations-api-openapi.yml
   format: yaml
   label: Deeptrace Investigations API
   slug: deeptrace-investigations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/openapi/deeptrace-investigations-api-openapi.yml
+  url: https://artifacts.apis.io/deeptrace/openapi/deeptrace-investigations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: deeptrace-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: deeptrace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  1 15:34:47 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: deeptrace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/security/deeptrace-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deeptrace/security/deeptrace-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

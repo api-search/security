@@ -28,7 +28,7 @@ source_filename: aro-biotherapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.arobiotx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 15:04:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: arobiotx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aro-biotherapeutics/refs/heads/main/security/aro-biotherapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aro-biotherapeutics/security/aro-biotherapeutics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

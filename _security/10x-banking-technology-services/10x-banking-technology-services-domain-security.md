@@ -50,7 +50,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.10xbanking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 15:40:53 2026 GMT\n  hsts: true\n  hsts_max_age: 3628800\n- host: docs.10xbanking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 18:43:31 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.sandbox.10xbanking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_note: >-\n    Corrected by hand from a direct probe on 2026-09-05. The automated pass recorded\n    null because every response on this host is a 401; the 401 itself carries\n    strict-transport-security: max-age=31536000; includeSubDomains, confirmed on three\n    consecutive requests.\ndomains:\n- domain: 10xbanking.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n\
   \  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/10x-banking-technology-services/refs/heads/main/security/10x-banking-technology-services-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/10x-banking-technology-services/security/10x-banking-technology-services-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Services

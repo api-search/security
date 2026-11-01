@@ -7,13 +7,13 @@ api_specs:
   label: Privy Users API
   slug: privy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privy/refs/heads/main/openapi/privy-users-api-openapi.yml
+  url: https://artifacts.apis.io/privy/openapi/privy-users-api-openapi.yml
 - filename: privy-wallets-api-openapi.yml
   format: yaml
   label: Privy Wallets API
   slug: privy-wallets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/privy/refs/heads/main/openapi/privy-wallets-api-openapi.yml
+  url: https://artifacts.apis.io/privy/openapi/privy-wallets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -42,7 +42,7 @@ source_filename: privy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/privy-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: appSecretAuth\n  type: http\n  scheme: basic\n  description: |-\n    HTTP Basic auth using your Privy app ID as the username and your app\n    secret as the password. Must be sent alongside the privy-app-id header.\n  sources:\n  - openapi/privy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/privy/refs/heads/main/authentication/privy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/privy/authentication/privy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Web3

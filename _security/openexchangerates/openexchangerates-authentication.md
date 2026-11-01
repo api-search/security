@@ -9,37 +9,37 @@ api_specs:
   label: Open Exchange Rates Convert API
   slug: openexchangerates-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-convert-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-convert-api-openapi.yml
 - filename: openexchangerates-currencies-api-openapi.yml
   format: yaml
   label: Open Exchange Rates Currencies API
   slug: openexchangerates-currencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-currencies-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-currencies-api-openapi.yml
 - filename: openexchangerates-ohlc-api-openapi.yml
   format: yaml
   label: Open Exchange Rates OHLC API
   slug: openexchangerates-ohlc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-ohlc-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-ohlc-api-openapi.yml
 - filename: openexchangerates-time-series-api-openapi.yml
   format: yaml
   label: Open Exchange Rates Time Series API
   slug: openexchangerates-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-time-series-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-time-series-api-openapi.yml
 - filename: openexchangerates-usage-api-openapi.yml
   format: yaml
   label: Open Exchange Rates Usage API
   slug: openexchangerates-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-usage-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-usage-api-openapi.yml
 - filename: openexchangerates-rates-api-openapi.yml
   format: yaml
   label: Open Exchange Rates API
   slug: openexchangerates-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/openapi/openexchangerates-rates-api-openapi.yml
+  url: https://artifacts.apis.io/openexchangerates/openapi/openexchangerates-rates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -74,7 +74,7 @@ source_filename: openexchangerates-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openexchangerates-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: appIdQuery\n  type: apiKey\n  in: query\n  parameter: app_id\n  description: Your unique App ID, passed as a query parameter.\n  sources:\n  - openapi/openexchangerates-openapi.yml\n- name: appIdHeader\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Your unique App ID, passed as a header: Authorization: Token YOUR_APP_ID.'\n  sources:\n  - openapi/openexchangerates-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openexchangerates/refs/heads/main/authentication/openexchangerates-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openexchangerates/authentication/openexchangerates-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Foreign Exchange

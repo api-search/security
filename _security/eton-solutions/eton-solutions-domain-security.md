@@ -27,7 +27,7 @@ source_filename: eton-solutions-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: eton-solutions.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 12:01:07 2026 GMT\n  hsts: null\ndomains:\n- domain: eton-solutions.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eton-solutions/refs/heads/main/security/eton-solutions-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eton-solutions/security/eton-solutions-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,13 +5,13 @@ api_specs:
   label: Cledara Applications API
   slug: cledara-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/openapi/cledara-applications-api-openapi.yml
+  url: https://artifacts.apis.io/cledara/openapi/cledara-applications-api-openapi.yml
 - filename: cledara-transactions-api-openapi.yml
   format: yaml
   label: Cledara Transactions API
   slug: cledara-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/openapi/cledara-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cledara/openapi/cledara-transactions-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type II
@@ -32,7 +32,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nprobe: true\nsource: ht
   \ >-\n      AWS is \"accredited to ISO/IEC 27001:2013, SSAE 16 SOC 1, SOC 2 Type 2, PCI Level 1,\n      FISMA Moderate and SOX.\"\n    source: https://www.cledara.com/security\n    note: >-\n      CORRECTION (2026-09-05): earlier rounds of this artifact listed ISO 27001 and PCI as\n      Cledara certifications. They are AWS's, cited on Cledara's security page as\n      infrastructure assurance. Cledara does not claim ISO 27001 or PCI DSS for itself\n      anywhere we could find.\n  - name: PCI Level 1\n    holder: Amazon Web Services\n    source: https://www.cledara.com/security\nregulatory_authorisations:\n  - authority: UK Financial Conduct Authority\n    entity: Cledara Limited\n    status: EMD Agent\n    reference: '902831'\n    principal: Modulr FS Limited (Electronic Money Institution, FRN 900573)\n    source: https://www.cledara.com/security\n  - authority: De Nederlandsche Bank (DNB)\n    entity: Modulr Finance B.V.\n    status: Electronic Money Institution\n    reference: R182870\n\
   \    source: https://www.cledara.com/security\n  - regime: Electronic Money Regulations 2011 (UK)\n    subject: safeguarding of customer funds\n    source: https://www.cledara.com/security\n  - regime: Financial Supervision Act (Wft) (Netherlands)\n    subject: safeguarding of customer funds\n    source: https://www.cledara.com/security\ncard_scheme_membership:\n  - Mastercard\n  - Visa Europe\nsecurity_practices:\n  - Regular security reviews including active penetration testing\n  - Card tokenization\n  - AWS-hosted infrastructure\ndocuments:\n  request_required: true\n  mechanism: Vanta document request (https://app.vanta.com/doc)\n  note: Individual audit reports are not published anonymously; access is request-gated.\nevidence:\n  - source: https://trust.cledara.com/\n    http_status: 200\n    fetched: '2026-09-05'\n  - source: https://www.cledara.com/security\n    http_status: 200\n    fetched: '2026-09-05'\n    keywords:\n      - soc 2 type ii\n      - gdpr\n      - fca\n      -\
   \ electronic money\nmaintainers:\n  - FN: Kin Lane\n    email: kinlane@gmail.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cledara/refs/heads/main/security/cledara-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/cledara/security/cledara-trust-center.yml
 summary_line: SOC 2 Type II, GDPR
 tags:
 - Finance

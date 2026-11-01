@@ -5,13 +5,13 @@ api_specs:
   label: ATCO Query API
   slug: atco-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/openapi/atco-query-api-openapi.yml
+  url: https://artifacts.apis.io/atco/openapi/atco-query-api-openapi.yml
 - filename: atco-service-api-openapi.yml
   format: yaml
   label: ATCO Service API
   slug: atco-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/openapi/atco-service-api-openapi.yml
+  url: https://artifacts.apis.io/atco/openapi/atco-service-api-openapi.yml
 description: ''
 domains:
 - atco_controlled: true
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
   \ publisher of the hosting capacity map\n  operator: ATCO\n  atco_controlled: true\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: gas.atco.com\n  role: ATCO Gas\n  operator: ATCO\n  atco_controlled: true\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: www.atcoenergy.com\n  role: ATCO Energy — competitive Alberta retailer (Webflow-hosted)\n  operator: ATCO\n  atco_controlled: true\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 21:27:28 2026 GMT\n  hsts: false\n  hsts_max_age: null\n- host: store.atco.com\n  role: Salesforce CloudCraze customer commerce login (My Account)\n  operator: Salesforce (on ATCO's behalf)\n  atco_controlled: partial\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 14:52:11 2026 GMT\n  hsts: false\n  hsts_max_age: null\n  note: >-\n    This is where a customer's own usage\
   \ and billing data lives. It carries no HSTS, which is the\n    weakest posture on the estate and sits on the most sensitive surface.\n- host: poweroutage.atco.com\n  role: customer outage map (Flutter single-page app)\n  operator: ATCO\n  atco_controlled: true\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 19:10:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: atco.com\n  atco_controlled: true\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n  note: >-\n    No DNSSEC, no CAA record, and DMARC is at p=none — monitoring only, no enforcement. All three\n    are real gaps for a critical-infrastructure operator.\n- domain: atcoenergy.com\n  atco_controlled: true\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n  spf_record: 'v=spf1 ip4:192.210.5.0/24 ip4:192.210.10.0/24 ip4:141.118.20.0/24 include:aspmx.pardot.com include:_spf.qualtrics.com ~all'\n  dmarc_record: 'v=DMARC1; p=none; rua=mailto:xtz8hoer@ag.dmarcian.com'\n\
   - domain: arcgis.com\n  atco_controlled: false\n  operator: Esri\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 iodef \"mailto:vkeymaster@esri.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n  note: >-\n    Recorded for completeness because it is the API host's registrable domain. Esri's posture is\n    materially stronger than ATCO's — DNSSEC signed, a full CAA policy with an iodef contact, and\n    DMARC at p=reject. This is inherited by the ATCO API, not earned by ATCO.\nsummary:\n  atco_domains_with_dnssec: 0\n  atco_domains_with_caa: 0\n  atco_domains_with_dmarc_enforcement: 0\n  atco_hosts_without_hsts: [www.atcoenergy.com, store.atco.com]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atco/refs/heads/main/security/atco-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/atco/security/atco-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Energy

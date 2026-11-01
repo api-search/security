@@ -28,12 +28,12 @@ source_filename: mockko-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mockko.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 06:49:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: mockko.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mockko/refs/heads/main/security/mockko-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mockko/security/mockko-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Dashboard
+- Dashboards
 - Mockup
-- PowerBI
+- Power BI
 - Tableau
 - Design
 ---

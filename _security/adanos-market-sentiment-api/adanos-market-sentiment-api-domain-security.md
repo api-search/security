@@ -5,43 +5,43 @@ api_specs:
   label: Adanos Market Sentiment API Finance Sentiment API
   slug: adanos-market-sentiment-api-finance-sentiment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-finance-sentiment-api-openapi.yml
+  url: https://artifacts.apis.io/adanos-market-sentiment-api/openapi/adanos-market-sentiment-api-finance-sentiment-api-openapi.yml
 - filename: adanos-market-sentiment-api-health-check-api-openapi.yml
   format: yaml
   label: Adanos Market Sentiment API Health Check API
   slug: adanos-market-sentiment-api-health-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-health-check-api-openapi.yml
+  url: https://artifacts.apis.io/adanos-market-sentiment-api/openapi/adanos-market-sentiment-api-health-check-api-openapi.yml
 - filename: adanos-market-sentiment-api-news-stocks-api-openapi.yml
   format: yaml
   label: Adanos Market Sentiment API News Stocks API
   slug: adanos-market-sentiment-api-news-stocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-news-stocks-api-openapi.yml
+  url: https://artifacts.apis.io/adanos-market-sentiment-api/openapi/adanos-market-sentiment-api-news-stocks-api-openapi.yml
 - filename: adanos-market-sentiment-api-polymarket-stocks-api-openapi.yml
   format: yaml
   label: Adanos Market Sentiment API Polymarket Stocks API
   slug: adanos-market-sentiment-api-polymarket-stocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-polymarket-stocks-api-openapi.yml
+  url: https://artifacts.apis.io/adanos-market-sentiment-api/openapi/adanos-market-sentiment-api-polymarket-stocks-api-openapi.yml
 - filename: adanos-market-sentiment-api-reddit-crypto-api-openapi.yml
   format: yaml
   label: Adanos Market Sentiment API Reddit Crypto API
   slug: adanos-market-sentiment-api-reddit-crypto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-reddit-crypto-api-openapi.yml
+  url: https://artifacts.apis.io/adanos-market-sentiment-api/openapi/adanos-market-sentiment-api-reddit-crypto-api-openapi.yml
 - filename: adanos-market-sentiment-api-reddit-stocks-api-openapi.yml
   format: yaml
   label: Adanos Market Sentiment API Reddit Stocks API
   slug: adanos-market-sentiment-api-reddit-stocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-reddit-stocks-api-openapi.yml
+  url: https://artifacts.apis.io/adanos-market-sentiment-api/openapi/adanos-market-sentiment-api-reddit-stocks-api-openapi.yml
 - filename: adanos-market-sentiment-api-x-twitter-stocks-api-openapi.yml
   format: yaml
   label: Adanos Market Sentiment API X/Twitter Stocks API
   slug: adanos-market-sentiment-api-x-twitter-stocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/openapi/adanos-market-sentiment-api-x-twitter-stocks-api-openapi.yml
+  url: https://artifacts.apis.io/adanos-market-sentiment-api/openapi/adanos-market-sentiment-api-x-twitter-stocks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: adanos-market-sentiment-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.adanos.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 10:15:45 2026 GMT\n  hsts: null\ndomains:\n- domain: adanos.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adanos-market-sentiment-api/refs/heads/main/security/adanos-market-sentiment-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adanos-market-sentiment-api/security/adanos-market-sentiment-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Markets

@@ -5,7 +5,7 @@ api_specs:
   label: Adobe Acrobat Sign Base URIs API
   slug: adobe-sign-base-uris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/openapi/adobe-sign-base-uris-api-openapi.yml
+  url: https://artifacts.apis.io/adobe-sign/openapi/adobe-sign-base-uris-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: adobe-sign-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.adobe.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: null\n- host: opensource.adobe.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 20 22:48:09 2026 GMT\n  hsts: false\n- host: api.na4.adobesign.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: adobe.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: adobesign.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adobe-sign/refs/heads/main/security/adobe-sign-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adobe-sign/security/adobe-sign-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - E-Signature

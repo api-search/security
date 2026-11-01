@@ -5,25 +5,25 @@ api_specs:
   label: Alibaba Sentinel Authority Rules API
   slug: alibaba-sentinel-authority-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-authority-rules-api-openapi.yml
+  url: https://artifacts.apis.io/alibaba-sentinel/openapi/alibaba-sentinel-authority-rules-api-openapi.yml
 - filename: alibaba-sentinel-degrade-rules-api-openapi.yml
   format: yaml
   label: Alibaba Sentinel Degrade Rules API
   slug: alibaba-sentinel-degrade-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-degrade-rules-api-openapi.yml
+  url: https://artifacts.apis.io/alibaba-sentinel/openapi/alibaba-sentinel-degrade-rules-api-openapi.yml
 - filename: alibaba-sentinel-flow-rules-api-openapi.yml
   format: yaml
   label: Alibaba Sentinel Flow Rules API
   slug: alibaba-sentinel-flow-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-flow-rules-api-openapi.yml
+  url: https://artifacts.apis.io/alibaba-sentinel/openapi/alibaba-sentinel-flow-rules-api-openapi.yml
 - filename: alibaba-sentinel-system-rules-api-openapi.yml
   format: yaml
   label: Alibaba Sentinel System Rules API
   slug: alibaba-sentinel-system-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/openapi/alibaba-sentinel-system-rules-api-openapi.yml
+  url: https://artifacts.apis.io/alibaba-sentinel/openapi/alibaba-sentinel-system-rules-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: alibaba-sentinel-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sentinelguard.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 17 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: sentinelguard.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alibaba-sentinel/refs/heads/main/security/alibaba-sentinel-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/alibaba-sentinel/security/alibaba-sentinel-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Alibaba

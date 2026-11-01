@@ -34,7 +34,7 @@ source_filename: powersync-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: powersync.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 16:28:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.powersync.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 12:26:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: powersync.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/powersync/refs/heads/main/security/powersync-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/powersync/security/powersync-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Developer Tools

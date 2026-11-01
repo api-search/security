@@ -8,43 +8,43 @@ api_specs:
   label: Delivery Hero Authentication API
   slug: delivery-hero-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-authentication-api-openapi.yml
 - filename: delivery-hero-callback-api-openapi.yml
   format: yaml
   label: Delivery Hero Callback API
   slug: delivery-hero-callback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-callback-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-callback-api-openapi.yml
 - filename: delivery-hero-ordersestimation-api-openapi.yml
   format: yaml
   label: Delivery Hero OrdersEstimation API
   slug: delivery-hero-ordersestimation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-ordersestimation-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-ordersestimation-api-openapi.yml
 - filename: delivery-hero-ordersmanagement-api-openapi.yml
   format: yaml
   label: Delivery Hero OrdersManagement API
   slug: delivery-hero-ordersmanagement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-ordersmanagement-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-ordersmanagement-api-openapi.yml
 - filename: delivery-hero-outlets-api-openapi.yml
   format: yaml
   label: Delivery Hero Outlets API
   slug: delivery-hero-outlets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-outlets-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-outlets-api-openapi.yml
 - filename: delivery-hero-proofs-api-openapi.yml
   format: yaml
   label: Delivery Hero Proofs API
   slug: delivery-hero-proofs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-proofs-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-proofs-api-openapi.yml
 - filename: delivery-hero-riderposition-api-openapi.yml
   format: yaml
   label: Delivery Hero RiderPosition API
   slug: delivery-hero-riderposition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/openapi/delivery-hero-riderposition-api-openapi.yml
+  url: https://artifacts.apis.io/delivery-hero/openapi/delivery-hero-riderposition-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -83,7 +83,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/delivery-hero-on-demand-rider-openapi.json\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: Bearer_Token\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Provide the access token in the format: `Bearer {access-token}`. You\n    can obtain the access token from the [Authentication endpoint](#tag/Authentication).'\n  sources:\n  - openapi/delivery-hero-on-demand-rider-openapi.json\n- name: OAuth2\n  type: oauth2\n  flow: clientCredentials\n  tokenUrl: https://sts.deliveryhero.io/oauth2/token\n  client_assertion_type: urn:ietf:params:oauth:client-assertion-type:jwt-bearer\n  description: 'Machine-to-machine: register an RSA-2048 public key with ODR, sign\n    a JWT assertion (kid, iss, sub, jti, exp, aud=https://sts.deliveryhero.io), exchange\n    via client_credentials for a Bearer access token.'\n  sources:\n  -\
   \ https://on-demand-rider-docs.deliveryhero.io/\ndocs: https://on-demand-rider-docs.deliveryhero.io/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delivery-hero/refs/heads/main/authentication/delivery-hero-authentication.yml
+source_yaml_url: https://artifacts.apis.io/delivery-hero/authentication/delivery-hero-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

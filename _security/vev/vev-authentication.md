@@ -31,7 +31,7 @@ source_filename: vev-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://developer.vev.design/api/auth\ndocs: https://developer.vev.design/api/auth\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n- name: vevApiKey\n  type: apiKey\n  in: header\n  parameter_name: x-vev-key\n  description: >-\n    API key created in the Vev Design Editor under user profile, scoped to the\n    relevant permissions. The key is valid forever until revoked. Sent as the\n    x-vev-key header on every request to https://api.vev.design.\n  scopes_note: API keys are created \"with the relevant scope\"; a documented scope reference was not found.\n  introspection_endpoint: https://api.vev.design/api-key/introspection\n  sources: [https://developer.vev.design/api/auth]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vev/refs/heads/main/authentication/vev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vev/authentication/vev-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

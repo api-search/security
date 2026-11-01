@@ -7,13 +7,13 @@ api_specs:
   label: Aerospike Cluster API
   slug: aerospike-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/openapi/aerospike-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/aerospike/openapi/aerospike-cluster-api-openapi.yml
 - filename: aerospike-documentation-api-openapi.yml
   format: yaml
   label: Aerospike Documentation API
   slug: aerospike-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/openapi/aerospike-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/aerospike/openapi/aerospike-documentation-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: aerospike-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aerospike-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic credentials are forwarded by the REST Gateway to the Aerospike security\n    subsystem when enabled. When Aerospike security is disabled the gateway accepts requests\n    without authentication.\n  sources:\n  - openapi/aerospike-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aerospike/refs/heads/main/authentication/aerospike-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aerospike/authentication/aerospike-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Database
@@ -48,6 +48,6 @@ tags:
 - Real-Time
 - Key-Value Store
 - In-Memory
-- Vector Database
+- Vector Search
 - High Performance
 ---

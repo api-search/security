@@ -8,25 +8,25 @@ api_specs:
   label: Nerdio Health API
   slug: nerdio-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-health-api-openapi.yml
+  url: https://artifacts.apis.io/nerdio/openapi/nerdio-health-api-openapi.yml
 - filename: nerdio-install-api-openapi.yml
   format: yaml
   label: Nerdio Install API
   slug: nerdio-install-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-install-api-openapi.yml
+  url: https://artifacts.apis.io/nerdio/openapi/nerdio-install-api-openapi.yml
 - filename: nerdio-invoices-api-openapi.yml
   format: yaml
   label: Nerdio Invoices API
   slug: nerdio-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/nerdio/openapi/nerdio-invoices-api-openapi.yml
 - filename: nerdio-usage-api-openapi.yml
   format: yaml
   label: Nerdio Usage API
   slug: nerdio-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/openapi/nerdio-usage-api-openapi.yml
+  url: https://artifacts.apis.io/nerdio/openapi/nerdio-usage-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -95,7 +95,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: openapi/nerdio-
   \ for Enterprise REST API\n  identity_provider: Microsoft Entra ID\n  token_url: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  scope: api://{nerdio-nmw-app-application-id}/.default\n  credentials:\n  - client_id\n  - client_secret\n  - tenant_id\n  provisioning: >-\n    System > Settings > Integrations > REST API. Step 1 creates a new Azure\n    application under the existing nerdio-nmw-app app registration; step 2 grants\n    admin consent for the assigned permissions; step 3 generates the client secret.\n    The application's Application ID URI must be set (api://<app_id>) and the\n    manifest accessTokenAcceptedVersion set to 2.\n  authorization_model: Entra ID app role (RestClient) assigned to the calling application\n  sources: [https://nmehelp.getnerdio.com/hc/en-us/articles/27422824784269-REST-API-Manual-Configuration]\n  docs: https://nmehelp.getnerdio.com/hc/en-us/articles/26124297445901-Getting-Started-with-REST-API-Integration\n- name: EntraIdClientCredentialsMsp\n\
   \  type: oauth2\n  flow: clientCredentials\n  api: Nerdio Manager for MSP Partner API\n  identity_provider: Microsoft Entra ID\n  token_url: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n  scope: api://{nerdio-nmm-app-application-id}/.default\n  credentials:\n  - client_id\n  - client_secret\n  - tenant_id\n  provisioning: >-\n    At the MSP level, System > System Settings > Integrations > REST API. Creates a\n    client application under the nerdio-nmm-app app registration, grants admin\n    consent, and generates the client secret. Swagger on the install accepts the\n    client_id/client_secret pair via its Authorize dialog.\n  docs: https://nmmhelp.getnerdio.com/hc/en-us/articles/26125599431693-Nerdio-Manager-Partner-API-Getting-Started\nscopes:\n  model: >-\n    No published scope catalog. The NME and NMM APIs use the Entra ID application\n    .default scope for the install's own Application ID URI; granular authorization\n    is expressed as Entra app roles and Nerdio\
   \ Manager RBAC roles inside the product,\n    not as OAuth scopes. scopes/ is therefore not emitted for this provider.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nerdio/refs/heads/main/authentication/nerdio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nerdio/authentication/nerdio-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Company

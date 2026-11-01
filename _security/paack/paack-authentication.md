@@ -13,43 +13,43 @@ api_specs:
   label: Paack Check coverage API
   slug: paack-check-coverage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-check-coverage-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-check-coverage-api-openapi.yml
 - filename: paack-generate-labels-api-openapi.yml
   format: yaml
   label: Paack Generate labels API
   slug: paack-generate-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-generate-labels-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-generate-labels-api-openapi.yml
 - filename: paack-get-access-token-api-openapi.yml
   format: yaml
   label: Paack Get access token API
   slug: paack-get-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-get-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-get-access-token-api-openapi.yml
 - filename: paack-manage-orders-api-openapi.yml
   format: yaml
   label: Paack Manage orders API
   slug: paack-manage-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-manage-orders-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-manage-orders-api-openapi.yml
 - filename: paack-retrieve-delivery-proof-api-openapi.yml
   format: yaml
   label: Paack Retrieve delivery proof API
   slug: paack-retrieve-delivery-proof-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-delivery-proof-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-retrieve-delivery-proof-api-openapi.yml
 - filename: paack-retrieve-events-history-api-openapi.yml
   format: yaml
   label: Paack Retrieve events history API
   slug: paack-retrieve-events-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-events-history-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-retrieve-events-history-api-openapi.yml
 - filename: paack-retrieve-last-event-api-openapi.yml
   format: yaml
   label: Paack Retrieve last event API
   slug: paack-retrieve-last-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/openapi/paack-retrieve-last-event-api-openapi.yml
+  url: https://artifacts.apis.io/paack/openapi/paack-retrieve-last-event-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -90,7 +90,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://paack.readme.io/docs/start-auth\ndocs: https://paack.readme.io/reference/token\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials]\n  token_format: JWT\n  token_type: Bearer\n  token_ttl_seconds: 86400\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  identity_provider: Auth0\n  token_url_production: https://paack-hq-production.eu.auth0.com/oauth/token\n  token_url_staging: https://paack-hq-staging.eu.auth0.com/oauth/token\n  request_content_type: application/json\n  parameters:\n  - client_id        # issued by Paack Customer Solutions team\n  - client_secret    # issued by Paack Customer Solutions team\n  - grant_type       # fixed value: client_credentials\n  - audience         # https://ggl-pro-gcp-gw (prod) / https://ggl-stg-gcp-gw (staging)\n  response_fields: [access_token, expires_in, token_type]\n  usage: 'Send the access_token as `Authorization: Bearer <access_token>`\
   \ on every API request.'\n  token_ttl_seconds: 86400\nnotes: >-\n  Credentials (client_id / client_secret) are provisioned by Paack's Customer\n  Solutions team. The same OAuth2 client-credentials flow is used for staging and\n  production, differentiated by the token URL and the audience value.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/paack/refs/heads/main/authentication/paack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/paack/authentication/paack-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

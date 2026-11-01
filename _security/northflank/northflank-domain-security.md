@@ -5,25 +5,25 @@ api_specs:
   label: Northflank Jobs API
   slug: northflank-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-jobs-api-openapi.yml
 - filename: northflank-projects-api-openapi.yml
   format: yaml
   label: Northflank Projects API
   slug: northflank-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-projects-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-projects-api-openapi.yml
 - filename: northflank-services-api-openapi.yml
   format: yaml
   label: Northflank Services API
   slug: northflank-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-services-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-services-api-openapi.yml
 - filename: northflank-add-ons-api-openapi.yml
   format: yaml
   label: Northflank Add Ons API
   slug: northflank-add-ons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/openapi/northflank-add-ons-api-openapi.yml
+  url: https://artifacts.apis.io/northflank/openapi/northflank-add-ons-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -60,7 +60,7 @@ source_filename: northflank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: northflank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 16:48:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: api.northflank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 16:48:48 2026 GMT\n  hsts: true\n  hsts_max_age: 300\ndomains:\n- domain: northflank.com\n  dnssec: true\n  caa:\n  - lb.northflank.com.\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/security/northflank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/northflank/security/northflank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cloud Deployment

@@ -8,43 +8,43 @@ api_specs:
   label: DeveloperHub Documentation API
   slug: developerhub-documentation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-documentation-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-documentation-api-openapi.yml
 - filename: developerhub-project-api-openapi.yml
   format: yaml
   label: DeveloperHub Project API
   slug: developerhub-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-project-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-project-api-openapi.yml
 - filename: developerhub-reader-access-api-openapi.yml
   format: yaml
   label: DeveloperHub Reader Access API
   slug: developerhub-reader-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-reader-access-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-reader-access-api-openapi.yml
 - filename: developerhub-changelog-api-openapi.yml
   format: yaml
   label: DeveloperHub Changelog API
   slug: developerhub-changelog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-changelog-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-changelog-api-openapi.yml
 - filename: developerhub-page-api-openapi.yml
   format: yaml
   label: DeveloperHub Page API
   slug: developerhub-page-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-page-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-page-api-openapi.yml
 - filename: developerhub-reference-api-openapi.yml
   format: yaml
   label: DeveloperHub Reference API
   slug: developerhub-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-reference-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-reference-api-openapi.yml
 - filename: developerhub-version-api-openapi.yml
   format: yaml
   label: DeveloperHub Version API
   slug: developerhub-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/openapi/developerhub-version-api-openapi.yml
+  url: https://artifacts.apis.io/developerhub/openapi/developerhub-version-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\nsource: >-\n  https://d
   :{\"message\":\"No API Key was provided. Read our API Reference at https://docs.developerhub.io/api\",\"httpCode\":403,\"code\":403}}'\n  - request: GET https://api.developerhub.io/api/v1/version with an invalid key\n    status: 400\n    body: '{\"error\":{\"message\":\"API Key is invalid\",\"httpCode\":400,\"code\":0}}'\n  sources:\n  - openapi/_original/developerhub-openapi.yml\n- name: Editor MCP OAuth\n  type: oauth2\n  flow: authorization_code\n  pkce: S256\n  surface: https://ai.developerhub.io/mcp\n  issuer: https://ai.developerhub.io/\n  authorization_endpoint: https://ai.developerhub.io/authorize\n  token_endpoint: https://ai.developerhub.io/token\n  registration_endpoint: https://ai.developerhub.io/register\n  dynamic_client_registration: true\n  scopes:\n  - editor\n  description: >-\n    Each editor connects with their own DeveloperHub account and the agent acts as that person, so\n    it reaches only the projects they can already edit and only those with the Editor MCP server\n\
   \    turned on. The first connection opens a browser consent page naming the client, the account and\n    the address the approval is sent to. The connection lasts as long as the DeveloperHub login.\n  observed:\n  - request: POST https://ai.developerhub.io/mcp with no token\n    status: 401\n    www_authenticate: 'Bearer resource_metadata=\"https://ai.developerhub.io/.well-known/oauth-protected-resource\"'\n    body: '{\"error\":\"invalid_token\",\"error_description\":\"Missing editor access token\"}'\n  docs: https://docs.developerhub.io/support-center/editor-mcp-server\n  cross_reference: scopes/developerhub-scopes.yml\nreader_authentication:\n  note: >-\n    Distinct from API authentication: DeveloperHub also authenticates READERS of a customer's docs\n    site (custom login, magic-link email invite, reader SSO, and a ?jwt= query parameter). The REST\n    API touches this through get_reader_access / create_reader_access / revoke_reader_access, which\n    manage invited readers by email\
   \ address.\n  docs: https://docs.developerhub.io/support-center/private-docs\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/developerhub/refs/heads/main/authentication/developerhub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/developerhub/authentication/developerhub-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - API Reference

@@ -5,7 +5,7 @@ api_specs:
   label: BytePlus BytePlus API
   slug: byteplus-byteplus-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/openapi/byteplus-byteplus-api-api-openapi.yml
+  url: https://artifacts.apis.io/byteplus/openapi/byteplus-byteplus-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: byteplus-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.byteplus.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 12 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: byteplus.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/byteplus/refs/heads/main/security/byteplus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/byteplus/security/byteplus-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Artificial Intelligence

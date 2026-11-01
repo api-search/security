@@ -7,43 +7,43 @@ api_specs:
   label: Oracle Retail Fulfillment API
   slug: oracle-retail-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-fulfillment-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-fulfillment-api-openapi.yml
 - filename: oracle-retail-inventory-api-openapi.yml
   format: yaml
   label: Oracle Retail Inventory API
   slug: oracle-retail-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-inventory-api-openapi.yml
 - filename: oracle-retail-items-api-openapi.yml
   format: yaml
   label: Oracle Retail Items API
   slug: oracle-retail-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-items-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-items-api-openapi.yml
 - filename: oracle-retail-orders-api-openapi.yml
   format: yaml
   label: Oracle Retail Orders API
   slug: oracle-retail-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-orders-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-orders-api-openapi.yml
 - filename: oracle-retail-returns-api-openapi.yml
   format: yaml
   label: Oracle Retail Returns API
   slug: oracle-retail-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-returns-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-returns-api-openapi.yml
 - filename: oracle-retail-suppliers-api-openapi.yml
   format: yaml
   label: Oracle Retail Suppliers API
   slug: oracle-retail-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-suppliers-api-openapi.yml
 - filename: oracle-retail-purchase-orders-api-openapi.yml
   format: yaml
   label: Oracle Retail Purchase Orders API
   slug: oracle-retail-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/openapi/oracle-retail-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/oracle-retail/openapi/oracle-retail-purchase-orders-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -74,7 +74,7 @@ source_filename: oracle-retail-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/oracle-retail-merchandising-openapi.yml, openapi/oracle-retail-order-management-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://identity.oraclecloud.com/oauth2/v1/token\n    scopes: 2\n  sources:\n  - openapi/oracle-retail-merchandising-openapi.yml\n  - openapi/oracle-retail-order-management-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oracle-retail/refs/heads/main/authentication/oracle-retail-authentication.yml
+source_yaml_url: https://artifacts.apis.io/oracle-retail/authentication/oracle-retail-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Retail

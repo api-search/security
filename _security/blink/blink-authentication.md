@@ -8,19 +8,19 @@ api_specs:
   label: Blink Charging Locations API
   slug: blink-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-locations-api-openapi.yml
+  url: https://artifacts.apis.io/blink/openapi/blink-locations-api-openapi.yml
 - filename: blink-search-api-openapi.yml
   format: yaml
   label: Blink Charging Search API
   slug: blink-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-search-api-openapi.yml
+  url: https://artifacts.apis.io/blink/openapi/blink-search-api-openapi.yml
 - filename: blink-status-api-openapi.yml
   format: yaml
   label: Blink Charging Status API
   slug: blink-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/openapi/blink-status-api-openapi.yml
+  url: https://artifacts.apis.io/blink/openapi/blink-status-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: blink-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/blink-charging-locations-status-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: API key issued after signing up for Blink's third-party integrator program. Exact\n    transport (query parameter vs. header) is not independently re-verified for the current\n    API version.\n  sources:\n  - openapi/blink-charging-locations-status-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/authentication/blink-authentication.yml
+source_yaml_url: https://artifacts.apis.io/blink/authentication/blink-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - EV Charging

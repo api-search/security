@@ -5,37 +5,37 @@ api_specs:
   label: QuestDB Chk API
   slug: questdb-chk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-chk-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-chk-api-openapi.yml
 - filename: questdb-exec-api-openapi.yml
   format: yaml
   label: QuestDB Exec API
   slug: questdb-exec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-exec-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-exec-api-openapi.yml
 - filename: questdb-exp-api-openapi.yml
   format: yaml
   label: QuestDB Exp API
   slug: questdb-exp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-exp-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-exp-api-openapi.yml
 - filename: questdb-imp-api-openapi.yml
   format: yaml
   label: QuestDB Imp API
   slug: questdb-imp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-imp-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-imp-api-openapi.yml
 - filename: questdb-settings-api-openapi.yml
   format: yaml
   label: QuestDB Settings API
   slug: questdb-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-settings-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-settings-api-openapi.yml
 - filename: questdb-write-api-openapi.yml
   format: yaml
   label: QuestDB Write API
   slug: questdb-write-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/openapi/questdb-write-api-openapi.yml
+  url: https://artifacts.apis.io/questdb/openapi/questdb-write-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: questdb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: questdb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 21:13:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: questdb.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/security/questdb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/questdb/security/questdb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Database

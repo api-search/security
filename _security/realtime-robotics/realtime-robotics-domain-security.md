@@ -48,7 +48,7 @@ source_filename: realtime-robotics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rtr.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 05:41:40 2026 GMT\n  hsts: false\n- host: realtimerobotics.atlassian.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: resolver.rtr.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 10:02:46 2026 GMT\n  hsts: false\ndomains:\n- domain: rtr.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: atlassian.net\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/realtime-robotics/refs/heads/main/security/realtime-robotics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/realtime-robotics/security/realtime-robotics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

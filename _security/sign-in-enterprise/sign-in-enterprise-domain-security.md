@@ -5,85 +5,85 @@ api_specs:
   label: Sign In Enterprise Batches API
   slug: sign-in-enterprise-batches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-batches-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-batches-api-openapi.yml
 - filename: sign-in-enterprise-capacities-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Capacities API
   slug: sign-in-enterprise-capacities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-capacities-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-capacities-api-openapi.yml
 - filename: sign-in-enterprise-groupvisits-api-openapi.yml
   format: yaml
   label: Sign In Enterprise GroupVisits API
   slug: sign-in-enterprise-groupvisits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-groupvisits-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-groupvisits-api-openapi.yml
 - filename: sign-in-enterprise-hosts-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Hosts API
   slug: sign-in-enterprise-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-hosts-api-openapi.yml
 - filename: sign-in-enterprise-invites-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Invites API
   slug: sign-in-enterprise-invites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-invites-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-invites-api-openapi.yml
 - filename: sign-in-enterprise-locations-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Locations API
   slug: sign-in-enterprise-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-locations-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-locations-api-openapi.yml
 - filename: sign-in-enterprise-packages-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Packages API
   slug: sign-in-enterprise-packages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-packages-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-packages-api-openapi.yml
 - filename: sign-in-enterprise-parking-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Parking API
   slug: sign-in-enterprise-parking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-parking-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-parking-api-openapi.yml
 - filename: sign-in-enterprise-registrations-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Registrations API
   slug: sign-in-enterprise-registrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-registrations-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-registrations-api-openapi.yml
 - filename: sign-in-enterprise-users-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Users API
   slug: sign-in-enterprise-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-users-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-users-api-openapi.yml
 - filename: sign-in-enterprise-watchlists-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Watchlists API
   slug: sign-in-enterprise-watchlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-watchlists-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-watchlists-api-openapi.yml
 - filename: sign-in-enterprise-audit-logs-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Audit Logs API
   slug: sign-in-enterprise-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-audit-logs-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-audit-logs-api-openapi.yml
 - filename: sign-in-enterprise-email-templates-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Email Templates API
   slug: sign-in-enterprise-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-email-templates-api-openapi.yml
 - filename: sign-in-enterprise-sign-ins-api-openapi.yml
   format: yaml
   label: Sign In Enterprise Sign Ins API
   slug: sign-in-enterprise-sign-ins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/openapi/sign-in-enterprise-sign-ins-api-openapi.yml
+  url: https://artifacts.apis.io/sign-in-enterprise/openapi/sign-in-enterprise-sign-ins-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -130,7 +130,7 @@ source_filename: sign-in-enterprise-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: signinsolutions.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 19:44:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.signinenterprise.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 16:22:45 2026 GMT\n  hsts: false\n- host: us.tractionguest.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 14:49:40 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: signinsolutions.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: signinenterprise.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sign-in-enterprise/refs/heads/main/security/sign-in-enterprise-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sign-in-enterprise/security/sign-in-enterprise-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -8,13 +8,13 @@ api_specs:
   label: Cuein Answers API
   slug: cuein-answers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-answers-api-openapi.yml
+  url: https://artifacts.apis.io/cuein/openapi/cuein-answers-api-openapi.yml
 - filename: cuein-conversations-api-openapi.yml
   format: yaml
   label: Cuein Conversations API
   slug: cuein-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/openapi/cuein-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/cuein/openapi/cuein-conversations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: cuein-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: derived\nsource: openapi/cuein-answers-api-openapi.yml, openapi/cuein-conversations-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/cuein-answers-api-openapi.yml\n  - openapi/cuein-conversations-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cuein/refs/heads/main/authentication/cuein-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cuein/authentication/cuein-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

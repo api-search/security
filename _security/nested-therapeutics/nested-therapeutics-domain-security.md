@@ -27,7 +27,7 @@ source_filename: nested-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nestedtx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 15:19:15 2026 GMT\n  hsts: false\ndomains:\n- domain: nestedtx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nested-therapeutics/refs/heads/main/security/nested-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nested-therapeutics/security/nested-therapeutics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

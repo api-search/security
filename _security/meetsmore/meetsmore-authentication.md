@@ -24,7 +24,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: >-\n  https://g
   \ allow/reject list drawn from a Permissions enum,\n      e.g. allow [Permissions.All], reject [Permissions.DeleteCalendar].\n    source: https://github.com/meetsmore/nittei/blob/master/examples/jwt.md\n  - name: nittei-account\n    type: apiKey\n    in: header\n    parameter: nittei-account\n    audience: end-user / browser\n    description: >-\n      Tenant selector that accompanies the JWT. The API returns 401 with\n      \"Unidentifiable client. Must include the `nittei-account` header\" when it is\n      missing (NitteiError::UnidentifiableClient in crates/api/src/error.rs).\n    source: https://github.com/meetsmore/nittei/blob/master/crates/api/src/error.rs\n  authorization_model:\n    tenancy: >-\n      Account is the multi-tenancy boundary; a User belongs to exactly one Account.\n      Admin operations are authenticated by the account API key; end-user operations are\n      scoped to the user identified in the JWT.\n    permissions: >-\n      Per-token allow/reject policy (schedulerPolicy)\
   \ rather than OAuth scopes. No OAuth\n      scope registry is published, so no scopes/ artifact is emitted for this provider.\n  outbound_oauth:\n    description: >-\n      Nittei acts as an OAuth2 client to connect external calendars. Google and Outlook\n      credentials are exchanged through user::oauth_integration_controller and\n      account::add_account_integration; see IntegrationProvider,\n      OAuthIntegrationRequestBody and OAuthOutlookRequestBody in the generated client types.\n    providers:\n    - Google\n    - Outlook\n- api: use-ai Server\n  security_schemes:\n  - name: none-by-default\n    type: none\n    description: >-\n      use-ai-server ships with no authentication of its own; the README's rationale is\n      that client-side tools \"can already\" be invoked by the browser application, so the\n      MCP bridge adds no privilege. Authorization for anything the server calls onward is\n      forwarded from the client: forwardedPropsProvider supplies an mcpHeaders map\
   \ keyed\n      by picomatch URL patterns, and the server attaches the matching headers only when it\n      calls a remote MCP endpoint whose URL matches.\n    source: https://github.com/meetsmore/use-ai#external-mcps\n  provider_credentials:\n    description: >-\n      Model provider keys are server-side environment variables (e.g. ANTHROPIC_API_KEY),\n      never sent from the browser.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/meetsmore/refs/heads/main/authentication/meetsmore-authentication.yml
+source_yaml_url: https://artifacts.apis.io/meetsmore/authentication/meetsmore-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company
@@ -35,7 +35,7 @@ tags:
 - Scheduling
 - Calendar
 - Booking
-- Field Service
+- Field Service Management
 - Open Source
 - Artificial Intelligence
 - Agents

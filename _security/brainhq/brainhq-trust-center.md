@@ -16,12 +16,12 @@ source_filename: brainhq-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-03'\nmethod: searched\nprobe: true\nsource: https://www.brainhq.com/en-us/security\nurl: https://www.brainhq.com/en-us/security\ncertifications:\n- HIPAA\n- GDPR\nevidence:\n- source: https://www.brainhq.com/en-us/security\n  keywords:\n  - hipaa\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brainhq/refs/heads/main/security/brainhq-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/brainhq/security/brainhq-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
 - Company
-- Brain-Training
-- Cognitive-Health
+- Brain Training
+- Cognitive Health
 - Software-as-a-Service
 - Posit-Science
 trust_url: https://www.brainhq.com/en-us/security

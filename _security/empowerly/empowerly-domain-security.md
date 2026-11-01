@@ -5,25 +5,25 @@ api_specs:
   label: Empowerly Status API
   slug: empowerly-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/openapi/empowerly-status-api-openapi.yml
+  url: https://artifacts.apis.io/empowerly/openapi/empowerly-status-api-openapi.yml
 - filename: empowerly-components-api-openapi.yml
   format: yaml
   label: Empowerly Components API
   slug: empowerly-components-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/openapi/empowerly-components-api-openapi.yml
+  url: https://artifacts.apis.io/empowerly/openapi/empowerly-components-api-openapi.yml
 - filename: empowerly-incidents-api-openapi.yml
   format: yaml
   label: Empowerly Incidents API
   slug: empowerly-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/openapi/empowerly-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/empowerly/openapi/empowerly-incidents-api-openapi.yml
 - filename: empowerly-maintenance-api-openapi.yml
   format: yaml
   label: Empowerly Maintenance API
   slug: empowerly-maintenance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/openapi/empowerly-maintenance-api-openapi.yml
+  url: https://artifacts.apis.io/empowerly/openapi/empowerly-maintenance-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: empowerly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: empowerly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: status.empowerly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 21:22:05 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: empowerly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/empowerly/refs/heads/main/security/empowerly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/empowerly/security/empowerly-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

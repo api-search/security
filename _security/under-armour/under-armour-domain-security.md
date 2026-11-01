@@ -5,37 +5,37 @@ api_specs:
   label: Under Armour Devices API
   slug: under-armour-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-devices-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-devices-api-openapi.yml
 - filename: under-armour-heart-rate-zones-api-openapi.yml
   format: yaml
   label: Under Armour Heart Rate Zones API
   slug: under-armour-heart-rate-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-heart-rate-zones-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-heart-rate-zones-api-openapi.yml
 - filename: under-armour-routes-api-openapi.yml
   format: yaml
   label: Under Armour Routes API
   slug: under-armour-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-routes-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-routes-api-openapi.yml
 - filename: under-armour-users-api-openapi.yml
   format: yaml
   label: Under Armour Users API
   slug: under-armour-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-users-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-users-api-openapi.yml
 - filename: under-armour-webhooks-api-openapi.yml
   format: yaml
   label: Under Armour Webhooks API
   slug: under-armour-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-webhooks-api-openapi.yml
 - filename: under-armour-workouts-api-openapi.yml
   format: yaml
   label: Under Armour Workouts API
   slug: under-armour-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/openapi/under-armour-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/under-armour/openapi/under-armour-workouts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -73,7 +73,7 @@ source_filename: under-armour-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.under-armour.com\n  https: false\n- host: developer.mapmyfitness.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: false\n- host: api.ua.com\n  https: false\ndomains:\n- domain: under-armour.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: mapmyfitness.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/security/under-armour-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/under-armour/security/under-armour-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fitness

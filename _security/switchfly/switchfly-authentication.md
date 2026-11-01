@@ -7,19 +7,19 @@ api_specs:
   label: Switchfly Machine to Machine (OAuth2 & Refund) API
   slug: switchfly-machine-to-machine-oauth2-refund-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/openapi/switchfly-machine-to-machine-oauth2-refund-api-openapi.yml
+  url: https://artifacts.apis.io/switchfly/openapi/switchfly-machine-to-machine-oauth2-refund-api-openapi.yml
 - filename: switchfly-oauth-2-sso-authorize-api-openapi.yml
   format: yaml
   label: Switchfly OAuth 2 - SSO Authorize API
   slug: switchfly-oauth-2-sso-authorize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/openapi/switchfly-oauth-2-sso-authorize-api-openapi.yml
+  url: https://artifacts.apis.io/switchfly/openapi/switchfly-oauth-2-sso-authorize-api-openapi.yml
 - filename: switchfly-shopping-flow-api-openapi.yml
   format: yaml
   label: Switchfly Shopping Flow API
   slug: switchfly-shopping-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/openapi/switchfly-shopping-flow-api-openapi.yml
+  url: https://artifacts.apis.io/switchfly/openapi/switchfly-shopping-flow-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -58,7 +58,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://www.switchfly.com/dev/api-documentation/loyalty\nsummary:\n  types:\n  - http\n  - oauth2\n  overview: >-\n    The Switchfly Loyalty API authenticates via OAuth 2 SSO. Two HTTP bearer\n    schemes are declared in the OpenAPI: bearerAuth (traveler/SSO tokens) and\n    adminBearerAuth (machine-to-machine client-credentials tokens). Supported\n    grant types are authorization_code (with PKCE) and client_credentials.\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer token retrieved from OAuth 2 SSO token requests (POST /token). Used\n    for traveler-facing loyalty actions such as fetching a profile and redeeming\n    points.\n  in: header\n  header: Authorization\n  sources:\n  - openapi/switchfly-loyalty-openapi.json\n- name: adminBearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    Bearer token retrieved from a Machine-to-Machine OAuth 2 client_credentials\n \
   \   token request (POST /admin/token). Used for administrative/M2M operations\n    such as refunds.\n  in: header\n  header: Authorization\n  sources:\n  - openapi/switchfly-loyalty-openapi.json\noauth2:\n  grant_types:\n  - authorization_code\n  - client_credentials\n  pkce: true\n  token_endpoint: POST /token\n  admin_token_endpoint: POST /admin/token\n  notes: >-\n    Clients with an existing internal SSO token can consolidate authorization via\n    the client_credentials flow using client_id and client_secret. Per-partner\n    token endpoints are served from a templated {domain}.switchfly.com host.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/switchfly/refs/heads/main/authentication/switchfly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/switchfly/authentication/switchfly-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

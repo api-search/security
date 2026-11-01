@@ -5,31 +5,31 @@ api_specs:
   label: QFEX Market Data WebSocket (MDS)
   slug: qfex-market-data-websocket-mds
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/asyncapi/qfex-mds-asyncapi.yml
+  url: https://artifacts.apis.io/qfex/asyncapi/qfex-mds-asyncapi.yml
 - filename: qfex-trade-asyncapi.yml
   format: yaml
   label: QFEX Trade WebSocket
   slug: qfex-trade-websocket
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/asyncapi/qfex-trade-asyncapi.yml
+  url: https://artifacts.apis.io/qfex/asyncapi/qfex-trade-asyncapi.yml
 - filename: qfex-market-data-api-openapi.yml
   format: yaml
   label: Qfex Market Data API
   slug: qfex-market-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/openapi/qfex-market-data-api-openapi.yml
+  url: https://artifacts.apis.io/qfex/openapi/qfex-market-data-api-openapi.yml
 - filename: qfex-pnl-api-openapi.yml
   format: yaml
   label: Qfex Pnl API
   slug: qfex-pnl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/openapi/qfex-pnl-api-openapi.yml
+  url: https://artifacts.apis.io/qfex/openapi/qfex-pnl-api-openapi.yml
 - filename: qfex-user-api-openapi.yml
   format: yaml
   label: Qfex User API
   slug: qfex-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/openapi/qfex-user-api-openapi.yml
+  url: https://artifacts.apis.io/qfex/openapi/qfex-user-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -75,7 +75,7 @@ source_filename: qfex-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.qfex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 07:33:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.qfex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 06:34:48 2026 GMT\n  hsts: null\n- host: mds.qfex.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 06:34:48 2026 GMT\n  hsts: null\ndomains:\n- domain: qfex.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"amazon.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qfex/refs/heads/main/security/qfex-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qfex/security/qfex-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

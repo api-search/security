@@ -7,19 +7,19 @@ api_specs:
   label: Salesforce Service Cloud APIs Bot API
   slug: service-cloud-bot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/openapi/service-cloud-bot-api-openapi.yml
+  url: https://artifacts.apis.io/service-cloud/openapi/service-cloud-bot-api-openapi.yml
 - filename: service-cloud-health-api-openapi.yml
   format: yaml
   label: Salesforce Service Cloud APIs Health API
   slug: service-cloud-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/openapi/service-cloud-health-api-openapi.yml
+  url: https://artifacts.apis.io/service-cloud/openapi/service-cloud-health-api-openapi.yml
 - filename: service-cloud-versions-api-openapi.yml
   format: yaml
   label: Salesforce Service Cloud APIs Versions API
   slug: service-cloud-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/openapi/service-cloud-versions-api-openapi.yml
+  url: https://artifacts.apis.io/service-cloud/openapi/service-cloud-versions-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-08-27'\nmethod: searched\nsource: >-\n  https://l
   \  - name: jwtBearer\n    type: http\n    scheme: bearer\n    surface: Einstein Bots Runtime API\n    description: >-\n      Salesforce OAuth access token obtained using the JWT Bearer flow. Use the chatbot_api scope\n      with this flow to enable access to the Einstein Bots services.\n    sources: [openapi/service-cloud-einstein-bots-openapi.yml]\n  - name: platform-bearer\n    type: http\n    scheme: bearer\n    surface: 'Salesforce Platform REST API (sObjects, Query, Search, Composite)'\n    header: 'Authorization: Bearer <access_token>'\n    description: >-\n      Every REST call carries the OAuth access token. The token also determines the INSTANCE — the\n      token response returns instance_url, and the API base is that instance_url plus\n      /services/data/v67.0. Never hard-code a host.\n  - name: mcp-jwt\n    type: http\n    scheme: bearer\n    surface: Salesforce Hosted MCP Servers\n    probed: 'POST tools/list without a token → 401 {\"errors\":[{\"message\":\"JWT Token is\
   \ required\"}]}'\n    description: >-\n      MCP clients authenticate with OAuth 2.0 Authorization Code with PKCE against an External\n      Client App consumer key created by a Salesforce admin, requesting the mcp_api scope.\nflows:\n  - name: Authorization Code with PKCE\n    supported: true\n    pkce: S256\n    use: Interactive user consent; the flow MCP clients use.\n  - name: Refresh Token\n    supported: true\n  - name: JWT Bearer (private_key_jwt)\n    supported: true\n    use: >-\n      Server-to-server with no user interaction — the standard integration-user pattern for a\n      Service Cloud backend. Also the documented flow for Einstein Bots.\n  - name: Implicit\n    supported: true\n    note: Declared by the Einstein Bots spec. Deprecated by current OAuth guidance; prefer PKCE.\n  - name: Client Credentials\n    supported: true\n    note: Requires an execution user to be assigned on the connected app.\n  - name: Device Flow\n    supported: true\n    note: Used by `sf org login\
   \ device` in the CLI.\ntoken_shape:\n  access_token: opaque\n  id_token: 'JWT, RS256, verified against https://login.salesforce.com/id/keys'\n  instance_binding: >-\n    The token response includes instance_url and id. instance_url is the API base host for that\n    org — Service Cloud has no single global API host.\n  claims_supported:\n    [active, address, email, email_verified, family_name, given_name, is_app_installed, language,\n     locale, name, nickname, organization_id, phone_number, phone_number_verified, photos, picture,\n     preferred_username, profile, sub, updated_at, urls, user_id, user_type, zoneinfo]\nrelated:\n  scopes: scopes/service-cloud-scopes.yml\n  conventions: conventions/service-cloud-conventions.yml\n  conformance: conformance/service-cloud-conformance.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/service-cloud/refs/heads/main/authentication/service-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/service-cloud/authentication/service-cloud-authentication.yml
 summary_line: oauth2/openIdConnect/http-bearer · 4 schemes
 tags:
 - Cloud

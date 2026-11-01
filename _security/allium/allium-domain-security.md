@@ -5,19 +5,19 @@ api_specs:
   label: Allium Explorer API
   slug: allium-explorer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-explorer-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-explorer-api-openapi.yml
 - filename: allium-ping-api-openapi.yml
   format: yaml
   label: Allium Ping API
   slug: allium-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-ping-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-ping-api-openapi.yml
 - filename: allium-polygon-api-openapi.yml
   format: yaml
   label: Allium Polygon API
   slug: allium-polygon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/openapi/allium-polygon-api-openapi.yml
+  url: https://artifacts.apis.io/allium/openapi/allium-polygon-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: allium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: allium.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 05:59:51 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.allium.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 09:21:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.allium.so\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 01:05:02 2026 GMT\n  hsts: null\ndomains:\n- domain: allium.so\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/allium/refs/heads/main/security/allium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/allium/security/allium-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

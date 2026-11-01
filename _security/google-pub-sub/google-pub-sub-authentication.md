@@ -7,37 +7,37 @@ api_specs:
   label: Google Pub/Sub Publish API
   slug: google-pub-sub-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-publish-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-publish-api-openapi.yml
 - filename: google-pub-sub-schemas-api-openapi.yml
   format: yaml
   label: Google Pub/Sub Schemas API
   slug: google-pub-sub-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-schemas-api-openapi.yml
 - filename: google-pub-sub-snapshots-api-openapi.yml
   format: yaml
   label: Google Pub/Sub Snapshots API
   slug: google-pub-sub-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-snapshots-api-openapi.yml
 - filename: google-pub-sub-subscribe-api-openapi.yml
   format: yaml
   label: Google Pub/Sub Subscribe API
   slug: google-pub-sub-subscribe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-subscribe-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-subscribe-api-openapi.yml
 - filename: google-pub-sub-subscriptions-api-openapi.yml
   format: yaml
   label: Google Pub/Sub Subscriptions API
   slug: google-pub-sub-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-subscriptions-api-openapi.yml
 - filename: google-pub-sub-topics-api-openapi.yml
   format: yaml
   label: Google Pub/Sub Topics API
   slug: google-pub-sub-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/openapi/google-pub-sub-topics-api-openapi.yml
+  url: https://artifacts.apis.io/google-pub-sub/openapi/google-pub-sub-topics-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -74,7 +74,7 @@ source_filename: google-pub-sub-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-pub-sub-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/google-pub-sub-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/google-pub-sub-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-pub-sub/refs/heads/main/authentication/google-pub-sub-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-pub-sub/authentication/google-pub-sub-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Cloud

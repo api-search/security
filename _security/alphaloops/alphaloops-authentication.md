@@ -7,25 +7,49 @@ api_specs:
   label: AlphaLoops FMCSA Carrier Data API Carriers API
   slug: alphaloops-carriers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-carriers-api-openapi.yml
+  url: https://artifacts.apis.io/alphaloops/openapi/alphaloops-carriers-api-openapi.yml
 - filename: alphaloops-contacts-api-openapi.yml
   format: yaml
   label: AlphaLoops FMCSA Carrier Data API Contacts API
   slug: alphaloops-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/alphaloops/openapi/alphaloops-contacts-api-openapi.yml
 - filename: alphaloops-inspections-api-openapi.yml
   format: yaml
   label: AlphaLoops FMCSA Carrier Data API Inspections API
   slug: alphaloops-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-inspections-api-openapi.yml
+  url: https://artifacts.apis.io/alphaloops/openapi/alphaloops-inspections-api-openapi.yml
 - filename: alphaloops-vins-api-openapi.yml
   format: yaml
   label: AlphaLoops FMCSA Carrier Data API Vins API
   slug: alphaloops-vins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/openapi/alphaloops-vins-api-openapi.yml
+  url: https://artifacts.apis.io/alphaloops/openapi/alphaloops-vins-api-openapi.yml
+- filename: alphaloops-custom-data-api-openapi.yml
+  format: yaml
+  label: AlphaLoops FMCSA Carrier Data API Custom Data API
+  slug: alphaloops-custom-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alphaloops/openapi/alphaloops-custom-data-api-openapi.yml
+- filename: alphaloops-mc-sale-listings-api-openapi.yml
+  format: yaml
+  label: AlphaLoops FMCSA Carrier Data API Mc Sale Listings API
+  slug: alphaloops-mc-sale-listings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alphaloops/openapi/alphaloops-mc-sale-listings-api-openapi.yml
+- filename: alphaloops-mc-sales-api-openapi.yml
+  format: yaml
+  label: AlphaLoops FMCSA Carrier Data API Mc Sales API
+  slug: alphaloops-mc-sales-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alphaloops/openapi/alphaloops-mc-sales-api-openapi.yml
+- filename: alphaloops-peer-groups-api-openapi.yml
+  format: yaml
+  label: AlphaLoops FMCSA Carrier Data API Peer Groups API
+  slug: alphaloops-peer-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alphaloops/openapi/alphaloops-peer-groups-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +76,7 @@ source_filename: alphaloops-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: derived\nsource: openapi/alphaloops-fmcsa-carrier-data-api-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'API key provided by AlphaLoops. Include as: Authorization: Bearer YOUR_API_KEY'\n  sources:\n  - openapi/alphaloops-fmcsa-carrier-data-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/authentication/alphaloops-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alphaloops/authentication/alphaloops-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - fmcsa api

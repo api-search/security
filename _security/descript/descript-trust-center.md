@@ -5,19 +5,19 @@ api_specs:
   label: Descript API Endpoints API
   slug: descript-api-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-api-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-api-endpoints-api-openapi.yml
 - filename: descript-edit-in-descript-api-openapi.yml
   format: yaml
   label: Descript Edit in Descript API
   slug: descript-edit-in-descript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-edit-in-descript-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-edit-in-descript-api-openapi.yml
 - filename: descript-export-from-descript-api-openapi.yml
   format: yaml
   label: Descript Export from Descript API
   slug: descript-export-from-descript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/openapi/descript-export-from-descript-api-openapi.yml
+  url: https://artifacts.apis.io/descript/openapi/descript-export-from-descript-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -35,7 +35,7 @@ source_filename: descript-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.descript.com/security\nurl: https://www.descript.com/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.descript.com/security\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/descript/refs/heads/main/security/descript-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/descript/security/descript-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Artificial Intelligence

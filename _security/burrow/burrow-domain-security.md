@@ -5,13 +5,13 @@ api_specs:
   label: Burrow Events API
   slug: burrow-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burrow/refs/heads/main/openapi/burrow-events-api-openapi.yml
+  url: https://artifacts.apis.io/burrow/openapi/burrow-events-api-openapi.yml
 - filename: burrow-mcp-api-openapi.yml
   format: yaml
   label: Burrow MCP API
   slug: burrow-mcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/burrow/refs/heads/main/openapi/burrow-mcp-api-openapi.yml
+  url: https://artifacts.apis.io/burrow/openapi/burrow-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: burrow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: useburrow.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 14:51:31 2026 GMT\n  hsts: false\ndomains:\n- domain: useburrow.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/burrow/refs/heads/main/security/burrow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/burrow/security/burrow-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

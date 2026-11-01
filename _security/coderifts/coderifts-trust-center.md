@@ -16,7 +16,7 @@ source_filename: coderifts-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-16'\nmethod: searched\nprobe: true\nsource: https://coderifts.com/trust-center/\nurl: https://coderifts.com/trust-center/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://coderifts.com/trust-center/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coderifts/refs/heads/main/security/coderifts-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/coderifts/security/coderifts-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

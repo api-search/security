@@ -5,13 +5,13 @@ api_specs:
   label: University of Hong Kong Discovery API
   slug: hku-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/hku/openapi/hku-discovery-api-openapi.yml
 - filename: hku-oauth-api-openapi.yml
   format: yaml
   label: University of Hong Kong O Auth API
   slug: hku-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/openapi/hku-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/hku/openapi/hku-oauth-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,7 +62,7 @@ source_filename: hku-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hku.hk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.hkaf.edu.hk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: false\n- host: hkafidp.hku.hk\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: hku.hk\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"hongkongpost.gov.hk\"\n  - 0 issue \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issuewild \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: hkaf.edu.hk\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hku/refs/heads/main/security/hku-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hku/security/hku-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Education

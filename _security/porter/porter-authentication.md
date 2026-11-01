@@ -7,31 +7,31 @@ api_specs:
   label: Porter Bundles API
   slug: porter-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-bundles-api-openapi.yml
 - filename: porter-credentialsets-api-openapi.yml
   format: yaml
   label: Porter CredentialSets API
   slug: porter-credentialsets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-credentialsets-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-credentialsets-api-openapi.yml
 - filename: porter-installations-api-openapi.yml
   format: yaml
   label: Porter Installations API
   slug: porter-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-installations-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-installations-api-openapi.yml
 - filename: porter-parametersets-api-openapi.yml
   format: yaml
   label: Porter ParameterSets API
   slug: porter-parametersets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-parametersets-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-parametersets-api-openapi.yml
 - filename: porter-runs-api-openapi.yml
   format: yaml
   label: Porter Runs API
   slug: porter-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/openapi/porter-runs-api-openapi.yml
+  url: https://artifacts.apis.io/porter/openapi/porter-runs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: porter-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/porter-bundle-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token for authenticating to the Porter server API.\n  sources:\n  - openapi/porter-bundle-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/authentication/porter-authentication.yml
+source_yaml_url: https://artifacts.apis.io/porter/authentication/porter-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Cloud-Native

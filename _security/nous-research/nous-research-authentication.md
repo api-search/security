@@ -7,13 +7,13 @@ api_specs:
   label: Nous Research Models API
   slug: nous-research-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/openapi/nous-research-models-api-openapi.yml
+  url: https://artifacts.apis.io/nous-research/openapi/nous-research-models-api-openapi.yml
 - filename: nous-research-chat-completions-api-openapi.yml
   format: yaml
   label: Nous Research Chat Completions API
   slug: nous-research-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/openapi/nous-research-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/nous-research/openapi/nous-research-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: nous-research-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/nous-research-inference-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Nous Portal API key supplied as: Authorization: Bearer <key>'\n  sources:\n  - openapi/nous-research-inference-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nous-research/refs/heads/main/authentication/nous-research-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nous-research/authentication/nous-research-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

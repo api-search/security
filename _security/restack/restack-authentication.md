@@ -7,19 +7,19 @@ api_specs:
   label: Restack Agents API
   slug: restack-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-agents-api-openapi.yml
+  url: https://artifacts.apis.io/restack/openapi/restack-agents-api-openapi.yml
 - filename: restack-system-api-openapi.yml
   format: yaml
   label: Restack System API
   slug: restack-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-system-api-openapi.yml
+  url: https://artifacts.apis.io/restack/openapi/restack-system-api-openapi.yml
 - filename: restack-workflows-api-openapi.yml
   format: yaml
   label: Restack Workflows API
   slug: restack-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/openapi/restack-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/restack/openapi/restack-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: restack-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/restack-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token for API authentication. Set via RESTACK_API_BEARER_TOKEN environment\n    variable.\n  sources:\n  - openapi/restack-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/restack/refs/heads/main/authentication/restack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/restack/authentication/restack-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AI Agents

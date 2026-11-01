@@ -5,49 +5,49 @@ api_specs:
   label: Agent Disco Checks API
   slug: agentdisco-io-checks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-checks-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-checks-api-openapi.yml
 - filename: agentdisco-io-keys-api-openapi.yml
   format: yaml
   label: Agent Disco Keys API
   slug: agentdisco-io-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-keys-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-keys-api-openapi.yml
 - filename: agentdisco-io-ops-api-openapi.yml
   format: yaml
   label: Agent Disco Ops API
   slug: agentdisco-io-ops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-ops-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-ops-api-openapi.yml
 - filename: agentdisco-io-scans-api-openapi.yml
   format: yaml
   label: Agent Disco Scans API
   slug: agentdisco-io-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-scans-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-scans-api-openapi.yml
 - filename: agentdisco-io-unlist-api-openapi.yml
   format: yaml
   label: Agent Disco Unlist API
   slug: agentdisco-io-unlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-unlist-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-unlist-api-openapi.yml
 - filename: agentdisco-io-webhooks-api-openapi.yml
   format: yaml
   label: Agent Disco Webhooks API
   slug: agentdisco-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-webhooks-api-openapi.yml
 - filename: agentdisco-io-websites-api-openapi.yml
   format: yaml
   label: Agent Disco Websites API
   slug: agentdisco-io-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-websites-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-websites-api-openapi.yml
 - filename: agentdisco-io-open-api-api-openapi.yml
   format: yaml
   label: Agent Disco Open API
   slug: agentdisco-io-open-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/openapi/agentdisco-io-open-api-api-openapi.yml
+  url: https://artifacts.apis.io/agentdisco-io/openapi/agentdisco-io-open-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: agentdisco-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: agentdisco.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  6 11:30:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: agentdisco.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentdisco-io/refs/heads/main/security/agentdisco-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agentdisco-io/security/agentdisco-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

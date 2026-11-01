@@ -8,13 +8,13 @@ api_specs:
   label: Maileroo Emails API
   slug: maileroo-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/openapi/maileroo-emails-api-openapi.yml
+  url: https://artifacts.apis.io/maileroo/openapi/maileroo-emails-api-openapi.yml
 - filename: maileroo-scheduled-api-openapi.yml
   format: yaml
   label: Maileroo Scheduled API
   slug: maileroo-scheduled-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/openapi/maileroo-scheduled-api-openapi.yml
+  url: https://artifacts.apis.io/maileroo/openapi/maileroo-scheduled-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -47,7 +47,7 @@ source_filename: maileroo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/maileroo-email-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  sources:\n  - openapi/maileroo-email-api-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/maileroo-email-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maileroo/refs/heads/main/authentication/maileroo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/maileroo/authentication/maileroo-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Email

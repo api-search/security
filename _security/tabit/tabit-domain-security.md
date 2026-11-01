@@ -5,31 +5,31 @@ api_specs:
   label: Tabit Orders API
   slug: tabit-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/_original/tabit-openapi.yml
+  url: https://artifacts.apis.io/tabit/openapi/_original/tabit-openapi.yml
 - filename: tabit-openapi.yml
   format: yaml
   label: Tabit Menu API
   slug: tabit-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/_original/tabit-openapi.yml
+  url: https://artifacts.apis.io/tabit/openapi/_original/tabit-openapi.yml
 - filename: tabit-openapi.yml
   format: yaml
   label: Tabit Reservations API
   slug: tabit-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/_original/tabit-openapi.yml
+  url: https://artifacts.apis.io/tabit/openapi/_original/tabit-openapi.yml
 - filename: tabit-openapi.yml
   format: yaml
   label: Tabit Payments API
   slug: tabit-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/_original/tabit-openapi.yml
+  url: https://artifacts.apis.io/tabit/openapi/_original/tabit-openapi.yml
 - filename: tabit-openapi.yml
   format: yaml
   label: Tabit Integrations API
   slug: tabit-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/openapi/_original/tabit-openapi.yml
+  url: https://artifacts.apis.io/tabit/openapi/_original/tabit-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: tabit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tabit.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 14:51:16 2026 GMT\n  hsts: false\n- host: support-us.tabit.cloud\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:45:00 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: tabit.cloud\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tabit/refs/heads/main/security/tabit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tabit/security/tabit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Restaurant

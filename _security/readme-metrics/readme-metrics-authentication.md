@@ -7,25 +7,25 @@ api_specs:
   label: ReadMe Metrics Api Registry API
   slug: readme-metrics-api-registry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-api-registry-api-openapi.yml
+  url: https://artifacts.apis.io/readme-metrics/openapi/readme-metrics-api-registry-api-openapi.yml
 - filename: readme-metrics-api-specification-api-openapi.yml
   format: yaml
   label: ReadMe Metrics Api Specification API
   slug: readme-metrics-api-specification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-api-specification-api-openapi.yml
+  url: https://artifacts.apis.io/readme-metrics/openapi/readme-metrics-api-specification-api-openapi.yml
 - filename: readme-metrics-changelogs-api-openapi.yml
   format: yaml
   label: ReadMe Metrics Changelogs API
   slug: readme-metrics-changelogs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-changelogs-api-openapi.yml
+  url: https://artifacts.apis.io/readme-metrics/openapi/readme-metrics-changelogs-api-openapi.yml
 - filename: readme-metrics-docs-api-openapi.yml
   format: yaml
   label: ReadMe Metrics Docs API
   slug: readme-metrics-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/openapi/readme-metrics-docs-api-openapi.yml
+  url: https://artifacts.apis.io/readme-metrics/openapi/readme-metrics-docs-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: readme-metrics-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/readme-metrics-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: ReadMe API key supplied as the HTTP Basic username (password empty).\n  sources:\n  - openapi/readme-metrics-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/authentication/readme-metrics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/readme-metrics/authentication/readme-metrics-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - API Analytics

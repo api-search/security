@@ -5,25 +5,25 @@ api_specs:
   label: Jitterbit Login API
   slug: jitterbit-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-login-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-login-api-openapi.yml
 - filename: jitterbit-operations-api-openapi.yml
   format: yaml
   label: Jitterbit Operations API
   slug: jitterbit-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-operations-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-operations-api-openapi.yml
 - filename: jitterbit-projects-api-openapi.yml
   format: yaml
   label: Jitterbit Projects API
   slug: jitterbit-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-projects-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-projects-api-openapi.yml
 - filename: jitterbit-schedules-api-openapi.yml
   format: yaml
   label: Jitterbit Schedules API
   slug: jitterbit-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-schedules-api-openapi.yml
 certification_count: 6
 certifications:
 - SOC 2
@@ -45,7 +45,7 @@ source_filename: jitterbit-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: searched\nprobe: true\nsource: https://security.jitterbit.com/\nurl: https://security.jitterbit.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- HIPAA\n- GDPR\nevidence:\n- source: https://security.jitterbit.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - iso/iec 27001\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/security/jitterbit-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/jitterbit/security/jitterbit-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR
 tags:
 - API Management

@@ -5,139 +5,139 @@ api_specs:
   label: v0 Agent API
   slug: v0-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-agent-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-agent-api-openapi.yml
 - filename: v0-blankproject-api-openapi.yml
   format: yaml
   label: v0 Blank Project API
   slug: v0-blankproject-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-blankproject-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-blankproject-api-openapi.yml
 - filename: v0-chats-api-openapi.yml
   format: yaml
   label: v0 Chats API
   slug: v0-chats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-chats-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-chats-api-openapi.yml
 - filename: v0-chatscreenshots-api-openapi.yml
   format: yaml
   label: v0 Chat Screenshots API
   slug: v0-chatscreenshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-chatscreenshots-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-chatscreenshots-api-openapi.yml
 - filename: v0-deployments-api-openapi.yml
   format: yaml
   label: v0 Deployments API
   slug: v0-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-deployments-api-openapi.yml
 - filename: v0-feedback-api-openapi.yml
   format: yaml
   label: v0 Feedback API
   slug: v0-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-feedback-api-openapi.yml
 - filename: v0-git-api-openapi.yml
   format: yaml
   label: v0 Git API
   slug: v0-git-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-git-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-git-api-openapi.yml
 - filename: v0-hooks-api-openapi.yml
   format: yaml
   label: v0 Hooks API
   slug: v0-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-hooks-api-openapi.yml
 - filename: v0-iap-api-openapi.yml
   format: yaml
   label: v0 Iap API
   slug: v0-iap-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-iap-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-iap-api-openapi.yml
 - filename: v0-integrations-api-openapi.yml
   format: yaml
   label: v0 Integrations API
   slug: v0-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-integrations-api-openapi.yml
 - filename: v0-nativeversion-api-openapi.yml
   format: yaml
   label: v0 Native Version API
   slug: v0-nativeversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-nativeversion-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-nativeversion-api-openapi.yml
 - filename: v0-notifications-api-openapi.yml
   format: yaml
   label: v0 Notifications API
   slug: v0-notifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-notifications-api-openapi.yml
 - filename: v0-plans-api-openapi.yml
   format: yaml
   label: v0 Plans API
   slug: v0-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-plans-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-plans-api-openapi.yml
 - filename: v0-products-api-openapi.yml
   format: yaml
   label: v0 Products API
   slug: v0-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-products-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-products-api-openapi.yml
 - filename: v0-projects-api-openapi.yml
   format: yaml
   label: v0 Projects API
   slug: v0-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-projects-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-projects-api-openapi.yml
 - filename: v0-reports-api-openapi.yml
   format: yaml
   label: v0 Reports API
   slug: v0-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-reports-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-reports-api-openapi.yml
 - filename: v0-search-api-openapi.yml
   format: yaml
   label: v0 Search API
   slug: v0-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-search-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-search-api-openapi.yml
 - filename: v0-terms-api-openapi.yml
   format: yaml
   label: v0 Terms API
   slug: v0-terms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-terms-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-terms-api-openapi.yml
 - filename: v0-user-api-openapi.yml
   format: yaml
   label: v0 User API
   slug: v0-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-user-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-user-api-openapi.yml
 - filename: v0-magic-link-api-openapi.yml
   format: yaml
   label: v0 Magic Link API
   slug: v0-magic-link-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-magic-link-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-magic-link-api-openapi.yml
 - filename: v0-mcp-servers-api-openapi.yml
   format: yaml
   label: v0 MCP Servers API
   slug: v0-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-mcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-mcp-servers-api-openapi.yml
 - filename: v0-prompt-templates-api-openapi.yml
   format: yaml
   label: v0 Prompt Templates API
   slug: v0-prompt-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-prompt-templates-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-prompt-templates-api-openapi.yml
 - filename: v0-rate-limits-api-openapi.yml
   format: yaml
   label: v0 Rate Limits API
   slug: v0-rate-limits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/openapi/v0-rate-limits-api-openapi.yml
+  url: https://artifacts.apis.io/v0/openapi/v0-rate-limits-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -189,7 +189,7 @@ source_filename: v0-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: v0.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 04:24:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: vercel.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 08:55:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.v0.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 15:28:19 2026 GMT\n  hsts: null\ndomains:\n- domain: v0.app\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: false\n  dmarc: false\n- domain: vercel.com\n  dnssec: false\n  caa:\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/v0/refs/heads/main/security/v0-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/v0/security/v0-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

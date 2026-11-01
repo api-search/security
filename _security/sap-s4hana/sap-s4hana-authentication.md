@@ -7,37 +7,37 @@ api_specs:
   label: SAP S/4HANA Partners API
   slug: sap-s4hana-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-partners-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-partners-api-openapi.yml
 - filename: sap-s4hana-pricing-elements-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Pricing Elements API
   slug: sap-s4hana-pricing-elements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-pricing-elements-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-pricing-elements-api-openapi.yml
 - filename: sap-s4hana-sales-order-items-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Sales Order Items API
   slug: sap-s4hana-sales-order-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-sales-order-items-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-sales-order-items-api-openapi.yml
 - filename: sap-s4hana-sales-orders-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Sales Orders API
   slug: sap-s4hana-sales-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-sales-orders-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-sales-orders-api-openapi.yml
 - filename: sap-s4hana-schedule-lines-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Schedule Lines API
   slug: sap-s4hana-schedule-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-schedule-lines-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-schedule-lines-api-openapi.yml
 - filename: sap-s4hana-text-api-openapi.yml
   format: yaml
   label: SAP S/4HANA Text API
   slug: sap-s4hana-text-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/openapi/sap-s4hana-text-api-openapi.yml
+  url: https://artifacts.apis.io/sap-s4hana/openapi/sap-s4hana-text-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -75,7 +75,7 @@ source_filename: sap-s4hana-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sap-s4hana-sales-order-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Basic authentication using SAP user credentials\n  sources:\n  - openapi/sap-s4hana-sales-order-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://{tenant}.authentication.{region}.hana.ondemand.com/oauth/token\n    scopes: 1\n  description: OAuth 2.0 authentication for SAP S/4HANA Cloud\n  sources:\n  - openapi/sap-s4hana-sales-order-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/authentication/sap-s4hana-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sap-s4hana/authentication/sap-s4hana-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Business Applications

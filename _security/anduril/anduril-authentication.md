@@ -7,25 +7,31 @@ api_specs:
   label: Anduril Industries Entities API
   slug: anduril-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-entities-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-entities-api-openapi.yml
 - filename: anduril-objects-api-openapi.yml
   format: yaml
   label: Anduril Industries Objects API
   slug: anduril-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-objects-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-objects-api-openapi.yml
 - filename: anduril-tasks-api-openapi.yml
   format: yaml
   label: Anduril Industries Tasks API
   slug: anduril-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-tasks-api-openapi.yml
 - filename: anduril-oauth-api-openapi.yml
   format: yaml
   label: Anduril Industries O Auth API
   slug: anduril-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/openapi/anduril-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/anduril/openapi/anduril-oauth-api-openapi.yml
+- filename: anduril-video-api-openapi.yml
+  format: yaml
+  label: Anduril Industries Video API
+  slug: anduril-video-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anduril/openapi/anduril-video-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -64,7 +70,7 @@ source_filename: anduril-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/anduril-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token issued via /oauth/token or partner-issued bearer.\n  sources:\n  - openapi/anduril-openapi.yml\n- name: oauth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.developer.anduril.com/oauth/token\n    scopes: 0\n  description: OAuth 2.0 client credentials flow for service-to-service access.\n  sources:\n  - openapi/anduril-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anduril/refs/heads/main/authentication/anduril-authentication.yml
+source_yaml_url: https://artifacts.apis.io/anduril/authentication/anduril-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Defense

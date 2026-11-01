@@ -14,37 +14,37 @@ api_specs:
   label: Apache Cassandra Columns API
   slug: cassandra-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-columns-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-columns-api-openapi.yml
 - filename: cassandra-indexes-api-openapi.yml
   format: yaml
   label: Apache Cassandra Indexes API
   slug: cassandra-indexes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-indexes-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-indexes-api-openapi.yml
 - filename: cassandra-keyspaces-api-openapi.yml
   format: yaml
   label: Apache Cassandra Keyspaces API
   slug: cassandra-keyspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-keyspaces-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-keyspaces-api-openapi.yml
 - filename: cassandra-rows-api-openapi.yml
   format: yaml
   label: Apache Cassandra Rows API
   slug: cassandra-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-rows-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-rows-api-openapi.yml
 - filename: cassandra-tables-api-openapi.yml
   format: yaml
   label: Apache Cassandra Tables API
   slug: cassandra-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-tables-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-tables-api-openapi.yml
 - filename: cassandra-types-api-openapi.yml
   format: yaml
   label: Apache Cassandra Types API
   slug: cassandra-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/openapi/cassandra-types-api-openapi.yml
+  url: https://artifacts.apis.io/cassandra/openapi/cassandra-types-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -71,7 +71,7 @@ source_filename: cassandra-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cassandra-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: cassandraToken\n  type: apiKey\n  in: header\n  parameter: X-Cassandra-Token\n  sources:\n  - openapi/cassandra-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cassandra/refs/heads/main/authentication/cassandra-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cassandra/authentication/cassandra-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Apache

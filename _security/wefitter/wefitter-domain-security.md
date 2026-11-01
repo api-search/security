@@ -5,55 +5,55 @@ api_specs:
   label: WeFitter App API
   slug: wefitter-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-app-api-openapi.yml
+  url: https://artifacts.apis.io/wefitter/openapi/wefitter-app-api-openapi.yml
 - filename: wefitter-challenge-api-openapi.yml
   format: yaml
   label: WeFitter Challenge API
   slug: wefitter-challenge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-challenge-api-openapi.yml
+  url: https://artifacts.apis.io/wefitter/openapi/wefitter-challenge-api-openapi.yml
 - filename: wefitter-connection-api-openapi.yml
   format: yaml
   label: WeFitter Connection API
   slug: wefitter-connection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-connection-api-openapi.yml
+  url: https://artifacts.apis.io/wefitter/openapi/wefitter-connection-api-openapi.yml
 - filename: wefitter-insights-api-openapi.yml
   format: yaml
   label: WeFitter Insights API
   slug: wefitter-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-insights-api-openapi.yml
+  url: https://artifacts.apis.io/wefitter/openapi/wefitter-insights-api-openapi.yml
 - filename: wefitter-loyalty-api-openapi.yml
   format: yaml
   label: WeFitter Loyalty API
   slug: wefitter-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/wefitter/openapi/wefitter-loyalty-api-openapi.yml
 - filename: wefitter-notification-api-openapi.yml
   format: yaml
   label: WeFitter Notification API
   slug: wefitter-notification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-notification-api-openapi.yml
+  url: https://artifacts.apis.io/wefitter/openapi/wefitter-notification-api-openapi.yml
 - filename: wefitter-profile-api-openapi.yml
   format: yaml
   label: WeFitter Profile API
   slug: wefitter-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-profile-api-openapi.yml
+  url: https://artifacts.apis.io/wefitter/openapi/wefitter-profile-api-openapi.yml
 - filename: wefitter-team-api-openapi.yml
   format: yaml
   label: WeFitter Team API
   slug: wefitter-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-team-api-openapi.yml
+  url: https://artifacts.apis.io/wefitter/openapi/wefitter-team-api-openapi.yml
 - filename: wefitter-token-api-openapi.yml
   format: yaml
   label: WeFitter Token API
   slug: wefitter-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/openapi/wefitter-token-api-openapi.yml
+  url: https://artifacts.apis.io/wefitter/openapi/wefitter-token-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -93,7 +93,7 @@ source_filename: wefitter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wefitter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 21:04:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63082000\n- host: api.wefitter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 21:02:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63082000\ndomains:\n- domain: wefitter.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 iodef \"mailto:caa@wftr.nl\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wefitter/refs/heads/main/security/wefitter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wefitter/security/wefitter-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

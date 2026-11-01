@@ -8,55 +8,55 @@ api_specs:
   label: NocoDB Attachments API
   slug: nocodb-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-attachments-api-openapi.yml
 - filename: nocodb-auth-api-openapi.yml
   format: yaml
   label: NocoDB Auth API
   slug: nocodb-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-auth-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-auth-api-openapi.yml
 - filename: nocodb-bases-api-openapi.yml
   format: yaml
   label: NocoDB Bases API
   slug: nocodb-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-bases-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-bases-api-openapi.yml
 - filename: nocodb-fields-api-openapi.yml
   format: yaml
   label: NocoDB Fields API
   slug: nocodb-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-fields-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-fields-api-openapi.yml
 - filename: nocodb-hooks-api-openapi.yml
   format: yaml
   label: NocoDB Hooks API
   slug: nocodb-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-hooks-api-openapi.yml
 - filename: nocodb-links-api-openapi.yml
   format: yaml
   label: NocoDB Links API
   slug: nocodb-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-links-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-links-api-openapi.yml
 - filename: nocodb-records-api-openapi.yml
   format: yaml
   label: NocoDB Records API
   slug: nocodb-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-records-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-records-api-openapi.yml
 - filename: nocodb-tables-api-openapi.yml
   format: yaml
   label: NocoDB Tables API
   slug: nocodb-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-tables-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-tables-api-openapi.yml
 - filename: nocodb-views-api-openapi.yml
   format: yaml
   label: NocoDB Views API
   slug: nocodb-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/openapi/nocodb-views-api-openapi.yml
+  url: https://artifacts.apis.io/nocodb/openapi/nocodb-views-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -93,7 +93,7 @@ source_filename: nocodb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nocodb-data-api-openapi.yml, openapi/nocodb-meta-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: xcToken\n  type: apiKey\n  in: header\n  parameter: xc-token\n  description: NocoDB API token\n  sources:\n  - openapi/nocodb-data-api-openapi.yml\n  - openapi/nocodb-meta-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token authentication. Use ''Authorization: Bearer <token>'' header format.'\n  sources:\n  - openapi/nocodb-data-api-openapi.yml\n  - openapi/nocodb-meta-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nocodb/refs/heads/main/authentication/nocodb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nocodb/authentication/nocodb-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Database

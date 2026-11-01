@@ -42,7 +42,7 @@ source_filename: unto-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: untolabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 19:25:01 2026 GMT\n  hsts: false\n- host: thru.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 23:05:46 2026 GMT\n  hsts: false\n- host: rpc.alphanet.thru.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 21:02:32 2026 GMT\n  hsts: null\ndomains:\n- domain: untolabs.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: thru.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unto-labs/refs/heads/main/security/unto-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unto-labs/security/unto-labs-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

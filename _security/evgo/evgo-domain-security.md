@@ -40,7 +40,7 @@ source_filename: evgo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.evgo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 00:00:05 2026 GMT\n  hsts: null\n- host: api.evgo.com\n  https: false\n- host: developer.plugshare.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 10:59:49 2026 GMT\n  hsts: false\ndomains:\n- domain: evgo.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: plugshare.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evgo/refs/heads/main/security/evgo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/evgo/security/evgo-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Electric Vehicles

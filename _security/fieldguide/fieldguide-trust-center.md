@@ -5,97 +5,97 @@ api_specs:
   label: Fieldguide Comments API
   slug: fieldguide-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-comments-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-comments-api-openapi.yml
 - filename: fieldguide-companies-api-openapi.yml
   format: yaml
   label: Fieldguide Companies API
   slug: fieldguide-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-companies-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-companies-api-openapi.yml
 - filename: fieldguide-controls-api-openapi.yml
   format: yaml
   label: Fieldguide Controls API
   slug: fieldguide-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-controls-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-controls-api-openapi.yml
 - filename: fieldguide-engagements-api-openapi.yml
   format: yaml
   label: Fieldguide Engagements API
   slug: fieldguide-engagements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-engagements-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-engagements-api-openapi.yml
 - filename: fieldguide-files-api-openapi.yml
   format: yaml
   label: Fieldguide Files API
   slug: fieldguide-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-files-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-files-api-openapi.yml
 - filename: fieldguide-insights-api-openapi.yml
   format: yaml
   label: Fieldguide Insights API
   slug: fieldguide-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-insights-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-insights-api-openapi.yml
 - filename: fieldguide-jobs-api-openapi.yml
   format: yaml
   label: Fieldguide Jobs API
   slug: fieldguide-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-jobs-api-openapi.yml
 - filename: fieldguide-milestones-api-openapi.yml
   format: yaml
   label: Fieldguide Milestones API
   slug: fieldguide-milestones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-milestones-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-milestones-api-openapi.yml
 - filename: fieldguide-requests-api-openapi.yml
   format: yaml
   label: Fieldguide Requests API
   slug: fieldguide-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-requests-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-requests-api-openapi.yml
 - filename: fieldguide-sheet-columns-api-openapi.yml
   format: yaml
   label: Fieldguide Sheet Columns API
   slug: fieldguide-sheet-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-sheet-columns-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-sheet-columns-api-openapi.yml
 - filename: fieldguide-sheet-rows-api-openapi.yml
   format: yaml
   label: Fieldguide Sheet Rows API
   slug: fieldguide-sheet-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-sheet-rows-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-sheet-rows-api-openapi.yml
 - filename: fieldguide-sheets-api-openapi.yml
   format: yaml
   label: Fieldguide Sheets API
   slug: fieldguide-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-sheets-api-openapi.yml
 - filename: fieldguide-users-api-openapi.yml
   format: yaml
   label: Fieldguide Users API
   slug: fieldguide-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-users-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-users-api-openapi.yml
 - filename: fieldguide-webhooks-api-openapi.yml
   format: yaml
   label: Fieldguide Webhooks API
   slug: fieldguide-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-webhooks-api-openapi.yml
 - filename: fieldguide-scopes-api-openapi.yml
   format: yaml
   label: Fieldguide Scopes API
   slug: fieldguide-scopes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-scopes-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-scopes-api-openapi.yml
 - filename: fieldguide-token-api-openapi.yml
   format: yaml
   label: Fieldguide Token API
   slug: fieldguide-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/openapi/fieldguide-token-api-openapi.yml
+  url: https://artifacts.apis.io/fieldguide/openapi/fieldguide-token-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -114,7 +114,7 @@ source_filename: fieldguide-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nprobe: true\nsource: https://www.fieldguide.io/trust\nurl: https://www.fieldguide.io/trust\ncertifications:\n- SOC 2\n- PCI DSS\n- HIPAA\nevidence:\n- source: https://www.fieldguide.io/trust\n  keywords:\n  - soc 2\n  - pci dss\n  - hipaa\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fieldguide/refs/heads/main/security/fieldguide-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/fieldguide/security/fieldguide-trust-center.yml
 summary_line: SOC 2, PCI DSS, HIPAA
 tags:
 - Company

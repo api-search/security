@@ -7,31 +7,31 @@ api_specs:
   label: cloro Async API
   slug: cloro-dev-async-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/openapi/cloro-dev-async-api-openapi.yml
+  url: https://artifacts.apis.io/cloro-dev/openapi/cloro-dev-async-api-openapi.yml
 - filename: cloro-dev-countries-api-openapi.yml
   format: yaml
   label: cloro Countries API
   slug: cloro-dev-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/openapi/cloro-dev-countries-api-openapi.yml
+  url: https://artifacts.apis.io/cloro-dev/openapi/cloro-dev-countries-api-openapi.yml
 - filename: cloro-dev-credits-api-openapi.yml
   format: yaml
   label: cloro Credits API
   slug: cloro-dev-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/openapi/cloro-dev-credits-api-openapi.yml
+  url: https://artifacts.apis.io/cloro-dev/openapi/cloro-dev-credits-api-openapi.yml
 - filename: cloro-dev-monitor-api-openapi.yml
   format: yaml
   label: cloro Monitor API
   slug: cloro-dev-monitor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/openapi/cloro-dev-monitor-api-openapi.yml
+  url: https://artifacts.apis.io/cloro-dev/openapi/cloro-dev-monitor-api-openapi.yml
 - filename: cloro-dev-states-api-openapi.yml
   format: yaml
   label: cloro States API
   slug: cloro-dev-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/openapi/cloro-dev-states-api-openapi.yml
+  url: https://artifacts.apis.io/cloro-dev/openapi/cloro-dev-states-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -98,7 +98,7 @@ source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: searched\nsource: openapi/cloro-dev-openapi.yml (securitySchemes.bearerAuth); https://cloro.dev/docs/guides/authentication (markdown twin read 2026-10-07); https://cloro.dev/docs/integrations/mcp; https://mcp.cloro.dev/.well-known/oauth-protected-resource (HTTP 200)\ndocs: https://cloro.dev/docs/guides/authentication\nsummary:\n  types:\n  - http\n  - oauth2\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  applies_to: REST API (https://api.cloro.dev) and the MCP server when used with an API key\n  description: cloro API key as a bearer token. One key grants every endpoint in this spec; per-key scopes are not available, so a client cannot request a narrower permission. Keys are created and revoked in the [dashboard](https://dashboard.cloro.dev/api-keys).\n  header: 'Authorization: Bearer <key>'\n  key_management:\n    create: https://dashboard.cloro.dev/api-keys\n    shown_once: true\n    naming: optional human-readable name up\
   \ to 64 characters\n    rotation: No rotate action - create a new key and invalidate the old one; an invalidated key can keep working for up to a minute.\n    test_keys: There are no separate test keys or sandbox - every key calls the production API and draws from the organization's single credit balance.\n  errors:\n    status: 401\n    codes: [MISSING_API_KEY, INVALID_API_KEY_FORMAT, INVALID_OR_EXPIRED_API_KEY]\n    note: a lowercase \"bearer\" prefix counts as no key\n  sources:\n  - openapi/cloro-dev-openapi.yml\n  - https://cloro.dev/docs/guides/authentication\n- name: mcpOAuth\n  type: oauth2\n  applies_to: MCP server only (https://mcp.cloro.dev/mcp)\n  description: OAuth 2.1 authorization-code flow with PKCE (S256) against https://clerk.cloro.dev, advertised through RFC 9728 protected-resource metadata at https://mcp.cloro.dev/.well-known/oauth-protected-resource; the MCP server verifies tokens against the issuer's JWKS. In Claude the user signs in in the browser and selects the\
   \ organization whose credits pay for the calls; no API key is pasted.\n  flows:\n    authorizationCode:\n      authorizationUrl: https://clerk.cloro.dev/oauth/authorize\n      tokenUrl: https://clerk.cloro.dev/oauth/token\n      refreshUrl: https://clerk.cloro.dev/oauth/token\n      scopes:\n        profile: user profile claims\n        email: user email claims\n        user:org:read: organization membership used for billing\n    deviceCode:\n      deviceAuthorizationUrl: https://clerk.cloro.dev/oauth/device_authorization\n      tokenUrl: https://clerk.cloro.dev/oauth/token\n  pkce: S256\n  sources:\n  - https://cloro.dev/docs/integrations/mcp\n  - https://mcp.cloro.dev/.well-known/oauth-protected-resource\n  - https://clerk.cloro.dev/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloro-dev/refs/heads/main/authentication/cloro-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloro-dev/authentication/cloro-dev-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

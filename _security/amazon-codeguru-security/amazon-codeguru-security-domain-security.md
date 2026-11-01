@@ -5,49 +5,49 @@ api_specs:
   label: Amazon CodeGuru Security Findings API
   slug: amazon-codeguru-security-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-findings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-findings-api-openapi.yml
 - filename: amazon-codeguru-security-metrics-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Metrics API
   slug: amazon-codeguru-security-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-metrics-api-openapi.yml
 - filename: amazon-codeguru-security-scans-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Scans API
   slug: amazon-codeguru-security-scans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-scans-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-scans-api-openapi.yml
 - filename: amazon-codeguru-security-tags-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Tags API
   slug: amazon-codeguru-security-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-tags-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-tags-api-openapi.yml
 - filename: amazon-codeguru-security-account-configuration-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Account Configuration API
   slug: amazon-codeguru-security-account-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-account-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-account-configuration-api-openapi.yml
 - filename: amazon-codeguru-security-batch-get-findings-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Batch Get Findings API
   slug: amazon-codeguru-security-batch-get-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-batch-get-findings-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-batch-get-findings-api-openapi.yml
 - filename: amazon-codeguru-security-update-account-configuration-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Update Account Configuration API
   slug: amazon-codeguru-security-update-account-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-update-account-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-update-account-configuration-api-openapi.yml
 - filename: amazon-codeguru-security-upload-url-api-openapi.yml
   format: yaml
   label: Amazon CodeGuru Security Upload URL API
   slug: amazon-codeguru-security-upload-url-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/openapi/amazon-codeguru-security-upload-url-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-codeguru-security/openapi/amazon-codeguru-security-upload-url-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: amazon-codeguru-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: docs.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: codeguru-security.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-codeguru-security/refs/heads/main/security/amazon-codeguru-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/amazon-codeguru-security/security/amazon-codeguru-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Amazon

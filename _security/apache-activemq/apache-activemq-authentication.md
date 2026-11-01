@@ -7,13 +7,13 @@ api_specs:
   label: Apache ActiveMQ Management API
   slug: apache-activemq-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/openapi/apache-activemq-management-api-openapi.yml
+  url: https://artifacts.apis.io/apache-activemq/openapi/apache-activemq-management-api-openapi.yml
 - filename: apache-activemq-messages-api-openapi.yml
   format: yaml
   label: Apache ActiveMQ Messages API
   slug: apache-activemq-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/openapi/apache-activemq-messages-api-openapi.yml
+  url: https://artifacts.apis.io/apache-activemq/openapi/apache-activemq-messages-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: apache-activemq-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-activemq-rest-openapi.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using broker credentials. Default credentials are admin/admin\n    but should be changed in production via jetty-realm.properties.\n  sources:\n  - openapi/apache-activemq-rest-openapi.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-activemq/refs/heads/main/authentication/apache-activemq-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apache-activemq/authentication/apache-activemq-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - AMQP

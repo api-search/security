@@ -43,7 +43,7 @@ source_filename: chainalysis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chainalysis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 13:04:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: go.chainalysis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 01:48:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: public.chainalysis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 08:06:18 2026 GMT\n  hsts: null\ndomains:\n- domain: chainalysis.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:cory.watson@chainalysis.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chainalysis/refs/heads/main/security/chainalysis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chainalysis/security/chainalysis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Compliance

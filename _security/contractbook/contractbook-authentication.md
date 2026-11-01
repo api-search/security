@@ -7,37 +7,37 @@ api_specs:
   label: Contractbook Attachments API
   slug: contractbook-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-attachments-api-openapi.yml
 - filename: contractbook-automations-api-openapi.yml
   format: yaml
   label: Contractbook Automations API
   slug: contractbook-automations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-automations-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-automations-api-openapi.yml
 - filename: contractbook-document-sharing-api-openapi.yml
   format: yaml
   label: Contractbook Document sharing API
   slug: contractbook-document-sharing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-document-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-document-sharing-api-openapi.yml
 - filename: contractbook-documents-api-openapi.yml
   format: yaml
   label: Contractbook Documents API
   slug: contractbook-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-documents-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-documents-api-openapi.yml
 - filename: contractbook-spaces-api-openapi.yml
   format: yaml
   label: Contractbook Spaces API
   slug: contractbook-spaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-spaces-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-spaces-api-openapi.yml
 - filename: contractbook-templates-api-openapi.yml
   format: yaml
   label: Contractbook Templates API
   slug: contractbook-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/openapi/contractbook-templates-api-openapi.yml
+  url: https://artifacts.apis.io/contractbook/openapi/contractbook-templates-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -65,12 +65,11 @@ source_filename: contractbook-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/contractbook-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: authorization\n  type: http\n  scheme: bearer\n  description: 'Bearer API key created in Contractbook profile settings (shown only once on\n    creation) and passed as ''Authorization: Bearer [example key]''. Separate keys exist for\n    the staging and production environments. API access is a paid add-on available on the Centralize\n    and Accelerate plans.'\n  sources:\n  - openapi/contractbook-openapi.json\n  - https://api.contractbook.com/v3/docs\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/authentication/contractbook-authentication.yml
+source_yaml_url: https://artifacts.apis.io/contractbook/authentication/contractbook-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Contract Management
 - Contract Lifecycle Management
-- Contract Lifecycle
 - Legal
 - E-Signature
 - Contracts

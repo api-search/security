@@ -5,55 +5,55 @@ api_specs:
   label: Farcaster Casts API
   slug: farcaster-casts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-casts-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-casts-api-openapi.yml
 - filename: farcaster-events-api-openapi.yml
   format: yaml
   label: Farcaster Events API
   slug: farcaster-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-events-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-events-api-openapi.yml
 - filename: farcaster-info-api-openapi.yml
   format: yaml
   label: Farcaster Info API
   slug: farcaster-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-info-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-info-api-openapi.yml
 - filename: farcaster-links-api-openapi.yml
   format: yaml
   label: Farcaster Links API
   slug: farcaster-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-links-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-links-api-openapi.yml
 - filename: farcaster-reactions-api-openapi.yml
   format: yaml
   label: Farcaster Reactions API
   slug: farcaster-reactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-reactions-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-reactions-api-openapi.yml
 - filename: farcaster-submit-api-openapi.yml
   format: yaml
   label: Farcaster Submit API
   slug: farcaster-submit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-submit-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-submit-api-openapi.yml
 - filename: farcaster-verifications-api-openapi.yml
   format: yaml
   label: Farcaster Verifications API
   slug: farcaster-verifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-verifications-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-verifications-api-openapi.yml
 - filename: farcaster-on-chain-api-openapi.yml
   format: yaml
   label: Farcaster On Chain API
   slug: farcaster-on-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-on-chain-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-on-chain-api-openapi.yml
 - filename: farcaster-user-data-api-openapi.yml
   format: yaml
   label: Farcaster User Data API
   slug: farcaster-user-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/openapi/farcaster-user-data-api-openapi.yml
+  url: https://artifacts.apis.io/farcaster/openapi/farcaster-user-data-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: farcaster-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.farcaster.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 23 00:13:16 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: snapchain.farcaster.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 03:07:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: miniapps.farcaster.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 14:18:34 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: farcaster.xyz\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/farcaster/refs/heads/main/security/farcaster-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/farcaster/security/farcaster-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Farcaster

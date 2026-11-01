@@ -9,7 +9,7 @@ api_specs:
   label: Azure Queue Storage Queues API
   slug: microsoft-azure-queue-storage-queues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/openapi/microsoft-azure-queue-storage-queues-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-queues-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -44,7 +44,7 @@ source_filename: microsoft-azure-queue-storage-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-queue-storage-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: sharedKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Shared Key authentication\n  sources:\n  - openapi/microsoft-azure-queue-storage-openapi.yml\n- name: sasToken\n  type: apiKey\n  in: query\n  parameter: sig\n  description: Shared Access Signature token\n  sources:\n  - openapi/microsoft-azure-queue-storage-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/authentication/microsoft-azure-queue-storage-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-queue-storage/authentication/microsoft-azure-queue-storage-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Asynchronous Processing

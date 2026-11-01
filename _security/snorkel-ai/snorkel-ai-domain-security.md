@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: snorkel-ai-openapi.yml
+- filename: snorkel-ai-openapi-generated.yml
   format: yaml
-  label: Snorkel Flow SDK / Platform
-  slug: snorkel-flow-sdk-platform
+  label: Snorkel Platform REST API
+  slug: snorkel-platform-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snorkel-ai/refs/heads/main/openapi/_original/snorkel-ai-openapi.yml
-- filename: snorkel-ai-openapi.yml
-  format: yaml
-  label: Programmatic Labeling
-  slug: programmatic-labeling
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snorkel-ai/refs/heads/main/openapi/_original/snorkel-ai-openapi.yml
-- filename: snorkel-ai-openapi.yml
-  format: yaml
-  label: Evaluation
-  slug: evaluation
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/snorkel-ai/refs/heads/main/openapi/_original/snorkel-ai-openapi.yml
+  url: https://artifacts.apis.io/snorkel-ai/openapi/_ae-authored/snorkel-ai-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +40,7 @@ source_filename: snorkel-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: snorkel.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 21:55:11 2026 GMT\n  hsts: false\n- host: docs.snorkel.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 07:23:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: snorkel.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/snorkel-ai/refs/heads/main/security/snorkel-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/snorkel-ai/security/snorkel-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

@@ -5,19 +5,19 @@ api_specs:
   label: AB Tasty Activate API
   slug: ab-tasty-activate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-activate-api-openapi.yml
+  url: https://artifacts.apis.io/ab-tasty/openapi/ab-tasty-activate-api-openapi.yml
 - filename: ab-tasty-campaigns-api-openapi.yml
   format: yaml
   label: AB Tasty Campaigns API
   slug: ab-tasty-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/ab-tasty/openapi/ab-tasty-campaigns-api-openapi.yml
 - filename: ab-tasty-environments-api-openapi.yml
   format: yaml
   label: AB Tasty Environments API
   slug: ab-tasty-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-environments-api-openapi.yml
+  url: https://artifacts.apis.io/ab-tasty/openapi/ab-tasty-environments-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: ab-tasty-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.abtasty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 19:52:06 2026 GMT\n  hsts: null\n- host: developers.abtasty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.abtasty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 19:32:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: abtasty.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/security/ab-tasty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ab-tasty/security/ab-tasty-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Aggregation

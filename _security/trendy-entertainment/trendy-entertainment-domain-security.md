@@ -25,7 +25,7 @@ source_filename: trendy-entertainment-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: trendyent.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''trendyent.c'\n  hsts: null\ndomains:\n- domain: trendyent.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trendy-entertainment/refs/heads/main/security/trendy-entertainment-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/trendy-entertainment/security/trendy-entertainment-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

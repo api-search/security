@@ -7,85 +7,85 @@ api_specs:
   label: CharmHealth Appointment API
   slug: charmhealth-appointment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-appointment-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-appointment-api-openapi.yml
 - filename: charmhealth-capability-api-openapi.yml
   format: yaml
   label: CharmHealth Capability API
   slug: charmhealth-capability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-capability-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-capability-api-openapi.yml
 - filename: charmhealth-careteam-api-openapi.yml
   format: yaml
   label: CharmHealth CareTeam API
   slug: charmhealth-careteam-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-careteam-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-careteam-api-openapi.yml
 - filename: charmhealth-condition-api-openapi.yml
   format: yaml
   label: CharmHealth Condition API
   slug: charmhealth-condition-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-condition-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-condition-api-openapi.yml
 - filename: charmhealth-encounter-api-openapi.yml
   format: yaml
   label: CharmHealth Encounter API
   slug: charmhealth-encounter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-encounter-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-encounter-api-openapi.yml
 - filename: charmhealth-immunization-api-openapi.yml
   format: yaml
   label: CharmHealth Immunization API
   slug: charmhealth-immunization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-immunization-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-immunization-api-openapi.yml
 - filename: charmhealth-observation-api-openapi.yml
   format: yaml
   label: CharmHealth Observation API
   slug: charmhealth-observation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-observation-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-observation-api-openapi.yml
 - filename: charmhealth-organization-api-openapi.yml
   format: yaml
   label: CharmHealth Organization API
   slug: charmhealth-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-organization-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-organization-api-openapi.yml
 - filename: charmhealth-patient-api-openapi.yml
   format: yaml
   label: CharmHealth Patient API
   slug: charmhealth-patient-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-patient-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-patient-api-openapi.yml
 - filename: charmhealth-practitioner-api-openapi.yml
   format: yaml
   label: CharmHealth Practitioner API
   slug: charmhealth-practitioner-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-practitioner-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-practitioner-api-openapi.yml
 - filename: charmhealth-allergy-intolerance-api-openapi.yml
   format: yaml
   label: CharmHealth Allergy Intolerance API
   slug: charmhealth-allergy-intolerance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-allergy-intolerance-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-allergy-intolerance-api-openapi.yml
 - filename: charmhealth-care-plan-api-openapi.yml
   format: yaml
   label: CharmHealth Care plan API
   slug: charmhealth-care-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-care-plan-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-care-plan-api-openapi.yml
 - filename: charmhealth-document-reference-api-openapi.yml
   format: yaml
   label: CharmHealth Document Reference API
   slug: charmhealth-document-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-document-reference-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-document-reference-api-openapi.yml
 - filename: charmhealth-medication-request-api-openapi.yml
   format: yaml
   label: CharmHealth Medication Request API
   slug: charmhealth-medication-request-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/openapi/charmhealth-medication-request-api-openapi.yml
+  url: https://artifacts.apis.io/charmhealth/openapi/charmhealth-medication-request-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -121,7 +121,7 @@ source_filename: charmhealth-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/charmhealth-fhir-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: smartOnFhir\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://ehr2.charmtracker.com/oauth/v2/auth\n    tokenUrl: https://ehr2.charmtracker.com/oauth/v2/token\n    scopes: 6\n  - flow: clientCredentials\n    tokenUrl: https://ehr2.charmtracker.com/oauth/v2/token\n    scopes: 1\n  description: SMART on FHIR authorization with patient/, user/, and system/ scopes.\n  sources:\n  - openapi/charmhealth-fhir-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/authentication/charmhealth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/charmhealth/authentication/charmhealth-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Electronic Health Records

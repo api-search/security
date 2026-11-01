@@ -5,43 +5,43 @@ api_specs:
   label: Radar Events API
   slug: radar-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-events-api-openapi.yml
+  url: https://artifacts.apis.io/radar/openapi/radar-events-api-openapi.yml
 - filename: radar-geocoding-api-openapi.yml
   format: yaml
   label: Radar Geocoding API
   slug: radar-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/radar/openapi/radar-geocoding-api-openapi.yml
 - filename: radar-geofences-api-openapi.yml
   format: yaml
   label: Radar Geofences API
   slug: radar-geofences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-geofences-api-openapi.yml
+  url: https://artifacts.apis.io/radar/openapi/radar-geofences-api-openapi.yml
 - filename: radar-routing-api-openapi.yml
   format: yaml
   label: Radar Routing API
   slug: radar-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-routing-api-openapi.yml
+  url: https://artifacts.apis.io/radar/openapi/radar-routing-api-openapi.yml
 - filename: radar-search-api-openapi.yml
   format: yaml
   label: Radar Search API
   slug: radar-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-search-api-openapi.yml
+  url: https://artifacts.apis.io/radar/openapi/radar-search-api-openapi.yml
 - filename: radar-track-api-openapi.yml
   format: yaml
   label: Radar Track API
   slug: radar-track-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-track-api-openapi.yml
+  url: https://artifacts.apis.io/radar/openapi/radar-track-api-openapi.yml
 - filename: radar-users-api-openapi.yml
   format: yaml
   label: Radar Users API
   slug: radar-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/openapi/radar-users-api-openapi.yml
+  url: https://artifacts.apis.io/radar/openapi/radar-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: radar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: radar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 05:23:12 2026 GMT\n  hsts: false\n- host: api.radar.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 09:21:30 2026 GMT\n  hsts: null\ndomains:\n- domain: radar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: radar.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/radar/refs/heads/main/security/radar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/radar/security/radar-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Location

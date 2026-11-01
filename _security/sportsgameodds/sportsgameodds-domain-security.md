@@ -5,49 +5,49 @@ api_specs:
   label: SportsGameOdds Account API
   slug: sportsgameodds-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/openapi/sportsgameodds-account-api-openapi.yml
+  url: https://artifacts.apis.io/sportsgameodds/openapi/sportsgameodds-account-api-openapi.yml
 - filename: sportsgameodds-events-api-openapi.yml
   format: yaml
   label: SportsGameOdds Events API
   slug: sportsgameodds-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/openapi/sportsgameodds-events-api-openapi.yml
+  url: https://artifacts.apis.io/sportsgameodds/openapi/sportsgameodds-events-api-openapi.yml
 - filename: sportsgameodds-leagues-api-openapi.yml
   format: yaml
   label: SportsGameOdds Leagues API
   slug: sportsgameodds-leagues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/openapi/sportsgameodds-leagues-api-openapi.yml
+  url: https://artifacts.apis.io/sportsgameodds/openapi/sportsgameodds-leagues-api-openapi.yml
 - filename: sportsgameodds-markets-api-openapi.yml
   format: yaml
   label: SportsGameOdds Markets API
   slug: sportsgameodds-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/openapi/sportsgameodds-markets-api-openapi.yml
+  url: https://artifacts.apis.io/sportsgameodds/openapi/sportsgameodds-markets-api-openapi.yml
 - filename: sportsgameodds-players-api-openapi.yml
   format: yaml
   label: SportsGameOdds Players API
   slug: sportsgameodds-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/openapi/sportsgameodds-players-api-openapi.yml
+  url: https://artifacts.apis.io/sportsgameodds/openapi/sportsgameodds-players-api-openapi.yml
 - filename: sportsgameodds-sports-api-openapi.yml
   format: yaml
   label: SportsGameOdds Sports API
   slug: sportsgameodds-sports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/openapi/sportsgameodds-sports-api-openapi.yml
+  url: https://artifacts.apis.io/sportsgameodds/openapi/sportsgameodds-sports-api-openapi.yml
 - filename: sportsgameodds-stats-api-openapi.yml
   format: yaml
   label: SportsGameOdds Stats API
   slug: sportsgameodds-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/openapi/sportsgameodds-stats-api-openapi.yml
+  url: https://artifacts.apis.io/sportsgameodds/openapi/sportsgameodds-stats-api-openapi.yml
 - filename: sportsgameodds-teams-api-openapi.yml
   format: yaml
   label: SportsGameOdds Teams API
   slug: sportsgameodds-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/openapi/sportsgameodds-teams-api-openapi.yml
+  url: https://artifacts.apis.io/sportsgameodds/openapi/sportsgameodds-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: sportsgameodds-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sportsgameodds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 12:50:06 2026 GMT\n  hsts: false\n- host: api.sportsgameodds.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 12:50:06 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sportsgameodds.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sportsgameodds/refs/heads/main/security/sportsgameodds-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sportsgameodds/security/sportsgameodds-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sports Betting

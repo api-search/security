@@ -16,7 +16,7 @@ source_filename: collective-health-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: false\nsource: https://collectivehealth.com/trust/\nurl: https://collectivehealth.com/trust/\ncertifications:\n- HITRUST r2\n- SOC 2 Type II\ncompliance:\n- HIPAA\nprogram:\n  hitrust: 'HITRUST Risk-based, 2-year (r2) certification; 270 security controls across 19 domains'\n  soc2: 'Annual SOC 2 Type II attestation'\n  whitepaper: 'Security, Risk, and Compliance Whitepaper available on request via info@collectivehealth.com'\nevidence:\n- source: https://collectivehealth.com/trust/\n  keywords:\n  - hitrust r2\n  - soc 2 type ii\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/collective-health/refs/heads/main/security/collective-health-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/collective-health/security/collective-health-trust-center.yml
 summary_line: HITRUST r2, SOC 2 Type II
 tags:
 - Company

@@ -24,7 +24,7 @@ source_filename: acadepowder-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.acadepowder.com\n  https: false\ndomains:\n- domain: acadepowder.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acadepowder/refs/heads/main/security/acadepowder-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/acadepowder/security/acadepowder-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

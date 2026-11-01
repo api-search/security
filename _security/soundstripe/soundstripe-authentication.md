@@ -8,43 +8,43 @@ api_specs:
   label: Soundstripe Categories API
   slug: soundstripe-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-categories-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-categories-api-openapi.yml
 - filename: soundstripe-playlists-api-openapi.yml
   format: yaml
   label: Soundstripe Playlists API
   slug: soundstripe-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-playlists-api-openapi.yml
 - filename: soundstripe-private-playlists-api-openapi.yml
   format: yaml
   label: Soundstripe Private Playlists API
   slug: soundstripe-private-playlists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-private-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-private-playlists-api-openapi.yml
 - filename: soundstripe-songs-api-openapi.yml
   format: yaml
   label: Soundstripe Songs API
   slug: soundstripe-songs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-songs-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-songs-api-openapi.yml
 - filename: soundstripe-sound-effects-api-openapi.yml
   format: yaml
   label: Soundstripe Sound Effects API
   slug: soundstripe-sound-effects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-sound-effects-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-sound-effects-api-openapi.yml
 - filename: soundstripe-supe-assets-api-openapi.yml
   format: yaml
   label: Soundstripe Supe Assets API
   slug: soundstripe-supe-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-supe-assets-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-supe-assets-api-openapi.yml
 - filename: soundstripe-supe-search-api-openapi.yml
   format: yaml
   label: Soundstripe Supe Search API
   slug: soundstripe-supe-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/openapi/soundstripe-supe-search-api-openapi.yml
+  url: https://artifacts.apis.io/soundstripe/openapi/soundstripe-supe-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: soundstripe-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/soundstripe-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: TokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Token authentication. Send `Authorization: Token <api-key>`. Keys are privileged\n    — server-to-server use only, never from client-side code.'\n  sources:\n  - openapi/soundstripe-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soundstripe/refs/heads/main/authentication/soundstripe-authentication.yml
+source_yaml_url: https://artifacts.apis.io/soundstripe/authentication/soundstripe-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Music

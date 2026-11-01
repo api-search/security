@@ -55,7 +55,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://www.alloovium.com/en/developers/authentication\ndocs: https://www.alloovium.com/en/developers/authentication\nsummary:\n  types: [apiKey, oauth2]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  format: 'Authorization: Bearer <key>'\n  key_prefixes: [ak_live_, ak_test_]\n  key_length: 60\n  notes: >-\n    Keys are rejected in query strings, cookies, or JSON bodies — header only. Test and live keys are\n    created in the Developer Console.\n- name: OAuth2\n  type: oauth2\n  version: OAuth 2.1\n  flows:\n  - flow: authorizationCode\n    pkce: required (S256)\n    authorizationUrl: https://api.alloovium.com/api/v2/oauth/authorize\n    tokenUrl: https://api.alloovium.com/api/v2/oauth/token\n    registrationUrl: https://api.alloovium.com/api/v2/oauth/register\n    revocationUrl: https://api.alloovium.com/api/v2/oauth/revoke\n\
   \  dynamic_client_registration: true\n  dcr_note: >-\n    Clients self-register without pre-provisioning; dynamically registered clients are always issued\n    read-only scopes.\n  note: OAuth tokens are not accepted on the MCP transport (API key only there).\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alloovium/refs/heads/main/authentication/alloovium-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alloovium/authentication/alloovium-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

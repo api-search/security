@@ -38,7 +38,7 @@ source_filename: discovery-communications-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.wbd.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 10 17:31:01 2026 GMT\n  hsts: true\n  hsts_max_age: 60\n- host: www.discovery-communications.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 14:02:26 2026 GMT\n  hsts: false\ndomains:\n- domain: wbd.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: discovery-communications.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/discovery-communications/refs/heads/main/security/discovery-communications-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/discovery-communications/security/discovery-communications-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Media

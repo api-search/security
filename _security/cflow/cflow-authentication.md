@@ -8,19 +8,19 @@ api_specs:
   label: Cflow Requests API
   slug: cflow-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-requests-api-openapi.yml
+  url: https://artifacts.apis.io/cflow/openapi/cflow-requests-api-openapi.yml
 - filename: cflow-users-api-openapi.yml
   format: yaml
   label: Cflow Users API
   slug: cflow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-users-api-openapi.yml
+  url: https://artifacts.apis.io/cflow/openapi/cflow-users-api-openapi.yml
 - filename: cflow-workflows-api-openapi.yml
   format: yaml
   label: Cflow Workflows API
   slug: cflow-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/openapi/cflow-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/cflow/openapi/cflow-workflows-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -62,7 +62,7 @@ source_filename: cflow-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cflow-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: API key obtained from Cflow Dashboard under Admin > API Settings > Generate API\n    key.\n  sources:\n  - openapi/cflow-openapi.yml\n- name: userKey\n  type: apiKey\n  in: header\n  parameter: userkey\n  description: User key obtained from Cflow Profile > API Key > UserKey.\n  sources:\n  - openapi/cflow-openapi.yml\n- name: username\n  type: apiKey\n  in: header\n  parameter: username\n  description: The Cflow account username.\n  sources:\n  - openapi/cflow-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cflow/refs/heads/main/authentication/cflow-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cflow/authentication/cflow-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Automation

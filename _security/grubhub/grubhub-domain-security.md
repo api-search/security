@@ -5,61 +5,61 @@ api_specs:
   label: Grubhub Delivery Quotes API
   slug: grubhub-delivery-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-quotes-api-openapi.yml
 - filename: grubhub-delivery-refunds-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Refunds API
   slug: grubhub-delivery-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-refunds-api-openapi.yml
 - filename: grubhub-delivery-service-areas-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Service Areas API
   slug: grubhub-delivery-service-areas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-service-areas-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-service-areas-api-openapi.yml
 - filename: grubhub-delivery-status-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Status API
   slug: grubhub-delivery-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-status-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-status-api-openapi.yml
 - filename: grubhub-delivery-tests-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Tests API
   slug: grubhub-delivery-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-tests-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-tests-api-openapi.yml
 - filename: grubhub-delivery-updates-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Updates API
   slug: grubhub-delivery-updates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-updates-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-updates-api-openapi.yml
 - filename: grubhub-delivery-webhooks-emulation-api-openapi.yml
   format: yaml
   label: Grubhub Delivery Webhooks Emulation API
   slug: grubhub-delivery-webhooks-emulation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-delivery-webhooks-emulation-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-delivery-webhooks-emulation-api-openapi.yml
 - filename: grubhub-endpoints-api-openapi.yml
   format: yaml
   label: Grubhub Endpoints API
   slug: grubhub-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-endpoints-api-openapi.yml
 - filename: grubhub-requesting-reports-api-openapi.yml
   format: yaml
   label: Grubhub Requesting Reports API
   slug: grubhub-requesting-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-requesting-reports-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-requesting-reports-api-openapi.yml
 - filename: grubhub-webhooks-api-openapi.yml
   format: yaml
   label: Grubhub Webhooks API
   slug: grubhub-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/openapi/grubhub-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/grubhub/openapi/grubhub-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -96,7 +96,7 @@ source_filename: grubhub-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: grubhub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 01:08:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.grubhub.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 01:08:20 2026 GMT\n  hsts: false\n- host: api.grubhub.com\n  https: false\ndomains:\n- domain: grubhub.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/security/grubhub-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/grubhub/security/grubhub-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Food Delivery

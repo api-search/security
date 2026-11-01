@@ -15,7 +15,7 @@ source_filename: voyc-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: searched\nprobe: true\nsource: https://trust.voyc.ai/\nurl: https://trust.voyc.ai/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.voyc.ai/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voyc/refs/heads/main/security/voyc-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/voyc/security/voyc-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

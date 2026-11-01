@@ -7,19 +7,19 @@ api_specs:
   label: Université libre de Bruxelles Group API
   slug: ulb-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-group-api-openapi.yml
+  url: https://artifacts.apis.io/ulb/openapi/ulb-group-api-openapi.yml
 - filename: ulb-oai-pmh-api-openapi.yml
   format: yaml
   label: Université libre de Bruxelles OAI PMH API
   slug: ulb-oai-pmh-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-oai-pmh-api-openapi.yml
+  url: https://artifacts.apis.io/ulb/openapi/ulb-oai-pmh-api-openapi.yml
 - filename: ulb-scholar-api-openapi.yml
   format: yaml
   label: Université libre de Bruxelles Scholar API
   slug: ulb-scholar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/openapi/ulb-scholar-api-openapi.yml
+  url: https://artifacts.apis.io/ulb/openapi/ulb-scholar-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -42,7 +42,7 @@ source_yaml: "name: ULB Authentication Posture\ngenerated: '2026-08-30'\nmethod:
   \ are Server: Apache and Content-Type.\n    verified: '2026-08-30'\n  - name: DI-fusion OAI-PMH\n    base_url: https://difusion.ulb.ac.be/vufind/OAI/Server\n    scheme: none\n    detail: Open harvesting endpoint, no credential. Use is governed by the DI-fusion terms of use rather than by an access control.\n    verified: '2026-08-30'\n  - name: ULB Login\n    base_url: https://auth.ulb.be\n    scheme: institutional_sso\n    detail: >-\n      Central ULB login. `https://auth.ulb.be/` redirects to `/login`; the CAS-style paths\n      (/cas/login, /cas/serviceValidate) and the OIDC discovery document return HTTP 403 with a\n      JSON body `{\"status\":403,\"error\":\"Forbidden\",\"message\":\"Access Denied\"}`. No public client\n      registration or OIDC discovery is offered.\n    verified: '2026-08-30'\n  - name: ULB Shibboleth Identity Provider\n    base_url: https://auth.ulb.be/idp\n    scheme: saml2\n    entity_id: https://auth.ulb.be/idp\n    detail: >-\n      SAML 2.0 metadata is\
   \ published unauthenticated at https://auth.ulb.be/idp/metadata (HTTP 200,\n      text/xml, 8,686 bytes). It declares IDPSSODescriptor and AttributeAuthorityDescriptor roles,\n      SingleSignOnService, SingleLogoutService and AttributeService endpoints over HTTP-Redirect,\n      HTTP-POST, HTTP-POST-SimpleSign and SOAP bindings, and a shibmd:Scope of `ulb.be`. It carries\n      the REFEDS Research and Scholarship entity category and the REFEDS SIRTFI assurance\n      certification, registered by http://federation.belnet.be/.\n    verified: '2026-08-30'\n  - name: cvchercheurs.ulb.be\n    base_url: https://cvchercheurs.ulb.be\n    scheme: institutional_sso\n    detail: The researcher CV application, which consumes the DI-fusion export service, is behind ULB Login. Not a public surface.\n    verified: '2026-08-30'\nnotes:\n  - No OAuth 2.0 authorization server, no OIDC discovery document and no developer key issuance exist anywhere on ULB's public estate.\n  - 'https://www.ulb.be/.well-known/security.txt\
   \ returns 404. https://www.ulb.be/llms.txt returns 404.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ulb/refs/heads/main/authentication/ulb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ulb/authentication/ulb-authentication.yml
 summary_line: 0 schemes
 tags:
 - University

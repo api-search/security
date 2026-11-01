@@ -5,7 +5,7 @@ api_specs:
   label: SportsAPIs.dev API
   slug: sportsapis-dev-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sportsapis-dev/refs/heads/main/openapi/_ae-authored/sportsapis-dev-openapi-generated.yml
+  url: https://artifacts.apis.io/sportsapis-dev/openapi/_ae-authored/sportsapis-dev-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: sportsapis-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sportsapis.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 22:05:37 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: sportsapis.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sportsapis-dev/refs/heads/main/security/sportsapis-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sportsapis-dev/security/sportsapis-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

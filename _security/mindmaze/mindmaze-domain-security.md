@@ -5,7 +5,7 @@ api_specs:
   label: MindMaze Website (WordPress REST)
   slug: mindmazetherapeutics-com-website-wordpress-rest
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/openapi/mindmaze-content-wp-routes-original.json
+  url: https://artifacts.apis.io/mindmaze/openapi/mindmaze-content-wp-routes-original.json
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: mindmaze-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mindmazetherapeutics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 19:53:06 2026 GMT\n  hsts: true\n  hsts_max_age: 16000000\ndomains:\n- domain: mindmazetherapeutics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindmaze/refs/heads/main/security/mindmaze-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mindmaze/security/mindmaze-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

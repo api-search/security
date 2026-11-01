@@ -27,7 +27,7 @@ source_filename: frontera-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fronterahealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 23:06:17 2026 GMT\n  hsts: false\ndomains:\n- domain: fronterahealth.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frontera/refs/heads/main/security/frontera-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/frontera/security/frontera-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

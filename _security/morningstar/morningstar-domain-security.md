@@ -5,97 +5,97 @@ api_specs:
   label: Morningstar Authentication API
   slug: morningstar-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-token-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-token-api-openapi.yml
 - filename: morningstar-corporate-actions-api-openapi.yml
   format: yaml
   label: Morningstar Time Series API
   slug: morningstar-time-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-corporate-actions-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-corporate-actions-api-openapi.yml
 - filename: morningstar-screener-api-openapi.yml
   format: yaml
   label: Morningstar Screener APIs
   slug: morningstar-screener-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-screener-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-screener-api-openapi.yml
 - filename: morningstar-aggregates-financials-api-openapi.yml
   format: yaml
   label: Morningstar Investment Details APIs
   slug: morningstar-investment-details-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-aggregates-financials-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-aggregates-financials-api-openapi.yml
 - filename: morningstar-investment-list-api-openapi.yml
   format: yaml
   label: Morningstar Investment List API
   slug: morningstar-investment-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-investment-list-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-investment-list-api-openapi.yml
 - filename: morningstar-esg-api-openapi.yml
   format: yaml
   label: Morningstar Portfolio Analysis APIs
   slug: morningstar-portfolio-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-esg-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-esg-api-openapi.yml
 - filename: morningstar-analyst-highlights-api-openapi.yml
   format: yaml
   label: Morningstar AI Insights API
   slug: morningstar-ai-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-analyst-highlights-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-analyst-highlights-api-openapi.yml
 - filename: morningstar-scenario-analysis-api-openapi.yml
   format: yaml
   label: Morningstar Scenario Analysis API
   slug: morningstar-scenario-analysis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-scenario-analysis-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-scenario-analysis-api-openapi.yml
 - filename: morningstar-clients-api-openapi.yml
   format: yaml
   label: Morningstar Risk Profiler API
   slug: morningstar-risk-profiler-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-clients-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-clients-api-openapi.yml
 - filename: morningstar-investments-universe-api-openapi.yml
   format: yaml
   label: Morningstar Universe API
   slug: morningstar-universe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-investments-universe-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-investments-universe-api-openapi.yml
 - filename: morningstar-benchmarkfees-api-openapi.yml
   format: yaml
   label: Morningstar Financial Planning APIs
   slug: morningstar-financial-planning-apis
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-benchmarkfees-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-benchmarkfees-api-openapi.yml
 - filename: morningstar-attribution-api-openapi.yml
   format: yaml
   label: Morningstar Investment Analysis APIs
   slug: morningstar-investment-analysis-apis
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-attribution-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-attribution-api-openapi.yml
 - filename: morningstar-accounts-api-openapi.yml
   format: yaml
   label: Morningstar ByAllAccounts API
   slug: morningstar-byallaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-accounts-api-openapi.yml
 - filename: morningstar-morningstar-agent-api-openapi.yml
   format: yaml
   label: Morningstar Agent API
   slug: morningstar-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-morningstar-agent-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-morningstar-agent-api-openapi.yml
 - filename: morningstar-oauth-api-openapi.yml
   format: yaml
   label: Morningstar OAUTH API
   slug: morningstar-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-oauth-api-openapi.yml
 - filename: morningstar-datapoints-api-openapi.yml
   format: yaml
   label: Morningstar Datapoints API
   slug: morningstar-datapoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/openapi/morningstar-datapoints-api-openapi.yml
+  url: https://artifacts.apis.io/morningstar/openapi/morningstar-datapoints-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -135,7 +135,7 @@ source_filename: morningstar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.morningstar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 23:59:59 2027 GMT\n  hsts: false\n- host: developer.morningstar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.us-api.morningstar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: morningstar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/morningstar/refs/heads/main/security/morningstar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/morningstar/security/morningstar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance

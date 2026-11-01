@@ -5,55 +5,55 @@ api_specs:
   label: Whisper Security A2a API
   slug: whisper-online-a2a-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-a2a-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-a2a-api-openapi.yml
 - filename: whisper-online-checkpoint-api-openapi.yml
   format: yaml
   label: Whisper Security Checkpoint API
   slug: whisper-online-checkpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-checkpoint-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-checkpoint-api-openapi.yml
 - filename: whisper-online-consistency-api-openapi.yml
   format: yaml
   label: Whisper Security Consistency API
   slug: whisper-online-consistency-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-consistency-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-consistency-api-openapi.yml
 - filename: whisper-online-inclusion-api-openapi.yml
   format: yaml
   label: Whisper Security Inclusion API
   slug: whisper-online-inclusion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-inclusion-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-inclusion-api-openapi.yml
 - filename: whisper-online-menu-api-openapi.yml
   format: yaml
   label: Whisper Security Menu API
   slug: whisper-online-menu-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-menu-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-menu-api-openapi.yml
 - filename: whisper-online-query-api-openapi.yml
   format: yaml
   label: Whisper Security Query API
   slug: whisper-online-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-query-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-query-api-openapi.yml
 - filename: whisper-online-tile-api-openapi.yml
   format: yaml
   label: Whisper Security Tile API
   slug: whisper-online-tile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-tile-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-tile-api-openapi.yml
 - filename: whisper-online-verify-identity-api-openapi.yml
   format: yaml
   label: Whisper Security Verify Identity API
   slug: whisper-online-verify-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-verify-identity-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-verify-identity-api-openapi.yml
 - filename: whisper-online-well-known-api-openapi.yml
   format: yaml
   label: Whisper Security .well Known API
   slug: whisper-online-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/openapi/whisper-online-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/whisper-online/openapi/whisper-online-well-known-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: whisper-online-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: whisper.online\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 20:13:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: whisper.online\n  dnssec: true\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/whisper-online/refs/heads/main/security/whisper-online-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/whisper-online/security/whisper-online-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Agent Identity

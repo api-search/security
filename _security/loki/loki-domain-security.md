@@ -5,31 +5,31 @@ api_specs:
   label: Loki Config API
   slug: loki-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-config-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-config-api-openapi.yml
 - filename: loki-loki-api-openapi.yml
   format: yaml
   label: Loki API
   slug: loki-loki-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-loki-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-loki-api-openapi.yml
 - filename: loki-metrics-api-openapi.yml
   format: yaml
   label: Loki Metrics API
   slug: loki-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-metrics-api-openapi.yml
 - filename: loki-otlp-api-openapi.yml
   format: yaml
   label: Loki Otlp API
   slug: loki-otlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-otlp-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-otlp-api-openapi.yml
 - filename: loki-ready-api-openapi.yml
   format: yaml
   label: Loki Ready API
   slug: loki-ready-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/openapi/loki-ready-api-openapi.yml
+  url: https://artifacts.apis.io/loki/openapi/loki-ready-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: loki-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: grafana.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: grafana.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/loki/refs/heads/main/security/loki-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/loki/security/loki-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Logging

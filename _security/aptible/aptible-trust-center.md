@@ -5,301 +5,301 @@ api_specs:
   label: Aptible Accounts API
   slug: aptible-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-accounts-api-openapi.yml
 - filename: aptible-actions-api-openapi.yml
   format: yaml
   label: Aptible Actions API
   slug: aptible-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-actions-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-actions-api-openapi.yml
 - filename: aptible-apps-api-openapi.yml
   format: yaml
   label: Aptible Apps API
   slug: aptible-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-apps-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-apps-api-openapi.yml
 - filename: aptible-assets-api-openapi.yml
   format: yaml
   label: Aptible Assets API
   slug: aptible-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-assets-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-assets-api-openapi.yml
 - filename: aptible-backupretentionpolicies-api-openapi.yml
   format: yaml
   label: Aptible Backup Retention Policies API
   slug: aptible-backupretentionpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-backupretentionpolicies-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-backupretentionpolicies-api-openapi.yml
 - filename: aptible-backups-api-openapi.yml
   format: yaml
   label: Aptible Backups API
   slug: aptible-backups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-backups-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-backups-api-openapi.yml
 - filename: aptible-certificates-api-openapi.yml
   format: yaml
   label: Aptible Certificates API
   slug: aptible-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-certificates-api-openapi.yml
 - filename: aptible-claims-api-openapi.yml
   format: yaml
   label: Aptible Claims API
   slug: aptible-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-claims-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-claims-api-openapi.yml
 - filename: aptible-codescanresults-api-openapi.yml
   format: yaml
   label: Aptible Code Scan Results API
   slug: aptible-codescanresults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-codescanresults-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-codescanresults-api-openapi.yml
 - filename: aptible-configurations-api-openapi.yml
   format: yaml
   label: Aptible Configurations API
   slug: aptible-configurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-configurations-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-configurations-api-openapi.yml
 - filename: aptible-connections-api-openapi.yml
   format: yaml
   label: Aptible Connections API
   slug: aptible-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-connections-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-connections-api-openapi.yml
 - filename: aptible-containers-api-openapi.yml
   format: yaml
   label: Aptible Containers API
   slug: aptible-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-containers-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-containers-api-openapi.yml
 - filename: aptible-databases-api-openapi.yml
   format: yaml
   label: Aptible Databases API
   slug: aptible-databases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-databases-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-databases-api-openapi.yml
 - filename: aptible-deployments-api-openapi.yml
   format: yaml
   label: Aptible Deployments API
   slug: aptible-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-deployments-api-openapi.yml
 - filename: aptible-diskattachments-api-openapi.yml
   format: yaml
   label: Aptible Disk Attachments API
   slug: aptible-diskattachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-diskattachments-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-diskattachments-api-openapi.yml
 - filename: aptible-disks-api-openapi.yml
   format: yaml
   label: Aptible Disks API
   slug: aptible-disks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-disks-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-disks-api-openapi.yml
 - filename: aptible-environments-api-openapi.yml
   format: yaml
   label: Aptible Environments API
   slug: aptible-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-environments-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-environments-api-openapi.yml
 - filename: aptible-ephemeralcontainers-api-openapi.yml
   format: yaml
   label: Aptible Ephemeral Containers API
   slug: aptible-ephemeralcontainers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-ephemeralcontainers-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-ephemeralcontainers-api-openapi.yml
 - filename: aptible-ephemeralsessions-api-openapi.yml
   format: yaml
   label: Aptible Ephemeral Sessions API
   slug: aptible-ephemeralsessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-ephemeralsessions-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-ephemeralsessions-api-openapi.yml
 - filename: aptible-images-api-openapi.yml
   format: yaml
   label: Aptible Images API
   slug: aptible-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-images-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-images-api-openapi.yml
 - filename: aptible-intrusiondetectionreports-api-openapi.yml
   format: yaml
   label: Aptible Intrusion Detection Reports API
   slug: aptible-intrusiondetectionreports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-intrusiondetectionreports-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-intrusiondetectionreports-api-openapi.yml
 - filename: aptible-llmgatewayconfigurations-api-openapi.yml
   format: yaml
   label: Aptible Llm Gateway Configurations API
   slug: aptible-llmgatewayconfigurations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-llmgatewayconfigurations-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-llmgatewayconfigurations-api-openapi.yml
 - filename: aptible-llmkeys-api-openapi.yml
   format: yaml
   label: Aptible Llm Keys API
   slug: aptible-llmkeys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-llmkeys-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-llmkeys-api-openapi.yml
 - filename: aptible-llmpolicies-api-openapi.yml
   format: yaml
   label: Aptible Llm Policies API
   slug: aptible-llmpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-llmpolicies-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-llmpolicies-api-openapi.yml
 - filename: aptible-logdrains-api-openapi.yml
   format: yaml
   label: Aptible Log Drains API
   slug: aptible-logdrains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-logdrains-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-logdrains-api-openapi.yml
 - filename: aptible-maintenances-api-openapi.yml
   format: yaml
   label: Aptible Maintenances API
   slug: aptible-maintenances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-maintenances-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-maintenances-api-openapi.yml
 - filename: aptible-metricdrains-api-openapi.yml
   format: yaml
   label: Aptible Metric Drains API
   slug: aptible-metricdrains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-metricdrains-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-metricdrains-api-openapi.yml
 - filename: aptible-operations-api-openapi.yml
   format: yaml
   label: Aptible Operations API
   slug: aptible-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-operations-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-operations-api-openapi.yml
 - filename: aptible-organizations-api-openapi.yml
   format: yaml
   label: Aptible Organizations API
   slug: aptible-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-organizations-api-openapi.yml
 - filename: aptible-permissions-api-openapi.yml
   format: yaml
   label: Aptible Permissions API
   slug: aptible-permissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-permissions-api-openapi.yml
 - filename: aptible-persistentdisks-api-openapi.yml
   format: yaml
   label: Aptible Persistent Disks API
   slug: aptible-persistentdisks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-persistentdisks-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-persistentdisks-api-openapi.yml
 - filename: aptible-plans-api-openapi.yml
   format: yaml
   label: Aptible Plans API
   slug: aptible-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-plans-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-plans-api-openapi.yml
 - filename: aptible-releases-api-openapi.yml
   format: yaml
   label: Aptible Releases API
   slug: aptible-releases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-releases-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-releases-api-openapi.yml
 - filename: aptible-root-api-openapi.yml
   format: yaml
   label: Aptible Root API
   slug: aptible-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-root-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-root-api-openapi.yml
 - filename: aptible-services-api-openapi.yml
   format: yaml
   label: Aptible Services API
   slug: aptible-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-services-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-services-api-openapi.yml
 - filename: aptible-servicesizingpolicies-api-openapi.yml
   format: yaml
   label: Aptible Service Sizing Policies API
   slug: aptible-servicesizingpolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-servicesizingpolicies-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-servicesizingpolicies-api-openapi.yml
 - filename: aptible-settings-api-openapi.yml
   format: yaml
   label: Aptible Settings API
   slug: aptible-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-settings-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-settings-api-openapi.yml
 - filename: aptible-sources-api-openapi.yml
   format: yaml
   label: Aptible Sources API
   slug: aptible-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-sources-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-sources-api-openapi.yml
 - filename: aptible-sshportalconnections-api-openapi.yml
   format: yaml
   label: Aptible Ssh Portal Connections API
   slug: aptible-sshportalconnections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-sshportalconnections-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-sshportalconnections-api-openapi.yml
 - filename: aptible-stacks-api-openapi.yml
   format: yaml
   label: Aptible Stacks API
   slug: aptible-stacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-stacks-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-stacks-api-openapi.yml
 - filename: aptible-system-api-openapi.yml
   format: yaml
   label: Aptible System API
   slug: aptible-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-system-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-system-api-openapi.yml
 - filename: aptible-tool-api-openapi.yml
   format: yaml
   label: Aptible Tool API
   slug: aptible-tool-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-tool-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-tool-api-openapi.yml
 - filename: aptible-tools-api-openapi.yml
   format: yaml
   label: Aptible Tools API
   slug: aptible-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-tools-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-tools-api-openapi.yml
 - filename: aptible-utilities-api-openapi.yml
   format: yaml
   label: Aptible Utilities API
   slug: aptible-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-utilities-api-openapi.yml
 - filename: aptible-vhosts-api-openapi.yml
   format: yaml
   label: Aptible Vhosts API
   slug: aptible-vhosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-vhosts-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-vhosts-api-openapi.yml
 - filename: aptible-vpcpeers-api-openapi.yml
   format: yaml
   label: Aptible Vpc Peers API
   slug: aptible-vpcpeers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-vpcpeers-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-vpcpeers-api-openapi.yml
 - filename: aptible-worker-api-openapi.yml
   format: yaml
   label: Aptible Worker API
   slug: aptible-worker-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-worker-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-worker-api-openapi.yml
 - filename: aptible-activity-reports-api-openapi.yml
   format: yaml
   label: Aptible Activity Reports API
   slug: aptible-activity-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-activity-reports-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-activity-reports-api-openapi.yml
 - filename: aptible-database-credentials-api-openapi.yml
   format: yaml
   label: Aptible Database Credentials API
   slug: aptible-database-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-database-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-database-credentials-api-openapi.yml
 - filename: aptible-vpn-tunnels-api-openapi.yml
   format: yaml
   label: Aptible Vpn Tunnels API
   slug: aptible-vpn-tunnels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/openapi/aptible-vpn-tunnels-api-openapi.yml
+  url: https://artifacts.apis.io/aptible/openapi/aptible-vpn-tunnels-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -322,7 +322,7 @@ source_filename: aptible-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-06'\nmethod: searched\nprobe: true\nsource: https://trust.aptible.com/\nurl: https://trust.aptible.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- HIPAA\n- FedRAMP\n- GDPR\nevidence:\n- source: https://trust.aptible.com/\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aptible/refs/heads/main/security/aptible-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/aptible/security/aptible-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 tags:
 - Company

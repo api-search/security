@@ -8,67 +8,67 @@ api_specs:
   label: Trimble BCF Topics API
   slug: trimble-bcf-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-bcf-topics-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-bcf-topics-api-openapi.yml
 - filename: trimble-files-api-openapi.yml
   format: yaml
   label: Trimble Files API
   slug: trimble-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-files-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-files-api-openapi.yml
 - filename: trimble-geocoding-api-openapi.yml
   format: yaml
   label: Trimble Geocoding API
   slug: trimble-geocoding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-geocoding-api-openapi.yml
 - filename: trimble-projects-api-openapi.yml
   format: yaml
   label: Trimble Projects API
   slug: trimble-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-projects-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-projects-api-openapi.yml
 - filename: trimble-routing-api-openapi.yml
   format: yaml
   label: Trimble Routing API
   slug: trimble-routing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-routing-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-routing-api-openapi.yml
 - filename: trimble-users-api-openapi.yml
   format: yaml
   label: Trimble Users API
   slug: trimble-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-users-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-users-api-openapi.yml
 - filename: trimble-catalyst-api-openapi.yml
   format: yaml
   label: Trimble Catalyst API
   slug: trimble-catalyst-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-catalyst-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-catalyst-api-openapi.yml
 - filename: trimble-corrections-api-openapi.yml
   format: yaml
   label: Trimble Corrections API
   slug: trimble-corrections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-corrections-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-corrections-api-openapi.yml
 - filename: trimble-positioning-api-openapi.yml
   format: yaml
   label: Trimble Positioning API
   slug: trimble-positioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-positioning-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-positioning-api-openapi.yml
 - filename: trimble-receiver-api-openapi.yml
   format: yaml
   label: Trimble Receiver API
   slug: trimble-receiver-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-receiver-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-receiver-api-openapi.yml
 - filename: trimble-system-api-openapi.yml
   format: yaml
   label: Trimble System API
   slug: trimble-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/openapi/trimble-system-api-openapi.yml
+  url: https://artifacts.apis.io/trimble/openapi/trimble-system-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -104,7 +104,7 @@ source_filename: trimble-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/trimble-connect-openapi.yml, openapi/trimble-maps-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Trimble Identity OAuth2 Bearer token\n  sources:\n  - openapi/trimble-connect-openapi.yml\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Format: ALK apiKey'\n  sources:\n  - openapi/trimble-maps-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/trimble/refs/heads/main/authentication/trimble-authentication.yml
+source_yaml_url: https://artifacts.apis.io/trimble/authentication/trimble-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Construction

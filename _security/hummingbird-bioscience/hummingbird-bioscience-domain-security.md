@@ -26,7 +26,7 @@ source_filename: hummingbird-bioscience-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hummingbirdbioscience.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 12:31:22 2026 GMT\n  hsts: false\ndomains:\n- domain: hummingbirdbioscience.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hummingbird-bioscience/refs/heads/main/security/hummingbird-bioscience-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hummingbird-bioscience/security/hummingbird-bioscience-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

@@ -7,55 +7,55 @@ api_specs:
   label: Repsly Clients API
   slug: repsly-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-clients-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-clients-api-openapi.yml
 - filename: repsly-forms-api-openapi.yml
   format: yaml
   label: Repsly Forms API
   slug: repsly-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-forms-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-forms-api-openapi.yml
 - filename: repsly-import-api-openapi.yml
   format: yaml
   label: Repsly Import API
   slug: repsly-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-import-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-import-api-openapi.yml
 - filename: repsly-photos-api-openapi.yml
   format: yaml
   label: Repsly Photos API
   slug: repsly-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-photos-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-photos-api-openapi.yml
 - filename: repsly-products-api-openapi.yml
   format: yaml
   label: Repsly Products API
   slug: repsly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-products-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-products-api-openapi.yml
 - filename: repsly-purchase-orders-api-openapi.yml
   format: yaml
   label: Repsly Purchase Orders API
   slug: repsly-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-purchase-orders-api-openapi.yml
 - filename: repsly-representatives-api-openapi.yml
   format: yaml
   label: Repsly Representatives API
   slug: repsly-representatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-representatives-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-representatives-api-openapi.yml
 - filename: repsly-visits-api-openapi.yml
   format: yaml
   label: Repsly Visits API
   slug: repsly-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-visits-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-visits-api-openapi.yml
 - filename: repsly-price-lists-api-openapi.yml
   format: yaml
   label: Repsly Price Lists API
   slug: repsly-price-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-price-lists-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-price-lists-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: repsly-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/repsly-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication over SSL. Use the API username and password from the\n    Repsly settings page (API Settings) - these differ from your Repsly login credentials.\n  sources:\n  - openapi/repsly-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/authentication/repsly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/repsly/authentication/repsly-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Retail Execution

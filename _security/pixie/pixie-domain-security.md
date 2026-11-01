@@ -5,19 +5,19 @@ api_specs:
   label: Pixie Clusters API
   slug: pixie-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/openapi/pixie-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/pixie/openapi/pixie-clusters-api-openapi.yml
 - filename: pixie-health-api-openapi.yml
   format: yaml
   label: Pixie Health API
   slug: pixie-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/openapi/pixie-health-api-openapi.yml
+  url: https://artifacts.apis.io/pixie/openapi/pixie-health-api-openapi.yml
 - filename: pixie-scripts-api-openapi.yml
   format: yaml
   label: Pixie Scripts API
   slug: pixie-scripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/openapi/pixie-scripts-api-openapi.yml
+  url: https://artifacts.apis.io/pixie/openapi/pixie-scripts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: pixie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: px.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 05:28:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.px.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 05:28:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: work.withpixie.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 01:08:26 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: px.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: withpixie.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixie/refs/heads/main/security/pixie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pixie/security/pixie-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - eBPF

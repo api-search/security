@@ -7,19 +7,19 @@ api_specs:
   label: ToHuman Humanizations API
   slug: tohuman-humanizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/openapi/tohuman-humanizations-api-openapi.yml
+  url: https://artifacts.apis.io/tohuman/openapi/tohuman-humanizations-api-openapi.yml
 - filename: tohuman-humanize-api-openapi.yml
   format: yaml
   label: ToHuman Humanize API
   slug: tohuman-humanize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/openapi/tohuman-humanize-api-openapi.yml
+  url: https://artifacts.apis.io/tohuman/openapi/tohuman-humanize-api-openapi.yml
 - filename: tohuman-submit-api-openapi.yml
   format: yaml
   label: ToHuman Submit API
   slug: tohuman-submit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/openapi/tohuman-submit-api-openapi.yml
+  url: https://artifacts.apis.io/tohuman/openapi/tohuman-submit-api-openapi.yml
 auth_types: []
 description: Authentication
 kind: authentication
@@ -45,7 +45,7 @@ source_filename: tohuman-authentication.yml
 source_heading: Authentication Profile
 source_url: https://tohuman.io/docs/quickstart#authentication
 source_yaml: "generated: '2026-09-25'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://tohuman.io/docs/quickstart#authentication\nsources:\n- https://tohuman.io/docs/quickstart#authentication\n- https://tohuman.io/docs/quickstart\ndescription: Authentication\nschemes:\n- type: http-bearer\n  name: Bearer\n  evidence: Every ToHuman API endpoint requires that token as a bearer credential in the Authorization header — there is no other auth scheme,\n    and no query-parameter fallback.\n  location: header\n  header: Authorization\n  how_to_obtain: Sign in to your ToHuman dashboard and create a new API token.\ndocs: https://tohuman.io/docs/quickstart#authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tohuman/refs/heads/main/authentication/tohuman-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tohuman/authentication/tohuman-authentication.yml
 summary_line: 1 scheme
 tags:
 - Artificial Intelligence

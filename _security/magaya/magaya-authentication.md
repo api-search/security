@@ -7,31 +7,31 @@ api_specs:
   label: Magaya Invoices API
   slug: magaya-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-invoices-api-openapi.yml
 - filename: magaya-items-api-openapi.yml
   format: yaml
   label: Magaya Items API
   slug: magaya-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-items-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-items-api-openapi.yml
 - filename: magaya-shipments-api-openapi.yml
   format: yaml
   label: Magaya Shipments API
   slug: magaya-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-shipments-api-openapi.yml
 - filename: magaya-transactions-api-openapi.yml
   format: yaml
   label: Magaya Transactions API
   slug: magaya-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-transactions-api-openapi.yml
 - filename: magaya-warehouse-receipts-api-openapi.yml
   format: yaml
   label: Magaya Warehouse Receipts API
   slug: magaya-warehouse-receipts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/openapi/magaya-warehouse-receipts-api-openapi.yml
+  url: https://artifacts.apis.io/magaya/openapi/magaya-warehouse-receipts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: magaya-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/magaya-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: apiUser\n  type: http\n  scheme: basic\n  description: Magaya API user. A dedicated API user (username and password) is configured inside\n    the Magaya system, distinct from a regular login user. The Digital Freight Portal REST API\n    instead uses Auth0 machine-to-machine OAuth client credentials.\n  sources:\n  - openapi/magaya-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/magaya/refs/heads/main/authentication/magaya-authentication.yml
+source_yaml_url: https://artifacts.apis.io/magaya/authentication/magaya-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Logistics

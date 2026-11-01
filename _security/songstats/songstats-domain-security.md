@@ -5,31 +5,31 @@ api_specs:
   label: Songstats Artists API
   slug: songstats-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-artists-api-openapi.yml
+  url: https://artifacts.apis.io/songstats/openapi/songstats-artists-api-openapi.yml
 - filename: songstats-collaborators-api-openapi.yml
   format: yaml
   label: Songstats Collaborators API
   slug: songstats-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/songstats/openapi/songstats-collaborators-api-openapi.yml
 - filename: songstats-info-api-openapi.yml
   format: yaml
   label: Songstats Info API
   slug: songstats-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-info-api-openapi.yml
+  url: https://artifacts.apis.io/songstats/openapi/songstats-info-api-openapi.yml
 - filename: songstats-labels-api-openapi.yml
   format: yaml
   label: Songstats Labels API
   slug: songstats-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-labels-api-openapi.yml
+  url: https://artifacts.apis.io/songstats/openapi/songstats-labels-api-openapi.yml
 - filename: songstats-tracks-api-openapi.yml
   format: yaml
   label: Songstats Tracks API
   slug: songstats-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/songstats/openapi/songstats-tracks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -76,7 +76,7 @@ source_filename: songstats-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: songstats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 21:32:46 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: docs.songstats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 21:32:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.songstats.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 21:32:46 2026 GMT\n  hsts: null\ndomains:\n- domain: songstats.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/security/songstats-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/songstats/security/songstats-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics

@@ -8,73 +8,73 @@ api_specs:
   label: Mesh Connect Assets API
   slug: mesh-connect-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-assets-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-assets-api-openapi.yml
 - filename: mesh-connect-auth-token-api-openapi.yml
   format: yaml
   label: Mesh Connect Auth token API
   slug: mesh-connect-auth-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-auth-token-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-auth-token-api-openapi.yml
 - filename: mesh-connect-balance-api-openapi.yml
   format: yaml
   label: Mesh Connect Balance API
   slug: mesh-connect-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-balance-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-balance-api-openapi.yml
 - filename: mesh-connect-brokeraccountdetail-api-openapi.yml
   format: yaml
   label: Mesh Connect BrokerAccountDetail API
   slug: mesh-connect-brokeraccountdetail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-brokeraccountdetail-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-brokeraccountdetail-api-openapi.yml
 - filename: mesh-connect-main-clients-api-openapi.yml
   format: yaml
   label: Mesh Connect Main Clients API
   slug: mesh-connect-main-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-main-clients-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-main-clients-api-openapi.yml
 - filename: mesh-connect-managed-account-authentication-api-openapi.yml
   format: yaml
   label: Mesh Connect Managed Account Authentication API
   slug: mesh-connect-managed-account-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-managed-account-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-managed-account-authentication-api-openapi.yml
 - filename: mesh-connect-managed-transfers-api-openapi.yml
   format: yaml
   label: Mesh Connect Managed Transfers API
   slug: mesh-connect-managed-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-managed-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-managed-transfers-api-openapi.yml
 - filename: mesh-connect-portfolio-api-openapi.yml
   format: yaml
   label: Mesh Connect Portfolio API
   slug: mesh-connect-portfolio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-portfolio-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-portfolio-api-openapi.yml
 - filename: mesh-connect-registered-clients-api-openapi.yml
   format: yaml
   label: Mesh Connect Registered Clients API
   slug: mesh-connect-registered-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-registered-clients-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-registered-clients-api-openapi.yml
 - filename: mesh-connect-self-managed-account-authentication-api-openapi.yml
   format: yaml
   label: Mesh Connect Self Managed Account Authentication API
   slug: mesh-connect-self-managed-account-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-self-managed-account-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-self-managed-account-authentication-api-openapi.yml
 - filename: mesh-connect-transactions-api-openapi.yml
   format: yaml
   label: Mesh Connect Transactions API
   slug: mesh-connect-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-transactions-api-openapi.yml
 - filename: mesh-connect-transfers-api-openapi.yml
   format: yaml
   label: Mesh Connect Transfers API
   slug: mesh-connect-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/openapi/mesh-connect-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/mesh-connect/openapi/mesh-connect-transfers-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -116,7 +116,7 @@ source_filename: mesh-connect-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/mesh-connect-admin-openapi-original.json, openapi/mesh-connect-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: http\n  scheme: bearer\n  description: 'Authorization header using the Bearer scheme. Example: \"Authorization: Bearer\n    {Value}\"'\n  sources:\n  - openapi/mesh-connect-admin-openapi-original.json\n- name: Client-Secret\n  type: apiKey\n  in: header\n  parameter: X-Client-Secret\n  description: Contact Mesh to get client Secret\n  sources:\n  - openapi/mesh-connect-openapi-original.json\n- name: Client-Id\n  type: apiKey\n  in: header\n  parameter: X-Client-Id\n  description: Contact Mesh to get client Id\n  sources:\n  - openapi/mesh-connect-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mesh-connect/refs/heads/main/authentication/mesh-connect-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mesh-connect/authentication/mesh-connect-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company

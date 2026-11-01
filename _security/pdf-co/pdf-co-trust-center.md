@@ -5,61 +5,61 @@ api_specs:
   label: PDF.co Barcodes API
   slug: pdf-co-barcodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-barcodes-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-barcodes-api-openapi.yml
 - filename: pdf-co-document-file-system-api-openapi.yml
   format: yaml
   label: PDF.co Document, File & System API
   slug: pdf-co-document-file-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-document-file-system-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-document-file-system-api-openapi.yml
 - filename: pdf-co-editing-api-openapi.yml
   format: yaml
   label: PDF.co Editing API
   slug: pdf-co-editing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-editing-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-editing-api-openapi.yml
 - filename: pdf-co-excel-conversion-api-openapi.yml
   format: yaml
   label: PDF.co Excel Conversion API
   slug: pdf-co-excel-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-excel-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-excel-conversion-api-openapi.yml
 - filename: pdf-co-extraction-api-openapi.yml
   format: yaml
   label: PDF.co Extraction API
   slug: pdf-co-extraction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-extraction-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-extraction-api-openapi.yml
 - filename: pdf-co-find-search-api-openapi.yml
   format: yaml
   label: PDF.co Find & Search API
   slug: pdf-co-find-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-find-search-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-find-search-api-openapi.yml
 - filename: pdf-co-forms-api-openapi.yml
   format: yaml
   label: PDF.co Forms API
   slug: pdf-co-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-forms-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-forms-api-openapi.yml
 - filename: pdf-co-pages-api-openapi.yml
   format: yaml
   label: PDF.co Pages API
   slug: pdf-co-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pages-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-pages-api-openapi.yml
 - filename: pdf-co-pdf-conversion-api-openapi.yml
   format: yaml
   label: PDF.co PDF Conversion API
   slug: pdf-co-pdf-conversion-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pdf-conversion-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-pdf-conversion-api-openapi.yml
 - filename: pdf-co-pdf-merging-splitting-api-openapi.yml
   format: yaml
   label: PDF.co PDF Merging & Splitting API
   slug: pdf-co-pdf-merging-splitting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/openapi/pdf-co-pdf-merging-splitting-api-openapi.yml
+  url: https://artifacts.apis.io/pdf-co/openapi/pdf-co-pdf-merging-splitting-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -79,7 +79,7 @@ source_filename: pdf-co-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://docs.pdf.co/knowledgebase/security\nurl: https://docs.pdf.co/knowledgebase/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://docs.pdf.co/knowledgebase/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/security/pdf-co-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/pdf-co/security/pdf-co-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - PDF

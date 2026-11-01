@@ -16,7 +16,7 @@ source_filename: noded-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://www.getnoded.ai/security/\nurl: https://www.getnoded.ai/security/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://www.getnoded.ai/security/\n  keywords:\n  - soc 2\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/noded-ai/refs/heads/main/security/noded-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/noded-ai/security/noded-ai-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - Company

@@ -5,19 +5,19 @@ api_specs:
   label: OMDb ID Parameter API
   slug: omdb-id-parameter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/openapi/omdb-id-parameter-api-openapi.yml
+  url: https://artifacts.apis.io/omdb/openapi/omdb-id-parameter-api-openapi.yml
 - filename: omdb-search-parameter-api-openapi.yml
   format: yaml
   label: OMDb Search Parameter API
   slug: omdb-search-parameter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/openapi/omdb-search-parameter-api-openapi.yml
+  url: https://artifacts.apis.io/omdb/openapi/omdb-search-parameter-api-openapi.yml
 - filename: omdb-title-parameter-api-openapi.yml
   format: yaml
   label: OMDb Title Parameter API
   slug: omdb-title-parameter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/openapi/omdb-title-parameter-api-openapi.yml
+  url: https://artifacts.apis.io/omdb/openapi/omdb-title-parameter-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +51,7 @@ source_filename: omdb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.omdbapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 18:44:29 2026 GMT\n  hsts: false\n- host: img.omdbapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 18:44:29 2026 GMT\n  hsts: false\ndomains:\n- domain: omdbapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/omdb/refs/heads/main/security/omdb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/omdb/security/omdb-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Movies

@@ -27,7 +27,7 @@ source_filename: fundable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fundable.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 29 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: fundable.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fundable/refs/heads/main/security/fundable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fundable/security/fundable-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

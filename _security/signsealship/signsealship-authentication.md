@@ -8,49 +8,49 @@ api_specs:
   label: SignSealShip Partner API Closing Passports API
   slug: signsealship-closing-passports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-closing-passports-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-closing-passports-api-openapi.yml
 - filename: signsealship-closing-rooms-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Closing Rooms API
   slug: signsealship-closing-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-closing-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-closing-rooms-api-openapi.yml
 - filename: signsealship-launchpad-analytics-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Launchpad & Analytics API
   slug: signsealship-launchpad-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-launchpad-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-launchpad-analytics-api-openapi.yml
 - filename: signsealship-onboarding-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Onboarding API
   slug: signsealship-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-onboarding-api-openapi.yml
 - filename: signsealship-orders-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Orders API
   slug: signsealship-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-orders-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-orders-api-openapi.yml
 - filename: signsealship-proof-passport-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Proof Passport API
   slug: signsealship-proof-passport-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-proof-passport-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-proof-passport-api-openapi.yml
 - filename: signsealship-sandbox-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Sandbox API
   slug: signsealship-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-sandbox-api-openapi.yml
 - filename: signsealship-webhooks-api-openapi.yml
   format: yaml
   label: SignSealShip Partner API Webhooks API
   slug: signsealship-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/openapi/signsealship-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/signsealship/openapi/signsealship-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -105,7 +105,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: >-\n  https://d
   \      once-displayed key is good practice; requiring a human email to rotate it is not, and it\n      means incident response has a person in the critical path.\n  room_links:\n    self_serve: true\n    operation: POST /api/rooms/{roomCode}/rotate\n    effect: Every previously shared link dies instantly. Irreversible.\n  webhook_secrets:\n    self_serve: true\n    operation: POST /api/partner/webhooks/{id}/rotate\n    display: shown exactly once; only the hash is stored\n    overlap: >-\n      24 hours of dual signing -- the SignSealShip-Signature header carries one v1 entry per\n      active secret, and a consumer should accept when ANY entry matches. The machine-readable\n      form is previousSecretExpiresAt on RotateWebhookResponse.\nauthorization:\n  model: coarse permission strings, not machine-declared\n  strings: [orders:read, orders:write, webhooks:read, webhooks:write]\n  declared_in: operation descriptions only\n  contradiction: >-\n    /.well-known/api-onboarding.json states\
   \ \"There is no scope-string model. Access is gated by\n    plan tier.\" The OpenAPI names four permission strings across nine operations. The two provider\n    documents disagree, and no securityScheme exposes a scopes map either way -- so a caller\n    cannot discover what its key is permitted to do until a call fails.\n  plan_gate: >-\n    Feature access really is tiered on top of this: the Order API and partner webhooks unlock at\n    the $149/mo Pro Office plan.\nfailure_modes:\n  '401': >-\n    'A valid partner API key is required.' -- returned identically for a missing, malformed,\n    revoked or unknown key. Deliberately indistinguishable.\n  '403': >-\n    Reserved for a valid dashboard session that has not yet been linked to a partner. Before\n    2026-08-01, GET /api/partner/me also returned 403 for a missing credential; it now correctly\n    returns 401.\ntransport:\n  tls: TLSv1.3 observed on both hosts\n  hsts: true, max-age 63072000\n  see: security/signsealship-domain-security.yml\n\
   gaps:\n- No OAuth 2.0, no OIDC, no dynamic client registration (RFC 7591).\n- No self-serve API-key rotation.\n- No machine-readable scope or permission discovery.\n- Key delivery is out-of-band by email, which blocks fully programmatic onboarding.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/signsealship/refs/heads/main/authentication/signsealship-authentication.yml
+source_yaml_url: https://artifacts.apis.io/signsealship/authentication/signsealship-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Notarization

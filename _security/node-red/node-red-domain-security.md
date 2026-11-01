@@ -5,37 +5,37 @@ api_specs:
   label: Node-RED Auth API
   slug: node-red-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-auth-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-auth-api-openapi.yml
 - filename: node-red-diagnostics-api-openapi.yml
   format: yaml
   label: Node-RED Diagnostics API
   slug: node-red-diagnostics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-diagnostics-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-diagnostics-api-openapi.yml
 - filename: node-red-flow-api-openapi.yml
   format: yaml
   label: Node-RED Flow API
   slug: node-red-flow-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-flow-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-flow-api-openapi.yml
 - filename: node-red-flows-api-openapi.yml
   format: yaml
   label: Node-RED Flows API
   slug: node-red-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-flows-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-flows-api-openapi.yml
 - filename: node-red-nodes-api-openapi.yml
   format: yaml
   label: Node-RED Nodes API
   slug: node-red-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-nodes-api-openapi.yml
 - filename: node-red-settings-api-openapi.yml
   format: yaml
   label: Node-RED Settings API
   slug: node-red-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/openapi/node-red-settings-api-openapi.yml
+  url: https://artifacts.apis.io/node-red/openapi/node-red-settings-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: node-red-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nodered.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 03:05:19 2026 GMT\n  hsts: false\ndomains:\n- domain: nodered.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/security/node-red-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/node-red/security/node-red-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Self-Hosted

@@ -27,7 +27,7 @@ source_filename: space-runners-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spacerunners.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 00:52:47 2026 GMT\n  hsts: false\ndomains:\n- domain: spacerunners.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/space-runners/refs/heads/main/security/space-runners-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/space-runners/security/space-runners-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

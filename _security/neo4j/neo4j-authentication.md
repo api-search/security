@@ -7,43 +7,43 @@ api_specs:
   label: Neo4j Query API
   slug: query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-query-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-query-api-openapi.yml
 - filename: neo4j-authentication-api-openapi.yml
   format: yaml
   label: Neo4j Authentication API
   slug: neo4j-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-authentication-api-openapi.yml
 - filename: neo4j-discovery-api-openapi.yml
   format: yaml
   label: Neo4j Discovery API
   slug: neo4j-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-discovery-api-openapi.yml
 - filename: neo4j-instances-api-openapi.yml
   format: yaml
   label: Neo4j Instances API
   slug: neo4j-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-instances-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-instances-api-openapi.yml
 - filename: neo4j-snapshots-api-openapi.yml
   format: yaml
   label: Neo4j Snapshots API
   slug: neo4j-snapshots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-snapshots-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-snapshots-api-openapi.yml
 - filename: neo4j-tenants-api-openapi.yml
   format: yaml
   label: Neo4j Tenants API
   slug: neo4j-tenants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-tenants-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-tenants-api-openapi.yml
 - filename: neo4j-transactions-api-openapi.yml
   format: yaml
   label: Neo4j Transactions API
   slug: neo4j-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/openapi/neo4j-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/neo4j/openapi/neo4j-transactions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -76,7 +76,7 @@ source_filename: neo4j-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/neo4j-aura-api-openapi.yml, openapi/neo4j-http-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth2 bearer token obtained from the /oauth/token endpoint using client credentials.\n    Tokens expire after one hour.\n  sources:\n  - openapi/neo4j-aura-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using the Neo4j database username and password encoded\n    as a base64 hash.\n  sources:\n  - openapi/neo4j-http-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/neo4j/refs/heads/main/authentication/neo4j-authentication.yml
+source_yaml_url: https://artifacts.apis.io/neo4j/authentication/neo4j-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Neo4j

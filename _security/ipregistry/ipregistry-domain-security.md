@@ -46,7 +46,7 @@ source_filename: ipregistry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ipregistry.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 13:55:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.ipregistry.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 02:11:48 2026 GMT\n  hsts: null\ndomains:\n- domain: ipregistry.co\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ipregistry/refs/heads/main/security/ipregistry-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ipregistry/security/ipregistry-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - IP Geolocation

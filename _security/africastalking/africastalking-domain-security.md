@@ -5,37 +5,37 @@ api_specs:
   label: Africa's Talking Airtime API
   slug: africastalking-airtime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-airtime-api-openapi.yml
+  url: https://artifacts.apis.io/africastalking/openapi/africastalking-airtime-api-openapi.yml
 - filename: africastalking-mobile-data-api-openapi.yml
   format: yaml
   label: Africa's Talking Mobile Data API
   slug: africastalking-mobile-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-mobile-data-api-openapi.yml
+  url: https://artifacts.apis.io/africastalking/openapi/africastalking-mobile-data-api-openapi.yml
 - filename: africastalking-payments-api-openapi.yml
   format: yaml
   label: Africa's Talking Payments API
   slug: africastalking-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-payments-api-openapi.yml
+  url: https://artifacts.apis.io/africastalking/openapi/africastalking-payments-api-openapi.yml
 - filename: africastalking-premium-sms-api-openapi.yml
   format: yaml
   label: Africa's Talking Premium SMS API
   slug: africastalking-premium-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-premium-sms-api-openapi.yml
+  url: https://artifacts.apis.io/africastalking/openapi/africastalking-premium-sms-api-openapi.yml
 - filename: africastalking-sms-api-openapi.yml
   format: yaml
   label: Africa's Talking SMS API
   slug: africastalking-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-sms-api-openapi.yml
+  url: https://artifacts.apis.io/africastalking/openapi/africastalking-sms-api-openapi.yml
 - filename: africastalking-voice-api-openapi.yml
   format: yaml
   label: Africa's Talking Voice API
   slug: africastalking-voice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/openapi/africastalking-voice-api-openapi.yml
+  url: https://artifacts.apis.io/africastalking/openapi/africastalking-voice-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: africastalking-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: africastalking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 13:41:30 2026 GMT\n  hsts: false\n- host: developers.africastalking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 04:58:26 2026 GMT\n  hsts: false\n- host: api.africastalking.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: africastalking.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/africastalking/refs/heads/main/security/africastalking-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/africastalking/security/africastalking-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Communications

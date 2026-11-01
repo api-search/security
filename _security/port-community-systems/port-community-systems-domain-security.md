@@ -5,31 +5,31 @@ api_specs:
   label: Port Community Systems CargoManifests API
   slug: port-community-systems-cargomanifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-cargomanifests-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-cargomanifests-api-openapi.yml
 - filename: port-community-systems-containers-api-openapi.yml
   format: yaml
   label: Port Community Systems Containers API
   slug: port-community-systems-containers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-containers-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-containers-api-openapi.yml
 - filename: port-community-systems-customsdeclarations-api-openapi.yml
   format: yaml
   label: Port Community Systems CustomsDeclarations API
   slug: port-community-systems-customsdeclarations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-customsdeclarations-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-customsdeclarations-api-openapi.yml
 - filename: port-community-systems-hazardouscargo-api-openapi.yml
   format: yaml
   label: Port Community Systems HazardousCargo API
   slug: port-community-systems-hazardouscargo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-hazardouscargo-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-hazardouscargo-api-openapi.yml
 - filename: port-community-systems-vesselcalls-api-openapi.yml
   format: yaml
   label: Port Community Systems VesselCalls API
   slug: port-community-systems-vesselcalls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/openapi/port-community-systems-vesselcalls-api-openapi.yml
+  url: https://artifacts.apis.io/port-community-systems/openapi/port-community-systems-vesselcalls-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: port-community-systems-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ipcsa.international\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 20:02:47 2026 GMT\n  hsts: false\n- host: www.portbase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.portbase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 07:02:10 2026 GMT\n  hsts: null\ndomains:\n- domain: ipcsa.international\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: portbase.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/port-community-systems/refs/heads/main/security/port-community-systems-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/port-community-systems/security/port-community-systems-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Maritime

@@ -5,55 +5,55 @@ api_specs:
   label: frp Clients API
   slug: frp-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-clients-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-clients-api-openapi.yml
 - filename: frp-configuration-api-openapi.yml
   format: yaml
   label: frp Configuration API
   slug: frp-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-configuration-api-openapi.yml
 - filename: frp-health-api-openapi.yml
   format: yaml
   label: frp Health API
   slug: frp-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-health-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-health-api-openapi.yml
 - filename: frp-lifecycle-api-openapi.yml
   format: yaml
   label: frp Lifecycle API
   slug: frp-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-lifecycle-api-openapi.yml
 - filename: frp-metrics-api-openapi.yml
   format: yaml
   label: frp Metrics API
   slug: frp-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-metrics-api-openapi.yml
 - filename: frp-proxies-api-openapi.yml
   format: yaml
   label: frp Proxies API
   slug: frp-proxies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-proxies-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-proxies-api-openapi.yml
 - filename: frp-server-api-openapi.yml
   format: yaml
   label: frp Server API
   slug: frp-server-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-server-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-server-api-openapi.yml
 - filename: frp-status-api-openapi.yml
   format: yaml
   label: frp Status API
   slug: frp-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-status-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-status-api-openapi.yml
 - filename: frp-store-api-openapi.yml
   format: yaml
   label: frp Store API
   slug: frp-store-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/openapi/frp-store-api-openapi.yml
+  url: https://artifacts.apis.io/frp/openapi/frp-store-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -90,7 +90,7 @@ source_filename: frp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gofrp.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 10:19:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: 127.0.0.1\n  https: false\ndomains:\n- domain: gofrp.org\n  dnssec: true\n  caa:\n  - gofrp.github.io.\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/security/frp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/frp/security/frp-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - NAT Traversal

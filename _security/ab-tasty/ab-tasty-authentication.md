@@ -8,19 +8,19 @@ api_specs:
   label: AB Tasty Activate API
   slug: ab-tasty-activate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-activate-api-openapi.yml
+  url: https://artifacts.apis.io/ab-tasty/openapi/ab-tasty-activate-api-openapi.yml
 - filename: ab-tasty-campaigns-api-openapi.yml
   format: yaml
   label: AB Tasty Campaigns API
   slug: ab-tasty-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/ab-tasty/openapi/ab-tasty-campaigns-api-openapi.yml
 - filename: ab-tasty-environments-api-openapi.yml
   format: yaml
   label: AB Tasty Environments API
   slug: ab-tasty-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/openapi/ab-tasty-environments-api-openapi.yml
+  url: https://artifacts.apis.io/ab-tasty/openapi/ab-tasty-environments-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: ab-tasty-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/decision-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key for authentication. Can be found in Flagship Platform under Parameters\n    / Environment & Security\n  sources:\n  - openapi/decision-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/authentication/ab-tasty-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ab-tasty/authentication/ab-tasty-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Aggregation

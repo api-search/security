@@ -5,43 +5,43 @@ api_specs:
   label: Bloq Auth API
   slug: bloq-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloq/refs/heads/main/openapi/bloq-auth-api-openapi.yml
+  url: https://artifacts.apis.io/bloq/openapi/bloq-auth-api-openapi.yml
 - filename: bloq-bloq-api-api-openapi.yml
   format: yaml
   label: Bloq Bloq API
   slug: bloq-bloq-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloq/refs/heads/main/openapi/bloq-bloq-api-api-openapi.yml
+  url: https://artifacts.apis.io/bloq/openapi/bloq-bloq-api-api-openapi.yml
 - filename: bloq-chains-api-openapi.yml
   format: yaml
   label: Bloq Chains API
   slug: bloq-chains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloq/refs/heads/main/openapi/bloq-chains-api-openapi.yml
+  url: https://artifacts.apis.io/bloq/openapi/bloq-chains-api-openapi.yml
 - filename: bloq-logs-api-openapi.yml
   format: yaml
   label: Bloq Logs API
   slug: bloq-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloq/refs/heads/main/openapi/bloq-logs-api-openapi.yml
+  url: https://artifacts.apis.io/bloq/openapi/bloq-logs-api-openapi.yml
 - filename: bloq-staking-api-openapi.yml
   format: yaml
   label: Bloq Staking API
   slug: bloq-staking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloq/refs/heads/main/openapi/bloq-staking-api-openapi.yml
+  url: https://artifacts.apis.io/bloq/openapi/bloq-staking-api-openapi.yml
 - filename: bloq-status-api-openapi.yml
   format: yaml
   label: Bloq Status API
   slug: bloq-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloq/refs/heads/main/openapi/bloq-status-api-openapi.yml
+  url: https://artifacts.apis.io/bloq/openapi/bloq-status-api-openapi.yml
 - filename: bloq-users-api-openapi.yml
   format: yaml
   label: Bloq Users API
   slug: bloq-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bloq/refs/heads/main/openapi/bloq-users-api-openapi.yml
+  url: https://artifacts.apis.io/bloq/openapi/bloq-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: bloq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-29'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hiive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 14:19:32 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: hiive.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bloq/refs/heads/main/security/bloq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bloq/security/bloq-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

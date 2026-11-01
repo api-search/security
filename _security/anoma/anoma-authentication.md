@@ -28,7 +28,7 @@ source_filename: anoma-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\nsource: https://docs.anoma.net/api-clients\ndocs: https://docs.anoma.net/key-management\nsummary:\n  types: [none]\n  api_key_in: []\n  oauth2_flows: []\n  notes: >-\n    Anoma's App SDK API clients do not use traditional API-key or OAuth\n    authentication. Clients are constructed with a service URL. On-chain identity\n    and access are handled through cryptographic key management: the IndexerClient\n    registers discovery keypairs (addKeys) and transactions are proven and settled\n    via the Anoma Resource Machine rather than authenticated with bearer tokens.\nschemes:\n- name: discovery-keypair\n  type: cryptographic\n  scheme: keypair-registration\n  operation: IndexerClient.addKeys\n  sources: [docs.anoma.net/api-clients, docs.anoma.net/key-management]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/anoma/refs/heads/main/authentication/anoma-authentication.yml
+source_yaml_url: https://artifacts.apis.io/anoma/authentication/anoma-authentication.yml
 summary_line: none · 1 scheme
 tags:
 - Company

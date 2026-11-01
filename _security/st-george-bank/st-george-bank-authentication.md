@@ -7,43 +7,43 @@ api_specs:
   label: St.George Bank Banking Account Balances API
   slug: st-george-bank-banking-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-account-balances-api-openapi.yml
 - filename: st-george-bank-banking-account-direct-debits-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Account Direct Debits API
   slug: st-george-bank-banking-account-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-account-direct-debits-api-openapi.yml
 - filename: st-george-bank-banking-account-scheduled-payments-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Account Scheduled Payments API
   slug: st-george-bank-banking-account-scheduled-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-scheduled-payments-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-account-scheduled-payments-api-openapi.yml
 - filename: st-george-bank-banking-account-transactions-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Account Transactions API
   slug: st-george-bank-banking-account-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-account-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-account-transactions-api-openapi.yml
 - filename: st-george-bank-banking-accounts-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Accounts API
   slug: st-george-bank-banking-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-accounts-api-openapi.yml
 - filename: st-george-bank-banking-payees-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Payees API
   slug: st-george-bank-banking-payees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-payees-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-payees-api-openapi.yml
 - filename: st-george-bank-banking-products-api-openapi.yml
   format: yaml
   label: St.George Bank Banking Products API
   slug: st-george-bank-banking-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/openapi/st-george-bank-banking-products-api-openapi.yml
+  url: https://artifacts.apis.io/st-george-bank/openapi/st-george-bank-banking-products-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -83,7 +83,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: >-\n  The harvested OpenAPI (openapi/st-george-bank-cds-banking-products-openapi.yml)\n  declares no securitySchemes because it is the shared DSB \"CDR Banking API\"\n  document; the authentication model is defined by Australia's Consumer Data\n  Right security profile (CDR Register + FAPI 1.0 Advanced) and confirmed in the\n  St.George CDR review. Two distinct surfaces: an unauthenticated public PRD and\n  the ADR-gated consumer-data APIs.\ndocs: https://www.stgeorge.com.au/online-services/open-banking\nsummary:\n  types: [none, oauth2, openIdConnect, mutualTLS]\n  api_key_in: []\n  oauth2_flows: [authorizationCode]\n  public_surface: Product Reference Data (unauthenticated)\n  gated_surface: all account / transaction / payee / payment resources\nsurfaces:\n  - name: Product Reference Data (PRD)\n    auth: none\n    detail: >-\n      GET /banking/products and GET /banking/products/{productId} are public and\n      unauthenticated.\
   \ Only the x-v version header is required. Confirmed live\n      (HTTP 200) on https://digital-api.stgeorge.com.au/cds-au/v1/banking/products.\n  - name: Consumer data sharing (CDR)\n    auth: oauth2 + openIdConnect + mutualTLS\n    detail: >-\n      All other resources require an OAuth 2.0 access token obtained through the\n      CDR consent + authorisation flow. Only CDR-accredited Data Recipients\n      (ADRs) registered on the CDR Register can obtain tokens; there is no\n      public self-serve sign-up.\nschemes:\n  - name: CDR-OAuth2\n    type: oauth2\n    flows:\n      - flow: authorizationCode\n        detail: >-\n          Pushed Authorization Requests (PAR) + PKCE; consent captured via the\n          Data Holder authorisation server and bound to a sharing arrangement.\n    scopes: scopes/st-george-bank-scopes.yml\n    profile: FAPI 1.0 Advanced (mandated by the Consumer Data Standards)\n  - name: CDR-OIDC\n    type: openIdConnect\n    detail: OpenID Connect identity layer; id_token\
   \ + userinfo per the CDR profile.\n  - name: CDR-mTLS\n    type: mutualTLS\n    detail: >-\n      Mutual-TLS sender-constrained access tokens; client authentication via\n      private_key_jwt and/or tls_client_auth. OpenAPI servers[] declares an MTLS\n      server (https://mtls.dh.example.com/cds-au/v1 placeholder in the shared spec).\nclient_authentication: [private_key_jwt, tls_client_auth]\nnotes: >-\n  method: searched because the spec omits securitySchemes (shared DSB doc); the\n  model is taken from the published CDR security profile, not fabricated.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/authentication/st-george-bank-authentication.yml
+source_yaml_url: https://artifacts.apis.io/st-george-bank/authentication/st-george-bank-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 3 schemes
 tags:
 - Finance

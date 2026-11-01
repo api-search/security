@@ -5,13 +5,13 @@ api_specs:
   label: DocRaptor Async Documents API
   slug: docraptor-async-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/openapi/docraptor-async-documents-api-openapi.yml
+  url: https://artifacts.apis.io/docraptor/openapi/docraptor-async-documents-api-openapi.yml
 - filename: docraptor-documents-api-openapi.yml
   format: yaml
   label: DocRaptor Documents API
   slug: docraptor-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/openapi/docraptor-documents-api-openapi.yml
+  url: https://artifacts.apis.io/docraptor/openapi/docraptor-documents-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,7 +47,7 @@ source_filename: docraptor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docraptor.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.docraptor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: docraptor.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/docraptor/refs/heads/main/security/docraptor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/docraptor/security/docraptor-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Document Generation

@@ -5,55 +5,55 @@ api_specs:
   label: Adaptive ML artifacts::rest API
   slug: adaptive-ml-artifacts-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-artifacts-rest-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-artifacts-rest-api-openapi.yml
 - filename: adaptive-ml-chunked-upload-api-openapi.yml
   format: yaml
   label: Adaptive ML Chunked Upload API
   slug: adaptive-ml-chunked-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-chunked-upload-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-chunked-upload-api-openapi.yml
 - filename: adaptive-ml-completions-api-openapi.yml
   format: yaml
   label: Adaptive ML Completions API
   slug: adaptive-ml-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-completions-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-completions-api-openapi.yml
 - filename: adaptive-ml-datasets-api-openapi.yml
   format: yaml
   label: Adaptive ML Datasets API
   slug: adaptive-ml-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-datasets-api-openapi.yml
 - filename: adaptive-ml-embeddings-api-openapi.yml
   format: yaml
   label: Adaptive ML Embeddings API
   slug: adaptive-ml-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-embeddings-api-openapi.yml
 - filename: adaptive-ml-feedback-api-openapi.yml
   format: yaml
   label: Adaptive ML Feedback API
   slug: adaptive-ml-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-feedback-api-openapi.yml
 - filename: adaptive-ml-image-rest-api-openapi.yml
   format: yaml
   label: Adaptive ML image::rest API
   slug: adaptive-ml-image-rest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-image-rest-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-image-rest-api-openapi.yml
 - filename: adaptive-ml-interactions-api-openapi.yml
   format: yaml
   label: Adaptive ML Interactions API
   slug: adaptive-ml-interactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-interactions-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-interactions-api-openapi.yml
 - filename: adaptive-ml-recipes-api-openapi.yml
   format: yaml
   label: Adaptive ML Recipes API
   slug: adaptive-ml-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/openapi/adaptive-ml-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/adaptive-ml/openapi/adaptive-ml-recipes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: adaptive-ml-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: adaptive-ml.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 23:57:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: adaptive-ml.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/security/adaptive-ml-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/adaptive-ml/security/adaptive-ml-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

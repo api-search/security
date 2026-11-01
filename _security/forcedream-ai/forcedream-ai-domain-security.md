@@ -5,25 +5,25 @@ api_specs:
   label: ForceDream Account API
   slug: forcedream-ai-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-account-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-account-api-openapi.yml
 - filename: forcedream-ai-agents-api-openapi.yml
   format: yaml
   label: ForceDream Agents API
   slug: forcedream-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-agents-api-openapi.yml
 - filename: forcedream-ai-signup-api-openapi.yml
   format: yaml
   label: ForceDream Signup API
   slug: forcedream-ai-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-signup-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-signup-api-openapi.yml
 - filename: forcedream-ai-workforce-api-openapi.yml
   format: yaml
   label: ForceDream Workforce API
   slug: forcedream-ai-workforce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/openapi/forcedream-ai-workforce-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-workforce-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -67,7 +67,7 @@ source_filename: forcedream-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forcedream.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 15:18:48 2026 GMT\n  hsts: false\n- host: www.forcedream.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 22:52:11 2026 GMT\n  hsts: false\n- host: api.forcedream.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 21:44:20 2026 GMT\n  hsts: false\ndomains:\n- domain: forcedream.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: forcedream.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forcedream-ai/refs/heads/main/security/forcedream-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/forcedream-ai/security/forcedream-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - AI Agents

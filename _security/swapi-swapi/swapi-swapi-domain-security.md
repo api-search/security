@@ -26,7 +26,7 @@ source_filename: swapi-swapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.swapi.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 15:57:50 2026 GMT\n  hsts: null\ndomains:\n- domain: swapi.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/swapi-swapi/refs/heads/main/security/swapi-swapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/swapi-swapi/security/swapi-swapi-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Video

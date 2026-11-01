@@ -8,169 +8,169 @@ api_specs:
   label: Light Authorization API
   slug: light-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-authorization-api-openapi.yml
 - filename: light-v1-accounting-documents-api-openapi.yml
   format: yaml
   label: Light v1 - Accounting Documents API
   slug: light-v1-accounting-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-accounting-documents-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-accounting-documents-api-openapi.yml
 - filename: light-v1-attachments-api-openapi.yml
   format: yaml
   label: Light v1 - Attachments API
   slug: light-v1-attachments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-attachments-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-attachments-api-openapi.yml
 - filename: light-v1-bank-accounts-api-openapi.yml
   format: yaml
   label: Light v1 - Bank Accounts API
   slug: light-v1-bank-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-bank-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-bank-accounts-api-openapi.yml
 - filename: light-v1-card-balance-accounts-api-openapi.yml
   format: yaml
   label: Light v1 - Card Balance Accounts API
   slug: light-v1-card-balance-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-card-balance-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-card-balance-accounts-api-openapi.yml
 - filename: light-v1-card-customers-api-openapi.yml
   format: yaml
   label: Light v1 - Card Customers API
   slug: light-v1-card-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-card-customers-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-card-customers-api-openapi.yml
 - filename: light-v1-card-transactions-api-openapi.yml
   format: yaml
   label: Light v1 - Card Transactions API
   slug: light-v1-card-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-card-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-card-transactions-api-openapi.yml
 - filename: light-v1-cards-api-openapi.yml
   format: yaml
   label: Light v1 - Cards API
   slug: light-v1-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-cards-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-cards-api-openapi.yml
 - filename: light-v1-companies-api-openapi.yml
   format: yaml
   label: Light v1 - Companies API
   slug: light-v1-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-companies-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-companies-api-openapi.yml
 - filename: light-v1-contracts-api-openapi.yml
   format: yaml
   label: Light v1 - Contracts API
   slug: light-v1-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-contracts-api-openapi.yml
 - filename: light-v1-credit-notes-api-openapi.yml
   format: yaml
   label: Light v1 - Credit Notes API
   slug: light-v1-credit-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-credit-notes-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-credit-notes-api-openapi.yml
 - filename: light-v1-custom-properties-api-openapi.yml
   format: yaml
   label: Light v1 - Custom Properties API
   slug: light-v1-custom-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-custom-properties-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-custom-properties-api-openapi.yml
 - filename: light-v1-customer-credits-api-openapi.yml
   format: yaml
   label: Light v1 - Customer Credits API
   slug: light-v1-customer-credits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-customer-credits-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-customer-credits-api-openapi.yml
 - filename: light-v1-customers-api-openapi.yml
   format: yaml
   label: Light v1 - Customers API
   slug: light-v1-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-customers-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-customers-api-openapi.yml
 - filename: light-v1-entities-api-openapi.yml
   format: yaml
   label: Light v1 - Entities API
   slug: light-v1-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-entities-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-entities-api-openapi.yml
 - filename: light-v1-exchange-api-openapi.yml
   format: yaml
   label: Light v1 - Exchange API
   slug: light-v1-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-exchange-api-openapi.yml
 - filename: light-v1-expenses-api-openapi.yml
   format: yaml
   label: Light v1 - Expenses API
   slug: light-v1-expenses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-expenses-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-expenses-api-openapi.yml
 - filename: light-v1-invoice-approvals-api-openapi.yml
   format: yaml
   label: Light v1 - Invoice Approvals API
   slug: light-v1-invoice-approvals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-invoice-approvals-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-invoice-approvals-api-openapi.yml
 - filename: light-v1-invoice-payables-api-openapi.yml
   format: yaml
   label: Light v1 - Invoice Payables API
   slug: light-v1-invoice-payables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-invoice-payables-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-invoice-payables-api-openapi.yml
 - filename: light-v1-invoice-receivables-api-openapi.yml
   format: yaml
   label: Light v1 - Invoice Receivables API
   slug: light-v1-invoice-receivables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-invoice-receivables-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-invoice-receivables-api-openapi.yml
 - filename: light-v1-journal-entries-api-openapi.yml
   format: yaml
   label: Light v1 - Journal Entries API
   slug: light-v1-journal-entries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-journal-entries-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-journal-entries-api-openapi.yml
 - filename: light-v1-ledger-accounts-api-openapi.yml
   format: yaml
   label: Light v1 - Ledger accounts API
   slug: light-v1-ledger-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-ledger-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-ledger-accounts-api-openapi.yml
 - filename: light-v1-ledger-transactions-api-openapi.yml
   format: yaml
   label: Light v1 - Ledger Transactions API
   slug: light-v1-ledger-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-ledger-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-ledger-transactions-api-openapi.yml
 - filename: light-v1-products-api-openapi.yml
   format: yaml
   label: Light v1 - Products API
   slug: light-v1-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-products-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-products-api-openapi.yml
 - filename: light-v1-purchase-orders-api-openapi.yml
   format: yaml
   label: Light v1 - Purchase Orders API
   slug: light-v1-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-purchase-orders-api-openapi.yml
 - filename: light-v1-user-comments-api-openapi.yml
   format: yaml
   label: Light v1 - User Comments API
   slug: light-v1-user-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-user-comments-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-user-comments-api-openapi.yml
 - filename: light-v1-users-api-openapi.yml
   format: yaml
   label: Light v1 - Users API
   slug: light-v1-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-users-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-users-api-openapi.yml
 - filename: light-v1-vendors-api-openapi.yml
   format: yaml
   label: Light v1 - Vendors API
   slug: light-v1-vendors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/openapi/light-v1-vendors-api-openapi.yml
+  url: https://artifacts.apis.io/light/openapi/light-v1-vendors-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -253,7 +253,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://docs.li
   \ > API Keys and click Create Key. The generated key is\n    shown once and must be stored securely.\n  authorization_model: >-\n    API keys are linked to roles the same way user accounts are; the roles assigned to the key\n    determine what actions it can perform.\n  sources:\n  - openapi/light-openapi-original.json\n  - https://docs.light.inc/getting-started/authentication\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  example: 'Authorization: Bearer [example key]'\n  description: OAuth 2.0 access token presented as a bearer JWT.\n  sources:\n  - openapi/light-openapi-original.json\n  - https://docs.light.inc/getting-started/authentication\n- name: oauth2\n  type: oauth2\n  documented_only: true\n  enablement: >-\n    Contact Light support at help@light.inc to set up your account for the OAuth 2.0 flow.\n    You receive a client_id and client_secret and register a redirect URI.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.light.inc/oauth/authorize\n\
   \    tokenUrl: https://api.light.inc/oauth/token\n    refreshUrl: https://api.light.inc/oauth/token\n    parameters:\n    - client_id\n    - redirect_uri\n    - state\n    token_request_content_type: application/x-www-form-urlencoded\n    grant_types:\n    - authorization_code\n    - refresh_token\n    scopes: {}\n    scopes_documented: false\n  token_response_fields:\n  - access_token\n  - refresh_token\n  - expires_in\n  refresh_token_rotation: true\n  refresh_token_notes: >-\n    The refresh response returns a NEW access_token, refresh_token and expires_in. The old\n    refresh token is invalidated after use, so stored refresh tokens must be updated.\n  operations:\n  - startOAuthAuthorizationFlow\n  - getOAuthToken\n  identity_provider:\n    vendor: Auth0\n    evidence: >-\n      A live GET to https://api.light.inc/oauth/authorize?client_id=...&redirect_uri=... returns\n      an authorization page whose stylesheets load from cdn.auth0.com, indicating the OAuth\n      authorization\
   \ surface is backed by Auth0.\n    probed: '2026-07-19'\n  parameter_naming_note: >-\n    Calling /oauth/authorize with no parameters returns\n    {\"type\":\"MISSING_PARAMETER\",\"message\":\"Missing parameter 'redirectUri'\"} — camelCase — but\n    the documented snake_case redirect_uri is what the endpoint actually accepts (it renders the\n    authorization page). The error message wording does not match the accepted parameter name.\n  sources:\n  - https://docs.light.inc/getting-started/authentication\n\nclient_requirements:\n- Follow HTTP redirects AND forward the Authorization header, as some endpoints redirect to other URLs.\n- Send all requests over HTTPS.\n\nscopes:\n  published: false\n  notes: >-\n    Light documents no OAuth scope surface — access is governed by the roles attached to the\n    API key or user account, not by per-token scopes. No scopes/ artifact is emitted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/light/refs/heads/main/authentication/light-authentication.yml
+source_yaml_url: https://artifacts.apis.io/light/authentication/light-authentication.yml
 summary_line: apiKey/http/oauth2 · 3 schemes
 tags:
 - Accounting

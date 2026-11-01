@@ -7,25 +7,25 @@ api_specs:
   label: osmAPI Messages API
   slug: osmapi-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-messages-api-openapi.yml
+  url: https://artifacts.apis.io/osmapi/openapi/osmapi-messages-api-openapi.yml
 - filename: osmapi-models-api-openapi.yml
   format: yaml
   label: osmAPI Models API
   slug: osmapi-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-models-api-openapi.yml
+  url: https://artifacts.apis.io/osmapi/openapi/osmapi-models-api-openapi.yml
 - filename: osmapi-osmapi-health-api-api-openapi.yml
   format: yaml
   label: osmAPI Health API
   slug: osmapi-osmapi-health-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-osmapi-health-api-api-openapi.yml
+  url: https://artifacts.apis.io/osmapi/openapi/osmapi-osmapi-health-api-api-openapi.yml
 - filename: osmapi-chat-completions-api-openapi.yml
   format: yaml
   label: osmAPI Chat Completions API
   slug: osmapi-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/openapi/osmapi-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/osmapi/openapi/osmapi-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -53,7 +53,7 @@ source_filename: osmapi-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/osmapi-anthropic-messages-openapi.yml, openapi/osmapi-chat-completions-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token using osmAPI key (osmint_XXXXXXXXXXXXXXXX)\n  sources:\n  - openapi/osmapi-anthropic-messages-openapi.yml\n  - openapi/osmapi-chat-completions-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/osmapi/refs/heads/main/authentication/osmapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/osmapi/authentication/osmapi-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

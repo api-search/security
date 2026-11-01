@@ -39,7 +39,7 @@ source_filename: worksome-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.worksome.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 16:12:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.worksome.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 17:20:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.worksome.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 04:18:27 2026 GMT\n  hsts: null\ndomains:\n- domain: worksome.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/worksome/refs/heads/main/security/worksome-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/worksome/security/worksome-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

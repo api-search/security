@@ -5,13 +5,13 @@ api_specs:
   label: Commure Auth API
   slug: commure-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-auth-api-openapi.yml
+  url: https://artifacts.apis.io/commure/openapi/commure-auth-api-openapi.yml
 - filename: commure-fhir-api-openapi.yml
   format: yaml
   label: Commure FHIR API
   slug: commure-fhir-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/openapi/commure-fhir-api-openapi.yml
+  url: https://artifacts.apis.io/commure/openapi/commure-fhir-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-31'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.commure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 04:57:30 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.postman.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 14 09:01:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: commure.com\n  dnssec: true\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 iodef \"mailto:ops+caa@commure.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: postman.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"\
   pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commure/refs/heads/main/security/commure-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/commure/security/commure-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Healthcare

@@ -5,55 +5,55 @@ api_specs:
   label: Activepieces Connections API
   slug: activepieces-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-connections-api-openapi.yml
+  url: https://artifacts.apis.io/activepieces/openapi/activepieces-connections-api-openapi.yml
 - filename: activepieces-flow-runs-api-openapi.yml
   format: yaml
   label: Activepieces Flow Runs API
   slug: activepieces-flow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-flow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/activepieces/openapi/activepieces-flow-runs-api-openapi.yml
 - filename: activepieces-flows-api-openapi.yml
   format: yaml
   label: Activepieces Flows API
   slug: activepieces-flows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-flows-api-openapi.yml
+  url: https://artifacts.apis.io/activepieces/openapi/activepieces-flows-api-openapi.yml
 - filename: activepieces-folders-api-openapi.yml
   format: yaml
   label: Activepieces Folders API
   slug: activepieces-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-folders-api-openapi.yml
+  url: https://artifacts.apis.io/activepieces/openapi/activepieces-folders-api-openapi.yml
 - filename: activepieces-pieces-api-openapi.yml
   format: yaml
   label: Activepieces Pieces API
   slug: activepieces-pieces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-pieces-api-openapi.yml
+  url: https://artifacts.apis.io/activepieces/openapi/activepieces-pieces-api-openapi.yml
 - filename: activepieces-projects-api-openapi.yml
   format: yaml
   label: Activepieces Projects API
   slug: activepieces-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-projects-api-openapi.yml
+  url: https://artifacts.apis.io/activepieces/openapi/activepieces-projects-api-openapi.yml
 - filename: activepieces-templates-api-openapi.yml
   format: yaml
   label: Activepieces Templates API
   slug: activepieces-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-templates-api-openapi.yml
+  url: https://artifacts.apis.io/activepieces/openapi/activepieces-templates-api-openapi.yml
 - filename: activepieces-users-api-openapi.yml
   format: yaml
   label: Activepieces Users API
   slug: activepieces-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-users-api-openapi.yml
+  url: https://artifacts.apis.io/activepieces/openapi/activepieces-users-api-openapi.yml
 - filename: activepieces-worker-machines-api-openapi.yml
   format: yaml
   label: Activepieces Worker Machines API
   slug: activepieces-worker-machines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/openapi/activepieces-worker-machines-api-openapi.yml
+  url: https://artifacts.apis.io/activepieces/openapi/activepieces-worker-machines-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: activepieces-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.activepieces.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 09:42:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cloud.activepieces.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 12 15:15:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: activepieces.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/security/activepieces-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/activepieces/security/activepieces-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Automation

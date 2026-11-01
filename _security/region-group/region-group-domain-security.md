@@ -26,7 +26,7 @@ source_filename: region-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: regiongroup.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 01:45:05 2027 GMT\n  hsts: false\ndomains:\n- domain: regiongroup.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/region-group/refs/heads/main/security/region-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/region-group/security/region-group-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

@@ -8,31 +8,31 @@ api_specs:
   label: Songstats Artists API
   slug: songstats-artists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-artists-api-openapi.yml
+  url: https://artifacts.apis.io/songstats/openapi/songstats-artists-api-openapi.yml
 - filename: songstats-collaborators-api-openapi.yml
   format: yaml
   label: Songstats Collaborators API
   slug: songstats-collaborators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-collaborators-api-openapi.yml
+  url: https://artifacts.apis.io/songstats/openapi/songstats-collaborators-api-openapi.yml
 - filename: songstats-info-api-openapi.yml
   format: yaml
   label: Songstats Info API
   slug: songstats-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-info-api-openapi.yml
+  url: https://artifacts.apis.io/songstats/openapi/songstats-info-api-openapi.yml
 - filename: songstats-labels-api-openapi.yml
   format: yaml
   label: Songstats Labels API
   slug: songstats-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-labels-api-openapi.yml
+  url: https://artifacts.apis.io/songstats/openapi/songstats-labels-api-openapi.yml
 - filename: songstats-tracks-api-openapi.yml
   format: yaml
   label: Songstats Tracks API
   slug: songstats-tracks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/openapi/songstats-tracks-api-openapi.yml
+  url: https://artifacts.apis.io/songstats/openapi/songstats-tracks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: songstats-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/songstats-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: apikey\n  description: API key from the Songstats Enterprise dashboard. Contact api@songstats.com for\n    access.\n  sources:\n  - openapi/songstats-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/songstats/refs/heads/main/authentication/songstats-authentication.yml
+source_yaml_url: https://artifacts.apis.io/songstats/authentication/songstats-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Analytics

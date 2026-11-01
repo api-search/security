@@ -5,43 +5,43 @@ api_specs:
   label: CargoDocs Common API
   slug: cargodocs-common-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-common-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-common-api-openapi.yml
 - filename: cargodocs-documents-api-openapi.yml
   format: yaml
   label: CargoDocs Documents API
   slug: cargodocs-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-documents-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-documents-api-openapi.yml
 - filename: cargodocs-exchange-api-openapi.yml
   format: yaml
   label: CargoDocs Exchange API
   slug: cargodocs-exchange-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-exchange-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-exchange-api-openapi.yml
 - filename: cargodocs-import-api-openapi.yml
   format: yaml
   label: CargoDocs Import API
   slug: cargodocs-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-import-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-import-api-openapi.yml
 - filename: cargodocs-issuance-api-openapi.yml
   format: yaml
   label: CargoDocs Issuance API
   slug: cargodocs-issuance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-issuance-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-issuance-api-openapi.yml
 - filename: cargodocs-surrender-api-openapi.yml
   format: yaml
   label: CargoDocs Surrender API
   slug: cargodocs-surrender-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-surrender-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-surrender-api-openapi.yml
 - filename: cargodocs-transactions-api-openapi.yml
   format: yaml
   label: CargoDocs Transactions API
   slug: cargodocs-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/openapi/cargodocs-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/cargodocs/openapi/cargodocs-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -84,7 +84,7 @@ source_filename: cargodocs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.essdocs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 23:59:59 2027 GMT\n  hsts: null\n- host: cargodocs-partner.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.essdocs.com\n  https: false\ndomains:\n- domain: essdocs.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cargodocs/refs/heads/main/security/cargodocs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cargodocs/security/cargodocs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bills of Lading

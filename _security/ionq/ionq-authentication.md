@@ -8,37 +8,25 @@ api_specs:
   label: IonQ Backends API
   slug: ionq-backends-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-backends-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-backends-api-openapi.yml
 - filename: ionq-characterizations-api-openapi.yml
   format: yaml
   label: IonQ Characterizations API
   slug: ionq-characterizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-characterizations-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-characterizations-api-openapi.yml
 - filename: ionq-jobs-api-openapi.yml
   format: yaml
   label: IonQ Jobs API
   slug: ionq-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-jobs-api-openapi.yml
-- filename: ionq-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-jobs-api-openapi.yml
+- filename: ionq-calibrations-api-openapi.yml
   format: yaml
-  label: IonQ Sessions API
-  slug: ionq-sessions-api
+  label: IonQ Calibrations API
+  slug: ionq-calibrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-sessions-api-openapi.yml
-- filename: ionq-usage-api-openapi.yml
-  format: yaml
-  label: IonQ Usage API
-  slug: ionq-usage-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-usage-api-openapi.yml
-- filename: ionq-whoami-api-openapi.yml
-  format: yaml
-  label: IonQ Whoami API
-  slug: ionq-whoami-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/openapi/ionq-whoami-api-openapi.yml
+  url: https://artifacts.apis.io/ionq/openapi/ionq-calibrations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +54,7 @@ source_filename: ionq-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ionq-quantum-cloud-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'API keys are associated with a user and can be created on the [IonQ Quantum\n    Cloud](https://cloud.ionq.com) application. To authenticate, prefix your API Key with `apiKey\n    ` and place it in the `Authorization` request header. Ex: `Authorization: apiKey your-api-key`'\n  sources:\n  - openapi/ionq-quantum-cloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ionq/refs/heads/main/authentication/ionq-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ionq/authentication/ionq-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Quantum Computing

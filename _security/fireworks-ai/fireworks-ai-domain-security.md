@@ -5,31 +5,31 @@ api_specs:
   label: Fireworks AI anthropic-messages.openapi_other API
   slug: fireworks-ai-anthropic-messages-openapi-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-anthropic-messages-openapi-other-api-openapi.yml
+  url: https://artifacts.apis.io/fireworks-ai/openapi/fireworks-ai-anthropic-messages-openapi-other-api-openapi.yml
 - filename: fireworks-ai-gateway-extra-openapi-gateway-api-openapi.yml
   format: yaml
   label: Fireworks AI gateway-extra.openapi_Gateway API
   slug: fireworks-ai-gateway-extra-openapi-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-extra-openapi-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/fireworks-ai/openapi/fireworks-ai-gateway-extra-openapi-gateway-api-openapi.yml
 - filename: fireworks-ai-gateway-openapi-gateway-api-openapi.yml
   format: yaml
   label: Fireworks AI Gateway.openapi Gateway API
   slug: fireworks-ai-gateway-openapi-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-gateway-openapi-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/fireworks-ai/openapi/fireworks-ai-gateway-openapi-gateway-api-openapi.yml
 - filename: fireworks-ai-responses-openapi-other-api-openapi.yml
   format: yaml
   label: Fireworks AI Responses.openapi Other API
   slug: fireworks-ai-responses-openapi-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-responses-openapi-other-api-openapi.yml
+  url: https://artifacts.apis.io/fireworks-ai/openapi/fireworks-ai-responses-openapi-other-api-openapi.yml
 - filename: fireworks-ai-text-completion-openapi-other-api-openapi.yml
   format: yaml
   label: Fireworks AI Text Completion.openapi Other API
   slug: fireworks-ai-text-completion-openapi-other-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/openapi/fireworks-ai-text-completion-openapi-other-api-openapi.yml
+  url: https://artifacts.apis.io/fireworks-ai/openapi/fireworks-ai-text-completion-openapi-other-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -70,7 +70,7 @@ source_filename: fireworks-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fireworks.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 22:27:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.fireworks.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 15:49:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.fireworks.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 01:51:07 2026 GMT\n  hsts: null\ndomains:\n- domain: fireworks.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fireworks-ai/refs/heads/main/security/fireworks-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fireworks-ai/security/fireworks-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

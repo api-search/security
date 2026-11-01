@@ -8,7 +8,19 @@ api_specs:
   label: Amazon Global Accelerator AWS Global Accelerator API
   slug: amazon-global-accelerator-aws-global-accelerator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/openapi/amazon-global-accelerator-aws-global-accelerator-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-global-accelerator/openapi/amazon-global-accelerator-aws-global-accelerator-api-openapi.yml
+- filename: amazon-global-accelerator-cross-account-attachment-api-openapi.yml
+  format: yaml
+  label: Amazon Global Accelerator Global Accelerator Cross Account Attachment API
+  slug: amazon-global-accelerator-cross-account-attachment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-global-accelerator/openapi/amazon-global-accelerator-cross-account-attachment-api-openapi.yml
+- filename: amazon-global-accelerator-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Global Accelerator Global Accelerator Operations API
+  slug: amazon-global-accelerator-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-global-accelerator/openapi/amazon-global-accelerator-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +48,7 @@ source_filename: amazon-global-accelerator-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-global-accelerator-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-global-accelerator-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-global-accelerator/refs/heads/main/authentication/amazon-global-accelerator-authentication.yml
+source_yaml_url: https://artifacts.apis.io/amazon-global-accelerator/authentication/amazon-global-accelerator-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Availability

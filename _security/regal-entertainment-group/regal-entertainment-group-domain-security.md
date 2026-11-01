@@ -5,31 +5,31 @@ api_specs:
   label: regal-entertainment-group Loyalty API
   slug: regal-entertainment-group-loyalty-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-loyalty-api-openapi.yml
+  url: https://artifacts.apis.io/regal-entertainment-group/openapi/regal-entertainment-group-loyalty-api-openapi.yml
 - filename: regal-entertainment-group-movies-api-openapi.yml
   format: yaml
   label: regal-entertainment-group Movies API
   slug: regal-entertainment-group-movies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-movies-api-openapi.yml
+  url: https://artifacts.apis.io/regal-entertainment-group/openapi/regal-entertainment-group-movies-api-openapi.yml
 - filename: regal-entertainment-group-showtimes-api-openapi.yml
   format: yaml
   label: regal-entertainment-group Showtimes API
   slug: regal-entertainment-group-showtimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-showtimes-api-openapi.yml
+  url: https://artifacts.apis.io/regal-entertainment-group/openapi/regal-entertainment-group-showtimes-api-openapi.yml
 - filename: regal-entertainment-group-theatres-api-openapi.yml
   format: yaml
   label: regal-entertainment-group Theatres API
   slug: regal-entertainment-group-theatres-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-theatres-api-openapi.yml
+  url: https://artifacts.apis.io/regal-entertainment-group/openapi/regal-entertainment-group-theatres-api-openapi.yml
 - filename: regal-entertainment-group-tickets-api-openapi.yml
   format: yaml
   label: regal-entertainment-group Tickets API
   slug: regal-entertainment-group-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/openapi/regal-entertainment-group-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/regal-entertainment-group/openapi/regal-entertainment-group-tickets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: regal-entertainment-group-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.regmovies.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 19:56:51 2026 GMT\n  hsts: null\n- host: developer.regmovies.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 14 19:56:51 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: api.regmovies.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 17 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: regmovies.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/regal-entertainment-group/refs/heads/main/security/regal-entertainment-group-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/regal-entertainment-group/security/regal-entertainment-group-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cinema

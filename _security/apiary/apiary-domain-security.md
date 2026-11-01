@@ -5,25 +5,25 @@ api_specs:
   label: Apiary API List API
   slug: apiary-api-list-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/openapi/apiary-api-list-api-openapi.yml
+  url: https://artifacts.apis.io/apiary/openapi/apiary-api-list-api-openapi.yml
 - filename: apiary-authentication-api-openapi.yml
   format: yaml
   label: Apiary Authentication API
   slug: apiary-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/openapi/apiary-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/apiary/openapi/apiary-authentication-api-openapi.yml
 - filename: apiary-blueprint-api-openapi.yml
   format: yaml
   label: Apiary Blueprint API
   slug: apiary-blueprint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/openapi/apiary-blueprint-api-openapi.yml
+  url: https://artifacts.apis.io/apiary/openapi/apiary-blueprint-api-openapi.yml
 - filename: apiary-user-information-api-openapi.yml
   format: yaml
   label: Apiary User Information API
   slug: apiary-user-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/openapi/apiary-user-information-api-openapi.yml
+  url: https://artifacts.apis.io/apiary/openapi/apiary-user-information-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +69,7 @@ source_filename: apiary-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 604800\n- host: apiblueprint.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 25 15:56:18 2026 GMT\n  hsts: false\n- host: api.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: apiblueprint.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiary/refs/heads/main/security/apiary-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apiary/security/apiary-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Blueprint

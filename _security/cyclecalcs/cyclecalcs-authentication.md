@@ -8,175 +8,175 @@ api_specs:
   label: CycleCalcs Apsides API
   slug: cyclecalcs-apsides-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-apsides-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-apsides-api-openapi.yml
 - filename: cyclecalcs-attribution-api-openapi.yml
   format: yaml
   label: CycleCalcs Attribution API
   slug: cyclecalcs-attribution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-attribution-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-attribution-api-openapi.yml
 - filename: cyclecalcs-conjunctions-api-openapi.yml
   format: yaml
   label: CycleCalcs Conjunctions API
   slug: cyclecalcs-conjunctions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-conjunctions-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-conjunctions-api-openapi.yml
 - filename: cyclecalcs-conventions-api-openapi.yml
   format: yaml
   label: CycleCalcs Conventions API
   slug: cyclecalcs-conventions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-conventions-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-conventions-api-openapi.yml
 - filename: cyclecalcs-cyclecalcs-astronomy-api-api-openapi.yml
   format: yaml
   label: CycleCalcs Astronomy API
   slug: cyclecalcs-cyclecalcs-astronomy-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-cyclecalcs-astronomy-api-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-cyclecalcs-astronomy-api-api-openapi.yml
 - filename: cyclecalcs-cycles-api-openapi.yml
   format: yaml
   label: CycleCalcs Cycles API
   slug: cyclecalcs-cycles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-cycles-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-cycles-api-openapi.yml
 - filename: cyclecalcs-dark-window-api-openapi.yml
   format: yaml
   label: CycleCalcs Dark Window API
   slug: cyclecalcs-dark-window-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-dark-window-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-dark-window-api-openapi.yml
 - filename: cyclecalcs-eclipses-api-openapi.yml
   format: yaml
   label: CycleCalcs Eclipses API
   slug: cyclecalcs-eclipses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-eclipses-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-eclipses-api-openapi.yml
 - filename: cyclecalcs-enums-api-openapi.yml
   format: yaml
   label: CycleCalcs Enums API
   slug: cyclecalcs-enums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-enums-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-enums-api-openapi.yml
 - filename: cyclecalcs-equation-of-time-api-openapi.yml
   format: yaml
   label: CycleCalcs Equation Of Time API
   slug: cyclecalcs-equation-of-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-equation-of-time-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-equation-of-time-api-openapi.yml
 - filename: cyclecalcs-jupiter-moons-api-openapi.yml
   format: yaml
   label: CycleCalcs Jupiter Moons API
   slug: cyclecalcs-jupiter-moons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-jupiter-moons-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-jupiter-moons-api-openapi.yml
 - filename: cyclecalcs-libration-api-openapi.yml
   format: yaml
   label: CycleCalcs Libration API
   slug: cyclecalcs-libration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-libration-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-libration-api-openapi.yml
 - filename: cyclecalcs-moon-api-openapi.yml
   format: yaml
   label: CycleCalcs Moon API
   slug: cyclecalcs-moon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-moon-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-moon-api-openapi.yml
 - filename: cyclecalcs-moon-nodes-api-openapi.yml
   format: yaml
   label: CycleCalcs Moon Nodes API
   slug: cyclecalcs-moon-nodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-moon-nodes-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-moon-nodes-api-openapi.yml
 - filename: cyclecalcs-phases-api-openapi.yml
   format: yaml
   label: CycleCalcs Phases API
   slug: cyclecalcs-phases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-phases-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-phases-api-openapi.yml
 - filename: cyclecalcs-places-api-openapi.yml
   format: yaml
   label: CycleCalcs Places API
   slug: cyclecalcs-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-places-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-places-api-openapi.yml
 - filename: cyclecalcs-planet-board-api-openapi.yml
   format: yaml
   label: CycleCalcs Planet Board API
   slug: cyclecalcs-planet-board-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-planet-board-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-planet-board-api-openapi.yml
 - filename: cyclecalcs-planet-events-api-openapi.yml
   format: yaml
   label: CycleCalcs Planet Events API
   slug: cyclecalcs-planet-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-planet-events-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-planet-events-api-openapi.yml
 - filename: cyclecalcs-positions-api-openapi.yml
   format: yaml
   label: CycleCalcs Positions API
   slug: cyclecalcs-positions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-positions-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-positions-api-openapi.yml
 - filename: cyclecalcs-retrogrades-api-openapi.yml
   format: yaml
   label: CycleCalcs Retrogrades API
   slug: cyclecalcs-retrogrades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-retrogrades-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-retrogrades-api-openapi.yml
 - filename: cyclecalcs-rise-set-api-openapi.yml
   format: yaml
   label: CycleCalcs Rise Set API
   slug: cyclecalcs-rise-set-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-rise-set-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-rise-set-api-openapi.yml
 - filename: cyclecalcs-seasons-api-openapi.yml
   format: yaml
   label: CycleCalcs Seasons API
   slug: cyclecalcs-seasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-seasons-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-seasons-api-openapi.yml
 - filename: cyclecalcs-separation-api-openapi.yml
   format: yaml
   label: CycleCalcs Separation API
   slug: cyclecalcs-separation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-separation-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-separation-api-openapi.yml
 - filename: cyclecalcs-sidereal-time-api-openapi.yml
   format: yaml
   label: CycleCalcs Sidereal Time API
   slug: cyclecalcs-sidereal-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-sidereal-time-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-sidereal-time-api-openapi.yml
 - filename: cyclecalcs-sky-quality-api-openapi.yml
   format: yaml
   label: CycleCalcs Sky Quality API
   slug: cyclecalcs-sky-quality-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-sky-quality-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-sky-quality-api-openapi.yml
 - filename: cyclecalcs-sun-api-openapi.yml
   format: yaml
   label: CycleCalcs Sun API
   slug: cyclecalcs-sun-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-sun-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-sun-api-openapi.yml
 - filename: cyclecalcs-time-api-openapi.yml
   format: yaml
   label: CycleCalcs Time API
   slug: cyclecalcs-time-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-time-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-time-api-openapi.yml
 - filename: cyclecalcs-today-api-openapi.yml
   format: yaml
   label: CycleCalcs Today API
   slug: cyclecalcs-today-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-today-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-today-api-openapi.yml
 - filename: cyclecalcs-twilight-api-openapi.yml
   format: yaml
   label: CycleCalcs Twilight API
   slug: cyclecalcs-twilight-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/openapi/cyclecalcs-twilight-api-openapi.yml
+  url: https://artifacts.apis.io/cyclecalcs/openapi/cyclecalcs-twilight-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -232,7 +232,7 @@ source_yaml: "generated: '2026-08-09'\nmethod: searched\nsource: openapi/cycleca
   \ gateway with that key, so it meters\n    exactly as a direct REST call would.\n  sources:\n  - https://www.cyclecalcs.com/api/mcp.html\n- name: MCPApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  surface: https://www.cyclecalcs.com/mcp\n  description: >-\n    Equally supported alternative to the Bearer header, sent as a raw value\n    with no prefix. It exists because some directories and gateways reserve\n    Authorization for their own sign-in and can only forward a differently\n    named header.\n  sources:\n  - https://www.cyclecalcs.com/api/mcp.html\nanonymous_surfaces:\n  - surface: https://www.cyclecalcs.com/v2 (all 29 operations)\n    note: fully anonymous, free Basic tier\n  - surface: https://www.cyclecalcs.com/mcp — initialize + tools/list\n    note: >-\n      Browsing the MCP server needs no key. A client, inspector or directory\n      can read all eleven tool schemas before anyone has signed up.\n  - surface: https://www.cyclecalcs.com/mcp — tools/call\n\
   \    note: >-\n      Requires a key. A call without one is refused as a normal tool result\n      carrying instructions, not an HTTP 401 that would drop the connection.\ncredential_hygiene:\n  key_in_url: never accepted\n  ignored_parameter: >-\n    A `key=` query parameter is recognised and deliberately IGNORED — the\n    request is served at the tier of its entrance and earns a\n    `parameter_ignored` warning naming exactly that. \"A credential never\n    belongs in a URL: URLs are logged, cached and shared in ways headers are\n    not.\"\n  reserved_error_codes: [INVALID_KEY, REVOKED_KEY, EXPIRED_KEY]\n  reserved_note: >-\n    Reserved in the error registry for a direct key channel if one ever ships,\n    so shipping it would change nothing else about how errors are structured.\n    None is reachable today.\nwhat_a_subscription_buys:\n  - a higher rate limit in the same windows\n  - a higher per-request range ceiling\n  - \"nothing else: no extra endpoint, no different data, no different\
   \ answer\"\ntier_reporting:\n  field: caller_tier\n  where: /v2/conventions\n  note: The tier a request was actually served at is always checkable.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cyclecalcs/refs/heads/main/authentication/cyclecalcs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cyclecalcs/authentication/cyclecalcs-authentication.yml
 summary_line: none/apiKey · 4 schemes
 tags:
 - Astronomy

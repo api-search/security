@@ -5,25 +5,25 @@ api_specs:
   label: DBnomics Datasets API
   slug: dbnomics-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/dbnomics/openapi/dbnomics-datasets-api-openapi.yml
 - filename: dbnomics-providers-api-openapi.yml
   format: yaml
   label: DBnomics Providers API
   slug: dbnomics-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-providers-api-openapi.yml
+  url: https://artifacts.apis.io/dbnomics/openapi/dbnomics-providers-api-openapi.yml
 - filename: dbnomics-search-api-openapi.yml
   format: yaml
   label: DBnomics Search API
   slug: dbnomics-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-search-api-openapi.yml
+  url: https://artifacts.apis.io/dbnomics/openapi/dbnomics-search-api-openapi.yml
 - filename: dbnomics-series-api-openapi.yml
   format: yaml
   label: DBnomics Series API
   slug: dbnomics-series-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/openapi/dbnomics-series-api-openapi.yml
+  url: https://artifacts.apis.io/dbnomics/openapi/dbnomics-series-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: dbnomics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: db.nomics.world\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 14:31:31 2026 GMT\n  hsts: false\n- host: api.db.nomics.world\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 04:00:17 2026 GMT\n  hsts: null\ndomains:\n- domain: nomics.world\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/security/dbnomics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dbnomics/security/dbnomics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Economic Indicators

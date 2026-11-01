@@ -7,37 +7,37 @@ api_specs:
   label: manhattan-associates Inbound API
   slug: manhattan-associates-inbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-inbound-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-inbound-api-openapi.yml
 - filename: manhattan-associates-inventory-api-openapi.yml
   format: yaml
   label: manhattan-associates Inventory API
   slug: manhattan-associates-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-inventory-api-openapi.yml
 - filename: manhattan-associates-orders-api-openapi.yml
   format: yaml
   label: manhattan-associates Orders API
   slug: manhattan-associates-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-orders-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-orders-api-openapi.yml
 - filename: manhattan-associates-outbound-api-openapi.yml
   format: yaml
   label: manhattan-associates Outbound API
   slug: manhattan-associates-outbound-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-outbound-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-outbound-api-openapi.yml
 - filename: manhattan-associates-promising-api-openapi.yml
   format: yaml
   label: manhattan-associates Promising API
   slug: manhattan-associates-promising-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-promising-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-promising-api-openapi.yml
 - filename: manhattan-associates-returns-api-openapi.yml
   format: yaml
   label: manhattan-associates Returns API
   slug: manhattan-associates-returns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/openapi/manhattan-associates-returns-api-openapi.yml
+  url: https://artifacts.apis.io/manhattan-associates/openapi/manhattan-associates-returns-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -68,7 +68,7 @@ source_filename: manhattan-associates-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/manhattan-associates-omni-openapi.yml, openapi/manhattan-associates-wms-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2ClientCredentials\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://auth.developer.manh.com/oauth2/token\n    scopes: 3\n  sources:\n  - openapi/manhattan-associates-omni-openapi.yml\n  - openapi/manhattan-associates-wms-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/manhattan-associates/refs/heads/main/authentication/manhattan-associates-authentication.yml
+source_yaml_url: https://artifacts.apis.io/manhattan-associates/authentication/manhattan-associates-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Logistics

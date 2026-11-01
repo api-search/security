@@ -7,61 +7,61 @@ api_specs:
   label: The Bank of London Accounts API
   slug: the-bank-of-london-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/the-bank-of-london/openapi/the-bank-of-london-accounts-api-openapi.yml
 - filename: the-bank-of-london-confirmation-of-payee-api-openapi.yml
   format: yaml
   label: The Bank of London Confirmation of Payee API
   slug: the-bank-of-london-confirmation-of-payee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-confirmation-of-payee-api-openapi.yml
+  url: https://artifacts.apis.io/the-bank-of-london/openapi/the-bank-of-london-confirmation-of-payee-api-openapi.yml
 - filename: the-bank-of-london-customer-management-api-openapi.yml
   format: yaml
   label: The Bank of London Customer Management API
   slug: the-bank-of-london-customer-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-customer-management-api-openapi.yml
+  url: https://artifacts.apis.io/the-bank-of-london/openapi/the-bank-of-london-customer-management-api-openapi.yml
 - filename: the-bank-of-london-mandates-direct-debits-api-openapi.yml
   format: yaml
   label: The Bank of London Mandates (Direct Debits) API
   slug: the-bank-of-london-mandates-direct-debits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-mandates-direct-debits-api-openapi.yml
+  url: https://artifacts.apis.io/the-bank-of-london/openapi/the-bank-of-london-mandates-direct-debits-api-openapi.yml
 - filename: the-bank-of-london-payments-v2-api-openapi.yml
   format: yaml
   label: The Bank of London Payments V2 API
   slug: the-bank-of-london-payments-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-payments-v2-api-openapi.yml
+  url: https://artifacts.apis.io/the-bank-of-london/openapi/the-bank-of-london-payments-v2-api-openapi.yml
 - filename: the-bank-of-london-standing-orders-api-openapi.yml
   format: yaml
   label: The Bank of London Standing Orders API
   slug: the-bank-of-london-standing-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-standing-orders-api-openapi.yml
+  url: https://artifacts.apis.io/the-bank-of-london/openapi/the-bank-of-london-standing-orders-api-openapi.yml
 - filename: the-bank-of-london-statements-api-openapi.yml
   format: yaml
   label: The Bank of London Statements API
   slug: the-bank-of-london-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-statements-api-openapi.yml
+  url: https://artifacts.apis.io/the-bank-of-london/openapi/the-bank-of-london-statements-api-openapi.yml
 - filename: the-bank-of-london-transactions-api-openapi.yml
   format: yaml
   label: The Bank of London Transactions API
   slug: the-bank-of-london-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/the-bank-of-london/openapi/the-bank-of-london-transactions-api-openapi.yml
 - filename: the-bank-of-london-virtual-account-management-api-openapi.yml
   format: yaml
   label: The Bank of London Virtual Account Management API
   slug: the-bank-of-london-virtual-account-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-virtual-account-management-api-openapi.yml
+  url: https://artifacts.apis.io/the-bank-of-london/openapi/the-bank-of-london-virtual-account-management-api-openapi.yml
 - filename: the-bank-of-london-webhook-management-api-openapi.yml
   format: yaml
   label: The Bank of London Webhook Management API
   slug: the-bank-of-london-webhook-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/openapi/the-bank-of-london-webhook-management-api-openapi.yml
+  url: https://artifacts.apis.io/the-bank-of-london/openapi/the-bank-of-london-webhook-management-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -115,7 +115,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\nsource: >-\n  https://d
   \ which key was used to secure the JWS\n  jws_payload_claims:\n  - name: request-target\n    description: The request path per RFC 9110 HTTP Semantics, e.g. /v2/accounts\n  - name: method\n    description: HTTP verb; a mismatch against the actual request method is rejected\n  - name: content-type\n    description: Request content-type, e.g. application/json. Omitted when the request has no body.\n  - name: content-digest\n    description: SHA-256 hash of the request body with no whitespace or indentation before hashing\n  - name: nonce\n    description: >-\n      Random unique string per signature to prevent replay. The same nonce must not be reused within\n      a five-minute interval or the request is rejected.\n  - name: created\n    description: >-\n      Creation time as an integer UNIX timestamp. Only messages signed within the last 5 minutes are\n      accepted.\n  verification_steps:\n  - The request must be signed by the caller's private key.\n  - The signed request must not be\
   \ more than 5 minutes old.\n  - The nonce must be unique — the same request cannot be sent twice.\n  - The API Key must be active (not disabled or expired).\n  - The message signature must be valid over content, date and authentication of the request.\noauth2:\n  present_on_main_api: false\n  note: >-\n    No OAuth 2.0 or OpenID Connect flow exists on the Bank of London API v2. OAuth/OIDC applies only\n    to the separate PSD2 / Open Banking UK v3.1 TPP interface operated by Salt Edge Priora, where\n    TPPs perform dynamic client registration and PSU consent via OIDC. That interface is documented\n    at https://priora.saltedge.com/docs/open_banking/tbol/v3.1 and no scope reference is published by\n    either party, so no scopes/ artifact is emitted for this provider.\nportal_authentication:\n  mfa_required: true\n  note: >-\n    Mandatory two-factor authentication for all Developer Studio users, enforced strong password\n    policy, role-based team access with audit logs covering API\
   \ key creation/approval, invitations\n    and role changes.\nkey_handling_guidance:\n  source: https://developer.bankoflondon.com/docs/overviews/architecture-security-guide\n  recommendations:\n  - Store keys in an industry-recognised secrets vault (AWS Secrets Manager, HashiCorp Vault, GCP, Azure).\n  - Never place keys in plaintext, source code, logs or email.\n  - Do not let end users contact the API directly; proxy through a gateway in your own secure data centre.\ntransport:\n  tls_minimum: TLSv1.2\n  note: All Bank of London services are accessible only over SSL with non-downgradable TLS 1.2 or higher.\ndocs:\n- https://developer.bankoflondon.com/docs/overviews/authentication-message-signature-guide\n- https://developer.bankoflondon.com/docs/overviews/architecture-security-guide\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-bank-of-london/refs/heads/main/authentication/the-bank-of-london-authentication.yml
+source_yaml_url: https://artifacts.apis.io/the-bank-of-london/authentication/the-bank-of-london-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

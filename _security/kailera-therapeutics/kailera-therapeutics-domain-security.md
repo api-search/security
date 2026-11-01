@@ -27,7 +27,7 @@ source_filename: kailera-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kailera.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 03:12:09 2026 GMT\n  hsts: null\ndomains:\n- domain: kailera.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kailera-therapeutics/refs/heads/main/security/kailera-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kailera-therapeutics/security/kailera-therapeutics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

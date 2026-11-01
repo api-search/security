@@ -5,31 +5,31 @@ api_specs:
   label: Triple Whale API Keys API
   slug: triple-whale-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-api-keys-api-openapi.yml
 - filename: triple-whale-compliance-api-openapi.yml
   format: yaml
   label: Triple Whale Compliance API
   slug: triple-whale-compliance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-compliance-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-compliance-api-openapi.yml
 - filename: triple-whale-data-in-api-openapi.yml
   format: yaml
   label: Triple Whale Data In API
   slug: triple-whale-data-in-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-in-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-data-in-api-openapi.yml
 - filename: triple-whale-data-out-api-openapi.yml
   format: yaml
   label: Triple Whale Data Out API
   slug: triple-whale-data-out-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-data-out-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-data-out-api-openapi.yml
 - filename: triple-whale-bi-api-openapi.yml
   format: yaml
   label: Triple Whale Bi API
   slug: triple-whale-bi-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/openapi/triple-whale-bi-api-openapi.yml
+  url: https://artifacts.apis.io/triple-whale/openapi/triple-whale-bi-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -82,7 +82,7 @@ source_filename: triple-whale-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.triplewhale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 06:12:17 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: triplewhale.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.triplewhale.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 17:58:54 2026 GMT\n  hsts: null\ndomains:\n- domain: triplewhale.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/triple-whale/refs/heads/main/security/triple-whale-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/triple-whale/security/triple-whale-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce

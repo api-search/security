@@ -5,85 +5,85 @@ api_specs:
   label: TableCheck Availability API
   slug: tablecheck-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-availability-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-availability-api-openapi.yml
 - filename: tablecheck-blockages-api-openapi.yml
   format: yaml
   label: TableCheck Blockages API
   slug: tablecheck-blockages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-blockages-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-blockages-api-openapi.yml
 - filename: tablecheck-calendar-api-openapi.yml
   format: yaml
   label: TableCheck Calendar API
   slug: tablecheck-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-calendar-api-openapi.yml
 - filename: tablecheck-customers-api-openapi.yml
   format: yaml
   label: TableCheck Customers API
   slug: tablecheck-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-customers-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-customers-api-openapi.yml
 - filename: tablecheck-franchises-api-openapi.yml
   format: yaml
   label: TableCheck Franchises API
   slug: tablecheck-franchises-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-franchises-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-franchises-api-openapi.yml
 - filename: tablecheck-membership-programs-api-openapi.yml
   format: yaml
   label: TableCheck Membership Programs API
   slug: tablecheck-membership-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-membership-programs-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-membership-programs-api-openapi.yml
 - filename: tablecheck-memberships-api-openapi.yml
   format: yaml
   label: TableCheck Memberships API
   slug: tablecheck-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-memberships-api-openapi.yml
 - filename: tablecheck-pos-journals-api-openapi.yml
   format: yaml
   label: TableCheck Pos Journals API
   slug: tablecheck-pos-journals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-pos-journals-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-pos-journals-api-openapi.yml
 - filename: tablecheck-reservation-flags-api-openapi.yml
   format: yaml
   label: TableCheck Reservation Flags API
   slug: tablecheck-reservation-flags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-reservation-flags-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-reservation-flags-api-openapi.yml
 - filename: tablecheck-reservations-api-openapi.yml
   format: yaml
   label: TableCheck Reservations API
   slug: tablecheck-reservations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-reservations-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-reservations-api-openapi.yml
 - filename: tablecheck-shops-api-openapi.yml
   format: yaml
   label: TableCheck Shops API
   slug: tablecheck-shops-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-shops-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-shops-api-openapi.yml
 - filename: tablecheck-table-status-api-openapi.yml
   format: yaml
   label: TableCheck Table Status API
   slug: tablecheck-table-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-table-status-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-table-status-api-openapi.yml
 - filename: tablecheck-tables-api-openapi.yml
   format: yaml
   label: TableCheck Tables API
   slug: tablecheck-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-tables-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-tables-api-openapi.yml
 - filename: tablecheck-timetable-api-openapi.yml
   format: yaml
   label: TableCheck Timetable API
   slug: tablecheck-timetable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/openapi/tablecheck-timetable-api-openapi.yml
+  url: https://artifacts.apis.io/tablecheck/openapi/tablecheck-timetable-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -142,7 +142,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.tablecheck.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31449600\n- host: tablecheck.atlassian.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.tablecheck.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tablecheck.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"amazonaws.com\"\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: atlassian.net\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\
   \n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tablecheck/refs/heads/main/security/tablecheck-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tablecheck/security/tablecheck-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Restaurant

@@ -8,169 +8,169 @@ api_specs:
   label: Maven Machines Bulk Shipments API
   slug: maven-machines-bulk-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-bulk-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-bulk-shipments-api-openapi.yml
 - filename: maven-machines-company-locations-api-openapi.yml
   format: yaml
   label: Maven Machines Company Locations API
   slug: maven-machines-company-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-company-locations-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-company-locations-api-openapi.yml
 - filename: maven-machines-customers-api-openapi.yml
   format: yaml
   label: Maven Machines Customers API
   slug: maven-machines-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-customers-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-customers-api-openapi.yml
 - filename: maven-machines-eld-api-openapi.yml
   format: yaml
   label: Maven Machines Eld API
   slug: maven-machines-eld-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-eld-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-eld-api-openapi.yml
 - filename: maven-machines-events-api-openapi.yml
   format: yaml
   label: Maven Machines Events API
   slug: maven-machines-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-events-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-events-api-openapi.yml
 - filename: maven-machines-forms-api-openapi.yml
   format: yaml
   label: Maven Machines Forms API
   slug: maven-machines-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-forms-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-forms-api-openapi.yml
 - filename: maven-machines-health-api-openapi.yml
   format: yaml
   label: Maven Machines Health API
   slug: maven-machines-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-health-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-health-api-openapi.yml
 - filename: maven-machines-linehaul-api-openapi.yml
   format: yaml
   label: Maven Machines Linehaul API
   slug: maven-machines-linehaul-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-linehaul-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-linehaul-api-openapi.yml
 - filename: maven-machines-locations-api-openapi.yml
   format: yaml
   label: Maven Machines Locations API
   slug: maven-machines-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-locations-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-locations-api-openapi.yml
 - filename: maven-machines-manifestnumber-api-openapi.yml
   format: yaml
   label: Maven Machines Manifest Number API
   slug: maven-machines-manifestnumber-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-manifestnumber-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-manifestnumber-api-openapi.yml
 - filename: maven-machines-manifests-api-openapi.yml
   format: yaml
   label: Maven Machines Manifests API
   slug: maven-machines-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-manifests-api-openapi.yml
 - filename: maven-machines-marketapps-api-openapi.yml
   format: yaml
   label: Maven Machines Marketapps API
   slug: maven-machines-marketapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-marketapps-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-marketapps-api-openapi.yml
 - filename: maven-machines-messages-api-openapi.yml
   format: yaml
   label: Maven Machines Messages API
   slug: maven-machines-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-messages-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-messages-api-openapi.yml
 - filename: maven-machines-orders-api-openapi.yml
   format: yaml
   label: Maven Machines Orders API
   slug: maven-machines-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-orders-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-orders-api-openapi.yml
 - filename: maven-machines-pickuprequests-api-openapi.yml
   format: yaml
   label: Maven Machines Pickup Requests API
   slug: maven-machines-pickuprequests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-pickuprequests-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-pickuprequests-api-openapi.yml
 - filename: maven-machines-product-eligibility-api-openapi.yml
   format: yaml
   label: Maven Machines Product Eligibility API
   slug: maven-machines-product-eligibility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-product-eligibility-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-product-eligibility-api-openapi.yml
 - filename: maven-machines-reddy-ice-api-openapi.yml
   format: yaml
   label: Maven Machines Reddy Ice API
   slug: maven-machines-reddy-ice-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-reddy-ice-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-reddy-ice-api-openapi.yml
 - filename: maven-machines-reports-api-openapi.yml
   format: yaml
   label: Maven Machines Reports API
   slug: maven-machines-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-reports-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-reports-api-openapi.yml
 - filename: maven-machines-return-events-api-openapi.yml
   format: yaml
   label: Maven Machines Return Events API
   slug: maven-machines-return-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-return-events-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-return-events-api-openapi.yml
 - filename: maven-machines-servicetechs-api-openapi.yml
   format: yaml
   label: Maven Machines Servicetechs API
   slug: maven-machines-servicetechs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-servicetechs-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-servicetechs-api-openapi.yml
 - filename: maven-machines-shipment-api-openapi.yml
   format: yaml
   label: Maven Machines Shipment API
   slug: maven-machines-shipment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-shipment-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-shipment-api-openapi.yml
 - filename: maven-machines-shipment-locations-api-openapi.yml
   format: yaml
   label: Maven Machines Shipment Locations API
   slug: maven-machines-shipment-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-shipment-locations-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-shipment-locations-api-openapi.yml
 - filename: maven-machines-smart-api-openapi.yml
   format: yaml
   label: Maven Machines Smart API
   slug: maven-machines-smart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-smart-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-smart-api-openapi.yml
 - filename: maven-machines-trailers-api-openapi.yml
   format: yaml
   label: Maven Machines Trailers API
   slug: maven-machines-trailers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-trailers-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-trailers-api-openapi.yml
 - filename: maven-machines-truckload-api-openapi.yml
   format: yaml
   label: Maven Machines Truckload API
   slug: maven-machines-truckload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-truckload-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-truckload-api-openapi.yml
 - filename: maven-machines-users-api-openapi.yml
   format: yaml
   label: Maven Machines Users API
   slug: maven-machines-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-users-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-users-api-openapi.yml
 - filename: maven-machines-vehicles-api-openapi.yml
   format: yaml
   label: Maven Machines Vehicles API
   slug: maven-machines-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-vehicles-api-openapi.yml
 - filename: maven-machines-route-plans-api-openapi.yml
   format: yaml
   label: Maven Machines Route Plans API
   slug: maven-machines-route-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/openapi/maven-machines-route-plans-api-openapi.yml
+  url: https://artifacts.apis.io/maven-machines/openapi/maven-machines-route-plans-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -221,7 +221,7 @@ source_yaml: "generated: '2026-08-25'\nmethod: searched\nsource: >-\n  https://m
   \  - openapi/maven-machines-bozzutos-middleware-openapi.json\n  - openapi/maven-machines-reddy-ice-middleware-openapi.json\n  - openapi/maven-machines-roy-miller-middleware-openapi.json\n  - openapi/maven-machines-triple-s-steel-middleware-openapi.json\ntenancy:\n  model: key-scoped\n  detail: >-\n    The key binds a caller to one company. A 401 in the users specification is described as \"This\n    endpoint may only be executed for company 1\". The planning-and-dispatch definition additionally\n    templates the tenant into the server URL —\n    https://integrations.mavenmachines.com/companies/{companyKey}/ — so a caller integrating\n    against that definition supplies the company twice, once in the path and once implicitly\n    through the key.\nenvironments:\n- name: production\n  base_url: https://integrations.mavenmachines.com/\n- name: staging\n  base_url: https://integrations-staging.mavenmachines.com/\n  note: Keys are not interchangeable between environments.\nkey_management:\n\
   \  self_serve: false\n  rotation_documented: false\n  scopes: false\n  expiry_documented: false\n  detail: >-\n    Maven publishes no key-issuance, rotation, expiry or revocation procedure, no scope or\n    permission model on the key, and no self-serve developer signup. Keys are provisioned to\n    contracted fleets. Driver-facing permissions (e.g. \"Market App Access\") are managed in the Maven\n    Fleet Admin portal as user roles, not as API scopes.\npublic_endpoints:\n- path: GET /\n  service: reddy-ice middleware\n  detail: '\"GET / is public and does not require an API key.\" Health check only; returns \"Hello World!\".'\ngaps:\n- >-\n  All 17 OpenAPI 3.0.0 documents DECLARE the apiKey scheme in components.securitySchemes but do NOT\n  apply it at document level (`security` is null). Only the four 3.1.0 documents carry a top-level\n  security requirement. A client generated from the 3.0.0 documents authenticates nothing by\n  default — see overlays/ for the correction.\n- No OAuth,\
   \ OIDC or mTLS option for enterprise fleets; a single long-lived shared header key is the\n  only credential.\n- /.well-known/openid-configuration and /.well-known/oauth-authorization-server return 404 on every\n  Maven host, including accounts.mavenmachines.com.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/maven-machines/refs/heads/main/authentication/maven-machines-authentication.yml
+source_yaml_url: https://artifacts.apis.io/maven-machines/authentication/maven-machines-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Transportation

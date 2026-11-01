@@ -9,7 +9,7 @@ api_specs:
   label: Minerstat Pools API
   slug: minerstat-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/openapi/minerstat-pools-api-openapi.yml
+  url: https://artifacts.apis.io/minerstat/openapi/minerstat-pools-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -44,7 +44,7 @@ source_filename: minerstat-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/minerstat-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Recommended authentication using the X-API-Key header.\n  sources:\n  - openapi/minerstat-openapi.yml\n- name: apiKeyQuery\n  type: apiKey\n  in: query\n  parameter: key\n  description: Alternative authentication using the key query parameter.\n  sources:\n  - openapi/minerstat-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/authentication/minerstat-authentication.yml
+source_yaml_url: https://artifacts.apis.io/minerstat/authentication/minerstat-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Mining

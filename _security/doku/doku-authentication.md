@@ -7,37 +7,37 @@ api_specs:
   label: DOKU Access Token API
   slug: doku-access-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-access-token-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-access-token-api-openapi.yml
 - filename: doku-checkout-api-openapi.yml
   format: yaml
   label: DOKU Checkout API
   slug: doku-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-checkout-api-openapi.yml
 - filename: doku-direct-debit-e-wallet-api-openapi.yml
   format: yaml
   label: DOKU Direct Debit & e-Wallet API
   slug: doku-direct-debit-e-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-direct-debit-e-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-direct-debit-e-wallet-api-openapi.yml
 - filename: doku-payout-api-openapi.yml
   format: yaml
   label: DOKU Payout API
   slug: doku-payout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-payout-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-payout-api-openapi.yml
 - filename: doku-qris-api-openapi.yml
   format: yaml
   label: DOKU QRIS API
   slug: doku-qris-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-qris-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-qris-api-openapi.yml
 - filename: doku-virtual-account-api-openapi.yml
   format: yaml
   label: DOKU Virtual Account API
   slug: doku-virtual-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/openapi/doku-virtual-account-api-openapi.yml
+  url: https://artifacts.apis.io/doku/openapi/doku-virtual-account-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -111,7 +111,7 @@ source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: searched\ndocs: https://developers.doku.com/accept-payments/direct-api/snap/integration-guide/get-token-api/b2b\nsource: openapi/doku-openapi.yml + developers.doku.com\nsummary:\n  types:\n  - apiKey\n  - http\n  notes: >-\n    DOKU runs two distinct request-signing models. (1) Non-SNAP (Checkout and\n    legacy Direct API): request-level HMAC-SHA256 signature carried in a\n    Signature header alongside Client-Id, Request-Id, and Request-Timestamp.\n    (2) Bank Indonesia SNAP: an asymmetric SHA256withRSA signature to obtain a\n    15-minute Bearer access token, then a symmetric HMAC-SHA512 signature per\n    transaction. No credentials are ever placed in the URL; all traffic is\n    HTTPS/TLS to region hosts.\nschemes:\n- name: checkout_signature\n  type: apiKey\n  in: header\n  headerName: Signature\n  companionHeaders:\n  - Client-Id\n  - Request-Id\n  - Request-Timestamp\n  algorithm: HMAC-SHA256\n  format: 'Signature: HMACSHA256=<base64(hmacSha256(clientSecret,\
   \ componentString))>'\n  componentString: >-\n    Client-Id:<v>\\nRequest-Id:<v>\\nRequest-Timestamp:<v>\\nRequest-Target:<path>\\nDigest:<sha256-of-body>\n  scope: DOKU Checkout API and legacy non-SNAP Direct API\n  sources:\n  - https://developers.doku.com/accept-payments/doku-checkout/integration-guide/backend-integration\n- name: snap_asymmetric_token\n  type: apiKey\n  in: header\n  headerName: X-SIGNATURE\n  companionHeaders:\n  - X-CLIENT-KEY\n  - X-TIMESTAMP\n  algorithm: SHA256withRSA (asymmetric)\n  stringToSign: '<clientId>|<X-TIMESTAMP>'\n  endpoint: POST /authorization/v1/access-token/b2b\n  scope: SNAP access-token issuance (B2B and B2B2C)\n  tokenTtlSeconds: 900\n  sources:\n  - https://developers.doku.com/accept-payments/direct-api/snap/integration-guide/get-token-api/b2b\n- name: snap_bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  headerName: Authorization\n  scope: All SNAP transaction endpoints (Virtual Account, Direct Debit / e-Wallet, QRIS, Kirim payout)\n\
   \  sources:\n  - https://developers.doku.com/accept-payments/direct-api/snap/integration-guide/get-token-api/b2b\n- name: snap_symmetric_signature\n  type: apiKey\n  in: header\n  headerName: X-SIGNATURE\n  companionHeaders:\n  - X-PARTNER-ID\n  - X-EXTERNAL-ID\n  - X-TIMESTAMP\n  - CHANNEL-ID\n  algorithm: HMAC-SHA512 (symmetric)\n  stringToSign: >-\n    <HTTPMethod>:<EndpointUrl>:<AccessToken>:Lowercase(HexEncode(SHA-256(minified-body))):<X-TIMESTAMP>\n  scope: SNAP transaction signing per request\n  sources:\n  - https://developers.doku.com/accept-payments/direct-api/snap/integration-guide/virtual-account/bca-virtual-account\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/authentication/doku-authentication.yml
+source_yaml_url: https://artifacts.apis.io/doku/authentication/doku-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Payments

@@ -8,13 +8,13 @@ api_specs:
   label: PromptArmor Analyze API
   slug: prompt-armor-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/openapi/prompt-armor-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/prompt-armor/openapi/prompt-armor-analyze-api-openapi.yml
 - filename: prompt-armor-content-check-api-openapi.yml
   format: yaml
   label: PromptArmor Content Check API
   slug: prompt-armor-content-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/openapi/prompt-armor-content-check-api-openapi.yml
+  url: https://artifacts.apis.io/prompt-armor/openapi/prompt-armor-content-check-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: prompt-armor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/prompt-armor-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Api-Key\n  description: PromptArmor API key passed in the Api-Key request header.\n  sources:\n  - openapi/prompt-armor-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prompt-armor/refs/heads/main/authentication/prompt-armor-authentication.yml
+source_yaml_url: https://artifacts.apis.io/prompt-armor/authentication/prompt-armor-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence

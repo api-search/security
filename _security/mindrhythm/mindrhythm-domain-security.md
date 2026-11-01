@@ -27,7 +27,7 @@ source_filename: mindrhythm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mindrhythm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 22:51:02 2026 GMT\n  hsts: false\ndomains:\n- domain: mindrhythm.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mindrhythm/refs/heads/main/security/mindrhythm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mindrhythm/security/mindrhythm-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

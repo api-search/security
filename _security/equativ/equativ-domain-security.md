@@ -5,43 +5,43 @@ api_specs:
   label: Equativ Deals API
   slug: equativ-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-deals-api-openapi.yml
+  url: https://artifacts.apis.io/equativ/openapi/equativ-deals-api-openapi.yml
 - filename: equativ-regions-api-openapi.yml
   format: yaml
   label: Equativ Regions API
   slug: equativ-regions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-regions-api-openapi.yml
+  url: https://artifacts.apis.io/equativ/openapi/equativ-regions-api-openapi.yml
 - filename: equativ-semanticsegmentproviders-api-openapi.yml
   format: yaml
   label: Equativ Semanticsegmentproviders API
   slug: equativ-semanticsegmentproviders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-semanticsegmentproviders-api-openapi.yml
+  url: https://artifacts.apis.io/equativ/openapi/equativ-semanticsegmentproviders-api-openapi.yml
 - filename: equativ-semanticsegments-api-openapi.yml
   format: yaml
   label: Equativ Semanticsegments API
   slug: equativ-semanticsegments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-semanticsegments-api-openapi.yml
+  url: https://artifacts.apis.io/equativ/openapi/equativ-semanticsegments-api-openapi.yml
 - filename: equativ-states-api-openapi.yml
   format: yaml
   label: Equativ States API
   slug: equativ-states-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-states-api-openapi.yml
+  url: https://artifacts.apis.io/equativ/openapi/equativ-states-api-openapi.yml
 - filename: equativ-videoadbreaktypes-api-openapi.yml
   format: yaml
   label: Equativ Videoadbreaktypes API
   slug: equativ-videoadbreaktypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-videoadbreaktypes-api-openapi.yml
+  url: https://artifacts.apis.io/equativ/openapi/equativ-videoadbreaktypes-api-openapi.yml
 - filename: equativ-videoplacementtypes-api-openapi.yml
   format: yaml
   label: Equativ Videoplacementtypes API
   slug: equativ-videoplacementtypes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/openapi/equativ-videoplacementtypes-api-openapi.yml
+  url: https://artifacts.apis.io/equativ/openapi/equativ-videoplacementtypes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -71,7 +71,7 @@ source_filename: equativ-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: equativ.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 19 18:57:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: equativ.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equativ/refs/heads/main/security/equativ-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/equativ/security/equativ-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising

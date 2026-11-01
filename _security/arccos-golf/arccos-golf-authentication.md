@@ -7,31 +7,31 @@ api_specs:
   label: Arccos Golf Clubs API
   slug: arccos-golf-clubs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-clubs-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-clubs-api-openapi.yml
 - filename: arccos-golf-courses-api-openapi.yml
   format: yaml
   label: Arccos Golf Courses API
   slug: arccos-golf-courses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-courses-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-courses-api-openapi.yml
 - filename: arccos-golf-rounds-api-openapi.yml
   format: yaml
   label: Arccos Golf Rounds API
   slug: arccos-golf-rounds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-rounds-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-rounds-api-openapi.yml
 - filename: arccos-golf-users-api-openapi.yml
   format: yaml
   label: Arccos Golf Users API
   slug: arccos-golf-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-users-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-users-api-openapi.yml
 - filename: arccos-golf-webhooks-api-openapi.yml
   format: yaml
   label: Arccos Golf Webhooks API
   slug: arccos-golf-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/openapi/arccos-golf-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/arccos-golf/openapi/arccos-golf-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 - http
@@ -82,7 +82,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: searched\nsource: >-\n  https://a
   - name: BasicAuth\n  type: http\n  scheme: basic\n  applies_to: the /v5/webhooks registration operations (GET, POST, DELETE)\n  sources:\n  - openapi/arccos-golf-on-course-data-api-openapi.yml\ntokens:\n- name: id_token\n  purpose: >-\n    Returned only when the openid scope is requested. Carries basic user information; explicitly documented as NOT\n    usable to authenticate requests. Its custom:arccosUserId claim supplies the {userId} path parameter used by\n    almost every operation.\n  usable_for_requests: false\n- name: access_token\n  purpose: 'Bearer token presented as `Authorization: Bearer {access_token}` on authenticated requests.'\n  usable_for_requests: true\n  lifetime: short-lived; the published docs leave the exact TTL as \"X hours\"\n- name: refresh_token\n  purpose: >-\n    Exchanged at the token endpoint (grant_type=refresh_token) for a fresh token set; revocable at\n    /oauth2/revoke either by token or by arccos_user_id.\n  usable_for_requests: false\n  lifetime: the\
   \ published docs leave the exact TTL as \"X days\"\nnotes:\n- Scopes cannot be added retroactively — a user must re-authorize the client for any scope not requested initially.\n- The openid scope is mandatory for every operation whose path contains {userId}.\n- >-\n  The identity provider behind signin.arccosgolf.com is an Amazon Cognito hosted UI (the webhook\n  accountDisconnected payload names its client identifier a \"cognito-client-id\"); a bare GET of\n  https://signin.arccosgolf.com/login returns 400 without client_id/response_type parameters.\nstorefront_authentication:\n  note: >-\n    Separate and unrelated to the golf-data API. The Shopify storefront at www.arccosgolf.com publishes an\n    OpenID Connect discovery document delegating customer-account auth to Shopify.\n  issuer: https://shopify.com/authentication/7805525\n  discovery: well-known/arccos-golf-openid-configuration.json\n  scopes_supported:\n  - openid\n  - email\n  - customer-account-api:full\n  - customer-account-mcp-api:full\n\
   cross_links:\n  scopes: scopes/arccos-golf-scopes.yml\n  conventions: conventions/arccos-golf-conventions.yml\n  errors: errors/arccos-golf-problem-types.yml\n  well_known: well-known/arccos-golf-well-known.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arccos-golf/refs/heads/main/authentication/arccos-golf-authentication.yml
+source_yaml_url: https://artifacts.apis.io/arccos-golf/authentication/arccos-golf-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Kit For AI Batch API
   slug: kitforai-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kitforai/refs/heads/main/openapi/kitforai-batch-api-openapi.yml
+  url: https://artifacts.apis.io/kitforai/openapi/kitforai-batch-api-openapi.yml
 - filename: kitforai-convert-api-openapi.yml
   format: yaml
   label: Kit For AI Convert API
   slug: kitforai-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kitforai/refs/heads/main/openapi/kitforai-convert-api-openapi.yml
+  url: https://artifacts.apis.io/kitforai/openapi/kitforai-convert-api-openapi.yml
 - filename: kitforai-knowledge-bases-api-openapi.yml
   format: yaml
   label: Kit For AI Knowledge Bases API
   slug: kitforai-knowledge-bases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kitforai/refs/heads/main/openapi/kitforai-knowledge-bases-api-openapi.yml
+  url: https://artifacts.apis.io/kitforai/openapi/kitforai-knowledge-bases-api-openapi.yml
 auth_types: []
 description: Authentication
 kind: authentication
@@ -45,12 +45,12 @@ source_filename: kitforai-authentication.yml
 source_heading: Authentication Profile
 source_url: https://kitforai.com/docs
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://kitforai.com/docs\nsources:\n- https://kitforai.com/docs\n- https://kitforai.com/blog/reduce-llm-token-costs\n- https://kitforai.com/llm-setup\ndescription: Authentication\nschemes:\n- type: apiKey\n  name: API Key\n  evidence: Every request authenticates with an API key. Create one in Settings → API keys and send it in the x‑api‑key header.\n  location: header\n  header: x-api-key\n  how_to_obtain: Create an API key in Settings → API keys.\ndocs: https://kitforai.com/docs\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kitforai/refs/heads/main/authentication/kitforai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/kitforai/authentication/kitforai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Memory
-- DocumentConversion
-- RetrievalAugmentedGeneration
-- KnowledgeBase
+- Document Conversion
+- RAG
+- Knowledge Base
 ---

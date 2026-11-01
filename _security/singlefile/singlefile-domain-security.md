@@ -5,43 +5,43 @@ api_specs:
   label: SingleFile Documents API
   slug: singlefile-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-documents-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-documents-api-openapi.yml
 - filename: singlefile-entities-api-openapi.yml
   format: yaml
   label: SingleFile Entities API
   slug: singlefile-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-entities-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-entities-api-openapi.yml
 - filename: singlefile-jurisdictions-api-openapi.yml
   format: yaml
   label: SingleFile Jurisdictions API
   slug: singlefile-jurisdictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-jurisdictions-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-jurisdictions-api-openapi.yml
 - filename: singlefile-orders-api-openapi.yml
   format: yaml
   label: SingleFile Orders API
   slug: singlefile-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-orders-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-orders-api-openapi.yml
 - filename: singlefile-organizations-api-openapi.yml
   format: yaml
   label: SingleFile Organizations API
   slug: singlefile-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-organizations-api-openapi.yml
 - filename: singlefile-schemas-api-openapi.yml
   format: yaml
   label: SingleFile Schemas API
   slug: singlefile-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-schemas-api-openapi.yml
 - filename: singlefile-tasks-api-openapi.yml
   format: yaml
   label: SingleFile Tasks API
   slug: singlefile-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/openapi/singlefile-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/singlefile/openapi/singlefile-tasks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -83,7 +83,7 @@ source_filename: singlefile-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.singlefile.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: false\n- host: api.demo.singlefile.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: singlefile.io\n  dnssec: true\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: singlefile.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/singlefile/refs/heads/main/security/singlefile-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/singlefile/security/singlefile-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

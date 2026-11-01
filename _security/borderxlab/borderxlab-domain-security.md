@@ -28,12 +28,12 @@ source_filename: borderxlab-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.borderxlab.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 10:48:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: borderxlab.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/borderxlab/refs/heads/main/security/borderxlab-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/borderxlab/security/borderxlab-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
 - E-Commerce
 - Cross-Border
-- AgenticCommerce
+- Agentic Commerce
 ---

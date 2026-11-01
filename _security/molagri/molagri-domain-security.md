@@ -27,7 +27,7 @@ source_filename: molagri-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: molagri.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 16:18:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: molagri.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/molagri/refs/heads/main/security/molagri-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/molagri/security/molagri-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

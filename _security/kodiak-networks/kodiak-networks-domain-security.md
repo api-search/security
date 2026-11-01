@@ -30,7 +30,7 @@ source_filename: kodiak-networks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kodiaknetworks.com\n  https: false\ndomains:\n- domain: kodiaknetworks.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"geotrust.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/kodiak-networks/refs/heads/main/security/kodiak-networks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/kodiak-networks/security/kodiak-networks-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

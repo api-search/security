@@ -5,49 +5,49 @@ api_specs:
   label: Workera Audit Events API
   slug: workera-audit-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-audit-events-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-audit-events-api-openapi.yml
 - filename: workera-benchmarks-api-openapi.yml
   format: yaml
   label: Workera Benchmarks API
   slug: workera-benchmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-benchmarks-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-benchmarks-api-openapi.yml
 - filename: workera-capability-api-openapi.yml
   format: yaml
   label: Workera Capability API
   slug: workera-capability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-capability-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-capability-api-openapi.yml
 - filename: workera-domains-api-openapi.yml
   format: yaml
   label: Workera Domains API
   slug: workera-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-domains-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-domains-api-openapi.yml
 - filename: workera-ping-api-openapi.yml
   format: yaml
   label: Workera Ping API
   slug: workera-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-ping-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-ping-api-openapi.yml
 - filename: workera-programs-api-openapi.yml
   format: yaml
   label: Workera Programs API
   slug: workera-programs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-programs-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-programs-api-openapi.yml
 - filename: workera-scores-api-openapi.yml
   format: yaml
   label: Workera Scores API
   slug: workera-scores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-scores-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-scores-api-openapi.yml
 - filename: workera-self-ratings-api-openapi.yml
   format: yaml
   label: Workera Self Ratings API
   slug: workera-self-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/openapi/workera-self-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/workera/openapi/workera-self-ratings-api-openapi.yml
 certification_count: 4
 certifications:
 - ISO/IEC 27001
@@ -68,7 +68,7 @@ source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: https://www.workera.ai/legal/security\nname: Workera Trust Center\nurl: https://trust.workera.ai/\nurl_status: 200\nurl_note: >-\n  trust.workera.ai is a Vanta-hosted trust center (CNAME 60900f408041cfc5165baeab.cname.vantatrust.com).\n  The landing page returns HTTP 200 but the certification list is rendered client-side and is not\n  machine-readable to an anonymous crawler; the certifications below were read from Workera's own\n  first-party security page at https://www.workera.ai/legal/security.\ncertifications:\n- name: ISO/IEC 27001\n  scope: Information Security Management System (ISMS)\n  evidence: https://www.workera.ai/legal/security\n- name: ISO/IEC 42001\n  scope: Artificial Intelligence Management System (AIMS)\n  evidence: https://www.workera.ai/legal/security\n- name: SOC 2 Type II\n  scope: Service organization controls, Type II report\n  evidence: https://www.workera.ai/legal/security\n- name: GDPR\n  scope:\
   \ EU General Data Protection Regulation compliance program\n  evidence: https://www.workera.ai/legal/security\ndocument_access:\n  self_serve: false\n  note: >-\n    SOC 2 Type II reports, ISO certificates, penetration-test summaries and security policies are\n    released to authorized customers and prospective customers on request, not published openly.\npractices:\n- independent third-party penetration testing\n- continuous security monitoring\naudit_surface:\n  api: GET /api/v1/audit_events\n  note: >-\n    Workera exposes a SIEM-compatible enterprise audit-event feed over the public REST API, gated by\n    an `audit_events` API-key scope. See conformance/workera-conformance.yml.\nevidence:\n- url: https://www.workera.ai/legal/security\n  status: 200\n- url: https://trust.workera.ai/\n  status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workera/refs/heads/main/security/workera-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/workera/security/workera-trust-center.yml
 summary_line: ISO/IEC 27001, ISO/IEC 42001, SOC 2 Type II, GDPR
 tags:
 - Skills Intelligence

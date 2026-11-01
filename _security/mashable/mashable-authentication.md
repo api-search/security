@@ -8,13 +8,13 @@ api_specs:
   label: Mashable Articles API
   slug: mashable-articles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashable/refs/heads/main/openapi/mashable-articles-api-openapi.yml
+  url: https://artifacts.apis.io/mashable/openapi/mashable-articles-api-openapi.yml
 - filename: mashable-headlines-api-openapi.yml
   format: yaml
   label: Mashable Headlines API
   slug: mashable-headlines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mashable/refs/heads/main/openapi/mashable-headlines-api-openapi.yml
+  url: https://artifacts.apis.io/mashable/openapi/mashable-headlines-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: mashable-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/mashable-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  description: News API key. May also be passed via apiKey query parameter.\n  sources:\n  - openapi/mashable-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mashable/refs/heads/main/authentication/mashable-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mashable/authentication/mashable-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Articles

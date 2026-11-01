@@ -1,47 +1,41 @@
 ---
 api_specs:
-- filename: eclipse-rdf4j-contexts-api-openapi.yml
-  format: yaml
-  label: Eclipse RDF4J Contexts API
-  slug: eclipse-rdf4j-contexts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-contexts-api-openapi.yml
 - filename: eclipse-rdf4j-namespaces-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J Namespaces API
   slug: eclipse-rdf4j-namespaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-namespaces-api-openapi.yml
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-namespaces-api-openapi.yml
 - filename: eclipse-rdf4j-protocol-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J Protocol API
   slug: eclipse-rdf4j-protocol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-protocol-api-openapi.yml
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-protocol-api-openapi.yml
 - filename: eclipse-rdf4j-repositories-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J Repositories API
   slug: eclipse-rdf4j-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-repositories-api-openapi.yml
-- filename: eclipse-rdf4j-size-api-openapi.yml
-  format: yaml
-  label: Eclipse RDF4J Size API
-  slug: eclipse-rdf4j-size-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-size-api-openapi.yml
-- filename: eclipse-rdf4j-statements-api-openapi.yml
-  format: yaml
-  label: Eclipse RDF4J Statements API
-  slug: eclipse-rdf4j-statements-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-statements-api-openapi.yml
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-repositories-api-openapi.yml
 - filename: eclipse-rdf4j-transactions-api-openapi.yml
   format: yaml
   label: Eclipse RDF4J Transactions API
   slug: eclipse-rdf4j-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/openapi/eclipse-rdf4j-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-transactions-api-openapi.yml
+- filename: eclipse-rdf4j-graph-store-api-openapi.yml
+  format: yaml
+  label: Eclipse RDF4J Graph Store API
+  slug: eclipse-rdf4j-graph-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-graph-store-api-openapi.yml
+- filename: eclipse-rdf4j-sparql-api-openapi.yml
+  format: yaml
+  label: Eclipse RDF4J SPARQL API
+  slug: eclipse-rdf4j-sparql-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eclipse-rdf4j/openapi/eclipse-rdf4j-sparql-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -70,7 +64,7 @@ source_filename: eclipse-rdf4j-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rdf4j.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 15 14:54:51 2026 GMT\n  hsts: false\ndomains:\n- domain: rdf4j.org\n  dnssec: false\n  caa:\n  - ;; connection timed out; no servers could be reached\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/security/eclipse-rdf4j-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/eclipse-rdf4j/security/eclipse-rdf4j-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Eclipse Foundation

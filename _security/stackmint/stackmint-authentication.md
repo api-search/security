@@ -8,13 +8,13 @@ api_specs:
   label: Stackmint Admin API
   slug: stackmint-admin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/openapi/stackmint-admin-api-openapi.yml
+  url: https://artifacts.apis.io/stackmint/openapi/stackmint-admin-api-openapi.yml
 - filename: stackmint-clients-api-openapi.yml
   format: yaml
   label: Stackmint Clients API
   slug: stackmint-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/openapi/stackmint-clients-api-openapi.yml
+  url: https://artifacts.apis.io/stackmint/openapi/stackmint-clients-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -50,7 +50,7 @@ source_filename: stackmint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/stackmint-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: 'Authorization: Bearer [example key]'\n  sources:\n  - openapi/stackmint-openapi.yml\n- name: OrgId\n  type: apiKey\n  in: header\n  parameter: X-Stackmint-Org-Id\n  description: Stackmint organization identifier.\n  sources:\n  - openapi/stackmint-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/stackmint/refs/heads/main/authentication/stackmint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/stackmint/authentication/stackmint-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - AI Governance

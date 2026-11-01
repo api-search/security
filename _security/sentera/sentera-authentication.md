@@ -7,7 +7,7 @@ api_specs:
   label: Sentera Graph QL API
   slug: sentera-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/openapi/sentera-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/sentera/openapi/sentera-graph-ql-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: sentera-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sentera-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Sentera auth_token presented as `Authorization: Bearer <auth_token>`. See the\n    Authentication and Authorization documentation for obtaining a token.'\n  sources:\n  - openapi/sentera-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sentera/refs/heads/main/authentication/sentera-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sentera/authentication/sentera-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Precision Agriculture

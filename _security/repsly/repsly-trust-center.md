@@ -5,55 +5,55 @@ api_specs:
   label: Repsly Clients API
   slug: repsly-clients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-clients-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-clients-api-openapi.yml
 - filename: repsly-forms-api-openapi.yml
   format: yaml
   label: Repsly Forms API
   slug: repsly-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-forms-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-forms-api-openapi.yml
 - filename: repsly-import-api-openapi.yml
   format: yaml
   label: Repsly Import API
   slug: repsly-import-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-import-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-import-api-openapi.yml
 - filename: repsly-photos-api-openapi.yml
   format: yaml
   label: Repsly Photos API
   slug: repsly-photos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-photos-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-photos-api-openapi.yml
 - filename: repsly-products-api-openapi.yml
   format: yaml
   label: Repsly Products API
   slug: repsly-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-products-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-products-api-openapi.yml
 - filename: repsly-purchase-orders-api-openapi.yml
   format: yaml
   label: Repsly Purchase Orders API
   slug: repsly-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-purchase-orders-api-openapi.yml
 - filename: repsly-representatives-api-openapi.yml
   format: yaml
   label: Repsly Representatives API
   slug: repsly-representatives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-representatives-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-representatives-api-openapi.yml
 - filename: repsly-visits-api-openapi.yml
   format: yaml
   label: Repsly Visits API
   slug: repsly-visits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-visits-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-visits-api-openapi.yml
 - filename: repsly-price-lists-api-openapi.yml
   format: yaml
   label: Repsly Price Lists API
   slug: repsly-price-lists-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/openapi/repsly-price-lists-api-openapi.yml
+  url: https://artifacts.apis.io/repsly/openapi/repsly-price-lists-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -72,7 +72,7 @@ source_filename: repsly-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://www.repsly.com/trust\nurl: https://www.repsly.com/trust\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.repsly.com/trust\n  keywords:\n  - soc 2\n  - iso 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/repsly/refs/heads/main/security/repsly-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/repsly/security/repsly-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Retail Execution

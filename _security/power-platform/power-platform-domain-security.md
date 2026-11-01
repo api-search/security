@@ -5,67 +5,67 @@ api_specs:
   label: Microsoft Power Platform APIs Applications API
   slug: power-platform-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-applications-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-applications-api-openapi.yml
 - filename: power-platform-environments-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Environments API
   slug: power-platform-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-environments-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-environments-api-openapi.yml
 - filename: power-platform-flow-runs-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Flow Runs API
   slug: power-platform-flow-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-flow-runs-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-flow-runs-api-openapi.yml
 - filename: power-platform-licensing-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Licensing API
   slug: power-platform-licensing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-licensing-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-licensing-api-openapi.yml
 - filename: power-platform-metadata-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform Metadata API
   slug: microsoft-power-platform-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-metadata-api-openapi.yml
 - filename: power-platform-records-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform Records API
   slug: microsoft-power-platform-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-records-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-records-api-openapi.yml
 - filename: power-platform-accounts-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Accounts API
   slug: power-platform-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-accounts-api-openapi.yml
 - filename: power-platform-enterprisepolicies-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Enterprise Policies API
   slug: power-platform-enterprisepolicies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-enterprisepolicies-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-enterprisepolicies-api-openapi.yml
 - filename: power-platform-operations-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Operations API
   slug: power-platform-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-operations-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-operations-api-openapi.yml
 - filename: power-platform-privatelinkresources-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Private Link Resources API
   slug: power-platform-privatelinkresources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-privatelinkresources-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-privatelinkresources-api-openapi.yml
 - filename: power-platform-private-endpoint-connections-api-openapi.yml
   format: yaml
   label: Microsoft Power Platform APIs Private Endpoint Connections API
   slug: power-platform-private-endpoint-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/openapi/power-platform-private-endpoint-connections-api-openapi.yml
+  url: https://artifacts.apis.io/power-platform/openapi/power-platform-private-endpoint-connections-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -113,7 +113,7 @@ source_filename: power-platform-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.powerapps.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  5 22:51:40 2027 GMT\n  hsts: null\n- host: api.flow.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 01:52:17 2027 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: powerapps.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/security/power-platform-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/power-platform/security/power-platform-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Applications

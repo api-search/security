@@ -7,43 +7,43 @@ api_specs:
   label: Zitadel Applications API
   slug: zitadel-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-applications-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-applications-api-openapi.yml
 - filename: zitadel-identity-providers-api-openapi.yml
   format: yaml
   label: Zitadel Identity Providers API
   slug: zitadel-identity-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-identity-providers-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-identity-providers-api-openapi.yml
 - filename: zitadel-organizations-api-openapi.yml
   format: yaml
   label: Zitadel Organizations API
   slug: zitadel-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-organizations-api-openapi.yml
 - filename: zitadel-policies-api-openapi.yml
   format: yaml
   label: Zitadel Policies API
   slug: zitadel-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-policies-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-policies-api-openapi.yml
 - filename: zitadel-projects-api-openapi.yml
   format: yaml
   label: Zitadel Projects API
   slug: zitadel-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-projects-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-projects-api-openapi.yml
 - filename: zitadel-roles-api-openapi.yml
   format: yaml
   label: Zitadel Roles API
   slug: zitadel-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-roles-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-roles-api-openapi.yml
 - filename: zitadel-users-api-openapi.yml
   format: yaml
   label: Zitadel Users API
   slug: zitadel-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/openapi/zitadel-users-api-openapi.yml
+  url: https://artifacts.apis.io/zitadel/openapi/zitadel-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -70,7 +70,7 @@ source_filename: zitadel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/zitadel-management-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/zitadel-management-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zitadel/refs/heads/main/authentication/zitadel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/zitadel/authentication/zitadel-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Authentication

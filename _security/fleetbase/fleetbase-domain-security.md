@@ -5,61 +5,61 @@ api_specs:
   label: Fleetbase Contacts API
   slug: fleetbase-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-contacts-api-openapi.yml
 - filename: fleetbase-drivers-api-openapi.yml
   format: yaml
   label: Fleetbase Drivers API
   slug: fleetbase-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-drivers-api-openapi.yml
 - filename: fleetbase-fleets-api-openapi.yml
   format: yaml
   label: Fleetbase Fleets API
   slug: fleetbase-fleets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-fleets-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-fleets-api-openapi.yml
 - filename: fleetbase-orders-api-openapi.yml
   format: yaml
   label: Fleetbase Orders API
   slug: fleetbase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-orders-api-openapi.yml
 - filename: fleetbase-places-api-openapi.yml
   format: yaml
   label: Fleetbase Places API
   slug: fleetbase-places-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-places-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-places-api-openapi.yml
 - filename: fleetbase-service-rates-api-openapi.yml
   format: yaml
   label: Fleetbase Service Rates API
   slug: fleetbase-service-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-service-rates-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-service-rates-api-openapi.yml
 - filename: fleetbase-tracking-api-openapi.yml
   format: yaml
   label: Fleetbase Tracking API
   slug: fleetbase-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-tracking-api-openapi.yml
 - filename: fleetbase-vehicles-api-openapi.yml
   format: yaml
   label: Fleetbase Vehicles API
   slug: fleetbase-vehicles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-vehicles-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-vehicles-api-openapi.yml
 - filename: fleetbase-webhooks-api-openapi.yml
   format: yaml
   label: Fleetbase Webhooks API
   slug: fleetbase-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-webhooks-api-openapi.yml
 - filename: fleetbase-zones-api-openapi.yml
   format: yaml
   label: Fleetbase Zones API
   slug: fleetbase-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/openapi/fleetbase-zones-api-openapi.yml
+  url: https://artifacts.apis.io/fleetbase/openapi/fleetbase-zones-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: fleetbase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.fleetbase.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 01:09:33 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.fleetbase.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 00:19:49 2026 GMT\n  hsts: false\n- host: api.fleetbase.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: fleetbase.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fleetbase/refs/heads/main/security/fleetbase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fleetbase/security/fleetbase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Logistics

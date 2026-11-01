@@ -26,7 +26,7 @@ source_filename: inherent-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: inherentlabs.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 17:57:04 2026 GMT\n  hsts: false\ndomains:\n- domain: inherentlabs.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/inherent/refs/heads/main/security/inherent-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/inherent/security/inherent-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

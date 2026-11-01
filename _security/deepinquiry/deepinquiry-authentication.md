@@ -7,13 +7,13 @@ api_specs:
   label: DeepInquiry Verified Facts API (Machine Accountability Corp) Facts API
   slug: deepinquiry-facts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinquiry/refs/heads/main/openapi/deepinquiry-facts-api-openapi.yml
+  url: https://artifacts.apis.io/deepinquiry/openapi/deepinquiry-facts-api-openapi.yml
 - filename: deepinquiry-search-api-openapi.yml
   format: yaml
   label: DeepInquiry Verified Facts API (Machine Accountability Corp) Search API
   slug: deepinquiry-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deepinquiry/refs/heads/main/openapi/deepinquiry-search-api-openapi.yml
+  url: https://artifacts.apis.io/deepinquiry/openapi/deepinquiry-search-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -38,11 +38,10 @@ source_filename: deepinquiry-authentication.yml
 source_heading: Authentication Profile
 source_url: https://www.deepinquiry.ai/docs
 source_yaml: "generated: '2026-10-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://www.deepinquiry.ai/docs\nsources:\n- https://www.deepinquiry.ai/docs\nschemes:\n- type: apiKey\n  name: x-api-key\n  evidence: 'Authentication: x-api-key: YOUR_API_KEY header.'\n  location: header\n  header: x-api-key\ndocs: https://www.deepinquiry.ai/docs\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deepinquiry/refs/heads/main/authentication/deepinquiry-authentication.yml
+source_yaml_url: https://artifacts.apis.io/deepinquiry/authentication/deepinquiry-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Facts
 - Verification
 - Data

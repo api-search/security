@@ -5,19 +5,19 @@ api_specs:
   label: KrakenD Debug API
   slug: krakend-debug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/openapi/krakend-debug-api-openapi.yml
+  url: https://artifacts.apis.io/krakend/openapi/krakend-debug-api-openapi.yml
 - filename: krakend-health-api-openapi.yml
   format: yaml
   label: KrakenD Health API
   slug: krakend-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/openapi/krakend-health-api-openapi.yml
+  url: https://artifacts.apis.io/krakend/openapi/krakend-health-api-openapi.yml
 - filename: krakend-metrics-api-openapi.yml
   format: yaml
   label: KrakenD Metrics API
   slug: krakend-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/openapi/krakend-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/krakend/openapi/krakend-metrics-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: krakend-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.krakend.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 12:30:59 2026 GMT\n  hsts: true\n  hsts_max_age: 2592000\ndomains:\n- domain: krakend.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/security/krakend-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/krakend/security/krakend-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Aggregation

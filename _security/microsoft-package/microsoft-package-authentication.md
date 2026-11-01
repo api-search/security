@@ -8,25 +8,25 @@ api_specs:
   label: Microsoft Package PackageContent API
   slug: microsoft-package-packagecontent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-packagecontent-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-package/openapi/microsoft-package-packagecontent-api-openapi.yml
 - filename: microsoft-package-registration-api-openapi.yml
   format: yaml
   label: Microsoft Package Registration API
   slug: microsoft-package-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-registration-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-package/openapi/microsoft-package-registration-api-openapi.yml
 - filename: microsoft-package-search-api-openapi.yml
   format: yaml
   label: Microsoft Package Search API
   slug: microsoft-package-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-package/openapi/microsoft-package-search-api-openapi.yml
 - filename: microsoft-package-service-index-api-openapi.yml
   format: yaml
   label: Microsoft Package Service Index API
   slug: microsoft-package-service-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/openapi/microsoft-package-service-index-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-package/openapi/microsoft-package-service-index-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: microsoft-package-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-package-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-NuGet-ApiKey\n  description: Required only for publish/delete operations on nuget.org.\n  sources:\n  - openapi/microsoft-package-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-package/refs/heads/main/authentication/microsoft-package-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-package/authentication/microsoft-package-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Azure Artifacts

@@ -2,25 +2,6 @@
 anonymous_access: false
 api_key_in:
 - header
-api_specs:
-- filename: revnu-api-reference-api-openapi.yml
-  format: yaml
-  label: Revnu API Reference API
-  slug: revnu-api-reference-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revnu/refs/heads/main/openapi/revnu-api-reference-api-openapi.yml
-- filename: revnu-content-api-api-openapi.yml
-  format: yaml
-  label: Revnu Content API
-  slug: revnu-content-api-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revnu/refs/heads/main/openapi/revnu-content-api-api-openapi.yml
-- filename: revnu-measurement-api-openapi.yml
-  format: yaml
-  label: Revnu Measurement API
-  slug: revnu-measurement-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revnu/refs/heads/main/openapi/revnu-measurement-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -109,7 +90,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://auth.re
   \  audience: end user (browser)\n  key_prefix: rev_pub_\n  env_vars:\n  - NEXT_PUBLIC_REVNU_KEY\n  - VITE_REVNU_KEY\n  - REVNU_KEY\n  used_by: https://auth.revnu.app/api/auth/revnu/*\n  note: publishable, safe to ship in a client bundle; identifies the store\n  source: https://auth.revnu.app/docs/auth-sdk\n- name: revnuSessionJWT\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  audience: end user\n  algorithm: RS256\n  issuer: revnu-auth\n  verification: asymmetric, public key embedded in @revnu/auth — no secret to configure\n  cookie: revnu_access_token\n  claims:\n  - sub\n  - email\n  - name\n  - iat\n  - exp\n  - products[] (productId, status, cancelAtPeriodEnd, currentPeriodEnd)\n  refresh: POST /api/auth/revnu/refresh (refresh token in an http-only cookie)\n  source: npm @revnu/auth 1.1.0 dist/core\nmodel:\n  end_user: >-\n    Purchase-first. Buying a product creates the account; a setup-link email lets\n    the buyer set a password. There is no separate sign-up flow. Product\n\
   \    entitlement is embedded in the JWT, so access checks need no webhook and no\n    call back to Revnu.\n  operator: >-\n    Dashboard-issued bearer API key for MCP and the /api/agent REST surface, or a\n    browser-approved device-code token for the CLI.\nendpoints:\n  auth_base: https://auth.revnu.app\n  paths:\n  - POST /api/auth/revnu/sign-in\n  - POST /api/auth/revnu/sign-out\n  - POST /api/auth/revnu/refresh\n  - GET /api/auth/revnu/store-info\n  - POST /api/auth/revnu/forgot-password\n  - POST /api/auth/revnu/reset-password\n  - POST /api/auth/revnu/setup-password\n  - POST /api/auth/revnu/request-setup-link\nx-evidence:\n- url: https://auth.revnu.app/api/auth/revnu/sign-in\n  method: POST (no key)\n  status: 401\n  body: '{\"error\":\"Missing X-Revnu-Key header\"}'\n- url: https://auth.revnu.app/api/auth/revnu/store-info\n  method: GET (bad key)\n  status: 401\n  body: '{\"error\":\"Invalid public key\"}'\n- url: https://auth.revnu.app/api/agent/context\n  method: GET (no header)\n\
   \  status: 401\n  body: '{\"error\":\"Unauthorized\",\"message\":\"Invalid or expired CLI token. Run `npx @revnu/setup\n    auth login` to re-authenticate.\"}'\n- url: https://auth.revnu.app/.well-known/openid-configuration\n  status: 404\n- url: https://auth.revnu.app/.well-known/oauth-authorization-server\n  status: 404\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revnu/refs/heads/main/authentication/revnu-authentication.yml
+source_yaml_url: https://artifacts.apis.io/revnu/authentication/revnu-authentication.yml
 summary_line: http/apiKey · 4 schemes
 tags:
 - Company

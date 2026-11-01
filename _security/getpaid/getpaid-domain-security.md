@@ -5,49 +5,49 @@ api_specs:
   label: GetPaid Accounts API
   slug: getpaid-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-accounts-api-openapi.yml
 - filename: getpaid-applications-api-openapi.yml
   format: yaml
   label: GetPaid Applications API
   slug: getpaid-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-applications-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-applications-api-openapi.yml
 - filename: getpaid-authentication-api-openapi.yml
   format: yaml
   label: GetPaid Authentication API
   slug: getpaid-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-authentication-api-openapi.yml
 - filename: getpaid-checkouts-api-openapi.yml
   format: yaml
   label: GetPaid Checkouts API
   slug: getpaid-checkouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-checkouts-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-checkouts-api-openapi.yml
 - filename: getpaid-payments-api-openapi.yml
   format: yaml
   label: GetPaid Payments API
   slug: getpaid-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-payments-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-payments-api-openapi.yml
 - filename: getpaid-queries-api-openapi.yml
   format: yaml
   label: GetPaid Queries API
   slug: getpaid-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-queries-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-queries-api-openapi.yml
 - filename: getpaid-accept-payments-webhooks-api-openapi.yml
   format: yaml
   label: GetPaid Accept payments webhooks API
   slug: getpaid-accept-payments-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-accept-payments-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-accept-payments-webhooks-api-openapi.yml
 - filename: getpaid-onboard-sellers-webhooks-api-openapi.yml
   format: yaml
   label: GetPaid Onboard sellers webhooks API
   slug: getpaid-onboard-sellers-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/openapi/getpaid-onboard-sellers-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/getpaid/openapi/getpaid-onboard-sellers-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: getpaid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.getpaid.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 23:59:59 2026 GMT\n  hsts: null\n- host: api.sandbox.getpaid.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: getpaid.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/security/getpaid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/getpaid/security/getpaid-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

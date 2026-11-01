@@ -5,37 +5,37 @@ api_specs:
   label: Numeral Customers API
   slug: numeral-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-customers-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-customers-api-openapi.yml
 - filename: numeral-health-api-openapi.yml
   format: yaml
   label: Numeral Health API
   slug: numeral-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-health-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-health-api-openapi.yml
 - filename: numeral-products-api-openapi.yml
   format: yaml
   label: Numeral Products API
   slug: numeral-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-products-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-products-api-openapi.yml
 - filename: numeral-refunds-api-openapi.yml
   format: yaml
   label: Numeral Refunds API
   slug: numeral-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-refunds-api-openapi.yml
 - filename: numeral-tax-calculations-api-openapi.yml
   format: yaml
   label: Numeral Tax Calculations API
   slug: numeral-tax-calculations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-tax-calculations-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-tax-calculations-api-openapi.yml
 - filename: numeral-transactions-api-openapi.yml
   format: yaml
   label: Numeral Transactions API
   slug: numeral-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/openapi/numeral-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/numeral/openapi/numeral-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: numeral-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.numeral.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 22:16:57 2026 GMT\n  hsts: false\n- host: docs.numeral.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 11:51:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.numeralhq.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 16 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: numeral.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n- domain: numeralhq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/numeral/refs/heads/main/security/numeral-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/numeral/security/numeral-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Sales Tax

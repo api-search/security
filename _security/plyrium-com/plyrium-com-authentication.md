@@ -7,19 +7,19 @@ api_specs:
   label: Plyrium Discovery API
   slug: plyrium-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/plyrium-com/openapi/plyrium-com-discovery-api-openapi.yml
 - filename: plyrium-com-purchase-api-openapi.yml
   format: yaml
   label: Plyrium Purchase API
   slug: plyrium-com-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/plyrium-com/openapi/plyrium-com-purchase-api-openapi.yml
 - filename: plyrium-com-verification-api-openapi.yml
   format: yaml
   label: Plyrium Verification API
   slug: plyrium-com-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/openapi/plyrium-com-verification-api-openapi.yml
+  url: https://artifacts.apis.io/plyrium-com/openapi/plyrium-com-verification-api-openapi.yml
 auth_types: []
 description: 'VouchSpec has no login, API-key signup or OAuth. The read surface is anonymous. The single write operation is gated by PAYMENT, not identity: an x402 v2 challenge-and-retry on POST /api/vouchspec/v1/validate. Credentials exist only AFTER settlement - the 200 response hands back a one-time tenant API key and a one-time delivery token, which together unlock that order''s result. The OpenAPI declares no securitySchemes because none of its eight operations takes a credential up front; derive-authentication.py therefore produced no profile and this file is authored from the provider''s discovery contract instead.'
 kind: authentication
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://vouchsp
   \ payment retries return the same credentials (discovery acquisition.exact_payment_retries_return_same_credentials true)\n- name: tenant-bearer\n  type: http\n  scheme: bearer\n  header: 'Authorization: Bearer {tenant_api_key}'\n  issued_by: purchaseExactCommitValidation 200 response (PaidValidationAccess.credentials.tenant_api_key)\n  shown_once: true\n  stored_as: keyed digest (never plaintext) - policies page \"Credential handling\"\n  applies_to: order and result endpoints returned in PaidValidationAccess.endpoints (order_template, result_template, rotate/revoke delivery-token templates - not in the public OpenAPI)\n- name: delivery-token\n  type: apiKey\n  in: header\n  header: X-VouchSpec-Delivery-Token\n  issued_by: purchaseExactCommitValidation 200 response (PaidValidationAccess.credentials.delivery_token + delivery_token_expires_at)\n  shown_once: true\n  expires: yes - delivery_token_expires_at in the response; payment-flow.md states delivery capabilities expire after 30 days\
   \ and may be rotated or revoked\n  applies_to: the same order/result endpoints, REQUIRED TOGETHER with the tenant bearer (\"A result requires both credentials\")\nidempotency_header: 'Idempotency-Key: {unique_8_to_128_character_value}' # documented for authenticated tenant operations; see conventions/\nresult_authentication:\n  media_type: application/vnd.dsse.envelope.v1+json\n  signature: Ed25519 over exact DSSE payload bytes\n  issuer_key: https://vouchspec.plyrium.com/api/vouchspec/v1/keys/issuer (key_id m3Vz2bX1-lZ-osJb91mHCNE_-Lehx2fFc2TvExDbbn0, RFC 8037 OKP JWK)\n  note: The receipt itself is the authenticated object; public receipt bytes need no credential, and the no-store /status endpoint carries live invalidation.\ngaps:\n- The OpenAPI declares no securitySchemes at all, so a generic client cannot learn from the spec alone that POST /validate is x402-gated; the x-x402 and x-vouchspec extensions and the 402 response carry that information instead.\n- The credentialed order/result/rotate/revoke\
   \ endpoints are named in discovery (route templates) but are absent from the OpenAPI.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plyrium-com/refs/heads/main/authentication/plyrium-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/plyrium-com/authentication/plyrium-com-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company
@@ -97,6 +97,6 @@ tags:
 - Agentic Commerce
 - A2A
 - MCP
-- Field Service
+- Field Service Management
 - Home Services
 ---

@@ -8,31 +8,31 @@ api_specs:
   label: IKEA Availability API
   slug: ikea-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-availability-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-availability-api-openapi.yml
 - filename: ikea-categories-api-openapi.yml
   format: yaml
   label: IKEA Categories API
   slug: ikea-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-categories-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-categories-api-openapi.yml
 - filename: ikea-parts-api-openapi.yml
   format: yaml
   label: IKEA Parts API
   slug: ikea-parts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-parts-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-parts-api-openapi.yml
 - filename: ikea-products-api-openapi.yml
   format: yaml
   label: IKEA Products API
   slug: ikea-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-products-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-products-api-openapi.yml
 - filename: ikea-stores-api-openapi.yml
   format: yaml
   label: IKEA Stores API
   slug: ikea-stores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/openapi/ikea-stores-api-openapi.yml
+  url: https://artifacts.apis.io/ikea/openapi/ikea-stores-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -80,7 +80,7 @@ source_filename: ikea-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ikea-sales-item-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: X-Client-ID\n  type: apiKey\n  in: header\n  parameter: X-Client-ID\n  description: |-\n    Client specific identifier (Akamai API Gateway) required for API access\n\n    ## Available Client IDs\n\n    The following public client IDs are available:\n\n    - `ef382663-a2a5-40d4-8afe-f0634821c0ed`\n    - `b6c117e5-ae61-4ef5-b4cc-e0b1e37f0631`\n    - `da465052-7912-43b2-82fa-9dc39cdccef8`\n\n\n    ## How to Find Client IDs\n\n    Visit any IKEA product page (e.g., [BILLY Bookcase](https://www.ikea.com/gb/en/p/billy-bookcase-white-\n  sources:\n  - openapi/ikea-sales-item-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ikea/refs/heads/main/authentication/ikea-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ikea/authentication/ikea-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Retail

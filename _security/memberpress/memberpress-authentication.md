@@ -8,67 +8,67 @@ api_specs:
   label: MemberPress Authentication API
   slug: memberpress-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-authentication-api-openapi.yml
 - filename: memberpress-coupons-api-openapi.yml
   format: yaml
   label: MemberPress Coupons API
   slug: memberpress-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-coupons-api-openapi.yml
 - filename: memberpress-events-api-openapi.yml
   format: yaml
   label: MemberPress Events API
   slug: memberpress-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-events-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-events-api-openapi.yml
 - filename: memberpress-groups-api-openapi.yml
   format: yaml
   label: MemberPress Groups API
   slug: memberpress-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-groups-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-groups-api-openapi.yml
 - filename: memberpress-members-api-openapi.yml
   format: yaml
   label: MemberPress Members API
   slug: memberpress-members-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-members-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-members-api-openapi.yml
 - filename: memberpress-memberships-api-openapi.yml
   format: yaml
   label: MemberPress Memberships API
   slug: memberpress-memberships-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-memberships-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-memberships-api-openapi.yml
 - filename: memberpress-reminders-api-openapi.yml
   format: yaml
   label: MemberPress Reminders API
   slug: memberpress-reminders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-reminders-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-reminders-api-openapi.yml
 - filename: memberpress-rules-api-openapi.yml
   format: yaml
   label: MemberPress Rules API
   slug: memberpress-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-rules-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-rules-api-openapi.yml
 - filename: memberpress-subscriptions-api-openapi.yml
   format: yaml
   label: MemberPress Subscriptions API
   slug: memberpress-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-subscriptions-api-openapi.yml
 - filename: memberpress-transactions-api-openapi.yml
   format: yaml
   label: MemberPress Transactions API
   slug: memberpress-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-transactions-api-openapi.yml
 - filename: memberpress-webhooks-api-openapi.yml
   format: yaml
   label: MemberPress Webhooks API
   slug: memberpress-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/openapi/memberpress-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/memberpress/openapi/memberpress-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 - wordpress-capability
@@ -114,7 +114,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://memberp
   \ `Bearer <token>` credential —\n    an agent that prefixes `Bearer ` will fail.\n  source: https://github.com/caseproof/memberpress-rest-api-documentation#authentication\n- name: WordPressUserCapability\n  type: session\n  in: cookie\n  parameter: wordpress_logged_in_*\n  description: >-\n    A logged-in WordPress user holding the `remove_users` capability (typically an administrator)\n    is authorized without an API key. Callers lacking the capability receive HTTP 401.\n  source: https://github.com/caseproof/memberpress-rest-api-documentation#authentication\nwebhook_authentication:\n- name: MemberPressWebhookKey\n  in: header\n  parameter: memberpress-webhook-key\n  direction: inbound-to-subscriber\n  description: >-\n    Webhook Key introduced in MemberPress 1.2.5. MemberPress sends this header on outbound webhook\n    deliveries so the receiving endpoint can verify the call. This is a shared secret, not an HMAC\n    signature over the payload — a receiver cannot verify body integrity,\
   \ only origin possession\n    of the key.\n  source: https://memberpress.com/docs/overview-of-using-the-developer-tools/\n- name: BasicAuthentication\n  in: header\n  parameter: Authorization\n  description: >-\n    MemberPress additionally documents Basic Authentication (with the WordPress Application\n    Passwords plugin) for webhook delivery, describing it in its own documentation as the \"less\n    secure\" option.\n  source: https://memberpress.com/docs/overview-of-using-the-developer-tools/\ngaps:\n- No OAuth 2.0 or OpenID Connect surface — key-auth only, so there is no scope model and no\n  scopes/ artifact for this provider.\n- No published key-expiry, key-scoping or per-key permission model. A Developer Tools key is\n  effectively administrator-equivalent over every MemberPress resource.\n- Webhook deliveries carry a static shared secret rather than a per-payload signature.\n- The `/me/permissions` endpoint that would let a caller discover its own authorization is\n  documented\
   \ by MemberPress as not present in all installations.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/memberpress/refs/heads/main/authentication/memberpress-authentication.yml
+source_yaml_url: https://artifacts.apis.io/memberpress/authentication/memberpress-authentication.yml
 summary_line: apiKey/wordpress-capability · 3 schemes
 tags:
 - Company

@@ -5,85 +5,85 @@ api_specs:
   label: PetExec Authentication API
   slug: petexec-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-authentication-api-openapi.yml
 - filename: petexec-boarding-api-openapi.yml
   format: yaml
   label: PetExec Boarding API
   slug: petexec-boarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-boarding-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-boarding-api-openapi.yml
 - filename: petexec-calendar-api-openapi.yml
   format: yaml
   label: PetExec Calendar API
   slug: petexec-calendar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-calendar-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-calendar-api-openapi.yml
 - filename: petexec-company-api-openapi.yml
   format: yaml
   label: PetExec Company API
   slug: petexec-company-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-company-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-company-api-openapi.yml
 - filename: petexec-credit-cards-api-openapi.yml
   format: yaml
   label: PetExec Credit Cards API
   slug: petexec-credit-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-credit-cards-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-credit-cards-api-openapi.yml
 - filename: petexec-daycare-api-openapi.yml
   format: yaml
   label: PetExec Daycare API
   slug: petexec-daycare-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-daycare-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-daycare-api-openapi.yml
 - filename: petexec-grooming-api-openapi.yml
   format: yaml
   label: PetExec Grooming API
   slug: petexec-grooming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-grooming-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-grooming-api-openapi.yml
 - filename: petexec-owners-api-openapi.yml
   format: yaml
   label: PetExec Owners API
   slug: petexec-owners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-owners-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-owners-api-openapi.yml
 - filename: petexec-pets-api-openapi.yml
   format: yaml
   label: PetExec Pets API
   slug: petexec-pets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-pets-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-pets-api-openapi.yml
 - filename: petexec-profile-api-openapi.yml
   format: yaml
   label: PetExec Profile API
   slug: petexec-profile-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-profile-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-profile-api-openapi.yml
 - filename: petexec-purchase-history-api-openapi.yml
   format: yaml
   label: PetExec Purchase History API
   slug: petexec-purchase-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-purchase-history-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-purchase-history-api-openapi.yml
 - filename: petexec-reports-api-openapi.yml
   format: yaml
   label: PetExec Reports API
   slug: petexec-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-reports-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-reports-api-openapi.yml
 - filename: petexec-scheduled-services-api-openapi.yml
   format: yaml
   label: PetExec Scheduled Services API
   slug: petexec-scheduled-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-scheduled-services-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-scheduled-services-api-openapi.yml
 - filename: petexec-vaccinations-api-openapi.yml
   format: yaml
   label: PetExec Vaccinations API
   slug: petexec-vaccinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/openapi/petexec-vaccinations-api-openapi.yml
+  url: https://artifacts.apis.io/petexec/openapi/petexec-vaccinations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -125,7 +125,7 @@ source_filename: petexec-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.petexec.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 12:16:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: secure.petexec.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 21 21:36:11 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: beta.petexec.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: petexec.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/petexec/refs/heads/main/security/petexec-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/petexec/security/petexec-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Pet Care

@@ -5,19 +5,19 @@ api_specs:
   label: The Promenade Payments API
   slug: the-promenade-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/openapi/the-promenade-payments-api-openapi.yml
+  url: https://artifacts.apis.io/the-promenade/openapi/the-promenade-payments-api-openapi.yml
 - filename: the-promenade-session-api-openapi.yml
   format: yaml
   label: The Promenade Session API
   slug: the-promenade-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/openapi/the-promenade-session-api-openapi.yml
+  url: https://artifacts.apis.io/the-promenade/openapi/the-promenade-session-api-openapi.yml
 - filename: the-promenade-signup-api-openapi.yml
   format: yaml
   label: The Promenade Signup API
   slug: the-promenade-signup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/openapi/the-promenade-signup-api-openapi.yml
+  url: https://artifacts.apis.io/the-promenade/openapi/the-promenade-signup-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: the-promenade-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: simcluster.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 10:18:20 2026 GMT\n  hsts: false\ndomains:\n- domain: simcluster.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-promenade/refs/heads/main/security/the-promenade-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/the-promenade/security/the-promenade-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

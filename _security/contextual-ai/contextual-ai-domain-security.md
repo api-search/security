@@ -5,55 +5,55 @@ api_specs:
   label: Contextual AI Agents API
   slug: contextual-ai-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-agents-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-api-openapi.yml
 - filename: contextual-ai-agents-query-api-openapi.yml
   format: yaml
   label: Contextual AI Agents Query API
   slug: contextual-ai-agents-query-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-agents-query-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-query-api-openapi.yml
 - filename: contextual-ai-datastores-api-openapi.yml
   format: yaml
   label: Contextual AI Datastores API
   slug: contextual-ai-datastores-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-datastores-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-datastores-api-openapi.yml
 - filename: contextual-ai-documents-api-openapi.yml
   format: yaml
   label: Contextual AI Documents API
   slug: contextual-ai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-documents-api-openapi.yml
 - filename: contextual-ai-generate-api-openapi.yml
   format: yaml
   label: Contextual AI Generate API
   slug: contextual-ai-generate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-generate-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-generate-api-openapi.yml
 - filename: contextual-ai-lmunit-api-openapi.yml
   format: yaml
   label: Contextual AI LMUnit API
   slug: contextual-ai-lmunit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-lmunit-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-lmunit-api-openapi.yml
 - filename: contextual-ai-parse-api-openapi.yml
   format: yaml
   label: Contextual AI Parse API
   slug: contextual-ai-parse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-parse-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-parse-api-openapi.yml
 - filename: contextual-ai-rerank-api-openapi.yml
   format: yaml
   label: Contextual AI Rerank API
   slug: contextual-ai-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-rerank-api-openapi.yml
 - filename: contextual-ai-users-api-openapi.yml
   format: yaml
   label: Contextual AI Users API
   slug: contextual-ai-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/openapi/contextual-ai-users-api-openapi.yml
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ source_filename: contextual-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: contextual.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 09:40:40 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.contextual.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 22:34:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.contextual.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 16:52:20 2026 GMT\n  hsts: null\ndomains:\n- domain: contextual.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contextual-ai/refs/heads/main/security/contextual-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/contextual-ai/security/contextual-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

@@ -8,25 +8,25 @@ api_specs:
   label: isBusinessEmail Check API
   slug: isbusinessemail-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/openapi/isbusinessemail-check-api-openapi.yml
+  url: https://artifacts.apis.io/isbusinessemail/openapi/isbusinessemail-check-api-openapi.yml
 - filename: isbusinessemail-feedback-api-openapi.yml
   format: yaml
   label: isBusinessEmail Feedback API
   slug: isbusinessemail-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/openapi/isbusinessemail-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/isbusinessemail/openapi/isbusinessemail-feedback-api-openapi.yml
 - filename: isbusinessemail-health-api-openapi.yml
   format: yaml
   label: isBusinessEmail Health API
   slug: isbusinessemail-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/openapi/isbusinessemail-health-api-openapi.yml
+  url: https://artifacts.apis.io/isbusinessemail/openapi/isbusinessemail-health-api-openapi.yml
 - filename: isbusinessemail-usage-api-openapi.yml
   format: yaml
   label: isBusinessEmail Usage API
   slug: isbusinessemail-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/openapi/isbusinessemail-usage-api-openapi.yml
+  url: https://artifacts.apis.io/isbusinessemail/openapi/isbusinessemail-usage-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -60,11 +60,11 @@ source_filename: isbusinessemail-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-05'\nmethod: derived\nsource: openapi/isbusinessemail-openapi.json\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  description: 'Authorization: Bearer ibe_live_...'\n  sources:\n  - openapi/isbusinessemail-openapi.json\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/isbusinessemail-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/isbusinessemail/refs/heads/main/authentication/isbusinessemail-authentication.yml
+source_yaml_url: https://artifacts.apis.io/isbusinessemail/authentication/isbusinessemail-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- EmailVerification
+- Email Verification
 - BusinessTools
-- EUHosted
+- EU-hosted
 ---

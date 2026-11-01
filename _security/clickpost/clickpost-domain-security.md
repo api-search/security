@@ -5,43 +5,43 @@ api_specs:
   label: ClickPost Cancellation API
   slug: clickpost-cancellation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-cancellation-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-cancellation-api-openapi.yml
 - filename: clickpost-label-api-openapi.yml
   format: yaml
   label: ClickPost Label API
   slug: clickpost-label-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-label-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-label-api-openapi.yml
 - filename: clickpost-order-api-openapi.yml
   format: yaml
   label: ClickPost Order API
   slug: clickpost-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-order-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-order-api-openapi.yml
 - filename: clickpost-pickup-api-openapi.yml
   format: yaml
   label: ClickPost Pickup API
   slug: clickpost-pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-pickup-api-openapi.yml
 - filename: clickpost-recommendation-api-openapi.yml
   format: yaml
   label: ClickPost Recommendation API
   slug: clickpost-recommendation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-recommendation-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-recommendation-api-openapi.yml
 - filename: clickpost-serviceability-api-openapi.yml
   format: yaml
   label: ClickPost Serviceability API
   slug: clickpost-serviceability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-serviceability-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-serviceability-api-openapi.yml
 - filename: clickpost-tracking-api-openapi.yml
   format: yaml
   label: ClickPost Tracking API
   slug: clickpost-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/openapi/clickpost-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/clickpost/openapi/clickpost-tracking-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: clickpost-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.clickpost.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 11:41:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.clickpost.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 07:54:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.clickpost.in\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: clickpost.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: clickpost.in\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clickpost/refs/heads/main/security/clickpost-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clickpost/security/clickpost-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Carrier

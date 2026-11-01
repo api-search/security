@@ -5,19 +5,19 @@ api_specs:
   label: Nomic AI Embeddings API
   slug: nomic-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/nomic-ai/openapi/nomic-ai-embeddings-api-openapi.yml
 - filename: nomic-ai-files-api-openapi.yml
   format: yaml
   label: Nomic AI Files API
   slug: nomic-ai-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-files-api-openapi.yml
+  url: https://artifacts.apis.io/nomic-ai/openapi/nomic-ai-files-api-openapi.yml
 - filename: nomic-ai-tasks-api-openapi.yml
   format: yaml
   label: Nomic AI Tasks API
   slug: nomic-ai-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/openapi/nomic-ai-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/nomic-ai/openapi/nomic-ai-tasks-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
@@ -34,7 +34,7 @@ source_filename: nomic-ai-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://security.nomic.ai/\nurl: https://security.nomic.ai/\ncertifications:\n- SOC 2\nevidence:\n- source: https://security.nomic.ai/\n  keywords:\n  - soc 2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nomic-ai/refs/heads/main/security/nomic-ai-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/nomic-ai/security/nomic-ai-trust-center.yml
 summary_line: SOC 2
 tags:
 - Embeddings

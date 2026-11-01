@@ -5,19 +5,19 @@ api_specs:
   label: Bureau of Justice Statistics Property Crime API
   slug: bureau-of-justice-statistics-property-crime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-property-crime-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-justice-statistics/openapi/bureau-of-justice-statistics-property-crime-api-openapi.yml
 - filename: bureau-of-justice-statistics-victimization-api-openapi.yml
   format: yaml
   label: Bureau of Justice Statistics Victimization API
   slug: bureau-of-justice-statistics-victimization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-victimization-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-justice-statistics/openapi/bureau-of-justice-statistics-victimization-api-openapi.yml
 - filename: bureau-of-justice-statistics-violent-crime-api-openapi.yml
   format: yaml
   label: Bureau of Justice Statistics Violent Crime API
   slug: bureau-of-justice-statistics-violent-crime-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/openapi/bureau-of-justice-statistics-violent-crime-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-justice-statistics/openapi/bureau-of-justice-statistics-violent-crime-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +53,7 @@ source_filename: bureau-of-justice-statistics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bjs.ojp.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.ojp.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ojp.gov\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-justice-statistics/refs/heads/main/security/bureau-of-justice-statistics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-justice-statistics/security/bureau-of-justice-statistics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Crime

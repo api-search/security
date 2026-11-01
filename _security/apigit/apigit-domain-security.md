@@ -5,25 +5,25 @@ api_specs:
   label: APIGit Mocks API
   slug: apigit-mocks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-mocks-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-mocks-api-openapi.yml
 - filename: apigit-repositories-api-openapi.yml
   format: yaml
   label: APIGit Repositories API
   slug: apigit-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-repositories-api-openapi.yml
 - filename: apigit-tests-api-openapi.yml
   format: yaml
   label: APIGit Tests API
   slug: apigit-tests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-tests-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-tests-api-openapi.yml
 - filename: apigit-apis-api-openapi.yml
   format: yaml
   label: APIGit APIs API
   slug: apigit-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/openapi/apigit-apis-api-openapi.yml
+  url: https://artifacts.apis.io/apigit/openapi/apigit-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,14 +54,14 @@ source_filename: apigit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apigit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 22:56:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.apigit.com\n  https: false\ndomains:\n- domain: apigit.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apigit/refs/heads/main/security/apigit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apigit/security/apigit-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - API Design
 - API Lifecycle
 - Developer Tools
 - Documentation
-- Git
+- Version Control
 - Governance
 - Mocking
 - Platform

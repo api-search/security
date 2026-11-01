@@ -33,7 +33,7 @@ source_filename: virtusa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.virtusa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 16:25:24 2026 GMT\n  hsts: null\ndomains:\n- domain: virtusa.com\n  dnssec: true\n  caa:\n  - 5 issue \"awstrust.com\"\n  - 6 issue \"amazonaws.com\"\n  - 0 issue \"entrust.net\"\n  - 1 issue \"letsencrypt.org\"\n  - 2 issue \"digicert.com\"\n  - 3 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/virtusa/refs/heads/main/security/virtusa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/virtusa/security/virtusa-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

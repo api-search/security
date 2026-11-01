@@ -7,25 +7,25 @@ api_specs:
   label: Garner Health Facilities API
   slug: garner-health-facilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/garner-health/refs/heads/main/openapi/garner-health-facilities-api-openapi.yml
+  url: https://artifacts.apis.io/garner-health/openapi/garner-health-facilities-api-openapi.yml
 - filename: garner-health-professionals-api-openapi.yml
   format: yaml
   label: Garner Health Professionals API
   slug: garner-health-professionals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/garner-health/refs/heads/main/openapi/garner-health-professionals-api-openapi.yml
+  url: https://artifacts.apis.io/garner-health/openapi/garner-health-professionals-api-openapi.yml
 - filename: garner-health-provider-annotations-api-openapi.yml
   format: yaml
   label: Garner Health Provider Annotations API
   slug: garner-health-provider-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/garner-health/refs/heads/main/openapi/garner-health-provider-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/garner-health/openapi/garner-health-provider-annotations-api-openapi.yml
 - filename: garner-health-providers-api-openapi.yml
   format: yaml
   label: Garner Health Providers API
   slug: garner-health-providers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/garner-health/refs/heads/main/openapi/garner-health-providers-api-openapi.yml
+  url: https://artifacts.apis.io/garner-health/openapi/garner-health-providers-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -62,7 +62,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/garner-health-openapi-original.yml\ndocs: 'https://garnerhealth.redoc.ly/#section/Authentication:'\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nnotes: >-\n  The published OpenAPI declares a single http bearer scheme (ApiToken, bearerFormat\n  API_TOKEN). The Garner developer docs document the primary mechanism as OAuth 2.0\n  client-credentials: exchange an API client_id + client_secret at POST\n  https://api.getgarner.com/oauth2/token (grant_type=client_credentials) for a Bearer\n  access_token valid 15 minutes, then send it as Authorization: Bearer <token>. A legacy\n  path issues a long-lived JWT at account setup used directly as the bearer token. All\n  credentials are provisioned during account setup by a Garner account manager.\nschemes:\n- name: ApiToken\n  type: http\n  scheme: bearer\n  bearerFormat: API_TOKEN\n  sources:\n  - openapi/garner-health-openapi-original.yml\n\
   - name: OAuth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  tokenUrl: https://api.getgarner.com/oauth2/token\n  token_lifetime_seconds: 900\n  source: 'https://garnerhealth.redoc.ly/#section/Authentication:/OAuth2.0'\n  scopes: []\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/garner-health/refs/heads/main/authentication/garner-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/garner-health/authentication/garner-health-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: Huly Platform SDK
   slug: huly-platform-sdk
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/_original/huly-openapi.yml
+  url: https://artifacts.apis.io/huly/openapi/_original/huly-openapi.yml
 - filename: huly-openapi.yml
   format: yaml
   label: Huly Cloud
   slug: huly-cloud
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/_original/huly-openapi.yml
+  url: https://artifacts.apis.io/huly/openapi/_original/huly-openapi.yml
 - filename: huly-openapi.yml
   format: yaml
   label: Huly Tracker
   slug: huly-tracker
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/_original/huly-openapi.yml
+  url: https://artifacts.apis.io/huly/openapi/_original/huly-openapi.yml
 - filename: huly-openapi.yml
   format: yaml
   label: Huly Documents
   slug: huly-documents
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/openapi/_original/huly-openapi.yml
+  url: https://artifacts.apis.io/huly/openapi/_original/huly-openapi.yml
 description: ''
 domains:
 - caa:
@@ -58,7 +58,7 @@ source_filename: huly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: huly.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 10:02:15 2026 GMT\n  hsts: false\ndomains:\n- domain: huly.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/huly/refs/heads/main/security/huly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/huly/security/huly-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Project Management

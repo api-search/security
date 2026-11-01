@@ -5,37 +5,37 @@ api_specs:
   label: Starling Bank ATM API
   slug: starling-bank-atm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-atm-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-atm-api-openapi.yml
 - filename: starling-bank-bca-api-openapi.yml
   format: yaml
   label: Starling Bank BCA API
   slug: starling-bank-bca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-bca-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-bca-api-openapi.yml
 - filename: starling-bank-branch-api-openapi.yml
   format: yaml
   label: Starling Bank Branch API
   slug: starling-bank-branch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-branch-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-branch-api-openapi.yml
 - filename: starling-bank-ccc-api-openapi.yml
   format: yaml
   label: Starling Bank CCC API
   slug: starling-bank-ccc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-ccc-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-ccc-api-openapi.yml
 - filename: starling-bank-pca-api-openapi.yml
   format: yaml
   label: Starling Bank PCA API
   slug: starling-bank-pca-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-pca-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-pca-api-openapi.yml
 - filename: starling-bank-sme-api-openapi.yml
   format: yaml
   label: Starling Bank SME API
   slug: starling-bank-sme-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/openapi/starling-bank-sme-api-openapi.yml
+  url: https://artifacts.apis.io/starling-bank/openapi/starling-bank-sme-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: starling-bank-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.starlingbank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 12:06:52 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.starlingbank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 12:06:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.starlingbank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 27 12:06:52 2026 GMT\n  hsts: null\ndomains:\n- domain: starlingbank.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/starling-bank/refs/heads/main/security/starling-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/starling-bank/security/starling-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Financial Services

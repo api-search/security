@@ -27,7 +27,7 @@ source_filename: bascom-hunter-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bascomhunter.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 03:36:31 2026 GMT\n  hsts: false\ndomains:\n- domain: bascomhunter.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bascom-hunter/refs/heads/main/security/bascom-hunter-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bascom-hunter/security/bascom-hunter-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

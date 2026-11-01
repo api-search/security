@@ -8,43 +8,43 @@ api_specs:
   label: Uppsala University BattleDeaths API
   slug: uppsala-battledeaths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-battledeaths-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-battledeaths-api-openapi.yml
 - filename: uppsala-dyadic-api-openapi.yml
   format: yaml
   label: Uppsala University Dyadic API
   slug: uppsala-dyadic-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-dyadic-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-dyadic-api-openapi.yml
 - filename: uppsala-gedevents-api-openapi.yml
   format: yaml
   label: Uppsala University GEDEvents API
   slug: uppsala-gedevents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-gedevents-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-gedevents-api-openapi.yml
 - filename: uppsala-nonstate-api-openapi.yml
   format: yaml
   label: Uppsala University NonState API
   slug: uppsala-nonstate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-nonstate-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-nonstate-api-openapi.yml
 - filename: uppsala-onesided-api-openapi.yml
   format: yaml
   label: Uppsala University OneSided API
   slug: uppsala-onesided-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-onesided-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-onesided-api-openapi.yml
 - filename: uppsala-organizedviolencecy-api-openapi.yml
   format: yaml
   label: Uppsala University OrganizedViolenceCY API
   slug: uppsala-organizedviolencecy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-organizedviolencecy-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-organizedviolencecy-api-openapi.yml
 - filename: uppsala-ucdpprioconflict-api-openapi.yml
   format: yaml
   label: Uppsala University UcdpPrioConflict API
   slug: uppsala-ucdpprioconflict-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/openapi/uppsala-ucdpprioconflict-api-openapi.yml
+  url: https://artifacts.apis.io/uppsala/openapi/uppsala-ucdpprioconflict-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: uppsala-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/uppsala-ucdp.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiToken\n  type: apiKey\n  in: header\n  parameter: x-ucdp-access-token\n  description: UCDP API token sent in x-ucdp-access-token header\n  sources:\n  - openapi/uppsala-ucdp.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/authentication/uppsala-authentication.yml
+source_yaml_url: https://artifacts.apis.io/uppsala/authentication/uppsala-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - University

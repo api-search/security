@@ -7,19 +7,19 @@ api_specs:
   label: StreamNative Cloud Streamnative Io V1alpha1 API
   slug: streamnative-cloudstreamnativeio-v1alpha1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamnative/refs/heads/main/openapi/streamnative-cloudstreamnativeio-v1alpha1-api-openapi.yml
+  url: https://artifacts.apis.io/streamnative/openapi/streamnative-cloudstreamnativeio-v1alpha1-api-openapi.yml
 - filename: streamnative-ksn-consumer-group-api-openapi.yml
   format: yaml
   label: StreamNative Ksn Consumer Group API
   slug: streamnative-ksn-consumer-group-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamnative/refs/heads/main/openapi/streamnative-ksn-consumer-group-api-openapi.yml
+  url: https://artifacts.apis.io/streamnative/openapi/streamnative-ksn-consumer-group-api-openapi.yml
 - filename: streamnative-ksn-topics-api-openapi.yml
   format: yaml
   label: StreamNative Ksn Topics API
   slug: streamnative-ksn-topics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamnative/refs/heads/main/openapi/streamnative-ksn-topics-api-openapi.yml
+  url: https://artifacts.apis.io/streamnative/openapi/streamnative-ksn-topics-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -51,7 +51,7 @@ source_filename: streamnative-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: searched\nsource: https://docs.streamnative.io/api-references/cloudapi/cloud-api\ndocs: https://docs.streamnative.io/api-references/cloudapi/cloud-api\nsummary: >-\n  \"StreamNative cloud supports OAuth2 authentication to managing cloud resources.\" The Cloud API uses the\n  OAuth2 client credential flow against https://auth.streamnative.cloud/oauth/token with a service account\n  downloaded from the console; the Kafka REST API is called with 'Authorization: Bearer <your-token>'.\nschemes:\n- name: oauth2ClientCredentials\n  type: oauth2\n  flow: clientCredentials\n  tokenUrl: https://auth.streamnative.cloud/oauth/token\n  applies_to: [StreamNative Cloud API]\n- name: bearerToken\n  type: http\n  scheme: bearer\n  applies_to: [StreamNative Kafka REST API]\n  source: https://docs.streamnative.io/cloud/build/kafka-clients/kafka-rest-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamnative/refs/heads/main/authentication/streamnative-authentication.yml
+source_yaml_url: https://artifacts.apis.io/streamnative/authentication/streamnative-authentication.yml
 summary_line: 2 schemes
 tags:
 - Company

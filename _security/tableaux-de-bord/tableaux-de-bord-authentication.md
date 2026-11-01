@@ -8,49 +8,49 @@ api_specs:
   label: Tableaux De Bord Alerting API
   slug: tableaux-de-bord-alerting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-alerting-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-alerting-api-openapi.yml
 - filename: tableaux-de-bord-annotations-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Annotations API
   slug: tableaux-de-bord-annotations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-annotations-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-annotations-api-openapi.yml
 - filename: tableaux-de-bord-dashboards-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Dashboards API
   slug: tableaux-de-bord-dashboards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-dashboards-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-dashboards-api-openapi.yml
 - filename: tableaux-de-bord-folders-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Folders API
   slug: tableaux-de-bord-folders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-folders-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-folders-api-openapi.yml
 - filename: tableaux-de-bord-organizations-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Organizations API
   slug: tableaux-de-bord-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-organizations-api-openapi.yml
 - filename: tableaux-de-bord-teams-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Teams API
   slug: tableaux-de-bord-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-teams-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-teams-api-openapi.yml
 - filename: tableaux-de-bord-users-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Users API
   slug: tableaux-de-bord-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-users-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-users-api-openapi.yml
 - filename: tableaux-de-bord-data-sources-api-openapi.yml
   format: yaml
   label: Tableaux De Bord Data Sources API
   slug: tableaux-de-bord-data-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/openapi/tableaux-de-bord-data-sources-api-openapi.yml
+  url: https://artifacts.apis.io/tableaux-de-bord/openapi/tableaux-de-bord-data-sources-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -85,7 +85,7 @@ source_filename: tableaux-de-bord-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/grafana-dashboard-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: Basic auth with Grafana username and password\n  sources:\n  - openapi/grafana-dashboard-openapi.yml\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key authentication using 'Bearer {api-key}'\n  sources:\n  - openapi/grafana-dashboard-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/authentication/tableaux-de-bord-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tableaux-de-bord/authentication/tableaux-de-bord-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Dashboards

@@ -5,31 +5,31 @@ api_specs:
   label: Red Hat Satellite Content Views API
   slug: red-hat-satellite-content-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-content-views-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-content-views-api-openapi.yml
 - filename: red-hat-satellite-hosts-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Hosts API
   slug: red-hat-satellite-hosts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-hosts-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-hosts-api-openapi.yml
 - filename: red-hat-satellite-lifecycle-environments-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Lifecycle Environments API
   slug: red-hat-satellite-lifecycle-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-lifecycle-environments-api-openapi.yml
 - filename: red-hat-satellite-organizations-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Organizations API
   slug: red-hat-satellite-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-organizations-api-openapi.yml
 - filename: red-hat-satellite-subscriptions-api-openapi.yml
   format: yaml
   label: Red Hat Satellite Subscriptions API
   slug: red-hat-satellite-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/openapi/red-hat-satellite-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/red-hat-satellite/openapi/red-hat-satellite-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -78,7 +78,7 @@ source_filename: red-hat-satellite-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: access.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 27 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 86400\n- host: docs.redhat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: null\n- host: theforeman.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 18 07:00:20 2027 GMT\n  hsts: false\ndomains:\n- domain: redhat.com\n  dnssec: false\n  caa:\n  - 0 iodef \"mailto:it-cert-admin@redhat.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: theforeman.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/red-hat-satellite/refs/heads/main/security/red-hat-satellite-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/red-hat-satellite/security/red-hat-satellite-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Configuration Management

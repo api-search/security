@@ -7,7 +7,7 @@ api_specs:
   label: Presto Foundation Statement API
   slug: presto-foundation-statement-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/openapi/presto-foundation-statement-api-openapi.yml
+  url: https://artifacts.apis.io/presto-foundation/openapi/presto-foundation-statement-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -46,7 +46,7 @@ source_filename: presto-foundation-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/presto-foundation-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Basic auth, typically used with LDAP or password-file authenticators.\n  sources:\n  - openapi/presto-foundation-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://example.com/oauth/authorize\n    tokenUrl: https://example.com/oauth/token\n    scopes: 0\n  description: OAuth 2.0 authenticator (when enabled on the coordinator).\n  sources:\n  - openapi/presto-foundation-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/presto-foundation/refs/heads/main/authentication/presto-foundation-authentication.yml
+source_yaml_url: https://artifacts.apis.io/presto-foundation/authentication/presto-foundation-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Analytics

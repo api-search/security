@@ -7,37 +7,37 @@ api_specs:
   label: Jodo Webhooks
   slug: jodo-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/asyncapi/jodo-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/jodo/asyncapi/jodo-webhooks-asyncapi.yml
 - filename: jodo-configuration-api-openapi.yml
   format: yaml
   label: Jodo Configuration API
   slug: jodo-configuration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-configuration-api-openapi.yml
+  url: https://artifacts.apis.io/jodo/openapi/jodo-configuration-api-openapi.yml
 - filename: jodo-flex-api-openapi.yml
   format: yaml
   label: Jodo Flex API
   slug: jodo-flex-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-flex-api-openapi.yml
+  url: https://artifacts.apis.io/jodo/openapi/jodo-flex-api-openapi.yml
 - filename: jodo-pay-api-openapi.yml
   format: yaml
   label: Jodo Pay API
   slug: jodo-pay-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-pay-api-openapi.yml
+  url: https://artifacts.apis.io/jodo/openapi/jodo-pay-api-openapi.yml
 - filename: jodo-students-api-openapi.yml
   format: yaml
   label: Jodo Students API
   slug: jodo-students-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-students-api-openapi.yml
+  url: https://artifacts.apis.io/jodo/openapi/jodo-students-api-openapi.yml
 - filename: jodo-users-api-openapi.yml
   format: yaml
   label: Jodo Users API
   slug: jodo-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/openapi/jodo-users-api-openapi.yml
+  url: https://artifacts.apis.io/jodo/openapi/jodo-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -77,7 +77,7 @@ source_yaml: "generated: '2026-08-23'\nmethod: searched\nsource: https://docs.jo
   \ All Jodo APIs are authenticated using HTTP Basic Auth. Jodo shares separate API keys and secrets\n    for the UAT/sandbox and production environments. Applied globally in the spec — every documented\n    operation requires it.\n  docs: https://docs.jodo.in/getting-started/authentication/\n  applies_to: all operations\n  sources:\n  - openapi/jodo-integrations-openapi.yml\n  - https://docs.jodo.in/getting-started/api-structure/\n  provider_guidance:\n  - 'Docs caution: \"Do not expose API keys or secrets in browsers, mobile apps, or client-side code.\"'\n  - >-\n    The Android, React Native and Web platform guides all instruct the integrator to mint the\n    hosted-flow redirect_url from their own backend rather than calling Jodo from client code.\n  code_snippet_note: >-\n    Several reference pages show credentials embedded in the URL userinfo\n    (https://JODO_API_KEY:JODO_API_SECRET@JODO_API_HOST/...). This works but leaks credentials into\n    logs, shell history and proxy traces;\
   \ the Authorization header form shown elsewhere in the same\n    docs is the safer pattern.\nend_user_delegation:\n  mechanism: short-lived access token for Jodo-hosted flows\n  description: >-\n    Separate from API authentication. GET /api/v1/integrations/erp/users/{registration_id}/access_token\n    returns an access_token plus expires_at, used to redirect a parent or student into a Jodo-hosted\n    experience at https://[base_url]/consumer/login-redirect?access_token=<token>. This token\n    authenticates the END USER into Jodo's hosted UI; it is not an API credential and cannot be used\n    against the ERP integration endpoints.\n  docs: https://docs.jodo.in/user/api/get-access-token/\nwebhook_authentication:\n  direction: inbound to the integrator\n  mechanisms:\n  - name: HMAC signature\n    header: X-Jodo-Signature\n    algorithm: HMAC SHA-256 hex digest over the raw request body\n    secret: shared secret_key configured per subscription on POST /api/v1/integrations/erp/webhooks\n\
   \  - name: custom header\n    description: An agreed header_key/header_value pair Jodo sends with webhook requests.\n  - name: source IP allowlist\n    production: [3.6.234.242, 3.111.80.40, 13.232.24.175, 43.204.202.190]\n    uat: [3.108.86.33, 13.127.40.177, 65.0.77.215]\n  docs: https://docs.jodo.in/webhooks/security/\ngaps:\n- No OAuth 2.0 or OpenID Connect surface, therefore no scopes and no delegated third-party access.\n- No documented key rotation procedure, key expiry, or credential lifecycle.\n- No documented mTLS option despite the API carrying payment and lending instructions.\n- >-\n  Basic Auth credentials are institute-wide: an ERP integration that only needs to read configuration\n  holds the same credential that can create payment links and cancel payments.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jodo/refs/heads/main/authentication/jodo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/jodo/authentication/jodo-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -8,25 +8,25 @@ api_specs:
   label: Documenso Documents API
   slug: documenso-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-documents-api-openapi.yml
+  url: https://artifacts.apis.io/documenso/openapi/documenso-documents-api-openapi.yml
 - filename: documenso-fields-api-openapi.yml
   format: yaml
   label: Documenso Fields API
   slug: documenso-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-fields-api-openapi.yml
+  url: https://artifacts.apis.io/documenso/openapi/documenso-fields-api-openapi.yml
 - filename: documenso-recipients-api-openapi.yml
   format: yaml
   label: Documenso Recipients API
   slug: documenso-recipients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-recipients-api-openapi.yml
+  url: https://artifacts.apis.io/documenso/openapi/documenso-recipients-api-openapi.yml
 - filename: documenso-templates-api-openapi.yml
   format: yaml
   label: Documenso Templates API
   slug: documenso-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/openapi/documenso-templates-api-openapi.yml
+  url: https://artifacts.apis.io/documenso/openapi/documenso-templates-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: documenso-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/documenso-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API token issued from the Documenso dashboard, sent in the Authorization header\n    (format `api_xxxxxxxx`).\n  sources:\n  - openapi/documenso-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/documenso/refs/heads/main/authentication/documenso-authentication.yml
+source_yaml_url: https://artifacts.apis.io/documenso/authentication/documenso-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - E-Signature

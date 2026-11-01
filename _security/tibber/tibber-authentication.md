@@ -7,25 +7,25 @@ api_specs:
   label: Tibber Devices API
   slug: tibber-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-devices-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-devices-api-openapi.yml
 - filename: tibber-history-api-openapi.yml
   format: yaml
   label: Tibber History API
   slug: tibber-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-history-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-history-api-openapi.yml
 - filename: tibber-homes-api-openapi.yml
   format: yaml
   label: Tibber Homes API
   slug: tibber-homes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-homes-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-homes-api-openapi.yml
 - filename: tibber-graph-ql-api-openapi.yml
   format: yaml
   label: Tibber Graph QL API
   slug: tibber-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/openapi/tibber-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/tibber/openapi/tibber-graph-ql-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -65,7 +65,7 @@ source_filename: tibber-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/tibber-data-api-openapi.yml, openapi/tibber-graphql-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://thewall.tibber.com/connect/authorize\n    tokenUrl: https://thewall.tibber.com/connect/token\n    scopes: 11\n  description: OAuth 2.0 Authorization Code Flow with optional PKCE.\n  sources:\n  - openapi/tibber-data-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Personal access token issued at https://developer.tibber.com/settings/access-token.\n  sources:\n  - openapi/tibber-graphql-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/authentication/tibber-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tibber/authentication/tibber-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Energy

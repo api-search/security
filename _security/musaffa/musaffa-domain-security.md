@@ -37,7 +37,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: musaffa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 06:06:35 2026 GMT\n  hsts: false\n- host: api.musaffa.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 17:42:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: platform.musaffa.com\n  https: false\n  probe_note: >-\n    Recorded as https:false because neither `openssl s_client` nor curl could complete a clean TLS\n    session with this host on 2026-08-26 (curl reported HTTP status 000, no certificate could be\n    read). The host DOES serve content over https — a 938KB Next.js SPA shell came back for every\n    path tried — but the connection terminates abnormally, so no TLS version, certificate expiry or\n    HSTS value could be measured. Treat this as an unmeasured host, not as a plaintext one.\ndomains:\n- domain: musaffa.com\n  dnssec: false\n  caa: []\n\
   \  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/musaffa/refs/heads/main/security/musaffa-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/musaffa/security/musaffa-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Islamic Finance

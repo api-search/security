@@ -8,7 +8,7 @@ api_specs:
   label: PreAuth (Instacash) Orders API
   slug: preauth-instacash-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/openapi/preauth-instacash-orders-api-openapi.yml
+  url: https://artifacts.apis.io/preauth-instacash/openapi/preauth-instacash-orders-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: preauth-instacash-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.preauth.io/api-rest.md ; https://docs.preauth.io/primeros-pasos.md\ndocs: https://docs.preauth.io/api-rest.md#autenticacion\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nschemes:\n  - name: apiToken\n    type: apiKey\n    in: header\n    parameter_name: x-auth-token\n    description: >-\n      API token sent in the x-auth-token header on every request. Issued in the\n      developer panel (https://dashboard.preauth.io/panel/devs). Test tokens carry a\n      token_test_ prefix; production tokens are issued after a certification call.\n    sources: [openapi/preauth-instacash-orders-openapi.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/preauth-instacash/refs/heads/main/authentication/preauth-instacash-authentication.yml
+source_yaml_url: https://artifacts.apis.io/preauth-instacash/authentication/preauth-instacash-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

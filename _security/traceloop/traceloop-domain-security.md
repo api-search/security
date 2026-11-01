@@ -5,25 +5,25 @@ api_specs:
   label: Traceloop Auto Monitor Setups API
   slug: traceloop-auto-monitor-setups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-auto-monitor-setups-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-auto-monitor-setups-api-openapi.yml
 - filename: traceloop-evaluators-api-openapi.yml
   format: yaml
   label: Traceloop Evaluators API
   slug: traceloop-evaluators-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-evaluators-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-evaluators-api-openapi.yml
 - filename: traceloop-metrics-api-openapi.yml
   format: yaml
   label: Traceloop Metrics API
   slug: traceloop-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-metrics-api-openapi.yml
 - filename: traceloop-organizations-api-openapi.yml
   format: yaml
   label: Traceloop Organizations API
   slug: traceloop-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/openapi/traceloop-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/traceloop/openapi/traceloop-organizations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: traceloop-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.traceloop.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 20:48:08 2026 GMT\n  hsts: null\n- host: api.traceloop.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 12 12:10:43 2026 GMT\n  hsts: null\ndomains:\n- domain: traceloop.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/traceloop/refs/heads/main/security/traceloop-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/traceloop/security/traceloop-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - LLM Observability

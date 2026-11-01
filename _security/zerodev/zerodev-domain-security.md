@@ -5,7 +5,7 @@ api_specs:
   label: ZeroDev JSON-RPC API
   slug: zerodev-json-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/openapi/zerodev-json-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/zerodev/openapi/zerodev-json-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: zerodev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zerodev.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 15:30:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.zerodev.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 19:54:00 2026 GMT\n  hsts: false\n- host: rpc.zerodev.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 04:07:02 2026 GMT\n  hsts: null\ndomains:\n- domain: zerodev.app\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zerodev/refs/heads/main/security/zerodev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zerodev/security/zerodev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Account Abstraction

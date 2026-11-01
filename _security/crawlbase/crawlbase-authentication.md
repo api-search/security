@@ -7,31 +7,31 @@ api_specs:
   label: Crawlbase Crawling API
   slug: crawlbase-crawling-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-crawling-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-crawling-api-api-openapi.yml
 - filename: crawlbase-leads-api-api-openapi.yml
   format: yaml
   label: Crawlbase Leads API
   slug: crawlbase-leads-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-leads-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-leads-api-api-openapi.yml
 - filename: crawlbase-scraper-api-api-openapi.yml
   format: yaml
   label: Crawlbase Scraper API
   slug: crawlbase-scraper-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-scraper-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-scraper-api-api-openapi.yml
 - filename: crawlbase-screenshots-api-api-openapi.yml
   format: yaml
   label: Crawlbase Screenshots API
   slug: crawlbase-screenshots-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-screenshots-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-screenshots-api-api-openapi.yml
 - filename: crawlbase-storage-api-api-openapi.yml
   format: yaml
   label: Crawlbase Storage API
   slug: crawlbase-storage-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/openapi/crawlbase-storage-api-api-openapi.yml
+  url: https://artifacts.apis.io/crawlbase/openapi/crawlbase-storage-api-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://crawlbase.com/docs/crawling-api/\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: query\n  parameterName: token\n  description: >-\n    Crawlbase authenticates every request with a `token` query parameter (for\n    example `?token=YOUR_TOKEN`), not an Authorization header. Each account is\n    issued two tokens: a Normal (TCP) token for static HTML/JSON responses, and\n    a JavaScript token that renders the target in headless Chrome. The Scraper\n    and Screenshots APIs require the JavaScript token when rendering is involved.\n    The same token model applies across the Crawling, Scraper, Storage,\n    Screenshots, and Leads products. Crawlbase also supports a proxy interface\n    (smartproxy.crawlbase.com) where the token is supplied as the proxy username.\n  tokenTypes:\n  - name: Normal (TCP) token\n    use: Static HTML/JSON pages; faster and cheaper.\n  - name: JavaScript token\n\
   \    use: SPAs, client-side rendering, lazy-loaded content, screenshots; renders in headless Chrome.\n  sources:\n  - https://crawlbase.com/docs/crawling-api/\n  - https://crawlbase.com/docs/scraper-api/\n  - https://crawlbase.com/docs/screenshots-api/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crawlbase/refs/heads/main/authentication/crawlbase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crawlbase/authentication/crawlbase-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Web Scraping

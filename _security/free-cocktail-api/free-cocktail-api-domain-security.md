@@ -5,31 +5,31 @@ api_specs:
   label: Free Cocktail API Filter API
   slug: free-cocktail-api-filter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-filter-api-openapi.yml
-- filename: free-cocktail-api-list-api-openapi.yml
-  format: yaml
-  label: Free Cocktail API List API
-  slug: free-cocktail-api-list-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-list-api-openapi.yml
+  url: https://artifacts.apis.io/free-cocktail-api/openapi/free-cocktail-api-filter-api-openapi.yml
 - filename: free-cocktail-api-lookup-api-openapi.yml
   format: yaml
   label: Free Cocktail API Lookup API
   slug: free-cocktail-api-lookup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-lookup-api-openapi.yml
-- filename: free-cocktail-api-random-api-openapi.yml
-  format: yaml
-  label: Free Cocktail API Random API
-  slug: free-cocktail-api-random-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-random-api-openapi.yml
+  url: https://artifacts.apis.io/free-cocktail-api/openapi/free-cocktail-api-lookup-api-openapi.yml
 - filename: free-cocktail-api-search-api-openapi.yml
   format: yaml
   label: Free Cocktail API Search API
   slug: free-cocktail-api-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/openapi/free-cocktail-api-search-api-openapi.yml
+  url: https://artifacts.apis.io/free-cocktail-api/openapi/free-cocktail-api-search-api-openapi.yml
+- filename: free-cocktail-api-discovery-api-openapi.yml
+  format: yaml
+  label: Free Cocktail API Discovery API
+  slug: free-cocktail-api-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/free-cocktail-api/openapi/free-cocktail-api-discovery-api-openapi.yml
+- filename: free-cocktail-api-lists-api-openapi.yml
+  format: yaml
+  label: Free Cocktail API Lists API
+  slug: free-cocktail-api-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/free-cocktail-api/openapi/free-cocktail-api-lists-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: free-cocktail-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.thecocktaildb.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 31 02:18:02 2026 GMT\n  hsts: false\ndomains:\n- domain: thecocktaildb.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/free-cocktail-api/refs/heads/main/security/free-cocktail-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/free-cocktail-api/security/free-cocktail-api-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Beverages

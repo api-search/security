@@ -2,54 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: doppler-auth-api-openapi.yml
+- filename: doppler-workplace-api-openapi.yml
   format: yaml
-  label: Doppler Auth API
-  slug: doppler-auth-api
+  label: Doppler Workplace API
+  slug: doppler-workplace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-auth-api-openapi.yml
-- filename: doppler-configs-api-openapi.yml
-  format: yaml
-  label: Doppler Configs API
-  slug: doppler-configs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-configs-api-openapi.yml
-- filename: doppler-environments-api-openapi.yml
-  format: yaml
-  label: Doppler Environments API
-  slug: doppler-environments-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-environments-api-openapi.yml
-- filename: doppler-projects-api-openapi.yml
-  format: yaml
-  label: Doppler Projects API
-  slug: doppler-projects-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-projects-api-openapi.yml
-- filename: doppler-secrets-api-openapi.yml
-  format: yaml
-  label: Doppler Secrets API
-  slug: doppler-secrets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-secrets-api-openapi.yml
-- filename: doppler-webhooks-api-openapi.yml
-  format: yaml
-  label: Doppler Webhooks API
-  slug: doppler-webhooks-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-webhooks-api-openapi.yml
-- filename: doppler-activity-logs-api-openapi.yml
-  format: yaml
-  label: Doppler Activity Logs API
-  slug: doppler-activity-logs-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-activity-logs-api-openapi.yml
-- filename: doppler-service-tokens-api-openapi.yml
-  format: yaml
-  label: Doppler Service Tokens API
-  slug: doppler-service-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/openapi/doppler-service-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/doppler/openapi/doppler-workplace-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -76,7 +34,7 @@ source_filename: doppler-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/doppler-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: Doppler API Token\n  sources:\n  - openapi/doppler-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doppler/refs/heads/main/authentication/doppler-authentication.yml
+source_yaml_url: https://artifacts.apis.io/doppler/authentication/doppler-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Secrets Management

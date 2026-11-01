@@ -5,31 +5,31 @@ api_specs:
   label: Upbound Control Planes API
   slug: upbound-control-planes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-control-planes-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-control-planes-api-openapi.yml
 - filename: upbound-organizations-api-openapi.yml
   format: yaml
   label: Upbound Organizations API
   slug: upbound-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-organizations-api-openapi.yml
 - filename: upbound-repositories-api-openapi.yml
   format: yaml
   label: Upbound Repositories API
   slug: upbound-repositories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-repositories-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-repositories-api-openapi.yml
 - filename: upbound-robots-api-openapi.yml
   format: yaml
   label: Upbound Robots API
   slug: upbound-robots-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-robots-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-robots-api-openapi.yml
 - filename: upbound-teams-api-openapi.yml
   format: yaml
   label: Upbound Teams API
   slug: upbound-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/openapi/upbound-teams-api-openapi.yml
+  url: https://artifacts.apis.io/upbound/openapi/upbound-teams-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -47,7 +47,7 @@ source_filename: upbound-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.upbound.io/\nurl: https://trust.upbound.io/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.upbound.io/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/security/upbound-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/upbound/security/upbound-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Cloud Infrastructure

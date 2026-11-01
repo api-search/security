@@ -5,13 +5,13 @@ api_specs:
   label: Vertica Health API
   slug: vertica-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertica/refs/heads/main/openapi/vertica-health-api-openapi.yml
+  url: https://artifacts.apis.io/vertica/openapi/vertica-health-api-openapi.yml
 - filename: vertica-lifecycle-api-openapi.yml
   format: yaml
   label: Vertica Lifecycle API
   slug: vertica-lifecycle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertica/refs/heads/main/openapi/vertica-lifecycle-api-openapi.yml
+  url: https://artifacts.apis.io/vertica/openapi/vertica-lifecycle-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: vertica-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vertica.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 21:30:49 2026 GMT\n  hsts: null\n- host: docs.vertica.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  9 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: vertica.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vertica/refs/heads/main/security/vertica-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vertica/security/vertica-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Database

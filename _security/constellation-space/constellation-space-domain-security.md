@@ -5,19 +5,19 @@ api_specs:
   label: Constellation Space Predictions API
   slug: constellation-space-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/constellation-space/openapi/constellation-space-predictions-api-openapi.yml
 - filename: constellation-space-telemetry-api-openapi.yml
   format: yaml
   label: Constellation Space Telemetry API
   slug: constellation-space-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/constellation-space/openapi/constellation-space-telemetry-api-openapi.yml
 - filename: constellation-space-topology-api-openapi.yml
   format: yaml
   label: Constellation Space Topology API
   slug: constellation-space-topology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/openapi/constellation-space-topology-api-openapi.yml
+  url: https://artifacts.apis.io/constellation-space/openapi/constellation-space-topology-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -60,7 +60,7 @@ source_filename: constellation-space-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: constellation.space\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 23:59:59 2026 GMT\n  hsts: false\n- host: docs.constellation.space\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: false\n- host: api.constellation.space\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: constellation.space\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/security/constellation-space-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/constellation-space/security/constellation-space-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

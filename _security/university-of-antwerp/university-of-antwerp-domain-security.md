@@ -5,7 +5,7 @@ api_specs:
   label: University of Antwerp IRUA OAI PMH Metadata Interface API
   slug: university-of-antwerp-irua-oai-pmh-metadata-interface-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/openapi/university-of-antwerp-irua-oai-pmh-metadata-interface-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-antwerp/openapi/university-of-antwerp-irua-oai-pmh-metadata-interface-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -49,7 +49,7 @@ source_filename: university-of-antwerp-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uantwerpen.be\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 11:23:08 2026 GMT\n  hsts: false\n- host: www.openarchives.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 12 23:59:59 2026 GMT\n  hsts: false\n- host: repository.uantwerpen.be\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: uantwerpen.be\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: openarchives.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-antwerp/refs/heads/main/security/university-of-antwerp-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-antwerp/security/university-of-antwerp-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Education

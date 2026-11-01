@@ -5,55 +5,55 @@ api_specs:
   label: ServGhost Agent API Account API
   slug: servghost-agent-api-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-account-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-account-api-openapi.yml
 - filename: servghost-agent-api-catalog-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Catalog API
   slug: servghost-agent-api-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-catalog-api-openapi.yml
 - filename: servghost-agent-api-domains-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Domains API
   slug: servghost-agent-api-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-domains-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-domains-api-openapi.yml
 - filename: servghost-agent-api-locations-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Locations API
   slug: servghost-agent-api-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-locations-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-locations-api-openapi.yml
 - filename: servghost-agent-api-orders-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Orders API
   slug: servghost-agent-api-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-orders-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-orders-api-openapi.yml
 - filename: servghost-agent-api-quote-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Quote API
   slug: servghost-agent-api-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-quote-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-quote-api-openapi.yml
 - filename: servghost-agent-api-servers-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Servers API
   slug: servghost-agent-api-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-servers-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-servers-api-openapi.yml
 - filename: servghost-agent-api-servghost-agent-api-api-openapi.yml
   format: yaml
   label: ServGhost Agent API ServGhost Agent API
   slug: servghost-agent-api-servghost-agent-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-servghost-agent-api-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-servghost-agent-api-api-openapi.yml
 - filename: servghost-agent-api-top-up-api-openapi.yml
   format: yaml
   label: ServGhost Agent API Top Up API
   slug: servghost-agent-api-top-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/openapi/servghost-agent-api-top-up-api-openapi.yml
+  url: https://artifacts.apis.io/servghost-agent-api/openapi/servghost-agent-api-top-up-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_filename: servghost-agent-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: servghost.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 13 07:25:07 2026 GMT\n  hsts: false\ndomains:\n- domain: servghost.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/servghost-agent-api/refs/heads/main/security/servghost-agent-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/servghost-agent-api/security/servghost-agent-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Cloud Infrastructure

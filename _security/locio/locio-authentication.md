@@ -28,7 +28,7 @@ source_filename: locio-authentication.yml
 source_heading: Authentication Profile
 source_url: https://api.locio.com.au/.well-known/oauth-authorization-server
 source_yaml: "generated: '2026-10-02'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://api.locio.com.au/.well-known/oauth-authorization-server\nsources:\n- https://api.locio.com.au/.well-known/oauth-authorization-server\nschemes:\n- type: oauth2\n  name: OAuth 2.0\n  evidence: '\"grant_types_supported\":[\"authorization_code\"]'\n  flows:\n  - authorization_code\n  authorize_url: https://locio.com.au/account/authorize\n  scopes:\n  - addresses\ndocs: https://api.locio.com.au/.well-known/oauth-authorization-server\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/locio/refs/heads/main/authentication/locio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/locio/authentication/locio-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

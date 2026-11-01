@@ -2,18 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: lucidchart-documents-api-openapi.yml
+- filename: lucidchart-groups-api-openapi.yml
   format: yaml
-  label: Lucidchart Documents API
-  slug: lucidchart-documents-api
+  label: Lucidchart Groups API
+  slug: lucidchart-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-documents-api-openapi.yml
-- filename: lucidchart-folders-api-openapi.yml
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-groups-api-openapi.yml
+- filename: lucidchart-schemas-api-openapi.yml
   format: yaml
-  label: Lucidchart Folders API
-  slug: lucidchart-folders-api
+  label: Lucidchart Schemas API
+  slug: lucidchart-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/openapi/lucidchart-folders-api-openapi.yml
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-schemas-api-openapi.yml
+- filename: lucidchart-service-provider-config-api-openapi.yml
+  format: yaml
+  label: Lucidchart Service Provider Config API
+  slug: lucidchart-service-provider-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-service-provider-config-api-openapi.yml
+- filename: lucidchart-users-api-openapi.yml
+  format: yaml
+  label: Lucidchart Users API
+  slug: lucidchart-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lucidchart/openapi/lucidchart-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +52,7 @@ source_filename: lucidchart-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/lucidchart-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: OAuth 2.0 access token\n  sources:\n  - openapi/lucidchart-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucidchart/refs/heads/main/authentication/lucidchart-authentication.yml
+source_yaml_url: https://artifacts.apis.io/lucidchart/authentication/lucidchart-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Productivity

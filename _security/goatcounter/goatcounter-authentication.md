@@ -8,55 +8,55 @@ api_specs:
   label: GoatCounter Exports API
   slug: goatcounter-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-exports-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-exports-api-openapi.yml
 - filename: goatcounter-pageviews-api-openapi.yml
   format: yaml
   label: GoatCounter Pageviews API
   slug: goatcounter-pageviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-pageviews-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-pageviews-api-openapi.yml
 - filename: goatcounter-paths-api-openapi.yml
   format: yaml
   label: GoatCounter Paths API
   slug: goatcounter-paths-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-paths-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-paths-api-openapi.yml
 - filename: goatcounter-sites-api-openapi.yml
   format: yaml
   label: GoatCounter Sites API
   slug: goatcounter-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-sites-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-sites-api-openapi.yml
 - filename: goatcounter-statistics-api-openapi.yml
   format: yaml
   label: GoatCounter Statistics API
   slug: goatcounter-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-statistics-api-openapi.yml
 - filename: goatcounter-users-api-openapi.yml
   format: yaml
   label: GoatCounter Users API
   slug: goatcounter-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-users-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-users-api-openapi.yml
 - filename: goatcounter-count-api-openapi.yml
   format: yaml
   label: GoatCounter Count API
   slug: goatcounter-count-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-count-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-count-api-openapi.yml
 - filename: goatcounter-export-api-openapi.yml
   format: yaml
   label: GoatCounter Export API
   slug: goatcounter-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-export-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-export-api-openapi.yml
 - filename: goatcounter-stats-api-openapi.yml
   format: yaml
   label: GoatCounter Stats API
   slug: goatcounter-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/openapi/goatcounter-stats-api-openapi.yml
+  url: https://artifacts.apis.io/goatcounter/openapi/goatcounter-stats-api-openapi.yml
 auth_types:
 - http
 description: GoatCounter authenticates the JSON API with a per-site API key. The primary documented scheme is an HTTP bearer token in the Authorization header; HTTP Basic is also accepted with an empty username and the API key as the password, which the docs describe as mostly useful for testing from a browser. Note that the provider-published OpenAPI 2.0 document declares only basicAuth under securityDefinitions, so the bearer scheme — the one the docs lead with — is documented in prose but absent from the machine-readable contract. Both are recorded here.
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
   \ header\n    parameter: Authorization\n    format: 'Authorization: Bearer <token>'\n    documented: true\n    in_spec: false\n    sources:\n      - https://www.goatcounter.com/help/api\n      - openapi/goatcounter-users-api-openapi.yml\n    note: >-\n      The documented primary scheme. Present in the API Evangelist refined OpenAPI files but not\n      in the provider's own api.json, whose securityDefinitions contains basicAuth only.\n  - name: basicAuth\n    type: http\n    scheme: basic\n    in: header\n    parameter: Authorization\n    documented: true\n    in_spec: true\n    username: '(leave empty)'\n    password: 'the API key'\n    sources:\n      - openapi/_original/goatcounter-api-swagger20.json\n      - https://www.goatcounter.com/help/api\n    evidence:\n      probed: '2026-08-13'\n      url: https://stats.arp242.net/api/v0/me\n      response_header: 'www-authenticate: Basic realm=GoatCounter'\ncredential:\n  kind: api-key\n  name: API key / API token\n  issuance: >-\n    Created\
   \ by the account holder in the GoatCounter dashboard under [Username in top menu] -> API.\n  scope: per-site\n  rotation: self-serve (create and delete keys in the dashboard)\n  oauth: false\n  note: >-\n    There is no OAuth or OIDC surface, so there is no scopes/ artifact for this provider. Keys carry\n    a permissions set instead — see permissions below.\npermissions:\n  model: per-key permission flags\n  discoverable_at: GET /api/v0/me\n  schema: goatcounter.APIToken (fields name, permissions, sites)\n  source: openapi/_original/goatcounter-api-swagger20.json\n  note: >-\n    The published OpenAPI types the APIToken object with a permissions field, and the docs state that\n    a key without the needed permission gets 403 Forbidden, but the individual permission names are\n    not enumerated in the public documentation or in the spec. Not guessed here.\nfailure_modes:\n  - status: 401\n    condition: API key missing or incorrect\n    source: https://www.goatcounter.com/help/api\n \
   \ - status: 403\n    condition: API key valid but lacks the needed permissions\n    source: https://www.goatcounter.com/help/api\ntransport:\n  https_required: true\n  content_type: application/json\n  note: All requests must set Content-Type application/json; all responses are JSON unless noted otherwise.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goatcounter/refs/heads/main/authentication/goatcounter-authentication.yml
+source_yaml_url: https://artifacts.apis.io/goatcounter/authentication/goatcounter-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Analytics

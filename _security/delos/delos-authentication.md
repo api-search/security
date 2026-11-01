@@ -8,67 +8,67 @@ api_specs:
   label: Delos Actions API
   slug: delos-actions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-actions-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-actions-api-openapi.yml
 - filename: delos-admin-installations-api-openapi.yml
   format: yaml
   label: Delos Admin/installations API
   slug: delos-admin-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-installations-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-admin-installations-api-openapi.yml
 - filename: delos-admin-products-api-openapi.yml
   format: yaml
   label: Delos Admin/products API
   slug: delos-admin-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-products-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-admin-products-api-openapi.yml
 - filename: delos-admin-products-bundles-api-openapi.yml
   format: yaml
   label: Delos Admin/products Bundles API
   slug: delos-admin-products-bundles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-products-bundles-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-admin-products-bundles-api-openapi.yml
 - filename: delos-admin-users-api-openapi.yml
   format: yaml
   label: Delos Admin/users API
   slug: delos-admin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-admin-users-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-admin-users-api-openapi.yml
 - filename: delos-global-api-openapi.yml
   format: yaml
   label: Delos Global API
   slug: delos-global-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-global-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-global-api-openapi.yml
 - filename: delos-installations-api-openapi.yml
   format: yaml
   label: Delos Installations API
   slug: delos-installations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-installations-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-installations-api-openapi.yml
 - filename: delos-local-accounts-api-openapi.yml
   format: yaml
   label: Delos Local Accounts API
   slug: delos-local-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-local-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-local-accounts-api-openapi.yml
 - filename: delos-products-api-openapi.yml
   format: yaml
   label: Delos Products API
   slug: delos-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-products-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-products-api-openapi.yml
 - filename: delos-sessions-api-openapi.yml
   format: yaml
   label: Delos Sessions API
   slug: delos-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-sessions-api-openapi.yml
 - filename: delos-users-api-openapi.yml
   format: yaml
   label: Delos Users API
   slug: delos-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/openapi/delos-users-api-openapi.yml
+  url: https://artifacts.apis.io/delos/openapi/delos-users-api-openapi.yml
 auth_types:
 - apiKey
 - openIdConnect
@@ -102,7 +102,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: openapi/delos-w
   \ POST https://cloud.wellcube.io/api/v1/limited-sessions/refresh\n  note: >-\n    The newer of the two paths — issues a proper access/refresh pair (components.schemas.AccessData)\n    instead of a bare `jwt`, and is the only operation with an explicit refresh counterpart.\n- flow: federated\n  name: Cognito session exchange (admin)\n  operations: [adminUserCognitoSessionCreate, adminUserLimitedCognitoSessionCreate]\n  endpoints:\n  - POST https://cloud.wellcube.io/api/v1/admin/users/cognito-sessions\n  - POST https://cloud.wellcube.io/api/v1/admin/users/limited-cognito-sessions\n  note: Exchanges an AWS Cognito identity for a Cloud BE session. Admin-scoped.\nidentity_provider:\n  vendor: AWS Cognito\n  user_pool_id: us-east-1_QNxQ6AqaQ\n  region: us-east-1\n  issuer: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_QNxQ6AqaQ\n  discovery: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_QNxQ6AqaQ/.well-known/openid-configuration\n  discovery_status: 200\n  jwks_uri: https://cognito-idp.us-east-1.amazonaws.com/us-east-1_QNxQ6AqaQ/.well-known/jwks.json\n\
   \  scopes_supported: [openid, email, phone, profile]\n  id_token_signing_alg_values_supported: [RS256]\n  source: >-\n    https://app.wellcube.io/config.js — the WellCube web application's public runtime configuration,\n    which names the user pool. The discovery document itself is served by AWS, not by Delos.\n  note: >-\n    The Cognito pool advertises only the four standard OIDC scopes. There is no resource server, no\n    custom scope namespace, and no scope-to-permission mapping anywhere in the OpenAPI — authorization\n    in the Cloud BE API is role/ownership-based (`x-permission-denied` appears on 28 of 39 operations)\n    rather than scope-based. That is why no scopes/ artifact is emitted for this provider.\ngaps:\n- The OpenAPI never documents the token format, lifetime, or refresh semantics of the `Authorization` header value.\n- No `bearerFormat`, no `description` on the security scheme.\n- Local-account operations accept installation credentials (localAccountLink/Share/Transfer\
   \ return\n  `x-wrong-credentials`), a second credential domain the spec does not describe.\n- No published rotation, revocation, or key-management policy for API consumers.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/delos/refs/heads/main/authentication/delos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/delos/authentication/delos-authentication.yml
 summary_line: apiKey/openIdConnect · 1 scheme
 tags:
 - wellness-real-estate

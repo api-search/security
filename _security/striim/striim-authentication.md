@@ -8,43 +8,43 @@ api_specs:
   label: Striim Application API
   slug: striim-application-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-application-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-application-api-openapi.yml
 - filename: striim-applicationmetadata-api-openapi.yml
   format: yaml
   label: Striim Application Metadata API
   slug: striim-applicationmetadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-applicationmetadata-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-applicationmetadata-api-openapi.yml
 - filename: striim-checkpoint-api-openapi.yml
   format: yaml
   label: Striim Checkpoint API
   slug: striim-checkpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-checkpoint-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-checkpoint-api-openapi.yml
 - filename: striim-monitoring-api-openapi.yml
   format: yaml
   label: Striim Monitoring API
   slug: striim-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-monitoring-api-openapi.yml
 - filename: striim-template-api-openapi.yml
   format: yaml
   label: Striim Template API
   slug: striim-template-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-template-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-template-api-openapi.yml
 - filename: striim-tqlfiles-api-openapi.yml
   format: yaml
   label: Striim Tqlfiles API
   slug: striim-tqlfiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-tqlfiles-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-tqlfiles-api-openapi.yml
 - filename: striim-tungsten-api-openapi.yml
   format: yaml
   label: Striim Tungsten API
   slug: striim-tungsten-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/openapi/striim-tungsten-api-openapi.yml
+  url: https://artifacts.apis.io/striim/openapi/striim-tungsten-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -76,7 +76,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: openapi/striim-application-management-rest-api-3-10-1-openapi.yml, openapi/striim-application-management-rest-api-3-10-3-openapi.yml,\n  openapi/striim-tql-files-rest-api-5-4-0-2-openapi.yml ; Authorization article (striim.stoplight.io/docs/striim-application-management/ZG9jOjUxODM1Mjk-authorization)\n  ; https://www.striim.com/docs/en/api-guide.html\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Authorization\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/striim-application-management-rest-api-3-10-1-openapi.yml\n  - openapi/striim-application-management-rest-api-3-10-3-openapi.yml\n  - openapi/striim-tql-files-rest-api-5-4-0-2-openapi.yml\n  format: STRIIM-TOKEN <36-character token>\n  description: 'A 36-character authentication token must be included in all API calls, sent as \"Authorization: STRIIM-TOKEN\n    <token>\". Tokens are obtained from the Striim\
   \ Cloud Console (Services > More > API) or programmatically via\n    a REST login call.'\ndocs: https://www.striim.com/docs/en/api-guide.html\nnotes: The API also accepts the token as a `token` query parameter per the API Guide, but the OpenAPI definitions\n  declare only the Authorization header scheme.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/striim/refs/heads/main/authentication/striim-authentication.yml
+source_yaml_url: https://artifacts.apis.io/striim/authentication/striim-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data

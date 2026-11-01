@@ -26,7 +26,7 @@ source_filename: 28-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sheswell.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 05:46:44 2026 GMT\n  hsts: false\ndomains:\n- domain: sheswell.co\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/28-labs/refs/heads/main/security/28-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/28-labs/security/28-labs-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

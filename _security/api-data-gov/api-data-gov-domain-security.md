@@ -5,79 +5,79 @@ api_specs:
   label: api.data.gov Dataset API
   slug: api-data-gov-dataset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-dataset-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-dataset-api-openapi.yml
 - filename: api-data-gov-harvest-jobs-api-openapi.yml
   format: yaml
   label: api.data.gov Harvest Jobs API
   slug: api-data-gov-harvest-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-harvest-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-harvest-jobs-api-openapi.yml
 - filename: api-data-gov-harvest-records-api-openapi.yml
   format: yaml
   label: api.data.gov Harvest Records API
   slug: api-data-gov-harvest-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-harvest-records-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-harvest-records-api-openapi.yml
 - filename: api-data-gov-harvest-sources-api-openapi.yml
   format: yaml
   label: api.data.gov Harvest Sources API
   slug: api-data-gov-harvest-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-harvest-sources-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-harvest-sources-api-openapi.yml
 - filename: api-data-gov-keywords-api-openapi.yml
   format: yaml
   label: api.data.gov Keywords API
   slug: api-data-gov-keywords-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-keywords-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-keywords-api-openapi.yml
 - filename: api-data-gov-location-api-openapi.yml
   format: yaml
   label: api.data.gov Location API
   slug: api-data-gov-location-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-location-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-location-api-openapi.yml
 - filename: api-data-gov-locations-api-openapi.yml
   format: yaml
   label: api.data.gov Locations API
   slug: api-data-gov-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-locations-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-locations-api-openapi.yml
 - filename: api-data-gov-organizations-api-openapi.yml
   format: yaml
   label: api.data.gov Organizations API
   slug: api-data-gov-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-organizations-api-openapi.yml
 - filename: api-data-gov-publishers-api-openapi.yml
   format: yaml
   label: api.data.gov Publishers API
   slug: api-data-gov-publishers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-publishers-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-publishers-api-openapi.yml
 - filename: api-data-gov-search-api-openapi.yml
   format: yaml
   label: api.data.gov Search API
   slug: api-data-gov-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-search-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-search-api-openapi.yml
 - filename: api-data-gov-stats-api-openapi.yml
   format: yaml
   label: api.data.gov Stats API
   slug: api-data-gov-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-stats-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-stats-api-openapi.yml
 - filename: api-data-gov-validate-api-openapi.yml
   format: yaml
   label: api.data.gov Validate API
   slug: api-data-gov-validate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-validate-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-validate-api-openapi.yml
 - filename: api-data-gov-open-search-api-openapi.yml
   format: yaml
   label: api.data.gov Open Search API
   slug: api-data-gov-open-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/openapi/api-data-gov-open-search-api-openapi.yml
+  url: https://artifacts.apis.io/api-data-gov/openapi/api-data-gov-open-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -113,7 +113,7 @@ source_filename: api-data-gov-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.data.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 14:21:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: data.gov\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-data-gov/refs/heads/main/security/api-data-gov-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/api-data-gov/security/api-data-gov-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

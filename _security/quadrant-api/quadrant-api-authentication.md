@@ -8,7 +8,7 @@ api_specs:
   label: Quadrant API v2 alerts API
   slug: quadrant-api-v2-alerts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quadrant-api/refs/heads/main/openapi/quadrant-api-v2-alerts-api-openapi.yml
+  url: https://artifacts.apis.io/quadrant-api/openapi/quadrant-api-v2-alerts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: quadrant-api-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quadrant-api-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: APIKeyHeader\n  type: apiKey\n  in: header\n  parameter: API-Key\n  sources:\n  - openapi/quadrant-api-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quadrant-api/refs/heads/main/authentication/quadrant-api-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quadrant-api/authentication/quadrant-api-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Alerts

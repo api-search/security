@@ -2,42 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: curated-for-you-chronicle-api-openapi.yml
-  format: yaml
-  label: Curated for You Chronicle API
-  slug: curated-for-you-chronicle-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-chronicle-api-openapi.yml
 - filename: curated-for-you-companies-api-openapi.yml
   format: yaml
   label: Curated for You Companies API
   slug: curated-for-you-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-companies-api-openapi.yml
+  url: https://artifacts.apis.io/curated-for-you/openapi/curated-for-you-companies-api-openapi.yml
 - filename: curated-for-you-curations-api-openapi.yml
   format: yaml
   label: Curated for You Curations API
   slug: curated-for-you-curations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-curations-api-openapi.yml
-- filename: curated-for-you-feedback-api-openapi.yml
-  format: yaml
-  label: Curated for You Feedback API
-  slug: curated-for-you-feedback-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-feedback-api-openapi.yml
-- filename: curated-for-you-shopify-api-openapi.yml
-  format: yaml
-  label: Curated for You Shopify API
-  slug: curated-for-you-shopify-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-shopify-api-openapi.yml
+  url: https://artifacts.apis.io/curated-for-you/openapi/curated-for-you-curations-api-openapi.yml
 - filename: curated-for-you-users-api-openapi.yml
   format: yaml
   label: Curated for You Users API
   slug: curated-for-you-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/openapi/curated-for-you-users-api-openapi.yml
+  url: https://artifacts.apis.io/curated-for-you/openapi/curated-for-you-users-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -77,7 +59,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: https://api.curatedforyou.io/docs\ndocs: https://api.curatedforyou.io/docs\nsummary:\n  types:\n  - oauth2\n  api_key_in: []\n  oauth2_flows:\n  - password\n  note: >-\n    The published OpenAPI (3.1) declares no components.securitySchemes; the\n    authentication contract below is captured from the API Usage Guide in the\n    spec info.description and the live login operation.\nschemes:\n- name: OAuth2Password\n  type: oauth2\n  flow: password\n  token_endpoint: https://api.curatedforyou.io/api/v2/users/login\n  token_request:\n    method: POST\n    content_type: application/x-www-form-urlencoded\n    fields:\n    - username\n    - password\n  bearer:\n    header: Authorization\n    format: Bearer <token>\n  token_ttl_minutes: 30\n  operation: openapi/curated-for-you-openapi-original.yml#login_api_v2_users_login_post\n  sources:\n  - openapi/curated-for-you-openapi-original.yml\nnotes: >-\n  Permissions are provisioned per-organization\
   \ at onboarding; additional\n  permissions are requested through a customer care representative. Access\n  is scoped to the companies a user is granted.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curated-for-you/refs/heads/main/authentication/curated-for-you-authentication.yml
+source_yaml_url: https://artifacts.apis.io/curated-for-you/authentication/curated-for-you-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

@@ -7,19 +7,19 @@ api_specs:
   label: Netwrix Data API
   slug: netwrix-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netwrix/refs/heads/main/openapi/netwrix-data-api-openapi.yml
+  url: https://artifacts.apis.io/netwrix/openapi/netwrix-data-api-openapi.yml
 - filename: netwrix-oauth-api-openapi.yml
   format: yaml
   label: Netwrix OAuth API
   slug: netwrix-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netwrix/refs/heads/main/openapi/netwrix-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/netwrix/openapi/netwrix-oauth-api-openapi.yml
 - filename: netwrix-token-api-openapi.yml
   format: yaml
   label: Netwrix Token API
   slug: netwrix-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/netwrix/refs/heads/main/openapi/netwrix-token-api-openapi.yml
+  url: https://artifacts.apis.io/netwrix/openapi/netwrix-token-api-openapi.yml
 auth_types: []
 description: Authentication for ServiceNow action
 kind: authentication
@@ -43,7 +43,7 @@ source_filename: netwrix-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.netwrix.com/docs/accessanalyzer/11_6/admin/action/servicenow/authentication
 source_yaml: "generated: '2026-10-03'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.netwrix.com/docs/accessanalyzer/11_6/admin/action/servicenow/authentication\nsources:\n- https://docs.netwrix.com/docs/accessanalyzer/11_6/admin/action/servicenow/authentication\n- https://docs.netwrix.com/docs/accessanalyzer/11_6/solutions/databases/sql/configuration/sql_authentication\n- https://docs.netwrix.com/docs/accessanalyzer/11_6/tags/connection-profiles-and-credentials\n- https://docs.netwrix.com/docs/accessanalyzer/11_6/category/connection-profiles-and-credentials\ndescription: Authentication for ServiceNow action\nschemes:\n- type: http-basic\n  name: ServiceNow\n  evidence: User Name/Password – Specify the credentials to access the ServiceNow account\n  how_to_obtain: Enter the ServiceNow username and password in the Enterprise Auditor console’s global setting or in the action configuration\ndocs: https://docs.netwrix.com/docs/accessanalyzer/11_6/admin/action/servicenow/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/netwrix/refs/heads/main/authentication/netwrix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/netwrix/authentication/netwrix-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

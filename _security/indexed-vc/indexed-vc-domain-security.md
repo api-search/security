@@ -5,49 +5,49 @@ api_specs:
   label: Indexed Companies API
   slug: indexed-vc-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-companies-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-companies-api-openapi.yml
 - filename: indexed-vc-enrich-api-openapi.yml
   format: yaml
   label: Indexed Enrich API
   slug: indexed-vc-enrich-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-enrich-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-enrich-api-openapi.yml
 - filename: indexed-vc-industries-api-openapi.yml
   format: yaml
   label: Indexed Industries API
   slug: indexed-vc-industries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-industries-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-industries-api-openapi.yml
 - filename: indexed-vc-investors-api-openapi.yml
   format: yaml
   label: Indexed Investors API
   slug: indexed-vc-investors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-investors-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-investors-api-openapi.yml
 - filename: indexed-vc-reveal-api-openapi.yml
   format: yaml
   label: Indexed Reveal API
   slug: indexed-vc-reveal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-reveal-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-reveal-api-openapi.yml
 - filename: indexed-vc-scheduled-exports-api-openapi.yml
   format: yaml
   label: Indexed Scheduled Exports API
   slug: indexed-vc-scheduled-exports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-scheduled-exports-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-scheduled-exports-api-openapi.yml
 - filename: indexed-vc-usage-api-openapi.yml
   format: yaml
   label: Indexed Usage API
   slug: indexed-vc-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-usage-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-usage-api-openapi.yml
 - filename: indexed-vc-webhooks-api-openapi.yml
   format: yaml
   label: Indexed Webhooks API
   slug: indexed-vc-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/openapi/indexed-vc-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/indexed-vc/openapi/indexed-vc-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ source_filename: indexed-vc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: indexed.vc\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 03:33:23 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: indexed.vc\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/indexed-vc/refs/heads/main/security/indexed-vc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/indexed-vc/security/indexed-vc-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

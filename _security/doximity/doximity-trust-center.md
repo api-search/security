@@ -5,13 +5,13 @@ api_specs:
   label: Doximity OpenID Connect API
   slug: doximity-openid-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-openid-connect-api-openapi.yml
+  url: https://artifacts.apis.io/doximity/openapi/doximity-openid-connect-api-openapi.yml
 - filename: doximity-oauth-api-openapi.yml
   format: yaml
   label: Doximity O Auth API
   slug: doximity-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/openapi/doximity-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/doximity/openapi/doximity-oauth-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2 Type 2
@@ -31,7 +31,7 @@ source_filename: doximity-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://www.doximity.com/about/security\nurl: https://www.doximity.com/about/security\ncertifications:\n- SOC 2 Type 2\n- SOC 3\n- HIPAA\n- HITECH\nevidence:\n- source: https://www.doximity.com/about/security\n  keywords:\n  - soc 2 type 2\n  - soc 3\n  - hipaa\n  - hitech\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/doximity/refs/heads/main/security/doximity-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/doximity/security/doximity-trust-center.yml
 summary_line: SOC 2 Type 2, SOC 3, HIPAA, HITECH
 tags:
 - Company

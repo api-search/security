@@ -8,31 +8,31 @@ api_specs:
   label: Plinth US Grants Data Analyze API
   slug: plinth-us-grants-data-analyze-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/openapi/plinth-us-grants-data-analyze-api-openapi.yml
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-analyze-api-openapi.yml
 - filename: plinth-us-grants-data-grants-api-openapi.yml
   format: yaml
   label: Plinth US Grants Data Grants API
   slug: plinth-us-grants-data-grants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/openapi/plinth-us-grants-data-grants-api-openapi.yml
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-grants-api-openapi.yml
 - filename: plinth-us-grants-data-organizations-api-openapi.yml
   format: yaml
   label: Plinth US Grants Data Organizations API
   slug: plinth-us-grants-data-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/openapi/plinth-us-grants-data-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-organizations-api-openapi.yml
 - filename: plinth-us-grants-data-resolve-api-openapi.yml
   format: yaml
   label: Plinth US Grants Data Resolve API
   slug: plinth-us-grants-data-resolve-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/openapi/plinth-us-grants-data-resolve-api-openapi.yml
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-resolve-api-openapi.yml
 - filename: plinth-us-grants-data-sql-api-openapi.yml
   format: yaml
   label: Plinth US Grants Data SQL API
   slug: plinth-us-grants-data-sql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/openapi/plinth-us-grants-data-sql-api-openapi.yml
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-sql-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -127,7 +127,7 @@ source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://data.us
   \    token_ttl: short-lived; refresh_token grant supported\n    revocation: 'Remove the connector in the assistant, or revoke from https://data.useplinth.com/account.'\n    challenge_observed:\n      url: https://data.useplinth.com/api/connector/mcp\n      status: 401\n      header: >-\n        www-authenticate: Bearer error=\"invalid_token\", error_description=\"No authorization\n        provided\", resource_metadata=\"https://data.useplinth.com/.well-known/oauth-protected-resource\"\n      checked: '2026-08-14'\n    sources:\n      - https://data.useplinth.com/connect\n      - https://data.useplinth.com/.well-known/oauth-authorization-server\n\nanonymous_surface:\n  operation: searchOrganizations\n  path: GET /api/search\n  security: []\n  metered: false\n  evidence: >-\n    Per-operation `security: []` in the OpenAPI overrides the global requirement, and the spec says\n    so in prose: \"**No API key required and not metered.**\" Verified live 2026-08-14: GET\n    /api/search?q=barancik\
   \ returned 200 with a result body and no auth header sent.\n  significance: >-\n    Rare and agent-friendly. Entity resolution — the step that must precede every other call when\n    you have a name rather than an EIN — is free, unkeyed and unmetered. An agent can resolve\n    \"Barancik Foundation\" to EIN 363442474 and a canonical URL before it needs any credential at\n    all. Plinth's own onboarding descriptor calls this \"the intended first call.\"\n\nagent_readiness_notes:\n  can_an_agent_self_provision: false\n  blocker: >-\n    A human must sign in at /account to mint the REST key, and must hold the For consultants plan\n    before the MCP consent step can succeed. The provider documents both as gaps in its own\n    onboarding descriptor rather than leaving an agent to discover them at a 401.\n  strongest_signal: >-\n    The credential requirements are published as MACHINE-READABLE data, not prose: token prefix,\n    env var name, rotation semantics, one-time display, plan gates\
   \ and the registration mechanisms\n    all live in /.well-known/api-onboarding. Very few providers in the catalog publish this.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plinth-us-grants-data/refs/heads/main/authentication/plinth-us-grants-data-authentication.yml
+source_yaml_url: https://artifacts.apis.io/plinth-us-grants-data/authentication/plinth-us-grants-data-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Philanthropy

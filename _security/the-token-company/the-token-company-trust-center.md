@@ -5,13 +5,13 @@ api_specs:
   label: The Token Company Compression API
   slug: the-token-company-compression-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/openapi/the-token-company-compression-api-openapi.yml
+  url: https://artifacts.apis.io/the-token-company/openapi/the-token-company-compression-api-openapi.yml
 - filename: the-token-company-search-api-openapi.yml
   format: yaml
   label: The Token Company Search API
   slug: the-token-company-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/openapi/the-token-company-search-api-openapi.yml
+  url: https://artifacts.apis.io/the-token-company/openapi/the-token-company-search-api-openapi.yml
 certification_count: 1
 certifications:
 - HIPAA
@@ -28,7 +28,7 @@ source_filename: the-token-company-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://thetokencompany.com (footer) ; https://trust.thetokencompany.com\nurl: https://trust.thetokencompany.com\ncertifications:\n  - HIPAA\nevidence:\n  - source: https://thetokencompany.com\n    keywords: [HIPAA Compliance, Trust Center]\n  - source: https://trust.thetokencompany.com\n    kind: trust-center-subdomain\nnote: >-\n  A dedicated Trust Center subdomain is live and the site footer advertises HIPAA\n  compliance available via the Trust Center. The Trust Center is a JS-rendered\n  portal; only HIPAA was verifiable from the public site. Additional frameworks\n  (e.g. SOC 2) may be gated behind the portal and are not asserted here.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/the-token-company/refs/heads/main/security/the-token-company-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/the-token-company/security/the-token-company-trust-center.yml
 summary_line: HIPAA
 tags:
 - Company

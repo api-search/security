@@ -8,19 +8,19 @@ api_specs:
   label: ScrapingAnt Scraping API
   slug: scrapingant-scraping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-scraping-api-openapi.yml
+  url: https://artifacts.apis.io/scrapingant/openapi/scrapingant-scraping-api-openapi.yml
 - filename: scrapingant-usage-api-openapi.yml
   format: yaml
   label: ScrapingAnt Usage API
   slug: scrapingant-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-usage-api-openapi.yml
+  url: https://artifacts.apis.io/scrapingant/openapi/scrapingant-usage-api-openapi.yml
 - filename: scrapingant-general-api-openapi.yml
   format: yaml
   label: ScrapingAnt General API
   slug: scrapingant-general-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/openapi/scrapingant-general-api-openapi.yml
+  url: https://artifacts.apis.io/scrapingant/openapi/scrapingant-general-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -49,13 +49,13 @@ source_filename: scrapingant-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-29'\nmethod: derived\nsource: openapi/scrapingant-scraping-api-openapi.yml, openapi/scrapingant-usage-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: x-api-key\n  description: ScrapingAnt API key, passed as the x-api-key query parameter. The provider also\n    accepts it as an x-api-key request header (docs.scrapingant.com/request-response-format).\n  sources:\n  - openapi/scrapingant-scraping-api-openapi.yml\n  - openapi/scrapingant-usage-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scrapingant/refs/heads/main/authentication/scrapingant-authentication.yml
+source_yaml_url: https://artifacts.apis.io/scrapingant/authentication/scrapingant-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Data Extraction
 - Proxies
 - Web Scraping
-- Headless Browser
+- Browser Automation
 - AI Agents
 - MCP
 - LLM

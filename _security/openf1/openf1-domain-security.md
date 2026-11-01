@@ -5,67 +5,67 @@ api_specs:
   label: OpenF1 Drivers API
   slug: openf1-drivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-drivers-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-drivers-api-openapi.yml
 - filename: openf1-laps-api-openapi.yml
   format: yaml
   label: OpenF1 Laps API
   slug: openf1-laps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-laps-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-laps-api-openapi.yml
 - filename: openf1-meetings-api-openapi.yml
   format: yaml
   label: OpenF1 Meetings API
   slug: openf1-meetings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-meetings-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-meetings-api-openapi.yml
 - filename: openf1-pit-api-openapi.yml
   format: yaml
   label: OpenF1 Pit API
   slug: openf1-pit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-pit-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-pit-api-openapi.yml
 - filename: openf1-position-api-openapi.yml
   format: yaml
   label: OpenF1 Position API
   slug: openf1-position-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-position-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-position-api-openapi.yml
 - filename: openf1-racecontrol-api-openapi.yml
   format: yaml
   label: OpenF1 RaceControl API
   slug: openf1-racecontrol-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-racecontrol-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-racecontrol-api-openapi.yml
 - filename: openf1-sessions-api-openapi.yml
   format: yaml
   label: OpenF1 Sessions API
   slug: openf1-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-sessions-api-openapi.yml
 - filename: openf1-stints-api-openapi.yml
   format: yaml
   label: OpenF1 Stints API
   slug: openf1-stints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-stints-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-stints-api-openapi.yml
 - filename: openf1-teamradio-api-openapi.yml
   format: yaml
   label: OpenF1 TeamRadio API
   slug: openf1-teamradio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-teamradio-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-teamradio-api-openapi.yml
 - filename: openf1-telemetry-api-openapi.yml
   format: yaml
   label: OpenF1 Telemetry API
   slug: openf1-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-telemetry-api-openapi.yml
 - filename: openf1-weather-api-openapi.yml
   format: yaml
   label: OpenF1 Weather API
   slug: openf1-weather-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/openapi/openf1-weather-api-openapi.yml
+  url: https://artifacts.apis.io/openf1/openapi/openf1-weather-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,7 +99,7 @@ source_filename: openf1-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openf1.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 23:04:22 2026 GMT\n  hsts: false\n- host: api.openf1.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 15:06:58 2026 GMT\n  hsts: null\ndomains:\n- domain: openf1.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openf1/refs/heads/main/security/openf1-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openf1/security/openf1-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Formula 1

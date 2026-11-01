@@ -28,7 +28,7 @@ source_filename: gloset-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gloset.mx\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: gloset.mx\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gloset/refs/heads/main/security/gloset-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gloset/security/gloset-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

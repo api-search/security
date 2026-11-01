@@ -5,19 +5,19 @@ api_specs:
   label: openclaw / evm-lab Healthz API
   slug: evebrief-org-healthz-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evebrief-org/refs/heads/main/openapi/evebrief-org-healthz-api-openapi.yml
+  url: https://artifacts.apis.io/evebrief-org/openapi/evebrief-org-healthz-api-openapi.yml
 - filename: evebrief-org-onchain-risk-oracle-api-openapi.yml
   format: yaml
   label: openclaw / evm-lab Onchain Risk Oracle API
   slug: evebrief-org-onchain-risk-oracle-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evebrief-org/refs/heads/main/openapi/evebrief-org-onchain-risk-oracle-api-openapi.yml
+  url: https://artifacts.apis.io/evebrief-org/openapi/evebrief-org-onchain-risk-oracle-api-openapi.yml
 - filename: evebrief-org-well-known-api-openapi.yml
   format: yaml
   label: openclaw / evm-lab .well Known API
   slug: evebrief-org-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/evebrief-org/refs/heads/main/openapi/evebrief-org-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/evebrief-org/openapi/evebrief-org-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: evebrief-org-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: evebrief.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 10:21:59 2026 GMT\n  hsts: false\n- host: oracle.evebrief.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 10:21:59 2026 GMT\n  hsts: null\ndomains:\n- domain: evebrief.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/evebrief-org/refs/heads/main/security/evebrief-org-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/evebrief-org/security/evebrief-org-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Agents

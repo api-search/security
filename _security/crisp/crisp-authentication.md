@@ -7,19 +7,19 @@ api_specs:
   label: Crisp Realtime (Webhooks + RTM) v1
   slug: crisp-realtime-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/asyncapi/crisp-asyncapi.yml
+  url: https://artifacts.apis.io/crisp/asyncapi/crisp-asyncapi.yml
 - filename: crisp-conversations-api-openapi.yml
   format: yaml
   label: Crisp Conversations API
   slug: crisp-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/openapi/crisp-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/crisp/openapi/crisp-conversations-api-openapi.yml
 - filename: crisp-website-api-openapi.yml
   format: yaml
   label: Crisp Website API
   slug: crisp-website-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/openapi/crisp-website-api-openapi.yml
+  url: https://artifacts.apis.io/crisp/openapi/crisp-website-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -48,7 +48,7 @@ source_filename: crisp-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/crisp-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: |-\n    Use plugin token credentials. HTTP Basic with identifier:key, plus\n    the X-Crisp-Tier header (`plugin`, `user`, or `tier`).\n  sources:\n  - openapi/crisp-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/authentication/crisp-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crisp/authentication/crisp-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Customer Service

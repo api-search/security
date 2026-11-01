@@ -5,13 +5,13 @@ api_specs:
   label: Splitgate Matches API
   slug: splitgate-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/openapi/splitgate-matches-api-openapi.yml
+  url: https://artifacts.apis.io/splitgate/openapi/splitgate-matches-api-openapi.yml
 - filename: splitgate-players-api-openapi.yml
   format: yaml
   label: Splitgate Players API
   slug: splitgate-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/openapi/splitgate-players-api-openapi.yml
+  url: https://artifacts.apis.io/splitgate/openapi/splitgate-players-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -48,7 +48,7 @@ source_filename: splitgate-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.splitgate.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: false\n- host: api.1047games.com\n  https: false\ndomains:\n- domain: splitgate.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: 1047games.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/splitgate/refs/heads/main/security/splitgate-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/splitgate/security/splitgate-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

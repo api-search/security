@@ -7,31 +7,31 @@ api_specs:
   label: Apache Ranger Audit API
   slug: apache-ranger-audit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-audit-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ranger/openapi/apache-ranger-audit-api-openapi.yml
 - filename: apache-ranger-groups-api-openapi.yml
   format: yaml
   label: Apache Ranger Groups API
   slug: apache-ranger-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-groups-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ranger/openapi/apache-ranger-groups-api-openapi.yml
 - filename: apache-ranger-policies-api-openapi.yml
   format: yaml
   label: Apache Ranger Policies API
   slug: apache-ranger-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-policies-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ranger/openapi/apache-ranger-policies-api-openapi.yml
 - filename: apache-ranger-services-api-openapi.yml
   format: yaml
   label: Apache Ranger Services API
   slug: apache-ranger-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-services-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ranger/openapi/apache-ranger-services-api-openapi.yml
 - filename: apache-ranger-users-api-openapi.yml
   format: yaml
   label: Apache Ranger Users API
   slug: apache-ranger-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/openapi/apache-ranger-users-api-openapi.yml
+  url: https://artifacts.apis.io/apache-ranger/openapi/apache-ranger-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -57,7 +57,7 @@ source_filename: apache-ranger-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apache-ranger-rest-api.yaml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/apache-ranger-rest-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apache-ranger/refs/heads/main/authentication/apache-ranger-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apache-ranger/authentication/apache-ranger-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Access Control

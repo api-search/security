@@ -5,43 +5,43 @@ api_specs:
   label: Goodays Core API
   slug: goodays-core-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-core-api-openapi.yml
+  url: https://artifacts.apis.io/goodays/openapi/goodays-core-api-openapi.yml
 - filename: goodays-dashboard-api-openapi.yml
   format: yaml
   label: Goodays Dashboard API
   slug: goodays-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/goodays/openapi/goodays-dashboard-api-openapi.yml
 - filename: goodays-events-api-openapi.yml
   format: yaml
   label: Goodays Events API
   slug: goodays-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-events-api-openapi.yml
+  url: https://artifacts.apis.io/goodays/openapi/goodays-events-api-openapi.yml
 - filename: goodays-response-api-openapi.yml
   format: yaml
   label: Goodays Response API
   slug: goodays-response-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-response-api-openapi.yml
+  url: https://artifacts.apis.io/goodays/openapi/goodays-response-api-openapi.yml
 - filename: goodays-session-api-openapi.yml
   format: yaml
   label: Goodays Session API
   slug: goodays-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-session-api-openapi.yml
+  url: https://artifacts.apis.io/goodays/openapi/goodays-session-api-openapi.yml
 - filename: goodays-solicitation-api-openapi.yml
   format: yaml
   label: Goodays Solicitation API
   slug: goodays-solicitation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-solicitation-api-openapi.yml
+  url: https://artifacts.apis.io/goodays/openapi/goodays-solicitation-api-openapi.yml
 - filename: goodays-stats-api-openapi.yml
   format: yaml
   label: Goodays Stats API
   slug: goodays-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/openapi/goodays-stats-api-openapi.yml
+  url: https://artifacts.apis.io/goodays/openapi/goodays-stats-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: goodays-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: goodays.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 23:59:59 2026 GMT\n  hsts: false\n- host: apidocs.goodays.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 13:27:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.goodays.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  9 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: goodays.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/goodays/refs/heads/main/security/goodays-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/goodays/security/goodays-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

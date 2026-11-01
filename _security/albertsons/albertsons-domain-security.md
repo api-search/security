@@ -5,25 +5,25 @@ api_specs:
   label: albertsons Audiences API
   slug: albertsons-audiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-audiences-api-openapi.yml
+  url: https://artifacts.apis.io/albertsons/openapi/albertsons-audiences-api-openapi.yml
 - filename: albertsons-campaigns-api-openapi.yml
   format: yaml
   label: albertsons Campaigns API
   slug: albertsons-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/albertsons/openapi/albertsons-campaigns-api-openapi.yml
 - filename: albertsons-performance-api-openapi.yml
   format: yaml
   label: albertsons Performance API
   slug: albertsons-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-performance-api-openapi.yml
+  url: https://artifacts.apis.io/albertsons/openapi/albertsons-performance-api-openapi.yml
 - filename: albertsons-reporting-api-openapi.yml
   format: yaml
   label: albertsons Reporting API
   slug: albertsons-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/openapi/albertsons-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/albertsons/openapi/albertsons-reporting-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: albertsons-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.albertsons.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 22:57:06 2026 GMT\n  hsts: false\n- host: portal-prod.apim.azwestus.stratus.albertsons.com\n  https: false\n- host: api.albertsons.com\n  https: false\ndomains:\n- domain: albertsons.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/albertsons/refs/heads/main/security/albertsons-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/albertsons/security/albertsons-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Grocery

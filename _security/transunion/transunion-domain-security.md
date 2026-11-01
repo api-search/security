@@ -5,31 +5,31 @@ api_specs:
   label: TransUnion Authentication Service API
   slug: transunion-authentication-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/openapi/transunion-authentication-service-api-openapi.yml
+  url: https://artifacts.apis.io/transunion/openapi/transunion-authentication-service-api-openapi.yml
 - filename: transunion-signing-api-openapi.yml
   format: yaml
   label: TransUnion Signing API
   slug: transunion-signing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/openapi/transunion-signing-api-openapi.yml
+  url: https://artifacts.apis.io/transunion/openapi/transunion-signing-api-openapi.yml
 - filename: transunion-verification-api-openapi.yml
   format: yaml
   label: TransUnion Verification API
   slug: transunion-verification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/openapi/transunion-verification-api-openapi.yml
+  url: https://artifacts.apis.io/transunion/openapi/transunion-verification-api-openapi.yml
 - filename: transunion-verification-service-api-openapi.yml
   format: yaml
   label: TransUnion Verification Service API
   slug: transunion-verification-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/openapi/transunion-verification-service-api-openapi.yml
+  url: https://artifacts.apis.io/transunion/openapi/transunion-verification-service-api-openapi.yml
 - filename: transunion-verification-service-with-call-validation-treatment-cvt-api-openapi.yml
   format: yaml
   label: TransUnion Verification Service with Call Validation Treatment (CVT) API
   slug: transunion-verification-service-with-call-validation-treatment-cvt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/openapi/transunion-verification-service-with-call-validation-treatment-cvt-api-openapi.yml
+  url: https://artifacts.apis.io/transunion/openapi/transunion-verification-service-with-call-validation-treatment-cvt-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -60,7 +60,7 @@ source_filename: transunion-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.transunion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: null\n- host: developer.transunion.com\n  https: false\ndomains:\n- domain: transunion.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transunion/refs/heads/main/security/transunion-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transunion/security/transunion-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Finance

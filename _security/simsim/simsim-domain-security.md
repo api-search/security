@@ -23,7 +23,7 @@ source_filename: simsim-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: simsim.in\n  https: false\ndomains:\n- domain: simsim.in\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simsim/refs/heads/main/security/simsim-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/simsim/security/simsim-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

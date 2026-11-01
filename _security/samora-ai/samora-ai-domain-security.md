@@ -5,19 +5,19 @@ api_specs:
   label: Samora AI Calls API
   slug: samora-ai-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-calls-api-openapi.yml
+  url: https://artifacts.apis.io/samora-ai/openapi/samora-ai-calls-api-openapi.yml
 - filename: samora-ai-campaigns-api-openapi.yml
   format: yaml
   label: Samora AI Campaigns API
   slug: samora-ai-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/samora-ai/openapi/samora-ai-campaigns-api-openapi.yml
 - filename: samora-ai-webhooks-api-openapi.yml
   format: yaml
   label: Samora AI Webhooks API
   slug: samora-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/samora-ai/openapi/samora-ai-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: samora-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.samora.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 11 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: samora.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/security/samora-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/samora-ai/security/samora-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

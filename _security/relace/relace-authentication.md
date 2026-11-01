@@ -7,13 +7,13 @@ api_specs:
   label: Relace Code API
   slug: relace-code-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/openapi/relace-code-api-openapi.yml
+  url: https://artifacts.apis.io/relace/openapi/relace-code-api-openapi.yml
 - filename: relace-repo-api-openapi.yml
   format: yaml
   label: Relace Repo API
   slug: relace-repo-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/openapi/relace-repo-api-openapi.yml
+  url: https://artifacts.apis.io/relace/openapi/relace-repo-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -40,7 +40,7 @@ source_filename: relace-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: openapi/relace-openapi-original.json\ndocs: https://docs.relace.ai/api-reference/introduction\nkey_format: rlc-<32-char>\nobtain: https://app.relace.ai/settings/api-keys\nscoped_tokens: >-\n  Repo Tokens are scoped API keys created per repository for narrower access.\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Relace API key Authorization header using the Bearer scheme.\n  sources:\n  - openapi/relace-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/relace/refs/heads/main/authentication/relace-authentication.yml
+source_yaml_url: https://artifacts.apis.io/relace/authentication/relace-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

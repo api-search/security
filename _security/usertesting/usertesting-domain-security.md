@@ -5,49 +5,49 @@ api_specs:
   label: UserTesting Clip API
   slug: usertesting-clip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-clip-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-clip-api-openapi.yml
 - filename: usertesting-general-session-data-api-openapi.yml
   format: yaml
   label: UserTesting General Session Data API
   slug: usertesting-general-session-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-general-session-data-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-general-session-data-api-openapi.yml
 - filename: usertesting-highlightreel-api-openapi.yml
   format: yaml
   label: UserTesting Highlightreel API
   slug: usertesting-highlightreel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-highlightreel-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-highlightreel-api-openapi.yml
 - filename: usertesting-qxscore-data-api-openapi.yml
   format: yaml
   label: UserTesting QXscore Data API
   slug: usertesting-qxscore-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-qxscore-data-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-qxscore-data-api-openapi.yml
 - filename: usertesting-session-api-openapi.yml
   format: yaml
   label: UserTesting Session API
   slug: usertesting-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-session-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-session-api-openapi.yml
 - filename: usertesting-studies-api-openapi.yml
   format: yaml
   label: UserTesting Studies API
   slug: usertesting-studies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-studies-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-studies-api-openapi.yml
 - filename: usertesting-video-data-api-openapi.yml
   format: yaml
   label: UserTesting Video Data API
   slug: usertesting-video-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-video-data-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-video-data-api-openapi.yml
 - filename: usertesting-workspaces-api-openapi.yml
   format: yaml
   label: UserTesting Workspaces API
   slug: usertesting-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/openapi/usertesting-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/usertesting/openapi/usertesting-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,11 +88,11 @@ source_filename: usertesting-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.usertesting.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  7 09:30:27 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.usertesting.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 05:03:23 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.use2.usertesting.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: usertesting.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usertesting/refs/heads/main/security/usertesting-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/usertesting/security/usertesting-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- UX Research
+- User Research
 - Usability Testing
 - Human Insight
 - Customer Experience

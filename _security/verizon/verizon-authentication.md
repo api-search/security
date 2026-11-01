@@ -8,31 +8,31 @@ api_specs:
   label: Verizon Accounts API
   slug: verizon-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-accounts-api-openapi.yml
 - filename: verizon-callbacks-api-openapi.yml
   format: yaml
   label: Verizon Callbacks API
   slug: verizon-callbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-callbacks-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-callbacks-api-openapi.yml
 - filename: verizon-devices-api-openapi.yml
   format: yaml
   label: Verizon Devices API
   slug: verizon-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-devices-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-devices-api-openapi.yml
 - filename: verizon-session-api-openapi.yml
   format: yaml
   label: Verizon Session API
   slug: verizon-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-session-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-session-api-openapi.yml
 - filename: verizon-sms-api-openapi.yml
   format: yaml
   label: Verizon SMS API
   slug: verizon-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/openapi/verizon-sms-api-openapi.yml
+  url: https://artifacts.apis.io/verizon/openapi/verizon-sms-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey
@@ -94,7 +94,7 @@ source_yaml: "generated: '2026-08-04'\nmethod: searched\nsource: openapi/verizon
   \ and Base64-encoded\n    request_header: 'Authorization: Basic <base64(key:secret)>'\n    response_header: 'Authorization: Bearer <access_token>'\n    token_ttl: 3600\n    token_ttl_note: >-\n      Valid for one hour from first issue; further token requests inside that window\n      return the same token rather than minting a new one.\n    sources:\n      - https://thingspace.verizon.com/documentation/apis/connectivity-management/getting-started/getting-credentials.html\n  - name: VZM2MSessionToken\n    type: apiKey\n    in: header\n    parameter_name: VZ-M2M-Token\n    obtained_via: openapi/verizon-session-api-openapi.yml#loginSession\n    credential: ThingSpace OAuth token + UWS username/password\n    token_ttl_note: >-\n      Remains valid while the application keeps using it; expires after 20 minutes of\n      inactivity. Explicitly terminated with the End Connectivity Management Session\n      operation.\n    sources:\n      - openapi/verizon-session-api-openapi.yml\n      - https://thingspace.verizon.com/documentation/apis/connectivity-management/getting-started/getting-credentials.html\n\
   \  - name: OAuth2ClientCredentials\n    type: oauth2\n    flows:\n      - flow: clientCredentials\n        tokenUrl: https://thingspace.verizon.com/api/m2m/v2/session/token\n        scopes: 3\n    sources:\n      - openapi/verizon-accounts-api-openapi.yml\n      - openapi/verizon-callbacks-api-openapi.yml\n      - openapi/verizon-devices-api-openapi.yml\n      - openapi/verizon-session-api-openapi.yml\n      - openapi/verizon-sms-api-openapi.yml\n    note: >-\n      The scheme as declared in the harvested OpenAPI. The docs-confirmed token\n      issuer is https://thingspace.verizon.com/api/ts/v1/oauth2/token; the\n      /api/m2m/v2 path in the spec is the Connectivity Management base, not the\n      token endpoint.\ncredential_management:\n  console: https://thingspace.verizon.com\n  path: Account Settings > Key Management > My Keys\ncombined_request_headers:\n  - name: Authorization\n    value: Bearer <ThingSpace access token>\n    required_on: all requests\n  - name: VZ-M2M-Token\n \
   \   value: <session token>\n    required_on: Connectivity Management requests\nrelated:\n  scopes: scopes/verizon-scopes.yml\n  conventions: conventions/verizon-conventions.yml\n  sandbox: sandbox/verizon-sandbox.yml\nx-evidence:\n  fetched: '2026-08-04'\n  urls:\n    - https://thingspace.verizon.com/documentation/apis/connectivity-management/getting-started/getting-credentials.html\n    - https://thingspace.verizon.com/documentation/apis/connectivity-management/getting-started.html\n  http_status: 200\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/verizon/refs/heads/main/authentication/verizon-authentication.yml
+source_yaml_url: https://artifacts.apis.io/verizon/authentication/verizon-authentication.yml
 summary_line: oauth2/apiKey · 3 schemes
 tags:
 - Wireless

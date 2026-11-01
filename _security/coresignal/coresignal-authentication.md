@@ -8,13 +8,13 @@ api_specs:
   label: Coresignal Collect API
   slug: coresignal-collect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-collect-api-openapi.yml
+  url: https://artifacts.apis.io/coresignal/openapi/coresignal-collect-api-openapi.yml
 - filename: coresignal-search-api-openapi.yml
   format: yaml
   label: Coresignal Search API
   slug: coresignal-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/openapi/coresignal-search-api-openapi.yml
+  url: https://artifacts.apis.io/coresignal/openapi/coresignal-search-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -135,7 +135,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
   \ https://dashboard.coresignal.com/api/auth/oauth2/introspect\n    revocation: https://dashboard.coresignal.com/api/auth/oauth2/revoke\n    protected_resource_metadata: https://mcp.coresignal.com/.well-known/oauth-protected-resource/mcp/v2\n    resource_scopes_supported: []\n    bearer_methods_supported: [header]\n    token_endpoint_auth_methods: [none, client_secret_basic, client_secret_post]\n    note: >-\n      The MCP server verifies the signed token on each request and retrieves the team's API key\n      server-side, so no key is stored on the server or in client config. Because the protected\n      resource advertises an EMPTY scope list, a valid token grants every tool including the\n      credit-spending ones.\n    sources:\n      - well-known/coresignal-oauth-authorization-server.json\n      - well-known/coresignal-oauth-protected-resource.json\n      - https://docs.coresignal.com/integrations/coresignal-mcp\n  - name: Coresignal Dashboard OpenID Connect\n    type: openIdConnect\n\
   \    applies_to: Dashboard sign-in (identity layer under the OAuth 2.1 flow above)\n    openIdConnectUrl: https://dashboard.coresignal.com/.well-known/openid-configuration\n    jwks_uri: https://dashboard.coresignal.com/api/auth/jwks\n    userinfo_endpoint: https://dashboard.coresignal.com/api/auth/oauth2/userinfo\n    end_session_endpoint: https://dashboard.coresignal.com/api/auth/oauth2/end-session\n    id_token_signing_alg: [RS256]\n    subject_types: [public]\n    claims: [sub, iss, aud, exp, iat, sid, scope, azp, email, email_verified, name, picture, family_name, given_name]\n    prompt_values: [login, consent, create, select_account, none]\n    acr_values: ['urn:mace:incommon:iap:bronze']\n    sources: [well-known/coresignal-openid-configuration.json]\nlegacy_mcp:\n  endpoint: https://mcp.coresignal.com/mcp\n  scheme: apiKey\n  header: apikey\n  note: >-\n    The legacy MCP endpoint takes the same REST API key as a header (commonly passed through the\n    `mcp-remote` bridge). Its\
   \ tools/list is anonymously introspectable. Coresignal states it will\n    eventually be deprecated in favour of the OAuth-protected v2 endpoint.\nfailures:\n  - status: 401\n    meaning: No valid API Key was provided (REST), or no/invalid bearer token (MCP v2).\n    body_rest: '{\"detail\": \"...\"}'\n    body_mcp: '{\"error\": \"invalid_token\", \"error_description\": \"Authentication required\"}'\n    challenge_mcp: >-\n      WWW-Authenticate: Bearer error=\"invalid_token\",\n      resource_metadata=\"https://mcp.coresignal.com/.well-known/oauth-protected-resource/mcp/v2\"\ntransport:\n  https_required: true\n  note: >-\n    All requests must be made over HTTPS; HTTP requests fail or are redirected. See\n    security/coresignal-domain-security.yml for TLS/HSTS posture.\ngaps:\n  - No scopes or least-privilege model on either surface.\n  - No documented key expiry or forced rotation.\n  - No mTLS, no request signing, no IP allowlisting documented.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coresignal/refs/heads/main/authentication/coresignal-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coresignal/authentication/coresignal-authentication.yml
 summary_line: apiKey/oauth2/openIdConnect · 3 schemes
 tags:
 - Agentic Search

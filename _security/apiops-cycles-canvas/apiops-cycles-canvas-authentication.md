@@ -8,7 +8,7 @@ api_specs:
   label: APIOps Cycles Canvas Products API
   slug: apiops-cycles-canvas-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/openapi/apiops-cycles-canvas-products-api-openapi.yml
+  url: https://artifacts.apis.io/apiops-cycles-canvas/openapi/apiops-cycles-canvas-products-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -35,7 +35,7 @@ source_filename: apiops-cycles-canvas-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/products-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeys\n  type: apiKey\n  in: header\n  parameter: api-key\n  sources:\n  - openapi/products-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/authentication/apiops-cycles-canvas-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apiops-cycles-canvas/authentication/apiops-cycles-canvas-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - API Design

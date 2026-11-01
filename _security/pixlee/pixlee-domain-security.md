@@ -5,19 +5,19 @@ api_specs:
   label: Pixlee Content API
   slug: pixlee-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-content-api-openapi.yml
+  url: https://artifacts.apis.io/pixlee/openapi/pixlee-content-api-openapi.yml
 - filename: pixlee-albums-api-openapi.yml
   format: yaml
   label: Pixlee Albums API
   slug: pixlee-albums-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-albums-api-openapi.yml
+  url: https://artifacts.apis.io/pixlee/openapi/pixlee-albums-api-openapi.yml
 - filename: pixlee-media-api-openapi.yml
   format: yaml
   label: Pixlee Media API
   slug: pixlee-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/openapi/pixlee-media-api-openapi.yml
+  url: https://artifacts.apis.io/pixlee/openapi/pixlee-media-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: pixlee-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: emplifi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 09:15:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.pixlee.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 14:43:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: distillery.pixlee.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: emplifi.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: pixlee.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pixlee/refs/heads/main/security/pixlee-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pixlee/security/pixlee-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

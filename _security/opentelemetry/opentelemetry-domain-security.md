@@ -5,19 +5,19 @@ api_specs:
   label: OpenTelemetry Logs API
   slug: opentelemetry-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/openapi/opentelemetry-logs-api-openapi.yml
+  url: https://artifacts.apis.io/opentelemetry/openapi/opentelemetry-logs-api-openapi.yml
 - filename: opentelemetry-metrics-api-openapi.yml
   format: yaml
   label: OpenTelemetry Metrics API
   slug: opentelemetry-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/openapi/opentelemetry-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/opentelemetry/openapi/opentelemetry-metrics-api-openapi.yml
 - filename: opentelemetry-traces-api-openapi.yml
   format: yaml
   label: OpenTelemetry Traces API
   slug: opentelemetry-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/openapi/opentelemetry-traces-api-openapi.yml
+  url: https://artifacts.apis.io/opentelemetry/openapi/opentelemetry-traces-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -49,7 +49,7 @@ source_filename: opentelemetry-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: opentelemetry.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 18:28:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: opentelemetry.io\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/54403714\"\n  - 0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2185112545\"\n  - 0 issue \"pki.goog\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opentelemetry/refs/heads/main/security/opentelemetry-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/opentelemetry/security/opentelemetry-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Cloud-Native

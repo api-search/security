@@ -5,7 +5,7 @@ api_specs:
   label: WSC Sports Feed API
   slug: wsc-sports-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wsc-sports/refs/heads/main/openapi/wsc-sports-feed-api-openapi.yml
+  url: https://artifacts.apis.io/wsc-sports/openapi/wsc-sports-feed-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: wsc-sports-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wsc-sports.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 10:54:37 2026 GMT\n  hsts: false\n- host: dev.wsc-sports.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 00:01:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: blazefeed.clipro.tv\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: wsc-sports.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: clipro.tv\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wsc-sports/refs/heads/main/security/wsc-sports-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wsc-sports/security/wsc-sports-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

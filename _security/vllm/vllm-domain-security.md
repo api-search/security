@@ -5,37 +5,37 @@ api_specs:
   label: vLLM Audio API
   slug: vllm-audio-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-audio-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-audio-api-openapi.yml
 - filename: vllm-completions-api-openapi.yml
   format: yaml
   label: vLLM Completions API
   slug: vllm-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-completions-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-completions-api-openapi.yml
 - filename: vllm-embeddings-api-openapi.yml
   format: yaml
   label: vLLM Embeddings API
   slug: vllm-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-embeddings-api-openapi.yml
 - filename: vllm-scoring-api-openapi.yml
   format: yaml
   label: vLLM Scoring API
   slug: vllm-scoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-scoring-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-scoring-api-openapi.yml
 - filename: vllm-tokenize-api-openapi.yml
   format: yaml
   label: vLLM Tokenize API
   slug: vllm-tokenize-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-tokenize-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-tokenize-api-openapi.yml
 - filename: vllm-chat-completions-api-openapi.yml
   format: yaml
   label: vLLM Chat Completions API
   slug: vllm-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/openapi/vllm-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/vllm/openapi/vllm-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: vllm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.vllm.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 20:10:06 2026 GMT\n  hsts: false\ndomains:\n- domain: vllm.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vllm/refs/heads/main/security/vllm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vllm/security/vllm-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - LLM

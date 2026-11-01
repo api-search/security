@@ -5,13 +5,13 @@ api_specs:
   label: Sonde Health Authentication API
   slug: sonde-health-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonde-health/refs/heads/main/openapi/sonde-health-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/sonde-health/openapi/sonde-health-authentication-api-openapi.yml
 - filename: sonde-health-platform-api-openapi.yml
   format: yaml
   label: Sonde Health Platform API
   slug: sonde-health-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sonde-health/refs/heads/main/openapi/sonde-health-platform-api-openapi.yml
+  url: https://artifacts.apis.io/sonde-health/openapi/sonde-health-platform-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sondehealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 06:57:43 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: sondehealth.atlassian.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.sondeservices.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 26 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: sondehealth.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: atlassian.net\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com; account=c2eb0f50ca113d7543d58a10f523d0469ff922f115e5e4e9056f3d5f87d3356c\"\n \
   \ spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sonde-health/refs/heads/main/security/sonde-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sonde-health/security/sonde-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

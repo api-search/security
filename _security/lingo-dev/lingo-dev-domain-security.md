@@ -5,19 +5,19 @@ api_specs:
   label: Lingo.dev Account API
   slug: lingo-dev-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-account-api-openapi.yml
+  url: https://artifacts.apis.io/lingo-dev/openapi/lingo-dev-account-api-openapi.yml
 - filename: lingo-dev-asynchronous-api-openapi.yml
   format: yaml
   label: Lingo.dev Asynchronous API
   slug: lingo-dev-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/lingo-dev/openapi/lingo-dev-asynchronous-api-openapi.yml
 - filename: lingo-dev-synchronous-api-openapi.yml
   format: yaml
   label: Lingo.dev Synchronous API
   slug: lingo-dev-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/openapi/lingo-dev-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/lingo-dev/openapi/lingo-dev-synchronous-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: lingo-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lingo.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 22:29:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.lingo.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 04:58:43 2026 GMT\n  hsts: null\ndomains:\n- domain: lingo.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lingo-dev/refs/heads/main/security/lingo-dev-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lingo-dev/security/lingo-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

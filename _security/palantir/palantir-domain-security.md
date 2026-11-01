@@ -5,19 +5,19 @@ api_specs:
   label: Palantir Admin - Groups API
   slug: palantir-admin-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/openapi/palantir-admin-groups-api-openapi.yml
+  url: https://artifacts.apis.io/palantir/openapi/palantir-admin-groups-api-openapi.yml
 - filename: palantir-admin-users-api-openapi.yml
   format: yaml
   label: Palantir Admin - Users API
   slug: palantir-admin-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/openapi/palantir-admin-users-api-openapi.yml
+  url: https://artifacts.apis.io/palantir/openapi/palantir-admin-users-api-openapi.yml
 - filename: palantir-datasets-api-openapi.yml
   format: yaml
   label: Palantir Datasets API
   slug: palantir-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/openapi/palantir-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/palantir/openapi/palantir-datasets-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -53,7 +53,7 @@ source_filename: palantir-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.palantir.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 25 17:00:14 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: palantir.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/security/palantir-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/palantir/security/palantir-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - AI Platform

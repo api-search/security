@@ -5,19 +5,19 @@ api_specs:
   label: National University of Singapore Authorization API
   slug: nus-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/nus/openapi/nus-authorization-api-openapi.yml
 - filename: nus-discovery-api-openapi.yml
   format: yaml
   label: National University of Singapore Discovery API
   slug: nus-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/nus/openapi/nus-discovery-api-openapi.yml
 - filename: nus-session-api-openapi.yml
   format: yaml
   label: National University of Singapore Session API
   slug: nus-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/openapi/nus-session-api-openapi.yml
+  url: https://artifacts.apis.io/nus/openapi/nus-session-api-openapi.yml
 description: 'Transport and domain security posture per host, with the operator recorded alongside. The organization field in each TLS certificate is the load-bearing column here: it is the hardest public evidence available of who actually runs a host, and it is what separates NUS''s own engineering from the platforms NUS rents.'
 domains:
 - caa: []
@@ -137,7 +137,7 @@ source_yaml: "generated: '2026-08-19'\nmethod: probed\nsource: live DNS/TLS/HTTP
   \  note: >-\n    Institutional repository. The CNAME to openrepository.com is the operator evidence — Atmire\n    Open Repository hosts and runs the DSpace 7.6 instance.\n- host: canvas.nus.edu.sg\n  x-operator: tenant\n  https: true\n  cert_subject_organization: null\n  cert_validation: Domain Validation\n  cname: nus-vanity.instructure.com\n  note: Canvas LMS tenant. Certificate carries no organization — issued by the platform, not NUS.\n- host: blog.nus.edu.sg\n  x-operator: tenant\n  https: true\n  cert_subject_organization: null\n  cert_issuer: Let's Encrypt\n  cert_expires: Sep 27 08:32:54 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  cname: c1141.campuspress.com\n  note: NUS blogs platform on CampusPress managed WordPress.\n- host: libguides.nus.edu.sg\n  x-operator: tenant\n  https: true\n  cname: region-au.libguides.com\n  note: Springshare LibGuides tenant, served from the Australian region.\n- host: linc.nus.edu.sg\n  x-operator: tenant\n  https: true\n  cname: nus.iii.com\n\
   \  note: Innovative Interfaces library catalogue tenant. Bot-challenged from this network.\n- host: api.nusmods.com\n  x-operator: tenant\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  4 03:57:51 2026 GMT\n  hsts: false\n  note: >-\n    NUSMods, run by the NUSModifications student organisation behind Cloudflare. Not an NUS\n    host and not on an NUS domain; listed because it is where NUS course data is publicly\n    readable.\ndomains:\n- domain: nus.edu.sg\n  dnssec: false\n  caa: []\n  note: No DNSSEC and no CAA records on the institution's registrable domain.\nobservations:\n- >-\n  Every host NUS actually runs (vafs, nnextbus, api, luminus) carries a certificate naming\n  National University of Singapore as the organization. Every host NUS rents carries either no\n  organization or the platform's. This one field settles operator attribution more reliably than\n  any heuristic.\n- >-\n  The identity provider — the highest-value host in the estate — has the weakest transport\n\
   \  posture of the institution-operated set: TLS 1.2 only and no HSTS.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nus/refs/heads/main/security/nus-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nus/security/nus-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
 - University

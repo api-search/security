@@ -32,7 +32,7 @@ source_filename: otis-worldwide-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.otis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  7 11:34:07 2026 GMT\n  hsts: false\n- host: api.otis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 16 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: otis.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/otis-worldwide/refs/heads/main/security/otis-worldwide-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/otis-worldwide/security/otis-worldwide-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Elevators

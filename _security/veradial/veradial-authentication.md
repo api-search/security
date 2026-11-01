@@ -8,31 +8,31 @@ api_specs:
   label: VeraDial Hooks API
   slug: veradial-hooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-hooks-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-hooks-api-openapi.yml
 - filename: veradial-keys-api-openapi.yml
   format: yaml
   label: VeraDial Keys API
   slug: veradial-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-keys-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-keys-api-openapi.yml
 - filename: veradial-lines-api-openapi.yml
   format: yaml
   label: VeraDial Lines API
   slug: veradial-lines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-lines-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-lines-api-openapi.yml
 - filename: veradial-me-api-openapi.yml
   format: yaml
   label: VeraDial Me API
   slug: veradial-me-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-me-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-me-api-openapi.yml
 - filename: veradial-samples-api-openapi.yml
   format: yaml
   label: VeraDial Samples API
   slug: veradial-samples-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/openapi/veradial-samples-api-openapi.yml
+  url: https://artifacts.apis.io/veradial/openapi/veradial-samples-api-openapi.yml
 auth_types:
 - http-bearer
 - oauth2
@@ -92,7 +92,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: searched\nsource:\n- https://veradial.com/help/zapier-integration-api\n- https://veradial.com/for-agents\n- https://api.veradial.com/.well-known/oauth-protected-resource\n- https://api.veradial.com/.well-known/oauth-authorization-server\ndocs: https://veradial.com/help/zapier-integration-api\nsummary:\n  types: [http-bearer, oauth2]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: vdkApiKey\n  type: http\n  scheme: bearer\n  applies_to: VeraDial Zapier Integration API (hooks, lines, samples, me)\n  key_prefix: vdk_\n  description: 'Zapier-facing requests authenticate with Authorization: Bearer vdk_... using an API key generated\n    from the VeraDial Integrations dashboard. The key is a narrow credential: it works only with the hooks, lines,\n    samples, and me endpoints, and its full value is shown once. VeraDial Plus is required to create a key.'\n  management: https://app.veradial.com/dashboard/integrations\n\
   \  revocation: A revoked key returns 401 and immediately deactivates every REST Hook subscription created with that key.\n- name: sessionBearer\n  type: http\n  scheme: bearer\n  applies_to: API-key management routes (GET/POST /keys, DELETE /keys/:id)\n  description: Key management uses the customer's normal VeraDial session bearer token, not a vdk_ Zapier API key.\n- name: mcpOAuth\n  type: oauth2\n  applies_to: VeraDial MCP Server (https://api.veradial.com/mcp)\n  description: OAuth 2.1 with the customer's existing VeraDial login; connector tokens are audience-bound to the MCP\n    server and rejected elsewhere. No API keys.\n  flows:\n  - flow: authorizationCode\n    authorization_server: https://rrmjstsbidgkqibvzvzo.supabase.co/auth/v1\n    authorization_endpoint: https://rrmjstsbidgkqibvzvzo.supabase.co/auth/v1/oauth/authorize\n    token_endpoint: https://rrmjstsbidgkqibvzvzo.supabase.co/auth/v1/oauth/token\n    registration_endpoint: https://rrmjstsbidgkqibvzvzo.supabase.co/auth/v1/oauth/clients/register\n\
   \    pkce: S256\n    token_endpoint_auth_methods: [none]\n    grant_types: [authorization_code, refresh_token]\n  protected_resource_metadata: https://api.veradial.com/.well-known/oauth-protected-resource\n- name: webhookSignature\n  type: hmac\n  applies_to: Custom signed event webhooks (outbound from VeraDial)\n  description: X-VeraDial-Signature t=<unix-seconds>,v1=<hex digest>, HMAC-SHA256 over \"<timestamp>.<raw body>\"\n    with the endpoint's whsec_ secret.\n  docs: https://veradial.com/help/webhooks-make-n8n\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/veradial/refs/heads/main/authentication/veradial-authentication.yml
+source_yaml_url: https://artifacts.apis.io/veradial/authentication/veradial-authentication.yml
 summary_line: http-bearer/oauth2 · 4 schemes
 tags:
 - AI Receptionist

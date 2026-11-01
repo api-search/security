@@ -29,13 +29,13 @@ source_filename: gerrit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gerritcodereview.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 19:43:57 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: gerritcodereview.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gerrit/refs/heads/main/security/gerrit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gerrit/security/gerrit-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Code Review
 - Open Source
-- Git
+- Version Control
 - Collaboration
 - CI/CD
 ---

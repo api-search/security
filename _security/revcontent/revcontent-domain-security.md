@@ -5,67 +5,67 @@ api_specs:
   label: RevContent Access API
   slug: revcontent-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-access-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-access-api-openapi.yml
 - filename: revcontent-ccpa-api-openapi.yml
   format: yaml
   label: RevContent CCPA API
   slug: revcontent-ccpa-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-ccpa-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-ccpa-api-openapi.yml
 - filename: revcontent-content-api-openapi.yml
   format: yaml
   label: RevContent Content API
   slug: revcontent-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-content-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-content-api-openapi.yml
 - filename: revcontent-conversions-api-openapi.yml
   format: yaml
   label: RevContent Conversions API
   slug: revcontent-conversions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-conversions-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-conversions-api-openapi.yml
 - filename: revcontent-helpers-api-openapi.yml
   format: yaml
   label: RevContent Helpers API
   slug: revcontent-helpers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-helpers-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-helpers-api-openapi.yml
 - filename: revcontent-targeting-api-openapi.yml
   format: yaml
   label: RevContent Targeting API
   slug: revcontent-targeting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-targeting-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-targeting-api-openapi.yml
 - filename: revcontent-widget-internal-content-api-openapi.yml
   format: yaml
   label: RevContent Widget Internal Content API
   slug: revcontent-widget-internal-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-internal-content-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-widget-internal-content-api-openapi.yml
 - filename: revcontent-widget-optimizer-api-openapi.yml
   format: yaml
   label: RevContent Widget Optimizer API
   slug: revcontent-widget-optimizer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-optimizer-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-widget-optimizer-api-openapi.yml
 - filename: revcontent-campaigns-api-openapi.yml
   format: yaml
   label: RevContent Campaigns API
   slug: revcontent-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-campaigns-api-openapi.yml
 - filename: revcontent-widget-api-openapi.yml
   format: yaml
   label: RevContent Widget API
   slug: revcontent-widget-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-widget-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-widget-api-openapi.yml
 - filename: revcontent-subaccounts-api-openapi.yml
   format: yaml
   label: RevContent Subaccounts API
   slug: revcontent-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/openapi/revcontent-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/revcontent/openapi/revcontent-subaccounts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -110,7 +110,7 @@ source_filename: revcontent-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.revcontent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 13:55:39 2026 GMT\n  hsts: false\n- host: help.revcontent.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 07:43:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.revcontent.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 13:55:39 2026 GMT\n  hsts: false\ndomains:\n- domain: revcontent.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: revcontent.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/revcontent/refs/heads/main/security/revcontent-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/revcontent/security/revcontent-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Native Advertising

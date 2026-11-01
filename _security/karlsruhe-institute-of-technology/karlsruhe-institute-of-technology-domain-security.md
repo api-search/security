@@ -46,7 +46,7 @@ source_filename: karlsruhe-institute-of-technology-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kit.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 21:48:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: www.bibliothek.kit.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 21:32:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\n- host: dbkit.bibliothek.kit.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 12:30:10 2026 GMT\n  hsts: false\ndomains:\n- domain: kit.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/karlsruhe-institute-of-technology/refs/heads/main/security/karlsruhe-institute-of-technology-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/karlsruhe-institute-of-technology/security/karlsruhe-institute-of-technology-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education

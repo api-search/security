@@ -7,19 +7,19 @@ api_specs:
   label: RockSolid Allocations API
   slug: rocksolid-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/openapi/rocksolid-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/rocksolid/openapi/rocksolid-allocations-api-openapi.yml
 - filename: rocksolid-performance-api-openapi.yml
   format: yaml
   label: RockSolid Performance API
   slug: rocksolid-performance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/openapi/rocksolid-performance-api-openapi.yml
+  url: https://artifacts.apis.io/rocksolid/openapi/rocksolid-performance-api-openapi.yml
 - filename: rocksolid-vaults-api-openapi.yml
   format: yaml
   label: RockSolid Vaults API
   slug: rocksolid-vaults-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/openapi/rocksolid-vaults-api-openapi.yml
+  url: https://artifacts.apis.io/rocksolid/openapi/rocksolid-vaults-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -39,7 +39,7 @@ source_filename: rocksolid-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.rocksolid.network/integration/api\ndocs: https://docs.rocksolid.network/integration/api\nsummary:\n  types: []\n  api_key_in: []\n  oauth2_flows: []\n  note: >-\n    The RockSolid Vaults API is a public, read-only data API. It declares no\n    authentication scheme (no API key, bearer token, or OAuth) in its published\n    documentation or its live responses. Access is instead restricted at the\n    browser layer by a CORS allow list. State-changing operations (deposit,\n    withdraw/redeem) are performed on-chain against the ERC-7540 vault smart\n    contracts and authenticated by wallet signature, not by this HTTP API.\nschemes: []\ncors_allowed_origins:\n- '*.rocketpool.net'\n- '*.rocksolid.network'\n- 'http://localhost:3000'\n- 'http://localhost:8788'\n- 'http://localhost:8787'\nonchain_auth:\n  model: wallet-signature\n  standard: ERC-7540 / ERC-4626\n  docs: https://docs.rocksolid.network/integration/smart-contracts\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rocksolid/refs/heads/main/authentication/rocksolid-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rocksolid/authentication/rocksolid-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

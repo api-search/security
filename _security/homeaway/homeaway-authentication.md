@@ -37,7 +37,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://github.com/homeaway/homeaway_api_ruby\ndocs: https://www.homeaway.com/platform/myClients\nnote: >-\n  No OpenAPI is available for HomeAway (brand retired into Expedia Group / Vrbo),\n  so this profile is derived from the first-party Ruby SDK documentation rather\n  than a machine-readable spec. The HomeAway API used OAuth 2.0: applications\n  register for a client id and client secret at the developer platform, then use\n  either two-legged (client-credentials) access for public data or a three-legged\n  authorization-code flow to access a user's personal HomeAway data.\nsummary:\n  types: [oauth2]\n  oauth2_flows: [clientCredentials, authorizationCode]\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    description: Two-legged client authentication for public API access.\n  - flow: authorizationCode\n    description: Three-legged flow to access an end user's personal HomeAway data.\n\
   \  credentials:\n  - client_id\n  - client_secret\n  registration: https://www.homeaway.com/platform/myClients\n  sources: [github.com/homeaway/homeaway_api_ruby]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/homeaway/refs/heads/main/authentication/homeaway-authentication.yml
+source_yaml_url: https://artifacts.apis.io/homeaway/authentication/homeaway-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

@@ -5,67 +5,67 @@ api_specs:
   label: Booqable Availability API
   slug: booqable-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-availability-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-availability-api-openapi.yml
 - filename: booqable-bundles-collections-api-openapi.yml
   format: yaml
   label: Booqable Bundles & Collections API
   slug: booqable-bundles-collections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-bundles-collections-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-bundles-collections-api-openapi.yml
 - filename: booqable-customers-api-openapi.yml
   format: yaml
   label: Booqable Customers API
   slug: booqable-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-customers-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-customers-api-openapi.yml
 - filename: booqable-documents-api-openapi.yml
   format: yaml
   label: Booqable Documents API
   slug: booqable-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-documents-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-documents-api-openapi.yml
 - filename: booqable-order-fulfillment-api-openapi.yml
   format: yaml
   label: Booqable Order Fulfillment API
   slug: booqable-order-fulfillment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-order-fulfillment-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-order-fulfillment-api-openapi.yml
 - filename: booqable-orders-api-openapi.yml
   format: yaml
   label: Booqable Orders API
   slug: booqable-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-orders-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-orders-api-openapi.yml
 - filename: booqable-product-groups-api-openapi.yml
   format: yaml
   label: Booqable Product Groups API
   slug: booqable-product-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-product-groups-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-product-groups-api-openapi.yml
 - filename: booqable-products-api-openapi.yml
   format: yaml
   label: Booqable Products API
   slug: booqable-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-products-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-products-api-openapi.yml
 - filename: booqable-settings-api-openapi.yml
   format: yaml
   label: Booqable Settings API
   slug: booqable-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-settings-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-settings-api-openapi.yml
 - filename: booqable-stock-items-api-openapi.yml
   format: yaml
   label: Booqable Stock Items API
   slug: booqable-stock-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-stock-items-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-stock-items-api-openapi.yml
 - filename: booqable-webhooks-api-openapi.yml
   format: yaml
   label: Booqable Webhooks API
   slug: booqable-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/openapi/booqable-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/booqable/openapi/booqable-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -107,7 +107,7 @@ source_filename: booqable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: booqable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 15:05:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.booqable.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 19 07:26:58 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: booqable.com\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/booqable/refs/heads/main/security/booqable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/booqable/security/booqable-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Rental Management

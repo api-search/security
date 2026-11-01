@@ -5,19 +5,19 @@ api_specs:
   label: Endgame Threads API
   slug: end-game-threads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-threads-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-threads-api-openapi.yml
 - filename: end-game-internal-api-openapi.yml
   format: yaml
   label: Endgame Internal API
   slug: end-game-internal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-internal-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-internal-api-openapi.yml
 - filename: end-game-protected-static-api-openapi.yml
   format: yaml
   label: Endgame Protected Static API
   slug: end-game-protected-static-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/openapi/end-game-protected-static-api-openapi.yml
+  url: https://artifacts.apis.io/end-game/openapi/end-game-protected-static-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: end-game-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.endgame.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 14:26:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.endgame.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 03:46:45 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.endgame.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 14:50:53 2026 GMT\n  hsts: false\ndomains:\n- domain: endgame.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/end-game/refs/heads/main/security/end-game-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/end-game/security/end-game-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

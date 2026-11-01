@@ -5,25 +5,25 @@ api_specs:
   label: Wombo Images API
   slug: wombo-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-images-api-openapi.yml
+  url: https://artifacts.apis.io/wombo/openapi/wombo-images-api-openapi.yml
 - filename: wombo-models-api-openapi.yml
   format: yaml
   label: Wombo Models API
   slug: wombo-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-models-api-openapi.yml
+  url: https://artifacts.apis.io/wombo/openapi/wombo-models-api-openapi.yml
 - filename: wombo-predictions-api-openapi.yml
   format: yaml
   label: Wombo Predictions API
   slug: wombo-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/wombo/openapi/wombo-predictions-api-openapi.yml
 - filename: wombo-chat-completions-api-openapi.yml
   format: yaml
   label: Wombo Chat Completions API
   slug: wombo-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/openapi/wombo-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/wombo/openapi/wombo-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: wombo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: w.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 23:50:08 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.w.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  2 01:11:46 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.w.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 13:38:55 2026 GMT\n  hsts: false\ndomains:\n- domain: w.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wombo/refs/heads/main/security/wombo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wombo/security/wombo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

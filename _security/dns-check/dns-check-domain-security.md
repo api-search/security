@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: dns-check-dns-record-monitoring-api-openapi.yml
+- filename: dns-check-groups-api-openapi.yml
   format: yaml
-  label: DNS Check DNS Record Monitoring API
-  slug: dns-check-dns-record-monitoring-api
+  label: DNS Check Groups API
+  slug: dns-check-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/openapi/dns-check-dns-record-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/dns-check/openapi/dns-check-groups-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -41,7 +41,7 @@ source_filename: dns-check-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dnscheck.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 17:36:38 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: dnscheck.co\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/dns-check/refs/heads/main/security/dns-check-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/dns-check/security/dns-check-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - DNS

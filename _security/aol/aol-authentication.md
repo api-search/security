@@ -7,13 +7,13 @@ api_specs:
   label: AOL OpenID Connect API
   slug: aol-openid-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/openapi/aol-openid-connect-api-openapi.yml
+  url: https://artifacts.apis.io/aol/openapi/aol-openid-connect-api-openapi.yml
 - filename: aol-oauth2-api-openapi.yml
   format: yaml
   label: AOL O Auth2 API
   slug: aol-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/openapi/aol-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/aol/openapi/aol-oauth2-api-openapi.yml
 auth_types:
 - oauth2
 - openIdConnect
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: probed\nsource: https://api.login
   \ https://api.login.aol.com/oauth2/request_auth\n    tokenUrl: https://api.login.aol.com/oauth2/get_token\n    refreshUrl: https://api.login.aol.com/oauth2/get_token\n    scopes: 4\n  sources:\n  - https://api.login.aol.com/.well-known/openid-configuration\n- name: openIdConnect\n  type: openIdConnect\n  openIdConnectUrl: https://api.login.aol.com/.well-known/openid-configuration\n  sources:\n  - https://api.login.aol.com/.well-known/openid-configuration\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: >-\n    client_secret_basic — HTTP Basic with base64-encoded `client_id:client_secret`\n    at the token endpoint.\n  sources:\n  - https://api.login.aol.com/.well-known/openid-configuration\n  - openapi/aol-oauth2-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 Bearer access token presented to the userinfo endpoint.\n  sources:\n  - openapi/aol-openid-connect-api-openapi.yml\nendpoints:\n  issuer: https://api.login.aol.com\n\
   \  authorization: https://api.login.aol.com/oauth2/request_auth\n  token: https://api.login.aol.com/oauth2/get_token\n  userinfo: https://api.login.aol.com/openid/v1/userinfo\n  jwks: https://api.login.aol.com/openid/v1/certs\n  introspection: https://api.login.aol.com/oauth2/introspect\n  revocation: https://api.login.aol.com/oauth2/revoke\ntoken_endpoint_auth_methods:\n- client_secret_basic\n- client_secret_post\ngrant_types:\n- authorization_code\n- refresh_token\nresponse_types:\n- code\n- token\n- id_token\n- code token\n- code id_token\n- token id_token\n- code token id_token\nresponse_modes:\n- query\nid_token_signing_algs:\n- ES256\n- RS256\nsubject_types:\n- public\nacr_values:\n- AAL1\n- AAL2\nclaims:\n- aud\n- auth_time\n- birthdate\n- email\n- email_verified\n- exp\n- family_name\n- given_name\n- iat\n- iss\n- locale\n- name\n- sub\nnot_supported:\n  claims_parameter: false\n  request_parameter: false\n  request_uri_parameter: false\n  note: >-\n    Signed/pushed request objects\
   \ (RFC 9101) and the OIDC `claims` request\n    parameter are explicitly unsupported per the discovery document.\nevidence:\n- url: https://api.login.aol.com/.well-known/openid-configuration\n  status: 200\n  content_type: application/json\n  fetched: '2026-09-02'\n- url: https://api.login.aol.com/openid/v1/certs\n  status: 200\n  content_type: application/json\n  fetched: '2026-09-02'\n  note: JWKS served anonymously; RSA/RS256 signing keys present.\n- url: https://api.login.aol.com/oauth2/introspect\n  status: 403\n  fetched: '2026-09-02'\n  note: Introspection endpoint exists per discovery but rejects anonymous callers.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aol/refs/heads/main/authentication/aol-authentication.yml
+source_yaml_url: https://artifacts.apis.io/aol/authentication/aol-authentication.yml
 summary_line: oauth2/openIdConnect/http · 4 schemes
 tags:
 - Digital Media

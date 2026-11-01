@@ -8,73 +8,73 @@ api_specs:
   label: AhaSend Accounts API
   slug: ahasend-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-accounts-api-openapi.yml
 - filename: ahasend-api-keys-api-openapi.yml
   format: yaml
   label: AhaSend API Keys API
   slug: ahasend-api-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-api-keys-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-api-keys-api-openapi.yml
 - filename: ahasend-domains-api-openapi.yml
   format: yaml
   label: AhaSend Domains API
   slug: ahasend-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-domains-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-domains-api-openapi.yml
 - filename: ahasend-email-api-openapi.yml
   format: yaml
   label: AhaSend Email API
   slug: ahasend-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-email-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-email-api-openapi.yml
 - filename: ahasend-messages-api-openapi.yml
   format: yaml
   label: AhaSend Messages API
   slug: ahasend-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-messages-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-messages-api-openapi.yml
 - filename: ahasend-routes-api-openapi.yml
   format: yaml
   label: AhaSend Routes API
   slug: ahasend-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-routes-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-routes-api-openapi.yml
 - filename: ahasend-smtp-credentials-api-openapi.yml
   format: yaml
   label: AhaSend SMTP Credentials API
   slug: ahasend-smtp-credentials-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-smtp-credentials-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-smtp-credentials-api-openapi.yml
 - filename: ahasend-statistics-api-openapi.yml
   format: yaml
   label: AhaSend Statistics API
   slug: ahasend-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-statistics-api-openapi.yml
 - filename: ahasend-suppressions-api-openapi.yml
   format: yaml
   label: AhaSend Suppressions API
   slug: ahasend-suppressions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-suppressions-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-suppressions-api-openapi.yml
 - filename: ahasend-utility-api-openapi.yml
   format: yaml
   label: AhaSend Utility API
   slug: ahasend-utility-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-utility-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-utility-api-openapi.yml
 - filename: ahasend-webhooks-api-openapi.yml
   format: yaml
   label: AhaSend Webhooks API
   slug: ahasend-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-webhooks-api-openapi.yml
 - filename: ahasend-subaccounts-api-openapi.yml
   format: yaml
   label: AhaSend Subaccounts API
   slug: ahasend-subaccounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/openapi/ahasend-subaccounts-api-openapi.yml
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-subaccounts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-08-30'\nmethod: searched\ndocs: https://ahasend.c
   \ by hand.\n    (DKIM keys, by contrast, rotate automatically on a configurable interval.)\nrestrictions:\n  scoped_keys:\n    supported: true\n    description: >-\n      Every key carries an explicit scope list, including per-domain scopes such as\n      messages:send:{example.com}. See scopes/ahasend-scopes.yml for all 51.\n  ip_allow_list:\n    supported: true\n    field: APIKey.ip_allow_list\n    limits: up to 100 IPv4/IPv6 addresses or CIDR ranges per key\n    semantics: >-\n      A key with a non-empty allow list is rejected on EVERY endpoint from any other IP,\n      regardless of scopes. An empty list means no restriction. \"Allow everything\" ranges are\n      rejected.\n    self_lockout_protection: >-\n      Setting a key's own allow list to a value excluding the calling IP is rejected and nothing is\n      saved. The dashboard is never blocked by a key's allow list.\n    change_control: >-\n      Changing an allow list in the dashboard re-prompts for a 2FA code (or password),\
   \ remembered\n      for 5 minutes, and emails owners and administrators that a security setting changed.\n  sandbox_mode:\n    description: >-\n      A credential can be created in, or switched to, Sandbox mode — sends made with it are always\n      simulated. Sandbox and production keys share the aha-sk- prefix, so the mode is NOT visible\n      in the key string.\nsmtp_authentication:\n  mechanism: PLAIN over STARTTLS\n  hosts: [send.ahasend.com, send-us.ahasend.com]\n  ports: [25, 587, 2525]\n  note: >-\n    Implicit TLS (SMTPS) on port 465 is explicitly not supported. SMTP credentials are separate\n    objects from API keys, created in the dashboard or through the SMTP Credentials API, and can\n    themselves be global or domain-scoped.\nwebhook_authentication:\n  direction: inbound-to-subscriber\n  mechanism: Standard Webhooks HMAC-SHA256 over `id.timestamp.body`\n  see: asyncapi/ahasend-webhooks.yml\nhuman_authentication:\n  two_factor: TOTP-based 2FA, with account-wide enforcement\
   \ available\n  sso:\n    protocol: OpenID Connect\n    role: relying-party\n    features: [PKCE, multi-domain]\n    plan: Max\n    note: Dashboard login only. AhaSend does not issue OAuth or OIDC tokens for its API.\ngaps:\n  - No OAuth 2.0 or OIDC authorization for API access — API keys only.\n  - No key expiry, no automatic rotation, no published key-rotation guidance.\n  - No /.well-known/oauth-authorization-server or /.well-known/openid-configuration (both 404).\n  - >-\n    A 403 caused by a missing scope and a 403 caused by an IP-allow-list rejection are not\n    distinguishable from the response body.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/authentication/ahasend-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ahasend/authentication/ahasend-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Email

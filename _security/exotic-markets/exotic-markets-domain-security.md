@@ -32,7 +32,7 @@ source_filename: exotic-markets-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: exotic.markets\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 19:30:03 2026 GMT\n  hsts: false\ndomains:\n- domain: exotic.markets\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exotic-markets/refs/heads/main/security/exotic-markets-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/exotic-markets/security/exotic-markets-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

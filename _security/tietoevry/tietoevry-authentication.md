@@ -8,127 +8,127 @@ api_specs:
   label: TietoEVRY Account consent service API
   slug: tietoevry-account-consent-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-account-consent-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-account-consent-service-api-openapi.yml
 - filename: tietoevry-account-information-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Account Information Service API
   slug: tietoevry-account-information-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-account-information-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-account-information-service-api-openapi.yml
 - filename: tietoevry-aggregated-services-api-openapi.yml
   format: yaml
   label: TietoEVRY Aggregated services API
   slug: tietoevry-aggregated-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-aggregated-services-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-aggregated-services-api-openapi.yml
 - filename: tietoevry-bulk-payment-initiation-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Bulk Payment Initiation Service API
   slug: tietoevry-bulk-payment-initiation-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-bulk-payment-initiation-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-bulk-payment-initiation-service-api-openapi.yml
 - filename: tietoevry-card-account-information-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Card account information service API
   slug: tietoevry-card-account-information-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-card-account-information-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-card-account-information-service-api-openapi.yml
 - filename: tietoevry-card-information-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Card information service API
   slug: tietoevry-card-information-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-card-information-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-card-information-service-api-openapi.yml
 - filename: tietoevry-confirmation-of-funds-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Confirmation of Funds Service API
   slug: tietoevry-confirmation-of-funds-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-confirmation-of-funds-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-confirmation-of-funds-service-api-openapi.yml
 - filename: tietoevry-confirmation-of-funds-service-consent-api-openapi.yml
   format: yaml
   label: TietoEVRY Confirmation of Funds Service consent API
   slug: tietoevry-confirmation-of-funds-service-consent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-confirmation-of-funds-service-consent-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-confirmation-of-funds-service-consent-api-openapi.yml
 - filename: tietoevry-creditor-api-openapi.yml
   format: yaml
   label: TietoEVRY Creditor API
   slug: tietoevry-creditor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-creditor-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-creditor-api-openapi.yml
 - filename: tietoevry-debtor-api-openapi.yml
   format: yaml
   label: TietoEVRY Debtor API
   slug: tietoevry-debtor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-debtor-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-debtor-api-openapi.yml
 - filename: tietoevry-end-user-management-api-openapi.yml
   format: yaml
   label: TietoEVRY End User management API
   slug: tietoevry-end-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-end-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-end-user-management-api-openapi.yml
 - filename: tietoevry-payment-initiation-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Payment Initiation Service API
   slug: tietoevry-payment-initiation-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-payment-initiation-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-payment-initiation-service-api-openapi.yml
 - filename: tietoevry-payment-recall-initiation-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Payment Recall Initiation Service API
   slug: tietoevry-payment-recall-initiation-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-payment-recall-initiation-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-payment-recall-initiation-service-api-openapi.yml
 - filename: tietoevry-periodic-payment-initiation-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Periodic Payment Initiation Service API
   slug: tietoevry-periodic-payment-initiation-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-periodic-payment-initiation-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-periodic-payment-initiation-service-api-openapi.yml
 - filename: tietoevry-pre-step-sca-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Pre-step SCA service API
   slug: tietoevry-pre-step-sca-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-pre-step-sca-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-pre-step-sca-service-api-openapi.yml
 - filename: tietoevry-provider-information-api-openapi.yml
   format: yaml
   label: TietoEVRY Provider information API
   slug: tietoevry-provider-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-provider-information-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-provider-information-api-openapi.yml
 - filename: tietoevry-request-to-pay-initiation-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Request to pay Initiation Service API
   slug: tietoevry-request-to-pay-initiation-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-request-to-pay-initiation-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-request-to-pay-initiation-service-api-openapi.yml
 - filename: tietoevry-signing-baskets-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Signing Baskets Service API
   slug: tietoevry-signing-baskets-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-signing-baskets-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-signing-baskets-service-api-openapi.yml
 - filename: tietoevry-subscription-initiation-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Subscription Initiation Service API
   slug: tietoevry-subscription-initiation-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-subscription-initiation-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-subscription-initiation-service-api-openapi.yml
 - filename: tietoevry-user-roles-service-api-openapi.yml
   format: yaml
   label: TietoEVRY User Roles service API
   slug: tietoevry-user-roles-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-user-roles-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-user-roles-service-api-openapi.yml
 - filename: tietoevry-users-service-api-openapi.yml
   format: yaml
   label: TietoEVRY Users service API
   slug: tietoevry-users-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/openapi/tietoevry-users-service-api-openapi.yml
+  url: https://artifacts.apis.io/tietoevry/openapi/tietoevry-users-service-api-openapi.yml
 auth_types:
 - apiKey
 - openIdConnect
@@ -214,7 +214,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://openban
   \  type: mutualTLS\n  description: 'PSD2 production access requires eIDAS qualified certificates (QWAC for transport, QSealC for\n    sealing), registered against the application in the portal. The provider manual states \"QWAC and QSeal\n    certificates are not required in the Sandbox mode\", which is the reverse statement of the live\n    requirement. Consistent with this, https://openbanking.api.tieto.com (the host named in the published\n    specs as the live XS2A base) resolves to 20.86.199.14 but terminates TLS with a self-signed chain to an\n    ordinary client, i.e. the live gateway is not reachable without the client certificate.'\n  applies_to: live\n  sources:\n  - https://openbanking.api.tietoevry.com/documentation/how-to-instruction.yaml\n  - probe of https://openbanking.api.tieto.com/ on 2026-09-02\n- name: APPIDHeader\n  type: apiKey\n  in: header\n  parameter: X-APP-ID\n  description: Application ID to be used for authentication against Generic SSO.\n  scope: VAM\n  sources:\n\
   \  - openapi/tietoevry-tieto-xs2a-vam-accounts.yaml\n  - openapi/tietoevry-tieto-xs2a-vam-users.yaml\n- name: TokenHeader\n  type: apiKey\n  in: header\n  parameter: X-Token\n  description: Token to be used for authentication against Generic SSO.\n  scope: VAM\n  sources:\n  - openapi/tietoevry-tieto-xs2a-vam-accounts.yaml\n  - openapi/tietoevry-tieto-xs2a-vam-users.yaml\n- name: TokenTypeHeader\n  type: apiKey\n  in: header\n  parameter: X-Token-Type\n  description: Token type to be used for authentication against Generic SSO. This provides support for\n    different types of token by different issuing systems.\n  scope: VAM\n  sources:\n  - openapi/tietoevry-tieto-xs2a-vam-accounts.yaml\n  - openapi/tietoevry-tieto-xs2a-vam-users.yaml\nconsent_model:\n  note: 'Beyond credentials, every account-data and funds-confirmation call carries a Consent-ID header\n    naming a PSU consent that the customer authorised through an SCA redirect. Consent is the real\n    authorisation object in this\
   \ API, not a scope.'\n  header: Consent-ID\n  statuses:\n  - received\n  - valid\n  - rejected\n  - expired\n  - revokedByPsu\n  - terminatedByTpp\n  - blocked\n  - deleted\n  max_validity: 'Recurring AIS consent validity is 90 days, extended to 180 days under the EBA SCA exemption\n    in Commission Delegated Regulation (EU) 2022/2360 RTS Article 10a; the provider states the 180-day\n    interface is available in the Sandbox environment.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tietoevry/refs/heads/main/authentication/tietoevry-authentication.yml
+source_yaml_url: https://artifacts.apis.io/tietoevry/authentication/tietoevry-authentication.yml
 summary_line: apiKey/openIdConnect/mutualTLS · 7 schemes
 tags:
 - Company

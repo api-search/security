@@ -5,25 +5,25 @@ api_specs:
   label: Android Orders API
   slug: android-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-orders-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-orders-api-openapi.yml
 - filename: android-purchases-api-openapi.yml
   format: yaml
   label: Android Purchases API
   slug: android-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-purchases-api-openapi.yml
 - filename: android-reviews-api-openapi.yml
   format: yaml
   label: Android Reviews API
   slug: android-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-reviews-api-openapi.yml
 - filename: android-subscriptions-api-openapi.yml
   format: yaml
   label: Android Subscriptions API
   slug: android-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -73,7 +73,7 @@ source_filename: android-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.android.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:12 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: firebase.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: android.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/security/android-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/android/security/android-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

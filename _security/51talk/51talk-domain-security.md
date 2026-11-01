@@ -27,7 +27,7 @@ source_filename: 51talk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 51talk.ph\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 28 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: 51talk.ph\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/51talk/refs/heads/main/security/51talk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/51talk/security/51talk-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

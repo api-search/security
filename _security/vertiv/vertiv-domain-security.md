@@ -5,49 +5,49 @@ api_specs:
   label: Vertiv Alarms API
   slug: vertiv-alarms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-alarms-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-alarms-api-openapi.yml
 - filename: vertiv-assets-api-openapi.yml
   format: yaml
   label: Vertiv Assets API
   slug: vertiv-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-assets-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-assets-api-openapi.yml
 - filename: vertiv-authentication-api-openapi.yml
   format: yaml
   label: Vertiv Authentication API
   slug: vertiv-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-authentication-api-openapi.yml
 - filename: vertiv-circuits-api-openapi.yml
   format: yaml
   label: Vertiv Circuits API
   slug: vertiv-circuits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-circuits-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-circuits-api-openapi.yml
 - filename: vertiv-devices-api-openapi.yml
   format: yaml
   label: Vertiv Devices API
   slug: vertiv-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-devices-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-devices-api-openapi.yml
 - filename: vertiv-racks-api-openapi.yml
   format: yaml
   label: Vertiv Racks API
   slug: vertiv-racks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-racks-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-racks-api-openapi.yml
 - filename: vertiv-sensors-api-openapi.yml
   format: yaml
   label: Vertiv Sensors API
   slug: vertiv-sensors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-sensors-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-sensors-api-openapi.yml
 - filename: vertiv-datasets-api-openapi.yml
   format: yaml
   label: Vertiv Datasets API
   slug: vertiv-datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/openapi/vertiv-datasets-api-openapi.yml
+  url: https://artifacts.apis.io/vertiv/openapi/vertiv-datasets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_filename: vertiv-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.vertiv.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.geistglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 20:11:54 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: vertiv.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: geistglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/security/vertiv-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vertiv/security/vertiv-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Critical Infrastructure

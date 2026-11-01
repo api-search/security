@@ -8,37 +8,37 @@ api_specs:
   label: 1Forge Forex Stream
   slug: 1forge-forex-stream
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/asyncapi/1forge-forex-stream-asyncapi.yml
+  url: https://artifacts.apis.io/1forge/asyncapi/1forge-forex-stream-asyncapi.yml
 - filename: 1forge-convert-api-openapi.yml
   format: yaml
   label: 1Forge Convert API
   slug: 1forge-convert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-convert-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-convert-api-openapi.yml
 - filename: 1forge-market-status-api-openapi.yml
   format: yaml
   label: 1Forge Market Status API
   slug: 1forge-market-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-market-status-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-market-status-api-openapi.yml
 - filename: 1forge-quota-api-openapi.yml
   format: yaml
   label: 1Forge Quota API
   slug: 1forge-quota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-quota-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-quota-api-openapi.yml
 - filename: 1forge-quotes-api-openapi.yml
   format: yaml
   label: 1Forge Quotes API
   slug: 1forge-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-quotes-api-openapi.yml
 - filename: 1forge-symbols-api-openapi.yml
   format: yaml
   label: 1Forge Symbols API
   slug: 1forge-symbols-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/openapi/1forge-symbols-api-openapi.yml
+  url: https://artifacts.apis.io/1forge/openapi/1forge-symbols-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -68,7 +68,7 @@ source_filename: 1forge-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/1forge-forex-data-api.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: |-\n    1Forge requires an API key passed as the `api_key` query parameter on every\n    request. Obtain a key at https://1forge.com.\n  sources:\n  - openapi/1forge-forex-data-api.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1forge/refs/heads/main/authentication/1forge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/1forge/authentication/1forge-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Foreign Exchange

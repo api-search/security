@@ -5,31 +5,31 @@ api_specs:
   label: Fellow Action Items API
   slug: fellow-action-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-action-items-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-action-items-api-openapi.yml
 - filename: fellow-notes-api-openapi.yml
   format: yaml
   label: Fellow Notes API
   slug: fellow-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-notes-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-notes-api-openapi.yml
 - filename: fellow-recordings-api-openapi.yml
   format: yaml
   label: Fellow Recordings API
   slug: fellow-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-recordings-api-openapi.yml
 - filename: fellow-users-api-openapi.yml
   format: yaml
   label: Fellow Users API
   slug: fellow-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-users-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-users-api-openapi.yml
 - filename: fellow-webhooks-api-openapi.yml
   format: yaml
   label: Fellow Webhooks API
   slug: fellow-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/openapi/fellow-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/fellow/openapi/fellow-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: fellow-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: fellow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 21:05:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.fellow.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 11 21:28:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: fellow.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fellow/refs/heads/main/security/fellow-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/fellow/security/fellow-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

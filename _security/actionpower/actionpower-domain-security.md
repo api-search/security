@@ -5,31 +5,31 @@ api_specs:
   label: Actionpower Image API
   slug: actionpower-image-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-image-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-image-api-openapi.yml
 - filename: actionpower-nlp-api-openapi.yml
   format: yaml
   label: Actionpower NLP API
   slug: actionpower-nlp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-nlp-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-nlp-api-openapi.yml
 - filename: actionpower-stt-api-openapi.yml
   format: yaml
   label: Actionpower STT API
   slug: actionpower-stt-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-stt-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-stt-api-openapi.yml
 - filename: actionpower-tts-api-openapi.yml
   format: yaml
   label: Actionpower TTS API
   slug: actionpower-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-tts-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-tts-api-openapi.yml
 - filename: actionpower-video-api-openapi.yml
   format: yaml
   label: Actionpower Video API
   slug: actionpower-video-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/openapi/actionpower-video-api-openapi.yml
+  url: https://artifacts.apis.io/actionpower/openapi/actionpower-video-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,7 +82,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apis.daglo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: false\n  note: >-\n    The API host itself. Added by hand from an openssl/curl probe on 2026-09-06 because the mechanical\n    pass enumerated only the website, company and docs hosts. No Strict-Transport-Security header is\n    returned on https://apis.daglo.ai/docs.\n- host: daglo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 23:30:11 2026 GMT\n  hsts: false\n- host: actionpower.kr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 15:15:52 2026 GMT\n  hsts: false\n- host: developers.daglo.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 04:23:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: daglo.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain:\
   \ actionpower.kr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/actionpower/refs/heads/main/security/actionpower-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/actionpower/security/actionpower-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Speech Recognition

@@ -5,25 +5,25 @@ api_specs:
   label: SpectrumOutage API Locations API
   slug: spectrumoutage-api-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/openapi/spectrumoutage-api-locations-api-openapi.yml
+  url: https://artifacts.apis.io/spectrumoutage-api/openapi/spectrumoutage-api-locations-api-openapi.yml
 - filename: spectrumoutage-api-map-api-openapi.yml
   format: yaml
   label: SpectrumOutage API Map API
   slug: spectrumoutage-api-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/openapi/spectrumoutage-api-map-api-openapi.yml
+  url: https://artifacts.apis.io/spectrumoutage-api/openapi/spectrumoutage-api-map-api-openapi.yml
 - filename: spectrumoutage-api-reports-api-openapi.yml
   format: yaml
   label: SpectrumOutage API Reports API
   slug: spectrumoutage-api-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/openapi/spectrumoutage-api-reports-api-openapi.yml
+  url: https://artifacts.apis.io/spectrumoutage-api/openapi/spectrumoutage-api-reports-api-openapi.yml
 - filename: spectrumoutage-api-stats-api-openapi.yml
   format: yaml
   label: SpectrumOutage API Stats API
   slug: spectrumoutage-api-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/openapi/spectrumoutage-api-stats-api-openapi.yml
+  url: https://artifacts.apis.io/spectrumoutage-api/openapi/spectrumoutage-api-stats-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: spectrumoutage-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.spectrumoutage.us\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 15 06:48:32 2026 GMT\n  hsts: false\n- host: spectrumoutage.us\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  9 08:27:32 2026 GMT\n  hsts: false\ndomains:\n- domain: spectrumoutage.us\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spectrumoutage-api/refs/heads/main/security/spectrumoutage-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spectrumoutage-api/security/spectrumoutage-api-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Spectrum

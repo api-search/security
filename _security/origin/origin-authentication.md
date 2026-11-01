@@ -8,7 +8,7 @@ api_specs:
   label: Origin Trades API
   slug: origin-trades-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/openapi/origin-trades-api-openapi.yml
+  url: https://artifacts.apis.io/origin/openapi/origin-trades-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -39,7 +39,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: openapi/origin-airbrush-openapi-original.yml\ndocs: https://airbrush.originmarkets.com/v3/\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\nnotes: >\n  The Origin Trades API (Airbrush v3) authenticates with a single API key passed in the\n  API-Key request header, issued by Origin. The Swagger 2.0 document models this as a\n  header parameter rather than a declared securityDefinitions scheme, so the mechanical\n  deriver reports no formal scheme; the auth model below is captured from the documented\n  request header and the per-operation 403 \"Invalid API Key\" response. If the key is\n  omitted the API returns the interactive documentation page instead of data.\nschemes:\n- name: API-Key\n  type: apiKey\n  in: header\n  parameter_name: API-Key\n  description: >\n    Unique API key used for authentication, provided by Origin. Scopes the response to\n    the trades the key has been granted access to.\
   \ Invalid keys return HTTP 403 with a\n    {\"detail\": \"Invalid API Key\"} body.\n  sources: [openapi/origin-airbrush-openapi-original.yml]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/origin/refs/heads/main/authentication/origin-authentication.yml
+source_yaml_url: https://artifacts.apis.io/origin/authentication/origin-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

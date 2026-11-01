@@ -5,13 +5,13 @@ api_specs:
   label: InvoiceCraftly Developer Document API Documents API
   slug: invoicecraftly-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/openapi/invoicecraftly-documents-api-openapi.yml
+  url: https://artifacts.apis.io/invoicecraftly/openapi/invoicecraftly-documents-api-openapi.yml
 - filename: invoicecraftly-structured-invoicing-api-openapi.yml
   format: yaml
   label: InvoiceCraftly Developer Document API Structured invoicing API
   slug: invoicecraftly-structured-invoicing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/openapi/invoicecraftly-structured-invoicing-api-openapi.yml
+  url: https://artifacts.apis.io/invoicecraftly/openapi/invoicecraftly-structured-invoicing-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +39,7 @@ source_filename: invoicecraftly-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: invoicecraftly.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 20:18:20 2026 GMT\n  hsts: false\ndomains:\n- domain: invoicecraftly.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/invoicecraftly/refs/heads/main/security/invoicecraftly-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/invoicecraftly/security/invoicecraftly-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Invoicing

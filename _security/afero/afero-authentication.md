@@ -7,25 +7,25 @@ api_specs:
   label: Afero Cloud Authentication API
   slug: authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-authentication-api-openapi.yml
 - filename: afero-users-api-openapi.yml
   format: yaml
   label: Afero Cloud Users API
   slug: users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-users-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-users-api-openapi.yml
 - filename: afero-devices-api-openapi.yml
   format: yaml
   label: Afero Cloud Devices API
   slug: devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-devices-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-devices-api-openapi.yml
 - filename: afero-ota-api-openapi.yml
   format: yaml
   label: Afero Cloud OTA Firmware API
   slug: ota-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/openapi/afero-ota-api-openapi.yml
+  url: https://artifacts.apis.io/afero/openapi/afero-ota-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -69,7 +69,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\nsource: openapi/afero-a
   \ The header value is the\n    string `Basic ` followed by the Base64 encoding of `<OAuth Client ID>:<OAuth Client Secret>`.\n    Both credentials are issued to a partner and viewed in the Afero Profile Editor under\n    VIEW > ACCOUNT INFO. Afero warns that developer credentials obtained through the Profile\n    Editor must not be used in production applications.'\n  sources:\n  - openapi/afero-authentication-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  used_on:\n  - Every /v1/ operation (users, devices, OTA)\n  description: 'The OAuth 2.0 access token returned by POST /oauth/token, sent as\n    `Authorization: Bearer <access_token>`. The token is issued for an end-user and is used to\n    authenticate requests on that user''s behalf. It expires — the docs state approximately four\n    hours and the response carries expires_in in seconds. An expired or missing token returns\n    HTTP 401 with error `unauthorized`.'\n  sources:\n  - openapi/afero-devices-api-openapi.yml\n\
   \  - openapi/afero-ota-api-openapi.yml\n  - openapi/afero-users-api-openapi.yml\nflow:\n  grant_type: password\n  request:\n    method: POST\n    url: https://api.afero.io/oauth/token\n    headers:\n      Content-Type: application/x-www-form-urlencoded\n      Accept: application/json\n      Authorization: Basic <base64(clientId:clientSecret)>\n    body_fields:\n    - username (the Afero account email address)\n    - password\n    - grant_type=password\n  response_fields:\n  - access_token\n  - token_type (bearer)\n  - expires_in (seconds)\n  - scope\n  observed_scope_value: partner account\nauthorization_model:\n  note: 'Afero has no OAuth scope reference page and does not document scope-based authorization.\n    Authorization is enforced through account and partner PRIVILEGE objects returned by\n    GET /v1/users/me rather than through token scopes.'\n  account_privileges:\n  - canWrite\n  - owner\n  partner_privileges:\n  - inviteUsers\n  - manageDeviceProfiles\n  - owner\n  - viewDeviceInfo\n\
   \  source: https://afero-docs.readthedocs.io/en/latest/API-UserEndpoints/\ndiscovery:\n  openid_configuration: 404 at https://api.afero.io/.well-known/openid-configuration\n  oauth_authorization_server: 404 at https://api.afero.io/.well-known/oauth-authorization-server\n  note: Afero publishes no OAuth or OIDC discovery metadata; the token endpoint is documented in\n    prose only.\ngaps:\n- No authorization_code or client_credentials flow — only the RFC 6749 resource owner password\n  credentials grant, which requires the partner application to handle end-user passwords directly.\n- No documented refresh token.\n- No OAuth scopes are published, so scopes/ is not emitted for this provider.\n- No PKCE, no token revocation and no token introspection endpoint documented.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/afero/refs/heads/main/authentication/afero-authentication.yml
+source_yaml_url: https://artifacts.apis.io/afero/authentication/afero-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

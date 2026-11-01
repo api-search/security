@@ -5,31 +5,31 @@ api_specs:
   label: UVeye Appraisal API
   slug: uveye-appraisal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-appraisal-api-openapi.yml
+  url: https://artifacts.apis.io/uveye/openapi/uveye-appraisal-api-openapi.yml
 - filename: uveye-inspections-api-openapi.yml
   format: yaml
   label: UVeye Inspections API
   slug: uveye-inspections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-inspections-api-openapi.yml
+  url: https://artifacts.apis.io/uveye/openapi/uveye-inspections-api-openapi.yml
 - filename: uveye-media-api-openapi.yml
   format: yaml
   label: UVeye Media API
   slug: uveye-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-media-api-openapi.yml
+  url: https://artifacts.apis.io/uveye/openapi/uveye-media-api-openapi.yml
 - filename: uveye-merchandise-api-openapi.yml
   format: yaml
   label: UVeye Merchandise API
   slug: uveye-merchandise-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-merchandise-api-openapi.yml
+  url: https://artifacts.apis.io/uveye/openapi/uveye-merchandise-api-openapi.yml
 - filename: uveye-public-links-api-openapi.yml
   format: yaml
   label: UVeye Public Links API
   slug: uveye-public-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/openapi/uveye-public-links-api-openapi.yml
+  url: https://artifacts.apis.io/uveye/openapi/uveye-public-links-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -47,7 +47,7 @@ source_filename: uveye-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-02'\nmethod: searched\nprobe: true\nsource: https://trust.uveye.com/\nurl: https://trust.uveye.com/\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://trust.uveye.com/\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uveye/refs/heads/main/security/uveye-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/uveye/security/uveye-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Automotive

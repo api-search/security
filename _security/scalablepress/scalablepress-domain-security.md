@@ -5,49 +5,49 @@ api_specs:
   label: Scalable Press Billing API
   slug: scalablepress-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-billing-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-billing-api-openapi.yml
 - filename: scalablepress-customization-api-openapi.yml
   format: yaml
   label: Scalable Press Customization API
   slug: scalablepress-customization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-customization-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-customization-api-openapi.yml
 - filename: scalablepress-design-api-openapi.yml
   format: yaml
   label: Scalable Press Design API
   slug: scalablepress-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-design-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-design-api-openapi.yml
 - filename: scalablepress-event-api-openapi.yml
   format: yaml
   label: Scalable Press Event API
   slug: scalablepress-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-event-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-event-api-openapi.yml
 - filename: scalablepress-mockup-api-openapi.yml
   format: yaml
   label: Scalable Press Mockup API
   slug: scalablepress-mockup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-mockup-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-mockup-api-openapi.yml
 - filename: scalablepress-order-api-openapi.yml
   format: yaml
   label: Scalable Press Order API
   slug: scalablepress-order-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-order-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-order-api-openapi.yml
 - filename: scalablepress-product-api-openapi.yml
   format: yaml
   label: Scalable Press Product API
   slug: scalablepress-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-product-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-product-api-openapi.yml
 - filename: scalablepress-quote-api-openapi.yml
   format: yaml
   label: Scalable Press Quote API
   slug: scalablepress-quote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/openapi/scalablepress-quote-api-openapi.yml
+  url: https://artifacts.apis.io/scalablepress/openapi/scalablepress-quote-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: scalablepress-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: scalablepress.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: false\n- host: api.scalablepress.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: scalablepress.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalablepress/refs/heads/main/security/scalablepress-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/scalablepress/security/scalablepress-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Print on Demand

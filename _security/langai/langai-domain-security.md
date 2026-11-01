@@ -5,13 +5,13 @@ api_specs:
   label: Lang.ai Documents API
   slug: langai-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/openapi/langai-documents-api-openapi.yml
+  url: https://artifacts.apis.io/langai/openapi/langai-documents-api-openapi.yml
 - filename: langai-projects-api-openapi.yml
   format: yaml
   label: Lang.ai Projects API
   slug: langai-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/openapi/langai-projects-api-openapi.yml
+  url: https://artifacts.apis.io/langai/openapi/langai-projects-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -54,7 +54,7 @@ source_filename: langai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lang.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  7 23:59:59 2027 GMT\n  hsts: false\n- host: docs.lang.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  4 23:59:59 2026 GMT\n  hsts: false\n- host: company.lang.ai\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''company.lan'\n  hsts: null\ndomains:\n- domain: lang.ai\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"mailto:security@lang.ai\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/langai/refs/heads/main/security/langai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/langai/security/langai-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company

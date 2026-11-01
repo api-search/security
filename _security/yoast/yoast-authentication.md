@@ -7,55 +7,55 @@ api_specs:
   label: Yoast Pages API
   slug: yoast-pages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-pages-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-pages-api-openapi.yml
 - filename: yoast-posts-api-openapi.yml
   format: yaml
   label: Yoast Posts API
   slug: yoast-posts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-posts-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-posts-api-openapi.yml
 - filename: yoast-seo-head-api-openapi.yml
   format: yaml
   label: Yoast SEO Head API
   slug: yoast-seo-head-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-seo-head-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-seo-head-api-openapi.yml
 - filename: yoast-abilities-api-openapi.yml
   format: yaml
   label: Yoast SEO Abilities API
   slug: yoast-abilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-abilities-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-abilities-api-openapi.yml
 - filename: yoast-provisioning-account-api-openapi.yml
   format: yaml
   label: Yoast Provisioning Account API
   slug: yoast-provisioning-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-account-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-provisioning-account-api-openapi.yml
 - filename: yoast-provisioning-downloads-api-openapi.yml
   format: yaml
   label: Yoast Provisioning Downloads API
   slug: yoast-provisioning-downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-provisioning-downloads-api-openapi.yml
 - filename: yoast-provisioning-users-api-openapi.yml
   format: yaml
   label: Yoast Provisioning Users API
   slug: yoast-provisioning-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-provisioning-users-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-provisioning-users-api-openapi.yml
 - filename: yoast-schema-aggregator-api-openapi.yml
   format: yaml
   label: Yoast Schema Aggregator API
   slug: yoast-schema-aggregator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-schema-aggregator-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-schema-aggregator-api-openapi.yml
 - filename: yoast-subscription-provisioning-api-openapi.yml
   format: yaml
   label: Yoast Subscription Provisioning API
   slug: yoast-subscription-provisioning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/openapi/yoast-subscription-provisioning-api-openapi.yml
+  url: https://artifacts.apis.io/yoast/openapi/yoast-subscription-provisioning-api-openapi.yml
 auth_types:
 - http
 - openIdConnect
@@ -148,7 +148,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/yoast-m
   \      introspection: https://my.yoast.com/api/oauth/token/introspection\n      revocation: https://my.yoast.com/api/oauth/token/revocation\n      end_session: https://my.yoast.com/api/oauth/session/end\n    grant_types:\n      - authorization_code\n      - refresh_token\n      - client_credentials\n    response_types:\n      - code\n    pkce:\n      required_methods:\n        - S256\n    token_endpoint_auth_methods:\n      - none\n      - private_key_jwt\n    token_endpoint_auth_signing_algs:\n      - ES256\n      - EdDSA\n      - RS256\n    id_token_signing_algs:\n      - EdDSA\n    sender_constrained_tokens:\n      dpop: true\n      dpop_signing_algs:\n        - ES256\n        - EdDSA\n    dynamic_client_registration:\n      supported: true\n      spec: RFC 7591\n      endpoint: https://my.yoast.com/api/oauth/reg\n    key_rotation:\n      supported: true\n      note: '`wp yoast auth rotate-keys` rotates the registration or DPoP proof key pairs'\n    sources:\n      - well-known/yoast-openid-configuration.json\n\
   \  - name: wordpress-host\n    type: none\n    api: Yoast REST API, Schema Aggregator API, Yoast SEO Abilities API\n    description: >-\n      No Yoast-issued credential exists for these. They are WordPress REST routes served\n      by the customer's own install. The documented read paths (yoast/v1/get_head,\n      yoast_head_json on wp/v2/posts and wp/v2/pages, the schema-aggregator routes) are\n      reachable unauthenticated for public content; the WordPress Abilities API applies\n      its own per-ability permission checks, whose required capability Yoast does not\n      publish. Where authentication is needed it is WordPress's — cookie + nonce for\n      first-party requests, Application Passwords or a JWT/OAuth plugin for machine\n      clients.\n    sources:\n      - https://developer.yoast.com/customization/apis/rest-api/\n      - https://developer.yoast.com/features/yoast-seo-abilities/overview/\ngaps:\n  - >-\n    Yoast does not publish which WordPress capability each Abilities\
   \ API ability\n    requires, so an integrator cannot tell in advance which role can read SEO scores.\n  - >-\n    The MyYoast Provisioning API remains HTTP Basic while the same host runs a modern\n    OIDC provider with DPoP; there is no documented path for a provisioner to move onto\n    OAuth.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/authentication/yoast-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yoast/authentication/yoast-authentication.yml
 summary_line: http/openIdConnect/none · 3 schemes
 tags:
 - SEO

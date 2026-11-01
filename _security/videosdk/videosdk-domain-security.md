@@ -5,43 +5,43 @@ api_specs:
   label: VideoSDK HLS Streaming API
   slug: videosdk-hls-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-hls-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-hls-streaming-api-openapi.yml
 - filename: videosdk-participant-recordings-api-openapi.yml
   format: yaml
   label: VideoSDK Participant Recordings API
   slug: videosdk-participant-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-participant-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-participant-recordings-api-openapi.yml
 - filename: videosdk-recordings-api-openapi.yml
   format: yaml
   label: VideoSDK Recordings API
   slug: videosdk-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-recordings-api-openapi.yml
 - filename: videosdk-rooms-api-openapi.yml
   format: yaml
   label: VideoSDK Rooms API
   slug: videosdk-rooms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-rooms-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-rooms-api-openapi.yml
 - filename: videosdk-rtmp-streaming-api-openapi.yml
   format: yaml
   label: VideoSDK RTMP Streaming API
   slug: videosdk-rtmp-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-rtmp-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-rtmp-streaming-api-openapi.yml
 - filename: videosdk-sessions-api-openapi.yml
   format: yaml
   label: VideoSDK Sessions API
   slug: videosdk-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-sessions-api-openapi.yml
 - filename: videosdk-track-recordings-api-openapi.yml
   format: yaml
   label: VideoSDK Track Recordings API
   slug: videosdk-track-recordings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/openapi/videosdk-track-recordings-api-openapi.yml
+  url: https://artifacts.apis.io/videosdk/openapi/videosdk-track-recordings-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -86,7 +86,7 @@ source_filename: videosdk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.videosdk.live\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 17:49:41 2026 GMT\n  hsts: false\n- host: docs.videosdk.live\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 17:48:18 2026 GMT\n  hsts: false\n- host: api.videosdk.live\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 14 17:24:03 2026 GMT\n  hsts: null\ndomains:\n- domain: videosdk.live\n  dnssec: false\n  caa:\n  - 0 issue \"amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/videosdk/refs/heads/main/security/videosdk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/videosdk/security/videosdk-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Video

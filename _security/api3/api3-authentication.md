@@ -7,19 +7,19 @@ api_specs:
   label: API3 Airnodes API
   slug: api3-airnodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/openapi/api3-airnodes-api-openapi.yml
+  url: https://artifacts.apis.io/api3/openapi/api3-airnodes-api-openapi.yml
 - filename: api3-signed-data-api-openapi.yml
   format: yaml
   label: API3 Signed Data API
   slug: api3-signed-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/openapi/api3-signed-data-api-openapi.yml
+  url: https://artifacts.apis.io/api3/openapi/api3-signed-data-api-openapi.yml
 - filename: api3-status-api-openapi.yml
   format: yaml
   label: API3 Status API
   slug: api3-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/openapi/api3-status-api-openapi.yml
+  url: https://artifacts.apis.io/api3/openapi/api3-status-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: api3-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/api3-signed-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Bearer token configured in the Signed API's allowedAirnodes or endpoint authTokens\n    list. Required on endpoints or Airnode addresses configured with non-null authTokens.\n  sources:\n  - openapi/api3-signed-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api3/refs/heads/main/authentication/api3-authentication.yml
+source_yaml_url: https://artifacts.apis.io/api3/authentication/api3-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Blockchain

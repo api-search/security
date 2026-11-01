@@ -17,37 +17,37 @@ api_specs:
   label: PlayHT Agents API
   slug: playht-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-agents-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-agents-api-openapi.yml
 - filename: playht-conversations-api-openapi.yml
   format: yaml
   label: PlayHT Conversations API
   slug: playht-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-conversations-api-openapi.yml
 - filename: playht-external-functions-api-openapi.yml
   format: yaml
   label: PlayHT External Functions API
   slug: playht-external-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-external-functions-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-external-functions-api-openapi.yml
 - filename: playht-playnote-api-openapi.yml
   format: yaml
   label: PlayHT PlayNote API
   slug: playht-playnote-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-playnote-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-playnote-api-openapi.yml
 - filename: playht-tts-api-openapi.yml
   format: yaml
   label: PlayHT TTS API
   slug: playht-tts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-tts-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-tts-api-openapi.yml
 - filename: playht-voices-api-openapi.yml
   format: yaml
   label: PlayHT Voices API
   slug: playht-voices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/openapi/playht-voices-api-openapi.yml
+  url: https://artifacts.apis.io/playht/openapi/playht-voices-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,11 +85,10 @@ source_filename: playht-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: play.ht\n  https: false\n- host: docs.play.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jul 27 09:44:06 2026 GMT\n  hsts: null\n- host: api.play.ai\n  https: false\ndomains:\n- domain: play.ht\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: play.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/security/playht-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/playht/security/playht-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Voice
-- TTS
 - Text-to-Speech
 - Voice Cloning
 - Voice Agents

@@ -34,7 +34,7 @@ source_filename: tempo-labs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tempo.new\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 19:38:53 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.tempo.new\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 17:53:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: tempo.new\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tempo-labs/refs/heads/main/security/tempo-labs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tempo-labs/security/tempo-labs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI App Builder

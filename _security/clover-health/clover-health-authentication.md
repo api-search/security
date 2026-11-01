@@ -8,13 +8,13 @@ api_specs:
   label: Clover Health Fhir R4 Formulary API
   slug: clover-health-fhir-r4-formulary-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/clover-health-fhir-r4-formulary-api-api-openapi.yml
+  url: https://artifacts.apis.io/clover-health/openapi/clover-health-fhir-r4-formulary-api-api-openapi.yml
 - filename: clover-health-fhir-r4-providerdirectory-api-api-openapi.yml
   format: yaml
   label: Clover Health FHIR R4 ProviderDirectory API
   slug: clover-health-fhir-r4-providerdirectory-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/openapi/clover-health-fhir-r4-providerdirectory-api-api-openapi.yml
+  url: https://artifacts.apis.io/clover-health/openapi/clover-health-fhir-r4-providerdirectory-api-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -47,7 +47,7 @@ source_filename: clover-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/clover-health-fhir-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/clover-health-fhir-openapi-original.yml\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: sessionid\n  sources:\n  - openapi/clover-health-fhir-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clover-health/refs/heads/main/authentication/clover-health-authentication.yml
+source_yaml_url: https://artifacts.apis.io/clover-health/authentication/clover-health-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company

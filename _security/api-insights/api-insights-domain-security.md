@@ -27,7 +27,7 @@ source_filename: api-insights-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apiinsights.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 23 10:40:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: apiinsights.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-insights/refs/heads/main/security/api-insights-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/api-insights/security/api-insights-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - AI Readiness

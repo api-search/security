@@ -8,31 +8,31 @@ api_specs:
   label: Wikidata Descriptions API
   slug: wikidata-descriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-descriptions-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-descriptions-api-openapi.yml
 - filename: wikidata-items-api-openapi.yml
   format: yaml
   label: Wikidata Items API
   slug: wikidata-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-items-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-items-api-openapi.yml
 - filename: wikidata-labels-api-openapi.yml
   format: yaml
   label: Wikidata Labels API
   slug: wikidata-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-labels-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-labels-api-openapi.yml
 - filename: wikidata-properties-api-openapi.yml
   format: yaml
   label: Wikidata Properties API
   slug: wikidata-properties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-properties-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-properties-api-openapi.yml
 - filename: wikidata-statements-api-openapi.yml
   format: yaml
   label: Wikidata Statements API
   slug: wikidata-statements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/openapi/wikidata-statements-api-openapi.yml
+  url: https://artifacts.apis.io/wikidata/openapi/wikidata-statements-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -70,7 +70,7 @@ source_filename: wikidata-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wikidata-mediawiki-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - cookie\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.mediawiki.org/w/index.php?title=Special:OAuth/authorize\n    tokenUrl: https://www.mediawiki.org/w/index.php?title=Special:OAuth/token\n    scopes: 2\n  sources:\n  - openapi/wikidata-mediawiki-openapi.yml\n- name: MediaWikiSession\n  type: apiKey\n  in: cookie\n  parameter: wikidataSession\n  sources:\n  - openapi/wikidata-mediawiki-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/authentication/wikidata-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wikidata/authentication/wikidata-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Knowledge Graph

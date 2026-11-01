@@ -5,7 +5,73 @@ api_specs:
   label: API.Video Videos API
   slug: api-video-videos-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/openapi/api-video-videos-api-openapi.yml
+  url: https://artifacts.apis.io/api-video/openapi/api-video-videos-api-openapi.yml
+- filename: api-video-advanced-authentication-api-openapi.yml
+  format: yaml
+  label: API.Video Advanced authentication API
+  slug: api-video-advanced-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-advanced-authentication-api-openapi.yml
+- filename: api-video-analytics-api-openapi.yml
+  format: yaml
+  label: API.Video Analytics API
+  slug: api-video-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-analytics-api-openapi.yml
+- filename: api-video-captions-api-openapi.yml
+  format: yaml
+  label: API.Video Captions API
+  slug: api-video-captions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-captions-api-openapi.yml
+- filename: api-video-chapters-api-openapi.yml
+  format: yaml
+  label: API.Video Chapters API
+  slug: api-video-chapters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-chapters-api-openapi.yml
+- filename: api-video-live-streams-api-openapi.yml
+  format: yaml
+  label: API.Video Live Streams API
+  slug: api-video-live-streams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-live-streams-api-openapi.yml
+- filename: api-video-player-themes-api-openapi.yml
+  format: yaml
+  label: API.Video Player Themes API
+  slug: api-video-player-themes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-player-themes-api-openapi.yml
+- filename: api-video-summaries-api-openapi.yml
+  format: yaml
+  label: API.Video Summaries API
+  slug: api-video-summaries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-summaries-api-openapi.yml
+- filename: api-video-tags-api-openapi.yml
+  format: yaml
+  label: API.Video Tags API
+  slug: api-video-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-tags-api-openapi.yml
+- filename: api-video-upload-tokens-api-openapi.yml
+  format: yaml
+  label: API.Video Upload Tokens API
+  slug: api-video-upload-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-upload-tokens-api-openapi.yml
+- filename: api-video-watermarks-api-openapi.yml
+  format: yaml
+  label: API.Video Watermarks API
+  slug: api-video-watermarks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-watermarks-api-openapi.yml
+- filename: api-video-webhooks-api-openapi.yml
+  format: yaml
+  label: API.Video Webhooks API
+  slug: api-video-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/api-video/openapi/api-video-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -51,7 +117,7 @@ source_filename: api-video-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.video\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 11:40:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.api.video\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 11:23:30 2026 GMT\n  hsts: false\n- host: ws.api.video\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: api.video\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/api-video/refs/heads/main/security/api-video-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/api-video/security/api-video-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

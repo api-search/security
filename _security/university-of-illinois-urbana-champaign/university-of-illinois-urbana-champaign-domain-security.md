@@ -5,13 +5,13 @@ api_specs:
   label: Rokwire Core Building Block API
   slug: rokwire-core-building-block
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-services-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/openapi/university-of-illinois-urbana-champaign-services-api-openapi.yml
 - filename: university-of-illinois-urbana-champaign-client-api-openapi.yml
   format: yaml
   label: Rokwire Gateway Building Block API
   slug: rokwire-gateway-building-block
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/openapi/university-of-illinois-urbana-champaign-client-api-openapi.yml
+  url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/openapi/university-of-illinois-urbana-champaign-client-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: university-of-illinois-urbana-champaign-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: illinois.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: courses.illinois.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 13 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.rokwire.illinois.edu\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: illinois.edu\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/university-of-illinois-urbana-champaign/refs/heads/main/security/university-of-illinois-urbana-champaign-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/university-of-illinois-urbana-champaign/security/university-of-illinois-urbana-champaign-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - University

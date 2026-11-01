@@ -8,55 +8,55 @@ api_specs:
   label: Validic Devices API
   slug: validic-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-devices-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-devices-api-openapi.yml
 - filename: validic-marketplace-connections-api-openapi.yml
   format: yaml
   label: Validic Marketplace & Connections API
   slug: validic-marketplace-connections-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-marketplace-connections-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-marketplace-connections-api-openapi.yml
 - filename: validic-observations-data-api-openapi.yml
   format: yaml
   label: Validic Observations & Data API
   slug: validic-observations-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-observations-data-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-observations-data-api-openapi.yml
 - filename: validic-push-service-api-openapi.yml
   format: yaml
   label: Validic Push Service API
   slug: validic-push-service-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-push-service-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-push-service-api-openapi.yml
 - filename: validic-streaming-api-openapi.yml
   format: yaml
   label: Validic Streaming API
   slug: validic-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-streaming-api-openapi.yml
 - filename: validic-users-api-openapi.yml
   format: yaml
   label: Validic Users API
   slug: validic-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-users-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-users-api-openapi.yml
 - filename: validic-measurements-api-openapi.yml
   format: yaml
   label: Validic Measurements API
   slug: validic-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-measurements-api-openapi.yml
 - filename: validic-organizations-api-openapi.yml
   format: yaml
   label: Validic Organizations API
   slug: validic-organizations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-organizations-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-organizations-api-openapi.yml
 - filename: validic-streams-api-openapi.yml
   format: yaml
   label: Validic Streams API
   slug: validic-streams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/openapi/validic-streams-api-openapi.yml
+  url: https://artifacts.apis.io/validic/openapi/validic-streams-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -129,7 +129,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: searched\nsource: >-\n  https://d
   \ - https://dashboard.validic.com/validic-developer-signup.txt\n  password_policy: >-\n    Minimum 8 characters including uppercase, lowercase, a number and a special\n    character.\noauth:\n  customer_facing: false\n  internal: true\n  note: >-\n    OAuth 2.0 is central to how the product WORKS but is never exposed to the\n    customer. The hosted Marketplace runs the OAuth authorization dance against\n    Fitbit, Garmin, Dexcom, Withings, Oura and the rest on the end user's\n    behalf, and the resulting grants are what make data flow. Validic\n    absorbs all of that so its customer never handles a third-party token -\n    which is a genuine part of the value, and also why there is no scope\n    surface for us to catalogue. scopes/ is deliberately not written.\nend_user_consent:\n  mechanism: hosted Marketplace (per-user, per-source)\n  revocation: >-\n    The user disconnects a source from the same Marketplace surface. Validic\n    tells integrators to keep a route back to it for\
   \ exactly this reason.\n  signal: >-\n    Connect and disconnect both emit a `connection` event on the Streaming API\n    and are retrievable over REST at /organizations/{org_id}/connections.\n  see: components/validic-components.yml\nphi_handling:\n  identifier_constraint: >-\n    The customer-defined `uid` travels in URLs and must therefore contain no\n    identifying data - no SSN, name, phone number or email address. Validic\n    states this as a HIPAA requirement on the integrator.\n  retention: 1 year retrievable via API; 7 years retained for compliance\ntransport:\n  https_required: true\n  tls_observed:\n  - host: api.v2.validic.com\n    tls: TLSv1.2\n  - host: developer.validic.com\n    tls: TLSv1.3\n  - host: validic.com\n    tls: TLSv1.3\n  see: security/validic-domain-security.yml\ngaps:\n- No Authorization-header option on the data API; the credential is always in the URL.\n- No documented token rotation, expiry or revocation procedure for the organization token.\n- No per-user\
   \ or per-scope credential - the org token reads every patient in the organization.\n- No OIDC discovery document despite issuing OIDC-shaped tokens on the signup API.\n- No mTLS option for a platform carrying PHI.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/validic/refs/heads/main/authentication/validic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/validic/authentication/validic-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Health Data

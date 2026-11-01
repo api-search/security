@@ -7,31 +7,31 @@ api_specs:
   label: Pimloc Account API
   slug: pimloc-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-account-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-account-api-openapi.yml
 - filename: pimloc-authentication-api-openapi.yml
   format: yaml
   label: Pimloc Authentication API
   slug: pimloc-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-authentication-api-openapi.yml
 - filename: pimloc-media-api-openapi.yml
   format: yaml
   label: Pimloc Media API
   slug: pimloc-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-media-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-media-api-openapi.yml
 - filename: pimloc-projects-api-openapi.yml
   format: yaml
   label: Pimloc Projects API
   slug: pimloc-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-projects-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-projects-api-openapi.yml
 - filename: pimloc-secure-redact-api-api-openapi.yml
   format: yaml
   label: Pimloc Secure Redact API
   slug: pimloc-secure-redact-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/openapi/pimloc-secure-redact-api-api-openapi.yml
+  url: https://artifacts.apis.io/pimloc/openapi/pimloc-secure-redact-api-api-openapi.yml
 auth_types:
 - http-basic
 - http-bearer
@@ -68,7 +68,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://docs.secureredact.co.uk\ndocs: https://docs.secureredact.co.uk\nsummary:\n  types: [http-basic, http-bearer]\n  model: token-exchange\n  description: >-\n    HTTP Basic authentication with a client_id / client_secret pair (generated\n    from the Secure Redact account page) is used only on the token endpoint to\n    obtain a short-lived JWT access token. That JWT bearer token authenticates\n    all other endpoints. Passing a username to the token endpoint yields a\n    user-scoped access token used for the Enterprise Flow.\nschemes:\n  - name: basicAuth\n    type: http\n    scheme: basic\n    used_on: /api/v3/token\n    credentials: client_id (username) + client_secret (password)\n    sources: [openapi/secureredact-openapi.yml]\n  - name: bearerAuth\n    type: http\n    scheme: bearer\n    bearerFormat: JWT\n    used_on: all endpoints except /api/v3/token\n    sources: [openapi/secureredact-openapi.yml]\ntoken_endpoint:\
   \ https://app.secureredact.co.uk/api/v3/token\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pimloc/refs/heads/main/authentication/pimloc-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pimloc/authentication/pimloc-authentication.yml
 summary_line: http-basic/http-bearer · 2 schemes
 tags:
 - Company

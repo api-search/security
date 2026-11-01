@@ -5,19 +5,19 @@ api_specs:
   label: Nitro Software Authentication API
   slug: nitro-software-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/openapi/nitro-software-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nitro-software/openapi/nitro-software-authentication-api-openapi.yml
 - filename: nitro-software-platform-api-openapi.yml
   format: yaml
   label: Nitro Software Platform API
   slug: nitro-software-platform-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/openapi/nitro-software-platform-api-openapi.yml
+  url: https://artifacts.apis.io/nitro-software/openapi/nitro-software-platform-api-openapi.yml
 - filename: nitro-software-sign-api-openapi.yml
   format: yaml
   label: Nitro Software Sign API
   slug: nitro-software-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/openapi/nitro-software-sign-api-openapi.yml
+  url: https://artifacts.apis.io/nitro-software/openapi/nitro-software-sign-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2
@@ -38,7 +38,7 @@ source_filename: nitro-software-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nprobe: true\nurl: https://www.gonitro.com/trust-center\nalso:\n- https://www.gonitro.com/security\n- https://www.gonitro.com/security-compliance\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- eIDAS QTSP\n- EU-U.S. Data Privacy Framework\nregional_signing_compliance:\n- eIDAS\n- UETA\n- ESIGN Act\n- ZertES\n- Singapore ETA\n- Hong Kong electronic signature regulations\nprivacy:\n- GDPR\n- CCPA\nstatements:\n- Data is never used for training AI models\n- Security measures are integrated into the core of products, not added later\n- Annual independent third-party security and privacy audits\ndata_controller: Nitro Software, Inc., 150 Spear St STE 1500, San Francisco CA 94105\nevidence:\n- source: https://www.gonitro.com/trust-center\n  keywords: [soc 2, iso 27001, hipaa, eidas, qtsp, data privacy framework]\n- source: https://www.gonitro.com/security\n  keywords: [iso 27001, soc 2, eidas qtsp, hipaa, data privacy frameworks]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nitro-software/refs/heads/main/security/nitro-software-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/nitro-software/security/nitro-software-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, eIDAS QTSP, EU-U.S. Data Privacy Framework
 tags:
 - Company

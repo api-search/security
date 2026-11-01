@@ -7,43 +7,43 @@ api_specs:
   label: Hyperline Billable Events API
   slug: hyperline-billable-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-billable-events-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-billable-events-api-openapi.yml
 - filename: hyperline-customers-api-openapi.yml
   format: yaml
   label: Hyperline Customers API
   slug: hyperline-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-customers-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-customers-api-openapi.yml
 - filename: hyperline-invoices-api-openapi.yml
   format: yaml
   label: Hyperline Invoices API
   slug: hyperline-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-invoices-api-openapi.yml
 - filename: hyperline-payments-api-openapi.yml
   format: yaml
   label: Hyperline Payments API
   slug: hyperline-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-payments-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-payments-api-openapi.yml
 - filename: hyperline-products-api-openapi.yml
   format: yaml
   label: Hyperline Products API
   slug: hyperline-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-products-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-products-api-openapi.yml
 - filename: hyperline-subscriptions-api-openapi.yml
   format: yaml
   label: Hyperline Subscriptions API
   slug: hyperline-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-subscriptions-api-openapi.yml
 - filename: hyperline-webhooks-api-openapi.yml
   format: yaml
   label: Hyperline Webhooks API
   slug: hyperline-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/openapi/hyperline-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/hyperline/openapi/hyperline-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: hyperline-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hyperline-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: 'Authenticate with your Hyperline API key passed as a bearer token in the Authorization\n    header - `Authorization: Bearer <API_KEY>`.'\n  sources:\n  - openapi/hyperline-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/authentication/hyperline-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hyperline/authentication/hyperline-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Billing

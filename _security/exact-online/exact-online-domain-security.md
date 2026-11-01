@@ -5,37 +5,37 @@ api_specs:
   label: Exact Online CRM API
   slug: exact-online-crm-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-crm-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-crm-api-openapi.yml
 - filename: exact-online-financial-api-openapi.yml
   format: yaml
   label: Exact Online Financial API
   slug: exact-online-financial-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-financial-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-financial-api-openapi.yml
 - filename: exact-online-logistics-api-openapi.yml
   format: yaml
   label: Exact Online Logistics API
   slug: exact-online-logistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-logistics-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-logistics-api-openapi.yml
 - filename: exact-online-purchase-api-openapi.yml
   format: yaml
   label: Exact Online Purchase API
   slug: exact-online-purchase-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-purchase-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-purchase-api-openapi.yml
 - filename: exact-online-sales-api-openapi.yml
   format: yaml
   label: Exact Online Sales API
   slug: exact-online-sales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-sales-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-sales-api-openapi.yml
 - filename: exact-online-system-api-openapi.yml
   format: yaml
   label: Exact Online System API
   slug: exact-online-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/openapi/exact-online-system-api-openapi.yml
+  url: https://artifacts.apis.io/exact-online/openapi/exact-online-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -81,7 +81,7 @@ source_filename: exact-online-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.exact.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  4 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: start.exactonline.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: null\n- host: start.exactonline.co.uk\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: exact.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: exactonline.nl\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exact-online/refs/heads/main/security/exact-online-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/exact-online/security/exact-online-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Accounting

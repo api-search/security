@@ -44,12 +44,12 @@ source_filename: nickelytics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: nickelytics.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 05:00:18 2026 GMT\n  hsts: null\n- host: www.robot.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 15:23:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api-ads.robot.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct  1 19:27:27 2026 GMT\n  hsts: null\ndomains:\n- domain: nickelytics.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: robot.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nickelytics/refs/heads/main/security/nickelytics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nickelytics/security/nickelytics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Advertising
-- OOH
+- Out-of-Home
 - Digital Out Of Home
 - Programmatic Advertising
 - Mobility

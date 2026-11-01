@@ -5,61 +5,61 @@ api_specs:
   label: Herald Applications API
   slug: herald-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-applications-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-applications-api-openapi.yml
 - filename: herald-authentication-api-openapi.yml
   format: yaml
   label: Herald Authentication API
   slug: herald-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-authentication-api-openapi.yml
 - filename: herald-classifications-api-openapi.yml
   format: yaml
   label: Herald Classifications API
   slug: herald-classifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-classifications-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-classifications-api-openapi.yml
 - filename: herald-distributors-api-openapi.yml
   format: yaml
   label: Herald Distributors API
   slug: herald-distributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-distributors-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-distributors-api-openapi.yml
 - filename: herald-files-api-openapi.yml
   format: yaml
   label: Herald Files API
   slug: herald-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-files-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-files-api-openapi.yml
 - filename: herald-producers-api-openapi.yml
   format: yaml
   label: Herald Producers API
   slug: herald-producers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-producers-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-producers-api-openapi.yml
 - filename: herald-products-api-openapi.yml
   format: yaml
   label: Herald Products API
   slug: herald-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-products-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-products-api-openapi.yml
 - filename: herald-quotes-api-openapi.yml
   format: yaml
   label: Herald Quotes API
   slug: herald-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-quotes-api-openapi.yml
 - filename: herald-submissions-api-openapi.yml
   format: yaml
   label: Herald Submissions API
   slug: herald-submissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-submissions-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-submissions-api-openapi.yml
 - filename: herald-webhooks-api-openapi.yml
   format: yaml
   label: Herald Webhooks API
   slug: herald-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/openapi/herald-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/herald/openapi/herald-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -97,7 +97,7 @@ source_filename: herald-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.heraldapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 15:45:04 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.heraldapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 16 06:16:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.heraldapi.com\n  https: false\ndomains:\n- domain: heraldapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/herald/refs/heads/main/security/herald-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/herald/security/herald-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

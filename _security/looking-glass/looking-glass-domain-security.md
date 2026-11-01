@@ -5,37 +5,37 @@ api_specs:
   label: Looking Glass Autostart API
   slug: looking-glass-autostart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/openapi/looking-glass-autostart-api-openapi.yml
+  url: https://artifacts.apis.io/looking-glass/openapi/looking-glass-autostart-api-openapi.yml
 - filename: looking-glass-devices-api-openapi.yml
   format: yaml
   label: Looking Glass Devices API
   slug: looking-glass-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/openapi/looking-glass-devices-api-openapi.yml
+  url: https://artifacts.apis.io/looking-glass/openapi/looking-glass-devices-api-openapi.yml
 - filename: looking-glass-orchestration-api-openapi.yml
   format: yaml
   label: Looking Glass Orchestration API
   slug: looking-glass-orchestration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/openapi/looking-glass-orchestration-api-openapi.yml
+  url: https://artifacts.apis.io/looking-glass/openapi/looking-glass-orchestration-api-openapi.yml
 - filename: looking-glass-playback-api-openapi.yml
   format: yaml
   label: Looking Glass Playback API
   slug: looking-glass-playback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/openapi/looking-glass-playback-api-openapi.yml
+  url: https://artifacts.apis.io/looking-glass/openapi/looking-glass-playback-api-openapi.yml
 - filename: looking-glass-playlist-api-openapi.yml
   format: yaml
   label: Looking Glass Playlist API
   slug: looking-glass-playlist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/openapi/looking-glass-playlist-api-openapi.yml
+  url: https://artifacts.apis.io/looking-glass/openapi/looking-glass-playlist-api-openapi.yml
 - filename: looking-glass-version-api-openapi.yml
   format: yaml
   label: Looking Glass Version API
   slug: looking-glass-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/openapi/looking-glass-version-api-openapi.yml
+  url: https://artifacts.apis.io/looking-glass/openapi/looking-glass-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: looking-glass-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lookingglassfactory.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 11:23:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: lookingglassfactory.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/looking-glass/refs/heads/main/security/looking-glass-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/looking-glass/security/looking-glass-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

@@ -8,79 +8,85 @@ api_specs:
   label: depop API status API
   slug: depop-api-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-api-status-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-api-status-api-openapi.yml
 - filename: depop-authentication-api-openapi.yml
   format: yaml
   label: depop Authentication API
   slug: depop-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-authentication-api-openapi.yml
 - filename: depop-docs-api-openapi.yml
   format: yaml
   label: depop Docs API
   slug: depop-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-docs-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-docs-api-openapi.yml
 - filename: depop-insights-api-openapi.yml
   format: yaml
   label: depop Insights API
   slug: depop-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-insights-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-insights-api-openapi.yml
 - filename: depop-orders-api-openapi.yml
   format: yaml
   label: depop Orders API
   slug: depop-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-orders-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-orders-api-openapi.yml
 - filename: depop-pricing-inspiration-api-openapi.yml
   format: yaml
   label: depop Pricing Inspiration API
   slug: depop-pricing-inspiration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-pricing-inspiration-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-pricing-inspiration-api-openapi.yml
 - filename: depop-products-api-openapi.yml
   format: yaml
   label: depop Products API
   slug: depop-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-api-openapi.yml
 - filename: depop-products-by-product-id-api-openapi.yml
   format: yaml
   label: depop Products - By Product ID API
   slug: depop-products-by-product-id-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-by-product-id-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-by-product-id-api-openapi.yml
 - filename: depop-products-by-sku-api-openapi.yml
   format: yaml
   label: depop Products - By SKU API
   slug: depop-products-by-sku-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-by-sku-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-by-sku-api-openapi.yml
 - filename: depop-products-by-slug-api-openapi.yml
   format: yaml
   label: depop Products - By Slug API
   slug: depop-products-by-slug-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-by-slug-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-by-slug-api-openapi.yml
 - filename: depop-products-legacy-deprecated-api-openapi.yml
   format: yaml
   label: depop Products - Legacy (Deprecated) API
   slug: depop-products-legacy-deprecated-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-products-legacy-deprecated-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-products-legacy-deprecated-api-openapi.yml
 - filename: depop-shop-management-api-openapi.yml
   format: yaml
   label: depop Shop Management API
   slug: depop-shop-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-shop-management-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-shop-management-api-openapi.yml
 - filename: depop-seller-api-api-openapi.yml
   format: yaml
   label: depop Seller API
   slug: depop-seller-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/openapi/depop-seller-api-api-openapi.yml
+  url: https://artifacts.apis.io/depop/openapi/depop-seller-api-api-openapi.yml
+- filename: depop-webhook-configuration-api-openapi.yml
+  format: yaml
+  label: depop Webhook Configuration API
+  slug: depop-webhook-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/depop/openapi/depop-webhook-configuration-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -127,7 +133,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nsource: openapi/depop-selling-openapi-original.yml\ndocs: https://partnerapi.depop.com/api-docs/concepts/authentication/\nsummary:\n  types:\n  - http\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\n  notes: >-\n    The OpenAPI declares a single http bearer scheme (BearerAuth). The docs\n    document two mechanisms: static per-shop API keys (bearer tokens prefixed\n    pak_) and OAuth 2.0 Authorization Code flow with PKCE (S256) for acting on\n    behalf of a Depop seller. API-key tokens carry all scopes; OAuth tokens are\n    limited to the scopes granted at authorization. Access is not self-service:\n    partners must be onboarded by Depop (developers@depop.com).\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API key\n  description: >-\n    Authorization: Bearer <token>. Token is either a static per-shop API key\n    (prefix pak_) or a short-lived OAuth 2.0 access token.\n\
   \  sources:\n  - openapi/depop-selling-openapi-original.yml\n- name: OAuth2\n  type: oauth2\n  description: >-\n    OAuth 2.0 Authorization Code flow with mandatory PKCE (S256), per RFC 6749\n    and RFC 7636. Sellers grant granular scopes; access + refresh tokens are\n    issued at the token endpoint.\n  flows:\n  - flow: authorizationCode\n    tokenUrl: https://partnerapi.depop.com/api/v1/oauth2/access-token/\n    pkce: S256\n    scopes:\n    - products_read\n    - products_write\n    - orders_read\n    - orders_write\n    - offers_read\n    - offers_write\n    - shop_read\n  source: https://partnerapi.depop.com/api-docs/concepts/authentication/\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/depop/refs/heads/main/authentication/depop-authentication.yml
+source_yaml_url: https://artifacts.apis.io/depop/authentication/depop-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

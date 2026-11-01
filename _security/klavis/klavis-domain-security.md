@@ -5,25 +5,25 @@ api_specs:
   label: Klavis AI MCP Servers API
   slug: klavis-mcp-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-mcp-servers-api-openapi.yml
+  url: https://artifacts.apis.io/klavis/openapi/klavis-mcp-servers-api-openapi.yml
 - filename: klavis-sandbox-api-openapi.yml
   format: yaml
   label: Klavis AI Sandbox API
   slug: klavis-sandbox-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-sandbox-api-openapi.yml
+  url: https://artifacts.apis.io/klavis/openapi/klavis-sandbox-api-openapi.yml
 - filename: klavis-tools-api-openapi.yml
   format: yaml
   label: Klavis AI Tools API
   slug: klavis-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-tools-api-openapi.yml
+  url: https://artifacts.apis.io/klavis/openapi/klavis-tools-api-openapi.yml
 - filename: klavis-users-api-openapi.yml
   format: yaml
   label: Klavis AI Users API
   slug: klavis-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/openapi/klavis-users-api-openapi.yml
+  url: https://artifacts.apis.io/klavis/openapi/klavis-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: klavis-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.klavis.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 19:05:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.klavis.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 18:45:50 2026 GMT\n  hsts: null\ndomains:\n- domain: klavis.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/klavis/refs/heads/main/security/klavis-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/klavis/security/klavis-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - MCP

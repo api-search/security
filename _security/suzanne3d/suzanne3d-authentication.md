@@ -7,25 +7,25 @@ api_specs:
   label: Suzanne Generations API
   slug: suzanne3d-generations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-generations-api-openapi.yml
+  url: https://artifacts.apis.io/suzanne3d/openapi/suzanne3d-generations-api-openapi.yml
 - filename: suzanne3d-jobs-api-openapi.yml
   format: yaml
   label: Suzanne Jobs API
   slug: suzanne3d-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/suzanne3d/openapi/suzanne3d-jobs-api-openapi.yml
 - filename: suzanne3d-models-api-openapi.yml
   format: yaml
   label: Suzanne Models API
   slug: suzanne3d-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-models-api-openapi.yml
+  url: https://artifacts.apis.io/suzanne3d/openapi/suzanne3d-models-api-openapi.yml
 - filename: suzanne3d-uploads-api-openapi.yml
   format: yaml
   label: Suzanne Uploads API
   slug: suzanne3d-uploads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/openapi/suzanne3d-uploads-api-openapi.yml
+  url: https://artifacts.apis.io/suzanne3d/openapi/suzanne3d-uploads-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -59,7 +59,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: searched\nsource: https://console.suzanne3d.com/documentation/authentication\ndocs: https://console.suzanne3d.com/documentation/authentication\nsummary: Every Suzanne API request is authenticated with a Bearer API key issued to the account; keys are prefixed\n  sznn_test_ (sandbox) or sznn_live_ (production) and are server-side only. No OAuth, no scopes reference page (a\n  403 forbidden_scope error is documented, so keys do carry scopes, but none are enumerated).\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  in: header\n  header: Authorization\n  format: Bearer sznn_test_xxx | Bearer sznn_live_xxx\n  key_prefixes:\n    sandbox: sznn_test_\n    production: sznn_live_\n  statement: 'Every request requires a Bearer token issued to your account. Keys start with sznn_test_ (sandbox)\n    or sznn_live_ (production). Treat them like a password: server-side only, never in client code.'\n  issued_from: https://console.suzanne3d.com/dashboard\n\
   \  applies_to: all operations\n  docs: https://console.suzanne3d.com/documentation/authentication\nerrors:\n- status: 401\n  code: unauthorized\n  meaning: Missing / bad API key.\n- status: 403\n  code: forbidden_scope\n  meaning: Key lacks the required scope.\noauth: false\nscopes_documented: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/suzanne3d/refs/heads/main/authentication/suzanne3d-authentication.yml
+source_yaml_url: https://artifacts.apis.io/suzanne3d/authentication/suzanne3d-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company

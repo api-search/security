@@ -5,37 +5,37 @@ api_specs:
   label: Clusters Authentication API
   slug: clusters-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-authentication-api-openapi.yml
 - filename: clusters-clusters-api-openapi.yml
   format: yaml
   label: Clusters API
   slug: clusters-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-clusters-api-openapi.yml
 - filename: clusters-communities-api-openapi.yml
   format: yaml
   label: Clusters Communities API
   slug: clusters-communities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-communities-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-communities-api-openapi.yml
 - filename: clusters-events-api-openapi.yml
   format: yaml
   label: Clusters Events API
   slug: clusters-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-events-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-events-api-openapi.yml
 - filename: clusters-names-api-openapi.yml
   format: yaml
   label: Clusters Names API
   slug: clusters-names-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-names-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-names-api-openapi.yml
 - filename: clusters-registration-api-openapi.yml
   format: yaml
   label: Clusters Registration API
   slug: clusters-registration-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/openapi/clusters-registration-api-openapi.yml
+  url: https://artifacts.apis.io/clusters/openapi/clusters-registration-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -74,7 +74,7 @@ source_filename: clusters-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: clusters.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 18:34:22 2026 GMT\n  hsts: false\n- host: docs.clusters.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 04:39:19 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.clusters.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 10 20:50:20 2026 GMT\n  hsts: false\ndomains:\n- domain: clusters.xyz\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clusters/refs/heads/main/security/clusters-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clusters/security/clusters-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

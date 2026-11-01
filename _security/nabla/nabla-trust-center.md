@@ -5,13 +5,13 @@ api_specs:
   label: Nabla Authentication API
   slug: nabla-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/nabla/openapi/nabla-authentication-api-openapi.yml
 - filename: nabla-transcription-api-openapi.yml
   format: yaml
   label: Nabla Transcription API
   slug: nabla-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/openapi/nabla-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/nabla/openapi/nabla-transcription-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -31,7 +31,7 @@ source_filename: nabla-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.nabla.com/\nurl: https://trust.nabla.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.nabla.com/\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - iso/iec 27001\n  - hipaa\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/security/nabla-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/nabla/security/nabla-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Healthcare

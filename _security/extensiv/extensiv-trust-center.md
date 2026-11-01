@@ -5,43 +5,43 @@ api_specs:
   label: Extensiv Authentication API
   slug: extensiv-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-authentication-api-openapi.yml
 - filename: extensiv-customers-api-openapi.yml
   format: yaml
   label: Extensiv Customers API
   slug: extensiv-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-customers-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-customers-api-openapi.yml
 - filename: extensiv-inventory-api-openapi.yml
   format: yaml
   label: Extensiv Inventory API
   slug: extensiv-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-inventory-api-openapi.yml
 - filename: extensiv-items-api-openapi.yml
   format: yaml
   label: Extensiv Items API
   slug: extensiv-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-items-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-items-api-openapi.yml
 - filename: extensiv-orders-api-openapi.yml
   format: yaml
   label: Extensiv Orders API
   slug: extensiv-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-orders-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-orders-api-openapi.yml
 - filename: extensiv-receivers-api-openapi.yml
   format: yaml
   label: Extensiv Receivers API
   slug: extensiv-receivers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-receivers-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-receivers-api-openapi.yml
 - filename: extensiv-warehouses-api-openapi.yml
   format: yaml
   label: Extensiv Warehouses API
   slug: extensiv-warehouses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/openapi/extensiv-warehouses-api-openapi.yml
+  url: https://artifacts.apis.io/extensiv/openapi/extensiv-warehouses-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -59,7 +59,7 @@ source_filename: extensiv-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.extensiv.com/\nurl: https://trust.extensiv.com/\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://trust.extensiv.com/\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/extensiv/refs/heads/main/security/extensiv-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/extensiv/security/extensiv-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
 - 3PL

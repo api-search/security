@@ -5,19 +5,19 @@ api_specs:
   label: Nakama API
   slug: nakama-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-nakama-api-openapi.yml
+  url: https://artifacts.apis.io/heroiclabs/openapi/heroiclabs-nakama-api-openapi.yml
 - filename: heroiclabs-console-api-openapi.yml
   format: yaml
   label: Heroic Labs Console API
   slug: heroiclabs-console-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-console-api-openapi.yml
+  url: https://artifacts.apis.io/heroiclabs/openapi/heroiclabs-console-api-openapi.yml
 - filename: heroiclabs-rpc-api-openapi.yml
   format: yaml
   label: Heroic Labs Rpc API
   slug: heroiclabs-rpc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/openapi/heroiclabs-rpc-api-openapi.yml
+  url: https://artifacts.apis.io/heroiclabs/openapi/heroiclabs-rpc-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: heroiclabs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: heroiclabs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 23:59:59 2026 GMT\n  hsts: false\n- host: 127.0.0.1\n  https: false\n- host: api.heroiclabs.com\n  https: false\ndomains:\n- domain: heroiclabs.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heroiclabs/refs/heads/main/security/heroiclabs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/heroiclabs/security/heroiclabs-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Game Backend

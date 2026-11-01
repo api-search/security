@@ -15,7 +15,7 @@ source_filename: build-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://build.inc/trust\nurl: https://build.inc/trust\ncertifications:\n- SOC 2\nevidence:\n- source: https://build.inc/trust\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/build/refs/heads/main/security/build-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/build/security/build-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

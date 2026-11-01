@@ -5,19 +5,19 @@ api_specs:
   label: Wormhole Guardian API
   slug: wormhole-guardian-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-guardian-api-openapi.yml
+  url: https://artifacts.apis.io/wormhole/openapi/wormhole-guardian-api-openapi.yml
 - filename: wormhole-wormhole-api-openapi.yml
   format: yaml
   label: Wormhole API
   slug: wormhole-wormhole-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-wormhole-api-openapi.yml
+  url: https://artifacts.apis.io/wormhole/openapi/wormhole-wormhole-api-openapi.yml
 - filename: wormhole-wormholescan-api-openapi.yml
   format: yaml
   label: Wormhole Wormholescan API
   slug: wormhole-wormholescan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/openapi/wormhole-wormholescan-api-openapi.yml
+  url: https://artifacts.apis.io/wormhole/openapi/wormhole-wormholescan-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: wormhole-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wormhole.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 04:06:25 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.wormholescan.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec  1 23:59:59 2026 GMT\n  hsts: null\n- host: api.testnet.wormholescan.io\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov  5 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: wormhole.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: wormholescan.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wormhole/refs/heads/main/security/wormhole-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wormhole/security/wormhole-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cross-Chain

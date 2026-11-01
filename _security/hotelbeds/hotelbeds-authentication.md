@@ -8,31 +8,31 @@ api_specs:
   label: Hotelbeds Activities API
   slug: hotelbeds-activities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-activities-api-openapi.yml
+  url: https://artifacts.apis.io/hotelbeds/openapi/hotelbeds-activities-api-openapi.yml
 - filename: hotelbeds-booking-api-openapi.yml
   format: yaml
   label: Hotelbeds Booking API
   slug: hotelbeds-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-booking-api-openapi.yml
+  url: https://artifacts.apis.io/hotelbeds/openapi/hotelbeds-booking-api-openapi.yml
 - filename: hotelbeds-cache-api-openapi.yml
   format: yaml
   label: Hotelbeds Cache API
   slug: hotelbeds-cache-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-cache-api-openapi.yml
+  url: https://artifacts.apis.io/hotelbeds/openapi/hotelbeds-cache-api-openapi.yml
 - filename: hotelbeds-content-api-openapi.yml
   format: yaml
   label: Hotelbeds Content API
   slug: hotelbeds-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-content-api-openapi.yml
+  url: https://artifacts.apis.io/hotelbeds/openapi/hotelbeds-content-api-openapi.yml
 - filename: hotelbeds-transfers-api-openapi.yml
   format: yaml
   label: Hotelbeds Transfers API
   slug: hotelbeds-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/openapi/hotelbeds-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/hotelbeds/openapi/hotelbeds-transfers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_filename: hotelbeds-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/hotelbeds-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: Api-key\n  description: Your APItude API key, issued per API suite (Hotel, Activities, Transfers).\n  sources:\n  - openapi/hotelbeds-openapi.yml\n- name: SignatureAuth\n  type: apiKey\n  in: header\n  parameter: X-Signature\n  description: SHA256 hash, in hexadecimal, of the concatenation of the API key, the shared\n    secret, and the current Unix timestamp in seconds.\n  sources:\n  - openapi/hotelbeds-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hotelbeds/refs/heads/main/authentication/hotelbeds-authentication.yml
+source_yaml_url: https://artifacts.apis.io/hotelbeds/authentication/hotelbeds-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Travel

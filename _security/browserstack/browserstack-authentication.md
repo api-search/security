@@ -7,37 +7,37 @@ api_specs:
   label: BrowserStack AccessKey API
   slug: browserstack-accesskey-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-accesskey-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-accesskey-api-openapi.yml
 - filename: browserstack-browsers-api-openapi.yml
   format: yaml
   label: BrowserStack Browsers API
   slug: browserstack-browsers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-browsers-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-browsers-api-openapi.yml
 - filename: browserstack-builds-api-openapi.yml
   format: yaml
   label: BrowserStack Builds API
   slug: browserstack-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-builds-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-builds-api-openapi.yml
 - filename: browserstack-plan-api-openapi.yml
   format: yaml
   label: BrowserStack Plan API
   slug: browserstack-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-plan-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-plan-api-openapi.yml
 - filename: browserstack-projects-api-openapi.yml
   format: yaml
   label: BrowserStack Projects API
   slug: browserstack-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-projects-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-projects-api-openapi.yml
 - filename: browserstack-sessions-api-openapi.yml
   format: yaml
   label: BrowserStack Sessions API
   slug: browserstack-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/openapi/browserstack-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/browserstack/openapi/browserstack-sessions-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -179,7 +179,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: >-\n  BrowserSt
   \    source: https://www.browserstack.com/.well-known/oauth-authorization-server\n    file: well-known/browserstack-www-oauth-authorization-server.json\n    documented_for_rest_api: false\n    note: >-\n      Not documented on any product API reference page. The scope names suggest it serves\n      integrations (jira_integration), service-to-service calls (service_auth, central_ai_s2s),\n      the Automate test-case generator (automate_tcg), the AI agents (ai_agent,\n      ai_agent_notify) and a Part 11 re-authentication flow, rather than general REST access.\n  - name: browserstackOIDC\n    type: openIdConnect\n    openIdConnectUrl: https://www.browserstack.com/.well-known/openid-configuration\n    id_token_signing_alg_values_supported: [RS256]\n    subject_types_supported: [public]\n    claims_supported: [iss, sub, aud, exp, iat]\n    file: well-known/browserstack-www-openid-configuration.json\n  - name: mcpOAuth\n    type: oauth2\n    description: >-\n      Separate OAuth 2.1 authorization\
   \ server for the hosted Remote MCP server. Open dynamic\n      client registration (token_endpoint_auth_methods_supported: none), so an MCP client\n      registers itself without a pre-shared secret.\n    issuer: https://mcp.browserstack.com/\n    authorization_endpoint: https://mcp.browserstack.com/auth/oauth2/authorize\n    token_endpoint: https://mcp.browserstack.com/auth/oauth2/token\n    registration_endpoint: https://mcp.browserstack.com/auth/oauth2/register\n    grant_types: [authorization_code, refresh_token]\n    code_challenge_methods: [S256]\n    scopes: [read, write, admin]\n    protected_resource: https://mcp.browserstack.com/mcp\n    source: https://mcp.browserstack.com/.well-known/oauth-authorization-server\n    file: well-known/browserstack-mcp-oauth-authorization-server.json\n    note: >-\n      This is the only BrowserStack surface where OAuth is the documented and enforced\n      authentication path, and the only one where a caller gets a scoped, revocable credential\n\
   \      instead of the account access key. The provider's own README frames it as a benefit —\n      \"Secure OAuth integration – no password sharing or manual credential handling.\"\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/browserstack/refs/heads/main/authentication/browserstack-authentication.yml
+source_yaml_url: https://artifacts.apis.io/browserstack/authentication/browserstack-authentication.yml
 summary_line: http/oauth2/openIdConnect · 5 schemes
 tags:
 - Accessibility

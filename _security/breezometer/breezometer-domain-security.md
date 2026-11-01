@@ -45,7 +45,7 @@ source_filename: breezometer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: mapsplatform.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: false\n- host: docs.breezometer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 18:13:18 2026 GMT\n  hsts: false\n- host: api.breezometer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 18:11:39 2026 GMT\n  hsts: false\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: breezometer.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/breezometer/refs/heads/main/security/breezometer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/breezometer/security/breezometer-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Air Quality

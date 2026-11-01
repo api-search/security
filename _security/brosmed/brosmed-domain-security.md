@@ -26,7 +26,7 @@ source_filename: brosmed-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.brosmed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 12:00:00 2026 GMT\n  hsts: false\ndomains:\n- domain: brosmed.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brosmed/refs/heads/main/security/brosmed-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/brosmed/security/brosmed-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

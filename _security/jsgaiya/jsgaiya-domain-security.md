@@ -25,7 +25,7 @@ source_filename: jsgaiya-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jsgaiya.cn\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,\n    certificate is not valid for ''jsgaiya.cn'''\n  hsts: null\ndomains:\n- domain: jsgaiya.cn\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jsgaiya/refs/heads/main/security/jsgaiya-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jsgaiya/security/jsgaiya-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

@@ -5,31 +5,31 @@ api_specs:
   label: Acrux Core Account API
   slug: acruxcore-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-account-api-openapi.yml
+  url: https://artifacts.apis.io/acruxcore/openapi/acruxcore-account-api-openapi.yml
 - filename: acruxcore-acrux-core-api-api-openapi.yml
   format: yaml
   label: Acrux Core Acrux Core API
   slug: acruxcore-acrux-core-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-acrux-core-api-api-openapi.yml
+  url: https://artifacts.apis.io/acruxcore/openapi/acruxcore-acrux-core-api-api-openapi.yml
 - filename: acruxcore-prompts-api-openapi.yml
   format: yaml
   label: Acrux Core Prompts API
   slug: acruxcore-prompts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-prompts-api-openapi.yml
+  url: https://artifacts.apis.io/acruxcore/openapi/acruxcore-prompts-api-openapi.yml
 - filename: acruxcore-tools-api-openapi.yml
   format: yaml
   label: Acrux Core Tools API
   slug: acruxcore-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-tools-api-openapi.yml
+  url: https://artifacts.apis.io/acruxcore/openapi/acruxcore-tools-api-openapi.yml
 - filename: acruxcore-traces-api-openapi.yml
   format: yaml
   label: Acrux Core Traces API
   slug: acruxcore-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/openapi/acruxcore-traces-api-openapi.yml
+  url: https://artifacts.apis.io/acruxcore/openapi/acruxcore-traces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: acruxcore-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: acruxcore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 18:39:44 2026 GMT\n  hsts: false\ndomains:\n- domain: acruxcore.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acruxcore/refs/heads/main/security/acruxcore-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/acruxcore/security/acruxcore-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - LLMOps

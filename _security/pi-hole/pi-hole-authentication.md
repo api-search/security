@@ -8,25 +8,25 @@ api_specs:
   label: Pi-hole Auth API
   slug: pi-hole-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-auth-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-auth-api-openapi.yml
 - filename: pi-hole-dns-api-openapi.yml
   format: yaml
   label: Pi-hole DNS API
   slug: pi-hole-dns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-dns-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-dns-api-openapi.yml
 - filename: pi-hole-groups-api-openapi.yml
   format: yaml
   label: Pi-hole Groups API
   slug: pi-hole-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-groups-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-groups-api-openapi.yml
 - filename: pi-hole-info-api-openapi.yml
   format: yaml
   label: Pi-hole Info API
   slug: pi-hole-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/openapi/pi-hole-info-api-openapi.yml
+  url: https://artifacts.apis.io/pi-hole/openapi/pi-hole-info-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: pi-hole-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pi-hole-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sidHeader\n  type: apiKey\n  in: header\n  parameter: X-FTL-SID\n  description: Session identifier returned by POST /api/auth.\n  sources:\n  - openapi/pi-hole-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pi-hole/refs/heads/main/authentication/pi-hole-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pi-hole/authentication/pi-hole-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - DNS

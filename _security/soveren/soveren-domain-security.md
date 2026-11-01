@@ -5,37 +5,37 @@ api_specs:
   label: Soveren Assets API
   slug: soveren-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-assets-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-assets-api-openapi.yml
 - filename: soveren-data-types-api-openapi.yml
   format: yaml
   label: Soveren Data Types API
   slug: soveren-data-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-data-types-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-data-types-api-openapi.yml
 - filename: soveren-endpoints-api-openapi.yml
   format: yaml
   label: Soveren Endpoints API
   slug: soveren-endpoints-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-endpoints-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-endpoints-api-openapi.yml
 - filename: soveren-kafka-api-openapi.yml
   format: yaml
   label: Soveren Kafka API
   slug: soveren-kafka-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-kafka-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-kafka-api-openapi.yml
 - filename: soveren-s3-api-openapi.yml
   format: yaml
   label: Soveren S3 API
   slug: soveren-s3-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-s3-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-s3-api-openapi.yml
 - filename: soveren-sql-db-api-openapi.yml
   format: yaml
   label: Soveren SQL DB API
   slug: soveren-sql-db-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/openapi/soveren-sql-db-api-openapi.yml
+  url: https://artifacts.apis.io/soveren/openapi/soveren-sql-db-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: soveren-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: soveren.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 07:14:18 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: soveren.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/soveren/refs/heads/main/security/soveren-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/soveren/security/soveren-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

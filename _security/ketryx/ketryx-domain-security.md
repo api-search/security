@@ -5,13 +5,13 @@ api_specs:
   label: Ketryx Artifacts API
   slug: ketryx-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/ketryx/openapi/ketryx-artifacts-api-openapi.yml
 - filename: ketryx-builds-api-openapi.yml
   format: yaml
   label: Ketryx Builds API
   slug: ketryx-builds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/openapi/ketryx-builds-api-openapi.yml
+  url: https://artifacts.apis.io/ketryx/openapi/ketryx-builds-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -45,7 +45,7 @@ source_filename: ketryx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.ketryx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 10:52:08 2026 GMT\n  hsts: null\n- host: app.ketryx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: ketryx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ketryx/refs/heads/main/security/ketryx-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ketryx/security/ketryx-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

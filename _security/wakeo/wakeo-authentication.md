@@ -7,19 +7,19 @@ api_specs:
   label: Wakeo Shipments API
   slug: wakeo-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/wakeo/openapi/wakeo-shipments-api-openapi.yml
 - filename: wakeo-tracking-api-openapi.yml
   format: yaml
   label: Wakeo Tracking API
   slug: wakeo-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/wakeo/openapi/wakeo-tracking-api-openapi.yml
 - filename: wakeo-webhooks-api-openapi.yml
   format: yaml
   label: Wakeo Webhooks API
   slug: wakeo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/openapi/wakeo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/wakeo/openapi/wakeo-webhooks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -49,7 +49,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://docs.wakeo.co/docs/getting-started\nsummary:\n  types:\n  - oauth2\nschemes:\n- name: oauth2\n  type: oauth2\n  scheme: bearer\n  description: >-\n    All Wakeo API endpoints are secured with an OAuth 2.0 access token. Every\n    request must include the Authorization header with a valid bearer token:\n    `Authorization: Bearer <ACCESS_TOKEN>`. This is confirmed from Wakeo's\n    published documentation and by live probe of https://api.wakeo.co, which is\n    fronted by AWS API Gateway and returns HTTP 403 ForbiddenException for\n    unauthenticated requests. The token endpoint, grant type, and scopes are not\n    publicly documented (the reference is password-protected) and are modeled in\n    the OpenAPI; obtain credentials from Wakeo Customer Success or\n    support@wakeo.co.\n  confirmed: true\n  sources:\n  - https://docs.wakeo.co/docs/getting-started\n  - https://api.wakeo.co\nnotes: >-\n  Wakeo is an enterprise,\
   \ customer-provisioned platform. Credentials are issued\n  to customers - there is no self-serve API key signup. The OAuth token URL and\n  grant type shown in openapi/wakeo-openapi.yml are modeled and must be\n  reconciled against the password-protected reference.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wakeo/refs/heads/main/authentication/wakeo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wakeo/authentication/wakeo-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Supply Chain

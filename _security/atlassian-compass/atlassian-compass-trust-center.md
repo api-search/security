@@ -5,37 +5,37 @@ api_specs:
   label: Atlassian Compass Events API
   slug: atlassian-compass-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-events-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-events-api-openapi.yml
 - filename: atlassian-compass-metrics-api-openapi.yml
   format: yaml
   label: Atlassian Compass Metrics API
   slug: atlassian-compass-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-metrics-api-openapi.yml
 - filename: atlassian-compass-attachment-rest-controller-api-openapi.yml
   format: yaml
   label: Atlassian Compass Attachment Rest Controller API
   slug: atlassian-compass-attachment-rest-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-attachment-rest-controller-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-attachment-rest-controller-api-openapi.yml
 - filename: atlassian-compass-entitlement-rest-controller-api-openapi.yml
   format: yaml
   label: Atlassian Compass Entitlement Rest Controller API
   slug: atlassian-compass-entitlement-rest-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-entitlement-rest-controller-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-entitlement-rest-controller-api-openapi.yml
 - filename: atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
   format: yaml
   label: Atlassian Compass Incoming Webhooks Rest Controller API
   slug: atlassian-compass-incoming-webhooks-rest-controller-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-incoming-webhooks-rest-controller-api-openapi.yml
 - filename: atlassian-compass-package-dependencies-api-openapi.yml
   format: yaml
   label: Atlassian Compass Package Dependencies API
   slug: atlassian-compass-package-dependencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/openapi/atlassian-compass-package-dependencies-api-openapi.yml
+  url: https://artifacts.apis.io/atlassian-compass/openapi/atlassian-compass-package-dependencies-api-openapi.yml
 certification_count: 1
 certifications:
 - FedRAMP
@@ -52,7 +52,7 @@ source_filename: atlassian-compass-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: searched\nprobe: true\nsource: https://www.atlassian.com/trust\nurl: https://www.atlassian.com/trust\ncertifications:\n- FedRAMP\nevidence:\n- source: https://www.atlassian.com/trust\n  keywords:\n  - fedramp\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/atlassian-compass/refs/heads/main/security/atlassian-compass-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/atlassian-compass/security/atlassian-compass-trust-center.yml
 summary_line: FedRAMP
 tags:
 - Atlassian

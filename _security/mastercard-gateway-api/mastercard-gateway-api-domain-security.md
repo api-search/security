@@ -5,7 +5,7 @@ api_specs:
   label: Mastercard Gateway API Merchant API
   slug: mastercard-gateway-api-merchant-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/openapi/mastercard-gateway-api-merchant-api-openapi.yml
+  url: https://artifacts.apis.io/mastercard-gateway-api/openapi/mastercard-gateway-api-merchant-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +40,7 @@ source_filename: mastercard-gateway-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.mastercard.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 16070400\n- host: ap-gateway.mastercard.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: mastercard.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/security/mastercard-gateway-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mastercard-gateway-api/security/mastercard-gateway-api-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Credit Cards

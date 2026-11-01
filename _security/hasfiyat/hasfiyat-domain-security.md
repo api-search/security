@@ -5,7 +5,7 @@ api_specs:
   label: Hasfiyat Fiyatlar API
   slug: hasfiyat-fiyatlar-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasfiyat/refs/heads/main/openapi/hasfiyat-fiyatlar-api-openapi.yml
+  url: https://artifacts.apis.io/hasfiyat/openapi/hasfiyat-fiyatlar-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: hasfiyat-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hasfiyat.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 25 08:26:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hasfiyat.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hasfiyat/refs/heads/main/security/hasfiyat-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hasfiyat/security/hasfiyat-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

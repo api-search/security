@@ -5,67 +5,67 @@ api_specs:
   label: Gandi Authorization API
   slug: gandi-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-authorization-api-openapi.yml
 - filename: gandi-availability-api-openapi.yml
   format: yaml
   label: Gandi Availability API
   slug: gandi-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-availability-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-availability-api-openapi.yml
 - filename: gandi-dnssec-api-openapi.yml
   format: yaml
   label: Gandi DNSSEC API
   slug: gandi-dnssec-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-dnssec-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-dnssec-api-openapi.yml
 - filename: gandi-domains-api-openapi.yml
   format: yaml
   label: Gandi Domains API
   slug: gandi-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-domains-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-domains-api-openapi.yml
 - filename: gandi-ownership-api-openapi.yml
   format: yaml
   label: Gandi Ownership API
   slug: gandi-ownership-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-ownership-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-ownership-api-openapi.yml
 - filename: gandi-records-api-openapi.yml
   format: yaml
   label: Gandi Records API
   slug: gandi-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-records-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-records-api-openapi.yml
 - filename: gandi-renewal-api-openapi.yml
   format: yaml
   label: Gandi Renewal API
   slug: gandi-renewal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-renewal-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-renewal-api-openapi.yml
 - filename: gandi-trademark-api-openapi.yml
   format: yaml
   label: Gandi Trademark API
   slug: gandi-trademark-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-trademark-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-trademark-api-openapi.yml
 - filename: gandi-tsig-api-openapi.yml
   format: yaml
   label: Gandi TSIG API
   slug: gandi-tsig-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-tsig-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-tsig-api-openapi.yml
 - filename: gandi-utilities-api-openapi.yml
   format: yaml
   label: Gandi Utilities API
   slug: gandi-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-utilities-api-openapi.yml
 - filename: gandi-zone-transfers-api-openapi.yml
   format: yaml
   label: Gandi Zone Transfers API
   slug: gandi-zone-transfers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/openapi/gandi-zone-transfers-api-openapi.yml
+  url: https://artifacts.apis.io/gandi/openapi/gandi-zone-transfers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -107,7 +107,7 @@ source_filename: gandi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gandi.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.gandi.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: api.sandbox.gandi.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  8 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: gandi.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gandi/refs/heads/main/security/gandi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gandi/security/gandi-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - DNS

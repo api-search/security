@@ -46,7 +46,7 @@ source_filename: firebase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: firebase.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 08:37:24 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: firebase.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 08:39:19 2026 GMT\n  hsts: null\n- host: firestore.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 08:42:48 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/firebase/refs/heads/main/security/firebase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/firebase/security/firebase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

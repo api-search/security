@@ -45,7 +45,7 @@ source_filename: commaai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: comma.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 11:42:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: api.comma.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 05:27:07 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: api.commadotai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 05:43:28 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: comma.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: commadotai.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commaai/refs/heads/main/security/commaai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/commaai/security/commaai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

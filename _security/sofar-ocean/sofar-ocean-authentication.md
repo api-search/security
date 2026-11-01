@@ -9,25 +9,25 @@ api_specs:
   label: Sofar Ocean Devices API
   slug: sofar-ocean-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-devices-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-devices-api-openapi.yml
 - filename: sofar-ocean-smart-mooring-api-openapi.yml
   format: yaml
   label: Sofar Ocean Smart Mooring API
   slug: sofar-ocean-smart-mooring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-smart-mooring-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-smart-mooring-api-openapi.yml
 - filename: sofar-ocean-spotter-data-api-openapi.yml
   format: yaml
   label: Sofar Ocean Spotter Data API
   slug: sofar-ocean-spotter-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-spotter-data-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-spotter-data-api-openapi.yml
 - filename: sofar-ocean-wave-spectra-api-openapi.yml
   format: yaml
   label: Sofar Ocean Wave Spectra API
   slug: sofar-ocean-wave-spectra-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/openapi/sofar-ocean-wave-spectra-api-openapi.yml
+  url: https://artifacts.apis.io/sofar-ocean/openapi/sofar-ocean-wave-spectra-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -62,7 +62,7 @@ source_filename: sofar-ocean-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/sofar-ocean-spotter-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: tokenHeader\n  type: apiKey\n  in: header\n  parameter: token\n  description: API token tied to your Sofar account, generated at spotter.sofarocean.com/api.\n  sources:\n  - openapi/sofar-ocean-spotter-openapi.yml\n- name: tokenQuery\n  type: apiKey\n  in: query\n  parameter: token\n  description: API token passed as a query parameter.\n  sources:\n  - openapi/sofar-ocean-spotter-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sofar-ocean/refs/heads/main/authentication/sofar-ocean-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sofar-ocean/authentication/sofar-ocean-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Company

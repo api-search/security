@@ -8,265 +8,265 @@ api_specs:
   label: brevo Agent Status API
   slug: brevo-agent-status-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-agent-status-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-agent-status-api-openapi.yml
 - filename: brevo-automated-messages-api-openapi.yml
   format: yaml
   label: brevo Automated Messages API
   slug: brevo-automated-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-automated-messages-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-automated-messages-api-openapi.yml
 - filename: brevo-categories-api-openapi.yml
   format: yaml
   label: brevo Categories API
   slug: brevo-categories-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-categories-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-categories-api-openapi.yml
 - filename: brevo-contacts-api-openapi.yml
   format: yaml
   label: brevo Contacts API
   slug: brevo-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-contacts-api-openapi.yml
 - filename: brevo-email-activity-api-openapi.yml
   format: yaml
   label: brevo Email Activity API
   slug: brevo-email-activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-email-activity-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-email-activity-api-openapi.yml
 - filename: brevo-email-templates-api-openapi.yml
   format: yaml
   label: brevo Email Templates API
   slug: brevo-email-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-email-templates-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-email-templates-api-openapi.yml
 - filename: brevo-messages-api-openapi.yml
   format: yaml
   label: brevo Messages API
   slug: brevo-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-messages-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-messages-api-openapi.yml
 - filename: brevo-orders-api-openapi.yml
   format: yaml
   label: brevo Orders API
   slug: brevo-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-orders-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-orders-api-openapi.yml
 - filename: brevo-products-api-openapi.yml
   format: yaml
   label: brevo Products API
   slug: brevo-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-products-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-products-api-openapi.yml
 - filename: brevo-senders-api-openapi.yml
   format: yaml
   label: brevo Senders API
   slug: brevo-senders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-senders-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-senders-api-openapi.yml
 - filename: brevo-sms-statistics-api-openapi.yml
   format: yaml
   label: brevo SMS Statistics API
   slug: brevo-sms-statistics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-sms-statistics-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-sms-statistics-api-openapi.yml
 - filename: brevo-transactional-emails-api-openapi.yml
   format: yaml
   label: brevo Transactional Emails API
   slug: brevo-transactional-emails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-transactional-emails-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-transactional-emails-api-openapi.yml
 - filename: brevo-transactional-sms-api-openapi.yml
   format: yaml
   label: brevo Transactional SMS API
   slug: brevo-transactional-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-transactional-sms-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-transactional-sms-api-openapi.yml
 - filename: brevo-webhooks-api-openapi.yml
   format: yaml
   label: brevo Webhooks API
   slug: brevo-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-webhooks-api-openapi.yml
 - filename: brevo-whatsapp-campaigns-api-openapi.yml
   format: yaml
   label: brevo WhatsApp Campaigns API
   slug: brevo-whatsapp-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-whatsapp-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-whatsapp-campaigns-api-openapi.yml
 - filename: brevo-whatsapp-messages-api-openapi.yml
   format: yaml
   label: brevo WhatsApp Messages API
   slug: brevo-whatsapp-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-whatsapp-messages-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-whatsapp-messages-api-openapi.yml
 - filename: brevo-whatsapp-templates-api-openapi.yml
   format: yaml
   label: brevo WhatsApp Templates API
   slug: brevo-whatsapp-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-whatsapp-templates-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-whatsapp-templates-api-openapi.yml
 - filename: brevo-account-api-openapi.yml
   format: yaml
   label: Brevo Account API
   slug: brevo-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-account-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-account-api-openapi.yml
 - filename: brevo-balance-api-openapi.yml
   format: yaml
   label: Brevo Balance API
   slug: brevo-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-balance-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-balance-api-openapi.yml
 - filename: brevo-companies-api-openapi.yml
   format: yaml
   label: Brevo Companies API
   slug: brevo-companies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-companies-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-companies-api-openapi.yml
 - filename: brevo-conversations-api-openapi.yml
   format: yaml
   label: Brevo Conversations API
   slug: brevo-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-conversations-api-openapi.yml
 - filename: brevo-coupons-api-openapi.yml
   format: yaml
   label: Brevo Coupons API
   slug: brevo-coupons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-coupons-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-coupons-api-openapi.yml
 - filename: brevo-deals-api-openapi.yml
   format: yaml
   label: Brevo Deals API
   slug: brevo-deals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-deals-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-deals-api-openapi.yml
 - filename: brevo-domains-api-openapi.yml
   format: yaml
   label: Brevo Domains API
   slug: brevo-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-domains-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-domains-api-openapi.yml
 - filename: brevo-ecommerce-api-openapi.yml
   format: yaml
   label: Brevo Ecommerce API
   slug: brevo-ecommerce-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-ecommerce-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-ecommerce-api-openapi.yml
 - filename: brevo-event-api-openapi.yml
   format: yaml
   label: Brevo Event API
   slug: brevo-event-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-event-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-event-api-openapi.yml
 - filename: brevo-files-api-openapi.yml
   format: yaml
   label: Brevo Files API
   slug: brevo-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-files-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-files-api-openapi.yml
 - filename: brevo-inboundparsing-api-openapi.yml
   format: yaml
   label: Brevo Inbound Parsing API
   slug: brevo-inboundparsing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-inboundparsing-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-inboundparsing-api-openapi.yml
 - filename: brevo-notes-api-openapi.yml
   format: yaml
   label: Brevo Notes API
   slug: brevo-notes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-notes-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-notes-api-openapi.yml
 - filename: brevo-payments-api-openapi.yml
   format: yaml
   label: Brevo Payments API
   slug: brevo-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-payments-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-payments-api-openapi.yml
 - filename: brevo-process-api-openapi.yml
   format: yaml
   label: Brevo Process API
   slug: brevo-process-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-process-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-process-api-openapi.yml
 - filename: brevo-program-api-openapi.yml
   format: yaml
   label: Brevo Program API
   slug: brevo-program-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-program-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-program-api-openapi.yml
 - filename: brevo-reward-api-openapi.yml
   format: yaml
   label: Brevo Reward API
   slug: brevo-reward-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-reward-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-reward-api-openapi.yml
 - filename: brevo-tasks-api-openapi.yml
   format: yaml
   label: Brevo Tasks API
   slug: brevo-tasks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-tasks-api-openapi.yml
 - filename: brevo-tier-api-openapi.yml
   format: yaml
   label: Brevo Tier API
   slug: brevo-tier-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-tier-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-tier-api-openapi.yml
 - filename: brevo-transactionalwhatsapp-api-openapi.yml
   format: yaml
   label: Brevo Transactional Whats App API
   slug: brevo-transactionalwhatsapp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-transactionalwhatsapp-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-transactionalwhatsapp-api-openapi.yml
 - filename: brevo-user-api-openapi.yml
   format: yaml
   label: Brevo User API
   slug: brevo-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-user-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-user-api-openapi.yml
 - filename: brevo-wallet-api-openapi.yml
   format: yaml
   label: Brevo Wallet API
   slug: brevo-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-wallet-api-openapi.yml
 - filename: brevo-consent-groups-api-openapi.yml
   format: yaml
   label: Brevo Consent Groups API
   slug: brevo-consent-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-consent-groups-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-consent-groups-api-openapi.yml
 - filename: brevo-custom-objects-api-openapi.yml
   format: yaml
   label: Brevo Custom Objects API
   slug: brevo-custom-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-custom-objects-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-custom-objects-api-openapi.yml
 - filename: brevo-email-campaigns-api-openapi.yml
   format: yaml
   label: Brevo Email Campaigns API
   slug: brevo-email-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-email-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-email-campaigns-api-openapi.yml
 - filename: brevo-external-feeds-api-openapi.yml
   format: yaml
   label: Brevo External Feeds API
   slug: brevo-external-feeds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-external-feeds-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-external-feeds-api-openapi.yml
 - filename: brevo-master-account-api-openapi.yml
   format: yaml
   label: Brevo Master Account API
   slug: brevo-master-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-master-account-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-master-account-api-openapi.yml
 - filename: brevo-sms-campaigns-api-openapi.yml
   format: yaml
   label: Brevo SMS Campaigns API
   slug: brevo-sms-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/openapi/brevo-sms-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/brevo/openapi/brevo-sms-campaigns-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -351,7 +351,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: https://develop
   \ - openapi/brevo-loyalty-openapi.yml\n  - openapi/brevo-wallet-openapi.yml\n  management_url: https://app.brevo.com/settings/keys/api\n  verify_call: GET https://api.brevo.com/v3/account\n- name: OAuth2\n  type: oauth2\n  description: Authorization-code (with PKCE) and client-credentials grants against the Brevo partner realm, for\n    private integrations acting on behalf of a user. Apps are created, scoped and rotated with the Brevo CLI (`brevo\n    app create` / `brevo app update --scope`). Distribution is `private` — there is no public app marketplace.\n  declared_in_spec: false\n  issuer: https://oauth.brevo.com/realms/partner\n  discovery:\n  - https://oauth.brevo.com/realms/partner/.well-known/oauth-authorization-server\n  - https://oauth.brevo.com/realms/partner/.well-known/openid-configuration\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://oauth.brevo.com/realms/partner/oauth/authorize\n    tokenUrl: https://oauth.brevo.com/realms/partner/oauth/token\n\
   \    pkce:\n    - plain\n    - S256\n  - flow: clientCredentials\n    tokenUrl: https://oauth.brevo.com/realms/partner/oauth/token\n  refresh_token: true\n  token_format: signed JWT with a space-separated `scope` claim\n  introspection_endpoint: https://oauth.brevo.com/realms/partner/oauth/introspect\n  revocation_endpoint: https://oauth.brevo.com/realms/partner/oauth/revoke\n  userinfo_endpoint: https://oauth.brevo.com/realms/partner/oauth/userinfo\n  jwks_uri: https://oauth.brevo.com/realms/partner/public-keys\n  token_endpoint_auth_methods:\n  - client_secret_basic\n  - client_secret_post\n  scope_count: 37\n  scopes: scopes/brevo-scopes.yml\n- name: MCP bearer token\n  type: http\n  scheme: bearer\n  description: 'A distinct credential class for the hosted MCP server at mcp.brevo.com. Minted in the same API-keys\n    screen with the \"Create MCP server API key\" toggle, sent as `Authorization: Bearer <token>`. Brevo''s docs state\n    it grants full read/write access to the account.\
   \ The MCP endpoint additionally advertises its own OAuth authorization\n    server with dynamic client registration and PKCE S256, scope `all`.'\n  declared_in_spec: false\n  applies_to: https://mcp.brevo.com/v1/brevo/mcp\n  discovery: https://mcp.brevo.com/.well-known/oauth-authorization-server\nnetwork_controls:\n- name: IP allowlisting\n  docs: https://developers.brevo.com/docs/ip-security\n  description: 'Optional account-level control. When enabled, Brevo validates the source IP of every API request\n    and blocks unauthorized IPs even when the API key is valid. Two modes: automatic authorization after security\n    checks, or email notification requiring manual approval per new IP.'\ndocs_all:\n- https://developers.brevo.com/docs/authentication-schemes\n- https://developers.brevo.com/docs/api-key-authentication\n- https://developers.brevo.com/docs/oauth\n- https://developers.brevo.com/docs/oauth-scopes\n- https://developers.brevo.com/docs/ip-security\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/brevo/refs/heads/main/authentication/brevo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/brevo/authentication/brevo-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
 - Marketing

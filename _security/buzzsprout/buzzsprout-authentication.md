@@ -8,13 +8,13 @@ api_specs:
   label: Buzzsprout Episodes API
   slug: buzzsprout-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buzzsprout/refs/heads/main/openapi/buzzsprout-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/buzzsprout/openapi/buzzsprout-episodes-api-openapi.yml
 - filename: buzzsprout-podcasts-api-openapi.yml
   format: yaml
   label: Buzzsprout Podcasts API
   slug: buzzsprout-podcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/buzzsprout/refs/heads/main/openapi/buzzsprout-podcasts-api-openapi.yml
+  url: https://artifacts.apis.io/buzzsprout/openapi/buzzsprout-podcasts-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: buzzsprout-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/buzzsprout-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Token authentication. Send the header as `Authorization: Token token=YOUR_TOKEN`.\n    Alternatively pass the token as an `api_token` query parameter. Tokens are found in the\n    Buzzsprout admin account settings.'\n  sources:\n  - openapi/buzzsprout-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/buzzsprout/refs/heads/main/authentication/buzzsprout-authentication.yml
+source_yaml_url: https://artifacts.apis.io/buzzsprout/authentication/buzzsprout-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Podcasts

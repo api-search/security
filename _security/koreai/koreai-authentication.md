@@ -13,19 +13,19 @@ api_specs:
   label: Kore.ai Chat API
   slug: koreai-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-chat-api-openapi.yml
+  url: https://artifacts.apis.io/koreai/openapi/koreai-chat-api-openapi.yml
 - filename: koreai-conversation-api-openapi.yml
   format: yaml
   label: Kore.ai Conversation API
   slug: koreai-conversation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-conversation-api-openapi.yml
+  url: https://artifacts.apis.io/koreai/openapi/koreai-conversation-api-openapi.yml
 - filename: koreai-workflows-api-openapi.yml
   format: yaml
   label: Kore.ai Workflows API
   slug: koreai-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/openapi/koreai-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/koreai/openapi/koreai-workflows-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -49,7 +49,7 @@ source_yaml: "generated: '2026-08-23'\nmethod: searched\nsource: https://docs.ko
   \ assigned-scopes\n    description: >-\n      Access is not a single flat key. Each JWT App is assigned API scopes in two\n      namespaces — Platform API Scopes (App Builder features) and Admin Console API Scopes\n      (account administration). The provider publishes a per-API scope matrix: every row of\n      the Automation AI, Contact Center AI, Agent AI, Quality AI and Case Management API\n      lists names the Platform Scope and Admin Console Scope required.\n    reference: https://docs.kore.ai/ai-for-service/apis/api-list\n- name: Agent Platform (Artemis) runtime + management APIs\n  host: https://agents.kore.ai\n  schemes:\n  - id: jwt-bearer\n    type: http\n    scheme: bearer\n    in: header\n    name: Authorization\n    description: JWT bearer token issued after user login.\n  - id: api-key-bearer\n    type: http\n    scheme: bearer\n    in: header\n    name: Authorization\n    description: Long-lived API key prefixed `abl_`, passed as a bearer token.\n    key_prefix: abl_\n\
   \  - id: api-key-header\n    type: apiKey\n    in: header\n    name: X-API-Key\n    description: Service-to-service API key header. Also accepts an origin-restricted public widget key.\n    key_prefix: ak_\n  - id: public-widget-key\n    type: apiKey\n    in: header\n    name: X-Public-Key\n    description: >-\n      Origin-restricted public key, safe in client-side code, exchanged on\n      POST /api/v1/sdk/init for a short-lived SDK session token. Scoped to one project;\n      the runtime validates the Origin header on every SDK request against a configured\n      allowedOrigins list.\n    key_prefix: pk_\n  - id: sdk-session-token\n    type: apiKey\n    in: header\n    name: X-SDK-Token\n    description: Short-lived token for embedded widget sessions.\n    key_prefix: sdk_\n  - id: callback-signature\n    type: http\n    scheme: hmac\n    in: header\n    name: x-callback-signature\n    description: >-\n      HMAC-SHA256 of the request body keyed on the suspension's callback secret,\
   \ formatted\n      `sha256=<hex>`. Verifies inbound human-task/tool callbacks; a failed verification\n      returns 401.\n  spec_declared:\n    file: openapi/koreai-abl-runtime-conversation-openapi.json\n    scheme: ApiKeyAuth (apiKey, header, x-api-key)\n    note: >-\n      The three published specs declare only the x-api-key apiKey scheme. The provider's\n      own API reference documents five more credential types; the spec is thinner than the\n      prose, which is why this artifact is method searched rather than derived.\noauth2: false\nopenid_connect: false\nmtls: false\nsso_for_platform_users:\n  supported: true\n  note: SSO, RBAC and MFA for platform (human) users are listed on the Kore.ai trust center. This is console access, not API authentication.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/koreai/refs/heads/main/authentication/koreai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/koreai/authentication/koreai-authentication.yml
 summary_line: 0 schemes
 tags:
 - Company

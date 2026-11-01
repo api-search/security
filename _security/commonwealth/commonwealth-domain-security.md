@@ -27,7 +27,7 @@ source_filename: commonwealth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: common.xyz\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 16:01:06 2026 GMT\n  hsts: false\ndomains:\n- domain: common.xyz\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/commonwealth/refs/heads/main/security/commonwealth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/commonwealth/security/commonwealth-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

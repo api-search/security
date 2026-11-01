@@ -5,37 +5,37 @@ api_specs:
   label: Transistor Account API
   slug: transistor-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-account-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-account-api-openapi.yml
 - filename: transistor-analytics-api-openapi.yml
   format: yaml
   label: Transistor Analytics API
   slug: transistor-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-analytics-api-openapi.yml
 - filename: transistor-episodes-api-openapi.yml
   format: yaml
   label: Transistor Episodes API
   slug: transistor-episodes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-episodes-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-episodes-api-openapi.yml
 - filename: transistor-shows-api-openapi.yml
   format: yaml
   label: Transistor Shows API
   slug: transistor-shows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-shows-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-shows-api-openapi.yml
 - filename: transistor-subscribers-api-openapi.yml
   format: yaml
   label: Transistor Subscribers API
   slug: transistor-subscribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-subscribers-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-subscribers-api-openapi.yml
 - filename: transistor-webhooks-api-openapi.yml
   format: yaml
   label: Transistor Webhooks API
   slug: transistor-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/openapi/transistor-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/transistor/openapi/transistor-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: transistor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: transistor.fm\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 15:13:47 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.transistor.fm\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 00:29:30 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.transistor.fm\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 23 05:43:46 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: transistor.fm\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/transistor/refs/heads/main/security/transistor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/transistor/security/transistor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Podcasts

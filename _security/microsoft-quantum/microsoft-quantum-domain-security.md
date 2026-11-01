@@ -5,31 +5,31 @@ api_specs:
   label: Microsoft Azure Quantum Offerings API
   slug: microsoft-quantum-offerings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-offerings-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-offerings-api-openapi.yml
 - filename: microsoft-quantum-operations-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum Operations API
   slug: microsoft-quantum-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-operations-api-openapi.yml
 - filename: microsoft-quantum-subscriptions-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum Subscriptions API
   slug: microsoft-quantum-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-subscriptions-api-openapi.yml
 - filename: microsoft-quantum-suiteoffers-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum SuiteOffers API
   slug: microsoft-quantum-suiteoffers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-suiteoffers-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-suiteoffers-api-openapi.yml
 - filename: microsoft-quantum-workspaces-api-openapi.yml
   format: yaml
   label: Microsoft Azure Quantum Workspaces API
   slug: microsoft-quantum-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/openapi/microsoft-quantum-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-quantum/openapi/microsoft-quantum-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -71,7 +71,7 @@ source_filename: microsoft-quantum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quantum.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 16:12:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: learn.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 02:26:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-quantum/refs/heads/main/security/microsoft-quantum-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-quantum/security/microsoft-quantum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Quantum

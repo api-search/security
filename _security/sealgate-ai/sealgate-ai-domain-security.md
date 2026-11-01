@@ -1,0 +1,429 @@
+---
+api_specs:
+- filename: sealgate-ai-access-control-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Access Control API
+  slug: sealgate-ai-access-control-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-access-control-api-openapi.yml
+- filename: sealgate-ai-add-mcp-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Add Mcp API
+  slug: sealgate-ai-add-mcp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-add-mcp-api-openapi.yml
+- filename: sealgate-ai-add-to-edison-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Add To Edison API
+  slug: sealgate-ai-add-to-edison-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-add-to-edison-api-openapi.yml
+- filename: sealgate-ai-admin-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Admin API
+  slug: sealgate-ai-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-admin-api-openapi.yml
+- filename: sealgate-ai-admin-chat-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Admin Chat API
+  slug: sealgate-ai-admin-chat-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-admin-chat-api-openapi.yml
+- filename: sealgate-ai-agents-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Agents API
+  slug: sealgate-ai-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-agents-api-openapi.yml
+- filename: sealgate-ai-api-keys-api-openapi.yml
+  format: yaml
+  label: sealgate-ai API Keys API
+  slug: sealgate-ai-api-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-api-keys-api-openapi.yml
+- filename: sealgate-ai-app-api-openapi.yml
+  format: yaml
+  label: sealgate-ai App API
+  slug: sealgate-ai-app-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-app-api-openapi.yml
+- filename: sealgate-ai-approvals-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Approvals API
+  slug: sealgate-ai-approvals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-approvals-api-openapi.yml
+- filename: sealgate-ai-auth-functions-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Auth Functions API
+  slug: sealgate-ai-auth-functions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-auth-functions-api-openapi.yml
+- filename: sealgate-ai-auth-public-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Auth Public API
+  slug: sealgate-ai-auth-public-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-auth-public-api-openapi.yml
+- filename: sealgate-ai-billing-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Billing API
+  slug: sealgate-ai-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-billing-api-openapi.yml
+- filename: sealgate-ai-cache-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Cache API
+  slug: sealgate-ai-cache-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-cache-api-openapi.yml
+- filename: sealgate-ai-client-installations-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Client Installations API
+  slug: sealgate-ai-client-installations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-client-installations-api-openapi.yml
+- filename: sealgate-ai-client-stdio-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Client Stdio API
+  slug: sealgate-ai-client-stdio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-client-stdio-api-openapi.yml
+- filename: sealgate-ai-config-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Config API
+  slug: sealgate-ai-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-config-api-openapi.yml
+- filename: sealgate-ai-config-backup-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Config Backup API
+  slug: sealgate-ai-config-backup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-config-backup-api-openapi.yml
+- filename: sealgate-ai-config-perms-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Config Perms API
+  slug: sealgate-ai-config-perms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-config-perms-api-openapi.yml
+- filename: sealgate-ai-dashboard-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Dashboard API
+  slug: sealgate-ai-dashboard-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-dashboard-api-openapi.yml
+- filename: sealgate-ai-demo-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Demo API
+  slug: sealgate-ai-demo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-demo-api-openapi.yml
+- filename: sealgate-ai-developers-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Developers API
+  slug: sealgate-ai-developers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-developers-api-openapi.yml
+- filename: sealgate-ai-device-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Device API
+  slug: sealgate-ai-device-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-device-api-openapi.yml
+- filename: sealgate-ai-device-auth-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Device Auth API
+  slug: sealgate-ai-device-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-device-auth-api-openapi.yml
+- filename: sealgate-ai-devices-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Devices API
+  slug: sealgate-ai-devices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-devices-api-openapi.yml
+- filename: sealgate-ai-events-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Events API
+  slug: sealgate-ai-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-events-api-openapi.yml
+- filename: sealgate-ai-favicon-ico-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Favicon.ico API
+  slug: sealgate-ai-favicon-ico-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-favicon-ico-api-openapi.yml
+- filename: sealgate-ai-for-api-openapi.yml
+  format: yaml
+  label: sealgate-ai For API
+  slug: sealgate-ai-for-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-for-api-openapi.yml
+- filename: sealgate-ai-health-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Health API
+  slug: sealgate-ai-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-health-api-openapi.yml
+- filename: sealgate-ai-insights-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Insights API
+  slug: sealgate-ai-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-insights-api-openapi.yml
+- filename: sealgate-ai-instance-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Instance API
+  slug: sealgate-ai-instance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-instance-api-openapi.yml
+- filename: sealgate-ai-integrations-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Integrations API
+  slug: sealgate-ai-integrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-integrations-api-openapi.yml
+- filename: sealgate-ai-local-auth-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Local Auth API
+  slug: sealgate-ai-local-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-local-auth-api-openapi.yml
+- filename: sealgate-ai-login-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Login API
+  slug: sealgate-ai-login-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-login-api-openapi.yml
+- filename: sealgate-ai-login-pwd-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Login Pwd API
+  slug: sealgate-ai-login-pwd-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-login-pwd-api-openapi.yml
+- filename: sealgate-ai-mcp-api-openapi.yml
+  format: yaml
+  label: sealgate-ai MCP API
+  slug: sealgate-ai-mcp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-mcp-api-openapi.yml
+- filename: sealgate-ai-mcp-requests-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Mcp Requests API
+  slug: sealgate-ai-mcp-requests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-mcp-requests-api-openapi.yml
+- filename: sealgate-ai-oauth-api-openapi.yml
+  format: yaml
+  label: sealgate-ai OAuth API
+  slug: sealgate-ai-oauth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-oauth-api-openapi.yml
+- filename: sealgate-ai-oauth-consent-api-openapi.yml
+  format: yaml
+  label: sealgate-ai OAUTH Consent API
+  slug: sealgate-ai-oauth-consent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-oauth-consent-api-openapi.yml
+- filename: sealgate-ai-oauth-encryption-api-openapi.yml
+  format: yaml
+  label: sealgate-ai OAuth encryption API
+  slug: sealgate-ai-oauth-encryption-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-oauth-encryption-api-openapi.yml
+- filename: sealgate-ai-oauth-server-api-openapi.yml
+  format: yaml
+  label: sealgate-ai OAUTH Server API
+  slug: sealgate-ai-oauth-server-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-oauth-server-api-openapi.yml
+- filename: sealgate-ai-observability-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Observability API
+  slug: sealgate-ai-observability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-observability-api-openapi.yml
+- filename: sealgate-ai-org-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Org API
+  slug: sealgate-ai-org-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-org-api-openapi.yml
+- filename: sealgate-ai-permissions-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Permissions API
+  slug: sealgate-ai-permissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-permissions-api-openapi.yml
+- filename: sealgate-ai-policies-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Policies API
+  slug: sealgate-ai-policies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-policies-api-openapi.yml
+- filename: sealgate-ai-public-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Public API
+  slug: sealgate-ai-public-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-public-api-openapi.yml
+- filename: sealgate-ai-r-api-openapi.yml
+  format: yaml
+  label: sealgate-ai R API
+  slug: sealgate-ai-r-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-r-api-openapi.yml
+- filename: sealgate-ai-reset-password-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Reset Password API
+  slug: sealgate-ai-reset-password-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-reset-password-api-openapi.yml
+- filename: sealgate-ai-sealgate-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Seal Gate API
+  slug: sealgate-ai-sealgate-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-sealgate-api-openapi.yml
+- filename: sealgate-ai-server-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Server API
+  slug: sealgate-ai-server-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-server-api-openapi.yml
+- filename: sealgate-ai-server-metrics-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Server Metrics API
+  slug: sealgate-ai-server-metrics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-server-metrics-api-openapi.yml
+- filename: sealgate-ai-servers-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Servers API
+  slug: sealgate-ai-servers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-servers-api-openapi.yml
+- filename: sealgate-ai-service-tokens-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Service Tokens API
+  slug: sealgate-ai-service-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-service-tokens-api-openapi.yml
+- filename: sealgate-ai-sessions-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Sessions API
+  slug: sealgate-ai-sessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-sessions-api-openapi.yml
+- filename: sealgate-ai-signup-templates-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Signup Templates API
+  slug: sealgate-ai-signup-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-signup-templates-api-openapi.yml
+- filename: sealgate-ai-slack-invite-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Slack Invite API
+  slug: sealgate-ai-slack-invite-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-slack-invite-api-openapi.yml
+- filename: sealgate-ai-start-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Start API
+  slug: sealgate-ai-start-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-start-api-openapi.yml
+- filename: sealgate-ai-stdio-tunnel-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Stdio Tunnel API
+  slug: sealgate-ai-stdio-tunnel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-stdio-tunnel-api-openapi.yml
+- filename: sealgate-ai-system-api-openapi.yml
+  format: yaml
+  label: sealgate-ai System API
+  slug: sealgate-ai-system-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-system-api-openapi.yml
+- filename: sealgate-ai-templates-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Templates API
+  slug: sealgate-ai-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-templates-api-openapi.yml
+- filename: sealgate-ai-tenant-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Tenant API
+  slug: sealgate-ai-tenant-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-tenant-api-openapi.yml
+- filename: sealgate-ai-user-api-openapi.yml
+  format: yaml
+  label: sealgate-ai User API
+  slug: sealgate-ai-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-user-api-openapi.yml
+- filename: sealgate-ai-users-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Users API
+  slug: sealgate-ai-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-users-api-openapi.yml
+- filename: sealgate-ai-web-agent-sessions-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Web Agent Sessions API
+  slug: sealgate-ai-web-agent-sessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-web-agent-sessions-api-openapi.yml
+- filename: sealgate-ai-welcome-api-openapi.yml
+  format: yaml
+  label: sealgate-ai Welcome API
+  slug: sealgate-ai-welcome-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-welcome-api-openapi.yml
+- filename: sealgate-ai-well-known-api-openapi.yml
+  format: yaml
+  label: sealgate-ai .well Known API
+  slug: sealgate-ai-well-known-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sealgate-ai/openapi/sealgate-ai-well-known-api-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: sealgate.ai
+  spf: false
+hosts:
+- cert_expires: Jan 24 14:34:00 2027 GMT
+  host: sealgate.ai
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Sealgate Ai Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for sealgate-ai, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
+provider_name: sealgate-ai
+provider_slug: sealgate-ai
+slug: sealgate-ai-domain-security
+source_filename: sealgate-ai-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sealgate.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 24 14:34:00 2027 GMT\n  hsts: false\ndomains:\n- domain: sealgate.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://artifacts.apis.io/sealgate-ai/security/sealgate-ai-domain-security.yml
+summary_line: TLSv1.3 · DMARC
+tags:
+- AI
+- Data Governance
+- Security
+- DLP
+- Platform
+---

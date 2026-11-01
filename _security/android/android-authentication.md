@@ -7,25 +7,25 @@ api_specs:
   label: Android Orders API
   slug: android-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-orders-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-orders-api-openapi.yml
 - filename: android-purchases-api-openapi.yml
   format: yaml
   label: Android Purchases API
   slug: android-purchases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-purchases-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-purchases-api-openapi.yml
 - filename: android-reviews-api-openapi.yml
   format: yaml
   label: Android Reviews API
   slug: android-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-reviews-api-openapi.yml
 - filename: android-subscriptions-api-openapi.yml
   format: yaml
   label: Android Subscriptions API
   slug: android-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/openapi/android-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/android/openapi/android-subscriptions-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -59,7 +59,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/google-play-developer-api.yml\ndocs: https://developers.google.com/android-publisher/authorization\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  service_account: true\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  description: >-\n    OAuth 2.0 for the Google Play Developer API. The documented pattern is\n    server-to-server: create a Google Cloud service account, grant it access in the\n    Google Play Console (Users & permissions), and mint access tokens against\n    oauth2.googleapis.com — no interactive consent required. The interactive Web\n    Server (authorizationCode) flow via accounts.google.com is also supported. Single\n    scope https://www.googleapis.com/auth/androidpublisher. The OAuth issuer publishes\n   \
   \ OpenID Connect discovery (well-known/android-openid-configuration.json).\n  sources:\n  - openapi/google-play-developer-api.yml\n  docs: https://developers.google.com/android-publisher/authorization\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/authentication/android-authentication.yml
+source_yaml_url: https://artifacts.apis.io/android/authentication/android-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Artificial Intelligence

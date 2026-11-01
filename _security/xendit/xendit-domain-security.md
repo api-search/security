@@ -5,49 +5,49 @@ api_specs:
   label: Xendit Balance API
   slug: xendit-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-balance-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-balance-api-openapi.yml
 - filename: xendit-customers-api-openapi.yml
   format: yaml
   label: Xendit Customers API
   slug: xendit-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-customers-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-customers-api-openapi.yml
 - filename: xendit-invoices-api-openapi.yml
   format: yaml
   label: Xendit Invoices API
   slug: xendit-invoices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-invoices-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-invoices-api-openapi.yml
 - filename: xendit-payment-requests-api-openapi.yml
   format: yaml
   label: Xendit Payment Requests API
   slug: xendit-payment-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-payment-requests-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-payment-requests-api-openapi.yml
 - filename: xendit-payment-tokens-api-openapi.yml
   format: yaml
   label: Xendit Payment Tokens API
   slug: xendit-payment-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-payment-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-payment-tokens-api-openapi.yml
 - filename: xendit-payouts-api-openapi.yml
   format: yaml
   label: Xendit Payouts API
   slug: xendit-payouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-payouts-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-payouts-api-openapi.yml
 - filename: xendit-refunds-api-openapi.yml
   format: yaml
   label: Xendit Refunds API
   slug: xendit-refunds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-refunds-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-refunds-api-openapi.yml
 - filename: xendit-transactions-api-openapi.yml
   format: yaml
   label: Xendit Transactions API
   slug: xendit-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/openapi/xendit-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/xendit/openapi/xendit-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_filename: xendit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.xendit.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 02:01:22 2026 GMT\n  hsts: false\n  note: Base API host. Returns HTTP 403 to unauthenticated root requests, as expected.\n- host: www.xendit.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 14:27:55 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_preload: true\n- host: docs.xendit.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 07:09:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\ndomains:\n- domain: xendit.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xendit/refs/heads/main/security/xendit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xendit/security/xendit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments

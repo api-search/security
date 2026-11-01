@@ -27,7 +27,7 @@ source_filename: cour-pharmaceuticals-development-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: courpharma.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 23:02:25 2026 GMT\n  hsts: false\ndomains:\n- domain: courpharma.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cour-pharmaceuticals-development/refs/heads/main/security/cour-pharmaceuticals-development-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cour-pharmaceuticals-development/security/cour-pharmaceuticals-development-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

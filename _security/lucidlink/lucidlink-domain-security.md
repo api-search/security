@@ -5,19 +5,19 @@ api_specs:
   label: LucidLink Billing API
   slug: lucidlink-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-billing-api-openapi.yml
+  url: https://artifacts.apis.io/lucidlink/openapi/lucidlink-billing-api-openapi.yml
 - filename: lucidlink-domain-api-openapi.yml
   format: yaml
   label: LucidLink Domain API
   slug: lucidlink-domain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-domain-api-openapi.yml
+  url: https://artifacts.apis.io/lucidlink/openapi/lucidlink-domain-api-openapi.yml
 - filename: lucidlink-filespace-api-openapi.yml
   format: yaml
   label: LucidLink Filespace API
   slug: lucidlink-filespace-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/openapi/lucidlink-filespace-api-openapi.yml
+  url: https://artifacts.apis.io/lucidlink/openapi/lucidlink-filespace-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -63,7 +63,7 @@ source_filename: lucidlink-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.lucidlink.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 23:59:59 2026 GMT\n  hsts: false\n- host: api.lucidlink.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: null\n- host: support.lucidlink.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 23:41:22 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: lucidlink.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"comodo.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucidlink/refs/heads/main/security/lucidlink-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lucidlink/security/lucidlink-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

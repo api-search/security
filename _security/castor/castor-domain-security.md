@@ -33,7 +33,7 @@ source_filename: castor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.castoredc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 05:48:51 2026 GMT\n  hsts: false\ndomains:\n- domain: castoredc.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 iodef \"mailto:platform-team@castoredc.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/castor/refs/heads/main/security/castor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/castor/security/castor-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Health

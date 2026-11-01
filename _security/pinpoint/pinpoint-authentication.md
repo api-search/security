@@ -8,25 +8,25 @@ api_specs:
   label: Pinpoint Applicants API
   slug: pinpoint-applicants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-applicants-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-applicants-api-openapi.yml
 - filename: pinpoint-applications-api-openapi.yml
   format: yaml
   label: Pinpoint Applications API
   slug: pinpoint-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-applications-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-applications-api-openapi.yml
 - filename: pinpoint-comments-api-openapi.yml
   format: yaml
   label: Pinpoint Comments API
   slug: pinpoint-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-comments-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-comments-api-openapi.yml
 - filename: pinpoint-jobs-api-openapi.yml
   format: yaml
   label: Pinpoint Jobs API
   slug: pinpoint-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/openapi/pinpoint-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/pinpoint/openapi/pinpoint-jobs-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: pinpoint-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/pinpoint-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: API key generated in Settings > API & Webhooks > API Keys. Sent with every request\n    as the X-API-KEY header. Missing or invalid keys return HTTP 401.\n  sources:\n  - openapi/pinpoint-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pinpoint/refs/heads/main/authentication/pinpoint-authentication.yml
+source_yaml_url: https://artifacts.apis.io/pinpoint/authentication/pinpoint-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Applicant Tracking

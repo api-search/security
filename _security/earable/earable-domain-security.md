@@ -27,7 +27,7 @@ source_filename: earable-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: frenzband.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 18:41:34 2026 GMT\n  hsts: true\n  hsts_max_age: 7889238\ndomains:\n- domain: frenzband.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/earable/refs/heads/main/security/earable-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/earable/security/earable-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

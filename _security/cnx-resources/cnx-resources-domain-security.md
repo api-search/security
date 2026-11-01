@@ -27,7 +27,7 @@ source_filename: cnx-resources-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cnx.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 22 21:01:35 2026 GMT\n  hsts: false\ndomains:\n- domain: cnx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cnx-resources/refs/heads/main/security/cnx-resources-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cnx-resources/security/cnx-resources-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Energy

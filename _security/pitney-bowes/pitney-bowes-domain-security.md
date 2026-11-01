@@ -5,49 +5,49 @@ api_specs:
   label: Pitney Bowes Address API
   slug: pitney-bowes-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-address-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-address-api-openapi.yml
 - filename: pitney-bowes-manifests-api-openapi.yml
   format: yaml
   label: Pitney Bowes Manifests API
   slug: pitney-bowes-manifests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-manifests-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-manifests-api-openapi.yml
 - filename: pitney-bowes-pickups-api-openapi.yml
   format: yaml
   label: Pitney Bowes Pickups API
   slug: pitney-bowes-pickups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-pickups-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-pickups-api-openapi.yml
 - filename: pitney-bowes-rating-api-openapi.yml
   format: yaml
   label: Pitney Bowes Rating API
   slug: pitney-bowes-rating-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-rating-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-rating-api-openapi.yml
 - filename: pitney-bowes-reports-api-openapi.yml
   format: yaml
   label: Pitney Bowes Reports API
   slug: pitney-bowes-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-reports-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-reports-api-openapi.yml
 - filename: pitney-bowes-shipments-api-openapi.yml
   format: yaml
   label: Pitney Bowes Shipments API
   slug: pitney-bowes-shipments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-shipments-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-shipments-api-openapi.yml
 - filename: pitney-bowes-tracking-api-openapi.yml
   format: yaml
   label: Pitney Bowes Tracking API
   slug: pitney-bowes-tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-tracking-api-openapi.yml
 - filename: pitney-bowes-oauth-api-openapi.yml
   format: yaml
   label: Pitney Bowes OAUTH API
   slug: pitney-bowes-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/openapi/pitney-bowes-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/pitney-bowes/openapi/pitney-bowes-oauth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: pitney-bowes-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.shippingapi.pitneybowes.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: false\n- host: shipping-api.pitneybowes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  9 23:59:59 2027 GMT\n  hsts: null\n- host: shipping-api-sandbox.pitneybowes.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  9 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: pitneybowes.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/security/pitney-bowes-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/pitney-bowes/security/pitney-bowes-domain-security.yml
 summary_line: TLSv1.2 · DNSSEC · DMARC
 tags:
 - Mailing

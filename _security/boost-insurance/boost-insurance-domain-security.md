@@ -5,25 +5,25 @@ api_specs:
   label: Boost Insurance Authentication API
   slug: boost-insurance-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-authentication-api-openapi.yml
 - filename: boost-insurance-claims-api-openapi.yml
   format: yaml
   label: Boost Insurance Claims API
   slug: boost-insurance-claims-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-claims-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-claims-api-openapi.yml
 - filename: boost-insurance-policies-api-openapi.yml
   format: yaml
   label: Boost Insurance Policies API
   slug: boost-insurance-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-policies-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-policies-api-openapi.yml
 - filename: boost-insurance-quotes-api-openapi.yml
   format: yaml
   label: Boost Insurance Quotes API
   slug: boost-insurance-quotes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/openapi/boost-insurance-quotes-api-openapi.yml
+  url: https://artifacts.apis.io/boost-insurance/openapi/boost-insurance-quotes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +66,7 @@ source_filename: boost-insurance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.boostinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 14:31:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: learn.boostinsurance.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 05:38:08 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.insurtech.dev\n  https: false\ndomains:\n- domain: boostinsurance.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: insurtech.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/security/boost-insurance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/boost-insurance/security/boost-insurance-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance

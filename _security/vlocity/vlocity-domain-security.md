@@ -36,7 +36,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: dig + openssl + curl HEAD against vlocity.com\nnote: >-\n  Vlocity was acquired by Salesforce in 2020 and folded into Salesforce\n  Industries / OmniStudio; vlocity.com is no longer an independent developer\n  surface. The probe confirms Salesforce now operates the domain: SPF includes\n  _spf.salesforce.com, DMARC is delegated to _dmarc.reject100.salesforce.com,\n  and the TLS certificate is issued to O=Salesforce, Inc. The site itself\n  returns HTTP 503 (Akamai) at the application layer.\nhosts:\n  - host: www.vlocity.com\n    https: true\n    http_status: 503\n    tls_version: TLSv1.3\n    tls_cert_org: Salesforce, Inc.\n    tls_cert_not_after: '2026-12-17'\n    hsts: true\n    hsts_max_age: 31536000\ndomains:\n  - domain: vlocity.com\n    dnssec: true\n    caa: []\n    spf: true\n    spf_includes:\n      - _spf.google.com\n      - _spf.salesforce.com\n      - aspmx.pardot.com\n    dmarc: true\n    dmarc_policy: reject\n\
   \    dmarc_delegated_to: _dmarc.reject100.salesforce.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vlocity/refs/heads/main/security/vlocity-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/vlocity/security/vlocity-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

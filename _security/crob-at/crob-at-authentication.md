@@ -8,31 +8,31 @@ api_specs:
   label: crob.at Account API
   slug: crob-at-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-account-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-account-api-openapi.yml
 - filename: crob-at-feedback-api-openapi.yml
   format: yaml
   label: crob.at Feedback API
   slug: crob-at-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-feedback-api-openapi.yml
 - filename: crob-at-generation-api-openapi.yml
   format: yaml
   label: crob.at Generation API
   slug: crob-at-generation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-generation-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-generation-api-openapi.yml
 - filename: crob-at-reference-api-openapi.yml
   format: yaml
   label: crob.at Reference API
   slug: crob-at-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-reference-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-reference-api-openapi.yml
 - filename: crob-at-teams-api-openapi.yml
   format: yaml
   label: crob.at Teams API
   slug: crob-at-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/openapi/crob-at-teams-api-openapi.yml
+  url: https://artifacts.apis.io/crob-at/openapi/crob-at-teams-api-openapi.yml
 auth_types:
 - none
 - apiKey
@@ -68,7 +68,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: searched\nsource: openapi/crob-at-openapi.json + https://crob.at/api#security + https://crob.at/.well-known/api-onboarding\ndocs: https://crob.at/api#security\nsummary:\n  types:\n  - none\n  - apiKey\n  api_key_in:\n  - cookie\ndescription: >-\n  Public endpoints are anonymous and keyless — the OpenAPI declares top-level\n  security [] and the docs state no account, API key, or payment method is\n  required. Two same-origin helper endpoints (getCurrentUser,\n  createShowdownAssertion) use the crob.at browser session cookie; the\n  onboarding document is explicit that the session cookie is for same-origin\n  browser flows and is not an API key, and the docs warn never to send it to\n  another origin or embed it in client code.\nschemes:\n- name: public\n  type: none\n  description: No authentication required for public team, generation, reference and feedback endpoints.\n  sources:\n  - https://crob.at/.well-known/api-onboarding\n- name: cookieSession\n\
   \  type: apiKey\n  in: cookie\n  parameter: session\n  description: >-\n    Optional crob.at browser session cookie for account helpers (/api/me,\n    /api/showdown/assertion). Bootstrap by signing in at https://crob.at/login;\n    acts only on the signed-in account.\n  sources:\n  - openapi/crob-at-openapi.json\n  - https://crob.at/.well-known/api-onboarding\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/crob-at/refs/heads/main/authentication/crob-at-authentication.yml
+source_yaml_url: https://artifacts.apis.io/crob-at/authentication/crob-at-authentication.yml
 summary_line: none/apiKey · 2 schemes
 tags:
 - Gaming

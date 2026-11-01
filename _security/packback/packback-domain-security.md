@@ -5,19 +5,19 @@ api_specs:
   label: Packback Questions / Discussions
   slug: questions-discussions
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/openapi/_original/packback-openapi.yml
+  url: https://artifacts.apis.io/packback/openapi/_original/packback-openapi.yml
 - filename: packback-openapi.yml
   format: yaml
   label: Packback Writing / Deep Dives
   slug: writing-deep-dives
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/openapi/_original/packback-openapi.yml
+  url: https://artifacts.apis.io/packback/openapi/_original/packback-openapi.yml
 - filename: packback-openapi.yml
   format: yaml
   label: Packback LTI Integration
   slug: lti-integration
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/openapi/_original/packback-openapi.yml
+  url: https://artifacts.apis.io/packback/openapi/_original/packback-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: packback-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: packback.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 04:18:02 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: packback.co\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/packback/refs/heads/main/security/packback-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/packback/security/packback-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Education

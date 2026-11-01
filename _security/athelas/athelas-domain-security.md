@@ -5,31 +5,31 @@ api_specs:
   label: Athelas Auth API
   slug: athelas-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-auth-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-auth-api-openapi.yml
 - filename: athelas-patients-api-openapi.yml
   format: yaml
   label: Athelas Patients API
   slug: athelas-patients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-patients-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-patients-api-openapi.yml
 - filename: athelas-prescribers-api-openapi.yml
   format: yaml
   label: Athelas Prescribers API
   slug: athelas-prescribers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-prescribers-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-prescribers-api-openapi.yml
 - filename: athelas-sites-api-openapi.yml
   format: yaml
   label: Athelas Sites API
   slug: athelas-sites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-sites-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-sites-api-openapi.yml
 - filename: athelas-test-types-api-openapi.yml
   format: yaml
   label: Athelas Test Types API
   slug: athelas-test-types-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/openapi/athelas-test-types-api-openapi.yml
+  url: https://artifacts.apis.io/athelas/openapi/athelas-test-types-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: athelas-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: athelas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 06:32:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: athelas.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.athelas.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  3 11:56:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: athelas.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: Quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/athelas/refs/heads/main/security/athelas-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/athelas/security/athelas-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

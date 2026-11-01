@@ -5,19 +5,19 @@ api_specs:
   label: FiftyOne SDK (Python)
   slug: fiftyone-sdk-python
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/openapi/_original/voxel51-openapi.yml
+  url: https://artifacts.apis.io/voxel51/openapi/_original/voxel51-openapi.yml
 - filename: voxel51-openapi.yml
   format: yaml
   label: FiftyOne Enterprise Management SDK / API
   slug: fiftyone-enterprise-management-sdk
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/openapi/_original/voxel51-openapi.yml
+  url: https://artifacts.apis.io/voxel51/openapi/_original/voxel51-openapi.yml
 - filename: voxel51-openapi.yml
   format: yaml
   label: FiftyOne Plugins & Operators
   slug: fiftyone-plugins-operators
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/openapi/_original/voxel51-openapi.yml
+  url: https://artifacts.apis.io/voxel51/openapi/_original/voxel51-openapi.yml
 description: ''
 domains:
 - caa:
@@ -54,7 +54,7 @@ source_filename: voxel51-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: voxel51.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  6 06:22:11 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.voxel51.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 09:58:27 2026 GMT\n  hsts: false\ndomains:\n- domain: voxel51.com\n  dnssec: true\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voxel51/refs/heads/main/security/voxel51-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/voxel51/security/voxel51-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

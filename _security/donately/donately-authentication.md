@@ -7,37 +7,37 @@ api_specs:
   label: Donately Accounts API
   slug: donately-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-accounts-api-openapi.yml
 - filename: donately-campaigns-api-openapi.yml
   format: yaml
   label: Donately Campaigns API
   slug: donately-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-campaigns-api-openapi.yml
 - filename: donately-donations-api-openapi.yml
   format: yaml
   label: Donately Donations API
   slug: donately-donations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-donations-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-donations-api-openapi.yml
 - filename: donately-fundraisers-api-openapi.yml
   format: yaml
   label: Donately Fundraisers API
   slug: donately-fundraisers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-fundraisers-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-fundraisers-api-openapi.yml
 - filename: donately-people-api-openapi.yml
   format: yaml
   label: Donately People API
   slug: donately-people-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-people-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-people-api-openapi.yml
 - filename: donately-subscriptions-api-openapi.yml
   format: yaml
   label: Donately Subscriptions API
   slug: donately-subscriptions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/openapi/donately-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/donately/openapi/donately-subscriptions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: donately-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/donately-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Auth. Use your Donately API token as the username with an empty password\n    (the token is base64-encoded with a trailing colon). Find the token in the Donately dashboard\n    under Settings -> API.\n  sources:\n  - openapi/donately-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/authentication/donately-authentication.yml
+source_yaml_url: https://artifacts.apis.io/donately/authentication/donately-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Fundraising

@@ -8,31 +8,31 @@ api_specs:
   label: Luxury Presence Agents API
   slug: luxury-presence-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-agents-api-openapi.yml
+  url: https://artifacts.apis.io/luxury-presence/openapi/luxury-presence-agents-api-openapi.yml
 - filename: luxury-presence-media-api-openapi.yml
   format: yaml
   label: Luxury Presence Media API
   slug: luxury-presence-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-media-api-openapi.yml
+  url: https://artifacts.apis.io/luxury-presence/openapi/luxury-presence-media-api-openapi.yml
 - filename: luxury-presence-offices-api-openapi.yml
   format: yaml
   label: Luxury Presence Offices API
   slug: luxury-presence-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-offices-api-openapi.yml
+  url: https://artifacts.apis.io/luxury-presence/openapi/luxury-presence-offices-api-openapi.yml
 - filename: luxury-presence-teams-api-openapi.yml
   format: yaml
   label: Luxury Presence Teams API
   slug: luxury-presence-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-teams-api-openapi.yml
+  url: https://artifacts.apis.io/luxury-presence/openapi/luxury-presence-teams-api-openapi.yml
 - filename: luxury-presence-webhooks-api-openapi.yml
   format: yaml
   label: Luxury Presence Webhooks API
   slug: luxury-presence-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/openapi/luxury-presence-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/luxury-presence/openapi/luxury-presence-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: luxury-presence-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/luxury-presence-cms-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  description: API key generated from the Luxury Presence dashboard (Settings > API Keys). Sent\n    as the x-api-key request header.\n  sources:\n  - openapi/luxury-presence-cms-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/authentication/luxury-presence-authentication.yml
+source_yaml_url: https://artifacts.apis.io/luxury-presence/authentication/luxury-presence-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

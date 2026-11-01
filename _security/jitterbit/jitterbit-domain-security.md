@@ -5,25 +5,25 @@ api_specs:
   label: Jitterbit Login API
   slug: jitterbit-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-login-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-login-api-openapi.yml
 - filename: jitterbit-operations-api-openapi.yml
   format: yaml
   label: Jitterbit Operations API
   slug: jitterbit-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-operations-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-operations-api-openapi.yml
 - filename: jitterbit-projects-api-openapi.yml
   format: yaml
   label: Jitterbit Projects API
   slug: jitterbit-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-projects-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-projects-api-openapi.yml
 - filename: jitterbit-schedules-api-openapi.yml
   format: yaml
   label: Jitterbit Schedules API
   slug: jitterbit-schedules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/openapi/jitterbit-schedules-api-openapi.yml
+  url: https://artifacts.apis.io/jitterbit/openapi/jitterbit-schedules-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: jitterbit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jitterbit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.jitterbit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 24 08:52:48 2026 GMT\n  hsts: false\n- host: docs.jitterbit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 23 17:13:48 2026 GMT\n  hsts: false\ndomains:\n- domain: jitterbit.com\n  dnssec: true\n  caa:\n  - 0 iodef \"mailto:operations@jitterbit.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jitterbit/refs/heads/main/security/jitterbit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jitterbit/security/jitterbit-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - API Management

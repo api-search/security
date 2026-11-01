@@ -5,7 +5,7 @@ api_specs:
   label: Project Nessie Config API
   slug: project-nessie-config-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/project-nessie/refs/heads/main/openapi/project-nessie-config-api-openapi.yml
+  url: https://artifacts.apis.io/project-nessie/openapi/project-nessie-config-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,12 +34,12 @@ source_filename: project-nessie-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: projectnessie.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 21 05:21:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31556952\ndomains:\n- domain: projectnessie.org\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/project-nessie/refs/heads/main/security/project-nessie-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/project-nessie/security/project-nessie-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
 - Open Source
-- DataLake
+- Data Lake
 - Version Control
 - Community
 ---

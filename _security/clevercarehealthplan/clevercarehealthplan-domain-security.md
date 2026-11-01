@@ -5,19 +5,19 @@ api_specs:
   label: Clever Care Health Plan Drug Formulary API
   slug: clevercarehealthplan-drug-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/openapi/clevercarehealthplan-drug-formulary-api-openapi.yml
+  url: https://artifacts.apis.io/clevercarehealthplan/openapi/clevercarehealthplan-drug-formulary-api-openapi.yml
 - filename: clevercarehealthplan-patient-access-api-openapi.yml
   format: yaml
   label: Clever Care Health Plan Patient Access API
   slug: clevercarehealthplan-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/openapi/clevercarehealthplan-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/clevercarehealthplan/openapi/clevercarehealthplan-patient-access-api-openapi.yml
 - filename: clevercarehealthplan-provider-directory-api-openapi.yml
   format: yaml
   label: Clever Care Health Plan Provider Directory API
   slug: clevercarehealthplan-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/openapi/clevercarehealthplan-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/clevercarehealthplan/openapi/clevercarehealthplan-provider-directory-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: clevercarehealthplan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: clevercarehealthplan.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 10:18:09 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: clevercarehealthplan.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/clevercarehealthplan/refs/heads/main/security/clevercarehealthplan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/clevercarehealthplan/security/clevercarehealthplan-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

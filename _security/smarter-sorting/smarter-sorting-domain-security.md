@@ -5,25 +5,25 @@ api_specs:
   label: Smarter Sorting Api(.*) API
   slug: smarter-sorting-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/openapi/smarter-sorting-api-api-openapi.yml
+  url: https://artifacts.apis.io/smarter-sorting/openapi/smarter-sorting-api-api-openapi.yml
 - filename: smarter-sorting-assets-api-openapi.yml
   format: yaml
   label: Smarter Sorting Assets(.*) API
   slug: smarter-sorting-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/openapi/smarter-sorting-assets-api-openapi.yml
+  url: https://artifacts.apis.io/smarter-sorting/openapi/smarter-sorting-assets-api-openapi.yml
 - filename: smarter-sorting-docs-api-openapi.yml
   format: yaml
   label: Smarter Sorting Docs(.*) API
   slug: smarter-sorting-docs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/openapi/smarter-sorting-docs-api-openapi.yml
+  url: https://artifacts.apis.io/smarter-sorting/openapi/smarter-sorting-docs-api-openapi.yml
 - filename: smarter-sorting-products-api-openapi.yml
   format: yaml
   label: Smarter Sorting Products API
   slug: smarter-sorting-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/openapi/smarter-sorting-products-api-openapi.yml
+  url: https://artifacts.apis.io/smarter-sorting/openapi/smarter-sorting-products-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -60,7 +60,7 @@ source_filename: smarter-sorting-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.smartersorting.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 26 02:04:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.smartersorting.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 21:15:19 2026 GMT\n  hsts: null\ndomains:\n- domain: smartersorting.com\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smarter-sorting/refs/heads/main/security/smarter-sorting-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smarter-sorting/security/smarter-sorting-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

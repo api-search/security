@@ -29,7 +29,7 @@ source_filename: defense-information-system-for-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.dcsa.mil\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 19:35:49 2026 GMT\n  hsts: max-age=31536000\n  http_status: 403\n  hsts_note: >-\n    HSTS header observed directly on the Akamai edge response (2026-09-07). The\n    automated prober records null because every request to www.dcsa.mil — from\n    two independent networks, with browser User-Agent and full browser headers —\n    returns HTTP 403 \"AkamaiGHost / Access Denied\" instead of a page.\ndomains:\n- domain: dcsa.mil\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/defense-information-system-for-security/refs/heads/main/security/defense-information-system-for-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/defense-information-system-for-security/security/defense-information-system-for-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

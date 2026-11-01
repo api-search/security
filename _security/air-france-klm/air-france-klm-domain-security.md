@@ -5,7 +5,7 @@ api_specs:
   label: Air France-KLM Opendata API
   slug: air-france-klm-opendata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/air-france-klm/refs/heads/main/openapi/air-france-klm-opendata-api-openapi.yml
+  url: https://artifacts.apis.io/air-france-klm/openapi/air-france-klm-opendata-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ source_filename: air-france-klm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-22'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: airfranceklm.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 14:37:30 2026 GMT\n  hsts: null\ndomains:\n- domain: airfranceklm.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/air-france-klm/refs/heads/main/security/air-france-klm-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/air-france-klm/security/air-france-klm-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

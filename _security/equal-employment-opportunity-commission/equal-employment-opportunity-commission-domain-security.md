@@ -28,7 +28,7 @@ source_filename: equal-employment-opportunity-commission-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.eeoc.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: eeoc.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/equal-employment-opportunity-commission/refs/heads/main/security/equal-employment-opportunity-commission-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/equal-employment-opportunity-commission/security/equal-employment-opportunity-commission-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

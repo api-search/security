@@ -5,49 +5,49 @@ api_specs:
   label: Statorium Games API
   slug: statorium-games-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-games-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-games-api-openapi.yml
 - filename: statorium-leagues-api-openapi.yml
   format: yaml
   label: Statorium Leagues API
   slug: statorium-leagues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-leagues-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-leagues-api-openapi.yml
 - filename: statorium-matches-api-openapi.yml
   format: yaml
   label: Statorium Matches API
   slug: statorium-matches-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-matches-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-matches-api-openapi.yml
 - filename: statorium-news-api-openapi.yml
   format: yaml
   label: Statorium News API
   slug: statorium-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-news-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-news-api-openapi.yml
 - filename: statorium-players-api-openapi.yml
   format: yaml
   label: Statorium Players API
   slug: statorium-players-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-players-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-players-api-openapi.yml
 - filename: statorium-seasons-api-openapi.yml
   format: yaml
   label: Statorium Seasons API
   slug: statorium-seasons-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-seasons-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-seasons-api-openapi.yml
 - filename: statorium-standings-api-openapi.yml
   format: yaml
   label: Statorium Standings API
   slug: statorium-standings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-standings-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-standings-api-openapi.yml
 - filename: statorium-teams-api-openapi.yml
   format: yaml
   label: Statorium Teams API
   slug: statorium-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/openapi/statorium-teams-api-openapi.yml
+  url: https://artifacts.apis.io/statorium/openapi/statorium-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: statorium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: statorium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 05:29:32 2026 GMT\n  hsts: false\n- host: api.statorium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 11:48:40 2026 GMT\n  hsts: false\ndomains:\n- domain: statorium.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/statorium/refs/heads/main/security/statorium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/statorium/security/statorium-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Sports

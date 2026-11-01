@@ -8,67 +8,67 @@ api_specs:
   label: MikMak Authentication API
   slug: mikmak-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-authentication-api-openapi.yml
 - filename: mikmak-availabilities-api-openapi.yml
   format: yaml
   label: MikMak Availabilities API
   slug: mikmak-availabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-availabilities-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-availabilities-api-openapi.yml
 - filename: mikmak-cart-api-openapi.yml
   format: yaml
   label: MikMak Cart API
   slug: mikmak-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-cart-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-cart-api-openapi.yml
 - filename: mikmak-custom-reports-api-openapi.yml
   format: yaml
   label: MikMak Custom Reports API
   slug: mikmak-custom-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-custom-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-custom-reports-api-openapi.yml
 - filename: mikmak-experiences-api-openapi.yml
   format: yaml
   label: MikMak Experiences API
   slug: mikmak-experiences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-experiences-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-experiences-api-openapi.yml
 - filename: mikmak-facet-api-openapi.yml
   format: yaml
   label: MikMak Facet API
   slug: mikmak-facet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-facet-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-facet-api-openapi.yml
 - filename: mikmak-historical-pricing-reports-api-openapi.yml
   format: yaml
   label: MikMak Historical Pricing Reports API
   slug: mikmak-historical-pricing-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-historical-pricing-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-historical-pricing-reports-api-openapi.yml
 - filename: mikmak-offers-api-openapi.yml
   format: yaml
   label: MikMak Offers API
   slug: mikmak-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-offers-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-offers-api-openapi.yml
 - filename: mikmak-product-api-openapi.yml
   format: yaml
   label: MikMak Product API
   slug: mikmak-product-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-product-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-product-api-openapi.yml
 - filename: mikmak-product-search-api-openapi.yml
   format: yaml
   label: MikMak Product Search API
   slug: mikmak-product-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-product-search-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-product-search-api-openapi.yml
 - filename: mikmak-shoppable-recipe-reports-api-openapi.yml
   format: yaml
   label: MikMak Shoppable Recipe Reports API
   slug: mikmak-shoppable-recipe-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/openapi/mikmak-shoppable-recipe-reports-api-openapi.yml
+  url: https://artifacts.apis.io/mikmak/openapi/mikmak-shoppable-recipe-reports-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-08-12'\nmethod: searched\nsource: https://docs.mi
   \    description: >-\n      User-delegated grant for applications acting on behalf of a logged-in MikMak user\n      (partner dashboards, third-party integrations). redirect_uri must be pre-registered with\n      MikMak. `state` is documented as REQUIRED and must be verified on callback. The\n      authorization code is single-use. Token responses carry expires_in 2592000 (30 days) and\n      a rotating refresh_token — each refresh invalidates the previous refresh token.\n    scopes:\n      offline_access: Issue a refresh token so the application can renew access without user re-consent.\n    pkce: not-documented\n    sources:\n      - https://docs.mikmak.ai/reference/authorization-code-flow\n  - name: MCPHostedJWT\n    type: oauth2\n    flow: clientCredentials\n    description: >-\n      The hosted MCP server at https://mcp.mikmak.ai/commerce/v1 validates an Auth0-issued JWT.\n      MikMak supplies the token URL, client_id, client_secret and a per-environment `audience`\n      that must\
   \ be pinned in the token request; a well-formed token minted for the wrong\n      audience is rejected with 401 AUTH_UNAUTHORIZED. Neither the token URL nor the audience\n      is published — both are handed over at onboarding.\n    scopes: {}\n    token_lifetime_seconds: 86400\n    sources:\n      - https://docs.mikmak.ai/docs/authentication-1\n      - https://docs.mikmak.ai/docs/hosted-integration\nidentity_headers:\n  - header: x-api-key\n    purpose: MikMak commerce API key. Overrides any server-side configured value.\n  - header: x-wtb-id\n    purpose: WTB (experience) identifier scoping the request to one MikMak experience.\n  - header: X-Request-Id\n    purpose: Optional client-supplied trace id, echoed in MikMak server logs for support correlation.\nresolution_order:\n  order:\n    - value passed on the MCP tool call (wtb_id / api_key arguments)\n    - HTTP request header (x-wtb-id / x-api-key)\n    - server-side configuration on the MCP deployment\n  note: First non-empty value\
   \ wins; a still-missing value returns a configuration error.\nend_user_sso:\n  provider: Auth0\n  protocols:\n    - SAML\n    - OIDC\n  description: >-\n    Enterprise SSO into the MikMak platform (not the API) is brokered through Auth0 against the\n    customer's own IdP.\n  source: https://docs.mikmak.ai/docs/mikmak-platform-auth0-enterprise-sso-integration-guide\ntransport:\n  https_required: true\n  notes:\n    - Tokens and keys must never be sent over non-HTTPS connections.\n    - client_secret must be held in a secret manager and never shipped to a browser.\n    - Rotation of client_secret is requested from MikMak, not self-service.\nmaintainers:\n  - FN: Kin Lane\n    email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/authentication/mikmak-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mikmak/authentication/mikmak-authentication.yml
 summary_line: apiKey/http/oauth2 · 5 schemes
 tags:
 - Analytics

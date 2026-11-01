@@ -8,19 +8,19 @@ api_specs:
   label: Impossible Cloud Distributors API
   slug: impossible-cloud-distributors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/impossible-cloud-distributors-api-openapi.yml
+  url: https://artifacts.apis.io/impossible-cloud/openapi/impossible-cloud-distributors-api-openapi.yml
 - filename: impossible-cloud-integrations-api-openapi.yml
   format: yaml
   label: Impossible Cloud Integrations API
   slug: impossible-cloud-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/impossible-cloud-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/impossible-cloud/openapi/impossible-cloud-integrations-api-openapi.yml
 - filename: impossible-cloud-partners-api-openapi.yml
   format: yaml
   label: Impossible Cloud Partners API
   slug: impossible-cloud-partners-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/openapi/impossible-cloud-partners-api-openapi.yml
+  url: https://artifacts.apis.io/impossible-cloud/openapi/impossible-cloud-partners-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: impossible-cloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/impossible-cloud-management-console-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: Bearer\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Type \"Bearer\" followed by a space and JWT token.\n  sources:\n  - openapi/impossible-cloud-management-console-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impossible-cloud/refs/heads/main/authentication/impossible-cloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/impossible-cloud/authentication/impossible-cloud-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

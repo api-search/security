@@ -27,7 +27,7 @@ source_filename: biryanibykilo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: biryanibykilo.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  8 04:54:35 2027 GMT\n  hsts: false\ndomains:\n- domain: biryanibykilo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biryanibykilo/refs/heads/main/security/biryanibykilo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/biryanibykilo/security/biryanibykilo-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

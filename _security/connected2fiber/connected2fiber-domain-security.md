@@ -1,11 +1,17 @@
 ---
 api_specs:
+- filename: connected2fiber-openapi-generated.yml
+  format: yaml
+  label: Connected2fiber API
+  slug: connected2fiber-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/connected2fiber/openapi/_ae-authored/connected2fiber-openapi-generated.yml
 - filename: connected2fiber-address-api-openapi.yml
   format: yaml
   label: Connected2fiber Address API
   slug: connected2fiber-address-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/connected2fiber/refs/heads/main/openapi/connected2fiber-address-api-openapi.yml
+  url: https://artifacts.apis.io/connected2fiber/openapi/connected2fiber-address-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +40,7 @@ source_filename: connected2fiber-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.connectbase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  7 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: connectbase.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/connected2fiber/refs/heads/main/security/connected2fiber-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/connected2fiber/security/connected2fiber-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Connectivity

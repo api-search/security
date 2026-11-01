@@ -5,19 +5,19 @@ api_specs:
   label: Curtin University Countries API
   slug: curtin-countries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-countries-api-openapi.yml
+  url: https://artifacts.apis.io/curtin/openapi/curtin-countries-api-openapi.yml
 - filename: curtin-institutions-api-openapi.yml
   format: yaml
   label: Curtin University Institutions API
   slug: curtin-institutions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-institutions-api-openapi.yml
+  url: https://artifacts.apis.io/curtin/openapi/curtin-institutions-api-openapi.yml
 - filename: curtin-search-api-openapi.yml
   format: yaml
   label: Curtin University Search API
   slug: curtin-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/openapi/curtin-search-api-openapi.yml
+  url: https://artifacts.apis.io/curtin/openapi/curtin-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -61,7 +61,7 @@ source_filename: curtin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.curtin.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: false\n- host: espace.curtin.edu.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 30 23:59:59 2026 GMT\n  hsts: false\n- host: researchdata.edu.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 08:40:30 2026 GMT\n  hsts: false\ndomains:\n- domain: curtin.edu.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: researchdata.edu.au\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/curtin/refs/heads/main/security/curtin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/curtin/security/curtin-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - University

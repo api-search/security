@@ -7,55 +7,55 @@ api_specs:
   label: Bridge Interactive Agents API
   slug: bridge-interactive-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-agents-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-agents-api-openapi.yml
 - filename: bridge-interactive-listings-api-openapi.yml
   format: yaml
   label: Bridge Interactive Listings API
   slug: bridge-interactive-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-listings-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-listings-api-openapi.yml
 - filename: bridge-interactive-offices-api-openapi.yml
   format: yaml
   label: Bridge Interactive Offices API
   slug: bridge-interactive-offices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-offices-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-offices-api-openapi.yml
 - filename: bridge-interactive-open-houses-api-openapi.yml
   format: yaml
   label: Bridge Interactive Open Houses API
   slug: bridge-interactive-open-houses-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-open-houses-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-open-houses-api-openapi.yml
 - filename: bridge-interactive-reso-web-api-api-openapi.yml
   format: yaml
   label: Bridge Interactive RESO Web API
   slug: bridge-interactive-reso-web-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-reso-web-api-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-reso-web-api-api-openapi.yml
 - filename: bridge-interactive-webhooks-api-openapi.yml
   format: yaml
   label: Bridge Interactive Webhooks API
   slug: bridge-interactive-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-webhooks-api-openapi.yml
 - filename: bridge-interactive-property-api-openapi.yml
   format: yaml
   label: Bridge Interactive Property API
   slug: bridge-interactive-property-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-property-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-property-api-openapi.yml
 - filename: bridge-interactive-member-api-openapi.yml
   format: yaml
   label: Bridge Interactive Member API
   slug: bridge-interactive-member-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-member-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-member-api-openapi.yml
 - filename: bridge-interactive-office-api-openapi.yml
   format: yaml
   label: Bridge Interactive Office API
   slug: bridge-interactive-office-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/openapi/bridge-interactive-office-api-openapi.yml
+  url: https://artifacts.apis.io/bridge-interactive/openapi/bridge-interactive-office-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: bridge-interactive-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bridge-interactive-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'Server access token issued from the Bridge Dashboard under Data Access > API\n    Access Tokens. Sent as \"Authorization: Bearer <token>\" or as an access_token query parameter.'\n  sources:\n  - openapi/bridge-interactive-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bridge-interactive/refs/heads/main/authentication/bridge-interactive-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bridge-interactive/authentication/bridge-interactive-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Real Estate

@@ -8,85 +8,85 @@ api_specs:
   label: Picus Security Activity Logs API
   slug: picus-security-activity-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-activity-logs-api-openapi.yml
 - filename: picus-security-agents-api-openapi.yml
   format: yaml
   label: Picus Security Agents API
   slug: picus-security-agents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-agents-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-agents-api-openapi.yml
 - filename: picus-security-authentication-api-openapi.yml
   format: yaml
   label: Picus Security Authentication API
   slug: picus-security-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-authentication-api-openapi.yml
 - filename: picus-security-instances-api-openapi.yml
   format: yaml
   label: Picus Security Instances API
   slug: picus-security-instances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-instances-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-instances-api-openapi.yml
 - filename: picus-security-integrations-api-openapi.yml
   format: yaml
   label: Picus Security Integrations API
   slug: picus-security-integrations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-integrations-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-integrations-api-openapi.yml
 - filename: picus-security-mitigation-api-openapi.yml
   format: yaml
   label: Picus Security Mitigation API
   slug: picus-security-mitigation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-mitigation-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-mitigation-api-openapi.yml
 - filename: picus-security-simulation-latest-result-api-openapi.yml
   format: yaml
   label: Picus Security Simulation Latest Result API
   slug: picus-security-simulation-latest-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulation-latest-result-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-simulation-latest-result-api-openapi.yml
 - filename: picus-security-simulation-result-api-openapi.yml
   format: yaml
   label: Picus Security Simulation Result API
   slug: picus-security-simulation-result-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulation-result-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-simulation-result-api-openapi.yml
 - filename: picus-security-simulation-result-reports-api-openapi.yml
   format: yaml
   label: Picus Security Simulation Result Reports API
   slug: picus-security-simulation-result-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulation-result-reports-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-simulation-result-reports-api-openapi.yml
 - filename: picus-security-simulations-api-openapi.yml
   format: yaml
   label: Picus Security Simulations API
   slug: picus-security-simulations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-simulations-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-simulations-api-openapi.yml
 - filename: picus-security-summary-api-openapi.yml
   format: yaml
   label: Picus Security Summary API
   slug: picus-security-summary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-summary-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-summary-api-openapi.yml
 - filename: picus-security-templates-api-openapi.yml
   format: yaml
   label: Picus Security Templates API
   slug: picus-security-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-templates-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-templates-api-openapi.yml
 - filename: picus-security-threats-api-openapi.yml
   format: yaml
   label: Picus Security Threats API
   slug: picus-security-threats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-threats-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-threats-api-openapi.yml
 - filename: picus-security-users-api-openapi.yml
   format: yaml
   label: Picus Security Users API
   slug: picus-security-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/openapi/picus-security-users-api-openapi.yml
+  url: https://artifacts.apis.io/picus-security/openapi/picus-security-users-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -134,7 +134,7 @@ source_yaml: "generated: '2026-08-02'\nmethod: searched\ndocs: https://apidocs.p
   \    effect: >-\n      Issues a new refresh token and INVALIDATES the previous refresh and access tokens. Cannot be used once\n      the refresh token has already expired — a new one must then be generated from the console.\nscopes:\n  supported: true\n  published: false\n  note: >-\n    Refresh tokens are created with a SCOPE that \"is used to filter the API endpoints accessible by the\n    token\", and the console shows a scopes column per token. Picus does not publish the scope vocabulary in\n    the docs or declare it in the contract, so no scopes/ artifact can be captured. A 403 on an endpoint the\n    user's role permits usually means the token's scope is too narrow.\nauthorization:\n  model: role-based\n  roles_endpoint: GET /v1/users/roles (RolesFilterParams)\n  assign_endpoint: PUT /v1/users/{userId}/role (assignRoleParams)\n  note: >-\n    Effective permission is the intersection of the user's assigned role and the refresh token's scope.\nschemes:\n- name: Access-Token\n  type:\
   \ apiKey\n  in: header\n  parameter: Authorization\n  value_form: 'Bearer {accessToken}'\n  applied: global\n  applied_note: Declared as a global `security` requirement on the root document and repeated per operation.\n  description: >-\n    After getting the access token, type \"Bearer accessToken\" in the Authorization header value to request\n    access to the endpoints.\n  sources:\n  - openapi/picus-security-activity-logs-openapi.yml\n  - openapi/picus-security-agents-openapi.yml\n  - openapi/picus-security-authentication-openapi.yml\n  - openapi/picus-security-instances-openapi.yml\n  - openapi/picus-security-integrations-openapi.yml\n  - openapi/picus-security-mitigation-openapi.yml\n  - openapi/picus-security-simulation-latest-result-openapi.yml\n  - openapi/picus-security-simulation-result-openapi.yml\n  - openapi/picus-security-simulation-result-reports-openapi.yml\n  - openapi/picus-security-simulations-openapi.yml\n  - openapi/picus-security-summary-openapi.yml\n  - openapi/picus-security-templates-openapi.yml\n\
   \  - openapi/picus-security-threats-openapi.yml\n  - openapi/picus-security-users-openapi.yml\ngaps:\n- No OIDC discovery document and no RFC 8414 authorization-server metadata (all /.well-known/ paths 404).\n- No mTLS, no client credentials, no PKCE — the refresh token is a bearer secret with a 6 month lifetime.\n- The scope vocabulary is enforced but unpublished, so token least-privilege cannot be planned from the docs.\n- The expire_at field is milliseconds while the rate-limit reset header is seconds — an easy client bug.\nevidence:\n- url: https://apidocs.picussecurity.com/docs/authentication-method\n  http_status: 200\n  fetched: '2026-08-02'\n- source: openapi/_original/picus-security-openapi.json\n  kind: securityDefinitions\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/picus-security/refs/heads/main/authentication/picus-security-authentication.yml
+source_yaml_url: https://artifacts.apis.io/picus-security/authentication/picus-security-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Cybersecurity

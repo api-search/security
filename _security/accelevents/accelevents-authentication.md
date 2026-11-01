@@ -8,31 +8,31 @@ api_specs:
   label: Accelevents Attendees API
   slug: accelevents-attendees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-attendees-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-attendees-api-openapi.yml
 - filename: accelevents-events-api-openapi.yml
   format: yaml
   label: Accelevents Events API
   slug: accelevents-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-events-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-events-api-openapi.yml
 - filename: accelevents-orders-api-openapi.yml
   format: yaml
   label: Accelevents Orders API
   slug: accelevents-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-orders-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-orders-api-openapi.yml
 - filename: accelevents-sessions-api-openapi.yml
   format: yaml
   label: Accelevents Sessions API
   slug: accelevents-sessions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-sessions-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-sessions-api-openapi.yml
 - filename: accelevents-tickets-api-openapi.yml
   format: yaml
   label: Accelevents Tickets API
   slug: accelevents-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/openapi/accelevents-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/accelevents/openapi/accelevents-tickets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -60,7 +60,7 @@ source_filename: accelevents-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/accelevents-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: AUTHENTICATION\n  description: Organization API key generated from the account Integrations tab (Edit Enterprise\n    -> Integrations -> API Key), passed in a request header. The header name is modeled as \"AUTHENTICATION\"\n    per the getting-started guide; confirm the exact name and format on the API reference before\n    use.\n  sources:\n  - openapi/accelevents-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/accelevents/refs/heads/main/authentication/accelevents-authentication.yml
+source_yaml_url: https://artifacts.apis.io/accelevents/authentication/accelevents-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Event Management

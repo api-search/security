@@ -7,43 +7,43 @@ api_specs:
   label: engageSPARK Balance API
   slug: engagespark-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-balance-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-balance-api-openapi.yml
 - filename: engagespark-campaigns-api-openapi.yml
   format: yaml
   label: engageSPARK Campaigns API
   slug: engagespark-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-campaigns-api-openapi.yml
 - filename: engagespark-contacts-api-openapi.yml
   format: yaml
   label: engageSPARK Contacts API
   slug: engagespark-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-contacts-api-openapi.yml
 - filename: engagespark-files-api-openapi.yml
   format: yaml
   label: engageSPARK Files API
   slug: engagespark-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-files-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-files-api-openapi.yml
 - filename: engagespark-sms-api-openapi.yml
   format: yaml
   label: engageSPARK SMS API
   slug: engagespark-sms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-sms-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-sms-api-openapi.yml
 - filename: engagespark-top-up-api-openapi.yml
   format: yaml
   label: engageSPARK Top-Up API
   slug: engagespark-top-up-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-top-up-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-top-up-api-openapi.yml
 - filename: engagespark-whats-app-api-openapi.yml
   format: yaml
   label: engageSPARK Whats App API
   slug: engagespark-whats-app-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/openapi/engagespark-whats-app-api-openapi.yml
+  url: https://artifacts.apis.io/engagespark/openapi/engagespark-whats-app-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: engagespark-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/engagespark-openapi-original.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: apiToken\n  type: http\n  scheme: token\n  bearerFormat: token\n  description: |-\n    Token based HTTP authentication.\n\n    Use the header \"Authorization\". The value must be the word \"Token\" followed by your token. For example: \"Authorization: Token aaa111bbb222ccc333\", NOT \"Authorization: aaa111bbb222ccc333\".\n\n    Access tokens can be retrieved and managed [in your User profile](https://app.engagespark.com/profile/api-tokens).\n\n    Allowed headers:\n\n      - Authorization: Token [PERSONAL_ACCESS_T\n  sources:\n  - openapi/engagespark-openapi-original.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/authentication/engagespark-authentication.yml
+source_yaml_url: https://artifacts.apis.io/engagespark/authentication/engagespark-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

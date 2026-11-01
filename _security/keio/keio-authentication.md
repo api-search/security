@@ -7,13 +7,13 @@ api_specs:
   label: Keio University IIIF API
   slug: keio-iiif-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-iiif-api-openapi.yml
+  url: https://artifacts.apis.io/keio/openapi/keio-iiif-api-openapi.yml
 - filename: keio-metadata-harvesting-api-openapi.yml
   format: yaml
   label: Keio University Metadata Harvesting API
   slug: keio-metadata-harvesting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/openapi/keio-metadata-harvesting-api-openapi.yml
+  url: https://artifacts.apis.io/keio/openapi/keio-metadata-harvesting-api-openapi.yml
 auth_types: []
 description: 'Keio University''s authentication posture splits cleanly in two, and the split is the most useful thing to say about it. The surfaces the university operates itself for the public — the KOARA OAI-PMH interface and the Media Center''s IIIF endpoints — require no authentication of any kind: no key, no token, no registration, no referer check, no rate-limit header. The surfaces that serve the campus — the K-RIS research information system, the K-LMS learning environment, and every application behind gslbs.keio.jp — are gated behind federated institutional identity, and there is no path by which an unaffiliated developer obtains a credential. There is no developer portal, no key-issuance form and no client-registration endpoint an outsider can use anywhere in the estate.'
 kind: authentication
@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: derived\nauthorship: API Evangeli
   \ authentication or a IIIF Authentication\n      API service block. No `service` of `@type: AuthCookieService1` appears in the manifest, so\n      there is no degraded-access or login-required tier — the collections are open.\n    probed_status: 200\n\n  - name: Keio Okta tenant (keio.okta.com)\n    baseURL: https://keio.okta.com\n    x-operator: tenant\n    scheme: oauth2 / oidc\n    detail: >-\n      OpenID Connect discovery is anonymously readable at\n      https://keio.okta.com/.well-known/openid-configuration and advertises authorization, token,\n      userinfo, jwks and a dynamic client registration endpoint. In practice a client_id exists only\n      if Keio IT creates one; the registration endpoint is Okta's standard org endpoint and is not\n      open to unaffiliated callers. Readable, not consumable.\n    probed_status: 200\n    flows_advertised:\n      - code\n      - id_token\n      - code id_token\n      - code token\n      - id_token token\n      - code id_token token\n\n\
   \  - name: GakuNin / eduGAIN SAML identity provider\n    entityID: https://gakunin1.keio.ac.jp/idp/shibboleth\n    x-operator: institution\n    scheme: saml2\n    detail: >-\n      SAML 2.0 web browser SSO, transient NameID only. Access is granted to service providers\n      registered in GakuNin or reachable through eduGAIN, not to individual developers. Requires an\n      institutional or federation relationship, never an API key.\n    probed_status: 200\n\n  - name: K-RIS (Keio Research Information System)\n    baseURL: https://k-ris.keio.ac.jp/\n    x-operator: tenant\n    scheme: session\n    detail: >-\n      The public researcher-profile portal renders anonymously, but the Pure web service path\n      (/ws/api and /ws/api/openapi.json) returns 404 — the machine-readable interface is not exposed\n      on this deployment. No API credential is obtainable.\n    probed_status: 404\n\nnot_found:\n  - what: Developer portal or API key issuance\n    detail: >-\n      No api.keio.ac.jp\
   \ (NXDOMAIN), no data.keio.ac.jp (NXDOMAIN), no developer portal, no key\n      request form, and no API terms document anywhere on the estate.\n  - what: security.txt\n    detail: https://www.keio.ac.jp/.well-known/security.txt returns a real HTTP 404.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/keio/refs/heads/main/authentication/keio-authentication.yml
+source_yaml_url: https://artifacts.apis.io/keio/authentication/keio-authentication.yml
 summary_line: 0 schemes
 tags:
 - Education

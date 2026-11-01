@@ -5,37 +5,37 @@ api_specs:
   label: Nexar CityStream™ Live Feed API V4 API
   slug: nexar-citystream-live-feed-api-v4-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-citystream-live-feed-api-v4-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-citystream-live-feed-api-v4-api-openapi.yml
 - filename: nexar-get-a-collection-of-road-signs-api-openapi.yml
   format: yaml
   label: Nexar Get a collection of road signs API
   slug: nexar-get-a-collection-of-road-signs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-a-collection-of-road-signs-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-get-a-collection-of-road-signs-api-openapi.yml
 - filename: nexar-get-a-collection-of-work-zones-api-openapi.yml
   format: yaml
   label: Nexar Get a collection of work zones API
   slug: nexar-get-a-collection-of-work-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-a-collection-of-work-zones-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-get-a-collection-of-work-zones-api-openapi.yml
 - filename: nexar-get-a-specific-work-zone-api-openapi.yml
   format: yaml
   label: Nexar Get a specific work zone API
   slug: nexar-get-a-specific-work-zone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-a-specific-work-zone-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-get-a-specific-work-zone-api-openapi.yml
 - filename: nexar-get-the-details-of-a-specific-road-sign-api-openapi.yml
   format: yaml
   label: Nexar Get the details of a specific road sign API
   slug: nexar-get-the-details-of-a-specific-road-sign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-get-the-details-of-a-specific-road-sign-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-get-the-details-of-a-specific-road-sign-api-openapi.yml
 - filename: nexar-virtualcam-api-api-openapi.yml
   format: yaml
   label: Nexar VirtualCam API
   slug: nexar-virtualcam-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/openapi/nexar-virtualcam-api-api-openapi.yml
+  url: https://artifacts.apis.io/nexar/openapi/nexar-virtualcam-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: nexar-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-26'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.nexar-ai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 16:18:53 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.getnexar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: false\n- host: external.getnexar.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: 'HSTS observed directly on a POST to /api/virtualcam/v5/frames (403 RBAC: access denied); server istio-envoy\n    behind CloudFront.'\ndomains:\n- domain: nexar-ai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: getnexar.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nexar/refs/heads/main/security/nexar-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/nexar/security/nexar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

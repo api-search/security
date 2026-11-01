@@ -38,7 +38,7 @@ source_filename: ucb-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.berkeley.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 20:03:09 2026 GMT\n  hsts: false\n- host: developers.api.berkeley.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 23:59:59 2026 GMT\n  hsts: null\n- host: integration-services.berkeley.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 29 20:14:07 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: berkeley.edu\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ucb/refs/heads/main/security/ucb-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ucb/security/ucb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - University

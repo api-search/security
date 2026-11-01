@@ -7,19 +7,19 @@ api_specs:
   label: Idle Finance Pools API
   slug: idle-pools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/openapi/idle-pools-api-openapi.yml
+  url: https://artifacts.apis.io/idle/openapi/idle-pools-api-openapi.yml
 - filename: idle-rates-api-openapi.yml
   format: yaml
   label: Idle Finance Rates API
   slug: idle-rates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/openapi/idle-rates-api-openapi.yml
+  url: https://artifacts.apis.io/idle/openapi/idle-rates-api-openapi.yml
 - filename: idle-tvl-api-openapi.yml
   format: yaml
   label: Idle Finance TVL API
   slug: idle-tvl-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/openapi/idle-tvl-api-openapi.yml
+  url: https://artifacts.apis.io/idle/openapi/idle-tvl-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: idle-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: 'Bearer token obtained via https://idlefinance.typeform.com/to/CzRkDH. Include\n    as \"Authorization: Bearer <token>\" on all requests.'\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/idle/refs/heads/main/authentication/idle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/idle/authentication/idle-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - DeFi

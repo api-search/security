@@ -7,19 +7,19 @@ api_specs:
   label: ShieldLabs History API
   slug: shieldlabs-history-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/openapi/shieldlabs-history-api-api-openapi.yml
+  url: https://artifacts.apis.io/shieldlabs/openapi/shieldlabs-history-api-api-openapi.yml
 - filename: shieldlabs-management-api-api-openapi.yml
   format: yaml
   label: ShieldLabs Management API
   slug: shieldlabs-management-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/openapi/shieldlabs-management-api-api-openapi.yml
+  url: https://artifacts.apis.io/shieldlabs/openapi/shieldlabs-management-api-api-openapi.yml
 - filename: shieldlabs-shieldlabs-api-api-openapi.yml
   format: yaml
   label: ShieldLabs API
   slug: shieldlabs-shieldlabs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/openapi/shieldlabs-shieldlabs-api-api-openapi.yml
+  url: https://artifacts.apis.io/shieldlabs/openapi/shieldlabs-shieldlabs-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -62,7 +62,7 @@ source_yaml: "generated: '2026-09-04'\nmethod: searched\nsource: openapi/_origin
   - name: SecretKeyHeader\n  type: http\n  scheme: bearer\n  description: >-\n    Secret Key (32-char hex) sent as `Authorization: Bearer` together with an `X-Shield-Domain`\n    header naming the registered domain. Authenticates the Management API on api.shieldlabs.ai\n    (profile, balance, billed History path).\n  additional_headers:\n  - name: X-Shield-Domain\n    required: true\n    description: The registered domain the credential is scoped to.\n  applies_to: https://api.shieldlabs.ai\n  sources:\n  - openapi/_original/shieldlabs-openapi.yaml\nnon_api_credentials:\n- name: Public Key\n  format: 32-char hex\n  transport: query parameter `?publicKey=` on the cdn.shieldlabs.ai snippet URL\n  browser_safe: true\n  description: >-\n    Identifies the domain to the ingest gateway. Accepted only when it matches the domain the page\n    is served from (resolved from Origin, Referer or Host), so a lifted key will not work elsewhere.\n  docs: https://docs.shieldlabs.ai/setup/keys\n- name: Webhook\
   \ signing secret\n  format: whsec_…\n  scope: per registered webhook endpoint\n  browser_safe: false\n  description: >-\n    HMAC-SHA256 key used to verify the `X-Shield-Signature: sha256=<hex>` header over the raw\n    webhook body. Not the Secret Key — a separate secret per endpoint.\n  docs: https://docs.shieldlabs.ai/setup/webhooks\ndeprecations:\n- subject: Management API legacy path authentication\n  status: deprecated\n  sunset: '2027-01-01'\n  statement: 'legacy path auth deprecated (sunset 2027-01-01)'\n  published_only_in: https://github.com/ShieldLabs-ai/shieldlabs-openapi (README)\n  not_in: [https://docs.shieldlabs.ai/setup/keys, the OpenAPI spec]\n  cross_reference: lifecycle/shieldlabs-lifecycle.yml\noauth:\n  supported: false\n  openid_connect: false\n  discovery_probes:\n  - {path: /.well-known/oauth-authorization-server, hosts_probed: 8, result: 404 on all}\n  - {path: /.well-known/oauth-protected-resource, hosts_probed: 8, result: 404 on all}\n  - {path: /.well-known/openid-configuration,\
   \ hosts_probed: 8, result: 404 on all}\n  scopes_artifact: not applicable — no authorization server, no scope surface\nkey_scoping:\n  per_domain: true\n  rotation: >-\n    Key sets rotate from the dashboard; rotation issues a fresh public key and secret key, shows the\n    new secret in full once, and invalidates the old set immediately.\n  masking: keys are masked in the dashboard after issue\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/shieldlabs/refs/heads/main/authentication/shieldlabs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/shieldlabs/authentication/shieldlabs-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Fraud Prevention

@@ -8,61 +8,73 @@ api_specs:
   label: Claix Documento a JSON API
   slug: claix-dev-documento-a-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-documento-a-json-api-openapi.yml
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-documento-a-json-api-openapi.yml
 - filename: claix-dev-espacios-de-conocimiento-api-openapi.yml
   format: yaml
   label: Claix Espacios de Conocimiento API
   slug: claix-dev-espacios-de-conocimiento-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-espacios-de-conocimiento-api-openapi.yml
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-espacios-de-conocimiento-api-openapi.yml
 - filename: claix-dev-excel-a-json-api-openapi.yml
   format: yaml
   label: Claix Excel a JSON API
   slug: claix-dev-excel-a-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-excel-a-json-api-openapi.yml
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-excel-a-json-api-openapi.yml
 - filename: claix-dev-imagen-a-json-api-openapi.yml
   format: yaml
   label: Claix Imagen a JSON API
   slug: claix-dev-imagen-a-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-imagen-a-json-api-openapi.yml
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-imagen-a-json-api-openapi.yml
 - filename: claix-dev-json-a-excel-api-openapi.yml
   format: yaml
   label: Claix JSON a Excel API
   slug: claix-dev-json-a-excel-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-json-a-excel-api-openapi.yml
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-json-a-excel-api-openapi.yml
 - filename: claix-dev-modo-agente-api-openapi.yml
   format: yaml
   label: Claix Modo Agente API
   slug: claix-dev-modo-agente-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-modo-agente-api-openapi.yml
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-modo-agente-api-openapi.yml
 - filename: claix-dev-pdf-a-json-api-openapi.yml
   format: yaml
   label: Claix PDF a JSON API
   slug: claix-dev-pdf-a-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-pdf-a-json-api-openapi.yml
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-pdf-a-json-api-openapi.yml
 - filename: claix-dev-schemas-api-openapi.yml
   format: yaml
   label: Claix Schemas API
   slug: claix-dev-schemas-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-schemas-api-openapi.yml
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-schemas-api-openapi.yml
 - filename: claix-dev-texto-a-json-api-openapi.yml
   format: yaml
   label: Claix Texto a JSON API
   slug: claix-dev-texto-a-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-texto-a-json-api-openapi.yml
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-texto-a-json-api-openapi.yml
 - filename: claix-dev-ventana-de-contexto-api-openapi.yml
   format: yaml
   label: Claix Ventana de Contexto API
   slug: claix-dev-ventana-de-contexto-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/openapi/claix-dev-ventana-de-contexto-api-openapi.yml
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-ventana-de-contexto-api-openapi.yml
+- filename: claix-dev-audio-a-json-api-openapi.yml
+  format: yaml
+  label: Claix Audio a JSON API
+  slug: claix-dev-audio-a-json-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-audio-a-json-api-openapi.yml
+- filename: claix-dev-markdown-api-openapi.yml
+  format: yaml
+  label: Claix Markdown API
+  slug: claix-dev-markdown-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/claix-dev/openapi/claix-dev-markdown-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -110,7 +122,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/claix-d
   \ when both headers are sent (spec + docs).\n  scope: >-\n    Key -> one workspace/account. Every schema, persisted document and knowledge space is owned by\n    the key's account; ids that belong to another account return 404, not 403.\n  validation: >-\n    Before any file is processed the server checks that the key exists and is active and that the\n    account is not suspended; failure is 401 with the {error, detalle} envelope and nothing is\n    billed.\n  no_oauth: No OAuth 2.0 / OIDC; /.well-known/oauth-authorization-server, oauth-protected-resource and openid-configuration all 404 (well-known/claix-dev-well-known.yml).\n  client_side: >-\n    The docs forbid calling the API from an end-user browser (\"requires a secret API key ...\n    handle with the same care as a database password\"); the embeddable widget exists precisely so\n    the key stays server-side (components/claix-dev-components.yml).\n  env_var: CLAIX_API_KEY (Python SDK)\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n\
   \  in: header\n  parameter: x-api-key\n  description: Secret server API key. Takes priority over Authorization when both headers are sent. (Spec text, Spanish - \"API key secreta de servidor. Tiene prioridad sobre Authorization si se envían ambos headers.\")\n  recommended: true\n  surfaces: [rest, mcp, a2a]\n  sources:\n  - openapi/claix-dev-openapi.yml\n  - https://www.claix.dev/documentation/excel-to-json\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Alternative way to send the same API key, as a Bearer token in Authorization. (Spec text - \"Forma alternativa de enviar la API key como Bearer token.\")\n  surfaces: [rest, a2a]\n  sources:\n  - openapi/claix-dev-openapi.yml\n  - https://www.claix.dev/documentation/a2a\nmcp_specific:\n  header: x-api-key\n  tool_argument_fallback: api_key (string, minLength 8) on every tool, for clients that cannot set headers\n  smithery: registry config field APIKEY mapped to the x-api-key header (x-to)\na2a_specific:\n  error_on_missing_key:\
   \ 'HTTP 401, JSON-RPC {code: -32001, message: \"Unauthorized: send x-api-key or Authorization: Bearer.\"}'\n  observed: '2026-09-19 anonymous POST https://www.claix.dev/a2a -> 401 with exactly that body'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/claix-dev/refs/heads/main/authentication/claix-dev-authentication.yml
+source_yaml_url: https://artifacts.apis.io/claix-dev/authentication/claix-dev-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Document Processing

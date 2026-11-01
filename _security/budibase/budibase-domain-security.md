@@ -5,55 +5,55 @@ api_specs:
   label: Budibase Applications API
   slug: budibase-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-applications-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-applications-api-openapi.yml
 - filename: budibase-queries-api-openapi.yml
   format: yaml
   label: Budibase Queries API
   slug: budibase-queries-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-queries-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-queries-api-openapi.yml
 - filename: budibase-rows-api-openapi.yml
   format: yaml
   label: Budibase Rows API
   slug: budibase-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-rows-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-rows-api-openapi.yml
 - filename: budibase-tables-api-openapi.yml
   format: yaml
   label: Budibase Tables API
   slug: budibase-tables-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-tables-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-tables-api-openapi.yml
 - filename: budibase-users-api-openapi.yml
   format: yaml
   label: Budibase Users API
   slug: budibase-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-users-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-users-api-openapi.yml
 - filename: budibase-metrics-api-openapi.yml
   format: yaml
   label: Budibase Metrics API
   slug: budibase-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-metrics-api-openapi.yml
 - filename: budibase-roles-api-openapi.yml
   format: yaml
   label: Budibase Roles API
   slug: budibase-roles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-roles-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-roles-api-openapi.yml
 - filename: budibase-views-api-openapi.yml
   format: yaml
   label: Budibase Views API
   slug: budibase-views-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-views-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-views-api-openapi.yml
 - filename: budibase-workspaces-api-openapi.yml
   format: yaml
   label: Budibase Workspaces API
   slug: budibase-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/openapi/budibase-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/budibase/openapi/budibase-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -100,7 +100,7 @@ source_filename: budibase-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: budibase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 15:20:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.budibase.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  1 19:08:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: budibase.app\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 15 23:29:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: budibase.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: budibase.app\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/budibase/refs/heads/main/security/budibase-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/budibase/security/budibase-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents

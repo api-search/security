@@ -26,7 +26,7 @@ source_filename: minor-planet-center-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.asterank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 19:11:43 2026 GMT\n  hsts: false\ndomains:\n- domain: asterank.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/minor-planet-center/refs/heads/main/security/minor-planet-center-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/minor-planet-center/security/minor-planet-center-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Public APIs

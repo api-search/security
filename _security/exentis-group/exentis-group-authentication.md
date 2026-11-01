@@ -34,7 +34,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: derived\nsource: openapi/exentis-group-blog-api-openapi.yml, openapi/exentis-group-blog-categories-api-openapi.yml,\n  openapi/exentis-group-categories-api-openapi.yml, openapi/exentis-group-media-api-openapi.yml,\n  openapi/exentis-group-pages-api-openapi.yml, openapi/exentis-group-posts-api-openapi.yml,\n  openapi/exentis-group-search-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: 'WordPress application passwords (HTTP Basic: username + application password).\n    Authorization endpoint: https://www.exentis-group.com/wp/wp-admin/authorize-application.php.\n    Not required for the read operations documented here.'\n  sources:\n  - openapi/exentis-group-blog-api-openapi.yml\n  - openapi/exentis-group-blog-categories-api-openapi.yml\n  - openapi/exentis-group-categories-api-openapi.yml\n  - openapi/exentis-group-media-api-openapi.yml\n  - openapi/exentis-group-pages-api-openapi.yml\n\
   \  - openapi/exentis-group-posts-api-openapi.yml\n  - openapi/exentis-group-search-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/exentis-group/refs/heads/main/authentication/exentis-group-authentication.yml
+source_yaml_url: https://artifacts.apis.io/exentis-group/authentication/exentis-group-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

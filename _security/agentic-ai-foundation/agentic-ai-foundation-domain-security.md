@@ -5,43 +5,43 @@ api_specs:
   label: Agentic AI Foundation Auth API
   slug: agentic-ai-foundation-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-auth-api-openapi.yml
+  url: https://artifacts.apis.io/agentic-ai-foundation/openapi/agentic-ai-foundation-auth-api-openapi.yml
 - filename: agentic-ai-foundation-health-api-openapi.yml
   format: yaml
   label: Agentic AI Foundation Health API
   slug: agentic-ai-foundation-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-health-api-openapi.yml
+  url: https://artifacts.apis.io/agentic-ai-foundation/openapi/agentic-ai-foundation-health-api-openapi.yml
 - filename: agentic-ai-foundation-ping-api-openapi.yml
   format: yaml
   label: Agentic AI Foundation Ping API
   slug: agentic-ai-foundation-ping-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-ping-api-openapi.yml
+  url: https://artifacts.apis.io/agentic-ai-foundation/openapi/agentic-ai-foundation-ping-api-openapi.yml
 - filename: agentic-ai-foundation-publish-api-openapi.yml
   format: yaml
   label: Agentic AI Foundation Publish API
   slug: agentic-ai-foundation-publish-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-publish-api-openapi.yml
+  url: https://artifacts.apis.io/agentic-ai-foundation/openapi/agentic-ai-foundation-publish-api-openapi.yml
 - filename: agentic-ai-foundation-servers-api-openapi.yml
   format: yaml
   label: Agentic AI Foundation Servers API
   slug: agentic-ai-foundation-servers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-servers-api-openapi.yml
+  url: https://artifacts.apis.io/agentic-ai-foundation/openapi/agentic-ai-foundation-servers-api-openapi.yml
 - filename: agentic-ai-foundation-validate-api-openapi.yml
   format: yaml
   label: Agentic AI Foundation Validate API
   slug: agentic-ai-foundation-validate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-validate-api-openapi.yml
+  url: https://artifacts.apis.io/agentic-ai-foundation/openapi/agentic-ai-foundation-validate-api-openapi.yml
 - filename: agentic-ai-foundation-version-api-openapi.yml
   format: yaml
   label: Agentic AI Foundation Version API
   slug: agentic-ai-foundation-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/openapi/agentic-ai-foundation-version-api-openapi.yml
+  url: https://artifacts.apis.io/agentic-ai-foundation/openapi/agentic-ai-foundation-version-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ source_filename: agentic-ai-foundation-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-30'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aaif.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 15:58:23 2026 GMT\n  hsts: false\n- host: modelcontextprotocol.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 16:36:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: registry.modelcontextprotocol.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 10:20:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: aaif.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: modelcontextprotocol.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/agentic-ai-foundation/refs/heads/main/security/agentic-ai-foundation-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/agentic-ai-foundation/security/agentic-ai-foundation-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - AI Agents

@@ -5,43 +5,43 @@ api_specs:
   label: Hevy Exercise History API
   slug: hevy-exercisehistory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-exercisehistory-api-openapi.yml
+  url: https://artifacts.apis.io/hevy/openapi/hevy-exercisehistory-api-openapi.yml
 - filename: hevy-exercisetemplates-api-openapi.yml
   format: yaml
   label: Hevy Exercise Templates API
   slug: hevy-exercisetemplates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-exercisetemplates-api-openapi.yml
+  url: https://artifacts.apis.io/hevy/openapi/hevy-exercisetemplates-api-openapi.yml
 - filename: hevy-measurements-api-openapi.yml
   format: yaml
   label: Hevy Measurements API
   slug: hevy-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/hevy/openapi/hevy-measurements-api-openapi.yml
 - filename: hevy-routinefolders-api-openapi.yml
   format: yaml
   label: Hevy Routine Folders API
   slug: hevy-routinefolders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-routinefolders-api-openapi.yml
+  url: https://artifacts.apis.io/hevy/openapi/hevy-routinefolders-api-openapi.yml
 - filename: hevy-routines-api-openapi.yml
   format: yaml
   label: Hevy Routines API
   slug: hevy-routines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-routines-api-openapi.yml
+  url: https://artifacts.apis.io/hevy/openapi/hevy-routines-api-openapi.yml
 - filename: hevy-users-api-openapi.yml
   format: yaml
   label: Hevy Users API
   slug: hevy-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-users-api-openapi.yml
+  url: https://artifacts.apis.io/hevy/openapi/hevy-users-api-openapi.yml
 - filename: hevy-workouts-api-openapi.yml
   format: yaml
   label: Hevy Workouts API
   slug: hevy-workouts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/openapi/hevy-workouts-api-openapi.yml
+  url: https://artifacts.apis.io/hevy/openapi/hevy-workouts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: hevy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hevyapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 03:01:51 2026 GMT\n  hsts: false\n- host: api.hevyapp.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 02:23:58 2026 GMT\n  hsts: false\n- host: hevy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 13 17:09:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: hevyapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: hevy.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hevy/refs/heads/main/security/hevy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hevy/security/hevy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

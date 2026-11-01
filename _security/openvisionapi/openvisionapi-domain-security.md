@@ -25,7 +25,7 @@ source_filename: openvisionapi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openvisionapi.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate\n    (_ssl.c:1082)'\n  hsts: null\ndomains:\n- domain: openvisionapi.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openvisionapi/refs/heads/main/security/openvisionapi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openvisionapi/security/openvisionapi-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Machine Learning

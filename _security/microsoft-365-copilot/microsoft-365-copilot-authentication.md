@@ -7,25 +7,25 @@ api_specs:
   label: Microsoft 365 Copilot Connectors API
   slug: microsoft-365-copilot-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-connectors-api-openapi.yml
 - filename: microsoft-365-copilot-external-items-api-openapi.yml
   format: yaml
   label: Microsoft 365 Copilot External Items API
   slug: microsoft-365-copilot-external-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-external-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-external-items-api-openapi.yml
 - filename: microsoft-365-copilot-search-api-openapi.yml
   format: yaml
   label: Microsoft 365 Copilot Search API
   slug: microsoft-365-copilot-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-search-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-search-api-openapi.yml
 - filename: microsoft-365-copilot-user-content-api-openapi.yml
   format: yaml
   label: Microsoft 365 Copilot User Content API
   slug: microsoft-365-copilot-user-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/openapi/microsoft-365-copilot-user-content-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-user-content-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -61,7 +61,7 @@ source_filename: microsoft-365-copilot-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-365-copilot-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 6\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  description: Microsoft Entra ID OAuth 2.0\n  sources:\n  - openapi/microsoft-365-copilot-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-365-copilot/refs/heads/main/authentication/microsoft-365-copilot-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-365-copilot/authentication/microsoft-365-copilot-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Artificial Intelligence

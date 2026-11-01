@@ -7,19 +7,19 @@ api_specs:
   label: Google Cloud KMS Crypto Keys API
   slug: google-cloud-kms-crypto-keys-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-crypto-keys-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-crypto-keys-api-openapi.yml
 - filename: google-cloud-kms-crypto-operations-api-openapi.yml
   format: yaml
   label: Google Cloud KMS Crypto Operations API
   slug: google-cloud-kms-crypto-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-crypto-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-crypto-operations-api-openapi.yml
 - filename: google-cloud-kms-key-rings-api-openapi.yml
   format: yaml
   label: Google Cloud KMS Key Rings API
   slug: google-cloud-kms-key-rings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/openapi/google-cloud-kms-key-rings-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-key-rings-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-cloud-kms-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-kms/refs/heads/main/authentication/google-cloud-kms-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-kms/authentication/google-cloud-kms-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Cryptography

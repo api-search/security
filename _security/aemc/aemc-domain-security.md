@@ -5,31 +5,31 @@ api_specs:
   label: Australian Energy Market Commission Glossary API
   slug: aemc-glossary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-glossary-api-openapi.yml
+  url: https://artifacts.apis.io/aemc/openapi/aemc-glossary-api-openapi.yml
 - filename: aemc-rule-content-api-openapi.yml
   format: yaml
   label: Australian Energy Market Commission Rule Content API
   slug: aemc-rule-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-rule-content-api-openapi.yml
+  url: https://artifacts.apis.io/aemc/openapi/aemc-rule-content-api-openapi.yml
 - filename: aemc-rule-versions-api-openapi.yml
   format: yaml
   label: Australian Energy Market Commission Rule Versions API
   slug: aemc-rule-versions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-rule-versions-api-openapi.yml
+  url: https://artifacts.apis.io/aemc/openapi/aemc-rule-versions-api-openapi.yml
 - filename: aemc-search-api-openapi.yml
   format: yaml
   label: Australian Energy Market Commission Search API
   slug: aemc-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-search-api-openapi.yml
+  url: https://artifacts.apis.io/aemc/openapi/aemc-search-api-openapi.yml
 - filename: aemc-settings-api-openapi.yml
   format: yaml
   label: Australian Energy Market Commission Settings API
   slug: aemc-settings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/openapi/aemc-settings-api-openapi.yml
+  url: https://artifacts.apis.io/aemc/openapi/aemc-settings-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: aemc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-27'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.aemc.gov.au\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: false\n- host: energy-rules.aemc.gov.au\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 31 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: aemc.gov.au\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aemc/refs/heads/main/security/aemc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aemc/security/aemc-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Energy

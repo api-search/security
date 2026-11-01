@@ -5,37 +5,37 @@ api_specs:
   label: OIDC Authentication API
   slug: oidc-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openid-connect/refs/heads/main/openapi/oidc-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/openid-connect/openapi/oidc-authentication-api-openapi.yml
 - filename: oidc-discovery-api-openapi.yml
   format: yaml
   label: OIDC Discovery API
   slug: oidc-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openid-connect/refs/heads/main/openapi/oidc-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/openid-connect/openapi/oidc-discovery-api-openapi.yml
 - filename: oidc-jwks-api-openapi.yml
   format: yaml
   label: OIDC JWKS API
   slug: oidc-jwks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openid-connect/refs/heads/main/openapi/oidc-jwks-api-openapi.yml
+  url: https://artifacts.apis.io/openid-connect/openapi/oidc-jwks-api-openapi.yml
 - filename: oidc-session-api-openapi.yml
   format: yaml
   label: OIDC Session API
   slug: oidc-session-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openid-connect/refs/heads/main/openapi/oidc-session-api-openapi.yml
+  url: https://artifacts.apis.io/openid-connect/openapi/oidc-session-api-openapi.yml
 - filename: oidc-token-api-openapi.yml
   format: yaml
   label: OIDC Token API
   slug: oidc-token-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openid-connect/refs/heads/main/openapi/oidc-token-api-openapi.yml
+  url: https://artifacts.apis.io/openid-connect/openapi/oidc-token-api-openapi.yml
 - filename: oidc-user-info-api-openapi.yml
   format: yaml
   label: OIDC User Info API
   slug: oidc-user-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openid-connect/refs/heads/main/openapi/oidc-user-info-api-openapi.yml
+  url: https://artifacts.apis.io/openid-connect/openapi/oidc-user-info-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: openid-connect-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: openid.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 11:30:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31557600\ndomains:\n- domain: openid.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openid-connect/refs/heads/main/security/openid-connect-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/openid-connect/security/openid-connect-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication

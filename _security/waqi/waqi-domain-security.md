@@ -5,19 +5,19 @@ api_specs:
   label: World Air Quality Index (WAQI) Feed API
   slug: waqi-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/openapi/waqi-feed-api-openapi.yml
+  url: https://artifacts.apis.io/waqi/openapi/waqi-feed-api-openapi.yml
 - filename: waqi-map-api-openapi.yml
   format: yaml
   label: World Air Quality Index (WAQI) Map API
   slug: waqi-map-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/openapi/waqi-map-api-openapi.yml
+  url: https://artifacts.apis.io/waqi/openapi/waqi-map-api-openapi.yml
 - filename: waqi-search-api-openapi.yml
   format: yaml
   label: World Air Quality Index (WAQI) Search API
   slug: waqi-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/openapi/waqi-search-api-openapi.yml
+  url: https://artifacts.apis.io/waqi/openapi/waqi-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: waqi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: waqi.info\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 16 14:10:15 2026 GMT\n  hsts: false\n- host: aqicn.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug  8 05:59:26 2026 GMT\n  hsts: true\n  hsts_max_age: 3600\n- host: api.waqi.info\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Aug 17 14:02:26 2026 GMT\n  hsts: null\ndomains:\n- domain: waqi.info\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: aqicn.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/waqi/refs/heads/main/security/waqi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/waqi/security/waqi-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Air Quality

@@ -27,7 +27,7 @@ source_filename: flowneuroscience-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.flowneuroscience.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 23:17:14 2026 GMT\n  hsts: false\ndomains:\n- domain: flowneuroscience.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/flowneuroscience/refs/heads/main/security/flowneuroscience-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/flowneuroscience/security/flowneuroscience-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

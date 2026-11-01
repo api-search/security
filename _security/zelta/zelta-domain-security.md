@@ -23,7 +23,7 @@ source_filename: zelta-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: zelta.ai\n  https: false\ndomains:\n- domain: zelta.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zelta/refs/heads/main/security/zelta-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zelta/security/zelta-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

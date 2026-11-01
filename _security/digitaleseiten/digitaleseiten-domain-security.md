@@ -27,7 +27,7 @@ source_filename: digitaleseiten-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.digitaleseiten.de\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 13:33:28 2026 GMT\n  hsts: false\ndomains:\n- domain: digitaleseiten.de\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digitaleseiten/refs/heads/main/security/digitaleseiten-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/digitaleseiten/security/digitaleseiten-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

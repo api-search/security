@@ -7,43 +7,43 @@ api_specs:
   label: AUX by PrdictionEdge Certification Attempts API
   slug: prdictionedge-ai-certification-attempts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-attempts-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-certification-attempts-api-openapi.yml
 - filename: prdictionedge-ai-certification-handoffs-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge Certification Handoffs API
   slug: prdictionedge-ai-certification-handoffs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-handoffs-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-certification-handoffs-api-openapi.yml
 - filename: prdictionedge-ai-certification-profiles-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge Certification Profiles API
   slug: prdictionedge-ai-certification-profiles-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-certification-profiles-api-openapi.yml
 - filename: prdictionedge-ai-certification-requirements-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge Certification Requirements API
   slug: prdictionedge-ai-certification-requirements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certification-requirements-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-certification-requirements-api-openapi.yml
 - filename: prdictionedge-ai-certifications-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge Certifications API
   slug: prdictionedge-ai-certifications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-certifications-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-certifications-api-openapi.yml
 - filename: prdictionedge-ai-evidence-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge Evidence API
   slug: prdictionedge-ai-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-evidence-api-openapi.yml
 - filename: prdictionedge-ai-well-known-api-openapi.yml
   format: yaml
   label: AUX by PrdictionEdge .well Known API
   slug: prdictionedge-ai-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/openapi/prdictionedge-ai-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/prdictionedge-ai/openapi/prdictionedge-ai-well-known-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -108,7 +108,7 @@ source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: https://aux.prd
   \ the opposite\n  direction (agent verifying AUX) is by ES256 receipt signatures against the published JWKS.\nschemes:\n- id: public\n  type: none\n  applies_to: all operations except consumeAuxCertificationHandoff\n  detail: No credential of any kind; CORS is open (access-control-allow-origin *). An abuse limiter is present per /api/health but no limits are published.\n- id: recipient-domain-jws\n  type: http\n  scheme: signed-assertion\n  applies_to: [consumeAuxCertificationHandoff]\n  location: request body field consumer_assertion.jws (not an Authorization header)\n  format: JWS Compact Serialization\n  algorithm: ES256\n  typ: AUX-HANDOFF-CONSUMER+JSON\n  max_lifetime_seconds: 300\n  key_discovery: https://{recipient_domain}/.well-known/aux-handoff-consumer.json\n  signed_fields: [schema, issuer, subject, audience, recipient_domain, recipient_agent_id, handoff_id, handoff_sha256, intended_action, jti, issued_at, expires_at]\n  failure: 401 \"Recipient authentication or binding failed\"\
   \ (outcome RECIPIENT_AUTHENTICATION_FAILED)\n  docs: https://api.aux.prdictionedge.ai/v1/certification-handoffs/consume\n  note: Documented by the machine-readable contract the GET on the same path returns (consumption_version aux-handoff-consumption-0.1.0).\n- id: source-attestation-jws\n  type: http\n  scheme: signed-assertion\n  applies_to: [verifySourceAttestation, certifyTransaction, createCertificationAttempt]\n  location: request body source_attestations[].jws with source_domain\n  format: JWS signed by a private evidence source; AUX resolves the source domain's published trust document and key itself\n  docs: https://api.aux.prdictionedge.ai/v1/evidence/source-attestation\n  note: Not caller authentication — it authenticates third-party evidence the caller transports.\nreceipt_verification:\n  algorithm: ES256\n  jwks: https://api.aux.prdictionedge.ai/.well-known/jwks.json\n  jwks_file: well-known/prdictionedge-ai-api-jwks.json\n  current_kid: aux-receipt-2026-08-17-03\n  verify_endpoints:\
   \ [verifyAuxCertification, verifyAuxEvidence, verifyAuxCertificationHandoff, verifyAuxHandoffConsumptionReceipt]\noauth2: false\nopenid_connect: false\napi_key: false\nmutual_tls: false\na2a_interface:\n  url: https://api.aux.prdictionedge.ai/a2a/v1\n  security_schemes: none declared in the agent card\n  version_header: A2A-Version 1.0 required (calls without it return JSON-RPC -32009 \"Protocol version not supported\")\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/prdictionedge-ai/refs/heads/main/authentication/prdictionedge-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/prdictionedge-ai/authentication/prdictionedge-ai-authentication.yml
 summary_line: 3 schemes
 tags:
 - Company

@@ -5,67 +5,67 @@ api_specs:
   label: Zoho Analytics Bulk Export - Asynchronous API
   slug: zoho-analytics-bulk-export-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-export-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-export-asynchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-export-synchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Export - Synchronous API
   slug: zoho-analytics-bulk-export-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-export-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-export-synchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-import-asynchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Asynchronous API
   slug: zoho-analytics-bulk-import-asynchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-asynchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-asynchronous-api-openapi.yml
 - filename: zoho-analytics-bulk-import-batch-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Batch API
   slug: zoho-analytics-bulk-import-batch-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-batch-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-batch-api-openapi.yml
 - filename: zoho-analytics-bulk-import-synchronous-api-openapi.yml
   format: yaml
   label: Zoho Analytics Bulk Import - Synchronous API
   slug: zoho-analytics-bulk-import-synchronous-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-bulk-import-synchronous-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-bulk-import-synchronous-api-openapi.yml
 - filename: zoho-analytics-data-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Data APIs API
   slug: zoho-analytics-data-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-data-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-data-apis-api-openapi.yml
 - filename: zoho-analytics-embed-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Embed APIs API
   slug: zoho-analytics-embed-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-embed-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-embed-apis-api-openapi.yml
 - filename: zoho-analytics-metadata-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Metadata APIs API
   slug: zoho-analytics-metadata-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-metadata-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-metadata-apis-api-openapi.yml
 - filename: zoho-analytics-modeling-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Modeling APIs API
   slug: zoho-analytics-modeling-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-modeling-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-modeling-apis-api-openapi.yml
 - filename: zoho-analytics-sharing-collaboration-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics Sharing & Collaboration APIs API
   slug: zoho-analytics-sharing-collaboration-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-sharing-collaboration-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-sharing-collaboration-apis-api-openapi.yml
 - filename: zoho-analytics-user-management-apis-api-openapi.yml
   format: yaml
   label: Zoho Analytics User Management APIs API
   slug: zoho-analytics-user-management-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/openapi/zoho-analytics-user-management-apis-api-openapi.yml
+  url: https://artifacts.apis.io/zoho-analytics/openapi/zoho-analytics-user-management-apis-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -103,7 +103,7 @@ source_filename: zoho-analytics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.zoho.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 64072000\n- host: analyticsapi.zoho.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 22 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: zoho.com\n  dnssec: false\n  caa:\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/zoho-analytics/refs/heads/main/security/zoho-analytics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/zoho-analytics/security/zoho-analytics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Business Intelligence

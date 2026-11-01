@@ -5,25 +5,25 @@ api_specs:
   label: Voyage AI Contextualized API
   slug: voyage-ai-contextualized-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/openapi/voyage-ai-contextualized-api-openapi.yml
+  url: https://artifacts.apis.io/voyage-ai/openapi/voyage-ai-contextualized-api-openapi.yml
 - filename: voyage-ai-embeddings-api-openapi.yml
   format: yaml
   label: Voyage AI Embeddings API
   slug: voyage-ai-embeddings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/openapi/voyage-ai-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/voyage-ai/openapi/voyage-ai-embeddings-api-openapi.yml
 - filename: voyage-ai-multimodal-api-openapi.yml
   format: yaml
   label: Voyage AI Multimodal API
   slug: voyage-ai-multimodal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/openapi/voyage-ai-multimodal-api-openapi.yml
+  url: https://artifacts.apis.io/voyage-ai/openapi/voyage-ai-multimodal-api-openapi.yml
 - filename: voyage-ai-rerank-api-openapi.yml
   format: yaml
   label: Voyage AI Rerank API
   slug: voyage-ai-rerank-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/openapi/voyage-ai-rerank-api-openapi.yml
+  url: https://artifacts.apis.io/voyage-ai/openapi/voyage-ai-rerank-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: voyage-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.voyageai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 20 00:20:36 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.voyageai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 13 01:42:43 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.voyageai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 22:51:55 2026 GMT\n  hsts: null\ndomains:\n- domain: voyageai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/security/voyage-ai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/voyage-ai/security/voyage-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Embeddings

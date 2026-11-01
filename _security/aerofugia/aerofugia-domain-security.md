@@ -31,7 +31,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts (probe-domain-security.py), enriched by hand\n  from the same 2026-09-10 probe session\nhosts:\n- host: www.aerofugia.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 09:01:42 2026 GMT\n  hsts: false\n  note: 'The root document (HTTP 200) carries no Strict-Transport-Security header; the only responses\n    that do are the nginx 301s served for /api* paths, which redirect to themselves. www is the entire\n    web surface: the apex aerofugia.com publishes no A record.'\ndomains:\n- domain: aerofugia.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n  mx: geely.com / Microsoft 365 (mx-inbound.geely.com, geely-com.mail.protection.outlook.com)\n  spf_record: v=spf1 include:spf.protection.outlook.com include:spf.geely.com -all\n  note: 'Mail and SPF are delegated to parent Geely; no _dmarc TXT record exists, and the apex publishes\n    no A record, no\
   \ CAA and no DNSKEY.'\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aerofugia/refs/heads/main/security/aerofugia-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aerofugia/security/aerofugia-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Aviation

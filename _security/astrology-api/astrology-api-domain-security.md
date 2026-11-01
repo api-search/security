@@ -5,55 +5,85 @@ api_specs:
   label: Astrology API Astrocartography API
   slug: astrology-api-astrocartography-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-astrocartography-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-astrocartography-api-openapi.yml
 - filename: astrology-api-face-reading-api-openapi.yml
   format: yaml
   label: Astrology API Face Reading API
   slug: astrology-api-face-reading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-face-reading-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-face-reading-api-openapi.yml
 - filename: astrology-api-human-design-api-openapi.yml
   format: yaml
   label: Astrology API Human Design API
   slug: astrology-api-human-design-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-human-design-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-human-design-api-openapi.yml
 - filename: astrology-api-palm-reading-api-openapi.yml
   format: yaml
   label: Astrology API Palm Reading API
   slug: astrology-api-palm-reading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-palm-reading-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-palm-reading-api-openapi.yml
 - filename: astrology-api-palmistry-service-api-api-openapi.yml
   format: yaml
   label: Astrology API Palmistry Service API
   slug: astrology-api-palmistry-service-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-palmistry-service-api-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-palmistry-service-api-api-openapi.yml
 - filename: astrology-api-pdf-reports-api-openapi.yml
   format: yaml
   label: Astrology API PDF Reports API
   slug: astrology-api-pdf-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-pdf-reports-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-pdf-reports-api-openapi.yml
 - filename: astrology-api-prediction-api-openapi.yml
   format: yaml
   label: Astrology API Prediction API
   slug: astrology-api-prediction-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-prediction-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-prediction-api-openapi.yml
 - filename: astrology-api-vedic-astrology-api-openapi.yml
   format: yaml
   label: Astrology API Vedic Astrology API
   slug: astrology-api-vedic-astrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-vedic-astrology-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-vedic-astrology-api-openapi.yml
 - filename: astrology-api-western-astrology-api-openapi.yml
   format: yaml
   label: Astrology API Western Astrology API
   slug: astrology-api-western-astrology-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/openapi/astrology-api-western-astrology-api-openapi.yml
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-western-astrology-api-openapi.yml
+- filename: astrology-api-compatibility-api-openapi.yml
+  format: yaml
+  label: Astrology API Compatibility API
+  slug: astrology-api-compatibility-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-compatibility-api-openapi.yml
+- filename: astrology-api-compatibility-report-api-openapi.yml
+  format: yaml
+  label: Astrology API Compatibility Report API
+  slug: astrology-api-compatibility-report-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-compatibility-report-api-openapi.yml
+- filename: astrology-api-palm-query-api-openapi.yml
+  format: yaml
+  label: Astrology API Palm Query API
+  slug: astrology-api-palm-query-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-palm-query-api-openapi.yml
+- filename: astrology-api-palm-report-api-openapi.yml
+  format: yaml
+  label: Astrology API Palm Report API
+  slug: astrology-api-palm-report-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-palm-report-api-openapi.yml
+- filename: astrology-api-report-status-api-openapi.yml
+  format: yaml
+  label: Astrology API Report Status API
+  slug: astrology-api-report-status-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/astrology-api/openapi/astrology-api-report-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +122,7 @@ source_filename: astrology-api-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.astrologyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 12 17:34:16 2026 GMT\n  hsts: false\n- host: astrologyapi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 13 21:33:19 2026 GMT\n  hsts: false\n- host: json.astrologyapi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  5 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: astrologyapi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/security/astrology-api-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/astrology-api/security/astrology-api-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Astrology

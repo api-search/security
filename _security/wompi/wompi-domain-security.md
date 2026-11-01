@@ -5,37 +5,37 @@ api_specs:
   label: Wompi Merchants API
   slug: wompi-merchants-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-merchants-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-merchants-api-openapi.yml
 - filename: wompi-payment-links-api-openapi.yml
   format: yaml
   label: Wompi Payment Links API
   slug: wompi-payment-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-payment-links-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-payment-links-api-openapi.yml
 - filename: wompi-payment-sources-api-openapi.yml
   format: yaml
   label: Wompi Payment Sources API
   slug: wompi-payment-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-payment-sources-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-payment-sources-api-openapi.yml
 - filename: wompi-pse-api-openapi.yml
   format: yaml
   label: Wompi PSE API
   slug: wompi-pse-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-pse-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-pse-api-openapi.yml
 - filename: wompi-tokenization-api-openapi.yml
   format: yaml
   label: Wompi Tokenization API
   slug: wompi-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-tokenization-api-openapi.yml
 - filename: wompi-transactions-api-openapi.yml
   format: yaml
   label: Wompi Transactions API
   slug: wompi-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/openapi/wompi-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/wompi/openapi/wompi-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -89,7 +89,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wompi.co\n  https: true\n  http_status: 200\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: docs.wompi.co\n  https: true\n  http_status: 200\n  cert_expires: Feb 13 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n- host: production.wompi.co\n  https: true\n  http_status: 403\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: API host; bare requests without a valid bearer key return 403 (expected).\n- host: sandbox.wompi.co\n  https: true\n  http_status: 403\n  cert_expires: Jan 26 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  note: Sandbox API host; bare requests without a valid test key return 403 (expected).\ndomains:\n- domain: wompi.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc:\
   \ true\n  dmarc_policy: reject\n  notes: >-\n    SPF via Agari (agari-dns.net). DMARC policy p=reject with aggregate/forensic\n    reporting to bancolombia@rua.agari.com and dmarc@bancolombia.com.co,\n    confirming Grupo Bancolombia operation. No CAA records observed.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wompi/refs/heads/main/security/wompi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wompi/security/wompi-domain-security.yml
 summary_line: HSTS · DMARC
 tags:
 - Payments

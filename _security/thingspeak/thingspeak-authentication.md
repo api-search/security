@@ -9,31 +9,31 @@ api_specs:
   label: ThingSpeak Channels API
   slug: thingspeak-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-channels-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-channels-api-openapi.yml
 - filename: thingspeak-update-api-openapi.yml
   format: yaml
   label: ThingSpeak Update API
   slug: thingspeak-update-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-update-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-update-api-openapi.yml
 - filename: thingspeak-mqtt-asyncapi.yml
   format: yaml
   label: ThingSpeak MQTT API
   slug: thingspeak-mqtt-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/asyncapi/thingspeak-mqtt-asyncapi.yml
+  url: https://artifacts.apis.io/thingspeak/asyncapi/thingspeak-mqtt-asyncapi.yml
 - filename: thingspeak-channels-json-api-openapi.yml
   format: yaml
   label: ThingSpeak Channels.json API
   slug: thingspeak-channels-json-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-channels-json-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-channels-json-api-openapi.yml
 - filename: thingspeak-talkbacks-api-openapi.yml
   format: yaml
   label: ThingSpeak Talkbacks API
   slug: thingspeak-talkbacks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/openapi/thingspeak-talkbacks-api-openapi.yml
+  url: https://artifacts.apis.io/thingspeak/openapi/thingspeak-talkbacks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -68,7 +68,7 @@ source_filename: thingspeak-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/thingspeak-channels-api-openapi.yml, openapi/thingspeak-talkback-api-openapi.yml,\n  openapi/thingspeak-update-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: UserApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: THINGSPEAKAPIKEY\n  sources:\n  - openapi/thingspeak-channels-api-openapi.yml\n  - openapi/thingspeak-update-api-openapi.yml\n- name: TalkBackKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  sources:\n  - openapi/thingspeak-talkback-api-openapi.yml\n  - openapi/thingspeak-update-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/thingspeak/refs/heads/main/authentication/thingspeak-authentication.yml
+source_yaml_url: https://artifacts.apis.io/thingspeak/authentication/thingspeak-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - IoT

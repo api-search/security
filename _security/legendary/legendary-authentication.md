@@ -27,7 +27,7 @@ source_filename: legendary-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: derived\nsource: openapi/legendary-wp-rest-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: applicationPassword\n  type: http\n  scheme: basic\n  description: WordPress Application Passwords, advertised by the site at https://www.legendary.com/wp-admin/authorize-application.php\n  sources:\n  - openapi/legendary-wp-rest-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/legendary/refs/heads/main/authentication/legendary-authentication.yml
+source_yaml_url: https://artifacts.apis.io/legendary/authentication/legendary-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

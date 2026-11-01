@@ -5,13 +5,13 @@ api_specs:
   label: Sphere Tax Calculation API
   slug: sphere-tax-tax-calculation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/openapi/sphere-tax-tax-calculation-api-openapi.yml
+  url: https://artifacts.apis.io/sphere-tax/openapi/sphere-tax-tax-calculation-api-openapi.yml
 - filename: sphere-tax-transactions-export-api-openapi.yml
   format: yaml
   label: Sphere Transactions Export API
   slug: sphere-tax-transactions-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/openapi/sphere-tax-transactions-export-api-openapi.yml
+  url: https://artifacts.apis.io/sphere-tax/openapi/sphere-tax-transactions-export-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: sphere-tax-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.getsphere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 07:42:13 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.getsphere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 17 08:31:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: server.getsphere.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: getsphere.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sphere-tax/refs/heads/main/security/sphere-tax-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sphere-tax/security/sphere-tax-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Tax

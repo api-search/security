@@ -5,19 +5,19 @@ api_specs:
   label: API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python Business Days API
   slug: calendar-api-ma-business-days-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/openapi/calendar-api-ma-business-days-api-openapi.yml
+  url: https://artifacts.apis.io/calendar-api-ma/openapi/calendar-api-ma-business-days-api-openapi.yml
 - filename: calendar-api-ma-holidays-api-openapi.yml
   format: yaml
   label: API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python Holidays API
   slug: calendar-api-ma-holidays-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/openapi/calendar-api-ma-holidays-api-openapi.yml
+  url: https://artifacts.apis.io/calendar-api-ma/openapi/calendar-api-ma-holidays-api-openapi.yml
 - filename: calendar-api-ma-misc-api-openapi.yml
   format: yaml
   label: API Calendrier Marocain | Jours Fériés & Ouvrables REST + SDK Python Misc API
   slug: calendar-api-ma-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/openapi/calendar-api-ma-misc-api-openapi.yml
+  url: https://artifacts.apis.io/calendar-api-ma/openapi/calendar-api-ma-misc-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: calendar-api-ma-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: docs.calendar-api.ma\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 18:32:38 2026 GMT\n  hsts: false\n- host: calendar-api.ma\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 06:24:17 2026 GMT\n  hsts: null\ndomains:\n- domain: calendar-api.ma\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/calendar-api-ma/refs/heads/main/security/calendar-api-ma-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/calendar-api-ma/security/calendar-api-ma-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Holidays

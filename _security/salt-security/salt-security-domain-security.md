@@ -28,7 +28,7 @@ source_filename: salt-security-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: salt.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  1 11:45:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: salt.security\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salt-security/refs/heads/main/security/salt-security-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/salt-security/security/salt-security-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Security

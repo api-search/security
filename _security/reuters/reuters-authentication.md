@@ -8,25 +8,25 @@ api_specs:
   label: Reuters Authentication API
   slug: reuters-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/openapi/reuters-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/reuters/openapi/reuters-authentication-api-openapi.yml
 - filename: reuters-channels-api-openapi.yml
   format: yaml
   label: Reuters Channels API
   slug: reuters-channels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/openapi/reuters-channels-api-openapi.yml
+  url: https://artifacts.apis.io/reuters/openapi/reuters-channels-api-openapi.yml
 - filename: reuters-items-api-openapi.yml
   format: yaml
   label: Reuters Items API
   slug: reuters-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/openapi/reuters-items-api-openapi.yml
+  url: https://artifacts.apis.io/reuters/openapi/reuters-items-api-openapi.yml
 - filename: reuters-search-api-openapi.yml
   format: yaml
   label: Reuters Search API
   slug: reuters-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/openapi/reuters-search-api-openapi.yml
+  url: https://artifacts.apis.io/reuters/openapi/reuters-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -54,7 +54,7 @@ source_filename: reuters-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/reuters-connect-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: query\n  parameter: token\n  description: Authorization token obtained from the /login endpoint. Must be included as a\n    query parameter in all content API requests.\n  sources:\n  - openapi/reuters-connect-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reuters/refs/heads/main/authentication/reuters-authentication.yml
+source_yaml_url: https://artifacts.apis.io/reuters/authentication/reuters-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Business

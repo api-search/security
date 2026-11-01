@@ -8,31 +8,31 @@ api_specs:
   label: Apple Music Catalog API
   slug: apple-music-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-catalog-api-openapi.yml
 - filename: apple-music-charts-api-openapi.yml
   format: yaml
   label: Apple Music Charts API
   slug: apple-music-charts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-charts-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-charts-api-openapi.yml
 - filename: apple-music-library-api-openapi.yml
   format: yaml
   label: Apple Music Library API
   slug: apple-music-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-library-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-library-api-openapi.yml
 - filename: apple-music-search-api-openapi.yml
   format: yaml
   label: Apple Music Search API
   slug: apple-music-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-search-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-search-api-openapi.yml
 - filename: apple-music-storefronts-api-openapi.yml
   format: yaml
   label: Apple Music Storefronts API
   slug: apple-music-storefronts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/openapi/apple-music-storefronts-api-openapi.yml
+  url: https://artifacts.apis.io/apple-music/openapi/apple-music-storefronts-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -72,7 +72,7 @@ source_filename: apple-music-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/apple-music-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: DeveloperToken\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: |-\n    Apple Music developer token (JWT) generated from a Music Key in the\n    Apple Developer account.\n  sources:\n  - openapi/apple-music-openapi.yml\n- name: MusicUserToken\n  type: apiKey\n  in: header\n  parameter: Music-User-Token\n  description: |-\n    Music User Token obtained via MusicKit on a signed-in device. Required\n    for user-library endpoints.\n  sources:\n  - openapi/apple-music-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apple-music/refs/heads/main/authentication/apple-music-authentication.yml
+source_yaml_url: https://artifacts.apis.io/apple-music/authentication/apple-music-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Music

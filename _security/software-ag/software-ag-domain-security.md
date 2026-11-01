@@ -5,25 +5,25 @@ api_specs:
   label: Software AG Applications API
   slug: software-ag-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-applications-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-applications-api-openapi.yml
 - filename: software-ag-policies-api-openapi.yml
   format: yaml
   label: Software AG Policies API
   slug: software-ag-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-policies-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-policies-api-openapi.yml
 - filename: software-ag-publishing-api-openapi.yml
   format: yaml
   label: Software AG Publishing API
   slug: software-ag-publishing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-publishing-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-publishing-api-openapi.yml
 - filename: software-ag-apis-api-openapi.yml
   format: yaml
   label: Software AG APIs API
   slug: software-ag-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/openapi/software-ag-apis-api-openapi.yml
+  url: https://artifacts.apis.io/software-ag/openapi/software-ag-apis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,7 +62,7 @@ source_filename: software-ag-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.softwareag.com\n  https: true\n  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get\n    local issuer certificate (_ssl.c:1082)'\n  hsts: null\n- host: www.softwareag.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 29 14:58:40 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: documentation.softwareag.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 26 08:38:54 2026 GMT\n  hsts: false\ndomains:\n- domain: softwareag.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/software-ag/refs/heads/main/security/software-ag-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/software-ag/security/software-ag-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - API Management

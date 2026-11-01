@@ -26,37 +26,43 @@ api_specs:
   label: Craft.io Feedback items API
   slug: craft-io-feedback-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-feedback-items-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-feedback-items-api-openapi.yml
 - filename: craft-io-feedback-portals-api-openapi.yml
   format: yaml
   label: Craft.io Feedback Portals API
   slug: craft-io-feedback-portals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-feedback-portals-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-feedback-portals-api-openapi.yml
 - filename: craft-io-introspection-api-openapi.yml
   format: yaml
   label: Craft.io Introspection API
   slug: craft-io-introspection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-introspection-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-introspection-api-openapi.yml
 - filename: craft-io-portfolios-api-openapi.yml
   format: yaml
   label: Craft.io Portfolios API
   slug: craft-io-portfolios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-portfolios-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-portfolios-api-openapi.yml
 - filename: craft-io-work-items-and-okrs-api-openapi.yml
   format: yaml
   label: Craft.io Work Items and OKRs API
   slug: craft-io-work-items-and-okrs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-work-items-and-okrs-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-work-items-and-okrs-api-openapi.yml
 - filename: craft-io-workspaces-api-openapi.yml
   format: yaml
   label: Craft.io Workspaces API
   slug: craft-io-workspaces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/openapi/craft-io-workspaces-api-openapi.yml
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-workspaces-api-openapi.yml
+- filename: craft-io-views-api-openapi.yml
+  format: yaml
+  label: Craft.io Views API
+  slug: craft-io-views-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/craft-io/openapi/craft-io-views-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -85,7 +91,7 @@ source_filename: craft-io-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/craft-io-feedback-openapi.yml, openapi/craft-io-portfolio-openapi.yml, openapi/craft-io-workspace-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: api_key\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/craft-io-feedback-openapi.yml\n  - openapi/craft-io-portfolio-openapi.yml\n  - openapi/craft-io-workspace-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/craft-io/refs/heads/main/authentication/craft-io-authentication.yml
+source_yaml_url: https://artifacts.apis.io/craft-io/authentication/craft-io-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Product Management

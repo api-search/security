@@ -5,25 +5,25 @@ api_specs:
   label: UnitedHealth Group Clinical Data API
   slug: unitedhealth-clinical-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-clinical-data-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealth/openapi/unitedhealth-clinical-data-api-openapi.yml
 - filename: unitedhealth-drug-formulary-api-openapi.yml
   format: yaml
   label: UnitedHealth Group Drug Formulary API
   slug: unitedhealth-drug-formulary-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-drug-formulary-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealth/openapi/unitedhealth-drug-formulary-api-openapi.yml
 - filename: unitedhealth-patient-access-api-openapi.yml
   format: yaml
   label: UnitedHealth Group Patient Access API
   slug: unitedhealth-patient-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-patient-access-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealth/openapi/unitedhealth-patient-access-api-openapi.yml
 - filename: unitedhealth-provider-directory-api-openapi.yml
   format: yaml
   label: UnitedHealth Group Provider Directory API
   slug: unitedhealth-provider-directory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/openapi/unitedhealth-provider-directory-api-openapi.yml
+  url: https://artifacts.apis.io/unitedhealth/openapi/unitedhealth-provider-directory-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -55,7 +55,7 @@ source_filename: unitedhealth-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.uhc.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  3 23:59:59 2026 GMT\n  hsts: null\n- host: api.uhc.com\n  https: false\ndomains:\n- domain: uhc.com\n  dnssec: true\n  caa:\n  - 0 issuemail \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unitedhealth/refs/heads/main/security/unitedhealth-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unitedhealth/security/unitedhealth-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Healthcare

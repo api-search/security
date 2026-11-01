@@ -45,7 +45,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: searched\nsource: https://developer.parallelmarkets.com/docs/server/api-keys\ndocs: https://developer.parallelmarkets.com/docs/server/api-keys\nsummary:\n  types: [http, oauth2]\n  api_key_in: [header]\n  oauth2_flows: [authorizationCode]\nschemes:\n- name: apiKeyBearer\n  type: http\n  scheme: bearer\n  location: header\n  header: Authorization\n  format: \"Bearer {apiKey}\"\n  used_by: Server API / Case Management API (v2, current)\n  notes: >-\n    API keys are created in the Parallel dashboard (app.parallelmarkets.com or\n    demo.parallelmarkets.com) under Settings > Integrations & Exports by admin or\n    controller roles. The full key is shown once at creation; only the Key ID\n    prefix remains visible afterward.\n- name: oauth2AuthorizationCode\n  type: oauth2\n  flow: authorizationCode\n  authorizationUrl: https://api.parallelmarkets.com/v1/oauth/authorize\n  tokenUrl: https://api.parallelmarkets.com/v1/oauth/token\n  used_by: v1\
   \ legacy OAuth flow + JavaScript SDK Passport authorization\n  scopes: [profile, accreditation_status, identity, blockchain]\n  notes: >-\n    OAuth2 authorization-code flow (registered client_id/client_secret) used by the\n    v1 Server API and the client-side JavaScript SDK / Passport handoff. HTTPS only;\n    plain HTTP connections are refused.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parallel-markets/refs/heads/main/authentication/parallel-markets-authentication.yml
+source_yaml_url: https://artifacts.apis.io/parallel-markets/authentication/parallel-markets-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company

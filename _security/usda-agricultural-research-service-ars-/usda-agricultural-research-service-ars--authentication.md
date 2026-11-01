@@ -9,19 +9,19 @@ api_specs:
   label: USDA Agricultural Research Service (ARS) Datasets API
   slug: usda-agricultural-research-service-ars--datasets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--datasets-api-openapi.yml
+  url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/openapi/usda-agricultural-research-service-ars--datasets-api-openapi.yml
 - filename: usda-agricultural-research-service-ars--food-search-api-openapi.yml
   format: yaml
   label: USDA Agricultural Research Service (ARS) Food Search API
   slug: usda-agricultural-research-service-ars--food-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--food-search-api-openapi.yml
+  url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/openapi/usda-agricultural-research-service-ars--food-search-api-openapi.yml
 - filename: usda-agricultural-research-service-ars--foods-api-openapi.yml
   format: yaml
   label: USDA Agricultural Research Service (ARS) Foods API
   slug: usda-agricultural-research-service-ars--foods-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/openapi/usda-agricultural-research-service-ars--foods-api-openapi.yml
+  url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/openapi/usda-agricultural-research-service-ars--foods-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -55,7 +55,7 @@ source_filename: usda-agricultural-research-service-ars--authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/usda-ars-fooddata-central-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: ApiKeyQuery\n  type: apiKey\n  in: query\n  parameter: api_key\n  description: data.gov API key. Register at https://api.data.gov/signup/\n  sources:\n  - openapi/usda-ars-fooddata-central-openapi.yml\n- name: ApiKeyHeader\n  type: apiKey\n  in: header\n  parameter: X-Api-Key\n  sources:\n  - openapi/usda-ars-fooddata-central-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/authentication/usda-agricultural-research-service-ars--authentication.yml
+source_yaml_url: https://artifacts.apis.io/usda-agricultural-research-service-ars-/authentication/usda-agricultural-research-service-ars--authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Federal Government

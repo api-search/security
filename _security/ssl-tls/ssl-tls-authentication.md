@@ -8,31 +8,31 @@ api_specs:
   label: SSL/TLS Certificates API
   slug: ssl-tls-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-certificates-api-openapi.yml
 - filename: ssl-tls-domains-api-openapi.yml
   format: yaml
   label: SSL/TLS Domains API
   slug: ssl-tls-domains-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-domains-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-domains-api-openapi.yml
 - filename: ssl-tls-monitoring-api-openapi.yml
   format: yaml
   label: SSL/TLS Monitoring API
   slug: ssl-tls-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-monitoring-api-openapi.yml
 - filename: ssl-tls-orders-api-openapi.yml
   format: yaml
   label: SSL/TLS Orders API
   slug: ssl-tls-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-orders-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-orders-api-openapi.yml
 - filename: ssl-tls-revocation-api-openapi.yml
   format: yaml
   label: SSL/TLS Revocation API
   slug: ssl-tls-revocation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/openapi/ssl-tls-revocation-api-openapi.yml
+  url: https://artifacts.apis.io/ssl-tls/openapi/ssl-tls-revocation-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +59,7 @@ source_filename: ssl-tls-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ssl-tls-certificate-management-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  sources:\n  - openapi/ssl-tls-certificate-management-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ssl-tls/refs/heads/main/authentication/ssl-tls-authentication.yml
+source_yaml_url: https://artifacts.apis.io/ssl-tls/authentication/ssl-tls-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - SSL/TLS

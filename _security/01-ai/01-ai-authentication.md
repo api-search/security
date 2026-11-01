@@ -7,7 +7,7 @@ api_specs:
   label: 01.AI Chat Completions API
   slug: 01-ai-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/01-ai/refs/heads/main/openapi/01-ai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/01-ai/openapi/01-ai-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: 01-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/01-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API key passed as a Bearer token in the Authorization header.\n  sources:\n  - openapi/01-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/01-ai/refs/heads/main/authentication/01-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/01-ai/authentication/01-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

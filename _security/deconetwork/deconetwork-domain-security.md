@@ -5,25 +5,25 @@ api_specs:
   label: DecoNetwork Inventory API
   slug: deconetwork-inventory-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-inventory-api-openapi.yml
+  url: https://artifacts.apis.io/deconetwork/openapi/deconetwork-inventory-api-openapi.yml
 - filename: deconetwork-orders-api-openapi.yml
   format: yaml
   label: DecoNetwork Orders API
   slug: deconetwork-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-orders-api-openapi.yml
+  url: https://artifacts.apis.io/deconetwork/openapi/deconetwork-orders-api-openapi.yml
 - filename: deconetwork-products-api-openapi.yml
   format: yaml
   label: DecoNetwork Products API
   slug: deconetwork-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-products-api-openapi.yml
+  url: https://artifacts.apis.io/deconetwork/openapi/deconetwork-products-api-openapi.yml
 - filename: deconetwork-purchase-orders-api-openapi.yml
   format: yaml
   label: DecoNetwork Purchase Orders API
   slug: deconetwork-purchase-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/openapi/deconetwork-purchase-orders-api-openapi.yml
+  url: https://artifacts.apis.io/deconetwork/openapi/deconetwork-purchase-orders-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: deconetwork-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.deconetwork.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 11 08:41:42 2026 GMT\n  hsts: null\n- host: developer.deconetwork.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 25 23:50:28 2026 GMT\n  hsts: false\ndomains:\n- domain: deconetwork.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/deconetwork/refs/heads/main/security/deconetwork-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/deconetwork/security/deconetwork-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Custom Apparel

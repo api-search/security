@@ -7,25 +7,25 @@ api_specs:
   label: Bayou Energy Bills API
   slug: bayou-energy-bills-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-bills-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-bills-api-openapi.yml
 - filename: bayou-energy-customers-api-openapi.yml
   format: yaml
   label: Bayou Energy Customers API
   slug: bayou-energy-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-customers-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-customers-api-openapi.yml
 - filename: bayou-energy-intervals-api-openapi.yml
   format: yaml
   label: Bayou Energy Intervals API
   slug: bayou-energy-intervals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-intervals-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-intervals-api-openapi.yml
 - filename: bayou-energy-utilities-api-openapi.yml
   format: yaml
   label: Bayou Energy Utilities API
   slug: bayou-energy-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/openapi/bayou-energy-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/bayou-energy/openapi/bayou-energy-utilities-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -52,7 +52,7 @@ source_filename: bayou-energy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/bayou-energy-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication. Use your API key as the username and leave the password\n    empty.\n  sources:\n  - openapi/bayou-energy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bayou-energy/refs/heads/main/authentication/bayou-energy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bayou-energy/authentication/bayou-energy-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Utility Data

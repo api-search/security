@@ -5,7 +5,7 @@ api_specs:
   label: hCaptcha Siteverify API
   slug: hcaptcha-siteverify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hcaptcha/refs/heads/main/openapi/hcaptcha-siteverify-api-openapi.yml
+  url: https://artifacts.apis.io/hcaptcha/openapi/hcaptcha-siteverify-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -53,7 +53,7 @@ source_filename: hcaptcha-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.hcaptcha.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 13:03:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.hcaptcha.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 00:06:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.hcaptcha.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 00:06:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: hcaptcha.com\n  dnssec: true\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/hcaptcha/refs/heads/main/security/hcaptcha-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/hcaptcha/security/hcaptcha-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - CAPTCHA

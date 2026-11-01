@@ -5,25 +5,25 @@ api_specs:
   label: WizeHire Agent API
   slug: wizehire-agent-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-agent-api-openapi.yml
+  url: https://artifacts.apis.io/wizehire/openapi/wizehire-agent-api-openapi.yml
 - filename: wizehire-candidates-api-openapi.yml
   format: yaml
   label: WizeHire Candidates API
   slug: wizehire-candidates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-candidates-api-openapi.yml
+  url: https://artifacts.apis.io/wizehire/openapi/wizehire-candidates-api-openapi.yml
 - filename: wizehire-health-api-openapi.yml
   format: yaml
   label: WizeHire Health API
   slug: wizehire-health-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-health-api-openapi.yml
+  url: https://artifacts.apis.io/wizehire/openapi/wizehire-health-api-openapi.yml
 - filename: wizehire-interviews-api-openapi.yml
   format: yaml
   label: WizeHire Interviews API
   slug: wizehire-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/openapi/wizehire-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/wizehire/openapi/wizehire-interviews-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: wizehire-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: wizehire.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 24 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: scout.wizehire.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: wizehire.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wizehire/refs/heads/main/security/wizehire-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/wizehire/security/wizehire-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Hiring

@@ -5,19 +5,19 @@ api_specs:
   label: Forethought Conversations API
   slug: forethought-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/forethought/openapi/forethought-conversations-api-openapi.yml
 - filename: forethought-metadata-api-openapi.yml
   format: yaml
   label: Forethought Metadata API
   slug: forethought-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/forethought/openapi/forethought-metadata-api-openapi.yml
 - filename: forethought-predictions-api-openapi.yml
   format: yaml
   label: Forethought Predictions API
   slug: forethought-predictions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/openapi/forethought-predictions-api-openapi.yml
+  url: https://artifacts.apis.io/forethought/openapi/forethought-predictions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +57,7 @@ source_filename: forethought-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forethought.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 02:24:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: support.forethought.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  2 23:48:48 2026 GMT\n  hsts: false\n- host: app.forethought.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  6 05:32:41 2026 GMT\n  hsts: null\ndomains:\n- domain: forethought.ai\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/security/forethought-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/forethought/security/forethought-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence

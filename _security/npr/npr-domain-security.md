@@ -11,19 +11,19 @@ api_specs:
   label: NPR Authorization API
   slug: npr-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/npr/openapi/npr-authorization-api-openapi.yml
 - filename: npr-identity-api-openapi.yml
   format: yaml
   label: NPR Identity API
   slug: npr-identity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-identity-api-openapi.yml
+  url: https://artifacts.apis.io/npr/openapi/npr-identity-api-openapi.yml
 - filename: npr-stationfinder-api-openapi.yml
   format: yaml
   label: NPR Stationfinder API
   slug: npr-stationfinder-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/openapi/npr-stationfinder-api-openapi.yml
+  url: https://artifacts.apis.io/npr/openapi/npr-stationfinder-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: npr-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.npr.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 17 17:25:28 2026 GMT\n  hsts: false\n- host: dev.npr.org\n  https: false\n- host: listening.api.npr.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb  5 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: npr.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/npr/refs/heads/main/security/npr-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/npr/security/npr-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Media

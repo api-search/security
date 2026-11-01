@@ -23,7 +23,7 @@ source_filename: aimip-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: amp.tech\n  https: false\ndomains:\n- domain: amp.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aimip/refs/heads/main/security/aimip-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aimip/security/aimip-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

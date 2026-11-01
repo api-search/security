@@ -5,25 +5,25 @@ api_specs:
   label: Lucent Insights API
   slug: lucent-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-insights-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-insights-api-openapi.yml
 - filename: lucent-issues-api-openapi.yml
   format: yaml
   label: Lucent Issues API
   slug: lucent-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-issues-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-issues-api-openapi.yml
 - filename: lucent-sdk-api-openapi.yml
   format: yaml
   label: Lucent Sdk API
   slug: lucent-sdk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-sdk-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-sdk-api-openapi.yml
 - filename: lucent-signals-api-openapi.yml
   format: yaml
   label: Lucent Signals API
   slug: lucent-signals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/openapi/lucent-signals-api-openapi.yml
+  url: https://artifacts.apis.io/lucent/openapi/lucent-signals-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ source_filename: lucent-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lucenthq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 10:18:57 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.lucenthq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 12:34:07 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.lucenthq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 09:42:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: lucenthq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lucent/refs/heads/main/security/lucent-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lucent/security/lucent-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

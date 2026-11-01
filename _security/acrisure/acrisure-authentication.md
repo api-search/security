@@ -50,7 +50,7 @@ source_yaml: "generated: '2026-08-06'\nmethod: probed\nsource: https://api.acris
   \    tokenUrl: https://api.acrisure.com/oauth/token\n    refreshUrl: https://api.acrisure.com/oauth/token\n    scopes:\n      api://bc250bc0-7689-4f21-b164-72a6b57c273b/mcp_user: >-\n        Application scope for the Acrisure MCP server. Description not published by\n        Acrisure — the scope name is verbatim from scopes_supported.\n      offline_access: Standard OIDC scope permitting refresh-token issuance.\n  grant_types:\n  - authorization_code\n  - refresh_token\n  response_types:\n  - code\n  response_modes:\n  - query\n  token_endpoint_auth_methods:\n  - client_secret_post\n  - client_secret_basic\n  code_challenge_methods:\n  - S256\nprotected_resources:\n- url: https://api.acrisure.com/v1/mcp\n  kind: MCPServer\n  artifact: mcp/acrisure-mcp.yml\n  observed_status: 403\nnotes:\n- >-\n  The authorization and token endpoints are Acrisure-branded proxies on api.acrisure.com;\n  /oauth/authorize 302s to\n  login.microsoftonline.com/c2ec94c0-ebd0-4630-aef2-2dcf0eb68ebd, so the actual\n\
   \  authorization server is Microsoft Entra ID and the tenant is Acrisure's own.\n- >-\n  Client registration is not self-serve. There is no dynamic client registration endpoint\n  in the metadata and no public sign-up for API credentials, so a client_id must be issued\n  out of band by Acrisure.\n- >-\n  No OpenID Connect discovery document is served\n  (/.well-known/openid-configuration returns 404 on api.acrisure.com), so this is OAuth 2.0\n  authorization-server metadata only, not OIDC.\n- >-\n  No documentation page for authentication exists on any Acrisure host — this profile is\n  built entirely from machine-readable discovery metadata, not from prose docs.\nx-evidence:\n  fetched: '2026-08-06'\n  probes:\n  - url: https://api.acrisure.com/.well-known/oauth-authorization-server\n    http_status: 200\n    content_type: application/json\n    file: well-known/acrisure-oauth-authorization-server.json\n  - url: https://api.acrisure.com/oauth/authorize\n    http_status: 302\n    location:\
   \ https://login.microsoftonline.com/c2ec94c0-ebd0-4630-aef2-2dcf0eb68ebd/oauth2/v2.0/authorize\n  - url: https://api.acrisure.com/oauth/token\n    http_status: 405\n    note: Method Not Allowed on GET — the endpoint exists and accepts POST only.\n  - url: https://api.acrisure.com/.well-known/openid-configuration\n    http_status: 404\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/acrisure/refs/heads/main/authentication/acrisure-authentication.yml
+source_yaml_url: https://artifacts.apis.io/acrisure/authentication/acrisure-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Insurance
@@ -62,7 +62,7 @@ tags:
 - Risk Management
 - Cybersecurity
 - Mortgage
-- Surety Bonds
+- Surety
 - MCP
 - Authentication
 ---

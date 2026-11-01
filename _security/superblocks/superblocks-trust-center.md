@@ -5,13 +5,13 @@ api_specs:
   label: Superblocks Applications API
   slug: superblocks-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/openapi/superblocks-applications-api-openapi.yml
+  url: https://artifacts.apis.io/superblocks/openapi/superblocks-applications-api-openapi.yml
 - filename: superblocks-workflows-api-openapi.yml
   format: yaml
   label: Superblocks Workflows API
   slug: superblocks-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/openapi/superblocks-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/superblocks/openapi/superblocks-workflows-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2
@@ -29,7 +29,7 @@ source_filename: superblocks-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.superblocks.com/\nurl: https://trust.superblocks.com/\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://trust.superblocks.com/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/superblocks/refs/heads/main/security/superblocks-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/superblocks/security/superblocks-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Internal Tools

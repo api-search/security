@@ -7,31 +7,31 @@ api_specs:
   label: Smartsheet Columns API
   slug: smartsheet-columns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-columns-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-columns-api-openapi.yml
 - filename: smartsheet-reports-api-openapi.yml
   format: yaml
   label: Smartsheet Reports API
   slug: smartsheet-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-reports-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-reports-api-openapi.yml
 - filename: smartsheet-rows-api-openapi.yml
   format: yaml
   label: Smartsheet Rows API
   slug: smartsheet-rows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-rows-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-rows-api-openapi.yml
 - filename: smartsheet-sheets-api-openapi.yml
   format: yaml
   label: Smartsheet Sheets API
   slug: smartsheet-sheets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-sheets-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-sheets-api-openapi.yml
 - filename: smartsheet-webhooks-api-openapi.yml
   format: yaml
   label: Smartsheet Webhooks API
   slug: smartsheet-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/openapi/smartsheet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/smartsheet/openapi/smartsheet-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -70,7 +70,7 @@ source_filename: smartsheet-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/smartsheet-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: ApiToken\n  type: http\n  scheme: bearer\n  description: Smartsheet API access token sent in the Authorization header as a Bearer token.\n  sources:\n  - openapi/smartsheet-openapi.yml\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.smartsheet.com/b/authorize\n    tokenUrl: https://api.smartsheet.com/2.0/token\n    scopes: 10\n  description: Smartsheet OAuth 2.0 authorization.\n  sources:\n  - openapi/smartsheet-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smartsheet/refs/heads/main/authentication/smartsheet-authentication.yml
+source_yaml_url: https://artifacts.apis.io/smartsheet/authentication/smartsheet-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Work Management

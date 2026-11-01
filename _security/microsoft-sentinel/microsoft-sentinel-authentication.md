@@ -7,31 +7,31 @@ api_specs:
   label: Microsoft Sentinel Bookmarks API
   slug: microsoft-sentinel-bookmarks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-bookmarks-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sentinel/openapi/microsoft-sentinel-bookmarks-api-openapi.yml
 - filename: microsoft-sentinel-incidents-api-openapi.yml
   format: yaml
   label: Microsoft Sentinel Incidents API
   slug: microsoft-sentinel-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sentinel/openapi/microsoft-sentinel-incidents-api-openapi.yml
 - filename: microsoft-sentinel-alert-rules-api-openapi.yml
   format: yaml
   label: Microsoft Sentinel Alert Rules API
   slug: microsoft-sentinel-alert-rules-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-alert-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sentinel/openapi/microsoft-sentinel-alert-rules-api-openapi.yml
 - filename: microsoft-sentinel-data-connectors-api-openapi.yml
   format: yaml
   label: Microsoft Sentinel Data Connectors API
   slug: microsoft-sentinel-data-connectors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-data-connectors-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sentinel/openapi/microsoft-sentinel-data-connectors-api-openapi.yml
 - filename: microsoft-sentinel-threat-intelligence-api-openapi.yml
   format: yaml
   label: Microsoft Sentinel Threat Intelligence API
   slug: microsoft-sentinel-threat-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/openapi/microsoft-sentinel-threat-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-sentinel/openapi/microsoft-sentinel-threat-intelligence-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: microsoft-sentinel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-sentinel-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-sentinel-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/microsoft-sentinel/refs/heads/main/authentication/microsoft-sentinel-authentication.yml
+source_yaml_url: https://artifacts.apis.io/microsoft-sentinel/authentication/microsoft-sentinel-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Microsoft

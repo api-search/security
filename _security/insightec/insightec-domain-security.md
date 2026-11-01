@@ -27,7 +27,7 @@ source_filename: insightec-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: insightec.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 10:57:52 2026 GMT\n  hsts: null\ndomains:\n- domain: insightec.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/insightec/refs/heads/main/security/insightec-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/insightec/security/insightec-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -5,25 +5,25 @@ api_specs:
   label: US AbilityOne Commission Agencies API
   slug: us-abilityone-commission-agencies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/openapi/us-abilityone-commission-agencies-api-openapi.yml
+  url: https://artifacts.apis.io/us-abilityone-commission/openapi/us-abilityone-commission-agencies-api-openapi.yml
 - filename: us-abilityone-commission-products-api-openapi.yml
   format: yaml
   label: US AbilityOne Commission Products API
   slug: us-abilityone-commission-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/openapi/us-abilityone-commission-products-api-openapi.yml
+  url: https://artifacts.apis.io/us-abilityone-commission/openapi/us-abilityone-commission-products-api-openapi.yml
 - filename: us-abilityone-commission-reports-api-openapi.yml
   format: yaml
   label: US AbilityOne Commission Reports API
   slug: us-abilityone-commission-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/openapi/us-abilityone-commission-reports-api-openapi.yml
+  url: https://artifacts.apis.io/us-abilityone-commission/openapi/us-abilityone-commission-reports-api-openapi.yml
 - filename: us-abilityone-commission-services-api-openapi.yml
   format: yaml
   label: US AbilityOne Commission Services API
   slug: us-abilityone-commission-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/openapi/us-abilityone-commission-services-api-openapi.yml
+  url: https://artifacts.apis.io/us-abilityone-commission/openapi/us-abilityone-commission-services-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -59,7 +59,7 @@ source_filename: us-abilityone-commission-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.abilityone.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: plims.abilityone.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 30 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: abilityone.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/security/us-abilityone-commission-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/us-abilityone-commission/security/us-abilityone-commission-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

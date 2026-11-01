@@ -27,7 +27,7 @@ source_filename: lenz-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: lenz-tx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 05:04:19 2026 GMT\n  hsts: false\ndomains:\n- domain: lenz-tx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lenz-therapeutics/refs/heads/main/security/lenz-therapeutics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lenz-therapeutics/security/lenz-therapeutics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

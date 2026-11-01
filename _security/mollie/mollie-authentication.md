@@ -8,7 +8,7 @@ api_specs:
   label: Mollie API
   slug: mollie-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/openapi/mollie-openapi-original.yml
+  url: https://artifacts.apis.io/mollie/openapi/mollie-openapi-original.yml
 auth_types:
 - http
 - oauth2
@@ -91,7 +91,7 @@ source_yaml: "generated: '2026-08-01'\nmethod: searched\nsource: openapi/mollie-
   \  description: >-\n    Authenticates API requests with configurable permissions. Can access\n    organization-level resources and optionally scope to a specific payment profile.\n    Intended for advanced integrations such as bookkeeping or reporting tools that need\n    fine-grained control. Shown only once at creation. Supports the testmode request\n    parameter instead of a separate test key.\n  token_prefixes: [access_]\n- name: oAuth\n  type: oauth2\n  sources: [openapi/mollie-openapi-original.yml, https://my.mollie.com/.well-known/oauth-authorization-server]\n  description: >-\n    Mollie Connect. OAuth 2.0 authorization code flow used by platforms and marketplaces\n    to act on behalf of linked merchant organizations.\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://my.mollie.com/oauth2/authorize\n    tokenUrl: https://api.mollie.com/oauth2/tokens\n    scope_count: 60\n    scopes_artifact: scopes/mollie-scopes.yml\n  metadata:\n    issuer: https://my.mollie.com\n\
   \    registration_endpoint: https://api.mollie.com/oauth2/register\n    revocation_endpoint: https://api.mollie.com/oauth2/tokens\n    service_documentation: https://docs.mollie.com/reference/oauth2\n    grant_types_supported: [authorization_code, refresh_token]\n    response_types_supported: [code]\n    code_challenge_methods_supported: [S256]\n    token_endpoint_auth_methods_supported: [client_secret_post, none]\n    dynamic_client_registration: true\n- name: basicAuth\n  type: http\n  scheme: basic\n  in: header\n  parameter: Authorization\n  sources: [openapi/mollie-openapi-original.yml]\n  description: >-\n    HTTP Basic Authentication, encoded as \"Basic \" + toBase64(username + \":\" + password).\n    Used on the OAuth token endpoints for confidential clients.\nrequest_signing:\n  present: true\n  scope: Business Account Transfers API (create-transfer)\n  headers: [X-Client-Signature, X-Client-Signed-At]\n  note: >-\n    Transfers from a Mollie Business Account must additionally\
   \ be signed, on top of the\n    bearer advanced access token, and must carry an Idempotency-Key header.\nmcp:\n  url: https://mcp.mollie.com/mcp\n  scheme: bearer\n  minimum_scope: profile.read\n  protected_resource_metadata: https://mcp.mollie.com/.well-known/oauth-protected-resource\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mollie/refs/heads/main/authentication/mollie-authentication.yml
+source_yaml_url: https://artifacts.apis.io/mollie/authentication/mollie-authentication.yml
 summary_line: http/oauth2 · 4 schemes
 tags:
 - Company

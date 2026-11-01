@@ -7,19 +7,19 @@ api_specs:
   label: Google Anthos BareMetalClusters API
   slug: google-anthos-baremetalclusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/google-anthos-baremetalclusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-anthos/openapi/google-anthos-baremetalclusters-api-openapi.yml
 - filename: google-anthos-vmwareclusters-api-openapi.yml
   format: yaml
   label: Google Anthos VmwareClusters API
   slug: google-anthos-vmwareclusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/google-anthos-vmwareclusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-anthos/openapi/google-anthos-vmwareclusters-api-openapi.yml
 - filename: google-anthos-vmwarenodepools-api-openapi.yml
   format: yaml
   label: Google Anthos VmwareNodePools API
   slug: google-anthos-vmwarenodepools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/openapi/google-anthos-vmwarenodepools-api-openapi.yml
+  url: https://artifacts.apis.io/google-anthos/openapi/google-anthos-vmwarenodepools-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-anthos-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gke-on-prem-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/gke-on-prem-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-anthos/refs/heads/main/authentication/google-anthos-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-anthos/authentication/google-anthos-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Container Platform

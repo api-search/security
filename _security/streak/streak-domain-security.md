@@ -5,43 +5,43 @@ api_specs:
   label: Streak Boxes API
   slug: streak-boxes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-boxes-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-boxes-api-openapi.yml
 - filename: streak-fields-api-openapi.yml
   format: yaml
   label: Streak Fields API
   slug: streak-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-fields-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-fields-api-openapi.yml
 - filename: streak-pipelines-api-openapi.yml
   format: yaml
   label: Streak Pipelines API
   slug: streak-pipelines-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-pipelines-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-pipelines-api-openapi.yml
 - filename: streak-stages-api-openapi.yml
   format: yaml
   label: Streak Stages API
   slug: streak-stages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-stages-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-stages-api-openapi.yml
 - filename: streak-users-api-openapi.yml
   format: yaml
   label: Streak Users API
   slug: streak-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-users-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-users-api-openapi.yml
 - filename: streak-webhooks-api-openapi.yml
   format: yaml
   label: Streak Webhooks API
   slug: streak-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-webhooks-api-openapi.yml
 - filename: streak-news-feed-api-openapi.yml
   format: yaml
   label: Streak News Feed API
   slug: streak-news-feed-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/openapi/streak-news-feed-api-openapi.yml
+  url: https://artifacts.apis.io/streak/openapi/streak-news-feed-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -86,7 +86,7 @@ source_filename: streak-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.streak.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 17:50:42 2026 GMT\n  hsts: false\n- host: streak.readme.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 13:12:37 2026 GMT\n  hsts: null\n- host: api.streak.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 15:44:14 2026 GMT\n  hsts: false\ndomains:\n- domain: streak.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: readme.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streak/refs/heads/main/security/streak-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/streak/security/streak-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - CRM

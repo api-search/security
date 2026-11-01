@@ -5,37 +5,37 @@ api_specs:
   label: Corridor Dashboard API
   slug: corridor-dashboard-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-dashboard-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-dashboard-api-openapi.yml
 - filename: corridor-findings-api-openapi.yml
   format: yaml
   label: Corridor Findings API
   slug: corridor-findings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-findings-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-findings-api-openapi.yml
 - filename: corridor-guardrails-api-openapi.yml
   format: yaml
   label: Corridor Guardrails API
   slug: corridor-guardrails-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-guardrails-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-guardrails-api-openapi.yml
 - filename: corridor-pr-reviews-api-openapi.yml
   format: yaml
   label: Corridor PR Reviews API
   slug: corridor-pr-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-pr-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-pr-reviews-api-openapi.yml
 - filename: corridor-projects-api-openapi.yml
   format: yaml
   label: Corridor Projects API
   slug: corridor-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-projects-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-projects-api-openapi.yml
 - filename: corridor-teams-api-openapi.yml
   format: yaml
   label: Corridor Teams API
   slug: corridor-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/openapi/corridor-teams-api-openapi.yml
+  url: https://artifacts.apis.io/corridor/openapi/corridor-teams-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -77,7 +77,7 @@ source_filename: corridor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: corridor.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 16 01:09:25 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.corridor.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 07:40:21 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: app.corridor.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: corridor.dev\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/corridor/refs/heads/main/security/corridor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/corridor/security/corridor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

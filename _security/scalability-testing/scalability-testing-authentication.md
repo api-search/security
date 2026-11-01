@@ -8,7 +8,7 @@ api_specs:
   label: Scalability Testing Projects API
   slug: scalability-testing-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/scalability-testing/refs/heads/main/openapi/scalability-testing-projects-api-openapi.yml
+  url: https://artifacts.apis.io/scalability-testing/openapi/scalability-testing-projects-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -42,7 +42,7 @@ source_filename: scalability-testing-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/scalability-testing-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: GrafanaToken\n  sources:\n  - openapi/scalability-testing-openapi.yml\n- name: StackId\n  type: apiKey\n  in: header\n  parameter: X-Stack-Id\n  sources:\n  - openapi/scalability-testing-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/scalability-testing/refs/heads/main/authentication/scalability-testing-authentication.yml
+source_yaml_url: https://artifacts.apis.io/scalability-testing/authentication/scalability-testing-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - API Testing

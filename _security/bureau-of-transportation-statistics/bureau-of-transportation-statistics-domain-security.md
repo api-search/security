@@ -5,61 +5,61 @@ api_specs:
   label: Bureau of Transportation Statistics Metadata API
   slug: bureau-of-transportation-statistics-metadata-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-metadata-api-openapi.yml
 - filename: bureau-of-transportation-statistics-resource-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Resource API
   slug: bureau-of-transportation-statistics-resource-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-resource-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-resource-api-openapi.yml
 - filename: bureau-of-transportation-statistics-catalog-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Catalog API
   slug: bureau-of-transportation-statistics-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-catalog-api-openapi.yml
 - filename: bureau-of-transportation-statistics-collection-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Collection API
   slug: bureau-of-transportation-statistics-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-collection-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-collection-api-openapi.yml
 - filename: bureau-of-transportation-statistics-geoservice-beta-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Geoservice Beta API
   slug: bureau-of-transportation-statistics-geoservice-beta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-geoservice-beta-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-geoservice-beta-api-openapi.yml
 - filename: bureau-of-transportation-statistics-ogcitem-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Ogc Item API
   slug: bureau-of-transportation-statistics-ogcitem-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcitem-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-ogcitem-api-openapi.yml
 - filename: bureau-of-transportation-statistics-ogcitemaggregation-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Ogc Item Aggregation API
   slug: bureau-of-transportation-statistics-ogcitemaggregation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcitemaggregation-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-ogcitemaggregation-api-openapi.yml
 - filename: bureau-of-transportation-statistics-ogcroot-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Ogc Root API
   slug: bureau-of-transportation-statistics-ogcroot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcroot-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-ogcroot-api-openapi.yml
 - filename: bureau-of-transportation-statistics-ogcrootconformance-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Ogc Root Conformance API
   slug: bureau-of-transportation-statistics-ogcrootconformance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-ogcrootconformance-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-ogcrootconformance-api-openapi.yml
 - filename: bureau-of-transportation-statistics-queryable-api-openapi.yml
   format: yaml
   label: Bureau of Transportation Statistics Queryable API
   slug: bureau-of-transportation-statistics-queryable-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/openapi/bureau-of-transportation-statistics-queryable-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-transportation-statistics/openapi/bureau-of-transportation-statistics-queryable-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -106,7 +106,7 @@ source_filename: bureau-of-transportation-statistics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-05'\nmethod: probed\nsource: >-\n  live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts (probe-domain-security.py,\n  2026-09-05). The geodata.bts.gov row was probed by hand in the same pass — the script\n  did not enumerate it — via openssl s_client and a HEAD request, same method, same day.\nhosts:\n- host: www.bts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: null\n- host: data.bts.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 15 18:23:49 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.transtats.bts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 15 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: geodata.bts.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 30 11:24:34 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: bts.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/security/bureau-of-transportation-statistics-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-transportation-statistics/security/bureau-of-transportation-statistics-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Federal Government

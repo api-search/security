@@ -8,13 +8,13 @@ api_specs:
   label: Windy Point Forecast API
   slug: windy-point-forecast-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-point-forecast-api-openapi.yml
+  url: https://artifacts.apis.io/windy/openapi/windy-point-forecast-api-openapi.yml
 - filename: windy-webcams-api-openapi.yml
   format: yaml
   label: Windy Webcams API
   slug: windy-webcams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/openapi/windy-webcams-api-openapi.yml
+  url: https://artifacts.apis.io/windy/openapi/windy-webcams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: windy-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/windy-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: WindyApiKey\n  type: apiKey\n  in: header\n  parameter: x-windy-api-key\n  description: Windy Webcams API key, obtained at https://api.windy.com/keys.\n  sources:\n  - openapi/windy-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/windy/refs/heads/main/authentication/windy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/windy/authentication/windy-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Weather

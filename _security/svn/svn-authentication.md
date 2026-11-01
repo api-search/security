@@ -7,25 +7,25 @@ api_specs:
   label: Subversion Commits API
   slug: svn-commits-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/openapi/svn-commits-api-openapi.yml
+  url: https://artifacts.apis.io/svn/openapi/svn-commits-api-openapi.yml
 - filename: svn-files-api-openapi.yml
   format: yaml
   label: Subversion Files API
   slug: svn-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/openapi/svn-files-api-openapi.yml
+  url: https://artifacts.apis.io/svn/openapi/svn-files-api-openapi.yml
 - filename: svn-history-api-openapi.yml
   format: yaml
   label: Subversion History API
   slug: svn-history-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/openapi/svn-history-api-openapi.yml
+  url: https://artifacts.apis.io/svn/openapi/svn-history-api-openapi.yml
 - filename: svn-repository-api-openapi.yml
   format: yaml
   label: Subversion Repository API
   slug: svn-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/openapi/svn-repository-api-openapi.yml
+  url: https://artifacts.apis.io/svn/openapi/svn-repository-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: svn-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/svn-webdav-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication for SVN repository access\n  sources:\n  - openapi/svn-webdav-openapi.yml\n- name: digestAuth\n  type: http\n  scheme: digest\n  description: HTTP Digest authentication for SVN repository access\n  sources:\n  - openapi/svn-webdav-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/svn/refs/heads/main/authentication/svn-authentication.yml
+source_yaml_url: https://artifacts.apis.io/svn/authentication/svn-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - Apache

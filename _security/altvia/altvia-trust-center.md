@@ -37,7 +37,7 @@ source_yaml: 'name: Altvia trust center
   note: Rendered trust center (JS); reports gated behind "Request access".
 
   '
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/altvia/refs/heads/main/security/altvia-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/altvia/security/altvia-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company

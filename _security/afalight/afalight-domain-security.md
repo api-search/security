@@ -31,7 +31,7 @@ source_filename: afalight-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts (no API baseURL or OpenAPI servers[] host exists)\nnote: >-\n  The automated probe (0-working/probe-domain-security.py) first recorded https: false for\n  www.afalight.com; that was a false negative caused by repeated connection timeouts against\n  this origin, which is slow and intermittent from a US vantage point. A direct HEAD confirmed\n  HTTP/2 200 over TLS with a Strict-Transport-Security header, so the corrected values below\n  are the observed ones.\nhosts:\n- host: www.afalight.com\n  https: true\n  http_version: h2\n  server: nginx\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: false\n  hsts_preload: false\n  observed: '2026-09-12'\ndomains:\n- domain: afalight.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/afalight/refs/heads/main/security/afalight-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/afalight/security/afalight-domain-security.yml
 summary_line: HSTS · DMARC
 tags:
 - Company

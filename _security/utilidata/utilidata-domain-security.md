@@ -39,7 +39,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: utilidata.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 08:03:16 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.utilidata.com\n  https: false\n  tls_version: TLSv1.3\n  cert_subject: CN=developer.utilidata.com\n  cert_issuer: 'C=US, O=Let''s Encrypt, CN=R12'\n  cert_not_before: Apr  8 09:08:40 2026 GMT\n  cert_expires: Jul  7 09:08:39 2026 GMT\n  cert_expired: true\n  hsts: null\n  x-finding: >-\n    EXPIRED CERTIFICATE. The Karman developer host has been serving an expired Let's\n    Encrypt certificate since 2026-07-07 — every browser, crawler and agent gets a TLS\n    error rather than the site. Probed manually on 2026-08-05 (curl exit 60); the host is\n    not listed in apis.yml because it is unreachable, so the automated probe does not\n    cover it.\ndomains:\n- domain: utilidata.com\n  dnssec: false\n  caa: []\n\
   \  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/utilidata/refs/heads/main/security/utilidata-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/utilidata/security/utilidata-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

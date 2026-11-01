@@ -8,7 +8,7 @@ api_specs:
   label: CashFlo Ingest API
   slug: cashflo-ingest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/openapi/cashflo-ingest-api-openapi.yml
+  url: https://artifacts.apis.io/cashflo/openapi/cashflo-ingest-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: cashflo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: derived\nsource: openapi/cashflo-data-ingestion-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: jwt\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: JWT authorization header\n  sources:\n  - openapi/cashflo-data-ingestion-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/authentication/cashflo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cashflo/authentication/cashflo-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

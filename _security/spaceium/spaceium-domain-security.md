@@ -27,7 +27,7 @@ source_filename: spaceium-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spaceium.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 21:49:23 2026 GMT\n  hsts: false\ndomains:\n- domain: spaceium.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spaceium/refs/heads/main/security/spaceium-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spaceium/security/spaceium-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

@@ -24,7 +24,7 @@ source_filename: bgogo-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bgogo.com\n  https: false\ndomains:\n- domain: bgogo.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bgogo/refs/heads/main/security/bgogo-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bgogo/security/bgogo-domain-security.yml
 summary_line: DMARC
 tags:
 - Company

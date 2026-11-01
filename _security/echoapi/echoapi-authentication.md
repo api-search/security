@@ -7,7 +7,7 @@ api_specs:
   label: EchoAPI Anything API
   slug: echoapi-anything-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/echoapi/refs/heads/main/openapi/echoapi-anything-api-openapi.yml
+  url: https://artifacts.apis.io/echoapi/openapi/echoapi-anything-api-openapi.yml
 auth_types: []
 description: Authentication methods as published on the page.
 kind: authentication
@@ -34,13 +34,13 @@ source_filename: echoapi-authentication.yml
 source_heading: Authentication Profile
 source_url: https://www.echoapi.com/wiki/docs/oauth2
 source_yaml: "generated: '2026-10-16'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://www.echoapi.com/wiki/docs/oauth2\nsources:\n- https://www.echoapi.com/wiki/docs/oauth2\ndescription: Authentication methods as published on the page.\nschemes:\n- type: oauth2\n  name: OAuth 2.0\n  evidence: EchoAPI supports OAuth 2.0 authentication starting from version 2.0.13.\n  flows:\n  - authorization_code\n  authorize_url: https://github.com/login/oauth/authorize\n  how_to_obtain: Create a GitHub OAuth Application, obtain the Client ID and Client Secret, then use EchoAPI's Get Token button to retrieve an\n    access token.\ndocs: https://www.echoapi.com/wiki/docs/oauth2\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/echoapi/refs/heads/main/authentication/echoapi-authentication.yml
+source_yaml_url: https://artifacts.apis.io/echoapi/authentication/echoapi-authentication.yml
 summary_line: 1 scheme
 tags:
 - Company
 - API Platform
 - Integration
 - Developer Tools
-- AI-powered
+- AI-Powered
 - Documentation
 ---

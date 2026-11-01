@@ -5,25 +5,25 @@ api_specs:
   label: Lemma Artifacts API
   slug: uselemma-artifacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-artifacts-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-artifacts-api-openapi.yml
 - filename: uselemma-issues-api-openapi.yml
   format: yaml
   label: Lemma Issues API
   slug: uselemma-issues-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-issues-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-issues-api-openapi.yml
 - filename: uselemma-projects-api-openapi.yml
   format: yaml
   label: Lemma Projects API
   slug: uselemma-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-projects-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-projects-api-openapi.yml
 - filename: uselemma-traces-api-openapi.yml
   format: yaml
   label: Lemma Traces API
   slug: uselemma-traces-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/openapi/uselemma-traces-api-openapi.yml
+  url: https://artifacts.apis.io/uselemma/openapi/uselemma-traces-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
@@ -39,7 +39,7 @@ source_filename: uselemma-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nprobe: true\nurl: https://trust.uselemma.ai/\ncertifications: []\nevidence:\n  - source: https://www.uselemma.ai/\n    kind: site-navigation\n    notes: Homepage footer and nav link \"Trust Center\" -> https://trust.uselemma.ai/\n  - source: https://trust.uselemma.ai/\n    kind: live-page\n    notes: 'HTTP 200; page <title> is \"Trust center\"'\nnotes: >-\n  Lemma publishes a dedicated trust center at trust.uselemma.ai (verified live,\n  titled \"Trust center\", linked from the marketing site). The page is a\n  client-rendered JavaScript app, so named certifications (SOC 2, ISO 27001,\n  etc.) could not be extracted without a browser — certifications is left\n  empty rather than guessed, and no Compliance pointer is emitted until a\n  named certification is verified.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/uselemma/refs/heads/main/security/uselemma-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/uselemma/security/uselemma-trust-center.yml
 summary_line: trust center published
 tags:
 - Company

@@ -5,37 +5,37 @@ api_specs:
   label: Respond.io Comments API
   slug: respond-comments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-comments-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-comments-api-openapi.yml
 - filename: respond-contacts-api-openapi.yml
   format: yaml
   label: Respond.io Contacts API
   slug: respond-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-contacts-api-openapi.yml
 - filename: respond-conversations-api-openapi.yml
   format: yaml
   label: Respond.io Conversations API
   slug: respond-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-conversations-api-openapi.yml
 - filename: respond-custom-fields-api-openapi.yml
   format: yaml
   label: Respond.io Custom Fields API
   slug: respond-custom-fields-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-custom-fields-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-custom-fields-api-openapi.yml
 - filename: respond-messages-api-openapi.yml
   format: yaml
   label: Respond.io Messages API
   slug: respond-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-messages-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-messages-api-openapi.yml
 - filename: respond-tags-api-openapi.yml
   format: yaml
   label: Respond.io Tags API
   slug: respond-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/openapi/respond-tags-api-openapi.yml
+  url: https://artifacts.apis.io/respond/openapi/respond-tags-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +81,7 @@ source_filename: respond-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: respond.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 19:09:53 2026 GMT\n  hsts: false\n- host: developers.respond.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 18:31:07 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.respond.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: respond.io\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/security/respond-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/respond/security/respond-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Messaging

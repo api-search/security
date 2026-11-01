@@ -5,43 +5,43 @@ api_specs:
   label: APITube News API
   slug: apitube-news-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitube/refs/heads/main/openapi/apitube-news-api-openapi.yml
+  url: https://artifacts.apis.io/apitube/openapi/apitube-news-api-openapi.yml
 - filename: apitube-account-api-openapi.yml
   format: yaml
   label: APITube Account API
   slug: apitube-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitube/refs/heads/main/openapi/apitube-account-api-openapi.yml
+  url: https://artifacts.apis.io/apitube/openapi/apitube-account-api-openapi.yml
 - filename: apitube-fact-check-api-openapi.yml
   format: yaml
   label: APITube Fact Check API
   slug: apitube-fact-check-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitube/refs/heads/main/openapi/apitube-fact-check-api-openapi.yml
+  url: https://artifacts.apis.io/apitube/openapi/apitube-fact-check-api-openapi.yml
 - filename: apitube-reference-api-openapi.yml
   format: yaml
   label: APITube Reference API
   slug: apitube-reference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitube/refs/heads/main/openapi/apitube-reference-api-openapi.yml
+  url: https://artifacts.apis.io/apitube/openapi/apitube-reference-api-openapi.yml
 - filename: apitube-suggest-api-openapi.yml
   format: yaml
   label: APITube Suggest API
   slug: apitube-suggest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitube/refs/heads/main/openapi/apitube-suggest-api-openapi.yml
+  url: https://artifacts.apis.io/apitube/openapi/apitube-suggest-api-openapi.yml
 - filename: apitube-system-api-openapi.yml
   format: yaml
   label: APITube System API
   slug: apitube-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitube/refs/heads/main/openapi/apitube-system-api-openapi.yml
+  url: https://artifacts.apis.io/apitube/openapi/apitube-system-api-openapi.yml
 - filename: apitube-utilities-api-openapi.yml
   format: yaml
   label: APITube Utilities API
   slug: apitube-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apitube/refs/heads/main/openapi/apitube-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/apitube/openapi/apitube-utilities-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -80,7 +80,7 @@ source_filename: apitube-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-03'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: apitube.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 09:01:08 2026 GMT\n  hsts: false\n- host: docs.apitube.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 09:01:08 2026 GMT\n  hsts: false\n- host: api.apitube.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 09:01:08 2026 GMT\n  hsts: null\ndomains:\n- domain: apitube.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apitube/refs/heads/main/security/apitube-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apitube/security/apitube-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - News

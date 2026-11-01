@@ -5,19 +5,19 @@ api_specs:
   label: ALS Preference API
   slug: als-global-preference-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/als-global/refs/heads/main/openapi/als-global-preference-api-openapi.yml
+  url: https://artifacts.apis.io/als-global/openapi/als-global-preference-api-openapi.yml
 - filename: als-global-sample-api-openapi.yml
   format: yaml
   label: ALS Sample API
   slug: als-global-sample-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/als-global/refs/heads/main/openapi/als-global-sample-api-openapi.yml
+  url: https://artifacts.apis.io/als-global/openapi/als-global-sample-api-openapi.yml
 - filename: als-global-search-api-openapi.yml
   format: yaml
   label: ALS Search API
   slug: als-global-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/als-global/refs/heads/main/openapi/als-global-search-api-openapi.yml
+  url: https://artifacts.apis.io/als-global/openapi/als-global-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,7 +47,7 @@ source_filename: als-global-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: alsglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 28 19:42:29 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: alsglobal.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/als-global/refs/heads/main/security/als-global-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/als-global/security/als-global-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

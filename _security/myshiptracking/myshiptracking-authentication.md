@@ -7,19 +7,19 @@ api_specs:
   label: MyShipTracking Account API
   slug: myshiptracking-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-account-api-openapi.yml
+  url: https://artifacts.apis.io/myshiptracking/openapi/myshiptracking-account-api-openapi.yml
 - filename: myshiptracking-ports-api-openapi.yml
   format: yaml
   label: MyShipTracking Ports API
   slug: myshiptracking-ports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-ports-api-openapi.yml
+  url: https://artifacts.apis.io/myshiptracking/openapi/myshiptracking-ports-api-openapi.yml
 - filename: myshiptracking-vessels-api-openapi.yml
   format: yaml
   label: MyShipTracking Vessels API
   slug: myshiptracking-vessels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/openapi/myshiptracking-vessels-api-openapi.yml
+  url: https://artifacts.apis.io/myshiptracking/openapi/myshiptracking-vessels-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -57,7 +57,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: documented\nsource: https://api.myshiptracking.com/ (Getting Started + per-endpoint docs)\nsummary:\n  types:\n  - apiKey\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: >-\n    API key issued from your MyShipTracking account page, passed as\n    `Authorization: Bearer [example key]`. Register a free account at\n    MyShipTracking.com, then generate your API Key and Secret Key on the account\n    page. Each user may hold one trial key (2,000 coins, 10 days).\n  in: header\n  sources:\n  - https://api.myshiptracking.com/\n  - https://api.myshiptracking.com/docs/account-info\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  name: x-api-key\n  description: >-\n    The same API key may instead be passed in the `x-api-key` request header.\n    Either Bearer or x-api-key is accepted on every endpoint.\n  sources:\n  - https://api.myshiptracking.com/\n  - https://api.myshiptracking.com/docs/vessel-current-position-api\n\
   notes: >-\n  Authentication is required on every call. Missing keys return ERR_NO_KEY (401)\n  and invalid keys return ERR_INVALID_KEY (401). Keys can be regenerated from the\n  account page. The Secret Key is issued alongside the API Key at registration.\nmaintainers:\n- FN: Kin Lane\n  email: kin@apievangelist.com\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/myshiptracking/refs/heads/main/authentication/myshiptracking-authentication.yml
+source_yaml_url: https://artifacts.apis.io/myshiptracking/authentication/myshiptracking-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Vessel Tracking

@@ -16,7 +16,7 @@ source_filename: heabsy-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: searched\nprobe: true\nsource: https://heabsy.com/compliance\nurl: https://heabsy.com/compliance\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://heabsy.com/compliance\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/heabsy/refs/heads/main/security/heabsy-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/heabsy/security/heabsy-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Artificial Intelligence

@@ -33,7 +33,7 @@ source_filename: careport-health-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: careporthealth.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 01:24:39 2026 GMT\n  hsts: false\ndomains:\n- domain: careporthealth.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"auth0.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"auth0.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/careport-health/refs/heads/main/security/careport-health-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/careport-health/security/careport-health-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

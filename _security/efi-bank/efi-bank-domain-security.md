@@ -5,43 +5,43 @@ api_specs:
   label: Efí Authorization API
   slug: efi-bank-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-authorization-api-openapi.yml
 - filename: efi-bank-carn-api-openapi.yml
   format: yaml
   label: Efí Carnê API
   slug: efi-bank-carn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-carn-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-carn-api-openapi.yml
 - filename: efi-bank-cobran-as-api-openapi.yml
   format: yaml
   label: Efí Cobranças API
   slug: efi-bank-cobran-as-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-cobran-as-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-cobran-as-api-openapi.yml
 - filename: efi-bank-open-finance-api-openapi.yml
   format: yaml
   label: Efí Open Finance API
   slug: efi-bank-open-finance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-open-finance-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-open-finance-api-openapi.yml
 - filename: efi-bank-pix-charges-api-openapi.yml
   format: yaml
   label: Efí Pix Charges API
   slug: efi-bank-pix-charges-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-charges-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-pix-charges-api-openapi.yml
 - filename: efi-bank-pix-payments-api-openapi.yml
   format: yaml
   label: Efí Pix Payments API
   slug: efi-bank-pix-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-payments-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-pix-payments-api-openapi.yml
 - filename: efi-bank-pix-webhooks-api-openapi.yml
   format: yaml
   label: Efí Pix Webhooks API
   slug: efi-bank-pix-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/openapi/efi-bank-pix-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/efi-bank/openapi/efi-bank-pix-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -115,7 +115,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sejaefi.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Google Trust Services (WE1)\n  cert_expires: Aug 14 11:15:13 2026 GMT\n  hsts: false\n  http_status: 200\n- host: dev.efipay.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: Google Trust Services (WE1)\n  cert_expires: Aug 17 12:21:14 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_preload: true\n  http_status: 200\n- host: pix.api.efipay.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: GlobalSign RSA OV SSL CA 2018\n  cert_expires: Dec  6 17:16:54 2026 GMT\n  hsts: false\n  mtls_required: true\n  note: Mutual TLS client certificate required; plain HTTPS request without a client cert does not return a normal HTTP response.\n- host: cobrancas.api.efipay.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: GlobalSign RSA OV SSL CA 2018\n  cert_expires:\
   \ Dec  6 17:16:54 2026 GMT\n  hsts: false\n  mtls_required: false\n  http_status: 404\n  note: Root path returns 404; the API is served under versioned paths (e.g. /v1/authorize).\n- host: openfinance.api.efipay.com.br\n  https: true\n  tls_version: TLSv1.3\n  cert_issuer: GlobalSign RSA OV SSL CA 2018\n  cert_expires: Dec  6 17:16:54 2026 GMT\n  hsts: false\n  mtls_required: true\n  note: Mutual TLS client certificate required on every request.\ndomains:\n- domain: sejaefi.com.br\n  dnssec: true\n  caa: []\n  spf: true\n  spf_record: v=spf1 include:spf.protection.outlook.com include:_spf.salesforce.com -all\n  dmarc: true\n  dmarc_policy: reject\n- domain: efipay.com.br\n  dnssec: false\n  caa: []\n  spf: true\n  spf_record: v=spf1 -all\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/security/efi-bank-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/efi-bank/security/efi-bank-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments

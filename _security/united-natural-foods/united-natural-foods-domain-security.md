@@ -5,25 +5,25 @@ api_specs:
   label: United Natural Foods (UNFI) Insights API
   slug: united-natural-foods-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-insights-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-insights-api-openapi.yml
 - filename: united-natural-foods-orders-api-openapi.yml
   format: yaml
   label: United Natural Foods (UNFI) Orders API
   slug: united-natural-foods-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-orders-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-orders-api-openapi.yml
 - filename: united-natural-foods-products-api-openapi.yml
   format: yaml
   label: United Natural Foods (UNFI) Products API
   slug: united-natural-foods-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-products-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-products-api-openapi.yml
 - filename: united-natural-foods-suppliers-api-openapi.yml
   format: yaml
   label: United Natural Foods (UNFI) Suppliers API
   slug: united-natural-foods-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/openapi/united-natural-foods-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/united-natural-foods/openapi/united-natural-foods-suppliers-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: united-natural-foods-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: suppliers.unfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  9 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.unfi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: unfi.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/united-natural-foods/refs/heads/main/security/united-natural-foods-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/united-natural-foods/security/united-natural-foods-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Food Distribution

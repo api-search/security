@@ -9,31 +9,31 @@ api_specs:
   label: CloudHealth AWS Accounts API
   slug: cloudhealth-aws-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-aws-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-aws-accounts-api-openapi.yml
 - filename: cloudhealth-perspectives-api-openapi.yml
   format: yaml
   label: CloudHealth Perspectives API
   slug: cloudhealth-perspectives-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-perspectives-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-perspectives-api-openapi.yml
 - filename: cloudhealth-reports-api-openapi.yml
   format: yaml
   label: CloudHealth Reports API
   slug: cloudhealth-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-reports-api-openapi.yml
 - filename: cloudhealth-search-api-openapi.yml
   format: yaml
   label: CloudHealth Search API
   slug: cloudhealth-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-search-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-search-api-openapi.yml
 - filename: cloudhealth-sso-api-openapi.yml
   format: yaml
   label: CloudHealth SSO API
   slug: cloudhealth-sso-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/openapi/cloudhealth-sso-api-openapi.yml
+  url: https://artifacts.apis.io/cloudhealth/openapi/cloudhealth-sso-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -124,7 +124,7 @@ source_yaml: "generated: '2026-09-16'\nmethod: searched\nsource: https://apidocs
   \ query parameter.\n    evidence: https://apidocs.cloudhealthtech.com/#documentation_how-to-use-the-cloudhealth-api\n  - name: graphqlAccessToken\n    surface: GraphQL API (https://apps.cloudhealthtech.com/graphql)\n    type: http\n    scheme: bearer\n    description: >-\n      Exchange the API key for a token pair with the loginAPI(apiKey) mutation (no auth required),\n      then send \"Authorization: Bearer <accessToken>\". Access tokens are valid for 15 minutes; the\n      refresh token (refresh(token) mutation) is valid for 9 hours. loginCspService / loginCspUser\n      exchange VMware Cloud Services Platform tokens. FlexOrg sub-organizations require their own\n      token.\n    token_lifetimes:\n      access_token: 15 minutes\n      refresh_token: 9 hours\n    token_exchange_operations: [loginAPI, login, refresh, loginCspService, loginCspUser]\n    evidence:\n      - https://help.cloudhealthtech.com/graphql-api/#authentication\n      - graphql/cloudhealth-graphql-public-schema.graphql\n\
   \  - name: mcpOAuth\n    surface: MCP server (https://apps.cloudhealthtech.com/mcp)\n    type: oauth2\n    description: >-\n      The MCP endpoint answers unauthenticated requests with 401 and\n      WWW-Authenticate: Bearer resource_metadata=\"https://apps.cloudhealthtech.com/.well-known/oauth-protected-resource\"\n      (RFC 9728). The authorization server publishes RFC 8414 metadata with PKCE (S256), dynamic\n      client registration and client ID metadata documents.\n    issuer: https://apps.cloudhealthtech.com\n    authorizationUrl: https://apps.cloudhealthtech.com/oauth2/authorize\n    tokenUrl: https://apps.cloudhealthtech.com/oauth2/token\n    revocationUrl: https://apps.cloudhealthtech.com/oauth2/revoke\n    registrationUrl: https://apps.cloudhealthtech.com/oauth2/register\n    jwks_uri: https://apps.cloudhealthtech.com/oauth2/jwks\n    flows: [authorizationCode, clientCredentials, refreshToken]\n    pkce: [S256]\n    token_endpoint_auth_methods: [client_secret_basic, client_secret_post,\
   \ none]\n    scope_count: 4\n    scopes_ref: scopes/cloudhealth-scopes.yml\n    evidence:\n      - well-known/cloudhealth-oauth-authorization-server.json\n      - well-known/cloudhealth-oauth-protected-resource.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/authentication/cloudhealth-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudhealth/authentication/cloudhealth-authentication.yml
 summary_line: http/apiKey/oauth2 · 4 schemes
 tags:
 - Cloud Cost

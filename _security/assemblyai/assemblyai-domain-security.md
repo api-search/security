@@ -5,19 +5,19 @@ api_specs:
   label: AssemblyAI LeMUR API
   slug: assemblyai-lemur-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-lemur-api-openapi.yml
+  url: https://artifacts.apis.io/assemblyai/openapi/assemblyai-lemur-api-openapi.yml
 - filename: assemblyai-streaming-api-openapi.yml
   format: yaml
   label: AssemblyAI Streaming API
   slug: assemblyai-streaming-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-streaming-api-openapi.yml
+  url: https://artifacts.apis.io/assemblyai/openapi/assemblyai-streaming-api-openapi.yml
 - filename: assemblyai-transcript-api-openapi.yml
   format: yaml
   label: AssemblyAI Transcript API
   slug: assemblyai-transcript-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/openapi/assemblyai-transcript-api-openapi.yml
+  url: https://artifacts.apis.io/assemblyai/openapi/assemblyai-transcript-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: assemblyai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.assemblyai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 06:20:42 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.assemblyai.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 29 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: assemblyai.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/assemblyai/refs/heads/main/security/assemblyai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/assemblyai/security/assemblyai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence

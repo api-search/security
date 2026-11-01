@@ -5,49 +5,49 @@ api_specs:
   label: JuriSign Account API
   slug: jurisign-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-account-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-account-api-openapi.yml
 - filename: jurisign-authentication-api-openapi.yml
   format: yaml
   label: JuriSign Authentication API
   slug: jurisign-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-authentication-api-openapi.yml
 - filename: jurisign-bulk-api-openapi.yml
   format: yaml
   label: JuriSign Bulk API
   slug: jurisign-bulk-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-bulk-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-bulk-api-openapi.yml
 - filename: jurisign-documents-api-openapi.yml
   format: yaml
   label: JuriSign Documents API
   slug: jurisign-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-documents-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-documents-api-openapi.yml
 - filename: jurisign-public-forms-api-openapi.yml
   format: yaml
   label: JuriSign Public Forms API
   slug: jurisign-public-forms-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-public-forms-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-public-forms-api-openapi.yml
 - filename: jurisign-sign-requests-api-openapi.yml
   format: yaml
   label: JuriSign Sign Requests API
   slug: jurisign-sign-requests-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-sign-requests-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-sign-requests-api-openapi.yml
 - filename: jurisign-templates-api-openapi.yml
   format: yaml
   label: JuriSign Templates API
   slug: jurisign-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-templates-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-templates-api-openapi.yml
 - filename: jurisign-webhooks-api-openapi.yml
   format: yaml
   label: JuriSign Webhooks API
   slug: jurisign-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/openapi/jurisign-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/jurisign/openapi/jurisign-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -83,7 +83,7 @@ source_filename: jurisign-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-31'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.jurisign.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 13:12:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: jurisign.fr\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 13:12:28 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: jurisign.fr\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jurisign/refs/heads/main/security/jurisign-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jurisign/security/jurisign-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Signature

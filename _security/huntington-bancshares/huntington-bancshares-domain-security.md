@@ -5,19 +5,19 @@ api_specs:
   label: Huntington Bancshares Accounts API
   slug: huntington-bancshares-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-accounts-api-openapi.yml
 - filename: huntington-bancshares-payments-api-openapi.yml
   format: yaml
   label: Huntington Bancshares Payments API
   slug: huntington-bancshares-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-payments-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-payments-api-openapi.yml
 - filename: huntington-bancshares-transactions-api-openapi.yml
   format: yaml
   label: Huntington Bancshares Transactions API
   slug: huntington-bancshares-transactions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/openapi/huntington-bancshares-transactions-api-openapi.yml
+  url: https://artifacts.apis.io/huntington-bancshares/openapi/huntington-bancshares-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -56,7 +56,7 @@ source_filename: huntington-bancshares-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: hnbdevportal.huntington.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:59:59 2026 GMT\n  hsts: null\n- host: www.huntington.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  5 23:59:59 2027 GMT\n  hsts: null\n- host: api.huntington.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: huntington.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/security/huntington-bancshares-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/huntington-bancshares/security/huntington-bancshares-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Banking

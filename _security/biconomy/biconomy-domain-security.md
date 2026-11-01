@@ -5,19 +5,19 @@ api_specs:
   label: Biconomy Instructions API
   slug: biconomy-instructions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-instructions-api-openapi.yml
+  url: https://artifacts.apis.io/biconomy/openapi/biconomy-instructions-api-openapi.yml
 - filename: biconomy-mee-api-openapi.yml
   format: yaml
   label: Biconomy Mee API
   slug: biconomy-mee-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-mee-api-openapi.yml
+  url: https://artifacts.apis.io/biconomy/openapi/biconomy-mee-api-openapi.yml
 - filename: biconomy-root-api-openapi.yml
   format: yaml
   label: Biconomy Root API
   slug: biconomy-root-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/openapi/biconomy-root-api-openapi.yml
+  url: https://artifacts.apis.io/biconomy/openapi/biconomy-root-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: biconomy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-24'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.biconomy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 08:09:04 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.biconomy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 16:06:44 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.biconomy.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 16:14:40 2026 GMT\n  hsts: null\ndomains:\n- domain: biconomy.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/biconomy/refs/heads/main/security/biconomy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/biconomy/security/biconomy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Account Abstraction
@@ -71,7 +71,7 @@ tags:
 - ERC-7702
 - Ethereum
 - Gas Abstraction
-- Gasless
+- Gasless Transactions
 - MEE
 - Paymaster
 - Smart Accounts

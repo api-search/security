@@ -7,43 +7,43 @@ api_specs:
   label: Qase Cases API
   slug: qase-cases-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-cases-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-cases-api-openapi.yml
 - filename: qase-defects-api-openapi.yml
   format: yaml
   label: Qase Defects API
   slug: qase-defects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-defects-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-defects-api-openapi.yml
 - filename: qase-plans-api-openapi.yml
   format: yaml
   label: Qase Plans API
   slug: qase-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-plans-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-plans-api-openapi.yml
 - filename: qase-projects-api-openapi.yml
   format: yaml
   label: Qase Projects API
   slug: qase-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-projects-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-projects-api-openapi.yml
 - filename: qase-results-api-openapi.yml
   format: yaml
   label: Qase Results API
   slug: qase-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-results-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-results-api-openapi.yml
 - filename: qase-runs-api-openapi.yml
   format: yaml
   label: Qase Runs API
   slug: qase-runs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-runs-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-runs-api-openapi.yml
 - filename: qase-suites-api-openapi.yml
   format: yaml
   label: Qase Suites API
   slug: qase-suites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/openapi/qase-suites-api-openapi.yml
+  url: https://artifacts.apis.io/qase/openapi/qase-suites-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -72,7 +72,7 @@ source_filename: qase-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/qase-openapi.yml\nsummary:\n  types:\n  - apiKey\nschemes:\n- name: TokenAuth\n  type: apiKey\n  in: header\n  scheme: token\n  description: >-\n    A personal or application API token created in the Qase app under Settings.\n    Passed on every request in the `Token` header (for example,\n    `Token: YOUR_API_TOKEN`). All requests must use HTTPS. Access is further\n    constrained by the user's role-based permissions.\n  sources:\n  - openapi/qase-openapi.yml\n  - https://developers.qase.io/reference/introduction-to-the-qase-api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qase/refs/heads/main/authentication/qase-authentication.yml
+source_yaml_url: https://artifacts.apis.io/qase/authentication/qase-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Test Runs

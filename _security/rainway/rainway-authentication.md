@@ -7,7 +7,7 @@ api_specs:
   label: Rainway Peers API
   slug: rainway-peers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/openapi/rainway-peers-api-openapi.yml
+  url: https://artifacts.apis.io/rainway/openapi/rainway-peers-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +34,7 @@ source_filename: rainway-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/rainway-hub-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using a Rainway API Key Pair — username is the public\n    key (pk_live_...), password is the secret key (sk_live_...).\n  sources:\n  - openapi/rainway-hub-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rainway/refs/heads/main/authentication/rainway-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rainway/authentication/rainway-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

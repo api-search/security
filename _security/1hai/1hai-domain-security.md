@@ -23,7 +23,7 @@ source_filename: 1hai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: 1hai.cn\n  https: false\ndomains:\n- domain: 1hai.cn\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/1hai/refs/heads/main/security/1hai-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/1hai/security/1hai-domain-security.yml
 summary_line: no transport/DNS hardening detected
 tags:
 - Company

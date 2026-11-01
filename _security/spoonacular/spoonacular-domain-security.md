@@ -5,43 +5,43 @@ api_specs:
   label: Spoonacular Ingredients API
   slug: spoonacular-ingredients-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-ingredients-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-ingredients-api-openapi.yml
 - filename: spoonacular-meal-planning-api-openapi.yml
   format: yaml
   label: Spoonacular Meal Planning API
   slug: spoonacular-meal-planning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-meal-planning-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-meal-planning-api-openapi.yml
 - filename: spoonacular-menu-items-api-openapi.yml
   format: yaml
   label: Spoonacular Menu Items API
   slug: spoonacular-menu-items-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-menu-items-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-menu-items-api-openapi.yml
 - filename: spoonacular-misc-api-openapi.yml
   format: yaml
   label: Spoonacular Misc API
   slug: spoonacular-misc-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-misc-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-misc-api-openapi.yml
 - filename: spoonacular-products-api-openapi.yml
   format: yaml
   label: Spoonacular Products API
   slug: spoonacular-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-products-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-products-api-openapi.yml
 - filename: spoonacular-recipes-api-openapi.yml
   format: yaml
   label: Spoonacular Recipes API
   slug: spoonacular-recipes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-recipes-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-recipes-api-openapi.yml
 - filename: spoonacular-wine-api-openapi.yml
   format: yaml
   label: Spoonacular Wine API
   slug: spoonacular-wine-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/openapi/spoonacular-wine-api-openapi.yml
+  url: https://artifacts.apis.io/spoonacular/openapi/spoonacular-wine-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: spoonacular-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: spoonacular.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 20:31:07 2026 GMT\n  hsts: false\n- host: api.spoonacular.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 20:31:07 2026 GMT\n  hsts: null\ndomains:\n- domain: spoonacular.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spoonacular/refs/heads/main/security/spoonacular-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spoonacular/security/spoonacular-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Restaurant

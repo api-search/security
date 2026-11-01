@@ -5,7 +5,7 @@ api_specs:
   label: CloudSight Images API
   slug: cloudsight-images-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudsight/refs/heads/main/openapi/cloudsight-images-api-openapi.yml
+  url: https://artifacts.apis.io/cloudsight/openapi/cloudsight-images-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: cloudsight-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloudsight.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 21:54:08 2026 GMT\n  hsts: false\n- host: cloudsight.docs.apiary.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 18 23:59:59 2026 GMT\n  hsts: null\n- host: api.cloudsight.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 18 17:27:40 2026 GMT\n  hsts: null\ndomains:\n- domain: cloudsight.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: apiary.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudsight/refs/heads/main/security/cloudsight-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cloudsight/security/cloudsight-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

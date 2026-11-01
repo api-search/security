@@ -26,12 +26,12 @@ source_filename: impaction-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: impaction.team\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 22:52:41 2026 GMT\n  hsts: false\ndomains:\n- domain: impaction.team\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/impaction/refs/heads/main/security/impaction-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/impaction/security/impaction-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
 - Consulting
 - Agile
-- DigitalTransformation
+- Digital Transformation
 - Leadership
 ---

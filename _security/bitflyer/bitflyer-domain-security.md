@@ -5,37 +5,37 @@ api_specs:
   label: bitFlyer Account API
   slug: bitflyer-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitflyer/refs/heads/main/openapi/bitflyer-account-api-openapi.yml
+  url: https://artifacts.apis.io/bitflyer/openapi/bitflyer-account-api-openapi.yml
 - filename: bitflyer-assets-api-openapi.yml
   format: yaml
   label: bitFlyer Assets API
   slug: bitflyer-assets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitflyer/refs/heads/main/openapi/bitflyer-assets-api-openapi.yml
+  url: https://artifacts.apis.io/bitflyer/openapi/bitflyer-assets-api-openapi.yml
 - filename: bitflyer-chat-api-openapi.yml
   format: yaml
   label: bitFlyer Chat API
   slug: bitflyer-chat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitflyer/refs/heads/main/openapi/bitflyer-chat-api-openapi.yml
+  url: https://artifacts.apis.io/bitflyer/openapi/bitflyer-chat-api-openapi.yml
 - filename: bitflyer-deposits-and-withdrawals-api-openapi.yml
   format: yaml
   label: bitFlyer Deposits and Withdrawals API
   slug: bitflyer-deposits-and-withdrawals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitflyer/refs/heads/main/openapi/bitflyer-deposits-and-withdrawals-api-openapi.yml
+  url: https://artifacts.apis.io/bitflyer/openapi/bitflyer-deposits-and-withdrawals-api-openapi.yml
 - filename: bitflyer-markets-api-openapi.yml
   format: yaml
   label: bitFlyer Markets API
   slug: bitflyer-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitflyer/refs/heads/main/openapi/bitflyer-markets-api-openapi.yml
+  url: https://artifacts.apis.io/bitflyer/openapi/bitflyer-markets-api-openapi.yml
 - filename: bitflyer-trading-api-openapi.yml
   format: yaml
   label: bitFlyer Trading API
   slug: bitflyer-trading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitflyer/refs/heads/main/openapi/bitflyer-trading-api-openapi.yml
+  url: https://artifacts.apis.io/bitflyer/openapi/bitflyer-trading-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +64,7 @@ source_filename: bitflyer-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bitflyer.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: bitflyer.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bitflyer/refs/heads/main/security/bitflyer-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bitflyer/security/bitflyer-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

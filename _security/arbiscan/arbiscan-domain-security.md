@@ -5,7 +5,7 @@ api_specs:
   label: Arbiscan Accounts API
   slug: arbiscan-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/openapi/arbiscan-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/arbiscan/openapi/arbiscan-accounts-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -50,7 +50,7 @@ source_filename: arbiscan-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: arbiscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 02:02:03 2026 GMT\n  hsts: false\n- host: docs.arbiscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 26 02:02:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.etherscan.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: arbiscan.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n- domain: etherscan.io\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/arbiscan/refs/heads/main/security/arbiscan-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/arbiscan/security/arbiscan-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain
@@ -59,5 +59,4 @@ tags:
 - Layer 2
 - EVM
 - Web3
-- L2
 ---

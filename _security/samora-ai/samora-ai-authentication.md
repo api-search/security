@@ -8,19 +8,19 @@ api_specs:
   label: Samora AI Calls API
   slug: samora-ai-calls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-calls-api-openapi.yml
+  url: https://artifacts.apis.io/samora-ai/openapi/samora-ai-calls-api-openapi.yml
 - filename: samora-ai-campaigns-api-openapi.yml
   format: yaml
   label: Samora AI Campaigns API
   slug: samora-ai-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/samora-ai/openapi/samora-ai-campaigns-api-openapi.yml
 - filename: samora-ai-webhooks-api-openapi.yml
   format: yaml
   label: Samora AI Webhooks API
   slug: samora-ai-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/openapi/samora-ai-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/samora-ai/openapi/samora-ai-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_filename: samora-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/samora-ai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-API-Key\n  description: Organization API key. Server-to-server only; never expose in browser or mobile\n    clients.\n  sources:\n  - openapi/samora-ai-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/samora-ai/refs/heads/main/authentication/samora-ai-authentication.yml
+source_yaml_url: https://artifacts.apis.io/samora-ai/authentication/samora-ai-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Company

@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: circle-signing-api-openapi.yml
+- filename: circle-audit-logs-api-openapi.yml
   format: yaml
-  label: Circle Signing API
-  slug: circle-signing-api
+  label: Circle Audit Logs API
+  slug: circle-audit-logs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-signing-api-openapi.yml
-- filename: circle-tokens-api-openapi.yml
-  format: yaml
-  label: Circle Tokens API
-  slug: circle-tokens-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-tokens-api-openapi.yml
-- filename: circle-transactions-api-openapi.yml
-  format: yaml
-  label: Circle Transactions API
-  slug: circle-transactions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-transactions-api-openapi.yml
-- filename: circle-wallet-sets-api-openapi.yml
-  format: yaml
-  label: Circle Wallet Sets API
-  slug: circle-wallet-sets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-wallet-sets-api-openapi.yml
-- filename: circle-wallets-api-openapi.yml
-  format: yaml
-  label: Circle Wallets API
-  slug: circle-wallets-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-wallets-api-openapi.yml
-- filename: circle-nfts-api-openapi.yml
-  format: yaml
-  label: Circle NF Ts API
-  slug: circle-nfts-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/openapi/circle-nfts-api-openapi.yml
+  url: https://artifacts.apis.io/circle/openapi/circle-audit-logs-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -81,7 +51,7 @@ source_filename: circle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.circle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: false\n- host: developers.circle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 03:54:56 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.circle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: circle.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 iodef \"mailto:webmaster@circle.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/security/circle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/circle/security/circle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Blockchain

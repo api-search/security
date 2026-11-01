@@ -5,7 +5,7 @@ api_specs:
   label: LightBox Zoning API
   slug: lightbox-zoning-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/openapi/lightbox-zoning-api-openapi.yml
+  url: https://artifacts.apis.io/lightbox/openapi/lightbox-zoning-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +35,7 @@ source_filename: lightbox-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.lightboxre.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 23 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: lightboxre.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lightbox/refs/heads/main/security/lightbox-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lightbox/security/lightbox-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Location Intelligence

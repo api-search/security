@@ -5,7 +5,19 @@ api_specs:
   label: Amazon Cloud9 Environments API
   slug: amazon-cloud9-environments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/openapi/amazon-cloud9-environments-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-cloud9/openapi/amazon-cloud9-environments-api-openapi.yml
+- filename: amazon-cloud9-environment-membership-api-openapi.yml
+  format: yaml
+  label: Amazon Cloud9 Cloud9 Environment Membership API
+  slug: amazon-cloud9-environment-membership-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloud9/openapi/amazon-cloud9-environment-membership-api-openapi.yml
+- filename: amazon-cloud9-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Cloud9 Cloud9 Operations API
+  slug: amazon-cloud9-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloud9/openapi/amazon-cloud9-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -26,7 +38,7 @@ source_filename: amazon-cloud9-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://aws.amazon.com/compliance/\nurl: https://aws.amazon.com/compliance/\ncertifications:\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\n- FIPS 140\nevidence:\n- source: https://aws.amazon.com/compliance/\n  keywords:\n  - pci-dss\n  - hipaa\n  - fedramp\n  - trust center\n  - compliance certification\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/security/amazon-cloud9-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/amazon-cloud9/security/amazon-cloud9-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Cloud9

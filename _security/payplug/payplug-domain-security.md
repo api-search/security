@@ -5,25 +5,25 @@ api_specs:
   label: PayPlug Cards API
   slug: payplug-cards-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payplug/refs/heads/main/openapi/payplug-cards-api-openapi.yml
+  url: https://artifacts.apis.io/payplug/openapi/payplug-cards-api-openapi.yml
 - filename: payplug-installment-plans-api-openapi.yml
   format: yaml
   label: PayPlug Installment Plans API
   slug: payplug-installment-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payplug/refs/heads/main/openapi/payplug-installment-plans-api-openapi.yml
+  url: https://artifacts.apis.io/payplug/openapi/payplug-installment-plans-api-openapi.yml
 - filename: payplug-payments-api-openapi.yml
   format: yaml
   label: PayPlug Payments API
   slug: payplug-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payplug/refs/heads/main/openapi/payplug-payments-api-openapi.yml
+  url: https://artifacts.apis.io/payplug/openapi/payplug-payments-api-openapi.yml
 - filename: payplug-payplug-api-api-openapi.yml
   format: yaml
   label: PayPlug PayPlug API
   slug: payplug-payplug-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/payplug/refs/heads/main/openapi/payplug-payplug-api-api-openapi.yml
+  url: https://artifacts.apis.io/payplug/openapi/payplug-payplug-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -52,7 +52,7 @@ source_filename: payplug-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.payplug.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 31 15:23:42 2026 GMT\n  hsts: null\ndomains:\n- domain: payplug.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/payplug/refs/heads/main/security/payplug-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/payplug/security/payplug-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company

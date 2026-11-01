@@ -5,7 +5,7 @@ api_specs:
   label: Supermove Developer API New Lead Endpoint API
   slug: supermove-supermove-developer-api-new-lead-endpoint-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supermove/refs/heads/main/openapi/supermove-supermove-developer-api-new-lead-endpoint-api-openapi.yml
+  url: https://artifacts.apis.io/supermove/openapi/supermove-supermove-developer-api-new-lead-endpoint-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,13 +35,13 @@ source_filename: supermove-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: help.supermove.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  5 23:41:24 2026 GMT\n  hsts: true\n  hsts_max_age: 259200\ndomains:\n- domain: supermove.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/supermove/refs/heads/main/security/supermove-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/supermove/security/supermove-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Moving
 - Moving Company Software
 - Logistics
-- Field Service
+- Field Service Management
 - Lead Management
 - Dispatch
 - Webhook

@@ -8,31 +8,31 @@ api_specs:
   label: LinearB Deployments API
   slug: linearb-deployments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-deployments-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-deployments-api-openapi.yml
 - filename: linearb-incidents-api-openapi.yml
   format: yaml
   label: LinearB Incidents API
   slug: linearb-incidents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-incidents-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-incidents-api-openapi.yml
 - filename: linearb-measurements-api-openapi.yml
   format: yaml
   label: LinearB Measurements API
   slug: linearb-measurements-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-measurements-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-measurements-api-openapi.yml
 - filename: linearb-services-api-openapi.yml
   format: yaml
   label: LinearB Services API
   slug: linearb-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-services-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-services-api-openapi.yml
 - filename: linearb-teams-api-openapi.yml
   format: yaml
   label: LinearB Teams API
   slug: linearb-teams-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/openapi/linearb-teams-api-openapi.yml
+  url: https://artifacts.apis.io/linearb/openapi/linearb-teams-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -59,7 +59,7 @@ source_filename: linearb-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/linearb-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-api-key\n  sources:\n  - openapi/linearb-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/authentication/linearb-authentication.yml
+source_yaml_url: https://artifacts.apis.io/linearb/authentication/linearb-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Engineering Analytics

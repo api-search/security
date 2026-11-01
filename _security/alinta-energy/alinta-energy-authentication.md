@@ -7,55 +7,55 @@ api_specs:
   label: Alinta Energy Data Holder Customers API
   slug: alinta-energy-data-holder-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-data-holder-customers-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-data-holder-customers-api-openapi.yml
 - filename: alinta-energy-data-holder-operations-api-openapi.yml
   format: yaml
   label: Alinta Energy Data Holder Operations API
   slug: alinta-energy-data-holder-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-data-holder-operations-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-data-holder-operations-api-openapi.yml
 - filename: alinta-energy-distributed-energy-resources-api-openapi.yml
   format: yaml
   label: Alinta Energy Distributed Energy Resources API
   slug: alinta-energy-distributed-energy-resources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-distributed-energy-resources-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-distributed-energy-resources-api-openapi.yml
 - filename: alinta-energy-electricity-service-points-api-openapi.yml
   format: yaml
   label: Alinta Energy Electricity Service Points API
   slug: alinta-energy-electricity-service-points-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-electricity-service-points-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-electricity-service-points-api-openapi.yml
 - filename: alinta-energy-electricity-usage-api-openapi.yml
   format: yaml
   label: Alinta Energy Electricity Usage API
   slug: alinta-energy-electricity-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-electricity-usage-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-electricity-usage-api-openapi.yml
 - filename: alinta-energy-energy-account-balances-api-openapi.yml
   format: yaml
   label: Alinta Energy Account Balances API
   slug: alinta-energy-energy-account-balances-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-account-balances-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-account-balances-api-openapi.yml
 - filename: alinta-energy-energy-account-billing-api-openapi.yml
   format: yaml
   label: Alinta Energy Account Billing API
   slug: alinta-energy-energy-account-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-account-billing-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-account-billing-api-openapi.yml
 - filename: alinta-energy-energy-accounts-api-openapi.yml
   format: yaml
   label: Alinta Energy Accounts API
   slug: alinta-energy-energy-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-accounts-api-openapi.yml
 - filename: alinta-energy-energy-plans-api-openapi.yml
   format: yaml
   label: Alinta Energy Plans API
   slug: alinta-energy-energy-plans-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/openapi/alinta-energy-energy-plans-api-openapi.yml
+  url: https://artifacts.apis.io/alinta-energy/openapi/alinta-energy-energy-plans-api-openapi.yml
 auth_types:
 - none
 - oauth2
@@ -112,7 +112,7 @@ source_yaml: "generated: '2026-07-27'\nmethod: searched\nsource: https://consume
   \ CDR\n      Register-issued credentials, dynamic client registration with Alinta's\n      authorisation server, and an explicit, time-bound, revocable consumer consent.\nschemes:\n- name: PublicNoAuth\n  type: none\n  applies_to:\n  - openapi/alinta-energy-cds-common-api-openapi.yml#getStatus\n  - openapi/alinta-energy-cds-common-api-openapi.yml#getOutages\n  - openapi/alinta-energy-cds-energy-api-openapi.yml#listEnergyPlans\n  - openapi/alinta-energy-cds-energy-api-openapi.yml#getEnergyPlanDetail\n  note: Version header x-v only (mandatory). Unsupported version returns HTTP 406.\n- name: CDR-FAPI-OAuth2\n  type: oauth2\n  profile: FAPI 1.0 Advanced (Financial-grade API Security Profile 1.0 Part 2, March 2021)\n  flows:\n  - flow: authorizationCode\n    note: >\n      OIDC Hybrid Flow / Authorization Code Flow with Pushed Authorisation Requests (PAR),\n      PKCE, signed request objects and JARM per the CDR Security Profile. The concrete\n      authorisation, token, PAR, JWKS, introspection,\
   \ revocation and CDR arrangement\n      revocation endpoints are published per data holder through the CDR Register's\n      authenticated data holder brand detail record, not anonymously.\n  scopes_ref: scopes/alinta-energy-scopes.yml\n- name: CDR-OIDC\n  type: openIdConnect\n  note: >\n    OpenID Connect 1.0. No anonymous /.well-known/openid-configuration is served by\n    Alinta (confirmed HTTP 404 on public.cdr.alintaenergy.com.au, and the secure., idp.\n    and cdr. subdomains of alintaenergy.com.au do not resolve). See\n    well-known/alinta-energy-well-known.yml.\n- name: CDR-MTLS-HolderOfKey\n  type: mutualTLS\n  note: >\n    Mutual TLS with CDR Register CA-issued client certificates; access tokens are bound\n    to the ADR client certificate under the holder-of-key mechanism. BCP195-recommended\n    ciphers only (Data Standards obligation from 17 March 2025).\ncustomer_authentication:\n  flow: Redirect to Web with One Time Password (OTP)\n  evidence: >\n    Alinta's published\
   \ CDR page states that when a consumer consents through an\n    accredited third party, \"Alinta Energy will ask you to verify your identity using a\n    One Time Password sent to the mobile number connected to your Alinta Energy account.\"\n    (Page body returns HTTP 403 to automated clients; text retrieved from the public\n    search index on 2026-07-27.)\n  standard: https://consumerdatastandardsaustralia.github.io/standards/#authentication-flows\npolicy:\n  cdr_policy: https://www.alintaenergy.com.au/help-and-support/terms-and-conditions/consumer-data-right-cdr/consumer-data-right-policy\n  cdr_page: https://www.alintaenergy.com.au/help-and-support/terms-and-conditions/consumer-data-right-cdr\nonboarding:\n  self_serve: false\n  gate: ACCC accreditation (Accredited Data Recipient) + consumer consent\n  note: No developer portal, no sandbox, no key request page, no commercial partner track outside the regulated scheme.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/alinta-energy/refs/heads/main/authentication/alinta-energy-authentication.yml
+source_yaml_url: https://artifacts.apis.io/alinta-energy/authentication/alinta-energy-authentication.yml
 summary_line: none/oauth2/openIdConnect/mutualTLS · 4 schemes
 tags:
 - Energy

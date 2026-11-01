@@ -38,7 +38,7 @@ source_filename: rasyonet-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.rasyonet.com.tr\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 5184000\n- host: www.rasyonet.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 22 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: rasyonet.com.tr\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: rasyonet.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rasyonet/refs/heads/main/security/rasyonet-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/rasyonet/security/rasyonet-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Capital Markets

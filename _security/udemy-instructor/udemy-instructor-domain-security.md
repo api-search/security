@@ -27,7 +27,7 @@ source_filename: udemy-instructor-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.udemy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 04:03:30 2026 GMT\n  hsts: false\ndomains:\n- domain: udemy.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/udemy-instructor/refs/heads/main/security/udemy-instructor-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/udemy-instructor/security/udemy-instructor-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Personality

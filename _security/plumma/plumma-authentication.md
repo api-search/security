@@ -8,7 +8,7 @@ api_specs:
   label: Plumma CONNECT API
   slug: plumma-connect-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plumma/refs/heads/main/openapi/plumma-connect-api-openapi.yml
+  url: https://artifacts.apis.io/plumma/openapi/plumma-connect-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -36,7 +36,7 @@ source_filename: plumma-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: derived\nsource: openapi/plumma-connect-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: ApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-plumma-connect-api-key\n  description: Your X.509 client certificate, base64-encoded.\n  sources:\n  - openapi/plumma-connect-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plumma/refs/heads/main/authentication/plumma-authentication.yml
+source_yaml_url: https://artifacts.apis.io/plumma/authentication/plumma-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Telecommunications

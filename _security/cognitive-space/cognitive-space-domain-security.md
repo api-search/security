@@ -27,7 +27,7 @@ source_filename: cognitive-space-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cognitivespace.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 06:55:04 2026 GMT\n  hsts: false\ndomains:\n- domain: cognitivespace.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cognitive-space/refs/heads/main/security/cognitive-space-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cognitive-space/security/cognitive-space-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

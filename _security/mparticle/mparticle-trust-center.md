@@ -5,43 +5,43 @@ api_specs:
   label: mParticle Data Plan API
   slug: mparticle-data-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-data-plan-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-data-plan-api-openapi.yml
 - filename: mparticle-data-plan-version-api-openapi.yml
   format: yaml
   label: mParticle Data Plan Version API
   slug: mparticle-data-plan-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-data-plan-version-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-data-plan-version-api-openapi.yml
 - filename: mparticle-events-api-openapi.yml
   format: yaml
   label: mParticle Events API
   slug: mparticle-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-events-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-events-api-openapi.yml
 - filename: mparticle-identify-api-openapi.yml
   format: yaml
   label: mParticle Identify API
   slug: mparticle-identify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-identify-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-identify-api-openapi.yml
 - filename: mparticle-login-api-openapi.yml
   format: yaml
   label: mParticle Login API
   slug: mparticle-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-login-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-login-api-openapi.yml
 - filename: mparticle-logout-api-openapi.yml
   format: yaml
   label: mParticle Logout API
   slug: mparticle-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-logout-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-logout-api-openapi.yml
 - filename: mparticle-modify-api-openapi.yml
   format: yaml
   label: mParticle Modify API
   slug: mparticle-modify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-modify-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-modify-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -60,7 +60,7 @@ source_filename: mparticle-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: https://trust.mparticle.com/\nurl: https://trust.mparticle.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.mparticle.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/security/mparticle-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/mparticle/security/mparticle-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Customer Data Platform

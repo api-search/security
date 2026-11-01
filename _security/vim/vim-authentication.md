@@ -7,55 +7,55 @@ api_specs:
   label: Vim Access Token Retrieval API
   slug: vim-access-token-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-access-token-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-access-token-retrieval-api-openapi.yml
 - filename: vim-applications-api-openapi.yml
   format: yaml
   label: Vim Applications API
   slug: vim-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-applications-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-applications-api-openapi.yml
 - filename: vim-appointments-api-openapi.yml
   format: yaml
   label: Vim Appointments API
   slug: vim-appointments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-appointments-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-appointments-api-openapi.yml
 - filename: vim-authentication-api-openapi.yml
   format: yaml
   label: Vim Authentication API
   slug: vim-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-authentication-api-openapi.yml
 - filename: vim-chart-retrieval-api-openapi.yml
   format: yaml
   label: Vim Chart Retrieval API
   slug: vim-chart-retrieval-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-chart-retrieval-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-chart-retrieval-api-openapi.yml
 - filename: vim-get-patient-care-insights-api-openapi.yml
   format: yaml
   label: Vim Get Patient Care Insights API
   slug: vim-get-patient-care-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-get-patient-care-insights-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-get-patient-care-insights-api-openapi.yml
 - filename: vim-invitations-api-openapi.yml
   format: yaml
   label: Vim Invitations API
   slug: vim-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-invitations-api-openapi.yml
 - filename: vim-patient-care-insights-feedback-api-openapi.yml
   format: yaml
   label: Vim Patient Care Insights Feedback API
   slug: vim-patient-care-insights-feedback-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-patient-care-insights-feedback-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-patient-care-insights-feedback-api-openapi.yml
 - filename: vim-patient-identification-api-openapi.yml
   format: yaml
   label: Vim Patient Identification API
   slug: vim-patient-identification-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/openapi/vim-patient-identification-api-openapi.yml
+  url: https://artifacts.apis.io/vim/openapi/vim-patient-identification-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-08-15'\nmethod: searched\ndocs: https://docs.getv
   \ JWT\n    description: >-\n      Bearer token sent in the Authorization header on every authenticated\n      resource request. Obtained from POST /oauth/token.\n    applied_to: all Vim REST API operations except POST /oauth/token\n    sources:\n      - openapi/vim-rest-api-openapi-original.json\n      - openapi/vim-data-source-openapi-original.json\n  - name: service\n    type: oauth2\n    flows:\n      - flow: implicit\n        scopes: 0\n    note: >-\n      The Data Source spec declares an oauth2 scheme with an implicit flow and\n      no scopes; in practice the documented exchange is client_credentials. The\n      spec block is thin, not the real grant.\n    sources:\n      - openapi/vim-data-source-openapi-original.json\ntoken_exchange:\n  endpoint: POST /oauth/token\n  base_url: https://api.getvim.com/v1\n  grant_type: client_credentials\n  request_media_type: application/json\n  request_fields:\n    - client_id\n    - client_secret\n    - grant_type\n  response_fields:\n    - access_token\n\
   \    - token_type\n    - expires_in\n  token_type: Bearer\n  token_format: JWT\n  default_ttl_seconds: 3600\n  errors:\n    - status: 400\n      meaning: Bad request - ensure all required parameters were sent.\n    - status: 401\n      meaning: Unauthorized - ensure the client id and client secret are correct.\nauthorization_server:\n  host: https://auth.getvim.com\n  kind: Auth0 tenant\n  openid_configuration: well-known/vim-openid-configuration.json\n  oauth_authorization_server: well-known/vim-oauth-authorization-server.json\n  note: >-\n    Machine-to-machine access is audience-scoped rather than scope-scoped; see\n    scopes/vim-scopes.yml.\nsdk_authentication:\n  surface: VimOS.js\n  model: >-\n    Browser applications authenticate through the Vim Connect session rather\n    than by holding a client secret; the SDK is initialised with the\n    application identity and the EHR session supplies user context. The optional\n    VimAppSettings SDK exchanges an idToken plus organization\
   \ id.\n  docs: https://docs.getvim.com/vim-os-js/authentication\nconstraints:\n  geography: >-\n    The Vim REST API is available only to application servers hosted within the\n    United States. Developers outside the US may read the docs and call via VPN,\n    but the production application server must be US-hosted.\n  source: https://docs.getvim.com/api\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vim/refs/heads/main/authentication/vim-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vim/authentication/vim-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Healthcare

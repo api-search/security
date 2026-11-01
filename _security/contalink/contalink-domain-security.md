@@ -5,49 +5,49 @@ api_specs:
   label: Contalink Balanza de comprobación API
   slug: contalink-balanza-de-comprobaci-n-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-balanza-de-comprobaci-n-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-balanza-de-comprobaci-n-api-openapi.yml
 - filename: contalink-cargar-un-documento-fiscal-api-openapi.yml
   format: yaml
   label: Contalink Cargar un documento fiscal API
   slug: contalink-cargar-un-documento-fiscal-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-cargar-un-documento-fiscal-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-cargar-un-documento-fiscal-api-openapi.yml
 - filename: contalink-conciliaci-n-api-openapi.yml
   format: yaml
   label: Contalink Conciliación API
   slug: contalink-conciliaci-n-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-conciliaci-n-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-conciliaci-n-api-openapi.yml
 - filename: contalink-listado-de-documentos-fiscales-api-openapi.yml
   format: yaml
   label: Contalink Listado de documentos fiscales API
   slug: contalink-listado-de-documentos-fiscales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-listado-de-documentos-fiscales-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-listado-de-documentos-fiscales-api-openapi.yml
 - filename: contalink-movimientos-bancarios-api-openapi.yml
   format: yaml
   label: Contalink Movimientos bancarios API
   slug: contalink-movimientos-bancarios-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-movimientos-bancarios-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-movimientos-bancarios-api-openapi.yml
 - filename: contalink-p-lizas-manuales-api-openapi.yml
   format: yaml
   label: Contalink Pólizas manuales API
   slug: contalink-p-lizas-manuales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-p-lizas-manuales-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-p-lizas-manuales-api-openapi.yml
 - filename: contalink-saldo-de-una-cuenta-api-openapi.yml
   format: yaml
   label: Contalink Saldo de una cuenta API
   slug: contalink-saldo-de-una-cuenta-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-saldo-de-una-cuenta-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-saldo-de-una-cuenta-api-openapi.yml
 - filename: contalink-status-de-documentos-fiscales-api-openapi.yml
   format: yaml
   label: Contalink Status de documentos fiscales API
   slug: contalink-status-de-documentos-fiscales-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/openapi/contalink-status-de-documentos-fiscales-api-openapi.yml
+  url: https://artifacts.apis.io/contalink/openapi/contalink-status-de-documentos-fiscales-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,7 +92,7 @@ source_filename: contalink-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: contalink.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 19:51:57 2026 GMT\n  hsts: false\n- host: apidocs.contalink.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 04:36:07 2026 GMT\n  hsts: false\n- host: 794lol2h95.execute-api.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: contalink.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/contalink/refs/heads/main/security/contalink-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/contalink/security/contalink-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

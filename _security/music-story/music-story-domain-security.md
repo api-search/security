@@ -1,17 +1,23 @@
 ---
 api_specs:
+- filename: music-story-openapi-generated.yml
+  format: yaml
+  label: Music Story API
+  slug: music-story-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/music-story/openapi/_ae-authored/music-story-openapi-generated.yml
 - filename: music-story-artist-api-openapi.yml
   format: yaml
   label: Music Story Artist API
   slug: music-story-artist-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/music-story/refs/heads/main/openapi/music-story-artist-api-openapi.yml
+  url: https://artifacts.apis.io/music-story/openapi/music-story-artist-api-openapi.yml
 - filename: music-story-music-story-api-api-openapi.yml
   format: yaml
   label: Music Story Music Story API
   slug: music-story-music-story-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/music-story/refs/heads/main/openapi/music-story-music-story-api-api-openapi.yml
+  url: https://artifacts.apis.io/music-story/openapi/music-story-music-story-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,7 +46,7 @@ source_filename: music-story-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: music-story.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 07:03:55 2026 GMT\n  hsts: false\ndomains:\n- domain: music-story.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/music-story/refs/heads/main/security/music-story-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/music-story/security/music-story-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

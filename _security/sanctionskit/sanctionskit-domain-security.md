@@ -5,61 +5,61 @@ api_specs:
   label: SanctionsKit Batches and files API
   slug: sanctionskit-batches-and-files-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-batches-and-files-api-openapi.yml
+  url: https://artifacts.apis.io/sanctionskit/openapi/sanctionskit-batches-and-files-api-openapi.yml
 - filename: sanctionskit-counterparties-api-openapi.yml
   format: yaml
   label: SanctionsKit Counterparties API
   slug: sanctionskit-counterparties-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-counterparties-api-openapi.yml
+  url: https://artifacts.apis.io/sanctionskit/openapi/sanctionskit-counterparties-api-openapi.yml
 - filename: sanctionskit-monitoring-api-openapi.yml
   format: yaml
   label: SanctionsKit Monitoring API
   slug: sanctionskit-monitoring-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-monitoring-api-openapi.yml
+  url: https://artifacts.apis.io/sanctionskit/openapi/sanctionskit-monitoring-api-openapi.yml
 - filename: sanctionskit-reports-api-openapi.yml
   format: yaml
   label: SanctionsKit Reports API
   slug: sanctionskit-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-reports-api-openapi.yml
+  url: https://artifacts.apis.io/sanctionskit/openapi/sanctionskit-reports-api-openapi.yml
 - filename: sanctionskit-review-evidence-api-openapi.yml
   format: yaml
   label: SanctionsKit Review evidence API
   slug: sanctionskit-review-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-review-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/sanctionskit/openapi/sanctionskit-review-evidence-api-openapi.yml
 - filename: sanctionskit-screening-and-evidence-api-openapi.yml
   format: yaml
   label: SanctionsKit Screening and evidence API
   slug: sanctionskit-screening-and-evidence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-screening-and-evidence-api-openapi.yml
+  url: https://artifacts.apis.io/sanctionskit/openapi/sanctionskit-screening-and-evidence-api-openapi.yml
 - filename: sanctionskit-screening-policies-api-openapi.yml
   format: yaml
   label: SanctionsKit Screening policies API
   slug: sanctionskit-screening-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-screening-policies-api-openapi.yml
+  url: https://artifacts.apis.io/sanctionskit/openapi/sanctionskit-screening-policies-api-openapi.yml
 - filename: sanctionskit-source-discovery-api-openapi.yml
   format: yaml
   label: SanctionsKit Source discovery API
   slug: sanctionskit-source-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-source-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/sanctionskit/openapi/sanctionskit-source-discovery-api-openapi.yml
 - filename: sanctionskit-usage-api-openapi.yml
   format: yaml
   label: SanctionsKit Usage API
   slug: sanctionskit-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-usage-api-openapi.yml
+  url: https://artifacts.apis.io/sanctionskit/openapi/sanctionskit-usage-api-openapi.yml
 - filename: sanctionskit-webhooks-api-openapi.yml
   format: yaml
   label: SanctionsKit Webhooks API
   slug: sanctionskit-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/openapi/sanctionskit-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/sanctionskit/openapi/sanctionskit-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -91,7 +91,7 @@ source_filename: sanctionskit-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sanctionskit.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 20:26:13 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: sanctionskit.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sanctionskit/refs/heads/main/security/sanctionskit-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sanctionskit/security/sanctionskit-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company

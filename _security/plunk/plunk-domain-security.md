@@ -5,43 +5,43 @@ api_specs:
   label: Plunk Campaigns API
   slug: plunk-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-campaigns-api-openapi.yml
 - filename: plunk-contacts-api-openapi.yml
   format: yaml
   label: Plunk Contacts API
   slug: plunk-contacts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-contacts-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-contacts-api-openapi.yml
 - filename: plunk-events-api-openapi.yml
   format: yaml
   label: Plunk Events API
   slug: plunk-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-events-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-events-api-openapi.yml
 - filename: plunk-transactional-api-openapi.yml
   format: yaml
   label: Plunk Transactional API
   slug: plunk-transactional-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-transactional-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-transactional-api-openapi.yml
 - filename: plunk-public-api-api-openapi.yml
   format: yaml
   label: Plunk Public API
   slug: plunk-public-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-public-api-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-public-api-api-openapi.yml
 - filename: plunk-segments-api-openapi.yml
   format: yaml
   label: Plunk Segments API
   slug: plunk-segments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-segments-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-segments-api-openapi.yml
 - filename: plunk-templates-api-openapi.yml
   format: yaml
   label: Plunk Templates API
   slug: plunk-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/openapi/plunk-templates-api-openapi.yml
+  url: https://artifacts.apis.io/plunk/openapi/plunk-templates-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -86,7 +86,7 @@ source_filename: plunk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.useplunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 09:04:51 2026 GMT\n  hsts: false\n- host: docs.useplunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 09:04:59 2026 GMT\n  hsts: false\n- host: api.useplunk.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  1 05:15:23 2026 GMT\n  hsts: false\ndomains:\n- domain: useplunk.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/plunk/refs/heads/main/security/plunk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/plunk/security/plunk-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Email

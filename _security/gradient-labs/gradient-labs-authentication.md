@@ -7,37 +7,37 @@ api_specs:
   label: Gradient Labs Actions & Tools API
   slug: gradient-labs-actions-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-actions-tools-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-actions-tools-api-openapi.yml
 - filename: gradient-labs-conversations-api-openapi.yml
   format: yaml
   label: Gradient Labs Conversations API
   slug: gradient-labs-conversations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-conversations-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-conversations-api-openapi.yml
 - filename: gradient-labs-hand-off-api-openapi.yml
   format: yaml
   label: Gradient Labs Hand-off API
   slug: gradient-labs-hand-off-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-hand-off-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-hand-off-api-openapi.yml
 - filename: gradient-labs-knowledge-api-openapi.yml
   format: yaml
   label: Gradient Labs Knowledge API
   slug: gradient-labs-knowledge-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-knowledge-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-knowledge-api-openapi.yml
 - filename: gradient-labs-messages-api-openapi.yml
   format: yaml
   label: Gradient Labs Messages API
   slug: gradient-labs-messages-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-messages-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-messages-api-openapi.yml
 - filename: gradient-labs-gradient-labs-api-api-openapi.yml
   format: yaml
   label: Gradient Labs Gradient Labs API
   slug: gradient-labs-gradient-labs-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/openapi/gradient-labs-gradient-labs-api-api-openapi.yml
+  url: https://artifacts.apis.io/gradient-labs/openapi/gradient-labs-gradient-labs-api-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -64,7 +64,7 @@ source_filename: gradient-labs-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/gradient-labs-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Provide your Gradient Labs API key as a Bearer token in the Authorization header.\n    Some administrative endpoints (tools) require a Management API key.\n  sources:\n  - openapi/gradient-labs-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gradient-labs/refs/heads/main/authentication/gradient-labs-authentication.yml
+source_yaml_url: https://artifacts.apis.io/gradient-labs/authentication/gradient-labs-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

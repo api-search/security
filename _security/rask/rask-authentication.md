@@ -7,19 +7,19 @@ api_specs:
   label: Rask AI Media API
   slug: rask-media-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-media-api-openapi.yml
+  url: https://artifacts.apis.io/rask/openapi/rask-media-api-openapi.yml
 - filename: rask-projects-api-openapi.yml
   format: yaml
   label: Rask AI Projects API
   slug: rask-projects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-projects-api-openapi.yml
+  url: https://artifacts.apis.io/rask/openapi/rask-projects-api-openapi.yml
 - filename: rask-transcription-api-openapi.yml
   format: yaml
   label: Rask AI Transcription API
   slug: rask-transcription-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/openapi/rask-transcription-api-openapi.yml
+  url: https://artifacts.apis.io/rask/openapi/rask-transcription-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -46,7 +46,7 @@ source_filename: rask-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/rask-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: 'OAuth2-issued Bearer token. Generate an API Client ID and API Code in the Rask\n    app, exchange them for an OAuth2 token, and send it as `Authorization: Bearer {token}`.'\n  sources:\n  - openapi/rask-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/rask/refs/heads/main/authentication/rask-authentication.yml
+source_yaml_url: https://artifacts.apis.io/rask/authentication/rask-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Artificial Intelligence

@@ -5,49 +5,49 @@ api_specs:
   label: Xiaomi Access Control API
   slug: xiaomi-access-control-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-access-control-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-access-control-api-openapi.yml
 - filename: xiaomi-authentication-api-openapi.yml
   format: yaml
   label: Xiaomi Authentication API
   slug: xiaomi-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-authentication-api-openapi.yml
 - filename: xiaomi-cdn-api-openapi.yml
   format: yaml
   label: Xiaomi CDN API
   slug: xiaomi-cdn-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-cdn-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-cdn-api-openapi.yml
 - filename: xiaomi-models-api-openapi.yml
   format: yaml
   label: Xiaomi Models API
   slug: xiaomi-models-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-models-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-models-api-openapi.yml
 - filename: xiaomi-multipart-upload-api-openapi.yml
   format: yaml
   label: Xiaomi Multipart Upload API
   slug: xiaomi-multipart-upload-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-multipart-upload-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-multipart-upload-api-openapi.yml
 - filename: xiaomi-objects-api-openapi.yml
   format: yaml
   label: Xiaomi Objects API
   slug: xiaomi-objects-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-objects-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-objects-api-openapi.yml
 - filename: xiaomi-user-api-openapi.yml
   format: yaml
   label: Xiaomi User API
   slug: xiaomi-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-user-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-user-api-openapi.yml
 - filename: xiaomi-chat-completions-api-openapi.yml
   format: yaml
   label: Xiaomi Chat Completions API
   slug: xiaomi-chat-completions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/openapi/xiaomi-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/xiaomi/openapi/xiaomi-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -92,7 +92,7 @@ source_filename: xiaomi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mi.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: null\n- host: dev.mi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 28 23:59:59 2026 GMT\n  hsts: null\n- host: open.account.xiaomi.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 16 01:53:07 2026 GMT\n  hsts: null\ndomains:\n- domain: mi.com\n  dnssec: true\n  caa:\n  - sgp.ali.cdn.b2cop.lb.mi.com.\n  spf: true\n  dmarc: false\n- domain: xiaomi.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/xiaomi/refs/heads/main/security/xiaomi-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/xiaomi/security/xiaomi-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Consumer Electronics

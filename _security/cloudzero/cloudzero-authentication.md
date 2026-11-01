@@ -8,37 +8,37 @@ api_specs:
   label: CloudZero Allocation Telemetry API
   slug: cloudzero-allocation-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-allocation-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-allocation-telemetry-api-openapi.yml
 - filename: cloudzero-anycost-api-openapi.yml
   format: yaml
   label: CloudZero AnyCost API
   slug: cloudzero-anycost-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-anycost-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-anycost-api-openapi.yml
 - filename: cloudzero-billing-api-openapi.yml
   format: yaml
   label: CloudZero Billing API
   slug: cloudzero-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-billing-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-billing-api-openapi.yml
 - filename: cloudzero-budgets-api-openapi.yml
   format: yaml
   label: CloudZero Budgets API
   slug: cloudzero-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-budgets-api-openapi.yml
 - filename: cloudzero-insights-api-openapi.yml
   format: yaml
   label: CloudZero Insights API
   slug: cloudzero-insights-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-insights-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-insights-api-openapi.yml
 - filename: cloudzero-unit-metric-telemetry-api-openapi.yml
   format: yaml
   label: CloudZero Unit Metric Telemetry API
   slug: cloudzero-unit-metric-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/openapi/cloudzero-unit-metric-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/cloudzero/openapi/cloudzero-unit-metric-telemetry-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -66,7 +66,7 @@ source_filename: cloudzero-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cloudzero-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key for authentication. Include your API key directly in the Authorization\n    header.\n  sources:\n  - openapi/cloudzero-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/authentication/cloudzero-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cloudzero/authentication/cloudzero-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Budgets

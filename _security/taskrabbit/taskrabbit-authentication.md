@@ -7,31 +7,31 @@ api_specs:
   label: TaskRabbit Delivery API
   slug: taskrabbit-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-delivery-api-openapi.yml
 - filename: taskrabbit-home-services-availability-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Availability API
   slug: taskrabbit-home-services-availability-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-availability-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-availability-api-openapi.yml
 - filename: taskrabbit-home-services-booking-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Booking API
   slug: taskrabbit-home-services-booking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-booking-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-booking-api-openapi.yml
 - filename: taskrabbit-home-services-catalog-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Catalog API
   slug: taskrabbit-home-services-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-catalog-api-openapi.yml
 - filename: taskrabbit-home-services-estimate-api-openapi.yml
   format: yaml
   label: TaskRabbit Home Services Estimate API
   slug: taskrabbit-home-services-estimate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/openapi/taskrabbit-home-services-estimate-api-openapi.yml
+  url: https://artifacts.apis.io/taskrabbit/openapi/taskrabbit-home-services-estimate-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -62,7 +62,7 @@ source_filename: taskrabbit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/taskrabbit-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://taskrabbit.auth0.com/oauth/token\n    scopes: 0\n  description: Auth0 machine-to-machine (M2M) OAuth2 client-credentials grant. Credentials are\n    issued during partner onboarding.\n  sources:\n  - openapi/taskrabbit-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/taskrabbit/refs/heads/main/authentication/taskrabbit-authentication.yml
+source_yaml_url: https://artifacts.apis.io/taskrabbit/authentication/taskrabbit-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Gig Economy

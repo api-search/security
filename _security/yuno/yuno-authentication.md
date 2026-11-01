@@ -8,7 +8,7 @@ api_specs:
   label: Yuno Payments API
   slug: yuno-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/openapi/_original/yuno-openapi-original.json
+  url: https://artifacts.apis.io/yuno/openapi/_original/yuno-openapi-original.json
 auth_types:
 - apiKey
 description: ''
@@ -52,7 +52,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: searched\nsource: https://docs.y.uno/reference/authentication\ndocs: https://docs.y.uno/reference/authentication\nsummary:\n  types: [apiKey]\n  api_key_in: [header]\n  oauth2_flows: []\n  notes: >-\n    Yuno uses paired header API keys — a public key for client-side/SDK context\n    and a private secret key for server-side calls — plus an account-code header\n    that identifies the merchant account. Sandbox and production use different\n    keys. There is no OAuth2 flow on the core payments API (OAuth2 exists only as\n    an optional authentication mode for outbound webhook delivery). Keys are\n    issued from the Yuno Dashboard (dashboard.y.uno/developers).\nschemes:\n  - name: publicApiKey\n    type: apiKey\n    in: header\n    header: public-api-key\n    description: Public API key from the Yuno Dashboard (client/SDK context).\n    sources: [openapi/yuno-openapi-original.json]\n  - name: privateSecretKey\n    type: apiKey\n    in: header\n\
   \    header: private-secret-key\n    description: Private secret key, server-side only.\n    sources: [openapi/yuno-openapi-original.json]\n  - name: accountCode\n    type: apiKey\n    in: header\n    header: account-code\n    alias_header: X-Account-Code\n    description: Merchant account identifier.\n    sources: [openapi/yuno-openapi-original.json]\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/yuno/refs/heads/main/authentication/yuno-authentication.yml
+source_yaml_url: https://artifacts.apis.io/yuno/authentication/yuno-authentication.yml
 summary_line: apiKey · 3 schemes
 tags:
 - Company

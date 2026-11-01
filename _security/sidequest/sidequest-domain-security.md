@@ -5,31 +5,31 @@ api_specs:
   label: SideQuest Apps API
   slug: sidequest-apps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-apps-api-openapi.yml
+  url: https://artifacts.apis.io/sidequest/openapi/sidequest-apps-api-openapi.yml
 - filename: sidequest-developers-api-openapi.yml
   format: yaml
   label: SideQuest Developers API
   slug: sidequest-developers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-developers-api-openapi.yml
+  url: https://artifacts.apis.io/sidequest/openapi/sidequest-developers-api-openapi.yml
 - filename: sidequest-users-api-openapi.yml
   format: yaml
   label: SideQuest Users API
   slug: sidequest-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-users-api-openapi.yml
+  url: https://artifacts.apis.io/sidequest/openapi/sidequest-users-api-openapi.yml
 - filename: sidequest-usersapps-api-openapi.yml
   format: yaml
   label: SideQuest UsersApps API
   slug: sidequest-usersapps-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-usersapps-api-openapi.yml
+  url: https://artifacts.apis.io/sidequest/openapi/sidequest-usersapps-api-openapi.yml
 - filename: sidequest-oauth2-api-openapi.yml
   format: yaml
   label: SideQuest O Auth2 API
   slug: sidequest-oauth2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/openapi/sidequest-oauth2-api-openapi.yml
+  url: https://artifacts.apis.io/sidequest/openapi/sidequest-oauth2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: sidequest-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: sidequestvr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 19:01:31 2026 GMT\n  hsts: false\n- host: api.sidequestvr.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 09:19:19 2026 GMT\n  hsts: null\ndomains:\n- domain: sidequestvr.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sidequest/refs/heads/main/security/sidequest-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/sidequest/security/sidequest-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

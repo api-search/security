@@ -5,25 +5,25 @@ api_specs:
   label: JumpCloud Application Templates API
   slug: jumpcloud-application-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-application-templates-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-application-templates-api-openapi.yml
 - filename: jumpcloud-applications-api-openapi.yml
   format: yaml
   label: JumpCloud Applications API
   slug: jumpcloud-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-applications-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-applications-api-openapi.yml
 - filename: jumpcloud-command-results-api-openapi.yml
   format: yaml
   label: JumpCloud Command Results API
   slug: jumpcloud-command-results-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-command-results-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-command-results-api-openapi.yml
 - filename: jumpcloud-commands-api-openapi.yml
   format: yaml
   label: JumpCloud Commands API
   slug: jumpcloud-commands-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/openapi/jumpcloud-commands-api-openapi.yml
+  url: https://artifacts.apis.io/jumpcloud/openapi/jumpcloud-commands-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -63,7 +63,7 @@ source_filename: jumpcloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: jumpcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 08:47:43 2026 GMT\n  hsts: false\n- host: docs.jumpcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 27 07:03:18 2026 GMT\n  hsts: false\n- host: console.jumpcloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  5 08:44:56 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: jumpcloud.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/jumpcloud/refs/heads/main/security/jumpcloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/jumpcloud/security/jumpcloud-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Identity

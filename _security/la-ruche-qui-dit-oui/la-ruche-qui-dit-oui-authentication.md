@@ -7,25 +7,25 @@ api_specs:
   label: La Ruche qui dit Oui! Assemblies API
   slug: la-ruche-qui-dit-oui-assemblies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-assemblies-api-openapi.yml
+  url: https://artifacts.apis.io/la-ruche-qui-dit-oui/openapi/la-ruche-qui-dit-oui-assemblies-api-openapi.yml
 - filename: la-ruche-qui-dit-oui-authentication-api-openapi.yml
   format: yaml
   label: La Ruche qui dit Oui! Authentication API
   slug: la-ruche-qui-dit-oui-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/la-ruche-qui-dit-oui/openapi/la-ruche-qui-dit-oui-authentication-api-openapi.yml
 - filename: la-ruche-qui-dit-oui-orders-api-openapi.yml
   format: yaml
   label: La Ruche qui dit Oui! Orders API
   slug: la-ruche-qui-dit-oui-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-orders-api-openapi.yml
+  url: https://artifacts.apis.io/la-ruche-qui-dit-oui/openapi/la-ruche-qui-dit-oui-orders-api-openapi.yml
 - filename: la-ruche-qui-dit-oui-sale-api-openapi.yml
   format: yaml
   label: La Ruche qui dit Oui! Sale API
   slug: la-ruche-qui-dit-oui-sale-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/openapi/la-ruche-qui-dit-oui-sale-api-openapi.yml
+  url: https://artifacts.apis.io/la-ruche-qui-dit-oui/openapi/la-ruche-qui-dit-oui-sale-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -83,7 +83,7 @@ source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: https://github.
   \    - grant_type (value \"password\")\n    - client_id\n    - client_secret\n    - username\n    - password\n  - flow: refresh_token\n    tokenUrl: https://api.thefoodassembly.com/oauth/v2/token/\n    scopes: 0\n    parameters:\n    - grant_type (value \"refresh_token\")\n    - refresh_token\n    - client_id\n    - client_secret\n  token:\n    presentation: 'Authorization: Bearer <access_token>'\n    challenge_header: 'WWW-Authenticate: Bearer'\n    challenge_observed: '2026-07-19 at / and /me/'\n    documented_lifetime_seconds: 3600\n    token_type: bearer\n    refresh: >-\n      Every exchange returns a fresh refresh_token; clients must persist the new\n      one and discard the old.\n  sources:\n  - https://github.com/lrqdo/developer/blob/master/api.md\n  - openapi/la-ruche-qui-dit-oui-api-openapi.yml\n  - live probe of https://api.thefoodassembly.com\nscopes:\n  published: false\n  detail: >-\n    No scope registry is documented and the token response returns\n    \"scope\": null.\
   \ Authorization is all-or-nothing; least privilege cannot be\n    requested or verified. No scopes/ artifact is emitted for this repo because\n    there is nothing to record.\npublic_operations:\n- operation: listDistributionProducts\n  detail: The blueprint marks the distribution product listing as a public route.\ndiscovery:\n  openid_configuration: absent (404 on the API host)\n  oauth_authorization_server_metadata: absent (404 on the API host)\n  introspection_endpoint: none documented\n  revocation_endpoint: none documented\n  registration: >-\n    No self-service developer registration exists. client_id and client_secret\n    are not obtainable through any published portal — the documentation gives no\n    instructions for requesting credentials.\nposture:\n  rfc6749_compliant: true\n  rfc6750_compliant: true\n  rfc9700_compliant: false\n  concerns:\n  - >-\n    The resource-owner password credentials grant is the only documented grant.\n    RFC 9700 (OAuth 2.0 Security BCP) recommends\
   \ against it and OAuth 2.1\n    removes it, because it requires every client to handle the end user's\n    password directly.\n  - No PKCE and no authorization code flow are offered.\n  - No scopes, so tokens cannot be constrained to least privilege.\n  - No token introspection or revocation endpoint is documented.\n  - >-\n    No self-service credential issuance, so the API is effectively closed to new\n    integrators regardless of its documentation being public.\nknown_drift:\n  probed: '2026-07-19'\n  detail: >-\n    POST https://api.thefoodassembly.com/oauth/v2/token/ returned 404 with the\n    generic problemType envelope, while GET /me/ correctly returned 401 with a\n    Bearer challenge. The resource surface is live and gated but the documented\n    token endpoint no longer resolves at its published path.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/la-ruche-qui-dit-oui/refs/heads/main/authentication/la-ruche-qui-dit-oui-authentication.yml
+source_yaml_url: https://artifacts.apis.io/la-ruche-qui-dit-oui/authentication/la-ruche-qui-dit-oui-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

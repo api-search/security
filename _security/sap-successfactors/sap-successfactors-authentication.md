@@ -7,49 +7,49 @@ api_specs:
   label: SAP SuccessFactors EmpEmployment API
   slug: sap-successfactors-empemployment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-empemployment-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-empemployment-api-openapi.yml
 - filename: sap-successfactors-empjob-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors EmpJob API
   slug: sap-successfactors-empjob-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-empjob-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-empjob-api-openapi.yml
 - filename: sap-successfactors-focompany-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors FOCompany API
   slug: sap-successfactors-focompany-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-focompany-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-focompany-api-openapi.yml
 - filename: sap-successfactors-perperson-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors PerPerson API
   slug: sap-successfactors-perperson-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-perperson-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-perperson-api-openapi.yml
 - filename: sap-successfactors-upsert-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors Upsert API
   slug: sap-successfactors-upsert-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-upsert-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-upsert-api-openapi.yml
 - filename: sap-successfactors-user-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors User API
   slug: sap-successfactors-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-user-api-openapi.yml
 - filename: sap-successfactors-user-userid-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors User('{userId}') API
   slug: sap-successfactors-user-userid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-user-userid-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-user-userid-api-openapi.yml
 - filename: sap-successfactors-oauth-api-openapi.yml
   format: yaml
   label: SAP SuccessFactors OAUTH API
   slug: sap-successfactors-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/openapi/sap-successfactors-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/sap-successfactors/openapi/sap-successfactors-oauth-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -87,7 +87,7 @@ source_filename: sap-successfactors-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sap-successfactors-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://api.successfactors.com/oauth/token\n    scopes: 0\n  description: OAuth 2.0 SAML bearer assertion flow.\n  sources:\n  - openapi/sap-successfactors-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic auth with username@companyId and password.\n  sources:\n  - openapi/sap-successfactors-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/sap-successfactors/refs/heads/main/authentication/sap-successfactors-authentication.yml
+source_yaml_url: https://artifacts.apis.io/sap-successfactors/authentication/sap-successfactors-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - HCM

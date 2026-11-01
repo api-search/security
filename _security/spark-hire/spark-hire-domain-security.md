@@ -5,43 +5,43 @@ api_specs:
   label: Spark Hire Account API
   slug: spark-hire-account-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-account-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-account-api-openapi.yml
 - filename: spark-hire-interview-questions-api-openapi.yml
   format: yaml
   label: Spark Hire Interview Questions API
   slug: spark-hire-interview-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-interview-questions-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-interview-questions-api-openapi.yml
 - filename: spark-hire-interviews-api-openapi.yml
   format: yaml
   label: Spark Hire Interviews API
   slug: spark-hire-interviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-interviews-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-interviews-api-openapi.yml
 - filename: spark-hire-jobs-api-openapi.yml
   format: yaml
   label: Spark Hire Jobs API
   slug: spark-hire-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-jobs-api-openapi.yml
 - filename: spark-hire-share-links-api-openapi.yml
   format: yaml
   label: Spark Hire Share Links API
   slug: spark-hire-share-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-share-links-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-share-links-api-openapi.yml
 - filename: spark-hire-users-api-openapi.yml
   format: yaml
   label: Spark Hire Users API
   slug: spark-hire-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-users-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-users-api-openapi.yml
 - filename: spark-hire-webhooks-api-openapi.yml
   format: yaml
   label: Spark Hire Webhooks API
   slug: spark-hire-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/openapi/spark-hire-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/spark-hire/openapi/spark-hire-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -89,7 +89,7 @@ source_filename: spark-hire-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sparkhire.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 20 01:12:38 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.sparkhire.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  1 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.sparkhire.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  1 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sparkhire.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/spark-hire/refs/heads/main/security/spark-hire-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/spark-hire/security/spark-hire-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Video Interviewing

@@ -27,7 +27,7 @@ source_filename: musely-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.musely.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:25:52 2026 GMT\n  hsts: false\ndomains:\n- domain: musely.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/musely/refs/heads/main/security/musely-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/musely/security/musely-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

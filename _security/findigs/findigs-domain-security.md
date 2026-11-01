@@ -5,19 +5,19 @@ api_specs:
   label: Findigs Applications API
   slug: findigs-applications-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-applications-api-openapi.yml
+  url: https://artifacts.apis.io/findigs/openapi/findigs-applications-api-openapi.yml
 - filename: findigs-groups-api-openapi.yml
   format: yaml
   label: Findigs Groups API
   slug: findigs-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-groups-api-openapi.yml
+  url: https://artifacts.apis.io/findigs/openapi/findigs-groups-api-openapi.yml
 - filename: findigs-listings-api-openapi.yml
   format: yaml
   label: Findigs Listings API
   slug: findigs-listings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/openapi/findigs-listings-api-openapi.yml
+  url: https://artifacts.apis.io/findigs/openapi/findigs-listings-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: findigs-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.findigs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.getfindigs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  3 19:22:36 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.client.findigs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: findigs.com\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog\"\n  - 0 issuewild \"amazon.com\"\n  - 0 iodef \"mailto:security@findigs.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: getfindigs.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/findigs/refs/heads/main/security/findigs-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/findigs/security/findigs-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - rental-screening

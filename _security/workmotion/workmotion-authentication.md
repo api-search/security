@@ -7,43 +7,43 @@ api_specs:
   label: WorkMotion Absences API
   slug: workmotion-absences-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-absences-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-absences-api-openapi.yml
 - filename: workmotion-contracts-api-openapi.yml
   format: yaml
   label: WorkMotion Contracts API
   slug: workmotion-contracts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-contracts-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-contracts-api-openapi.yml
 - filename: workmotion-cost-calculator-api-openapi.yml
   format: yaml
   label: WorkMotion Cost Calculator API
   slug: workmotion-cost-calculator-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-cost-calculator-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-cost-calculator-api-openapi.yml
 - filename: workmotion-documents-api-openapi.yml
   format: yaml
   label: WorkMotion Documents API
   slug: workmotion-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-documents-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-documents-api-openapi.yml
 - filename: workmotion-employees-api-openapi.yml
   format: yaml
   label: WorkMotion Employees API
   slug: workmotion-employees-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-employees-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-employees-api-openapi.yml
 - filename: workmotion-onboarding-api-openapi.yml
   format: yaml
   label: WorkMotion Onboarding API
   slug: workmotion-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-onboarding-api-openapi.yml
 - filename: workmotion-webhooks-api-openapi.yml
   format: yaml
   label: WorkMotion Webhooks API
   slug: workmotion-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/openapi/workmotion-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/workmotion/openapi/workmotion-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -71,7 +71,7 @@ source_filename: workmotion-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/workmotion-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: OAuth 2.0 access token supplied as a Bearer token in the Authorization header.\n    Partner credentials are issued by WorkMotion.\n  sources:\n  - openapi/workmotion-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/workmotion/refs/heads/main/authentication/workmotion-authentication.yml
+source_yaml_url: https://artifacts.apis.io/workmotion/authentication/workmotion-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Employer of Record

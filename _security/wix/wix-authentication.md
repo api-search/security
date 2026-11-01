@@ -14,31 +14,31 @@ api_specs:
   label: Wix Cart API
   slug: wix-cart-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-cart-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-cart-api-openapi.yml
 - filename: wix-checkout-api-openapi.yml
   format: yaml
   label: Wix Checkout API
   slug: wix-checkout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-checkout-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-checkout-api-openapi.yml
 - filename: wix-orders-api-openapi.yml
   format: yaml
   label: Wix Orders API
   slug: wix-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-orders-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-orders-api-openapi.yml
 - filename: wix-products-api-openapi.yml
   format: yaml
   label: Wix Products API
   slug: wix-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-products-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-products-api-openapi.yml
 - filename: wix-oauth-api-openapi.yml
   format: yaml
   label: Wix O Auth API
   slug: wix-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/openapi/wix-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/wix/openapi/wix-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -78,7 +78,7 @@ source_filename: wix-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/wix-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.wix.com/installer/install\n    tokenUrl: https://www.wixapis.com/oauth2/token\n    scopes: 0\n  description: OAuth 2.0 for Wix third-party apps\n  sources:\n  - openapi/wix-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: API key authentication (Wix-account-only; not for third-party apps)\n  sources:\n  - openapi/wix-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/authentication/wix-authentication.yml
+source_yaml_url: https://artifacts.apis.io/wix/authentication/wix-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - CMS

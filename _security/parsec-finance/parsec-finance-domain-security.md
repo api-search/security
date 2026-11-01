@@ -41,7 +41,7 @@ source_filename: parsec-finance-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: parsec.fi\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 23:16:10 2026 GMT\n  hsts: null\n- host: docs.parsec.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 00:16:09 2026 GMT\n  hsts: null\n- host: api.parsec.finance\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 15 00:16:09 2026 GMT\n  hsts: null\ndomains:\n- domain: parsec.fi\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n- domain: parsec.finance\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/parsec-finance/refs/heads/main/security/parsec-finance-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/parsec-finance/security/parsec-finance-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

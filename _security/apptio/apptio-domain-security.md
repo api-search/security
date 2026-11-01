@@ -5,19 +5,19 @@ api_specs:
   label: Apptio Budgets API
   slug: apptio-budgets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-budgets-api-openapi.yml
+  url: https://artifacts.apis.io/apptio/openapi/apptio-budgets-api-openapi.yml
 - filename: apptio-cost-allocations-api-openapi.yml
   format: yaml
   label: Apptio Cost Allocations API
   slug: apptio-cost-allocations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-cost-allocations-api-openapi.yml
+  url: https://artifacts.apis.io/apptio/openapi/apptio-cost-allocations-api-openapi.yml
 - filename: apptio-reports-api-openapi.yml
   format: yaml
   label: Apptio Reports API
   slug: apptio-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/openapi/apptio-reports-api-openapi.yml
+  url: https://artifacts.apis.io/apptio/openapi/apptio-reports-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,7 +54,7 @@ source_filename: apptio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.apptio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 22:57:35 2026 GMT\n  hsts: true\n  hsts_max_age: 31622400\n- host: developer.apptio.com\n  https: false\n- host: api.apptio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  4 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: apptio.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/apptio/refs/heads/main/security/apptio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/apptio/security/apptio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Analytics

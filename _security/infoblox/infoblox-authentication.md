@@ -8,37 +8,37 @@ api_specs:
   label: Infoblox DHCP API
   slug: infoblox-dhcp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dhcp-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dhcp-api-openapi.yml
 - filename: infoblox-dns-records-api-openapi.yml
   format: yaml
   label: Infoblox DNS Records API
   slug: infoblox-dns-records-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dns-records-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dns-records-api-openapi.yml
 - filename: infoblox-dns-zones-api-openapi.yml
   format: yaml
   label: Infoblox DNS Zones API
   slug: infoblox-dns-zones-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-dns-zones-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-dns-zones-api-openapi.yml
 - filename: infoblox-grid-api-openapi.yml
   format: yaml
   label: Infoblox Grid API
   slug: infoblox-grid-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-grid-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-grid-api-openapi.yml
 - filename: infoblox-ip-address-management-api-openapi.yml
   format: yaml
   label: Infoblox IP Address Management API
   slug: infoblox-ip-address-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-ip-address-management-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-ip-address-management-api-openapi.yml
 - filename: infoblox-networks-api-openapi.yml
   format: yaml
   label: Infoblox Networks API
   slug: infoblox-networks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/openapi/infoblox-networks-api-openapi.yml
+  url: https://artifacts.apis.io/infoblox/openapi/infoblox-networks-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -73,7 +73,7 @@ source_filename: infoblox-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/infoblox-wapi-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - cookie\nschemes:\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic Authentication using NIOS admin credentials.\n  sources:\n  - openapi/infoblox-wapi-openapi.yml\n- name: cookieAuth\n  type: apiKey\n  in: cookie\n  parameter: ibapauth\n  description: Session cookie returned after successful authentication. Pass the ibapauth cookie\n    with subsequent requests to maintain an authenticated session.\n  sources:\n  - openapi/infoblox-wapi-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/infoblox/refs/heads/main/authentication/infoblox-authentication.yml
+source_yaml_url: https://artifacts.apis.io/infoblox/authentication/infoblox-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
 - Cloud

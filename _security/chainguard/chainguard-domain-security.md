@@ -43,7 +43,7 @@ source_filename: chainguard-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.chainguard.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 22 08:43:06 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: edu.chainguard.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 20:11:16 2026 GMT\n  hsts: false\n- host: console-api.enforce.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 28 18:39:08 2026 GMT\n  hsts: null\ndomains:\n- domain: chainguard.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: enforce.dev\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/chainguard/refs/heads/main/security/chainguard-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/chainguard/security/chainguard-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cloud-Native

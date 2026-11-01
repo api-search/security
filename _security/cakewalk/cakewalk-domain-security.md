@@ -39,7 +39,7 @@ source_filename: cakewalk-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.cakewalk.security\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 24 06:54:50 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: open-api.getcakewalk.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 00:50:56 2026 GMT\n  hsts: null\ndomains:\n- domain: cakewalk.security\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: getcakewalk.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cakewalk/refs/heads/main/security/cakewalk-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cakewalk/security/cakewalk-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

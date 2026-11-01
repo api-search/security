@@ -8,25 +8,25 @@ api_specs:
   label: Simple Analytics Events API
   slug: simpleanalytics-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-events-api-openapi.yml
+  url: https://artifacts.apis.io/simpleanalytics/openapi/simpleanalytics-events-api-openapi.yml
 - filename: simpleanalytics-export-api-openapi.yml
   format: yaml
   label: Simple Analytics Export API
   slug: simpleanalytics-export-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-export-api-openapi.yml
+  url: https://artifacts.apis.io/simpleanalytics/openapi/simpleanalytics-export-api-openapi.yml
 - filename: simpleanalytics-stats-api-openapi.yml
   format: yaml
   label: Simple Analytics Stats API
   slug: simpleanalytics-stats-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-stats-api-openapi.yml
+  url: https://artifacts.apis.io/simpleanalytics/openapi/simpleanalytics-stats-api-openapi.yml
 - filename: simpleanalytics-websites-api-openapi.yml
   format: yaml
   label: Simple Analytics Websites API
   slug: simpleanalytics-websites-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/openapi/simpleanalytics-websites-api-openapi.yml
+  url: https://artifacts.apis.io/simpleanalytics/openapi/simpleanalytics-websites-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Simple Analytics authenticates with a pair of custom headers, not a bearer token. There is no OAuth, no OIDC, no token exchange and no refresh — an Api-Key identifies the account and a User-Id identifies the principal, and Admin API calls need both. Two surfaces need no credential at all: public websites on the read APIs, and the server-side event collection endpoint.'
@@ -78,7 +78,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\ndocs: https://docs.simp
   \ alongside Api-Key on\n    Admin API calls; a non-UUIDv4 value returns HTTP 400 \"Invalid user id\n    format, it should be a UUIDv4\".\n  sources:\n  - https://docs.simpleanalytics.com/api/authenticate\n  - https://docs.simpleanalytics.com/api/admin\n  - openapi/simpleanalytics-events-api-openapi.yml\n  - openapi/simpleanalytics-export-api-openapi.yml\n  - openapi/simpleanalytics-stats-api-openapi.yml\n  - openapi/simpleanalytics-websites-api-openapi.yml\nrequirements_by_operation:\n- operation: getStats\n  required:\n  - Api-Key\n  conditional: true\n  note: Public websites answer with no credentials; private websites require Api-Key.\n- operation: exportDataPoints\n  required:\n  - Api-Key\n  conditional: true\n  note: >-\n    Verified answering anonymously for a public hostname on 2026-08-13. Private\n    hostnames require Api-Key and a Business or Enterprise plan.\n- operation: listWebsites\n  required:\n  - Api-Key\n  - User-Id\n  conditional: false\n- operation: addWebsite\n  required:\n\
   \  - Api-Key\n  - User-Id\n  conditional: false\n  note: Also requires a Business or Enterprise plan; calling it auto-upgrades the account.\n- operation: collectEvent\n  required: []\n  conditional: false\n  note: >-\n    queue.simpleanalyticscdn.com/events accepts unauthenticated POSTs — the\n    hostname in the payload is the routing key. There is no write credential.\nexample_request: |\n  curl \"https://simpleanalytics.com/api/websites\" \\\n    -H 'Content-Type: application/json' \\\n    -H 'Api-Key: sa_api_key_REDACTED_EXAMPLE' \\\n    -H 'User-Id: sa_user_id_00000000-0000-0000-0000-000000000000'\nfailure_modes:\n  note: >-\n    Authentication failures return HTTP 400, not 401 — an agent's standard\n    \"401 means re-auth\" heuristic will not fire here. Probed 2026-08-13.\n  observed:\n  - status: 400\n    body: '{\"success\": false, \"error\": \"No Api-Key found, specify via header\"}'\n  - status: 400\n    body: '{\"success\": false, \"error\": \"No User-Id defined\"}'\n  - status:\
   \ 400\n    body: '{\"success\": false, \"error\": \"Invalid user id format, it should be a UUIDv4\"}'\n  artifact: errors/simpleanalytics-problem-types.yml\nkey_management:\n  create: Account settings in the dashboard\n  rotate: Not documented\n  revoke: Not documented\n  expiry: No documented TTL\n  scopes: None — a key is all-or-nothing for the account\n  note: >-\n    No scoping, rotation or expiry story is published, so a leaked Api-Key plus\n    User-Id grants full account read and the ability to add billable websites\n    until it is manually replaced.\ndashboard_sso:\n  note: >-\n    Okta and Microsoft Entra SAML SSO are available for dashboard sign-in\n    (docs.simpleanalytics.com/okta-saml-sso, /microsoft-entra-saml-sso). This\n    governs human login only; it issues no API credential.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/simpleanalytics/refs/heads/main/authentication/simpleanalytics-authentication.yml
+source_yaml_url: https://artifacts.apis.io/simpleanalytics/authentication/simpleanalytics-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Analytics

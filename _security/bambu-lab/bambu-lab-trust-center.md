@@ -15,7 +15,7 @@ source_filename: bambu-lab-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: searched\nprobe: true\nsource: https://bambulab.com/en-us/trust-center\nurl: https://bambulab.com/en-us/trust-center\ncertifications:\n- GDPR\nevidence:\n- source: https://bambulab.com/en-us/trust-center\n  keywords:\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bambu-lab/refs/heads/main/security/bambu-lab-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/bambu-lab/security/bambu-lab-trust-center.yml
 summary_line: GDPR
 tags:
 - Company

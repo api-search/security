@@ -7,13 +7,13 @@ api_specs:
   label: Vettly Moderation API
   slug: vettly-moderation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vettly/refs/heads/main/openapi/vettly-moderation-api-openapi.yml
+  url: https://artifacts.apis.io/vettly/openapi/vettly-moderation-api-openapi.yml
 - filename: vettly-system-api-openapi.yml
   format: yaml
   label: Vettly System API
   slug: vettly-system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vettly/refs/heads/main/openapi/vettly-system-api-openapi.yml
+  url: https://artifacts.apis.io/vettly/openapi/vettly-system-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -41,7 +41,7 @@ source_filename: vettly-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-07'\nmethod: derived\nsource: openapi/vettly-content-moderation-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: API Key\n  description: Enter your API key starting with vettly_live_ or vettly_test_\n  sources:\n  - openapi/vettly-content-moderation-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vettly/refs/heads/main/authentication/vettly-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vettly/authentication/vettly-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Content Moderation

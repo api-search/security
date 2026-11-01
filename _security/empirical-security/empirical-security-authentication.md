@@ -7,19 +7,19 @@ api_specs:
   label: Empirical Security CVE Groups API
   slug: empirical-security-cve-groups-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cve-groups-api-openapi.yml
+  url: https://artifacts.apis.io/empirical-security/openapi/empirical-security-cve-groups-api-openapi.yml
 - filename: empirical-security-search-api-openapi.yml
   format: yaml
   label: Empirical Security Search API
   slug: empirical-security-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-search-api-openapi.yml
+  url: https://artifacts.apis.io/empirical-security/openapi/empirical-security-search-api-openapi.yml
 - filename: empirical-security-cves-api-openapi.yml
   format: yaml
   label: Empirical Security CV Es API
   slug: empirical-security-cves-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/openapi/empirical-security-cves-api-openapi.yml
+  url: https://artifacts.apis.io/empirical-security/openapi/empirical-security-cves-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: empirical-security-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: searched\nsource: openapi/empirical-security-openapi.yml\ndocs: https://docs.empiricalsecurity.com/authentication\nnotes: >-\n  OAuth 2.0 client credentials via FusionAuth. Create an API Client under\n  Settings -> API Clients in https://app.empiricalsecurity.com/, then POST\n  to the FusionAuth token endpoint with HTTP Basic (client_id:client_secret),\n  grant_type=client_credentials and the target-entity scope. The returned JWT\n  (valid one hour) is sent as Authorization: Bearer <JWT> on API requests.\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://empiricalsecurity.fusionauth.io/oauth2/token\n    scopes: 1\n  description: OAuth 2.0 client credentials flow via FusionAuth. Exchange client ID/secret (HTTP\n    Basic) for a one-hour JWT access token, then send it as a Bearer token.\n  sources:\n  - openapi/empirical-security-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/empirical-security/refs/heads/main/authentication/empirical-security-authentication.yml
+source_yaml_url: https://artifacts.apis.io/empirical-security/authentication/empirical-security-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Company

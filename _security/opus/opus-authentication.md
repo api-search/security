@@ -7,55 +7,55 @@ api_specs:
   label: Opus Brand Templates API
   slug: opus-brand-templates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-brand-templates-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-brand-templates-api-openapi.yml
 - filename: opus-censor-jobs-api-openapi.yml
   format: yaml
   label: Opus Censor Jobs API
   slug: opus-censor-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-censor-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-censor-jobs-api-openapi.yml
 - filename: opus-clip-project-api-openapi.yml
   format: yaml
   label: Opus Clip Project API
   slug: opus-clip-project-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-clip-project-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-clip-project-api-openapi.yml
 - filename: opus-collection-api-openapi.yml
   format: yaml
   label: Opus Collection API
   slug: opus-collection-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-collection-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-collection-api-openapi.yml
 - filename: opus-collection-content-api-openapi.yml
   format: yaml
   label: Opus Collection Content API
   slug: opus-collection-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-collection-content-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-collection-content-api-openapi.yml
 - filename: opus-exportableclip-api-openapi.yml
   format: yaml
   label: Opus ExportableClip API
   slug: opus-exportableclip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-exportableclip-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-exportableclip-api-openapi.yml
 - filename: opus-generative-jobs-api-openapi.yml
   format: yaml
   label: Opus Generative Jobs API
   slug: opus-generative-jobs-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-generative-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-generative-jobs-api-openapi.yml
 - filename: opus-social-posting-api-openapi.yml
   format: yaml
   label: Opus Social Posting API
   slug: opus-social-posting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-social-posting-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-social-posting-api-openapi.yml
 - filename: opus-transcripts-api-openapi.yml
   format: yaml
   label: Opus Transcripts API
   slug: opus-transcripts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/openapi/opus-transcripts-api-openapi.yml
+  url: https://artifacts.apis.io/opus/openapi/opus-transcripts-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -82,7 +82,7 @@ source_filename: opus-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: derived\nsource: openapi/opus-openapi-original.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/opus-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/opus/refs/heads/main/authentication/opus-authentication.yml
+source_yaml_url: https://artifacts.apis.io/opus/authentication/opus-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Company

@@ -28,7 +28,7 @@ source_filename: ciridae-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-18'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.ciridae.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 10:43:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: ciridae.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ciridae/refs/heads/main/security/ciridae-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ciridae/security/ciridae-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
@@ -38,7 +38,7 @@ tags:
 - ERP
 - Automation
 - Construction
-- Field Service
+- Field Service Management
 - Workforce Scheduling
 - CRM
 ---

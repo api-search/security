@@ -5,25 +5,25 @@ api_specs:
   label: Google Cloud Functions API
   slug: google-cloud-functions-functions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-functions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-functions-api-openapi.yml
 - filename: google-cloud-functions-locations-api-openapi.yml
   format: yaml
   label: Google Cloud Functions Locations API
   slug: google-cloud-functions-locations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-locations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-locations-api-openapi.yml
 - filename: google-cloud-functions-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Functions Operations API
   slug: google-cloud-functions-operations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-operations-api-openapi.yml
 - filename: google-cloud-functions-runtimes-api-openapi.yml
   format: yaml
   label: Google Cloud Functions Runtimes API
   slug: google-cloud-functions-runtimes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/openapi/google-cloud-functions-runtimes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-runtimes-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +66,7 @@ source_filename: google-cloud-functions-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: cloudfunctions.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-functions/refs/heads/main/security/google-cloud-functions-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-functions/security/google-cloud-functions-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Event-Driven

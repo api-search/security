@@ -49,7 +49,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml hosts (base probe extended by hand to\n  the developer-portal, corporate and technology hosts)\nhosts:\n- host: www.lastminute.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  7 09:53:25 2026 GMT\n  hsts: null\n  notes: consumer storefront; returns 403 to non-browser clients (bot protection)\n- host: developers.lastminute.com\n  https: true\n  cert_expires: Aug 31 01:11:16 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  notes: Stoplight-hosted API portal\n- host: corporate.lastminute.com\n  https: true\n  cert_expires: Sep  8 20:40:52 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n  hsts_include_subdomains: true\n  hsts_preload: true\n  notes: corporate/investor site (WordPress)\n- host: technology.lastminute.com\n  https: true\n  cert_expires: Nov  3 23:59:59 2026 GMT\n  hsts: null\n  notes: engineering blog; no HSTS header observed\n\
   domains:\n- domain: lastminute.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/lastminute-com/refs/heads/main/security/lastminute-com-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/lastminute-com/security/lastminute-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

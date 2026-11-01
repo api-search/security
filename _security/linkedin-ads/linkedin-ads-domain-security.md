@@ -5,31 +5,31 @@ api_specs:
   label: LinkedIn Marketing API AdBudgetPricing API
   slug: linkedin-ads-adbudgetpricing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adbudgetpricing-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-adbudgetpricing-api-openapi.yml
 - filename: linkedin-ads-adtargetingfacets-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API AdTargetingFacets API
   slug: linkedin-ads-adtargetingfacets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-adtargetingfacets-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-adtargetingfacets-api-openapi.yml
 - filename: linkedin-ads-ad-accounts-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Ad Accounts API
   slug: linkedin-ads-ad-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-ad-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-ad-accounts-api-openapi.yml
 - filename: linkedin-ads-ad-targeting-entities-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Ad Targeting Entities API
   slug: linkedin-ads-ad-targeting-entities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-ad-targeting-entities-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-ad-targeting-entities-api-openapi.yml
 - filename: linkedin-ads-audience-counts-api-openapi.yml
   format: yaml
   label: LinkedIn Marketing API Audience Counts API
   slug: linkedin-ads-audience-counts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/openapi/linkedin-ads-audience-counts-api-openapi.yml
+  url: https://artifacts.apis.io/linkedin-ads/openapi/linkedin-ads-audience-counts-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -95,7 +95,7 @@ source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nnote: >-\n  The mechanical probe only reached learn.microsoft.com (the documentation host\n  named in apis.yml). The LinkedIn hosts that actually matter — the API host and\n  the developer/member hosts — were probed by hand on the same day and are\n  recorded below with the same fields.\nhosts:\n  - host: api.linkedin.com\n    https: true\n    tls_version: TLSv1.3\n    cert_expires: Nov 13 23:59:59 2026 GMT\n    hsts: true\n    hsts_max_age: 31536000\n  - host: www.linkedin.com\n    https: true\n    tls_version: TLSv1.3\n    cert_expires: Sep 19 23:59:59 2026 GMT\n    hsts: true\n    hsts_max_age: 31536000\n  - host: business.linkedin.com\n    https: true\n    tls_version: TLSv1.3\n    cert_expires: Sep 19 23:59:59 2026 GMT\n    hsts: true\n    hsts_max_age: 31536000\n  - host: developer.linkedin.com\n    https: true\n    tls_version: TLSv1.3\n    cert_expires: Sep 19 23:59:59\
   \ 2026 GMT\n    hsts: true\n    hsts_max_age: 31536000\n  - host: learn.microsoft.com\n    https: true\n    tls_version: TLSv1.3\n    cert_expires: Dec 11 02:26:09 2026 GMT\n    hsts: true\n    hsts_max_age: 31536000\ndomains:\n  - domain: linkedin.com\n    dnssec: false\n    caa:\n      - 0 contactemail \"caarecordaware@microsoft.com\"\n      - 0 contactemail \"tls-alerts@linkedin.com\"\n    caa_issue_restriction: false\n    spf: true\n    dmarc: true\n    dmarc_policy: reject\n    note: >-\n      CAA records are present but carry only contactemail properties — there is\n      no issue/issuewild restriction, so CAA is not constraining which CAs may\n      issue for linkedin.com.\n  - domain: microsoft.com\n    dnssec: false\n    caa:\n      - 0 contactemail \"caarecordaware@microsoft.com\"\n    spf: true\n    dmarc: true\n    dmarc_policy: reject\nx-evidence:\n  fetched: '2026-08-13'\n  method_detail: openssl s_client per host, curl -I for HSTS, dig for DNSKEY/CAA/TXT/_dmarc\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/linkedin-ads/refs/heads/main/security/linkedin-ads-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/linkedin-ads/security/linkedin-ads-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising

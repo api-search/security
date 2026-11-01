@@ -7,25 +7,25 @@ api_specs:
   label: Vayana Network Authorization Suite API
   slug: vayana-network-authorization-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-authorization-suite-api-openapi.yml
+  url: https://artifacts.apis.io/vayana-network/openapi/vayana-network-authorization-suite-api-openapi.yml
 - filename: vayana-network-compliance-suite-api-openapi.yml
   format: yaml
   label: Vayana Network Compliance Suite API
   slug: vayana-network-compliance-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-compliance-suite-api-openapi.yml
+  url: https://artifacts.apis.io/vayana-network/openapi/vayana-network-compliance-suite-api-openapi.yml
 - filename: vayana-network-support-suite-api-openapi.yml
   format: yaml
   label: Vayana Network Support Suite API
   slug: vayana-network-support-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-support-suite-api-openapi.yml
+  url: https://artifacts.apis.io/vayana-network/openapi/vayana-network-support-suite-api-openapi.yml
 - filename: vayana-network-verification-suite-api-openapi.yml
   format: yaml
   label: Vayana Network Verification Suite API
   slug: vayana-network-verification-suite-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/openapi/vayana-network-verification-suite-api-openapi.yml
+  url: https://artifacts.apis.io/vayana-network/openapi/vayana-network-verification-suite-api-openapi.yml
 auth_types:
 - http
 - apiKey
@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: https://docs.en
   \ >-\n    Per-taxpayer credentials for the downstream government portal, passed through on each call:\n    GSTIN, portal username, and password. The password may be sent in plain text\n    (X-FLYNN-N-IRP-PWD / X-FLYNN-N-EWB-PWD) or AES-encrypted under the REK\n    (X-FLYNN-S-IRP-PWD / X-FLYNN-S-EWB-PWD). This is a delegated-credential model, not\n    a Vayana-issued key.\n  sources:\n  - https://docs.enriched-api.vayana.com/2-encryption-support/\nencryption:\n  key_exchange: RSA with PKCS1Padding, under a Vayana-published server public key\n  public_keys_published: true\n  public_key_source: https://docs.enriched-api.vayana.com/3-downloads/\n  payload_cipher: AES\n  modes:\n  - id: ECB\n    default: true\n    transformation: AES/ECB/PKCS7PADDING\n    note: Applied when X-FLYNN-N-AES-ENCRYPTION-MODE is absent.\n  - id: CBC\n    default: false\n    transformation: AES/CBC/PKCS7PADDING\n    note: >-\n      Selected by sending X-FLYNN-N-AES-ENCRYPTION-MODE=CBC. The initialization vector is\
   \ sent\n      base64-encoded in X-FLYNN-S-IV, itself RSA-encrypted under the EAS server public key.\n  header_conventions:\n  - prefix: X-FLYNN-N-\n    meaning: non-sensitive plain-text header value\n  - prefix: X-FLYNN-S-\n    meaning: sensitive value, AES-encrypted under the REK and base64-encoded\ntoken_lifecycle:\n  issue_operation: POST /theodore/apis/v1/authtokens\n  refresh_operation: PUT /theodore/apis/v1/authtokens\n  revoke_operation: POST /theodore/apis/v1/logout\n  default_duration_minutes: 20\n  max_duration_minutes: 360\n  duration_parameter: tokenDurationInMins\n  hard_session_expiry: 6x the token duration; after hard expiry the token cannot be refreshed and the user must re-authenticate\n  max_active_sessions_per_user: 10\n  source: https://docs.enriched-api.vayana.com/1s1-onboarding/\nsso_endpoints:\n- environment: production\n  base_url: https://services.vayana.com/theodore/apis/v1\n  health: https://services.vayana.com/theodore/apis/health\n- environment: sandbox\n \
   \ base_url: https://sandbox.services.vayananet.com/theodore/apis/v1\n  health: https://sandbox.services.vayananet.com/theodore/apis/health\ngaps:\n- No OAuth 2.0 or OpenID Connect flow is published; there is no authorization-code or\n  client-credentials grant and therefore no scope vocabulary.\n- The Atlas OpenAPI declares BearerAuth in components.securitySchemes but sets no top-level\n  `security` requirement and attaches no `security` block to any of its 65 operations, so the\n  contract does not itself state which operations require the token.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/vayana-network/refs/heads/main/authentication/vayana-network-authentication.yml
+source_yaml_url: https://artifacts.apis.io/vayana-network/authentication/vayana-network-authentication.yml
 summary_line: http/apiKey · 6 schemes
 tags:
 - Company

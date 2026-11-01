@@ -7,67 +7,67 @@ api_specs:
   label: Boltic Certificates API
   slug: boltic-certificates-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-certificates-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-certificates-api-openapi.yml
 - filename: boltic-consumers-api-openapi.yml
   format: yaml
   label: Boltic Consumers API
   slug: boltic-consumers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-consumers-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-consumers-api-openapi.yml
 - filename: boltic-destinations-api-openapi.yml
   format: yaml
   label: Boltic Destinations API
   slug: boltic-destinations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-destinations-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-destinations-api-openapi.yml
 - filename: boltic-events-api-openapi.yml
   format: yaml
   label: Boltic Events API
   slug: boltic-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-events-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-events-api-openapi.yml
 - filename: boltic-executions-api-openapi.yml
   format: yaml
   label: Boltic Executions API
   slug: boltic-executions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-executions-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-executions-api-openapi.yml
 - filename: boltic-plugins-api-openapi.yml
   format: yaml
   label: Boltic Plugins API
   slug: boltic-plugins-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-plugins-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-plugins-api-openapi.yml
 - filename: boltic-routes-api-openapi.yml
   format: yaml
   label: Boltic Routes API
   slug: boltic-routes-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-routes-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-routes-api-openapi.yml
 - filename: boltic-services-api-openapi.yml
   format: yaml
   label: Boltic Services API
   slug: boltic-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-services-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-services-api-openapi.yml
 - filename: boltic-stream-sources-api-openapi.yml
   format: yaml
   label: Boltic Stream Sources API
   slug: boltic-stream-sources-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-stream-sources-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-stream-sources-api-openapi.yml
 - filename: boltic-triggers-api-openapi.yml
   format: yaml
   label: Boltic Triggers API
   slug: boltic-triggers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-triggers-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-triggers-api-openapi.yml
 - filename: boltic-workflows-api-openapi.yml
   format: yaml
   label: Boltic Workflows API
   slug: boltic-workflows-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/openapi/boltic-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/boltic/openapi/boltic-workflows-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -98,7 +98,7 @@ source_filename: boltic-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/boltic-gateway-api-openapi.yml, openapi/boltic-pipes-api-openapi.yml, openapi/boltic-streams-api-openapi.yml,\n  openapi/boltic-tables-api-openapi.yml, openapi/boltic-workflow-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/boltic-gateway-api-openapi.yml\n  - openapi/boltic-pipes-api-openapi.yml\n  - openapi/boltic-streams-api-openapi.yml\n  - openapi/boltic-tables-api-openapi.yml\n  - openapi/boltic-workflow-api-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/boltic/refs/heads/main/authentication/boltic-authentication.yml
+source_yaml_url: https://artifacts.apis.io/boltic/authentication/boltic-authentication.yml
 summary_line: http · 1 scheme
 tags:
 - Automation

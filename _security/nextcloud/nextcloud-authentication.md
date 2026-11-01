@@ -7,25 +7,25 @@ api_specs:
   label: Nextcloud Autocomplete API
   slug: nextcloud-autocomplete-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/openapi/nextcloud-autocomplete-api-openapi.yml
+  url: https://artifacts.apis.io/nextcloud/openapi/nextcloud-autocomplete-api-openapi.yml
 - filename: nextcloud-capabilities-api-openapi.yml
   format: yaml
   label: Nextcloud Capabilities API
   slug: nextcloud-capabilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/openapi/nextcloud-capabilities-api-openapi.yml
+  url: https://artifacts.apis.io/nextcloud/openapi/nextcloud-capabilities-api-openapi.yml
 - filename: nextcloud-dav-api-openapi.yml
   format: yaml
   label: Nextcloud DAV API
   slug: nextcloud-dav-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/openapi/nextcloud-dav-api-openapi.yml
+  url: https://artifacts.apis.io/nextcloud/openapi/nextcloud-dav-api-openapi.yml
 - filename: nextcloud-users-api-openapi.yml
   format: yaml
   label: Nextcloud Users API
   slug: nextcloud-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/openapi/nextcloud-users-api-openapi.yml
+  url: https://artifacts.apis.io/nextcloud/openapi/nextcloud-users-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -58,7 +58,7 @@ source_filename: nextcloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/nextcloud-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BasicAuth\n  type: http\n  scheme: basic\n  description: Username + password or username + app token\n  sources:\n  - openapi/nextcloud-openapi.yml\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: OIDC bearer token issued by an external identity provider\n  sources:\n  - openapi/nextcloud-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/nextcloud/refs/heads/main/authentication/nextcloud-authentication.yml
+source_yaml_url: https://artifacts.apis.io/nextcloud/authentication/nextcloud-authentication.yml
 summary_line: http · 2 schemes
 tags:
 - File Sync

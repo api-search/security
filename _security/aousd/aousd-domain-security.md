@@ -43,7 +43,7 @@ source_filename: aousd-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aousd.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 19:15:50 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: openusd.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 14 23:59:59 2026 GMT\n  hsts: false\n- host: pypi.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 29 04:33:07 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: aousd.org\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n- domain: openusd.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/aousd/refs/heads/main/security/aousd-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/aousd/security/aousd-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
 - 3D

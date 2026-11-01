@@ -9,25 +9,25 @@ api_specs:
   label: Fullcast Copilot API
   slug: fullcast-copilot-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-copilot-api-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-copilot-api-api-openapi.yml
 - filename: fullcast-mcp-info-api-openapi.yml
   format: yaml
   label: Fullcast Mcp Info API
   slug: fullcast-mcp-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-mcp-info-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-mcp-info-api-openapi.yml
 - filename: fullcast-well-known-api-openapi.yml
   format: yaml
   label: Fullcast .well Known API
   slug: fullcast-well-known-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-well-known-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-well-known-api-openapi.yml
 - filename: fullcast-oauth-api-openapi.yml
   format: yaml
   label: Fullcast OAUTH API
   slug: fullcast-oauth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/openapi/fullcast-oauth-api-openapi.yml
+  url: https://artifacts.apis.io/fullcast/openapi/fullcast-oauth-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -151,7 +151,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/fullcas
   \    pkce: [S256]\n    token_endpoint_auth_methods: [client_secret_post, none]\n    scopes: []\n  sources: [well-known/fullcast-app-mcp-oauth-authorization-server.json]\n  verified: >-\n    401 MISSING_BEARER with WWW-Authenticate Bearer realm=\"mcp-openapi\" observed 2026-08-13\n- name: Fullcast Assistant OAuth 2.1\n  type: oauth2\n  surface: Fullcast Assistant MCP Server\n  host: https://assistant.fullcast.io\n  bearer_in: header\n  flows:\n  - flow: authorizationCode\n    issuer: https://assistant.fullcast.io\n    authorizationUrl: https://assistant.fullcast.io/oauth/authorize\n    tokenUrl: https://assistant.fullcast.io/oauth/token\n    registrationUrl: https://assistant.fullcast.io/oauth/register\n    userinfoUrl: https://assistant.fullcast.io/oauth/userinfo\n    pkce: [plain, S256]\n    token_endpoint_auth_methods: [client_secret_post, none]\n    scopes: [openid, email, profile, offline_access, 'mcp:resources', 'mcp:tools', 'mcp:prompts']\n  sources: [well-known/fullcast-assistant-oauth-authorization-server.json]\n\
   \  refresh_tokens: true\n  token_response_fields: [access_token, jwe_access_token, token_type, expires_in, refresh_token, scope]\n- name: Copy.ai workspace API key\n  type: apiKey\n  in: header\n  parameter: x-copy-ai-api-key\n  surface: Fullcast Copy.ai Workflows API\n  host: https://api.copy.ai/api\n  sources: [https://support.fullcast.com/copy-ai/docs/api-key-management.md]\n  lifecycle:\n    created_in: Configuration > API Keys > Create API Key\n    shown_once: true\n    default_expiry: never\n    recommended_expiry: 12 months\n    permission_model: key inherits all access permissions of the user it is assigned to\n    scoping_advice: assign the key to a restricted user or Teamspace to limit its blast radius\n    operations: [disable, enable, rename, delete]\n    managed_by: [Workspace Owner, Admin]\ntenant_gate:\n  note: >-\n    MCP access is off by default. A tenant admin must enable it at\n    Settings > Application Settings > AI & Agents > Enable AI Assistant Features before any\n\
   \    token will work.\n  docs: https://support.fullcast.com/docs/enable-ai-features.md\nplatform_controls:\n- multi-factor authentication\n- role-based access control with granular permissions\n- IP and country login restrictions (https://support.fullcast.com/docs/configure-ip-and-country-restrictions.md)\ngaps:\n- >-\n  The OpenAPI does not declare the OAuth 2.1 scheme its own /oauth/* operations implement, so\n  a generated client sees only cookie + CSRF auth. Captured as a correction in\n  overlays/fullcast-assistant-overlay.yaml.\n- The assistant issuer still advertises PKCE method \"plain\" alongside S256.\n- 'mcp:tools is a single scope covering both read and write tools; there is no read-only scope.'\n- No published developer API key exists for the Fullcast platform itself - only for the acquired Copy.ai product.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/fullcast/refs/heads/main/authentication/fullcast-authentication.yml
+source_yaml_url: https://artifacts.apis.io/fullcast/authentication/fullcast-authentication.yml
 summary_line: apiKey/oauth2 · 5 schemes
 tags:
 - Company

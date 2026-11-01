@@ -5,19 +5,19 @@ api_specs:
   label: Smithsonian Institution Content API
   slug: smithsonian-content-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-content-api-openapi.yml
+  url: https://artifacts.apis.io/smithsonian/openapi/smithsonian-content-api-openapi.yml
 - filename: smithsonian-metrics-api-openapi.yml
   format: yaml
   label: Smithsonian Institution Metrics API
   slug: smithsonian-metrics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/smithsonian/openapi/smithsonian-metrics-api-openapi.yml
 - filename: smithsonian-search-api-openapi.yml
   format: yaml
   label: Smithsonian Institution Search API
   slug: smithsonian-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/openapi/smithsonian-search-api-openapi.yml
+  url: https://artifacts.apis.io/smithsonian/openapi/smithsonian-search-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -61,7 +61,7 @@ source_filename: smithsonian-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.si.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 16 09:59:07 2026 GMT\n  hsts: false\n- host: edan.si.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: false\n- host: api.si.edu\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  8 15:21:06 2026 GMT\n  hsts: null\ndomains:\n- domain: si.edu\n  dnssec: true\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/smithsonian/refs/heads/main/security/smithsonian-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/smithsonian/security/smithsonian-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Museums

@@ -5,19 +5,19 @@ api_specs:
   label: Digital Realty Auth API
   slug: digital-realty-auth-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/openapi/digital-realty-auth-api-openapi.yml
+  url: https://artifacts.apis.io/digital-realty/openapi/digital-realty-auth-api-openapi.yml
 - filename: digital-realty-facility-access-api-openapi.yml
   format: yaml
   label: Digital Realty Facility Access API
   slug: digital-realty-facility-access-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/openapi/digital-realty-facility-access-api-openapi.yml
+  url: https://artifacts.apis.io/digital-realty/openapi/digital-realty-facility-access-api-openapi.yml
 - filename: digital-realty-remotehands-tickets-api-openapi.yml
   format: yaml
   label: Digital Realty Remotehands Tickets API
   slug: digital-realty-remotehands-tickets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/openapi/digital-realty-remotehands-tickets-api-openapi.yml
+  url: https://artifacts.apis.io/digital-realty/openapi/digital-realty-remotehands-tickets-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -52,10 +52,10 @@ source_filename: digital-realty-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.digitalrealty.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 22 01:32:42 2026 GMT\n  hsts: false\ndomains:\n- domain: digitalrealty.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"entrust.net\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/digital-realty/refs/heads/main/security/digital-realty-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/digital-realty/security/digital-realty-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- DataCenter
+- Data Center
 - Colocation
 - Cloud
 - Infrastructure

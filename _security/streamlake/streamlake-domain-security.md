@@ -5,7 +5,7 @@ api_specs:
   label: StreamLake Gateway API
   slug: streamlake-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/streamlake/refs/heads/main/openapi/streamlake-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/streamlake/openapi/streamlake-gateway-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,7 +38,7 @@ source_filename: streamlake-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: streamlake.ai\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Feb 22 03:32:45 2027 GMT\n  hsts: false\n- host: vanchin.streamlake.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 03:04:05 2026 GMT\n  hsts: false\ndomains:\n- domain: streamlake.ai\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/streamlake/refs/heads/main/security/streamlake-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/streamlake/security/streamlake-domain-security.yml
 summary_line: TLSv1.2
 tags:
 - Company

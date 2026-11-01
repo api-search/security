@@ -41,7 +41,7 @@ source_filename: resulticks-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.resulticks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 09:55:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gud.resulticks.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  6 09:55:20 2026 GMT\n  hsts: false\n- host: apis.resu.io\n  https: false\ndomains:\n- domain: resulticks.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: resu.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/resulticks/refs/heads/main/security/resulticks-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/resulticks/security/resulticks-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company

@@ -5,43 +5,43 @@ api_specs:
   label: mParticle Data Plan API
   slug: mparticle-data-plan-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-data-plan-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-data-plan-api-openapi.yml
 - filename: mparticle-data-plan-version-api-openapi.yml
   format: yaml
   label: mParticle Data Plan Version API
   slug: mparticle-data-plan-version-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-data-plan-version-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-data-plan-version-api-openapi.yml
 - filename: mparticle-events-api-openapi.yml
   format: yaml
   label: mParticle Events API
   slug: mparticle-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-events-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-events-api-openapi.yml
 - filename: mparticle-identify-api-openapi.yml
   format: yaml
   label: mParticle Identify API
   slug: mparticle-identify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-identify-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-identify-api-openapi.yml
 - filename: mparticle-login-api-openapi.yml
   format: yaml
   label: mParticle Login API
   slug: mparticle-login-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-login-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-login-api-openapi.yml
 - filename: mparticle-logout-api-openapi.yml
   format: yaml
   label: mParticle Logout API
   slug: mparticle-logout-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-logout-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-logout-api-openapi.yml
 - filename: mparticle-modify-api-openapi.yml
   format: yaml
   label: mParticle Modify API
   slug: mparticle-modify-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/openapi/mparticle-modify-api-openapi.yml
+  url: https://artifacts.apis.io/mparticle/openapi/mparticle-modify-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -87,7 +87,7 @@ source_filename: mparticle-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-13'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.mparticle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 28 10:00:01 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.mparticle.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 16:14:54 2026 GMT\n  hsts: false\n- host: s2s.mparticle.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 30 16:14:54 2026 GMT\n  hsts: null\ndomains:\n- domain: mparticle.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issuewild \"globalsign.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"mailto:security@mparticle.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/mparticle/refs/heads/main/security/mparticle-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/mparticle/security/mparticle-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Customer Data Platform

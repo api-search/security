@@ -28,7 +28,7 @@ source_filename: gin-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: gin-gonic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 18:48:17 2026 GMT\n  hsts: true\n  hsts_max_age: 0\ndomains:\n- domain: gin-gonic.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/gin/refs/heads/main/security/gin-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/gin/security/gin-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Microservices

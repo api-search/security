@@ -7,19 +7,19 @@ api_specs:
   label: Google Cloud VMware Engine Clusters API
   slug: google-cloud-vmware-engine-clusters-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-clusters-api-openapi.yml
 - filename: google-cloud-vmware-engine-privateclouds-api-openapi.yml
   format: yaml
   label: Google Cloud VMware Engine PrivateClouds API
   slug: google-cloud-vmware-engine-privateclouds-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-privateclouds-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-privateclouds-api-openapi.yml
 - filename: google-cloud-vmware-engine-network-policies-api-openapi.yml
   format: yaml
   label: Google Cloud VMware Engine Network Policies API
   slug: google-cloud-vmware-engine-network-policies-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/openapi/google-cloud-vmware-engine-network-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-network-policies-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +50,7 @@ source_filename: google-cloud-vmware-engine-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/vmwareengine-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/vmwareengine-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/authentication/google-cloud-vmware-engine-authentication.yml
+source_yaml_url: https://artifacts.apis.io/google-cloud-vmware-engine/authentication/google-cloud-vmware-engine-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Compute

@@ -28,7 +28,7 @@ source_filename: bittrexllc-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bittrex.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Nov 30 06:47:32 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\ndomains:\n- domain: bittrex.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bittrexllc/refs/heads/main/security/bittrexllc-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bittrexllc/security/bittrexllc-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company

@@ -5,43 +5,43 @@ api_specs:
   label: CleanCloud Business and Reporting API
   slug: drycleancloud-business-and-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-business-and-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-business-and-reporting-api-openapi.yml
 - filename: drycleancloud-customers-api-openapi.yml
   format: yaml
   label: CleanCloud Customers API
   slug: drycleancloud-customers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-customers-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-customers-api-openapi.yml
 - filename: drycleancloud-messaging-api-openapi.yml
   format: yaml
   label: CleanCloud Messaging API
   slug: drycleancloud-messaging-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-messaging-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-messaging-api-openapi.yml
 - filename: drycleancloud-orders-api-openapi.yml
   format: yaml
   label: CleanCloud Orders API
   slug: drycleancloud-orders-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-orders-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-orders-api-openapi.yml
 - filename: drycleancloud-payments-api-openapi.yml
   format: yaml
   label: CleanCloud Payments API
   slug: drycleancloud-payments-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-payments-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-payments-api-openapi.yml
 - filename: drycleancloud-pickup-and-delivery-api-openapi.yml
   format: yaml
   label: CleanCloud Pickup and Delivery API
   slug: drycleancloud-pickup-and-delivery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-pickup-and-delivery-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-pickup-and-delivery-api-openapi.yml
 - filename: drycleancloud-products-api-openapi.yml
   format: yaml
   label: CleanCloud Products API
   slug: drycleancloud-products-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/openapi/drycleancloud-products-api-openapi.yml
+  url: https://artifacts.apis.io/drycleancloud/openapi/drycleancloud-products-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,13 +82,13 @@ source_filename: drycleancloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cleancloudapp.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 12 23:59:59 2027 GMT\n  hsts: false\n- host: help.cleancloud.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 21 13:46:35 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: cleancloudapp.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: cleancloud.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/drycleancloud/refs/heads/main/security/drycleancloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/drycleancloud/security/drycleancloud-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Dry Cleaning
 - Laundry
 - Point-of-Sale
-- Field Service
+- Field Service Management
 - Pickup and Delivery
 - Small Business
 ---

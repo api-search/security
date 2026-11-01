@@ -8,127 +8,127 @@ api_specs:
   label: Coin Railz AI Services API
   slug: coinrailz-com-ai-services-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-ai-services-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-ai-services-api-openapi.yml
 - filename: coinrailz-com-base-native-api-openapi.yml
   format: yaml
   label: Coin Railz Base Native API
   slug: coinrailz-com-base-native-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-base-native-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-base-native-api-openapi.yml
 - filename: coinrailz-com-defi-yield-api-openapi.yml
   format: yaml
   label: Coin Railz DeFi & Yield API
   slug: coinrailz-com-defi-yield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-defi-yield-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-defi-yield-api-openapi.yml
 - filename: coinrailz-com-developer-tools-api-openapi.yml
   format: yaml
   label: Coin Railz Developer Tools API
   slug: coinrailz-com-developer-tools-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-developer-tools-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-developer-tools-api-openapi.yml
 - filename: coinrailz-com-discovery-api-openapi.yml
   format: yaml
   label: Coin Railz Discovery API
   slug: coinrailz-com-discovery-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-discovery-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-discovery-api-openapi.yml
 - filename: coinrailz-com-execution-api-openapi.yml
   format: yaml
   label: Coin Railz Execution API
   slug: coinrailz-com-execution-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-execution-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-execution-api-openapi.yml
 - filename: coinrailz-com-investment-api-openapi.yml
   format: yaml
   label: Coin Railz Investment API
   slug: coinrailz-com-investment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-investment-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-investment-api-openapi.yml
 - filename: coinrailz-com-iot-depin-api-openapi.yml
   format: yaml
   label: Coin Railz IoT & DePIN API
   slug: coinrailz-com-iot-depin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-iot-depin-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-iot-depin-api-openapi.yml
 - filename: coinrailz-com-market-intelligence-api-openapi.yml
   format: yaml
   label: Coin Railz Market Intelligence API
   slug: coinrailz-com-market-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-market-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-market-intelligence-api-openapi.yml
 - filename: coinrailz-com-mpp-api-openapi.yml
   format: yaml
   label: Coin Railz MPP API
   slug: coinrailz-com-mpp-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-mpp-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-mpp-api-openapi.yml
 - filename: coinrailz-com-onboarding-api-openapi.yml
   format: yaml
   label: Coin Railz Onboarding API
   slug: coinrailz-com-onboarding-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-onboarding-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-onboarding-api-openapi.yml
 - filename: coinrailz-com-prediction-markets-api-openapi.yml
   format: yaml
   label: Coin Railz Prediction Markets API
   slug: coinrailz-com-prediction-markets-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-prediction-markets-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-prediction-markets-api-openapi.yml
 - filename: coinrailz-com-premium-api-openapi.yml
   format: yaml
   label: Coin Railz Premium API
   slug: coinrailz-com-premium-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-premium-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-premium-api-openapi.yml
 - filename: coinrailz-com-real-estate-api-openapi.yml
   format: yaml
   label: Coin Railz Real Estate API
   slug: coinrailz-com-real-estate-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-real-estate-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-real-estate-api-openapi.yml
 - filename: coinrailz-com-risk-compliance-apis-api-openapi.yml
   format: yaml
   label: Coin Railz Risk & Compliance APIs API
   slug: coinrailz-com-risk-compliance-apis-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-risk-compliance-apis-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-risk-compliance-apis-api-openapi.yml
 - filename: coinrailz-com-robinhood-chain-api-openapi.yml
   format: yaml
   label: Coin Railz Robinhood Chain API
   slug: coinrailz-com-robinhood-chain-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-robinhood-chain-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-robinhood-chain-api-openapi.yml
 - filename: coinrailz-com-rwa-tokenization-api-openapi.yml
   format: yaml
   label: Coin Railz RWA & Tokenization API
   slug: coinrailz-com-rwa-tokenization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-rwa-tokenization-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-rwa-tokenization-api-openapi.yml
 - filename: coinrailz-com-satellite-intelligence-api-openapi.yml
   format: yaml
   label: Coin Railz Satellite Intelligence API
   slug: coinrailz-com-satellite-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-satellite-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-satellite-intelligence-api-openapi.yml
 - filename: coinrailz-com-solana-yield-api-openapi.yml
   format: yaml
   label: Coin Railz Solana Yield API
   slug: coinrailz-com-solana-yield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-solana-yield-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-solana-yield-api-openapi.yml
 - filename: coinrailz-com-trading-intelligence-api-openapi.yml
   format: yaml
   label: Coin Railz Trading Intelligence API
   slug: coinrailz-com-trading-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-trading-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-trading-intelligence-api-openapi.yml
 - filename: coinrailz-com-yield-api-openapi.yml
   format: yaml
   label: Coin Railz Yield API
   slug: coinrailz-com-yield-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/openapi/coinrailz-com-yield-api-openapi.yml
+  url: https://artifacts.apis.io/coinrailz-com/openapi/coinrailz-com-yield-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -178,7 +178,7 @@ source_url: ''
 source_yaml: "generated: '2026-09-19'\nmethod: searched\nsource: openapi/coinrailz-com-agent-payment-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-API-KEY\n  description: Prepaid credits API key (cr_live_...). Obtain via GET /api/m2m/credits/trial (free $5) or POST /api/m2m/credits/checkout/session\n    (paid).\n  sources:\n  - openapi/coinrailz-com-agent-payment-api-openapi.yml\n- name: bearerApiKey\n  type: http\n  scheme: bearer\n  description: 'Same cr_live_ key as X-API-KEY, passed as Authorization: Bearer <key>.'\n  sources:\n  - openapi/coinrailz-com-agent-payment-api-openapi.yml\n- name: x402\n  type: apiKey\n  in: header\n  parameter: X-PAYMENT\n  description: x402 protocol on-chain USDC payment. Base64url-encoded signed payment payload. See /.well-known/x402.json\n    for facilitator details.\n  sources:\n  - openapi/coinrailz-com-agent-payment-api-openapi.yml\n- name:\
   \ mpp\n  type: http\n  scheme: payment\n  description: 'MPP (Machine Payments Protocol) credential. Authorization: Payment <base64-credential>. See /.well-known/mpp.json.'\n  sources:\n  - openapi/coinrailz-com-agent-payment-api-openapi.yml\ndocs: https://coinrailz.com/api/auth/capabilities\ndocs_file: authentication/coinrailz-com-auth-capabilities.json\ndescription: Four schemes derived from the Agent Payment API OpenAPI and confirmed against the provider's live machine-readable\n  auth document GET https://coinrailz.com/api/auth/capabilities (HTTP 200, saved verbatim alongside). The x402 services\n  OpenAPI declares no securitySchemes at all; the overlay in overlays/ adds the two that apply. No OAuth2 / OIDC\n  anywhere (well-known metadata 404), so scopes/ is deliberately absent.\nauth_modes_published:\n- mode: api_key\n  header: X-API-KEY\n  alternative_header: 'Authorization: Bearer <key>'\n  description: Prepaid credits — fastest path. Works with any HTTP client. No wallet required.\n\
   - mode: x402_onchain\n  header: X-PAYMENT\n  alternative_header: null\n  description: On-chain USDC per-call payments using HTTP 402 protocol. No API key required.\nkey_prefix: cr_live_\nobtain:\n  free_trial: GET https://coinrailz.com/api/m2m/credits/trial ($5, 1 per IP per 7 days, key returned once)\n  hosted_checkout: POST https://coinrailz.com/api/m2m/credits/checkout/session -> Stripe checkoutUrl + retrievalToken\n  direct_card: POST https://coinrailz.com/api/m2m/credits/purchase {paymentMethodId, amountUsd, idempotencyKey}\n  on_chain: answer the 402 challenge with X-PAYMENT (x402 v2, CDP facilitator)\n  mpp: 'Authorization: Payment <credential> per /.well-known/mpp.json'\npublic_operations: 21\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/coinrailz-com/refs/heads/main/authentication/coinrailz-com-authentication.yml
+source_yaml_url: https://artifacts.apis.io/coinrailz-com/authentication/coinrailz-com-authentication.yml
 summary_line: apiKey/http · 4 schemes
 tags:
 - Company

@@ -7,37 +7,37 @@ api_specs:
   label: Openhandle Instagram API
   slug: openhandle-instagram-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-instagram-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-instagram-api-openapi.yml
 - filename: openhandle-reddit-api-openapi.yml
   format: yaml
   label: Openhandle Reddit API
   slug: openhandle-reddit-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-reddit-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-reddit-api-openapi.yml
 - filename: openhandle-test-data-api-openapi.yml
   format: yaml
   label: Openhandle Test Data API
   slug: openhandle-test-data-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-test-data-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-test-data-api-openapi.yml
 - filename: openhandle-tiktok-api-openapi.yml
   format: yaml
   label: Openhandle Tiktok API
   slug: openhandle-tiktok-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-tiktok-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-tiktok-api-openapi.yml
 - filename: openhandle-twitter-api-openapi.yml
   format: yaml
   label: Openhandle Twitter API
   slug: openhandle-twitter-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-twitter-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-twitter-api-openapi.yml
 - filename: openhandle-utilities-api-openapi.yml
   format: yaml
   label: Openhandle Utilities API
   slug: openhandle-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/openapi/openhandle-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/openhandle/openapi/openhandle-utilities-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -77,7 +77,7 @@ source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-09-21'\nmethod: searched\nsource: https://openhandle.dev/docs/authentication\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  note: REST operations use a Bearer API key (OpenhandleKey); the key prefix oh_test_/oh_live_ selects\n    the Test or Live environment and is immutable. OAuth 2.0 (PKCE) applies only to the MCP endpoint.\n    Keys are shown once at creation; call from a backend only.\nschemes:\n- name: OpenhandleKey\n  type: http\n  scheme: bearer\n  description: Use an oh_test_ key for synthetic data and $0.000 actual charges, or an oh_live_ key for\n    real public data and normal billing. Legacy oh_ keys remain Live.\n  sources:\n  - openapi/openhandle-openapi.yml\n- name: OpenhandleMCPOAuth\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://api.openhandle.dev/oauth/authorize\n    tokenUrl: https://api.openhandle.dev/oauth/token\n    scopes: 4\n  description: OAuth grants for the\
   \ MCP endpoint only. REST operations require OpenhandleKey.\n  sources:\n  - openapi/openhandle-openapi.yml\ndocs: https://openhandle.dev/docs/authentication\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/openhandle/refs/heads/main/authentication/openhandle-authentication.yml
+source_yaml_url: https://artifacts.apis.io/openhandle/authentication/openhandle-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Social Data

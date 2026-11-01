@@ -5,25 +5,25 @@ api_specs:
   label: Passage by 1Password Devices API
   slug: passage-1password-devices-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-devices-api-openapi.yml
+  url: https://artifacts.apis.io/passage-1password/openapi/passage-1password-devices-api-openapi.yml
 - filename: passage-1password-magic-links-api-openapi.yml
   format: yaml
   label: Passage by 1Password Magic Links API
   slug: passage-1password-magic-links-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-magic-links-api-openapi.yml
+  url: https://artifacts.apis.io/passage-1password/openapi/passage-1password-magic-links-api-openapi.yml
 - filename: passage-1password-tokens-api-openapi.yml
   format: yaml
   label: Passage by 1Password Tokens API
   slug: passage-1password-tokens-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-tokens-api-openapi.yml
+  url: https://artifacts.apis.io/passage-1password/openapi/passage-1password-tokens-api-openapi.yml
 - filename: passage-1password-users-api-openapi.yml
   format: yaml
   label: Passage by 1Password Users API
   slug: passage-1password-users-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/openapi/passage-1password-users-api-openapi.yml
+  url: https://artifacts.apis.io/passage-1password/openapi/passage-1password-users-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +68,7 @@ source_filename: passage-1password-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: passage.1password.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.passage.id\n  https: false\n- host: api.passage.id\n  https: false\ndomains:\n- domain: 1password.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 iodef \"mailto:alerts+caa@agilebits.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: passage.id\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/passage-1password/refs/heads/main/security/passage-1password-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/passage-1password/security/passage-1password-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication

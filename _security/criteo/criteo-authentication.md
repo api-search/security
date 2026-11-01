@@ -7,73 +7,73 @@ api_specs:
   label: Criteo Accounts API
   slug: criteo-accounts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-accounts-api-openapi.yml
 - filename: criteo-advertiser-api-openapi.yml
   format: yaml
   label: Criteo Advertiser API
   slug: criteo-advertiser-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-advertiser-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-advertiser-api-openapi.yml
 - filename: criteo-analytics-api-openapi.yml
   format: yaml
   label: Criteo Analytics API
   slug: criteo-analytics-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-analytics-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-analytics-api-openapi.yml
 - filename: criteo-audience-api-openapi.yml
   format: yaml
   label: Criteo Audience API
   slug: criteo-audience-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-audience-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-audience-api-openapi.yml
 - filename: criteo-balance-api-openapi.yml
   format: yaml
   label: Criteo Balance API
   slug: criteo-balance-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-balance-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-balance-api-openapi.yml
 - filename: criteo-billing-api-openapi.yml
   format: yaml
   label: Criteo Billing API
   slug: criteo-billing-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-billing-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-billing-api-openapi.yml
 - filename: criteo-campaign-api-openapi.yml
   format: yaml
   label: Criteo Campaign API
   slug: criteo-campaign-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-campaign-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-campaign-api-openapi.yml
 - filename: criteo-catalog-api-openapi.yml
   format: yaml
   label: Criteo Catalog API
   slug: criteo-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-catalog-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-catalog-api-openapi.yml
 - filename: criteo-creative-api-openapi.yml
   format: yaml
   label: Criteo Creative API
   slug: criteo-creative-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-creative-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-creative-api-openapi.yml
 - filename: criteo-gateway-api-openapi.yml
   format: yaml
   label: Criteo Gateway API
   slug: criteo-gateway-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-gateway-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-gateway-api-openapi.yml
 - filename: criteo-reco-api-openapi.yml
   format: yaml
   label: Criteo Reco API
   slug: criteo-reco-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-reco-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-reco-api-openapi.yml
 - filename: criteo-segment-api-openapi.yml
   format: yaml
   label: Criteo Segment API
   slug: criteo-segment-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/openapi/criteo-segment-api-openapi.yml
+  url: https://artifacts.apis.io/criteo/openapi/criteo-segment-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -116,7 +116,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/criteo-
   \ >-\n    Advertisers manage and revoke app access from a consent dashboard. A revoked grant\n    surfaces as HTTP 403 on subsequent calls, not 401.\n- grant: refresh_token\n  audience: Authorization Code applications refreshing an expired access token\n  source: https://mcp.criteo.com/.well-known/oauth-authorization-server\n\ndiscovery:\n  rfc8414_metadata: https://mcp.criteo.com/.well-known/oauth-authorization-server\n  rfc9728_metadata: https://mcp.criteo.com/.well-known/oauth-protected-resource\n  issuer: https://api.criteo.com\n  authorization_endpoint: https://consent.criteo.com/request\n  token_endpoint: https://api.criteo.com/oauth2/token\n  grant_types_supported: [authorization_code, refresh_token]\n  response_types_supported: [code]\n  bearer_methods_supported: [header]\n  saved_to: [well-known/criteo-oauth-authorization-server.json, well-known/criteo-oauth-protected-resource.json]\n  finding: >-\n    Criteo publishes RFC 8414 authorization-server metadata, but ONLY on the MCP\
   \ host\n    (mcp.criteo.com). The same path returns 404 on api.criteo.com and developers.criteo.com,\n    so a client that discovers Criteo through the REST API or the docs cannot find it. The\n    metadata it publishes also omits client_credentials from grant_types_supported even\n    though the REST API's primary grant IS client_credentials — the document describes the\n    MCP server's grants, not the platform's.\n\napplication_model:\n  docs: https://developers.criteo.com/criteo-apis/docs/create-your-app\n  credentials_docs: https://developers.criteo.com/criteo-apis/docs/get-credentials\n  steps:\n  - Create a partner account on the developer portal\n  - Create an organization\n  - Create an API application, choosing a service and a per-domain authorization level\n  - Retrieve client_id and client_secret\n  - For Authorization Code apps, generate a consent URL and have the advertiser grant access\n  note: >-\n    Credentials are issued per application, not per user, and the permission\
   \ set is fixed at\n    app-configuration time rather than requested per token.\n\nerrors:\n  '401': Missing, malformed or expired token\n  '403': >-\n    Valid token, but the application lacks permission on the advertiser or domain, or consent\n    was never granted or has been revoked. Criteo's guidance is to relaunch the OAuth2 flow.\n  caveat: >-\n    On BULK endpoints a missing resource or an insufficient permission returns HTTP 200 with\n    an empty response rather than 403 — documented by Criteo and important for any agent that\n    treats 200 as success.\n  reference: https://developers.criteo.com/criteo-apis/docs/api-error-codes\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/criteo/refs/heads/main/authentication/criteo-authentication.yml
+source_yaml_url: https://artifacts.apis.io/criteo/authentication/criteo-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Advertising

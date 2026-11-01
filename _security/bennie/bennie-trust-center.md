@@ -16,7 +16,7 @@ source_filename: bennie-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-09-27'\nmethod: searched\nprobe: true\nsource: https://trust.bennie.com/\nurl: https://trust.bennie.com/\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://trust.bennie.com/\n  keywords:\n  - soc 2\n  - hipaa\n  - trust center\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bennie/refs/heads/main/security/bennie-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/bennie/security/bennie-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company

@@ -5,7 +5,7 @@ api_specs:
   label: Bucketlist.nl Dream of the Day API Droom Van De Dag API
   slug: bucketlist-nl-droom-van-de-dag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/openapi/bucketlist-nl-droom-van-de-dag-api-openapi.yml
+  url: https://artifacts.apis.io/bucketlist-nl/openapi/bucketlist-nl-droom-van-de-dag-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +33,7 @@ source_filename: bucketlist-nl-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: bucketlist.nl\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 08:49:17 2026 GMT\n  hsts: false\ndomains:\n- domain: bucketlist.nl\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bucketlist-nl/refs/heads/main/security/bucketlist-nl-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/bucketlist-nl/security/bucketlist-nl-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

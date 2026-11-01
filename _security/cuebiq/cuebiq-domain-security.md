@@ -5,55 +5,55 @@ api_specs:
   label: Cuebiq Conversion Feed V1 API
   slug: cuebiq-conversion-feed-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-conversion-feed-v1-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-conversion-feed-v1-api-openapi.yml
 - filename: cuebiq-geoset-api-openapi.yml
   format: yaml
   label: Cuebiq Geoset API
   slug: cuebiq-geoset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-geoset-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-geoset-api-openapi.yml
 - filename: cuebiq-kpis-v2-campaign-reports-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Campaign Reports API
   slug: cuebiq-kpis-v2-campaign-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-campaign-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-campaign-reports-api-openapi.yml
 - filename: cuebiq-kpis-v2-campaigns-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Campaigns API
   slug: cuebiq-kpis-v2-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-campaigns-api-openapi.yml
 - filename: cuebiq-kpis-v2-customer-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Customer API
   slug: cuebiq-kpis-v2-customer-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-customer-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-customer-api-openapi.yml
 - filename: cuebiq-kpis-v2-shared-campaign-reports-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Shared Campaign Reports API
   slug: cuebiq-kpis-v2-shared-campaign-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-shared-campaign-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-shared-campaign-reports-api-openapi.yml
 - filename: cuebiq-kpis-v2-shared-campaigns-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Shared Campaigns API
   slug: cuebiq-kpis-v2-shared-campaigns-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-shared-campaigns-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-shared-campaigns-api-openapi.yml
 - filename: cuebiq-kpis-v2-shared-reports-api-openapi.yml
   format: yaml
   label: Cuebiq KPIs V2 - Shared Reports API
   slug: cuebiq-kpis-v2-shared-reports-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-kpis-v2-shared-reports-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-kpis-v2-shared-reports-api-openapi.yml
 - filename: cuebiq-measurement-v2-api-openapi.yml
   format: yaml
   label: Cuebiq Measurement V2 API
   slug: cuebiq-measurement-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/openapi/cuebiq-measurement-v2-api-openapi.yml
+  url: https://artifacts.apis.io/cuebiq/openapi/cuebiq-measurement-v2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -82,11 +82,11 @@ source_filename: cuebiq-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cuebiq.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 09:13:35 2026 GMT\n  hsts: false\ndomains:\n- domain: cuebiq.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cuebiq/refs/heads/main/security/cuebiq-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/cuebiq/security/cuebiq-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Location-Intelligence
+- Location Intelligence
 - Marketing
 - Data Analytics
 - Footfall-Measurement

@@ -26,7 +26,7 @@ source_filename: unigrid-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.unigridbattery.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 30 07:17:05 2026 GMT\n  hsts: false\ndomains:\n- domain: unigridbattery.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unigrid/refs/heads/main/security/unigrid-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/unigrid/security/unigrid-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company

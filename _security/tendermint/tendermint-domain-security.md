@@ -5,31 +5,31 @@ api_specs:
   label: Tendermint ABCI API
   slug: tendermint-abci-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/openapi/tendermint-abci-api-openapi.yml
+  url: https://artifacts.apis.io/tendermint/openapi/tendermint-abci-api-openapi.yml
 - filename: tendermint-info-api-openapi.yml
   format: yaml
   label: Tendermint Info API
   slug: tendermint-info-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/openapi/tendermint-info-api-openapi.yml
+  url: https://artifacts.apis.io/tendermint/openapi/tendermint-info-api-openapi.yml
 - filename: tendermint-tx-api-openapi.yml
   format: yaml
   label: Tendermint Tx API
   slug: tendermint-tx-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/openapi/tendermint-tx-api-openapi.yml
+  url: https://artifacts.apis.io/tendermint/openapi/tendermint-tx-api-openapi.yml
 - filename: tendermint-unsafe-api-openapi.yml
   format: yaml
   label: Tendermint Unsafe API
   slug: tendermint-unsafe-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/openapi/tendermint-unsafe-api-openapi.yml
+  url: https://artifacts.apis.io/tendermint/openapi/tendermint-unsafe-api-openapi.yml
 - filename: tendermint-websocket-api-openapi.yml
   format: yaml
   label: Tendermint Websocket API
   slug: tendermint-websocket-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/openapi/tendermint-websocket-api-openapi.yml
+  url: https://artifacts.apis.io/tendermint/openapi/tendermint-websocket-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -75,7 +75,7 @@ source_filename: tendermint-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: tendermint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 12 21:13:48 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.tendermint.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 05:48:49 2026 GMT\n  hsts: false\n- host: rpc.cosmos.network\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 27 20:46:44 2026 GMT\n  hsts: null\ndomains:\n- domain: tendermint.com\n  dnssec: true\n  caa: []\n  spf: false\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: cosmos.network\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/tendermint/refs/heads/main/security/tendermint-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/tendermint/security/tendermint-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company

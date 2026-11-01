@@ -9,7 +9,7 @@ api_specs:
   label: Bureau of Industry and Security Search API
   slug: bureau-of-industry-and-security-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-and-security/refs/heads/main/openapi/bureau-of-industry-and-security-search-api-openapi.yml
+  url: https://artifacts.apis.io/bureau-of-industry-and-security/openapi/bureau-of-industry-and-security-search-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  https://d
   \      - openapi/_original/bureau-of-industry-and-security-csl-apim-export.yaml\n  - name: subscriptionKeyQuery\n    type: apiKey\n    in: query\n    parameter: subscription-key\n    description: >-\n      The same subscription key sent as a query-string parameter. Declared by ITA's own\n      OpenAPI export as `apiKeyQuery`. A key in a URL is logged by proxies, browsers and\n      server access logs — prefer the header.\n    sources:\n      - openapi/_original/bureau-of-industry-and-security-csl-apim-export.yaml\nchallenge:\n  status: 401\n  header: >-\n    WWW-Authenticate: AzureApiManagementKey\n    realm=\"https://mds-apimanager.azure-api.net/consolidated_screening_list\",\n    name=\"subscription-key\", type=\"header\"\n  body: '{ \"statusCode\": 401, \"message\": \"Access denied due to missing subscription key. Make sure to include subscription key when making requests to an API.\" }'\n  observed: '2026-09-05'\nonboarding:\n  sign_up: https://developer.trade.gov/signup\n  sign_in:\
   \ https://developer.trade.gov/signin\n  approval_required: false\n  cost: free\n  subscriptions_limit: 1\n  steps:\n    - Register an account on the ITA Data Services Platform.\n    - Subscribe to the \"Data Services Platform APIs\" product.\n    - Send the issued key as the `subscription-key` header on every request.\n  note: >-\n    Self-serve with no approval gate — verified from the product catalogue\n    (approvalRequired: false), not from marketing copy.\nunauthenticated_surface:\n  exists: true\n  note: >-\n    The full dataset is readable with no credential at\n    https://data.trade.gov/downloadable_consolidated_screening_list/v1/consolidated.{json,csv,tsv}\n    (HTTP 206 on a ranged request, 2026-09-05). Only the query API requires a key.\nscopes:\n  supported: false\n  note: >-\n    A subscription key carries no scopes, no audience and no expiry. There is nothing to\n    delegate and nothing to narrow, so scopes/ is deliberately absent from this repository\n    rather than written\
   \ empty.\nrotation:\n  documented: false\n  note: >-\n    Azure API Management issues a primary and secondary key per subscription, which makes\n    zero-downtime rotation possible, but ITA documents no rotation guidance.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/bureau-of-industry-and-security/refs/heads/main/authentication/bureau-of-industry-and-security-authentication.yml
+source_yaml_url: https://artifacts.apis.io/bureau-of-industry-and-security/authentication/bureau-of-industry-and-security-authentication.yml
 summary_line: apiKey · 2 schemes
 tags:
 - Compliance

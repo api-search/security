@@ -5,43 +5,43 @@ api_specs:
   label: Salesforce Net Zero Cloud Carbon Emissions API
   slug: salesforce-net-zero-cloud-carbon-emissions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-carbon-emissions-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-carbon-emissions-api-openapi.yml
 - filename: salesforce-net-zero-cloud-emission-factors-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Emission Factors API
   slug: salesforce-net-zero-cloud-emission-factors-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-emission-factors-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-emission-factors-api-openapi.yml
 - filename: salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Energy Consumption API
   slug: salesforce-net-zero-cloud-energy-consumption-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-energy-consumption-api-openapi.yml
 - filename: salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud ESG Reporting API
   slug: salesforce-net-zero-cloud-esg-reporting-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-esg-reporting-api-openapi.yml
 - filename: salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Sustainability Goals API
   slug: salesforce-net-zero-cloud-sustainability-goals-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-sustainability-goals-api-openapi.yml
 - filename: salesforce-net-zero-cloud-waste-management-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Waste Management API
   slug: salesforce-net-zero-cloud-waste-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-waste-management-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-waste-management-api-openapi.yml
 - filename: salesforce-net-zero-cloud-water-usage-api-openapi.yml
   format: yaml
   label: Salesforce Net Zero Cloud Water Usage API
   slug: salesforce-net-zero-cloud-water-usage-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/openapi/salesforce-net-zero-cloud-water-usage-api-openapi.yml
+  url: https://artifacts.apis.io/salesforce-net-zero-cloud/openapi/salesforce-net-zero-cloud-water-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -72,7 +72,7 @@ source_filename: salesforce-net-zero-cloud-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.salesforce.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 23:59:59 2026 GMT\n  hsts: null\n- host: yourinstance.my.salesforce.com\n  https: false\ndomains:\n- domain: salesforce.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/security/salesforce-net-zero-cloud-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/salesforce-net-zero-cloud/security/salesforce-net-zero-cloud-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Carbon Accounting

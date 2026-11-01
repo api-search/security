@@ -5,43 +5,43 @@ api_specs:
   label: SEON AML API
   slug: seon-tech-aml-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-aml-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-aml-api-openapi.yml
 - filename: seon-tech-bin-api-openapi.yml
   format: yaml
   label: SEON BIN API
   slug: seon-tech-bin-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-bin-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-bin-api-openapi.yml
 - filename: seon-tech-email-api-openapi.yml
   format: yaml
   label: SEON Email API
   slug: seon-tech-email-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-email-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-email-api-openapi.yml
 - filename: seon-tech-fraud-api-openapi.yml
   format: yaml
   label: SEON Fraud API
   slug: seon-tech-fraud-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-fraud-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-fraud-api-openapi.yml
 - filename: seon-tech-ip-api-openapi.yml
   format: yaml
   label: SEON IP API
   slug: seon-tech-ip-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-ip-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-ip-api-openapi.yml
 - filename: seon-tech-phone-api-openapi.yml
   format: yaml
   label: SEON Phone API
   slug: seon-tech-phone-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-phone-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-phone-api-openapi.yml
 - filename: seon-tech-labels-api-openapi.yml
   format: yaml
   label: SEON Labels API
   slug: seon-tech-labels-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/openapi/seon-tech-labels-api-openapi.yml
+  url: https://artifacts.apis.io/seon-tech/openapi/seon-tech-labels-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -60,7 +60,7 @@ source_filename: seon-tech-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.seon.io/\nurl: https://trust.seon.io/\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://trust.seon.io/\n  keywords:\n  - soc 2\n  - iso 27001\n  - trust center\n  - gdpr\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/seon-tech/refs/heads/main/security/seon-tech-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/seon-tech/security/seon-tech-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - AML Compliance

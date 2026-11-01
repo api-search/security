@@ -8,31 +8,31 @@ api_specs:
   label: Teambridge Collections (Unified API) API
   slug: teambridge-collections-unified-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-collections-unified-api-api-openapi.yml
+  url: https://artifacts.apis.io/teambridge/openapi/teambridge-collections-unified-api-api-openapi.yml
 - filename: teambridge-documents-api-openapi.yml
   format: yaml
   label: Teambridge Documents API
   slug: teambridge-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-documents-api-openapi.yml
+  url: https://artifacts.apis.io/teambridge/openapi/teambridge-documents-api-openapi.yml
 - filename: teambridge-mappings-api-openapi.yml
   format: yaml
   label: Teambridge Mappings API
   slug: teambridge-mappings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-mappings-api-openapi.yml
+  url: https://artifacts.apis.io/teambridge/openapi/teambridge-mappings-api-openapi.yml
 - filename: teambridge-utilities-api-openapi.yml
   format: yaml
   label: Teambridge Utilities API
   slug: teambridge-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/teambridge/openapi/teambridge-utilities-api-openapi.yml
 - filename: teambridge-teambridge-external-api-api-openapi.yml
   format: yaml
   label: Teambridge External API
   slug: teambridge-teambridge-external-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/openapi/teambridge-teambridge-external-api-api-openapi.yml
+  url: https://artifacts.apis.io/teambridge/openapi/teambridge-teambridge-external-api-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -79,7 +79,7 @@ source_filename: teambridge-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/teambridge-openapi-original.json\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://teambridge.us.auth0.com/oauth/token\n    scopes: 1\n  sources:\n  - openapi/teambridge-openapi-original.json\n- name: WebhookSignature\n  type: apiKey\n  in: header\n  parameter: X-Webhook-Signature\n  description: |-\n    HMAC-SHA256 signature for webhook authentication. The signature is computed from\n    the concatenation of the timestamp and request body: `{timestamp}.{body}`.\n    The signature header value includes the scheme prefix: `sha256={hex_signature}`.\n\n    Webhook consumers must verify this signature using their webhook secret to ensure\n    the request originated from Teambridge.\n  sources:\n  - openapi/teambridge-openapi-original.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/teambridge/refs/heads/main/authentication/teambridge-authentication.yml
+source_yaml_url: https://artifacts.apis.io/teambridge/authentication/teambridge-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company

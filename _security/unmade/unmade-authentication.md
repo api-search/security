@@ -8,37 +8,37 @@ api_specs:
   label: Unmade Design API
   slug: unmade-design-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-design-api-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-design-api-api-openapi.yml
 - filename: unmade-ecommerce-orders-api-api-openapi.yml
   format: yaml
   label: Unmade Ecommerce Orders API
   slug: unmade-ecommerce-orders-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-ecommerce-orders-api-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-ecommerce-orders-api-api-openapi.yml
 - filename: unmade-factory-api-api-openapi.yml
   format: yaml
   label: Unmade Factory API
   slug: unmade-factory-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-factory-api-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-factory-api-api-openapi.yml
 - filename: unmade-outfit-api-api-openapi.yml
   format: yaml
   label: Unmade Outfit API
   slug: unmade-outfit-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-outfit-api-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-outfit-api-api-openapi.yml
 - filename: unmade-transfer-preview-api-api-openapi.yml
   format: yaml
   label: Unmade Transfer Preview API
   slug: unmade-transfer-preview-api-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-transfer-preview-api-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-transfer-preview-api-api-openapi.yml
 - filename: unmade-unmade-editor-api-openapi.yml
   format: yaml
   label: Unmade Editor API
   slug: unmade-unmade-editor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/openapi/unmade-unmade-editor-api-openapi.yml
+  url: https://artifacts.apis.io/unmade/openapi/unmade-unmade-editor-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -67,7 +67,7 @@ source_filename: unmade-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-21'\nmethod: derived\nsource: openapi/unmade-embed-v1-openapi.json, openapi/unmade-embed-v2-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: tokenAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: 'Token authentication. Unmade provides your unique token; send it as `Authorization:\n    Token <token>`. All API URLs are partner-specific subdomains and every endpoint URL must\n    end with a trailing slash.'\n  sources:\n  - openapi/unmade-embed-v1-openapi.json\n  - openapi/unmade-embed-v2-openapi.json\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/unmade/refs/heads/main/authentication/unmade-authentication.yml
+source_yaml_url: https://artifacts.apis.io/unmade/authentication/unmade-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Fashion

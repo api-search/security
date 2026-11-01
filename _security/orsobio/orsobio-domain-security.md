@@ -26,7 +26,7 @@ source_filename: orsobio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: orsobio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep  9 06:26:22 2026 GMT\n  hsts: false\ndomains:\n- domain: orsobio.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/orsobio/refs/heads/main/security/orsobio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/orsobio/security/orsobio-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company

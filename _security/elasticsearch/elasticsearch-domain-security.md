@@ -5,31 +5,31 @@ api_specs:
   label: Elasticsearch Cat API
   slug: elasticsearch-cat-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-cat-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-cat-api-openapi.yml
 - filename: elasticsearch-cluster-api-openapi.yml
   format: yaml
   label: Elasticsearch Cluster API
   slug: elasticsearch-cluster-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-cluster-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-cluster-api-openapi.yml
 - filename: elasticsearch-document-api-openapi.yml
   format: yaml
   label: Elasticsearch Document API
   slug: elasticsearch-document-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-document-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-document-api-openapi.yml
 - filename: elasticsearch-index-api-openapi.yml
   format: yaml
   label: Elasticsearch Index API
   slug: elasticsearch-index-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-index-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-index-api-openapi.yml
 - filename: elasticsearch-search-api-openapi.yml
   format: yaml
   label: Elasticsearch Search API
   slug: elasticsearch-search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/openapi/elasticsearch-search-api-openapi.yml
+  url: https://artifacts.apis.io/elasticsearch/openapi/elasticsearch-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -58,7 +58,7 @@ source_filename: elasticsearch-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-16'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.elastic.co\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 12 21:06:03 2026 GMT\n  hsts: false\ndomains:\n- domain: elastic.co\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/security/elasticsearch-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/elasticsearch/security/elasticsearch-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Analytics

@@ -7,73 +7,73 @@ api_specs:
   label: Authelia Authentication API
   slug: authelia-authentication-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-authentication-api-openapi.yml
 - filename: authelia-authorization-api-openapi.yml
   format: yaml
   label: Authelia Authorization API
   slug: authelia-authorization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-authorization-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-authorization-api-openapi.yml
 - filename: authelia-first-factor-api-openapi.yml
   format: yaml
   label: Authelia First Factor API
   slug: authelia-first-factor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-first-factor-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-first-factor-api-openapi.yml
 - filename: authelia-oauth-2-0-api-openapi.yml
   format: yaml
   label: Authelia OAuth 2.0 API
   slug: authelia-oauth-2-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-oauth-2-0-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-oauth-2-0-api-openapi.yml
 - filename: authelia-openid-connect-1-0-api-openapi.yml
   format: yaml
   label: Authelia OpenID Connect 1.0 API
   slug: authelia-openid-connect-1-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-openid-connect-1-0-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-openid-connect-1-0-api-openapi.yml
 - filename: authelia-password-change-api-openapi.yml
   format: yaml
   label: Authelia Password Change API
   slug: authelia-password-change-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-password-change-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-password-change-api-openapi.yml
 - filename: authelia-password-reset-api-openapi.yml
   format: yaml
   label: Authelia Password Reset API
   slug: authelia-password-reset-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-password-reset-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-password-reset-api-openapi.yml
 - filename: authelia-second-factor-api-openapi.yml
   format: yaml
   label: Authelia Second Factor API
   slug: authelia-second-factor-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-second-factor-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-second-factor-api-openapi.yml
 - filename: authelia-state-api-openapi.yml
   format: yaml
   label: Authelia State API
   slug: authelia-state-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-state-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-state-api-openapi.yml
 - filename: authelia-user-elevation-api-openapi.yml
   format: yaml
   label: Authelia User Elevation API
   slug: authelia-user-elevation-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-user-elevation-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-user-elevation-api-openapi.yml
 - filename: authelia-user-information-api-openapi.yml
   format: yaml
   label: Authelia User Information API
   slug: authelia-user-information-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-user-information-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-user-information-api-openapi.yml
 - filename: authelia-utilities-api-openapi.yml
   format: yaml
   label: Authelia Utilities API
   slug: authelia-utilities-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/openapi/authelia-utilities-api-openapi.yml
+  url: https://artifacts.apis.io/authelia/openapi/authelia-utilities-api-openapi.yml
 auth_types:
 - apiKey
 - openIdConnect
@@ -117,7 +117,7 @@ source_yaml: "generated: '2026-09-06'\nmethod: searched\ndocs: https://www.authe
   - method: password\n  detail: Password re-entry as a second factor when the first factor was a passkey.\n  operations: [postSecondFactorPassword]\nproxy_authorization_schemes:\n  description: >-\n    Schemes Authelia accepts at /api/authz/* on behalf of protected applications. Each is opt-in per authz\n    endpoint via server.endpoints.authz.<name>.authn_strategies.\n  strategies:\n  - name: CookieSession\n    scheme: cookie\n    default: true\n  - name: HeaderAuthorization\n    schemes: [Basic, Bearer]\n    default: false\n  - name: HeaderProxyAuthorization\n    schemes: [Basic, Bearer]\n    default: false\n  - name: HeaderAuthRequestProxyAuthorization\n    schemes: [Basic, Bearer]\n    default: false\n  - name: HeaderLegacy\n    default: true\n    note: Legacy /api/verify endpoint only.\n  basic_auth: >-\n    Basic credentials are validated against the configured authentication backend and are treated as a\n    1FA authorization. Documented as the service-account pattern for API access\
   \ at\n    https://www.authelia.com/integration/guides/securing-apps-with-basic-auth/.\n  bearer_auth:\n    scope: authelia.bearer.authz\n    token_prefixes:\n      access_token: authelia_at_\n      refresh_token: authelia_rt_\n      authorization_code: authelia_ac_\n    detail: >-\n      Only a genuine access token (authelia_at_ prefix) is accepted; refresh tokens and authorization codes\n      are rejected. The token's audience must exactly match or prefix the requested URL. A token issued via\n      client_credentials is always treated as 1FA and matches access control rules through the special\n      subject oauth2:client:<id>.\n    docs: https://www.authelia.com/integration/openid-connect/oauth-2.0-bearer-token-usage/\ntransport:\n  https_required: true\n  detail: Authelia MUST be served over https; this is a stated design decision, not a recommendation.\ngaps:\n- No API key or personal access token concept exists for the Authelia API itself.\n- Authelia's own documentation states\
   \ that authelia.bearer.authz tokens are not intended for calling the\n  Authelia API; a dedicated scope and audience scheme for that is deferred to a future release.\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/authelia/refs/heads/main/authentication/authelia-authentication.yml
+source_yaml_url: https://artifacts.apis.io/authelia/authentication/authelia-authentication.yml
 summary_line: apiKey/openIdConnect · 2 schemes
 tags:
 - Authentication

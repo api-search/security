@@ -8,13 +8,13 @@ api_specs:
   label: BetSolutions Player API
   slug: betsolutions-player-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/openapi/betsolutions-player-api-openapi.yml
+  url: https://artifacts.apis.io/betsolutions/openapi/betsolutions-player-api-openapi.yml
 - filename: betsolutions-transfer-wallet-api-openapi.yml
   format: yaml
   label: BetSolutions Transfer Wallet API
   slug: betsolutions-transfer-wallet-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/openapi/betsolutions-transfer-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/betsolutions/openapi/betsolutions-transfer-wallet-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: betsolutions-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/betsolutions-wallet-api.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: sha256Auth\n  type: apiKey\n  in: query\n  parameter: hash\n  description: SHA-256 hash of concatenated request parameters using pipe (|) separator and\n    merchant secret key for request signing.\n  sources:\n  - openapi/betsolutions-wallet-api.yaml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/betsolutions/refs/heads/main/authentication/betsolutions-authentication.yml
+source_yaml_url: https://artifacts.apis.io/betsolutions/authentication/betsolutions-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Betting

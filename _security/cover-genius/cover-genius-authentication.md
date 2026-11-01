@@ -8,13 +8,13 @@ api_specs:
   label: Cover Genius Bookings API
   slug: cover-genius-bookings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-bookings-api-openapi.yml
+  url: https://artifacts.apis.io/cover-genius/openapi/cover-genius-bookings-api-openapi.yml
 - filename: cover-genius-offers-api-openapi.yml
   format: yaml
   label: Cover Genius Offers API
   slug: cover-genius-offers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/openapi/cover-genius-offers-api-openapi.yml
+  url: https://artifacts.apis.io/cover-genius/openapi/cover-genius-offers-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -42,7 +42,7 @@ source_filename: cover-genius-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/cover-genius-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: XCoverSignature\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: HTTP Signature authentication. Each request carries an X-Api-Key header, a Date\n    header (RFC 822 GMT), and an Authorization header of the form Signature keyId=\"{API_KEY}\",algorithm=\"hmac-sha512\",signature=\"{base64}\".\n    The signature is an HMAC of the canonical string (by default the date header) computed with\n    the partner's secret key.\n  sources:\n  - openapi/cover-genius-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/authentication/cover-genius-authentication.yml
+source_yaml_url: https://artifacts.apis.io/cover-genius/authentication/cover-genius-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
 - Insurance

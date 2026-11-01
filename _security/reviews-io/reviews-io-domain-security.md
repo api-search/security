@@ -5,37 +5,37 @@ api_specs:
   label: REVIEWS.io Company Reviews API
   slug: reviews-io-company-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-company-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-company-reviews-api-openapi.yml
 - filename: reviews-io-invitations-api-openapi.yml
   format: yaml
   label: REVIEWS.io Invitations API
   slug: reviews-io-invitations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-invitations-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-invitations-api-openapi.yml
 - filename: reviews-io-product-reviews-api-openapi.yml
   format: yaml
   label: REVIEWS.io Product Reviews API
   slug: reviews-io-product-reviews-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-product-reviews-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-product-reviews-api-openapi.yml
 - filename: reviews-io-questions-api-openapi.yml
   format: yaml
   label: REVIEWS.io Questions API
   slug: reviews-io-questions-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-questions-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-questions-api-openapi.yml
 - filename: reviews-io-ratings-api-openapi.yml
   format: yaml
   label: REVIEWS.io Ratings API
   slug: reviews-io-ratings-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-ratings-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-ratings-api-openapi.yml
 - filename: reviews-io-webhooks-api-openapi.yml
   format: yaml
   label: REVIEWS.io Webhooks API
   slug: reviews-io-webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/openapi/reviews-io-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/reviews-io/openapi/reviews-io-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +76,7 @@ source_filename: reviews-io-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.reviews.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 21:12:21 2026 GMT\n  hsts: false\n- host: developer.reviews.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 18 15:00:05 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.reviews.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 30 21:12:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: reviews.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/reviews-io/refs/heads/main/security/reviews-io-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/reviews-io/security/reviews-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Reviews

@@ -27,7 +27,7 @@ source_filename: ascap-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-09-23'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ascap.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: ascap.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/ascap/refs/heads/main/security/ascap-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/ascap/security/ascap-domain-security.yml
 summary_line: TLSv1.2 · DMARC
 tags:
 - Music

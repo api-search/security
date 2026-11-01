@@ -5,19 +5,19 @@ api_specs:
   label: Interpublic Group WordPress Wp/v2 API
   slug: wp-v2-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interpublic/refs/heads/main/openapi/interpublic-wp-v2-api-openapi.yml
+  url: https://artifacts.apis.io/interpublic/openapi/interpublic-wp-v2-api-openapi.yml
 - filename: interpublic-wp-abilities-v1-api-openapi.yml
   format: yaml
   label: Interpublic Group WordPress Abilities API
   slug: wp-abilities-v1-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interpublic/refs/heads/main/openapi/interpublic-wp-abilities-v1-api-openapi.yml
+  url: https://artifacts.apis.io/interpublic/openapi/interpublic-wp-abilities-v1-api-openapi.yml
 - filename: interpublic-oembed-1-0-api-openapi.yml
   format: yaml
   label: Interpublic Group oEmbed API
   slug: oembed-1-0-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/interpublic/refs/heads/main/openapi/interpublic-oembed-1-0-api-openapi.yml
+  url: https://artifacts.apis.io/interpublic/openapi/interpublic-oembed-1-0-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +66,7 @@ source_filename: interpublic-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-08-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.interpublic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 10:57:05 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: developer.wordpress.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 23 19:43:55 2026 GMT\n  hsts: false\n- host: interpublic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 28 05:02:27 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: interpublic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: wordpress.org\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/53691143\"\n  - 0 iodef \"mailto:caa@wordpress.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/interpublic/refs/heads/main/security/interpublic-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/interpublic/security/interpublic-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising

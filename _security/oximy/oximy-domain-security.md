@@ -5,19 +5,19 @@ api_specs:
   label: Oximy Init API
   slug: oximy-init-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/openapi/oximy-init-api-openapi.yml
+  url: https://artifacts.apis.io/oximy/openapi/oximy-init-api-openapi.yml
 - filename: oximy-policy-api-openapi.yml
   format: yaml
   label: Oximy Policy API
   slug: oximy-policy-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/openapi/oximy-policy-api-openapi.yml
+  url: https://artifacts.apis.io/oximy/openapi/oximy-policy-api-openapi.yml
 - filename: oximy-telemetry-api-openapi.yml
   format: yaml
   label: Oximy Telemetry API
   slug: oximy-telemetry-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/openapi/oximy-telemetry-api-openapi.yml
+  url: https://artifacts.apis.io/oximy/openapi/oximy-telemetry-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -46,7 +46,7 @@ source_filename: oximy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: api.oximy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 10 05:28:28 2026 GMT\n  hsts: null\ndomains:\n- domain: oximy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/oximy/refs/heads/main/security/oximy-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/oximy/security/oximy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company

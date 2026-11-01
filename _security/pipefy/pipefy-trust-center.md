@@ -5,7 +5,7 @@ api_specs:
   label: Pipefy Graph QL API
   slug: pipefy-graph-ql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/openapi/pipefy-graph-ql-api-openapi.yml
+  url: https://artifacts.apis.io/pipefy/openapi/pipefy-graph-ql-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -24,7 +24,7 @@ source_filename: pipefy-trust-center.yml
 source_heading: Trust Center
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://trust.pipefy.com/\nurl: https://trust.pipefy.com/\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27018\nevidence:\n- source: https://trust.pipefy.com/\n  keywords:\n  - soc 2\n  - iso 27001\n  - trust center\n  - compliance certification\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/pipefy/refs/heads/main/security/pipefy-trust-center.yml
+source_yaml_url: https://artifacts.apis.io/pipefy/security/pipefy-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27018
 tags:
 - Workflow Automation

@@ -5,67 +5,67 @@ api_specs:
   label: Qualio Audit Trail API
   slug: qualio-audit-trail-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-audit-trail-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-audit-trail-api-openapi.yml
 - filename: qualio-change-management-api-openapi.yml
   format: yaml
   label: Qualio Change Management API
   slug: qualio-change-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-change-management-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-change-management-api-openapi.yml
 - filename: qualio-compliance-intelligence-api-openapi.yml
   format: yaml
   label: Qualio Compliance Intelligence API
   slug: qualio-compliance-intelligence-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-compliance-intelligence-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-compliance-intelligence-api-openapi.yml
 - filename: qualio-design-controls-api-openapi.yml
   format: yaml
   label: Qualio Design Controls API
   slug: qualio-design-controls-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-design-controls-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-design-controls-api-openapi.yml
 - filename: qualio-documents-api-openapi.yml
   format: yaml
   label: Qualio Documents API
   slug: qualio-documents-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-documents-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-documents-api-openapi.yml
 - filename: qualio-events-api-openapi.yml
   format: yaml
   label: Qualio Events API
   slug: qualio-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-events-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-events-api-openapi.yml
 - filename: qualio-resource-library-api-openapi.yml
   format: yaml
   label: Qualio Resource Library API
   slug: qualio-resource-library-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-resource-library-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-resource-library-api-openapi.yml
 - filename: qualio-suppliers-api-openapi.yml
   format: yaml
   label: Qualio Suppliers API
   slug: qualio-suppliers-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-suppliers-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-suppliers-api-openapi.yml
 - filename: qualio-tags-api-openapi.yml
   format: yaml
   label: Qualio Tags API
   slug: qualio-tags-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-tags-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-tags-api-openapi.yml
 - filename: qualio-training-api-openapi.yml
   format: yaml
   label: Qualio Training API
   slug: qualio-training-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-training-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-training-api-openapi.yml
 - filename: qualio-user-management-api-openapi.yml
   format: yaml
   label: Qualio User Management API
   slug: qualio-user-management-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/openapi/qualio-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/qualio/openapi/qualio-user-management-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +95,7 @@ source_filename: qualio-domain-security.yml
 source_heading: Domain Security
 source_url: ''
 source_yaml: "generated: '2026-07-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: qualio.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 13 03:58:02 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: qualio.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/qualio/refs/heads/main/security/qualio-domain-security.yml
+source_yaml_url: https://artifacts.apis.io/qualio/security/qualio-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
@@ -103,7 +103,6 @@ tags:
 - Life Sciences
 - Compliance
 - Document Control
-- QMS
 - Regulatory
 - Medical Devices
 ---

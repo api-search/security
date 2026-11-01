@@ -7,61 +7,61 @@ api_specs:
   label: Quay Build API
   slug: quay-build-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-build-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-build-api-openapi.yml
 - filename: quay-manifest-api-openapi.yml
   format: yaml
   label: Quay Manifest API
   slug: quay-manifest-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-manifest-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-manifest-api-openapi.yml
 - filename: quay-organization-api-openapi.yml
   format: yaml
   label: Quay Organization API
   slug: quay-organization-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-organization-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-organization-api-openapi.yml
 - filename: quay-permission-api-openapi.yml
   format: yaml
   label: Quay Permission API
   slug: quay-permission-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-permission-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-permission-api-openapi.yml
 - filename: quay-repository-api-openapi.yml
   format: yaml
   label: Quay Repository API
   slug: quay-repository-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-repository-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-repository-api-openapi.yml
 - filename: quay-robot-api-openapi.yml
   format: yaml
   label: Quay Robot API
   slug: quay-robot-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-robot-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-robot-api-openapi.yml
 - filename: quay-security-api-openapi.yml
   format: yaml
   label: Quay Security API
   slug: quay-security-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-security-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-security-api-openapi.yml
 - filename: quay-tag-api-openapi.yml
   format: yaml
   label: Quay Tag API
   slug: quay-tag-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-tag-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-tag-api-openapi.yml
 - filename: quay-team-api-openapi.yml
   format: yaml
   label: Quay Team API
   slug: quay-team-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-team-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-team-api-openapi.yml
 - filename: quay-user-api-openapi.yml
   format: yaml
   label: Quay User API
   slug: quay-user-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/openapi/quay-user-api-openapi.yml
+  url: https://artifacts.apis.io/quay/openapi/quay-user-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -92,7 +92,7 @@ source_filename: quay-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
 source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/quay-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://quay.io/oauth/authorize\n    tokenUrl: https://quay.io/oauth/access_token\n    scopes: 6\n  sources:\n  - openapi/quay-openapi.yml\n"
-source_yaml_url: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/authentication/quay-authentication.yml
+source_yaml_url: https://artifacts.apis.io/quay/authentication/quay-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
 - Container Images
