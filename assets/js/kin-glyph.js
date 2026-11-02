@@ -39,10 +39,10 @@ const FACETS = [
      does, so one word could not carry both." Relabelled 0.12, roadmap#89.
      DO NOT rename the IDs to the aliases. The positional encodings key off these
      ids, and the scorer writes both names, so the short one still resolves. */
-  { id: 'governance',               label: 'Contract Governance',      light: '#1baf7a', dark: '#199e70' },
+  { id: 'contract_governance', was: 'governance',               label: 'Contract Governance',      light: '#1baf7a', dark: '#199e70' },
   { id: 'operational_transparency', label: 'Operational Transparency', light: '#eda100', dark: '#c98500' },
   { id: 'developer_ergonomics',     label: 'Developer Ergonomics',     light: '#e87ba4', dark: '#d55181' },
-  { id: 'commercial_clarity',       label: 'Access Clarity',           light: '#008300', dark: '#008300' },
+  { id: 'access_clarity', was: 'commercial_clarity',       label: 'Access Clarity',           light: '#008300', dark: '#008300' },
 ];
 
 /* One ray per agent-readiness dimension, in scoring.yml order. MUST stay in
@@ -111,6 +111,11 @@ const DIMENSIONS = [
   { id: 'dynamic_client_registration', label: 'Registration Without a Human' },
   // Slot 19, appended 0.13.0 (roadmap#123).
   { id: 'agentic_commerce', label: 'Agentic Commerce Surface' },
+  // Slots 20-21, appended 0.25.0 (roadmap#982, #983) -- same append-only rule as slot 15.
+  { id: 'pagination_ratio', label: 'Pagination' },
+  { id: 'operation_distinctiveness', label: 'Distinct Operations' },
+  // Slot 22, appended 0.26.0 (roadmap#994) -- same append-only rule as slot 15.
+  { id: 'mcp_tool_quality', label: 'MCP Tool Quality' },
 ];
 
 /* Grades that mean PARTIAL credit rather than full. 0.6 made seven of the
@@ -136,6 +141,16 @@ const PARTIAL_GRADES = new Set([
   'served',
   // 0.13.0 (roadmap#123) — agentic_commerce `platform` at 0.25.
   'platform',
+  // 0.25.0 (roadmap#983) -- operation_distinctiveness `mostly` at 0.5. `distinct` (1.0) and
+  // pagination's `paginated` (1.0) are deliberately absent: full credit draws a full ray.
+  // pagination's own 0.5 tier reuses `partial`, already above.
+  'mostly',
+  // 0.26.0 (roadmap#994) -- mcp_tool_quality rounds its 0-1 credit to a quarter and names it:
+  // full 1.00 / three_quarters 0.75 / half 0.50 / quarter 0.25. `full` is deliberately absent
+  // for the same reason as `bound` and `distinct` above -- full credit draws a full ray. Without
+  // the other three, rayState() falls through to `return 'full'` and a provider at a quarter
+  // credit draws the same ray as one at full.
+  'three_quarters', 'half', 'quarter',
 ]);
 
 /* off | partial | full — from a bool, a grade string, or a trit char. */
