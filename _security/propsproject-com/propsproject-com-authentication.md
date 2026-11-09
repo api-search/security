@@ -31,8 +31,6 @@ summary_line: 0 schemes
 tags:
 - Company
 - Asset Management
-- API
-- Startup
+- Startups
 - Inventory
-- Developer Friendly
 ---

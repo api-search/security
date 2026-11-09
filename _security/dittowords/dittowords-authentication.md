@@ -104,8 +104,8 @@ source_yaml_url: https://artifacts.apis.io/dittowords/authentication/dittowords-
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Content
 - Localization
-- SaaS
+- Software-as-a-Service
 ---

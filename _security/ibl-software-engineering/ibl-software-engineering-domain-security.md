@@ -34,6 +34,5 @@ tags:
 - Company
 - Weather
 - Software
-- API
 - Solutions
 ---

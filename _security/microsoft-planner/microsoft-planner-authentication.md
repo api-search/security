@@ -56,13 +56,17 @@ schemes:
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: oauth2
   sources:
-  - openapi/microsoft-planner-openapi.yml
+  - openapi/microsoft-planner-buckets-api-openapi.yml
+  - openapi/microsoft-planner-plan-details-api-openapi.yml
+  - openapi/microsoft-planner-plans-api-openapi.yml
+  - openapi/microsoft-planner-task-details-api-openapi.yml
+  - openapi/microsoft-planner-tasks-api-openapi.yml
   type: oauth2
 slug: microsoft-planner-authentication
 source_filename: microsoft-planner-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-planner-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 6\n  description: OAuth 2.0 authorization with Microsoft identity platform\n  sources:\n  - openapi/microsoft-planner-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-planner-buckets-api-openapi.yml, openapi/microsoft-planner-plan-details-api-openapi.yml,\n  openapi/microsoft-planner-plans-api-openapi.yml, openapi/microsoft-planner-task-details-api-openapi.yml,\n  openapi/microsoft-planner-tasks-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 6\n  description: OAuth 2.0 authorization with Microsoft identity platform\n  sources:\n  - openapi/microsoft-planner-buckets-api-openapi.yml\n  - openapi/microsoft-planner-plan-details-api-openapi.yml\n  - openapi/microsoft-planner-plans-api-openapi.yml\n  - openapi/microsoft-planner-task-details-api-openapi.yml\n  - openapi/microsoft-planner-tasks-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-planner/authentication/microsoft-planner-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

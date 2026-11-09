@@ -47,7 +47,7 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://api.tun
 source_yaml_url: https://artifacts.apis.io/tunova-ai/authentication/tunova-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Music
 - Audio
 - Suno

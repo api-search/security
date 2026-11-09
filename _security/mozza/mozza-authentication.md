@@ -29,7 +29,7 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/mozza/authentication/mozza-authentication.yml
 summary_line: 0 schemes
 tags:
-- FoodTech
+- Food Tech
 - Biotechnology
 - Sustainable Agriculture
 - Plant-Based Protein

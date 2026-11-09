@@ -174,34 +174,455 @@ api_specs:
   slug: greenhouse-tests-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-tests-api-openapi.yml
+- filename: greenhouse-access-token-api-openapi.yml
+  format: yaml
+  label: Greenhouse Access Token API
+  slug: greenhouse-access-token-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-access-token-api-openapi.yml
+- filename: greenhouse-application-stages-api-openapi.yml
+  format: yaml
+  label: Greenhouse Application Stages API
+  slug: greenhouse-application-stages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-application-stages-api-openapi.yml
+- filename: greenhouse-applied-candidate-tags-api-openapi.yml
+  format: yaml
+  label: Greenhouse Applied Candidate Tags API
+  slug: greenhouse-applied-candidate-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-applied-candidate-tags-api-openapi.yml
+- filename: greenhouse-approval-flows-api-openapi.yml
+  format: yaml
+  label: Greenhouse Approval Flows API
+  slug: greenhouse-approval-flows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-approval-flows-api-openapi.yml
+- filename: greenhouse-approver-flows-api-openapi.yml
+  format: yaml
+  label: Greenhouse Approver Flows API
+  slug: greenhouse-approver-flows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-approver-flows-api-openapi.yml
+- filename: greenhouse-approver-groups-api-openapi.yml
+  format: yaml
+  label: Greenhouse Approver Groups API
+  slug: greenhouse-approver-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-approver-groups-api-openapi.yml
+- filename: greenhouse-approvers-api-openapi.yml
+  format: yaml
+  label: Greenhouse Approvers API
+  slug: greenhouse-approvers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-approvers-api-openapi.yml
+- filename: greenhouse-attachments-api-openapi.yml
+  format: yaml
+  label: Greenhouse Attachments API
+  slug: greenhouse-attachments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-attachments-api-openapi.yml
+- filename: greenhouse-bulk-requests-api-openapi.yml
+  format: yaml
+  label: Greenhouse Bulk Requests API
+  slug: greenhouse-bulk-requests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-bulk-requests-api-openapi.yml
+- filename: greenhouse-candidate-attribute-types-api-openapi.yml
+  format: yaml
+  label: Greenhouse Candidate Attribute Types API
+  slug: greenhouse-candidate-attribute-types-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-candidate-attribute-types-api-openapi.yml
+- filename: greenhouse-candidate-educations-api-openapi.yml
+  format: yaml
+  label: Greenhouse Candidate Educations API
+  slug: greenhouse-candidate-educations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-candidate-educations-api-openapi.yml
+- filename: greenhouse-candidate-employments-api-openapi.yml
+  format: yaml
+  label: Greenhouse Candidate Employments API
+  slug: greenhouse-candidate-employments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-candidate-employments-api-openapi.yml
+- filename: greenhouse-candidate-tags-api-openapi.yml
+  format: yaml
+  label: Greenhouse Candidate Tags API
+  slug: greenhouse-candidate-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-candidate-tags-api-openapi.yml
+- filename: greenhouse-close-reasons-api-openapi.yml
+  format: yaml
+  label: Greenhouse Close Reasons API
+  slug: greenhouse-close-reasons-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-close-reasons-api-openapi.yml
+- filename: greenhouse-countries-api-openapi.yml
+  format: yaml
+  label: Greenhouse Countries API
+  slug: greenhouse-countries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-countries-api-openapi.yml
+- filename: greenhouse-custom-field-departments-api-openapi.yml
+  format: yaml
+  label: Greenhouse Custom Field Departments API
+  slug: greenhouse-custom-field-departments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-custom-field-departments-api-openapi.yml
+- filename: greenhouse-custom-field-offices-api-openapi.yml
+  format: yaml
+  label: Greenhouse Custom Field Offices API
+  slug: greenhouse-custom-field-offices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-custom-field-offices-api-openapi.yml
+- filename: greenhouse-custom-field-options-api-openapi.yml
+  format: yaml
+  label: Greenhouse Custom Field Options API
+  slug: greenhouse-custom-field-options-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-custom-field-options-api-openapi.yml
+- filename: greenhouse-default-interviewers-api-openapi.yml
+  format: yaml
+  label: Greenhouse Default Interviewers API
+  slug: greenhouse-default-interviewers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-default-interviewers-api-openapi.yml
+- filename: greenhouse-demographic-answer-options-api-openapi.yml
+  format: yaml
+  label: Greenhouse Demographic Answer Options API
+  slug: greenhouse-demographic-answer-options-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-demographic-answer-options-api-openapi.yml
+- filename: greenhouse-demographic-answers-api-openapi.yml
+  format: yaml
+  label: Greenhouse Demographic Answers API
+  slug: greenhouse-demographic-answers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-demographic-answers-api-openapi.yml
+- filename: greenhouse-demographic-question-sets-api-openapi.yml
+  format: yaml
+  label: Greenhouse Demographic Question Sets API
+  slug: greenhouse-demographic-question-sets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-demographic-question-sets-api-openapi.yml
+- filename: greenhouse-demographic-questions-api-openapi.yml
+  format: yaml
+  label: Greenhouse Demographic Questions API
+  slug: greenhouse-demographic-questions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-demographic-questions-api-openapi.yml
+- filename: greenhouse-documents-api-openapi.yml
+  format: yaml
+  label: Greenhouse Documents API
+  slug: greenhouse-documents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-documents-api-openapi.yml
+- filename: greenhouse-eeoc-api-openapi.yml
+  format: yaml
+  label: Greenhouse EEOC API
+  slug: greenhouse-eeoc-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-eeoc-api-openapi.yml
+- filename: greenhouse-email-templates-api-openapi.yml
+  format: yaml
+  label: Greenhouse Email Templates API
+  slug: greenhouse-email-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-email-templates-api-openapi.yml
+- filename: greenhouse-employees-api-openapi.yml
+  format: yaml
+  label: Greenhouse Employees API
+  slug: greenhouse-employees-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-employees-api-openapi.yml
+- filename: greenhouse-focus-candidate-attributes-api-openapi.yml
+  format: yaml
+  label: Greenhouse Focus Candidate Attributes API
+  slug: greenhouse-focus-candidate-attributes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-focus-candidate-attributes-api-openapi.yml
+- filename: greenhouse-future-job-permissions-api-openapi.yml
+  format: yaml
+  label: Greenhouse Future Job Permissions API
+  slug: greenhouse-future-job-permissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-future-job-permissions-api-openapi.yml
+- filename: greenhouse-interview-kits-api-openapi.yml
+  format: yaml
+  label: Greenhouse Interview Kits API
+  slug: greenhouse-interview-kits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-interview-kits-api-openapi.yml
+- filename: greenhouse-interviewer-tags-api-openapi.yml
+  format: yaml
+  label: Greenhouse Interviewer Tags API
+  slug: greenhouse-interviewer-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-interviewer-tags-api-openapi.yml
+- filename: greenhouse-interviewers-api-openapi.yml
+  format: yaml
+  label: Greenhouse Interviewers API
+  slug: greenhouse-interviewers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-interviewers-api-openapi.yml
+- filename: greenhouse-interviews-api-openapi.yml
+  format: yaml
+  label: Greenhouse Interviews API
+  slug: greenhouse-interviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-interviews-api-openapi.yml
+- filename: greenhouse-job-board-custom-locations-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Board Custom Locations API
+  slug: greenhouse-job-board-custom-locations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-board-custom-locations-api-openapi.yml
+- filename: greenhouse-job-candidate-attributes-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Candidate Attributes API
+  slug: greenhouse-job-candidate-attributes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-candidate-attributes-api-openapi.yml
+- filename: greenhouse-job-hiring-managers-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Hiring Managers API
+  slug: greenhouse-job-hiring-managers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-hiring-managers-api-openapi.yml
+- filename: greenhouse-job-interview-stages-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Interview Stages API
+  slug: greenhouse-job-interview-stages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-interview-stages-api-openapi.yml
+- filename: greenhouse-job-interviews-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Interviews API
+  slug: greenhouse-job-interviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-interviews-api-openapi.yml
+- filename: greenhouse-job-notes-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Notes API
+  slug: greenhouse-job-notes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-notes-api-openapi.yml
+- filename: greenhouse-job-owners-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Owners API
+  slug: greenhouse-job-owners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-owners-api-openapi.yml
+- filename: greenhouse-job-post-locations-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Post Locations API
+  slug: greenhouse-job-post-locations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-post-locations-api-openapi.yml
+- filename: greenhouse-job-posts-api-openapi.yml
+  format: yaml
+  label: Greenhouse Job Posts API
+  slug: greenhouse-job-posts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-job-posts-api-openapi.yml
+- filename: greenhouse-notes-api-openapi.yml
+  format: yaml
+  label: Greenhouse Notes API
+  slug: greenhouse-notes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-notes-api-openapi.yml
+- filename: greenhouse-openings-api-openapi.yml
+  format: yaml
+  label: Greenhouse Openings API
+  slug: greenhouse-openings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-openings-api-openapi.yml
+- filename: greenhouse-other-criteria-api-openapi.yml
+  format: yaml
+  label: Greenhouse Other Criteria API
+  slug: greenhouse-other-criteria-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-other-criteria-api-openapi.yml
+- filename: greenhouse-pending-hires-api-openapi.yml
+  format: yaml
+  label: Greenhouse Pending Hires API
+  slug: greenhouse-pending-hires-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-pending-hires-api-openapi.yml
+- filename: greenhouse-prospect-details-api-openapi.yml
+  format: yaml
+  label: Greenhouse Prospect Details API
+  slug: greenhouse-prospect-details-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-prospect-details-api-openapi.yml
+- filename: greenhouse-prospect-pool-stages-api-openapi.yml
+  format: yaml
+  label: Greenhouse Prospect Pool Stages API
+  slug: greenhouse-prospect-pool-stages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-prospect-pool-stages-api-openapi.yml
+- filename: greenhouse-prospect-pools-api-openapi.yml
+  format: yaml
+  label: Greenhouse Prospect Pools API
+  slug: greenhouse-prospect-pools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-prospect-pools-api-openapi.yml
+- filename: greenhouse-referrers-api-openapi.yml
+  format: yaml
+  label: Greenhouse Referrers API
+  slug: greenhouse-referrers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-referrers-api-openapi.yml
+- filename: greenhouse-rejection-details-api-openapi.yml
+  format: yaml
+  label: Greenhouse Rejection Details API
+  slug: greenhouse-rejection-details-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-rejection-details-api-openapi.yml
+- filename: greenhouse-rejection-reasons-api-openapi.yml
+  format: yaml
+  label: Greenhouse Rejection Reasons API
+  slug: greenhouse-rejection-reasons-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-rejection-reasons-api-openapi.yml
+- filename: greenhouse-scorecard-candidate-attributes-api-openapi.yml
+  format: yaml
+  label: Greenhouse Scorecard Candidate Attributes API
+  slug: greenhouse-scorecard-candidate-attributes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-scorecard-candidate-attributes-api-openapi.yml
+- filename: greenhouse-scorecard-question-answer-options-api-openapi.yml
+  format: yaml
+  label: Greenhouse Scorecard Question Answer Options API
+  slug: greenhouse-scorecard-question-answer-options-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-scorecard-question-answer-options-api-openapi.yml
+- filename: greenhouse-scorecard-question-answers-api-openapi.yml
+  format: yaml
+  label: Greenhouse Scorecard Question Answers API
+  slug: greenhouse-scorecard-question-answers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-scorecard-question-answers-api-openapi.yml
+- filename: greenhouse-scorecard-question-candidate-attributes-api-openapi.yml
+  format: yaml
+  label: Greenhouse Scorecard Question Candidate Attributes API
+  slug: greenhouse-scorecard-question-candidate-attributes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-scorecard-question-candidate-attributes-api-openapi.yml
+- filename: greenhouse-scorecard-question-options-api-openapi.yml
+  format: yaml
+  label: Greenhouse Scorecard Question Options API
+  slug: greenhouse-scorecard-question-options-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-scorecard-question-options-api-openapi.yml
+- filename: greenhouse-scorecard-questions-api-openapi.yml
+  format: yaml
+  label: Greenhouse Scorecard Questions API
+  slug: greenhouse-scorecard-questions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-scorecard-questions-api-openapi.yml
+- filename: greenhouse-signature-request-templates-api-openapi.yml
+  format: yaml
+  label: Greenhouse Signature Request Templates API
+  slug: greenhouse-signature-request-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-signature-request-templates-api-openapi.yml
+- filename: greenhouse-signature-requests-api-openapi.yml
+  format: yaml
+  label: Greenhouse Signature Requests API
+  slug: greenhouse-signature-requests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-signature-requests-api-openapi.yml
+- filename: greenhouse-team-categories-api-openapi.yml
+  format: yaml
+  label: Greenhouse Team Categories API
+  slug: greenhouse-team-categories-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-team-categories-api-openapi.yml
+- filename: greenhouse-teams-api-openapi.yml
+  format: yaml
+  label: Greenhouse Teams API
+  slug: greenhouse-teams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-teams-api-openapi.yml
+- filename: greenhouse-token-api-openapi.yml
+  format: yaml
+  label: Greenhouse Token API
+  slug: greenhouse-token-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-token-api-openapi.yml
+- filename: greenhouse-tracking-links-api-openapi.yml
+  format: yaml
+  label: Greenhouse Tracking Links API
+  slug: greenhouse-tracking-links-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-tracking-links-api-openapi.yml
+- filename: greenhouse-user-emails-api-openapi.yml
+  format: yaml
+  label: Greenhouse User Emails API
+  slug: greenhouse-user-emails-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-user-emails-api-openapi.yml
+- filename: greenhouse-user-job-permissions-api-openapi.yml
+  format: yaml
+  label: Greenhouse User Job Permissions API
+  slug: greenhouse-user-job-permissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-user-job-permissions-api-openapi.yml
+- filename: greenhouse-user-roles-api-openapi.yml
+  format: yaml
+  label: Greenhouse User Roles API
+  slug: greenhouse-user-roles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-user-roles-api-openapi.yml
+- filename: greenhouse-webhooks-api-openapi.yml
+  format: yaml
+  label: Greenhouse Webhooks API
+  slug: greenhouse-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/greenhouse/openapi/greenhouse-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
+  - 0 issuewild "letsencrypt.org"
+  - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
+  - 0 iodef "mailto:infrasec@greenhouse.io"
+  - 0 issue "amazon.com"
+  - 0 issue "amazonaws.com"
+  - 0 issue "amazontrust.com"
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: greenhouse.com
+  spf: true
+- caa:
+  - 0 issue "amazon.com"
+  - 0 issue "amazonaws.com"
+  - 0 issue "amazontrust.com"
+  - 0 issue "awstrust.com"
   - 0 issue "comodoca.com"
   - 0 issue "digicert.com"
-  - 0 issue "globalsign.com"
-  - 0 issue "godaddy.com"
-  - 0 issue "letsencrypt.org"
-  - 0 issue "pki.goog; cansignhttpexchanges=yes"
   dmarc: true
   dmarc_policy: none
   dnssec: false
   domain: greenhouse.io
   spf: true
 hosts:
-- cert_expires: Sep 11 23:59:59 2026 GMT
-  host: developers.greenhouse.io
+- cert_expires: Dec 21 21:56:46 2026 GMT
+  host: www.greenhouse.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 17 23:59:59 2026 GMT
+- cert_expires: Mar  4 23:59:59 2027 GMT
+  host: developers.greenhouse.io
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Mar  4 23:59:59 2027 GMT
   host: harvest.greenhouse.io
   hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Oct 17 23:59:59 2026 GMT
-  host: boards-api.greenhouse.io
-  hsts: false
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -210,16 +631,17 @@ layout: security
 method: probed
 name: Greenhouse Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Greenhouse, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Greenhouse, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Greenhouse
 provider_slug: greenhouse
 slug: greenhouse-domain-security
 source_filename: greenhouse-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.greenhouse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 11 23:59:59 2026 GMT\n  hsts: false\n- host: harvest.greenhouse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: null\n- host: boards-api.greenhouse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: greenhouse.io\n  dnssec: false\n  caa:\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-11-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.greenhouse.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 21:56:46 2026 GMT\n  hsts: false\n- host: developers.greenhouse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: harvest.greenhouse.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: greenhouse.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 iodef \"mailto:infrasec@greenhouse.io\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: greenhouse.io\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issue \"\
+  amazontrust.com\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://artifacts.apis.io/greenhouse/security/greenhouse-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Human Resources
 - Greenhouse
@@ -228,4 +650,7 @@ tags:
 - Candidates
 - Job
 - Onboarding
+- Hiring
+- Talent Acquisition
+- Enterprise Saas
 ---

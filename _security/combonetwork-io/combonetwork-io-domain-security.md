@@ -32,6 +32,5 @@ tags:
 - Company
 - IoT
 - Networking
-- Edge-Computing
-- APIs
+- Edge Computing
 ---

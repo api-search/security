@@ -88,7 +88,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Finance
-- Market-Data
-- Real-time
-- API
+- Market Data
+- Real-Time
 ---

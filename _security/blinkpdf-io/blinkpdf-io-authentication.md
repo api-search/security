@@ -114,8 +114,7 @@ source_yaml_url: https://artifacts.apis.io/blinkpdf-io/authentication/blinkpdf-i
 summary_line: 1 scheme
 tags:
 - PDF
-- DocumentProcessing
-- API
-- SaaS
+- Document Processing
+- Software-as-a-Service
 - Automation
 ---

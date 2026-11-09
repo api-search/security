@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/getservd-me/security/getservd-me-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FoodTech
+- Food Tech
 - Commerce
-- SaaS
-- Restaurants
+- Software-as-a-Service
+- Restaurant
 ---

@@ -78,5 +78,8 @@ tags:
 - Data Integration
 - MCP
 - SCIM
+- Data Platform
+- Visualization
+- Collaboration
 trust_url: https://www.pigment.com/security
 ---

@@ -63,8 +63,7 @@ source_yaml_url: https://artifacts.apis.io/adsbiq-com/security/adsbiq-com-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Advertising
-- DataAnalytics
-- MarketingTechnology
-- API
+- Data Analytics
+- Marketing Technology
 - Company
 ---

@@ -35,5 +35,4 @@ tags:
 - Electronics
 - Distributor
 - Components
-- API
 ---

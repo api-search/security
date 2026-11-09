@@ -166,5 +166,6 @@ tags:
 - Networking
 - Infrastructure
 - DevOps
+- Amazon Web Services
 trust_url: https://aws.amazon.com/compliance/
 ---

@@ -109,9 +109,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/postzen-dev/security/postzen-dev-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- social-media
-- api
-- developer-tools
-- ai-agents
-- automation
+- Social Media
+- Developer Tools
+- AI Agents
+- Automation
 ---

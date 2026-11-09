@@ -192,6 +192,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-lookout-for-metrics/security/a
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Anomaly Detection
+- Amazon Web Services
 - Business Intelligence
 - Machine Learning
 - Metrics

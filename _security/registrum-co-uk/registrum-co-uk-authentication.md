@@ -38,7 +38,7 @@ summary_line: 0 schemes
 tags:
 - Companies House
 - Financial Data
-- JSON API
-- UK
+- JSON:API
+- United Kingdom
 - Business Intelligence
 ---

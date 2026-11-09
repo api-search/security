@@ -134,7 +134,7 @@ source_yaml_url: https://artifacts.apis.io/jarvisclaw-ai/security/jarvisclaw-ai-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Payments
 - Infrastructure
 - Marketplace

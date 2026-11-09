@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/hicleo-com/security/hicleo-com-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- caregiving
-- health
-- employer
-- family
-- platform
+- Caregiving
+- Health
+- Employer
+- Family
+- Platform
 ---

@@ -141,8 +141,8 @@ source_yaml_url: https://artifacts.apis.io/studiomeyer-io/security/studiomeyer-i
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Web-Design
+- Artificial Intelligence
+- Web Design
 - MCP
 - Mallorca
 ---

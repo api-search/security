@@ -226,7 +226,6 @@ summary_line: 2 schemes
 tags:
 - Company
 - Finance
-- FinTech
-- PersonalFinance
-- API
+- Fintech
+- Personal Finance
 ---

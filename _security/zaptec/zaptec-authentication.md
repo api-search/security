@@ -85,8 +85,8 @@ source_yaml_url: https://artifacts.apis.io/zaptec/authentication/zaptec-authenti
 summary_line: 2 schemes
 tags:
 - Company
-- EVCharging
-- SmartCharging
+- EV Charging
+- Smart Charging
 - Energy
 - Sustainability
 - Platform

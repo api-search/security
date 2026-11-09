@@ -32,6 +32,6 @@ tags:
 - Company
 - Development
 - CI/CD
-- Git
+- Version Control
 - Automation
 ---

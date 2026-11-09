@@ -169,8 +169,8 @@ source_yaml_url: https://artifacts.apis.io/damdafa-com/authentication/damdafa-co
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Applications
+- Artificial Intelligence
+- Application
 - Tools
 - Developer Platform
 ---

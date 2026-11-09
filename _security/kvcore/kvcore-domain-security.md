@@ -38,9 +38,9 @@ source_yaml_url: https://artifacts.apis.io/kvcore/security/kvcore-domain-securit
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- RealEstate
-- SaaS
+- Real Estate
+- Software-as-a-Service
 - CRM
-- Lead-Generation
-- Marketing-Automation
+- Lead Generation
+- Marketing Automation
 ---

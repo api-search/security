@@ -30,9 +30,9 @@ tags:
 - Surveys
 - Polls
 - Internal Communications
-- Learning & Development
+- Learning and Development
 - Meetings
 - HR Tools
-- Integrations
+- Integration
 trust_url: https://www.polly.ai/security
 ---

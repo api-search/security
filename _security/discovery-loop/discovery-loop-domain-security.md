@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/discovery-loop/security/discovery-loo
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Science
 - Automation
 - Research

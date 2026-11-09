@@ -244,9 +244,10 @@ tags:
 - Course Catalog
 - Research Computing
 - Campus Life
-- Authentication
+- OAuth
 - OpenID Connect
 - SAML
 - Shibboleth
 - Payments
+- Authentication
 ---

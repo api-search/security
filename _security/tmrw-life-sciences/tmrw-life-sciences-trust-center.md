@@ -30,5 +30,8 @@ tags:
 - Cryostorage
 - Biotechnology
 - Automation
+- Diagnostics
+- Therapeutics
+- Artificial Intelligence
 trust_url: https://www.tmrwlifesciences.com/security/
 ---

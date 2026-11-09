@@ -116,9 +116,8 @@ source_yaml_url: https://artifacts.apis.io/recallsapi-com/authentication/recalls
 summary_line: 2 schemes
 tags:
 - Company
-- API
 - Recall
-- E-commerce
+- E-Commerce
 - Safety
 - US-Agencies
 ---

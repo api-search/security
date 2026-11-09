@@ -39,7 +39,7 @@ tags:
 - FireSat
 - Halo Platform
 - Infrared Imaging
-- Earth Intelligence
+- Earth-Intelligence
 - Climate
 - Defense
 - Aerospace

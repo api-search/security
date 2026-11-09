@@ -45,8 +45,8 @@ source_yaml_url: https://artifacts.apis.io/taskbullet-com/security/taskbullet-co
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- VirtualAssistant
-- SaaS
+- Virtual Assistant
+- Software-as-a-Service
 - USBusiness
 - Productivity
 ---

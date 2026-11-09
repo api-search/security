@@ -20,7 +20,6 @@ summary_line: SOC 2
 tags:
 - Company
 - Software
-- API
 - Integration
 - Enterprise
 trust_url: https://trust.antenna.dev/

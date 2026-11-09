@@ -169,7 +169,7 @@ source_yaml_url: https://artifacts.apis.io/dovetailapp/authentication/dovetailap
 summary_line: 1 scheme
 tags:
 - Customer Intelligence
-- AI
+- Artificial Intelligence
 - Data Integration
 - Feedback Analysis
 - Product Research

@@ -28,6 +28,5 @@ tags:
 - Social
 - FeedBuilder
 - Bluesky
-- API
-- SaaS
+- Software-as-a-Service
 ---

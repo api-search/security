@@ -49,7 +49,6 @@ source_yaml_url: https://artifacts.apis.io/stitchapi-dev/authentication/stitchap
 summary_line: 0 schemes
 tags:
 - Company
-- API
 - Integration
 - TypeScript
 - Node.js

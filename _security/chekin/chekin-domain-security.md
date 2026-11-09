@@ -33,6 +33,5 @@ tags:
 - Hospitality
 - Check-in
 - Compliance
-- API
 - SDK
 ---

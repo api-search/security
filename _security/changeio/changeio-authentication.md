@@ -31,7 +31,6 @@ summary_line: 1 scheme
 tags:
 - Donations
 - Compliance
-- API
 - Nonprofit Verification
 - Disbursements
 - Corporate Giving

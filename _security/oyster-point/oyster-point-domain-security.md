@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/oyster-point/security/oyster-point-do
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- HealthTech
-- Biotech
-- DataPlatform
-- VentureBacked
+- Health Tech
+- Biotechnology
+- Data Platform
 ---

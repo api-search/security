@@ -156,12 +156,6 @@ api_specs:
   slug: samva-dev-organizations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/samva-dev/openapi/samva-dev-organizations-api-openapi.yml
-- filename: samva-dev-samva-api-api-openapi.yml
-  format: yaml
-  label: samva-dev Samva API
-  slug: samva-dev-samva-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/samva-dev/openapi/samva-dev-samva-api-api-openapi.yml
 - filename: samva-dev-scheduled-messages-api-openapi.yml
   format: yaml
   label: samva-dev Scheduled Messages API
@@ -238,7 +232,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Email
-- API
-- SaaS
-- Developer
+- Software-as-a-Service
+- Developers
 ---

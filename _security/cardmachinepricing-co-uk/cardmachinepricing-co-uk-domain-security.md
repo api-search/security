@@ -33,6 +33,6 @@ tags:
 - Company
 - Finance
 - Pricing
-- UK
-- Card-Machines
+- United Kingdom
+- Card Machines
 ---

@@ -44,7 +44,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - CAPTCHA
-- AI
+- Artificial Intelligence
 - Automation
 - Cloud
 ---

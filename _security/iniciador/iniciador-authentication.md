@@ -79,6 +79,7 @@ tags:
 - Pix
 - Brazil
 - FAPI
-- Authentication
+- OAuth
 - Financial Services
+- Authentication
 ---

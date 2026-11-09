@@ -116,7 +116,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Sports
 - Sports Betting
-- betting-odds
+- Betting Odds
 - bookmaker-odds
 - live-odds
 - Sportsbook
@@ -127,7 +127,7 @@ tags:
 - OpenAPI
 - MCP
 - Agent-Native
-- llms-txt
+- Llms.txt
 - SDK
 - Postman
 ---

@@ -26,9 +26,9 @@ source_yaml: "generated: '2026-10-25'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/noded-so/security/noded-so-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- AI
-- Customer-Data
-- Context-Graph
+- Artificial Intelligence
+- Customer Data
+- Context Graph
 - Integration
 - Automation
 - Company

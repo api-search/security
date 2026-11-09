@@ -41,8 +41,7 @@ source_yaml_url: https://artifacts.apis.io/poof-bg/authentication/poof-bg-authen
 summary_line: 1 scheme
 tags:
 - Company
-- API
-- BackgroundRemoval
-- ImageProcessing
-- VideoProcessing
+- Background Removal
+- Image Processing
+- Video Processing
 ---

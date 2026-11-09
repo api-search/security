@@ -135,7 +135,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Video
-- AI
-- DataAPI
+- Artificial Intelligence
+- Data API
 - Media
 ---

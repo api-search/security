@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - SMS
 - Marketing
-- UK
+- United Kingdom
 - Business
 - Communications
 ---

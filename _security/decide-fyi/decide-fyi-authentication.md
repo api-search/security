@@ -114,7 +114,7 @@ summary_line: 1 scheme
 tags:
 - Decision API
 - Rule Engine
-- SaaS
+- Software-as-a-Service
 - Automation
 - Runtime
 ---

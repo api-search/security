@@ -94,8 +94,7 @@ source_yaml_url: https://artifacts.apis.io/dystro-dev/authentication/dystro-dev-
 summary_line: 1 scheme
 tags:
 - Company
-- API
-- Developer
+- Developers
 - Technology
 - Integration
 ---

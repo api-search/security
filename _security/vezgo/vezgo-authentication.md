@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: vezgo-vezgo-api-openapi.yml
-  format: yaml
-  label: Vezgo API
-  slug: vezgo-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/vezgo/openapi/vezgo-vezgo-api-openapi.yml
 - filename: vezgo-openapi-generated.yml
   format: yaml
   label: Vezgo API

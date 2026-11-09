@@ -34,6 +34,6 @@ tags:
 - Biotechnology
 - Oncology
 - Therapeutics
-- ClinicalTrials
+- Clinical Trials
 - Company
 ---

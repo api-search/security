@@ -40,6 +40,6 @@ tags:
 - iPaaS
 - Integration
 - Messaging
-- API-Gateway
-- Event-Streaming
+- API Gateway
+- Event Streaming
 ---

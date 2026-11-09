@@ -35,9 +35,9 @@ source_yaml_url: https://artifacts.apis.io/nira/security/nira-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Data-Management
+- Data Management
 - Security
 - Cloud
-- File-Sharing
-- Access-Control
+- File Sharing
+- Access Control
 ---

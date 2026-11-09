@@ -197,7 +197,7 @@ summary_line: 5 schemes
 tags:
 - Company
 - Payments
-- AI
+- Artificial Intelligence
 - Marketplace
 - Blockchain
 - Micropayments

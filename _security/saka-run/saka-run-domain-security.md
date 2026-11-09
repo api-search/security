@@ -33,5 +33,5 @@ tags:
 - Data
 - Prospecting
 - Marketing
-- SaaS
+- Software-as-a-Service
 ---

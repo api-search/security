@@ -32,8 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Logistics
-- AirCargo
-- ECommerce
-- SaaS
-- API
+- Air Cargo
+- E-Commerce
+- Software-as-a-Service
 ---

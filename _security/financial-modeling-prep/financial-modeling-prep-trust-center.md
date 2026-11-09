@@ -75,7 +75,7 @@ slug: financial-modeling-prep-trust-center
 source_filename: financial-modeling-prep-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-22'\nmethod: searched\nprobe: true\nsource: https://site.financialmodelingprep.com/trust\nurl: https://site.financialmodelingprep.com/trust\ncertifications:\n- SOC 2\nevidence:\n- source: https://site.financialmodelingprep.com/trust\n  keywords:\n  - soc 2\n  - soc2\n"
+source_yaml: "generated: '2026-11-04'\nmethod: searched\nprobe: true\nsource: https://trust.financialmodelingprep.com/\nurl: https://trust.financialmodelingprep.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.financialmodelingprep.com/\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n"
 source_yaml_url: https://artifacts.apis.io/financial-modeling-prep/security/financial-modeling-prep-trust-center.yml
 summary_line: SOC 2
 tags:
@@ -87,5 +87,5 @@ tags:
 - Financial Statements
 - Historical
 - Real-Time
-trust_url: https://site.financialmodelingprep.com/trust
+trust_url: https://trust.financialmodelingprep.com/
 ---

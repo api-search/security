@@ -31,8 +31,8 @@ summary_line: 0 schemes
 tags:
 - Company
 - Automation
-- AI
-- Workflow
+- Artificial Intelligence
+- Workflows
 - Technology
 - Platform
 ---

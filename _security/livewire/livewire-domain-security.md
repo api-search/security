@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/livewire/security/livewire-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- ElectricMotorcycles
-- EV
+- Electric Motorcycles
+- Electric Vehicles
 - Transportation
 - Sustainability
 - US

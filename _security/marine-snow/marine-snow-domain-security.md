@@ -34,5 +34,4 @@ tags:
 - Venture
 - Portfolio
 - Placeholder
-- Unknown
 ---

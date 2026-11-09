@@ -27,6 +27,7 @@ tags:
 - Insurtech
 - Claims Technology
 - CIECA
+- OAuth
 - Authentication
 trust_url: https://trust.cccis.com/
 ---

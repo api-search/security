@@ -56,4 +56,6 @@ tags:
 - Machine Learning
 - Life Sciences
 - Medical Imaging
+- Pathology
+- Diagnostics
 ---

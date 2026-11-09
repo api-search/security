@@ -169,4 +169,8 @@ tags:
 - Data Lake
 - Cloud Security
 - Developer Tools
+- Artificial Intelligence
+- SOC
+- Cloud
+- Automation
 ---

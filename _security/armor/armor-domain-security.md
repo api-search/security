@@ -390,12 +390,6 @@ api_specs:
   slug: armor-trend-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/armor/openapi/armor-trend-api-openapi.yml
-- filename: armor-user-api-openapi.yml
-  format: yaml
-  label: Armor User API
-  slug: armor-user-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/armor/openapi/armor-user-api-openapi.yml
 - filename: armor-utilization-api-openapi.yml
   format: yaml
   label: Armor Utilization API
@@ -420,6 +414,30 @@ api_specs:
   slug: armor-vulnerability-scanning-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/armor/openapi/armor-vulnerability-scanning-api-openapi.yml
+- filename: armor-contextsensitivehelp-api-openapi.yml
+  format: yaml
+  label: Armor Context Sensitive Help API
+  slug: armor-contextsensitivehelp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/armor/openapi/armor-contextsensitivehelp-api-openapi.yml
+- filename: armor-edrhealth-api-openapi.yml
+  format: yaml
+  label: Armor Edr Health API
+  slug: armor-edrhealth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/armor/openapi/armor-edrhealth-api-openapi.yml
+- filename: armor-health-monitoring-api-openapi.yml
+  format: yaml
+  label: Armor Health Monitoring API
+  slug: armor-health-monitoring-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/armor/openapi/armor-health-monitoring-api-openapi.yml
+- filename: armor-security-services-api-openapi.yml
+  format: yaml
+  label: Armor Security Services API
+  slug: armor-security-services-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/armor/openapi/armor-security-services-api-openapi.yml
 description: ''
 domains:
 - caa: []

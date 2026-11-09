@@ -34,6 +34,6 @@ tags:
 - Company
 - Artificial Intelligence
 - Incubator
-- Startup
+- Startups
 - Technology
 ---

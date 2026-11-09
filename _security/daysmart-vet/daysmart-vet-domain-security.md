@@ -35,5 +35,5 @@ tags:
 - Veterinary
 - Software
 - Cloud
-- PracticeManagement
+- Practice Management
 ---

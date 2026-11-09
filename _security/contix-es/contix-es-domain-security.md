@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: contix-es-contix-api-openapi.yml
-  format: yaml
-  label: Contix API
-  slug: contix-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/contix-es/openapi/contix-es-contix-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -40,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Invoicing
 - Accounting
-- SaaS
+- Software-as-a-Service
 - Spain
-- FinTech
+- Fintech
 - Automation
 ---

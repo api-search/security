@@ -54,9 +54,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/orvel-dev/authentication/orvel-dev-authentication.yml
 summary_line: 3 schemes
 tags:
-- e-invoicing
-- accessibility
-- API
+- E-Invoicing
+- Accessibility
 - France
 - EU
 ---

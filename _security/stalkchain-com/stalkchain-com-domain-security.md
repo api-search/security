@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/stalkchain-com/security/stalkchain-co
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Data
-- AI
+- Artificial Intelligence
 - Blockchain
 - Analytics
 ---

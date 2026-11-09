@@ -83,9 +83,10 @@ tags:
 - AI Governance
 - MCP
 - Policy Enforcement
-- Authentication
+- OAuth
 - Identity
 - Security
 - Audit
 - Control Plane
+- Authentication
 ---

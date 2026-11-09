@@ -38,9 +38,9 @@ source_yaml_url: https://artifacts.apis.io/unraid/security/unraid-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Operating System
-- Network‑Attached Storage
+- Network Attached Storage
 - Docker
 - Virtual Machines
-- Self‑Hosting
+- Self-Hosting
 - Homelab
 ---

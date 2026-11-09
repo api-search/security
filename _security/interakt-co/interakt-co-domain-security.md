@@ -41,5 +41,5 @@ tags:
 - Marketing
 - Automation
 - Cloud
-- AI
+- Artificial Intelligence
 ---

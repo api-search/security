@@ -39,4 +39,5 @@ tags:
 - Content Management
 - Software-as-a-Service
 - Scheduling
+- Automation
 ---

@@ -31,5 +31,5 @@ tags:
 - Authentication
 - Identity
 - Mozilla
-- OpenSource
+- Open Source
 ---

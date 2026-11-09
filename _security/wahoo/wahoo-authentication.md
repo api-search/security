@@ -97,5 +97,6 @@ tags:
 - Hardware
 - FIT Files
 - Webhook
+- OAuth
 - Authentication
 ---

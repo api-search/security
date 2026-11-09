@@ -94,7 +94,7 @@ source_yaml_url: https://artifacts.apis.io/abloatai/security/abloatai-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agent Infrastructure
-- multi-agent-coordination
+- Multi‑Agent Coordination
 - concurrency-control
 - State Management
 - Database

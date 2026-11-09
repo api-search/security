@@ -29,9 +29,9 @@ source_yaml_url: https://artifacts.apis.io/chipp-ai/authentication/chipp-ai-auth
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- SaaS
+- Software-as-a-Service
 - HIPAA
-- SOC2
+- SOC 2
 ---

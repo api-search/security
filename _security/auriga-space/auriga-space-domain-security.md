@@ -36,5 +36,5 @@ tags:
 - Satellite
 - In‑orbit‑servicing
 - Space Logistics
-- Emerging‑tech
+- EmergingTech
 ---

@@ -29,8 +29,7 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - Fraud Prevention
-- Real-time
+- Real-Time
 - Machine Learning
-- API
 trust_url: https://trust.siftscience.com/
 ---

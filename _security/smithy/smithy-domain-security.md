@@ -29,6 +29,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/smithy/security/smithy-domain-security.yml
 summary_line: TLSv1.3
 tags:
+- Amazon Web Services
 - Code Generation
 - IDL
 - SDK

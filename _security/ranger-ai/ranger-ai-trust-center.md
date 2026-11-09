@@ -21,7 +21,7 @@ source_yaml_url: https://artifacts.apis.io/ranger-ai/security/ranger-ai-trust-ce
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Industrial Engineering
 - Procurement
 - Document Automation

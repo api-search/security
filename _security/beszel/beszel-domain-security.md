@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: beszel-beszel-api-api-openapi.yml
-  format: yaml
-  label: Beszel API
-  slug: beszel-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/beszel/openapi/beszel-beszel-api-api-openapi.yml
 - filename: beszel-openapi-generated.yml
   format: yaml
   label: Beszel API
@@ -47,7 +41,7 @@ tags:
 - Docker
 - Podman
 - Alerts
-- Multi‑user
+- Multi-User
 - OAuth
 - Backup
 - REST API

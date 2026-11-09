@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/teetra-com/security/teetra-com-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Payments
-- API-Monetization
+- API Monetization
 - Marketplace
-- DeveloperTools
+- Developer Tools
 ---

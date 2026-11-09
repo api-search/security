@@ -95,6 +95,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-iam-access-analyzer/security/a
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Access Control
+- Amazon Web Services
 - Compliance
 - Identity and Access Management
 - Policy Management

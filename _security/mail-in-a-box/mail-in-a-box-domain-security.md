@@ -76,8 +76,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Email
-- Self-hosted
-- Open-source
+- Self-Hosted
+- Open Source
 - Automation
 - Privacy
 ---

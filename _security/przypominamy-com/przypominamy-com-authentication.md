@@ -86,6 +86,5 @@ tags:
 - SMS
 - Communications
 - Poland
-- API
 - Messaging
 ---

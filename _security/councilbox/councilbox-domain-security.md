@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/councilbox/security/councilbox-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- CivicTech
-- APIPlatform
-- CommunityEngagement
-- CloudServices
+- Civic Tech
+- API Platform
+- Community Engagement
+- Cloud Services
 ---

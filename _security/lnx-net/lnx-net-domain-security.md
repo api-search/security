@@ -37,9 +37,9 @@ source_yaml_url: https://artifacts.apis.io/lnx-net/security/lnx-net-domain-secur
 summary_line: TLSv1.3
 tags:
 - Company
-- Link-in-bio
+- Link in Bio
 - Creator Tools
-- SaaS
+- Software-as-a-Service
 - Social Media
 - Analytics
 ---

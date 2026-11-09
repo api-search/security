@@ -133,8 +133,8 @@ source_yaml_url: https://artifacts.apis.io/studiomeyer-io/authentication/studiom
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Web-Design
+- Artificial Intelligence
+- Web Design
 - MCP
 - Mallorca
 ---

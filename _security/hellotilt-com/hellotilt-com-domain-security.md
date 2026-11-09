@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/hellotilt-com/security/hellotilt-com-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HR
-- LeaveManagement
-- SaaS
+- Human Resources
+- Leave Management
+- Software-as-a-Service
 - Platform
 ---

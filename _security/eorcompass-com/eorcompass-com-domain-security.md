@@ -51,8 +51,8 @@ source_yaml_url: https://artifacts.apis.io/eorcompass-com/security/eorcompass-co
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- EmployerOfRecord
+- Employer of Record
 - Payroll
 - PricingComparison
-- HRTech
+- Human Resources
 ---

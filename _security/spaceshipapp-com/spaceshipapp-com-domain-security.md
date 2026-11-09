@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Space
 - Travel
-- API
 - Platform
 - Aerospace
 ---

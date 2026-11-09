@@ -124,6 +124,42 @@ api_specs:
   slug: euler-vaults-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euler/openapi/euler-vaults-api-openapi.yml
+- filename: euler-activity-api-openapi.yml
+  format: yaml
+  label: Euler Finance Activity API
+  slug: euler-activity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-activity-api-openapi.yml
+- filename: euler-changes-api-openapi.yml
+  format: yaml
+  label: Euler Finance Changes API
+  slug: euler-changes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-changes-api-openapi.yml
+- filename: euler-compliance-api-openapi.yml
+  format: yaml
+  label: Euler Finance Compliance API
+  slug: euler-compliance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-compliance-api-openapi.yml
+- filename: euler-images-api-openapi.yml
+  format: yaml
+  label: Euler Finance Images API
+  slug: euler-images-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-images-api-openapi.yml
+- filename: euler-labels-api-openapi.yml
+  format: yaml
+  label: Euler Finance Labels API
+  slug: euler-labels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-labels-api-openapi.yml
+- filename: euler-securitize-api-openapi.yml
+  format: yaml
+  label: Euler Finance Securitize API
+  slug: euler-securitize-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euler/openapi/euler-securitize-api-openapi.yml
 - filename: euler-graph-ql-api-openapi.yml
   format: yaml
   label: Euler Finance Graph QL API

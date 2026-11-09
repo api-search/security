@@ -33,6 +33,6 @@ tags:
 - Company
 - Robotics
 - Automation
-- AI
+- Artificial Intelligence
 - Industrial
 ---

@@ -62,9 +62,8 @@ source_yaml_url: https://artifacts.apis.io/fabtally-com/security/fabtally-com-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- 3D-printing
+- 3D Printing
 - Slicing
 - Quotes
-- API
 - Manufacturing
 ---

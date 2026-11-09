@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/wave-access/security/wave-access-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Enterprise
-- SoftwareEngineering
+- Software Engineering
 - Services
 ---

@@ -143,6 +143,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: >-\n  openapi/c
 source_yaml_url: https://artifacts.apis.io/cloudchipr/authentication/cloudchipr-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:
+- Amazon Web Services
 - Microsoft Azure
 - Cloud Cost Management
 - Cost Optimization

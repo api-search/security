@@ -88,6 +88,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-iam-access-analyzer/authentica
 summary_line: apiKey · 1 scheme
 tags:
 - Access Control
+- Amazon Web Services
 - Compliance
 - Identity and Access Management
 - Policy Management

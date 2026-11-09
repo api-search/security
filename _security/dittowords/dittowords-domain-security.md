@@ -99,8 +99,8 @@ source_yaml_url: https://artifacts.apis.io/dittowords/security/dittowords-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Content
 - Localization
-- SaaS
+- Software-as-a-Service
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/solarscope-io/authentication/solarsco
 summary_line: 2 schemes
 tags:
 - Solar
-- AI
-- Renewable-Energy
+- Artificial Intelligence
+- Renewable Energy
 - Site-Screening
 - Mapping
 ---

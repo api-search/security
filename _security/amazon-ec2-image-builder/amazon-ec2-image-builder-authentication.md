@@ -303,18 +303,24 @@ api_specs:
   slug: amazon-ec2-image-builder-getworkflowstepexecution-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-ec2-image-builder/openapi/amazon-ec2-image-builder-getworkflowstepexecution-api-openapi.yml
-- filename: amazon-ec2-image-builder-create-image-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder Create Image API
-  slug: amazon-ec2-image-builder-create-image-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-ec2-image-builder/openapi/amazon-ec2-image-builder-create-image-api-openapi.yml
 - filename: amazon-ec2-image-builder-get-component-api-openapi.yml
   format: yaml
   label: Amazon EC2 Image Builder Get Component API
   slug: amazon-ec2-image-builder-get-component-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-ec2-image-builder/openapi/amazon-ec2-image-builder-get-component-api-openapi.yml
+- filename: amazon-ec2-image-builder-operations-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Ec2 Image Builder Operations API
+  slug: amazon-ec2-image-builder-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-image-builder/openapi/amazon-ec2-image-builder-operations-api-openapi.yml
+- filename: amazon-ec2-image-builder-create-image-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Image Builder Create Image API
+  slug: amazon-ec2-image-builder-create-image-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-image-builder/openapi/amazon-ec2-image-builder-create-image-api-openapi.yml
 - filename: amazon-ec2-image-builder-list-components-api-openapi.yml
   format: yaml
   label: Amazon EC2 Image Builder List Components API
@@ -327,12 +333,6 @@ api_specs:
   slug: amazon-ec2-image-builder-list-images-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-ec2-image-builder/openapi/amazon-ec2-image-builder-list-images-api-openapi.yml
-- filename: amazon-ec2-image-builder-operations-api-openapi.yml
-  format: yaml
-  label: Amazon EC2 Image Builder Ec2 Image Builder Operations API
-  slug: amazon-ec2-image-builder-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-ec2-image-builder/openapi/amazon-ec2-image-builder-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

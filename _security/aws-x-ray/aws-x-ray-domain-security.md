@@ -42,6 +42,12 @@ api_specs:
   slug: aws-x-ray-traces-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-traces-api-openapi.yml
+- filename: aws-x-ray-operations-api-openapi.yml
+  format: yaml
+  label: AWS X-Ray X Ray Operations API
+  slug: aws-x-ray-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-operations-api-openapi.yml
 - filename: aws-x-ray-tag-resource-api-openapi.yml
   format: yaml
   label: AWS X-Ray Tag Resource API
@@ -54,12 +60,6 @@ api_specs:
   slug: aws-x-ray-untag-resource-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-untag-resource-api-openapi.yml
-- filename: aws-x-ray-operations-api-openapi.yml
-  format: yaml
-  label: AWS X-Ray X Ray Operations API
-  slug: aws-x-ray-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/aws-x-ray/openapi/aws-x-ray-operations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -92,6 +92,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/aws-x-ray/security/aws-x-ray-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
+- Amazon Web Services
 - Debugging
 - Developer Tools
 - Distributed Tracing

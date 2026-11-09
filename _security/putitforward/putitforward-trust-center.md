@@ -21,7 +21,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Automation
-- AI
+- Artificial Intelligence
 - Enterprise
 - Integration
 trust_url: https://www.putitforward.com/

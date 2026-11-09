@@ -59,4 +59,6 @@ tags:
 - Tokenization
 - Payments
 - AI Agents
+- Finance
+- Infrastructure
 ---

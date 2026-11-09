@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/computop/security/computop-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Payments
-- FinTech
-- E-commerce
+- Fintech
+- E-Commerce
 - Germany
-- SaaS
+- Software-as-a-Service
 ---

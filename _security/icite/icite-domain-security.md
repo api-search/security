@@ -35,6 +35,6 @@ tags:
 - Identity
 - ITDR
 - Platform
-- SaaS
+- Software-as-a-Service
 - Company
 ---

@@ -125,6 +125,5 @@ tags:
 - Company
 - Finance
 - Currency
-- ExchangeRates
-- API
+- Exchange Rates
 ---

@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Open Source
 - Read-it-later
-- Self-hosted
+- Self-Hosted
 - Privacy
 - Community
 ---

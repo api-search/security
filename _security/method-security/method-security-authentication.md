@@ -62,6 +62,18 @@ api_specs:
   slug: method-security-targets-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/method-security/openapi/method-security-targets-api-openapi.yml
+- filename: method-security-finding-definitions-api-openapi.yml
+  format: yaml
+  label: Method Security Finding Definitions API
+  slug: method-security-finding-definitions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/method-security/openapi/method-security-finding-definitions-api-openapi.yml
+- filename: method-security-findings-api-openapi.yml
+  format: yaml
+  label: Method Security Findings API
+  slug: method-security-findings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/method-security/openapi/method-security-findings-api-openapi.yml
 auth_types:
 - http
 description: ''

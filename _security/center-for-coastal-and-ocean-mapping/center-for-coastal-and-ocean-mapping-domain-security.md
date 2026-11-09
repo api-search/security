@@ -34,5 +34,5 @@ tags:
 - Research
 - OceanMapping
 - Geospatial
-- OpenData
+- Open Data
 ---

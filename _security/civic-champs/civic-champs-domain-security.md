@@ -34,6 +34,6 @@ tags:
 - Company
 - Volunteer Management
 - Nonprofit Software
-- SaaS
+- Software-as-a-Service
 - Community
 ---

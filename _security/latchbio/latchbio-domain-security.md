@@ -38,9 +38,9 @@ source_yaml_url: https://artifacts.apis.io/latchbio/security/latchbio-domain-sec
 summary_line: TLSv1.2 · DMARC
 tags:
 - Biotechnology
-- LabAutomation
-- DataAnalytics
-- MachineLearning
+- Lab Automation
+- Data Analytics
+- Machine Learning
 - Platform
 - Company
 ---

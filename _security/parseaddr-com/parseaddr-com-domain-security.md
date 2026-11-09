@@ -76,6 +76,5 @@ tags:
 - Company
 - Address
 - Parsing
-- API
 - libpostal
 ---

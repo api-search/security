@@ -102,8 +102,8 @@ source_yaml_url: https://artifacts.apis.io/lazyweb-com/authentication/lazyweb-co
 summary_line: 2 schemes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Growth
-- AI
-- No-code
+- Artificial Intelligence
+- No-Code
 ---

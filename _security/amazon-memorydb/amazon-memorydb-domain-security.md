@@ -129,6 +129,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/amazon-memorydb/security/amazon-memorydb-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
+- Amazon Web Services
 - Database
 - Redis
 - In-Memory

@@ -38,12 +38,8 @@ source_yaml_url: https://artifacts.apis.io/enable-com/security/enable-com-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Pricing
 - Rebate
-- SaaS
-- AI
-- Pricing
-- Rebate
-- SaaS
+- Software-as-a-Service
 ---

@@ -35,9 +35,9 @@ source_yaml_url: https://artifacts.apis.io/roe-ai/authentication/roe-ai-authenti
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- FraudDetection
+- Artificial Intelligence
+- Fraud Prevention
 - AML
-- FinTech
-- DataAnalytics
+- Fintech
+- Data Analytics
 ---

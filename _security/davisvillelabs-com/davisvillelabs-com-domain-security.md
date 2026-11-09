@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/davisvillelabs-com/security/davisvill
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Software
-- AI
+- Artificial Intelligence
 - Education
 - Bitcoin
 - Analytics

@@ -43,9 +43,9 @@ source_yaml_url: https://artifacts.apis.io/meld/authentication/meld-authenticati
 summary_line: 1 scheme
 tags:
 - Data Integration
-- FinTech
+- Fintech
 - API Platform
-- Stablecoin
+- Stablecoins
 - Digital Assets
 - Enterprise
 ---

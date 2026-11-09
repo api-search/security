@@ -40,8 +40,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Support
-- Helpdesk
-- AI
-- Customer-Service
+- Help Desk
+- Artificial Intelligence
+- Customer Service
 - Platform
 ---

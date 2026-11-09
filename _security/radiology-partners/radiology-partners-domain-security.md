@@ -36,4 +36,6 @@ tags:
 - Healthcare
 - Diagnostics
 - Health Systems
+- Practice Management
+- Services
 ---

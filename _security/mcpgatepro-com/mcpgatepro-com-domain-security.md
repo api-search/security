@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/mcpgatepro-com/security/mcpgatepro-co
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cloud
-- Cost-Management
+- Cost Management
 - Database
 - Monitoring
 ---

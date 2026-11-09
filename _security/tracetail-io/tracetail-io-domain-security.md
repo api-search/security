@@ -59,6 +59,5 @@ tags:
 - Browser Fingerprinting
 - Privacy
 - Analytics
-- API
 - Device Identification
 ---

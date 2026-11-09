@@ -34,6 +34,6 @@ tags:
 - Data
 - Geography
 - Spain
-- Open-Data
+- Open Data
 - Municipal
 ---

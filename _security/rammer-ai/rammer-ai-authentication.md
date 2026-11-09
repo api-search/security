@@ -30,10 +30,10 @@ source_yaml_url: https://artifacts.apis.io/rammer-ai/authentication/rammer-ai-au
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Conversation
+- Artificial Intelligence
+- Conversations
 - Speech
-- NLP
-- Real-time
-- Communication
+- Natural Language Processing
+- Real-Time
+- Communications
 ---

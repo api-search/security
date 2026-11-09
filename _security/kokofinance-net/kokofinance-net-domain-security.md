@@ -80,7 +80,6 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Fintech
-- Credit-Card
-- API
+- Credit Cards
 - MCP
 ---

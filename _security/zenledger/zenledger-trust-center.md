@@ -99,7 +99,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://zenledg
 source_yaml_url: https://artifacts.apis.io/zenledger/security/zenledger-trust-center.yml
 summary_line: SOC 2 Type II, SOC 2 Framework alignment (Information Security Program)
 tags:
-- Crypto Tax
+- crypto-tax
 - Digital Assets
 - Tax Compliance
 - Blockchain Analytics

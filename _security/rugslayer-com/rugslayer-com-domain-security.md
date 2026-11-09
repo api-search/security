@@ -33,6 +33,6 @@ tags:
 - Company
 - Solana
 - Security
-- Crypto
+- Cryptocurrency
 - Risk-Scanner
 ---

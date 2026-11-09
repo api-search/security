@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/scouter-com-mx/security/scouter-com-m
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Field Service
+- Field Service Management
 - IoT
 - Asset Tracking
 - Predictive Maintenance

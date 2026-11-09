@@ -48,7 +48,6 @@ tags:
 - Free Tools
 - DocumentExport
 - Payment QR
-- No Signup
 - CSV Import
 - Company Lookup
 ---

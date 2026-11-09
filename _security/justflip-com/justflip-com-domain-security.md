@@ -29,8 +29,7 @@ source_yaml_url: https://artifacts.apis.io/justflip-com/security/justflip-com-do
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- Startup
-- VC-backed
-- Lightspeed-Venture-Partners
-- Y-Combinator
+- Startups
+- Lightspeed Venture Partners
+- Y Combinator
 ---

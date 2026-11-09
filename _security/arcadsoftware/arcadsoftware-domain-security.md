@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/arcadsoftware/security/arcadsoftware-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Enterprise-Content-Management
-- Digital-Transformation
+- Enterprise Content Management
+- Digital Transformation
 - IBM-i
 - DevOps
 ---

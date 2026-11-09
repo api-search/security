@@ -31,8 +31,8 @@ summary_line: 0 schemes
 tags:
 - Company
 - Energy
-- EVCharging
-- SmartHome
-- OpenSource
-- SelfHosted
+- EV Charging
+- Smart Home
+- Open Source
+- Self-Hosted
 ---

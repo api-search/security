@@ -38,8 +38,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Payments
-- FinTech
-- API
-- E-commerce
+- Fintech
+- E-Commerce
 - PaymentsGateway
 ---

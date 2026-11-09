@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/paradigmai-com/security/paradigmai-co
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- GTM
+- Artificial Intelligence
+- Go-To-Market
 - Automation
 - Analytics
 ---

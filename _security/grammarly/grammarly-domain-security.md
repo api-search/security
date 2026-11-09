@@ -37,6 +37,7 @@ tags:
 - Natural Language Processing
 - Analytics
 - Content
-- Authentication
+- OAuth
 - Enterprise
+- Authentication
 ---

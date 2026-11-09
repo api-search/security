@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/three-ws/security/three-ws-domain-sec
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - 3D
 - Agents
 - Web3

@@ -38,4 +38,8 @@ tags:
 - Lasers
 - Power Generation
 - Climate Tech
+- Energy
+- Fusion
+- Cleantech
+- Renewables
 ---

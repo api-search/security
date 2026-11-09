@@ -565,6 +565,7 @@ tags:
 - Approvals
 - Digital Asset Management
 - JSON:API
-- Authentication
+- OAuth
 - OpenAPI
+- Authentication
 ---

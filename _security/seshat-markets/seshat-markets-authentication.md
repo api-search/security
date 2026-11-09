@@ -107,6 +107,6 @@ tags:
 - MCP
 - A2A
 - x402
-- llms-txt
+- Llms.txt
 - Agent Skills
 ---

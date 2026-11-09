@@ -76,7 +76,6 @@ summary_line: http · 1 scheme
 tags:
 - Sports
 - Data
-- API
 - DFS
 - Fantasy
 ---

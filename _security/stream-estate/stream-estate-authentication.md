@@ -52,9 +52,9 @@ source_yaml: "generated: '2026-10-31'\nmethod: derived\nsource: openapi/stream-e
 source_yaml_url: https://artifacts.apis.io/stream-estate/authentication/stream-estate-authentication.yml
 summary_line: 1 scheme
 tags:
-- RealEstate
+- Real Estate
 - PropTech
-- DataAPI
-- MarketAnalytics
+- Data API
+- Market Analytics
 - Valuation
 ---

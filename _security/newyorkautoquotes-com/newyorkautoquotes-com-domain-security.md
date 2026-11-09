@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Insurance
 - Quotes
-- NewYork
-- AI
+- New York
+- Artificial Intelligence
 - Platform
 ---

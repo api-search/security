@@ -58,9 +58,10 @@ tags:
 - IoT
 - Security
 - Webhook
-- Authentication
+- OAuth
 - Schlage
 - Von Duprin
 - ENGAGE
+- Authentication
 trust_url: https://trust.allegion.com/
 ---

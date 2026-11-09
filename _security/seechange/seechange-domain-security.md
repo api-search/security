@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Retail
-- Computer-Vision
-- AI
-- Loss-Prevention
-- Inventory-Management
+- Computer Vision
+- Artificial Intelligence
+- Loss Prevention
+- Inventory
 ---

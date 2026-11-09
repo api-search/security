@@ -50,7 +50,7 @@ tags:
 - GDPR
 - OpenAPI
 - MCP
-- llms-txt
+- Llms.txt
 - EU-hosted
 trust_url: https://statable.com/security
 ---

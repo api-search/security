@@ -33,7 +33,6 @@ tags:
 - Company
 - Technology
 - Networking
-- API
 - Enterprise
 - Security
 ---

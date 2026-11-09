@@ -40,5 +40,6 @@ tags:
 - Cryptocurrency
 - Financial Services
 - Banking
+- OAuth
 - Authentication
 ---

@@ -85,9 +85,10 @@ tags:
 - Legal Practice Management
 - Legal Tech
 - Matter Management
-- Authentication
+- OAuth
 - Payments
 - Practice Management
 - Time Tracking
 - Webhook
+- Authentication
 ---

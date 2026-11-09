@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/semiconductor-manufacturing-internati
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Foundry
 - China
 - Manufacturing

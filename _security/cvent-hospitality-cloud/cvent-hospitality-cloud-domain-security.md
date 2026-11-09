@@ -391,7 +391,7 @@ tags:
 - Hospitality Cloud
 - Hotels
 - Housing
-- Authentication
+- OAuth
 - Passkeys
 - Reservations
 - RFP
@@ -401,4 +401,5 @@ tags:
 - Supplier Network
 - Venues
 - Venue Sourcing
+- Authentication
 ---

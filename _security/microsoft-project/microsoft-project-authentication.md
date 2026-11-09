@@ -104,13 +104,26 @@ schemes:
     tokenUrl: https://login.microsoftonline.com/common/oauth2/token
   name: oauth2
   sources:
-  - openapi/microsoft-project-rest-api.yaml
+  - openapi/microsoft-project-assignments-api-openapi.yml
+  - openapi/microsoft-project-calendars-api-openapi.yml
+  - openapi/microsoft-project-custom-fields-api-openapi.yml
+  - openapi/microsoft-project-enterprise-project-types-api-openapi.yml
+  - openapi/microsoft-project-event-handlers-api-openapi.yml
+  - openapi/microsoft-project-lookup-tables-api-openapi.yml
+  - openapi/microsoft-project-phases-api-openapi.yml
+  - openapi/microsoft-project-projects-api-openapi.yml
+  - openapi/microsoft-project-resources-api-openapi.yml
+  - openapi/microsoft-project-stages-api-openapi.yml
+  - openapi/microsoft-project-tasks-api-openapi.yml
+  - openapi/microsoft-project-timesheets-api-openapi.yml
+  - openapi/microsoft-project-workflow-activities-api-openapi.yml
   type: oauth2
 slug: microsoft-project-authentication
 source_filename: microsoft-project-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-project-rest-api.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n    scopes: 2\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n  sources:\n  - openapi/microsoft-project-rest-api.yaml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-project-assignments-api-openapi.yml, openapi/microsoft-project-calendars-api-openapi.yml,\n  openapi/microsoft-project-custom-fields-api-openapi.yml, openapi/microsoft-project-enterprise-project-types-api-openapi.yml,\n  openapi/microsoft-project-event-handlers-api-openapi.yml, openapi/microsoft-project-lookup-tables-api-openapi.yml,\n  openapi/microsoft-project-phases-api-openapi.yml, openapi/microsoft-project-projects-api-openapi.yml,\n  openapi/microsoft-project-resources-api-openapi.yml, openapi/microsoft-project-stages-api-openapi.yml,\n  openapi/microsoft-project-tasks-api-openapi.yml, openapi/microsoft-project-timesheets-api-openapi.yml\n  ...\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n\
+  \    scopes: 2\n  description: OAuth 2.0 authentication via Azure AD for SharePoint Online\n  sources:\n  - openapi/microsoft-project-assignments-api-openapi.yml\n  - openapi/microsoft-project-calendars-api-openapi.yml\n  - openapi/microsoft-project-custom-fields-api-openapi.yml\n  - openapi/microsoft-project-enterprise-project-types-api-openapi.yml\n  - openapi/microsoft-project-event-handlers-api-openapi.yml\n  - openapi/microsoft-project-lookup-tables-api-openapi.yml\n  - openapi/microsoft-project-phases-api-openapi.yml\n  - openapi/microsoft-project-projects-api-openapi.yml\n  - openapi/microsoft-project-resources-api-openapi.yml\n  - openapi/microsoft-project-stages-api-openapi.yml\n  - openapi/microsoft-project-tasks-api-openapi.yml\n  - openapi/microsoft-project-timesheets-api-openapi.yml\n  - openapi/microsoft-project-workflow-activities-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-project/authentication/microsoft-project-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

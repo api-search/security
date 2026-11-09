@@ -68,5 +68,6 @@ tags:
 - Food Diary
 - Wellness
 - Webhook
+- OAuth
 - Authentication
 ---

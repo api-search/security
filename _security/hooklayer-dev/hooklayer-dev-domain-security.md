@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/hooklayer-dev/security/hooklayer-dev-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - MCP
-- AI
+- Artificial Intelligence
 - Video
 - Marketing
 - Analytics

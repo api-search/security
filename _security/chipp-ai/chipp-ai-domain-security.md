@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/chipp-ai/security/chipp-ai-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- SaaS
+- Software-as-a-Service
 - HIPAA
-- SOC2
+- SOC 2
 ---

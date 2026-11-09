@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/milemarker-co/security/milemarker-co-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- WealthManagement
-- DataPlatform
-- API
-- FinTech
+- Wealth Management
+- Data Platform
+- Fintech
 ---

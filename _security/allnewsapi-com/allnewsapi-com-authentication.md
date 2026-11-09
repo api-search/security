@@ -28,7 +28,6 @@ source_yaml_url: https://artifacts.apis.io/allnewsapi-com/authentication/allnews
 summary_line: 1 scheme
 tags:
 - News
-- API
 - Data
 - Media
 - Aggregation

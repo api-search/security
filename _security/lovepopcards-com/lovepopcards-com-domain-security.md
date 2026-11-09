@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/lovepopcards-com/security/lovepopcard
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- E‑commerce
+- E-Commerce
 - Greeting Cards
-- API
 - Subscription
 ---

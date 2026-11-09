@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/foundriesio/authentication/foundriesi
 summary_line: 0 schemes
 tags:
 - IoT
-- Embedded-Linux
-- Edge-Computing
-- Device-Management
+- Embedded Linux
+- Edge Computing
+- Device Management
 - Secure-Updates
 ---

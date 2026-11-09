@@ -40,8 +40,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Collaboration
 - Documentation
-- AI
+- Artificial Intelligence
 - Platform
-- OpenSource
+- Open Source
 - Company
 ---

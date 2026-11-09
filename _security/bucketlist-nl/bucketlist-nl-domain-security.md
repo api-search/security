@@ -39,6 +39,6 @@ tags:
 - Company
 - Travel
 - Lifestyle
-- Bucketlist
+- Bucket-List
 - Netherlands
 ---

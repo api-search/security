@@ -20,6 +20,12 @@ api_specs:
   slug: gonitro-sign-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gonitro/openapi/gonitro-sign-api-openapi.yml
+- filename: gonitro-webhooks-api-openapi.yml
+  format: yaml
+  label: GoNitro Webhooks API
+  slug: gonitro-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gonitro/openapi/gonitro-webhooks-api-openapi.yml
 auth_types:
 - http
 - oauth2

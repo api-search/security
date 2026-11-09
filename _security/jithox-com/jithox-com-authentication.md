@@ -58,8 +58,8 @@ source_yaml_url: https://artifacts.apis.io/jithox-com/authentication/jithox-com-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- BackOffice
+- Back Office
 - Tools
 ---

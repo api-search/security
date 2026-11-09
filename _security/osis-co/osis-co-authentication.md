@@ -98,7 +98,6 @@ summary_line: 1 scheme
 tags:
 - Messaging
 - Communications
-- API
-- SaaS
-- CustomerSupport
+- Software-as-a-Service
+- Customer Service
 ---

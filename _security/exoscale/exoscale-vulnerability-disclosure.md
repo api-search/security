@@ -216,6 +216,30 @@ api_specs:
   slug: exoscale-zone-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/exoscale/openapi/exoscale-zone-api-openapi.yml
+- filename: exoscale-environmental-impact-api-openapi.yml
+  format: yaml
+  label: Exoscale Environmental Impact API
+  slug: exoscale-environmental-impact-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/exoscale/openapi/exoscale-environmental-impact-api-openapi.yml
+- filename: exoscale-vpc-management-api-openapi.yml
+  format: yaml
+  label: Exoscale Vpc Management API
+  slug: exoscale-vpc-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/exoscale/openapi/exoscale-vpc-management-api-openapi.yml
+- filename: exoscale-vpc-route-api-openapi.yml
+  format: yaml
+  label: Exoscale Vpc Route API
+  slug: exoscale-vpc-route-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/exoscale/openapi/exoscale-vpc-route-api-openapi.yml
+- filename: exoscale-vpc-subnet-api-openapi.yml
+  format: yaml
+  label: Exoscale Vpc Subnet API
+  slug: exoscale-vpc-subnet-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/exoscale/openapi/exoscale-vpc-subnet-api-openapi.yml
 - filename: exoscale-blockstorage-api-openapi.yml
   format: yaml
   label: Exoscale Blockstorage API

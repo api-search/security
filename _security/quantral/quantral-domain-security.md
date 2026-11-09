@@ -35,5 +35,5 @@ tags:
 - Finance
 - Data
 - Analytics
-- AI
+- Artificial Intelligence
 ---

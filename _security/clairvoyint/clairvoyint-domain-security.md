@@ -35,7 +35,7 @@ source_yaml: "generated: '2026-10-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/clairvoyint/security/clairvoyint-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Analytics
 - Evidence
 - Platform

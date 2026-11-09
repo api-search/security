@@ -36,8 +36,8 @@ source_yaml_url: https://artifacts.apis.io/axle/authentication/axle-authenticati
 summary_line: 1 scheme
 tags:
 - Insurance
-- AI
+- Artificial Intelligence
 - Automation
-- FinTech
+- Fintech
 - Platform
 ---

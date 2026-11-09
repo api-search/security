@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/shingou-io/security/shingou-io-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Sentiment
-- API
 - Data
 ---

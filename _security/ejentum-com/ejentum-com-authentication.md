@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/ejentum-com/authentication/ejentum-co
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Reasoning
-- Agentic
+- AI Agents
 - Verification
 - Platform
 ---

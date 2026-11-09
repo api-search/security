@@ -64,6 +64,6 @@ tags:
 - WebSocket streaming
 - Fintech
 - Quantitative Trading
-- market-data-api
+- Market Data API
 - trading-halts
 ---

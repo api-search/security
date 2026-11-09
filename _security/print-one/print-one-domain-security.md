@@ -92,7 +92,6 @@ source_yaml_url: https://artifacts.apis.io/print-one/security/print-one-domain-s
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Postcards
-- API
 - Direct Mail
 - Marketing
 - Automation

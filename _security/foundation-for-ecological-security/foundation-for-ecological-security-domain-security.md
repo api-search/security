@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-10-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/foundation-for-ecological-security/security/foundation-for-ecological-security-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Nonprofit
+- Non-Profit
 - Environment
 - Conservation
 - Climate

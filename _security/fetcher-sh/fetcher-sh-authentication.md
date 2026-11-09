@@ -100,6 +100,6 @@ tags:
 - Web Data
 - API Aggregation
 - No Auth
-- Pay per Call
+- Pay-per-call
 - MCP
 ---

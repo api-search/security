@@ -678,6 +678,90 @@ api_specs:
   slug: docusign-workspaces-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/docusign/openapi/docusign-workspaces-api-openapi.yml
+- filename: docusign-accountsignatures-api-openapi.yml
+  format: yaml
+  label: Docusign Account Signatures API
+  slug: docusign-accountsignatures-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-accountsignatures-api-openapi.yml
+- filename: docusign-authorizations-api-openapi.yml
+  format: yaml
+  label: Docusign Authorizations API
+  slug: docusign-authorizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-authorizations-api-openapi.yml
+- filename: docusign-bccemailarchive-api-openapi.yml
+  format: yaml
+  label: Docusign BCC Email Archive API
+  slug: docusign-bccemailarchive-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-bccemailarchive-api-openapi.yml
+- filename: docusign-bulksend-api-openapi.yml
+  format: yaml
+  label: Docusign Bulk Send API
+  slug: docusign-bulksend-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-bulksend-api-openapi.yml
+- filename: docusign-documentgeneration-api-openapi.yml
+  format: yaml
+  label: Docusign Document Generation API
+  slug: docusign-documentgeneration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-documentgeneration-api-openapi.yml
+- filename: docusign-envelopepublish-api-openapi.yml
+  format: yaml
+  label: Docusign Envelope Publish API
+  slug: docusign-envelopepublish-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-envelopepublish-api-openapi.yml
+- filename: docusign-envelopeshares-api-openapi.yml
+  format: yaml
+  label: Docusign Envelope Shares API
+  slug: docusign-envelopeshares-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-envelopeshares-api-openapi.yml
+- filename: docusign-envelopetransferrules-api-openapi.yml
+  format: yaml
+  label: Docusign Envelope Transfer Rules API
+  slug: docusign-envelopetransferrules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-envelopetransferrules-api-openapi.yml
+- filename: docusign-envelopeworkflowdefinition-api-openapi.yml
+  format: yaml
+  label: Docusign Envelope Workflow Definition API
+  slug: docusign-envelopeworkflowdefinition-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-envelopeworkflowdefinition-api-openapi.yml
+- filename: docusign-favoritetemplates-api-openapi.yml
+  format: yaml
+  label: Docusign Favorite Templates API
+  slug: docusign-favoritetemplates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-favoritetemplates-api-openapi.yml
+- filename: docusign-notary-api-openapi.yml
+  format: yaml
+  label: Docusign Notary API
+  slug: docusign-notary-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-notary-api-openapi.yml
+- filename: docusign-notaryjurisdiction-api-openapi.yml
+  format: yaml
+  label: Docusign Notary Jurisdiction API
+  slug: docusign-notaryjurisdiction-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-notaryjurisdiction-api-openapi.yml
+- filename: docusign-services-api-openapi.yml
+  format: yaml
+  label: Docusign Services API
+  slug: docusign-services-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-services-api-openapi.yml
+- filename: docusign-tabsblob-api-openapi.yml
+  format: yaml
+  label: Docusign Tabs Blob API
+  slug: docusign-tabsblob-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docusign/openapi/docusign-tabsblob-api-openapi.yml
 - filename: docusign-billing-plans-api-openapi.yml
   format: yaml
   label: Docusign Billing Plans API

@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/binstockly-com/authentication/binstoc
 summary_line: http · 1 scheme
 tags:
 - Auto Parts
-- Inventory Management
+- Inventory
 - Software
 - Small Business
 - Free Tools

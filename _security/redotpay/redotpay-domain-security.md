@@ -44,5 +44,6 @@ tags:
 - Agentic Payments
 - Machine Payments Protocol
 - x402
+- OAuth
 - Authentication
 ---

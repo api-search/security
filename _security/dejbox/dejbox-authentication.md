@@ -64,5 +64,6 @@ tags:
 - B2B
 - France
 - Meal Delivery
+- OAuth
 - Authentication
 ---

@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: gatewayapi-rest-api-openapi.yml
-  format: yaml
-  label: GatewayAPI REST API
-  slug: gatewayapi-rest-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gatewayapi/openapi/gatewayapi-rest-api-openapi.yml
 - filename: gatewayapi-openapi-generated.yml
   format: yaml
   label: GatewayAPI API
@@ -63,6 +57,5 @@ tags:
 - Company
 - Messaging
 - SMS
-- API
 - Communications
 ---

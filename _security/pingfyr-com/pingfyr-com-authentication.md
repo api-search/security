@@ -35,9 +35,8 @@ source_yaml_url: https://artifacts.apis.io/pingfyr-com/authentication/pingfyr-co
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Scheduling
-- Notifications
-- Webhooks
-- AI
+- Notification
+- Webhook
+- Artificial Intelligence
 ---

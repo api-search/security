@@ -37,9 +37,9 @@ source_yaml_url: https://artifacts.apis.io/onuniverse-com/security/onuniverse-co
 summary_line: TLSv1.3 · HSTS
 tags:
 - Website Builder
-- No-code
-- E-commerce
+- No-Code
+- E-Commerce
 - Templates
 - Analytics
-- Integrations
+- Integration
 ---

@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/finology-tech/security/finology-tech-
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- FinTech
-- StudentLoans
-- AIIntegration
-- FinancialAdvisors
+- Fintech
+- Student Loans
+- AI Integration
+- Financial Advisors
 ---

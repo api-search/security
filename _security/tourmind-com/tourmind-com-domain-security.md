@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/tourmind-com/security/tourmind-com-do
 summary_line: TLSv1.2
 tags:
 - Travel
-- AI
+- Artificial Intelligence
 - Booking
-- SaaS
+- Software-as-a-Service
 - B2B
 ---

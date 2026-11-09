@@ -107,9 +107,8 @@ source_yaml_url: https://artifacts.apis.io/tickerbot-io/authentication/tickerbot
 summary_line: 1 scheme
 tags:
 - Company
-- Stock-Market
-- API
-- Real-time-Data
-- Historical-Data
+- Stock Market
+- Real-Time Data
+- Historical Data
 - Financial-Agents
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DNSSEC
 tags:
 - Cloud
 - Infrastructure
-- AI
+- Artificial Intelligence
 - Storage
 - Enterprise
 ---

@@ -106,6 +106,5 @@ tags:
 - Conservation
 - Environment
 - Data
-- API
-- SaaS
+- Software-as-a-Service
 ---

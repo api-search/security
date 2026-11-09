@@ -37,7 +37,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Security
-- AI
-- Network
-- Threat-Detection
+- Artificial Intelligence
+- Networks
+- Threat Detection
 ---

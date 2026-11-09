@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/nicejob/security/nicejob-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Reputation Marketing
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Service Business
-- Customer Reviews
+- CustomerReviews
 ---

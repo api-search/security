@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Customer Success
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Analytics
 ---

@@ -58,6 +58,6 @@ tags:
 - Cryptocurrency
 - USDC
 - XRP Ledger
-- llms-txt
+- Llms.txt
 - JSON Schema
 ---

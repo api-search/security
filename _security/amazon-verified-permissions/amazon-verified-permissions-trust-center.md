@@ -228,6 +228,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-verified-permissions/security/
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Authorization
+- Amazon Web Services
 - Permissions
 - Security
 trust_url: https://aws.amazon.com/compliance/

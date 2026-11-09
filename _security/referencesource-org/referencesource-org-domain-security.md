@@ -32,6 +32,5 @@ tags:
 - Data
 - Catalog
 - Reference
-- OpenData
-- API
+- Open Data
 ---

@@ -45,6 +45,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-h
 source_yaml_url: https://artifacts.apis.io/amazon-health-dashboard/authentication/amazon-health-dashboard-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Health Monitoring
 - Notification
 - Service Status

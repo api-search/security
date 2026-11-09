@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/modelslab-com/security/modelslab-com-
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
-- GenerativeAI
+- Artificial Intelligence
+- Generative AI
 - Image
 - Video
 - Audio

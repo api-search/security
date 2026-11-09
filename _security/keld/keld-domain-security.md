@@ -30,8 +30,8 @@ source_yaml: "generated: '2026-10-24'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/keld/security/keld-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI inference
+- Inference
 - Marketplace
-- Model marketplace
+- Model Marketplace
 - Enterprise AI
 ---

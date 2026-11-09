@@ -97,8 +97,8 @@ source_yaml_url: https://artifacts.apis.io/joinblink-com/authentication/joinblin
 summary_line: 1 scheme
 tags:
 - Company
-- EmployeeExperience
+- Employee Experience
 - MobileFirst
-- FrontlineWorkers
-- Communication
+- Frontline Workers
+- Communications
 ---

@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
 - Data
-- AI
+- Artificial Intelligence
 - MCP
 - Pay-per-call
 ---

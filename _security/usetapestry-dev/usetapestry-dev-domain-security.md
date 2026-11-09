@@ -42,6 +42,5 @@ tags:
 - Social
 - Solana
 - Protocol
-- API
-- Developer
+- Developers
 ---

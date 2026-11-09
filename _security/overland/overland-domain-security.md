@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/overland/security/overland-domain-sec
 summary_line: TLSv1.2
 tags:
 - GPS
-- OpenSource
+- Open Source
 - iOS
-- LocationTracking
+- Location Tracking
 - Privacy
 ---

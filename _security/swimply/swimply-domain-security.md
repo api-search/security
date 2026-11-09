@@ -33,7 +33,7 @@ tags:
 - Company
 - Marketplace
 - Consumer
-- Travel and Hospitality
+- Travel & Hospitality
 - Booking
 - Peer-to-Peer
 - Recreation

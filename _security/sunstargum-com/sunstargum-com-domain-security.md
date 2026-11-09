@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Dental
-- HealthTech
+- Health Tech
 - Kids
-- SmartDevices
+- Smart Devices
 ---

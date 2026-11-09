@@ -38,6 +38,18 @@ api_specs:
   slug: microsoft-bookings-services-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-services-api-openapi.yml
+- filename: microsoft-bookings-solutions-bookingbusiness-api-openapi.yml
+  format: yaml
+  label: Microsoft Bookings Solutions.booking Business API
+  slug: microsoft-bookings-solutions-bookingbusiness-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-solutions-bookingbusiness-api-openapi.yml
+- filename: microsoft-bookings-solutions-bookingcurrency-api-openapi.yml
+  format: yaml
+  label: Microsoft Bookings Solutions.booking Currency API
+  slug: microsoft-bookings-solutions-bookingcurrency-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-bookings/openapi/microsoft-bookings-solutions-bookingcurrency-api-openapi.yml
 - filename: microsoft-bookings-staff-members-api-openapi.yml
   format: yaml
   label: Microsoft Bookings Staff Members API

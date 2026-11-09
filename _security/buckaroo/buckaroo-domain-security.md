@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments
 - Online Payments
-- In‑store Payments
+- In-Store Payments
 - Omnichannel
 - Credit Management
 - Subscription Management

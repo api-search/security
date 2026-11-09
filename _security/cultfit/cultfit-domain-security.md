@@ -45,4 +45,5 @@ tags:
 - Meditation
 - Mobile
 - India
+- Subscription
 ---

@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/dashdot/security/dashdot-domain-secur
 summary_line: TLSv1.3
 tags:
 - Monitoring
-- OpenSource
-- Dashboard
-- Server
+- Open Source
+- Dashboards
+- Servers
 - SingleNode
 - Docker
 ---

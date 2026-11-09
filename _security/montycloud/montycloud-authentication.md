@@ -47,6 +47,7 @@ summary_line: 3 schemes
 tags:
 - Cloud
 - Cloud Operations
+- Amazon Web Services
 - Managed Service Providers
 - Governance
 - Compliance

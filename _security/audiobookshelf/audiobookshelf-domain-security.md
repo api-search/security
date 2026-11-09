@@ -40,6 +40,6 @@ tags:
 - Company
 - Self-Hosted
 - Audiobooks
-- Podcast
+- Podcasts
 - Media Server
 ---

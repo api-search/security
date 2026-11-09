@@ -62,8 +62,8 @@ source_yaml_url: https://artifacts.apis.io/manylives-me/security/manylives-me-do
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Payments
-- Crypto
+- Cryptocurrency
 - Tools
 ---

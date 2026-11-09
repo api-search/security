@@ -39,7 +39,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Scheduling
-- API
-- SaaS
+- Software-as-a-Service
 - Booking
 ---

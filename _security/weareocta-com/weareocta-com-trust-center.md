@@ -21,9 +21,9 @@ source_yaml_url: https://artifacts.apis.io/weareocta-com/security/weareocta-com-
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Accounting
-- SaaS
+- Software-as-a-Service
 - Workforce
 trust_url: https://weareocta.com/security
 ---

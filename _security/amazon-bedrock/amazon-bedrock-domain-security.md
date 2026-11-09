@@ -200,6 +200,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-bedrock/security/amazon-bedroc
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
+- Amazon Web Services
 - Foundation Models
 - Generative AI
 - LLM

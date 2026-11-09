@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Attendance
-- WorkforceManagement
-- SaaS
+- Workforce Management
+- Software-as-a-Service
 - Frontline
 ---

@@ -260,18 +260,456 @@ api_specs:
   slug: github-teams-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/github/openapi/github-teams-api-openapi.yml
-- filename: github-github-v3-rest-api-api-openapi.yml
-  format: yaml
-  label: GitHub V3 REST API
-  slug: github-github-v3-rest-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github/openapi/github-github-v3-rest-api-api-openapi.yml
 - filename: github-github-application-api-api-openapi.yml
   format: yaml
   label: GitHub GitHub Application API
   slug: github-github-application-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/github/openapi/github-github-application-api-api-openapi.yml
+- filename: github-agent-automations-api-openapi.yml
+  format: yaml
+  label: GitHub Agent Automations API
+  slug: github-agent-automations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-agent-automations-api-openapi.yml
+- filename: github-agent-tasks-api-openapi.yml
+  format: yaml
+  label: GitHub Agent Tasks API
+  slug: github-agent-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-agent-tasks-api-openapi.yml
+- filename: github-agents-api-openapi.yml
+  format: yaml
+  label: GitHub Agents API
+  slug: github-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-agents-api-openapi.yml
+- filename: github-campaigns-api-openapi.yml
+  format: yaml
+  label: GitHub Campaigns API
+  slug: github-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-campaigns-api-openapi.yml
+- filename: github-classroom-api-openapi.yml
+  format: yaml
+  label: GitHub Classroom API
+  slug: github-classroom-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-classroom-api-openapi.yml
+- filename: github-code-quality-api-openapi.yml
+  format: yaml
+  label: GitHub Code Quality API
+  slug: github-code-quality-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-code-quality-api-openapi.yml
+- filename: github-code-security-api-openapi.yml
+  format: yaml
+  label: GitHub Code Security API
+  slug: github-code-security-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-code-security-api-openapi.yml
+- filename: github-codespaces-api-openapi.yml
+  format: yaml
+  label: GitHub Codespaces API
+  slug: github-codespaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-codespaces-api-openapi.yml
+- filename: github-copilot-api-openapi.yml
+  format: yaml
+  label: GitHub Copilot API
+  slug: github-copilot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-copilot-api-openapi.yml
+- filename: github-copilot-spaces-api-openapi.yml
+  format: yaml
+  label: GitHub Copilot Spaces API
+  slug: github-copilot-spaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-copilot-spaces-api-openapi.yml
+- filename: github-credentials-api-openapi.yml
+  format: yaml
+  label: GitHub Credentials API
+  slug: github-credentials-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-credentials-api-openapi.yml
+- filename: github-hosted-compute-api-openapi.yml
+  format: yaml
+  label: GitHub Hosted Compute API
+  slug: github-hosted-compute-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-hosted-compute-api-openapi.yml
+- filename: github-interactions-api-openapi.yml
+  format: yaml
+  label: GitHub Interactions API
+  slug: github-interactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-interactions-api-openapi.yml
+- filename: github-merge-queue-api-openapi.yml
+  format: yaml
+  label: GitHub Merge Queue API
+  slug: github-merge-queue-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-merge-queue-api-openapi.yml
+- filename: github-private-registries-api-openapi.yml
+  format: yaml
+  label: GitHub Private Registries API
+  slug: github-private-registries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-private-registries-api-openapi.yml
+- filename: github-security-advisories-api-openapi.yml
+  format: yaml
+  label: GitHub Security Advisories API
+  slug: github-security-advisories-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-security-advisories-api-openapi.yml
+- filename: github-add-api-openapi.yml
+  format: yaml
+  label: GitHub Add API
+  slug: github-add-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-add-api-openapi.yml
+- filename: github-all-api-openapi.yml
+  format: yaml
+  label: GitHub All API
+  slug: github-all-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-all-api-openapi.yml
+- filename: github-applications-api-openapi.yml
+  format: yaml
+  label: GitHub Applications API
+  slug: github-applications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-applications-api-openapi.yml
+- filename: github-attribute-api-openapi.yml
+  format: yaml
+  label: GitHub Attribute API
+  slug: github-attribute-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-attribute-api-openapi.yml
+- filename: github-authorization-api-openapi.yml
+  format: yaml
+  label: GitHub Authorization API
+  slug: github-authorization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-authorization-api-openapi.yml
+- filename: github-authorized-api-openapi.yml
+  format: yaml
+  label: GitHub Authorized API
+  slug: github-authorized-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-authorized-api-openapi.yml
+- filename: github-card-api-openapi.yml
+  format: yaml
+  label: GitHub Card API
+  slug: github-card-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-card-api-openapi.yml
+- filename: github-cards-api-openapi.yml
+  format: yaml
+  label: GitHub Cards API
+  slug: github-cards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-cards-api-openapi.yml
+- filename: github-collaborators-api-openapi.yml
+  format: yaml
+  label: GitHub Collaborators API
+  slug: github-collaborators-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-collaborators-api-openapi.yml
+- filename: github-column-api-openapi.yml
+  format: yaml
+  label: GitHub Column API
+  slug: github-column-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-column-api-openapi.yml
+- filename: github-columns-api-openapi.yml
+  format: yaml
+  label: GitHub Columns API
+  slug: github-columns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-columns-api-openapi.yml
+- filename: github-configuration-api-openapi.yml
+  format: yaml
+  label: GitHub Configuration API
+  slug: github-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-configuration-api-openapi.yml
+- filename: github-create-api-openapi.yml
+  format: yaml
+  label: GitHub Create API
+  slug: github-create-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-create-api-openapi.yml
+- filename: github-delete-api-openapi.yml
+  format: yaml
+  label: GitHub Delete API
+  slug: github-delete-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-delete-api-openapi.yml
+- filename: github-disables-api-openapi.yml
+  format: yaml
+  label: GitHub Disables API
+  slug: github-disables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-disables-api-openapi.yml
+- filename: github-enterprise-api-openapi.yml
+  format: yaml
+  label: GitHub Enterprise API
+  slug: github-enterprise-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-enterprise-api-openapi.yml
+- filename: github-existing-api-openapi.yml
+  format: yaml
+  label: GitHub Existing API
+  slug: github-existing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-existing-api-openapi.yml
+- filename: github-fingerprint-api-openapi.yml
+  format: yaml
+  label: GitHub Fingerprint API
+  slug: github-fingerprint-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-fingerprint-api-openapi.yml
+- filename: github-get-api-openapi.yml
+  format: yaml
+  label: GitHub Get API
+  slug: github-get-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-get-api-openapi.yml
+- filename: github-github-auth-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Auth API
+  slug: github-github-auth-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-github-auth-api-api-openapi.yml
+- filename: github-github-manage-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Manage API
+  slug: github-github-manage-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-github-manage-api-api-openapi.yml
+- filename: github-github-projects-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub Projects API
+  slug: github-github-projects-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-github-projects-api-api-openapi.yml
+- filename: github-github-scim-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub SCIM API
+  slug: github-github-scim-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-github-scim-api-api-openapi.yml
+- filename: github-github-v3-rest-api-api-openapi.yml
+  format: yaml
+  label: GitHub GitHub V3 REST API
+  slug: github-github-v3-rest-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-github-v3-rest-api-api-openapi.yml
+- filename: github-groups-api-openapi.yml
+  format: yaml
+  label: GitHub Groups API
+  slug: github-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-groups-api-openapi.yml
+- filename: github-identities-api-openapi.yml
+  format: yaml
+  label: GitHub Identities API
+  slug: github-identities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-identities-api-openapi.yml
+- filename: github-impersonation-api-openapi.yml
+  format: yaml
+  label: GitHub Impersonation API
+  slug: github-impersonation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-impersonation-api-openapi.yml
+- filename: github-information-api-openapi.yml
+  format: yaml
+  label: GitHub Information API
+  slug: github-information-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-information-api-openapi.yml
+- filename: github-keys-api-openapi.yml
+  format: yaml
+  label: GitHub Keys API
+  slug: github-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-keys-api-openapi.yml
+- filename: github-legacy-api-openapi.yml
+  format: yaml
+  label: GitHub Legacy API
+  slug: github-legacy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-legacy-api-openapi.yml
+- filename: github-lists-api-openapi.yml
+  format: yaml
+  label: GitHub Lists API
+  slug: github-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-lists-api-openapi.yml
+- filename: github-move-api-openapi.yml
+  format: yaml
+  label: GitHub Move API
+  slug: github-move-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-move-api-openapi.yml
+- filename: github-node-api-openapi.yml
+  format: yaml
+  label: GitHub Node API
+  slug: github-node-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-node-api-openapi.yml
+- filename: github-nodes-api-openapi.yml
+  format: yaml
+  label: GitHub Nodes API
+  slug: github-nodes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-nodes-api-openapi.yml
+- filename: github-oauth-api-openapi.yml
+  format: yaml
+  label: GitHub OAuth API
+  slug: github-oauth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-oauth-api-openapi.yml
+- filename: github-organizations-api-openapi.yml
+  format: yaml
+  label: GitHub Organizations API
+  slug: github-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-organizations-api-openapi.yml
+- filename: github-permission-api-openapi.yml
+  format: yaml
+  label: GitHub Permission API
+  slug: github-permission-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-permission-api-openapi.yml
+- filename: github-permissions-api-openapi.yml
+  format: yaml
+  label: GitHub Permissions API
+  slug: github-permissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-permissions-api-openapi.yml
+- filename: github-project-api-openapi.yml
+  format: yaml
+  label: GitHub Project API
+  slug: github-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-project-api-openapi.yml
+- filename: github-provision-api-openapi.yml
+  format: yaml
+  label: GitHub Provision API
+  slug: github-provision-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-provision-api-openapi.yml
+- filename: github-provisioned-api-openapi.yml
+  format: yaml
+  label: GitHub Provisioned API
+  slug: github-provisioned-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-provisioned-api-openapi.yml
+- filename: github-provisioning-api-openapi.yml
+  format: yaml
+  label: GitHub Provisioning API
+  slug: github-provisioning-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-provisioning-api-openapi.yml
+- filename: github-releases-api-openapi.yml
+  format: yaml
+  label: GitHub Releases API
+  slug: github-releases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-releases-api-openapi.yml
+- filename: github-remove-api-openapi.yml
+  format: yaml
+  label: GitHub Remove API
+  slug: github-remove-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-remove-api-openapi.yml
+- filename: github-replicas-api-openapi.yml
+  format: yaml
+  label: GitHub Replicas API
+  slug: github-replicas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-replicas-api-openapi.yml
+- filename: github-repositories-api-openapi.yml
+  format: yaml
+  label: GitHub Repositories API
+  slug: github-repositories-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-repositories-api-openapi.yml
+- filename: github-running-api-openapi.yml
+  format: yaml
+  label: GitHub Running API
+  slug: github-running-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-running-api-openapi.yml
+- filename: github-scim-api-openapi.yml
+  format: yaml
+  label: GitHub SCIM API
+  slug: github-scim-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-scim-api-openapi.yml
+- filename: github-sets-api-openapi.yml
+  format: yaml
+  label: GitHub Sets API
+  slug: github-sets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-sets-api-openapi.yml
+- filename: github-settings-api-openapi.yml
+  format: yaml
+  label: GitHub Settings API
+  slug: github-settings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-settings-api-openapi.yml
+- filename: github-setup-api-openapi.yml
+  format: yaml
+  label: GitHub Setup API
+  slug: github-setup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-setup-api-openapi.yml
+- filename: github-single-api-openapi.yml
+  format: yaml
+  label: GitHub Single API
+  slug: github-single-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-single-api-openapi.yml
+- filename: github-specific-api-openapi.yml
+  format: yaml
+  label: GitHub Specific API
+  slug: github-specific-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-specific-api-openapi.yml
+- filename: github-ssh-api-openapi.yml
+  format: yaml
+  label: GitHub SSH API
+  slug: github-ssh-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-ssh-api-openapi.yml
+- filename: github-status-api-openapi.yml
+  format: yaml
+  label: GitHub Status API
+  slug: github-status-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-status-api-openapi.yml
+- filename: github-tokens-api-openapi.yml
+  format: yaml
+  label: GitHub Tokens API
+  slug: github-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-tokens-api-openapi.yml
+- filename: github-update-api-openapi.yml
+  format: yaml
+  label: GitHub Update API
+  slug: github-update-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-update-api-openapi.yml
+- filename: github-versions-api-openapi.yml
+  format: yaml
+  label: GitHub Versions API
+  slug: github-versions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/github/openapi/github-versions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -291,54 +729,73 @@ schemes:
   name: bearerHttpAuthentication
   scheme: Bearer
   sources:
-  - openapi/github-app-api-openapi.yml
-  - openapi/github-auth-api-openapi.yml
-  - openapi/github-code-of-conduct-api-openapi.yml
-  - openapi/github-emojis-openapi.yml
-  - openapi/github-events-api-openapi.yml
-  - openapi/github-feeds-openapi.yml
-  - openapi/github-gists-openapi.yml
-  - openapi/github-gitignore-templates-openapi.yml
-  - openapi/github-installation-openapi.yml
-  - openapi/github-issues-api-openapi.yml
-  - openapi/github-licenses-openapi.yml
-  - openapi/github-manage-openapi.yml
-  - openapi/github-markdown-openapi.yml
-  - openapi/github-meta-openapi.yml
-  - openapi/github-networks-openapi.yml
-  - openapi/github-notifications-openapi.yml
-  - openapi/github-octocat-openapi.yml
-  - openapi/github-organizations-openapi.yml
-  - openapi/github-projects-openapi.yml
-  - openapi/github-rate-limit--openapi.yml
-  - openapi/github-repo-actions-api-openapi.yml
-  - openapi/github-repo-autolinks-api-openapi.yml
-  - openapi/github-repo-branches-api-openapi.yml
-  - openapi/github-repo-code-scanning-api-openapi.yml
-  - openapi/github-repo-collaborators-api-openapi.yml
-  - openapi/github-repo-dependabot-api-openapi.yml
-  - openapi/github-repo-hooks-api-openapi.yml
-  - openapi/github-repo-invitations-api-openapi.yml
-  - openapi/github-repo-issues-api-openapi.yml
-  - openapi/github-repo-projects-api-openapi.yml
-  - openapi/github-repo-pulls-api-openapi.yml
-  - openapi/github-repo-subscription-api-openapi.yml
-  - openapi/github-repo-tags-api-openapi.yml
-  - openapi/github-repos-api-openapi.yml
-  - openapi/github-scim-openapi.yml
-  - openapi/github-setup-openapi.yml
-  - openapi/github-teams-openapi.yml
-  - openapi/github-users-api-openapi.yml
-  - openapi/github-zen-openapi.yml
-  - openapi/temp.json
+  - openapi/github-add-api-openapi.yml
+  - openapi/github-all-api-openapi.yml
+  - openapi/github-applications-api-openapi.yml
+  - openapi/github-attribute-api-openapi.yml
+  - openapi/github-authorization-api-openapi.yml
+  - openapi/github-authorized-api-openapi.yml
+  - openapi/github-card-api-openapi.yml
+  - openapi/github-cards-api-openapi.yml
+  - openapi/github-collaborators-api-openapi.yml
+  - openapi/github-column-api-openapi.yml
+  - openapi/github-columns-api-openapi.yml
+  - openapi/github-configuration-api-openapi.yml
+  - openapi/github-create-api-openapi.yml
+  - openapi/github-delete-api-openapi.yml
+  - openapi/github-disables-api-openapi.yml
+  - openapi/github-enterprise-api-openapi.yml
+  - openapi/github-existing-api-openapi.yml
+  - openapi/github-fingerprint-api-openapi.yml
+  - openapi/github-get-api-openapi.yml
+  - openapi/github-github-application-api-api-openapi.yml
+  - openapi/github-github-auth-api-api-openapi.yml
+  - openapi/github-github-manage-api-api-openapi.yml
+  - openapi/github-github-projects-api-api-openapi.yml
+  - openapi/github-github-scim-api-api-openapi.yml
+  - openapi/github-groups-api-openapi.yml
+  - openapi/github-identities-api-openapi.yml
+  - openapi/github-impersonation-api-openapi.yml
+  - openapi/github-information-api-openapi.yml
+  - openapi/github-keys-api-openapi.yml
+  - openapi/github-legacy-api-openapi.yml
+  - openapi/github-lists-api-openapi.yml
+  - openapi/github-move-api-openapi.yml
+  - openapi/github-node-api-openapi.yml
+  - openapi/github-nodes-api-openapi.yml
+  - openapi/github-oauth-api-openapi.yml
+  - openapi/github-organizations-api-openapi.yml
+  - openapi/github-permission-api-openapi.yml
+  - openapi/github-permissions-api-openapi.yml
+  - openapi/github-project-api-openapi.yml
+  - openapi/github-provision-api-openapi.yml
+  - openapi/github-provisioned-api-openapi.yml
+  - openapi/github-provisioning-api-openapi.yml
+  - openapi/github-releases-api-openapi.yml
+  - openapi/github-remove-api-openapi.yml
+  - openapi/github-replicas-api-openapi.yml
+  - openapi/github-repositories-api-openapi.yml
+  - openapi/github-running-api-openapi.yml
+  - openapi/github-scim-api-openapi.yml
+  - openapi/github-sets-api-openapi.yml
+  - openapi/github-settings-api-openapi.yml
+  - openapi/github-setup-api-openapi.yml
+  - openapi/github-single-api-openapi.yml
+  - openapi/github-specific-api-openapi.yml
+  - openapi/github-ssh-api-openapi.yml
+  - openapi/github-status-api-openapi.yml
+  - openapi/github-tokens-api-openapi.yml
+  - openapi/github-update-api-openapi.yml
+  - openapi/github-versions-api-openapi.yml
   type: http
 slug: github-authentication
 source_filename: github-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/github-app-api-openapi.yml, openapi/github-auth-api-openapi.yml, openapi/github-code-of-conduct-api-openapi.yml,\n  openapi/github-emojis-openapi.yml, openapi/github-events-api-openapi.yml, openapi/github-feeds-openapi.yml,\n  openapi/github-gists-openapi.yml, openapi/github-gitignore-templates-openapi.yml, openapi/github-installation-openapi.yml,\n  openapi/github-issues-api-openapi.yml, openapi/github-licenses-openapi.yml, openapi/github-manage-openapi.yml\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerHttpAuthentication\n  type: http\n  scheme: Bearer\n  description: Bearer Token\n  sources:\n  - openapi/github-app-api-openapi.yml\n  - openapi/github-auth-api-openapi.yml\n  - openapi/github-code-of-conduct-api-openapi.yml\n  - openapi/github-emojis-openapi.yml\n  - openapi/github-events-api-openapi.yml\n  - openapi/github-feeds-openapi.yml\n  - openapi/github-gists-openapi.yml\n  - openapi/github-gitignore-templates-openapi.yml\n\
-  \  - openapi/github-installation-openapi.yml\n  - openapi/github-issues-api-openapi.yml\n  - openapi/github-licenses-openapi.yml\n  - openapi/github-manage-openapi.yml\n  - openapi/github-markdown-openapi.yml\n  - openapi/github-meta-openapi.yml\n  - openapi/github-networks-openapi.yml\n  - openapi/github-notifications-openapi.yml\n  - openapi/github-octocat-openapi.yml\n  - openapi/github-organizations-openapi.yml\n  - openapi/github-projects-openapi.yml\n  - openapi/github-rate-limit--openapi.yml\n  - openapi/github-repo-actions-api-openapi.yml\n  - openapi/github-repo-autolinks-api-openapi.yml\n  - openapi/github-repo-branches-api-openapi.yml\n  - openapi/github-repo-code-scanning-api-openapi.yml\n  - openapi/github-repo-collaborators-api-openapi.yml\n  - openapi/github-repo-dependabot-api-openapi.yml\n  - openapi/github-repo-hooks-api-openapi.yml\n  - openapi/github-repo-invitations-api-openapi.yml\n  - openapi/github-repo-issues-api-openapi.yml\n  - openapi/github-repo-projects-api-openapi.yml\n\
-  \  - openapi/github-repo-pulls-api-openapi.yml\n  - openapi/github-repo-subscription-api-openapi.yml\n  - openapi/github-repo-tags-api-openapi.yml\n  - openapi/github-repos-api-openapi.yml\n  - openapi/github-scim-openapi.yml\n  - openapi/github-setup-openapi.yml\n  - openapi/github-teams-openapi.yml\n  - openapi/github-users-api-openapi.yml\n  - openapi/github-zen-openapi.yml\n  - openapi/temp.json\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/github-add-api-openapi.yml, openapi/github-all-api-openapi.yml, openapi/github-applications-api-openapi.yml,\n  openapi/github-attribute-api-openapi.yml, openapi/github-authorization-api-openapi.yml, openapi/github-authorized-api-openapi.yml,\n  openapi/github-card-api-openapi.yml, openapi/github-cards-api-openapi.yml, openapi/github-collaborators-api-openapi.yml,\n  openapi/github-column-api-openapi.yml, openapi/github-columns-api-openapi.yml, openapi/github-configuration-api-openapi.yml\n  ...\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerHttpAuthentication\n  type: http\n  scheme: Bearer\n  description: Bearer Token\n  sources:\n  - openapi/github-add-api-openapi.yml\n  - openapi/github-all-api-openapi.yml\n  - openapi/github-applications-api-openapi.yml\n  - openapi/github-attribute-api-openapi.yml\n  - openapi/github-authorization-api-openapi.yml\n  - openapi/github-authorized-api-openapi.yml\n  - openapi/github-card-api-openapi.yml\n\
+  \  - openapi/github-cards-api-openapi.yml\n  - openapi/github-collaborators-api-openapi.yml\n  - openapi/github-column-api-openapi.yml\n  - openapi/github-columns-api-openapi.yml\n  - openapi/github-configuration-api-openapi.yml\n  - openapi/github-create-api-openapi.yml\n  - openapi/github-delete-api-openapi.yml\n  - openapi/github-disables-api-openapi.yml\n  - openapi/github-enterprise-api-openapi.yml\n  - openapi/github-existing-api-openapi.yml\n  - openapi/github-fingerprint-api-openapi.yml\n  - openapi/github-get-api-openapi.yml\n  - openapi/github-github-application-api-api-openapi.yml\n  - openapi/github-github-auth-api-api-openapi.yml\n  - openapi/github-github-manage-api-api-openapi.yml\n  - openapi/github-github-projects-api-api-openapi.yml\n  - openapi/github-github-scim-api-api-openapi.yml\n  - openapi/github-groups-api-openapi.yml\n  - openapi/github-identities-api-openapi.yml\n  - openapi/github-impersonation-api-openapi.yml\n  - openapi/github-information-api-openapi.yml\n\
+  \  - openapi/github-keys-api-openapi.yml\n  - openapi/github-legacy-api-openapi.yml\n  - openapi/github-lists-api-openapi.yml\n  - openapi/github-move-api-openapi.yml\n  - openapi/github-node-api-openapi.yml\n  - openapi/github-nodes-api-openapi.yml\n  - openapi/github-oauth-api-openapi.yml\n  - openapi/github-organizations-api-openapi.yml\n  - openapi/github-permission-api-openapi.yml\n  - openapi/github-permissions-api-openapi.yml\n  - openapi/github-project-api-openapi.yml\n  - openapi/github-provision-api-openapi.yml\n  - openapi/github-provisioned-api-openapi.yml\n  - openapi/github-provisioning-api-openapi.yml\n  - openapi/github-releases-api-openapi.yml\n  - openapi/github-remove-api-openapi.yml\n  - openapi/github-replicas-api-openapi.yml\n  - openapi/github-repositories-api-openapi.yml\n  - openapi/github-running-api-openapi.yml\n  - openapi/github-scim-api-openapi.yml\n  - openapi/github-sets-api-openapi.yml\n  - openapi/github-settings-api-openapi.yml\n  - openapi/github-setup-api-openapi.yml\n\
+  \  - openapi/github-single-api-openapi.yml\n  - openapi/github-specific-api-openapi.yml\n  - openapi/github-ssh-api-openapi.yml\n  - openapi/github-status-api-openapi.yml\n  - openapi/github-tokens-api-openapi.yml\n  - openapi/github-update-api-openapi.yml\n  - openapi/github-versions-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/github/authentication/github-authentication.yml
 summary_line: http · 1 scheme
 tags:

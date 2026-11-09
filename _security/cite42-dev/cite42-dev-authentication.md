@@ -35,7 +35,7 @@ source_yaml_url: https://artifacts.apis.io/cite42-dev/authentication/cite42-dev-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - SEO
 - MCP
 - Data

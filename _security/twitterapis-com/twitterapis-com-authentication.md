@@ -32,6 +32,5 @@ tags:
 - Company
 - X-Data
 - Pay-per-call
-- API
 - Dubai
 ---

@@ -90,6 +90,18 @@ api_specs:
   slug: delta-exchange-wallet-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-wallet-api-openapi.yml
+- filename: delta-exchange-ohlc-candles-api-openapi.yml
+  format: yaml
+  label: Delta Exchange OHLC Candles API
+  slug: delta-exchange-ohlc-candles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-ohlc-candles-api-openapi.yml
+- filename: delta-exchange-trade-history-api-openapi.yml
+  format: yaml
+  label: Delta Exchange Trade History API
+  slug: delta-exchange-trade-history-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-trade-history-api-openapi.yml
 description: ''
 domains:
 - caa: []

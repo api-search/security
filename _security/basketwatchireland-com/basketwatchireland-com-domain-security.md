@@ -39,6 +39,5 @@ tags:
 - Company
 - Grocery
 - Price Intelligence
-- API
 - Ireland
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/airflows/security/airflows-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Enterprise
-- SaaS
-- Operational-Intelligence
+- Software-as-a-Service
+- Operational Intelligence
 ---

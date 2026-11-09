@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/peerlookup-com/authentication/peerloo
 summary_line: 2 schemes
 tags:
 - Company
-- Public API
+- Public APIs
 - MCP
 - Knowledge Sharing
 - Open Data
-- Board
+- Boards
 ---

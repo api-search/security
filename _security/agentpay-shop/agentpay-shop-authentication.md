@@ -27,8 +27,8 @@ source_yaml_url: https://artifacts.apis.io/agentpay-shop/authentication/agentpay
 summary_line: 1 scheme
 tags:
 - Payments
-- Crypto
-- AI
-- Non-custodial
+- Cryptocurrency
+- Artificial Intelligence
+- Non-Custodial
 - AgentPay
 ---

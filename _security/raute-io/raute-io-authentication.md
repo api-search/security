@@ -50,6 +50,6 @@ tags:
 - Logistics
 - Delivery
 - Route Planning
-- AI
+- Artificial Intelligence
 - Fleet Management
 ---

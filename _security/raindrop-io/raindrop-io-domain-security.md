@@ -40,5 +40,4 @@ tags:
 - Productivity
 - Cloud
 - Collaboration
-- API
 ---

@@ -85,9 +85,9 @@ source_yaml_url: https://artifacts.apis.io/pyungyo-com/authentication/pyungyo-co
 summary_line: 0 schemes
 tags:
 - Company
-- telecom
-- mobile
-- Korea
-- price-comparison
-- open-api
+- Telecommunications
+- Mobile
+- South Korea
+- Price Comparison
+- OpenAPI
 ---

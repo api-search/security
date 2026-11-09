@@ -618,12 +618,6 @@ api_specs:
   slug: engineering-platform-git-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-git-api-openapi.yml
-- filename: engineering-platform-github-v3-rest-api-api-openapi.yml
-  format: yaml
-  label: APIs.io Engineering Platform GitHub V3 REST API
-  slug: engineering-platform-github-v3-rest-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-github-v3-rest-api-api-openapi.yml
 - filename: engineering-platform-gitignore-api-openapi.yml
   format: yaml
   label: APIs.io Engineering Platform Gitignore API
@@ -1788,6 +1782,96 @@ api_specs:
   slug: engineering-platform-zones-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-zones-api-openapi.yml
+- filename: engineering-platform-agents-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Agents API
+  slug: engineering-platform-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-agents-api-openapi.yml
+- filename: engineering-platform-agenttelemetry-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Agent Telemetry API
+  slug: engineering-platform-agenttelemetry-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-agenttelemetry-api-openapi.yml
+- filename: engineering-platform-configuration-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Configuration API
+  slug: engineering-platform-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-configuration-api-openapi.yml
+- filename: engineering-platform-failover-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Failover API
+  slug: engineering-platform-failover-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-failover-api-openapi.yml
+- filename: engineering-platform-health-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Health API
+  slug: engineering-platform-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-health-api-openapi.yml
+- filename: engineering-platform-heartbeat-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Heart Beat API
+  slug: engineering-platform-heartbeat-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-heartbeat-api-openapi.yml
+- filename: engineering-platform-locations-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Locations API
+  slug: engineering-platform-locations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-locations-api-openapi.yml
+- filename: engineering-platform-netmon-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Netmon API
+  slug: engineering-platform-netmon-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-netmon-api-openapi.yml
+- filename: engineering-platform-openiddiscovery-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Open ID Discovery API
+  slug: engineering-platform-openiddiscovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-openiddiscovery-api-openapi.yml
+- filename: engineering-platform-pools-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Pools API
+  slug: engineering-platform-pools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-pools-api-openapi.yml
+- filename: engineering-platform-prebuilds-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Prebuilds API
+  slug: engineering-platform-prebuilds-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-prebuilds-api-openapi.yml
+- filename: engineering-platform-resources-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Resources API
+  slug: engineering-platform-resources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-resources-api-openapi.yml
+- filename: engineering-platform-tunnel-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Tunnel API
+  slug: engineering-platform-tunnel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-tunnel-api-openapi.yml
+- filename: engineering-platform-vnetpooldefinitions-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Vnet Pool Definitions API
+  slug: engineering-platform-vnetpooldefinitions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-vnetpooldefinitions-api-openapi.yml
+- filename: engineering-platform-warmup-api-openapi.yml
+  format: yaml
+  label: APIs.io Engineering Platform Warmup API
+  slug: engineering-platform-warmup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/engineering-platform/openapi/engineering-platform-warmup-api-openapi.yml
 - filename: engineering-platform-api-keys-api-openapi.yml
   format: yaml
   label: APIs.io Engineering Platform API Keys API

@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/tekever/security/tekever-domain-secur
 summary_line: TLSv1.3 · DMARC
 tags:
 - Defense
-- Defence Technology
+- Defense Technology
 - Unmanned Aerial Systems
 - Drones
 - ISR

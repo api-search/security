@@ -81,7 +81,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Speech
-- AI
+- Artificial Intelligence
 - Transcription
 - Voice
 ---

@@ -31,11 +31,12 @@ source_yaml_url: https://artifacts.apis.io/thirdwatch/security/thirdwatch-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - API Monitoring
-- Authentication
+- OAuth
 - JWT
 - OpenAPI
 - Alerting
 - Performance Dashboard
 - Multi‑organization
 - Anomaly Detection
+- Authentication
 ---

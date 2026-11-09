@@ -69,5 +69,6 @@ tags:
 - Fintech
 - MCP
 - Agentic Commerce
+- OAuth
 - Authentication
 ---

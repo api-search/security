@@ -14,6 +14,42 @@ api_specs:
   slug: microsoft-azure-advisor-recommendations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
+- filename: microsoft-azure-advisor-advisorscoreentities-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Advisor Score Entities API
+  slug: microsoft-azure-advisor-advisorscoreentities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-advisorscoreentities-api-openapi.yml
+- filename: microsoft-azure-advisor-metadataentities-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Metadata Entities API
+  slug: microsoft-azure-advisor-metadataentities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-metadataentities-api-openapi.yml
+- filename: microsoft-azure-advisor-resiliencyreviews-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Resiliency Reviews API
+  slug: microsoft-azure-advisor-resiliencyreviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-resiliencyreviews-api-openapi.yml
+- filename: microsoft-azure-advisor-resourcerecommendationbases-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Resource Recommendation Bases API
+  slug: microsoft-azure-advisor-resourcerecommendationbases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-resourcerecommendationbases-api-openapi.yml
+- filename: microsoft-azure-advisor-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Subscriptions API
+  slug: microsoft-azure-advisor-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-subscriptions-api-openapi.yml
+- filename: microsoft-azure-advisor-suppressioncontracts-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Advisor Suppression Contracts API
+  slug: microsoft-azure-advisor-suppressioncontracts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-suppressioncontracts-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -38,12 +74,14 @@ schemes:
   name: azure_auth
   sources:
   - openapi/microsoft-azure-advisor-openapi.yml
+  - openapi/microsoft-azure-advisor-operations-api-openapi.yml
+  - openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
   type: oauth2
 slug: microsoft-azure-advisor-authentication
 source_filename: microsoft-azure-advisor-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-advisor-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-advisor-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-advisor-openapi.yml, openapi/microsoft-azure-advisor-operations-api-openapi.yml,\n  openapi/microsoft-azure-advisor-recommendations-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-advisor-openapi.yml\n  - openapi/microsoft-azure-advisor-operations-api-openapi.yml\n  - openapi/microsoft-azure-advisor-recommendations-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-advisor/authentication/microsoft-azure-advisor-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

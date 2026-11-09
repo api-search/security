@@ -1,4 +1,59 @@
 ---
+api_specs:
+- filename: yunqi-datasource-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) Data Source API
+  slug: yunqi-datasource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-datasource-api-openapi.yml
+- filename: yunqi-dqc-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) Dqc API
+  slug: yunqi-dqc-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-dqc-api-openapi.yml
+- filename: yunqi-instance-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) Instance API
+  slug: yunqi-instance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-instance-api-openapi.yml
+- filename: yunqi-multirealtimeditask-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) Multi Realtime Di Task API
+  slug: yunqi-multirealtimeditask-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-multirealtimeditask-api-openapi.yml
+- filename: yunqi-realtimetask-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) Realtime Task API
+  slug: yunqi-realtimetask-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-realtimetask-api-openapi.yml
+- filename: yunqi-scheduletask-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) Schedule Task API
+  slug: yunqi-scheduletask-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-scheduletask-api-openapi.yml
+- filename: yunqi-user-management-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) User Management API
+  slug: yunqi-user-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-user-management-api-openapi.yml
+- filename: yunqi-virtualcluster-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) Virtual Cluster API
+  slug: yunqi-virtualcluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-virtualcluster-api-openapi.yml
+- filename: yunqi-workspace-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) Workspace API
+  slug: yunqi-workspace-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-workspace-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -47,6 +47,7 @@ tags:
 - Company
 - Developer Tools
 - Cloud
+- Amazon Web Services
 - Emulator
 - Testing
 - DevOps

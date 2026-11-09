@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · HSTS
 tags:
 - Company
 - Monitoring
-- Webhooks
+- Webhook
 - Alerts
-- OpenSource
+- Open Source
 ---

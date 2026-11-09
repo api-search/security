@@ -105,7 +105,6 @@ source_yaml_url: https://artifacts.apis.io/rewio-ru/security/rewio-ru-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Reviews
-- API
 - Aggregation
 - Russian
 - Maps

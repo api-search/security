@@ -34,6 +34,6 @@ tags:
 - Company
 - Hosting
 - Domains
-- WebHosting
+- Web Hosting
 - SSL
 ---

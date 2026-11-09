@@ -40,7 +40,6 @@ summary_line: 2 schemes
 tags:
 - Data
 - Marketing
-- API
-- WebScraping
-- AI
+- Web Scraping
+- Artificial Intelligence
 ---

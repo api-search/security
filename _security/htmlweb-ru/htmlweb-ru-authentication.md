@@ -38,7 +38,6 @@ summary_line: 0 schemes
 tags:
 - Company
 - Web
-- API
 - Russia
 - Data
 - Utilities

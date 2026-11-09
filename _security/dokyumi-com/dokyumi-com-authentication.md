@@ -33,9 +33,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://dokyumi
 source_yaml_url: https://artifacts.apis.io/dokyumi-com/authentication/dokyumi-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- Document-Parsing
-- API
+- Document Parsing
 - OCR
-- SaaS
+- Software-as-a-Service
 - Finance
 ---

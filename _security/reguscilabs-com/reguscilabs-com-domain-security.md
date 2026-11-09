@@ -6,6 +6,12 @@ api_specs:
   slug: reguscilabs-com-agent-tools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/reguscilabs-com/openapi/reguscilabs-com-agent-tools-api-openapi.yml
+- filename: reguscilabs-com-sandbox-api-openapi.yml
+  format: yaml
+  label: reguscilabs-com Sandbox API
+  slug: reguscilabs-com-sandbox-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/reguscilabs-com/openapi/reguscilabs-com-sandbox-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +45,7 @@ source_yaml_url: https://artifacts.apis.io/reguscilabs-com/security/reguscilabs-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Innovation
-- AI
+- Artificial Intelligence
 - Software
 - Hardware
 - Uruguay

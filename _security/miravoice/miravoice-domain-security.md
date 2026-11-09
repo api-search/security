@@ -39,6 +39,6 @@ tags:
 - Company
 - Voice
 - Surveys
-- AI
+- Artificial Intelligence
 - Automation
 ---

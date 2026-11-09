@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: tensormesh-tensormesh-api-api-openapi.yml
-  format: yaml
-  label: TensorMesh API
-  slug: tensormesh-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/tensormesh/openapi/tensormesh-tensormesh-api-api-openapi.yml
 - filename: tensormesh-openapi-generated.yml
   format: yaml
   label: TensorMesh API

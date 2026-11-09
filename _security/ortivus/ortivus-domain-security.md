@@ -33,6 +33,5 @@ tags:
 - Company
 - Healthcare
 - Emergency Services
-- Digital Solutions
 - Software-as-a-Service
 ---

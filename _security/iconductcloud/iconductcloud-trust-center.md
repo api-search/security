@@ -23,6 +23,5 @@ tags:
 - Platform
 - Enterprise
 - Israel
-- API
 trust_url: https://iconductcloud.com/security/
 ---

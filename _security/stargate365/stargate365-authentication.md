@@ -32,6 +32,5 @@ tags:
 - Company
 - Analytics
 - Data
-- Surf
-- API
+- SURF
 ---

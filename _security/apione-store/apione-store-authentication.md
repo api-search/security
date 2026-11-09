@@ -35,8 +35,7 @@ source_yaml_url: https://artifacts.apis.io/apione-store/authentication/apione-st
 summary_line: 1 scheme
 tags:
 - B2B
-- Enrichment
-- API
+- Data Enrichment
 - Data
 - GCC
 - MENA

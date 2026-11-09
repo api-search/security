@@ -85,5 +85,5 @@ tags:
 - Geospatial
 - Agents
 - OpenAPI
-- llms-txt
+- Llms.txt
 ---

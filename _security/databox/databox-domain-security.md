@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Analytics
-- AI
+- Artificial Intelligence
 - Data Integration
 - Business Intelligence
 ---

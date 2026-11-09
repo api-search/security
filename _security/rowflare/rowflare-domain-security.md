@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Airtable
-- Open-source
+- Open Source
 - Cloudflare
 - Collaboration
 ---

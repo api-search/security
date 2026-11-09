@@ -125,7 +125,7 @@ source_yaml_url: https://artifacts.apis.io/fastcrawl-net/authentication/fastcraw
 summary_line: 1 scheme
 tags:
 - Web Scraping
-- AI
+- Artificial Intelligence
 - Content Extraction
 - REST API
 - MCP

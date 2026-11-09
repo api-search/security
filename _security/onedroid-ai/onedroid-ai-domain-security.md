@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/onedroid-ai/security/onedroid-ai-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Testing
 - Automation
 - End-to-End

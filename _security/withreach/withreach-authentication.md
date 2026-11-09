@@ -69,6 +69,6 @@ tags:
 - Payments
 - Tax
 - Compliance
-- E-commerce
+- E-Commerce
 - Merchant of Record
 ---

@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/availink/security/availink-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - IoT
-- Telecom
+- Telecommunications
 - Connectivity
-- APIs
 - Device Management
 ---

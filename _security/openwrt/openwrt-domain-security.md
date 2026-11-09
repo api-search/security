@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/openwrt/security/openwrt-domain-secur
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Open-Source
+- Open Source
 - Firmware
 - Router
 - Embedded

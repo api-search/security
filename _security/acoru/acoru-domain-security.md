@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/acoru/security/acoru-domain-security.
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
-- FraudDetection
-- AI
-- AccountMonitoring
+- Fintech
+- Fraud Prevention
+- Artificial Intelligence
+- Account Monitoring
 ---

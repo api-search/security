@@ -641,9 +641,8 @@ source_yaml: "generated: '2026-10-29'\nmethod: derived\nsource: openapi/onclarit
 source_yaml_url: https://artifacts.apis.io/onclarity-com/authentication/onclarity-com-authentication.yml
 summary_line: http · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Customer Experience
-- CX
-- Agentic
+- AI Agents
 - Enterprise
 ---

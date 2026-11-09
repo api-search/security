@@ -35,7 +35,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Technology
-- APIs
 - Integration
-- DeveloperExperience
+- Developer Experience
 ---

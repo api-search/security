@@ -19,9 +19,8 @@ summary_line: trust center published
 tags:
 - Company
 - Payments
-- Virtual-Card
-- API
-- FinTech
+- Virtual Card
+- Fintech
 - B2B
 trust_url: https://trust.conferma.com/
 ---

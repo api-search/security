@@ -36,8 +36,8 @@ source_yaml_url: https://artifacts.apis.io/apiway/authentication/apiway-authenti
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Workspace
 - Automation
-- No-code
+- No-Code
 ---

@@ -133,7 +133,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: https://docs.ze
 source_yaml_url: https://artifacts.apis.io/zenledger/authentication/zenledger-authentication.yml
 summary_line: oauth2/http · 2 schemes
 tags:
-- Crypto Tax
+- crypto-tax
 - Digital Assets
 - Tax Compliance
 - Blockchain Analytics

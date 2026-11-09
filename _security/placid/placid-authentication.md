@@ -37,7 +37,6 @@ summary_line: 1 scheme
 tags:
 - Automation
 - Creative
-- API
-- Image-Generation
+- Image Generation
 - No-Code
 ---

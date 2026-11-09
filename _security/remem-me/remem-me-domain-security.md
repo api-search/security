@@ -51,8 +51,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Bible
 - Memory
-- Nonprofit
+- Non-Profit
 - Education
-- MobileApp
-- OpenSource
+- Mobile App
+- Open Source
 ---

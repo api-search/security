@@ -29,9 +29,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/zekedoesai-com/authentication/zekedoesai-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Homelab
 - MCP
 - Networking
-- Open-source
+- Open Source
 ---

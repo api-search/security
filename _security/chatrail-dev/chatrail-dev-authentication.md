@@ -118,8 +118,7 @@ source_yaml_url: https://artifacts.apis.io/chatrail-dev/authentication/chatrail-
 summary_line: 2 schemes
 tags:
 - WhatsApp
-- API
 - Messaging
-- AI
+- Artificial Intelligence
 - Developers
 ---

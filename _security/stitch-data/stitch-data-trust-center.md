@@ -23,11 +23,11 @@ source_yaml: "generated: '2026-10-26'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/stitch-data/security/stitch-data-trust-center.yml
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP
 tags:
-- data integration
+- Data Integration
 - ETL
-- data pipelines
-- cloud data
-- data warehouse
-- data lake
+- Data Pipeline
+- Cloud Data
+- Data Warehouse
+- Data Lake
 trust_url: https://security.qlik.com/
 ---

@@ -47,7 +47,7 @@ source_yaml_url: https://artifacts.apis.io/radpod/authentication/radpod-authenti
 summary_line: 3 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Finance
 - Platform
 - Automation

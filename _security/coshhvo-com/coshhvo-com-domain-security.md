@@ -33,7 +33,7 @@ tags:
 - Company
 - Health
 - Safety
-- RiskAssessment
+- Risk Assessment
 - COSHH
 - Software
 ---

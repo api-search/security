@@ -35,5 +35,4 @@ tags:
 - Digital Assets
 - Market Making
 - Liquidity
-- Venture-backed
 ---

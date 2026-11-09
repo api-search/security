@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/goalieip-com/security/goalieip-com-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Intellectual-Property
-- Trademark
-- API
+- Intellectual Property
+- Trademarks
 - Monitoring
 ---

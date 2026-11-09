@@ -28,9 +28,8 @@ source_yaml_url: https://artifacts.apis.io/tetavi-com/security/tetavi-com-domain
 summary_line: DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
-- API
 - Platform
 - Mobile
 ---

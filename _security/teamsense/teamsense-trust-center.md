@@ -22,8 +22,8 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - Attendance
-- WorkforceManagement
-- SaaS
+- Workforce Management
+- Software-as-a-Service
 - Frontline
 trust_url: https://teamsense.com/security
 ---

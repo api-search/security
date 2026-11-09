@@ -94,11 +94,12 @@ tags:
 - Integration Platform
 - Integration
 - Marketplace
-- Authentication
+- OAuth
 - REST API
 - Software-as-a-Service
 - Templates
 - Webhook
 - White Label
 - Workflows
+- Authentication
 ---

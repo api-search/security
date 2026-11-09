@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/junct-dev/authentication/junct-dev-au
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - MCP
 - API Tools
 - Platform

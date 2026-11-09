@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/connectedpaths-com/security/connectedpaths-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Consultancy
 - Strategy
 - Implementation

@@ -30,9 +30,8 @@ source_yaml_url: https://artifacts.apis.io/rsi/security/rsi-domain-security.yml
 summary_line: TLSv1.3
 tags:
 - Company
-- Data-Modeling
+- Data Modeling
 - Analytics
-- APIs
 - Enterprise
 - Semantic-Data
 ---

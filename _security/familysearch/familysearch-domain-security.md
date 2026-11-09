@@ -32,7 +32,6 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Genealogy
 - Family History
-- Nonprofit
-- API
+- Non-Profit
 - Data
 ---

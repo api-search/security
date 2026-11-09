@@ -51,6 +51,6 @@ tags:
 - GraphQL
 - Headless CMS
 - Content Management
-- AI-Native
+- AI-native
 - TypeScript
 ---

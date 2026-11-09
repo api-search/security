@@ -49,13 +49,16 @@ schemes:
     tokenUrl: https://oauth.battle.net/token
   name: oauth2
   sources:
-  - openapi/battle-net-hearthstone-game-data.yaml
+  - openapi/battle-net-card-backs-api-openapi.yml
+  - openapi/battle-net-cards-api-openapi.yml
+  - openapi/battle-net-decks-api-openapi.yml
+  - openapi/battle-net-metadata-api-openapi.yml
   type: oauth2
 slug: battle-net-authentication
 source_filename: battle-net-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/battle-net-hearthstone-game-data.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://oauth.battle.net/token\n    scopes: 0\n  description: Battle.net OAuth 2.0 authentication. Use client credentials flow for game data\n    APIs.\n  sources:\n  - openapi/battle-net-hearthstone-game-data.yaml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/battle-net-card-backs-api-openapi.yml, openapi/battle-net-cards-api-openapi.yml,\n  openapi/battle-net-decks-api-openapi.yml, openapi/battle-net-metadata-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://oauth.battle.net/token\n    scopes: 0\n  description: Battle.net OAuth 2.0 authentication. Use client credentials flow for game data\n    APIs.\n  sources:\n  - openapi/battle-net-card-backs-api-openapi.yml\n  - openapi/battle-net-cards-api-openapi.yml\n  - openapi/battle-net-decks-api-openapi.yml\n  - openapi/battle-net-metadata-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/battle-net/authentication/battle-net-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

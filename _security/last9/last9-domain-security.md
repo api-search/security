@@ -35,5 +35,5 @@ tags:
 - Observability
 - Monitoring
 - DevOps
-- AI
+- Artificial Intelligence
 ---

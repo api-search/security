@@ -116,5 +116,4 @@ tags:
 - Payments
 - Fintech
 - Orchestration
-- API
 ---

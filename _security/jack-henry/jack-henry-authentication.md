@@ -279,7 +279,8 @@ tags:
 - Community Banks
 - Credit Union
 - Fintech
-- Authentication
+- OAuth
 - OpenID Connect
 - Real-Time
+- Authentication
 ---

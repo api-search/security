@@ -109,6 +109,5 @@ tags:
 - Data
 - Finance
 - Prediction Markets
-- API
 - Backtesting
 ---

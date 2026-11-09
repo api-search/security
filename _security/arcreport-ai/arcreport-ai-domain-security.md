@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/arcreport-ai/security/arcreport-ai-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- E-commerce
+- Artificial Intelligence
+- E-Commerce
 - Analytics
 - Checkout
 ---

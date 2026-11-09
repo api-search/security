@@ -38,9 +38,9 @@ source_yaml_url: https://artifacts.apis.io/duve/authentication/duve-authenticati
 summary_line: 1 scheme
 tags:
 - Hospitality
-- GuestExperience
-- SaaS
-- AI
-- RevenueOptimization
+- Guest Experience
+- Software-as-a-Service
+- Artificial Intelligence
+- Revenue-Optimization
 - Company
 ---

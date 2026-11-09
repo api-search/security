@@ -77,7 +77,9 @@ source_yaml_url: https://artifacts.apis.io/amazon-cognito/authentication/amazon-
 summary_line: apiKey · 1 scheme
 tags:
 - Authentication
+- Amazon Web Services
 - Identity
+- OAuth
 - OpenID Connect
 - SAML
 - User Management

@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Analytics
-- OpenSource
+- Open Source
 - Media
 - Jellyfin
 ---

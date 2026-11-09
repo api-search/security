@@ -232,12 +232,6 @@ api_specs:
   slug: mailchimp-activity-feed-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-activity-feed-api-openapi.yml
-- filename: mailchimp-allow-lists-api-openapi.yml
-  format: yaml
-  label: Mailchimp Allow Lists API
-  slug: mailchimp-allow-lists-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-allow-lists-api-openapi.yml
 - filename: mailchimp-customer-journeys-api-openapi.yml
   format: yaml
   label: Mailchimp customer Journeys API
@@ -268,6 +262,66 @@ api_specs:
   slug: mailchimp-template-folders-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-template-folders-api-openapi.yml
+- filename: mailchimp-authorized-apps-api-openapi.yml
+  format: yaml
+  label: Mailchimp Authorized Apps API
+  slug: mailchimp-authorized-apps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-authorized-apps-api-openapi.yml
+- filename: mailchimp-batch-webhooks-api-openapi.yml
+  format: yaml
+  label: Mailchimp Batch Webhooks API
+  slug: mailchimp-batch-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-batch-webhooks-api-openapi.yml
+- filename: mailchimp-campaign-folders-api-openapi.yml
+  format: yaml
+  label: Mailchimp Campaign Folders API
+  slug: mailchimp-campaign-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-campaign-folders-api-openapi.yml
+- filename: mailchimp-connected-sites-api-openapi.yml
+  format: yaml
+  label: Mailchimp Connected Sites API
+  slug: mailchimp-connected-sites-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-connected-sites-api-openapi.yml
+- filename: mailchimp-search-campaigns-api-openapi.yml
+  format: yaml
+  label: Mailchimp Search Campaigns API
+  slug: mailchimp-search-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-search-campaigns-api-openapi.yml
+- filename: mailchimp-search-members-api-openapi.yml
+  format: yaml
+  label: Mailchimp Search Members API
+  slug: mailchimp-search-members-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-search-members-api-openapi.yml
+- filename: mailchimp-segments-api-openapi.yml
+  format: yaml
+  label: Mailchimp Segments API
+  slug: mailchimp-segments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-segments-api-openapi.yml
+- filename: mailchimp-snapshots-api-openapi.yml
+  format: yaml
+  label: Mailchimp Snapshots API
+  slug: mailchimp-snapshots-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-snapshots-api-openapi.yml
+- filename: mailchimp-verified-domains-api-openapi.yml
+  format: yaml
+  label: Mailchimp Verified Domains API
+  slug: mailchimp-verified-domains-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-verified-domains-api-openapi.yml
+- filename: mailchimp-allow-lists-api-openapi.yml
+  format: yaml
+  label: Mailchimp Allow Lists API
+  slug: mailchimp-allow-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mailchimp/openapi/mailchimp-allow-lists-api-openapi.yml
 auth_types:
 - apiKey
 - http

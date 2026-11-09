@@ -69,8 +69,7 @@ source_yaml_url: https://artifacts.apis.io/meatspace-run/authentication/meatspac
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- AI
-- Human-in-the-loop
-- API
+- Artificial Intelligence
+- Human-in-the-Loop
 - Automation
 ---

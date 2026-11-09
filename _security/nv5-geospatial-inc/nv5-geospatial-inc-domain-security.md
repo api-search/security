@@ -33,6 +33,6 @@ tags:
 - Company
 - Geospatial
 - Engineering
-- DataAnalytics
+- Data Analytics
 - Infrastructure
 ---

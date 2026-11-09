@@ -28,7 +28,7 @@ source_yaml_url: https://artifacts.apis.io/onedroid-ai/security/onedroid-ai-trus
 summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Testing
 - Automation
 - End-to-End

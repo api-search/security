@@ -33,6 +33,6 @@ tags:
 - Company
 - Software
 - Consulting
-- AI
-- Open-Source
+- Artificial Intelligence
+- Open Source
 ---

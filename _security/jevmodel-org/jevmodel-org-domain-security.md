@@ -37,8 +37,7 @@ source_yaml_url: https://artifacts.apis.io/jevmodel-org/security/jevmodel-org-do
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
-- Decision-Model
-- API
-- TypeSafe
+- Artificial Intelligence
+- DecisionModel
+- Type Safe
 ---

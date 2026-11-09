@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/rainapp-com/security/rainapp-com-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinancialHealth
-- EmployeeBenefits
-- FinTech
-- AI
+- Financial Health
+- Employee Benefits
+- Fintech
+- Artificial Intelligence
 ---

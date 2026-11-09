@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Usenet
 - Downloader
-- Cross‑platform
+- Cross-Platform
 - RPC
-- Open‑source
+- Open Source
 ---

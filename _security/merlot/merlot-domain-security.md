@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Education
-- Open-Source
+- Open Source
 - Community
 - Learning
 ---

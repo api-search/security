@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/arva/security/arva-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Banking
-- FinTech
-- MachineLearning
+- Fintech
+- Machine Learning
 ---

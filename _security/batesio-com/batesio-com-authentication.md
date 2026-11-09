@@ -32,7 +32,7 @@ summary_line: http · 1 scheme
 tags:
 - Document Management
 - Accounting
-- SaaS
+- Software-as-a-Service
 - Small Business
 - File Sharing
 ---

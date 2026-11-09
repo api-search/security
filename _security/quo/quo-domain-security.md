@@ -107,4 +107,11 @@ tags:
 - Business Phone
 - CPaaS
 - Contact Center
+- Phone System
+- Shared Numbers
+- AI Agents
+- Small Business
+- Integration
+- CRM
+- Call Routing
 ---

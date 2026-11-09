@@ -42,5 +42,4 @@ tags:
 - Healthcare
 - Data Integration
 - OMOP
-- APIs
 ---

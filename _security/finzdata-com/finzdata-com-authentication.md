@@ -37,6 +37,5 @@ tags:
 - Finance
 - Market Data
 - Historical Data
-- API
 - Python
 ---

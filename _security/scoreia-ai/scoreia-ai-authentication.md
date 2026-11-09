@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/scoreia-ai/authentication/scoreia-ai-
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Benchmark
+- Artificial Intelligence
+- Benchmarks
 - MCP
 - Gaming
 ---

@@ -80,6 +80,7 @@ tags:
 - Scheduling
 - Small Business
 - Developer Platform
+- OAuth
 - Authentication
 trust_url: https://trust.getweave.com/
 ---

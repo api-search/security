@@ -64,6 +64,5 @@ tags:
 - Company
 - Finance
 - Trading
-- API
 - MetaTrader
 ---

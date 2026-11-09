@@ -503,7 +503,7 @@ tags:
 - Hospitality Cloud
 - Hybrid Events
 - Meetings
-- Authentication
+- OAuth
 - Passkeys
 - Registration
 - REST API
@@ -517,4 +517,5 @@ tags:
 - Webhook
 - White Label
 - Identity Federation
+- Authentication
 ---

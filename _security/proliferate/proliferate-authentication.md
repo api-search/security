@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/proliferate/authentication/proliferat
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AGI
 - Collaboration
-- SanFrancisco
-- Startup
+- San Francisco
+- Startups
 ---

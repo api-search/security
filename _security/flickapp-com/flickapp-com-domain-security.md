@@ -31,7 +31,6 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Mobile
-- APIs
 - Analytics
 - Monetization
 ---

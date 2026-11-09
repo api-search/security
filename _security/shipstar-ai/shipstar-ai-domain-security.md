@@ -88,7 +88,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Marketing
-- DeveloperTools
+- Developer Tools
 - Automation
-- OpenSource
+- Open Source
 ---

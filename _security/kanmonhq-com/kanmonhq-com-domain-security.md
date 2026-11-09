@@ -31,10 +31,10 @@ source_yaml_url: https://artifacts.apis.io/kanmonhq-com/security/kanmonhq-com-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Embedded financing
-- Working capital
-- API integration
-- Business loans
-- Invoice financing
-- Revenue-based financing
+- Working Capital
+- API Integration
+- Business Loans
+- Invoice Financing
+- Revenue-Based Financing
 - Marketplace financing
 ---

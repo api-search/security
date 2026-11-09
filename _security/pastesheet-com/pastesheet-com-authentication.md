@@ -43,8 +43,7 @@ source_yaml_url: https://artifacts.apis.io/pastesheet-com/authentication/pastesh
 summary_line: 2 schemes
 tags:
 - Company
-- API
-- GoogleSheets
-- NoCode
-- AI
+- Google Sheets
+- No-Code
+- Artificial Intelligence
 ---

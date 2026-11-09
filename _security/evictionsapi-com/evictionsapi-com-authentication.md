@@ -162,9 +162,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: derived\nsource: https://eviction
 source_yaml_url: https://artifacts.apis.io/evictionsapi-com/authentication/evictionsapi-com-authentication.yml
 summary_line: 3 schemes
 tags:
-- LegalTech
-- RealEstate
-- API
+- Legal Tech
+- Real Estate
 - Eviction
 - US
 ---

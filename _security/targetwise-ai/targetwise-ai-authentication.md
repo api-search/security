@@ -75,7 +75,6 @@ summary_line: http · 1 scheme
 tags:
 - B2B
 - Data Enrichment
-- Contact API
 - MCP
-- SaaS
+- Software-as-a-Service
 ---

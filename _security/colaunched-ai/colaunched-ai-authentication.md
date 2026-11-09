@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Business
-- Startup
+- Startups
 - Idea-Generation
-- Market-Research
+- Market Research
 ---

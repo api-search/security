@@ -128,9 +128,8 @@ source_yaml_url: https://artifacts.apis.io/0latency-ai/security/0latency-ai-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
-- Agent
+- Agents
 - Platform
-- API
 ---

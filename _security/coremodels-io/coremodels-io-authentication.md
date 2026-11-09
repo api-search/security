@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/coremodels-io/authentication/coremode
 summary_line: 1 scheme
 tags:
 - Company
-- Data-Modeling
-- API-Platform
+- Data Modeling
+- API Platform
 - Integration
 - Schema-Mapping
 ---

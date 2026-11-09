@@ -32,6 +32,5 @@ tags:
 - Company
 - Tours
 - Activities
-- API
 - Booking
 ---

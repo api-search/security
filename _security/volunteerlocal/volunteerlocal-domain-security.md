@@ -34,7 +34,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Volunteer Management
 - Scheduling
-- Communication
+- Communications
 - Tracking
 - Reporting
 - Database

@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Hospitality
-- SaaS
+- Software-as-a-Service
 - Payments
 - Reservations
 ---

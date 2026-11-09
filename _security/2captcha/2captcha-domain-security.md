@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: 2captcha-2captcha-api-api-openapi.yml
-  format: yaml
-  label: 2Captcha API
-  slug: 2captcha-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/2captcha/openapi/2captcha-2captcha-api-api-openapi.yml
 - filename: 2captcha-openapi-generated.yml
   format: yaml
   label: 2captcha API
@@ -44,8 +38,7 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/2captcha/security/2captcha-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Captcha Solving
-- API
+- CAPTCHA Solving
 - Automation
 - Web Scraping
 - Data Extraction

@@ -32,6 +32,6 @@ tags:
 - Company
 - Advanced Materials
 - Manufacturing
-- AI
+- Artificial Intelligence
 - Defense
 ---

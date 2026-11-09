@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Livescoremcp Com Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for livescoremcp-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
-provider_name: livescoremcp-com
+overview: 'Domain security posture for LiveScore MCP, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: LiveScore MCP
 provider_slug: livescoremcp-com
 slug: livescoremcp-com-domain-security
 source_filename: livescoremcp-com-domain-security.yml
@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/livescoremcp-com/security/livescoremcp-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Company
-- Sports
 - Football
 - Live Scores
-- API
+- MCP
+- Artificial Intelligence
+- Sports Data
 ---

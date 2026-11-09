@@ -69,6 +69,7 @@ tags:
 - Delivery
 - Logistics
 - MCP
-- Authentication
+- OAuth
 - Europe
+- Authentication
 ---

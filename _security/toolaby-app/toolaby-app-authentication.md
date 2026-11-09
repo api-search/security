@@ -57,7 +57,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Payments
-- Chrome-Extension
+- Chrome Extension
 - Stripe
 - Licensing
 ---

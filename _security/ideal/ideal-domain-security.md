@@ -33,6 +33,5 @@ tags:
 - Payments
 - Banking
 - Europe
-- E-commerce
-- API
+- E-Commerce
 ---

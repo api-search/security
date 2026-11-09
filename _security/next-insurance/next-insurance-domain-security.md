@@ -43,7 +43,7 @@ tags:
 - Commercial Property
 - Commercial Auto
 - Underwriting
-- Pay As You Go
+- Pay-as-you-go
 - Munich Re
 - ERGO
 ---

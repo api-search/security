@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/mypingoai-com/security/mypingoai-com-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Language Learning
-- AI
+- Artificial Intelligence
 - Education
 - Mobile App
 - Conversational Practice

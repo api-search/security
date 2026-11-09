@@ -120,9 +120,8 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/bol-com/authentication/bol-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- e-commerce
-- retail
-- marketplace
-- API
+- E-Commerce
+- Retail
+- Marketplace
 - Netherlands
 ---

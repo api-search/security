@@ -87,4 +87,6 @@ tags:
 - Governance
 - Project
 - Apache
+- Foundations
+- Software
 ---

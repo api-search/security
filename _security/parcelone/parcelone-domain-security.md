@@ -83,7 +83,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Logistics
 - Shipping
-- E-commerce
+- E-Commerce
 - Fulfillment
 - International
 ---

@@ -31,7 +31,6 @@ source_yaml_url: https://artifacts.apis.io/rohnelt-dev/security/rohnelt-dev-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Software Engineering
-- Operations
 - Consulting
 - Brazil
 - Logistics

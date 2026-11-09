@@ -129,7 +129,6 @@ tags:
 - Company
 - Sports
 - Data
-- Real-time
-- API
+- Real-Time
 - Tennis
 ---

@@ -96,7 +96,7 @@ tags:
 - counterparty-due-diligence
 - Agent-Native
 - x402
-- pay-per-call
+- Pay-per-call
 - MCP
 - A2A
 ---

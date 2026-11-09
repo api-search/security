@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: swift-payment-pre-validation-api-openapi.yml
+  format: yaml
+  label: Payment Pre-validation API
+  slug: payment-pre-validation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-payment-pre-validation-api-openapi.yml
 - filename: swift-account-numbers-api-openapi.yml
   format: yaml
   label: SWIFT Account Numbers API
@@ -44,10 +50,76 @@ api_specs:
   url: https://artifacts.apis.io/swift/openapi/swift-national-ids-api-openapi.yml
 - filename: swift-ibans-api-openapi.yml
   format: yaml
-  label: SWIFT IBA Ns API
+  label: SWIFT IBANs API
   slug: swift-ibans-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/swift/openapi/swift-ibans-api-openapi.yml
+- filename: swift-account-information-api-openapi.yml
+  format: yaml
+  label: SWIFT Account Information API
+  slug: swift-account-information-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-account-information-api-openapi.yml
+- filename: swift-distributions-api-openapi.yml
+  format: yaml
+  label: SWIFT Distributions API
+  slug: swift-distributions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-distributions-api-openapi.yml
+- filename: swift-fileact-api-openapi.yml
+  format: yaml
+  label: SWIFT Fileact API
+  slug: swift-fileact-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-fileact-api-openapi.yml
+- filename: swift-fin-api-openapi.yml
+  format: yaml
+  label: SWIFT Fin API
+  slug: swift-fin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-fin-api-openapi.yml
+- filename: swift-get-changed-payment-transactions-api-openapi.yml
+  format: yaml
+  label: SWIFT Get Changed Payment Transactions API
+  slug: swift-get-changed-payment-transactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-get-changed-payment-transactions-api-openapi.yml
+- filename: swift-get-payment-transaction-details-api-openapi.yml
+  format: yaml
+  label: SWIFT Get Payment Transaction Details API
+  slug: swift-get-payment-transaction-details-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-get-payment-transaction-details-api-openapi.yml
+- filename: swift-iban-national-ids-api-openapi.yml
+  format: yaml
+  label: SWIFT Iban National IDs API
+  slug: swift-iban-national-ids-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-iban-national-ids-api-openapi.yml
+- filename: swift-interact-api-openapi.yml
+  format: yaml
+  label: SWIFT Interact API
+  slug: swift-interact-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-interact-api-openapi.yml
+- filename: swift-pmis-api-openapi.yml
+  format: yaml
+  label: SWIFT Pmis API
+  slug: swift-pmis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-pmis-api-openapi.yml
+- filename: swift-reporting-api-openapi.yml
+  format: yaml
+  label: SWIFT Reporting API
+  slug: swift-reporting-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-reporting-api-openapi.yml
+- filename: swift-status-confirmations-api-openapi.yml
+  format: yaml
+  label: SWIFT Status Confirmations API
+  slug: swift-status-confirmations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/swift/openapi/swift-status-confirmations-api-openapi.yml
 description: ''
 domains:
 - caa: []

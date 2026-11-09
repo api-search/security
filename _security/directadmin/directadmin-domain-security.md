@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: directadmin-directadmin-api-api-openapi.yml
-  format: yaml
-  label: DirectAdmin API
-  slug: directadmin-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/directadmin/openapi/directadmin-directadmin-api-api-openapi.yml
 - filename: directadmin-openapi-generated.yml
   format: yaml
   label: DirectAdmin API
@@ -45,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/directadmin/security/directadmin-doma
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Hosting
-- ControlPanel
-- WebHosting
-- ServerManagement
+- Control Panel
+- Web Hosting
+- Server Management
 - Automation
 ---

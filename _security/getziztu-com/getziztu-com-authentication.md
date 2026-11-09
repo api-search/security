@@ -124,8 +124,8 @@ source_yaml_url: https://artifacts.apis.io/getziztu-com/authentication/getziztu-
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Video
-- SocialMedia
-- ContentCreation
+- Social Media
+- Content Creation
 ---

@@ -47,9 +47,8 @@ source_yaml_url: https://artifacts.apis.io/ignav-com/authentication/ignav-com-au
 summary_line: 1 scheme
 tags:
 - Company
-- Flight
+- Flights
 - Travel
-- API
 - Pricing
 - Data
 ---

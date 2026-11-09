@@ -40,9 +40,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource:\n  - https://ww
 source_yaml_url: https://artifacts.apis.io/live-football-api-com/authentication/live-football-api-com-authentication.yml
 summary_line: 3 schemes
 tags:
-- API
 - Sports
 - Football
-- Real-time
+- Real-Time
 - Data
 ---

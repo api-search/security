@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/inherentlaboratories-com/security/inh
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - KnowledgeDiscovery
 - Platform
 - SelfImproving

@@ -117,8 +117,8 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Payments
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 - Merchant of Record
 - Payment Orchestration
 ---

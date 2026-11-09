@@ -27,9 +27,8 @@ source_yaml_url: https://artifacts.apis.io/wordsintomusic/authentication/wordsin
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Music
 - Audio
 - Generation
-- API
 ---

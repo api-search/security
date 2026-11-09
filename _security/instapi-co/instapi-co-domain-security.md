@@ -38,7 +38,6 @@ summary_line: TLSv1.3
 tags:
 - Instagram
 - Search
-- Enrichment
-- API
+- Data Enrichment
 - Social Media
 ---

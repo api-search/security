@@ -164,8 +164,8 @@ source_yaml_url: https://artifacts.apis.io/tenzro-xyz/security/tenzro-xyz-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- Machine-Learning
+- Artificial Intelligence
+- Machine Learning
 - MCP
 - Platform
 - OpenAI-Compatible

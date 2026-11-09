@@ -68,7 +68,6 @@ tags:
 - Payments
 - Voice AI
 - Chatbots
-- API
-- FinTech
-- Y-Combinator
+- Fintech
+- Y Combinator
 ---

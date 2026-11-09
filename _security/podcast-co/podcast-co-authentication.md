@@ -54,9 +54,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/podcast-co/authentication/podcast-co-authentication.yml
 summary_line: 0 schemes
 tags:
-- Podcasting
+- Podcasts
 - Hosting
 - Audio
-- SaaS
+- Software-as-a-Service
 - Media
 ---

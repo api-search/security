@@ -96,6 +96,30 @@ api_specs:
   slug: clickhouse-user-management-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-user-management-api-openapi.yml
+- filename: clickhouse-notifications-api-openapi.yml
+  format: yaml
+  label: ClickHouse Notifications API
+  slug: clickhouse-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-notifications-api-openapi.yml
+- filename: clickhouse-query-api-endpoints-api-openapi.yml
+  format: yaml
+  label: ClickHouse Query API endpoints API
+  slug: clickhouse-query-api-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-query-api-endpoints-api-openapi.yml
+- filename: clickhouse-saved-queries-api-openapi.yml
+  format: yaml
+  label: ClickHouse Saved queries API
+  slug: clickhouse-saved-queries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-saved-queries-api-openapi.yml
+- filename: clickhouse-snapshot-api-openapi.yml
+  format: yaml
+  label: ClickHouse Snapshot API
+  slug: clickhouse-snapshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickhouse/openapi/clickhouse-snapshot-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 2

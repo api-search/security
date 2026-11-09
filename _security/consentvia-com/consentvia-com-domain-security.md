@@ -33,7 +33,7 @@ tags:
 - Company
 - Planning
 - Worksheets
-- UK
-- PublicSector
+- United Kingdom
+- Public Sector
 - Tools
 ---

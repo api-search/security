@@ -99,4 +99,6 @@ tags:
 - Goals
 - Gong
 - Slack
+- Revenue
+- Automation
 ---

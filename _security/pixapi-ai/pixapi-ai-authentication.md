@@ -33,9 +33,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://pixapi.
 source_yaml_url: https://artifacts.apis.io/pixapi-ai/authentication/pixapi-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Image Generation
 - Video Generation
-- API
 - Machine Learning
 ---

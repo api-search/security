@@ -97,4 +97,8 @@ tags:
 - Workflows
 - HIPAA
 - EU
+- MCP
+- E-Signature
+- Webhook
+- Online Payments
 ---

@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/team0-ai/authentication/team0-ai-auth
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Enterprise
-- KnowledgeManagement
+- Knowledge Management
 - Automation
 ---

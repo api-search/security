@@ -86,10 +86,11 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/zambo-dev/security/zambo-dev-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- Company
-- AI
-- TrustLayer
+- Artificial Intelligence
 - MCP
 - Platform
+- AI Tools
+- Verifiable Receipts
+- Cross‑AI Continuity
 trust_url: https://zambo.dev/security
 ---

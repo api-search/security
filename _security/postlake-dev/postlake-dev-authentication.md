@@ -145,10 +145,9 @@ summary_line: 1 scheme
 tags:
 - Company
 - Social Media
-- API
 - AI Agents
 - MCP
-- SaaS
+- Software-as-a-Service
 - Automation
 - Publishing
 ---

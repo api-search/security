@@ -21,7 +21,6 @@ tags:
 - Performance Coaching
 - Franchise Brands
 - Data Integration
-- Operations
 - Field Coaching
 trust_url: https://www.harmonyze.com/security
 ---

@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/parcelapi-net/security/parcelapi-net-
 summary_line: TLSv1.3
 tags:
 - Company
-- API
-- RealEstate
+- Real Estate
 - Data
 - US
 ---

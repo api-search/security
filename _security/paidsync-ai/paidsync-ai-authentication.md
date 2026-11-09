@@ -66,7 +66,7 @@ source_yaml_url: https://artifacts.apis.io/paidsync-ai/authentication/paidsync-a
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Advertising
 - Automation
 - Marketing

@@ -111,7 +111,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Email
-- AI
+- Artificial Intelligence
 - Agents
 - Integration
 ---

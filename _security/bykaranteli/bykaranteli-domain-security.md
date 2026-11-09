@@ -12,6 +12,24 @@ api_specs:
   slug: bykaranteli-public-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bykaranteli/openapi/bykaranteli-public-api-openapi.yml
+- filename: bykaranteli-public-api-openapi.yml
+  format: yaml
+  label: ByKaranteli Public API
+  slug: bykaranteli-public-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bykaranteli/openapi/bykaranteli-public-api-openapi.yml
+- filename: bykaranteli-series-api-openapi.yml
+  format: yaml
+  label: ByKaranteli Series API
+  slug: bykaranteli-series-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bykaranteli/openapi/bykaranteli-series-api-openapi.yml
+- filename: bykaranteli-usage-api-openapi.yml
+  format: yaml
+  label: ByKaranteli Usage API
+  slug: bykaranteli-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bykaranteli/openapi/bykaranteli-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []

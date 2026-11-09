@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/tabs3/security/tabs3-domain-security.
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- SaaS
-- LegalTech
-- PracticeManagement
-- CloudSoftware
+- Software-as-a-Service
+- Legal Tech
+- Practice Management
+- Cloud Software
 ---

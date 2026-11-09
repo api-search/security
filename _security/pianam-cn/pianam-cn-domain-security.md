@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: pianam-cn-default-api-openapi.yml
-  format: yaml
-  label: Mycel AI
-  slug: mycel-ai
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/pianam-cn/openapi/pianam-cn-default-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/pianam-cn/security/pianam-cn-domain-s
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
-- Chatbot
-- Conversation
+- Artificial Intelligence
+- Chatbots
+- Conversations
 - Chinese
 ---

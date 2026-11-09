@@ -132,9 +132,8 @@ source_yaml_url: https://artifacts.apis.io/0latency-ai/authentication/0latency-a
 summary_line: 3 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
-- Agent
+- Agents
 - Platform
-- API
 ---

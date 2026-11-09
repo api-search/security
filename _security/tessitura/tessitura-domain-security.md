@@ -33,7 +33,7 @@ tags:
 - Company
 - Arts
 - Culture
-- Nonprofit
+- Non-Profit
 - CRM
 - Ticketing
 ---

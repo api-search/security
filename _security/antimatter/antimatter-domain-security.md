@@ -41,6 +41,6 @@ tags:
 - Company
 - Data Platform
 - Analytics
-- AI
+- Artificial Intelligence
 - Machine Learning
 ---

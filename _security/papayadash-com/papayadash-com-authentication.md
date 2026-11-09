@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/papayadash-com/authentication/papayad
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Fleet
+- Artificial Intelligence
+- Fleet Management
 - Logistics
-- SaaS
+- Software-as-a-Service
 - Transportation
 ---

@@ -32,6 +32,5 @@ tags:
 - Company
 - Usenet
 - Downloader
-- Open-Source
-- API
+- Open Source
 ---

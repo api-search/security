@@ -31,7 +31,6 @@ summary_line: 1 scheme
 tags:
 - Speech AI
 - Multilingual
-- Real-time
+- Real-Time
 - Streaming
-- API
 ---

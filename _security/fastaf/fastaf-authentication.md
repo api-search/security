@@ -194,7 +194,6 @@ summary_line: 1 scheme
 tags:
 - Web Scraping
 - SERP
-- API
 - Developer Tools
 - AI Integration
 ---

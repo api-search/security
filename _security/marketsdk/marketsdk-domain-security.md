@@ -111,8 +111,7 @@ source_yaml_url: https://artifacts.apis.io/marketsdk/security/marketsdk-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Marketplace
-- API
-- SaaS
+- Software-as-a-Service
 - Payments
 - Trust
 ---

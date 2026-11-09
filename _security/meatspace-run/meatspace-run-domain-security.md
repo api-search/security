@@ -62,8 +62,7 @@ source_yaml_url: https://artifacts.apis.io/meatspace-run/security/meatspace-run-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
-- Human-in-the-loop
-- API
+- Artificial Intelligence
+- Human-in-the-Loop
 - Automation
 ---

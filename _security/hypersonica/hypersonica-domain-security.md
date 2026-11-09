@@ -34,7 +34,7 @@ tags:
 - Defense
 - Aerospace
 - Hypersonics
-- Defence Technology
+- Defense Technology
 - Deep Tech
 - Munich
 ---

@@ -82,8 +82,5 @@ source_yaml_url: https://artifacts.apis.io/xavio-in/authentication/xavio-in-auth
 summary_line: 1 scheme
 tags:
 - Company
-- API
-- Stub
-- Unknown
 - Placeholder
 ---

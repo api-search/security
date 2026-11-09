@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: eagle-doc-doc-api-openapi.yml
-  format: yaml
-  label: Eagle Doc API
-  slug: eagle-doc-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eagle-doc/openapi/eagle-doc-doc-api-openapi.yml
 - filename: eagle-doc-openapi-generated.yml
   format: yaml
   label: Eagle Doc API
@@ -44,9 +38,8 @@ source_yaml_url: https://artifacts.apis.io/eagle-doc/authentication/eagle-doc-au
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - OCR
 - Bookkeeping
-- Document-Processing
-- API
+- Document Processing
 ---

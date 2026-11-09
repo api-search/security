@@ -112,8 +112,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Payments
-- Crypto
-- API
-- Non-custodial
-- AI
+- Cryptocurrency
+- Non-Custodial
+- Artificial Intelligence
 ---

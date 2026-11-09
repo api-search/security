@@ -94,7 +94,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Social Media
-- AI
+- Artificial Intelligence
 - Data API
 - MCP
 - Analytics

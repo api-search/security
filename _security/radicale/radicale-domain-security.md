@@ -32,7 +32,7 @@ tags:
 - Company
 - CalDAV
 - CardDAV
-- OpenSource
+- Open Source
 - Python
 - Calendar
 ---

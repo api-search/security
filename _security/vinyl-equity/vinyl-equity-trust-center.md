@@ -25,7 +25,7 @@ tags:
 - Transfer Agency
 - Cap Table
 - Equity Management
-- Shareholder Management
+- Shareholder-Management
 - Proxy & AGM
 - Fintech
 trust_url: https://trust.vinylequity.com/

@@ -43,8 +43,7 @@ source_yaml_url: https://artifacts.apis.io/fxsocket-com/authentication/fxsocket-
 summary_line: 2 schemes
 tags:
 - Company
-- FinTech
+- Fintech
 - Trading
-- API
 - Cloud
 ---

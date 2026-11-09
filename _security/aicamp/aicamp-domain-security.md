@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: aicamp-openapi.json
+  format: json
+  label: AICamp API
+  slug: aicamp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aicamp/openapi/aicamp-openapi.json
 description: ''
 domains:
 - caa: []

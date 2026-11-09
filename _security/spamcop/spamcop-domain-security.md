@@ -34,6 +34,6 @@ tags:
 - Spam
 - Email
 - Security
-- Anti-spam
+- Anti-Spam
 - Reporting
 ---

@@ -195,7 +195,6 @@ source_yaml_url: https://artifacts.apis.io/sendly-now/security/sendly-now-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email
-- API
 - Transactional Email
 - Marketing Campaigns
 - Workflow Automation

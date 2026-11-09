@@ -94,6 +94,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-transcribe/authentication/amaz
 summary_line: apiKey · 1 scheme
 tags:
 - Audio Processing
+- Amazon Web Services
 - Machine Learning
 - Speech Recognition
 - Speech-to-Text

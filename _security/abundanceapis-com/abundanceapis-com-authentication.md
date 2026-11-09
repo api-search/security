@@ -46,9 +46,8 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/abundanceapis-com/authentication/abundanceapis-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- APIs
-- DeveloperTools
-- DataValidation
+- Developer Tools
+- Data Validation
 - Geolocation
 - Finance
 - Utilities

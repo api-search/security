@@ -33,6 +33,6 @@ tags:
 - Collectibles
 - Alerts
 - Restock
-- E-commerce
+- E-Commerce
 - Community
 ---

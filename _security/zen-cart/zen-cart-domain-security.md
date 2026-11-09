@@ -30,10 +30,10 @@ source_yaml: "generated: '2026-10-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/zen-cart/security/zen-cart-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- e-commerce
-- open-source
-- php
-- shopping-cart
-- community
-- platform
+- E-Commerce
+- Open Source
+- PHP
+- Shopping Cart
+- Community
+- Platform
 ---

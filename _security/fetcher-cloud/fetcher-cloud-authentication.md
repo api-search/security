@@ -139,8 +139,7 @@ source_yaml_url: https://artifacts.apis.io/fetcher-cloud/authentication/fetcher-
 summary_line: 0 schemes
 tags:
 - Company
-- API
-- AI
+- Artificial Intelligence
 - Tools
 - Pay-per-call
 - Micropayments

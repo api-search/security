@@ -83,7 +83,7 @@ tags:
 - Company
 - Healthcare
 - Data
-- AI
+- Artificial Intelligence
 - Doctor
 - International
 ---

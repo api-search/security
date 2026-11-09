@@ -34,8 +34,8 @@ tags:
 - Customer Success
 - Revenue Growth
 - AI Automation
-- Post‑Sales
-- GTM
-- Product‑Led Growth
-- RevOps
+- Post-Sales
+- Go-To-Market
+- Product-Led Growth
+- Revenue Operations
 ---

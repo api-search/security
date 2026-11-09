@@ -36,7 +36,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Email Verification
-- API
 - Data Validation
 - Deliverability
 - Bulk

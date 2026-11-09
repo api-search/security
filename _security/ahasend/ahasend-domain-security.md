@@ -66,6 +66,36 @@ api_specs:
   slug: ahasend-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/ahasend/openapi/ahasend-webhooks-api-openapi.yml
+- filename: ahasend-campaign-templates-api-openapi.yml
+  format: yaml
+  label: AhaSend Campaign Templates API
+  slug: ahasend-campaign-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-campaign-templates-api-openapi.yml
+- filename: ahasend-campaigns-api-openapi.yml
+  format: yaml
+  label: AhaSend Campaigns API
+  slug: ahasend-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-campaigns-api-openapi.yml
+- filename: ahasend-contacts-api-openapi.yml
+  format: yaml
+  label: AhaSend Contacts API
+  slug: ahasend-contacts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-contacts-api-openapi.yml
+- filename: ahasend-lists-api-openapi.yml
+  format: yaml
+  label: AhaSend Lists API
+  slug: ahasend-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-lists-api-openapi.yml
+- filename: ahasend-templates-api-openapi.yml
+  format: yaml
+  label: AhaSend Templates API
+  slug: ahasend-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ahasend/openapi/ahasend-templates-api-openapi.yml
 - filename: ahasend-subaccounts-api-openapi.yml
   format: yaml
   label: AhaSend Subaccounts API

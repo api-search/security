@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/peerlookup-com/security/peerlookup-co
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Public API
+- Public APIs
 - MCP
 - Knowledge Sharing
 - Open Data
-- Board
+- Boards
 ---

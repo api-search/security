@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/earthcam/authentication/earthcam-auth
 summary_line: 0 schemes
 tags:
 - Company
-- webcam
-- construction
+- Webcam
+- Construction
 - visual-data
-- AI
+- Artificial Intelligence
 ---

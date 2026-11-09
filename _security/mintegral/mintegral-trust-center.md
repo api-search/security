@@ -21,9 +21,9 @@ source_yaml_url: https://artifacts.apis.io/mintegral/security/mintegral-trust-ce
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- MobileMarketing
-- AI
+- Mobile Marketing
+- Artificial Intelligence
 - Advertising
-- AppGrowth
+- App Growth
 trust_url: https://www.mintegral.com/en/security
 ---

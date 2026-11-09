@@ -146,6 +146,42 @@ api_specs:
   slug: budgetpixel-xai-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-xai-api-openapi.yml
+- filename: budgetpixel-3d-models-api-openapi.yml
+  format: yaml
+  label: BudgetPixel 3D Models API
+  slug: budgetpixel-3d-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-3d-models-api-openapi.yml
+- filename: budgetpixel-depth-maps-api-openapi.yml
+  format: yaml
+  label: BudgetPixel Depth Maps API
+  slug: budgetpixel-depth-maps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-depth-maps-api-openapi.yml
+- filename: budgetpixel-meta-api-openapi.yml
+  format: yaml
+  label: BudgetPixel Meta API
+  slug: budgetpixel-meta-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-meta-api-openapi.yml
+- filename: budgetpixel-stock-images-api-openapi.yml
+  format: yaml
+  label: BudgetPixel Stock Images API
+  slug: budgetpixel-stock-images-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-stock-images-api-openapi.yml
+- filename: budgetpixel-stock-music-api-openapi.yml
+  format: yaml
+  label: BudgetPixel Stock Music API
+  slug: budgetpixel-stock-music-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-stock-music-api-openapi.yml
+- filename: budgetpixel-stock-sound-effects-api-openapi.yml
+  format: yaml
+  label: BudgetPixel Stock Sound Effects API
+  slug: budgetpixel-stock-sound-effects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/budgetpixel/openapi/budgetpixel-stock-sound-effects-api-openapi.yml
 - filename: budgetpixel-mini-max-api-openapi.yml
   format: yaml
   label: BudgetPixel Mini Max API
@@ -262,7 +298,7 @@ tags:
 - Video Models
 - Music/Audio Generation
 - Generative Media
-- llms-txt
+- Llms.txt
 - Media Processing
 - Image Generation
 - Video Generation

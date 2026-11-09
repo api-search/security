@@ -29,6 +29,7 @@ tags:
 - Company
 - Data Platform
 - Life Sciences
-- AI
+- Amazon Web Services
+- Artificial Intelligence
 trust_url: https://www.quilt.bio/security
 ---

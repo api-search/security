@@ -32,6 +32,48 @@ api_specs:
   slug: gcp-cloud-storage-objects-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objects-api-openapi.yml
+- filename: gcp-cloud-storage-anywherecaches-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Anywhere Caches API
+  slug: gcp-cloud-storage-anywherecaches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-anywherecaches-api-openapi.yml
+- filename: gcp-cloud-storage-folders-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Folders API
+  slug: gcp-cloud-storage-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-folders-api-openapi.yml
+- filename: gcp-cloud-storage-managedfolders-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Managed Folders API
+  slug: gcp-cloud-storage-managedfolders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-managedfolders-api-openapi.yml
+- filename: gcp-cloud-storage-notifications-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Notifications API
+  slug: gcp-cloud-storage-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-notifications-api-openapi.yml
+- filename: gcp-cloud-storage-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Operations API
+  slug: gcp-cloud-storage-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-operations-api-openapi.yml
+- filename: gcp-cloud-storage-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Projects API
+  slug: gcp-cloud-storage-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-projects-api-openapi.yml
+- filename: gcp-cloud-storage-rapidcaches-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Rapid Caches API
+  slug: gcp-cloud-storage-rapidcaches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-rapidcaches-api-openapi.yml
 auth_types:
 - http
 - oauth2

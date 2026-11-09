@@ -33,7 +33,7 @@ tags:
 - Company
 - MCPaaS
 - Edge Computing
-- AI
+- Artificial Intelligence
 - Zig
-- WASM
+- Wasm
 ---

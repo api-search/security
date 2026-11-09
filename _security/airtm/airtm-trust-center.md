@@ -170,6 +170,7 @@ tags:
 - Latin America
 - Emerging Markets
 - money-services-business
+- OAuth
 - Authentication
 trust_url: https://trust.airtm.com/
 ---

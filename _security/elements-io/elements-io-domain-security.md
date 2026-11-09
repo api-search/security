@@ -33,6 +33,5 @@ tags:
 - Digital Assets
 - Payments
 - Treasury Management
-- Developer Services
 - Trading Services
 ---

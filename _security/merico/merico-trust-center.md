@@ -27,5 +27,8 @@ tags:
 - Software Analytics
 - Open Source
 - Data Platform
+- Technology
+- Analytics
+- Software Engineering
 trust_url: https://www.devinsight.ai/security-trust
 ---

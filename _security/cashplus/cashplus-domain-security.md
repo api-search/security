@@ -188,4 +188,6 @@ tags:
 - Challenger Bank
 - Business Banking
 - Fintech
+- Digital Banking
+- Small Business
 ---

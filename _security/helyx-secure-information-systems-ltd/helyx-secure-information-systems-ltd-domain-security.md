@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Geospatial
-- InformationManagement
+- Information Management
 - Defence
 - Consultancy
 ---

@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-10-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/screenshotline-com/security/screenshotline-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Screenshot API
+- Screenshots
 - Web Capture
 - Image Generation
 - Developer Tools

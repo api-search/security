@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Underfloor Heating
-- UK
+- United Kingdom
 - Home Improvement
 - HVAC
 ---

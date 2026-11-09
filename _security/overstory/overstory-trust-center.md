@@ -27,5 +27,7 @@ tags:
 - Wildfire Risk
 - Grid Reliability
 - Remote Sensing
+- Energy
+- Vegetation
 trust_url: https://www.overstory.com/security
 ---

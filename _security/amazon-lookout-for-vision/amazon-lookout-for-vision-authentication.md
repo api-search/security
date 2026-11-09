@@ -45,6 +45,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-l
 source_yaml_url: https://artifacts.apis.io/amazon-lookout-for-vision/authentication/amazon-lookout-for-vision-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Computer Vision
 - Machine Learning
 - Manufacturing

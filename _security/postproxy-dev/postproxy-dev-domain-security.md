@@ -134,8 +134,7 @@ source_yaml_url: https://artifacts.apis.io/postproxy-dev/security/postproxy-dev-
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Social Media
-- API
-- SaaS
+- Software-as-a-Service
 - Marketing
 - Automation
 ---

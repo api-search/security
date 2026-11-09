@@ -57,6 +57,5 @@ tags:
 - Company
 - Logistics
 - 3D
-- API
-- SaaS
+- Software-as-a-Service
 ---

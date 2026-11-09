@@ -34,7 +34,6 @@ tags:
 - Finance
 - Data
 - Trading
-- API
 - Analytics
 - Platform
 ---

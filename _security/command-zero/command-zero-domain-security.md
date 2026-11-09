@@ -41,4 +41,5 @@ tags:
 - Artificial Intelligence
 - Agents
 - Governed AI
+- Automation
 ---

@@ -90,7 +90,7 @@ source_yaml: "generated: '2026-10-28'\nmethod: derived\nsource: openapi/home-con
 source_yaml_url: https://artifacts.apis.io/home-connect/authentication/home-connect-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- smart home
-- appliances
-- connected devices
+- Smart Home
+- Appliances
+- Connected Devices
 ---

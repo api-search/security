@@ -39,7 +39,7 @@ tags:
 - Company
 - Automation
 - File Processing
-- Self-hosted
+- Self-Hosted
 - Docker
 - Open Source
 ---

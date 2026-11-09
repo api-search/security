@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/uxcontinuum-com/security/uxcontinuum-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AEO
+- Answer Engine Optimization
 - Fractional-CTO
-- Software-Development
+- Software Development
 - AI-Driven
 ---

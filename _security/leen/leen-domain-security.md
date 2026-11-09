@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/leen/security/leen-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security
-- API
-- DataFabric
+- Data Fabric
 - Integration
 - Automation
 ---

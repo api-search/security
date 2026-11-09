@@ -112,4 +112,6 @@ tags:
 - Team Collaboration
 - Business Reviews
 - MCP
+- Workflows
+- Business Intelligence
 ---

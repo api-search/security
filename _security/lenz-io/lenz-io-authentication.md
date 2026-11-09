@@ -96,9 +96,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/lenz-io/authentication/lenz-io-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
-- Fact-Checking
+- Artificial Intelligence
+- Fact Checking
 - Enterprise
-- API
 - Audit
 ---

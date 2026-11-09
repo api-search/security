@@ -170,8 +170,8 @@ source_yaml_url: https://artifacts.apis.io/tenzro-xyz/authentication/tenzro-xyz-
 summary_line: 3 schemes
 tags:
 - Company
-- AI
-- Machine-Learning
+- Artificial Intelligence
+- Machine Learning
 - MCP
 - Platform
 - OpenAI-Compatible

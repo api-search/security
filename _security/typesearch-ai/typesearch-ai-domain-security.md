@@ -80,9 +80,8 @@ source_yaml_url: https://artifacts.apis.io/typesearch-ai/security/typesearch-ai-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Search
-- API
-- SaaS
+- Software-as-a-Service
 - Data
 ---

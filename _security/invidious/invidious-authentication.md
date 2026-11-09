@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: invidious-invidious-api-api-openapi.yml
-  format: yaml
-  label: Invidious API
-  slug: invidious-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/invidious/openapi/invidious-invidious-api-api-openapi.yml
 - filename: invidious-openapi-generated.yml
   format: yaml
   label: Invidious API
@@ -45,10 +39,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: searched\nsource: https://docs.in
 source_yaml_url: https://artifacts.apis.io/invidious/authentication/invidious-authentication.yml
 summary_line: 2 schemes
 tags:
-- video
-- open-source
-- privacy
-- api
-- frontend
-- youtube
+- Video
+- Open Source
+- Privacy
+- Frontend
+- YouTube
 ---

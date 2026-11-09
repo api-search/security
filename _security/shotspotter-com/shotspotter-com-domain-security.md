@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Public Safety
-- AI
+- Artificial Intelligence
 - Acoustic Detection
 - Real-time Alerts
 - Community Safety

@@ -39,7 +39,8 @@ tags:
 - Store Locations
 - Shopping Cart
 - Loyalty
-- Authentication
+- OAuth
 - Partner API
 - Fortune 100
+- Authentication
 ---

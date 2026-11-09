@@ -35,6 +35,5 @@ tags:
 - Company
 - Data
 - Credit
-- RiskManagement
-- APIs
+- Risk Management
 ---

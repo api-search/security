@@ -38,7 +38,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Analytics
-- AI
+- Artificial Intelligence
 - Data Integration
 - Business Intelligence
 ---

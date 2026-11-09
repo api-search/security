@@ -40,8 +40,9 @@ tags:
 - Teacher Messaging
 - SMS
 - Translation
-- Authentication
+- OAuth
 - Webhook
 - Share SDK
 - ParentSquare
+- Authentication
 ---

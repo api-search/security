@@ -64,4 +64,7 @@ tags:
 - Content Strategy
 - Creative
 - Marketing
+- Content
+- Platform
+- Freelance
 ---

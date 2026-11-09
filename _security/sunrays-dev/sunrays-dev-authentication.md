@@ -31,8 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Booking
-- Local-Services
+- Local Services
 - MCP
 - Agent-Callable
-- API
 ---

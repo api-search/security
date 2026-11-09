@@ -39,4 +39,8 @@ tags:
 - PropTech
 - Real Estate
 - Conversation Intelligence
+- Machine Learning
+- Natural Language Processing
+- Image Analysis
+- DataInsights
 ---

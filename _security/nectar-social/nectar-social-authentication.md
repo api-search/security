@@ -69,5 +69,6 @@ tags:
 - Social Commerce
 - MCP
 - Agents
+- OAuth
 - Authentication
 ---

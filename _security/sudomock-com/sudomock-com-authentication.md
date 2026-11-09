@@ -89,8 +89,7 @@ source_yaml_url: https://artifacts.apis.io/sudomock-com/authentication/sudomock-
 summary_line: 1 scheme
 tags:
 - Mockup
-- API
 - PSD
-- E-commerce
+- E-Commerce
 - Automation
 ---

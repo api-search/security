@@ -139,8 +139,8 @@ source_yaml_url: https://artifacts.apis.io/beatapi/authentication/beatapi-authen
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
-- Unified-API
-- Data-Integration
+- Unified API
+- Data Integration
 ---

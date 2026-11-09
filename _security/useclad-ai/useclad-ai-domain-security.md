@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/useclad-ai/security/useclad-ai-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Support
-- SaaS
+- Software-as-a-Service
 - Automation
 ---

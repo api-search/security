@@ -34,6 +34,6 @@ tags:
 - TV
 - Media
 - Automation
-- OpenSource
+- Open Source
 - Python
 ---

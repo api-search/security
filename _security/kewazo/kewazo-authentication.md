@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/kewazo/authentication/kewazo-authenti
 summary_line: 0 schemes
 tags:
 - Robotics
-- AI
-- IndustrialAutomation
-- MaterialHandling
+- Artificial Intelligence
+- Industrial Automation
+- Material Handling
 - LiftBot
 ---

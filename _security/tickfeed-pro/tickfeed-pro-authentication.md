@@ -48,9 +48,8 @@ summary_line: 1 scheme
 tags:
 - Company
 - Finance
-- MarketData
-- API
-- Forex
+- Market Data
+- Foreign Exchange
 - Gold
 - MCP
 ---

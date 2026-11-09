@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/mobcrm-au/security/mobcrm-au-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CRM
-- Personal Productivity
+- Personal-Productivity
 - Mobile
 - Open Source
 - Contact Management

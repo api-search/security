@@ -207,6 +207,7 @@ tags:
 - Ecommerce Localization
 - Product Information Management
 - Webhook
-- Authentication
+- OAuth
 - Software-as-a-Service
+- Authentication
 ---

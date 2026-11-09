@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: mocki-mocki-api-api-openapi.yml
-  format: yaml
-  label: Mocki API
-  slug: mocki-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mocki/openapi/mocki-mocki-api-api-openapi.yml
 - filename: mocki-openapi-generated.yml
   format: yaml
   label: Mocki API

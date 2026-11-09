@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: budecosystem-bud-ecosystem-api-api-openapi.yml
-  format: yaml
-  label: Bud Ecosystem API
-  slug: bud-ecosystem-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/budecosystem/openapi/budecosystem-bud-ecosystem-api-api-openapi.yml
 - filename: budecosystem-openapi-generated.yml
   format: yaml
   label: Bud Ecosystem API

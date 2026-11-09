@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/archerionlabs-com/security/archerionl
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
 - Tools
 - Enterprise

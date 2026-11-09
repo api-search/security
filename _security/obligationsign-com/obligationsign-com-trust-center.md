@@ -28,7 +28,7 @@ source_yaml_url: https://artifacts.apis.io/obligationsign-com/security/obligatio
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance
 - Security
 - Infrastructure

@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: immersa-immersa-api-api-openapi.yml
-  format: yaml
-  label: Immersa API
-  slug: immersa-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/immersa/openapi/immersa-immersa-api-api-openapi.yml
 - filename: immersa-openapi-generated.yml
   format: yaml
   label: Immersa API

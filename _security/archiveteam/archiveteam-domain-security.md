@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Archiving
-- OpenSource
-- DigitalPreservation
+- Open Source
+- Digital Preservation
 - Community
 ---

@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/docs-md-com/security/docs-md-com-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Markdown
-- AI
+- Artificial Intelligence
 - MCP
 - Sharing
 - Free

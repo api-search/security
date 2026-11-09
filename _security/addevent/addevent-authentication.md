@@ -69,7 +69,6 @@ tags:
 - Calendar
 - Integration
 - Marketing
-- API
-- SaaS
-- Events
+- Software-as-a-Service
+- Event
 ---

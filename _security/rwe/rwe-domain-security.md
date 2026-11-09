@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Energy
 - Mobility
-- Renewable
+- Renewables
 - Sustainability
 - Europe
 - Company

@@ -108,7 +108,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Sports
-- API
-- Real-time
+- Real-Time
 - Betting
 ---

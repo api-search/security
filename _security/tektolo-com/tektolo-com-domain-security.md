@@ -81,9 +81,8 @@ source_yaml_url: https://artifacts.apis.io/tektolo-com/security/tektolo-com-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Operations
 - Tools
-- AI
+- Artificial Intelligence
 - Automation
 - Reliability
 ---

@@ -44,10 +44,11 @@ tags:
 - Financial Services
 - FDX
 - Open Banking
-- Authentication
+- OAuth
 - Payments
 - Rewards
 - United States
 - Fortune 500
 - Consumer Banking
+- Authentication
 ---

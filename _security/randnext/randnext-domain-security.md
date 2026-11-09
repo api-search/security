@@ -77,6 +77,5 @@ tags:
 - Company
 - Random
 - Generator
-- API
 - Fun
 ---

@@ -88,6 +88,6 @@ tags:
 - AI Agents
 - REST API
 - OpenAPI
-- llms-txt
+- Llms.txt
 - Agent Skills
 ---

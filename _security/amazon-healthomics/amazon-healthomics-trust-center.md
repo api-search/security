@@ -48,36 +48,6 @@ api_specs:
   slug: amazon-healthomics-workflow-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-workflow-api-openapi.yml
-- filename: amazon-healthomics-annotation-store-api-openapi.yml
-  format: yaml
-  label: Amazon HealthOmics Annotation Store API
-  slug: amazon-healthomics-annotation-store-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-annotation-store-api-openapi.yml
-- filename: amazon-healthomics-annotation-stores-api-openapi.yml
-  format: yaml
-  label: Amazon HealthOmics Annotation Stores API
-  slug: amazon-healthomics-annotation-stores-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-annotation-stores-api-openapi.yml
-- filename: amazon-healthomics-run-group-api-openapi.yml
-  format: yaml
-  label: Amazon HealthOmics Run Group API
-  slug: amazon-healthomics-run-group-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-run-group-api-openapi.yml
-- filename: amazon-healthomics-variant-store-api-openapi.yml
-  format: yaml
-  label: Amazon HealthOmics Variant Store API
-  slug: amazon-healthomics-variant-store-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-variant-store-api-openapi.yml
-- filename: amazon-healthomics-variant-stores-api-openapi.yml
-  format: yaml
-  label: Amazon HealthOmics Variant Stores API
-  slug: amazon-healthomics-variant-stores-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-variant-stores-api-openapi.yml
 - filename: amazon-healthomics-configuration-api-openapi.yml
   format: yaml
   label: Amazon HealthOmics Healthomics Configuration API
@@ -120,6 +90,36 @@ api_specs:
   slug: amazon-healthomics-version-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-version-api-openapi.yml
+- filename: amazon-healthomics-annotation-store-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Annotation Store API
+  slug: amazon-healthomics-annotation-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-annotation-store-api-openapi.yml
+- filename: amazon-healthomics-annotation-stores-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Annotation Stores API
+  slug: amazon-healthomics-annotation-stores-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-annotation-stores-api-openapi.yml
+- filename: amazon-healthomics-run-group-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Run Group API
+  slug: amazon-healthomics-run-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-run-group-api-openapi.yml
+- filename: amazon-healthomics-variant-store-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Variant Store API
+  slug: amazon-healthomics-variant-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-variant-store-api-openapi.yml
+- filename: amazon-healthomics-variant-stores-api-openapi.yml
+  format: yaml
+  label: Amazon HealthOmics Variant Stores API
+  slug: amazon-healthomics-variant-stores-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-healthomics/openapi/amazon-healthomics-variant-stores-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -143,6 +143,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/amazon-healthomics/security/amazon-healthomics-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
+- Amazon Web Services
 - Bioinformatics
 - Genomics
 - Healthcare

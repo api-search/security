@@ -41,6 +41,5 @@ tags:
 - Transportation
 - Dispatch
 - Booking
-- SaaS
-- API
+- Software-as-a-Service
 ---

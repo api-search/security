@@ -105,12 +105,6 @@ api_specs:
   slug: honeycomb-query-data-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-query-data-api-openapi.yml
-- filename: honeycomb-query-results-api-openapi.yml
-  format: yaml
-  label: honeycomb Query Results API
-  slug: honeycomb-query-results-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-query-results-api-openapi.yml
 - filename: honeycomb-recipients-api-openapi.yml
   format: yaml
   label: honeycomb Recipients API
@@ -135,6 +129,12 @@ api_specs:
   slug: honeycomb-slos-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-slos-api-openapi.yml
+- filename: honeycomb-anomaly-detection-api-openapi.yml
+  format: yaml
+  label: Honeycomb Anomaly Detection API
+  slug: honeycomb-anomaly-detection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/honeycomb/openapi/honeycomb-anomaly-detection-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

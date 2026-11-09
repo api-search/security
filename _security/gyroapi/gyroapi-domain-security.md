@@ -33,5 +33,5 @@ tags:
 - API Management
 - Cloud Services
 - Data Integration
-- Real-time Analytics
+- Real-Time Analytics
 ---

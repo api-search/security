@@ -34,6 +34,6 @@ tags:
 - Sports
 - Football
 - Canada
-- ProfessionalLeague
+- Professional League
 - Entertainment
 ---

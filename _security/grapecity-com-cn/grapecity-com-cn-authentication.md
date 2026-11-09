@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/grapecity-com-cn/authentication/grape
 summary_line: 0 schemes
 tags:
 - Software
-- Low-code
+- Low-Code
 - Developer Tools
 - Business Intelligence
 - China

@@ -43,7 +43,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - MobileSimulation
-- DeveloperTools
-- AI
+- Developer Tools
+- Artificial Intelligence
 - DeviceEmulation
 ---

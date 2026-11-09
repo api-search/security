@@ -33,5 +33,4 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - 500 Global
-- VC-Backed
 ---

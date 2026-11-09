@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://docs.ez
 source_yaml_url: https://artifacts.apis.io/ezbizservices-com/authentication/ezbizservices-com-authentication.yml
 summary_line: 3 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Receptionist
-- ServiceBusiness
+- Service Business
 - Automation
 - Scheduling
 ---

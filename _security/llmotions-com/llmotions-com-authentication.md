@@ -28,8 +28,8 @@ source_yaml_url: https://artifacts.apis.io/llmotions-com/authentication/llmotion
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- MotionGraphics
+- Artificial Intelligence
+- Motion Graphics
 - Animation
 - Cloud
 ---

@@ -84,8 +84,8 @@ tags:
 - Weather
 - Mobility
 - Forecasting
-- EventPlanning
-- DataAnalytics
+- Event Planning
+- Data Analytics
 - Weather Data
 - Marine
 - Meteorology

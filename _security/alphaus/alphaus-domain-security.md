@@ -139,6 +139,7 @@ tags:
 - Cloud
 - Billing
 - Multi-Cloud
+- Amazon Web Services
 - Microsoft Azure
 - GCP
 - gRPC

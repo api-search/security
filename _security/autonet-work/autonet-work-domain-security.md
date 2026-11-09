@@ -1,0 +1,43 @@
+---
+api_specs:
+- filename: autonet-work-utils-api-openapi.yml
+  format: yaml
+  label: Autonet Utils API
+  slug: autonet-work-utils-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/autonet-work/openapi/autonet-work-utils-api-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: autonet.work
+  spf: true
+hosts:
+- cert_expires: Dec 14 20:17:57 2026 GMT
+  host: autonet.work
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Autonet Work Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Autonet, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: Autonet
+provider_slug: autonet-work
+slug: autonet-work-domain-security
+source_filename: autonet-work-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-11-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: autonet.work\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 14 20:17:57 2026 GMT\n  hsts: false\ndomains:\n- domain: autonet.work\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://artifacts.apis.io/autonet-work/security/autonet-work-domain-security.yml
+summary_line: TLSv1.3
+tags:
+- Internet
+- Utilities
+- Agents
+- Monitoring
+---

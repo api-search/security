@@ -34,6 +34,6 @@ tags:
 - Research
 - University
 - Germany
-- Non-profit
+- Non-Profit
 - Company
 ---

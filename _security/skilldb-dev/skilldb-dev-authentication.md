@@ -36,9 +36,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/skilldb-dev/authentication/skilldb-dev-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Skills
 - Catalog
-- DeveloperTools
-- OpenSource
+- Developer Tools
+- Open Source
 ---

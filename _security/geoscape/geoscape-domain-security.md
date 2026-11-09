@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/geoscape/security/geoscape-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Location-Intelligence
-- Data-Analytics
+- Location Intelligence
+- Data Analytics
 - Australia
 - GIS
 ---

@@ -39,4 +39,5 @@ tags:
 - Computer Vision
 - Precision Agriculture
 - Farm Management
+- Automation
 ---

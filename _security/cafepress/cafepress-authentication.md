@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/cafepress/authentication/cafepress-au
 summary_line: 0 schemes
 tags:
 - Company
-- e-commerce
-- print-on-demand
-- custom merchandise
+- E-Commerce
+- Print on Demand
+- Custom Merchandise
 - online marketplace
 ---

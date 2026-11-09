@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/nchannel/security/nchannel-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Integration
-- SaaS
+- Software-as-a-Service
 - Retail
 ---

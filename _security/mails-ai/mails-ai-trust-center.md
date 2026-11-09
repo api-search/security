@@ -137,7 +137,7 @@ source_yaml_url: https://artifacts.apis.io/mails-ai/security/mails-ai-trust-cent
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Email
 - Infrastructure
 - Agents

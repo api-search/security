@@ -129,7 +129,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Sports
-- AI
-- Real-time
+- Artificial Intelligence
+- Real-Time
 - Betting
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Media
-- Nonprofit
+- Non-Profit
 - Education
 - Technology
 - Entertainment

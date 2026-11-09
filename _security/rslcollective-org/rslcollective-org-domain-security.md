@@ -35,6 +35,6 @@ tags:
 - Collective Rights
 - Publishers
 - Royalties
-- Nonprofit
+- Non-Profit
 - RSL Standard
 ---

@@ -59,8 +59,8 @@ source_yaml_url: https://artifacts.apis.io/chamelio/authentication/chamelio-auth
 summary_line: 2 schemes
 tags:
 - Company
-- LegalTech
-- SaaS
+- Legal Tech
+- Software-as-a-Service
 - Contracts
 - Compliance
 ---

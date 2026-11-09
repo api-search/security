@@ -39,7 +39,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Data
 - Marketing
-- API
-- WebScraping
-- AI
+- Web Scraping
+- Artificial Intelligence
 ---

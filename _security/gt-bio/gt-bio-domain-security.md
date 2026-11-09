@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/gt-bio/security/gt-bio-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Biotechnology
-- Genetic Medicines
-- AI
+- Genetic Medicine
+- Artificial Intelligence
 - Drug Delivery
-- Startup
+- Startups
 ---

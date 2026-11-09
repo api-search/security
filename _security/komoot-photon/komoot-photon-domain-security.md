@@ -29,10 +29,10 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/komoot-photon/security/komoot-photon-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- geocoding
-- openstreetmap
-- search
-- typeahead
-- open-source
-- location
+- Geocoding
+- OpenStreetMap
+- Search
+- Typeahead
+- Open Source
+- Location
 ---

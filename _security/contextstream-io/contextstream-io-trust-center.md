@@ -28,10 +28,10 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/contextstream-io/security/contextstream-io-trust-center.yml
 summary_line: SOC 2, HIPAA, FedRAMP, GDPR
 tags:
-- AI
-- Context-Management
+- Artificial Intelligence
+- Context Management
 - Collaboration
-- Knowledge-Base
+- Knowledge Base
 - Productivity
 trust_url: https://contextstream.io/trust
 ---

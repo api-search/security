@@ -26,6 +26,6 @@ tags:
 - Data Virtualization
 - Data Migration
 - Enterprise
-- SaaS
+- Software-as-a-Service
 trust_url: https://datablend.com/security
 ---

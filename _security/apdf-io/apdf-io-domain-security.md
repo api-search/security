@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - PDF
 - Analytics
-- API
-- SaaS
+- Software-as-a-Service
 - Engagement
 ---

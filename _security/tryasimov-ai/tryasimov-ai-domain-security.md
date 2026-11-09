@@ -34,6 +34,6 @@ tags:
 - Company
 - Robotics
 - Data
-- AI
-- Human-Intelligence
+- Artificial Intelligence
+- Human Intelligence
 ---

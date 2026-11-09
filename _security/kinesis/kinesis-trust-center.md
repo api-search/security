@@ -211,6 +211,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Analytics
 - Apache Flink
+- Amazon Web Services
 - Big Data
 - Data Processing
 - Real-Time

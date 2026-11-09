@@ -47,8 +47,8 @@ source_yaml_url: https://artifacts.apis.io/docsbot-ai/authentication/docsbot-ai-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- Chatbot
+- Artificial Intelligence
+- Chatbots
 - Automation
-- Customer Support
+- Customer Service
 ---

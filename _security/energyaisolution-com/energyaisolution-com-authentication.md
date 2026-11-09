@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/energyaisolution-com/authentication/e
 summary_line: 1 scheme
 tags:
 - Energy
-- AI
-- DecisionSupport
-- RenewableEnergy
-- HomeImprovement
+- Artificial Intelligence
+- Decision Support
+- Renewable Energy
+- Home Improvement
 ---

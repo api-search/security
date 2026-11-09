@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/australiawidefirstaid-com/authenticat
 summary_line: 0 schemes
 tags:
 - Company
-- FirstAid
+- First Aid
 - Training
 - Australia
 - Health

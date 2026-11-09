@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Agriculture
 - Industrial
-- SmartCity
-- RemoteMonitoring
+- Smart City
+- Remote Monitoring
 - Automation
 ---

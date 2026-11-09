@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/schedules-direct/security/schedules-d
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Nonprofit
-- OpenSource
-- TVListings
+- Non-Profit
+- Open Source
+- TV Listings
 - Community
 ---

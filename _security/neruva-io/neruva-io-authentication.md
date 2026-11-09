@@ -101,7 +101,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Memory
-- AI
+- Artificial Intelligence
 - Agents
 - MCP
 ---

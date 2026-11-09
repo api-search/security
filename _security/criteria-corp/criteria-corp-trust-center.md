@@ -20,8 +20,8 @@ source_yaml: "generated: '2026-10-27'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/criteria-corp/security/criteria-corp-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- Pre‑Employment Testing
-- Assessments
+- Pre-Employment Testing
+- Assessment
 - Video Interviewing
 - Talent Development
 - AI Proctoring

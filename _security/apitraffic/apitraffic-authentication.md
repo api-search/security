@@ -28,7 +28,6 @@ source_yaml: "generated: '2026-10-20'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/apitraffic/authentication/apitraffic-authentication.yml
 summary_line: 1 scheme
 tags:
-- API
 - Integration
 - Monitoring
 - Observability

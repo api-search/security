@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Neuroscience
-- Brain-Computer-Interface
-- AI
+- Brain-Computer Interface
+- Artificial Intelligence
 - EEG
 ---

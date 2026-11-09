@@ -193,9 +193,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/wakato-io/security/wakato-io-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- AI
+- Artificial Intelligence
 - BusinessPlatform
-- NoCode
+- No-Code
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

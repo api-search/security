@@ -29,9 +29,9 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/ulehla-dev/authentication/ulehla-dev-authentication.yml
 summary_line: 0 schemes
 tags:
-- Fullstack
+- Full-Stack
 - AI Engineer
-- Developer
+- Developers
 - Personal Site
 - Open Source
 ---

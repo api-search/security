@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Insurance
-- Workers' Compensation
+- Workers Compensation
 - Wearables
 - Safety
 - Technology

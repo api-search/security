@@ -23,8 +23,8 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
 - Customer Success
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Analytics
 trust_url: https://compliance.churnzero.com:443/
 ---

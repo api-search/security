@@ -28,7 +28,7 @@ source_yaml_url: https://artifacts.apis.io/usemotion-com/authentication/usemotio
 summary_line: 1 scheme
 tags:
 - Productivity
-- AI
+- Artificial Intelligence
 - Project Management
 - Automation
 - Collaboration

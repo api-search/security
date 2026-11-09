@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: dynamo-ai-dynamo-ai-api-api-openapi.yml
-  format: yaml
-  label: Dynamo AI API
-  slug: dynamo-ai-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/dynamo-ai/openapi/dynamo-ai-dynamo-ai-api-api-openapi.yml
 - filename: dynamo-ai-openapi-generated.yml
   format: yaml
   label: Dynamo AI API
@@ -45,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/dynamo-ai/security/dynamo-ai-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - Enterprise
 - Compliance

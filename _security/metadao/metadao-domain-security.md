@@ -24,6 +24,42 @@ api_specs:
   slug: metadao-volume-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/metadao/openapi/metadao-volume-api-openapi.yml
+- filename: metadao-coingecko-api-openapi.yml
+  format: yaml
+  label: MetaDAO Coin Gecko API
+  slug: metadao-coingecko-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/metadao/openapi/metadao-coingecko-api-openapi.yml
+- filename: metadao-coinmarketcap-api-openapi.yml
+  format: yaml
+  label: MetaDAO Coin Market Cap API
+  slug: metadao-coinmarketcap-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/metadao/openapi/metadao-coinmarketcap-api-openapi.yml
+- filename: metadao-dexscreener-api-openapi.yml
+  format: yaml
+  label: MetaDAO Dex Screener API
+  slug: metadao-dexscreener-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/metadao/openapi/metadao-dexscreener-api-openapi.yml
+- filename: metadao-health-api-openapi.yml
+  format: yaml
+  label: MetaDAO Health API
+  slug: metadao-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/metadao/openapi/metadao-health-api-openapi.yml
+- filename: metadao-launches-api-openapi.yml
+  format: yaml
+  label: MetaDAO Launches API
+  slug: metadao-launches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/metadao/openapi/metadao-launches-api-openapi.yml
+- filename: metadao-market-data-api-openapi.yml
+  format: yaml
+  label: MetaDAO Market data API
+  slug: metadao-market-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/metadao/openapi/metadao-market-data-api-openapi.yml
 description: ''
 domains:
 - caa: []

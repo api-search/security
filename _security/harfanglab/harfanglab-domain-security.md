@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Cybersecurity
-- EDR
+- Endpoint Detection and Response
 - EPP
 - Attack Surface Management
-- AI
+- Artificial Intelligence
 ---

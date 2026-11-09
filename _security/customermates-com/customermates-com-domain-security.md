@@ -127,7 +127,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - CRM
-- Open-Source
-- AI
-- SaaS
+- Open Source
+- Artificial Intelligence
+- Software-as-a-Service
 ---

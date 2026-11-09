@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/voyager-search/security/voyager-searc
 summary_line: TLSv1.3 · HSTS
 tags:
 - Geospatial
-- Data-Intelligence
+- Data Intelligence
 - Enterprise
 - Search
 - Platform

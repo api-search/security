@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/fenris-creations/security/fenris-crea
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- VirtualWorlds
+- Virtual Worlds
 - ImmersiveTech
 - Gaming
 - Platform

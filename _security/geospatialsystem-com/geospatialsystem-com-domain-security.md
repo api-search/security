@@ -59,7 +59,6 @@ tags:
 - Company
 - Geospatial
 - Terrain
-- API
-- AI
+- Artificial Intelligence
 - Location
 ---

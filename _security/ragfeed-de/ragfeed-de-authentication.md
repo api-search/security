@@ -33,9 +33,8 @@ source_yaml_url: https://artifacts.apis.io/ragfeed-de/authentication/ragfeed-de-
 summary_line: 2 schemes
 tags:
 - Web Scraping
-- API
-- AI Data
+- Ai Data
 - EU Hosting
 - Compliance
-- SaaS
+- Software-as-a-Service
 ---

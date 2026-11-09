@@ -35,5 +35,5 @@ tags:
 - Social Media
 - Analytics
 - Marketing
-- SaaS
+- Software-as-a-Service
 ---

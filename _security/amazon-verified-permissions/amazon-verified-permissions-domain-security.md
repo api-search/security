@@ -245,6 +245,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-verified-permissions/security/
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authorization
+- Amazon Web Services
 - Permissions
 - Security
 ---

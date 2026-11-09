@@ -39,18 +39,18 @@ source_yaml_url: https://artifacts.apis.io/anew/security/anew-trust-center.yml
 summary_line: trust center published
 tags:
 - HTML
-- webpage
+- Webpage
 - Websites
 - URLs
-- encode
+- Encode
 - Share
 - Web Publishing
 - Developer Tools
 - MCP
 - A2A
 - AI / Agent Tooling
-- llms-txt
-- agents-txt
+- Llms.txt
+- Agents.txt
 - Agent Skills
 - WebMCP
 - OpenAPI

@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/rowb-app/security/rowb-app-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tools
-- Deterministic
-- No-Auth
+- No Auth
 ---

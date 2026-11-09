@@ -256,9 +256,9 @@ source_yaml_url: https://artifacts.apis.io/cryptodataapi-com/authentication/cryp
 summary_line: 1 scheme
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Finance
 - Data
-- Real-time
-- Market-Data
+- Real-Time
+- Market Data
 ---

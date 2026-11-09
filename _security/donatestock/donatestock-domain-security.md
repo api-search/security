@@ -34,7 +34,7 @@ tags:
 - Company
 - Finance
 - Charity
-- Stock
+- Stocks
 - Donations
 - Platform
 ---

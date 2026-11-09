@@ -34,8 +34,7 @@ source_yaml_url: https://artifacts.apis.io/framejet-dev/security/framejet-dev-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Video
-- API
-- DeveloperTools
+- Developer Tools
 - Personalization
 - Streaming
 ---

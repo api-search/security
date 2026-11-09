@@ -21,10 +21,10 @@ source_yaml_url: https://artifacts.apis.io/kurtosys/security/kurtosys-trust-cent
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- FinTech
-- InvestmentManagement
+- Fintech
+- Investment Management
 - Reporting
-- DataPlatform
-- SaaS
+- Data Platform
+- Software-as-a-Service
 trust_url: https://trust.kurtosys.com/
 ---

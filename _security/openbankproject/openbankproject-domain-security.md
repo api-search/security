@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/openbankproject/security/openbankproj
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- OpenBanking
-- API
+- Open Banking
 - Fintech
 - Banking
 ---

@@ -39,6 +39,5 @@ tags:
 - LLM
 - Pricing
 - Index
-- API
 - Data
 ---

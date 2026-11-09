@@ -68,10 +68,9 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://kleinan
 source_yaml_url: https://artifacts.apis.io/kleinanzeigen-agent-de/authentication/kleinanzeigen-agent-de-authentication.yml
 summary_line: 2 schemes
 tags:
-- API
 - Search
 - Monitoring
-- Market-Analysis
+- Market Analysis
 - Germany
 - Kleinanzeigen
 ---

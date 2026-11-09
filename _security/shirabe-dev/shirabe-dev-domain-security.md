@@ -51,7 +51,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - API Platform
 - Japanese Data
-- Deterministic
 - Free Tier
 - AI Integration
 ---

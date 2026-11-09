@@ -42,7 +42,8 @@ tags:
 - CRM
 - Integration
 - Data Synchronization
-- Authentication
+- OAuth
 - Plugins
 - No-Code
+- Authentication
 ---

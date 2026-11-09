@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/fsbo-com/security/fsbo-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- RealEstate
+- Real Estate
 - Marketplace
-- SaaS
-- HomeSelling
+- Software-as-a-Service
+- Home Selling
 - FSBO
 ---

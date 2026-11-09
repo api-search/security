@@ -34,6 +34,6 @@ tags:
 - Company
 - Security
 - Platform
-- Threat-Detection
-- Vulnerability-Management
+- Threat Detection
+- Vulnerability Management
 ---

@@ -35,9 +35,9 @@ source_yaml_url: https://artifacts.apis.io/kvcore/authentication/kvcore-authenti
 summary_line: 1 scheme
 tags:
 - Company
-- RealEstate
-- SaaS
+- Real Estate
+- Software-as-a-Service
 - CRM
-- Lead-Generation
-- Marketing-Automation
+- Lead Generation
+- Marketing Automation
 ---

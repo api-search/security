@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - API Management
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Automation
 ---

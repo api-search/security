@@ -34,7 +34,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Documentation
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Technical Writing
 ---

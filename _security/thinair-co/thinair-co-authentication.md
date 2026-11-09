@@ -108,9 +108,8 @@ source_yaml_url: https://artifacts.apis.io/thinair-co/authentication/thinair-co-
 summary_line: 1 scheme
 tags:
 - Company
-- fleet-management
-- telematics
-- logistics
-- compliance
-- API
+- Fleet Management
+- Telematics
+- Logistics
+- Compliance
 ---

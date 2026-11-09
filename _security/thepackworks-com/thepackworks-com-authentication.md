@@ -30,9 +30,8 @@ source_yaml_url: https://artifacts.apis.io/thepackworks-com/authentication/thepa
 summary_line: 0 schemes
 tags:
 - Company
-- FinTech
+- Fintech
 - Marketplace
 - Philippines
 - Sari-sari
-- API
 ---

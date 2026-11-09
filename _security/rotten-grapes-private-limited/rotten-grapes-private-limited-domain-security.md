@@ -33,6 +33,6 @@ tags:
 - Company
 - Geospatial
 - Consulting
-- Open-Source
-- AI
+- Open Source
+- Artificial Intelligence
 ---

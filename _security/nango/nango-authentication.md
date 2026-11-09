@@ -63,8 +63,9 @@ summary_line: http · 1 scheme
 tags:
 - AI Agents
 - Integration
-- Authentication
+- OAuth
 - Syncing
 - Unified API
 - Webhook
+- Authentication
 ---

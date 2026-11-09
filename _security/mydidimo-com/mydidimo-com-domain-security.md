@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/mydidimo-com/security/mydidimo-com-do
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - 3D
-- Avatar
-- AI
+- Avatars
+- Artificial Intelligence
 - Gaming
-- Digital-Humans
+- Digital Humans
 ---

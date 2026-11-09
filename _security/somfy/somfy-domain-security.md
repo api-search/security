@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/somfy/security/somfy-domain-security.
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- SmartHome
+- Smart Home
 - IoT
-- HomeAutomation
+- Home Automation
 - Lighting
 - Security
 ---

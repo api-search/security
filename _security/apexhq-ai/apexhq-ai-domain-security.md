@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/apexhq-ai/security/apexhq-ai-domain-s
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
-- Startup
+- Startups
 - Tel-Aviv
 ---

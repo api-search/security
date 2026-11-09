@@ -76,7 +76,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Developer Tools
-- API
 - OpenAPI
 - MCP
 ---

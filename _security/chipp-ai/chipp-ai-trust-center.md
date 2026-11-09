@@ -21,10 +21,10 @@ source_yaml_url: https://artifacts.apis.io/chipp-ai/security/chipp-ai-trust-cent
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- SaaS
+- Software-as-a-Service
 - HIPAA
-- SOC2
+- SOC 2
 trust_url: https://chipp.ai/security
 ---

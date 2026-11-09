@@ -33,6 +33,6 @@ tags:
 - Company
 - Monitoring
 - Analytics
-- AI
+- Artificial Intelligence
 - Enterprise
 ---

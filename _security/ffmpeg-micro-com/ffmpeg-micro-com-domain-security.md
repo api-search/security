@@ -75,9 +75,8 @@ source_yaml_url: https://artifacts.apis.io/ffmpeg-micro-com/security/ffmpeg-micr
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video
-- API
 - Automation
 - FFmpeg
 - Cloud
-- MediaProcessing
+- Media Processing
 ---

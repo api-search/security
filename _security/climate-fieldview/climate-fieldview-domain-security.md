@@ -99,8 +99,9 @@ tags:
 - Crop Data
 - Field Boundaries
 - Harvest
-- Authentication
+- OAuth
 - Planting
 - Precision Agriculture
 - AgTech
+- Authentication
 ---

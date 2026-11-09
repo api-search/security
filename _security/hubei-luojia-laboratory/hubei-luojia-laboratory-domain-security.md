@@ -33,6 +33,6 @@ tags:
 - Company
 - Research
 - Aerospace
-- RemoteSensing
+- Remote Sensing
 - Innovation
 ---

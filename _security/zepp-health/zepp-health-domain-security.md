@@ -35,5 +35,5 @@ tags:
 - Wearables
 - Health
 - IoT
-- ConsumerTech
+- Consumer Tech
 ---

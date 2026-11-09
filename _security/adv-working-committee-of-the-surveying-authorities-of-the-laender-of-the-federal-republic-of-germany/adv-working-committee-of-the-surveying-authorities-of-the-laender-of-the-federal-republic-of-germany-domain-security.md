@@ -36,5 +36,5 @@ tags:
 - Surveying
 - Geodesy
 - Germany
-- PublicSector
+- Public Sector
 ---

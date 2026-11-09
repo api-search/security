@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/onefootprint-com/authentication/onefo
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Risk Management
 - ESG
 - Sustainability

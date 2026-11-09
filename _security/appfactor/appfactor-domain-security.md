@@ -34,7 +34,7 @@ tags:
 - Enterprise Software
 - Legacy Modernization
 - AI Agents
-- Self‑Hosted
+- Self-Hosted
 - Regulated Industries
 - Software Maintenance
 ---

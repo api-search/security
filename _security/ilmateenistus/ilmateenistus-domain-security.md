@@ -35,5 +35,4 @@ tags:
 - Environment
 - Estonia
 - Government
-- API
 ---

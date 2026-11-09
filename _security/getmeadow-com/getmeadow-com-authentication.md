@@ -37,7 +37,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Cannabis
-- POS
-- E-commerce
-- SaaS
+- Point-of-Sale
+- E-Commerce
+- Software-as-a-Service
 ---

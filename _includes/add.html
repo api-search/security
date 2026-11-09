@@ -44,6 +44,7 @@
     </div>
 
     <div id="add-turnstile" class="mt-3"></div>
+    <input type="text" id="add-website" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;">
     <div class="d-flex align-items-center gap-3 mt-3 flex-wrap">
       <button class="btn btn-primary" type="submit" id="add-submit-btn">Send to apis.io</button>
       <span class="small text-muted">or email <a href="mailto:info@apis.io">info@apis.io</a></span>
@@ -66,6 +67,7 @@
   // "Please complete the verification" and logged nothing anywhere. Now each failure says what happened,
   // offers email, and sends a field-free beacon so the rate is finally measurable.
   var addTurnstileState = null;
+  var addSendUnverified = false;
   function addTurnstileBeacon(kind, code) {
     try {
       fetch('https://apis.io/api/v1/submit', { method: 'POST', headers: { 'content-type': 'application/json' }, keepalive: true,
@@ -81,8 +83,7 @@
       note.className = 'alert alert-warning small mt-2 mb-0'; note.setAttribute('role', 'status');
       document.getElementById('add-turnstile').after(note);
     }
-    var what = kind === 'expired' ? 'The verification expired while the form was open.'
-             : kind === 'timeout' ? 'The verification challenge timed out.'
+    var what = kind === 'timeout' ? 'The verification challenge timed out.'
              : 'The verification could not complete' + (code ? ' (Cloudflare error ' + code + ')' : '') + '.';
     note.innerHTML = what + ' It retries on its own; if it keeps failing, reload the page, or send the same details to '
       + '<a href="mailto:info@apis.io">info@apis.io</a> and we will list it from your email.';
@@ -97,7 +98,8 @@
       sitekey: ADD_TURNSTILE_SITEKEY, theme: 'light',
       callback: addTurnstileOk,
       'error-callback': function (code) { addTurnstileProblem('error', code); return true; },
-      'expired-callback': function () { addTurnstileProblem('expired'); },
+      // Not a problem: a token lasts 300 s and Turnstile refreshes it itself. Reporting it put a
+      // warning on any open tab and made 1,785 of 2,155 beacons noise in 5 days (roadmap#1046).
       'timeout-callback': function () { addTurnstileProblem('timeout'); }
     });
   }
@@ -133,6 +135,30 @@
     });
   }
 
+  // roadmap#1046: the widget failing must not cost the submission. A person reads every one.
+  // Offered when the browser has no token AND when the server rejects one (OpenAny, 2026-11-02:
+  // two `turnstile_failed` invalid-input-response refusals, no way forward but email).
+  function offerFallback(payload, msg) {
+    err(msg);
+    var anyway = document.createElement('button');
+    anyway.type = 'button'; anyway.className = 'btn btn-sm btn-outline-primary mx-1';
+    anyway.textContent = 'Send without verification';
+    anyway.addEventListener('click', function () {
+      addTurnstileBeacon('sent-unverified', addTurnstileState ? (addTurnstileState.code || addTurnstileState.kind) : '');
+      addSendUnverified = true; $('add-form').requestSubmit();
+    });
+    $('add-error').appendChild(anyway);
+    $('add-error').appendChild(document.createTextNode(' or '));
+    // A blocked visitor keeps what they typed: the email carries the whole form.
+    var mail = document.createElement('a');
+    mail.href = 'mailto:info@apis.io?subject=' + encodeURIComponent('Add an API: ' + payload.name)
+      + '&body=' + encodeURIComponent(['Name: ' + payload.name, 'URL: ' + payload.url, 'Docs: ' + payload.docsUrl,
+        'Contact: ' + payload.contact, 'Notes: ' + payload.notes].join('\n'));
+    mail.textContent = 'email these details to info@apis.io';
+    $('add-error').appendChild(mail);
+    $('add-error').appendChild(document.createTextNode(' and we will list it.'));
+  }
+
   $('add-form').addEventListener('submit', function (e) {
     e.preventDefault();
     hide($('add-error')); hide($('add-success'));
@@ -143,16 +169,16 @@
       docsUrl: $('add-docs').value.trim(),
       notes: $('add-notes').value.trim(),
       newsletter: $('add-newsletter').checked,
-      turnstile_token: token()
+      turnstile_token: addSendUnverified ? '' : token(),
+      website: ($('add-website') || {}).value || '',
+      unverified: addSendUnverified
     };
     if (!payload.name) { err('Please give the API or company name.'); $('add-name').focus(); return; }
     if (!validEmail(payload.contact)) { err('Please add your email address so we can reply.'); $('add-contact').focus(); return; }
-    if (!payload.turnstile_token) {
+    if (!payload.turnstile_token && !payload.unverified) {
       if (addTurnstileState) { addTurnstileBeacon('blocked-submit', addTurnstileState.code || addTurnstileState.kind); }
       else if (addTurnstileId === null) { addTurnstileBeacon('blocked-submit', 'not-rendered'); }
-      err(addTurnstileState || addTurnstileId === null
-        ? 'The verification above did not complete, so this cannot be sent from here. Please email the same details to info@apis.io and we will list it.'
-        : 'Please complete the verification above before sending.');
+      offerFallback(payload, 'The verification above has not completed. Wait a moment or tick the box if one is showing. ');
       return;
     }
 
@@ -176,11 +202,19 @@
         });
       })
       .then(function (res) {
+        if (!res.ok && res.body && res.body.error === 'turnstile_failed' && !addSendUnverified
+            && (res.body.codes || []).indexOf('siteverify-unreachable') < 0) {
+          addTurnstileState = { kind: 'server-failed', code: (res.body.codes || []).join(',') };
+          addTurnstileBeacon('server-failed', addTurnstileState.code);
+          resetToken();
+          offerFallback(payload, (res.body.detail || 'The verification did not pass.') + ' ');
+          return;
+        }
         if (!res.ok) throw new Error(res.body && res.body.detail || 'Could not send your submission.');
         var s = $('add-success');
         s.innerHTML = '<strong>Submission successful — thank you!</strong> We will review it and include it '
           + 'in the next build of APIs.io. We will reply to ' + escapeHtml(payload.contact) + ' if we have questions.';
-        show(s); $('add-form').reset(); resetToken();
+        show(s); $('add-form').reset(); resetToken(); addSendUnverified = false;
         s.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       })
       .catch(function (e2) { resetToken(); err(e2.message); })

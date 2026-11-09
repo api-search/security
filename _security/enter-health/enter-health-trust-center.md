@@ -21,7 +21,7 @@ summary_line: SOC 2, HIPAA
 tags:
 - Revenue Cycle Management
 - Healthcare
-- AI
+- Artificial Intelligence
 - Billing
 - Claims
 - Payments

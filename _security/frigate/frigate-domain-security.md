@@ -40,6 +40,6 @@ tags:
 - Company
 - Video
 - Surveillance
-- OpenSource
-- AI
+- Open Source
+- Artificial Intelligence
 ---

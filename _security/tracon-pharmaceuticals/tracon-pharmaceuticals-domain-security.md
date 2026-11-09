@@ -32,6 +32,6 @@ tags:
 - Company
 - Biopharma
 - Healthcare
-- Pharmaceutical
+- Pharmaceuticals
 - Liquidation
 ---

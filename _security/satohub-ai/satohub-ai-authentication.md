@@ -163,8 +163,8 @@ source_yaml_url: https://artifacts.apis.io/satohub-ai/authentication/satohub-ai-
 summary_line: 4 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Blockchain
-- Crypto
-- Agent
+- Cryptocurrency
+- Agents
 ---

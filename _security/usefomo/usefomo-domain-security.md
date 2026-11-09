@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/usefomo/security/usefomo-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SocialProof
+- Social Proof
 - Marketing
-- SaaS
-- ECommerce
+- Software-as-a-Service
+- E-Commerce
 ---

@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/blacklabeltec-com/authentication/blac
 summary_line: 0 schemes
 tags:
 - Software
-- AI
+- Artificial Intelligence
 - Automation
 - Cybersecurity
-- CustomSoftware
+- Custom Software
 ---

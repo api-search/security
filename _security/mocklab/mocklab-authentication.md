@@ -48,5 +48,4 @@ tags:
 - Testing
 - Fintech
 - Service Virtualization
-- Cloud Service
 ---

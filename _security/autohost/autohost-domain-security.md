@@ -81,9 +81,9 @@ source_yaml_url: https://artifacts.apis.io/autohost/security/autohost-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- IdentityVerification
-- BackgroundCheck
-- FraudDetection
+- Identity Verification
+- Background Checks
+- Fraud Prevention
 - Hospitality
-- RealEstate
+- Real Estate
 ---

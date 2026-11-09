@@ -22,7 +22,7 @@ tags:
 - Company
 - Finance
 - Automation
-- AI
+- Artificial Intelligence
 - European
 trust_url: https://www.getmoss.com/security
 ---

@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/fruitscout/authentication/fruitscout-
 summary_line: 0 schemes
 tags:
 - Agriculture
-- AI
+- Artificial Intelligence
 - Crop-Management
 - Compliance
-- Field-Operations
+- Field Operations
 ---

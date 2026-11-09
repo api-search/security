@@ -104,7 +104,6 @@ source_yaml_url: https://artifacts.apis.io/print-one/authentication/print-one-au
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Postcards
-- API
 - Direct Mail
 - Marketing
 - Automation

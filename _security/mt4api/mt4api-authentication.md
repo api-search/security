@@ -37,7 +37,6 @@ summary_line: 2 schemes
 tags:
 - Finance
 - Trading
-- API
 - MetaTrader
 - Data
 ---

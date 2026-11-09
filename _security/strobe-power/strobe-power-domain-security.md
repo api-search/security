@@ -40,5 +40,5 @@ tags:
 - Energy
 - Power
 - Grid
-- On-site
+- OnSite
 ---

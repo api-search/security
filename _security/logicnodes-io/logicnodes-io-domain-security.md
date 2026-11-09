@@ -141,7 +141,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Blockchain
-- AI
-- GasPrices
+- Artificial Intelligence
+- Gas Prices
 - OpenAPI
 ---

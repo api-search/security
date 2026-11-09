@@ -28,7 +28,6 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Retail
 - Inventory
-- API
 - Platform
-- SaaS
+- Software-as-a-Service
 ---

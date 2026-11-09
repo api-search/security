@@ -108,6 +108,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Access Control
 - Authentication
+- Amazon Web Services
 - Identity and Access Management
 - SSO
 ---

@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/vikunja/security/vikunja-domain-secur
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- OpenSource
-- TaskManagement
-- SelfHostable
+- Open Source
+- Task Management
+- Self-Hosted
 - European
 ---

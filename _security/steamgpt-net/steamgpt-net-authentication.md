@@ -1,5 +1,5 @@
 ---
-anonymous_access: true
+anonymous_access: false
 api_key_in: []
 api_specs:
 - filename: steamgpt-net-bans-api-openapi.yml
@@ -63,7 +63,7 @@ api_specs:
   spec_type: OpenAPI
   url: https://artifacts.apis.io/steamgpt-net/openapi/steamgpt-net-summary-api-openapi.yml
 auth_types: []
-description: ''
+description: Optional self‑service boost token obtained via client_credentials grant
 kind: authentication
 layout: security
 mechanism_count: 1
@@ -71,34 +71,30 @@ method: searched
 name: Steamgpt Net Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: steamgpt-net declares 2 security scheme(s) across its OpenAPI definitions.
+overview: steamgpt-net declares 1 security scheme(s) across its OpenAPI definitions.
 provider_name: steamgpt-net
 provider_slug: steamgpt-net
-scheme_count: 2
+scheme_count: 1
 schemes:
-- description: Anonymous access, no credentials required for all endpoints.
-  type: none
-- bearerFormat: JWT
-  description: Optional boost token (client_credentials) that raises rate limit.
-  scheme: bearer
+- evidence: An optional self‑service token - one POST, no humans in the loop - raises the rate limit.
+  flows:
+  - client_credentials
+  how_to_obtain: POST https://steamgpt.net/oauth/token with body grant_type=client_credentials (no client authentication). The response contains an access_token (Bearer JWT).
+  name: Boost Token
   scopes:
   - rate-boost
-  type: http
+  token_url: https://steamgpt.net/oauth/token
+  type: oauth2
 slug: steamgpt-net-authentication
 source_filename: steamgpt-net-authentication.yml
 source_heading: Authentication Profile
-source_url: ''
-source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://steamgpt.net/auth.md\nschemes:\n  - type: none\n    description: Anonymous access, no credentials required for all endpoints.\n  - type: http\n    scheme: bearer\n    bearerFormat: JWT\n    description: Optional boost token (client_credentials) that raises rate limit.\n    scopes:\n      - rate-boost\n"
+source_url: https://steamgpt.net/auth.md
+source_yaml: "generated: '2026-10-31'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://steamgpt.net/auth.md\nsources:\n- https://steamgpt.net/auth.md\ndescription: Optional self‑service boost token obtained via client_credentials grant\nschemes:\n- type: oauth2\n  name: Boost Token\n  evidence: An optional self‑service token - one POST, no humans in the loop - raises the rate limit.\n  flows:\n  - client_credentials\n  token_url: https://steamgpt.net/oauth/token\n  scopes:\n  - rate-boost\n  how_to_obtain: POST https://steamgpt.net/oauth/token with body grant_type=client_credentials (no client authentication). The response contains\n    an access_token (Bearer JWT).\ndocs: https://steamgpt.net/auth.md\n"
 source_yaml_url: https://artifacts.apis.io/steamgpt-net/authentication/steamgpt-net-authentication.yml
-summary_line: 2 schemes
+summary_line: 1 scheme
 tags:
 - Company
-- Steam
+- Artificial Intelligence
 - Gaming
-- AI
-- OpenData
-- NoAuth
-- Profiles
-- Friends
-- FACEIT
+- Steam
 ---

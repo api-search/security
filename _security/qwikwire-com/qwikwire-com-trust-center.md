@@ -20,8 +20,7 @@ summary_line: PCI DSS
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Enterprise
-- API
 trust_url: https://aqwire.co/
 ---

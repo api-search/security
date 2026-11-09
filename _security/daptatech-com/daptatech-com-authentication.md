@@ -44,8 +44,8 @@ source_yaml_url: https://artifacts.apis.io/daptatech-com/authentication/daptatec
 summary_line: 2 schemes
 tags:
 - Company
-- AI
-- SalesAutomation
-- VoiceAgents
+- Artificial Intelligence
+- Sales Automation
+- Voice Agents
 - TextAgents
 ---

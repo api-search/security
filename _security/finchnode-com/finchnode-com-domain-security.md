@@ -40,7 +40,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- API
-- EHR
-- OpenData
+- Electronic Health Records
+- Open Data
 ---

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: key-data-key-data-api-api-openapi.yml
-  format: yaml
-  label: Key Data API
-  slug: key-data-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/key-data/openapi/key-data-key-data-api-api-openapi.yml
 - filename: key-data-openapi-generated.yml
   format: yaml
   label: Key Data API
@@ -44,9 +38,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/key-data/security/key-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- short-term rentals
-- real-time data
-- analytics
-- property management
-- vacation rentals
+- Short-Term Rental
+- Real-Time Data
+- Analytics
+- Property Management
+- Vacation Rentals
 ---

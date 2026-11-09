@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/vectoree/security/vectoree-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Backend-as-a-Service
 - OpenAI-Compatible
 - Agents

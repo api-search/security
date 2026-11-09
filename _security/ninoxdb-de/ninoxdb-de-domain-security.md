@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/ninoxdb-de/security/ninoxdb-de-domain
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- Low-code
+- Low-Code
 - Platform
 - Business Apps
 - Database

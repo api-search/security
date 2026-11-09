@@ -93,6 +93,30 @@ api_specs:
   slug: hifi-wallet-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/hifi/openapi/hifi-wallet-api-openapi.yml
+- filename: hifi-canton-offers-api-openapi.yml
+  format: yaml
+  label: Hifi Canton Offers API
+  slug: hifi-canton-offers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hifi/openapi/hifi-canton-offers-api-openapi.yml
+- filename: hifi-external-account-api-openapi.yml
+  format: yaml
+  label: Hifi External Account API
+  slug: hifi-external-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hifi/openapi/hifi-external-account-api-openapi.yml
+- filename: hifi-orchestration-address-api-openapi.yml
+  format: yaml
+  label: Hifi Orchestration Address API
+  slug: hifi-orchestration-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hifi/openapi/hifi-orchestration-address-api-openapi.yml
+- filename: hifi-rfi-api-openapi.yml
+  format: yaml
+  label: Hifi RFI API
+  slug: hifi-rfi-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hifi/openapi/hifi-rfi-api-openapi.yml
 auth_types:
 - http
 description: ''

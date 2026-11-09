@@ -32,6 +32,6 @@ tags:
 - Company
 - Marketing
 - Automation
-- LocalBusiness
-- SaaS
+- Local Business
+- Software-as-a-Service
 ---

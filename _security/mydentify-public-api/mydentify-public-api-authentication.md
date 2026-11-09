@@ -69,7 +69,7 @@ tags:
 - Software-as-a-Service
 - Developer Tools
 - Agent-Native
-- llms-txt
+- Llms.txt
 - Agent Skills
 - Directories
 ---

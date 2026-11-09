@@ -66,7 +66,7 @@ source_yaml_url: https://artifacts.apis.io/peerbound/authentication/peerbound-au
 summary_line: 2 schemes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Sales Enablement
 - Customer Proof
 - Analytics

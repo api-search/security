@@ -765,7 +765,7 @@ summary_line: apiKey/http/oauth2/openIdConnect · 9 schemes
 tags:
 - Company
 - Digital Trust
-- Electronic Signatures
+- E-Signature
 - Digital Identity
 - Certified Email
 - E-Invoicing

@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Construction
-- LegalTech
+- Legal Tech
 - PartyWall
-- UK
+- United Kingdom
 ---

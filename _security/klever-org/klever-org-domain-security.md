@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Blockchain
-- Crypto
-- Smart-Contracts
-- Developer-Platform
+- Cryptocurrency
+- Smart Contracts
+- Developer Platform
 ---

@@ -35,5 +35,5 @@ tags:
 - Pharmaceuticals
 - Neurology
 - Allosteric-Modulators
-- Clinical-Stage
+- Clinical Stage
 ---

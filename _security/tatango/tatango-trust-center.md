@@ -28,7 +28,7 @@ tags:
 - Company
 - SMS
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Marketing
 trust_url: https://www.tatango.com/trust
 ---

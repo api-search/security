@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/polopan-com/authentication/polopan-co
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Fashion
 - PersonalStylist
-- E-commerce
+- E-Commerce
 ---

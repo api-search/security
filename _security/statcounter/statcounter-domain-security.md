@@ -33,6 +33,6 @@ tags:
 - Company
 - Analytics
 - Web
-- Real-time
+- Real-Time
 - Heatmaps
 ---

@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Dental
 - Benefits
-- SaaS
+- Software-as-a-Service
 - Healthcare
 - Employer
 ---

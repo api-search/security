@@ -74,7 +74,7 @@ summary_line: 1 scheme
 tags:
 - Fraud Prevention
 - Phone Validation
-- Email Validation
+- Email Verification
 - API Service
-- Telecom
+- Telecommunications
 ---

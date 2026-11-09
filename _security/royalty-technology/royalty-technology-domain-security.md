@@ -34,5 +34,5 @@ tags:
 - Game Development
 - Collaboration
 - Revenue Sharing
-- SaaS
+- Software-as-a-Service
 ---

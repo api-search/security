@@ -31,7 +31,6 @@ summary_line: 0 schemes
 tags:
 - Messaging
 - WhatsApp
-- API
 - Automation
-- BulkMessaging
+- Bulk Messaging
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Energy
-- PowerSystems
+- Power Systems
 - Modeling
-- GridPlanning
+- Grid Planning
 ---

@@ -21,9 +21,10 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Identity
-- Authentication
+- OAuth
 - OpenID Connect
 - Authorization
 - API Security
+- Authentication
 trust_url: https://trust.curity.io/
 ---

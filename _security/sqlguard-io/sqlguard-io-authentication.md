@@ -242,8 +242,8 @@ summary_line: 0 schemes
 tags:
 - Company
 - Security
-- AI
+- Artificial Intelligence
 - Authorization
-- Data-Protection
-- API-Management
+- Data Protection
+- API Management
 ---

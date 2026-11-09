@@ -33,5 +33,5 @@ tags:
 - Mobile
 - Monetization
 - TikTok
-- In‑App
+- In-App
 ---

@@ -40,8 +40,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Translation
-- API
 - Localization
-- SaaS
-- Machine-Learning
+- Software-as-a-Service
+- Machine Learning
 ---

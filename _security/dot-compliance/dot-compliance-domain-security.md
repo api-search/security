@@ -33,9 +33,9 @@ tags:
 - eQMS
 - Quality Management
 - Life Sciences
-- Pharmaceutical
+- Pharmaceuticals
 - Biotechnology
-- Medical Device
+- Medical Devices
 - Compliance
 - Salesforce
 ---

@@ -40,8 +40,7 @@ source_yaml_url: https://artifacts.apis.io/capslane-com/authentication/capslane-
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- API
 - YouTube
 - Transcript
-- AI
+- Artificial Intelligence
 ---

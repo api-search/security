@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/climweb/security/climweb-domain-secur
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- OpenSource
+- Open Source
 - Meteorology
-- ClimateData
+- Climate Data
 - CMS
 ---

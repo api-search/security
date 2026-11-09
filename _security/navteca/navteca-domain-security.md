@@ -33,6 +33,6 @@ tags:
 - Company
 - Technology
 - EmergingTech
-- CloudComputing
-- ScientificComputing
+- Cloud Computing
+- Scientific Computing
 ---

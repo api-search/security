@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/recursyv/security/recursyv-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Integration
-- Managed Services
-- AI
+- Managed Service
+- Artificial Intelligence
 - ITSM
 - PSA
 - CRM

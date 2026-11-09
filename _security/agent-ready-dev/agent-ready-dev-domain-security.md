@@ -18,6 +18,12 @@ api_specs:
   slug: agent-ready-dev-scans-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agent-ready-dev/openapi/agent-ready-dev-scans-api-openapi.yml
+- filename: agent-ready-dev-x402-api-openapi.yml
+  format: yaml
+  label: Agent Ready X402 API
+  slug: agent-ready-dev-x402-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agent-ready-dev/openapi/agent-ready-dev-x402-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -62,7 +68,7 @@ tags:
 - Developer Tools
 - MCP
 - A2A
-- llms-txt
+- Llms.txt
 - x402
 - NLWeb
 - Accessibility

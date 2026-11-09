@@ -87,6 +87,6 @@ tags:
 - Company
 - Distribution
 - Marketing
-- SaaS
-- CreatorEconomy
+- Software-as-a-Service
+- Creator Economy
 ---

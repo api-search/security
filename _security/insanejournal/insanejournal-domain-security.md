@@ -39,7 +39,7 @@ tags:
 - Company
 - Blogging
 - Journaling
-- Social Networking
+- Social Network
 - Online Communities
 - LiveJournal Codebase
 ---

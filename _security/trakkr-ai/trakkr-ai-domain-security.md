@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/trakkr-ai/security/trakkr-ai-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Analytics
 - Traffic
 - Web

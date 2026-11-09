@@ -32,5 +32,5 @@ tags:
 - Finance
 - Analytics
 - Procurement
-- SaaS
+- Software-as-a-Service
 ---

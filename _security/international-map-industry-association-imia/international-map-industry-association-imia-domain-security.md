@@ -33,6 +33,6 @@ tags:
 - Company
 - Mapping
 - Geospatial
-- Nonprofit
+- Non-Profit
 - Industry
 ---

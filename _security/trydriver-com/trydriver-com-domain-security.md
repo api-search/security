@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/trydriver-com/security/trydriver-com-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- Dashcam
+- Artificial Intelligence
+- Dash Cam
 - Mobile
 - Safety
-- Fleet
+- Fleet Management
 ---

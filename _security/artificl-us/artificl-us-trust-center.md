@@ -21,7 +21,7 @@ summary_line: SOC 2, HIPAA
 tags:
 - Company
 - Compliance
-- AI
+- Artificial Intelligence
 - Document Tracking
 - Small Business
 trust_url: https://artificl.us/security

@@ -43,9 +43,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/apihubs-ru/security/apihubs-ru-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- API
-- AI
+- Artificial Intelligence
 - Marketplace
 - Russian
-- SaaS
+- Software-as-a-Service
 ---

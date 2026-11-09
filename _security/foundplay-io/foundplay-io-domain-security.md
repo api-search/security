@@ -47,6 +47,6 @@ tags:
 - Games
 - Browser
 - Indie
-- AI-generated
+- AI-Generated
 - Free
 ---

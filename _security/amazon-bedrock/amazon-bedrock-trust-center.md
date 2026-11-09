@@ -174,6 +174,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-bedrock/security/amazon-bedroc
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Artificial Intelligence
+- Amazon Web Services
 - Foundation Models
 - Generative AI
 - LLM

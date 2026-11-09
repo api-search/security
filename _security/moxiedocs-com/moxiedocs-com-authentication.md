@@ -44,7 +44,7 @@ source_yaml_url: https://artifacts.apis.io/moxiedocs-com/authentication/moxiedoc
 summary_line: http · 1 scheme
 tags:
 - Documentation
-- AI
+- Artificial Intelligence
 - GitHub
 - Automation
 - Developer Tools

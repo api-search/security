@@ -37,11 +37,11 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/squirrel-systems/security/squirrel-systems-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Point‑of‑Sale
+- Point-of-Sale
 - Restaurant
 - Hospitality
 - Digital Ordering
 - Kitchen Automation
 - Analytics
-- Integrations
+- Integration
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/frapea-com/security/frapea-com-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video Editing
-- AI
-- Browser-based
+- Artificial Intelligence
+- Browser-Based
 - No-install
 - Creative Tools
 ---

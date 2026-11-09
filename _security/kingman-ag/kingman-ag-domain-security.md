@@ -33,6 +33,6 @@ tags:
 - Agriculture
 - Autonomous Vehicles
 - Tractor Retrofit
-- Precision Farming
-- AI
+- Precision Agriculture
+- Artificial Intelligence
 ---

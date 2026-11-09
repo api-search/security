@@ -38,9 +38,8 @@ source_yaml_url: https://artifacts.apis.io/adona-robot-com/security/adona-robot-
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Finance
-- Market-Data
-- Forex
+- Market Data
+- Foreign Exchange
 - Metals
-- API
 - Swiss
 ---

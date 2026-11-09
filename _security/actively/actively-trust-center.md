@@ -33,8 +33,9 @@ tags:
 - Sales
 - Go-To-Market
 - MCP
-- Authentication
+- OAuth
 - Sales Intelligence
 - Enterprise Software
+- Authentication
 trust_url: https://trust.actively.ai/
 ---

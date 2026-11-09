@@ -41,5 +41,4 @@ tags:
 - Randomness
 - Public APIs
 - Drand
-- Free Service
 ---

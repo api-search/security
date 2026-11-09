@@ -37,9 +37,8 @@ source_yaml_url: https://artifacts.apis.io/fanart-tv/security/fanart-tv-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Media
-- Images
+- Image
 - Movies
 - TV
 ---

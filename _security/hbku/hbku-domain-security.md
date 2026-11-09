@@ -48,6 +48,12 @@ api_specs:
   slug: hbku-translations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/hbku/openapi/hbku-translations-api-openapi.yml
+- filename: hbku-sadiq-api-openapi.yml
+  format: yaml
+  label: Hamad Bin Khalifa University Sadiq API
+  slug: hbku-sadiq-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hbku/openapi/hbku-sadiq-api-openapi.yml
 - filename: hbku-chat-completions-api-openapi.yml
   format: yaml
   label: Hamad Bin Khalifa University Chat Completions API

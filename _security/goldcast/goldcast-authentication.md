@@ -32,8 +32,8 @@ summary_line: 1 scheme
 tags:
 - Company
 - Video
-- AI
+- Artificial Intelligence
 - Webinars
-- Events
+- Event
 - B2B
 ---

@@ -34,6 +34,6 @@ tags:
 - Company
 - Institutional-Intelligence
 - Analytics
-- Enterprise-Software
+- Enterprise Software
 - Platform
 ---

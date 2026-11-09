@@ -117,8 +117,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Payments
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 - Merchant of Record
 - Payment Orchestration
 ---

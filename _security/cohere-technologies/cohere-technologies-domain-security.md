@@ -38,4 +38,7 @@ tags:
 - Spectrum Efficiency
 - OTFS
 - Non-Terrestrial Network
+- RAN
+- USM
+- Innovation
 ---

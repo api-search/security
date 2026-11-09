@@ -21,7 +21,7 @@ summary_line: ISO 27001, GDPR
 tags:
 - Company
 - Localization
-- AI
+- Artificial Intelligence
 - Translation
 - Enterprise
 trust_url: https://trust.welocalize.com/

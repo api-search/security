@@ -121,6 +121,5 @@ tags:
 - Fintech
 - Exchange
 - Payments
-- API
 trust_url: https://bit2me.safebase.us/
 ---

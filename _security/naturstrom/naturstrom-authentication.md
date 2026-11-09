@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/naturstrom/authentication/naturstrom-
 summary_line: 0 schemes
 tags:
 - Energy
-- Renewable
+- Renewables
 - Electricity
 - Germany
 - Sustainability

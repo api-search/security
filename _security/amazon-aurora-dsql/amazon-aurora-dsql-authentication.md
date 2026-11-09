@@ -27,6 +27,12 @@ api_specs:
   slug: amazon-aurora-dsql-stream-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-aurora-dsql/openapi/amazon-aurora-dsql-stream-api-openapi.yml
+- filename: amazon-aurora-dsql-multi-region-clusters-api-openapi.yml
+  format: yaml
+  label: Amazon Aurora DSQL Multi-Region Clusters API
+  slug: amazon-aurora-dsql-multi-region-clusters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-aurora-dsql/openapi/amazon-aurora-dsql-multi-region-clusters-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -61,4 +67,5 @@ tags:
 - Distributed SQL
 - PostgreSQL
 - Serverless
+- Amazon Web Services
 ---

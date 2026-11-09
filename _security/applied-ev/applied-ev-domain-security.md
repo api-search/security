@@ -37,4 +37,11 @@ tags:
 - Electric
 - Logistics
 - Technology
+- Robotics
+- Electric Vehicles
+- Software Defined Vehicles
+- Internet of Vehicles
+- Fleet Management
+- Automotive
+- Australia
 ---

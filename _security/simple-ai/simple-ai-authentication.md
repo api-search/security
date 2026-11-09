@@ -106,10 +106,10 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://docs.us
 source_yaml_url: https://artifacts.apis.io/simple-ai/authentication/simple-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Voice
 - Telephony
-- SaaS
+- Software-as-a-Service
 - Automation
-- ContactCenter
+- Contact Center
 ---

@@ -69,8 +69,7 @@ source_yaml_url: https://artifacts.apis.io/rendex-dev/security/rendex-dev-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Rendering
-- Screenshot
+- Screenshots
 - PDF
-- API
 - Automation
 ---

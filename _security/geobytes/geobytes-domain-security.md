@@ -33,6 +33,5 @@ tags:
 - Company
 - Geolocation
 - IP
-- API
 - Free
 ---

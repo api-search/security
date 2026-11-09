@@ -40,6 +40,6 @@ tags:
 - Company
 - Lighting
 - IoT
-- SmartHome
+- Smart Home
 - LED
 ---

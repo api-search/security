@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/blackswancausallabs-com/security/blac
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Healthcare
-- CausalInference
-- RealWorldEvidence
+- Causal Inference
+- Real-World Evidence
 ---

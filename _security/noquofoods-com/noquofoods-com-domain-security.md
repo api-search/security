@@ -33,5 +33,5 @@ tags:
 - Media
 - VideoTemplates
 - StockFootage
-- CreativeTools
+- Creative Tools
 ---

@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/annexon/security/annexon-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Autoimmune diseases
-- Neurodegenerative diseases
+- Autoimmune Diseases
+- Neurodegenerative Diseases
 - Ophthalmic diseases
 ---

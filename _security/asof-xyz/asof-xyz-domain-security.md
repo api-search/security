@@ -33,8 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Finance
-- Crypto
-- Wallet
+- Cryptocurrency
+- Wallets
 - Analytics
-- API
 ---

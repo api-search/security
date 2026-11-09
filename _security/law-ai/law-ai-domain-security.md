@@ -31,8 +31,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/law-ai/security/law-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- LegalTech
-- AI
+- Legal Tech
+- Artificial Intelligence
 - Law
 - Directory
 - Marketplace

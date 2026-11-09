@@ -79,7 +79,7 @@ source_yaml_url: https://artifacts.apis.io/noerrands-com/security/noerrands-com-
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
 - Productivity
 - Messaging

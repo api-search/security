@@ -67,4 +67,6 @@ tags:
 - Marketplace
 - Farm Analytics
 - AI Advisor
+- Data
+- Farming
 ---

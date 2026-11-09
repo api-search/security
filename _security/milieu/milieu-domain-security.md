@@ -33,6 +33,6 @@ tags:
 - Company
 - Venture
 - Technology
-- Startup
+- Startups
 - Europe
 ---

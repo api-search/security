@@ -57,12 +57,6 @@ api_specs:
   slug: amazon-appsync-types-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-types-api-openapi.yml
-- filename: amazon-appsync-apiassociation-api-openapi.yml
-  format: yaml
-  label: Amazon AppSync Appsync Apiassociation API
-  slug: amazon-appsync-apiassociation-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-appsync/openapi/amazon-appsync-apiassociation-api-openapi.yml
 - filename: amazon-appsync-apicaches-api-openapi.yml
   format: yaml
   label: Amazon AppSync Appsync Apicaches API
@@ -127,4 +121,5 @@ tags:
 - GraphQL
 - API Management
 - Serverless
+- Amazon Web Services
 ---

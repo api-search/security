@@ -31,7 +31,6 @@ summary_line: 0 schemes
 tags:
 - Company
 - Cannabis
-- Track-and-Trace
+- Track and Trace
 - Compliance
-- API
 ---

@@ -85,7 +85,7 @@ tags:
 - Website Auditing
 - Developer Tools
 - Webhook
-- llms-txt
+- Llms.txt
 - A2A
 - MCP
 - Scanning

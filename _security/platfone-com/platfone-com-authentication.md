@@ -69,6 +69,5 @@ tags:
 - Company
 - Telecommunications
 - SMS
-- API
 - Temporary-Numbers
 ---

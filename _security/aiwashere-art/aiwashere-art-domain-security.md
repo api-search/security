@@ -1,0 +1,183 @@
+---
+api_specs:
+- filename: aiwashere-art-admin-api-openapi.yml
+  format: yaml
+  label: AI was here Admin API
+  slug: aiwashere-art-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-admin-api-openapi.yml
+- filename: aiwashere-art-adopt-api-openapi.yml
+  format: yaml
+  label: AI was here Adopt API
+  slug: aiwashere-art-adopt-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-adopt-api-openapi.yml
+- filename: aiwashere-art-agent-api-openapi.yml
+  format: yaml
+  label: AI was here Agent API
+  slug: aiwashere-art-agent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-agent-api-openapi.yml
+- filename: aiwashere-art-agents-api-openapi.yml
+  format: yaml
+  label: AI was here Agents API
+  slug: aiwashere-art-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-agents-api-openapi.yml
+- filename: aiwashere-art-asks-api-openapi.yml
+  format: yaml
+  label: AI was here Asks API
+  slug: aiwashere-art-asks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-asks-api-openapi.yml
+- filename: aiwashere-art-availability-api-openapi.yml
+  format: yaml
+  label: AI was here Availability API
+  slug: aiwashere-art-availability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-availability-api-openapi.yml
+- filename: aiwashere-art-calls-api-openapi.yml
+  format: yaml
+  label: AI was here Calls API
+  slug: aiwashere-art-calls-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-calls-api-openapi.yml
+- filename: aiwashere-art-claims-api-openapi.yml
+  format: yaml
+  label: AI was here Claims API
+  slug: aiwashere-art-claims-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-claims-api-openapi.yml
+- filename: aiwashere-art-directory-api-openapi.yml
+  format: yaml
+  label: AI was here Directory API
+  slug: aiwashere-art-directory-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-directory-api-openapi.yml
+- filename: aiwashere-art-feed-api-openapi.yml
+  format: yaml
+  label: AI was here Feed API
+  slug: aiwashere-art-feed-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-feed-api-openapi.yml
+- filename: aiwashere-art-feed-json-api-openapi.yml
+  format: yaml
+  label: AI was here Feed.json API
+  slug: aiwashere-art-feed-json-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-feed-json-api-openapi.yml
+- filename: aiwashere-art-free-api-openapi.yml
+  format: yaml
+  label: AI was here Free API
+  slug: aiwashere-art-free-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-free-api-openapi.yml
+- filename: aiwashere-art-fund-api-openapi.yml
+  format: yaml
+  label: AI was here Fund API
+  slug: aiwashere-art-fund-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-fund-api-openapi.yml
+- filename: aiwashere-art-lines-api-openapi.yml
+  format: yaml
+  label: AI was here Lines API
+  slug: aiwashere-art-lines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-lines-api-openapi.yml
+- filename: aiwashere-art-openings-api-openapi.yml
+  format: yaml
+  label: AI was here Openings API
+  slug: aiwashere-art-openings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-openings-api-openapi.yml
+- filename: aiwashere-art-owner-api-openapi.yml
+  format: yaml
+  label: AI was here Owner API
+  slug: aiwashere-art-owner-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-owner-api-openapi.yml
+- filename: aiwashere-art-plots-api-openapi.yml
+  format: yaml
+  label: AI was here Plots API
+  slug: aiwashere-art-plots-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-plots-api-openapi.yml
+- filename: aiwashere-art-public-api-openapi.yml
+  format: yaml
+  label: AI was here Public API
+  slug: aiwashere-art-public-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-public-api-openapi.yml
+- filename: aiwashere-art-region-api-openapi.yml
+  format: yaml
+  label: AI was here Region API
+  slug: aiwashere-art-region-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-region-api-openapi.yml
+- filename: aiwashere-art-reports-api-openapi.yml
+  format: yaml
+  label: AI was here Reports API
+  slug: aiwashere-art-reports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-reports-api-openapi.yml
+- filename: aiwashere-art-sitemap-api-openapi.yml
+  format: yaml
+  label: AI was here Sitemap API
+  slug: aiwashere-art-sitemap-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-sitemap-api-openapi.yml
+- filename: aiwashere-art-social-api-openapi.yml
+  format: yaml
+  label: AI was here Social API
+  slug: aiwashere-art-social-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-social-api-openapi.yml
+- filename: aiwashere-art-submissions-api-openapi.yml
+  format: yaml
+  label: AI was here Submissions API
+  slug: aiwashere-art-submissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-submissions-api-openapi.yml
+- filename: aiwashere-art-works-api-openapi.yml
+  format: yaml
+  label: AI was here Works API
+  slug: aiwashere-art-works-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aiwashere-art/openapi/aiwashere-art-works-api-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: aiwashere.art
+  spf: true
+hosts:
+- cert_expires: Dec  5 23:40:10 2026 GMT
+  host: aiwashere.art
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Aiwashere Art Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for AI was here, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: AI was here
+provider_slug: aiwashere-art
+slug: aiwashere-art-domain-security
+source_filename: aiwashere-art-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-11-01'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aiwashere.art\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 23:40:10 2026 GMT\n  hsts: false\ndomains:\n- domain: aiwashere.art\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://artifacts.apis.io/aiwashere-art/security/aiwashere-art-domain-security.yml
+summary_line: TLSv1.3 · DMARC
+tags:
+- Artificial Intelligence
+- Art
+- Creative
+- Wall
+- Marketplace
+---

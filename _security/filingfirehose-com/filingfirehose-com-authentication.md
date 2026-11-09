@@ -59,6 +59,6 @@ tags:
 - SEC
 - EDGAR
 - Finance
-- Data-API
+- Data API
 - JSON
 ---

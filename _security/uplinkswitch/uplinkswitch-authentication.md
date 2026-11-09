@@ -36,9 +36,9 @@ source_yaml: "generated: '2026-10-24'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/uplinkswitch/authentication/uplinkswitch-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - LLM
-- Gateway
+- Gateways
 - Reseller
 - Platform
 ---

@@ -33,6 +33,5 @@ tags:
 - Company
 - Wearables
 - Platform
-- API
-- DataAnalytics
+- Data Analytics
 ---

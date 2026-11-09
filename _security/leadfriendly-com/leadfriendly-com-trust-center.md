@@ -26,10 +26,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/leadfriendly-com/security/leadfriendly-com-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- AI
+- Artificial Intelligence
 - CRM
 - Voice
-- Small-Business
+- Small Business
 - Telephony
 trust_url: https://www.leadfriendly.com/security
 ---

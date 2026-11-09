@@ -36,5 +36,5 @@ tags:
 - Wellness
 - Zen
 - Spirituality
-- MentalHealth
+- Mental Health
 ---

@@ -39,8 +39,7 @@ source_yaml_url: https://artifacts.apis.io/snapshot-site-com/security/snapshot-s
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Screenshot
-- API
-- AI
+- Screenshots
+- Artificial Intelligence
 - Monitoring
 ---

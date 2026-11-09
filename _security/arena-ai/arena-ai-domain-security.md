@@ -40,4 +40,7 @@ tags:
 - MCP
 - Applied Research
 - Semiconductors
+- Enterprise
+- Data
+- Analytics
 ---

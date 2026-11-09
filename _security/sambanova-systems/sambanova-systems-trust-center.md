@@ -100,5 +100,7 @@ tags:
 - Generative AI
 - Agents
 - Embeddings
+- Platform
+- Enterprise
 trust_url: https://trust.sambanova.ai/
 ---

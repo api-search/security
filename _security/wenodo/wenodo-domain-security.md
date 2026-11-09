@@ -35,5 +35,5 @@ tags:
 - Accounting
 - Payroll
 - Workforce
-- DigitalTransformation
+- Digital Transformation
 ---

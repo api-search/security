@@ -35,5 +35,5 @@ tags:
 - Construction
 - Software
 - Compliance
-- HR
+- Human Resources
 ---

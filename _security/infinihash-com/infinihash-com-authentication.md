@@ -351,10 +351,10 @@ source_yaml_url: https://artifacts.apis.io/infinihash-com/authentication/infinih
 summary_line: 2 schemes
 tags:
 - Company
-- FinTech
-- Crypto
+- Fintech
+- Cryptocurrency
 - Compliance
 - KYC
-- KYT
+- Transaction Monitoring
 - Infrastructure
 ---

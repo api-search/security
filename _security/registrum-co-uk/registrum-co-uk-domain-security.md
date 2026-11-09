@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Companies House
 - Financial Data
-- JSON API
-- UK
+- JSON:API
+- United Kingdom
 - Business Intelligence
 ---

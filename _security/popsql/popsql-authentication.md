@@ -45,6 +45,6 @@ tags:
 - Company
 - SQL
 - Collaboration
-- Data-Analytics
+- Data Analytics
 - Cloud
 ---

@@ -32,7 +32,7 @@ tags:
 - Company
 - Bible
 - Publishing
-- AI
+- Artificial Intelligence
 - Norway
 - Data
 ---

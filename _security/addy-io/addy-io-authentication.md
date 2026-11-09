@@ -123,7 +123,6 @@ tags:
 - Company
 - Email
 - Address
-- SaaS
-- API
-- WebApp
+- Software-as-a-Service
+- Web App
 ---

@@ -429,8 +429,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Data
-- API
-- AI
+- Artificial Intelligence
 - Payments
 - MCP
 ---

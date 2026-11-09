@@ -73,7 +73,7 @@ tags:
 - Phishing Simulation
 - Deepfake Defense
 - AI Governance
-- Social Engineering
+- Social-Engineering
 - Reporting
 - Compliance
 trust_url: https://www.adaptivesecurity.com/compliance

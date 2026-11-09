@@ -92,9 +92,9 @@ source_yaml_url: https://artifacts.apis.io/profit-rhino/security/profit-rhino-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- flat-rate
-- contractor
+- Flat Rate
+- Contractor
 - HVAC
-- software
+- Software
 - sales-tool
 ---

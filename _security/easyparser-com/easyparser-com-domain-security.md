@@ -45,9 +45,8 @@ source_yaml_url: https://artifacts.apis.io/easyparser-com/security/easyparser-co
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - Amazon
-- Scraping
-- Real-time
-- Data-Extraction
+- Web Scraping
+- Real-Time
+- Data Extraction
 ---

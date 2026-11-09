@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: hermai-brand-api-openapi.yml
-  format: yaml
-  label: Hermai Brand API
-  slug: hermai-brand-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/hermai/openapi/hermai-brand-api-openapi.yml
 - filename: hermai-api-openapi.json
   format: json
   label: Hermai Agent-Native API API

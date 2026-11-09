@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/sheetlabs/authentication/sheetlabs-au
 summary_line: 1 scheme
 tags:
 - Company
-- No‑code
-- Spreadsheet
-- API
+- No-Code
+- Spreadsheets
 - Integration
 ---

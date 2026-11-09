@@ -19,10 +19,9 @@ source_yaml: "generated: '2026-10-27'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/opendrive/security/opendrive-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- cloud-storage
-- backup
-- file-sync
-- collaboration
-- api
+- Cloud Storage
+- Backup
+- File Sync
+- Collaboration
 trust_url: https://www.opendrive.com/security
 ---

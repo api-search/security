@@ -32,9 +32,8 @@ source_yaml_url: https://artifacts.apis.io/ujeebu-com/security/ujeebu-com-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
-- WebScraping
-- DataExtraction
-- SaaS
+- Web Scraping
+- Data Extraction
+- Software-as-a-Service
 - Automation
 ---

@@ -21,8 +21,7 @@ summary_line: PCI DSS, GDPR
 tags:
 - Company
 - Payments
-- SaaS
+- Software-as-a-Service
 - Enterprise
-- API
 trust_url: https://trust.revolv3.com/
 ---

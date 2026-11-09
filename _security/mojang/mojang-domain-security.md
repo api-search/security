@@ -87,12 +87,12 @@ api_specs:
 description: ''
 domains:
 - caa:
+  - 0 issue "letsencrypt.org"
+  - 0 issue "awstrust.com"
+  - 0 issue "pki.goog"
   - 0 issue "microsoft.com"
   - 0 issue "digicert.com"
   - 0 iodef "mailto:caarecordaware@microsoft.com"
-  - 0 contactemail "caarecordaware@microsoft.com"
-  - 0 issue "letsencrypt.org"
-  - 0 issue "awstrust.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
@@ -110,13 +110,13 @@ hosts:
   hsts_max_age: 7884000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 24 04:01:15 2026 GMT
+- cert_expires: Jan 20 08:46:16 2027 GMT
   host: minecraft.wiki
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Dec 30 22:44:42 2026 GMT
+- cert_expires: Jan 21 20:58:18 2027 GMT
   host: api.mojang.com
   hsts: null
   https: true
@@ -134,7 +134,7 @@ slug: mojang-domain-security
 source_filename: mojang-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.minecraft.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 16:56:36 2027 GMT\n  hsts: true\n  hsts_max_age: 7884000\n- host: minecraft.wiki\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 04:01:15 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.mojang.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 22:44:42 2026 GMT\n  hsts: null\ndomains:\n- domain: minecraft.net\n  dnssec: false\n  caa:\n  - 0 issue \"microsoft.com\"\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:caarecordaware@microsoft.com\"\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: minecraft.wiki\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-11-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.minecraft.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 22 16:56:36 2027 GMT\n  hsts: true\n  hsts_max_age: 7884000\n- host: minecraft.wiki\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 20 08:46:16 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.mojang.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 20:58:18 2027 GMT\n  hsts: null\ndomains:\n- domain: minecraft.net\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"awstrust.com\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"microsoft.com\"\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: minecraft.wiki\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://artifacts.apis.io/mojang/security/mojang-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

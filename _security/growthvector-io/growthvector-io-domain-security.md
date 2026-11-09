@@ -40,6 +40,5 @@ tags:
 - SEO
 - Growth Marketing
 - Data Extraction
-- Web Tools
 - Small Business
 ---

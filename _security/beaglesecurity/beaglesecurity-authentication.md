@@ -31,8 +31,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Security
-- AI
-- Penetration-Testing
+- Artificial Intelligence
+- Penetration Testing
 - DevSecOps
-- API
 ---

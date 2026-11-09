@@ -32,6 +32,6 @@ tags:
 - Company
 - Software
 - Fitness
-- Nonprofit
-- SaaS
+- Non-Profit
+- Software-as-a-Service
 ---

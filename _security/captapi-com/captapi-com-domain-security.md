@@ -269,7 +269,6 @@ source_yaml_url: https://artifacts.apis.io/captapi-com/security/captapi-com-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
 - Social Media
 - Data Aggregation
 - Video

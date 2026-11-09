@@ -34,5 +34,5 @@ tags:
 - Mobile
 - Gaming
 - Payments
-- Wallet
+- Wallets
 ---

@@ -31,5 +31,4 @@ tags:
 - Observability
 - DevOps
 - Cloud
-- API
 ---

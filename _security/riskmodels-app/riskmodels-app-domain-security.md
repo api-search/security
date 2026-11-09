@@ -129,8 +129,7 @@ source_yaml_url: https://artifacts.apis.io/riskmodels-app/security/riskmodels-ap
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance
-- Risk
+- Risk Management
 - Analytics
-- API
 - Equity
 ---

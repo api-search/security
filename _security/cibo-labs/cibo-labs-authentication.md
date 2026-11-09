@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/cibo-labs/authentication/cibo-labs-au
 summary_line: 0 schemes
 tags:
 - Agriculture
-- DataAnalytics
+- Data Analytics
 - Geospatial
-- SatelliteImagery
-- FarmManagement
+- Satellite Imagery
+- Farm Management
 ---

@@ -40,7 +40,6 @@ tags:
 - Company
 - Reddit
 - Data
-- API
-- Developer
+- Developers
 - Analytics
 ---

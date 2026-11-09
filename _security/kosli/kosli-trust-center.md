@@ -29,7 +29,7 @@ source_yaml_url: https://artifacts.apis.io/kosli/security/kosli-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR, CSA STAR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance
 - Compliance
 - DevOps

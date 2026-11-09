@@ -58,6 +58,5 @@ tags:
 - Company
 - Finance
 - SEC
-- InsiderTrading
-- API
+- Insider Trading
 ---

@@ -20,10 +20,10 @@ source_yaml_url: https://artifacts.apis.io/sunflower-labs/security/sunflower-lab
 summary_line: ISO 27001, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agriculture
 - IoT
-- Data-Analytics
-- Venture-Capital
+- Data Analytics
+- Venture Capital
 trust_url: https://trust.sunflower-labs.com/
 ---

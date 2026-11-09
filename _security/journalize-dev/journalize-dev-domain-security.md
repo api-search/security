@@ -116,7 +116,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Accounting
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 - Ledger
 ---

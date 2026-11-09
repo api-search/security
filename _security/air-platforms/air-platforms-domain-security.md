@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/air-platforms/security/air-platforms-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Credit
 - Finance
-- Risk
+- Risk Management
 ---

@@ -34,7 +34,7 @@ tags:
 - Company
 - Geospatial
 - HPC
-- Open-Source
+- Open Source
 - Research
 - Education
 ---

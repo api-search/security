@@ -92,9 +92,8 @@ source_yaml_url: https://artifacts.apis.io/hunta-ai/security/hunta-ai-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
-- API
 - MCP
 - Attestable
 ---

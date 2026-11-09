@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/botsee-io/security/botsee-io-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Visibility
 - Analytics
 - LLM

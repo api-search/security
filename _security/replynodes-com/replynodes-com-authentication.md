@@ -131,9 +131,8 @@ source_yaml_url: https://artifacts.apis.io/replynodes-com/authentication/replyno
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- Web-Data
-- API
+- Artificial Intelligence
+- Web Data
 - MCP
-- Read-Only
+- Read Only
 ---

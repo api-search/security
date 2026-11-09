@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/typless/security/typless-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Document-Processing
+- Artificial Intelligence
+- Document Processing
 - Automation
-- Intelligent-Document-Processing
+- Intelligent Document Processing
 ---

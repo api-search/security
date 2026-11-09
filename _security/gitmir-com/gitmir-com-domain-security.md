@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/gitmir-com/security/gitmir-com-domain
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- Business-Logic
+- Business Logic
 - Enterprise
 ---

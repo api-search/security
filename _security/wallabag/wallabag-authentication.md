@@ -39,7 +39,7 @@ summary_line: 1 scheme
 tags:
 - Open Source
 - Read-it-later
-- Self-hosted
+- Self-Hosted
 - Privacy
 - Community
 ---

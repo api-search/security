@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Law
 - Software
-- SaaS
-- LegalTech
+- Software-as-a-Service
+- Legal Tech
 - Management
 ---

@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/cymphony/security/cymphony-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security
-- AI
+- Artificial Intelligence
 - Workforce
 - Identity
-- Threat-Detection
+- Threat Detection
 - Enterprise
 ---

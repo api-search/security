@@ -101,7 +101,6 @@ source_yaml_url: https://artifacts.apis.io/rewio-ru/authentication/rewio-ru-auth
 summary_line: 1 scheme
 tags:
 - Reviews
-- API
 - Aggregation
 - Russian
 - Maps

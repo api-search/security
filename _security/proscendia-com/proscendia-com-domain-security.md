@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/proscendia-com/security/proscendia-co
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - Consultancy
-- OpenSource
+- Open Source
 - Automation
 ---

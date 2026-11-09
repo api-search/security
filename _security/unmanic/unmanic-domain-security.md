@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Media
 - Automation
-- OpenSource
-- FileManagement
+- Open Source
+- File Management
 - Optimization
 ---

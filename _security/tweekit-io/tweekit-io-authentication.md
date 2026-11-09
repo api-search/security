@@ -35,8 +35,7 @@ source_yaml_url: https://artifacts.apis.io/tweekit-io/authentication/tweekit-io-
 summary_line: 2 schemes
 tags:
 - Company
-- AI
-- File-Conversion
-- API
+- Artificial Intelligence
+- File Conversion
 - Media
 ---

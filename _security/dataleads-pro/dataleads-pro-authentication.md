@@ -275,8 +275,7 @@ source_yaml_url: https://artifacts.apis.io/dataleads-pro/authentication/datalead
 summary_line: 1 scheme
 tags:
 - Company
-- Lead-Generation
-- API
-- Data-Enrichment
+- Lead Generation
+- Data Enrichment
 - Marketing
 ---

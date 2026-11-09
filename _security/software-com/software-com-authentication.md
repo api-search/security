@@ -31,7 +31,6 @@ summary_line: 0 schemes
 tags:
 - Company
 - Software
-- API
 - Integration
 - Enterprise
 ---

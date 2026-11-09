@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/xund/security/xund-domain-security.ym
 summary_line: TLSv1.3 · DMARC
 tags:
 - Health
-- AI
+- Artificial Intelligence
 - Healthcare
 - Diagnostics
-- Risk-Assessment
+- Risk Assessment
 ---

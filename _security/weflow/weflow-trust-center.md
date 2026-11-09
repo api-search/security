@@ -28,10 +28,10 @@ source_yaml_url: https://artifacts.apis.io/weflow/security/weflow-trust-center.y
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - RevenueAI
-- RevOps
+- Revenue Operations
 - Salesforce
 - Automation
-- AI
+- Artificial Intelligence
 - Analytics
 trust_url: https://www.weflow.ai/security
 ---

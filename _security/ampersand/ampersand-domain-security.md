@@ -155,7 +155,8 @@ tags:
 - Integration
 - Platform
 - Software-as-a-Service
-- Authentication
+- OAuth
 - Data Sync
 - Webhook
+- Authentication
 ---

@@ -40,4 +40,8 @@ tags:
 - Photonics
 - Lighting
 - Automotive
+- Industrial
+- Medical
+- Wearables
+- Computing
 ---

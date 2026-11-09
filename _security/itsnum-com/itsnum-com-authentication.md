@@ -39,8 +39,7 @@ summary_line: 2 schemes
 tags:
 - Travel
 - eSIM
-- Telecom
+- Telecommunications
 - Marketplace
-- API
 - Company
 ---

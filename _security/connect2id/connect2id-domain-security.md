@@ -32,6 +32,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - OpenID Connect
-- Authentication
+- OAuth
 - Identity
+- Authentication
 ---

@@ -154,9 +154,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/adcritter-com/authentication/adcritter-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Marketing
 - Advertising
 - Media Planning
-- SaaS
+- Software-as-a-Service
 ---

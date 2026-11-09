@@ -42,7 +42,6 @@ summary_line: 2 schemes
 tags:
 - Company
 - Data Integration
-- AI-Ready
 - Governance
 - Analytics
 ---

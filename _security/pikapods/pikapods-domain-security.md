@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - IoT
-- PetTech
-- SmartDevices
-- APIPlatform
+- Pet Tech
+- Smart Devices
+- API Platform
 ---

@@ -53,9 +53,9 @@ source_yaml_url: https://artifacts.apis.io/semidata-dev/authentication/semidata-
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Quantum
-- SupplyChain
-- DataAPI
+- Supply Chain
+- Data API
 - Intelligence
 ---

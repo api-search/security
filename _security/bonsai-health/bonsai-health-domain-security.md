@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Healthcare
-- AI
-- PatientEngagement
+- Artificial Intelligence
+- Patient Engagement
 - Automation
 ---

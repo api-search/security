@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Payments
-- E-commerce
+- E-Commerce
 - Gift Cards
-- SaaS
+- Software-as-a-Service
 ---

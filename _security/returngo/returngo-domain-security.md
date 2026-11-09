@@ -37,8 +37,7 @@ source_yaml_url: https://artifacts.apis.io/returngo/security/returngo-domain-sec
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Returns
-- API
 - Sustainability
 ---

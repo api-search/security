@@ -28,7 +28,6 @@ source_yaml_url: https://artifacts.apis.io/gridspace-com/authentication/gridspac
 summary_line: 1 scheme
 tags:
 - Voice AI
-- API
 - Regulated Compliance
 - Healthcare
 - Insurance

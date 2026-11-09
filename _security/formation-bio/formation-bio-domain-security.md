@@ -39,4 +39,6 @@ tags:
 - Artificial Intelligence
 - Healthcare
 - Life Sciences
+- Pharma
+- Technology
 ---

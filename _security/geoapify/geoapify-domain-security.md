@@ -120,6 +120,18 @@ api_specs:
   slug: geoapify-static-maps-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/geoapify/openapi/geoapify-static-maps-api-openapi.yml
+- filename: geoapify-timezone-api-openapi.yml
+  format: yaml
+  label: Geoapify Timezone API
+  slug: geoapify-timezone-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geoapify/openapi/geoapify-timezone-api-openapi.yml
+- filename: geoapify-batch-api-openapi.yml
+  format: yaml
+  label: Geoapify Batch API
+  slug: geoapify-batch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/geoapify/openapi/geoapify-batch-api-openapi.yml
 - filename: geoapify-post-code-api-openapi.yml
   format: yaml
   label: Geoapify Post Code API
@@ -171,4 +183,12 @@ tags:
 - Geospatial
 - Location
 - Maps
+- Routing
+- Places
+- Timezone
+- MCP
+- GeoJSON
+- OpenStreetMap
+- Static Maps
+- Isolines
 ---

@@ -93,7 +93,7 @@ summary_line: http · 1 scheme
 tags:
 - Construction
 - Bidding
-- SaaS
+- Software-as-a-Service
 - Collaboration
 - Analytics
 ---

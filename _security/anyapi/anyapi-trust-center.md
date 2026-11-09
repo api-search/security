@@ -456,6 +456,126 @@ api_specs:
   slug: anyapi-apis-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/anyapi/openapi/anyapi-apis-api-openapi.yml
+- filename: anyapi-asos-api-openapi.yml
+  format: yaml
+  label: AnyAPI Asos API
+  slug: anyapi-asos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-asos-api-openapi.yml
+- filename: anyapi-bestbuy-api-openapi.yml
+  format: yaml
+  label: AnyAPI Bestbuy API
+  slug: anyapi-bestbuy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-bestbuy-api-openapi.yml
+- filename: anyapi-bing-api-openapi.yml
+  format: yaml
+  label: AnyAPI Bing API
+  slug: anyapi-bing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-bing-api-openapi.yml
+- filename: anyapi-brave-api-openapi.yml
+  format: yaml
+  label: AnyAPI Brave API
+  slug: anyapi-brave-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-brave-api-openapi.yml
+- filename: anyapi-company-identify-api-openapi.yml
+  format: yaml
+  label: AnyAPI Company Identify API
+  slug: anyapi-company-identify-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-company-identify-api-openapi.yml
+- filename: anyapi-contact-enrichment-api-openapi.yml
+  format: yaml
+  label: AnyAPI Contact Enrichment API
+  slug: anyapi-contact-enrichment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-contact-enrichment-api-openapi.yml
+- filename: anyapi-duckduckgo-api-openapi.yml
+  format: yaml
+  label: AnyAPI Duckduckgo API
+  slug: anyapi-duckduckgo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-duckduckgo-api-openapi.yml
+- filename: anyapi-google-hotels-api-openapi.yml
+  format: yaml
+  label: AnyAPI Google Hotels API
+  slug: anyapi-google-hotels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-google-hotels-api-openapi.yml
+- filename: anyapi-ikea-api-openapi.yml
+  format: yaml
+  label: AnyAPI Ikea API
+  slug: anyapi-ikea-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-ikea-api-openapi.yml
+- filename: anyapi-levels-api-openapi.yml
+  format: yaml
+  label: AnyAPI Levels API
+  slug: anyapi-levels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-levels-api-openapi.yml
+- filename: anyapi-linktree-api-openapi.yml
+  format: yaml
+  label: AnyAPI Linktree API
+  slug: anyapi-linktree-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-linktree-api-openapi.yml
+- filename: anyapi-nextdoor-api-openapi.yml
+  format: yaml
+  label: AnyAPI Nextdoor API
+  slug: anyapi-nextdoor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-nextdoor-api-openapi.yml
+- filename: anyapi-pexels-api-openapi.yml
+  format: yaml
+  label: AnyAPI Pexels API
+  slug: anyapi-pexels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-pexels-api-openapi.yml
+- filename: anyapi-property-records-api-openapi.yml
+  format: yaml
+  label: AnyAPI Property Records API
+  slug: anyapi-property-records-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-property-records-api-openapi.yml
+- filename: anyapi-samsclub-api-openapi.yml
+  format: yaml
+  label: AnyAPI Samsclub API
+  slug: anyapi-samsclub-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-samsclub-api-openapi.yml
+- filename: anyapi-similarweb-api-openapi.yml
+  format: yaml
+  label: AnyAPI Similarweb API
+  slug: anyapi-similarweb-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-similarweb-api-openapi.yml
+- filename: anyapi-slickdeals-api-openapi.yml
+  format: yaml
+  label: AnyAPI Slickdeals API
+  slug: anyapi-slickdeals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-slickdeals-api-openapi.yml
+- filename: anyapi-target-api-openapi.yml
+  format: yaml
+  label: AnyAPI Target API
+  slug: anyapi-target-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-target-api-openapi.yml
+- filename: anyapi-telegram-api-openapi.yml
+  format: yaml
+  label: AnyAPI Telegram API
+  slug: anyapi-telegram-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-telegram-api-openapi.yml
+- filename: anyapi-unsplash-api-openapi.yml
+  format: yaml
+  label: AnyAPI Unsplash API
+  slug: anyapi-unsplash-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anyapi/openapi/anyapi-unsplash-api-openapi.yml
 - filename: anyapi-app-store-api-openapi.yml
   format: yaml
   label: AnyAPI App Store API

@@ -30,9 +30,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/gapup-io/security/gapup-io-trust-center.yml
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Finance
-- Operations
 - Compliance
 - Enterprise
 trust_url: https://www.gapup.io/security

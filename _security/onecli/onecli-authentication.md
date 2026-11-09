@@ -183,8 +183,9 @@ tags:
 - Secrets Management
 - Credentials
 - Gateways
-- Authentication
+- OAuth
 - Developer Tools
 - MCP
 - Vault
+- Authentication
 ---

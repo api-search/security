@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/yuma-ai/security/yuma-ai-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Machine-Learning
+- Artificial Intelligence
+- Machine Learning
 - Automation
-- Data-Analysis
+- Data Analysis
 ---

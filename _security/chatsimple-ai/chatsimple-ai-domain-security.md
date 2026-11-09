@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/chatsimple-ai/security/chatsimple-ai-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Enterprise AI
-- Customer Support
-- Multi‑Channel
+- Customer Service
+- Multi-Channel
 - AI Deployment
 ---

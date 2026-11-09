@@ -45,8 +45,8 @@ source_yaml_url: https://artifacts.apis.io/time-doctor/security/time-doctor-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- TimeTracking
-- WorkforceManagement
+- Time Tracking
+- Workforce Management
 - Productivity
-- AI
+- Artificial Intelligence
 ---

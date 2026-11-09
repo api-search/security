@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/foundriesio/security/foundriesio-doma
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - IoT
-- Embedded-Linux
-- Edge-Computing
-- Device-Management
+- Embedded Linux
+- Edge Computing
+- Device Management
 - Secure-Updates
 ---

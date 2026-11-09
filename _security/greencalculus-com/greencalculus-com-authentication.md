@@ -62,7 +62,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Emissions
-- API
 - Data
 - Sustainability
 ---

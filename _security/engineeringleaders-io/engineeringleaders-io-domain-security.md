@@ -34,6 +34,6 @@ tags:
 - Company
 - Community
 - Leadership
-- Events
+- Event
 - Membership
 ---

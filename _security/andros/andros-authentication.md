@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Healthcare
-- ProviderNetwork
+- Provider Network
 - Credentialing
-- DataManagement
+- Data Management
 ---

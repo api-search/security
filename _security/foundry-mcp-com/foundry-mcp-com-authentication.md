@@ -63,7 +63,7 @@ summary_line: http · 1 scheme
 tags:
 - FoundryVTT
 - MCP
-- AI
+- Artificial Intelligence
 - Gaming
 - Automation
 ---

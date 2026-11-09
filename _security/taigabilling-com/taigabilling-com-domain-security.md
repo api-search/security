@@ -43,9 +43,9 @@ source_yaml_url: https://artifacts.apis.io/taigabilling-com/security/taigabillin
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- MedicalBilling
+- Artificial Intelligence
+- Medical Billing
 - Healthcare
-- SaaS
+- Software-as-a-Service
 - Automation
 ---

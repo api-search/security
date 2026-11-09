@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Accounting
-- AI
+- Artificial Intelligence
 - Integration
 - Fortnox
 - Sweden

@@ -56,6 +56,6 @@ tags:
 - Family Care
 - Inbox
 - Healthcare
-- Communication
+- Communications
 - Privacy
 ---

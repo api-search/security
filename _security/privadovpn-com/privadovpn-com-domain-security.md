@@ -35,5 +35,5 @@ tags:
 - Security
 - Privacy
 - Antivirus
-- Ad‑Blocking
+- Ad Blocking
 ---

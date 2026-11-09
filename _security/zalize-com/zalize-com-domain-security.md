@@ -30,10 +30,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/zalize-com/security/zalize-com-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Studio
-- Open-Source
+- Open Source
 - Engineering
-- Products
+- Product
 - Games
 ---

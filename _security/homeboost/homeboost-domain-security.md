@@ -35,9 +35,9 @@ source_yaml_url: https://artifacts.apis.io/homeboost/security/homeboost-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HomeAutomation
+- Home Automation
 - Energy
 - IoT
-- Startup
+- Startups
 - TrueVentures
 ---

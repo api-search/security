@@ -35,5 +35,5 @@ tags:
 - B2B
 - Data Services
 - Integration
-- Openapi
+- OpenAPI
 ---

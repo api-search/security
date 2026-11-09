@@ -27,7 +27,7 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://desk.mo
 source_yaml_url: https://artifacts.apis.io/modernmustardseed-com/authentication/modernmustardseed-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Studio
 - Web Development
 - Voice Agents

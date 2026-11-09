@@ -40,7 +40,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Payments
-- PublicSector
+- Public Sector
 - France
-- E-invoicing
+- E-Invoicing
 ---

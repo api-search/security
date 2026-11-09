@@ -106,7 +106,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - URL-shortening
 - Analytics
-- QR-codes
+- QR Codes
 - Enterprise
-- Integrations
+- Integration
 ---

@@ -102,8 +102,7 @@ source_yaml_url: https://artifacts.apis.io/space-ocr-com/authentication/space-oc
 summary_line: 1 scheme
 tags:
 - OCR
-- AI
-- Document-Processing
+- Artificial Intelligence
+- Document Processing
 - Field-Extraction
-- API
 ---

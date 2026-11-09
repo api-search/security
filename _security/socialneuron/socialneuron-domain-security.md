@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/socialneuron/security/socialneuron-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Content Creation
 - Social Media
 - Automation

@@ -34,5 +34,5 @@ tags:
 - Automation
 - WordPress
 - Integration
-- AI
+- Artificial Intelligence
 ---

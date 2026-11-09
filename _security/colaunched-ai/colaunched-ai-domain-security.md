@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Business
-- Startup
+- Startups
 - Idea-Generation
-- Market-Research
+- Market Research
 ---

@@ -43,10 +43,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://dev.tin
 source_yaml_url: https://artifacts.apis.io/tinkermode-com/authentication/tinkermode-com-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
-- Data-Platform
+- Artificial Intelligence
+- Data Platform
 - Industrial
 - Construction
-- Operations
 - Company
 ---

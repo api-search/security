@@ -52,7 +52,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Finance
-- Stock-Market
-- Data-API
+- Stock Market
+- Data API
 - China
 ---

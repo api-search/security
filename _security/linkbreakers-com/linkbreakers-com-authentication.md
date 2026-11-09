@@ -225,7 +225,6 @@ summary_line: 2 schemes
 tags:
 - QR Codes
 - Lead Capture
-- API
-- Webhooks
-- SDKs
+- Webhook
+- SDK
 ---

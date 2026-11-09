@@ -49,8 +49,8 @@ source_yaml_url: https://artifacts.apis.io/actablesite-com/security/actablesite-
 summary_line: TLSv1.3
 tags:
 - Company
-- WebPlatform
-- LowCode
+- Web Platform
+- Low-Code
 - Analytics
 - SEO
 ---

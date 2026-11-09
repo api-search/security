@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Fundraising
-- Nonprofit
-- SaaS
-- DigitalPlatform
+- Non-Profit
+- Software-as-a-Service
+- Digital Platform
 ---

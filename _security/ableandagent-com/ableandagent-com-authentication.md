@@ -100,8 +100,8 @@ source_yaml_url: https://artifacts.apis.io/ableandagent-com/authentication/ablea
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketplace
-- GigEconomy
-- SanDiego
+- Gig Economy
+- San Diego
 ---

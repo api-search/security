@@ -98,4 +98,6 @@ tags:
 - Behavioral Data
 - E-Commerce
 - Webhook
+- Artificial Intelligence
+- Identity
 ---

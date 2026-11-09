@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/financial-engines/security/financial-engines-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Financial-Planning
+- Financial Planning
 - Investment-Advice
-- Wealth-Management
-- Retirement-Planning
-- United-States
+- Wealth Management
+- Retirement Planning
+- United States
 ---

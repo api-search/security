@@ -49,6 +49,7 @@ tags:
 - Cryptocurrency
 - Identity
 - Authentication
+- OAuth
 - OpenID Connect
 - Proof of Humanity
 - Blockchain

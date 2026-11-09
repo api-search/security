@@ -33,6 +33,6 @@ tags:
 - Company
 - Biotechnology
 - Pharmaceuticals
-- Rare Diseases
+- Rare Disease
 - Clinical Trials
 ---

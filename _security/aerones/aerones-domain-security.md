@@ -1152,6 +1152,90 @@ api_specs:
   slug: aerones-work-management-work-packages-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aerones/openapi/aerones-work-management-work-packages-api-openapi.yml
+- filename: aerones-accounting-my-projects-api-openapi.yml
+  format: yaml
+  label: Aerones Accounting.my Projects API
+  slug: aerones-accounting-my-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-accounting-my-projects-api-openapi.yml
+- filename: aerones-bamboohr-employee-visas-api-openapi.yml
+  format: yaml
+  label: Aerones Bamboohr.employee Visas API
+  slug: aerones-bamboohr-employee-visas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-bamboohr-employee-visas-api-openapi.yml
+- filename: aerones-core-feedback-api-openapi.yml
+  format: yaml
+  label: Aerones Core.feedback API
+  slug: aerones-core-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-core-feedback-api-openapi.yml
+- filename: aerones-core-prejob-questions-api-openapi.yml
+  format: yaml
+  label: Aerones Core.prejob Questions API
+  slug: aerones-core-prejob-questions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-core-prejob-questions-api-openapi.yml
+- filename: aerones-core-projects-tasks-api-openapi.yml
+  format: yaml
+  label: Aerones Core.projects.tasks API
+  slug: aerones-core-projects-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-core-projects-tasks-api-openapi.yml
+- filename: aerones-core-repair-materials-api-openapi.yml
+  format: yaml
+  label: Aerones Core.repair Materials API
+  slug: aerones-core-repair-materials-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-core-repair-materials-api-openapi.yml
+- filename: aerones-core-service-order-lines-ler-results-api-openapi.yml
+  format: yaml
+  label: Aerones Core.service Order Lines.ler Results API
+  slug: aerones-core-service-order-lines-ler-results-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-core-service-order-lines-ler-results-api-openapi.yml
+- filename: aerones-dispatch-academy-api-openapi.yml
+  format: yaml
+  label: Aerones Dispatch.academy API
+  slug: aerones-dispatch-academy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-dispatch-academy-api-openapi.yml
+- filename: aerones-gitlab-api-openapi.yml
+  format: yaml
+  label: Aerones GitLab API
+  slug: aerones-gitlab-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-gitlab-api-openapi.yml
+- filename: aerones-permissions-user-management-api-openapi.yml
+  format: yaml
+  label: Aerones Permissions.user Management API
+  slug: aerones-permissions-user-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-permissions-user-management-api-openapi.yml
+- filename: aerones-projects-rams-readiness-api-openapi.yml
+  format: yaml
+  label: Aerones Projects.rams Readiness API
+  slug: aerones-projects-rams-readiness-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-projects-rams-readiness-api-openapi.yml
+- filename: aerones-projects-supervisor-dashboard-api-openapi.yml
+  format: yaml
+  label: Aerones Projects.supervisor Dashboard API
+  slug: aerones-projects-supervisor-dashboard-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-projects-supervisor-dashboard-api-openapi.yml
+- filename: aerones-vis-academy-inspections-api-openapi.yml
+  format: yaml
+  label: Aerones Vis Academy.inspections API
+  slug: aerones-vis-academy-inspections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-vis-academy-inspections-api-openapi.yml
+- filename: aerones-vis-ingestion-api-openapi.yml
+  format: yaml
+  label: Aerones Vis.ingestion API
+  slug: aerones-vis-ingestion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aerones/openapi/aerones-vis-ingestion-api-openapi.yml
 description: ''
 domains:
 - caa: []

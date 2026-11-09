@@ -67,7 +67,7 @@ tags:
 - Consumer
 - Bookmarking
 - Resource Capture
-- Read It Later
+- Read-it-later
 - FastAPI
 - Self-Hosted
 ---

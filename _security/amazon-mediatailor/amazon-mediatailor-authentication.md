@@ -27,6 +27,12 @@ api_specs:
   slug: amazon-mediatailor-alerts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-alerts-api-openapi.yml
+- filename: amazon-mediatailor-function-api-openapi.yml
+  format: yaml
+  label: Amazon MediaTailor Mediatailor Function API
+  slug: amazon-mediatailor-function-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-function-api-openapi.yml
 - filename: amazon-mediatailor-configure-logs-api-openapi.yml
   format: yaml
   label: Amazon MediaTailor Configure Logs API
@@ -63,30 +69,6 @@ api_specs:
   slug: amazon-mediatailor-source-locations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-source-locations-api-openapi.yml
-- filename: amazon-mediatailor-function-api-openapi.yml
-  format: yaml
-  label: Amazon MediaTailor Mediatailor Function API
-  slug: amazon-mediatailor-function-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-function-api-openapi.yml
-- filename: amazon-mediatailor-livesource-api-openapi.yml
-  format: yaml
-  label: Amazon MediaTailor Mediatailor Livesource API
-  slug: amazon-mediatailor-livesource-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-livesource-api-openapi.yml
-- filename: amazon-mediatailor-operations-api-openapi.yml
-  format: yaml
-  label: Amazon MediaTailor Mediatailor Operations API
-  slug: amazon-mediatailor-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-operations-api-openapi.yml
-- filename: amazon-mediatailor-vodsource-api-openapi.yml
-  format: yaml
-  label: Amazon MediaTailor Mediatailor Vodsource API
-  slug: amazon-mediatailor-vodsource-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-mediatailor/openapi/amazon-mediatailor-vodsource-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -117,6 +99,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-m
 source_yaml_url: https://artifacts.apis.io/amazon-mediatailor/authentication/amazon-mediatailor-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Broadcasting
 - Media Processing
 - Media

@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/evy/security/evy-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Product Protection
-- FinTech
-- SaaS
+- Fintech
+- Software-as-a-Service
 - Security
 - Insurance
 ---

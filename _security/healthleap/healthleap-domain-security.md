@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/healthleap/security/healthleap-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Healthcare
 - Risk Screening
 - Nutrition

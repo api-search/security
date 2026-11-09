@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education
 - Marketing
-- SaaS
-- HigherEducation
-- Recruitment
+- Software-as-a-Service
+- Higher Education
+- Recruiting
 ---

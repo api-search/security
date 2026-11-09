@@ -64,9 +64,9 @@ source_yaml_url: https://artifacts.apis.io/mochify-app/authentication/mochify-ap
 summary_line: 1 scheme
 tags:
 - Company
-- ImageCompression
-- VideoCompression
-- PDFCompression
-- AI
+- Image Compression
+- Video Compression
+- PDF compression
+- Artificial Intelligence
 - PrivacyFocused
 ---

@@ -29,9 +29,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/slate-hq-uk/authentication/slate-hq-uk-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Productivity
 - AmbientOS
 - Privacy
-- UK
+- United Kingdom
 ---

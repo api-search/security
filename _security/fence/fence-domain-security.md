@@ -63,7 +63,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fintech
-- Asset-Backed-Finance
+- Asset-Backed Finance
 - Real-Time
-- API
 ---

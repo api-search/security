@@ -74,6 +74,6 @@ tags:
 - Browser Agents
 - payments (QR)
 - Agent Readiness
-- llms-txt
+- Llms.txt
 - capability tokens
 ---

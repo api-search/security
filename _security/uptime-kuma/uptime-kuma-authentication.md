@@ -38,7 +38,7 @@ summary_line: 1 scheme
 tags:
 - Monitoring
 - Self-Hosted
-- Open-Source
-- Dashboard
+- Open Source
+- Dashboards
 - Alerts
 ---

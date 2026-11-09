@@ -94,7 +94,6 @@ tags:
 - Company
 - Vector Search
 - Database
-- API
 - YDB
 - Qdrant
 ---

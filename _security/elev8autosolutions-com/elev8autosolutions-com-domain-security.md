@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/elev8autosolutions-com/security/elev8
 summary_line: TLSv1.3
 tags:
 - Automotive
-- DealerManagement
-- SaaS
+- Dealer Management
+- Software-as-a-Service
 - B2B
 - Platform
 - Company

@@ -18,10 +18,10 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/composite/security/composite-trust-center.yml
 summary_line: SOC 2
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Browser
-- SaaS
+- Software-as-a-Service
 - Productivity
 - Company
 trust_url: https://trust.composite.com/

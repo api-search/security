@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/naturstrom/security/naturstrom-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Energy
-- Renewable
+- Renewables
 - Electricity
 - Germany
 - Sustainability

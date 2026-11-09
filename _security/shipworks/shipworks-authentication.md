@@ -28,7 +28,7 @@ source_yaml_url: https://artifacts.apis.io/shipworks/authentication/shipworks-au
 summary_line: 1 scheme
 tags:
 - Shipping
-- E-commerce
+- E-Commerce
 - Logistics
 - Software
 - Integration

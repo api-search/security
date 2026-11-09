@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: postal-server-postal-api-api-openapi.yml
-  format: yaml
-  label: Postal API
-  slug: postal-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/postal-server/openapi/postal-server-postal-api-api-openapi.yml
 - filename: postal-server-openapi-generated.yml
   format: yaml
   label: Postal API
@@ -43,7 +37,7 @@ source_yaml: "generated: '2026-10-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/postal-server/security/postal-server-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Installation
+- Installations
 - Open Source
 - DevOps
 - Docker

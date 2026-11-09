@@ -35,5 +35,5 @@ tags:
 - Finance
 - Mutual Funds
 - India
-- Regulation
+- Regulations
 ---

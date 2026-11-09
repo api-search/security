@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/cibo-labs/security/cibo-labs-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agriculture
-- DataAnalytics
+- Data Analytics
 - Geospatial
-- SatelliteImagery
-- FarmManagement
+- Satellite Imagery
+- Farm Management
 ---

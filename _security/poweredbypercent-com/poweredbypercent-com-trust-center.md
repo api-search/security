@@ -29,8 +29,7 @@ source_yaml_url: https://artifacts.apis.io/poweredbypercent-com/security/powered
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Company
-- Startup
-- Venture-backed
+- Startups
 - Impact
 - Goodstack
 trust_url: https://goodstack.io/security

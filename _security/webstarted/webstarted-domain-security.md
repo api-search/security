@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Staff Augmentation
 - Nearshore
-- LATAM
+- Latin America
 - Recruiting
 - Startup Advisory
 ---

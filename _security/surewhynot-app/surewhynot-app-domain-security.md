@@ -282,5 +282,5 @@ tags:
 - Software
 - Holding
 - Privacy
-- Products
+- Product
 ---

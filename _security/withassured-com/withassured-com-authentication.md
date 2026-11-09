@@ -34,6 +34,6 @@ tags:
 - Company
 - Healthcare
 - Credentialing
-- AI
+- Artificial Intelligence
 - Platform
 ---

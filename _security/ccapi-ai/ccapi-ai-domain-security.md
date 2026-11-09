@@ -150,9 +150,8 @@ source_yaml_url: https://artifacts.apis.io/ccapi-ai/security/ccapi-ai-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- API
-- Gateway
+- Artificial Intelligence
+- Gateways
 - Models
 - Platform
 ---

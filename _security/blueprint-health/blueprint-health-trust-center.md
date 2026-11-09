@@ -19,10 +19,10 @@ source_yaml: "generated: '2026-10-21'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/blueprint-health/security/blueprint-health-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- HealthTech
-- AI
+- Health Tech
+- Artificial Intelligence
 - Therapy
-- SaaS
-- MentalHealth
+- Software-as-a-Service
+- Mental Health
 trust_url: https://www.blueprint.ai/
 ---

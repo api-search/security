@@ -26,7 +26,8 @@ tags:
 - Content Delivery
 - Storage
 - Webhook
-- Authentication
+- OAuth
 - Media and Entertainment
+- Authentication
 trust_url: https://trust.signiant.com/
 ---

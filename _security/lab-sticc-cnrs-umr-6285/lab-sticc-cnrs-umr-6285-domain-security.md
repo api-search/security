@@ -33,6 +33,6 @@ tags:
 - Research
 - Laboratory
 - CNRS
-- InformationTechnology
+- Information Technology
 - France
 ---

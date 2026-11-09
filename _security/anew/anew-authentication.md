@@ -45,18 +45,18 @@ source_yaml_url: https://artifacts.apis.io/anew/authentication/anew-authenticati
 summary_line: 0 schemes
 tags:
 - HTML
-- webpage
+- Webpage
 - Websites
 - URLs
-- encode
+- Encode
 - Share
 - Web Publishing
 - Developer Tools
 - MCP
 - A2A
 - AI / Agent Tooling
-- llms-txt
-- agents-txt
+- Llms.txt
+- Agents.txt
 - Agent Skills
 - WebMCP
 - OpenAPI

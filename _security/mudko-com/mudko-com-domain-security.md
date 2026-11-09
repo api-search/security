@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/mudko-com/security/mudko-com-domain-s
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- AI
-- AgentReady
-- WebTools
+- Artificial Intelligence
+- Agent Ready
 - Automation
 ---

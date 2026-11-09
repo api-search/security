@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/fizzl-eu/security/fizzl-eu-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Payments
 - Automation
 - Tools

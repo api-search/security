@@ -91,7 +91,7 @@ source_yaml_url: https://artifacts.apis.io/sarnai-dev/security/sarnai-dev-domain
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Directory
 - Platform

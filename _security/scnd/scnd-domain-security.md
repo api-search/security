@@ -36,7 +36,8 @@ tags:
 - Services
 - Vendor Management
 - Payments
-- Authentication
+- OAuth
 - Software-as-a-Service
 - Procurement
+- Authentication
 ---

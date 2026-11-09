@@ -65,25 +65,38 @@ provider_name: Azure Pipelines
 provider_slug: microsoft-azure-pipelines
 scheme_count: 2
 schemes:
-- description: Azure AD OAuth 2.0 bearer token with vso.build scope
+- description: Azure AD OAuth 2.0 bearer token obtained through the authorization code flow with scope vso.build
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/azure-pipelines-build-api-openapi.yml
-  - openapi/azure-pipelines-rest-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-builds-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-logs-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-runs-api-openapi.yml
   type: http
-- description: Basic authentication using a Personal Access Token (PAT)
+- description: Basic authentication using a Personal Access Token (PAT). Use any string as the username and the PAT as the password, then base64-encode the result.
   name: basicAuth
   scheme: basic
   sources:
-  - openapi/azure-pipelines-build-api-openapi.yml
-  - openapi/azure-pipelines-rest-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-builds-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-logs-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml
+  - openapi/microsoft-azure-pipelines-runs-api-openapi.yml
   type: http
 slug: microsoft-azure-pipelines-authentication
 source_filename: microsoft-azure-pipelines-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-pipelines-build-api-openapi.yml, openapi/azure-pipelines-rest-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Azure AD OAuth 2.0 bearer token with vso.build scope\n  sources:\n  - openapi/azure-pipelines-build-api-openapi.yml\n  - openapi/azure-pipelines-rest-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Basic authentication using a Personal Access Token (PAT)\n  sources:\n  - openapi/azure-pipelines-build-api-openapi.yml\n  - openapi/azure-pipelines-rest-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml, openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml,\n  openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml, openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml,\n  openapi/microsoft-azure-pipelines-builds-api-openapi.yml, openapi/microsoft-azure-pipelines-logs-api-openapi.yml,\n  openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml, openapi/microsoft-azure-pipelines-runs-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: Azure AD OAuth 2.0 bearer token obtained through the authorization code flow\n    with scope vso.build\n  sources:\n  - openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml\n\
+  \  - openapi/microsoft-azure-pipelines-builds-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-logs-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-runs-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: Basic authentication using a Personal Access Token (PAT). Use any string as the\n    username and the PAT as the password, then base64-encode the result.\n  sources:\n  - openapi/microsoft-azure-pipelines-artifacts-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-build-artifacts-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-build-definitions-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-build-tags-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-builds-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-logs-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-pipelines-api-openapi.yml\n  - openapi/microsoft-azure-pipelines-runs-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-pipelines/authentication/microsoft-azure-pipelines-authentication.yml
 summary_line: http · 2 schemes
 tags:

@@ -38,8 +38,8 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - VRM
-- VendorRiskManagement
-- SaaS
+- Third-Party Risk Management
+- Software-as-a-Service
 - Healthcare
 - Finance
 ---

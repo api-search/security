@@ -110,8 +110,8 @@ source_yaml_url: https://artifacts.apis.io/giljo-ai/security/giljo-ai-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - Collaboration
 - Platform
 ---

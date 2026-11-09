@@ -34,6 +34,6 @@ tags:
 - Company
 - Payments
 - Africa
-- FinTech
-- E‑commerce
+- Fintech
+- E-Commerce
 ---

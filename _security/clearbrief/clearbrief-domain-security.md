@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/clearbrief/security/clearbrief-domain
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- LegalTech
-- AI
-- DocumentAutomation
+- Legal Tech
+- Artificial Intelligence
+- Document Automation
 - CitationChecking
-- MicrosoftWord
+- Microsoft Word
 ---

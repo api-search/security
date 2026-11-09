@@ -38,9 +38,8 @@ source_yaml_url: https://artifacts.apis.io/inboxpolicy-com/security/inboxpolicy-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- EmailVerification
-- API
-- AI
+- Email Verification
+- Artificial Intelligence
 - Payments
 - Pricing
 ---

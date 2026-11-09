@@ -70,6 +70,7 @@ tags:
 - Business Filings
 - Regulatory
 - Webhook
+- OAuth
 - Authentication
 trust_url: https://www.singlefile.ai/
 ---

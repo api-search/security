@@ -105,11 +105,26 @@
       {%- for c in sec.curl %}
       <div class="apimcp-curl">
         <span class="apimcp-label">{{ c.label }}</span>
+        {%- if c.paid_path %}
+        <pre><code class="apimcp-paid" data-p="{{ c.paid_path | replace: '__SLUG__', slug }}"></code></pre>
+        {%- else %}
         <pre><code>{{ c.cmd | replace: '__SLUG__', slug }}</code></pre>
+        {%- endif %}
       </div>
       {%- endfor %}
     </details>
-    <p>Discovery needs no key. Ratings and market analysis are Pro.</p>
+    <script>
+      /* roadmap#1080: paid examples carry only a path, so crawlers cannot lift a URL from the
+         page text and fetch it unkeyed. Assembled here when the reader opens the card. */
+      document.querySelectorAll('.apimcp-card details').forEach(function (d) {
+        d.addEventListener('toggle', function () {
+          d.querySelectorAll('code.apimcp-paid:empty').forEach(function (el) {
+            el.textContent = 'curl "' + '{{ S.api_base }}/' + el.getAttribute('data-p') + '" \\\n  -H "X-API-Key: $APIS_IO_KEY"';
+          });
+        }, { once: true });
+      });
+    </script>
+    <p>Calls without <code>X-API-Key</code> need no key. Calls with it need a paid plan &mdash; <a href="{{ S.account }}?access=1">get a key</a>.</p>
   </div>
   {%- endif -%}
 

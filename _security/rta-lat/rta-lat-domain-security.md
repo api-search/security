@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/rta-lat/security/rta-lat-domain-secur
 summary_line: TLSv1.3
 tags:
 - Privacy
-- Zero-Knowledge
-- Proof-of-Concept
+- Zero Knowledge
+- Proof of Concept
 - Blockchain
-- API
 ---

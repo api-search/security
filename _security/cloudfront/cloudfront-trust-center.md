@@ -215,6 +215,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/cloudfront/security/cloudfront-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
+- Amazon Web Services
 - CDN
 - Caching
 - Content Delivery

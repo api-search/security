@@ -60,7 +60,7 @@ tags:
 - Blockchain
 - Cryptocurrency
 - TRON
-- DeFi infrastructure
+- DeFi Infrastructure
 - Stablecoins
 - USDT
 - TRC-20

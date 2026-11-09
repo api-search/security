@@ -34,6 +34,5 @@ tags:
 - Company
 - Banking
 - Software
-- FinTech
-- API
+- Fintech
 ---

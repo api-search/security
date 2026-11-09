@@ -34,7 +34,7 @@ tags:
 - Company
 - Software Development
 - Custom Development
-- SaaS
+- Software-as-a-Service
 - Latvia
 - Open Source
 ---

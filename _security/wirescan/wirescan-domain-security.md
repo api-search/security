@@ -34,6 +34,6 @@ tags:
 - Company
 - Monitoring
 - Infrastructure
-- DataAnalytics
+- Data Analytics
 - Norway
 ---

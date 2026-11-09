@@ -39,7 +39,7 @@ tags:
 - Company
 - Pharmacogenomics
 - MCP
-- AI-agents
+- AI Agents
 - Genomics
 - Healthcare
 ---

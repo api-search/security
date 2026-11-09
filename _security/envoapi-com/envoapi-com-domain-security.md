@@ -40,7 +40,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Enrichment
 - B2B
-- API
 - LinkedIn
 - Email Verification
 ---

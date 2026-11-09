@@ -74,9 +74,8 @@ source_yaml_url: https://artifacts.apis.io/signatureapi-com/security/signatureap
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- ElectronicSignature
-- API
-- SaaS
+- E-Signature
+- Software-as-a-Service
 - Compliance
 - Automation
 ---

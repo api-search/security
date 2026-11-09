@@ -31,10 +31,10 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/composite/security/composite-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Browser
-- SaaS
+- Software-as-a-Service
 - Productivity
 - Company
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/star-micronics/authentication/star-mi
 summary_line: 0 schemes
 tags:
 - Company
-- POS
+- Point-of-Sale
 - Hardware
 - Printing
 - Cloud

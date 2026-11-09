@@ -34,6 +34,6 @@ tags:
 - Company
 - Marketing
 - Advertising
-- Affiliate
-- DataAnalytics
+- Affiliates
+- Data Analytics
 ---

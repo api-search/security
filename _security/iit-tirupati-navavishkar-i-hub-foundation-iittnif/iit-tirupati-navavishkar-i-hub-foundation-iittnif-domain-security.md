@@ -35,5 +35,5 @@ tags:
 - Technology
 - Innovation
 - Research
-- Startup
+- Startups
 ---

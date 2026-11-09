@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/the2410-com/authentication/the2410-co
 summary_line: 0 schemes
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - B2B
 - Web Development
-- AI
+- Artificial Intelligence
 - Automation
 ---

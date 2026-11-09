@@ -57,8 +57,7 @@ source_yaml_url: https://artifacts.apis.io/logokit-com/security/logokit-com-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
-- Logos
+- Logo
 - Branding
 - Data
 ---

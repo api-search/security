@@ -28,7 +28,7 @@ summary_line: PCI DSS, GDPR
 tags:
 - Company
 - Networking
-- Jobs
+- Job
 - Recruiters
 - Europe
 trust_url: https://privacy.xing.com/en/your-security

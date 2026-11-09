@@ -134,8 +134,8 @@ source_yaml_url: https://artifacts.apis.io/beatapi/security/beatapi-domain-secur
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
-- Unified-API
-- Data-Integration
+- Unified API
+- Data Integration
 ---

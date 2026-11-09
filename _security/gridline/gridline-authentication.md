@@ -99,10 +99,10 @@ summary_line: 3 schemes
 tags:
 - Company
 - Onboarding
-- IdentityVerification
+- Identity Verification
 - KYC
 - eSigning
-- FraudDetection
+- Fraud Prevention
 - VideoKYC
 - DigitalOnboarding
 - Fintech

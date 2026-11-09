@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Agriculture
 - Irrigation
-- Smart Farming
+- Smart Agriculture
 - IoT
 - Water Management
 - Canada

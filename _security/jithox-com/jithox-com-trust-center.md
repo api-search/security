@@ -51,9 +51,9 @@ source_yaml_url: https://artifacts.apis.io/jithox-com/security/jithox-com-trust-
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- BackOffice
+- Back Office
 - Tools
 trust_url: https://jithox.com/trust
 ---

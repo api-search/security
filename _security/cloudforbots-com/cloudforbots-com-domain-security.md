@@ -141,7 +141,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Bot
-- AI
+- Artificial Intelligence
 - Platform
 - Sandbox
 - MCP

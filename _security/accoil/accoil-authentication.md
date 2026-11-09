@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: accoil-accoil-api-api-openapi.yml
-  format: yaml
-  label: Accoil API
-  slug: accoil-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/accoil/openapi/accoil-accoil-api-api-openapi.yml
 - filename: accoil-openapi-generated.yml
   format: yaml
   label: Accoil API
@@ -52,6 +46,6 @@ tags:
 - Retention
 - Expansion
 - Customer Success
-- Playbook
+- Playbooks
 - Analytics
 ---

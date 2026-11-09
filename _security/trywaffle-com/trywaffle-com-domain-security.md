@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/trywaffle-com/security/trywaffle-com-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Insurance
-- FinTech
-- API
-- SaaS
+- Fintech
+- Software-as-a-Service
 - Consumer
 ---

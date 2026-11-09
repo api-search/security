@@ -113,7 +113,8 @@ tags:
 - Music
 - Streaming
 - Audio
-- Authentication
+- OAuth
 - Catalog
 - Playlists
+- Authentication
 ---

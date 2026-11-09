@@ -31,8 +31,8 @@ summary_line: 0 schemes
 tags:
 - Construction
 - Security
-- AI
+- Artificial Intelligence
 - Video
 - Monitoring
-- SaaS
+- Software-as-a-Service
 ---

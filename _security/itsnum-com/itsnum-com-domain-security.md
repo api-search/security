@@ -39,8 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Travel
 - eSIM
-- Telecom
+- Telecommunications
 - Marketplace
-- API
 - Company
 ---

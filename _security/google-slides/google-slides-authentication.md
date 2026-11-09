@@ -20,7 +20,7 @@ description: ''
 kind: authentication
 layout: security
 mechanism_count: 1
-method: derived
+method: searched
 name: Google Slides Authentication
 name_suffix: Authentication
 oauth_flows:
@@ -38,13 +38,14 @@ schemes:
     tokenUrl: https://oauth2.googleapis.com/token
   name: OAuth2
   sources:
-  - openapi/google-slides-api-openapi.yml
+  - openapi/google-slides-presentations-api-openapi.yml
+  - https://developers.google.com/workspace/slides/api/guides/authorizing
   type: oauth2
 slug: google-slides-authentication
 source_filename: google-slides-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-slides-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 7\n  description: Google OAuth 2.0 authentication. Requires one of the following scopes depending\n    on the operation.\n  sources:\n  - openapi/google-slides-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: searched\nsource: https://developers.google.com/workspace/slides/api/guides/authorizing\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  sources:\n  - openapi/google-slides-presentations-api-openapi.yml\n  - openapi/google-slides-pages-api-openapi.yml\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 7\n  description: Google OAuth 2.0 authentication. Requires one of the following scopes\n    depending on the operation.\n  sources:\n  - openapi/google-slides-presentations-api-openapi.yml\n  - https://developers.google.com/workspace/slides/api/guides/authorizing\ndocs: https://developers.google.com/workspace/guides/auth-overview\n"
 source_yaml_url: https://artifacts.apis.io/google-slides/authentication/google-slides-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

@@ -75,8 +75,8 @@ source_yaml_url: https://artifacts.apis.io/zaptec/security/zaptec-domain-securit
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- EVCharging
-- SmartCharging
+- EV Charging
+- Smart Charging
 - Energy
 - Sustainability
 - Platform

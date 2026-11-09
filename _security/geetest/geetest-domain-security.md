@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/geetest/security/geetest-domain-secur
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Security
-- BotManagement
+- Bot Management
 - CAPTCHA
-- FraudPrevention
+- Fraud Prevention
 - Enterprise
 ---

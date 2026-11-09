@@ -123,9 +123,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/agentboxd-com/security/agentboxd-com-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Email
-- API
 - Messaging
 - Beta
 trust_url: https://agentboxd.com/security

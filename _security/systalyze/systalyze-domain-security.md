@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/systalyze/security/systalyze-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- GenAI
+- Generative AI
 - Infrastructure
 - GPU
 - Optimization

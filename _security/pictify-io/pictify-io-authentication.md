@@ -44,6 +44,42 @@ api_specs:
   slug: pictify-io-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/pictify-io/openapi/pictify-io-webhooks-api-openapi.yml
+- filename: pictify-io-gif-api-openapi.yml
+  format: yaml
+  label: pictify-io Gif API
+  slug: pictify-io-gif-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/pictify-io/openapi/pictify-io-gif-api-openapi.yml
+- filename: pictify-io-image-api-openapi.yml
+  format: yaml
+  label: pictify-io Image API
+  slug: pictify-io-image-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/pictify-io/openapi/pictify-io-image-api-openapi.yml
+- filename: pictify-io-pdf-api-openapi.yml
+  format: yaml
+  label: pictify-io PDF API
+  slug: pictify-io-pdf-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/pictify-io/openapi/pictify-io-pdf-api-openapi.yml
+- filename: pictify-io-r-api-openapi.yml
+  format: yaml
+  label: pictify-io R API
+  slug: pictify-io-r-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/pictify-io/openapi/pictify-io-r-api-openapi.yml
+- filename: pictify-io-video-api-openapi.yml
+  format: yaml
+  label: pictify-io Video API
+  slug: pictify-io-video-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/pictify-io/openapi/pictify-io-video-api-openapi.yml
+- filename: pictify-io-webhook-subscriptions-api-openapi.yml
+  format: yaml
+  label: pictify-io Webhook Subscriptions API
+  slug: pictify-io-webhook-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/pictify-io/openapi/pictify-io-webhook-subscriptions-api-openapi.yml
 auth_types: []
 description: All API requests require authentication using an API key passed in the `Authorization` header.
 kind: authentication
@@ -74,7 +110,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Media
-- API
 - Templating
 - Automation
 ---

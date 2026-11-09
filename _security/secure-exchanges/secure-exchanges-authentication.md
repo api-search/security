@@ -31,7 +31,7 @@ summary_line: 2 schemes
 tags:
 - Secure Document Exchange
 - Email Encryption
-- Digital Signatures
+- Digital Signature
 - Compliance
 - File Transfer
 ---

@@ -35,5 +35,7 @@ tags:
 - ESG
 - AI Governance
 - Software-as-a-Service
+- Artificial Intelligence
+- Enterprise
 trust_url: https://trust.optro.ai/
 ---

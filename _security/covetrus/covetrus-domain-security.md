@@ -34,5 +34,5 @@ tags:
 - Veterinary
 - Software
 - Pharmacy
-- Client-Communication
+- Client Communication
 ---

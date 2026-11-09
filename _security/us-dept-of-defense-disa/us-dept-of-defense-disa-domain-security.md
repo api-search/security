@@ -36,8 +36,4 @@ tags:
 - Government
 - Cybersecurity
 - IT Services
-- Defense
-- Government
-- Cybersecurity
-- IT Services
 ---

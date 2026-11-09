@@ -42,5 +42,5 @@ tags:
 - Payments
 - Cryptocurrency
 - Africa
-- ePOS
+- EPOS
 ---

@@ -2,6 +2,18 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
+- filename: unulu-ai-claims-api-openapi.yml
+  format: yaml
+  label: unulu-ai Claims API
+  slug: unulu-ai-claims-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/unulu-ai/openapi/unulu-ai-claims-api-openapi.yml
+- filename: unulu-ai-feature-votes-api-openapi.yml
+  format: yaml
+  label: unulu-ai Feature Votes API
+  slug: unulu-ai-feature-votes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/unulu-ai/openapi/unulu-ai-feature-votes-api-openapi.yml
 - filename: unulu-ai-sites-api-openapi.yml
   format: yaml
   label: unulu-ai Sites API
@@ -33,9 +45,7 @@ source_yaml_url: https://artifacts.apis.io/unulu-ai/authentication/unulu-ai-auth
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- Link-in-Bio
-- API
+- Artificial Intelligence
+- Link in Bio
 - MCP
-- Platform
 ---

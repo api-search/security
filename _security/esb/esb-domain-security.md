@@ -34,6 +34,6 @@ tags:
 - Energy
 - Utilities
 - Ireland
-- Renewable
-- Telecom
+- Renewables
+- Telecommunications
 ---

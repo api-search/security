@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/charm/security/charm-domain-security.
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- OpenSource
-- DeveloperTools
+- Open Source
+- Developer Tools
 - CLI
 - Go
 ---

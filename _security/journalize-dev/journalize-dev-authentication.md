@@ -116,7 +116,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Accounting
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 - Ledger
 ---

@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: microsoft-playwright-accountquotas-api-openapi.yml
+  format: yaml
+  label: Microsoft Playwright Account Quotas API
+  slug: microsoft-playwright-accountquotas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-playwright/openapi/microsoft-playwright-accountquotas-api-openapi.yml
+- filename: microsoft-playwright-accounts-api-openapi.yml
+  format: yaml
+  label: Microsoft Playwright Accounts API
+  slug: microsoft-playwright-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-playwright/openapi/microsoft-playwright-accounts-api-openapi.yml
+- filename: microsoft-playwright-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Playwright Operations API
+  slug: microsoft-playwright-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-playwright/openapi/microsoft-playwright-operations-api-openapi.yml
+- filename: microsoft-playwright-quotas-api-openapi.yml
+  format: yaml
+  label: Microsoft Playwright Quotas API
+  slug: microsoft-playwright-quotas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-playwright/openapi/microsoft-playwright-quotas-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -54,4 +79,7 @@ tags:
 - End-to-End Testing
 - Microsoft
 - Testing
+- Open Source
+- MCP
+- Microsoft Azure
 ---

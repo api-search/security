@@ -28,8 +28,8 @@ source_yaml_url: https://artifacts.apis.io/judo-app/security/judo-app-domain-sec
 summary_line: DMARC
 tags:
 - Company
-- No-code
+- No-Code
 - SwiftUI
 - Mobile
-- DeveloperTools
+- Developer Tools
 ---

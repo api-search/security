@@ -45,7 +45,7 @@ source_yaml_url: https://artifacts.apis.io/inkstudioai-com/authentication/inkstu
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tattoo
 - Design
 - Generator

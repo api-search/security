@@ -26,9 +26,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: searched\nsource: https://raw.git
 source_yaml_url: https://artifacts.apis.io/opendtu/authentication/opendtu-authentication.yml
 summary_line: 1 scheme
 tags:
-- solar
-- firmware
-- open-source
-- iot
-- energy-monitoring
+- Solar
+- Firmware
+- Open Source
+- IoT
+- Energy Monitoring
 ---

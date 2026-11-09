@@ -29,7 +29,6 @@ tags:
 - Company
 - Travel
 - Fintech
-- API
 - Concierge
 - Banking
 ---

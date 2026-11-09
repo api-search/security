@@ -35,6 +35,6 @@ tags:
 - Education
 - Canada
 - Montreal
-- HigherEducation
+- Higher Education
 - Company
 ---

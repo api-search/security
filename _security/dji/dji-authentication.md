@@ -42,7 +42,6 @@ tags:
 - Aerial Imaging
 - Robotics
 - SDK
-- Cloud API
 - Geospatial
 - Hardware
 - Enterprise

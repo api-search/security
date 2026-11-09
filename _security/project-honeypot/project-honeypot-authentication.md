@@ -27,7 +27,7 @@ source_yaml: "generated: '2026-10-28'\nmethod: searched\nsource: https://project
 source_yaml_url: https://artifacts.apis.io/project-honeypot/authentication/project-honeypot-authentication.yml
 summary_line: 1 scheme
 tags:
-- Anti‑Spam
+- Anti-Spam
 - Security
 - Community
 - Fraud Prevention

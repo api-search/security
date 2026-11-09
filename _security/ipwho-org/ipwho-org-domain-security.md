@@ -38,6 +38,5 @@ summary_line: TLSv1.3
 tags:
 - Company
 - IP Geolocation
-- Developer-Friendly
 - Free Tier
 ---

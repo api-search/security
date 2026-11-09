@@ -34,6 +34,6 @@ tags:
 - MCP
 - Google Search Console
 - Google Analytics
-- AI Assistants
-- SaaS
+- AI Assistant
+- Software-as-a-Service
 ---

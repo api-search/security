@@ -46,8 +46,7 @@ source_yaml_url: https://artifacts.apis.io/tessio-eu/authentication/tessio-eu-au
 summary_line: 1 scheme
 tags:
 - Company
-- AgeVerification
+- Age Verification
 - EU
-- API
 - Identity
 ---

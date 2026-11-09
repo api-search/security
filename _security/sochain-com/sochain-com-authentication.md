@@ -1,95 +1,38 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: sochain-com-account-api-openapi.yml
-  format: yaml
-  label: sochain-com Account API
-  slug: sochain-com-account-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/sochain-com/openapi/sochain-com-account-api-openapi.yml
-- filename: sochain-com-addresses-api-openapi.yml
-  format: yaml
-  label: sochain-com Addresses API
-  slug: sochain-com-addresses-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/sochain-com/openapi/sochain-com-addresses-api-openapi.yml
-- filename: sochain-com-blocks-api-openapi.yml
-  format: yaml
-  label: sochain-com Blocks API
-  slug: sochain-com-blocks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/sochain-com/openapi/sochain-com-blocks-api-openapi.yml
-- filename: sochain-com-buckets-api-openapi.yml
-  format: yaml
-  label: sochain-com Buckets API
-  slug: sochain-com-buckets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/sochain-com/openapi/sochain-com-buckets-api-openapi.yml
-- filename: sochain-com-charts-api-openapi.yml
-  format: yaml
-  label: sochain-com Charts API
-  slug: sochain-com-charts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/sochain-com/openapi/sochain-com-charts-api-openapi.yml
-- filename: sochain-com-network-price-api-openapi.yml
-  format: yaml
-  label: sochain-com Network & price API
-  slug: sochain-com-network-price-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/sochain-com/openapi/sochain-com-network-price-api-openapi.yml
-- filename: sochain-com-sochain-api-api-openapi.yml
-  format: yaml
-  label: sochain-com SoChain API
-  slug: sochain-com-sochain-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/sochain-com/openapi/sochain-com-sochain-api-api-openapi.yml
-- filename: sochain-com-transactions-api-openapi.yml
-  format: yaml
-  label: sochain-com Transactions API
-  slug: sochain-com-transactions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/sochain-com/openapi/sochain-com-transactions-api-openapi.yml
-- filename: sochain-com-webhooks-api-openapi.yml
-  format: yaml
-  label: sochain-com Webhooks API
-  slug: sochain-com-webhooks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/sochain-com/openapi/sochain-com-webhooks-api-openapi.yml
 auth_types: []
-description: ''
+description: Authentication is performed by sending an API key.
 kind: authentication
 layout: security
-mechanism_count: 2
+mechanism_count: 1
 method: searched
 name: Sochain Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: sochain-com declares 2 security scheme(s) across its OpenAPI definitions.
+overview: sochain-com declares 1 security scheme(s) across its OpenAPI definitions.
 provider_name: sochain-com
 provider_slug: sochain-com
-scheme_count: 2
+scheme_count: 1
 schemes:
-- description: Your key, from the dashboard.
-  in: header
+- evidence: Send your API key in the API-KEY header (lookups also work without one).
+  header: API-KEY
+  how_to_obtain: Sign in with your email, receive an 8‑digit code, and copy the key shown on the dashboard.
+  location: header
   name: API-KEY
-  type: apiKey
-- description: Your key as a URL parameter, for lookups (GET) from tools that can't send a header.
-  in: query
-  name: api_key
   type: apiKey
 slug: sochain-com-authentication
 source_filename: sochain-com-authentication.yml
 source_heading: Authentication Profile
-source_url: ''
-source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://sochain.com/docs/authentication\nschemes:\n  - type: apiKey\n    name: API-KEY\n    in: header\n    description: Your key, from the dashboard.\n  - type: apiKey\n    name: api_key\n    in: query\n    description: Your key as a URL parameter, for lookups (GET) from tools that can't send a header.\n"
+source_url: https://sochain.com/docs/authentication
+source_yaml: "generated: '2026-10-31'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://sochain.com/docs/authentication\nsources:\n- https://sochain.com/docs/authentication\n- https://dev.sochain.com/signin\n- https://dev.sochain.com/signin?next=%2Fdashboard\n- https://sochain.com/docs\ndescription: Authentication is performed by sending an API key.\nschemes:\n- type: apiKey\n  name: API-KEY\n  evidence: Send your API key in the API-KEY header (lookups also work without one).\n  location: header\n  header: API-KEY\n  how_to_obtain: Sign in with your email, receive an 8‑digit code, and copy the key shown on the dashboard.\nnote: 'The header can also be sent as X-API-Key or Authorization: Bearer, but the primary documented name is API-KEY.'\ndocs: https://sochain.com/docs/authentication\n"
 source_yaml_url: https://artifacts.apis.io/sochain-com/authentication/sochain-com-authentication.yml
-summary_line: 2 schemes
+summary_line: 1 scheme
 tags:
-- Company
 - Blockchain
 - Explorer
-- API
-- Cryptocurrency
-- Finance
+- Bitcoin
+- Litecoin
+- Dogecoin
+- Zcash
 ---

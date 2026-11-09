@@ -88,8 +88,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Email
-- Disposable-Email
-- API
+- Disposable Email
 - Security
-- Fraud-Prevention
+- Fraud Prevention
 ---

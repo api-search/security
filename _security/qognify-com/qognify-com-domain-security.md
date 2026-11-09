@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/qognify-com/security/qognify-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- PublicSafety
-- PhysicalSecurity
-- VideoAnalytics
-- AI
+- Public Safety
+- Physical Security
+- Video Analytics
+- Artificial Intelligence
 - Enterprise
 ---

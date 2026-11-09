@@ -31,6 +31,6 @@ summary_line: 1 scheme
 tags:
 - Lifecycle Management
 - Kubernetes
-- Cloud Native
+- Cloud-Native
 - Enterprise Software
 ---

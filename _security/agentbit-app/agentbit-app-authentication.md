@@ -80,7 +80,7 @@ source_yaml_url: https://artifacts.apis.io/agentbit-app/authentication/agentbit-
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tools
 - Pay-per-call
 - Data

@@ -29,7 +29,6 @@ summary_line: DMARC
 tags:
 - Company
 - Technology
-- Startup
-- API
+- Startups
 - Platform
 ---

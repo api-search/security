@@ -33,6 +33,6 @@ tags:
 - Bot Detection
 - Analytics
 - Security
-- AI
+- Artificial Intelligence
 - Web
 ---

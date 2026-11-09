@@ -102,9 +102,9 @@ source_yaml_url: https://artifacts.apis.io/evcc/authentication/evcc-authenticati
 summary_line: 2 schemes
 tags:
 - Company
-- EV
-- SmartCharging
-- OpenSource
-- EnergyManagement
-- HomeAutomation
+- Electric Vehicles
+- Smart Charging
+- Open Source
+- Energy Management
+- Home Automation
 ---

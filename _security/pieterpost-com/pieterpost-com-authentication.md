@@ -36,7 +36,6 @@ tags:
 - Mail
 - Postal
 - Printing
-- API
 - Letters
 - Postcards
 ---

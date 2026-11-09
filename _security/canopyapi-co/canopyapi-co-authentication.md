@@ -36,7 +36,6 @@ tags:
 - Company
 - Amazon
 - Data
-- API
-- E-commerce
+- E-Commerce
 - Pricing
 ---

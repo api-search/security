@@ -40,4 +40,7 @@ tags:
 - ESG
 - KYC
 - Supplier Onboarding
+- Identity
+- Verification
+- Fraud Prevention
 ---

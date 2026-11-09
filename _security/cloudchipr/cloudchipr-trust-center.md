@@ -85,6 +85,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/cloudchipr/security/cloudchipr-trust-center.yml
 summary_line: SOC 2
 tags:
+- Amazon Web Services
 - Microsoft Azure
 - Cloud Cost Management
 - Cost Optimization

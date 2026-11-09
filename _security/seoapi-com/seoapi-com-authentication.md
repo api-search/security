@@ -33,8 +33,6 @@ summary_line: 0 schemes
 tags:
 - SEO
 - Bots
-- API
-- WebTools
 - Data
 - Company
 ---

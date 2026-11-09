@@ -36,6 +36,5 @@ tags:
 - Insurance
 - Compliance
 - Contractors
-- API
-- WorkersComp
+- Workers Comp
 ---

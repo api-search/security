@@ -226,7 +226,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - B2B
-- LoanManagement
-- FinTech
-- APIPlatform
+- Loan Management
+- Fintech
+- API Platform
 ---

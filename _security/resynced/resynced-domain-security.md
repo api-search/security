@@ -31,7 +31,6 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Data Integration
-- APIs
 - Automation
 - Cloud Services
 ---

@@ -29,7 +29,7 @@ tags:
 - Company
 - Data Governance
 - Analytics
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 trust_url: https://www.avo.app/security
 ---

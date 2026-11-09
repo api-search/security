@@ -78,7 +78,7 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/aipricinghub-com/authentication/aipricinghub-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Pricing
 - Data
 - Analytics

@@ -22,8 +22,8 @@ source_yaml_url: https://artifacts.apis.io/vishwa/security/vishwa-trust-center.y
 summary_line: SOC 2, ISO 27001, GDPR, FIPS 140
 tags:
 - Company
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 - Underwriting
 - Credit
 trust_url: https://www.vishwa.ai/security

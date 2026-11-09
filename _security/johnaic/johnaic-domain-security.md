@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/johnaic/security/johnaic-domain-secur
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Infrastructure
 - Sovereign
 - Enterprise

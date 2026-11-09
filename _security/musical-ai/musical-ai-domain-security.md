@@ -40,8 +40,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Music
-- AI
+- Artificial Intelligence
 - Attribution
-- RightsManagement
-- GenerativeAI
+- Rights Management
+- Generative AI
 ---

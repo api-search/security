@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/junct-dev/security/junct-dev-domain-s
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - MCP
 - API Tools
 - Platform

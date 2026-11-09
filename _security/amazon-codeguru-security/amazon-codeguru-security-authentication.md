@@ -82,6 +82,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-codeguru-security/authenticati
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon
+- Amazon Web Services
 - Security
 - SAST
 - Code Analysis

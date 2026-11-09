@@ -37,8 +37,7 @@ source_yaml_url: https://artifacts.apis.io/jackett/authentication/jackett-authen
 summary_line: 1 scheme
 tags:
 - Company
-- OpenSource
+- Open Source
 - Torrent
 - Proxy
-- API
 ---

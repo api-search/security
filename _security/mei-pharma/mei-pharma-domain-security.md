@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-10-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/mei-pharma/security/mei-pharma-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- biotech
-- pharma
-- investment
-- therapeutics
-- digital-health
+- Biotechnology
+- Pharma
+- Investment
+- Therapeutics
+- Digital Health
 ---

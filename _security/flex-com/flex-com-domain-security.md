@@ -34,6 +34,6 @@ tags:
 - Company
 - Manufacturing
 - Hardware
-- Supply-Chain
+- Supply Chain
 - Technology
 ---

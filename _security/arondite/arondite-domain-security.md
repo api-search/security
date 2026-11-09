@@ -34,7 +34,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Defense
-- Defence Technology
+- Defense Technology
 - Military
 - Situational Awareness
 - Mission Orchestration

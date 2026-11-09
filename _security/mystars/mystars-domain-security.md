@@ -66,7 +66,7 @@ tags:
 - Payments
 - Cryptocurrency
 - TON
-- fulfilment
+- Fulfilment
 - Blockchain
 - Digital Goods
 - reseller-api

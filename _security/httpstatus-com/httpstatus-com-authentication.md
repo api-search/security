@@ -31,8 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - HTTP
-- StatusCodes
-- DeveloperTools
-- API
-- OpenSource
+- Status-Codes
+- Developer Tools
+- Open Source
 ---

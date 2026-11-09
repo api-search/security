@@ -39,7 +39,7 @@ tags:
 - Company
 - Subscription
 - Finance
-- OpenSource
+- Open Source
 - Tracker
 - Personal
 ---

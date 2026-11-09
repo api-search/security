@@ -67,9 +67,10 @@ tags:
 - Fiber
 - Lumen
 - Networks
-- Authentication
+- OAuth
 - Quantum Fiber
 - SD-WAN
 - Telecommunications
 - Fortune 500
+- Authentication
 ---

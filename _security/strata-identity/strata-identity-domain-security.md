@@ -49,6 +49,7 @@ tags:
 - Authorization
 - SSO
 - Identity and Access Management
+- OAuth
 - SAML
 - OpenID Connect
 - AI Identity

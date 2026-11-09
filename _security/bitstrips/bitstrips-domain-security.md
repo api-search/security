@@ -49,6 +49,7 @@ tags:
 - Bitmoji
 - Messaging
 - Image
-- Authentication
+- OAuth
 - Social
+- Authentication
 ---

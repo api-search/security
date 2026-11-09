@@ -107,8 +107,8 @@ source_yaml_url: https://artifacts.apis.io/surfingdog-ai/authentication/surfingd
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- Agent-Ready
+- Artificial Intelligence
+- Agent Ready
 - Directory
 - Inbox
 ---

@@ -26,7 +26,8 @@ tags:
 - Pix
 - Brazil
 - FAPI
-- Authentication
+- OAuth
 - Financial Services
+- Authentication
 trust_url: https://trust.iniciador.com.br/
 ---

@@ -32,6 +32,5 @@ tags:
 - Company
 - Restaurant
 - Reservations
-- API
-- UK
+- United Kingdom
 ---

@@ -39,5 +39,5 @@ tags:
 - Formal Verification
 - Developer Tools
 - Safety Critical
-- Ada
+- ADA
 ---

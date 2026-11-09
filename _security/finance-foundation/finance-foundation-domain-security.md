@@ -134,7 +134,6 @@ summary_line: TLSv1.3
 tags:
 - Finance
 - Data
-- API
-- OpenData
-- AI
+- Open Data
+- Artificial Intelligence
 ---

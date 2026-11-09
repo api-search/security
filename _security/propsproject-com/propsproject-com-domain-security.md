@@ -28,8 +28,6 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Asset Management
-- API
-- Startup
+- Startups
 - Inventory
-- Developer Friendly
 ---

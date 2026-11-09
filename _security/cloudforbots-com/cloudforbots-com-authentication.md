@@ -139,7 +139,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Bot
-- AI
+- Artificial Intelligence
 - Platform
 - Sandbox
 - MCP

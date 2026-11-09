@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/twain/security/twain-domain-security.
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Outreach
 - Sales
 - Marketing

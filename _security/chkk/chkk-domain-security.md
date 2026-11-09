@@ -33,6 +33,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Lifecycle Management
 - Kubernetes
-- Cloud Native
+- Cloud-Native
 - Enterprise Software
 ---

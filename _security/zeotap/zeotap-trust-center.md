@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/zeotap/security/zeotap-trust-center.y
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR, CSA STAR
 tags:
 - Company
-- AI
-- Customer-Data-Platform
-- Data-Integration
-- Identity-Resolution
+- Artificial Intelligence
+- Customer Data Platform
+- Data Integration
+- Identity Resolution
 trust_url: https://trust.zeotap.com/
 ---

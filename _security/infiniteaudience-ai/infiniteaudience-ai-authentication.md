@@ -104,35 +104,42 @@ api_specs:
   slug: infiniteaudience-ai-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-workflows-api-openapi.yml
-auth_types:
-- http
+auth_types: []
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 1
-method: derived
+mechanism_count: 2
+method: searched
 name: Infiniteaudience Ai Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Infinite Audience secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+overview: Infinite Audience declares 2 security scheme(s) across its OpenAPI definitions.
 provider_name: Infinite Audience
 provider_slug: infiniteaudience-ai
-scheme_count: 1
+scheme_count: 2
 schemes:
-- bearerFormat: OAuth access token
-  description: Person-bound MCP OAuth bearer with the openid scope for UserInfo.
-  name: oidcBearer
-  scheme: bearer
-  sources:
-  - openapi/infiniteaudience-ai-openapi.yml
-  type: http
+- description: Bearer token obtained via API key or OAuth token.
+  in: header
+  name: Authorization
+  type: apiKey
+- description: OAuth 2.0 authorization code flow for partner applications.
+  flows:
+    authorizationCode:
+      authorizationUrl: https://api.infiniteaudience.ai/v1/oauth/authorize
+      scopes:
+        account: Trusted account management.
+        account-read: Read account usage and balance.
+        creator: Create or change segments/audiences.
+        discovery: Explore catalogs, counts and status.
+      tokenUrl: https://api.infiniteaudience.ai/v1/oauth/token
+  type: oauth2
 slug: infiniteaudience-ai-authentication
 source_filename: infiniteaudience-ai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-10-09'\nmethod: derived\nsource: openapi/infiniteaudience-ai-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: oidcBearer\n  type: http\n  scheme: bearer\n  bearerFormat: OAuth access token\n  description: Person-bound MCP OAuth bearer with the openid scope for UserInfo.\n  sources:\n  - openapi/infiniteaudience-ai-openapi.yml\n"
+source_yaml: "generated: '2026-11-02'\nmethod: searched\nsource: https://docs.infiniteaudience.ai/auth/\nschemes:\n  - type: apiKey\n    name: Authorization\n    in: header\n    description: Bearer token obtained via API key or OAuth token.\n  - type: oauth2\n    flows:\n      authorizationCode:\n        authorizationUrl: https://api.infiniteaudience.ai/v1/oauth/authorize\n        tokenUrl: https://api.infiniteaudience.ai/v1/oauth/token\n        scopes:\n          discovery: Explore catalogs, counts and status.\n          creator: Create or change segments/audiences.\n          account-read: Read account usage and balance.\n          account: Trusted account management.\n    description: OAuth 2.0 authorization code flow for partner applications.\n"
 source_yaml_url: https://artifacts.apis.io/infiniteaudience-ai/authentication/infiniteaudience-ai-authentication.yml
-summary_line: http · 1 scheme
+summary_line: 2 schemes
 tags:
 - Company
 - Identity Resolution

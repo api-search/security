@@ -45,8 +45,7 @@ source_yaml_url: https://artifacts.apis.io/botoi-com/authentication/botoi-com-au
 summary_line: 2 schemes
 tags:
 - Company
-- API
 - Tools
-- Developer
+- Developers
 - Free
 ---

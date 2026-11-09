@@ -34,8 +34,8 @@ tags:
 - Enterprise AI
 - Banking
 - Lending
-- Risk & Compliance
+- Risk and Compliance
 - Back Office
 - Insurance
-- AI Assistants
+- AI Assistant
 ---

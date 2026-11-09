@@ -19,9 +19,8 @@ source_yaml_url: https://artifacts.apis.io/songbrain-ai/security/songbrain-ai-tr
 summary_line: GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Music
 - Video
-- API
 trust_url: https://www.songbrain.ai/security
 ---

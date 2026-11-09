@@ -87,4 +87,8 @@ tags:
 - WebSocket
 - REST API
 - Real-Time
+- Fintech
+- Digital Assets
+- Cryptocurrency
+- Institutional
 ---

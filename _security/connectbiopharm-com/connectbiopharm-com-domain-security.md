@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
 - Biopharma
-- Clinical-stage
+- Clinical Stage
 - Asthma
 - COPD
 - Inflammatory Diseases

@@ -62,7 +62,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - B2B Payments
-- FinTech
+- Fintech
 - API Platform
 - Checkout
 - Trade Accounts

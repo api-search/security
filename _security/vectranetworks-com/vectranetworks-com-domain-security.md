@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Security
-- AI
-- Network
-- Threat-Detection
+- Artificial Intelligence
+- Networks
+- Threat Detection
 ---

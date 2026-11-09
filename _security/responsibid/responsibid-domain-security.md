@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Pricing
-- SalesSoftware
-- HomeServices
-- SaaS
+- Sales Software
+- Home Services
+- Software-as-a-Service
 ---

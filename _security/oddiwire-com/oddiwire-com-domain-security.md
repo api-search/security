@@ -33,6 +33,6 @@ tags:
 - Company
 - Esports
 - Odds
-- Real-time
+- Real-Time
 - Betting
 ---

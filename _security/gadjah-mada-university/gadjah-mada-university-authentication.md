@@ -219,6 +219,7 @@ tags:
 - Research
 - Identity Federation
 - Authentication
+- OAuth
 - Research Repository
 - Scholarly Publishing
 - OAI-PMH

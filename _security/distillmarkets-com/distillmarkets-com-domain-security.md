@@ -42,6 +42,5 @@ tags:
 - Finance
 - Data
 - SEC
-- API
-- AI
+- Artificial Intelligence
 ---

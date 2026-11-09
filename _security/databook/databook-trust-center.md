@@ -67,5 +67,7 @@ tags:
 - Agents
 - Reasoning
 - Company Data
+- Data Platform
+- Business Intelligence
 trust_url: https://trust.databook.com/
 ---

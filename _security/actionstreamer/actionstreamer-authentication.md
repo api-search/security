@@ -218,6 +218,54 @@ api_specs:
   slug: actionstreamer-wificonnection-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-wificonnection-api-openapi.yml
+- filename: actionstreamer-devicecapability-api-openapi.yml
+  format: yaml
+  label: ActionStreamer Device Capability API
+  slug: actionstreamer-devicecapability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-devicecapability-api-openapi.yml
+- filename: actionstreamer-mediaserver-api-openapi.yml
+  format: yaml
+  label: ActionStreamer Media Server API
+  slug: actionstreamer-mediaserver-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-mediaserver-api-openapi.yml
+- filename: actionstreamer-moq-api-openapi.yml
+  format: yaml
+  label: ActionStreamer Mo Q API
+  slug: actionstreamer-moq-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-moq-api-openapi.yml
+- filename: actionstreamer-moqstream-api-openapi.yml
+  format: yaml
+  label: ActionStreamer Moq Stream API
+  slug: actionstreamer-moqstream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-moqstream-api-openapi.yml
+- filename: actionstreamer-sensor-api-openapi.yml
+  format: yaml
+  label: ActionStreamer Sensor API
+  slug: actionstreamer-sensor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-sensor-api-openapi.yml
+- filename: actionstreamer-srt-api-openapi.yml
+  format: yaml
+  label: ActionStreamer Srt API
+  slug: actionstreamer-srt-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-srt-api-openapi.yml
+- filename: actionstreamer-srtstream-api-openapi.yml
+  format: yaml
+  label: ActionStreamer Srt Stream API
+  slug: actionstreamer-srtstream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-srtstream-api-openapi.yml
+- filename: actionstreamer-streamsession-api-openapi.yml
+  format: yaml
+  label: ActionStreamer Stream Session API
+  slug: actionstreamer-streamsession-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-streamsession-api-openapi.yml
 - filename: actionstreamer-api-key-api-openapi.yml
   format: yaml
   label: ActionStreamer API Key API

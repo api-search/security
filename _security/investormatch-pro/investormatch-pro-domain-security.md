@@ -45,8 +45,8 @@ source_yaml_url: https://artifacts.apis.io/investormatch-pro/security/investorma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Fundraising
-- VentureCapital
-- Startup
+- Venture Capital
+- Startups
 ---

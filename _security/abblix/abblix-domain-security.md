@@ -47,6 +47,7 @@ tags:
 - Company
 - Identity
 - OpenID Connect
+- OAuth
 - Authentication
 - .NET
 - Shared Signals

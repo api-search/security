@@ -33,7 +33,7 @@ tags:
 - Data
 - Analytics
 - ETL
-- Business-Intelligence
+- Business Intelligence
 - Integration
 - Company
 ---

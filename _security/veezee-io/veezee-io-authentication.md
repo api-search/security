@@ -88,9 +88,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://veezee.
 source_yaml_url: https://artifacts.apis.io/veezee-io/authentication/veezee-io-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Data
-- Enrichment
-- SocialMedia
+- Data Enrichment
+- Social Media
 - Search
 ---

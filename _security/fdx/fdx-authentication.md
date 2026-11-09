@@ -96,7 +96,8 @@ tags:
 - Tax Data
 - Payroll
 - REST
-- Authentication
+- OAuth
 - FAPI
 - CFPB 1033
+- Authentication
 ---

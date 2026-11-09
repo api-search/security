@@ -82,7 +82,6 @@ tags:
 - Company
 - Video
 - Rendering
-- API
 - 3D
 - Templates
 ---

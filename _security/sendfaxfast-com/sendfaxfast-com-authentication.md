@@ -28,7 +28,6 @@ source_yaml_url: https://artifacts.apis.io/sendfaxfast-com/authentication/sendfa
 summary_line: 1 scheme
 tags:
 - Fax
-- API
 - Payments
 - Healthcare
 - Government

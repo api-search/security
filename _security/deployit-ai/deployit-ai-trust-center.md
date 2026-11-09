@@ -21,9 +21,9 @@ source_yaml_url: https://artifacts.apis.io/deployit-ai/security/deployit-ai-trus
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - DevOps
 - Analytics
-- Dashboard
+- Dashboards
 trust_url: https://deployit.ai/security
 ---

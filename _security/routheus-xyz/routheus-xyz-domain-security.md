@@ -44,8 +44,8 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
 - DeFi
-- Crypto
-- DEX
-- Multichain
+- Cryptocurrency
+- Decentralized Exchange
+- Multi-Chain
 - Swap
 ---

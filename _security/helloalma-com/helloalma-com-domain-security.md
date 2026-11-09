@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/helloalma-com/security/helloalma-com-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- MentalHealth
+- Mental Health
 - Therapy
 - Platform
 - Healthcare

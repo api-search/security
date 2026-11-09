@@ -34,6 +34,6 @@ tags:
 - Real Estate
 - Property Listings
 - Italy
-- Marketplaces
+- Marketplace
 - Open Source
 ---

@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/ottobot-agency/authentication/ottobot
 summary_line: 0 schemes
 tags:
 - Company
-- WebDesign
+- Web Design
 - SEO
-- ContractorTools
-- ManagedServices
-- LocalMarketing
+- Contractor tools
+- Managed Service
+- Local Marketing
 ---

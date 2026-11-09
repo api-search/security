@@ -33,6 +33,5 @@ tags:
 - Company
 - Finance
 - Analytics
-- API
-- SaaS
+- Software-as-a-Service
 ---

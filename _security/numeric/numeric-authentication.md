@@ -68,5 +68,6 @@ tags:
 - Reconciliation
 - MCP
 - Agent Skills
+- OAuth
 - Authentication
 ---

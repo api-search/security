@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/claris/security/claris-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Low-code
-- No-code
+- Low-Code
+- No-Code
 - Automation
 - Integration
 ---

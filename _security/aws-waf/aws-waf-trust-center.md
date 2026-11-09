@@ -119,5 +119,6 @@ tags:
 - Bot Management
 - Edge Security
 - Cloud
+- Amazon Web Services
 trust_url: https://aws.amazon.com/compliance/
 ---

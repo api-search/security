@@ -68,7 +68,7 @@ tags:
 - Freight
 - Marketplace
 - Transportation
-- auto-transport
+- AutoTransport
 - ltl-freight
 - Last Mile Delivery
 - Shipment Tracking

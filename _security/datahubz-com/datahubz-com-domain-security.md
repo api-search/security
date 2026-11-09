@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Compliance
 - Security
-- SaaS
+- Software-as-a-Service
 - Automation
 - DataHubz
 ---

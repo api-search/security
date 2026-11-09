@@ -35,5 +35,5 @@ tags:
 - Energy
 - Utilities
 - France
-- Renewable
+- Renewables
 ---

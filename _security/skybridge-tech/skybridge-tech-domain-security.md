@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Framework
-- OpenSource
+- Open Source
 - TypeScript
-- AI
+- Artificial Intelligence
 ---

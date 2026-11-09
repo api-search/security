@@ -36,7 +36,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Storage
-- Open-Source
+- Open Source
 - Enterprise
-- Data-Protection
+- Data Protection
 ---

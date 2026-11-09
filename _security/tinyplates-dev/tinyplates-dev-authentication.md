@@ -88,9 +88,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: derived\nsource: https://www.tiny
 source_yaml_url: https://artifacts.apis.io/tinyplates-dev/authentication/tinyplates-dev-authentication.yml
 summary_line: 1 scheme
 tags:
-- API
 - Food
 - Recipes
 - Search
-- Developer
+- Developers
 ---

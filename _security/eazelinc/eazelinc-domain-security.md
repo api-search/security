@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Art
-- VR
+- Virtual Reality
 - Marketplace
-- AI
+- Artificial Intelligence
 ---

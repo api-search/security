@@ -29,8 +29,8 @@ summary_line: 1 scheme
 tags:
 - Warehouse
 - Logistics
-- SaaS
-- E-commerce
+- Software-as-a-Service
+- E-Commerce
 - Fulfilment
 - Company
 ---

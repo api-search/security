@@ -34,6 +34,6 @@ tags:
 - Company
 - Messaging
 - SMS
-- Nonprofit
-- SmallBusiness
+- Non-Profit
+- Small Business
 ---

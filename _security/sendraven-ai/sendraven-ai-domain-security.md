@@ -153,7 +153,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Email
-- AI
+- Artificial Intelligence
 - Infrastructure
-- API
 ---

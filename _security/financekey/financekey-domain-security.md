@@ -302,7 +302,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance
 - Treasury
-- AI
+- Artificial Intelligence
 - Payments
 - Cash Management
 ---

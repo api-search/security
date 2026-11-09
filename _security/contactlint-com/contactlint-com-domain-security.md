@@ -6,6 +6,90 @@ api_specs:
   slug: contactlint-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-openapi.json
+- filename: contactlint-com-demo-api-openapi.yml
+  format: yaml
+  label: contactlint-com Demo API
+  slug: contactlint-com-demo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-demo-api-openapi.yml
+- filename: contactlint-com-demo-preview-api-openapi.yml
+  format: yaml
+  label: contactlint-com Demo Preview API
+  slug: contactlint-com-demo-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-demo-preview-api-openapi.yml
+- filename: contactlint-com-demo-preview-rotation-api-openapi.yml
+  format: yaml
+  label: contactlint-com Demo Preview Rotation API
+  slug: contactlint-com-demo-preview-rotation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-demo-preview-rotation-api-openapi.yml
+- filename: contactlint-com-domain-api-openapi.yml
+  format: yaml
+  label: contactlint-com Domain API
+  slug: contactlint-com-domain-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-domain-api-openapi.yml
+- filename: contactlint-com-go-api-openapi.yml
+  format: yaml
+  label: contactlint-com Go API
+  slug: contactlint-com-go-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-go-api-openapi.yml
+- filename: contactlint-com-health-api-openapi.yml
+  format: yaml
+  label: contactlint-com Health API
+  slug: contactlint-com-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-health-api-openapi.yml
+- filename: contactlint-com-lookup-api-openapi.yml
+  format: yaml
+  label: contactlint-com Lookup API
+  slug: contactlint-com-lookup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-lookup-api-openapi.yml
+- filename: contactlint-com-metrics-api-openapi.yml
+  format: yaml
+  label: contactlint-com Metrics API
+  slug: contactlint-com-metrics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-metrics-api-openapi.yml
+- filename: contactlint-com-monitor-api-openapi.yml
+  format: yaml
+  label: contactlint-com Monitor API
+  slug: contactlint-com-monitor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-monitor-api-openapi.yml
+- filename: contactlint-com-payment-change-check-api-openapi.yml
+  format: yaml
+  label: contactlint-com Payment Change Check API
+  slug: contactlint-com-payment-change-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-payment-change-check-api-openapi.yml
+- filename: contactlint-com-report-api-openapi.yml
+  format: yaml
+  label: contactlint-com Report API
+  slug: contactlint-com-report-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-report-api-openapi.yml
+- filename: contactlint-com-reports-api-openapi.yml
+  format: yaml
+  label: contactlint-com Reports API
+  slug: contactlint-com-reports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-reports-api-openapi.yml
+- filename: contactlint-com-robots-txt-api-openapi.yml
+  format: yaml
+  label: contactlint-com Robots.txt API
+  slug: contactlint-com-robots-txt-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-robots-txt-api-openapi.yml
+- filename: contactlint-com-sitemap-xml-api-openapi.yml
+  format: yaml
+  label: contactlint-com Sitemap.xml API
+  slug: contactlint-com-sitemap-xml-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contactlint-com/openapi/contactlint-com-sitemap-xml-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,9 +120,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/contactlint-com/security/contactlint-com-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- Company
-- Email Validation
+- Email Verification
 - Phone Validation
-- API
 - MCP
+- Developer Tools
+- Company
 ---

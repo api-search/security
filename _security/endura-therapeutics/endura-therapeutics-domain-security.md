@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/endura-therapeutics/security/endura-t
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Biotech
+- Biotechnology
 - RNA
-- Small-Molecule
+- Small Molecule
 - Therapeutics
 ---

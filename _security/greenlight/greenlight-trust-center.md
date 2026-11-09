@@ -28,5 +28,8 @@ tags:
 - Kids Banking
 - Investing
 - Financial Literacy
+- Payments
+- Mobile App
+- Education
 trust_url: https://trust.greenlight.com/
 ---

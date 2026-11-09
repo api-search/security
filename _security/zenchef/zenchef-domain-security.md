@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/zenchef/security/zenchef-domain-secur
 summary_line: TLSv1.3 · DMARC
 tags:
 - Restaurant
-- SaaS
+- Software-as-a-Service
 - Reservations
 - Payments
 - Analytics

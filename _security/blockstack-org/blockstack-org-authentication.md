@@ -46,9 +46,9 @@ source_yaml_url: https://artifacts.apis.io/blockstack-org/authentication/blockst
 summary_line: 1 scheme
 tags:
 - Bitcoin Staking
-- Self‑Custodial
+- Self-Custodial
 - DeFi
 - Smart Contracts
-- Layer‑2
+- Layer 2
 - Institutional Crypto
 ---

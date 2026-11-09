@@ -24,7 +24,7 @@ tags:
 - Company
 - Data
 - Cloud
-- AI
+- Artificial Intelligence
 - Security
 trust_url: https://trust.air.security/
 ---

@@ -289,7 +289,6 @@ tags:
 - Label Printing
 - Barcode Generation
 - ZPL API
-- Cloud Service
 - Developer Tools
 trust_url: https://labelixa.com/security
 ---

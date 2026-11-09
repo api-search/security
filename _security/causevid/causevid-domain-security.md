@@ -29,9 +29,9 @@ source_yaml: "generated: '2026-10-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/causevid/security/causevid-domain-security.yml
 summary_line: DNSSEC · DMARC
 tags:
-- Nonprofit
+- Non-Profit
 - Video
 - Fundraising
 - Marketing
-- SaaS
+- Software-as-a-Service
 ---

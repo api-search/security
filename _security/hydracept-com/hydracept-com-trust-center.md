@@ -26,8 +26,7 @@ source_yaml_url: https://artifacts.apis.io/hydracept-com/security/hydracept-com-
 summary_line: SOC 2
 tags:
 - Company
-- AI
-- API
+- Artificial Intelligence
 - ExternalCapabilities
 - DurableJobs
 - Billing

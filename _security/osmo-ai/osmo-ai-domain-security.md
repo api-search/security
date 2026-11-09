@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/osmo-ai/security/osmo-ai-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fragrance
-- AI
+- Artificial Intelligence
 - Product Development
 - Manufacturing
 - Packaging

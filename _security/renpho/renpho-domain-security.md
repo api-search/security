@@ -33,11 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Wellness
-- HealthTech
-- IoT
-- Consumer Electronics
-- Wellness
-- HealthTech
+- Health Tech
 - IoT
 - Consumer Electronics
 ---

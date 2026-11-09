@@ -34,8 +34,7 @@ source_yaml_url: https://artifacts.apis.io/spocont-com/security/spocont-com-doma
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- ContactCenter
+- Contact Center
 - Automation
-- CloudPlatform
-- API
+- Cloud Platform
 ---

@@ -29,7 +29,7 @@ summary_line: 1 scheme
 tags:
 - Policy Management
 - Compliance
-- SaaS
+- Software-as-a-Service
 - US
 - Small Business
 ---

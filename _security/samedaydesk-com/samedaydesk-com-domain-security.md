@@ -151,8 +151,8 @@ source_yaml_url: https://artifacts.apis.io/samedaydesk-com/security/samedaydesk-
 summary_line: TLSv1.3
 tags:
 - Company
-- AgentCommerce
-- SaaS
+- Agentic Commerce
+- Software-as-a-Service
 - Scheduling
 - Analytics
 ---

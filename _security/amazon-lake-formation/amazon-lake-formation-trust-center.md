@@ -37,6 +37,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Access Control
 - Analytics
+- Amazon Web Services
 - Data Governance
 - Data Lake
 - S3

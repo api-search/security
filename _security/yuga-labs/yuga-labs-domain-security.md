@@ -43,4 +43,6 @@ tags:
 - Web3
 - Metaverse
 - Ethereum
+- Gaming
+- Community
 ---

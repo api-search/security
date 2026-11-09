@@ -35,7 +35,7 @@ source_yaml_url: https://artifacts.apis.io/cliptalk-pro/authentication/cliptalk-
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Video
 - Social Media
 - Automation

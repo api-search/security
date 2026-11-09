@@ -263,6 +263,6 @@ tags:
 - Company
 - Integration
 - Automation
-- Low-code
+- Low-Code
 - Data
 ---

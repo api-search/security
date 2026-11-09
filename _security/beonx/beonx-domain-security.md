@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/beonx/security/beonx-domain-security.
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Revenue-Management
+- Artificial Intelligence
+- Revenue Management
 - Hospitality
-- SaaS
+- Software-as-a-Service
 ---

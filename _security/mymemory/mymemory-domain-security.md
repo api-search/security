@@ -32,7 +32,6 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Translation
-- API
 - Localization
-- Machine-Translation
+- Machine Translation
 ---

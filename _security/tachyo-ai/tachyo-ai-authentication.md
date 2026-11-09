@@ -29,8 +29,8 @@ source_yaml_url: https://artifacts.apis.io/tachyo-ai/authentication/tachyo-ai-au
 summary_line: 1 scheme
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Analytics
-- Wallet
+- Wallets
 - Memecoin
 ---

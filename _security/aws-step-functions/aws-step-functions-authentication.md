@@ -87,6 +87,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aws-step
 source_yaml_url: https://artifacts.apis.io/aws-step-functions/authentication/aws-step-functions-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - iPaaS
 - Orchestration
 - Serverless

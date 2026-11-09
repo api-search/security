@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: wevo-wevo-api-api-openapi.yml
-  format: yaml
-  label: Wevo API
-  slug: wevo-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/wevo/openapi/wevo-wevo-api-api-openapi.yml
 - filename: wevo-openapi-generated.yml
   format: yaml
   label: Wevo API
@@ -48,7 +42,7 @@ tags:
 - Automation
 - iPaaS
 - API Management
-- Low-code
+- Low-Code
 - Artificial Intelligence
 - EDI
 ---

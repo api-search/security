@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/taskbullet-com/authentication/taskbul
 summary_line: 1 scheme
 tags:
 - Company
-- VirtualAssistant
-- SaaS
+- Virtual Assistant
+- Software-as-a-Service
 - USBusiness
 - Productivity
 ---

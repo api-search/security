@@ -52,6 +52,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://docs.aw
 source_yaml_url: https://artifacts.apis.io/amazon-vpn/authentication/amazon-vpn-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Networking
 - Security
 - VPN

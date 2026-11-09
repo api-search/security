@@ -20,8 +20,7 @@ source_yaml_url: https://artifacts.apis.io/taxbandits/security/taxbandits-trust-
 summary_line: SOC 2, HIPAA
 tags:
 - Tax
-- API
-- E‑filing
+- Efiling
 - IRS
 - Automation
 - Finance

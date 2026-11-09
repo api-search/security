@@ -434,6 +434,30 @@ api_specs:
   slug: auth0-ws-federation-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/auth0/openapi/auth0-ws-federation-api-openapi.yml
+- filename: auth0-agents-api-openapi.yml
+  format: yaml
+  label: Auth0 Agents API
+  slug: auth0-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/auth0/openapi/auth0-agents-api-openapi.yml
+- filename: auth0-client-profiles-api-openapi.yml
+  format: yaml
+  label: Auth0 Client Profiles API
+  slug: auth0-client-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/auth0/openapi/auth0-client-profiles-api-openapi.yml
+- filename: auth0-experimentation-api-openapi.yml
+  format: yaml
+  label: Auth0 Experimentation API
+  slug: auth0-experimentation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/auth0/openapi/auth0-experimentation-api-openapi.yml
+- filename: auth0-rate-limit-policies-api-openapi.yml
+  format: yaml
+  label: Auth0 Rate Limit Policies API
+  slug: auth0-rate-limit-policies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/auth0/openapi/auth0-rate-limit-policies-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -480,6 +504,7 @@ tags:
 - FGA
 - Identity and Access Management
 - MCP
+- OAuth
 - Okta
 - OpenID Connect
 - SAML

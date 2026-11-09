@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - SERP
-- Google-Maps
+- Google Maps
 - AI-Overviews
-- Bulk-Processing
+- Bulk Processing
 ---

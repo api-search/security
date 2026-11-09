@@ -22,9 +22,9 @@ summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Loyalty
 - Platform
-- SaaS
+- Software-as-a-Service
 - Retail
-- Consumer Brands
+- Consumer Brand
 - Company
 trust_url: https://www.trueloyal.com/terms-and-conditions
 ---

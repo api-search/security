@@ -129,8 +129,7 @@ source_yaml_url: https://artifacts.apis.io/pricklymails-com/security/pricklymail
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email Verification
-- API
-- SaaS
+- Software-as-a-Service
 - Data Validation
 - EU-hosted
 ---

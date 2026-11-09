@@ -70,6 +70,7 @@ tags:
 - HPC
 - Job Scheduling
 - Containers
+- Amazon Web Services
 - Managed Service
 - Scheduling
 trust_url: https://aws.amazon.com/compliance/

@@ -102,9 +102,10 @@ tags:
 - Financial Services
 - Investing
 - Market Data
-- Authentication
+- OAuth
 - Order
 - Trading
 - Fortune 500
 - Wealth Management
+- Authentication
 ---

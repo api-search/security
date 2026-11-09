@@ -12,12 +12,6 @@ api_specs:
   slug: deepgram-balances-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deepgram/openapi/deepgram-balances-api-openapi.yml
-- filename: deepgram-invitations-api-openapi.yml
-  format: yaml
-  label: Deepgram Invitations API
-  slug: deepgram-invitations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deepgram/openapi/deepgram-invitations-api-openapi.yml
 - filename: deepgram-keys-api-openapi.yml
   format: yaml
   label: Deepgram Keys API
@@ -36,12 +30,6 @@ api_specs:
   slug: deepgram-models-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deepgram/openapi/deepgram-models-api-openapi.yml
-- filename: deepgram-pre-recorded-api-openapi.yml
-  format: yaml
-  label: Deepgram Pre-Recorded API
-  slug: deepgram-pre-recorded-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deepgram/openapi/deepgram-pre-recorded-api-openapi.yml
 - filename: deepgram-projects-api-openapi.yml
   format: yaml
   label: Deepgram Projects API
@@ -54,24 +42,84 @@ api_specs:
   slug: deepgram-scopes-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deepgram/openapi/deepgram-scopes-api-openapi.yml
-- filename: deepgram-text-intelligence-api-openapi.yml
-  format: yaml
-  label: Deepgram Text Intelligence API
-  slug: deepgram-text-intelligence-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deepgram/openapi/deepgram-text-intelligence-api-openapi.yml
-- filename: deepgram-text-to-speech-api-openapi.yml
-  format: yaml
-  label: Deepgram Text-To-Speech API
-  slug: deepgram-text-to-speech-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deepgram/openapi/deepgram-text-to-speech-api-openapi.yml
 - filename: deepgram-usage-api-openapi.yml
   format: yaml
   label: Deepgram Usage API
   slug: deepgram-usage-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deepgram/openapi/deepgram-usage-api-openapi.yml
+- filename: deepgram-audio-api-openapi.yml
+  format: yaml
+  label: Deepgram Audio API
+  slug: deepgram-audio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-audio-api-openapi.yml
+- filename: deepgram-breakdown-api-openapi.yml
+  format: yaml
+  label: Deepgram Breakdown API
+  slug: deepgram-breakdown-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-breakdown-api-openapi.yml
+- filename: deepgram-configurations-api-openapi.yml
+  format: yaml
+  label: Deepgram Configurations API
+  slug: deepgram-configurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-configurations-api-openapi.yml
+- filename: deepgram-distributioncredentials-api-openapi.yml
+  format: yaml
+  label: Deepgram Distribution Credentials API
+  slug: deepgram-distributioncredentials-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-distributioncredentials-api-openapi.yml
+- filename: deepgram-fields-api-openapi.yml
+  format: yaml
+  label: Deepgram Fields API
+  slug: deepgram-fields-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-fields-api-openapi.yml
+- filename: deepgram-invites-api-openapi.yml
+  format: yaml
+  label: Deepgram Invites API
+  slug: deepgram-invites-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-invites-api-openapi.yml
+- filename: deepgram-media-api-openapi.yml
+  format: yaml
+  label: Deepgram Media API
+  slug: deepgram-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-media-api-openapi.yml
+- filename: deepgram-purchases-api-openapi.yml
+  format: yaml
+  label: Deepgram Purchases API
+  slug: deepgram-purchases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-purchases-api-openapi.yml
+- filename: deepgram-requests-api-openapi.yml
+  format: yaml
+  label: Deepgram Requests API
+  slug: deepgram-requests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-requests-api-openapi.yml
+- filename: deepgram-text-api-openapi.yml
+  format: yaml
+  label: Deepgram Text API
+  slug: deepgram-text-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-text-api-openapi.yml
+- filename: deepgram-tokens-api-openapi.yml
+  format: yaml
+  label: Deepgram Tokens API
+  slug: deepgram-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-tokens-api-openapi.yml
+- filename: deepgram-variables-api-openapi.yml
+  format: yaml
+  label: Deepgram Variables API
+  slug: deepgram-variables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/deepgram/openapi/deepgram-variables-api-openapi.yml
 description: ''
 domains:
 - caa: []

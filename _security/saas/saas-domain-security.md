@@ -30,9 +30,8 @@ source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/saas/security/saas-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- SaaS
+- Software-as-a-Service
 - Platform
-- API
 - Integration
 - Billing
 ---

@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/infuseai-io/security/infuseai-io-doma
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - DataReview
 - CI/CD
-- DataQuality
+- Data Quality
 ---

@@ -628,6 +628,6 @@ tags:
 - API Marketplace
 - AI Agents
 - Paid APIs
-- X402 Payments
+- x402 Payments
 - MPP Payments
 ---

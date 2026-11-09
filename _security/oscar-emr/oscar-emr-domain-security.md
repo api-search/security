@@ -54,5 +54,6 @@ tags:
 - HL7
 - Interoperability
 - SMART on FHIR
+- OAuth
 - Authentication
 ---

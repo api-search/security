@@ -37,9 +37,9 @@ source_yaml_url: https://artifacts.apis.io/sweethawk/security/sweethawk-domain-s
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Zendesk apps
-- IT service management
+- ITSM
 - HR service
 - Employee service desk
-- Workflow automation
-- Change management
+- Workflow Automation
+- Change Management
 ---

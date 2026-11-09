@@ -102,4 +102,6 @@ tags:
 - E-Commerce
 - Supply Chain
 - Retail
+- B2B
+- Platform
 ---

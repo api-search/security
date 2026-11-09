@@ -139,8 +139,7 @@ source_yaml_url: https://artifacts.apis.io/fetcher-cloud/security/fetcher-cloud-
 summary_line: TLSv1.3
 tags:
 - Company
-- API
-- AI
+- Artificial Intelligence
 - Tools
 - Pay-per-call
 - Micropayments

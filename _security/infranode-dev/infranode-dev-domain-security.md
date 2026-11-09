@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: infranode-dev-cities-api-openapi.yml
+  format: yaml
+  label: infranode-dev Cities API
+  slug: infranode-dev-cities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infranode-dev/openapi/infranode-dev-cities-api-openapi.yml
+- filename: infranode-dev-compare-api-openapi.yml
+  format: yaml
+  label: infranode-dev Compare API
+  slug: infranode-dev-compare-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infranode-dev/openapi/infranode-dev-compare-api-openapi.yml
+- filename: infranode-dev-live-api-openapi.yml
+  format: yaml
+  label: infranode-dev Live API
+  slug: infranode-dev-live-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infranode-dev/openapi/infranode-dev-live-api-openapi.yml
+- filename: infranode-dev-meta-api-openapi.yml
+  format: yaml
+  label: infranode-dev Meta API
+  slug: infranode-dev-meta-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infranode-dev/openapi/infranode-dev-meta-api-openapi.yml
+- filename: infranode-dev-stations-api-openapi.yml
+  format: yaml
+  label: infranode-dev Stations API
+  slug: infranode-dev-stations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infranode-dev/openapi/infranode-dev-stations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -32,4 +63,8 @@ source_yaml_url: https://artifacts.apis.io/infranode-dev/security/infranode-dev-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
+- Open Data
+- Germany
+- Cities
+- Public APIs
 ---

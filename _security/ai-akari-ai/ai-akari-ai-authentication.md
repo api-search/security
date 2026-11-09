@@ -60,7 +60,7 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/ai-akari-ai/authentication/ai-akari-ai-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Music
 - DigitalTown
 - Community

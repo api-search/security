@@ -34,8 +34,7 @@ source_yaml_url: https://artifacts.apis.io/shopgraph-dev/security/shopgraph-dev-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - GraphQL
-- API
-- DeveloperTools
+- Developer Tools
 ---

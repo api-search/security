@@ -33,6 +33,6 @@ tags:
 - Messaging
 - Automation
 - WhatsApp
-- SaaS
+- Software-as-a-Service
 - India
 ---

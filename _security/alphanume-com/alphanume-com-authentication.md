@@ -206,5 +206,5 @@ tags:
 - Data
 - Finance
 - Quantitative
-- MarketData
+- Market Data
 ---

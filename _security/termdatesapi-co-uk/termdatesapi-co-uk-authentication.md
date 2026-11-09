@@ -35,8 +35,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Education
-- UK
+- United Kingdom
 - School
 - Term-Dates
-- API
 ---

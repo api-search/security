@@ -22,7 +22,7 @@ source_yaml_url: https://artifacts.apis.io/usemotion-com/security/usemotion-com-
 summary_line: SOC 2, HIPAA, GDPR, CSA STAR
 tags:
 - Productivity
-- AI
+- Artificial Intelligence
 - Project Management
 - Automation
 - Collaboration

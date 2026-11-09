@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/alpha-and-omega-semiconductor/securit
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Manufacturing
 - Technology
 - Hardware

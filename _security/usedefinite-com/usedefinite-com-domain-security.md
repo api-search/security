@@ -46,5 +46,5 @@ tags:
 - Finance
 - Ontology
 - Integration
-- SaaS
+- Software-as-a-Service
 ---

@@ -22,8 +22,8 @@ summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - Company
 - Technology
-- DigitalTransformation
-- SoftwareDevelopment
-- CloudServices
+- Digital Transformation
+- Software Development
+- Cloud Services
 trust_url: https://zup.com.br/security/
 ---

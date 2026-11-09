@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/go-tou-com/security/go-tou-com-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- EV
+- Electric Vehicles
 - Charging
 - Platform
-- SaaS
+- Software-as-a-Service
 - CPO
 ---

@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/ipushpull/security/ipushpull-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
-- DataSharing
-- RealTime
+- Fintech
+- Data Sharing
+- Real-Time
 - Automation
 ---

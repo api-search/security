@@ -34,7 +34,7 @@ tags:
 - Company
 - Investment Management
 - Asset Management
-- Equities
+- Stocks
 - Emerging Markets
 - Financial Services
 - ASX Listed

@@ -213,7 +213,7 @@ tags:
 - OpenAPI
 - Postman
 - MCP
-- llms-txt
+- Llms.txt
 - Agent-Native
 - APIKeys
 - IP Geolocation

@@ -156,6 +156,60 @@ api_specs:
   slug: duvo-ai-triggers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/duvo-ai/openapi/duvo-ai-triggers-api-openapi.yml
+- filename: duvo-ai-automations-api-openapi.yml
+  format: yaml
+  label: Duvo Ai Automations API
+  slug: duvo-ai-automations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/duvo-ai/openapi/duvo-ai-automations-api-openapi.yml
+- filename: duvo-ai-case-attachments-api-openapi.yml
+  format: yaml
+  label: Duvo Ai Case Attachments API
+  slug: duvo-ai-case-attachments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/duvo-ai/openapi/duvo-ai-case-attachments-api-openapi.yml
+- filename: duvo-ai-cases-ui-api-openapi.yml
+  format: yaml
+  label: Duvo Ai Cases UI API
+  slug: duvo-ai-cases-ui-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/duvo-ai/openapi/duvo-ai-cases-ui-api-openapi.yml
+- filename: duvo-ai-clarity-export-api-openapi.yml
+  format: yaml
+  label: Duvo Ai Clarity Export API
+  slug: duvo-ai-clarity-export-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/duvo-ai/openapi/duvo-ai-clarity-export-api-openapi.yml
+- filename: duvo-ai-clarity-guest-interviews-api-openapi.yml
+  format: yaml
+  label: Duvo Ai Clarity Guest Interviews API
+  slug: duvo-ai-clarity-guest-interviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/duvo-ai/openapi/duvo-ai-clarity-guest-interviews-api-openapi.yml
+- filename: duvo-ai-clarity-process-invite-links-api-openapi.yml
+  format: yaml
+  label: Duvo Ai Clarity Process Invite Links API
+  slug: duvo-ai-clarity-process-invite-links-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/duvo-ai/openapi/duvo-ai-clarity-process-invite-links-api-openapi.yml
+- filename: duvo-ai-clarityinterview-api-openapi.yml
+  format: yaml
+  label: Duvo Ai Clarity Interview API
+  slug: duvo-ai-clarityinterview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/duvo-ai/openapi/duvo-ai-clarityinterview-api-openapi.yml
+- filename: duvo-ai-invites-api-openapi.yml
+  format: yaml
+  label: Duvo Ai Invites API
+  slug: duvo-ai-invites-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/duvo-ai/openapi/duvo-ai-invites-api-openapi.yml
+- filename: duvo-ai-notifications-api-openapi.yml
+  format: yaml
+  label: Duvo Ai Notifications API
+  slug: duvo-ai-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/duvo-ai/openapi/duvo-ai-notifications-api-openapi.yml
 description: ''
 domains:
 - caa:

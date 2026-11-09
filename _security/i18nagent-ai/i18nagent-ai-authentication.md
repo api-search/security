@@ -35,9 +35,9 @@ source_yaml_url: https://artifacts.apis.io/i18nagent-ai/authentication/i18nagent
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Localization
 - Translation
 - Developer Tools
-- SaaS
+- Software-as-a-Service
 ---

@@ -79,7 +79,7 @@ source_yaml_url: https://artifacts.apis.io/finevoice/authentication/finevoice-au
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Voice
 - Text-to-Speech
 - Audio

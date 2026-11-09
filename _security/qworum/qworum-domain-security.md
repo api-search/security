@@ -34,5 +34,5 @@ tags:
 - Distributed
 - Web
 - Micro‑frontends
-- Micro‑services
+- Microservices
 ---

@@ -753,8 +753,8 @@ source_yaml_url: https://artifacts.apis.io/indigitall/authentication/indigitall-
 summary_line: apiKey · 4 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Customer Engagement
 - Platform
-- SaaS
+- Software-as-a-Service
 ---

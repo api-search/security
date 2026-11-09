@@ -42,6 +42,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-iot-fleetwise/security/amazon-
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Automotive
+- Amazon Web Services
 - Connected Vehicles
 - IoT
 - Telematics

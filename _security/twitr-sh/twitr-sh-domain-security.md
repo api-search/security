@@ -80,9 +80,8 @@ source_yaml_url: https://artifacts.apis.io/twitr-sh/security/twitr-sh-domain-sec
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
 - X
 - Twitter
 - Pay-per-call
-- AI
+- Artificial Intelligence
 ---

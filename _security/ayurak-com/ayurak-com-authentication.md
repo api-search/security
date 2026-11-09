@@ -37,9 +37,9 @@ source_yaml_url: https://artifacts.apis.io/ayurak-com/authentication/ayurak-com-
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - Healthcare
-- EmergencyResponse
+- Emergency Response
 - Technology
 ---

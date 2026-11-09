@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/gnu-taler/authentication/gnu-taler-au
 summary_line: 0 schemes
 tags:
 - Payments
-- E‑Cash
+- Ecash
 - Open Source
 - Finance
 - Privacy

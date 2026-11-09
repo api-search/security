@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/agoreum-xyz/security/agoreum-xyz-doma
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Fintech
 - Marketplace
 - Web3

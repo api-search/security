@@ -38,7 +38,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Technology
-- DataAnalytics
-- DigitalTransformation
-- API
+- Data Analytics
+- Digital Transformation
 ---

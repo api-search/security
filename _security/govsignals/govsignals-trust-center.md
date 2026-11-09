@@ -20,7 +20,7 @@ source_yaml_url: https://artifacts.apis.io/govsignals/security/govsignals-trust-
 summary_line: SOC 2, FedRAMP
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Procurement
 - Government
 - Platform

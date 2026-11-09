@@ -101,8 +101,7 @@ source_yaml_url: https://artifacts.apis.io/leadboxer-com/authentication/leadboxe
 summary_line: 1 scheme
 tags:
 - B2B
-- LeadEnrichment
+- Lead Enrichment
 - Marketing
 - Data
-- API
 ---

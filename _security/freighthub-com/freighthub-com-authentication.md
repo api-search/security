@@ -59,11 +59,11 @@ source_yaml: "generated: '2026-10-23'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/freighthub-com/authentication/freighthub-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- Sea Freight
+- Ocean Freight
 - Air Freight
 - Rail Freight
 - Logistics
 - Sustainability
-- AI
+- Artificial Intelligence
 - Platform
 ---

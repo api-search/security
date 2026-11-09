@@ -141,7 +141,7 @@ tags:
 - Agent-Native
 - REST
 - OpenAPI
-- llms-txt
+- Llms.txt
 - API Catalog
 - Free Tier
 - Credit

@@ -180,6 +180,6 @@ tags:
 - SMS
 - RCS
 - WhatsApp
-- AI
+- Artificial Intelligence
 - Marketing
 ---

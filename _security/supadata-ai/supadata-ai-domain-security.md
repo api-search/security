@@ -33,12 +33,11 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video
 - Transcript
-- API
 - YouTube
 - TikTok
 - Instagram
 - Facebook
 - X
-- AI
+- Artificial Intelligence
 - Data
 ---

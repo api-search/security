@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Manufacturing
-- ConnectedWorker
-- AI
+- Connected Worker
+- Artificial Intelligence
 - Frontline
 ---

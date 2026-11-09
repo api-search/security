@@ -20,8 +20,8 @@ source_yaml_url: https://artifacts.apis.io/vali/security/vali-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- AI
-- HomeCare
+- Artificial Intelligence
+- Home Care
 - Healthcare
 - Workforce
 trust_url: https://vali.health/security

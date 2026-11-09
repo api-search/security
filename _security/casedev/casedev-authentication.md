@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/casedev/authentication/casedev-authen
 summary_line: 1 scheme
 tags:
 - Company
-- LegalTech
-- AI
+- Legal Tech
+- Artificial Intelligence
 - Platform
 - Automation
 ---

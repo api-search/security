@@ -47,8 +47,7 @@ source_yaml_url: https://artifacts.apis.io/fastmetal-ai/authentication/fastmetal
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- API
+- Artificial Intelligence
 - Platform
 - Cloud
 ---

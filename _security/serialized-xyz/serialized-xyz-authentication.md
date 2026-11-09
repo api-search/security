@@ -31,8 +31,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Onchain
-- MarketData
-- TokenSecurity
-- API
+- Market Data
+- Token Security
 - Data
 ---

@@ -45,6 +45,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - FinOps
 - Cloud Cost Management
+- Amazon Web Services
 - GCP
 - Cost Optimization
 - Cost Units

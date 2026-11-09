@@ -33,6 +33,5 @@ tags:
 - Company
 - Geospatial
 - SDK
-- APIs
-- Real-time
+- Real-Time
 ---

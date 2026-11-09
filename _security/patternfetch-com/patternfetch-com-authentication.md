@@ -37,8 +37,7 @@ source_yaml_url: https://artifacts.apis.io/patternfetch-com/authentication/patte
 summary_line: 1 scheme
 tags:
 - Fintech
-- MarketData
-- API
+- Market Data
 - Stocks
-- Crypto
+- Cryptocurrency
 ---

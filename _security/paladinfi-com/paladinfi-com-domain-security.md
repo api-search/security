@@ -45,7 +45,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - DeFi
-- AI
+- Artificial Intelligence
 - Infrastructure
 - Finance
 - Base

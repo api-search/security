@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/papayadash-com/security/papayadash-co
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
-- Fleet
+- Artificial Intelligence
+- Fleet Management
 - Logistics
-- SaaS
+- Software-as-a-Service
 - Transportation
 ---

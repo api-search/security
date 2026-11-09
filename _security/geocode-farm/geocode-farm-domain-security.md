@@ -39,8 +39,7 @@ source_yaml_url: https://artifacts.apis.io/geocode-farm/security/geocode-farm-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Geocoding
-- API
 - Location
 - Data
-- Service
+- Services
 ---

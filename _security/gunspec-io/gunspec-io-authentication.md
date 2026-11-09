@@ -165,9 +165,8 @@ source_yaml_url: https://artifacts.apis.io/gunspec-io/authentication/gunspec-io-
 summary_line: 2 schemes
 tags:
 - Firearms
-- API
 - Database
-- Specifications
+- Specification
 - SDK
 - MCP
 ---

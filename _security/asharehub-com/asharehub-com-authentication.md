@@ -36,8 +36,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Finance
-- Market-Data
+- Market Data
 - A-Share
-- API
-- Python-SDK
+- Python SDK
 ---

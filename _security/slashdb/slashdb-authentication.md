@@ -49,9 +49,8 @@ source_yaml: "generated: '2026-10-21'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/slashdb/authentication/slashdb-authentication.yml
 summary_line: 5 schemes
 tags:
-- API
 - Data Integration
-- Low Code
+- Low-Code
 - Enterprise Software
 - Database APIs
 ---

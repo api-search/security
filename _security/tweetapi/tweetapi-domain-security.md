@@ -43,7 +43,7 @@ source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/tweetapi/security/tweetapi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- twitter
+- Twitter
 - X
 - Social Media
 - Social Data
@@ -53,6 +53,6 @@ tags:
 - Developer Tools
 - MCP
 - Agent-Native
-- llms-txt
+- Llms.txt
 - REST API
 ---

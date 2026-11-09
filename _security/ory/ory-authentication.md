@@ -195,6 +195,7 @@ tags:
 - Authentication
 - Authorization
 - Identity
+- OAuth
 - OpenID Connect
 - Open Source
 - Identity Federation

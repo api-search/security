@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/back9ins-com/security/back9ins-com-do
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Insurance
-- InsurTech
-- SaaS
+- Insurtech
+- Software-as-a-Service
 - B2B
-- LifeInsurance
+- Life Insurance
 ---

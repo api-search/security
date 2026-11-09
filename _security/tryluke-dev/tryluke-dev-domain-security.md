@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/tryluke-dev/security/tryluke-dev-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Planning
-- OpenSource
-- MacApp
+- Open Source
+- Mac App
 ---

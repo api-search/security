@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/my-casa/security/my-casa-domain-secur
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- SmartHome
+- Smart Home
 - Security
 - IoT
 - Subscription

@@ -19,9 +19,9 @@ source_yaml_url: https://artifacts.apis.io/hellotilt-com/security/hellotilt-com-
 summary_line: SOC 2
 tags:
 - Company
-- HR
-- LeaveManagement
-- SaaS
+- Human Resources
+- Leave Management
+- Software-as-a-Service
 - Platform
 trust_url: https://hellotilt.com/security/
 ---

@@ -38,9 +38,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/partnerpage/security/partnerpage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Partner
+- Partners
 - Directory
-- SaaS
+- Software-as-a-Service
 - B2B
-- No-code
+- No-Code
 ---

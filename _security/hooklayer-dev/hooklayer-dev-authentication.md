@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/hooklayer-dev/authentication/hooklaye
 summary_line: 0 schemes
 tags:
 - MCP
-- AI
+- Artificial Intelligence
 - Video
 - Marketing
 - Analytics

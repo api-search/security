@@ -73,7 +73,8 @@ tags:
 - Onboarding
 - Chargebacks
 - Webhook
-- Authentication
+- OAuth
 - Agentic Commerce
 - MCP
+- Authentication
 ---

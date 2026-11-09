@@ -63,9 +63,9 @@ source_yaml_url: https://artifacts.apis.io/mochify-app/security/mochify-app-doma
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- ImageCompression
-- VideoCompression
-- PDFCompression
-- AI
+- Image Compression
+- Video Compression
+- PDF compression
+- Artificial Intelligence
 - PrivacyFocused
 ---

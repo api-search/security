@@ -34,6 +34,6 @@ tags:
 - Company
 - Government
 - Telecommunications
-- Regulation
+- Regulations
 - Malaysia
 ---

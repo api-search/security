@@ -40,8 +40,7 @@ source_yaml_url: https://artifacts.apis.io/lawdiver-com/authentication/lawdiver-
 summary_line: 4 schemes
 tags:
 - Company
-- LegalTech
-- LegalResearch
-- API
+- Legal Tech
+- Legal Research
 - Free
 ---

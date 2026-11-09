@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/helix-ml/security/helix-ml-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agent Virtualization
 - Security
 - Cloud

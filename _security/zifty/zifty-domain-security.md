@@ -38,6 +38,5 @@ tags:
 - Company
 - Delivery
 - Logistics
-- API
-- SaaS
+- Software-as-a-Service
 ---

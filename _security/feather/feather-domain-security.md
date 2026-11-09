@@ -37,7 +37,7 @@ tags:
 - Company
 - Robotics
 - Hardware
-- AI
+- Artificial Intelligence
 - Automation
 - Manufacturing
 ---

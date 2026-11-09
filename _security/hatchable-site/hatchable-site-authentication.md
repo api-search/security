@@ -72,7 +72,7 @@ tags:
 - x402
 - MCP
 - A2A
-- pay-per-call
+- Pay-per-call
 - Prompt Optimization
 - Agentic Payments
 ---

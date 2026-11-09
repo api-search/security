@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/sense360/security/sense360-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HomeAutomation
+- Home Automation
 - IoT
 - Sensors
 - ESPHome

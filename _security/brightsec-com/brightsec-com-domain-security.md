@@ -40,6 +40,6 @@ tags:
 - Security
 - Application Security
 - DAST
-- AI
+- Artificial Intelligence
 - API Testing
 ---

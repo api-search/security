@@ -106,9 +106,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://docs.po
 source_yaml_url: https://artifacts.apis.io/postzen-dev/authentication/postzen-dev-authentication.yml
 summary_line: 1 scheme
 tags:
-- social-media
-- api
-- developer-tools
-- ai-agents
-- automation
+- Social Media
+- Developer Tools
+- AI Agents
+- Automation
 ---

@@ -68,8 +68,7 @@ source_yaml_url: https://artifacts.apis.io/snaplab-dev/security/snaplab-dev-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Screenshot
+- Screenshots
 - PDF
 - OpenGraph
-- API
 ---

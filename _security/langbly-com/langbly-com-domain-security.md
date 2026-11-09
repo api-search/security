@@ -39,8 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Translation
-- API
 - Localization
-- SaaS
-- Machine-Learning
+- Software-as-a-Service
+- Machine Learning
 ---

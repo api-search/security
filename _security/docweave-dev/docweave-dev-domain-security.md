@@ -40,7 +40,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - PDF
 - Generation
-- API
-- AI
+- Artificial Intelligence
 - Developers
 ---

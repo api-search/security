@@ -85,9 +85,8 @@ source_yaml_url: https://artifacts.apis.io/pdfs-build/authentication/pdfs-build-
 summary_line: 1 scheme
 tags:
 - PDF
-- API
-- TemplateEngine
+- Template Engine
 - Rendering
-- SaaS
-- DocumentGeneration
+- Software-as-a-Service
+- Document Generation
 ---

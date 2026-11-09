@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · HSTS
 tags:
 - Company
 - Tea
-- Beverage
+- Beverages
 - Singapore
 - Retail
 - Food

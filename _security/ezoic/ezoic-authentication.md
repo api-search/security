@@ -173,6 +173,7 @@ tags:
 - CDN
 - Caching
 - MCP
-- Authentication
+- OAuth
 - Agents
+- Authentication
 ---

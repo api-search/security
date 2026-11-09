@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/qbittorrent/security/qbittorrent-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- torrent
-- client
-- open-source
-- cross-platform
+- Torrent
+- Clients
+- Open Source
+- Cross-Platform
 - Qt
 ---

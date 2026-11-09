@@ -106,8 +106,8 @@ source_yaml_url: https://artifacts.apis.io/coderpad/authentication/coderpad-auth
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Hiring
-- TechnicalAssessment
+- Technical Assessment
 - InterviewPlatform
 ---

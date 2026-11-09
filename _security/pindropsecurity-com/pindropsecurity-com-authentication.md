@@ -28,8 +28,8 @@ source_yaml_url: https://artifacts.apis.io/pindropsecurity-com/authentication/pi
 summary_line: 0 schemes
 tags:
 - Security
-- FraudDetection
-- DeepfakeDefense
-- VoiceAuthentication
+- Fraud Prevention
+- Deepfake Defense
+- Voice Authentication
 - Enterprise
 ---

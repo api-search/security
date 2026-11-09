@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/maxxwell-dev/security/maxxwell-dev-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- DeveloperTools
-- OpenSource
+- Artificial Intelligence
+- Developer Tools
+- Open Source
 - Automation
 ---

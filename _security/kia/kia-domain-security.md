@@ -47,6 +47,7 @@ tags:
 - Automotive
 - Connected Vehicles
 - Vehicle Data
-- Authentication
+- OAuth
 - Company
+- Authentication
 ---

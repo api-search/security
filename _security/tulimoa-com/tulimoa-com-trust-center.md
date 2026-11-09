@@ -28,7 +28,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Directory
-- AI
+- Artificial Intelligence
 - MCP
 - Reviews
 trust_url: https://tulimoa.com/trust

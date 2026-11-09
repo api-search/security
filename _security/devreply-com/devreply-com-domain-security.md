@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Chat
-- Customer Support
+- Customer Service
 - Mobile
 - Web
 - Developer Tools

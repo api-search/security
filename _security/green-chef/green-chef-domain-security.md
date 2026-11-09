@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/green-chef/security/green-chef-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- MealKit
+- Meal Kit
 - Organic
 - Sustainability
 - Food

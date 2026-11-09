@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/verified-first/security/verified-firs
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Background-Checks
+- Background Checks
 - Screening
 - Verification
 - Employment

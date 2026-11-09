@@ -92,7 +92,7 @@ source_yaml_url: https://artifacts.apis.io/majr-app/security/majr-app-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Media
 - SEO
 - Encoding

@@ -35,5 +35,5 @@ tags:
 - Mobile
 - Advertising
 - Retargeting
-- UserAcquisition
+- User Acquisition
 ---

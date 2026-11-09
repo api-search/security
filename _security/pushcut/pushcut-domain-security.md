@@ -51,9 +51,9 @@ source_yaml_url: https://artifacts.apis.io/pushcut/security/pushcut-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- automation
+- Automation
 - iOS
-- shortcuts
-- webhooks
-- integration
+- Shortcuts
+- Webhook
+- Integration
 ---

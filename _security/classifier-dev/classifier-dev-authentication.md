@@ -70,8 +70,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Machine Learning
-- NLP
+- Natural Language Processing
 - Classification
-- API
 - OpenAPI
 ---

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: mojeek-search-api-openapi.yml
-  format: yaml
-  label: Mojeek Search API
-  slug: mojeek-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mojeek/openapi/mojeek-search-api-openapi.yml
 - filename: mojeek-openapi-generated.yml
   format: yaml
   label: Mojeek API
@@ -45,7 +39,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Search
 - Privacy
-- API
-- Open-source
+- Open Source
 - Community
 ---

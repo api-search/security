@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/apache-fineract/security/apache-finer
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- OpenSource
-- FinTech
+- Open Source
+- Fintech
 - Banking
-- API
 ---

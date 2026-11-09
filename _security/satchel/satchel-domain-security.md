@@ -37,8 +37,8 @@ tags:
 - Company
 - Education
 - EdTech
-- SaaS
-- LearningPlatform
+- Software-as-a-Service
+- Learning Platform
 - HomeworkManagement
-- UK
+- United Kingdom
 ---

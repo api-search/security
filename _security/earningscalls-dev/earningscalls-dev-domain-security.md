@@ -89,7 +89,6 @@ tags:
 - Company
 - Finance
 - Data
-- API
 - Transcripts
-- EarningsCalls
+- Earnings Calls
 ---

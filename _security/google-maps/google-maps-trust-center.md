@@ -42,6 +42,60 @@ api_specs:
   slug: google-maps-text-search-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-maps/openapi/google-maps-text-search-api-openapi.yml
+- filename: google-maps-directions-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Directions API
+  slug: google-maps-directions-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-directions-api-api-openapi.yml
+- filename: google-maps-distance-matrix-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Distance Matrix API
+  slug: google-maps-distance-matrix-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-distance-matrix-api-api-openapi.yml
+- filename: google-maps-elevation-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Elevation API
+  slug: google-maps-elevation-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-elevation-api-api-openapi.yml
+- filename: google-maps-geocoding-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Geocoding API
+  slug: google-maps-geocoding-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geocoding-api-api-openapi.yml
+- filename: google-maps-geolocation-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Geolocation API
+  slug: google-maps-geolocation-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geolocation-api-api-openapi.yml
+- filename: google-maps-places-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Places API
+  slug: google-maps-places-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-places-api-api-openapi.yml
+- filename: google-maps-roads-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Roads API
+  slug: google-maps-roads-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-roads-api-api-openapi.yml
+- filename: google-maps-street-view-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Street View API
+  slug: google-maps-street-view-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-street-view-api-api-openapi.yml
+- filename: google-maps-time-zone-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Time Zone API
+  slug: google-maps-time-zone-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-time-zone-api-api-openapi.yml
 certification_count: 17
 certifications:
 - SOC 2
@@ -73,8 +127,8 @@ slug: google-maps-trust-center
 source_filename: google-maps-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https://mapsplatform.google.com/resources/trust-center/\nnote: >-\n  Google Maps Platform operates a dedicated Trust Center listing security, privacy,\n  and compliance attestations. ISO 27001 + SOC certifications cover 25 Google Maps\n  Platform products. Compliance reports are available to customers via the Google\n  Cloud Compliance Reports Manager.\ncompliance_docs: https://developers.google.com/maps/security/compliance/security-compliance\ncertifications:\n- SOC 2\n- SOC 3\n- ISO/IEC 27001:2022\n- ISO/IEC 27017:2015\n- ISO 22301:2019\n- ISO 9001:2015\n- ISO 50001:2018\n- NIST 800-53\n- FIPS 140-2\n- Cloud Security Alliance (CSA)\n- TISAX\n- GDPR\n- EU Standard Contractual Clauses\n- LGPD\n- Swiss FDPA\n- U.S. State Data Protection Laws\n- SIG Questionnaire\nevidence:\n- source: https://mapsplatform.google.com/resources/trust-center/\n  keywords: [soc 2, soc 3, iso/iec 27001, gdpr, trust center]\n- source: https://mapsplatform.google.com/resources/blog/new-iso-27001-and-soc-security-certifications-google-maps-platform/\n\
-  \  keywords: [iso 27001, soc, certification]\n"
+source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https://mapsplatform.google.com/resources/trust-center/\nnote: Google Maps Platform operates a dedicated Trust Center listing security, privacy, and compliance attestations. ISO 27001 + SOC certifications cover 25 Google Maps Platform products. Compliance reports\n  are available to customers via the Google Cloud Compliance Reports Manager.\ncompliance_docs: https://developers.google.com/maps/security/compliance/security-compliance\ncertifications:\n- SOC 2\n- SOC 3\n- ISO/IEC 27001:2022\n- ISO/IEC 27017:2015\n- ISO 22301:2019\n- ISO 9001:2015\n- ISO 50001:2018\n- NIST 800-53\n- FIPS 140-2\n- Cloud Security Alliance (CSA)\n- TISAX\n- GDPR\n- EU Standard Contractual Clauses\n- LGPD\n- Swiss FDPA\n- U.S. State Data Protection Laws\n- SIG Questionnaire\nevidence:\n- source: https://mapsplatform.google.com/resources/trust-center/\n  keywords:\n  - soc 2\n  - soc 3\n  - iso/iec 27001\n  - gdpr\n  - trust center\n- source:\
+  \ https://mapsplatform.google.com/resources/blog/new-iso-27001-and-soc-security-certifications-google-maps-platform/\n  keywords:\n  - iso 27001\n  - soc\n  - certification\nsource: https://mapsplatform.google.com/resources/trust-center/\n"
 source_yaml_url: https://artifacts.apis.io/google-maps/security/google-maps-trust-center.yml
 summary_line: SOC 2, SOC 3, ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO 22301:2019, ISO 9001:2015, ISO 50001:2018, NIST 800-53, FIPS 140-2, Cloud Security Alliance (CSA), TISAX, GDPR, EU Standard Contractual Clauses, LGPD, Swiss FDPA, U.S. State Data Protection Laws, SIG Questionnaire
 tags:

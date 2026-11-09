@@ -61,10 +61,9 @@ source_yaml: "generated: '2026-10-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/thingstodoapi-com/security/thingstodoapi-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Events
+- Event
 - Local
-- API
-- AI
+- Artificial Intelligence
 - JSON
 - MCP
 ---

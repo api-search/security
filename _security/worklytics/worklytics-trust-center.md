@@ -33,7 +33,7 @@ tags:
 - Company
 - Analytics
 - Workplace
-- AI
+- Artificial Intelligence
 - Productivity
 trust_url: https://www.worklytics.co/worklytics-security
 ---

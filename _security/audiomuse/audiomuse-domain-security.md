@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/audiomuse/security/audiomuse-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Music
-- AI
-- OpenSource
+- Artificial Intelligence
+- Open Source
 - Self-Hosted
 - Playlist
-- AudioAnalysis
+- Audio Analysis
 ---

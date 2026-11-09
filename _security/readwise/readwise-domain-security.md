@@ -40,6 +40,5 @@ tags:
 - Reading
 - Productivity
 - Knowledge Management
-- SaaS
-- API
+- Software-as-a-Service
 ---

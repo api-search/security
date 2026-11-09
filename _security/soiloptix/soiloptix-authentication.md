@@ -116,7 +116,7 @@ summary_line: 0 schemes
 tags:
 - Agriculture
 - Soil-Analysis
-- Precision-Agriculture
+- Precision Agriculture
 - Mapping
 - Technology
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/dura-software/security/dura-software-
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Acquisitions
+- Acquisition
 - Software
-- Managed Services
+- Managed Service
 - Technology
 ---

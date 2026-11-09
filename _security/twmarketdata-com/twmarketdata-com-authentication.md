@@ -56,5 +56,4 @@ tags:
 - Finance
 - Market Data
 - Taiwan
-- API
 ---

@@ -31,9 +31,8 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/recurate/security/recurate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- FinTech
+- Fintech
 - Payments
 - Subscription
-- SaaS
-- Venture-backed
+- Software-as-a-Service
 ---

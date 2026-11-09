@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/takeargmax-com/security/takeargmax-co
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Speech
-- LanguageModels
-- CloudAPI
+- Language Models
 ---

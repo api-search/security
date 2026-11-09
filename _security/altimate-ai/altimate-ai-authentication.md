@@ -728,6 +728,72 @@ api_specs:
   slug: altimate-ai-workload-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-workload-api-openapi.yml
+- filename: altimate-ai-apps-v2-api-openapi.yml
+  format: yaml
+  label: Altimate AI APPS V2 API
+  slug: altimate-ai-apps-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-apps-v2-api-openapi.yml
+- filename: altimate-ai-compute-pools-v2-api-openapi.yml
+  format: yaml
+  label: Altimate AI COMPUTE POOLS V2 API
+  slug: altimate-ai-compute-pools-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-compute-pools-v2-api-openapi.yml
+- filename: altimate-ai-connection-edit-api-openapi.yml
+  format: yaml
+  label: Altimate AI CONNECTION EDIT API
+  slug: altimate-ai-connection-edit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-connection-edit-api-openapi.yml
+- filename: altimate-ai-datamateprojectbindings-api-openapi.yml
+  format: yaml
+  label: Altimate AI Datamate Project Bindings API
+  slug: altimate-ai-datamateprojectbindings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-datamateprojectbindings-api-openapi.yml
+- filename: altimate-ai-freshness-api-openapi.yml
+  format: yaml
+  label: Altimate AI FRESHNESS API
+  slug: altimate-ai-freshness-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-freshness-api-openapi.yml
+- filename: altimate-ai-internal-feature-flags-api-openapi.yml
+  format: yaml
+  label: Altimate AI INTERNAL FEATURE FLAGS API
+  slug: altimate-ai-internal-feature-flags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-internal-feature-flags-api-openapi.yml
+- filename: altimate-ai-internal-prompt-library-api-openapi.yml
+  format: yaml
+  label: Altimate AI INTERNAL PROMPT LIBRARY API
+  slug: altimate-ai-internal-prompt-library-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-internal-prompt-library-api-openapi.yml
+- filename: altimate-ai-internal-runtime-config-api-openapi.yml
+  format: yaml
+  label: Altimate AI INTERNAL RUNTIME CONFIG API
+  slug: altimate-ai-internal-runtime-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-internal-runtime-config-api-openapi.yml
+- filename: altimate-ai-learned-lessons-api-openapi.yml
+  format: yaml
+  label: Altimate AI LEARNED LESSONS API
+  slug: altimate-ai-learned-lessons-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-learned-lessons-api-openapi.yml
+- filename: altimate-ai-skills-api-openapi.yml
+  format: yaml
+  label: Altimate AI SKILLS API
+  slug: altimate-ai-skills-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-skills-api-openapi.yml
+- filename: altimate-ai-spaces-api-openapi.yml
+  format: yaml
+  label: Altimate AI SPACES API
+  slug: altimate-ai-spaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-spaces-api-openapi.yml
 - filename: altimate-ai-chat-completions-api-openapi.yml
   format: yaml
   label: Altimate AI Chat Completions API

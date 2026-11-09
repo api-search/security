@@ -35,5 +35,5 @@ tags:
 - Finance
 - Risk Management
 - FX Hedging
-- AI
+- Artificial Intelligence
 ---

@@ -36,5 +36,5 @@ tags:
 - Machine Unlearning
 - AI Safety
 - Model Security
-- Data Privacy
+- Privacy
 ---

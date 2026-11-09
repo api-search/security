@@ -301,4 +301,6 @@ tags:
 - Prompt Management
 - Agents
 - Open Source
+- Machine Learning
+- Generative AI
 ---

@@ -30,6 +30,48 @@ api_specs:
   slug: gcp-cloud-storage-objects-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objects-api-openapi.yml
+- filename: gcp-cloud-storage-anywherecaches-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Anywhere Caches API
+  slug: gcp-cloud-storage-anywherecaches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-anywherecaches-api-openapi.yml
+- filename: gcp-cloud-storage-folders-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Folders API
+  slug: gcp-cloud-storage-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-folders-api-openapi.yml
+- filename: gcp-cloud-storage-managedfolders-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Managed Folders API
+  slug: gcp-cloud-storage-managedfolders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-managedfolders-api-openapi.yml
+- filename: gcp-cloud-storage-notifications-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Notifications API
+  slug: gcp-cloud-storage-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-notifications-api-openapi.yml
+- filename: gcp-cloud-storage-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Operations API
+  slug: gcp-cloud-storage-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-operations-api-openapi.yml
+- filename: gcp-cloud-storage-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Projects API
+  slug: gcp-cloud-storage-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-projects-api-openapi.yml
+- filename: gcp-cloud-storage-rapidcaches-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Rapid Caches API
+  slug: gcp-cloud-storage-rapidcaches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-rapidcaches-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,31 +89,36 @@ domains:
   domain: googleapis.com
   spf: true
 hosts:
-- cert_expires: Sep 14 08:35:22 2026 GMT
+- cert_expires: Dec 30 19:09:53 2026 GMT
+  host: www.google.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec 30 19:07:41 2026 GMT
   host: cloud.google.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 08:41:23 2026 GMT
+- cert_expires: Dec 30 19:11:54 2026 GMT
   host: storage.googleapis.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-hosts_probed: 2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Gcp Cloud Storage Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Google Cloud Storage, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Google Cloud Storage, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Google Cloud Storage
 provider_slug: gcp-cloud-storage
 slug: gcp-cloud-storage-domain-security
 source_filename: gcp-cloud-storage-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: storage.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:41:23 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:09:53 2026 GMT\n  hsts: false\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:07:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: storage.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:11:54 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/gcp-cloud-storage/security/gcp-cloud-storage-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

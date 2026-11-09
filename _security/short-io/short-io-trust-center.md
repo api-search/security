@@ -88,8 +88,8 @@ summary_line: SOC 2, ISO 27001
 tags:
 - URL-shortening
 - Analytics
-- QR-codes
+- QR Codes
 - Enterprise
-- Integrations
+- Integration
 trust_url: https://trust.short.io/
 ---

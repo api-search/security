@@ -32,4 +32,9 @@ source_yaml_url: https://artifacts.apis.io/psnc/security/psnc-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
+- Research
+- Supercomputing
+- Networking
+- Poland
+- Science
 ---

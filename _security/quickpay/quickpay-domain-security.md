@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/quickpay/security/quickpay-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
-- API
-- FinTech
+- Fintech
 - European
-- E‑commerce
+- E-Commerce
 ---

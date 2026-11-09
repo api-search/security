@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/ejentum-com/security/ejentum-com-doma
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Reasoning
-- Agentic
+- AI Agents
 - Verification
 - Platform
 ---

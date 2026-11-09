@@ -34,7 +34,6 @@ tags:
 - Gaming
 - Rewards
 - Mobile
-- Casual
-- GiftCards
+- Gift Cards
 - Company
 ---

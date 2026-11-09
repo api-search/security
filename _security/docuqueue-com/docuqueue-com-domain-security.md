@@ -93,9 +93,9 @@ source_yaml_url: https://artifacts.apis.io/docuqueue-com/security/docuqueue-com-
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- AI
-- DocumentAutomation
+- Artificial Intelligence
+- Document Automation
 - PDF
-- RESTAPI
+- REST API
 - MCP
 ---

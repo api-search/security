@@ -30,7 +30,7 @@ summary_line: 1 scheme
 tags:
 - Media
 - Automation
-- OpenSource
-- FileManagement
+- Open Source
+- File Management
 - Optimization
 ---

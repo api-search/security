@@ -30,6 +30,138 @@ api_specs:
   slug: rutter-connections-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/rutter/openapi/rutter-connections-api-openapi.yml
+- filename: rutter-hris-api-openapi.yml
+  format: yaml
+  label: Rutter HRIS API
+  slug: rutter-hris-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-hris-api-openapi.yml
+- filename: rutter-supplier-enablement-api-openapi.yml
+  format: yaml
+  label: Rutter Supplier Enablement API
+  slug: rutter-supplier-enablement-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-supplier-enablement-api-openapi.yml
+- filename: rutter-acp-api-openapi.yml
+  format: yaml
+  label: Rutter Acp API
+  slug: rutter-acp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-acp-api-openapi.yml
+- filename: rutter-auth-api-openapi.yml
+  format: yaml
+  label: Rutter Auth API
+  slug: rutter-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-auth-api-openapi.yml
+- filename: rutter-balance-api-openapi.yml
+  format: yaml
+  label: Rutter Balance API
+  slug: rutter-balance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-balance-api-openapi.yml
+- filename: rutter-collections-api-openapi.yml
+  format: yaml
+  label: Rutter Collections API
+  slug: rutter-collections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-collections-api-openapi.yml
+- filename: rutter-configs-api-openapi.yml
+  format: yaml
+  label: Rutter Configs API
+  slug: rutter-configs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-configs-api-openapi.yml
+- filename: rutter-customer-groups-api-openapi.yml
+  format: yaml
+  label: Rutter Customer Groups API
+  slug: rutter-customer-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-customer-groups-api-openapi.yml
+- filename: rutter-customers-api-openapi.yml
+  format: yaml
+  label: Rutter Customers API
+  slug: rutter-customers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-customers-api-openapi.yml
+- filename: rutter-events-api-openapi.yml
+  format: yaml
+  label: Rutter Events API
+  slug: rutter-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-events-api-openapi.yml
+- filename: rutter-inventory-events-api-openapi.yml
+  format: yaml
+  label: Rutter Inventory Events API
+  slug: rutter-inventory-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-inventory-events-api-openapi.yml
+- filename: rutter-item-api-openapi.yml
+  format: yaml
+  label: Rutter Item API
+  slug: rutter-item-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-item-api-openapi.yml
+- filename: rutter-jobs-api-openapi.yml
+  format: yaml
+  label: Rutter Jobs API
+  slug: rutter-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-jobs-api-openapi.yml
+- filename: rutter-logs-api-openapi.yml
+  format: yaml
+  label: Rutter Logs API
+  slug: rutter-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-logs-api-openapi.yml
+- filename: rutter-orders-api-openapi.yml
+  format: yaml
+  label: Rutter Orders API
+  slug: rutter-orders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-orders-api-openapi.yml
+- filename: rutter-payouts-api-openapi.yml
+  format: yaml
+  label: Rutter Payouts API
+  slug: rutter-payouts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-payouts-api-openapi.yml
+- filename: rutter-products-api-openapi.yml
+  format: yaml
+  label: Rutter Products API
+  slug: rutter-products-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-products-api-openapi.yml
+- filename: rutter-store-api-openapi.yml
+  format: yaml
+  label: Rutter Store API
+  slug: rutter-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-store-api-openapi.yml
+- filename: rutter-subscriptions-api-openapi.yml
+  format: yaml
+  label: Rutter Subscriptions API
+  slug: rutter-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-subscriptions-api-openapi.yml
+- filename: rutter-supplier-enablement-enrichments-api-openapi.yml
+  format: yaml
+  label: Rutter Supplier Enablement Enrichments API
+  slug: rutter-supplier-enablement-enrichments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-supplier-enablement-enrichments-api-openapi.yml
+- filename: rutter-transactions-api-openapi.yml
+  format: yaml
+  label: Rutter Transactions API
+  slug: rutter-transactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-transactions-api-openapi.yml
+- filename: rutter-ucp-api-openapi.yml
+  format: yaml
+  label: Rutter Ucp API
+  slug: rutter-ucp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/rutter/openapi/rutter-ucp-api-openapi.yml
 - filename: rutter-webhooks-api-openapi.yml
   format: yaml
   label: Rutter Webhooks API
@@ -91,4 +223,5 @@ tags:
 - Financial Data
 - Payments
 - Unified API
+- HRIS
 ---

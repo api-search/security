@@ -33,7 +33,7 @@ source_yaml_url: https://artifacts.apis.io/kallidus/security/kallidus-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Learning Management
+- LMS
 - Performance Management
 - Compliance
 - Employee Development

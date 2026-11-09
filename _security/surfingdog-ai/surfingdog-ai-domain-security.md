@@ -111,8 +111,8 @@ source_yaml_url: https://artifacts.apis.io/surfingdog-ai/security/surfingdog-ai-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Agent-Ready
+- Artificial Intelligence
+- Agent Ready
 - Directory
 - Inbox
 ---

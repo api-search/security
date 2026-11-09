@@ -176,7 +176,7 @@ source_yaml_url: https://artifacts.apis.io/grokzilla-shop/security/grokzilla-sho
 summary_line: TLSv1.3 · HSTS
 tags:
 - Pay-per-call APIs
-- AI agents
+- AI Agents
 - Microservices
 - SEO tools
 - OSINT

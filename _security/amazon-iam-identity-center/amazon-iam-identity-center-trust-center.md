@@ -97,6 +97,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Access Control
 - Authentication
+- Amazon Web Services
 - Identity and Access Management
 - SSO
 trust_url: https://aws.amazon.com/compliance/

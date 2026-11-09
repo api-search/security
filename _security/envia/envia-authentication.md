@@ -201,6 +201,5 @@ tags:
 - Company
 - Shipping
 - Logistics
-- E-commerce
-- API
+- E-Commerce
 ---

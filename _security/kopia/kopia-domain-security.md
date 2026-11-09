@@ -44,7 +44,7 @@ source_yaml_url: https://artifacts.apis.io/kopia/security/kopia-domain-security.
 summary_line: TLSv1.3 · HSTS
 tags:
 - Backup
-- Open-Source
+- Open Source
 - Cloud
 - Security
 - Cross-Platform

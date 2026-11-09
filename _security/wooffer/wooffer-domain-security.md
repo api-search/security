@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Monitoring
-- Server
-- Real-time
-- SaaS
+- Servers
+- Real-Time
+- Software-as-a-Service
 - Performance
 ---

@@ -37,7 +37,6 @@ tags:
 - Compliance
 - Sanctions
 - Screening
-- FinTech
-- API
-- Crypto
+- Fintech
+- Cryptocurrency
 ---

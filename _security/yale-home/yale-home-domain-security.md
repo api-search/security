@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/yale-home/security/yale-home-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SmartLocks
+- smart-locks
 - IoT
-- HomeSecurity
-- ConsumerElectronics
+- Home Security
+- Consumer Electronics
 ---

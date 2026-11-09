@@ -414,31 +414,24 @@ api_specs:
   slug: linkedin-ad-creatives-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-creatives-api-openapi.yml
-certification_count: 5
+certification_count: 1
 certifications:
-- ISO 22301
-- ISO 27001
-- ISO 27018
-- SOC 2
-- PCI DSS
+- GDPR
 description: ''
 kind: trust-center
 layout: security
 name: Linkedin Trust Center
 name_suffix: Trust Center
-overview: LinkedIn maintains a public trust center documenting ISO 22301, ISO 27001, ISO 27018, SOC 2, and PCI DSS compliance.
+overview: LinkedIn maintains a public trust center documenting GDPR compliance.
 provider_name: LinkedIn
 provider_slug: linkedin
 slug: linkedin-trust-center
 source_filename: linkedin-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nurl: https://security.linkedin.com/trust-and-compliance\nname: LinkedIn Trust and Compliance\nsmart_trust_center: >-\n  LinkedIn operates a \"Smart Trust Center\" portal that gives customers access to the latest security\n  reports and documents, including the ISO certificates and the SOC 2 report. Access requires creating an\n  account on the portal; reports are not published anonymously. The portal is English-only.\nprogram: >-\n  LinkedIn maintains an Information Security Program to ensure the confidentiality, integrity and\n  availability of its computer and data communication systems while meeting legislative, industry and\n  contractual requirements.\ncertifications:\n- name: ISO 22301\n  standard: Business Continuity Management Systems\n  scope: Products and services on the LinkedIn platform\n  note: LinkedIn's ISO 22301 certification is stated as valid until May 2026.\n- name: ISO 27001\n  standard: Information\
-  \ Security Management System (ISMS)\n  scope: Products and services on the LinkedIn platform; certificates listed per product line — Learning Solutions, Marketing Solutions, Sales Solutions, Talent Solutions.\n- name: ISO 27018\n  standard: Privacy protections for processing of personal information by cloud service providers\n  scope: Products and services on the LinkedIn platform\n- name: SOC 2\n  standard: AICPA Service Organization Control 2 (trust service principles and criteria)\n  scope: LinkedIn Learning Solutions, Marketing Solutions, Sales Solutions and Talent Solutions; a separate SOC 2 report covers the Glint platform.\n  access: Create an account on the LinkedIn Smart Trust Center to obtain the report.\n- name: PCI DSS\n  standard: Payment Card Industry Data Security Standard\n  scope: Systems processing, storing or transmitting payment card data; assessed annually by a third-party QSA which issues an Attestation of Compliance.\n  access: Reports are not shared with the public.\n\
-  referenced_standards:\n- name: ISO 27002\n  note: Cited as the source of the security controls underpinning the ISO 27001 ISMS.\ndata_protection:\n  dpa: https://www.linkedin.com/legal/l/dpa\n  privacy_policy: https://www.linkedin.com/legal/privacy-policy\n  regimes: [GDPR, CCPA, EU Standard Contractual Clauses (Modules 1 and 2), UK Addendum]\n  supervisory_authority: Data Protection Commission of Ireland (competent authority under SCC Clause 13)\n  iso_mapping_commitment: >-\n    The DPA commits LinkedIn to provide, on request, a mapping of its security policies to the controls\n    set out in ISO/IEC 27001, and to provide an annual Service Organization Control report from an\n    accredited auditor.\nrelated_pages:\n  vulnerability_disclosure: https://security.linkedin.com/vulnerability-disclosure\n  security_practices: https://security.linkedin.com/\n  safety_center: https://safety.linkedin.com/\n  transparency: https://about.linkedin.com/transparency\nevidence:\n- source: https://security.linkedin.com/trust-and-compliance\n\
-  \  http_status: 200\n  fetched: '2026-08-13'\n  keywords: [ISO 22301, ISO 27001, ISO 27018, ISO 27002, SOC 2, PCI DSS, Smart Trust Center, Compliance Certifications]\n- source: https://www.linkedin.com/legal/l/dpa\n  http_status: 200\n  fetched: '2026-08-13'\n  keywords: [ISO/IEC 27001, Service Organization Control report, PCI DSS, GDPR, SCCs]\n  note: The DPA security exhibit names https://security.linkedin.com/trust-and-compliance as the canonical location for LinkedIn's security certifications.\n- source: https://security.linkedin.com/\n  http_status: 200\n  fetched: '2026-08-13'\n  note: 301-redirects to https://about.linkedin.com/transparency at the root; the trust content lives at /trust-and-compliance.\n"
+source_yaml: "generated: '2026-11-05'\nmethod: searched\nprobe: true\nsource: https://www.microsoft.com/en-us/trust-center\nurl: https://www.microsoft.com/en-us/trust-center\ncertifications:\n- GDPR\nevidence:\n- source: https://www.microsoft.com/en-us/trust-center\n  keywords:\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://artifacts.apis.io/linkedin/security/linkedin-trust-center.yml
-summary_line: ISO 22301, ISO 27001, ISO 27018, SOC 2, PCI DSS
+summary_line: GDPR
 tags:
 - LinkedIn
 - Business
@@ -449,5 +442,5 @@ tags:
 - Social Media
 - Fortune 1000
 - Social
-trust_url: https://security.linkedin.com/trust-and-compliance
+trust_url: https://www.microsoft.com/en-us/trust-center
 ---

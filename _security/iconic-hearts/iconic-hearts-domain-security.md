@@ -33,6 +33,6 @@ tags:
 - Company
 - Social
 - Platform
-- GenAlpha
+- Gen Alpha
 - Mobile
 ---

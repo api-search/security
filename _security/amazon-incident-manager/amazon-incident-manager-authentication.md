@@ -57,6 +57,48 @@ api_specs:
   slug: amazon-incident-manager-gettimelineevent-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-gettimelineevent-api-openapi.yml
+- filename: amazon-incident-manager-contact-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Contact API
+  slug: amazon-incident-manager-contact-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-contact-api-openapi.yml
+- filename: amazon-incident-manager-contact-channel-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Contact Channel API
+  slug: amazon-incident-manager-contact-channel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-contact-channel-api-openapi.yml
+- filename: amazon-incident-manager-engagement-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Engagement API
+  slug: amazon-incident-manager-engagement-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-engagement-api-openapi.yml
+- filename: amazon-incident-manager-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Operations API
+  slug: amazon-incident-manager-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-operations-api-openapi.yml
+- filename: amazon-incident-manager-page-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Page API
+  slug: amazon-incident-manager-page-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-page-api-openapi.yml
+- filename: amazon-incident-manager-rotation-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Rotation API
+  slug: amazon-incident-manager-rotation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-rotation-api-openapi.yml
+- filename: amazon-incident-manager-rotation-override-api-openapi.yml
+  format: yaml
+  label: Amazon Incident Manager Incident Manager Rotation Override API
+  slug: amazon-incident-manager-rotation-override-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-rotation-override-api-openapi.yml
 - filename: amazon-incident-manager-create-replication-set-api-openapi.yml
   format: yaml
   label: Amazon Incident Manager Create Replication Set API
@@ -165,48 +207,6 @@ api_specs:
   slug: amazon-incident-manager-update-timeline-event-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-update-timeline-event-api-openapi.yml
-- filename: amazon-incident-manager-contact-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager Incident Manager Contact API
-  slug: amazon-incident-manager-contact-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-contact-api-openapi.yml
-- filename: amazon-incident-manager-contact-channel-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager Incident Manager Contact Channel API
-  slug: amazon-incident-manager-contact-channel-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-contact-channel-api-openapi.yml
-- filename: amazon-incident-manager-engagement-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager Incident Manager Engagement API
-  slug: amazon-incident-manager-engagement-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-engagement-api-openapi.yml
-- filename: amazon-incident-manager-operations-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager Incident Manager Operations API
-  slug: amazon-incident-manager-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-operations-api-openapi.yml
-- filename: amazon-incident-manager-page-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager Incident Manager Page API
-  slug: amazon-incident-manager-page-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-page-api-openapi.yml
-- filename: amazon-incident-manager-rotation-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager Incident Manager Rotation API
-  slug: amazon-incident-manager-rotation-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-rotation-api-openapi.yml
-- filename: amazon-incident-manager-rotation-override-api-openapi.yml
-  format: yaml
-  label: Amazon Incident Manager Incident Manager Rotation Override API
-  slug: amazon-incident-manager-rotation-override-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-incident-manager/openapi/amazon-incident-manager-rotation-override-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -238,6 +238,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-incident-manager/authenticatio
 summary_line: apiKey · 1 scheme
 tags:
 - Automation
+- Amazon Web Services
 - DevOps
 - Incident Management
 ---

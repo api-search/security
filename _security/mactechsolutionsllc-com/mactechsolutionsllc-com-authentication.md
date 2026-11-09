@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Cybersecurity
 - CMMC
-- NIST-800-171
+- NIST 800-171
 - DFARS
 - SDVOSB
 - Compliance

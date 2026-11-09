@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Education
 - EdTech
-- AI
+- Artificial Intelligence
 - Homework
 - China
 ---

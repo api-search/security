@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/intrepid-labs/security/intrepid-labs-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Drug-Formulation
 - Pharma
 - Platform
-- Startup
+- Startups
 ---

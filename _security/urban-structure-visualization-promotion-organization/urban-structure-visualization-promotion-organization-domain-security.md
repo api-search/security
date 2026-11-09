@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/urban-structure-visualization-promoti
 summary_line: TLSv1.3
 tags:
 - Company
-- UrbanPlanning
+- Urban Planning
 - Visualization
-- Nonprofit
+- Non-Profit
 - Japan
 ---

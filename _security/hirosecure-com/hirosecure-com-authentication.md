@@ -31,5 +31,5 @@ tags:
 - Automation
 - DevOps
 - Compliance
-- AI
+- Artificial Intelligence
 ---

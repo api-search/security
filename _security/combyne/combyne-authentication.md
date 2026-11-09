@@ -30,6 +30,6 @@ tags:
 - Agriculture
 - Grain
 - Farming
-- SaaS
+- Software-as-a-Service
 - AgTech
 ---

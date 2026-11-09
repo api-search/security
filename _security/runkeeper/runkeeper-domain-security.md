@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Fitness
 - Social
-- MobileApp
+- Mobile App
 - Tracking
 - Community
 - Health

@@ -144,6 +144,7 @@ source_yaml_url: https://artifacts.apis.io/aws-api-gateway/security/aws-api-gate
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - API Gateway
+- Amazon Web Services
 - Cloud
 - REST
 - HTTP

@@ -33,5 +33,4 @@ tags:
 - Web Scraping
 - Rendering
 - Automation
-- Cloud Service
 ---

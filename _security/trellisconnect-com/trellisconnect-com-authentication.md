@@ -38,5 +38,5 @@ tags:
 - Insurance
 - Car Insurance
 - Licensed Agency
-- AI Assistants
+- AI Assistant
 ---

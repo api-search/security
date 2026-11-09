@@ -44,7 +44,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Data
-- AI
+- Artificial Intelligence
 - Finance
 - Healthcare
 ---

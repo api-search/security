@@ -65,7 +65,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - AI Governance
-- Agentic AI
+- AI Agents
 - Compliance
 - Certification
 ---

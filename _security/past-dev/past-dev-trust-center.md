@@ -63,10 +63,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/past-dev/security/past-dev-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Memory
-- API
 - Platform
-- Developer
+- Developers
 trust_url: https://past.dev/security
 ---

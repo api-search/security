@@ -154,7 +154,6 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Email
-- AI
+- Artificial Intelligence
 - Infrastructure
-- API
 ---

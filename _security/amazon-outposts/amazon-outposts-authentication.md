@@ -93,6 +93,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-o
 source_yaml_url: https://artifacts.apis.io/amazon-outposts/authentication/amazon-outposts-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Edge Computing
 - Hybrid Cloud
 - Infrastructure

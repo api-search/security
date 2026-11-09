@@ -35,9 +35,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://curlsho
 source_yaml_url: https://artifacts.apis.io/curlshot-com/authentication/curlshot-com-authentication.yml
 summary_line: 3 schemes
 tags:
-- Screenshot
-- API
+- Screenshots
 - Web
 - Automation
-- DeveloperTools
+- Developer Tools
 ---

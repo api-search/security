@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/genesis-ai-company/security/genesis-a
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Startup
-- GenerativeAI
+- Artificial Intelligence
+- Startups
+- Generative AI
 - Platform
 ---

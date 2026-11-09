@@ -33,6 +33,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Cloud
+- Amazon Web Services
 - Cost Optimization
 - FinOps
 - DevOps

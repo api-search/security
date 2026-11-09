@@ -33,7 +33,7 @@ tags:
 - trading-journal
 - Trade Analytics
 - Fintech
-- trading-tools
+- TradingTools
 - Stocks
 - Options
 - Futures
@@ -41,5 +41,5 @@ tags:
 - Cryptocurrency
 - CFD
 - AI Assistant
-- llms-txt
+- Llms.txt
 ---

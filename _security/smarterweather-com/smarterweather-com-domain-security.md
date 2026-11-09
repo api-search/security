@@ -102,6 +102,5 @@ tags:
 - Weather
 - Data
 - Forecasting
-- API
 - Climate
 ---

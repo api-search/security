@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/predictionmarketspicks-com/security/p
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- PredictionMarkets
+- Prediction Markets
 - TradingTools
 - Analytics
 - News

@@ -36,6 +36,6 @@ tags:
 - Company
 - Ticketing
 - Hospitality
-- Events
-- POS
+- Event
+- Point-of-Sale
 ---

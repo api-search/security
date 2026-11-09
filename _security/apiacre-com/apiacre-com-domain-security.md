@@ -120,6 +120,6 @@ tags:
 - Payments
 - Blockchain
 - Web3
-- API-Marketplace
+- API Marketplace
 - USDC
 ---

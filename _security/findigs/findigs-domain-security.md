@@ -73,7 +73,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - rental-screening
 - Tenant Screening
-- resident-screening
+- Resident Screening
 - rental-application
 - Underwriting
 - Decisioning

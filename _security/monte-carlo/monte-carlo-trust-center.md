@@ -34,5 +34,7 @@ tags:
 - Data Lineage
 - Monitoring
 - AI Observability
+- Data Monitoring
+- GraphQL
 trust_url: https://trust.montecarlo.ai/
 ---

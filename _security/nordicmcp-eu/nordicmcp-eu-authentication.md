@@ -36,7 +36,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - MCP
-- AI
-- Integrations
+- Artificial Intelligence
+- Integration
 - Sweden
 ---

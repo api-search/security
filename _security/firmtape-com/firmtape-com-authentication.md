@@ -8,6 +8,18 @@ api_specs:
   slug: firmtape-com-levels-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/firmtape-com/openapi/firmtape-com-levels-api-openapi.yml
+- filename: firmtape-com-days-api-openapi.yml
+  format: yaml
+  label: FirmTape Days API
+  slug: firmtape-com-days-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/firmtape-com/openapi/firmtape-com-days-api-openapi.yml
+- filename: firmtape-com-session-api-openapi.yml
+  format: yaml
+  label: FirmTape Session API
+  slug: firmtape-com-session-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/firmtape-com/openapi/firmtape-com-session-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -17,8 +29,8 @@ method: searched
 name: Firmtape Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: firmtape-com declares 1 security scheme(s) across its OpenAPI definitions.
-provider_name: firmtape-com
+overview: FirmTape declares 1 security scheme(s) across its OpenAPI definitions.
+provider_name: FirmTape
 provider_slug: firmtape-com
 scheme_count: 1
 schemes:

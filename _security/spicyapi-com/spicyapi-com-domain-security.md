@@ -105,7 +105,7 @@ source_yaml_url: https://artifacts.apis.io/spicyapi-com/security/spicyapi-com-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Adult
 - Image Generation
 - Video Generation

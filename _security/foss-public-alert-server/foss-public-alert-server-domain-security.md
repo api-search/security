@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
 - Alert
-- OpenSource
+- Open Source
 - Monitoring
 - Public
 ---

@@ -34,6 +34,6 @@ tags:
 - Company
 - Investment
 - Marketplace
-- Startup
-- AI
+- Startups
+- Artificial Intelligence
 ---

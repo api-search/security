@@ -36,6 +36,5 @@ tags:
 - Company
 - Data Enrichment
 - Technographics
-- API
 - MCP
 ---

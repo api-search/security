@@ -226,7 +226,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - B2B
-- LoanManagement
-- FinTech
-- APIPlatform
+- Loan Management
+- Fintech
+- API Platform
 ---

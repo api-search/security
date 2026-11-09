@@ -30,8 +30,6 @@ source_yaml_url: https://artifacts.apis.io/brewster-com/security/brewster-com-do
 summary_line: TLSv1.3
 tags:
 - Company
-- Startup
-- Venture-backed
-- API
+- Startups
 - Technology
 ---

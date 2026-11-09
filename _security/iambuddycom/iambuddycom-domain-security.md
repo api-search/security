@@ -39,4 +39,8 @@ tags:
 - P&C Insurance
 - MCP
 - Payments
+- Platform
+- Digital Commerce
+- Techstars
+- Artificial Intelligence
 ---

@@ -99,7 +99,7 @@ tags:
 - Product Management
 - AI Agents
 - MCP
-- SaaS analytics
+- SaaS Analytics
 - A2A
 - SCIM
 - Product Discovery

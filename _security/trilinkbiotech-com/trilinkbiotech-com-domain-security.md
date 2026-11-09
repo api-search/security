@@ -31,10 +31,10 @@ source_yaml: "generated: '2026-10-24'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/trilinkbiotech-com/security/trilinkbiotech-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- DNA synthesis
-- synthetic DNA
-- therapeutics
-- vaccines
-- agriculture
-- nanotechnology
+- DNA Synthesis
+- Synthetic DNA
+- Therapeutics
+- Vaccines
+- Agriculture
+- Nanotechnology
 ---

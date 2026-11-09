@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
 - Session Replay
-- AI
+- Artificial Intelligence
 - Web
 - Mobile
 ---

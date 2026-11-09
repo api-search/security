@@ -59,7 +59,7 @@ tags:
 - Flights
 - Hotels
 - Holiday Packages
-- Travel Tech
+- TravelTech
 - E-Commerce
 - Europe
 ---

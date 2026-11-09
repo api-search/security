@@ -40,7 +40,7 @@ tags:
 - Company
 - ERP
 - Finance
-- HR
+- Human Resources
 - Procurement
 - Manufacturing
 ---

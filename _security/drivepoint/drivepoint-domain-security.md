@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/drivepoint/security/drivepoint-domain
 summary_line: TLSv1.3 · HSTS
 tags:
 - AI Finance
-- Consumer Brands
+- Consumer Brand
 - Financial Modeling
 - Forecasting
 - Data Consolidation

@@ -1,13 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: payaut-notification-api-openapi.yml
-  format: yaml
-  label: Payaut API
-  slug: payaut-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/payaut/openapi/payaut-notification-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -37,6 +30,5 @@ tags:
 - Fintech
 - Payments
 - Embedded Payments
-- Platforms
-- APIs
+- Platform
 ---

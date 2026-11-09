@@ -61,7 +61,7 @@ source_yaml_url: https://artifacts.apis.io/ayushrai-site/authentication/ayushrai
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Engineering
 - Consulting
 - Portfolio

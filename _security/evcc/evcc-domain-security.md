@@ -98,9 +98,9 @@ source_yaml_url: https://artifacts.apis.io/evcc/security/evcc-domain-security.ym
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- EV
-- SmartCharging
-- OpenSource
-- EnergyManagement
-- HomeAutomation
+- Electric Vehicles
+- Smart Charging
+- Open Source
+- Energy Management
+- Home Automation
 ---

@@ -40,8 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Web Scraping
-- API
-- AI
+- Artificial Intelligence
 - Data Extraction
 - Automation
 ---

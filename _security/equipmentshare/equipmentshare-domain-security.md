@@ -37,5 +37,6 @@ tags:
 - Equipment Rental
 - GraphQL
 - Developer Platform
+- OAuth
 - Authentication
 ---

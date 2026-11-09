@@ -22,6 +22,7 @@ source_yaml_url: https://artifacts.apis.io/wraps-dev/security/wraps-dev-trust-ce
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Email
+- Amazon Web Services
 - SES
 - Infrastructure
 - Platform

@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/fidro-io/security/fidro-io-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FraudDetection
-- API
-- RiskAnalysis
+- Fraud Prevention
+- Risk Analysis
 - Payments
 ---

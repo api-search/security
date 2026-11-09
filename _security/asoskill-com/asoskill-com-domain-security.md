@@ -70,7 +70,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - ASO
-- AppStore
-- API
+- App Store
 - Data
 ---

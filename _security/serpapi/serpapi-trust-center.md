@@ -37,5 +37,14 @@ tags:
 - Google
 - Search
 - Search Engines
+- SERP
+- Web Scraping
+- AI Agents
+- MCP
+- Markdown
+- Baidu
+- DuckDuckGo
+- YouTube
+- Amazon
 trust_url: https://serpapi.com/security
 ---

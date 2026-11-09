@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/the-khronos-group-inc/security/the-kh
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Open-Standards
+- Open Standard
 - Graphics
 - AR/VR
 - Compute

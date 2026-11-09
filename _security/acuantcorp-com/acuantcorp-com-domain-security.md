@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/acuantcorp-com/security/acuantcorp-co
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- IdentityVerification
-- DocumentCapture
-- BiometricAuthentication
-- FraudDetection
+- Identity Verification
+- Document-Capture
+- Biometric Authentication
+- Fraud Prevention
 ---

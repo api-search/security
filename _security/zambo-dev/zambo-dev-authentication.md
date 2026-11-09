@@ -92,9 +92,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://zambo.d
 source_yaml_url: https://artifacts.apis.io/zambo-dev/authentication/zambo-dev-authentication.yml
 summary_line: 1 scheme
 tags:
-- Company
-- AI
-- TrustLayer
+- Artificial Intelligence
 - MCP
 - Platform
+- AI Tools
+- Verifiable Receipts
+- Cross‑AI Continuity
 ---

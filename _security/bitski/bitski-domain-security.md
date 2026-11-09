@@ -67,6 +67,7 @@ tags:
 - NFT
 - Blockchain
 - Authentication
+- OAuth
 - Payments
 - Developer Tools
 - Company

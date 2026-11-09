@@ -41,8 +41,8 @@ source_yaml_url: https://artifacts.apis.io/film-fun/authentication/film-fun-auth
 summary_line: 2 schemes
 tags:
 - Company
-- AI
-- VideoEditing
+- Artificial Intelligence
+- Video Editing
 - Filmmaking
 - Platform
 ---

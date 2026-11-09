@@ -36,7 +36,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Web Scraping
-- AI
+- Artificial Intelligence
 - Data
 - MCP
 ---

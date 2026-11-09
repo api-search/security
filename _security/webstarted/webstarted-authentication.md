@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Staff Augmentation
 - Nearshore
-- LATAM
+- Latin America
 - Recruiting
 - Startup Advisory
 ---

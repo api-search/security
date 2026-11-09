@@ -33,6 +33,5 @@ tags:
 - Sports
 - LiveSchedules
 - TimezoneConversion
-- API
 - Data
 ---

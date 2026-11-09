@@ -253,5 +253,7 @@ tags:
 - MCP
 - Platform
 - Identity Federation
+- OpenID Connect
+- Identity and Access Management
 trust_url: https://security.okta.com/
 ---

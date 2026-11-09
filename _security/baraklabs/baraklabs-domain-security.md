@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/baraklabs/security/baraklabs-domain-s
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- SaaS
-- Open-Source
+- Software-as-a-Service
+- Open Source
 - Developer Tools
-- AI
+- Artificial Intelligence
 ---

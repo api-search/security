@@ -33,7 +33,7 @@ source_yaml_url: https://artifacts.apis.io/evbox/security/evbox-domain-security.
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- EVCharging
+- EV Charging
 - Hardware
 - Software
 - Energy

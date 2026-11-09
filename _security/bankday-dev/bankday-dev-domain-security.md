@@ -94,6 +94,5 @@ tags:
 - Company
 - Finance
 - Calendar
-- API
 - Payments
 ---

@@ -33,6 +33,6 @@ tags:
 - Company
 - Webinar
 - Video
-- OnDemand
-- SaaS
+- On-Demand
+- Software-as-a-Service
 ---

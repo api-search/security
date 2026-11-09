@@ -34,6 +34,6 @@ tags:
 - Company
 - Data
 - Cloud
-- AI
+- Artificial Intelligence
 - Security
 ---

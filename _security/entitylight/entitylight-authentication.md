@@ -72,7 +72,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Business
-- API
 - UCC
 - Litigation
 - Monitoring

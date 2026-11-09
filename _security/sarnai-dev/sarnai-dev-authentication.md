@@ -91,7 +91,7 @@ source_yaml_url: https://artifacts.apis.io/sarnai-dev/authentication/sarnai-dev-
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Directory
 - Platform

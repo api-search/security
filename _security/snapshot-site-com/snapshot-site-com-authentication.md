@@ -37,8 +37,7 @@ source_yaml_url: https://artifacts.apis.io/snapshot-site-com/authentication/snap
 summary_line: 1 scheme
 tags:
 - Company
-- Screenshot
-- API
-- AI
+- Screenshots
+- Artificial Intelligence
 - Monitoring
 ---

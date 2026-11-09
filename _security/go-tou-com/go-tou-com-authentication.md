@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/go-tou-com/authentication/go-tou-com-
 summary_line: 0 schemes
 tags:
 - Company
-- EV
+- Electric Vehicles
 - Charging
 - Platform
-- SaaS
+- Software-as-a-Service
 - CPO
 ---

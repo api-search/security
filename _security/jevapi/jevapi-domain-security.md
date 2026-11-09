@@ -31,7 +31,6 @@ source_yaml_url: https://artifacts.apis.io/jevapi/security/jevapi-domain-securit
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
 - DecisionModel
 - Software
 - DeveloperGuide

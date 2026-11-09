@@ -31,7 +31,7 @@ tags:
 - CLI
 - Agent Tooling
 - Agent Skills
-- llms-txt
+- Llms.txt
 - Developer Tools
 - Domain Intelligence
 ---

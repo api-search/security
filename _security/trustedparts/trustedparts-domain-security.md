@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Automotive
 - Parts
-- E-commerce
+- E-Commerce
 - B2B
-- SupplyChain
+- Supply Chain
 ---

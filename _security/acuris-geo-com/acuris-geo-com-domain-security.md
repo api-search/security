@@ -81,7 +81,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Geocoding
-- Address-Validation
-- Location-Data
-- API
+- Address Validation
+- Location Data
 ---

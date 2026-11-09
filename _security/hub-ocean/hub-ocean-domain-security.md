@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Ocean
 - Data
-- Non-profit
-- Foundation
+- Non-Profit
+- Foundations
 - Community
-- Open-source
+- Open Source
 ---

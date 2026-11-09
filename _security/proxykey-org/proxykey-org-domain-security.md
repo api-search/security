@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/proxykey-org/security/proxykey-org-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Security
-- API-Management
+- API Management
 - Encryption
-- Key-Vault
-- Developer-Tools
+- Key Vault
+- Developer Tools
 ---

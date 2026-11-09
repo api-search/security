@@ -33,5 +33,5 @@ tags:
 - Open Source
 - IoT
 - Community
-- Nonprofit
+- Non-Profit
 ---

@@ -29,9 +29,9 @@ source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/kujiale/security/kujiale-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- 3DDesign
+- 3D Design
 - CloudDesign
-- AI
-- InteriorDesign
+- Artificial Intelligence
+- Interior Design
 - HomeDecoration
 ---

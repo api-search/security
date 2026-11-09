@@ -34,6 +34,6 @@ tags:
 - Company
 - Fintech
 - Banking
-- SMB
-- DataAnalytics
+- Small Business
+- Data Analytics
 ---

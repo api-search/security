@@ -105,8 +105,7 @@ source_yaml_url: https://artifacts.apis.io/space-ocr-com/security/space-ocr-com-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - OCR
-- AI
-- Document-Processing
+- Artificial Intelligence
+- Document Processing
 - Field-Extraction
-- API
 ---

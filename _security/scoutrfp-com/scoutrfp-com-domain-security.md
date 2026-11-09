@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Procurement
-- SaaS
+- Software-as-a-Service
 - RFP
 - Collaboration
 ---

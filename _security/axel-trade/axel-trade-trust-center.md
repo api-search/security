@@ -25,6 +25,6 @@ tags:
 - Tax
 - Accounting
 - Software
-- UK
+- United Kingdom
 trust_url: https://axel.trade/security
 ---

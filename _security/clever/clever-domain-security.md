@@ -60,6 +60,36 @@ api_specs:
   slug: clever-users-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clever/openapi/clever-users-api-openapi.yml
+- filename: clever-contacts-api-openapi.yml
+  format: yaml
+  label: Clever Contacts API
+  slug: clever-contacts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clever/openapi/clever-contacts-api-openapi.yml
+- filename: clever-district-admins-api-openapi.yml
+  format: yaml
+  label: Clever District Admins API
+  slug: clever-district-admins-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clever/openapi/clever-district-admins-api-openapi.yml
+- filename: clever-school-admins-api-openapi.yml
+  format: yaml
+  label: Clever School Admins API
+  slug: clever-school-admins-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clever/openapi/clever-school-admins-api-openapi.yml
+- filename: clever-students-api-openapi.yml
+  format: yaml
+  label: Clever Students API
+  slug: clever-students-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clever/openapi/clever-students-api-openapi.yml
+- filename: clever-teachers-api-openapi.yml
+  format: yaml
+  label: Clever Teachers API
+  slug: clever-teachers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clever/openapi/clever-teachers-api-openapi.yml
 description: ''
 domains:
 - caa: []

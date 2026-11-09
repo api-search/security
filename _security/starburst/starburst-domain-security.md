@@ -39,4 +39,7 @@ tags:
 - Federated Query
 - Data Governance
 - Business Intelligence
+- Data Platform
+- Analytics
+- Apache Iceberg
 ---

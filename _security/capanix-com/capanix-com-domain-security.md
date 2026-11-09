@@ -34,6 +34,6 @@ tags:
 - ISO
 - Safety
 - GMP
-- HR
+- Human Resources
 - Templates
 ---

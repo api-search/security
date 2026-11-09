@@ -32,6 +32,6 @@ tags:
 - Company
 - Food
 - Recipes
-- AsianCuisine
+- Asian Cuisine
 - Cooking
 ---

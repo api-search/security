@@ -32,6 +32,6 @@ tags:
 - Company
 - Education
 - Healthcare
-- E‑learning
-- DigitalHealth
+- E-Learning
+- Digital Health
 ---

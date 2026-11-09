@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/revops/security/revops-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - CPQ
-- Revenue-Operations
-- SaaS
-- Integrations
+- Revenue Operations
+- Software-as-a-Service
+- Integration
 - Deal-Desk
 ---

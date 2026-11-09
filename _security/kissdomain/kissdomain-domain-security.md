@@ -34,5 +34,5 @@ tags:
 - Hosting
 - Business
 - Germany
-- Provider
+- Providers
 ---

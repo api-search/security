@@ -228,7 +228,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Photo Management
-- AI
-- Self‑Hosted
+- Artificial Intelligence
+- Self-Hosted
 - Open Source
 ---

@@ -56,7 +56,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Advertising
-- AI
+- Artificial Intelligence
 - Marketing
 - Automation
 ---

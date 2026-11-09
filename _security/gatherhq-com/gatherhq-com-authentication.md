@@ -90,8 +90,8 @@ source_yaml_url: https://artifacts.apis.io/gatherhq-com/authentication/gatherhq-
 summary_line: 3 schemes
 tags:
 - Company
-- Buyer-Intelligence
-- Market-Research
+- Buyer Intelligence
+- Market Research
 - GTM-Tools
-- SaaS
+- Software-as-a-Service
 ---

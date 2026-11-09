@@ -38,9 +38,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/theremotesuite-com/security/theremotesuite-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- employee-recognition
-- remote-work
-- team-engagement
-- culture
-- SaaS
+- Employee Recognition
+- Remote Work
+- Team Engagement
+- Culture
+- Software-as-a-Service
 ---

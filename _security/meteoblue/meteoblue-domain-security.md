@@ -41,6 +41,5 @@ tags:
 - Weather
 - Climate
 - Data
-- API
 - Forecast
 ---

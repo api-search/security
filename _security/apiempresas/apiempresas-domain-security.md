@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/apiempresas/security/apiempresas-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- company-data
-- risk-assessment
-- spanish
-- api
+- Company Data
+- Risk Assessment
+- Spanish
 ---

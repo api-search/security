@@ -32,6 +32,6 @@ tags:
 - Company
 - Finance
 - Data
-- Insider‑Trading
-- Investments
+- Insider Trading
+- Investment
 ---

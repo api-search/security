@@ -35,5 +35,5 @@ tags:
 - Space
 - Defence
 - Engineering
-- Critical-Infrastructure
+- Critical Infrastructure
 ---

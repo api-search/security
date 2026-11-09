@@ -44,6 +44,6 @@ tags:
 - Company
 - VPN
 - Privacy
-- OpenSource
+- Open Source
 - Security
 ---

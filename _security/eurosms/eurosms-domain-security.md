@@ -32,7 +32,6 @@ summary_line: DMARC
 tags:
 - Company
 - SMS
-- BulkMessaging
-- API
+- Bulk Messaging
 - Slovakia
 ---

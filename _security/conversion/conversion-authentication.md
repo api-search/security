@@ -94,8 +94,8 @@ summary_line: 2 schemes
 tags:
 - Marketing
 - Automation
-- AI
+- Artificial Intelligence
 - B2B
-- SaaS
+- Software-as-a-Service
 - Platform
 ---

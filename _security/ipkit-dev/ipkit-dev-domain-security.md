@@ -39,6 +39,5 @@ tags:
 - Company
 - IP
 - Geolocation
-- API
 - Data
 ---

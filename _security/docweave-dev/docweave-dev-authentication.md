@@ -36,7 +36,6 @@ summary_line: 0 schemes
 tags:
 - PDF
 - Generation
-- API
-- AI
+- Artificial Intelligence
 - Developers
 ---

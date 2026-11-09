@@ -41,5 +41,5 @@ tags:
 - Blockchain
 - Data
 - Analytics
-- Crypto
+- Cryptocurrency
 ---

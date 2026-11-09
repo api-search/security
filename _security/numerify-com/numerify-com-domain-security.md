@@ -31,7 +31,6 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Venture
-- Startup
+- Startups
 - Acquired
-- API
 ---

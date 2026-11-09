@@ -58,9 +58,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: derived\nsource: https://podkitap
 source_yaml_url: https://artifacts.apis.io/podkitapp-com/authentication/podkitapp-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- Podcast
-- API
+- Podcasts
 - Data
-- Developer
+- Developers
 - Audio
 ---

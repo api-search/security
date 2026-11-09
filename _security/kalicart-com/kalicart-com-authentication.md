@@ -26,9 +26,9 @@ source_yaml_url: https://artifacts.apis.io/kalicart-com/authentication/kalicart-
 summary_line: 1 scheme
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - WooCommerce
-- AgenticCommerce
-- OpenProtocol
-- AI
+- Agentic Commerce
+- Open Protocol
+- Artificial Intelligence
 ---

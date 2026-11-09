@@ -20,9 +20,21 @@ api_specs:
   slug: microsoft-to-do-tasks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-tasks-api-openapi.yml
+- filename: microsoft-to-do-me-todo-api-openapi.yml
+  format: yaml
+  label: Microsoft To Do Me.todo API
+  slug: microsoft-to-do-me-todo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-me-todo-api-openapi.yml
+- filename: microsoft-to-do-users-todo-api-openapi.yml
+  format: yaml
+  label: Microsoft To Do Users.todo API
+  slug: microsoft-to-do-users-todo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-users-todo-api-openapi.yml
 - filename: microsoft-to-do-checklist-items-api-openapi.yml
   format: yaml
-  label: Microsoft to Do Checklist Items API
+  label: Microsoft To Do Checklist Items API
   slug: microsoft-to-do-checklist-items-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-checklist-items-api-openapi.yml
@@ -36,8 +48,8 @@ method: derived
 name: Microsoft To Do Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Microsoft to Do secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Microsoft to Do
+overview: Microsoft To Do secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Microsoft To Do
 provider_slug: microsoft-to-do
 scheme_count: 1
 schemes:
@@ -45,13 +57,16 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/microsoft-to-do-openapi.yml
+  - openapi/microsoft-to-do-checklist-items-api-openapi.yml
+  - openapi/microsoft-to-do-linkedresources-api-openapi.yml
+  - openapi/microsoft-to-do-tasklists-api-openapi.yml
+  - openapi/microsoft-to-do-tasks-api-openapi.yml
   type: http
 slug: microsoft-to-do-authentication
 source_filename: microsoft-to-do-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-to-do-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-to-do-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-to-do-checklist-items-api-openapi.yml, openapi/microsoft-to-do-linkedresources-api-openapi.yml,\n  openapi/microsoft-to-do-tasklists-api-openapi.yml, openapi/microsoft-to-do-tasks-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-to-do-checklist-items-api-openapi.yml\n  - openapi/microsoft-to-do-linkedresources-api-openapi.yml\n  - openapi/microsoft-to-do-tasklists-api-openapi.yml\n  - openapi/microsoft-to-do-tasks-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-to-do/authentication/microsoft-to-do-authentication.yml
 summary_line: http · 1 scheme
 tags:
@@ -59,4 +74,6 @@ tags:
 - Microsoft 365
 - Productivity
 - Task
+- Task Management
+- Microsoft Graph
 ---

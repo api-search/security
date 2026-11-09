@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/decortefutureindustries-com/security/
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- HealthTech
-- DeepTech
-- UK
+- Health Tech
+- Deep Tech
+- United Kingdom
 - Cambridge
 - AudioAnalytics
 ---

@@ -35,5 +35,5 @@ tags:
 - Security
 - Identity
 - Authentication
-- Zero-Trust
+- Zero Trust
 ---

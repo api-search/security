@@ -56,6 +56,5 @@ tags:
 - OTP
 - Africa
 - Messaging
-- API
 - Communications
 ---

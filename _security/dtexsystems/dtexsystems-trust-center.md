@@ -25,5 +25,8 @@ tags:
 - Behavioral Analytics
 - AI Risk Governance
 - Security
+- Artificial Intelligence
+- Risk Management
+- Data Protection
 trust_url: https://trust.dtex.ai/
 ---

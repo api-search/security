@@ -34,6 +34,6 @@ tags:
 - Company
 - Broadband
 - Networking
-- Telecom
-- Managed Services
+- Telecommunications
+- Managed Service
 ---

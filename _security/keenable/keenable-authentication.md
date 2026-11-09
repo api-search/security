@@ -50,7 +50,6 @@ source_yaml_url: https://artifacts.apis.io/keenable/authentication/keenable-auth
 summary_line: 2 schemes
 tags:
 - Web Search
-- API
 - AI Agents
 - AI Labs
 - Inference Platforms

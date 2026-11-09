@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Education
-- HigherEducation
+- Higher Education
 - Research
 - Estonia
 - University

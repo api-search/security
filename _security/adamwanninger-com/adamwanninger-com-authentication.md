@@ -31,8 +31,8 @@ summary_line: 0 schemes
 tags:
 - MCP
 - Transit
-- Open-Data
-- AI-Tools
+- Open Data
+- AI Tools
 - City-Data
 - Company
 ---

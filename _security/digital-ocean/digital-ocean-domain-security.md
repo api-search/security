@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: digital-ocean-1-click-applications-api-openapi.yml
-  format: yaml
-  label: Digital Ocean 1-Click Applications API
-  slug: digital-ocean-1-click-applications-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-1-click-applications-api-openapi.yml
 - filename: digital-ocean-account-api-openapi.yml
   format: yaml
   label: Digital Ocean Account API
@@ -30,60 +24,24 @@ api_specs:
   slug: digital-ocean-billing-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-billing-api-openapi.yml
-- filename: digital-ocean-block-storage-actions-api-openapi.yml
-  format: yaml
-  label: Digital Ocean Block Storage Actions API
-  slug: digital-ocean-block-storage-actions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-block-storage-actions-api-openapi.yml
-- filename: digital-ocean-cdn-endpoints-api-openapi.yml
-  format: yaml
-  label: Digital Ocean CDN Endpoints API
-  slug: digital-ocean-cdn-endpoints-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-cdn-endpoints-api-openapi.yml
 - filename: digital-ocean-certificates-api-openapi.yml
   format: yaml
   label: Digital Ocean Certificates API
   slug: digital-ocean-certificates-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-certificates-api-openapi.yml
-- filename: digital-ocean-container-registry-api-openapi.yml
-  format: yaml
-  label: Digital Ocean Container Registry API
-  slug: digital-ocean-container-registry-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-container-registry-api-openapi.yml
 - filename: digital-ocean-databases-api-openapi.yml
   format: yaml
   label: Digital Ocean Databases API
   slug: digital-ocean-databases-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-databases-api-openapi.yml
-- filename: digital-ocean-domain-records-api-openapi.yml
-  format: yaml
-  label: Digital Ocean Domain Records API
-  slug: digital-ocean-domain-records-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-domain-records-api-openapi.yml
 - filename: digital-ocean-domains-api-openapi.yml
   format: yaml
   label: Digital Ocean Domains API
   slug: digital-ocean-domains-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-domains-api-openapi.yml
-- filename: digital-ocean-droplet-actions-api-openapi.yml
-  format: yaml
-  label: Digital Ocean Droplet Actions API
-  slug: digital-ocean-droplet-actions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-droplet-actions-api-openapi.yml
-- filename: digital-ocean-droplet-autoscale-pools-api-openapi.yml
-  format: yaml
-  label: Digital Ocean Droplet Autoscale Pools API
-  slug: digital-ocean-droplet-autoscale-pools-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-droplet-autoscale-pools-api-openapi.yml
 - filename: digital-ocean-droplets-api-openapi.yml
   format: yaml
   label: Digital Ocean Droplets API
@@ -96,12 +54,6 @@ api_specs:
   slug: digital-ocean-firewalls-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-firewalls-api-openapi.yml
-- filename: digital-ocean-floating-ip-actions-api-openapi.yml
-  format: yaml
-  label: Digital Ocean Floating IP Actions API
-  slug: digital-ocean-floating-ip-actions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-floating-ip-actions-api-openapi.yml
 - filename: digital-ocean-floating-ips-api-openapi.yml
   format: yaml
   label: Digital Ocean Floating IPs API
@@ -114,12 +66,6 @@ api_specs:
   slug: digital-ocean-functions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-functions-api-openapi.yml
-- filename: digital-ocean-image-actions-api-openapi.yml
-  format: yaml
-  label: Digital Ocean Image Actions API
-  slug: digital-ocean-image-actions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-image-actions-api-openapi.yml
 - filename: digital-ocean-images-api-openapi.yml
   format: yaml
   label: Digital Ocean Images API
@@ -144,12 +90,6 @@ api_specs:
   slug: digital-ocean-monitoring-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-monitoring-api-openapi.yml
-- filename: digital-ocean-project-resources-api-openapi.yml
-  format: yaml
-  label: Digital Ocean Project Resources API
-  slug: digital-ocean-project-resources-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-project-resources-api-openapi.yml
 - filename: digital-ocean-projects-api-openapi.yml
   format: yaml
   label: Digital Ocean Projects API
@@ -162,12 +102,6 @@ api_specs:
   slug: digital-ocean-regions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-regions-api-openapi.yml
-- filename: digital-ocean-reserved-ip-actions-api-openapi.yml
-  format: yaml
-  label: Digital Ocean Reserved IP Actions API
-  slug: digital-ocean-reserved-ip-actions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-reserved-ip-actions-api-openapi.yml
 - filename: digital-ocean-reserved-ips-api-openapi.yml
   format: yaml
   label: Digital Ocean Reserved IPs API
@@ -186,12 +120,6 @@ api_specs:
   slug: digital-ocean-snapshots-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-snapshots-api-openapi.yml
-- filename: digital-ocean-ssh-keys-api-openapi.yml
-  format: yaml
-  label: Digital Ocean SSH Keys API
-  slug: digital-ocean-ssh-keys-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-ssh-keys-api-openapi.yml
 - filename: digital-ocean-tags-api-openapi.yml
   format: yaml
   label: Digital Ocean Tags API
@@ -216,12 +144,240 @@ api_specs:
   slug: digital-ocean-vpcs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-vpcs-api-openapi.yml
-- filename: digital-ocean-blockstorage-api-openapi.yml
+- filename: digital-ocean-1-clicks-api-openapi.yml
   format: yaml
-  label: Digital Ocean Blockstorage API
-  slug: digital-ocean-blockstorage-api
+  label: Digital Ocean 1 Clicks API
+  slug: digital-ocean-1-clicks-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-blockstorage-api-openapi.yml
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-1-clicks-api-openapi.yml
+- filename: digital-ocean-action-gateway-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Action Gateway API
+  slug: digital-ocean-action-gateway-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-action-gateway-api-openapi.yml
+- filename: digital-ocean-add-ons-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Add Ons API
+  slug: digital-ocean-add-ons-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-add-ons-api-openapi.yml
+- filename: digital-ocean-agents-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Agents API
+  slug: digital-ocean-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-agents-api-openapi.yml
+- filename: digital-ocean-approvals-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Approvals API
+  slug: digital-ocean-approvals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-approvals-api-openapi.yml
+- filename: digital-ocean-async-invoke-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Async Invoke API
+  slug: digital-ocean-async-invoke-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-async-invoke-api-openapi.yml
+- filename: digital-ocean-audio-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Audio API
+  slug: digital-ocean-audio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-audio-api-openapi.yml
+- filename: digital-ocean-batches-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Batches API
+  slug: digital-ocean-batches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-batches-api-openapi.yml
+- filename: digital-ocean-byoip-prefixes-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Byoip Prefixes API
+  slug: digital-ocean-byoip-prefixes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-byoip-prefixes-api-openapi.yml
+- filename: digital-ocean-cdn-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Cdn API
+  slug: digital-ocean-cdn-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-cdn-api-openapi.yml
+- filename: digital-ocean-code-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Code API
+  slug: digital-ocean-code-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-code-api-openapi.yml
+- filename: digital-ocean-consent-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Consent API
+  slug: digital-ocean-consent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-consent-api-openapi.yml
+- filename: digital-ocean-customers-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Customers API
+  slug: digital-ocean-customers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-customers-api-openapi.yml
+- filename: digital-ocean-dedicated-inferences-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Dedicated Inferences API
+  slug: digital-ocean-dedicated-inferences-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-dedicated-inferences-api-openapi.yml
+- filename: digital-ocean-embeddings-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Embeddings API
+  slug: digital-ocean-embeddings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-embeddings-api-openapi.yml
+- filename: digital-ocean-gen-ai-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Gen Ai API
+  slug: digital-ocean-gen-ai-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-gen-ai-api-openapi.yml
+- filename: digital-ocean-insights-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Insights API
+  slug: digital-ocean-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-insights-api-openapi.yml
+- filename: digital-ocean-messages-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Messages API
+  slug: digital-ocean-messages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-messages-api-openapi.yml
+- filename: digital-ocean-microvms-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Microvms API
+  slug: digital-ocean-microvms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-microvms-api-openapi.yml
+- filename: digital-ocean-models-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Models API
+  slug: digital-ocean-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-models-api-openapi.yml
+- filename: digital-ocean-nfs-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Nfs API
+  slug: digital-ocean-nfs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-nfs-api-openapi.yml
+- filename: digital-ocean-organizations-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Organizations API
+  slug: digital-ocean-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-organizations-api-openapi.yml
+- filename: digital-ocean-partner-network-connect-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Partner Network Connect API
+  slug: digital-ocean-partner-network-connect-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-partner-network-connect-api-openapi.yml
+- filename: digital-ocean-registries-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Registries API
+  slug: digital-ocean-registries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-registries-api-openapi.yml
+- filename: digital-ocean-registry-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Registry API
+  slug: digital-ocean-registry-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-registry-api-openapi.yml
+- filename: digital-ocean-reports-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Reports API
+  slug: digital-ocean-reports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-reports-api-openapi.yml
+- filename: digital-ocean-reserved-ipv6-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Reserved Ipv6 API
+  slug: digital-ocean-reserved-ipv6-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-reserved-ipv6-api-openapi.yml
+- filename: digital-ocean-responses-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Responses API
+  slug: digital-ocean-responses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-responses-api-openapi.yml
+- filename: digital-ocean-security-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Security API
+  slug: digital-ocean-security-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-security-api-openapi.yml
+- filename: digital-ocean-signals-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Signals API
+  slug: digital-ocean-signals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-signals-api-openapi.yml
+- filename: digital-ocean-spaces-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Spaces API
+  slug: digital-ocean-spaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-spaces-api-openapi.yml
+- filename: digital-ocean-systemone-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Systemone API
+  slug: digital-ocean-systemone-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-systemone-api-openapi.yml
+- filename: digital-ocean-tools-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Tools API
+  slug: digital-ocean-tools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-tools-api-openapi.yml
+- filename: digital-ocean-upload-url-api-openapi.yml
+  format: yaml
+  label: Digital Ocean <upload Url> API
+  slug: digital-ocean-upload-url-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-upload-url-api-openapi.yml
+- filename: digital-ocean-vector-databases-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Vector Databases API
+  slug: digital-ocean-vector-databases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-vector-databases-api-openapi.yml
+- filename: digital-ocean-videos-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Videos API
+  slug: digital-ocean-videos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-videos-api-openapi.yml
+- filename: digital-ocean-volumes-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Volumes API
+  slug: digital-ocean-volumes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-volumes-api-openapi.yml
+- filename: digital-ocean-vpc-nat-gateways-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Vpc Nat Gateways API
+  slug: digital-ocean-vpc-nat-gateways-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-vpc-nat-gateways-api-openapi.yml
+- filename: digital-ocean-chat-completions-api-openapi.yml
+  format: yaml
+  label: Digital Ocean Chat Completions API
+  slug: digital-ocean-chat-completions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digital-ocean/openapi/digital-ocean-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa:

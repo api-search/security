@@ -53,7 +53,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/arkham-intelligence/security/arkham-intelligence-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- Onchain Intelligence
+- On-Chain Intelligence
 - Entity Resolution
 - Cryptocurrency Exchange
 - Trading

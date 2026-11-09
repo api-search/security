@@ -33,10 +33,10 @@ source_yaml: "generated: '2026-10-24'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/cake-ai/authentication/cake-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI platform
-- Regulated industries
-- Coding agents
-- Data extraction
+- AI Platform
+- Regulated Industries
+- Coding Agents
+- Data Extraction
 - Enterprise AI
 - Governance
 - Security

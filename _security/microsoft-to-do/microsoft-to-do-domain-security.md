@@ -18,9 +18,21 @@ api_specs:
   slug: microsoft-to-do-tasks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-tasks-api-openapi.yml
+- filename: microsoft-to-do-me-todo-api-openapi.yml
+  format: yaml
+  label: Microsoft To Do Me.todo API
+  slug: microsoft-to-do-me-todo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-me-todo-api-openapi.yml
+- filename: microsoft-to-do-users-todo-api-openapi.yml
+  format: yaml
+  label: Microsoft To Do Users.todo API
+  slug: microsoft-to-do-users-todo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-users-todo-api-openapi.yml
 - filename: microsoft-to-do-checklist-items-api-openapi.yml
   format: yaml
-  label: Microsoft to Do Checklist Items API
+  label: Microsoft To Do Checklist Items API
   slug: microsoft-to-do-checklist-items-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-checklist-items-api-openapi.yml
@@ -56,8 +68,8 @@ layout: security
 method: probed
 name: Microsoft To Do Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Microsoft to Do, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Microsoft to Do
+overview: 'Domain security posture for Microsoft To Do, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Microsoft To Do
 provider_slug: microsoft-to-do
 slug: microsoft-to-do-domain-security
 source_filename: microsoft-to-do-domain-security.yml
@@ -71,4 +83,6 @@ tags:
 - Microsoft 365
 - Productivity
 - Task
+- Task Management
+- Microsoft Graph
 ---

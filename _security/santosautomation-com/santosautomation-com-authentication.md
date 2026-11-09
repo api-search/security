@@ -100,7 +100,7 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/santosautomation-com/authentication/santosautomation-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Website Intelligence
 - Agent Readiness

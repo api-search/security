@@ -48,11 +48,10 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/idphoto-ai/authentication/idphoto-ai-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
-- Photo
+- Artificial Intelligence
+- Photos
 - Identity
-- API
 - Passport
 - Visa
-- ImageProcessing
+- Image Processing
 ---

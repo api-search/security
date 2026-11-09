@@ -36,6 +36,6 @@ tags:
 - Property Development
 - Property Management
 - Funds Management
-- Build To Rent
+- Build-to-Rent
 - Australia
 ---

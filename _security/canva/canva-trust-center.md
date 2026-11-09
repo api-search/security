@@ -150,6 +150,24 @@ api_specs:
   slug: canva-oauth-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/canva/openapi/canva-oauth-api-openapi.yml
+- filename: canva-design-generation-api-openapi.yml
+  format: yaml
+  label: Canva Design Generation API
+  slug: canva-design-generation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-design-generation-api-openapi.yml
+- filename: canva-image-generation-api-openapi.yml
+  format: yaml
+  label: Canva Image Generation API
+  slug: canva-image-generation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-image-generation-api-openapi.yml
+- filename: canva-image-transformation-api-openapi.yml
+  format: yaml
+  label: Canva Image Transformation API
+  slug: canva-image-transformation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/canva/openapi/canva-image-transformation-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

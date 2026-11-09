@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/caller-kit-com/security/caller-kit-co
 summary_line: TLSv1.3
 tags:
 - Company
-- API
-- PhoneLookup
-- CallerID
-- DataEnrichment
+- Phone Lookup
+- Caller ID
+- Data Enrichment
 ---

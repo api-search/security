@@ -71,8 +71,7 @@ source_yaml_url: https://artifacts.apis.io/snap-render-com/authentication/snap-r
 summary_line: 2 schemes
 tags:
 - Company
-- API
-- Screenshot
+- Screenshots
 - Rendering
 - Automation
 - Cloud

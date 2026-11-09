@@ -36,7 +36,7 @@ tags:
 - Transfer Agency
 - Cap Table
 - Equity Management
-- Shareholder Management
+- Shareholder-Management
 - Proxy & AGM
 - Fintech
 ---

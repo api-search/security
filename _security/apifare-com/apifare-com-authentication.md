@@ -27,9 +27,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://apifare
 source_yaml_url: https://artifacts.apis.io/apifare-com/authentication/apifare-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Payments
 - Prepaid
 - Billing
-- Agent
+- Agents
 ---

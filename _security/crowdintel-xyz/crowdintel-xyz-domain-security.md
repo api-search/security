@@ -34,8 +34,7 @@ tags:
 - Company
 - Finance
 - Data
-- API
 - MCP
 - Polymarket
-- Crypto
+- Cryptocurrency
 ---

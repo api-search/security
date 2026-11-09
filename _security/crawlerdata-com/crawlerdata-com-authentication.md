@@ -53,10 +53,9 @@ source_yaml_url: https://artifacts.apis.io/crawlerdata-com/authentication/crawle
 summary_line: 1 scheme
 tags:
 - Search
-- API
 - Google
 - SERP
 - Data
-- E-commerce
+- E-Commerce
 - SEO
 ---

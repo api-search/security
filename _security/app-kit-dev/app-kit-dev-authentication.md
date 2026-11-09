@@ -29,7 +29,6 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/app-kit-dev/authentication/app-kit-dev-authentication.yml
 summary_line: 0 schemes
 tags:
-- Web Tools
 - Free
 - Image Processing
 - SEO

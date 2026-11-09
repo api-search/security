@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Speech AI
 - Multilingual
-- Real-time
+- Real-Time
 - Streaming
-- API
 ---

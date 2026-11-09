@@ -33,6 +33,6 @@ tags:
 - Company
 - Fitness
 - Charity
-- MobileApp
+- Mobile App
 - Health
 ---

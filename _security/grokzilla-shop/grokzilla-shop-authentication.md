@@ -170,7 +170,7 @@ source_yaml_url: https://artifacts.apis.io/grokzilla-shop/authentication/grokzil
 summary_line: 1 scheme
 tags:
 - Pay-per-call APIs
-- AI agents
+- AI Agents
 - Microservices
 - SEO tools
 - OSINT

@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Fintech
-- Auto Refinance
+- Auto-Refinance
 - Lending
 - Consumer Finance
 - Auto Loans

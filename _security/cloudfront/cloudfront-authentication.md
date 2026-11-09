@@ -237,6 +237,7 @@ source_yaml: "generated: '2026-09-05'\nmethod: searched\nsource: openapi/_origin
 source_yaml_url: https://artifacts.apis.io/cloudfront/authentication/cloudfront-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - CDN
 - Caching
 - Content Delivery

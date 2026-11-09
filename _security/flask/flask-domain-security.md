@@ -36,7 +36,6 @@ source_yaml_url: https://artifacts.apis.io/flask/security/flask-domain-security.
 summary_line: TLSv1.3
 tags:
 - Framework
-- Lightweight
 - Microframework
 - pallets
 - Python

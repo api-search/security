@@ -36,7 +36,6 @@ summary_line: 3 schemes
 tags:
 - Company
 - Venture
-- Startup
+- Startups
 - Acquired
-- API
 ---

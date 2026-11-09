@@ -109,13 +109,27 @@ schemes:
   name: SpacexKey
   parameter: spacex-key
   sources:
-  - openapi/spacex-rest-api-openapi.yml
+  - openapi/spacex-capsules-api-openapi.yml
+  - openapi/spacex-company-api-openapi.yml
+  - openapi/spacex-cores-api-openapi.yml
+  - openapi/spacex-crew-api-openapi.yml
+  - openapi/spacex-dragons-api-openapi.yml
+  - openapi/spacex-history-api-openapi.yml
+  - openapi/spacex-landpads-api-openapi.yml
+  - openapi/spacex-launches-api-openapi.yml
+  - openapi/spacex-launchpads-api-openapi.yml
+  - openapi/spacex-payloads-api-openapi.yml
+  - openapi/spacex-roadster-api-openapi.yml
+  - openapi/spacex-rockets-api-openapi.yml
+  - openapi/spacex-ships-api-openapi.yml
+  - openapi/spacex-starlink-api-openapi.yml
   type: apiKey
 slug: spacex-authentication
 source_filename: spacex-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/spacex-rest-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SpacexKey\n  type: apiKey\n  in: header\n  parameter: spacex-key\n  description: |-\n    Admin API key for destructive (create/update/delete) operations.\n    Not required for any read endpoint.\n  sources:\n  - openapi/spacex-rest-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/spacex-capsules-api-openapi.yml, openapi/spacex-company-api-openapi.yml, openapi/spacex-cores-api-openapi.yml,\n  openapi/spacex-crew-api-openapi.yml, openapi/spacex-dragons-api-openapi.yml, openapi/spacex-history-api-openapi.yml,\n  openapi/spacex-landpads-api-openapi.yml, openapi/spacex-launches-api-openapi.yml, openapi/spacex-launchpads-api-openapi.yml,\n  openapi/spacex-payloads-api-openapi.yml, openapi/spacex-roadster-api-openapi.yml, openapi/spacex-rockets-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SpacexKey\n  type: apiKey\n  in: header\n  parameter: spacex-key\n  description: |-\n    Admin API key for destructive (create/update/delete) operations.\n    Not required for any read endpoint.\n  sources:\n  - openapi/spacex-capsules-api-openapi.yml\n  - openapi/spacex-company-api-openapi.yml\n  - openapi/spacex-cores-api-openapi.yml\n  - openapi/spacex-crew-api-openapi.yml\n\
+  \  - openapi/spacex-dragons-api-openapi.yml\n  - openapi/spacex-history-api-openapi.yml\n  - openapi/spacex-landpads-api-openapi.yml\n  - openapi/spacex-launches-api-openapi.yml\n  - openapi/spacex-launchpads-api-openapi.yml\n  - openapi/spacex-payloads-api-openapi.yml\n  - openapi/spacex-roadster-api-openapi.yml\n  - openapi/spacex-rockets-api-openapi.yml\n  - openapi/spacex-ships-api-openapi.yml\n  - openapi/spacex-starlink-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/spacex/authentication/spacex-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

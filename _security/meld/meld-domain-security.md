@@ -45,9 +45,9 @@ source_yaml_url: https://artifacts.apis.io/meld/security/meld-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Integration
-- FinTech
+- Fintech
 - API Platform
-- Stablecoin
+- Stablecoins
 - Digital Assets
 - Enterprise
 ---

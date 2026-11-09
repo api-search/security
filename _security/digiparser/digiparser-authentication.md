@@ -53,9 +53,8 @@ source_yaml_url: https://artifacts.apis.io/digiparser/authentication/digiparser-
 summary_line: 2 schemes
 tags:
 - Company
-- Document-Processing
-- API
+- Document Processing
 - Automation
-- Data-Extraction
-- AI
+- Data Extraction
+- Artificial Intelligence
 ---

@@ -50,7 +50,6 @@ summary_line: TLSv1.3
 tags:
 - Lyrics
 - Music
-- API
 - Free
-- NoAuth
+- No Auth
 ---

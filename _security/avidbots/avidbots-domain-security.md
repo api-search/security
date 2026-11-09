@@ -36,4 +36,7 @@ tags:
 - Autonomous Robots
 - Cleaning
 - Artificial Intelligence
+- Autonomous
+- Industrial
+- Software-as-a-Service
 ---

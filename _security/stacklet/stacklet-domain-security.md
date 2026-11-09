@@ -41,6 +41,7 @@ tags:
 - Terraform
 - GraphQL
 - MCP
+- Amazon Web Services
 - Microsoft Azure
 - Google Cloud
 - Agents

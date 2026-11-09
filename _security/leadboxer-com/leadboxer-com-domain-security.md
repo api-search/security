@@ -105,8 +105,7 @@ source_yaml_url: https://artifacts.apis.io/leadboxer-com/security/leadboxer-com-
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - B2B
-- LeadEnrichment
+- Lead Enrichment
 - Marketing
 - Data
-- API
 ---

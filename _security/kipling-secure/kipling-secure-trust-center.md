@@ -20,9 +20,9 @@ source_yaml_url: https://artifacts.apis.io/kipling-secure/security/kipling-secur
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - MSP
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.kiplingsecure.ai/
 ---

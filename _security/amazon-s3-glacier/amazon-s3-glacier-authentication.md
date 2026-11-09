@@ -76,6 +76,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-s3-glacier/authentication/amaz
 summary_line: apiKey · 1 scheme
 tags:
 - Archives
+- Amazon Web Services
 - Backup
 - Storage
 ---

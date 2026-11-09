@@ -38,6 +38,12 @@ api_specs:
   slug: agree-com-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agree-com/openapi/agree-com-webhooks-api-openapi.yml
+- filename: agree-com-subscriptions-api-openapi.yml
+  format: yaml
+  label: Agree.com Subscriptions API
+  slug: agree-com-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agree-com/openapi/agree-com-subscriptions-api-openapi.yml
 auth_types:
 - http
 - oauth2

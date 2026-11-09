@@ -246,8 +246,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Security
-- AI
+- Artificial Intelligence
 - Authorization
-- Data-Protection
-- API-Management
+- Data Protection
+- API Management
 ---

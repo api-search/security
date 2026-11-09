@@ -2,91 +2,50 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: spoken-md-balance-api-openapi.yml
-  format: yaml
-  label: spoken-md Balance API
-  slug: spoken-md-balance-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-balance-api-openapi.yml
-- filename: spoken-md-buy-api-openapi.yml
-  format: yaml
-  label: spoken-md Buy API
-  slug: spoken-md-buy-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-buy-api-openapi.yml
-- filename: spoken-md-following-api-openapi.yml
-  format: yaml
-  label: spoken-md Following API
-  slug: spoken-md-following-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-following-api-openapi.yml
-- filename: spoken-md-new-api-openapi.yml
-  format: yaml
-  label: spoken-md New API
-  slug: spoken-md-new-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-new-api-openapi.yml
-- filename: spoken-md-podcasts-api-openapi.yml
-  format: yaml
-  label: spoken-md Podcasts API
-  slug: spoken-md-podcasts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-podcasts-api-openapi.yml
-- filename: spoken-md-search-api-openapi.yml
-  format: yaml
-  label: spoken-md Search API
-  slug: spoken-md-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-search-api-openapi.yml
-- filename: spoken-md-top-up-api-openapi.yml
-  format: yaml
-  label: spoken-md Top Up API
-  slug: spoken-md-top-up-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-top-up-api-openapi.yml
 - filename: spoken-md-transcripts-api-openapi.yml
   format: yaml
-  label: spoken-md Transcripts API
-  slug: spoken-md-transcripts-api
+  label: Podcast Transcripts API
+  slug: podcast-transcripts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/spoken-md/openapi/spoken-md-transcripts-api-openapi.yml
+- filename: spoken-md-well-known-openapi.json
+  format: json
+  label: Podcast Transcripts API .well-known API
+  slug: podcast-transcripts-api-well-known-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/spoken-md/openapi/_original/spoken-md-well-known-openapi.json
 auth_types: []
-description: ''
+description: Spoken API uses an opaque API key (pt_…) that can be sent as a custom header, a Bearer token, or HTTP Basic username. An OAuth token can be used only for the /mcp endpoint.
 kind: authentication
 layout: security
-mechanism_count: 2
+mechanism_count: 1
 method: searched
 name: Spoken Md Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: spoken-md declares 3 security scheme(s) across its OpenAPI definitions.
+overview: spoken-md declares 1 security scheme(s) across its OpenAPI definitions.
 provider_name: spoken-md
 provider_slug: spoken-md
-scheme_count: 3
+scheme_count: 1
 schemes:
-- description: Opaque API key prefixed with pt_, sent in x-api-key header.
-  in: header
-  name: x-api-key
-  type: apiKey
-- bearerFormat: pt_ API key
-  description: API key can also be sent as Bearer token in Authorization header.
-  scheme: bearer
-  type: http
-- description: API key as username with empty password for feed readers.
-  scheme: basic
-  type: http
+- evidence: Authorization code with PKCE (S256), resource=https://spoken.md/mcp
+  flows:
+  - authorization_code
+  how_to_obtain: Register a public client via POST https://spoken.md/oauth/register, then perform the Authorization Code with PKCE flow to obtain an access token for the /mcp endpoint.
+  name: Spoken MCP OAuth
+  scopes:
+  - mcp
+  type: oauth2
 slug: spoken-md-authentication
 source_filename: spoken-md-authentication.yml
 source_heading: Authentication Profile
-source_url: ''
-source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://spoken.md/auth.md\nschemes:\n  - type: apiKey\n    name: x-api-key\n    in: header\n    description: Opaque API key prefixed with pt_, sent in x-api-key header.\n  - type: http\n    scheme: bearer\n    bearerFormat: pt_ API key\n    description: API key can also be sent as Bearer token in Authorization header.\n  - type: http\n    scheme: basic\n    description: API key as username with empty password for feed readers.\n"
+source_url: https://spoken.md/auth.md
+source_yaml: "generated: '2026-10-31'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://spoken.md/auth.md\nsources:\n- https://spoken.md/auth.md\ndescription: Spoken API uses an opaque API key (pt_…) that can be sent as a custom header, a Bearer token, or HTTP Basic username. An OAuth token\n  can be used only for the /mcp endpoint.\nschemes:\n- type: oauth2\n  name: Spoken MCP OAuth\n  evidence: Authorization code with PKCE (S256), resource=https://spoken.md/mcp\n  flows:\n  - authorization_code\n  scopes:\n  - mcp\n  how_to_obtain: Register a public client via POST https://spoken.md/oauth/register, then perform the Authorization Code with PKCE flow to obtain\n    an access token for the /mcp endpoint.\ndocs: https://spoken.md/auth.md\nnote: 3 extracted row(s) were dropped because their quote was not on the page.\n"
 source_yaml_url: https://artifacts.apis.io/spoken-md/authentication/spoken-md-authentication.yml
-summary_line: 3 schemes
+summary_line: 1 scheme
 tags:
-- Company
-- API
-- Podcast
+- Podcasts
 - Transcripts
-- AI
-- Audio
+- Markdown
+- Artificial Intelligence
 ---

@@ -126,5 +126,6 @@ tags:
 - Visitor Management
 - Workplace Analytics
 - Facilities
+- OAuth
 - Authentication
 ---

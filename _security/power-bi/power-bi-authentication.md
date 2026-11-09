@@ -98,6 +98,84 @@ api_specs:
   slug: microsoft-power-bi-reports-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/power-bi/openapi/power-bi-reports-api-openapi.yml
+- filename: power-bi-admin-api-openapi.yml
+  format: yaml
+  label: Power BI Admin API
+  slug: power-bi-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-admin-api-openapi.yml
+- filename: power-bi-availablefeatures-api-openapi.yml
+  format: yaml
+  label: Power BI Available Features API
+  slug: power-bi-availablefeatures-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-availablefeatures-api-openapi.yml
+- filename: power-bi-dataflowstorageaccounts-api-openapi.yml
+  format: yaml
+  label: Power BI Dataflow Storage Accounts API
+  slug: power-bi-dataflowstorageaccounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-dataflowstorageaccounts-api-openapi.yml
+- filename: power-bi-goalnotes-preview-api-openapi.yml
+  format: yaml
+  label: Power BI Goal Notes (Preview) API
+  slug: power-bi-goalnotes-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-goalnotes-preview-api-openapi.yml
+- filename: power-bi-goals-preview-api-openapi.yml
+  format: yaml
+  label: Power BI Goals (Preview) API
+  slug: power-bi-goals-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-goals-preview-api-openapi.yml
+- filename: power-bi-goalsstatusrules-preview-api-openapi.yml
+  format: yaml
+  label: Power BI Goals Status Rules (Preview) API
+  slug: power-bi-goalsstatusrules-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-goalsstatusrules-preview-api-openapi.yml
+- filename: power-bi-goalvalues-preview-api-openapi.yml
+  format: yaml
+  label: Power BI Goal Values (Preview) API
+  slug: power-bi-goalvalues-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-goalvalues-preview-api-openapi.yml
+- filename: power-bi-pipelines-api-openapi.yml
+  format: yaml
+  label: Power BI Pipelines API
+  slug: power-bi-pipelines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-pipelines-api-openapi.yml
+- filename: power-bi-profiles-api-openapi.yml
+  format: yaml
+  label: Power BI Profiles API
+  slug: power-bi-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-profiles-api-openapi.yml
+- filename: power-bi-pushdatasets-api-openapi.yml
+  format: yaml
+  label: Power BI Push Datasets API
+  slug: power-bi-pushdatasets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-pushdatasets-api-openapi.yml
+- filename: power-bi-scorecards-preview-api-openapi.yml
+  format: yaml
+  label: Power BI Scorecards (Preview) API
+  slug: power-bi-scorecards-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-scorecards-preview-api-openapi.yml
+- filename: power-bi-templateapps-api-openapi.yml
+  format: yaml
+  label: Power BI Template Apps API
+  slug: power-bi-templateapps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-templateapps-api-openapi.yml
+- filename: power-bi-users-api-openapi.yml
+  format: yaml
+  label: Power BI Users API
+  slug: power-bi-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-users-api-openapi.yml
 auth_types:
 - http
 - oauth2

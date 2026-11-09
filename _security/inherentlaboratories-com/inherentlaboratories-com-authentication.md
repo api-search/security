@@ -27,7 +27,7 @@ source_yaml_url: https://artifacts.apis.io/inherentlaboratories-com/authenticati
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - KnowledgeDiscovery
 - Platform
 - SelfImproving

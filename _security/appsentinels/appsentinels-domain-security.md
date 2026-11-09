@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/appsentinels/security/appsentinels-do
 summary_line: DMARC
 tags:
 - Security
-- AI
-- API
+- Artificial Intelligence
 - Monitoring
 - Platform
 ---

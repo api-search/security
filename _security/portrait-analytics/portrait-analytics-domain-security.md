@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/portrait-analytics/security/portrait-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Finance
 - Research
 - Investment

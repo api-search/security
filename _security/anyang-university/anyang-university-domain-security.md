@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Education
 - University
-- SouthKorea
-- HigherEducation
+- South Korea
+- Higher Education
 - Research
 ---

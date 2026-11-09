@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/modiqo/authentication/modiqo-authenti
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Workflow
+- Artificial Intelligence
+- Workflows
 - Automation
 - Platform
 ---

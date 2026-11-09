@@ -38,6 +38,6 @@ tags:
 - Manufacturing Execution System
 - Quality Management System
 - Laboratory Execution System
-- AI
+- Artificial Intelligence
 - Compliance
 ---

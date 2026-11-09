@@ -28,7 +28,7 @@ source_yaml_url: https://artifacts.apis.io/onetext/authentication/onetext-authen
 summary_line: 1 scheme
 tags:
 - Text to Buy
-- Ecommerce
+- E-Commerce
 - SMS Marketing
 - Conversational Sales
 - AI Smart Replies

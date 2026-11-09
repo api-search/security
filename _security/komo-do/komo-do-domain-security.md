@@ -41,5 +41,5 @@ tags:
 - DevOps
 - Infrastructure
 - Automation
-- OpenSource
+- Open Source
 ---

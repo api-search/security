@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Energy
-- Renewable
+- Renewables
 - Off-grid
 - Monitoring
 ---

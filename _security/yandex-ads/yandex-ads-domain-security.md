@@ -37,5 +37,5 @@ tags:
 - Web Analytics
 - User Acquisition
 - DSP
-- SSP
+- Supply Side Platform
 ---

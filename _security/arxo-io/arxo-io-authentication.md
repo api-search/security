@@ -38,7 +38,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - LawTech
-- LegalTech
+- Legal Tech
 - RegTech
-- AI
+- Artificial Intelligence
 ---

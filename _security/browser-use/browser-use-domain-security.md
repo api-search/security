@@ -66,6 +66,24 @@ api_specs:
   slug: browser-use-x402-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/browser-use/openapi/browser-use-x402-api-openapi.yml
+- filename: browser-use-extensions-api-openapi.yml
+  format: yaml
+  label: Browser Use Extensions API
+  slug: browser-use-extensions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-extensions-api-openapi.yml
+- filename: browser-use-integrations-api-openapi.yml
+  format: yaml
+  label: Browser Use Integrations API
+  slug: browser-use-integrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-integrations-api-openapi.yml
+- filename: browser-use-wallets-api-openapi.yml
+  format: yaml
+  label: Browser Use Wallets API
+  slug: browser-use-wallets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/browser-use/openapi/browser-use-wallets-api-openapi.yml
 description: ''
 domains:
 - caa: []

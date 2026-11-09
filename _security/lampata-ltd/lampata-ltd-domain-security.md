@@ -32,7 +32,7 @@ tags:
 - Geospatial AI
 - Earth Observation
 - Open Science
-- Data Platforms
+- Data-Platforms
 - Sustainability Analytics
 - Space Agencies
 - Research Institutions

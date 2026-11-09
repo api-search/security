@@ -123,10 +123,9 @@ source_yaml_url: https://artifacts.apis.io/replynodes-com/security/replynodes-co
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AI
-- Web-Data
-- API
+- Artificial Intelligence
+- Web Data
 - MCP
-- Read-Only
+- Read Only
 trust_url: https://replynodes.com/security/
 ---

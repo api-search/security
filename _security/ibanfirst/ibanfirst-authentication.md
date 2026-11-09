@@ -162,7 +162,7 @@ tags:
 - Foreign Exchange
 - B2B Payments
 - Treasury
-- multi-currency-accounts
+- Multi‑Currency Accounts
 - SEPA
 - PSD2
 - Open Banking

@@ -33,6 +33,6 @@ tags:
 - Company
 - Roofing
 - Remodeling
-- ContractorSoftware
-- SaaS
+- Contractor Software
+- Software-as-a-Service
 ---

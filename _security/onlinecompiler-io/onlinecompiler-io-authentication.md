@@ -55,9 +55,8 @@ source_yaml_url: https://artifacts.apis.io/onlinecompiler-io/authentication/onli
 summary_line: 1 scheme
 tags:
 - Company
-- CodeExecution
-- API
-- DeveloperTools
+- Code Execution
+- Developer Tools
 - Education
-- AI
+- Artificial Intelligence
 ---

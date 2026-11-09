@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/gridfield/security/gridfield-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Supercomputing
 - Cloud
 - Machine Learning

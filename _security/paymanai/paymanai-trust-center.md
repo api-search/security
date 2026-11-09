@@ -19,9 +19,9 @@ source_yaml_url: https://artifacts.apis.io/paymanai/security/paymanai-trust-cent
 summary_line: SOC 2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Banking
-- FinTech
-- Agentic
+- Fintech
+- AI Agents
 trust_url: https://paymanai.com/security
 ---

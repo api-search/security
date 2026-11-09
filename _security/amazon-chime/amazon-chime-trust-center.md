@@ -26,6 +26,6 @@ tags:
 - Video
 - Messaging
 - SDK
-- RealTime
+- Real-Time
 trust_url: https://aws.amazon.com/compliance/
 ---

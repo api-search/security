@@ -36,4 +36,5 @@ tags:
 - E-Commerce
 - Cross-Border
 - Agentic Commerce
+- Platform
 ---

@@ -38,5 +38,5 @@ tags:
 - Collaboration
 - File Management
 - Zoho
-- SaaS
+- Software-as-a-Service
 ---

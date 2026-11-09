@@ -140,6 +140,96 @@ api_specs:
   slug: kamino-yields-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/kamino/openapi/kamino-yields-api-openapi.yml
+- filename: kamino-kamino-lending-api-openapi.yml
+  format: yaml
+  label: Kamino Kamino Lending API
+  slug: kamino-kamino-lending-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-kamino-lending-api-openapi.yml
+- filename: kamino-ktoken-api-openapi.yml
+  format: yaml
+  label: Kamino Ktoken API
+  slug: kamino-ktoken-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-ktoken-api-openapi.yml
+- filename: kamino-kvaults-api-openapi.yml
+  format: yaml
+  label: Kamino Kvaults API
+  slug: kamino-kvaults-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-kvaults-api-openapi.yml
+- filename: kamino-leaderboard-api-openapi.yml
+  format: yaml
+  label: Kamino Leaderboard API
+  slug: kamino-leaderboard-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-leaderboard-api-openapi.yml
+- filename: kamino-limo-api-openapi.yml
+  format: yaml
+  label: Kamino Limo API
+  slug: kamino-limo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-limo-api-openapi.yml
+- filename: kamino-points-api-openapi.yml
+  format: yaml
+  label: Kamino Points API
+  slug: kamino-points-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-points-api-openapi.yml
+- filename: kamino-prices-api-openapi.yml
+  format: yaml
+  label: Kamino Prices API
+  slug: kamino-prices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-prices-api-openapi.yml
+- filename: kamino-raydium-api-openapi.yml
+  format: yaml
+  label: Kamino Raydium API
+  slug: kamino-raydium-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-raydium-api-openapi.yml
+- filename: kamino-simulator-api-openapi.yml
+  format: yaml
+  label: Kamino Simulator API
+  slug: kamino-simulator-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-simulator-api-openapi.yml
+- filename: kamino-staking-api-openapi.yml
+  format: yaml
+  label: Kamino Staking API
+  slug: kamino-staking-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-staking-api-openapi.yml
+- filename: kamino-strategies-api-openapi.yml
+  format: yaml
+  label: Kamino Strategies API
+  slug: kamino-strategies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-strategies-api-openapi.yml
+- filename: kamino-tokens-api-openapi.yml
+  format: yaml
+  label: Kamino Tokens API
+  slug: kamino-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-tokens-api-openapi.yml
+- filename: kamino-trades-api-openapi.yml
+  format: yaml
+  label: Kamino Trades API
+  slug: kamino-trades-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-trades-api-openapi.yml
+- filename: kamino-transactions-api-openapi.yml
+  format: yaml
+  label: Kamino Transactions API
+  slug: kamino-transactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-transactions-api-openapi.yml
+- filename: kamino-whirlpools-api-openapi.yml
+  format: yaml
+  label: Kamino Whirlpools API
+  slug: kamino-whirlpools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-whirlpools-api-openapi.yml
 auth_types:
 - none
 description: ''

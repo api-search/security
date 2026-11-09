@@ -171,5 +171,5 @@ tags:
 - Infrastructure
 - CI/CD
 - Automation
-- Software Factory
+- SoftwareFactory
 ---

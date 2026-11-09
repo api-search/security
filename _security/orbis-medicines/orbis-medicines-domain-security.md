@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/orbis-medicines/security/orbis-medici
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Biotech
-- AI
+- Biotechnology
+- Artificial Intelligence
 - Drug Discovery
 - Oral Therapeutics
 ---

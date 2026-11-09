@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/skyramp/authentication/skyramp-authen
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Testing
-- DeveloperTools
+- Developer Tools
 - Automation
 ---

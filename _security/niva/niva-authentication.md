@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/niva/authentication/niva-authenticati
 summary_line: 1 scheme
 tags:
 - Company
-- FinTech
-- IdentityVerification
-- AI
+- Fintech
+- Identity Verification
+- Artificial Intelligence
 - Compliance
 ---

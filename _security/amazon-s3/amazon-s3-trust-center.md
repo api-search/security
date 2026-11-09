@@ -132,6 +132,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-s3/security/amazon-s3-trust-ce
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Archives
+- Amazon Web Services
 - Backup
 - Cloud Storage
 - Data Storage

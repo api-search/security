@@ -106,9 +106,9 @@ source_yaml_url: https://artifacts.apis.io/subotiz-com/authentication/subotiz-co
 summary_line: 1 scheme
 tags:
 - Payments
-- AI
+- Artificial Intelligence
 - Billing
-- SaaS
-- FinTech
+- Software-as-a-Service
+- Fintech
 - Company
 ---

@@ -64,7 +64,7 @@ tags:
 - GPTBot
 - ClaudeBot
 - crawler IP ranges
-- llms-txt
+- Llms.txt
 - Open Data
 - A2A
 ---

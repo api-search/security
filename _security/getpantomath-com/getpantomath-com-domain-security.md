@@ -34,7 +34,7 @@ tags:
 - Company
 - Data
 - Observability
-- AI
+- Artificial Intelligence
 - Platform
 - Enterprise
 ---

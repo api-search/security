@@ -113,4 +113,7 @@ tags:
 - Sustainability
 - Carbon Footprint
 - Public APIs
+- Restaurant
+- Food
+- UPC
 ---

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: joinbunch-com-files-api-openapi.yml
+  format: yaml
+  label: Bunch Files API
+  slug: joinbunch-com-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunch/openapi/joinbunch-com-files-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,4 +46,6 @@ tags:
 - Venture Capital
 - Private Equity
 - SPV
+- Artificial Intelligence
+- Fund Management
 ---

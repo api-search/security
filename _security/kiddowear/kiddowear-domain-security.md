@@ -39,4 +39,7 @@ tags:
 - Digital Health
 - Connected Care
 - Remote Patient Monitoring
+- Pediatric
+- Wearables
+- Data
 ---

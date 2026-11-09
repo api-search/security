@@ -70,8 +70,9 @@ tags:
 - Agent-Native
 - MCP
 - A2A
-- Authentication
+- OAuth
 - x402
 - Stripe Checkout
 - Germany
+- Authentication
 ---

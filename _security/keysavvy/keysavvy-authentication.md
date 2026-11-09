@@ -101,6 +101,5 @@ tags:
 - Company
 - Automotive
 - Marketplace
-- API
-- FinTech
+- Fintech
 ---

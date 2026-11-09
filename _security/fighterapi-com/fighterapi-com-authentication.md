@@ -58,6 +58,5 @@ tags:
 - Sports
 - MMA
 - Data
-- API
 - Odds
 ---

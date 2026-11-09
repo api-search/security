@@ -63,8 +63,7 @@ source_yaml_url: https://artifacts.apis.io/adsbiq-com/authentication/adsbiq-com-
 summary_line: http · 1 scheme
 tags:
 - Advertising
-- DataAnalytics
-- MarketingTechnology
-- API
+- Data Analytics
+- Marketing Technology
 - Company
 ---

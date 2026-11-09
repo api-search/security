@@ -41,4 +41,6 @@ tags:
 - Financial Services
 - Estate Planning
 - Partnership API
+- Fintech
+- Digital
 ---

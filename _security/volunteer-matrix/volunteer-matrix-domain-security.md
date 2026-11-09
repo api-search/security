@@ -33,8 +33,8 @@ source_yaml_url: https://artifacts.apis.io/volunteer-matrix/security/volunteer-m
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Volunteer Management
-- SaaS
-- Nonprofit
+- Software-as-a-Service
+- Non-Profit
 - Community
 - Platform
 ---

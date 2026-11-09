@@ -164,6 +164,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: derived\nsource: openapi/amazon-p
 source_yaml_url: https://artifacts.apis.io/amazon-pinpoint/authentication/amazon-pinpoint-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Campaigns
 - Communications
 - Email

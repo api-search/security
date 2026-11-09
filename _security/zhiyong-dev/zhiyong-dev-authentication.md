@@ -92,7 +92,6 @@ summary_line: 0 schemes
 tags:
 - Company
 - Software
-- DeveloperTools
-- APIs
+- Developer Tools
 - Integration
 ---

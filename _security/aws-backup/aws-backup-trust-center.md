@@ -158,6 +158,7 @@ tags:
 - Backup
 - Data Protection
 - Disaster Recovery
+- Amazon Web Services
 - Managed Service
 - Compliance
 trust_url: https://aws.amazon.com/compliance/

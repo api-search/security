@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/candy/security/candy-domain-security.
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- DigitalAssets
-- ECommerce
+- Digital Assets
+- E-Commerce
 - Platform
 - Payments
 ---

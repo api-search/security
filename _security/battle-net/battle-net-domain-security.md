@@ -39,7 +39,12 @@ domains:
   domain: blizzard.com
   spf: true
 hosts:
-- cert_expires: Dec 11 23:59:59 2026 GMT
+- cert_expires: Mar  6 23:59:59 2027 GMT
+  host: battle.net
+  hsts: null
+  https: true
+  tls_version: TLSv1.2
+- cert_expires: Apr 28 23:59:59 2027 GMT
   host: community.developer.battle.net
   hsts: true
   hsts_max_age: 31536000
@@ -47,11 +52,6 @@ hosts:
   tls_version: TLSv1.2
 - cert_expires: Dec 30 23:59:59 2026 GMT
   host: us.api.blizzard.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.2
-- cert_expires: Sep 18 23:59:59 2026 GMT
-  host: eu.api.blizzard.com
   hsts: null
   https: true
   tls_version: TLSv1.2
@@ -68,7 +68,7 @@ slug: battle-net-domain-security
 source_filename: battle-net-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: community.developer.battle.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 11 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: us.api.blizzard.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: null\n- host: eu.api.blizzard.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Sep 18 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: battle.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: blizzard.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-11-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: battle.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: null\n- host: community.developer.battle.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 28 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: us.api.blizzard.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 30 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: battle.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: blizzard.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://artifacts.apis.io/battle-net/security/battle-net-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:

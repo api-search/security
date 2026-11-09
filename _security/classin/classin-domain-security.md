@@ -34,6 +34,6 @@ tags:
 - EdTech
 - Education
 - Learning
-- SaaS
+- Software-as-a-Service
 - HybridLearning
 ---

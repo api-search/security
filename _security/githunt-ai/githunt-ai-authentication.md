@@ -61,8 +61,8 @@ source_yaml_url: https://artifacts.apis.io/githunt-ai/authentication/githunt-ai-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Talent
-- Recruitment
-- Developer
+- Recruiting
+- Developers
 ---

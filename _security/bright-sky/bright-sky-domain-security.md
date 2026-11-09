@@ -62,7 +62,6 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Weather
-- API
-- OpenData
+- Open Data
 - JSON
 ---

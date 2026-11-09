@@ -130,7 +130,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Astrology
-- API
 - Vedic
 - Numerology
 - Tarot

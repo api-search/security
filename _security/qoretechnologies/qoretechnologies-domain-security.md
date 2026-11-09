@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/qoretechnologies/security/qoretechnol
 summary_line: TLSv1.3 · DMARC
 tags:
 - Integration
-- Low-code
+- Low-Code
 - Automation
-- AI
+- Artificial Intelligence
 - Enterprise
 ---

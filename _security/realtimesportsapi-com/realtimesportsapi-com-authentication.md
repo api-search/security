@@ -116,7 +116,6 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Sports
-- API
-- Real-time
+- Real-Time
 - Betting
 ---

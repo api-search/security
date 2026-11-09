@@ -35,7 +35,7 @@ source_yaml_url: https://artifacts.apis.io/send-ai/authentication/send-ai-authen
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Document Processing
 - EDI
 - Supply Chain

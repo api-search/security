@@ -34,9 +34,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource:\n  - https://do
 source_yaml_url: https://artifacts.apis.io/pulpminer-com/authentication/pulpminer-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- API
 - Web Scraping
-- Realtime
+- Real-Time
 - JSON
-- Low-code
+- Low-Code
 ---

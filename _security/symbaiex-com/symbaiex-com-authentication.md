@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/symbaiex-com/authentication/symbaiex-
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Research
 - OpenAPI
-- PublicData
+- Public Data
 ---

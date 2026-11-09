@@ -27,10 +27,10 @@ source_yaml_url: https://artifacts.apis.io/duve/security/duve-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Hospitality
-- GuestExperience
-- SaaS
-- AI
-- RevenueOptimization
+- Guest Experience
+- Software-as-a-Service
+- Artificial Intelligence
+- Revenue-Optimization
 - Company
 trust_url: https://duve.com/security-center/
 ---

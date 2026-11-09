@@ -100,7 +100,7 @@ source_yaml_url: https://artifacts.apis.io/outscale/authentication/outscale-auth
 summary_line: apiKey/http · 6 schemes
 tags:
 - Cloud
-- IaaS
+- Infrastructure-as-a-Service
 - Compute
 - Storage
 - Networking

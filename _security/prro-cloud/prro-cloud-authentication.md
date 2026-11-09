@@ -55,6 +55,5 @@ tags:
 - Company
 - Payments
 - Fiscal
-- API
 - Ukraine
 ---

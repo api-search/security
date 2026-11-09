@@ -81,8 +81,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Procurement
-- PublicData
-- API
+- Public Data
 - France
 - Europe
 ---

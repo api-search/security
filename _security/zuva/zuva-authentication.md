@@ -64,7 +64,7 @@ tags:
 - Artificial Intelligence
 - Document AI
 - Contract Analysis
-- Field Extraction
+- Field-Extraction
 - Classification
 - OCR
 ---

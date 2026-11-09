@@ -35,7 +35,7 @@ source_yaml_url: https://artifacts.apis.io/savedthat-app/security/savedthat-app-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video
-- AI
+- Artificial Intelligence
 - Search
 - Transcription
 - Productivity

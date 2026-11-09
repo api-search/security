@@ -27,9 +27,9 @@ source_yaml_url: https://artifacts.apis.io/push-operations/security/push-operati
 summary_line: SOC 2, ISO 27001
 tags:
 - Payroll
-- HR
+- Human Resources
 - Workforce Management
-- SaaS
+- Software-as-a-Service
 - Hospitality
 - Company
 trust_url: https://app.drata.com/trust/9cc3aa81-0c38-11ee-865f-029d78a187d9

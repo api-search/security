@@ -46,7 +46,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fraud Prevention
-- Real-time
+- Real-Time
 - Machine Learning
-- API
 ---

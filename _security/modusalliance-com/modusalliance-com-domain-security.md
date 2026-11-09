@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/modusalliance-com/security/modusallia
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Audit
 - Assurance
 - Finance

@@ -34,5 +34,4 @@ tags:
 - Fintech
 - Verification
 - Risk Scoring
-- API
 ---

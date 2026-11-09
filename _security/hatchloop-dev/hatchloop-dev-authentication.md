@@ -31,7 +31,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Automation
-- API
 - Platform
-- DeveloperTools
+- Developer Tools
 ---

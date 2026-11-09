@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/ximplifi/security/ximplifi-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Accounting
-- Vacation Rental
+- Vacation Rentals
 - Property Management
-- SaaS
+- Software-as-a-Service
 - Finance
 ---

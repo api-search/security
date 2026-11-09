@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/referralcandy/security/referralcandy-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Referral
-- Affiliate
-- E-commerce
+- Referrals
+- Affiliates
+- E-Commerce
 - Marketing
 ---

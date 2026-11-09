@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Fundraising
 - Mobile
-- Nonprofit
+- Non-Profit
 - P2P
 - Messaging
 ---

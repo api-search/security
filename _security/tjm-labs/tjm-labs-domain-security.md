@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/tjm-labs/security/tjm-labs-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Pharmacy
-- AI
+- Artificial Intelligence
 - Automation
 - Healthcare
 - Voice

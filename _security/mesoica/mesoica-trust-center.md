@@ -19,10 +19,10 @@ source_yaml: "generated: '2026-10-21'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/mesoica/security/mesoica-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
-- AI
-- Fund-Data
+- Artificial Intelligence
+- Fund Data
 - Automation
 - Compliance
-- Financial-Services
+- Financial Services
 trust_url: https://trust.mesoica.com/
 ---

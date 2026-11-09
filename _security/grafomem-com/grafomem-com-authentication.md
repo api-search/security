@@ -242,6 +242,6 @@ tags:
 - Memory
 - Agents
 - Governance
-- AI
+- Artificial Intelligence
 - Runtime
 ---

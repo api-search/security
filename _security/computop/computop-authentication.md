@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/computop/authentication/computop-auth
 summary_line: 0 schemes
 tags:
 - Payments
-- FinTech
-- E-commerce
+- Fintech
+- E-Commerce
 - Germany
-- SaaS
+- Software-as-a-Service
 ---

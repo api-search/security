@@ -48,7 +48,8 @@ tags:
 - Seoul
 - Research Repository
 - OAI-PMH
-- Authentication
+- OAuth
 - OpenAPI
 - Identity Federation
+- Authentication
 ---

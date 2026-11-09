@@ -318,12 +318,6 @@ api_specs:
   slug: openai-live-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/openai/openapi/openai-live-api-openapi.yml
-- filename: openai-openai-api-api-openapi.yml
-  format: yaml
-  label: OpenAI OpenAI API
-  slug: openai-openai-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/openai/openapi/openai-openai-api-api-openapi.yml
 - filename: openai-safety-api-openapi.yml
   format: yaml
   label: OpenAI Safety API

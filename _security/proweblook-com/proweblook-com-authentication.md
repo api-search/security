@@ -82,9 +82,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: derived\nsource: \"openapi/proweb
 source_yaml_url: https://artifacts.apis.io/proweblook-com/authentication/proweblook-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- API
 - Verification
-- Communication
+- Communications
 - Security
 - Data
 ---

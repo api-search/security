@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/homeboost/authentication/homeboost-au
 summary_line: 0 schemes
 tags:
 - Company
-- HomeAutomation
+- Home Automation
 - Energy
 - IoT
-- Startup
+- Startups
 - TrueVentures
 ---

@@ -19,8 +19,8 @@ layout: security
 method: probed
 name: Pixeldrive Pro Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for pixeldrive-pro, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: pixeldrive-pro
+overview: 'Domain security posture for PixelDrive, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: PixelDrive
 provider_slug: pixeldrive-pro
 slug: pixeldrive-pro-domain-security
 source_filename: pixeldrive-pro-domain-security.yml
@@ -31,4 +31,7 @@ source_yaml_url: https://artifacts.apis.io/pixeldrive-pro/security/pixeldrive-pr
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
+- Image Generation
+- Bulk Rendering
+- Marketing
 ---

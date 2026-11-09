@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/xyz-reality/security/xyz-reality-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- RealEstate
-- AR
-- VR
+- Real Estate
+- Augmented Reality
+- Virtual Reality
 - PropTech
 - Platform
 ---

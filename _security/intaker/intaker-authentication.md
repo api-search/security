@@ -29,10 +29,10 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/intaker/authentication/intaker-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
-- LegalTech
-- Law-Firms
+- Artificial Intelligence
+- Legal Tech
+- Law Firms
 - Automation
-- Lead-Generation
+- Lead Generation
 - Company
 ---

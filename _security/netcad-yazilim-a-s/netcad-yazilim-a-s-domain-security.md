@@ -33,6 +33,6 @@ tags:
 - Company
 - GIS
 - Mapping
-- Smart-City
+- Smart City
 - Cadastral
 ---

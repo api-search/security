@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/fruitscout/security/fruitscout-domain
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Agriculture
-- AI
+- Artificial Intelligence
 - Crop-Management
 - Compliance
-- Field-Operations
+- Field Operations
 ---

@@ -36,7 +36,7 @@ summary_line: 1 scheme
 tags:
 - Audio
 - Transcription
-- AI
+- Artificial Intelligence
 - Video
-- SaaS
+- Software-as-a-Service
 ---

@@ -78,6 +78,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-iam-access-analyzer/security/a
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Access Control
+- Amazon Web Services
 - Compliance
 - Identity and Access Management
 - Policy Management

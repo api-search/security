@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - E-Commerce
 - Marketplace
-- curated
+- Curated
 - Taiwan
 - Cross-Border
 ---

@@ -176,7 +176,7 @@ tags:
 - MCP
 - A2A
 - x402
-- pay-per-call
+- Pay-per-call
 - Government Forms
 - Company
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Real Estate
-- SaaS
+- Software-as-a-Service
 - Digital Brochures
 - Marketing
 - Realtors

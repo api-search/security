@@ -39,5 +39,6 @@ tags:
 - Lifecycle Management
 - Non-Human Identity
 - Software-as-a-Service
+- OAuth
 - Authentication
 ---

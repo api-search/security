@@ -92,7 +92,6 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Software
-- DeveloperTools
-- APIs
+- Developer Tools
 - Integration
 ---

@@ -35,7 +35,7 @@ tags:
 - Safety
 - Mobile App
 - Location Based Services
-- Real Time Alerts
+- Real-time Alerts
 - Consumer
 - Emergency
 ---

@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Networking
 - BOM
-- AI
+- Artificial Intelligence
 - Automation
 - Cloud
 ---

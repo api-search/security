@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: dynamo-ai-dynamo-ai-api-api-openapi.yml
-  format: yaml
-  label: Dynamo AI API
-  slug: dynamo-ai-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/dynamo-ai/openapi/dynamo-ai-dynamo-ai-api-api-openapi.yml
 - filename: dynamo-ai-openapi-generated.yml
   format: yaml
   label: Dynamo AI API
@@ -43,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/dynamo-ai/authentication/dynamo-ai-au
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - Enterprise
 - Compliance

@@ -57,8 +57,7 @@ source_yaml_url: https://artifacts.apis.io/catalogapi-com/security/catalogapi-co
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - Rewards
-- GiftCards
+- Gift Cards
 - Global
 ---

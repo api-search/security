@@ -39,7 +39,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Automation
 - Creative
-- API
-- Image-Generation
+- Image Generation
 - No-Code
 ---

@@ -77,9 +77,9 @@ source_yaml_url: https://artifacts.apis.io/autohost/authentication/autohost-auth
 summary_line: 1 scheme
 tags:
 - Company
-- IdentityVerification
-- BackgroundCheck
-- FraudDetection
+- Identity Verification
+- Background Checks
+- Fraud Prevention
 - Hospitality
-- RealEstate
+- Real Estate
 ---

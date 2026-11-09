@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Agriculture
 - Irrigation
-- Smart Farming
+- Smart Agriculture
 - IoT
 - Water Management
 - Canada

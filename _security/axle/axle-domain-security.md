@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/axle/security/axle-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
-- AI
+- Artificial Intelligence
 - Automation
-- FinTech
+- Fintech
 - Platform
 ---

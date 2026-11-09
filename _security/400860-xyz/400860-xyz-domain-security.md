@@ -33,7 +33,7 @@ tags:
 - AI Agents
 - A2A
 - x402
-- Agent Payments
+- Agentic Payments
 - MCP
 - Agent Security
 - Agent Marketplaces

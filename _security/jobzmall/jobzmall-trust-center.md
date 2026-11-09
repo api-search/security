@@ -21,10 +21,10 @@ source_yaml_url: https://artifacts.apis.io/jobzmall/security/jobzmall-trust-cent
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- video
-- talent
-- marketplace
-- hiring
-- resumes
+- Video
+- Talent
+- Marketplace
+- Hiring
+- Resume
 trust_url: https://trust.jobzmall.com/
 ---

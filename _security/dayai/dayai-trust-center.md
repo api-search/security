@@ -18,7 +18,7 @@ source_yaml: "generated: '2026-10-23'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/dayai/security/dayai-trust-center.yml
 summary_line: SOC 2
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Enterprise
 - Productivity

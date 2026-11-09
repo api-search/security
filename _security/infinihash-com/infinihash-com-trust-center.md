@@ -340,11 +340,11 @@ source_yaml_url: https://artifacts.apis.io/infinihash-com/security/infinihash-co
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
-- FinTech
-- Crypto
+- Fintech
+- Cryptocurrency
 - Compliance
 - KYC
-- KYT
+- Transaction Monitoring
 - Infrastructure
 trust_url: https://infinihash.com/trust
 ---

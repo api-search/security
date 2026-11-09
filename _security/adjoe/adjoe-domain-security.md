@@ -36,6 +36,6 @@ tags:
 - Loyalty
 - Mobile Gaming
 - SDK
-- Supply‑Side Platform
+- Supply Side Platform
 - Ad Exchange
 ---

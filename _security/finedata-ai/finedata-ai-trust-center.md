@@ -75,9 +75,9 @@ source_yaml_url: https://artifacts.apis.io/finedata-ai/security/finedata-ai-trus
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
-- WebScraping
-- DataExtraction
+- Artificial Intelligence
+- Web Scraping
+- Data Extraction
 - MCP
 - LLM
 trust_url: https://finedata.ai/legal/security/

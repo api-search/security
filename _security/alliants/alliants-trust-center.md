@@ -21,8 +21,8 @@ summary_line: ISO 27001, PCI DSS
 tags:
 - Company
 - Hospitality
-- SaaS
+- Software-as-a-Service
 - DigitalKeys
-- GuestExperience
+- Guest Experience
 trust_url: https://trust.alliants.com/
 ---

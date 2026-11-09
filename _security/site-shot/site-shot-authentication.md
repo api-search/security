@@ -33,8 +33,7 @@ source_yaml_url: https://artifacts.apis.io/site-shot/authentication/site-shot-au
 summary_line: 1 scheme
 tags:
 - Company
-- Screenshot
-- API
+- Screenshots
 - Automation
 - Web
 ---

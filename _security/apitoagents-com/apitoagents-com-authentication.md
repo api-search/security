@@ -29,7 +29,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - MCP
-- AI-Agents
-- API-Management
+- AI Agents
+- API Management
 - Hosting
 ---

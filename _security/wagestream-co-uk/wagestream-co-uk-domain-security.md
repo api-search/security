@@ -32,6 +32,6 @@ tags:
 - Company
 - Payroll
 - Fintech
-- EmployeeBenefits
-- RealTimePayments
+- Employee Benefits
+- Real-Time Payments
 ---

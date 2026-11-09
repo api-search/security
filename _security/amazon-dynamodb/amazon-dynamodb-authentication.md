@@ -119,6 +119,7 @@ source_yaml: "generated: '2026-09-18'\nmethod: derived\nsource: openapi/amazon-d
 source_yaml_url: https://artifacts.apis.io/amazon-dynamodb/authentication/amazon-dynamodb-authentication.yml
 summary_line: http · 1 scheme
 tags:
+- Amazon Web Services
 - Database
 - Document Store
 - Key-Value Store

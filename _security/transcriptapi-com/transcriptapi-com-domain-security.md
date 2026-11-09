@@ -1,53 +1,35 @@
 ---
 api_specs:
-- filename: transcriptapi-com-auth-api-openapi.yml
+- filename: transcriptapi-com-youtube-channel-api-openapi.yml
   format: yaml
-  label: transcriptapi-com Auth API
-  slug: transcriptapi-com-auth-api
+  label: transcriptapi-com YouTube channel API
+  slug: transcriptapi-com-youtube-channel-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-auth-api-openapi.yml
-- filename: transcriptapi-com-channels-api-openapi.yml
+  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-youtube-channel-api-openapi.yml
+- filename: transcriptapi-com-youtube-playlist-api-openapi.yml
   format: yaml
-  label: transcriptapi-com Channels API
-  slug: transcriptapi-com-channels-api
+  label: transcriptapi-com YouTube playlist API
+  slug: transcriptapi-com-youtube-playlist-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-channels-api-openapi.yml
-- filename: transcriptapi-com-health-api-openapi.yml
+  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-youtube-playlist-api-openapi.yml
+- filename: transcriptapi-com-youtube-search-api-openapi.yml
   format: yaml
-  label: transcriptapi-com Health API
-  slug: transcriptapi-com-health-api
+  label: transcriptapi-com YouTube search API
+  slug: transcriptapi-com-youtube-search-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-health-api-openapi.yml
-- filename: transcriptapi-com-playlists-api-openapi.yml
+  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-youtube-search-api-openapi.yml
+- filename: transcriptapi-com-youtube-transcript-api-openapi.yml
   format: yaml
-  label: transcriptapi-com Playlists API
-  slug: transcriptapi-com-playlists-api
+  label: transcriptapi-com YouTube transcript API
+  slug: transcriptapi-com-youtube-transcript-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-playlists-api-openapi.yml
-- filename: transcriptapi-com-public-tools-api-openapi.yml
+  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-youtube-transcript-api-openapi.yml
+- filename: transcriptapi-com-youtube-video-api-openapi.yml
   format: yaml
-  label: transcriptapi-com Public tools API
-  slug: transcriptapi-com-public-tools-api
+  label: transcriptapi-com YouTube video API
+  slug: transcriptapi-com-youtube-video-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-public-tools-api-openapi.yml
-- filename: transcriptapi-com-search-api-openapi.yml
-  format: yaml
-  label: transcriptapi-com Search API
-  slug: transcriptapi-com-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-search-api-openapi.yml
-- filename: transcriptapi-com-transcripts-api-openapi.yml
-  format: yaml
-  label: transcriptapi-com Transcripts API
-  slug: transcriptapi-com-transcripts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-transcripts-api-openapi.yml
-- filename: transcriptapi-com-webhooks-api-openapi.yml
-  format: yaml
-  label: transcriptapi-com Webhooks API
-  slug: transcriptapi-com-webhooks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/transcriptapi-com/openapi/transcriptapi-com-youtube-video-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -79,9 +61,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/transcriptapi-com/security/transcriptapi-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- YouTube
 - Transcripts
-- Video
-- API
-- AI
+- YouTube API
+- Search
+- Content Extraction
 ---

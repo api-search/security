@@ -53,8 +53,7 @@ source_yaml_url: https://artifacts.apis.io/flight-mcp-com/authentication/flight-
 summary_line: apiKey/http · 2 schemes
 tags:
 - Travel
-- API
-- Flight
+- Flights
 - MCP
 - Search
 ---

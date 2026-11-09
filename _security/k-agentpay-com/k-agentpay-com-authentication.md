@@ -52,6 +52,5 @@ tags:
 - Travel
 - K-Pop
 - Data
-- API
-- Korea
+- South Korea
 ---

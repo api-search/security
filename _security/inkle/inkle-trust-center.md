@@ -23,6 +23,6 @@ tags:
 - Bookkeeping
 - Tax
 - Incorporation
-- Startup
+- Startups
 trust_url: https://www.inkle.ai/security
 ---

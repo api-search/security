@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - MCP
 - Transit
-- Open-Data
-- AI-Tools
+- Open Data
+- AI Tools
 - City-Data
 - Company
 ---

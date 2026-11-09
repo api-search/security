@@ -90,8 +90,9 @@ tags:
 - IoT
 - Security
 - Webhook
-- Authentication
+- OAuth
 - Schlage
 - Von Duprin
 - ENGAGE
+- Authentication
 ---

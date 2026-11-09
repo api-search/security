@@ -29,9 +29,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/opendtu/security/opendtu-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- solar
-- firmware
-- open-source
-- iot
-- energy-monitoring
+- Solar
+- Firmware
+- Open Source
+- IoT
+- Energy Monitoring
 ---

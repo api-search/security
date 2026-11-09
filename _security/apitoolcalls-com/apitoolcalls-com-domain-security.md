@@ -189,7 +189,5 @@ tags:
 - Tools
 - Utilities
 - Free
-- API
-- NoSignUp
 - Company
 ---

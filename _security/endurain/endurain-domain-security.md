@@ -44,7 +44,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fitness
-- Self-hosted
-- Open-source
+- Self-Hosted
+- Open Source
 - Privacy
 ---

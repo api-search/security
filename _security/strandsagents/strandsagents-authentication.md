@@ -53,8 +53,8 @@ source_yaml_url: https://artifacts.apis.io/strandsagents/authentication/strandsa
 summary_line: 6 schemes
 tags:
 - Company
-- AI
-- OpenSource
+- Artificial Intelligence
+- Open Source
 - Toolkit
 - Agents
 ---

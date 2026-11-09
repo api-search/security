@@ -29,9 +29,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/ruby-receptionists/authentication/ruby-receptionists-authentication.yml
 summary_line: 0 schemes
 tags:
-- virtual-receptionist
-- live-chat
+- Virtual Receptionist
+- Live Chat
 - 24-7-support
-- small-business
-- call-answering
+- Small Business
+- Call Answering
 ---

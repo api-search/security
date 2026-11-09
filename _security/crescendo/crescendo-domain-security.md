@@ -70,4 +70,6 @@ tags:
 - Conversational AI
 - Voice of Customer
 - MCP
+- Platform
+- Automation
 ---

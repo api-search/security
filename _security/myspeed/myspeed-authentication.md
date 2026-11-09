@@ -32,6 +32,6 @@ tags:
 - Company
 - Internet
 - Monitoring
-- Open-Source
+- Open Source
 - Analytics
 ---

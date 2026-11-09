@@ -34,8 +34,7 @@ source_yaml_url: https://artifacts.apis.io/jsonapi/security/jsonapi-domain-secur
 summary_line: TLSv1.3 · HSTS
 tags:
 - Marketplace
-- API
 - Monetization
-- DeveloperTools
+- Developer Tools
 - Community
 ---

@@ -39,6 +39,6 @@ tags:
 - Company
 - Communications
 - VoIP
-- AI
+- Artificial Intelligence
 - Unified Communications
 ---

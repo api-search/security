@@ -44,8 +44,8 @@ source_yaml_url: https://artifacts.apis.io/investormatch-pro/authentication/inve
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Fundraising
-- VentureCapital
-- Startup
+- Venture Capital
+- Startups
 ---

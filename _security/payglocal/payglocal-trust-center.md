@@ -29,7 +29,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Cross-Border
 - RBI-Authorized
 trust_url: https://payglocal.in/compliance

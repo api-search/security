@@ -34,6 +34,6 @@ tags:
 - Employment
 - Recruiting
 - Technology
-- JobSearch
-- HR
+- Job Search
+- Human Resources
 ---

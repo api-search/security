@@ -32,6 +32,6 @@ tags:
 - Company
 - Electronics
 - Retail
-- E‑commerce
+- E-Commerce
 - Germany
 ---

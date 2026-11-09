@@ -37,9 +37,8 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/gpodder/security/gpodder-domain-security.yml
 summary_line: TLSv1.2 · HSTS
 tags:
-- Podcast
-- Open-Source
+- Podcasts
+- Open Source
 - Sync
-- API
 - Community
 ---

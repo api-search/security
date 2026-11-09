@@ -56,9 +56,8 @@ source_yaml_url: https://artifacts.apis.io/onlinecompiler-io/security/onlinecomp
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- CodeExecution
-- API
-- DeveloperTools
+- Code Execution
+- Developer Tools
 - Education
-- AI
+- Artificial Intelligence
 ---

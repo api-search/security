@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/thesparkle-ai/security/thesparkle-ai-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - SDLC
 - Platform

@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://docs.us
 source_yaml_url: https://artifacts.apis.io/usewire-io/authentication/usewire-io-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - MCP
 - Collaboration
 - Context

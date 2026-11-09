@@ -41,7 +41,7 @@ tags:
 - Animal Management
 - Electric Fencing
 - Weighing
-- EID
+- eID
 - Watering
 - Security
 ---

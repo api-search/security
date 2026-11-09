@@ -33,9 +33,9 @@ source_yaml_url: https://artifacts.apis.io/dingtalk/security/dingtalk-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Communication
+- Communications
 - Collaboration
 - Enterprise
 - Alibaba
-- Low-code
+- Low-Code
 ---

@@ -37,6 +37,5 @@ tags:
 - Company
 - API Monitoring
 - Outage Detection
-- Free Service
 - Developer Tools
 ---

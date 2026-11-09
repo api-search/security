@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - GIS
 - Mapping
-- Spatial-Analytics
-- Enterprise-Software
-- UK
+- Spatial Analytics
+- Enterprise Software
+- United Kingdom
 ---

@@ -48,6 +48,7 @@ tags:
 - Cloud Cost Management
 - Cost Optimization
 - Kubernetes
+- Amazon Web Services
 - Microsoft Azure
 - Google Cloud
 ---

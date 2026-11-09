@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/casuyi-com/security/casuyi-com-domain
 summary_line: TLSv1.3
 tags:
 - Company
-- Mobile Apps
+- Mobile App
 - Privacy
 - Productivity
 - Health

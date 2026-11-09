@@ -45,8 +45,8 @@ source_yaml_url: https://artifacts.apis.io/aria2/security/aria2-domain-security.
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Download
-- OpenSource
-- CommandLine
-- MultiProtocol
+- Downloads
+- Open Source
+- Command Line
+- Multi-Protocol
 ---

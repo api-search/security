@@ -42,8 +42,8 @@ source_yaml_url: https://artifacts.apis.io/appsignal/security/appsignal-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Monitoring
-- ErrorTracking
+- Error Tracking
 - Performance
 - Observability
-- SaaS
+- Software-as-a-Service
 ---

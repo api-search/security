@@ -34,6 +34,6 @@ tags:
 - Company
 - Sales
 - Marketing
-- Brand
+- Brands
 - Platform
 ---

@@ -46,5 +46,6 @@ tags:
 - Hardware
 - Developer Tools
 - Electronic Design Automation
+- OAuth
 - Authentication
 ---

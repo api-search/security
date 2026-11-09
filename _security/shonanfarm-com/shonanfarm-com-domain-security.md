@@ -30,8 +30,5 @@ source_yaml_url: https://artifacts.apis.io/shonanfarm-com/security/shonanfarm-co
 summary_line: TLSv1.3
 tags:
 - Company
-- Stub
-- Unknown
-- API
 - Placeholder
 ---

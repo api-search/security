@@ -137,7 +137,7 @@ source_yaml_url: https://artifacts.apis.io/nextdc/authentication/nextdc-authenti
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- Data Centers
+- Data Center
 - Colocation
 - Cloud Infrastructure
 - Connectivity

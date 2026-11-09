@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Asset Tracking
-- Inventory Management
+- Inventory
 - Barcode Technology
 - Software
 ---

@@ -105,5 +105,7 @@ tags:
 - Team Collaboration
 - Business Reviews
 - MCP
+- Workflows
+- Business Intelligence
 trust_url: https://trust.rhythms.ai/
 ---

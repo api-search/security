@@ -38,7 +38,7 @@ tags:
 - Company
 - Retail
 - Commerce
-- AI
+- Artificial Intelligence
 - Workspace
 trust_url: https://trust.twelfth.ai/
 ---

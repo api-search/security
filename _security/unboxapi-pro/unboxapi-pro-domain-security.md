@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/unboxapi-pro/security/unboxapi-pro-do
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - API Integration
 - MCP

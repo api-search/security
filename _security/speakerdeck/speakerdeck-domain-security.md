@@ -36,5 +36,5 @@ tags:
 - Sharing
 - Slides
 - Education
-- Developer
+- Developers
 ---

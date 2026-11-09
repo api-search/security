@@ -33,6 +33,6 @@ tags:
 - Company
 - Marketing
 - Advertising
-- AI
-- LeadGeneration
+- Artificial Intelligence
+- Lead Generation
 ---

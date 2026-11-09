@@ -74,7 +74,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Gaming
-- API
-- PriceData
+- Price Data
 - Marketplace
 ---

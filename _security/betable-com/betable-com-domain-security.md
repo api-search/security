@@ -33,7 +33,6 @@ tags:
 - Gaming
 - iGaming
 - Platform
-- API
-- Casino
+- Casinos
 - Company
 ---

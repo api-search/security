@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/powerline-ai/authentication/powerline
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- APIs
+- Artificial Intelligence
 - Automation
 - Email
 - Productivity

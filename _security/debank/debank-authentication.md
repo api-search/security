@@ -131,6 +131,7 @@ tags:
 - token-data
 - NFT
 - Ethereum
-- Authentication
+- OAuth
 - Market Data
+- Authentication
 ---

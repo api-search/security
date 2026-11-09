@@ -113,7 +113,7 @@ source_yaml_url: https://artifacts.apis.io/airthings/authentication/airthings-au
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- AirQuality
+- Air Quality
 - Radon
 - Sensors
 - IoT

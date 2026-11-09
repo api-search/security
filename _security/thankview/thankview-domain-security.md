@@ -32,7 +32,6 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Video
 - Fundraising
-- Nonprofit
-- API
+- Non-Profit
 - Marketing
 ---

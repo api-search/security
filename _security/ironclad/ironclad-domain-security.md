@@ -131,8 +131,9 @@ tags:
 - E-Signature
 - Clickwrap
 - Artificial Intelligence
-- Authentication
+- OAuth
 - SCIM
 - Webhook
 - Contract Management
+- Authentication
 ---

@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/proscendia-com/authentication/proscen
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - Consultancy
-- OpenSource
+- Open Source
 - Automation
 ---

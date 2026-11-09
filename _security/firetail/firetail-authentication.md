@@ -35,7 +35,7 @@ source_yaml: "generated: '2026-10-21'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/firetail/authentication/firetail-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Security
 - Governance
 - Platform

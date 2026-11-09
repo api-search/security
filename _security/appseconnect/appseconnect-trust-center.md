@@ -29,7 +29,7 @@ tags:
 - Company
 - Integration
 - iPaaS
-- AI
+- Artificial Intelligence
 - ERP
 trust_url: https://www.appseconnect.com/security
 ---

@@ -96,7 +96,6 @@ tags:
 - Conservation
 - Environment
 - Data
-- API
-- SaaS
+- Software-as-a-Service
 trust_url: https://viridisconservation.com/security
 ---

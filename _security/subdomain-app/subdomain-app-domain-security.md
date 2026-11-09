@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/subdomain-app/security/subdomain-app-
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Security
-- Subdomain
+- Sub Domain
 - Discovery
-- API
 - Free
 ---

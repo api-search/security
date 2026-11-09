@@ -40,6 +40,5 @@ tags:
 - Company
 - Messaging
 - WhatsApp
-- API
 - Integration
 ---

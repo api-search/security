@@ -34,5 +34,4 @@ tags:
 - Analytics
 - Market Intelligence
 - Strategy
-- Data-Driven
 ---

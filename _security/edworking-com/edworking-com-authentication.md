@@ -37,6 +37,6 @@ tags:
 - Collaboration
 - Productivity
 - Workspace
-- AI
+- Artificial Intelligence
 - Task Management
 ---

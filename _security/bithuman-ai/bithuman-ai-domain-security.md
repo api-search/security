@@ -141,8 +141,8 @@ source_yaml_url: https://artifacts.apis.io/bithuman-ai/security/bithuman-ai-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Avatar
-- Real-time
+- Artificial Intelligence
+- Avatars
+- Real-Time
 - Platform
 ---

@@ -29,6 +29,6 @@ tags:
 - Company
 - Technology
 - Children
-- Communication
-- AI
+- Communications
+- Artificial Intelligence
 ---

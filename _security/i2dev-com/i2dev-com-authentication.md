@@ -28,9 +28,9 @@ source_yaml_url: https://artifacts.apis.io/i2dev-com/authentication/i2dev-com-au
 summary_line: 1 scheme
 tags:
 - Company
-- DeveloperTools
-- VisualRegression
+- Developer Tools
+- Visual Regression
 - CI
-- OpenSource
-- SaaS
+- Open Source
+- Software-as-a-Service
 ---

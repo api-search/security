@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fundraising
-- E‑commerce
-- Nonprofit
-- SaaS
+- E-Commerce
+- Non-Profit
+- Software-as-a-Service
 ---

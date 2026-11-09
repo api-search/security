@@ -36,6 +36,6 @@ tags:
 - Financial Services
 - Retirement
 - Pensions
-- Investments
+- Investment
 - Australia
 ---

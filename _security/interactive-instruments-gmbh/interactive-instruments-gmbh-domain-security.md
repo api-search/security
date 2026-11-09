@@ -31,8 +31,8 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Geospatial
-- DataInfrastructure
-- OpenStandards
+- Data Infrastructure
+- Open Standard
 - Software
 - Bonn
 ---

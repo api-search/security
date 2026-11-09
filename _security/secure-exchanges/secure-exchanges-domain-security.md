@@ -33,7 +33,7 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Secure Document Exchange
 - Email Encryption
-- Digital Signatures
+- Digital Signature
 - Compliance
 - File Transfer
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Membership Software
 - Subscription Management
-- Self‑Hosted
+- Self-Hosted
 - Payment Integration
 - Affiliate Program
 - Team Accounts

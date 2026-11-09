@@ -34,7 +34,7 @@ tags:
 - Productivity
 - Scheduling
 - Document Sharing
-- E‑Signatures
+- E-Signature
 - Payments
 - SMB Tools
 ---

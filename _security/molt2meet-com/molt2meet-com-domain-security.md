@@ -156,10 +156,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/molt2meet-com/security/molt2meet-com-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- AI
+- Artificial Intelligence
 - MCP
 - Automation
-- Human-in-the-loop
-- Webhooks
+- Human-in-the-Loop
+- Webhook
 - Company
 ---

@@ -329,6 +329,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-quicksight/security/amazon-qui
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
+- Amazon Web Services
 - Business Intelligence
 - Dashboards
 - Machine Learning

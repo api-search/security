@@ -111,9 +111,8 @@ source_yaml_url: https://artifacts.apis.io/tickerbot-io/security/tickerbot-io-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Stock-Market
-- API
-- Real-time-Data
-- Historical-Data
+- Stock Market
+- Real-Time Data
+- Historical Data
 - Financial-Agents
 ---

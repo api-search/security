@@ -276,6 +276,60 @@ api_specs:
   slug: dokploy-whitelabeling-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dokploy/openapi/dokploy-whitelabeling-api-openapi.yml
+- filename: dokploy-dnsprovider-api-openapi.yml
+  format: yaml
+  label: Dokploy Dns Provider API
+  slug: dokploy-dnsprovider-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dokploy/openapi/dokploy-dnsprovider-api-openapi.yml
+- filename: dokploy-dockerdiskusage-api-openapi.yml
+  format: yaml
+  label: Dokploy Docker Disk Usage API
+  slug: dokploy-dockerdiskusage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dokploy/openapi/dokploy-dockerdiskusage-api-openapi.yml
+- filename: dokploy-dockerimage-api-openapi.yml
+  format: yaml
+  label: Dokploy Docker Image API
+  slug: dokploy-dockerimage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dokploy/openapi/dokploy-dockerimage-api-openapi.yml
+- filename: dokploy-dockervolume-api-openapi.yml
+  format: yaml
+  label: Dokploy Docker Volume API
+  slug: dokploy-dockervolume-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dokploy/openapi/dokploy-dockervolume-api-openapi.yml
+- filename: dokploy-forwardauth-api-openapi.yml
+  format: yaml
+  label: Dokploy Forward Auth API
+  slug: dokploy-forwardauth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dokploy/openapi/dokploy-forwardauth-api-openapi.yml
+- filename: dokploy-network-api-openapi.yml
+  format: yaml
+  label: Dokploy Network API
+  slug: dokploy-network-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dokploy/openapi/dokploy-network-api-openapi.yml
+- filename: dokploy-overview-api-openapi.yml
+  format: yaml
+  label: Dokploy Overview API
+  slug: dokploy-overview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dokploy/openapi/dokploy-overview-api-openapi.yml
+- filename: dokploy-scim-api-openapi.yml
+  format: yaml
+  label: Dokploy SCIM API
+  slug: dokploy-scim-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dokploy/openapi/dokploy-scim-api-openapi.yml
+- filename: dokploy-vaultprovider-api-openapi.yml
+  format: yaml
+  label: Dokploy Vault Provider API
+  slug: dokploy-vaultprovider-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dokploy/openapi/dokploy-vaultprovider-api-openapi.yml
 - filename: dokploy-audit-log-api-openapi.yml
   format: yaml
   label: Dokploy Audit Log API

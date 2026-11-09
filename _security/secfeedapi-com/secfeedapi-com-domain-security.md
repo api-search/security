@@ -40,6 +40,5 @@ tags:
 - SEC
 - EDGAR
 - Data
-- API
 - Finance
 ---

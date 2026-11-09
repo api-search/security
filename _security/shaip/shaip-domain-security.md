@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/shaip/security/shaip-domain-security.
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Data-Annotation
-- Machine-Learning
+- Artificial Intelligence
+- Data Annotation
+- Machine Learning
 - Platform
 ---

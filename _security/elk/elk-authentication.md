@@ -34,5 +34,6 @@ tags:
 - Social Media
 - Web-Client
 - Progressive Web App
+- OAuth
 - Authentication
 ---

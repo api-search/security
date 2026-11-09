@@ -134,7 +134,6 @@ source_yaml_url: https://artifacts.apis.io/searchpipe-tech/security/searchpipe-t
 summary_line: TLSv1.3 · HSTS
 tags:
 - Web Search
-- API
 - MCP
 - AI Agents
 - Search

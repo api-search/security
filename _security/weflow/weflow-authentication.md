@@ -35,9 +35,9 @@ source_yaml_url: https://artifacts.apis.io/weflow/authentication/weflow-authenti
 summary_line: 1 scheme
 tags:
 - RevenueAI
-- RevOps
+- Revenue Operations
 - Salesforce
 - Automation
-- AI
+- Artificial Intelligence
 - Analytics
 ---

@@ -19,7 +19,7 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/levirge-com/security/levirge-com-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- AI
+- Artificial Intelligence
 - Search
 - Knowledge
 - MCP

@@ -211,6 +211,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/amazon-rds/security/amazon-rds-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
+- Amazon Web Services
 - Cloud Databases
 - Database Service
 - Database-as-a-Service

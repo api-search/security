@@ -30,8 +30,5 @@ source_yaml_url: https://artifacts.apis.io/shonanfarm-com/authentication/shonanf
 summary_line: 0 schemes
 tags:
 - Company
-- Stub
-- Unknown
-- API
 - Placeholder
 ---

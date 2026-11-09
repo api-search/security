@@ -98,7 +98,6 @@ summary_line: 0 schemes
 tags:
 - Company
 - E-Invoicing
-- API
 - Finance
 - Compliance
 - European Standards

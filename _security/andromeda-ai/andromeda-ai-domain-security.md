@@ -39,9 +39,9 @@ source_yaml_url: https://artifacts.apis.io/andromeda-ai/security/andromeda-ai-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cloud
 - Platform
-- Machine-Learning
+- Machine Learning
 - Enterprise
 ---

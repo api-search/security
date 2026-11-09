@@ -38,7 +38,6 @@ source_yaml_url: https://artifacts.apis.io/crawio-com/security/crawio-com-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Web Scraping
-- API
 - Proxy
 - Anti-Bot
 - Data Extraction

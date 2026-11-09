@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Telemetry
 - SDK
-- OpenSource
-- DataEngineering
+- Open Source
+- Data Engineering
 - Mozilla
 ---

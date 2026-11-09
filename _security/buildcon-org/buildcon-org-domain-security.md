@@ -34,5 +34,5 @@ tags:
 - Construction
 - Logistics
 - Software
-- DigitalTransformation
+- Digital Transformation
 ---

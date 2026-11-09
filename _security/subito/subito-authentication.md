@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Marketplace
 - Classifieds
-- E-commerce
+- E-Commerce
 - Italy
 - Recommerce
 ---

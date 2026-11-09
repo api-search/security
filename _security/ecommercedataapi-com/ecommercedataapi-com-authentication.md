@@ -65,9 +65,8 @@ source_yaml_url: https://artifacts.apis.io/ecommercedataapi-com/authentication/e
 summary_line: 0 schemes
 tags:
 - Company
-- ecommerce
-- data
-- api
-- amazon
-- market-research
+- E-Commerce
+- Data
+- Amazon
+- Market Research
 ---

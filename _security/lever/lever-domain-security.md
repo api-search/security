@@ -1,5 +1,23 @@
 ---
 api_specs:
+- filename: lever-candidates-api-openapi.yml
+  format: yaml
+  label: Lever Candidates API
+  slug: lever-candidates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-candidates-api-openapi.yml
+- filename: lever-feedback-templates-api-openapi.yml
+  format: yaml
+  label: Lever Feedback Templates API
+  slug: lever-feedback-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-feedback-templates-api-openapi.yml
+- filename: lever-webhooks-api-openapi.yml
+  format: yaml
+  label: Lever Webhooks API
+  slug: lever-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-webhooks-api-openapi.yml
 - filename: lever-applications-api-openapi.yml
   format: yaml
   label: Lever Applications API
@@ -18,42 +36,12 @@ api_specs:
   slug: lever-eeo-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/lever/openapi/lever-eeo-api-openapi.yml
-- filename: lever-feedback-api-openapi.yml
-  format: yaml
-  label: Lever Feedback API
-  slug: lever-feedback-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-feedback-api-openapi.yml
 - filename: lever-files-api-openapi.yml
   format: yaml
   label: Lever Files API
   slug: lever-files-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/lever/openapi/lever-files-api-openapi.yml
-- filename: lever-forms-api-openapi.yml
-  format: yaml
-  label: Lever Forms API
-  slug: lever-forms-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-forms-api-openapi.yml
-- filename: lever-interviews-api-openapi.yml
-  format: yaml
-  label: Lever Interviews API
-  slug: lever-interviews-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-interviews-api-openapi.yml
-- filename: lever-notes-api-openapi.yml
-  format: yaml
-  label: Lever Notes API
-  slug: lever-notes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-notes-api-openapi.yml
-- filename: lever-offers-api-openapi.yml
-  format: yaml
-  label: Lever Offers API
-  slug: lever-offers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-offers-api-openapi.yml
 - filename: lever-opportunities-api-openapi.yml
   format: yaml
   label: Lever Opportunities API
@@ -72,12 +60,6 @@ api_specs:
   slug: lever-requisitions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/lever/openapi/lever-requisitions-api-openapi.yml
-- filename: lever-resumes-api-openapi.yml
-  format: yaml
-  label: Lever Resumes API
-  slug: lever-resumes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-resumes-api-openapi.yml
 - filename: lever-sources-api-openapi.yml
   format: yaml
   label: Lever Sources API
@@ -114,6 +96,90 @@ api_specs:
   slug: lever-audit-events-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/lever/openapi/lever-audit-events-api-openapi.yml
+- filename: lever-candidates-api-openapi.yml
+  format: yaml
+  label: Lever Candidates API
+  slug: lever-candidates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-candidates-api-openapi.yml
+- filename: lever-disposition-stages-api-openapi.yml
+  format: yaml
+  label: Lever Disposition Stages API
+  slug: lever-disposition-stages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-disposition-stages-api-openapi.yml
+- filename: lever-feedback-templates-api-openapi.yml
+  format: yaml
+  label: Lever Feedback Templates API
+  slug: lever-feedback-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-feedback-templates-api-openapi.yml
+- filename: lever-form-templates-api-openapi.yml
+  format: yaml
+  label: Lever Form Templates API
+  slug: lever-form-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-form-templates-api-openapi.yml
+- filename: lever-profile-forms-api-openapi.yml
+  format: yaml
+  label: Lever Profile Forms API
+  slug: lever-profile-forms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-profile-forms-api-openapi.yml
+- filename: lever-requisition-fields-api-openapi.yml
+  format: yaml
+  label: Lever Requisition Fields API
+  slug: lever-requisition-fields-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-requisition-fields-api-openapi.yml
+- filename: lever-surveys-api-openapi.yml
+  format: yaml
+  label: Lever Surveys API
+  slug: lever-surveys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-surveys-api-openapi.yml
+- filename: lever-webhooks-api-openapi.yml
+  format: yaml
+  label: Lever Webhooks API
+  slug: lever-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-webhooks-api-openapi.yml
+- filename: lever-feedback-api-openapi.yml
+  format: yaml
+  label: Lever Feedback API
+  slug: lever-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-feedback-api-openapi.yml
+- filename: lever-forms-api-openapi.yml
+  format: yaml
+  label: Lever Forms API
+  slug: lever-forms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-forms-api-openapi.yml
+- filename: lever-interviews-api-openapi.yml
+  format: yaml
+  label: Lever Interviews API
+  slug: lever-interviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-interviews-api-openapi.yml
+- filename: lever-notes-api-openapi.yml
+  format: yaml
+  label: Lever Notes API
+  slug: lever-notes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-notes-api-openapi.yml
+- filename: lever-offers-api-openapi.yml
+  format: yaml
+  label: Lever Offers API
+  slug: lever-offers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-offers-api-openapi.yml
+- filename: lever-resumes-api-openapi.yml
+  format: yaml
+  label: Lever Resumes API
+  slug: lever-resumes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lever/openapi/lever-resumes-api-openapi.yml
 description: ''
 domains:
 - caa: []

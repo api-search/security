@@ -33,6 +33,6 @@ tags:
 - Company
 - Imaging
 - Healthcare
-- DataAnalytics
-- AI
+- Data Analytics
+- Artificial Intelligence
 ---

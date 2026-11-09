@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/mintegral/security/mintegral-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- MobileMarketing
-- AI
+- Mobile Marketing
+- Artificial Intelligence
 - Advertising
-- AppGrowth
+- App Growth
 ---

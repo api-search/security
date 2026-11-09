@@ -52,6 +52,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-iot-fleetwise/authentication/a
 summary_line: apiKey · 1 scheme
 tags:
 - Automotive
+- Amazon Web Services
 - Connected Vehicles
 - IoT
 - Telematics

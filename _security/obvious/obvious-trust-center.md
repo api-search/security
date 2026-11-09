@@ -23,8 +23,7 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
 - Data Analytics
-- AI
+- Artificial Intelligence
 - Enterprise
-- APIs
 trust_url: https://www.obvious.ai/security
 ---

@@ -107,7 +107,7 @@ summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Decision API
 - Rule Engine
-- SaaS
+- Software-as-a-Service
 - Automation
 - Runtime
 trust_url: https://www.decide.fyi/resources/trust

@@ -36,7 +36,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Search
-- AI
-- API
+- Artificial Intelligence
 - Russia
 ---

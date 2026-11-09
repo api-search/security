@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/revops/authentication/revops-authenti
 summary_line: 1 scheme
 tags:
 - CPQ
-- Revenue-Operations
-- SaaS
-- Integrations
+- Revenue Operations
+- Software-as-a-Service
+- Integration
 - Deal-Desk
 ---

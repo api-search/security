@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/relaystation-ai/security/relaystation
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data-Relay
-- Real-time
+- Real-Time
 - Cloud
 ---

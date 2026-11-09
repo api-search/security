@@ -28,8 +28,5 @@ source_yaml_url: https://artifacts.apis.io/tripod-glp-com/security/tripod-glp-co
 summary_line: DMARC
 tags:
 - Company
-- Logistics
 - Cloud
-- API
-- Supply-Chain
 ---

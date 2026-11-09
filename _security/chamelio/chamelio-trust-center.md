@@ -26,8 +26,8 @@ source_yaml_url: https://artifacts.apis.io/chamelio/security/chamelio-trust-cent
 summary_line: SOC 2
 tags:
 - Company
-- LegalTech
-- SaaS
+- Legal Tech
+- Software-as-a-Service
 - Contracts
 - Compliance
 trust_url: https://www.chamelio.ai/security

@@ -55,8 +55,9 @@ tags:
 - Payments
 - Shipping
 - Webhook
-- Authentication
+- OAuth
 - Latin America
 - Storefront
 - Apps Platform
+- Authentication
 ---

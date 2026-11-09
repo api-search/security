@@ -36,7 +36,6 @@ summary_line: 1 scheme
 tags:
 - YouTube
 - Transcripts
-- API
 - Bulk
 - MCP
 ---

@@ -22,7 +22,7 @@ summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
 - Healthcare
-- AI
+- Artificial Intelligence
 - Revenue Cycle Management
 - Automation
 trust_url: https://clickshealth.com/security

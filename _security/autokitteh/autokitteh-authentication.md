@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: autokitteh-autokitteh-api-api-openapi.yml
-  format: yaml
-  label: AutoKitteh API
-  slug: autokitteh-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/autokitteh/openapi/autokitteh-autokitteh-api-api-openapi.yml
 - filename: autokitteh-openapi-generated.yml
   format: yaml
   label: AutoKitteh API

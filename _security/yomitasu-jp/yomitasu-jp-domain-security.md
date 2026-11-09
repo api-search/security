@@ -31,9 +31,8 @@ source_yaml_url: https://artifacts.apis.io/yomitasu-jp/security/yomitasu-jp-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - MCP
 - Website-Transformation
-- Free-Service
 - Japanese
 ---

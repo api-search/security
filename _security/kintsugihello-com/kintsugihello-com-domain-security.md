@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/kintsugihello-com/security/kintsugihe
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- HealthTech
-- MentalHealth
+- Health Tech
+- Mental Health
 - VoiceBiomarkers
-- AI
+- Artificial Intelligence
 ---

@@ -38,7 +38,7 @@ summary_line: 0 schemes
 tags:
 - Advertising
 - Marketing
-- AI
+- Artificial Intelligence
 - Automation
 - MCP
 ---

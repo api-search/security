@@ -125,7 +125,6 @@ source_yaml_url: https://artifacts.apis.io/snoopscan-com/authentication/snoopsca
 summary_line: 1 scheme
 tags:
 - Web Scraping
-- API
 - AI Agents
 - MCP
 - Data Extraction

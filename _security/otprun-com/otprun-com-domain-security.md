@@ -33,6 +33,6 @@ tags:
 - Company
 - Messaging
 - WhatsApp
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

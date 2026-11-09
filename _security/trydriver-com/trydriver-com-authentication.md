@@ -28,9 +28,9 @@ source_yaml_url: https://artifacts.apis.io/trydriver-com/authentication/trydrive
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Dashcam
+- Artificial Intelligence
+- Dash Cam
 - Mobile
 - Safety
-- Fleet
+- Fleet Management
 ---

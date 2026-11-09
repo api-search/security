@@ -132,7 +132,6 @@ source_yaml_url: https://artifacts.apis.io/searchpipe-tech/authentication/search
 summary_line: 1 scheme
 tags:
 - Web Search
-- API
 - MCP
 - AI Agents
 - Search

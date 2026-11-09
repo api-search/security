@@ -75,5 +75,6 @@ tags:
 - Clinical API
 - Digital Health
 - Benefit Check
+- OAuth
 - Authentication
 ---

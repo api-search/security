@@ -83,7 +83,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Music
-- API
 - Audio
 - Metadata
 ---

@@ -69,7 +69,7 @@ tags:
 - gram
 - USDT
 - Fintech
-- fulfilment
+- Fulfilment
 - Digital Goods
 - Non-Custodial
 - no-kyc

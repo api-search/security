@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - EDI
-- Supply-Chain
+- Supply Chain
 - Integration
 - B2B
 ---

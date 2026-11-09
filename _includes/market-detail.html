@@ -70,7 +70,6 @@
 
 {%- assign tx = m.taxonomy %}
 {%- if tx and tx.cohort_resolved %}
-{%- assign caps = site.data.market_links.capability %}
 <div class="mk-section" id="taxonomy">
   <h2>Taxonomy <span class="mk-reads">how this market maps onto apis.io</span></h2>
   <p class="mk-mix">Derived {{ tx.derived }} from the {{ tx.cohort_resolved }} providers in this market we could resolve in the
@@ -81,10 +80,31 @@
     {%- if tx.tag_groups.size > 0 %}<tr><th>Tag groups</th><td>{% for x in tx.tag_groups %}{{ x.name }} <span class="mk-mix">{{ x.share | times: 100 | round }}%</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</td></tr>{% endif %}
     {%- if tx.industries.size > 0 %}<tr><th>Industries</th><td>{% for x in tx.industries %}<a href="https://apis.io/industries/{{ x.slug }}/">{{ x.name }}</a> <span class="mk-mix">{{ x.share | times: 100 | round }}%</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</td></tr>{% endif %}
     {%- if tx.areas.size > 0 %}<tr><th>Areas</th><td>{% for x in tx.areas %}<a href="https://apis.io/areas/{{ x.slug }}/">{{ x.name }}</a> <span class="mk-mix">{{ x.share | times: 100 | round }}%</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</td></tr>{% endif %}
-    {%- if tx.capabilities.size > 0 %}<tr><th>Capabilities</th><td>{% for x in tx.capabilities %}{% assign c = caps[x.slug] %}{% if c %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ x.name }}{% endif %} <span class="mk-mix">{{ x.share | times: 100 | round }}%</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</td></tr>{% endif %}
+    {%- if tx.capabilities.size > 0 %}<tr><th>Capabilities</th><td>{% for x in tx.capabilities %}{% assign c = site.data.market_links.capability[x.slug] %}{% if c %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ x.name }}{% endif %} <span class="mk-mix">{{ x.share | times: 100 | round }}%</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</td></tr>{% endif %}
     </tbody>
   </table></div>
   <p class="mk-mix">{{ tx.method }}</p>
+</div>
+{%- endif %}
+
+{%- assign ae = m.app_evidence %}
+{%- if ae and ae.app_categories > 0 %}
+<div class="mk-section" id="app-evidence">
+  <h2>What apps actually use <span class="mk-reads">from <a href="https://apis.io/applications/">application blueprints</a></span></h2>
+  <p class="mk-mix">Apps in {{ ae.app_categories }} <a href="https://apis.io/applications/">application categories</a> integrate providers in
+  this market. {{ ae.cohort_used_by_apps }} of the {{ ae.cohort_size }} cohort providers appear in an app. The providers below are used by apps
+  but sit outside the cohort. They are listed beside it, not ranked in it.</p>
+  {%- if ae.outside_cohort.size > 0 %}
+  <div class="mk-table-wrap"><table class="mk-table">
+    <thead><tr><th>Provider</th><th>App categories</th><th>Kin Score</th></tr></thead>
+    <tbody>
+    {%- for x in ae.outside_cohort %}
+    <tr><td>{% if x.in_catalog %}<a href="https://apis.io/providers/{{ x.slug }}/">{{ x.name }}</a>{% else %}{{ x.name }}{% endif %}</td><td>{{ x.categories }}</td><td>{% if x.kin_score %}{{ x.kin_score }}{% else %}<span class="mk-mix">unscored</span>{% endif %}</td></tr>
+    {%- endfor %}
+    </tbody>
+  </table></div>
+  {%- endif %}
+  <p class="mk-mix">Derived {{ ae.derived }}: {{ ae.method }}.</p>
 </div>
 {%- endif %}
 

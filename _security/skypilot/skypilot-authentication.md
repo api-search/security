@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/skypilot/authentication/skypilot-auth
 summary_line: 2 schemes
 tags:
 - Company
-- AI
-- OpenSource
+- Artificial Intelligence
+- Open Source
 - Compute
 - Orchestration
 ---

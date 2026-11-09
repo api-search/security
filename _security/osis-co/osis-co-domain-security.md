@@ -100,7 +100,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Messaging
 - Communications
-- API
-- SaaS
-- CustomerSupport
+- Software-as-a-Service
+- Customer Service
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/smilestory-ai/security/smilestory-ai-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Storytelling
 - Korean
 - Platform

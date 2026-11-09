@@ -27,9 +27,9 @@ source_yaml_url: https://artifacts.apis.io/teetra-com/authentication/teetra-com-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Payments
-- API-Monetization
+- API Monetization
 - Marketplace
-- DeveloperTools
+- Developer Tools
 ---

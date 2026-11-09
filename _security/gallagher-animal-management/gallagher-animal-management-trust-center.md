@@ -31,7 +31,7 @@ tags:
 - Animal Management
 - Electric Fencing
 - Weighing
-- EID
+- eID
 - Watering
 - Security
 trust_url: https://trust.gallagher.com/

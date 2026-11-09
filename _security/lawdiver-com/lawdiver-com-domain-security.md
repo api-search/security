@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/lawdiver-com/security/lawdiver-com-do
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- LegalTech
-- LegalResearch
-- API
+- Legal Tech
+- Legal Research
 - Free
 ---

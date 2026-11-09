@@ -46,6 +46,60 @@ api_specs:
   slug: google-maps-text-search-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-maps/openapi/google-maps-text-search-api-openapi.yml
+- filename: google-maps-directions-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Directions API
+  slug: google-maps-directions-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-directions-api-api-openapi.yml
+- filename: google-maps-distance-matrix-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Distance Matrix API
+  slug: google-maps-distance-matrix-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-distance-matrix-api-api-openapi.yml
+- filename: google-maps-elevation-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Elevation API
+  slug: google-maps-elevation-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-elevation-api-api-openapi.yml
+- filename: google-maps-geocoding-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Geocoding API
+  slug: google-maps-geocoding-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geocoding-api-api-openapi.yml
+- filename: google-maps-geolocation-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Geolocation API
+  slug: google-maps-geolocation-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geolocation-api-api-openapi.yml
+- filename: google-maps-places-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Places API
+  slug: google-maps-places-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-places-api-api-openapi.yml
+- filename: google-maps-roads-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Roads API
+  slug: google-maps-roads-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-roads-api-api-openapi.yml
+- filename: google-maps-street-view-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Street View API
+  slug: google-maps-street-view-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-street-view-api-api-openapi.yml
+- filename: google-maps-time-zone-api-api-openapi.yml
+  format: yaml
+  label: Google Maps Platform Time Zone API
+  slug: google-maps-time-zone-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-time-zone-api-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -81,8 +135,8 @@ slug: google-maps-authentication
 source_filename: google-maps-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/google-maps-directions-api.yml, openapi/google-maps-geocoding-api.yml, openapi/google-maps-places-api.yml\ndocs: https://developers.google.com/maps/documentation/javascript/get-api-key\noauth2_docs: https://developers.google.com/maps/documentation/route-optimization/auth\nnote: >-\n  Primary auth is a Google Maps Platform API key delivered as the `key` query parameter\n  (legacy web-service APIs) or the `X-Goog-Api-Key` header (newer googleapis.com endpoints).\n  A subset of Cloud-based services (Route Optimization, Maps Datasets, Address Validation,\n  Aerial View, Places Insights) additionally accept OAuth 2.0 access tokens / service-account\n  credentials via Google Cloud. Keys are created and restricted in the Google Cloud console.\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: Google Maps\
-  \ Platform API key\n  sources:\n  - openapi/google-maps-directions-api.yml\n  - openapi/google-maps-geocoding-api.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Goog-Api-Key\n  description: Google Maps Platform API key\n  sources:\n  - openapi/google-maps-places-api.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: searched\nsource: openapi/google-maps-directions-api.yml, openapi/google-maps-geocoding-api.yml,\n  openapi/google-maps-places-api.yml\ndocs: https://developers.google.com/maps/documentation/javascript/get-api-key\noauth2_docs: https://developers.google.com/maps/documentation/places/web-service/get-api-key\nnote: 'Primary auth is a Google Maps Platform API key delivered as the `key` query\n  parameter (legacy web-service APIs) or the `X-Goog-Api-Key` header (newer googleapis.com\n  endpoints). A subset of Cloud-based services (Route Optimization, Maps Datasets,\n  Address Validation, Aerial View, Places Insights) additionally accept OAuth 2.0\n  access tokens / service-account credentials via Google Cloud. Keys are created and\n  restricted in the Google Cloud console. (2026-11-05: the previous oauth2_docs URL,\n  .../route-optimization/auth, returned HTTP 404; replaced with the Places API (New)\n  setup page, which documents the OAuth scope.)'\n\
+  summary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: Google Maps Platform API key\n  sources:\n  - openapi/google-maps-directions-api.yml\n  - openapi/google-maps-geocoding-api.yml\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: X-Goog-Api-Key\n  description: Google Maps Platform API key\n  sources:\n  - openapi/google-maps-places-api.yml\noauth2_scope: https://www.googleapis.com/auth/cloud-platform\n"
 source_yaml_url: https://artifacts.apis.io/google-maps/authentication/google-maps-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:

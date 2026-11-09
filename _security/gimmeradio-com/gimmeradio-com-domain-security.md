@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Vinyl
 - Metal Music
-- Collections
+- Collection
 - Vinyl Club
 - Bundles
 ---

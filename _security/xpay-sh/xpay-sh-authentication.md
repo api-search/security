@@ -56,7 +56,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Commerce
-- AI
-- SaaS
-- AgentReadiness
+- Artificial Intelligence
+- Software-as-a-Service
+- Agent Readiness
 ---

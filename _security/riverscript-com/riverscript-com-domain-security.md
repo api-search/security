@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Audio
 - Transcription
-- AI
+- Artificial Intelligence
 - Video
-- SaaS
+- Software-as-a-Service
 ---

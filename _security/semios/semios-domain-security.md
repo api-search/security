@@ -45,7 +45,7 @@ tags:
 - Agriculture
 - AgTech
 - Precision Agriculture
-- Crop Management
+- Crop-Management
 - Pest Management
 - IoT
 - Sensors

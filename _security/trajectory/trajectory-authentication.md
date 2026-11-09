@@ -200,7 +200,7 @@ source_yaml_url: https://artifacts.apis.io/trajectory/authentication/trajectory-
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Continual Learning
 - Enterprise
 - Platform

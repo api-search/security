@@ -35,8 +35,7 @@ source_yaml_url: https://artifacts.apis.io/jobo-world/authentication/jobo-world-
 summary_line: 1 scheme
 tags:
 - Job Data
-- API
-- Recruitment
+- Recruiting
 - Platform
 - Data Infrastructure
 ---

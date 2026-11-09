@@ -33,6 +33,6 @@ tags:
 - Company
 - Health
 - Community
-- PrimaryCare
+- Primary Care
 - Underserved
 ---

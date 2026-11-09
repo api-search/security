@@ -176,9 +176,9 @@ source_yaml_url: https://artifacts.apis.io/terradue-srl/authentication/terradue-
 summary_line: http · 1 scheme
 tags:
 - Company
-- EarthScience
-- OpenSource
+- Earth Science
+- Open Source
 - Cloud
-- DataProcessing
+- Data Processing
 - Collaboration
 ---

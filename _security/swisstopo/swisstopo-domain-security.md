@@ -66,5 +66,5 @@ tags:
 - Government
 - Switzerland
 - Mapping
-- OpenData
+- Open Data
 ---

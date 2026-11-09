@@ -34,6 +34,6 @@ tags:
 - Company
 - Hospitality
 - Procurement
-- E-commerce
+- E-Commerce
 - Property Management
 ---

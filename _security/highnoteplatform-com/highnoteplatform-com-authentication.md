@@ -41,6 +41,6 @@ tags:
 - Money Movement
 - Embedded Finance
 - Spend Management
-- Fleet
+- Fleet Management
 - Travel
 ---

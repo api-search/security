@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/stekker/authentication/stekker-authen
 summary_line: 1 scheme
 tags:
 - Energy
-- EV
-- Renewable
+- Electric Vehicles
+- Renewables
 - Marketplace
 - Netherlands
 ---

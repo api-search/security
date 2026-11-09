@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: duplicati-default-api-openapi.yml
-  format: yaml
-  label: Duplicati API
-  slug: duplicati-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/duplicati/openapi/duplicati-default-api-openapi.yml
 - filename: duplicati-openapi-generated.yml
   format: yaml
   label: Duplicati API
@@ -48,7 +42,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Backup
-- Open-Source
+- Open Source
 - Cloud
 - Security
 ---

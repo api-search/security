@@ -37,9 +37,9 @@ source_yaml_url: https://artifacts.apis.io/roe-ai/security/roe-ai-domain-securit
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
-- FraudDetection
+- Artificial Intelligence
+- Fraud Prevention
 - AML
-- FinTech
-- DataAnalytics
+- Fintech
+- Data Analytics
 ---

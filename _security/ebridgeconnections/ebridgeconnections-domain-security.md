@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: ebridgeconnections-jitterbit-api-api-openapi.yml
-  format: yaml
-  label: Jitterbit API
-  slug: jitterbit-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/ebridgeconnections/openapi/ebridgeconnections-jitterbit-api-api-openapi.yml
 - filename: ebridgeconnections-openapi-generated.yml
   format: yaml
   label: Jitterbit API

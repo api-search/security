@@ -138,9 +138,9 @@ source_yaml_url: https://artifacts.apis.io/rendobar-com/authentication/rendobar-
 summary_line: 2 schemes
 tags:
 - Company
-- VideoProcessing
+- Video Processing
 - FFmpeg
-- AI
+- Artificial Intelligence
 - Serverless
-- MediaAPI
+- Media API
 ---

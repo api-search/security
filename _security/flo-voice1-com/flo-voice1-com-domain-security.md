@@ -34,7 +34,6 @@ tags:
 - Company
 - SMS
 - Verification
-- API
-- UK
-- Telecom
+- United Kingdom
+- Telecommunications
 ---

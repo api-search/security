@@ -36,7 +36,6 @@ summary_line: 1 scheme
 tags:
 - Automotive
 - Data
-- API
 - China
-- UsedCars
+- Used Cars
 ---

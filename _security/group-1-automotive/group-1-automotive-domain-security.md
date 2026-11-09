@@ -40,5 +40,5 @@ tags:
 - Dealership
 - Retail
 - Agentic Access
-- llms-txt
+- Llms.txt
 ---

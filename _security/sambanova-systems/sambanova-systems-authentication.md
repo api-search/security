@@ -123,4 +123,6 @@ tags:
 - Generative AI
 - Agents
 - Embeddings
+- Platform
+- Enterprise
 ---

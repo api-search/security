@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Government
 - Geospatial
-- OpenData
-- UrbanPlanning
+- Open Data
+- Urban Planning
 - Japan
 ---

@@ -34,7 +34,7 @@ tags:
 - Company
 - SDK
 - Document-Capture
-- Barcode
+- Barcodes
 - MRZ
 - Web
 ---

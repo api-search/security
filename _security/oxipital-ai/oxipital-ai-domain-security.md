@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/oxipital-ai/security/oxipital-ai-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Computer Vision
-- APIs
 - Developer Tools
 ---

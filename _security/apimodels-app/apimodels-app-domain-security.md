@@ -31,9 +31,8 @@ source_yaml_url: https://artifacts.apis.io/apimodels-app/security/apimodels-app-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Machine Learning
-- API
 - Aggregation
 - Multi-Model
 ---

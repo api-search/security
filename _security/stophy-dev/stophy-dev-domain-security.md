@@ -227,6 +227,6 @@ tags:
 - Company
 - Web Scraping
 - AI Agents
-- Search API
+- SERP
 - Data Extraction
 ---

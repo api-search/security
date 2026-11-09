@@ -39,4 +39,7 @@ tags:
 - Mobile App
 - Advertising
 - Consumer Packaged Goods
+- ConsumerRewards
+- Retail
+- Fintech
 ---

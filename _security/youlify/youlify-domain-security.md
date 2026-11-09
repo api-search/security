@@ -34,6 +34,6 @@ tags:
 - Company
 - Healthcare
 - Fintech
-- AI
-- RevenueCycle
+- Artificial Intelligence
+- Revenue Cycle
 ---

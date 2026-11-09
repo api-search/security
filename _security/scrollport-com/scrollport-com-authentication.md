@@ -38,7 +38,7 @@ summary_line: 0 schemes
 tags:
 - AI Agents
 - API Tools
-- Pay‑per‑use
+- Pay-Per-Use
 - Search
-- Scraping
+- Web Scraping
 ---

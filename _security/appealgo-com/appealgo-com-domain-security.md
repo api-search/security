@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Parking
-- AI
-- UK
+- Artificial Intelligence
+- United Kingdom
 - Appeals
 ---

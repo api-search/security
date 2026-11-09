@@ -60,6 +60,7 @@ source_yaml_url: https://artifacts.apis.io/cloudwatch/security/cloudwatch-trust-
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Alarms
+- Amazon Web Services
 - Dashboards
 - Logs
 - Metrics

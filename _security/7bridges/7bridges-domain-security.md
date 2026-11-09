@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/7bridges/security/7bridges-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Supply Chain
-- SaaS
+- Software-as-a-Service
 - Logistics
-- AI
+- Artificial Intelligence
 - Platform
 ---

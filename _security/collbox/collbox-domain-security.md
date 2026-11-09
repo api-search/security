@@ -33,6 +33,6 @@ tags:
 - Company
 - Law
 - Finance
-- SaaS
+- Software-as-a-Service
 - Invoicing
 ---

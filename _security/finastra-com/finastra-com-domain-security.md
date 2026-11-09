@@ -40,5 +40,5 @@ tags:
 - Financial Services
 - Banking Software
 - Payments
-- FinTech
+- Fintech
 ---

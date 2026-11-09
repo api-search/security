@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Books
-- PriceComparison
+- Price Comparison
 - Reviews
 - Community
 - Poland

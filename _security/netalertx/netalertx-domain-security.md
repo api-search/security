@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: netalertx-netalertx-api-api-openapi.yml
-  format: yaml
-  label: NetAlertX API
-  slug: netalertx-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/netalertx/openapi/netalertx-netalertx-api-api-openapi.yml
 - filename: netalertx-openapi-generated.yml
   format: yaml
   label: NetAlertX API

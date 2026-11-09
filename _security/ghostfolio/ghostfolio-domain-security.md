@@ -33,6 +33,6 @@ tags:
 - Finance
 - Wealth Management
 - Open Source
-- SaaS
+- Software-as-a-Service
 - Portfolio
 ---

@@ -134,8 +134,7 @@ source_yaml_url: https://artifacts.apis.io/getapi-nl/security/getapi-nl-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Dutch
-- WebScraping
-- DataValidation
+- Web Scraping
+- Data Validation
 ---

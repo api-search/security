@@ -105,9 +105,8 @@ source_yaml_url: https://artifacts.apis.io/thanks-io/security/thanks-io-trust-ce
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AI
-- DirectMail
+- Artificial Intelligence
+- Direct Mail
 - Automation
-- API
 trust_url: https://thanks.io/security
 ---

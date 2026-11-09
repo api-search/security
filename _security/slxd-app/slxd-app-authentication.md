@@ -39,7 +39,7 @@ tags:
 - Company
 - Learning
 - Education
-- SaaS
+- Software-as-a-Service
 - Platform
 - Collaboration
 ---

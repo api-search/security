@@ -26,6 +26,7 @@ tags:
 - CRM
 - Human Resources
 - REST
+- OAuth
 - Authentication
 trust_url: https://www.bullhorn.com/security/
 ---

@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/rec-rec-vn/security/rec-rec-vn-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FoodTech
-- API
+- Food Tech
 - Singapore
 - Marketplace
 ---

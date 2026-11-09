@@ -29,6 +29,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/amazon-ses/security/amazon-ses-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
+- Amazon Web Services
 - Email
 - Email Deliverability
 - Email Service

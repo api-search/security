@@ -35,7 +35,7 @@ summary_line: 1 scheme
 tags:
 - Customer Experience
 - CRM
-- AI
+- Artificial Intelligence
 - Automation
 - Contact Center
 ---

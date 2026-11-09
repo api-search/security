@@ -59,6 +59,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-iot-fleetwise/security/amazon-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automotive
+- Amazon Web Services
 - Connected Vehicles
 - IoT
 - Telematics

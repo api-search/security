@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/aopx-fr/security/aopx-fr-domain-secur
 summary_line: TLSv1.3 · HSTS
 tags:
 - Search
-- AI
+- Artificial Intelligence
 - Routing
-- Benchmark
+- Benchmarks
 - Evidence
 ---

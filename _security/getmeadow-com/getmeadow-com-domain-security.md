@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Cannabis
-- POS
-- E-commerce
-- SaaS
+- Point-of-Sale
+- E-Commerce
+- Software-as-a-Service
 ---

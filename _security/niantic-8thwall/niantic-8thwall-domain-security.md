@@ -45,7 +45,7 @@ tags:
 - JavaScript SDK
 - TypeScript
 - A-Frame
-- three.js
+- ThreeJS
 - PlayCanvas
 - Babylon.js
 ---

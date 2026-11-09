@@ -74,6 +74,6 @@ tags:
 - base-usdc
 - OpenAPI
 - Financial Statements
-- pay-per-call
+- Pay-per-call
 - Agent-Native
 ---

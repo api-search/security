@@ -38,5 +38,5 @@ tags:
 - Marketplace
 - Automotive
 - Europe
-- UsedCars
+- Used Cars
 ---

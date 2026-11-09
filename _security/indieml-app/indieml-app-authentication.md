@@ -40,9 +40,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: derived\nsource: https://indieml.
 source_yaml_url: https://artifacts.apis.io/indieml-app/authentication/indieml-app-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
-- NLP
-- Text-Analysis
-- Machine-Learning
-- API
+- Artificial Intelligence
+- Natural Language Processing
+- Text Analysis
+- Machine Learning
 ---

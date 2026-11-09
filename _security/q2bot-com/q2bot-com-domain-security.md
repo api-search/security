@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/q2bot-com/security/q2bot-com-domain-s
 summary_line: TLSv1.3
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - WhatsApp
-- AI
+- Artificial Intelligence
 - Automation
 - Tienda Nube
 ---

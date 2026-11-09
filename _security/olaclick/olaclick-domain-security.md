@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/olaclick/security/olaclick-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Restaurant
-- POS
-- AI
-- SaaS
+- Point-of-Sale
+- Artificial Intelligence
+- Software-as-a-Service
 - Delivery
 ---

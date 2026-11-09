@@ -29,9 +29,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/bicycle/security/bicycle-domain-security.yml
 summary_line: TLSv1.2
 tags:
-- AI
+- Artificial Intelligence
 - Analytics
-- DataWarehouse
+- Data Warehouse
 - Retail
 - Travel
 - Shopify

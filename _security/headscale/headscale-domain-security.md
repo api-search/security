@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/headscale/security/headscale-domain-s
 summary_line: TLSv1.3
 tags:
 - Company
-- OpenSource
+- Open Source
 - Networking
 - VPN
-- ZeroTrust
+- Zero Trust
 ---

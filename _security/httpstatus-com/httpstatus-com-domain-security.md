@@ -32,8 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - HTTP
-- StatusCodes
-- DeveloperTools
-- API
-- OpenSource
+- Status-Codes
+- Developer Tools
+- Open Source
 ---

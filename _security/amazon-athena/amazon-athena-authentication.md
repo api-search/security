@@ -121,4 +121,5 @@ tags:
 - SQL
 - Analytics
 - Serverless
+- Amazon Web Services
 ---

@@ -51,7 +51,7 @@ tags:
 - Web Development
 - Software
 - Automation
-- AI
-- E‑commerce
-- UK
+- Artificial Intelligence
+- E-Commerce
+- United Kingdom
 ---

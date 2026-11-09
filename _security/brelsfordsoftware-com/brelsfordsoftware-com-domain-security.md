@@ -34,5 +34,5 @@ tags:
 - Immunogenetics
 - Games
 - Directory
-- OpenData
+- Open Data
 ---

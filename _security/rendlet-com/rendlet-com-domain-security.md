@@ -64,9 +64,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - PDF
-- API
-- DocumentGeneration
-- SaaS
-- DeveloperFriendly
-- AI
+- Document Generation
+- Software-as-a-Service
+- Artificial Intelligence
 ---

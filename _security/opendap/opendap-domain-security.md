@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/opendap/security/opendap-domain-secur
 summary_line: TLSv1.3
 tags:
 - Company
-- Open-Source
+- Open Source
 - Scientific Data
 - Distributed Systems
 - Data Access

@@ -67,8 +67,7 @@ source_yaml_url: https://artifacts.apis.io/veritahire-com/authentication/veritah
 summary_line: 1 scheme
 tags:
 - Company
-- Jobs
+- Job
 - Hiring
-- API
 - Data
 ---

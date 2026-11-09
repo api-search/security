@@ -40,6 +40,6 @@ tags:
 - Company
 - Finance
 - Blockchain
-- Token
+- Tokens
 - Payments
 ---

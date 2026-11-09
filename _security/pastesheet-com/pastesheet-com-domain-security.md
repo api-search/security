@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/pastesheet-com/security/pastesheet-co
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
-- GoogleSheets
-- NoCode
-- AI
+- Google Sheets
+- No-Code
+- Artificial Intelligence
 ---

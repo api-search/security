@@ -33,6 +33,6 @@ tags:
 - Company
 - DJ
 - Education
-- Events
+- Event
 - Music
 ---

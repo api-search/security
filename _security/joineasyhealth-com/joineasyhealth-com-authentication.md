@@ -31,7 +31,6 @@ summary_line: 0 schemes
 tags:
 - Health
 - Healthcare
-- API
-- SaaS
+- Software-as-a-Service
 - Insurance
 ---

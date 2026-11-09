@@ -29,7 +29,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Grocery
-- API
 - European
 - Pricing
 ---

@@ -55,8 +55,9 @@ tags:
 - Last Mile Delivery
 - Logistics
 - Webhook
-- Authentication
+- OAuth
 - Point-of-Sale
 - Restaurant
 - Delivery
+- Authentication
 ---

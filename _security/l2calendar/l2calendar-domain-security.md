@@ -42,6 +42,6 @@ tags:
 - Game Servers
 - Gaming
 - server-listing
-- llms-txt
+- Llms.txt
 - agent-native-content
 ---

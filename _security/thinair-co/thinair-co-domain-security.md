@@ -117,9 +117,8 @@ source_yaml_url: https://artifacts.apis.io/thinair-co/security/thinair-co-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- fleet-management
-- telematics
-- logistics
-- compliance
-- API
+- Fleet Management
+- Telematics
+- Logistics
+- Compliance
 ---

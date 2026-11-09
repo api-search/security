@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Finance
-- OpenFinance
-- SoutheastAsia
-- FinTech
+- Open Finance
+- Southeast Asia
+- Fintech
 ---

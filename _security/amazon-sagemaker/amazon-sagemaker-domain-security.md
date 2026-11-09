@@ -483,6 +483,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-sagemaker/security/amazon-sage
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
+- Amazon Web Services
 - Inference
 - Machine Learning
 - MLOps

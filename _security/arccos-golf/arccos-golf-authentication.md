@@ -96,7 +96,8 @@ tags:
 - Geospatial
 - Consumer Hardware
 - Webhook
-- Authentication
+- OAuth
 - MCP
 - E-Commerce
+- Authentication
 ---

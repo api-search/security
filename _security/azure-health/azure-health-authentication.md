@@ -97,6 +97,25 @@ provider_name: Microsoft Azure Health Data Services
 provider_slug: azure-health
 scheme_count: 2
 schemes:
+- description: Azure Active Directory OAuth2 Flow
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+    scopes: 1
+  name: azure_auth
+  sources:
+  - openapi/azure-health-collection-api-openapi.yml
+  - openapi/azure-health-dicomservices-api-openapi.yml
+  - openapi/azure-health-fhirservices-api-openapi.yml
+  - openapi/azure-health-iotconnectors-api-openapi.yml
+  - openapi/azure-health-private-endpoint-connections-api-openapi.yml
+  - openapi/azure-health-privatelinkresources-api-openapi.yml
+  - openapi/azure-health-proxy-api-openapi.yml
+  - openapi/azure-health-resource-api-openapi.yml
+  - openapi/azure-health-workspaceprivateendpointconnections-api-openapi.yml
+  - openapi/azure-health-workspaceprivatelinkresources-api-openapi.yml
+  - openapi/azure-health-workspaces-api-openapi.yml
+  type: oauth2
 - description: The Azure Active Directory OAuth2 Flow
   flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
@@ -105,22 +124,16 @@ schemes:
     tokenUrl: https://login.microsoftonline.com/common/oauth2/token
   name: AadToken
   sources:
-  - openapi/health-data-ai-deid-2024-11-15.json
-  type: oauth2
-- description: Azure Active Directory OAuth2 Flow
-  flows:
-  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
-    flow: implicit
-    scopes: 1
-  name: azure_auth
-  sources:
-  - openapi/healthcare-apis-2024-03-31.json
+  - openapi/azure-health-deid-api-openapi.yml
+  - openapi/azure-health-jobs-api-openapi.yml
   type: oauth2
 slug: azure-health-authentication
 source_filename: azure-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/health-data-ai-deid-2024-11-15.json, openapi/healthcare-apis-2024-03-31.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - implicit\nschemes:\n- name: AadToken\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n    scopes: 1\n  description: The Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/health-data-ai-deid-2024-11-15.json\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/healthcare-apis-2024-03-31.json\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/azure-health-collection-api-openapi.yml, openapi/azure-health-deid-api-openapi.yml,\n  openapi/azure-health-dicomservices-api-openapi.yml, openapi/azure-health-fhirservices-api-openapi.yml,\n  openapi/azure-health-iotconnectors-api-openapi.yml, openapi/azure-health-jobs-api-openapi.yml,\n  openapi/azure-health-private-endpoint-connections-api-openapi.yml, openapi/azure-health-privatelinkresources-api-openapi.yml,\n  openapi/azure-health-proxy-api-openapi.yml, openapi/azure-health-resource-api-openapi.yml,\n  openapi/azure-health-workspaceprivateendpointconnections-api-openapi.yml, openapi/azure-health-workspaceprivatelinkresources-api-openapi.yml\n  ...\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description:\
+  \ Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/azure-health-collection-api-openapi.yml\n  - openapi/azure-health-dicomservices-api-openapi.yml\n  - openapi/azure-health-fhirservices-api-openapi.yml\n  - openapi/azure-health-iotconnectors-api-openapi.yml\n  - openapi/azure-health-private-endpoint-connections-api-openapi.yml\n  - openapi/azure-health-privatelinkresources-api-openapi.yml\n  - openapi/azure-health-proxy-api-openapi.yml\n  - openapi/azure-health-resource-api-openapi.yml\n  - openapi/azure-health-workspaceprivateendpointconnections-api-openapi.yml\n  - openapi/azure-health-workspaceprivatelinkresources-api-openapi.yml\n  - openapi/azure-health-workspaces-api-openapi.yml\n- name: AadToken\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n    scopes: 1\n  description: The Azure Active Directory OAuth2 Flow\n\
+  \  sources:\n  - openapi/azure-health-deid-api-openapi.yml\n  - openapi/azure-health-jobs-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/azure-health/authentication/azure-health-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:

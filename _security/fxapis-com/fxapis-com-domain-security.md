@@ -131,7 +131,6 @@ tags:
 - Company
 - Fintech
 - Trading
-- API
 - MT5
 - Cloud
 ---

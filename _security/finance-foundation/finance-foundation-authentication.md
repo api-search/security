@@ -134,7 +134,6 @@ summary_line: 0 schemes
 tags:
 - Finance
 - Data
-- API
-- OpenData
-- AI
+- Open Data
+- Artificial Intelligence
 ---

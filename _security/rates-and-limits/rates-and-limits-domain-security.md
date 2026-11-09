@@ -35,7 +35,7 @@ tags:
 - Payroll
 - Benefits
 - IRS
-- minimum-wage
+- Minimum Wage
 - Open Data
 - Government
 - Compliance
@@ -43,5 +43,5 @@ tags:
 - Human Resources
 - Reference Data
 - JSON
-- llms-txt
+- Llms.txt
 ---

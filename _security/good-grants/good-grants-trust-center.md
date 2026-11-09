@@ -181,8 +181,8 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Company
 - Grants
-- SaaS
-- Nonprofit
+- Software-as-a-Service
+- Non-Profit
 - Funding
 trust_url: https://goodgrants.com/features/security/
 ---

@@ -90,5 +90,5 @@ tags:
 - Generative Art
 - Symbients
 - AI Agents
-- llms-txt
+- Llms.txt
 ---

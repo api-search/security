@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Research
-- AtmosphericScience
+- Atmospheric Science
 - Education
-- Nonprofit
+- Non-Profit
 ---

@@ -31,7 +31,6 @@ source_yaml_url: https://artifacts.apis.io/mintpdf-dev/security/mintpdf-dev-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - PDF
 - Markdown
 - HTML

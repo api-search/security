@@ -90,9 +90,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/intencheck-com/security/intencheck-com-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AI
-- NLP
-- TextAnalysis
+- Artificial Intelligence
+- Natural Language Processing
+- Text Analysis
 - Sentiment
 - Emotion
 ---

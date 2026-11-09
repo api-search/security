@@ -87,8 +87,8 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Email
-- Self-hosted
-- Open-source
+- Self-Hosted
+- Open Source
 - Automation
 - Privacy
 ---

@@ -34,5 +34,5 @@ tags:
 - Heating
 - IoT
 - ScandinavianDesign
-- EnergyEfficiency
+- Energy Efficiency
 ---

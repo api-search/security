@@ -78,6 +78,7 @@ tags:
 - Authorization
 - Identity and Access Management
 - Open Source
+- OAuth
 - OpenID Connect
 - Identity Federation
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/alphafinance-io/security/alphafinance
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Data
-- Market
+- Markets
 - Terminal
 ---

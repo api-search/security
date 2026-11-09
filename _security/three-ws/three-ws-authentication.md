@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/three-ws/authentication/three-ws-auth
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - 3D
 - Agents
 - Web3

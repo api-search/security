@@ -54,5 +54,5 @@ tags:
 - Engineering
 - Personal Site
 - San Francisco
-- AI
+- Artificial Intelligence
 ---

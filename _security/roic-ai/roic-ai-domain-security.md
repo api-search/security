@@ -148,6 +148,5 @@ tags:
 - Company
 - Finance
 - Data
-- API
-- Stock
+- Stocks
 ---

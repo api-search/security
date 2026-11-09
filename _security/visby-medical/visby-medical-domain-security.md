@@ -41,4 +41,6 @@ tags:
 - Sexual Health
 - Medical Devices
 - Telehealth
+- At-Home Testing
+- FDA-Approved
 ---

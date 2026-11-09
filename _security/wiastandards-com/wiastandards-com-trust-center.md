@@ -48,7 +48,7 @@ tags:
 - Standards
 - Certification
 - Interoperability
-- Digital-Twin
-- Data-Exchange
+- Digital Twin
+- Data Exchange
 trust_url: https://security.wiastandards.com/
 ---

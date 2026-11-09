@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Hospitality
-- SaaS
+- Software-as-a-Service
 - Payments
 - Reservations
 ---

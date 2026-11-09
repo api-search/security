@@ -99,9 +99,8 @@ source_yaml_url: https://artifacts.apis.io/textforagents-com/security/textforage
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Telephony
 - SMS
 - Agents
-- API
 ---

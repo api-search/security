@@ -34,5 +34,5 @@ tags:
 - Imagery
 - Agriculture
 - Remote Sensing
-- SaaS
+- Software-as-a-Service
 ---

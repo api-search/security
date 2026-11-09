@@ -23,6 +23,5 @@ tags:
 - Fintech
 - Verification
 - Risk Scoring
-- API
 trust_url: https://inveriteinsights.com/security/
 ---

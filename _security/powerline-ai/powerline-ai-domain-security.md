@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/powerline-ai/security/powerline-ai-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- APIs
+- Artificial Intelligence
 - Automation
 - Email
 - Productivity

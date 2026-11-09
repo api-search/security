@@ -145,7 +145,7 @@ source_yaml_url: https://artifacts.apis.io/mails-ai/authentication/mails-ai-auth
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Email
 - Infrastructure
 - Agents

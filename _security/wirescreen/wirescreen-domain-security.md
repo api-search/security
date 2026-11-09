@@ -35,6 +35,6 @@ tags:
 - Business
 - Intelligence
 - China
-- Risk
+- Risk Management
 - Compliance
 ---

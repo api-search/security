@@ -33,6 +33,5 @@ tags:
 - Mill Management
 - Software
 - Cloud
-- Operations
 - Inventory
 ---

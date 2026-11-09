@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/verascient/security/verascient-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- OperatingSystem
-- KnowledgeGraph
+- Artificial Intelligence
+- Operating System
+- Knowledge Graph
 - Enterprise
 ---

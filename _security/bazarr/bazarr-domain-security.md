@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Subtitle
 - Media
-- Open-Source
+- Open Source
 - Automation
 - Docker
 - Company

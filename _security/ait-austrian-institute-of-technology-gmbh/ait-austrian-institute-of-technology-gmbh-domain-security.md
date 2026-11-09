@@ -34,6 +34,6 @@ tags:
 - Research
 - Technology
 - Infrastructure
-- AI
+- Artificial Intelligence
 - Energy
 ---

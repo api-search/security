@@ -31,7 +31,7 @@ summary_line: 1 scheme
 tags:
 - Payments
 - Online Payments
-- In‑store Payments
+- In-Store Payments
 - Omnichannel
 - Credit Management
 - Subscription Management

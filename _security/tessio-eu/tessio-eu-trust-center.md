@@ -39,9 +39,8 @@ source_yaml_url: https://artifacts.apis.io/tessio-eu/security/tessio-eu-trust-ce
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AgeVerification
+- Age Verification
 - EU
-- API
 - Identity
 trust_url: https://tessio.eu/security/
 ---

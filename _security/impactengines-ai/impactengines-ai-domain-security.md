@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/impactengines-ai/security/impactengin
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Consulting
 - Development Data
 - Official Statistics

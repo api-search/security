@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/getklo-com/security/getklo-com-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video Editing
-- AI
+- Artificial Intelligence
 - Cloud Rendering
 - Collaboration
 - Marketing

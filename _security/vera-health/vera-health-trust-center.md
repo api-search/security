@@ -28,7 +28,7 @@ source_yaml_url: https://artifacts.apis.io/vera-health/security/vera-health-trus
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Health
-- AI
+- Artificial Intelligence
 - Clinical Decision Support
 - Medical Knowledge
 - Healthcare

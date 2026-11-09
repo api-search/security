@@ -33,7 +33,6 @@ tags:
 - Company
 - Electric Vehicles
 - Automotive
-- EV
 - Mobility
 - Manufacturer
 ---

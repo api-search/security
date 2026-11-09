@@ -75,7 +75,8 @@ tags:
 - Music
 - Streaming
 - Audio
-- Authentication
+- OAuth
 - Tracks
 - Playlists
+- Authentication
 ---

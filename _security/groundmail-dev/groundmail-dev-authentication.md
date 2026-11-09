@@ -164,8 +164,7 @@ source_yaml_url: https://artifacts.apis.io/groundmail-dev/authentication/groundm
 summary_line: 4 schemes
 tags:
 - Email
-- API
 - Transactional
 - SMTP
-- Developer
+- Developers
 ---

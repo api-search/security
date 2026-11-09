@@ -45,25 +45,25 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 128 iodef "mailto:infra@sonarsource.com"
-  - 0 issuewild "sectigo.com"
-  - 0 issuewild "amazon.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "sectigo.com"
+  - 0 issuewild "letsencrypt.org"
   - 0 issue "amazon.com"
-  - 0 issue "amazonaws.com"
-  - 0 issuewild "awstrust.com"
+  - 0 issuewild "sectigo.com"
+  - 0 issuewild "amazontrust.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: sonarsource.com
   spf: true
 hosts:
-- cert_expires: Sep 26 23:59:59 2026 GMT
+- cert_expires: Dec 16 06:33:31 2026 GMT
   host: www.sonarsource.com
   hsts: true
-  hsts_max_age: 31536000
+  hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  9 16:14:33 2026 GMT
+- cert_expires: Dec  7 17:42:59 2026 GMT
   host: docs.sonarsource.com
   hsts: true
   hsts_max_age: 31536000
@@ -82,7 +82,7 @@ slug: sonarqube-domain-security
 source_filename: sonarqube-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sonarsource.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 26 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: docs.sonarsource.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  9 16:14:33 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sonarsource.com\n  dnssec: false\n  caa:\n  - 128 iodef \"mailto:infra@sonarsource.com\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issue \"amazon.com\"\n  - 0 issue \"amazonaws.com\"\n  - 0 issuewild \"awstrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.sonarsource.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 16 06:33:31 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: docs.sonarsource.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  7 17:42:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: sonarsource.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issue \"amazon.com\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 issuewild \"amazontrust.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/sonarqube/security/sonarqube-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -91,4 +91,6 @@ tags:
 - DevOps
 - Security
 - Static Analysis
+- Code Security
+- SAST
 ---

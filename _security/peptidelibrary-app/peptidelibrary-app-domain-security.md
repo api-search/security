@@ -41,5 +41,5 @@ tags:
 - Peptide Research
 - Vendor Comparison
 - Research Tools
-- Inventory Management
+- Inventory
 ---

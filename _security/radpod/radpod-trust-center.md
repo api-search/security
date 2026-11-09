@@ -27,7 +27,7 @@ source_yaml_url: https://artifacts.apis.io/radpod/security/radpod-trust-center.y
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Finance
 - Platform
 - Automation

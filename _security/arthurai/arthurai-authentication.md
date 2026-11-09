@@ -410,6 +410,24 @@ api_specs:
   slug: arthurai-workspaces-v1-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/arthurai/openapi/arthurai-workspaces-v1-api-openapi.yml
+- filename: arthurai-dashboards-v1-api-openapi.yml
+  format: yaml
+  label: ArthurAI Dashboards V1 API
+  slug: arthurai-dashboards-v1-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arthurai/openapi/arthurai-dashboards-v1-api-openapi.yml
+- filename: arthurai-discovery-runs-v1-api-openapi.yml
+  format: yaml
+  label: ArthurAI Discovery Runs V1 API
+  slug: arthurai-discovery-runs-v1-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arthurai/openapi/arthurai-discovery-runs-v1-api-openapi.yml
+- filename: arthurai-discovery-sources-v1-api-openapi.yml
+  format: yaml
+  label: ArthurAI Discovery Sources V1 API
+  slug: arthurai-discovery-sources-v1-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arthurai/openapi/arthurai-discovery-sources-v1-api-openapi.yml
 auth_types:
 - http
 - oauth2

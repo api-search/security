@@ -65,9 +65,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: derived\nsource: openapi/trendsfa
 source_yaml_url: https://artifacts.apis.io/trendsfast/authentication/trendsfast-authentication.yml
 summary_line: 1 scheme
 tags:
-- API
 - Trends
-- SocialMedia
+- Social Media
 - Search
-- AI
+- Artificial Intelligence
 ---

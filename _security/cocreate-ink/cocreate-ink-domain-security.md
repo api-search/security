@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/cocreate-ink/security/cocreate-ink-do
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Low-code
+- Low-Code
 - Collaboration
-- Digital-Products
-- E-commerce
+- Digital Products
+- E-Commerce
 - Analytics
 ---

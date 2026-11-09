@@ -32,10 +32,10 @@ source_yaml_url: https://artifacts.apis.io/getsona-com/security/getsona-com-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Workforce Management
-- AI
+- Artificial Intelligence
 - Scheduling
 - Forecasting
-- HR
+- Human Resources
 - Payroll
 - Hospitality
 - Logistics

@@ -33,6 +33,5 @@ tags:
 - Company
 - PDF
 - Rendering
-- API
 - HTML
 ---

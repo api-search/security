@@ -28,7 +28,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Company
 - Code-Drift
-- Developer-Tools
+- Developer Tools
 - CI/CD
 - Security
 trust_url: https://vibgrate.com/trust/

@@ -108,10 +108,11 @@ source_yaml_url: https://artifacts.apis.io/shopware/authentication/shopware-auth
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - E-Commerce
-- Open-Source
+- Open Source
 - Headless Commerce
 - B2B
-- B2C
+- Consumer
 - REST
+- OAuth
 - Authentication
 ---

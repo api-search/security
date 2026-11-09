@@ -88,10 +88,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://www.des
 source_yaml_url: https://artifacts.apis.io/desearch-ai/authentication/desearch-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Search
 - Web
-- API
 - Bittensor
 - Company
 ---

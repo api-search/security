@@ -33,6 +33,6 @@ tags:
 - Company
 - Biotechnology
 - Gene Editing
-- Rare Diseases
+- Rare Disease
 - Therapeutics
 ---

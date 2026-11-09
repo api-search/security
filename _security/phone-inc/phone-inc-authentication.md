@@ -49,5 +49,4 @@ tags:
 - Communications
 - Cloud
 - Business
-- API
 ---

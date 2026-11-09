@@ -19,9 +19,9 @@ source_yaml: "generated: '2026-10-27'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/sd-worx/security/sd-worx-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
-- HR
+- Human Resources
 - Payroll
-- Workforce-Management
+- Workforce Management
 - Europe
 - Cloud
 trust_url: https://www.sdworx.com/en-en/about-sd-worx/trust-centre

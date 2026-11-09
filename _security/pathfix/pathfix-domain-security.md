@@ -39,7 +39,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Integration Platform
-- Authentication
+- OAuth
 - Automation
 - API Management
+- Authentication
 ---

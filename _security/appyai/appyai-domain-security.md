@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/appyai/security/appyai-domain-securit
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Analytics
 - Automation
-- Machine-Learning
+- Machine Learning
 ---

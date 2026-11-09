@@ -35,5 +35,5 @@ tags:
 - Astrology
 - Vedic
 - Western
-- Birth-Chart
+- BirthChart
 ---

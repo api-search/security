@@ -51,6 +51,5 @@ tags:
 - Company
 - Fintech
 - Payments
-- API
 - Cloud
 ---

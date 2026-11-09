@@ -62,7 +62,7 @@ source_yaml_url: https://artifacts.apis.io/outscale/security/outscale-domain-sec
 summary_line: TLSv1.2 · DMARC
 tags:
 - Cloud
-- IaaS
+- Infrastructure-as-a-Service
 - Compute
 - Storage
 - Networking

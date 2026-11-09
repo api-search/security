@@ -144,7 +144,7 @@ source_yaml_url: https://artifacts.apis.io/densify/authentication/densify-authen
 summary_line: http/oauth2 · 1 scheme
 tags:
 - Cloud Cost
-- Container Optimization
+- Container-Optimization
 - FinOps
 - Kubernetes
 - Machine Learning

@@ -23,7 +23,6 @@ tags:
 - Company
 - Integration
 - EDI
-- API
 - Supply Chain
 trust_url: https://crossfireintegration.com/security
 ---

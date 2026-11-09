@@ -31,10 +31,10 @@ source_yaml: "generated: '2026-10-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/give-lively/security/give-lively-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Platform
 - Free
-- Open-source
+- Open Source
 - Community
 ---

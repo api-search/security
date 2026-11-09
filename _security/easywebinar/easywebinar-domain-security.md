@@ -47,7 +47,8 @@ tags:
 - Lead Generation
 - Automation
 - Identity
-- Authentication
+- OAuth
 - Software-as-a-Service
 - Identity Federation
+- Authentication
 ---

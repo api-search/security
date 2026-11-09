@@ -52,20 +52,27 @@ schemes:
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
   sources:
-  - openapi/google-sheets-openapi.yml
+  - openapi/google-sheets-developer-metadata-api-openapi.yml
+  - openapi/google-sheets-sheets-api-openapi.yml
+  - openapi/google-sheets-spreadsheets-api-openapi.yml
+  - openapi/google-sheets-values-api-openapi.yml
   type: oauth2
 - description: API key for accessing public spreadsheets without user authentication.
   in: query
   name: apiKey
   parameter: key
   sources:
-  - openapi/google-sheets-openapi.yml
+  - openapi/google-sheets-developer-metadata-api-openapi.yml
+  - openapi/google-sheets-sheets-api-openapi.yml
+  - openapi/google-sheets-spreadsheets-api-openapi.yml
+  - openapi/google-sheets-values-api-openapi.yml
   type: apiKey
 slug: google-sheets-authentication
 source_filename: google-sheets-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-sheets-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 5\n  description: OAuth 2.0 authentication for accessing user spreadsheets.\n  sources:\n  - openapi/google-sheets-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key for accessing public spreadsheets without user authentication.\n  sources:\n  - openapi/google-sheets-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/google-sheets-developer-metadata-api-openapi.yml, openapi/google-sheets-sheets-api-openapi.yml,\n  openapi/google-sheets-spreadsheets-api-openapi.yml, openapi/google-sheets-values-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/v2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 5\n  description: OAuth 2.0 authentication for accessing user spreadsheets.\n  sources:\n  - openapi/google-sheets-developer-metadata-api-openapi.yml\n  - openapi/google-sheets-sheets-api-openapi.yml\n  - openapi/google-sheets-spreadsheets-api-openapi.yml\n  - openapi/google-sheets-values-api-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key for accessing public\
+  \ spreadsheets without user authentication.\n  sources:\n  - openapi/google-sheets-developer-metadata-api-openapi.yml\n  - openapi/google-sheets-sheets-api-openapi.yml\n  - openapi/google-sheets-spreadsheets-api-openapi.yml\n  - openapi/google-sheets-values-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-sheets/authentication/google-sheets-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:

@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Healthcare
-- DataVerification
-- ProviderNetwork
+- Data Verification
+- Provider Network
 - Analytics
 ---

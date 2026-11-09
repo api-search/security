@@ -41,5 +41,5 @@ tags:
 - Banking
 - Construction
 - Payments
-- FinTech
+- Fintech
 ---

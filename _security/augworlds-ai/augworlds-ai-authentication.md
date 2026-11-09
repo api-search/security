@@ -72,6 +72,7 @@ tags:
 - MCP
 - A2A
 - AI Agents
-- Authentication
+- OAuth
 - Marketplace
+- Authentication
 ---

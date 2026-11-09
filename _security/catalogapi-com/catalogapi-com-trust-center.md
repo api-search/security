@@ -46,9 +46,8 @@ source_yaml_url: https://artifacts.apis.io/catalogapi-com/security/catalogapi-co
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
-- API
 - Rewards
-- GiftCards
+- Gift Cards
 - Global
 trust_url: https://catalogapi.com:443/
 ---

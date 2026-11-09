@@ -40,6 +40,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-device-farm/authentication/ama
 summary_line: apiKey · 1 scheme
 tags:
 - Application Testing
+- Amazon Web Services
 - Device Testing
 - Mobile Testing
 - Quality Assurance

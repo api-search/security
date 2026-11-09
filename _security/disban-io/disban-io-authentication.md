@@ -84,8 +84,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Email
-- Disposable-Email
-- API
+- Disposable Email
 - Security
-- Fraud-Prevention
+- Fraud Prevention
 ---

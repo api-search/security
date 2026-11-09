@@ -33,5 +33,5 @@ tags:
 - Biotechnology
 - Cardiovascular
 - Therapeutics
-- ClinicalTrials
+- Clinical Trials
 ---

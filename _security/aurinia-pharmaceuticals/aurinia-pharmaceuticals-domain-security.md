@@ -34,6 +34,6 @@ tags:
 - Biopharma
 - Autoimmune
 - Therapeutics
-- ClinicalResearch
+- Clinical Research
 - Biotechnology
 ---

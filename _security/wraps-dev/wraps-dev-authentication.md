@@ -34,6 +34,7 @@ source_yaml_url: https://artifacts.apis.io/wraps-dev/authentication/wraps-dev-au
 summary_line: 2 schemes
 tags:
 - Email
+- Amazon Web Services
 - SES
 - Infrastructure
 - Platform

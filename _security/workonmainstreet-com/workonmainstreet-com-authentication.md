@@ -29,9 +29,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/workonmainstreet-com/authentication/workonmainstreet-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- HoldingCompany
+- Holding Company
 - Investment
-- PrivateEquity
+- Private Equity
 - Portfolio
 - Technology
 ---

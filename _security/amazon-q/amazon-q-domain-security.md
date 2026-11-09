@@ -108,12 +108,6 @@ api_specs:
   slug: amazon-q-importjobs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-q/openapi/amazon-q-importjobs-api-openapi.yml
-- filename: amazon-q-knowledgebases-api-openapi.yml
-  format: yaml
-  label: Amazon Q Q Knowledgebases API
-  slug: amazon-q-knowledgebases-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-q/openapi/amazon-q-knowledgebases-api-openapi.yml
 - filename: amazon-q-messagetemplates-api-openapi.yml
   format: yaml
   label: Amazon Q Q Messagetemplates API
@@ -186,6 +180,12 @@ api_specs:
   slug: amazon-q-versions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-q/openapi/amazon-q-versions-api-openapi.yml
+- filename: amazon-q-knowledge-bases-api-openapi.yml
+  format: yaml
+  label: Amazon Q Knowledge Bases API
+  slug: amazon-q-knowledge-bases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-q/openapi/amazon-q-knowledge-bases-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -231,6 +231,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Assistant
+- Amazon Web Services
 - Enterprise
 - Generative AI
 ---

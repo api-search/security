@@ -89,6 +89,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/amazon-route-53/security/amazon-route-53-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
+- Amazon Web Services
 - DNS
 - Domain Registration
 - Health Checks

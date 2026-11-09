@@ -21,8 +21,8 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Documentation
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Technical Writing
 trust_url: https://clickhelp.com/trust/
 ---

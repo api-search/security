@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - IoT
-- Edge-Computing
-- Streaming-Analytics
+- Edge Computing
+- Streaming Analytics
 - Industrial
 ---

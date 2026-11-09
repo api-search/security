@@ -39,7 +39,6 @@ source_yaml_url: https://artifacts.apis.io/toptik-app/authentication/toptik-app-
 summary_line: 2 schemes
 tags:
 - Company
-- API
 - TikTok
 - Data
 - Public

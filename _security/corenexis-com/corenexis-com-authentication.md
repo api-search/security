@@ -35,9 +35,8 @@ source_yaml_url: https://artifacts.apis.io/corenexis-com/authentication/corenexi
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Platform
-- DeveloperTools
-- FinTech
-- SaaS
+- Developer Tools
+- Fintech
+- Software-as-a-Service
 ---

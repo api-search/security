@@ -33,12 +33,6 @@ api_specs:
   slug: amazon-data-exchange-tags-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-tags-api-openapi.yml
-- filename: amazon-data-exchange-datasets-api-openapi.yml
-  format: yaml
-  label: Amazon Data Exchange Datasets API
-  slug: amazon-data-exchange-datasets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-datasets-api-openapi.yml
 - filename: amazon-data-exchange-data-grants-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Data Exchange Data Grants API
@@ -51,6 +45,12 @@ api_specs:
   slug: amazon-data-exchange-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-operations-api-openapi.yml
+- filename: amazon-data-exchange-datasets-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Datasets API
+  slug: amazon-data-exchange-datasets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-datasets-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -81,6 +81,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-d
 source_yaml_url: https://artifacts.apis.io/amazon-data-exchange/authentication/amazon-data-exchange-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Data Exchange
 - Data Marketplace
 - Third-Party Data

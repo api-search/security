@@ -117,6 +117,7 @@ tags:
 - Passkeys
 - MFA
 - SSO
+- OAuth
 - OpenID Connect
 - SAML
 - SCIM

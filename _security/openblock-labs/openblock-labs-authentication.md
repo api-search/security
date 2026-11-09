@@ -30,7 +30,8 @@ tags:
 - AI Agents
 - Developer Tools
 - Automation
-- Authentication
+- OAuth
 - MCP
 - Identity Federation
+- Authentication
 ---

@@ -1,13 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: pianam-cn-default-api-openapi.yml
-  format: yaml
-  label: Mycel AI
-  slug: mycel-ai
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/pianam-cn/openapi/pianam-cn-default-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -35,8 +28,8 @@ source_yaml_url: https://artifacts.apis.io/pianam-cn/authentication/pianam-cn-au
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- Chatbot
-- Conversation
+- Artificial Intelligence
+- Chatbots
+- Conversations
 - Chinese
 ---

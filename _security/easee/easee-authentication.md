@@ -156,8 +156,8 @@ source_yaml_url: https://artifacts.apis.io/easee/authentication/easee-authentica
 summary_line: 2 schemes
 tags:
 - Company
-- EVCharging
-- SmartHome
+- EV Charging
+- Smart Home
 - IoT
 - Energy
 ---

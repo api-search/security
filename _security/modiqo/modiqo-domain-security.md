@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/modiqo/security/modiqo-domain-securit
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- Workflow
+- Artificial Intelligence
+- Workflows
 - Automation
 - Platform
 ---

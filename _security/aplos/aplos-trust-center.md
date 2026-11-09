@@ -22,7 +22,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - Company
 - Accounting
-- Nonprofit
+- Non-Profit
 - Software
 - Cloud
 trust_url: https://www.aplos.com/security

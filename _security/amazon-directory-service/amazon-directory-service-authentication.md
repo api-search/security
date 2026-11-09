@@ -65,6 +65,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Active Directory
 - Authentication
+- Amazon Web Services
 - Directory Services
 - Identity and Access Management
 ---

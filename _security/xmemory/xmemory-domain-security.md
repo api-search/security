@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: xmemory-xmemory-api-api-openapi.yml
-  format: yaml
-  label: xmemory API
-  slug: xmemory-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/xmemory/openapi/xmemory-xmemory-api-api-openapi.yml
 - filename: xmemory-openapi-generated.yml
   format: yaml
   label: xmemory API

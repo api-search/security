@@ -671,6 +671,5 @@ tags:
 - Veterinary
 - Software
 - Cloud
-- API
-- PracticeManagement
+- Practice Management
 ---

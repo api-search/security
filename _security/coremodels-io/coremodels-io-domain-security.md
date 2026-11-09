@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/coremodels-io/security/coremodels-io-
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Data-Modeling
-- API-Platform
+- Data Modeling
+- API Platform
 - Integration
 - Schema-Mapping
 ---

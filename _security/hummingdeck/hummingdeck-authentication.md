@@ -122,6 +122,6 @@ tags:
 - Digital Sales Rooms
 - Data Rooms
 - Client Portals
-- Integrations
+- Integration
 - Secure Sharing
 ---

@@ -8,6 +8,24 @@ api_specs:
   slug: inkeep-analytics-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/inkeep/openapi/inkeep-analytics-api-openapi.yml
+- filename: inkeep-challenge-api-openapi.yml
+  format: yaml
+  label: Inkeep Challenge API
+  slug: inkeep-challenge-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inkeep/openapi/inkeep-challenge-api-openapi.yml
+- filename: inkeep-chat-sessions-api-openapi.yml
+  format: yaml
+  label: Inkeep Chat Sessions API
+  slug: inkeep-chat-sessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inkeep/openapi/inkeep-chat-sessions-api-openapi.yml
+- filename: inkeep-hello-api-openapi.yml
+  format: yaml
+  label: Inkeep Hello API
+  slug: inkeep-hello-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inkeep/openapi/inkeep-hello-api-openapi.yml
 - filename: inkeep-chat-completions-api-openapi.yml
   format: yaml
   label: Inkeep Chat Completions API

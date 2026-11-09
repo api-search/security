@@ -32,8 +32,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Identity
-- Authentication
+- OAuth
 - OpenID Connect
 - Authorization
 - API Security
+- Authentication
 ---

@@ -35,7 +35,7 @@ tags:
 - Manufacturing
 - Glass
 - Aluminium Cans
-- Beverage
+- Beverages
 - Sustainability
 - Australia
 - ASX Listed

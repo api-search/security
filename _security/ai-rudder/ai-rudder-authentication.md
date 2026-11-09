@@ -37,8 +37,8 @@ source_yaml: "generated: '2026-10-25'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/ai-rudder/authentication/ai-rudder-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
-- ConversationalAI
+- Artificial Intelligence
+- Conversational AI
 - Enterprise
 - Automation
 - Platform

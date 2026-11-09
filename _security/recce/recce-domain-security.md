@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/recce/security/recce-domain-security.
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - DataReview
 - Engineering
-- SaaS
+- Software-as-a-Service
 ---

@@ -1,13 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: contix-es-contix-api-openapi.yml
-  format: yaml
-  label: Contix API
-  slug: contix-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/contix-es/openapi/contix-es-contix-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -36,8 +29,8 @@ summary_line: 1 scheme
 tags:
 - Invoicing
 - Accounting
-- SaaS
+- Software-as-a-Service
 - Spain
-- FinTech
+- Fintech
 - Automation
 ---

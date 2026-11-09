@@ -63,6 +63,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-s
 source_yaml_url: https://artifacts.apis.io/amazon-signer/authentication/amazon-signer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Code Signing
 - IoT
 - Lambda

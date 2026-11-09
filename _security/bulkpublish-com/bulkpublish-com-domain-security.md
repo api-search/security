@@ -42,5 +42,4 @@ tags:
 - Social Media
 - Scheduling
 - Publishing
-- API
 ---

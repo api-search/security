@@ -52,5 +52,4 @@ tags:
 - Cloud Computing
 - Media
 - Publishing
-- Bilingual
 ---

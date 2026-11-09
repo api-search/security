@@ -35,8 +35,7 @@ source_yaml_url: https://artifacts.apis.io/geocode-farm/authentication/geocode-f
 summary_line: 1 scheme
 tags:
 - Geocoding
-- API
 - Location
 - Data
-- Service
+- Services
 ---

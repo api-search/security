@@ -237,9 +237,10 @@ tags:
 - REST API
 - OpenAPI
 - Webhook
-- Authentication
+- OAuth
 - Agile
 - Sprints
 - OKRs
 - Developer Tools
+- Authentication
 ---

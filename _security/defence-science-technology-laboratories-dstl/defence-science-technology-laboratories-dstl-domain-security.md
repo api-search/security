@@ -29,9 +29,9 @@ source_yaml: "generated: '2026-10-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/defence-science-technology-laboratories-dstl/security/defence-science-technology-laboratories-dstl-domain-security.yml
 summary_line: DMARC
 tags:
-- defence
-- research
-- technology
-- government
-- UK
+- Defence
+- Research
+- Technology
+- Government
+- United Kingdom
 ---

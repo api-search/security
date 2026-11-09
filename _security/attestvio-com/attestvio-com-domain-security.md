@@ -31,9 +31,8 @@ source_yaml_url: https://artifacts.apis.io/attestvio-com/security/attestvio-com-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- HR
+- Human Resources
 - Compliance
-- SaaS
+- Software-as-a-Service
 - Software
-- API
 ---

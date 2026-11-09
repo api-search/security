@@ -191,7 +191,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Grants
-- SaaS
-- Nonprofit
+- Software-as-a-Service
+- Non-Profit
 - Funding
 ---

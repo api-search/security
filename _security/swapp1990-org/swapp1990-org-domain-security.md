@@ -32,6 +32,5 @@ tags:
 - Company
 - Technology
 - Data
-- API
 - Placeholder
 ---

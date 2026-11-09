@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Git Hosting
-- AI
+- Artificial Intelligence
 - Version Control
 - Model Storage
 - Open Source

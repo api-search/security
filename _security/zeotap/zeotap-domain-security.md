@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/zeotap/security/zeotap-domain-securit
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- Customer-Data-Platform
-- Data-Integration
-- Identity-Resolution
+- Artificial Intelligence
+- Customer Data Platform
+- Data Integration
+- Identity Resolution
 ---

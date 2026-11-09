@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/orumhq-com/security/orumhq-com-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Sales
 - Automation
 - Cold-Calling
-- SaaS
+- Software-as-a-Service
 ---

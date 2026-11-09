@@ -41,6 +41,6 @@ tags:
 - Company
 - Employee Communication
 - Enterprise Software
-- SaaS
-- HR Tech
+- Software-as-a-Service
+- Human Resources
 ---

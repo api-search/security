@@ -35,7 +35,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - DNS
 - Security
-- OpenSource
-- FreeService
+- Open Source
 - Company
 ---

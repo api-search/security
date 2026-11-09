@@ -94,7 +94,6 @@ summary_line: 3 schemes
 tags:
 - Search
 - SERP
-- API
-- AI
+- Artificial Intelligence
 - Data
 ---

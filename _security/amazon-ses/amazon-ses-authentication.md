@@ -47,6 +47,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: openapi/_origin
 source_yaml_url: https://artifacts.apis.io/amazon-ses/authentication/amazon-ses-authentication.yml
 summary_line: apiKey/sigv4/smtp-credentials · 1 scheme
 tags:
+- Amazon Web Services
 - Email
 - Email Deliverability
 - Email Service

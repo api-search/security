@@ -27,7 +27,7 @@ source_yaml: "generated: '2026-10-30'\nmethod: derived\nsource: \"https://invest
 source_yaml_url: https://artifacts.apis.io/instilus-com/authentication/instilus-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- eCommerce
+- E-Commerce
 - Valuation
 - Shopify
 - Tools

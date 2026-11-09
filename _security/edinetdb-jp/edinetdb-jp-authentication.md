@@ -147,7 +147,6 @@ summary_line: 2 schemes
 tags:
 - Finance
 - Data
-- API
 - Japan
 - EDINET
 ---

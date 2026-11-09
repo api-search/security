@@ -76,7 +76,7 @@ tags:
 - Company
 - R&D
 - Innovation
-- AI
+- Artificial Intelligence
 - Web Development
 - Experimental Projects
 ---

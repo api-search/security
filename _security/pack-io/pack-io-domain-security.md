@@ -34,6 +34,5 @@ tags:
 - Company
 - Technology
 - Packaging
-- API
-- Startup
+- Startups
 ---

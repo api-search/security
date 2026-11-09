@@ -116,9 +116,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/communicate-so/security/communicate-so-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
-- Customer Support
-- Chatbot
-- SaaS
+- Artificial Intelligence
+- Customer Service
+- Chatbots
+- Software-as-a-Service
 - Automation
 ---

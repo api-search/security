@@ -39,9 +39,8 @@ source_yaml_url: https://artifacts.apis.io/markovo-net/security/markovo-net-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FileConversion
-- TextProcessing
-- SaaS
-- API
+- File Conversion
+- Text Processing
+- Software-as-a-Service
 - Productivity
 ---

@@ -46,6 +46,5 @@ tags:
 - Company
 - Healthcare
 - Claims
-- API
 - Billing
 ---

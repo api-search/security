@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: \"https://docsa
 source_yaml_url: https://artifacts.apis.io/docsautomator-co/authentication/docsautomator-co-authentication.yml
 summary_line: 2 schemes
 tags:
-- DocumentAutomation
-- NoCode
-- AI
-- ESignature
+- Document Automation
+- No-Code
+- Artificial Intelligence
+- E-Signature
 - Integration
 ---

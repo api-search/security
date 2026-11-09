@@ -33,6 +33,5 @@ tags:
 - Weather
 - Data
 - Visualization
-- API
 - Platform
 ---

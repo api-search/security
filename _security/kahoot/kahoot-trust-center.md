@@ -26,6 +26,7 @@ tags:
 - Engagement
 - Enterprise Learning
 - Reporting
+- OAuth
 - Authentication
 trust_url: https://trust.kahoot.com/
 ---

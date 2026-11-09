@@ -23,6 +23,6 @@ tags:
 - IT Services
 - Digital Transformation
 - Cloud
-- AI
+- Artificial Intelligence
 trust_url: https://fpt-is.com/bao-mat/
 ---

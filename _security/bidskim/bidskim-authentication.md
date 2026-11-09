@@ -29,10 +29,10 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/bidskim/authentication/bidskim-authentication.yml
 summary_line: 0 schemes
 tags:
-- procurement
-- public-sector
-- tenders
-- UK
-- construction
-- AI
+- Procurement
+- Public Sector
+- Tenders
+- United Kingdom
+- Construction
+- Artificial Intelligence
 ---

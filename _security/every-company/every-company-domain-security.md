@@ -36,4 +36,6 @@ tags:
 - Food Ingredients
 - Animal-Free
 - Sustainability
+- Proteins
+- Sustainable
 ---

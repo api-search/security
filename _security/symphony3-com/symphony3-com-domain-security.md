@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/symphony3-com/security/symphony3-com-
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Workflow
+- Workflows
 - Automation
 - Integration
 - Analytics

@@ -52,6 +52,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-codepipeline/authentication/am
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon
+- Amazon Web Services
 - CI/CD
 - Continuous Delivery
 - Developer Tools

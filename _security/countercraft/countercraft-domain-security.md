@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cybersecurity
 - Deception
-- AI
+- Artificial Intelligence
 - Threat Intelligence
 - Enterprise
 ---

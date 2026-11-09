@@ -34,4 +34,5 @@ tags:
 - Monitoring
 - Observability
 - Serverless
+- Amazon Web Services
 ---

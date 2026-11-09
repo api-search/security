@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: mnemoverse-com-health-api-openapi.yml
+  format: yaml
+  label: Mnemoverse Health API
+  slug: mnemoverse-com-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemoverse-com/openapi/mnemoverse-com-health-api-openapi.yml
 - filename: mnemoverse-com-memory-api-openapi.yml
   format: yaml
-  label: mnemoverse-com Memory API
+  label: Mnemoverse Memory API
   slug: mnemoverse-com-memory-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mnemoverse-com/openapi/mnemoverse-com-memory-api-openapi.yml
+- filename: mnemoverse-com-memory-v1-api-openapi.yml
+  format: yaml
+  label: Mnemoverse Memory V1 API
+  slug: mnemoverse-com-memory-v1-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemoverse-com/openapi/mnemoverse-com-memory-v1-api-openapi.yml
+- filename: mnemoverse-com-vault-api-openapi.yml
+  format: yaml
+  label: Mnemoverse Vault API
+  slug: mnemoverse-com-vault-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemoverse-com/openapi/mnemoverse-com-vault-api-openapi.yml
 auth_types: []
 description: Authentication methods for Mnemoverse MCP services
 kind: authentication
@@ -17,8 +35,8 @@ method: searched
 name: Mnemoverse Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: mnemoverse-com declares 2 security scheme(s) across its OpenAPI definitions.
-provider_name: mnemoverse-com
+overview: Mnemoverse declares 2 security scheme(s) across its OpenAPI definitions.
+provider_name: Mnemoverse
 provider_slug: mnemoverse-com
 scheme_count: 2
 schemes:
@@ -41,8 +59,7 @@ source_yaml_url: https://artifacts.apis.io/mnemoverse-com/authentication/mnemove
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
-- API
 - Persistent
 ---

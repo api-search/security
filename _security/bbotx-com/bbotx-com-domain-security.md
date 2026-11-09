@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Oncology
 - Biotechnology
-- PrecisionMedicine
+- Precision Medicine
 - Cancer
 - RAS
 ---

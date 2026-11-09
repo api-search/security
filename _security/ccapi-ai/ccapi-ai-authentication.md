@@ -142,9 +142,8 @@ source_yaml_url: https://artifacts.apis.io/ccapi-ai/authentication/ccapi-ai-auth
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- API
-- Gateway
+- Artificial Intelligence
+- Gateways
 - Models
 - Platform
 ---

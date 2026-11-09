@@ -123,5 +123,6 @@ tags:
 - Amazon Application Migration Service
 - Migration
 - Lift And Shift
+- Amazon Web Services
 - Cloud Migration
 ---

@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/meni-ge/security/meni-ge-domain-secur
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- POS
+- Point-of-Sale
 - Inventory
 - CRM
 - Hospitality
-- E-commerce
+- E-Commerce
 ---

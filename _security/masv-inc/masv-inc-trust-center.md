@@ -22,9 +22,9 @@ source_yaml_url: https://artifacts.apis.io/masv-inc/security/masv-inc-trust-cent
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- FileTransfer
+- File Transfer
 - Media
-- CloudIntegration
+- Cloud Integration
 - Enterprise
 trust_url: https://masv.io/security
 ---

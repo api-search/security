@@ -38,7 +38,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Astrology
-- API
-- Developer
+- Developers
 - Data
 ---

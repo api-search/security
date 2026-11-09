@@ -51,12 +51,24 @@ provider_name: Microsoft Azure Quantum
 provider_slug: microsoft-quantum
 scheme_count: 3
 schemes:
+- description: Azure Active Directory OAuth2 Flow.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+    flow: implicit
+    scopes: 1
+  name: azure_auth
+  sources:
+  - openapi/microsoft-quantum-offerings-api-openapi.yml
+  - openapi/microsoft-quantum-operations-api-openapi.yml
+  - openapi/microsoft-quantum-suiteoffers-api-openapi.yml
+  - openapi/microsoft-quantum-workspaces-api-openapi.yml
+  type: oauth2
 - description: Azure Api-Key Authentication
   in: header
   name: AzureApiKeyAuth
   parameter: x-ms-quantum-api-key
   sources:
-  - openapi/azure-quantum-data-plane-openapi.json
+  - openapi/microsoft-quantum-subscriptions-api-openapi.yml
   type: apiKey
 - description: Azure Entra OAuth2 Authentication
   flows:
@@ -65,23 +77,14 @@ schemes:
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: AzureEntraAuth
   sources:
-  - openapi/azure-quantum-data-plane-openapi.json
-  type: oauth2
-- description: Azure Active Directory OAuth2 Flow.
-  flows:
-  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
-    flow: implicit
-    scopes: 1
-  name: azure_auth
-  sources:
-  - openapi/azure-quantum-resource-manager-openapi.json
+  - openapi/microsoft-quantum-subscriptions-api-openapi.yml
   type: oauth2
 slug: microsoft-quantum-authentication
 source_filename: microsoft-quantum-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-quantum-data-plane-openapi.json, openapi/azure-quantum-resource-manager-openapi.json\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\n  - implicit\nschemes:\n- name: AzureApiKeyAuth\n  type: apiKey\n  in: header\n  parameter: x-ms-quantum-api-key\n  description: Azure Api-Key Authentication\n  sources:\n  - openapi/azure-quantum-data-plane-openapi.json\n- name: AzureEntraAuth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  description: Azure Entra OAuth2 Authentication\n  sources:\n  - openapi/azure-quantum-data-plane-openapi.json\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n\
-  \  - openapi/azure-quantum-resource-manager-openapi.json\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-quantum-offerings-api-openapi.yml, openapi/microsoft-quantum-operations-api-openapi.yml,\n  openapi/microsoft-quantum-subscriptions-api-openapi.yml, openapi/microsoft-quantum-suiteoffers-api-openapi.yml,\n  openapi/microsoft-quantum-workspaces-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - clientCredentials\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-quantum-offerings-api-openapi.yml\n  - openapi/microsoft-quantum-operations-api-openapi.yml\n  - openapi/microsoft-quantum-suiteoffers-api-openapi.yml\n  - openapi/microsoft-quantum-workspaces-api-openapi.yml\n- name: AzureApiKeyAuth\n  type: apiKey\n  in: header\n  parameter:\
+  \ x-ms-quantum-api-key\n  description: Azure Api-Key Authentication\n  sources:\n  - openapi/microsoft-quantum-subscriptions-api-openapi.yml\n- name: AzureEntraAuth\n  type: oauth2\n  flows:\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  description: Azure Entra OAuth2 Authentication\n  sources:\n  - openapi/microsoft-quantum-subscriptions-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-quantum/authentication/microsoft-quantum-authentication.yml
 summary_line: apiKey/oauth2 · 3 schemes
 tags:

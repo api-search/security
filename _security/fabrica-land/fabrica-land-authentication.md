@@ -116,5 +116,5 @@ tags:
 - Real Estate
 - Blockchain
 - Marketplace
-- FinTech
+- Fintech
 ---

@@ -38,6 +38,6 @@ tags:
 - Dashboards
 - Monitoring
 - IT Operations
-- SaaS
+- Software-as-a-Service
 - B2B
 ---

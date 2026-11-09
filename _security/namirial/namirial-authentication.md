@@ -196,7 +196,7 @@ summary_line: apiKey/http/oauth2 · 4 schemes
 tags:
 - Company
 - Digital Trust
-- Electronic Signature
+- E-Signature
 - Identity Verification
 - Digital Identity
 - Trust Services

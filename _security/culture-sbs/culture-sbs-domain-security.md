@@ -72,7 +72,7 @@ tags:
 - Chat
 - Community
 - Presence
-- Message Boards
+- Message boards
 - Ethereum
 - SIWE
 - Provenance

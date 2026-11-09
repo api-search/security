@@ -41,7 +41,7 @@ tags:
 - Company
 - Opportunity
 - Africa
-- Jobs
+- Job
 - Tenders
 - Grants
 - Technology

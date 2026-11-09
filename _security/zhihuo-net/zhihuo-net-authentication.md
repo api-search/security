@@ -30,8 +30,5 @@ source_yaml_url: https://artifacts.apis.io/zhihuo-net/authentication/zhihuo-net-
 summary_line: 0 schemes
 tags:
 - Company
-- API
-- Stub
-- Unknown
 - Harvest
 ---

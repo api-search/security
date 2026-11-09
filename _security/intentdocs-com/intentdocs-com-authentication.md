@@ -70,7 +70,7 @@ source_yaml_url: https://artifacts.apis.io/intentdocs-com/authentication/intentd
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Spec-Driven
 - Platform
 - Automation

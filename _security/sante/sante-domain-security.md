@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/sante/security/sante-domain-security.
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- POS
+- Point-of-Sale
 - Liquor
 - Wine
 - Retail

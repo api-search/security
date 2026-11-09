@@ -123,6 +123,7 @@ tags:
 - Payments
 - Sweden
 - Small Business
+- OAuth
 - Authentication
 trust_url: https://www.visma.com/trust-centre/
 ---

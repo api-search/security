@@ -428,8 +428,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Data
-- API
-- AI
+- Artificial Intelligence
 - Payments
 - MCP
 ---

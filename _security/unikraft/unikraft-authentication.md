@@ -29,7 +29,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Unikernel
-- OpenSource
-- CloudNative
+- Open Source
+- Cloud-Native
 - Performance
 ---

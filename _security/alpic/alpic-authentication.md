@@ -50,6 +50,24 @@ api_specs:
   slug: alpic-tunnels-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/alpic/openapi/alpic-tunnels-api-openapi.yml
+- filename: alpic-insights-api-openapi.yml
+  format: yaml
+  label: Alpic Insights API
+  slug: alpic-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alpic/openapi/alpic-insights-api-openapi.yml
+- filename: alpic-submissions-api-openapi.yml
+  format: yaml
+  label: Alpic Submissions API
+  slug: alpic-submissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alpic/openapi/alpic-submissions-api-openapi.yml
+- filename: alpic-telemetry-api-openapi.yml
+  format: yaml
+  label: Alpic Telemetry API
+  slug: alpic-telemetry-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alpic/openapi/alpic-telemetry-api-openapi.yml
 auth_types:
 - http
 description: ''

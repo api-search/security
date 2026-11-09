@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/iffco-tokio/security/iffco-tokio-doma
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Insurance
-- GeneralInsurance
+- General Insurance
 - India
-- JointVenture
-- FinancialServices
+- Joint Venture
+- Financial Services
 ---

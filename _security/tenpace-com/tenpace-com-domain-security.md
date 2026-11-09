@@ -38,9 +38,9 @@ source_yaml_url: https://artifacts.apis.io/tenpace-com/security/tenpace-com-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Health
-- SaaS
+- Software-as-a-Service
 - Productivity
-- Workflow
+- Workflows
 - Integration
 - Company
 ---

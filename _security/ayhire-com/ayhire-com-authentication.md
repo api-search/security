@@ -80,7 +80,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Hiring
-- DeveloperTools
-- Recruitment
-- OpenSource
+- Developer Tools
+- Recruiting
+- Open Source
 ---

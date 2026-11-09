@@ -71,6 +71,5 @@ tags:
 - Company
 - Digital Signing
 - eIDAS
-- API
 - Compliance
 ---

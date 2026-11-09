@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Donation Platform
-- SaaS
+- Software-as-a-Service
 ---

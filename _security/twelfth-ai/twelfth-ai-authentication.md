@@ -45,6 +45,6 @@ tags:
 - Company
 - Retail
 - Commerce
-- AI
+- Artificial Intelligence
 - Workspace
 ---

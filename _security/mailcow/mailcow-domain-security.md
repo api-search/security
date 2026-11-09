@@ -33,6 +33,6 @@ tags:
 - Company
 - Email
 - Docker
-- OpenSource
-- SelfHosted
+- Open Source
+- Self-Hosted
 ---

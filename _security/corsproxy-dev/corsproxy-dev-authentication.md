@@ -49,7 +49,6 @@ tags:
 - Company
 - CORS
 - Proxy
-- API
 - Developer Tools
 - Open Source
 ---

@@ -51,9 +51,9 @@ source_yaml_url: https://artifacts.apis.io/nexbid-dev/security/nexbid-dev-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Commerce
 - Advertising
 - Switzerland
-- OpenSource
+- Open Source
 ---

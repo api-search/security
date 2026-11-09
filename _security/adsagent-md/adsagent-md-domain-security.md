@@ -41,6 +41,6 @@ tags:
 - Company
 - AdTech
 - Marketing Automation
-- AI
+- Artificial Intelligence
 - MCP
 ---

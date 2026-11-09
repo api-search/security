@@ -52,6 +52,7 @@ tags:
 - Command and Control
 - Geospatial
 - Situational Awareness
-- Authentication
+- OAuth
 - Video Streaming
+- Authentication
 ---

@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/deployit-ai/authentication/deployit-a
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - DevOps
 - Analytics
-- Dashboard
+- Dashboards
 ---

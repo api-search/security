@@ -98,7 +98,6 @@ summary_line: TLSv1.3
 tags:
 - Blockchain
 - Risk Intelligence
-- API
-- Crypto
-- On-chain Data
+- Cryptocurrency
+- On-Chain Data
 ---

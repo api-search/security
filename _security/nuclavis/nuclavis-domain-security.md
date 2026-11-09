@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Fundraising
 - Mobile
-- Nonprofit
+- Non-Profit
 - P2P
 - Messaging
 ---

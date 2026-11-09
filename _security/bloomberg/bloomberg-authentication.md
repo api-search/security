@@ -67,4 +67,5 @@ tags:
 - Trading
 - Transaction Cost Analysis
 - Financial Data
+- Terminal
 ---

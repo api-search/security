@@ -34,8 +34,8 @@ tags:
 - Open-source software
 - Spatial Knowledge Graphs
 - Geo-GraphRAG
-- Public health
-- Disaster response
+- Public Health
+- Disaster Response
 - Defense
-- Economic forecasting
+- Economic Forecasting
 ---

@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Vinyl
 - Metal Music
-- Collections
+- Collection
 - Vinyl Club
 - Bundles
 ---

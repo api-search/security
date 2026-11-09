@@ -31,8 +31,8 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Energy
-- EVCharging
-- SmartHome
-- OpenSource
-- SelfHosted
+- EV Charging
+- Smart Home
+- Open Source
+- Self-Hosted
 ---

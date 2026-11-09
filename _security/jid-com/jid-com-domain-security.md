@@ -69,7 +69,7 @@ source_yaml_url: https://artifacts.apis.io/jid-com/security/jid-com-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Trust
-- AI
+- Artificial Intelligence
 - Compliance
 - Data
 - Verification

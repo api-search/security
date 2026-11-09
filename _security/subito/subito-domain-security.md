@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Marketplace
 - Classifieds
-- E-commerce
+- E-Commerce
 - Italy
 - Recommerce
 ---

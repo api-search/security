@@ -33,7 +33,6 @@ summary_line: DMARC
 tags:
 - Company
 - Software
-- API
 - Integration
 - Enterprise
 ---

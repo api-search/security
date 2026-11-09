@@ -36,5 +36,5 @@ tags:
 - League-Management
 - Scheduling
 - Payments
-- Web-App
+- Web App
 ---

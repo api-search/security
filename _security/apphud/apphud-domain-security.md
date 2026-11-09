@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Mobile
 - Analytics
-- Subscriptions
+- Subscription
 - SDK
 - Revenue
 ---

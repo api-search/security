@@ -78,6 +78,7 @@ tags:
 - Feedback
 - NPS
 - Forms
+- OAuth
 - Authentication
 trust_url: https://trust.surveymonkey.com/
 ---

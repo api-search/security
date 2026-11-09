@@ -269,7 +269,7 @@ tags:
 - Data Integration
 - API Management
 - Fintech
-- Healthtech
+- Health Tech
 - IoT
 - Company
 ---

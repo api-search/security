@@ -33,9 +33,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Food
-- Beverage
-- CPG
+- Beverages
+- Consumer Packaged Goods
 - PLM
-- Supply-Chain
-- Quality-Management
+- Supply Chain
+- Quality Management
 ---

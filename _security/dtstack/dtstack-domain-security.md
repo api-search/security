@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/dtstack/security/dtstack-domain-secur
 summary_line: TLSv1.3
 tags:
 - Company
-- BigData
-- AI
+- Big Data
+- Artificial Intelligence
 - Cloud
 - Enterprise
 ---

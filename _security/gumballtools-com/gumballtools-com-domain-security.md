@@ -41,8 +41,7 @@ source_yaml_url: https://artifacts.apis.io/gumballtools-com/security/gumballtool
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
 - MCP
 - Tools
-- OpenSource
+- Open Source
 ---

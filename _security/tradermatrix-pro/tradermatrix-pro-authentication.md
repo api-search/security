@@ -187,7 +187,7 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Finance
 - Trading
-- MarketData
+- Market Data
 - Analytics
 - Options
 ---

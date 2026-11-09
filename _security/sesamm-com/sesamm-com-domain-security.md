@@ -36,5 +36,5 @@ tags:
 - Investment
 - Compliance
 - Supply Chain
-- AI
+- Artificial Intelligence
 ---

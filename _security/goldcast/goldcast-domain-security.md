@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Video
-- AI
+- Artificial Intelligence
 - Webinars
-- Events
+- Event
 - B2B
 ---

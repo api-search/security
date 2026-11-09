@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/newzai-ai/security/newzai-ai-domain-s
 summary_line: TLSv1.3 · HSTS
 tags:
 - News
-- AI
+- Artificial Intelligence
 - Aggregation
 - Personalization
 - Multilingual

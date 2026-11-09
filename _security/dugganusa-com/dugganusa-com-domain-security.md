@@ -38,7 +38,6 @@ source_yaml_url: https://artifacts.apis.io/dugganusa-com/security/dugganusa-com-
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- API
 - Technology
 - Services
 - USA

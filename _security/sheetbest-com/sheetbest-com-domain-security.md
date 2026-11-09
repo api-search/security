@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/sheetbest-com/security/sheetbest-com-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
-- Spreadsheet
+- Spreadsheets
 - Data Integration
 - Automation
 ---

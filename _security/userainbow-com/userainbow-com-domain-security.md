@@ -51,9 +51,9 @@ source_yaml_url: https://artifacts.apis.io/userainbow-com/security/userainbow-co
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
-- Restaurants
+- Restaurant
 - Commercial Real Estate
-- Beauty & Wellness
+- Beauty and Wellness
 - Agents
 - MGA
 ---

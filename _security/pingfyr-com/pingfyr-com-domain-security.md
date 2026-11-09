@@ -38,9 +38,8 @@ source_yaml_url: https://artifacts.apis.io/pingfyr-com/security/pingfyr-com-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
 - Scheduling
-- Notifications
-- Webhooks
-- AI
+- Notification
+- Webhook
+- Artificial Intelligence
 ---

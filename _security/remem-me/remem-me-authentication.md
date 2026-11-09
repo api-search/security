@@ -52,8 +52,8 @@ summary_line: 2 schemes
 tags:
 - Bible
 - Memory
-- Nonprofit
+- Non-Profit
 - Education
-- MobileApp
-- OpenSource
+- Mobile App
+- Open Source
 ---

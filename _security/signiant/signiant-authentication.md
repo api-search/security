@@ -42,6 +42,7 @@ tags:
 - Content Delivery
 - Storage
 - Webhook
-- Authentication
+- OAuth
 - Media and Entertainment
+- Authentication
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/farmwiselabs-com/security/farmwiselab
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company
-- AgriTech
+- AgTech
 - Robotics
 - Automation
-- AI
+- Artificial Intelligence
 ---

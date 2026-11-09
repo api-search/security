@@ -33,5 +33,4 @@ tags:
 - Oncology
 - Biotechnology
 - Healthcare
-- Venture-backed
 ---

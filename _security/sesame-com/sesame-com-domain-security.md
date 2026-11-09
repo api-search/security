@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/sesame-com/security/sesame-com-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
-- PersonalAgents
+- Artificial Intelligence
+- Personal Agents
 - Productivity
 - Privacy
 ---

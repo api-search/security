@@ -90,7 +90,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Finance
 - Data
-- AI
+- Artificial Intelligence
 - QuantitativeTools
-- DeveloperAPI
+- Developer API
 ---

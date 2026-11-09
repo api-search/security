@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Biopharma
 - Healthcare
-- ClinicalTrials
-- KidneyDisease
+- Clinical Trials
+- Kidney Disease
 - Innovation
 ---

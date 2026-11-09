@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Bookmark
-- Self-hosted
-- Open-source
+- Self-Hosted
+- Open Source
 - Docker
 ---

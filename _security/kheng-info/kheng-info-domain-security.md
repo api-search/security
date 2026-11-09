@@ -31,7 +31,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Language
-- NLP
+- Natural Language Processing
 - Khmer
 - Tool
 ---

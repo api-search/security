@@ -153,6 +153,354 @@ api_specs:
   slug: cymetica-com-withdrawals-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-withdrawals-api-openapi.yml
+- filename: cymetica-com-agent-league-api-openapi.yml
+  format: yaml
+  label: Cymetica Agent League API
+  slug: cymetica-com-agent-league-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-agent-league-api-openapi.yml
+- filename: cymetica-com-agent-returns-board-api-openapi.yml
+  format: yaml
+  label: Cymetica Agent Returns Board API
+  slug: cymetica-com-agent-returns-board-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-agent-returns-board-api-openapi.yml
+- filename: cymetica-com-agent-tournaments-api-openapi.yml
+  format: yaml
+  label: Cymetica Agent Tournaments API
+  slug: cymetica-com-agent-tournaments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-agent-tournaments-api-openapi.yml
+- filename: cymetica-com-agentbook-api-openapi.yml
+  format: yaml
+  label: Cymetica Agent Book API
+  slug: cymetica-com-agentbook-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-agentbook-api-openapi.yml
+- filename: cymetica-com-ai-agent-species-api-openapi.yml
+  format: yaml
+  label: Cymetica AI Agent Species API
+  slug: cymetica-com-ai-agent-species-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-ai-agent-species-api-openapi.yml
+- filename: cymetica-com-ai-apps-api-openapi.yml
+  format: yaml
+  label: Cymetica AI Apps API
+  slug: cymetica-com-ai-apps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-ai-apps-api-openapi.yml
+- filename: cymetica-com-ai-due-diligence-api-openapi.yml
+  format: yaml
+  label: Cymetica AI Due Diligence API
+  slug: cymetica-com-ai-due-diligence-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-ai-due-diligence-api-openapi.yml
+- filename: cymetica-com-arena-api-openapi.yml
+  format: yaml
+  label: Cymetica Arena API
+  slug: cymetica-com-arena-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-arena-api-openapi.yml
+- filename: cymetica-com-backtest-bots-api-openapi.yml
+  format: yaml
+  label: Cymetica Backtest Bots API
+  slug: cymetica-com-backtest-bots-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-backtest-bots-api-openapi.yml
+- filename: cymetica-com-backtest-clone-api-openapi.yml
+  format: yaml
+  label: Cymetica Backtest Clone API
+  slug: cymetica-com-backtest-clone-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-backtest-clone-api-openapi.yml
+- filename: cymetica-com-btc-pool-api-openapi.yml
+  format: yaml
+  label: Cymetica Btc Pool API
+  slug: cymetica-com-btc-pool-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-btc-pool-api-openapi.yml
+- filename: cymetica-com-build-a-company-api-openapi.yml
+  format: yaml
+  label: Cymetica Build a Company API
+  slug: cymetica-com-build-a-company-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-build-a-company-api-openapi.yml
+- filename: cymetica-com-build-it-better-api-openapi.yml
+  format: yaml
+  label: Cymetica Build it Better API
+  slug: cymetica-com-build-it-better-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-build-it-better-api-openapi.yml
+- filename: cymetica-com-build-stats-api-openapi.yml
+  format: yaml
+  label: Cymetica Build Stats API
+  slug: cymetica-com-build-stats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-build-stats-api-openapi.yml
+- filename: cymetica-com-card-track-api-openapi.yml
+  format: yaml
+  label: Cymetica Card Track API
+  slug: cymetica-com-card-track-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-card-track-api-openapi.yml
+- filename: cymetica-com-ceo-ai-leaderboard-api-openapi.yml
+  format: yaml
+  label: Cymetica CEO AI Leaderboard API
+  slug: cymetica-com-ceo-ai-leaderboard-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-ceo-ai-leaderboard-api-openapi.yml
+- filename: cymetica-com-chart-analyzer-api-openapi.yml
+  format: yaml
+  label: Cymetica Chart Analyzer API
+  slug: cymetica-com-chart-analyzer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-chart-analyzer-api-openapi.yml
+- filename: cymetica-com-creatorlinks-api-openapi.yml
+  format: yaml
+  label: Cymetica Creator Links API
+  slug: cymetica-com-creatorlinks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-creatorlinks-api-openapi.yml
+- filename: cymetica-com-crypto-dashboards-api-openapi.yml
+  format: yaml
+  label: Cymetica Crypto Dashboards API
+  slug: cymetica-com-crypto-dashboards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-crypto-dashboards-api-openapi.yml
+- filename: cymetica-com-decide-api-openapi.yml
+  format: yaml
+  label: Cymetica Decide API
+  slug: cymetica-com-decide-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-decide-api-openapi.yml
+- filename: cymetica-com-degen-prompts-api-openapi.yml
+  format: yaml
+  label: Cymetica Degen prompts API
+  slug: cymetica-com-degen-prompts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-degen-prompts-api-openapi.yml
+- filename: cymetica-com-dna-sequence-similarity-api-openapi.yml
+  format: yaml
+  label: Cymetica DNA sequence similarity API
+  slug: cymetica-com-dna-sequence-similarity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-dna-sequence-similarity-api-openapi.yml
+- filename: cymetica-com-economic-calendar-api-openapi.yml
+  format: yaml
+  label: Cymetica Economic Calendar API
+  slug: cymetica-com-economic-calendar-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-economic-calendar-api-openapi.yml
+- filename: cymetica-com-feature-agent-threads-api-openapi.yml
+  format: yaml
+  label: Cymetica Feature agent threads API
+  slug: cymetica-com-feature-agent-threads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-feature-agent-threads-api-openapi.yml
+- filename: cymetica-com-features-api-openapi.yml
+  format: yaml
+  label: Cymetica Features API
+  slug: cymetica-com-features-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-features-api-openapi.yml
+- filename: cymetica-com-ftafund-api-openapi.yml
+  format: yaml
+  label: Cymetica FTA Fund API
+  slug: cymetica-com-ftafund-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-ftafund-api-openapi.yml
+- filename: cymetica-com-gem-screener-api-openapi.yml
+  format: yaml
+  label: Cymetica Gem Screener API
+  slug: cymetica-com-gem-screener-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-gem-screener-api-openapi.yml
+- filename: cymetica-com-head-to-head-api-openapi.yml
+  format: yaml
+  label: Cymetica Head To Head API
+  slug: cymetica-com-head-to-head-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-head-to-head-api-openapi.yml
+- filename: cymetica-com-headlines-api-api-openapi.yml
+  format: yaml
+  label: Cymetica Headlines API
+  slug: cymetica-com-headlines-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-headlines-api-api-openapi.yml
+- filename: cymetica-com-headlines-api-openapi.yml
+  format: yaml
+  label: Cymetica Headlines API
+  slug: cymetica-com-headlines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-headlines-api-openapi.yml
+- filename: cymetica-com-irc-newsfeed-api-openapi.yml
+  format: yaml
+  label: Cymetica Irc Newsfeed API
+  slug: cymetica-com-irc-newsfeed-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-irc-newsfeed-api-openapi.yml
+- filename: cymetica-com-marketplace-api-openapi.yml
+  format: yaml
+  label: Cymetica Marketplace API
+  slug: cymetica-com-marketplace-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-marketplace-api-openapi.yml
+- filename: cymetica-com-marr-api-openapi.yml
+  format: yaml
+  label: Cymetica MARR API
+  slug: cymetica-com-marr-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-marr-api-openapi.yml
+- filename: cymetica-com-microfunds-api-openapi.yml
+  format: yaml
+  label: Cymetica Microfunds API
+  slug: cymetica-com-microfunds-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-microfunds-api-openapi.yml
+- filename: cymetica-com-mobile-apps-api-openapi.yml
+  format: yaml
+  label: Cymetica Mobile Apps API
+  slug: cymetica-com-mobile-apps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-mobile-apps-api-openapi.yml
+- filename: cymetica-com-nexus-deep-api-openapi.yml
+  format: yaml
+  label: Cymetica Nexus Deep API
+  slug: cymetica-com-nexus-deep-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-nexus-deep-api-openapi.yml
+- filename: cymetica-com-nexus-subscription-api-openapi.yml
+  format: yaml
+  label: Cymetica Nexus Subscription API
+  slug: cymetica-com-nexus-subscription-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-nexus-subscription-api-openapi.yml
+- filename: cymetica-com-ontology-api-openapi.yml
+  format: yaml
+  label: Cymetica Ontology API
+  slug: cymetica-com-ontology-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-ontology-api-openapi.yml
+- filename: cymetica-com-passive-income-api-openapi.yml
+  format: yaml
+  label: Cymetica Passive Income API
+  slug: cymetica-com-passive-income-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-passive-income-api-openapi.yml
+- filename: cymetica-com-perpetual-binary-agents-api-openapi.yml
+  format: yaml
+  label: Cymetica Perpetual Binary Agents API
+  slug: cymetica-com-perpetual-binary-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-perpetual-binary-agents-api-openapi.yml
+- filename: cymetica-com-perpetual-binary-markets-api-openapi.yml
+  format: yaml
+  label: Cymetica Perpetual Binary Markets API
+  slug: cymetica-com-perpetual-binary-markets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-perpetual-binary-markets-api-openapi.yml
+- filename: cymetica-com-personal-trading-station-api-openapi.yml
+  format: yaml
+  label: Cymetica Personal Trading Station API
+  slug: cymetica-com-personal-trading-station-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-personal-trading-station-api-openapi.yml
+- filename: cymetica-com-prediction-pools-api-openapi.yml
+  format: yaml
+  label: Cymetica Prediction Pools API
+  slug: cymetica-com-prediction-pools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-prediction-pools-api-openapi.yml
+- filename: cymetica-com-premium-chat-api-openapi.yml
+  format: yaml
+  label: Cymetica Premium Chat API
+  slug: cymetica-com-premium-chat-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-premium-chat-api-openapi.yml
+- filename: cymetica-com-prices-api-openapi.yml
+  format: yaml
+  label: Cymetica Prices API
+  slug: cymetica-com-prices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-prices-api-openapi.yml
+- filename: cymetica-com-products-stream-api-openapi.yml
+  format: yaml
+  label: Cymetica Products Stream API
+  slug: cymetica-com-products-stream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-products-stream-api-openapi.yml
+- filename: cymetica-com-prop-desk-api-openapi.yml
+  format: yaml
+  label: Cymetica Prop Desk API
+  slug: cymetica-com-prop-desk-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-prop-desk-api-openapi.yml
+- filename: cymetica-com-rewards-api-openapi.yml
+  format: yaml
+  label: Cymetica Rewards API
+  slug: cymetica-com-rewards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-rewards-api-openapi.yml
+- filename: cymetica-com-saved-backtests-api-openapi.yml
+  format: yaml
+  label: Cymetica Saved Backtests API
+  slug: cymetica-com-saved-backtests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-saved-backtests-api-openapi.yml
+- filename: cymetica-com-skills-api-openapi.yml
+  format: yaml
+  label: Cymetica Skills API
+  slug: cymetica-com-skills-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-skills-api-openapi.yml
+- filename: cymetica-com-supply-analyzer-api-openapi.yml
+  format: yaml
+  label: Cymetica Supply Analyzer API
+  slug: cymetica-com-supply-analyzer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-supply-analyzer-api-openapi.yml
+- filename: cymetica-com-team-dump-radar-api-openapi.yml
+  format: yaml
+  label: Cymetica Team Dump Radar API
+  slug: cymetica-com-team-dump-radar-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-team-dump-radar-api-openapi.yml
+- filename: cymetica-com-token-info-api-openapi.yml
+  format: yaml
+  label: Cymetica Token Info API
+  slug: cymetica-com-token-info-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-token-info-api-openapi.yml
+- filename: cymetica-com-trading-bot-olympics-api-openapi.yml
+  format: yaml
+  label: Cymetica Trading Bot Olympics API
+  slug: cymetica-com-trading-bot-olympics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-trading-bot-olympics-api-openapi.yml
+- filename: cymetica-com-trading-models-api-openapi.yml
+  format: yaml
+  label: Cymetica Trading Models API
+  slug: cymetica-com-trading-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-trading-models-api-openapi.yml
+- filename: cymetica-com-vaults-api-openapi.yml
+  format: yaml
+  label: Cymetica Vaults API
+  slug: cymetica-com-vaults-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-vaults-api-openapi.yml
+- filename: cymetica-com-weekly-signal-api-openapi.yml
+  format: yaml
+  label: Cymetica Weekly Signal API
+  slug: cymetica-com-weekly-signal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-weekly-signal-api-openapi.yml
+- filename: cymetica-com-what-s-new-api-openapi.yml
+  format: yaml
+  label: Cymetica What's new API
+  slug: cymetica-com-what-s-new-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cymetica-com/openapi/cymetica-com-what-s-new-api-openapi.yml
 auth_types:
 - apiKey
 - http

@@ -41,4 +41,5 @@ tags:
 - Commercial Insurance
 - Underwriting
 - Renewable Energy
+- Technology
 ---

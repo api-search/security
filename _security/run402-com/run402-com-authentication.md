@@ -288,9 +288,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/run402-com/authentication/run402-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Infrastructure
 - Backend
-- Open-source
+- Open Source
 - Agents
 ---

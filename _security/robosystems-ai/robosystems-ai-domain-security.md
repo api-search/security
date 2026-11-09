@@ -296,8 +296,7 @@ source_yaml_url: https://artifacts.apis.io/robosystems-ai/security/robosystems-a
 summary_line: TLSv1.3 · HSTS
 tags:
 - Finance
-- AI
-- KnowledgeGraph
-- OpenSource
-- API
+- Artificial Intelligence
+- Knowledge Graph
+- Open Source
 ---

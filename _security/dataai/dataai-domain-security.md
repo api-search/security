@@ -38,4 +38,6 @@ tags:
 - Market Data
 - Business Intelligence
 - App Analytics
+- Market Intelligence
+- Data
 ---

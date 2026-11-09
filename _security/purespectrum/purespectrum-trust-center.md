@@ -21,7 +21,6 @@ tags:
 - Company
 - Research
 - Data
-- API
-- Market-Research
+- Market Research
 trust_url: https://trust.purespectrum.com/
 ---

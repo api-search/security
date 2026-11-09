@@ -79,7 +79,8 @@ tags:
 - Health IT
 - ONC Certified
 - USCDI
-- Authentication
+- OAuth
 - Telehealth
 - Health Information Exchange
+- Authentication
 ---

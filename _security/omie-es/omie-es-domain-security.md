@@ -30,7 +30,7 @@ tags:
 - Company
 - Energy
 - Electricity
-- Market
+- Markets
 - Spain
 - Portugal
 ---

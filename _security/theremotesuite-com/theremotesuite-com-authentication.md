@@ -34,9 +34,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://www.the
 source_yaml_url: https://artifacts.apis.io/theremotesuite-com/authentication/theremotesuite-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- employee-recognition
-- remote-work
-- team-engagement
-- culture
-- SaaS
+- Employee Recognition
+- Remote Work
+- Team Engagement
+- Culture
+- Software-as-a-Service
 ---

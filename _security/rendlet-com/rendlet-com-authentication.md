@@ -63,9 +63,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - PDF
-- API
-- DocumentGeneration
-- SaaS
-- DeveloperFriendly
-- AI
+- Document Generation
+- Software-as-a-Service
+- Artificial Intelligence
 ---

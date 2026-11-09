@@ -176,9 +176,9 @@ source_yaml_url: https://artifacts.apis.io/terradue-srl/security/terradue-srl-do
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- EarthScience
-- OpenSource
+- Earth Science
+- Open Source
 - Cloud
-- DataProcessing
+- Data Processing
 - Collaboration
 ---

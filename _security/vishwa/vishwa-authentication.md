@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/vishwa/authentication/vishwa-authenti
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 - Underwriting
 - Credit
 ---

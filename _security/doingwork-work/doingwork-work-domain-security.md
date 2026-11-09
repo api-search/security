@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/doingwork-work/security/doingwork-wor
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Field Service
+- Field Service Management
 - Invoicing
-- API
 - Mobile
 ---

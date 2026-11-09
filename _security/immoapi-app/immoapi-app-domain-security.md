@@ -40,7 +40,6 @@ tags:
 - Real Estate
 - France
 - Data
-- API
 - Open Data
 - Property
 ---

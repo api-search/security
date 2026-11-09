@@ -87,9 +87,9 @@ source_yaml_url: https://artifacts.apis.io/finedata-ai/authentication/finedata-a
 summary_line: 2 schemes
 tags:
 - Company
-- AI
-- WebScraping
-- DataExtraction
+- Artificial Intelligence
+- Web Scraping
+- Data Extraction
 - MCP
 - LLM
 ---

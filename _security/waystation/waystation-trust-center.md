@@ -19,9 +19,9 @@ source_yaml_url: https://artifacts.apis.io/waystation/security/waystation-trust-
 summary_line: SOC 2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Sourcing
-- CPG
+- Consumer Packaged Goods
 - Procurement
 trust_url: https://www.waystationai.com/security/
 ---

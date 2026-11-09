@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/moltbook/security/moltbook-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- SocialNetwork
+- Artificial Intelligence
+- Social Network
 - Community
 - Agents
 ---

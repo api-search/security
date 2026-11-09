@@ -44,7 +44,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Email Verification
-- API
-- Real-time
+- Real-Time
 - Developer Tools
 ---

@@ -34,5 +34,5 @@ tags:
 - Agriculture
 - Hail
 - Crop
-- United-States
+- United States
 ---

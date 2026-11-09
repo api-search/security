@@ -361,7 +361,7 @@ tags:
 - Exhibitors
 - Hybrid Events
 - MCP
-- Authentication
+- OAuth
 - OnSite
 - OpenAPI
 - Overlays
@@ -375,5 +375,6 @@ tags:
 - Virtual Events
 - Webcasts
 - Webhook
+- Authentication
 trust_url: https://trust.cvent.com/
 ---

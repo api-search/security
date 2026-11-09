@@ -65,9 +65,8 @@ source_yaml_url: https://artifacts.apis.io/concentrate/authentication/concentrat
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - LLM
-- Gateway
+- Gateways
 - Platform
-- API
 ---

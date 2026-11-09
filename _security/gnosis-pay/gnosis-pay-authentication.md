@@ -104,7 +104,6 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Payments
-- Crypto
-- Stablecoin
-- API
+- Cryptocurrency
+- Stablecoins
 ---

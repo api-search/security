@@ -36,6 +36,5 @@ tags:
 - Low-Code Development
 - PLM Software
 - Cloud Platform
-- AI-Ready
 - Industry Solutions
 ---

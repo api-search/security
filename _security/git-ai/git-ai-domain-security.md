@@ -36,9 +36,9 @@ source_yaml_url: https://artifacts.apis.io/git-ai/security/git-ai-domain-securit
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
-- Git
+- Artificial Intelligence
+- Version Control
 - DevOps
-- CodeReview
+- Code Review
 - Automation
 ---

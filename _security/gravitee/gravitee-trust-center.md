@@ -270,6 +270,426 @@ api_specs:
   slug: gravitee-apis-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gravitee/openapi/gravitee-apis-api-openapi.yml
+- filename: gravitee-api-alerts-api-openapi.yml
+  format: yaml
+  label: Gravitee API Alerts API
+  slug: gravitee-api-alerts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-alerts-api-openapi.yml
+- filename: gravitee-api-analytics-api-openapi.yml
+  format: yaml
+  label: Gravitee API Analytics API
+  slug: gravitee-api-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-analytics-api-openapi.yml
+- filename: gravitee-api-audits-api-openapi.yml
+  format: yaml
+  label: Gravitee API Audits API
+  slug: gravitee-api-audits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-audits-api-openapi.yml
+- filename: gravitee-api-definition-api-openapi.yml
+  format: yaml
+  label: Gravitee API Definition API
+  slug: gravitee-api-definition-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-definition-api-openapi.yml
+- filename: gravitee-api-events-api-openapi.yml
+  format: yaml
+  label: Gravitee API Events API
+  slug: gravitee-api-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-events-api-openapi.yml
+- filename: gravitee-api-health-api-openapi.yml
+  format: yaml
+  label: Gravitee API Health API
+  slug: gravitee-api-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-health-api-openapi.yml
+- filename: gravitee-api-keys-api-openapi.yml
+  format: yaml
+  label: Gravitee API Keys API
+  slug: gravitee-api-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-keys-api-openapi.yml
+- filename: gravitee-api-logs-api-openapi.yml
+  format: yaml
+  label: Gravitee API Logs API
+  slug: gravitee-api-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-logs-api-openapi.yml
+- filename: gravitee-api-media-api-openapi.yml
+  format: yaml
+  label: Gravitee API Media API
+  slug: gravitee-api-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-media-api-openapi.yml
+- filename: gravitee-api-memberships-api-openapi.yml
+  format: yaml
+  label: Gravitee API Memberships API
+  slug: gravitee-api-memberships-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-memberships-api-openapi.yml
+- filename: gravitee-api-metadata-api-openapi.yml
+  format: yaml
+  label: Gravitee API Metadata API
+  slug: gravitee-api-metadata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-metadata-api-openapi.yml
+- filename: gravitee-api-notifications-api-openapi.yml
+  format: yaml
+  label: Gravitee API Notifications API
+  slug: gravitee-api-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-notifications-api-openapi.yml
+- filename: gravitee-api-pages-api-openapi.yml
+  format: yaml
+  label: Gravitee API Pages API
+  slug: gravitee-api-pages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-pages-api-openapi.yml
+- filename: gravitee-api-plans-api-openapi.yml
+  format: yaml
+  label: Gravitee API Plans API
+  slug: gravitee-api-plans-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-plans-api-openapi.yml
+- filename: gravitee-api-quality-api-openapi.yml
+  format: yaml
+  label: Gravitee API Quality API
+  slug: gravitee-api-quality-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-quality-api-openapi.yml
+- filename: gravitee-api-ratings-api-openapi.yml
+  format: yaml
+  label: Gravitee API Ratings API
+  slug: gravitee-api-ratings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-ratings-api-openapi.yml
+- filename: gravitee-api-subscriptions-api-openapi.yml
+  format: yaml
+  label: Gravitee API Subscriptions API
+  slug: gravitee-api-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-api-subscriptions-api-openapi.yml
+- filename: gravitee-application-alerts-api-openapi.yml
+  format: yaml
+  label: Gravitee Application Alerts API
+  slug: gravitee-application-alerts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-application-alerts-api-openapi.yml
+- filename: gravitee-application-analytics-api-openapi.yml
+  format: yaml
+  label: Gravitee Application Analytics API
+  slug: gravitee-application-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-application-analytics-api-openapi.yml
+- filename: gravitee-application-logs-api-openapi.yml
+  format: yaml
+  label: Gravitee Application Logs API
+  slug: gravitee-application-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-application-logs-api-openapi.yml
+- filename: gravitee-application-memberships-api-openapi.yml
+  format: yaml
+  label: Gravitee Application Memberships API
+  slug: gravitee-application-memberships-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-application-memberships-api-openapi.yml
+- filename: gravitee-application-metadata-api-openapi.yml
+  format: yaml
+  label: Gravitee Application Metadata API
+  slug: gravitee-application-metadata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-application-metadata-api-openapi.yml
+- filename: gravitee-application-notifications-api-openapi.yml
+  format: yaml
+  label: Gravitee Application Notifications API
+  slug: gravitee-application-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-application-notifications-api-openapi.yml
+- filename: gravitee-application-subscriptions-api-openapi.yml
+  format: yaml
+  label: Gravitee Application Subscriptions API
+  slug: gravitee-application-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-application-subscriptions-api-openapi.yml
+- filename: gravitee-auth-api-openapi.yml
+  format: yaml
+  label: Gravitee Auth API
+  slug: gravitee-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-auth-api-openapi.yml
+- filename: gravitee-authentication-api-openapi.yml
+  format: yaml
+  label: Gravitee Authentication API
+  slug: gravitee-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-authentication-api-openapi.yml
+- filename: gravitee-categories-api-openapi.yml
+  format: yaml
+  label: Gravitee Categories API
+  slug: gravitee-categories-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-categories-api-openapi.yml
+- filename: gravitee-client-registration-providers-api-openapi.yml
+  format: yaml
+  label: Gravitee Client Registration Providers API
+  slug: gravitee-client-registration-providers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-client-registration-providers-api-openapi.yml
+- filename: gravitee-configuration-api-openapi.yml
+  format: yaml
+  label: Gravitee Configuration API
+  slug: gravitee-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-configuration-api-openapi.yml
+- filename: gravitee-console-api-openapi.yml
+  format: yaml
+  label: Gravitee Console API
+  slug: gravitee-console-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-console-api-openapi.yml
+- filename: gravitee-current-user-api-openapi.yml
+  format: yaml
+  label: Gravitee Current User API
+  slug: gravitee-current-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-current-user-api-openapi.yml
+- filename: gravitee-custom-user-fields-api-openapi.yml
+  format: yaml
+  label: Gravitee Custom User Fields API
+  slug: gravitee-custom-user-fields-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-custom-user-fields-api-openapi.yml
+- filename: gravitee-dashboards-api-openapi.yml
+  format: yaml
+  label: Gravitee Dashboards API
+  slug: gravitee-dashboards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-dashboards-api-openapi.yml
+- filename: gravitee-environment-analytics-api-openapi.yml
+  format: yaml
+  label: Gravitee Environment Analytics API
+  slug: gravitee-environment-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-environment-analytics-api-openapi.yml
+- filename: gravitee-environment-api-openapi.yml
+  format: yaml
+  label: Gravitee Environment API
+  slug: gravitee-environment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-environment-api-openapi.yml
+- filename: gravitee-flows-api-openapi.yml
+  format: yaml
+  label: Gravitee Flows API
+  slug: gravitee-flows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-flows-api-openapi.yml
+- filename: gravitee-gateway-api-openapi.yml
+  format: yaml
+  label: Gravitee Gateway API
+  slug: gravitee-gateway-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-gateway-api-openapi.yml
+- filename: gravitee-group-invitations-api-openapi.yml
+  format: yaml
+  label: Gravitee Group Invitations API
+  slug: gravitee-group-invitations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-group-invitations-api-openapi.yml
+- filename: gravitee-group-memberships-api-openapi.yml
+  format: yaml
+  label: Gravitee Group Memberships API
+  slug: gravitee-group-memberships-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-group-memberships-api-openapi.yml
+- filename: gravitee-groups-api-openapi.yml
+  format: yaml
+  label: Gravitee Groups API
+  slug: gravitee-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-groups-api-openapi.yml
+- filename: gravitee-messages-api-openapi.yml
+  format: yaml
+  label: Gravitee Messages API
+  slug: gravitee-messages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-messages-api-openapi.yml
+- filename: gravitee-metadata-api-openapi.yml
+  format: yaml
+  label: Gravitee Metadata API
+  slug: gravitee-metadata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-metadata-api-openapi.yml
+- filename: gravitee-notifications-api-openapi.yml
+  format: yaml
+  label: Gravitee Notifications API
+  slug: gravitee-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-notifications-api-openapi.yml
+- filename: gravitee-organization-api-openapi.yml
+  format: yaml
+  label: Gravitee Organization API
+  slug: gravitee-organization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-organization-api-openapi.yml
+- filename: gravitee-organization-groups-api-openapi.yml
+  format: yaml
+  label: Gravitee Organization Groups API
+  slug: gravitee-organization-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-organization-groups-api-openapi.yml
+- filename: gravitee-platform-alerts-api-openapi.yml
+  format: yaml
+  label: Gravitee Platform Alerts API
+  slug: gravitee-platform-alerts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-platform-alerts-api-openapi.yml
+- filename: gravitee-platform-analytics-api-openapi.yml
+  format: yaml
+  label: Gravitee Platform Analytics API
+  slug: gravitee-platform-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-platform-analytics-api-openapi.yml
+- filename: gravitee-platform-events-api-openapi.yml
+  format: yaml
+  label: Gravitee Platform Events API
+  slug: gravitee-platform-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-platform-events-api-openapi.yml
+- filename: gravitee-platform-logs-api-openapi.yml
+  format: yaml
+  label: Gravitee Platform Logs API
+  slug: gravitee-platform-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-platform-logs-api-openapi.yml
+- filename: gravitee-platform-tickets-api-openapi.yml
+  format: yaml
+  label: Gravitee Platform Tickets API
+  slug: gravitee-platform-tickets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-platform-tickets-api-openapi.yml
+- filename: gravitee-portal-api-openapi.yml
+  format: yaml
+  label: Gravitee Portal API
+  slug: gravitee-portal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-portal-api-openapi.yml
+- filename: gravitee-portal-apis-api-openapi.yml
+  format: yaml
+  label: Gravitee Portal APIs API
+  slug: gravitee-portal-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-portal-apis-api-openapi.yml
+- filename: gravitee-portal-entrypoints-api-openapi.yml
+  format: yaml
+  label: Gravitee Portal entrypoints API
+  slug: gravitee-portal-entrypoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-portal-entrypoints-api-openapi.yml
+- filename: gravitee-portal-media-api-openapi.yml
+  format: yaml
+  label: Gravitee Portal Media API
+  slug: gravitee-portal-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-portal-media-api-openapi.yml
+- filename: gravitee-portal-notifications-api-openapi.yml
+  format: yaml
+  label: Gravitee Portal Notifications API
+  slug: gravitee-portal-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-portal-notifications-api-openapi.yml
+- filename: gravitee-portal-pages-api-openapi.yml
+  format: yaml
+  label: Gravitee Portal Pages API
+  slug: gravitee-portal-pages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-portal-pages-api-openapi.yml
+- filename: gravitee-promotion-api-openapi.yml
+  format: yaml
+  label: Gravitee Promotion API
+  slug: gravitee-promotion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-promotion-api-openapi.yml
+- filename: gravitee-promotions-api-openapi.yml
+  format: yaml
+  label: Gravitee Promotions API
+  slug: gravitee-promotions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-promotions-api-openapi.yml
+- filename: gravitee-roles-api-openapi.yml
+  format: yaml
+  label: Gravitee Roles API
+  slug: gravitee-roles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-roles-api-openapi.yml
+- filename: gravitee-settings-api-openapi.yml
+  format: yaml
+  label: Gravitee Settings API
+  slug: gravitee-settings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-settings-api-openapi.yml
+- filename: gravitee-subscription-api-openapi.yml
+  format: yaml
+  label: Gravitee Subscription API
+  slug: gravitee-subscription-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-subscription-api-openapi.yml
+- filename: gravitee-tenants-api-openapi.yml
+  format: yaml
+  label: Gravitee Tenants API
+  slug: gravitee-tenants-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-tenants-api-openapi.yml
+- filename: gravitee-themes-api-openapi.yml
+  format: yaml
+  label: Gravitee Themes API
+  slug: gravitee-themes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-themes-api-openapi.yml
+- filename: gravitee-top-apis-api-openapi.yml
+  format: yaml
+  label: Gravitee Top APIs API
+  slug: gravitee-top-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-top-apis-api-openapi.yml
+- filename: gravitee-user-registration-api-openapi.yml
+  format: yaml
+  label: Gravitee User Registration API
+  slug: gravitee-user-registration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-user-registration-api-openapi.yml
+- filename: gravitee-user-tokens-api-openapi.yml
+  format: yaml
+  label: Gravitee User Tokens API
+  slug: gravitee-user-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-user-tokens-api-openapi.yml
+- filename: gravitee-v4-api-plans-api-openapi.yml
+  format: yaml
+  label: Gravitee 🧪 V4 - API Plans API
+  slug: gravitee-v4-api-plans-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-v4-api-plans-api-openapi.yml
+- filename: gravitee-v4-apis-api-openapi.yml
+  format: yaml
+  label: Gravitee 🧪 V4 - APIs API
+  slug: gravitee-v4-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-v4-apis-api-openapi.yml
+- filename: gravitee-v4-endpoints-api-openapi.yml
+  format: yaml
+  label: Gravitee 🧪 V4 - Endpoints API
+  slug: gravitee-v4-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-v4-endpoints-api-openapi.yml
+- filename: gravitee-v4-entrypoints-api-openapi.yml
+  format: yaml
+  label: Gravitee 🧪 V4 - Entrypoints API
+  slug: gravitee-v4-entrypoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gravitee/openapi/gravitee-v4-entrypoints-api-openapi.yml
 - filename: gravitee-entry-points-api-openapi.yml
   format: yaml
   label: Gravitee Entry Points API

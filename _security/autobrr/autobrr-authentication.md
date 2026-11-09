@@ -187,7 +187,7 @@ summary_line: 2 schemes
 tags:
 - Torrent
 - Automation
-- Open-Source
+- Open Source
 - Self-Hosted
 - Media
 ---

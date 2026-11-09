@@ -34,6 +34,6 @@ tags:
 - Community
 - Training
 - Data
-- Events
+- Event
 - Membership
 ---

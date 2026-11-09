@@ -187,9 +187,9 @@ source_yaml_url: https://artifacts.apis.io/inite-ai/authentication/inite-ai-auth
 summary_line: http/openIdConnect · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- SaaS
-- Workflow
+- Software-as-a-Service
+- Workflows
 - Mid-size
 ---

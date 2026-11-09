@@ -294,6 +294,7 @@ tags:
 - Authentication
 - Authorization
 - Identity Governance
+- OAuth
 - OpenID Connect
 - Identity Federation
 ---

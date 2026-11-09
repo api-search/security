@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/yourls/security/yourls-domain-securit
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- URL-Shortener
-- Open-Source
+- URL Shorteners
+- Open Source
 - PHP
 - Self-Hosted
 ---

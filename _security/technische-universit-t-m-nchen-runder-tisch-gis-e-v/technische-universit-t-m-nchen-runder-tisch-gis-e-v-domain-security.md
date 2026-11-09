@@ -34,7 +34,7 @@ tags:
 - GIS
 - Education
 - Research
-- Open-Source
+- Open Source
 - Community
 - Company
 ---

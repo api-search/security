@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Enterprise Readiness
 - Defense
-- AI
+- Artificial Intelligence
 - Supply Chain
 - Maintenance
 - Logistics

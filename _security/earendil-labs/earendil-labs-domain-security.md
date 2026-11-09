@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/earendil-labs/security/earendil-labs-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Biotechnology
-- AI
+- Artificial Intelligence
 - Drug Discovery
 - Protein Therapeutics
 - Company

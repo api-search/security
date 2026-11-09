@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/fintual/security/fintual-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Investment
 - Chile
 - Robo-Advisor

@@ -35,8 +35,7 @@ source_yaml_url: https://artifacts.apis.io/fidro-io/authentication/fidro-io-auth
 summary_line: 1 scheme
 tags:
 - Company
-- FraudDetection
-- API
-- RiskAnalysis
+- Fraud Prevention
+- Risk Analysis
 - Payments
 ---

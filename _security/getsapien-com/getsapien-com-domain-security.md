@@ -30,9 +30,8 @@ source_yaml_url: https://artifacts.apis.io/getsapien-com/security/getsapien-com-
 summary_line: TLSv1.3
 tags:
 - Finance
-- Operations
 - Analytics
-- AI
+- Artificial Intelligence
 - Manufacturing
 - Retail
 - Healthcare

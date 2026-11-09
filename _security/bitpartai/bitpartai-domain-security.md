@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/bitpartai/security/bitpartai-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Virtual Worlds
 - Game Development
 - Simulation

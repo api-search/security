@@ -31,8 +31,8 @@ summary_line: 0 schemes
 tags:
 - Company
 - VRM
-- VendorRiskManagement
-- SaaS
+- Third-Party Risk Management
+- Software-as-a-Service
 - Healthcare
 - Finance
 ---

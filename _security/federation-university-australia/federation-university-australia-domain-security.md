@@ -34,7 +34,7 @@ tags:
 - Education
 - University
 - Australia
-- HigherEducation
+- Higher Education
 - CooperativeEducation
 - Company
 ---

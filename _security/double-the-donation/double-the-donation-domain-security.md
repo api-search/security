@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/double-the-donation/security/double-t
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Matching Gifts
-- SaaS
+- Software-as-a-Service
 ---

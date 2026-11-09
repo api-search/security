@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/carbikly-com/authentication/carbikly-
 summary_line: 0 schemes
 tags:
 - Car Tax
-- UK
+- United Kingdom
 - Finance
 - Calculator
 - Automotive

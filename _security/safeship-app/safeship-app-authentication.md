@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - API Monitoring
 - AI Integration
-- SaaS
+- Software-as-a-Service
 - Alerts
 - Developer Tools
 ---

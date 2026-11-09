@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/star-micronics/security/star-micronic
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- POS
+- Point-of-Sale
 - Hardware
 - Printing
 - Cloud

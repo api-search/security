@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/x5-labs/security/x5-labs-domain-secur
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance
 - Enterprise
 - Automation

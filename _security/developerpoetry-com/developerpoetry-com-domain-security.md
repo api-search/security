@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/developerpoetry-com/security/develope
 summary_line: TLSv1.3 · HSTS
 tags:
 - Poetry
-- Developer
-- AI
+- Developers
+- Artificial Intelligence
 - Community
 - Platform
 ---

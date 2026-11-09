@@ -35,5 +35,5 @@ tags:
 - Accessories
 - Gifts
 - Corporate Gifting
-- White‑Label
+- White Label
 ---

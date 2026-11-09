@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://qzm.550
 source_yaml_url: https://artifacts.apis.io/550wai-cn/authentication/550wai-cn-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
-- VideoProcessing
-- ImageProcessing
-- WatermarkRemoval
+- Artificial Intelligence
+- Video Processing
+- Image Processing
+- Watermark Removal
 - SubtitleRemoval
 ---

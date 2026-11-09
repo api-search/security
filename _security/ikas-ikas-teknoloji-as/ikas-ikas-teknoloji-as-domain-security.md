@@ -56,7 +56,8 @@ tags:
 - Inventory
 - GraphQL
 - Webhook
-- Authentication
+- OAuth
 - SDK
 - MCP
+- Authentication
 ---

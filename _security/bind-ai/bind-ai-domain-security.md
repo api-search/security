@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- AI
+- Artificial Intelligence
 - Brokerage
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

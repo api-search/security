@@ -32,6 +32,4 @@ tags:
 - Company
 - Technology
 - Placeholder
-- Unknown
-- Stub
 ---

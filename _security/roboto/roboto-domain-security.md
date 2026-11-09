@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Robotics
-- AI
+- Artificial Intelligence
 - Analytics
 - Platform
 ---

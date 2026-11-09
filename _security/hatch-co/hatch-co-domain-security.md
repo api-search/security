@@ -31,10 +31,10 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/hatch-co/security/hatch-co-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- sleep
-- health
-- smart-home
-- iot
-- family
-- wellness
+- Sleep
+- Health
+- Smart Home
+- IoT
+- Family
+- Wellness
 ---

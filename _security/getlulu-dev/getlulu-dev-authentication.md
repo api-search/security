@@ -108,7 +108,7 @@ summary_line: 1 scheme
 tags:
 - Advertising
 - Monetization
-- AI
+- Artificial Intelligence
 - MCP
-- SaaS
+- Software-as-a-Service
 ---

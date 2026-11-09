@@ -147,10 +147,9 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Social Media
-- API
 - AI Agents
 - MCP
-- SaaS
+- Software-as-a-Service
 - Automation
 - Publishing
 ---

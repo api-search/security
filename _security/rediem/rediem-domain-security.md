@@ -35,5 +35,5 @@ tags:
 - Loyalty
 - Community
 - Marketing
-- No-code
+- No-Code
 ---

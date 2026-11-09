@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/sendjim/security/sendjim-domain-secur
 summary_line: TLSv1.3 · DMARC
 tags:
 - Marketing
-- DirectMail
-- HomeServices
+- Direct Mail
+- Home Services
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

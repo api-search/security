@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/ringahuman-com/security/ringahuman-co
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Telephony
-- LeadGeneration
+- Lead Generation
 - Compliance
 ---

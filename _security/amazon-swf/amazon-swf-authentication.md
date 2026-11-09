@@ -46,6 +46,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-swf/authentication/amazon-swf-
 summary_line: apiKey · 1 scheme
 tags:
 - Automation
+- Amazon Web Services
 - Task Coordination
 - Workflows
 ---

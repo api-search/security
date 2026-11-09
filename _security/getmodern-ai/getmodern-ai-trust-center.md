@@ -20,9 +20,9 @@ source_yaml_url: https://artifacts.apis.io/getmodern-ai/security/getmodern-ai-tr
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Finance
 - Automation
-- AccountsReceivable
+- Accounts Receivable
 trust_url: https://getmodern.ai/security
 ---

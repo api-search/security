@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/prowl/security/prowl-domain-security.
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- PushNotifications
+- Push Notifications
 - iOS
-- API
 - Mobile
 ---

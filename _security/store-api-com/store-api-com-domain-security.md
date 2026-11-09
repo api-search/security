@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/store-api-com/security/store-api-com-
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- AI
-- Machine-Learning
+- Artificial Intelligence
+- Machine Learning
 - OpenAI
 - Claude
 - Gemini

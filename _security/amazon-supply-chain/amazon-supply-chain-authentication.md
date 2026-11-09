@@ -81,6 +81,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-s
 source_yaml_url: https://artifacts.apis.io/amazon-supply-chain/authentication/amazon-supply-chain-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - ERP Integration
 - Logistics
 - Machine Learning

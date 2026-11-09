@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/heliosintel-ai/security/heliosintel-a
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Sovereign
 - Government
 - Policy

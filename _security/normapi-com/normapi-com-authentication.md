@@ -43,7 +43,7 @@ source_yaml_url: https://artifacts.apis.io/normapi-com/authentication/normapi-co
 summary_line: http · 1 scheme
 tags:
 - Company
-- e-invoicing
+- E-Invoicing
 - XRechnung
 - ZUGFeRD
 - Germany

@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Cross-Border
 - RBI-Authorized
 ---

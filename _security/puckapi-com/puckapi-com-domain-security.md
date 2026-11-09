@@ -70,6 +70,5 @@ tags:
 - Sports
 - Hockey
 - Data
-- API
 - Statistics
 ---

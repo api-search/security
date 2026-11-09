@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/owntracks/security/owntracks-domain-s
 summary_line: TLSv1.3
 tags:
 - Company
-- OpenSource
-- LocationTracking
+- Open Source
+- Location Tracking
 - Privacy
-- MobileApps
+- Mobile App
 ---

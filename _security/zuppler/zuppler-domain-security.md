@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/zuppler/security/zuppler-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- OnlineOrdering
+- Online Ordering
 - RestaurantTech
-- SaaS
-- API
+- Software-as-a-Service
 ---

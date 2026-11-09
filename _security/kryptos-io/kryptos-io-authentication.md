@@ -59,9 +59,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: \"https://docs.
 source_yaml_url: https://artifacts.apis.io/kryptos-io/authentication/kryptos-io-authentication.yml
 summary_line: 1 scheme
 tags:
-- Crypto
+- Cryptocurrency
 - Finance
-- API
 - Portfolio
 - Tax
 ---

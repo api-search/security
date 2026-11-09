@@ -92,8 +92,8 @@ summary_line: 0 schemes
 tags:
 - Company
 - Data
-- AI
-- Real-time
+- Artificial Intelligence
+- Real-Time
 - MCP
 - Security
 ---

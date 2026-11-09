@@ -20,9 +20,9 @@ source_yaml_url: https://artifacts.apis.io/monaire/security/monaire-trust-center
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - HVAC
-- EnergyManagement
-- SaaS
+- Energy Management
+- Software-as-a-Service
 trust_url: https://www.monaire.ai/security
 ---

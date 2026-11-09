@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/lubelogger/security/lubelogger-domain
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- OpenSource
-- VehicleMaintenance
+- Open Source
+- Vehicle Maintenance
 - FuelTracking
-- SelfHosted
+- Self-Hosted
 ---

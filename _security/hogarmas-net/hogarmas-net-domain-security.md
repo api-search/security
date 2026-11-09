@@ -34,5 +34,5 @@ tags:
 - Chile
 - B2B
 - Marketplace
-- Products
+- Product
 ---

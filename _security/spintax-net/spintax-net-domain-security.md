@@ -83,5 +83,4 @@ tags:
 - Content Generation
 - Template Engine
 - Open Source
-- API
 ---

@@ -231,9 +231,9 @@ summary_line: SOC 2
 tags:
 - Company
 - Security
-- AI
+- Artificial Intelligence
 - Authorization
-- Data-Protection
-- API-Management
+- Data Protection
+- API Management
 trust_url: https://sqlguard.io/trust
 ---

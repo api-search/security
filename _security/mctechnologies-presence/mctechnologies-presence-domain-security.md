@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: mctechnologies-presence-tasks-api-openapi.yml
-  format: yaml
-  label: Presence API
-  slug: presence-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mctechnologies-presence/openapi/mctechnologies-presence-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/mctechnologies-presence/security/mcte
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- HumanVerification
-- AI
-- OnDemand
+- Human Verification
+- Artificial Intelligence
+- On-Demand
 - Inspection
 ---

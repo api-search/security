@@ -40,5 +40,5 @@ tags:
 - Integration
 - Cloud Platform
 - Analytics
-- Real-time
+- Real-Time
 ---

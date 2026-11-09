@@ -57,5 +57,6 @@ tags:
 - Hospitality
 - Retail
 - REST
+- OAuth
 - Authentication
 ---

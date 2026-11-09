@@ -116,8 +116,7 @@ source_yaml_url: https://artifacts.apis.io/chatrail-dev/security/chatrail-dev-do
 summary_line: TLSv1.3 · HSTS
 tags:
 - WhatsApp
-- API
 - Messaging
-- AI
+- Artificial Intelligence
 - Developers
 ---

@@ -1,4 +1,71 @@
 ---
+api_specs:
+- filename: kawaa-com-account-api-openapi.yml
+  format: yaml
+  label: kawaa-com Account API
+  slug: kawaa-com-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-account-api-openapi.yml
+- filename: kawaa-com-activity-api-openapi.yml
+  format: yaml
+  label: kawaa-com Activity API
+  slug: kawaa-com-activity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-activity-api-openapi.yml
+- filename: kawaa-com-api-keys-api-openapi.yml
+  format: yaml
+  label: kawaa-com API keys API
+  slug: kawaa-com-api-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-api-keys-api-openapi.yml
+- filename: kawaa-com-catalogue-api-openapi.yml
+  format: yaml
+  label: kawaa-com Catalogue API
+  slug: kawaa-com-catalogue-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-catalogue-api-openapi.yml
+- filename: kawaa-com-deliverability-api-openapi.yml
+  format: yaml
+  label: kawaa-com Deliverability API
+  slug: kawaa-com-deliverability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-deliverability-api-openapi.yml
+- filename: kawaa-com-exports-api-openapi.yml
+  format: yaml
+  label: kawaa-com Exports API
+  slug: kawaa-com-exports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-exports-api-openapi.yml
+- filename: kawaa-com-health-api-openapi.yml
+  format: yaml
+  label: kawaa-com Health API
+  slug: kawaa-com-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-health-api-openapi.yml
+- filename: kawaa-com-jobs-api-openapi.yml
+  format: yaml
+  label: kawaa-com Jobs API
+  slug: kawaa-com-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-jobs-api-openapi.yml
+- filename: kawaa-com-search-api-openapi.yml
+  format: yaml
+  label: kawaa-com Search API
+  slug: kawaa-com-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-search-api-openapi.yml
+- filename: kawaa-com-verification-api-openapi.yml
+  format: yaml
+  label: kawaa-com Verification API
+  slug: kawaa-com-verification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-verification-api-openapi.yml
+- filename: kawaa-com-webhooks-api-openapi.yml
+  format: yaml
+  label: kawaa-com Webhooks API
+  slug: kawaa-com-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kawaa-com/openapi/kawaa-com-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -38,8 +105,7 @@ source_yaml_url: https://artifacts.apis.io/kawaa-com/security/kawaa-com-domain-s
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- EmailVerification
-- API
-- SaaS
+- Email Verification
+- Software-as-a-Service
 - Marketing
 ---

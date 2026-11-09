@@ -76,7 +76,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - B2B
 - Data Enrichment
-- Contact API
 - MCP
-- SaaS
+- Software-as-a-Service
 ---

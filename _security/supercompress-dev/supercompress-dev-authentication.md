@@ -40,8 +40,7 @@ summary_line: 2 schemes
 tags:
 - LLM
 - Compression
-- API
 - Cost-Reduction
-- AI
-- DeveloperTools
+- Artificial Intelligence
+- Developer Tools
 ---

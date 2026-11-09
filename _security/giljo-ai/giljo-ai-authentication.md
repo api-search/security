@@ -111,8 +111,8 @@ source_yaml_url: https://artifacts.apis.io/giljo-ai/authentication/giljo-ai-auth
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - Collaboration
 - Platform
 ---

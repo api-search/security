@@ -66,12 +66,6 @@ api_specs:
   slug: amazon-ground-station-tags-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-tags-api-openapi.yml
-- filename: amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
-  format: yaml
-  label: Amazon Ground Station Dataflow Endpoint Group API
-  slug: amazon-ground-station-dataflow-endpoint-group-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
 - filename: amazon-ground-station-operations-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Ground Station Operations API
@@ -84,6 +78,12 @@ api_specs:
   slug: amazon-ground-station-versions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-versions-api-openapi.yml
+- filename: amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
+  format: yaml
+  label: Amazon Ground Station Dataflow Endpoint Group API
+  slug: amazon-ground-station-dataflow-endpoint-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -124,6 +124,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/amazon-ground-station/security/amazon-ground-station-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
+- Amazon Web Services
 - Data Processing
 - IoT
 - Satellite Communications

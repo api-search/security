@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/7bridges/authentication/7bridges-auth
 summary_line: 0 schemes
 tags:
 - Supply Chain
-- SaaS
+- Software-as-a-Service
 - Logistics
-- AI
+- Artificial Intelligence
 - Platform
 ---

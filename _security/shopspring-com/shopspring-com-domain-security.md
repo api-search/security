@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/shopspring-com/security/shopspring-co
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Marketing
-- SaaS
+- Software-as-a-Service
 - Platform
 ---

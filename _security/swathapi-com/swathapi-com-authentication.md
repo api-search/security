@@ -71,9 +71,8 @@ source_yaml_url: https://artifacts.apis.io/swathapi-com/authentication/swathapi-
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Weather
 - Storm
-- AI
+- Artificial Intelligence
 - NOAA
 ---

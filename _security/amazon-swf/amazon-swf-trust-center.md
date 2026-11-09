@@ -36,6 +36,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-swf/security/amazon-swf-trust-
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Automation
+- Amazon Web Services
 - Task Coordination
 - Workflows
 trust_url: https://aws.amazon.com/compliance/

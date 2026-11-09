@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/jobo-world/security/jobo-world-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Job Data
-- API
-- Recruitment
+- Recruiting
 - Platform
 - Data Infrastructure
 ---

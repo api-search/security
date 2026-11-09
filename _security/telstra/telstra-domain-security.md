@@ -132,6 +132,30 @@ api_specs:
   slug: telstra-virtual-numbers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/telstra/openapi/telstra-virtual-numbers-api-openapi.yml
+- filename: telstra-mms-api-openapi.yml
+  format: yaml
+  label: Telstra MMS API
+  slug: telstra-mms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/telstra/openapi/telstra-mms-api-openapi.yml
+- filename: telstra-provisioning-api-openapi.yml
+  format: yaml
+  label: Telstra Provisioning API
+  slug: telstra-provisioning-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/telstra/openapi/telstra-provisioning-api-openapi.yml
+- filename: telstra-sms-api-openapi.yml
+  format: yaml
+  label: Telstra SMS API
+  slug: telstra-sms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/telstra/openapi/telstra-sms-api-openapi.yml
+- filename: telstra-verification-api-openapi.yml
+  format: yaml
+  label: Telstra Verification API
+  slug: telstra-verification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/telstra/openapi/telstra-verification-api-openapi.yml
 description: ''
 domains:
 - caa: []

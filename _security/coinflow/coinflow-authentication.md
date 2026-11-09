@@ -81,6 +81,12 @@ api_specs:
   slug: coinflow-withdraw-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coinflow/openapi/coinflow-withdraw-api-openapi.yml
+- filename: coinflow-merchantaccounts-api-openapi.yml
+  format: yaml
+  label: Coinflow Merchant Accounts API
+  slug: coinflow-merchantaccounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coinflow/openapi/coinflow-merchantaccounts-api-openapi.yml
 - filename: coinflow-card-tokenization-api-openapi.yml
   format: yaml
   label: Coinflow Card Tokenization API

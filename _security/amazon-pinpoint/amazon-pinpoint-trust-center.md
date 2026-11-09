@@ -155,6 +155,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nprobe: true\nurl: https
 source_yaml_url: https://artifacts.apis.io/amazon-pinpoint/security/amazon-pinpoint-trust-center.yml
 summary_line: SOC 1, SOC 2, SOC 3, FedRAMP, HIPAA, ISO/IEC 27001:2013, ISO/IEC 27017:2015, ISO/IEC 27018:2014, ISO/IEC 9001:2015
 tags:
+- Amazon Web Services
 - Campaigns
 - Communications
 - Email

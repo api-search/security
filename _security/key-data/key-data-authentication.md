@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: key-data-key-data-api-api-openapi.yml
-  format: yaml
-  label: Key Data API
-  slug: key-data-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/key-data/openapi/key-data-key-data-api-api-openapi.yml
 - filename: key-data-openapi-generated.yml
   format: yaml
   label: Key Data API
@@ -40,9 +34,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://artifacts.apis.io/key-data/authentication/key-data-authentication.yml
 summary_line: 1 scheme
 tags:
-- short-term rentals
-- real-time data
-- analytics
-- property management
-- vacation rentals
+- Short-Term Rental
+- Real-Time Data
+- Analytics
+- Property Management
+- Vacation Rentals
 ---

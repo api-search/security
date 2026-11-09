@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/paybook/security/paybook-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Data Aggregation
-- API
 - Banking
 ---

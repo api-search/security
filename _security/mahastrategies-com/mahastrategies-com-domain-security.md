@@ -154,7 +154,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Technology
-- AI
+- Artificial Intelligence
 - Research
 - Software
 - Education

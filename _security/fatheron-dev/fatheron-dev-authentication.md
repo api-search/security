@@ -151,8 +151,7 @@ source_yaml_url: https://artifacts.apis.io/fatheron-dev/authentication/fatheron-
 summary_line: 0 schemes
 tags:
 - Platform
-- API
-- DeveloperTools
+- Developer Tools
 - Identity
 - Mail
 ---

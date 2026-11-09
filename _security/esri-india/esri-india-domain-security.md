@@ -29,7 +29,7 @@ summary_line: DMARC
 tags:
 - GIS
 - Mapping
-- SpatialAnalytics
-- EnterpriseSoftware
+- Spatial Analytics
+- Enterprise Software
 - India
 ---

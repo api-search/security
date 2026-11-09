@@ -105,7 +105,6 @@ tags:
 - Company
 - Real Estate
 - Data
-- API
 - Geospatial
 - Property
 ---

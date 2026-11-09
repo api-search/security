@@ -66,6 +66,18 @@ api_specs:
   slug: kondukto-vulnerabilities-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/kondukto/openapi/kondukto-vulnerabilities-api-openapi.yml
+- filename: kondukto-import-api-openapi.yml
+  format: yaml
+  label: Kondukto Import API
+  slug: kondukto-import-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-import-api-openapi.yml
+- filename: kondukto-screenshots-api-openapi.yml
+  format: yaml
+  label: Kondukto Screenshots API
+  slug: kondukto-screenshots-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kondukto/openapi/kondukto-screenshots-api-openapi.yml
 description: ''
 domains:
 - caa: []

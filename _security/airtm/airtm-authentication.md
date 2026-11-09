@@ -236,5 +236,6 @@ tags:
 - Latin America
 - Emerging Markets
 - money-services-business
+- OAuth
 - Authentication
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fax
 - Mobile
-- AI
+- Artificial Intelligence
 - Japan
-- SaaS
+- Software-as-a-Service
 ---

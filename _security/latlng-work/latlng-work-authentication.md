@@ -47,6 +47,5 @@ tags:
 - Company
 - Geocoding
 - Mapping
-- API
 - Location
 ---

@@ -38,7 +38,7 @@ tags:
 - Education
 - University
 - Research
-- UK
-- HigherEducation
+- United Kingdom
+- Higher Education
 - Public
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Consulting
-- DigitalTransformation
-- SoftwareDevelopment
+- Digital Transformation
+- Software Development
 - Technology
 ---

@@ -34,6 +34,6 @@ tags:
 - Company
 - Workforce
 - Scheduling
-- TimeTracking
-- LaborCompliance
+- Time Tracking
+- Labor Compliance
 ---

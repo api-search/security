@@ -57,7 +57,7 @@ source_yaml_url: https://artifacts.apis.io/agendaforge-app/security/agendaforge-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Event Management
-- SaaS
+- Software-as-a-Service
 - AI-native
 - Conferences
 - Software

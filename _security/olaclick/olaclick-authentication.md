@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/olaclick/authentication/olaclick-auth
 summary_line: 2 schemes
 tags:
 - Restaurant
-- POS
-- AI
-- SaaS
+- Point-of-Sale
+- Artificial Intelligence
+- Software-as-a-Service
 - Delivery
 ---

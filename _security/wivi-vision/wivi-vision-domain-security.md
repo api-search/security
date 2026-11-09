@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/wivi-vision/security/wivi-vision-doma
 summary_line: TLSv1.3
 tags:
 - Company
-- HealthTech
-- EyeCare
+- Health Tech
+- Eye Care
 - Diagnostics
 - Innovation
 ---

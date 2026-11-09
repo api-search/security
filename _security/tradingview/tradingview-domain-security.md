@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: tradingview-account-api-openapi.yml
+  format: yaml
+  label: TradingView Account API
+  slug: tradingview-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/tradingview/openapi/tradingview-account-api-openapi.yml
+- filename: tradingview-authorization-api-openapi.yml
+  format: yaml
+  label: TradingView Authorization API
+  slug: tradingview-authorization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/tradingview/openapi/tradingview-authorization-api-openapi.yml
+- filename: tradingview-broker-configuration-api-openapi.yml
+  format: yaml
+  label: TradingView Broker Configuration API
+  slug: tradingview-broker-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/tradingview/openapi/tradingview-broker-configuration-api-openapi.yml
+- filename: tradingview-data-integration-api-openapi.yml
+  format: yaml
+  label: TradingView Data Integration API
+  slug: tradingview-data-integration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/tradingview/openapi/tradingview-data-integration-api-openapi.yml
+- filename: tradingview-data-permissions-api-openapi.yml
+  format: yaml
+  label: TradingView Data Permissions API
+  slug: tradingview-data-permissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/tradingview/openapi/tradingview-data-permissions-api-openapi.yml
+- filename: tradingview-market-data-api-openapi.yml
+  format: yaml
+  label: TradingView Market Data API
+  slug: tradingview-market-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/tradingview/openapi/tradingview-market-data-api-openapi.yml
+- filename: tradingview-trading-api-openapi.yml
+  format: yaml
+  label: TradingView Trading API
+  slug: tradingview-trading-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/tradingview/openapi/tradingview-trading-api-openapi.yml
 description: ''
 domains:
 - caa: []

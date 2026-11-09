@@ -53,7 +53,6 @@ summary_line: apiKey · 1 scheme
 tags:
 - API Platform
 - Japanese Data
-- Deterministic
 - Free Tier
 - AI Integration
 ---

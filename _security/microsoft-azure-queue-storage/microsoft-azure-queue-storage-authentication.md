@@ -2,7 +2,6 @@
 anonymous_access: false
 api_key_in:
 - header
-- query
 api_specs:
 - filename: microsoft-azure-queue-storage-queues-api-openapi.yml
   format: yaml
@@ -10,42 +9,58 @@ api_specs:
   slug: microsoft-azure-queue-storage-queues-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-queues-api-openapi.yml
+- filename: microsoft-azure-queue-storage-message-api-openapi.yml
+  format: yaml
+  label: Azure Queue Storage Message API
+  slug: microsoft-azure-queue-storage-message-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-message-api-openapi.yml
+- filename: microsoft-azure-queue-storage-messageid-api-openapi.yml
+  format: yaml
+  label: Azure Queue Storage Message ID API
+  slug: microsoft-azure-queue-storage-messageid-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-messageid-api-openapi.yml
+- filename: microsoft-azure-queue-storage-queue-api-openapi.yml
+  format: yaml
+  label: Azure Queue Storage Queue API
+  slug: microsoft-azure-queue-storage-queue-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-queue-api-openapi.yml
+- filename: microsoft-azure-queue-storage-service-api-openapi.yml
+  format: yaml
+  label: Azure Queue Storage Service API
+  slug: microsoft-azure-queue-storage-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-service-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 2
+mechanism_count: 1
 method: derived
 name: Microsoft Azure Queue Storage Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Azure Queue Storage secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
+overview: Azure Queue Storage secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
 provider_name: Azure Queue Storage
 provider_slug: microsoft-azure-queue-storage
-scheme_count: 2
+scheme_count: 1
 schemes:
-- description: Shared Key authentication
-  in: header
-  name: sharedKey
+- in: header
+  name: queue_shared_key
   parameter: Authorization
   sources:
-  - openapi/microsoft-azure-queue-storage-openapi.yml
-  type: apiKey
-- description: Shared Access Signature token
-  in: query
-  name: sasToken
-  parameter: sig
-  sources:
-  - openapi/microsoft-azure-queue-storage-openapi.yml
+  - openapi/microsoft-azure-queue-storage-queues-api-openapi.yml
   type: apiKey
 slug: microsoft-azure-queue-storage-authentication
 source_filename: microsoft-azure-queue-storage-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-queue-storage-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\n  - query\nschemes:\n- name: sharedKey\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Shared Key authentication\n  sources:\n  - openapi/microsoft-azure-queue-storage-openapi.yml\n- name: sasToken\n  type: apiKey\n  in: query\n  parameter: sig\n  description: Shared Access Signature token\n  sources:\n  - openapi/microsoft-azure-queue-storage-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-azure-queue-storage-queues-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: queue_shared_key\n  type: apiKey\n  in: header\n  parameter: Authorization\n  sources:\n  - openapi/microsoft-azure-queue-storage-queues-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-queue-storage/authentication/microsoft-azure-queue-storage-authentication.yml
-summary_line: apiKey · 2 schemes
+summary_line: apiKey · 1 scheme
 tags:
 - Asynchronous Processing
 - Cloud Storage

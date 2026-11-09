@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/agentpay-shop/security/agentpay-shop-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Payments
-- Crypto
-- AI
-- Non-custodial
+- Cryptocurrency
+- Artificial Intelligence
+- Non-Custodial
 - AgentPay
 ---

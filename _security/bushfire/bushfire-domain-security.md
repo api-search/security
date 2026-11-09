@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/bushfire/security/bushfire-domain-sec
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- FireProtection
-- SprinklerSystems
+- Fire Protection
+- Sprinkler Systems
 - Australia
 - ResidentialSafety
 ---

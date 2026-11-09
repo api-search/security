@@ -131,8 +131,7 @@ source_yaml_url: https://artifacts.apis.io/postproxy-dev/authentication/postprox
 summary_line: 1 scheme
 tags:
 - Social Media
-- API
-- SaaS
+- Software-as-a-Service
 - Marketing
 - Automation
 ---

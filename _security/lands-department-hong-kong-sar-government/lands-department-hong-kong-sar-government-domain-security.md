@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Government
 - Land
-- HongKong
+- Hong Kong
 - GIS
-- PublicServices
+- Public Services
 ---

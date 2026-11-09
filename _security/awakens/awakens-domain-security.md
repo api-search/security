@@ -37,6 +37,7 @@ tags:
 - Health
 - Consumer Genetics
 - Ancestry
-- Authentication
+- OAuth
 - Personal Genomics
+- Authentication
 ---

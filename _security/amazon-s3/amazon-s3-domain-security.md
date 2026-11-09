@@ -158,6 +158,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-s3/security/amazon-s3-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Archives
+- Amazon Web Services
 - Backup
 - Cloud Storage
 - Data Storage

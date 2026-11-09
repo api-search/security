@@ -55,9 +55,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/roosteragents-ai/security/roosteragents-ai-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Marketing
 - Automation
-- SaaS
+- Software-as-a-Service
 - Data
 ---

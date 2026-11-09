@@ -33,5 +33,5 @@ tags:
 - Weather
 - Climate
 - Forecast
-- Public-API
+- Public APIs
 ---

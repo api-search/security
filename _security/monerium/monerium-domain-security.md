@@ -37,9 +37,9 @@ source_yaml: "generated: '2026-10-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/monerium/security/monerium-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- FinTech
+- Fintech
 - Payments
 - Blockchain
-- DigitalCurrency
+- Digital Currency
 - RegulatedMoney
 ---

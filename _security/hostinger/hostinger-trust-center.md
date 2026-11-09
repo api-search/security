@@ -24,6 +24,5 @@ tags:
 - Hosting
 - Cloud
 - Domains
-- API
 trust_url: https://trust.hostinger.com/
 ---

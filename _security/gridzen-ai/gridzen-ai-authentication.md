@@ -42,7 +42,7 @@ source_yaml_url: https://artifacts.apis.io/gridzen-ai/authentication/gridzen-ai-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Energy
 - Grid
 - Optimization

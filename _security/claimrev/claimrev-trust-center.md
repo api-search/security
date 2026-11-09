@@ -30,7 +30,6 @@ tags:
 - Company
 - Healthcare
 - Claims
-- API
 - Billing
 trust_url: https://www.claimrev.com/security/
 ---

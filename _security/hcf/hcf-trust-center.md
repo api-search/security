@@ -26,7 +26,7 @@ tags:
 - Travel Insurance
 - Pet Insurance
 - Carrier
-- Not-for-Profit
+- Not-for-profit
 - Claims
 - Member Services
 trust_url: https://www.hcf.com.au/about-hcf/privacy-information-trust-centre

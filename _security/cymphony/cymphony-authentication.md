@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/cymphony/authentication/cymphony-auth
 summary_line: 0 schemes
 tags:
 - Security
-- AI
+- Artificial Intelligence
 - Workforce
 - Identity
-- Threat-Detection
+- Threat Detection
 - Enterprise
 ---

@@ -130,9 +130,8 @@ source_yaml: "generated: '2026-10-29'\nmethod: derived\nsource: openapi/47620-xy
 source_yaml_url: https://artifacts.apis.io/47620-xyz/authentication/47620-xyz-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- FinTech
+- Fintech
 - Payments
 - Blockchain
 - Solana
-- API
 ---

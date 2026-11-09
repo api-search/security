@@ -32,9 +32,8 @@ source_yaml_url: https://artifacts.apis.io/instapaper/security/instapaper-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- read-it-later
-- productivity
-- web-service
-- bookmarking
-- API
+- Read-it-later
+- Productivity
+- Web Service
+- Bookmarking
 ---

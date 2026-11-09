@@ -36,7 +36,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Framework
-- OpenSource
+- Open Source
 - TypeScript
-- AI
+- Artificial Intelligence
 ---

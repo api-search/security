@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/store-api-com/authentication/store-ap
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- Machine-Learning
+- Artificial Intelligence
+- Machine Learning
 - OpenAI
 - Claude
 - Gemini

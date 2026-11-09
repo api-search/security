@@ -58,8 +58,8 @@ summary_line: 3 schemes
 tags:
 - Company
 - Kubernetes
-- Development Environments
-- Cloud Native
+- Developer Environments
+- Cloud-Native
 - Developer Tools
 - Preview Environments
 - AI Agents

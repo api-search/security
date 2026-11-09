@@ -39,4 +39,6 @@ tags:
 - Climate Risk
 - Agriculture
 - Renewable Energy
+- Climate Tech
+- Parametric
 ---

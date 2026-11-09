@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/slskd/security/slskd-domain-security.
 summary_line: TLSv1.3
 tags:
 - Company
-- FileSharing
-- SelfHosted
-- OpenSource
-- API
+- File Sharing
+- Self-Hosted
+- Open Source
 ---

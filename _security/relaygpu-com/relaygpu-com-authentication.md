@@ -39,9 +39,8 @@ source_yaml_url: https://artifacts.apis.io/relaygpu-com/authentication/relaygpu-
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Compute
 - GPU
 - Cloud
-- API
 ---

@@ -106,6 +106,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-codeartifact/authentication/am
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon
+- Amazon Web Services
 - Artifact Repository
 - Package Management
 - DevOps

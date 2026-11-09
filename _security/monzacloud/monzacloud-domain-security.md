@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/monzacloud/security/monzacloud-domain
 summary_line: TLSv1.3
 tags:
 - Cloud Computing
-- AI/ML
+- Artificial Intelligence
 - Custom Development
 - IT Infrastructure
 - DevOps

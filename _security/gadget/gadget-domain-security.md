@@ -57,8 +57,7 @@ source_yaml_url: https://artifacts.apis.io/gadget/security/gadget-domain-securit
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Platform
-- SaaS
+- Software-as-a-Service
 - Development
-- API
-- Full-stack
+- Full-Stack
 ---

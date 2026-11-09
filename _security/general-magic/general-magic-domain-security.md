@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/general-magic/security/general-magic-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Insurance
 - Brokerage
 - Automation

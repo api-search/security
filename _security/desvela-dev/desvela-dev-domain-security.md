@@ -29,9 +29,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/desvela-dev/security/desvela-dev-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AI
-- BrandMonitoring
+- Artificial Intelligence
+- Brand Monitoring
 - Analytics
-- SaaS
+- Software-as-a-Service
 - Desvela
 ---

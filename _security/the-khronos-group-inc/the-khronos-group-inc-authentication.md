@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/the-khronos-group-inc/authentication/
 summary_line: 0 schemes
 tags:
 - Company
-- Open-Standards
+- Open Standard
 - Graphics
 - AR/VR
 - Compute

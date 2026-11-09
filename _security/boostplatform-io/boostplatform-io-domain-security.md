@@ -35,5 +35,4 @@ tags:
 - Insurtech
 - MGA
 - Embedded Insurance
-- API
 ---

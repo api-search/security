@@ -384,6 +384,6 @@ tags:
 - Company
 - Observability
 - Telemetry
-- AI
+- Artificial Intelligence
 - Automation
 ---

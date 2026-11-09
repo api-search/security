@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/cafmlane-com/security/cafmlane-com-do
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- facility-management
+- Facility Management
 - cafm
-- space-utilization
-- asset-management
+- Space Utilization
+- Asset Management
 ---

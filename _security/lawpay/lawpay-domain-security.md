@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Payments
-- LegalTech
-- FinTech
-- SaaS
+- Legal Tech
+- Fintech
+- Software-as-a-Service
 ---

@@ -58,7 +58,6 @@ tags:
 - Email
 - Disposable
 - Testing
-- API
 - Automation
-- Service
+- Services
 ---

@@ -45,5 +45,5 @@ tags:
 - Fibromyalgia
 - Smoking Cessation
 - Clinical Pipeline
-- FDA Approved
+- FDA-Approved
 ---

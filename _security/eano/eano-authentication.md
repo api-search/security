@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/eano/authentication/eano-authenticati
 summary_line: 1 scheme
 tags:
 - Construction
-- SaaS
+- Software-as-a-Service
 - Project Management
-- AI
+- Artificial Intelligence
 - Residential
 ---

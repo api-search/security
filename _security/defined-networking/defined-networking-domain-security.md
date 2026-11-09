@@ -30,11 +30,11 @@ source_yaml: "generated: '2026-10-22'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/defined-networking/security/defined-networking-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Remote access
+- Remote Access
 - Encryption
-- Multi‑cloud
+- Multi-Cloud
 - IoT
-- NAT traversal
+- NAT Traversal
 - Identity
 - Managed networking
 ---

@@ -98,8 +98,7 @@ source_yaml_url: https://artifacts.apis.io/audivo-dev/security/audivo-dev-domain
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Podcast
+- Podcasts
 - Transcripts
-- API
 - Audio
 ---

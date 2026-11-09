@@ -35,5 +35,5 @@ tags:
 - IT Services
 - Cybersecurity
 - AI Consulting
-- Managed Services
+- Managed Service
 ---

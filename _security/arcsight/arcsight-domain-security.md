@@ -42,4 +42,5 @@ tags:
 - Log Management
 - Compliance
 - Enterprise Security
+- Analytics
 ---

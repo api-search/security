@@ -51,6 +51,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-d
 source_yaml_url: https://artifacts.apis.io/amazon-direct-connect/authentication/amazon-direct-connect-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Dedicated Connection
 - Direct Connect
 - Hybrid Cloud

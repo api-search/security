@@ -20,9 +20,8 @@ summary_line: ISO 27001
 tags:
 - Company
 - Security
-- AI
-- Penetration-Testing
+- Artificial Intelligence
+- Penetration Testing
 - DevSecOps
-- API
 trust_url: https://trust.beaglesecurity.com/
 ---

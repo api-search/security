@@ -56,9 +56,9 @@ source_yaml: "generated: '2026-10-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/stream-estate/security/stream-estate-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- RealEstate
+- Real Estate
 - PropTech
-- DataAPI
-- MarketAnalytics
+- Data API
+- Market Analytics
 - Valuation
 ---

@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/adwhiz-ai/authentication/adwhiz-ai-au
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Advertising
 - Google Ads
 - Meta Ads

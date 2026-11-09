@@ -51,9 +51,9 @@ source_yaml_url: https://artifacts.apis.io/blockstack-org/security/blockstack-or
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bitcoin Staking
-- Self‑Custodial
+- Self-Custodial
 - DeFi
 - Smart Contracts
-- Layer‑2
+- Layer 2
 - Institutional Crypto
 ---

@@ -33,6 +33,5 @@ tags:
 - Company
 - Research
 - Data
-- API
-- Market-Research
+- Market Research
 ---

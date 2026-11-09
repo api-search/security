@@ -47,9 +47,9 @@ source_yaml_url: https://artifacts.apis.io/pushcut/authentication/pushcut-authen
 summary_line: 1 scheme
 tags:
 - Company
-- automation
+- Automation
 - iOS
-- shortcuts
-- webhooks
-- integration
+- Shortcuts
+- Webhook
+- Integration
 ---

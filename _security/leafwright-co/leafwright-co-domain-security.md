@@ -38,9 +38,8 @@ source_yaml_url: https://artifacts.apis.io/leafwright-co/security/leafwright-co-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- HTML-to-PDF
+- HTML to PDF
 - Serverless
-- API
-- AI
+- Artificial Intelligence
 - PDF
 ---

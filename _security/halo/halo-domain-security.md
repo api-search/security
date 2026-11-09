@@ -1,4 +1,23 @@
 ---
+api_specs:
+- filename: halo-h5-api-openapi.yml
+  format: yaml
+  label: Halo H5 API
+  slug: halo-h5-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/halo/openapi/halo-h5-api-openapi.yml
+- filename: halo-h5pc-api-openapi.yml
+  format: yaml
+  label: Halo H5pc API
+  slug: halo-h5pc-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/halo/openapi/halo-h5pc-api-openapi.yml
+- filename: halo-hw2-api-openapi.yml
+  format: yaml
+  label: Halo Hw2 API
+  slug: halo-hw2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/halo/openapi/halo-hw2-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -33,7 +52,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/halo/security/halo-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Public APIs
+- Game Data
 - Gaming
+- Halo
+- Microsoft
+- Player Statistics
+- Public APIs
 - Video Games
+- Xbox
 ---

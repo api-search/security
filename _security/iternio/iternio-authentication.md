@@ -33,8 +33,7 @@ source_yaml_url: https://artifacts.apis.io/iternio/authentication/iternio-authen
 summary_line: 1 scheme
 tags:
 - Company
-- EV
+- Electric Vehicles
 - Routing
-- API
 - Transportation
 ---

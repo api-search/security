@@ -20,10 +20,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/entyrix-com/security/entyrix-com-trust-center.yml
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
-- BusinessData
+- Business Data
 - Compliance
 - KYC
-- API
 - European
 trust_url: https://entyrix.com/security
 ---

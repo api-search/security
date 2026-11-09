@@ -90,10 +90,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: derived\nsource: openapi/develope
 source_yaml_url: https://artifacts.apis.io/kreatorflow-ai/authentication/kreatorflow-ai-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Video
 - Image
 - Voice
-- API
 - Platform
 ---

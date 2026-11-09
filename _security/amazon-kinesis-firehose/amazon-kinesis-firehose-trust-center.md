@@ -36,6 +36,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-kinesis-firehose/security/amaz
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Analytics
+- Amazon Web Services
 - Data Delivery
 - Streaming
 trust_url: https://aws.amazon.com/compliance/

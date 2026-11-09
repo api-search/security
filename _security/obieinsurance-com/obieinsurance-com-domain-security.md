@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Real Estate
-- FinTech
+- Fintech
 - Landlords
-- Investors
+- Investor
 ---

@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/audiomuse/authentication/audiomuse-au
 summary_line: 2 schemes
 tags:
 - Music
-- AI
-- OpenSource
+- Artificial Intelligence
+- Open Source
 - Self-Hosted
 - Playlist
-- AudioAnalysis
+- Audio Analysis
 ---

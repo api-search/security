@@ -37,8 +37,9 @@ tags:
 - Company
 - Health Tech
 - Identity
-- Authentication
+- OAuth
 - OpenID Connect
+- Authentication
 - Physician Network
 - Healthcare
 - SSO

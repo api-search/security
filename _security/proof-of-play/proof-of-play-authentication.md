@@ -45,5 +45,4 @@ tags:
 - Randomness
 - Onchain Infrastructure
 - NFT
-- Developer Services
 ---

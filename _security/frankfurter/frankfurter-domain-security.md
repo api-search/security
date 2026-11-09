@@ -36,6 +36,24 @@ api_specs:
   slug: frankfurter-rates-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-rates-api-openapi.yml
+- filename: frankfurter-coverage-api-openapi.yml
+  format: yaml
+  label: Frankfurter Coverage API
+  slug: frankfurter-coverage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-coverage-api-openapi.yml
+- filename: frankfurter-currency-api-openapi.yml
+  format: yaml
+  label: Frankfurter Currency API
+  slug: frankfurter-currency-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-currency-api-openapi.yml
+- filename: frankfurter-rate-api-openapi.yml
+  format: yaml
+  label: Frankfurter Rate API
+  slug: frankfurter-rate-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-rate-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -38,7 +38,6 @@ summary_line: 1 scheme
 tags:
 - Video
 - Audio
-- MediaProcessing
-- CloudAPI
+- Media Processing
 - FFmpeg
 ---

@@ -28,9 +28,9 @@ source_yaml_url: https://artifacts.apis.io/zicron-ai/security/zicron-ai-domain-s
 summary_line: DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Productivity
-- Knowledge-Management
-- SaaS
-- Startup
+- Knowledge Management
+- Software-as-a-Service
+- Startups
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/harness-giving/security/harness-givin
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Giving
-- RecurringPayments
-- SaaS
+- Recurring Payments
+- Software-as-a-Service
 ---

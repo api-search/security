@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Gaming
 - Web3
-- AI
+- Artificial Intelligence
 - Marketplace
 - Platform
 ---

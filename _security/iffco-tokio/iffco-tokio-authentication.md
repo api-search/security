@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/iffco-tokio/authentication/iffco-toki
 summary_line: 0 schemes
 tags:
 - Insurance
-- GeneralInsurance
+- General Insurance
 - India
-- JointVenture
-- FinancialServices
+- Joint Venture
+- Financial Services
 ---

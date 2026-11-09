@@ -63,7 +63,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
 - Magento
-- API
 - Lifecycle
-- OpenSource
+- Open Source
 ---

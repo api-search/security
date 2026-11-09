@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/cafmlane-com/authentication/cafmlane-
 summary_line: http · 1 scheme
 tags:
 - Company
-- facility-management
+- Facility Management
 - cafm
-- space-utilization
-- asset-management
+- Space Utilization
+- Asset Management
 ---

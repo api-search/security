@@ -38,6 +38,6 @@ tags:
 - Business Intelligence
 - Data Governance
 - Analytics
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

@@ -40,6 +40,5 @@ tags:
 - Company
 - Fintech
 - Lending
-- API
 - Embedded
 ---

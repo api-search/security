@@ -65,8 +65,7 @@ source_yaml_url: https://artifacts.apis.io/mailcheer-com/authentication/mailchee
 summary_line: 1 scheme
 tags:
 - Company
-- Newsletter
-- API
+- Newsletters
 - Marketing
-- AI
+- Artificial Intelligence
 ---

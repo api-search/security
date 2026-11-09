@@ -168,9 +168,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/blindpay-com/authentication/blindpay-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- FinTech
+- Fintech
 - Payments
-- Stablecoin
-- API
+- Stablecoins
 - Global
 ---

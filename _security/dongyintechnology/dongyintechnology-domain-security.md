@@ -43,7 +43,6 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Supply Chain
 - Software-as-a-Service
-- Digital Solutions
 - China
 - Manufacturing
 - Pumps

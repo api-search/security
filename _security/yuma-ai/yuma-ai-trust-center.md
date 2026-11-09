@@ -20,9 +20,9 @@ source_yaml_url: https://artifacts.apis.io/yuma-ai/security/yuma-ai-trust-center
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
-- Machine-Learning
+- Artificial Intelligence
+- Machine Learning
 - Automation
-- Data-Analysis
+- Data Analysis
 trust_url: https://yuma.ai/security
 ---

@@ -50,4 +50,5 @@ tags:
 - Vulnerability Management
 - Dark Web
 - Data
+- Data Analytics
 ---

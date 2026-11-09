@@ -32,5 +32,8 @@ tags:
 - Substance Use Disorder
 - Telehealth
 - Healthcare
+- Artificial Intelligence
+- Mental Health
+- SubstanceUse
 trust_url: https://www.pelagohealth.com/security/
 ---

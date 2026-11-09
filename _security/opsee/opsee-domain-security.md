@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Manufacturing
 - MES
-- IndustrialIoT
-- OpenSource
-- DataAnalytics
+- Industrial IoT
+- Open Source
+- Data Analytics
 ---

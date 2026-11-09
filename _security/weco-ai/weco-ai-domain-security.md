@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/weco-ai/security/weco-ai-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Research
 - Platform
-- OpenSource
+- Open Source
 ---

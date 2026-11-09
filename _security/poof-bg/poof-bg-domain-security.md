@@ -50,8 +50,7 @@ source_yaml_url: https://artifacts.apis.io/poof-bg/security/poof-bg-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
-- BackgroundRemoval
-- ImageProcessing
-- VideoProcessing
+- Background Removal
+- Image Processing
+- Video Processing
 ---

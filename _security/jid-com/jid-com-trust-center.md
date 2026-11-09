@@ -57,7 +57,7 @@ source_yaml_url: https://artifacts.apis.io/jid-com/security/jid-com-trust-center
 summary_line: SOC 2, ISO 27001
 tags:
 - Trust
-- AI
+- Artificial Intelligence
 - Compliance
 - Data
 - Verification

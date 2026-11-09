@@ -31,8 +31,8 @@ summary_line: TLSv1.3
 tags:
 - Loyalty
 - Marketing
-- Small-Business
+- Small Business
 - Retail
-- SaaS
+- Software-as-a-Service
 - Company
 ---

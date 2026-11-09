@@ -78,7 +78,7 @@ summary_line: 3 schemes
 tags:
 - Company
 - Hospitality
-- Travel Tech
+- TravelTech
 - Software-as-a-Service
 - Revenue Management
 ---

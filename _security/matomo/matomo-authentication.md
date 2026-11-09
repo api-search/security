@@ -446,7 +446,7 @@ tags:
 - Web Analytics
 - Open Source
 - Privacy
-- Data Ownership
+- DataOwnership
 - Self-Hosted
 - GDPR
 - Tag Management

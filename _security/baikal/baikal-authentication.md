@@ -36,8 +36,7 @@ source_yaml_url: https://artifacts.apis.io/baikal/authentication/baikal-authenti
 summary_line: 2 schemes
 tags:
 - Company
-- API
-- OpenSource
+- Open Source
 - Calendar
 - CardDAV
 ---

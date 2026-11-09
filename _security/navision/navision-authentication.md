@@ -259,23 +259,99 @@ schemes:
     tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token
   name: oauth2
   sources:
-  - openapi/admin-center-api.yml
-  - openapi/automation-api.yml
-  - openapi/business-central-api-v2.yml
+  - openapi/navision-accounts-api-openapi.yml
+  - openapi/navision-app-management-api-openapi.yml
+  - openapi/navision-available-applications-api-openapi.yml
+  - openapi/navision-companies-api-openapi.yml
+  - openapi/navision-configuration-packages-api-openapi.yml
+  - openapi/navision-countries-regions-api-openapi.yml
+  - openapi/navision-currency-api-openapi.yml
+  - openapi/navision-customer-payments-api-openapi.yml
+  - openapi/navision-customers-api-openapi.yml
+  - openapi/navision-dimensions-api-openapi.yml
+  - openapi/navision-employees-api-openapi.yml
+  - openapi/navision-environment-operations-api-openapi.yml
+  - openapi/navision-environment-settings-api-openapi.yml
+  - openapi/navision-environments-api-openapi.yml
+  - openapi/navision-extension-deployment-status-api-openapi.yml
+  - openapi/navision-extension-upload-api-openapi.yml
+  - openapi/navision-extensions-api-openapi.yml
+  - openapi/navision-features-api-openapi.yml
+  - openapi/navision-item-categories-api-openapi.yml
+  - openapi/navision-items-api-openapi.yml
+  - openapi/navision-journals-api-openapi.yml
+  - openapi/navision-notifications-api-openapi.yml
+  - openapi/navision-payment-methods-api-openapi.yml
+  - openapi/navision-payment-terms-api-openapi.yml
+  - openapi/navision-permission-sets-api-openapi.yml
+  - openapi/navision-profiles-api-openapi.yml
+  - openapi/navision-purchase-invoices-api-openapi.yml
+  - openapi/navision-purchase-orders-api-openapi.yml
+  - openapi/navision-sales-invoices-api-openapi.yml
+  - openapi/navision-sales-orders-api-openapi.yml
+  - openapi/navision-scheduled-jobs-api-openapi.yml
+  - openapi/navision-security-groups-api-openapi.yml
+  - openapi/navision-storage-api-openapi.yml
+  - openapi/navision-support-settings-api-openapi.yml
+  - openapi/navision-update-management-api-openapi.yml
+  - openapi/navision-users-api-openapi.yml
+  - openapi/navision-vendor-payments-api-openapi.yml
+  - openapi/navision-vendors-api-openapi.yml
   type: oauth2
 - bearerFormat: JWT
+  description: Bearer token obtained from Microsoft Entra ID
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/admin-center-api.yml
-  - openapi/automation-api.yml
-  - openapi/business-central-api-v2.yml
+  - openapi/navision-accounts-api-openapi.yml
+  - openapi/navision-app-management-api-openapi.yml
+  - openapi/navision-available-applications-api-openapi.yml
+  - openapi/navision-companies-api-openapi.yml
+  - openapi/navision-configuration-packages-api-openapi.yml
+  - openapi/navision-countries-regions-api-openapi.yml
+  - openapi/navision-currency-api-openapi.yml
+  - openapi/navision-customer-payments-api-openapi.yml
+  - openapi/navision-customers-api-openapi.yml
+  - openapi/navision-dimensions-api-openapi.yml
+  - openapi/navision-employees-api-openapi.yml
+  - openapi/navision-environment-operations-api-openapi.yml
+  - openapi/navision-environment-settings-api-openapi.yml
+  - openapi/navision-environments-api-openapi.yml
+  - openapi/navision-extension-deployment-status-api-openapi.yml
+  - openapi/navision-extension-upload-api-openapi.yml
+  - openapi/navision-extensions-api-openapi.yml
+  - openapi/navision-features-api-openapi.yml
+  - openapi/navision-item-categories-api-openapi.yml
+  - openapi/navision-items-api-openapi.yml
+  - openapi/navision-journals-api-openapi.yml
+  - openapi/navision-notifications-api-openapi.yml
+  - openapi/navision-payment-methods-api-openapi.yml
+  - openapi/navision-payment-terms-api-openapi.yml
+  - openapi/navision-permission-sets-api-openapi.yml
+  - openapi/navision-profiles-api-openapi.yml
+  - openapi/navision-purchase-invoices-api-openapi.yml
+  - openapi/navision-purchase-orders-api-openapi.yml
+  - openapi/navision-sales-invoices-api-openapi.yml
+  - openapi/navision-sales-orders-api-openapi.yml
+  - openapi/navision-scheduled-jobs-api-openapi.yml
+  - openapi/navision-security-groups-api-openapi.yml
+  - openapi/navision-storage-api-openapi.yml
+  - openapi/navision-support-settings-api-openapi.yml
+  - openapi/navision-update-management-api-openapi.yml
+  - openapi/navision-users-api-openapi.yml
+  - openapi/navision-vendor-payments-api-openapi.yml
+  - openapi/navision-vendors-api-openapi.yml
   type: http
 slug: navision-authentication
 source_filename: navision-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/admin-center-api.yml, openapi/automation-api.yml, openapi/business-central-api-v2.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n    scopes: 1\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n    scopes: 1\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n  sources:\n  - openapi/admin-center-api.yml\n  - openapi/automation-api.yml\n  - openapi/business-central-api-v2.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/admin-center-api.yml\n  - openapi/automation-api.yml\n  - openapi/business-central-api-v2.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/navision-accounts-api-openapi.yml, openapi/navision-app-management-api-openapi.yml,\n  openapi/navision-available-applications-api-openapi.yml, openapi/navision-companies-api-openapi.yml,\n  openapi/navision-configuration-packages-api-openapi.yml, openapi/navision-countries-regions-api-openapi.yml,\n  openapi/navision-currency-api-openapi.yml, openapi/navision-customer-payments-api-openapi.yml,\n  openapi/navision-customers-api-openapi.yml, openapi/navision-dimensions-api-openapi.yml, openapi/navision-employees-api-openapi.yml,\n  openapi/navision-environment-operations-api-openapi.yml ...\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n\
+  \    scopes: 1\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token\n    scopes: 1\n  description: OAuth 2.0 authentication via Microsoft Entra ID\n  sources:\n  - openapi/navision-accounts-api-openapi.yml\n  - openapi/navision-app-management-api-openapi.yml\n  - openapi/navision-available-applications-api-openapi.yml\n  - openapi/navision-companies-api-openapi.yml\n  - openapi/navision-configuration-packages-api-openapi.yml\n  - openapi/navision-countries-regions-api-openapi.yml\n  - openapi/navision-currency-api-openapi.yml\n  - openapi/navision-customer-payments-api-openapi.yml\n  - openapi/navision-customers-api-openapi.yml\n  - openapi/navision-dimensions-api-openapi.yml\n  - openapi/navision-employees-api-openapi.yml\n  - openapi/navision-environment-operations-api-openapi.yml\n  - openapi/navision-environment-settings-api-openapi.yml\n  - openapi/navision-environments-api-openapi.yml\n  - openapi/navision-extension-deployment-status-api-openapi.yml\n\
+  \  - openapi/navision-extension-upload-api-openapi.yml\n  - openapi/navision-extensions-api-openapi.yml\n  - openapi/navision-features-api-openapi.yml\n  - openapi/navision-item-categories-api-openapi.yml\n  - openapi/navision-items-api-openapi.yml\n  - openapi/navision-journals-api-openapi.yml\n  - openapi/navision-notifications-api-openapi.yml\n  - openapi/navision-payment-methods-api-openapi.yml\n  - openapi/navision-payment-terms-api-openapi.yml\n  - openapi/navision-permission-sets-api-openapi.yml\n  - openapi/navision-profiles-api-openapi.yml\n  - openapi/navision-purchase-invoices-api-openapi.yml\n  - openapi/navision-purchase-orders-api-openapi.yml\n  - openapi/navision-sales-invoices-api-openapi.yml\n  - openapi/navision-sales-orders-api-openapi.yml\n  - openapi/navision-scheduled-jobs-api-openapi.yml\n  - openapi/navision-security-groups-api-openapi.yml\n  - openapi/navision-storage-api-openapi.yml\n  - openapi/navision-support-settings-api-openapi.yml\n  - openapi/navision-update-management-api-openapi.yml\n\
+  \  - openapi/navision-users-api-openapi.yml\n  - openapi/navision-vendor-payments-api-openapi.yml\n  - openapi/navision-vendors-api-openapi.yml\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Bearer token obtained from Microsoft Entra ID\n  sources:\n  - openapi/navision-accounts-api-openapi.yml\n  - openapi/navision-app-management-api-openapi.yml\n  - openapi/navision-available-applications-api-openapi.yml\n  - openapi/navision-companies-api-openapi.yml\n  - openapi/navision-configuration-packages-api-openapi.yml\n  - openapi/navision-countries-regions-api-openapi.yml\n  - openapi/navision-currency-api-openapi.yml\n  - openapi/navision-customer-payments-api-openapi.yml\n  - openapi/navision-customers-api-openapi.yml\n  - openapi/navision-dimensions-api-openapi.yml\n  - openapi/navision-employees-api-openapi.yml\n  - openapi/navision-environment-operations-api-openapi.yml\n  - openapi/navision-environment-settings-api-openapi.yml\n  - openapi/navision-environments-api-openapi.yml\n\
+  \  - openapi/navision-extension-deployment-status-api-openapi.yml\n  - openapi/navision-extension-upload-api-openapi.yml\n  - openapi/navision-extensions-api-openapi.yml\n  - openapi/navision-features-api-openapi.yml\n  - openapi/navision-item-categories-api-openapi.yml\n  - openapi/navision-items-api-openapi.yml\n  - openapi/navision-journals-api-openapi.yml\n  - openapi/navision-notifications-api-openapi.yml\n  - openapi/navision-payment-methods-api-openapi.yml\n  - openapi/navision-payment-terms-api-openapi.yml\n  - openapi/navision-permission-sets-api-openapi.yml\n  - openapi/navision-profiles-api-openapi.yml\n  - openapi/navision-purchase-invoices-api-openapi.yml\n  - openapi/navision-purchase-orders-api-openapi.yml\n  - openapi/navision-sales-invoices-api-openapi.yml\n  - openapi/navision-sales-orders-api-openapi.yml\n  - openapi/navision-scheduled-jobs-api-openapi.yml\n  - openapi/navision-security-groups-api-openapi.yml\n  - openapi/navision-storage-api-openapi.yml\n  - openapi/navision-support-settings-api-openapi.yml\n\
+  \  - openapi/navision-update-management-api-openapi.yml\n  - openapi/navision-users-api-openapi.yml\n  - openapi/navision-vendor-payments-api-openapi.yml\n  - openapi/navision-vendors-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/navision/authentication/navision-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:

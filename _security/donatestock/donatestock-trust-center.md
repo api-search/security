@@ -25,7 +25,7 @@ tags:
 - Company
 - Finance
 - Charity
-- Stock
+- Stocks
 - Donations
 - Platform
 trust_url: https://donatestock.com/security

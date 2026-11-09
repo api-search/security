@@ -39,13 +39,15 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/microsoft-onedrive-openapi.yml
+  - openapi/microsoft-onedrive-drive-items-api-openapi.yml
+  - openapi/microsoft-onedrive-drives-api-openapi.yml
+  - openapi/microsoft-onedrive-sharing-api-openapi.yml
   type: http
 slug: microsoft-onedrive-authentication
 source_filename: microsoft-onedrive-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-onedrive-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-onedrive-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-onedrive-drive-items-api-openapi.yml, openapi/microsoft-onedrive-drives-api-openapi.yml,\n  openapi/microsoft-onedrive-sharing-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-onedrive-drive-items-api-openapi.yml\n  - openapi/microsoft-onedrive-drives-api-openapi.yml\n  - openapi/microsoft-onedrive-sharing-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-onedrive/authentication/microsoft-onedrive-authentication.yml
 summary_line: http · 1 scheme
 tags:

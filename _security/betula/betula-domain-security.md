@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: betula-betula-api-api-openapi.yml
-  format: yaml
-  label: Betula API
-  slug: betula-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/betula/openapi/betula-betula-api-api-openapi.yml
 - filename: betula-openapi-generated.yml
   format: yaml
   label: Betula API
@@ -46,7 +40,7 @@ tags:
 - Bookmark Manager
 - Federated
 - Open Source
-- Self-hosted
+- Self-Hosted
 - Independent Web
 - Company
 ---

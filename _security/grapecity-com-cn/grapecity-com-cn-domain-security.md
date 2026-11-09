@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/grapecity-com-cn/security/grapecity-c
 summary_line: TLSv1.2
 tags:
 - Software
-- Low-code
+- Low-Code
 - Developer Tools
 - Business Intelligence
 - China

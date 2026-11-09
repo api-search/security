@@ -52,7 +52,7 @@ tags:
 - Open Finance
 - PSD2
 - PSD3
-- FiDA
+- FIDA
 - TPP Verification
 - Identity
 - eIDAS

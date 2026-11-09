@@ -75,6 +75,7 @@ tags:
 - SolarInverter
 - Home Battery
 - GraphQL
-- Authentication
+- OAuth
 - Nordic
+- Authentication
 ---

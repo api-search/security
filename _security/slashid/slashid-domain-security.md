@@ -93,6 +93,7 @@ tags:
 - Passkeys
 - User Management
 - CIAM
+- OAuth
 - OpenID Connect
 - SSO
 - RBAC

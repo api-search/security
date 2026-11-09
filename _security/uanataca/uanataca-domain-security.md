@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/uanataca/security/uanataca-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- DigitalIdentity
-- ElectronicSignature
-- Wallet
+- Digital Identity
+- E-Signature
+- Wallets
 - Enterprise
 ---

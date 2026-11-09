@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Energy
-- DataPlatform
+- Data Platform
 - Analytics
-- API
 ---

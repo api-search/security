@@ -79,8 +79,7 @@ source_yaml_url: https://artifacts.apis.io/shotkiln-com/authentication/shotkiln-
 summary_line: 1 scheme
 tags:
 - Company
-- Screenshot
-- API
+- Screenshots
 - Web
 - Automation
 ---

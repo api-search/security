@@ -19,8 +19,8 @@ source_yaml_url: https://artifacts.apis.io/stepsize/security/stepsize-trust-cent
 summary_line: SOC 2
 tags:
 - Company
-- AI
-- Dashboard
+- Artificial Intelligence
+- Dashboards
 - Jira
 - Linear
 - Software-Management

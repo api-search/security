@@ -44,7 +44,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Audio
-- API
 - Free
 - CC0
 ---

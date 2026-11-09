@@ -60,7 +60,7 @@ source_yaml_url: https://artifacts.apis.io/auteng-ai/security/auteng-ai-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Documentation
 - Technical Writing
 - Markdown

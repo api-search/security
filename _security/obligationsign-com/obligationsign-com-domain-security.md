@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/obligationsign-com/security/obligatio
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance
 - Security
 - Infrastructure

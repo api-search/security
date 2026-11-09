@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: firmledger-co-ke-mcp-api-openapi.yml
-  format: yaml
-  label: FirmLedger MCP API
-  slug: firmledger-mcp-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/firmledger-co-ke/openapi/firmledger-co-ke-mcp-api-openapi.yml
 - filename: firmledger-co-ke-openapi-generated.yml
   format: yaml
   label: FirmLedger API
@@ -55,7 +49,6 @@ summary_line: 3 schemes
 tags:
 - Company
 - Directory
-- Business-Intelligence
+- Business Intelligence
 - Kenya
-- API
 ---

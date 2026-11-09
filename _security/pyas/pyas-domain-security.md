@@ -33,7 +33,6 @@ tags:
 - Company
 - Calendar
 - Integration
-- API
-- Startup
-- SaaS
+- Startups
+- Software-as-a-Service
 ---

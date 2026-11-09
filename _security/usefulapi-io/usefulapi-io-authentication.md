@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - MCP
-- SaaS
+- Software-as-a-Service
 - API Hosting
 - Developer Tools
 ---

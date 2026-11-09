@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Integration
-- AI
+- Artificial Intelligence
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

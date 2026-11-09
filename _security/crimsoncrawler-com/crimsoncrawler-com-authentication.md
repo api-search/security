@@ -34,9 +34,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://crimson
 source_yaml_url: https://artifacts.apis.io/crimsoncrawler-com/authentication/crimsoncrawler-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- API
 - CVE
-- Threat-Intelligence
+- Threat Intelligence
 - Security
-- Data-API
+- Data API
 ---

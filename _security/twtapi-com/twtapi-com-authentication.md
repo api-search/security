@@ -82,9 +82,8 @@ summary_line: 2 schemes
 tags:
 - Twitter
 - X
-- API
 - Data
 - Search
 - Monitoring
-- AI
+- Artificial Intelligence
 ---

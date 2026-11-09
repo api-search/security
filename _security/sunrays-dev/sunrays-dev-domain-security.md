@@ -32,8 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Booking
-- Local-Services
+- Local Services
 - MCP
 - Agent-Callable
-- API
 ---

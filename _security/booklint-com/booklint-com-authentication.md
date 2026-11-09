@@ -124,7 +124,6 @@ tags:
 - Finance
 - Spending
 - Automation
-- API
 - Guardrails
-- SaaS
+- Software-as-a-Service
 ---

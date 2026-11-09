@@ -117,7 +117,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Bot
-- Chatbot
+- Chatbots
 - Recipes
 - Automation
 - Integration

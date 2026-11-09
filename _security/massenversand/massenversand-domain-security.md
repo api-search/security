@@ -38,8 +38,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - SMS
 - Messaging
-- API
 - Marketing
 - Germany
-- Communication
+- Communications
 ---

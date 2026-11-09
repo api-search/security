@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/withsherpa-ai/security/withsherpa-ai-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- WebsitePlatform
-- LowCode
+- Artificial Intelligence
+- Website Platform
+- Low-Code
 - Collaboration
 ---

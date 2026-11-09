@@ -29,7 +29,7 @@ tags:
 - Human Risk Management
 - Insider Threat
 - Phishing Defense
-- Social Engineering
+- Social-Engineering
 - Security Awareness Training
 - Behavioral Analytics
 - User Risk Scoring

@@ -52,6 +52,7 @@ tags:
 - Open Banking
 - Account
 - Transaction
-- Authentication
+- OAuth
 - Consumer Banking
+- Authentication
 ---

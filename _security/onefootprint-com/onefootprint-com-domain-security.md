@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/onefootprint-com/security/onefootprin
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Risk Management
 - ESG
 - Sustainability

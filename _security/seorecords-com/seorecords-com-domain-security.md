@@ -34,6 +34,6 @@ tags:
 - SEO
 - Performance
 - Web
-- SaaS
+- Software-as-a-Service
 - French
 ---

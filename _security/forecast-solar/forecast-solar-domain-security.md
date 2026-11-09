@@ -82,6 +82,5 @@ tags:
 - Company
 - Solar
 - Forecast
-- API
 - Renewable Energy
 ---

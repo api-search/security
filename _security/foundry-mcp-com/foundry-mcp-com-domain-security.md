@@ -63,7 +63,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - FoundryVTT
 - MCP
-- AI
+- Artificial Intelligence
 - Gaming
 - Automation
 ---

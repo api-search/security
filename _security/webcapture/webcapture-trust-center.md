@@ -20,10 +20,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/webcapture/security/webcapture-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
-- WebCapture
+- Web Capture
 - PDF
-- API
-- SaaS
+- Software-as-a-Service
 - Automation
 trust_url: https://webcapture.io/security
 ---

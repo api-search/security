@@ -20,8 +20,8 @@ source_yaml_url: https://artifacts.apis.io/chatsimple-ai/security/chatsimple-ai-
 summary_line: SOC 2, HIPAA
 tags:
 - Enterprise AI
-- Customer Support
-- Multi‑Channel
+- Customer Service
+- Multi-Channel
 - AI Deployment
 trust_url: https://www.expertise.ai/security
 ---

@@ -199,9 +199,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/wakato-io/authentication/wakato-io-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - BusinessPlatform
-- NoCode
+- No-Code
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

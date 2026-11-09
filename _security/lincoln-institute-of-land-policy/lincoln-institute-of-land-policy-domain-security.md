@@ -34,6 +34,6 @@ tags:
 - Company
 - Research
 - LandPolicy
-- Nonprofit
+- Non-Profit
 - Education
 ---

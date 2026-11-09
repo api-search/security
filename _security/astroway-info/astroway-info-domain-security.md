@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Astrology
 - Horoscope
-- NatalChart
+- Natal Chart
 - Ukrainian
 - OnlinePortal
 ---

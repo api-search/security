@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Communications
-- AI
-- Unified-Communications
-- Contact-Center
+- Artificial Intelligence
+- Unified Communications
+- Contact Center
 ---

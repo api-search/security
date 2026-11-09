@@ -39,8 +39,8 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Finance
-- AI
+- Artificial Intelligence
 - Banking
-- Crypto
+- Cryptocurrency
 - Payments
 ---

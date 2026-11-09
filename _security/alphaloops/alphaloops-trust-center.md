@@ -80,7 +80,7 @@ tags:
 - carrier data
 - Freight
 - Trucking
-- motor carrier
+- Motor Carrier
 - fleet intelligence
 - Sales Intelligence
 - MCP Server

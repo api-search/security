@@ -66,7 +66,6 @@ summary_line: 0 schemes
 tags:
 - Company
 - Developer Tools
-- API
 - OpenAPI
 - MCP
 ---

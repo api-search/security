@@ -30,9 +30,8 @@ source_yaml_url: https://artifacts.apis.io/pdfops-dev/authentication/pdfops-dev-
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - PDF
-- AI
-- No-code
+- Artificial Intelligence
+- No-Code
 - Python
 ---

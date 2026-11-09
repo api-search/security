@@ -44,6 +44,4 @@ tags:
 - Image Hosting
 - File Sharing
 - Video Hosting
-- Free Service
-- No Sign-up
 ---

@@ -56,8 +56,7 @@ source_yaml_url: https://artifacts.apis.io/rootline/security/rootline-domain-sec
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments
-- FinTech
-- EmbeddedPayments
-- API
+- Fintech
+- Embedded Payments
 - Platform
 ---

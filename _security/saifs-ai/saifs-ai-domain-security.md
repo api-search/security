@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/saifs-ai/security/saifs-ai-domain-sec
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Content Creation
 - Video Generation
 - Image Generation

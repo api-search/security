@@ -20,7 +20,7 @@ source_yaml_url: https://artifacts.apis.io/replicas-dev/security/replicas-dev-tr
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cloud
 - Platform
 - Development

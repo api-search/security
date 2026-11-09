@@ -63,6 +63,48 @@ api_specs:
   slug: bunny-net-api-keys-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-api-keys-api-openapi.yml
+- filename: bunny-net-dns-zone-api-openapi.yml
+  format: yaml
+  label: Bunny.net DNS Zone API
+  slug: bunny-net-dns-zone-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-dns-zone-api-openapi.yml
+- filename: bunny-net-pull-zone-api-openapi.yml
+  format: yaml
+  label: Bunny.net Pull Zone API
+  slug: bunny-net-pull-zone-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-pull-zone-api-openapi.yml
+- filename: bunny-net-region-api-openapi.yml
+  format: yaml
+  label: Bunny.net Region API
+  slug: bunny-net-region-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-region-api-openapi.yml
+- filename: bunny-net-search-api-openapi.yml
+  format: yaml
+  label: Bunny.net Search API
+  slug: bunny-net-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-search-api-openapi.yml
+- filename: bunny-net-storage-zone-api-openapi.yml
+  format: yaml
+  label: Bunny.net Storage Zone API
+  slug: bunny-net-storage-zone-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-storage-zone-api-openapi.yml
+- filename: bunny-net-stream-video-library-api-openapi.yml
+  format: yaml
+  label: Bunny.net Stream Video Library API
+  slug: bunny-net-stream-video-library-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-stream-video-library-api-openapi.yml
+- filename: bunny-net-user-api-openapi.yml
+  format: yaml
+  label: Bunny.net User API
+  slug: bunny-net-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-user-api-openapi.yml
 - filename: bunny-net-dns-zones-api-openapi.yml
   format: yaml
   label: Bunny.net DNS Zones API

@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/sunflower-labs/security/sunflower-lab
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agriculture
 - IoT
-- Data-Analytics
-- Venture-Capital
+- Data Analytics
+- Venture Capital
 ---

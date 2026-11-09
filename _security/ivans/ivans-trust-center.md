@@ -420,6 +420,78 @@ api_specs:
   slug: ivans-warptransaction-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/ivans/openapi/ivans-warptransaction-api-openapi.yml
+- filename: ivans-accounts-api-openapi.yml
+  format: yaml
+  label: IVANS Accounts API
+  slug: ivans-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-accounts-api-openapi.yml
+- filename: ivans-auth0-api-openapi.yml
+  format: yaml
+  label: IVANS Auth0 API
+  slug: ivans-auth0-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-auth0-api-openapi.yml
+- filename: ivans-bookroll-api-openapi.yml
+  format: yaml
+  label: IVANS Bookroll API
+  slug: ivans-bookroll-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-bookroll-api-openapi.yml
+- filename: ivans-dynamic-renderer-api-openapi.yml
+  format: yaml
+  label: IVANS Dynamic Renderer API
+  slug: ivans-dynamic-renderer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-dynamic-renderer-api-openapi.yml
+- filename: ivans-dynamic-renderer-v2-api-openapi.yml
+  format: yaml
+  label: IVANS Dynamic Renderer v2 API
+  slug: ivans-dynamic-renderer-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-dynamic-renderer-v2-api-openapi.yml
+- filename: ivans-organizations-api-openapi.yml
+  format: yaml
+  label: IVANS Organizations API
+  slug: ivans-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-organizations-api-openapi.yml
+- filename: ivans-product-groups-api-openapi.yml
+  format: yaml
+  label: IVANS Product Groups API
+  slug: ivans-product-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-product-groups-api-openapi.yml
+- filename: ivans-product-profiles-api-openapi.yml
+  format: yaml
+  label: IVANS Product Profiles API
+  slug: ivans-product-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-product-profiles-api-openapi.yml
+- filename: ivans-products-api-openapi.yml
+  format: yaml
+  label: IVANS Products API
+  slug: ivans-products-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-products-api-openapi.yml
+- filename: ivans-saved-filters-api-openapi.yml
+  format: yaml
+  label: IVANS Saved Filters API
+  slug: ivans-saved-filters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-saved-filters-api-openapi.yml
+- filename: ivans-user-management-api-openapi.yml
+  format: yaml
+  label: IVANS User Management API
+  slug: ivans-user-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-user-management-api-openapi.yml
+- filename: ivans-webhooks-api-openapi.yml
+  format: yaml
+  label: IVANS Webhooks API
+  slug: ivans-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-webhooks-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2

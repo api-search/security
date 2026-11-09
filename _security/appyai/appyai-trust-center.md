@@ -22,9 +22,9 @@ source_yaml_url: https://artifacts.apis.io/appyai/security/appyai-trust-center.y
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Analytics
 - Automation
-- Machine-Learning
+- Machine Learning
 trust_url: https://trust.appy.ai/
 ---

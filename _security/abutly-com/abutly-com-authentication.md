@@ -46,7 +46,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Construction
-- LegalTech
+- Legal Tech
 - PartyWall
-- UK
+- United Kingdom
 ---

@@ -38,6 +38,7 @@ source_yaml_url: https://artifacts.apis.io/wraps-dev/security/wraps-dev-domain-s
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Email
+- Amazon Web Services
 - SES
 - Infrastructure
 - Platform

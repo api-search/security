@@ -38,8 +38,8 @@ summary_line: 2 schemes
 tags:
 - Company
 - Security
-- PenetrationTesting
-- OffensiveSecurity
-- SaaS
+- Penetration Testing
+- Offensive Security
+- Software-as-a-Service
 - Platform
 ---

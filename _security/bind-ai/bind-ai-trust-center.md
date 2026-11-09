@@ -21,9 +21,9 @@ summary_line: SOC 2, HIPAA
 tags:
 - Company
 - Insurance
-- AI
+- Artificial Intelligence
 - Brokerage
 - Automation
-- SaaS
+- Software-as-a-Service
 trust_url: https://security.bind.ai/
 ---

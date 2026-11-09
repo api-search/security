@@ -124,7 +124,7 @@ tags:
 - MCP
 - Agents
 - Webhook
-- Authentication
+- OAuth
 - Sales Engagement
 - Email
 - Sales
@@ -132,4 +132,5 @@ tags:
 - Productivity
 - Meetings
 - Sequences
+- Authentication
 ---

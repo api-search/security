@@ -29,8 +29,8 @@ summary_line: DMARC
 tags:
 - Company
 - HVAC
-- Air-Conditioning
+- Air Conditioning
 - Refrigeration
-- Climate-Control
+- Climate Control
 - Manufacturing
 ---

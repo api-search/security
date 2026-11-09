@@ -65,6 +65,5 @@ tags:
 - Baseball
 - Sports
 - Data
-- API
 - MLB
 ---

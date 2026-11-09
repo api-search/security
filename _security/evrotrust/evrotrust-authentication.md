@@ -93,7 +93,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Trust Services
-- Electronic Signatures
+- E-Signature
 - Digital Identity
 - eIDAS
 - KYC

@@ -107,8 +107,7 @@ source_yaml_url: https://artifacts.apis.io/marketsdk/authentication/marketsdk-au
 summary_line: 1 scheme
 tags:
 - Marketplace
-- API
-- SaaS
+- Software-as-a-Service
 - Payments
 - Trust
 ---

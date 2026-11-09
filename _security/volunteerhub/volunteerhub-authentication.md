@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/volunteerhub/authentication/volunteer
 summary_line: 0 schemes
 tags:
 - Volunteer Management
-- Nonprofit
+- Non-Profit
 - Scheduling
-- Recruitment
+- Recruiting
 - Platform
 ---

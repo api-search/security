@@ -61,7 +61,6 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Weather
-- API
 - Forecast
 - Data
 ---

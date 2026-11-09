@@ -33,6 +33,6 @@ tags:
 - Company
 - Biotechnology
 - Oncology
-- PrecisionMedicine
-- DrugDiscovery
+- Precision Medicine
+- Drug Discovery
 ---

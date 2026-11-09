@@ -34,5 +34,5 @@ tags:
 - Software
 - Hotel Management
 - German Market
-- SaaS
+- Software-as-a-Service
 ---

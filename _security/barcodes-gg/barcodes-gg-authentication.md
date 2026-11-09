@@ -61,8 +61,7 @@ source_yaml_url: https://artifacts.apis.io/barcodes-gg/authentication/barcodes-g
 summary_line: 1 scheme
 tags:
 - Company
-- API
-- Barcode
+- Barcodes
 - Sneaker
 - Streetwear
 ---

@@ -33,6 +33,5 @@ tags:
 - Company
 - Mobile
 - Web
-- API
-- Developer
+- Developers
 ---

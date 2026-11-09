@@ -33,5 +33,4 @@ tags:
 - Platform
 - Enterprise
 - Israel
-- API
 ---

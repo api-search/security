@@ -99,7 +99,6 @@ summary_line: http · 1 scheme
 tags:
 - Blockchain
 - Risk Intelligence
-- API
-- Crypto
-- On-chain Data
+- Cryptocurrency
+- On-Chain Data
 ---

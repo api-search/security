@@ -237,6 +237,12 @@ api_specs:
   slug: chatwoot-platform-users-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/chatwoot/openapi/chatwoot-platform-users-api-openapi.yml
+- filename: chatwoot-campaigns-api-openapi.yml
+  format: yaml
+  label: Chatwoot Campaigns API
+  slug: chatwoot-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chatwoot/openapi/chatwoot-campaigns-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

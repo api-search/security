@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/acjlabs-com/authentication/acjlabs-co
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- AgenticCommerce
-- OpenSource
+- Artificial Intelligence
+- Agentic Commerce
+- Open Source
 - Australia
 ---

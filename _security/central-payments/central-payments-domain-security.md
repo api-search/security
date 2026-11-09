@@ -34,6 +34,5 @@ tags:
 - Company
 - Fintech
 - Payments
-- EmbeddedFinance
-- API
+- Embedded Finance
 ---

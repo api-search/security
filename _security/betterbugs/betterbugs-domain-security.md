@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/betterbugs/security/betterbugs-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- BugTracking
-- SaaS
+- Bug Tracking
+- Software-as-a-Service
 - Collaboration
-- SoftwareQuality
+- Software Quality
 ---

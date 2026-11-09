@@ -39,7 +39,7 @@ source_yaml: "generated: '2026-10-28'\nmethod: derived\nsource: openapi/pyload-a
 source_yaml_url: https://artifacts.apis.io/pyload/authentication/pyload-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Download Manager
+- Download-Manager
 - Open Source
 - Python
 - Automation

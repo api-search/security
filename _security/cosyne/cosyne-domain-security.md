@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/cosyne/security/cosyne-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- DrugDiscovery
-- PrecisionMedicine
+- Artificial Intelligence
+- Drug Discovery
+- Precision Medicine
 - BrainCancer
 ---

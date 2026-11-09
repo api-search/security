@@ -26,6 +26,7 @@ tags:
 - Licensing
 - NIPR
 - REST
+- OAuth
 - Authentication
 trust_url: https://trust.agentsync.io/
 ---

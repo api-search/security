@@ -157,5 +157,9 @@ tags:
 - Data Lake
 - Cloud Security
 - Developer Tools
+- Artificial Intelligence
+- SOC
+- Cloud
+- Automation
 trust_url: https://app.drata.com/trust/9cc4fddc-0c38-11ee-865f-029d78a187d9
 ---

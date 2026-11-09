@@ -90,4 +90,7 @@ tags:
 - Data Integration
 - MCP
 - SCIM
+- Data Platform
+- Visualization
+- Collaboration
 ---

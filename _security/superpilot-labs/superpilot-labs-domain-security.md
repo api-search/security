@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/superpilot-labs/security/superpilot-l
 summary_line: TLSv1.3 · DMARC
 tags:
 - Marketing
-- AI
+- Artificial Intelligence
 - Commerce
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

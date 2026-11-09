@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/urbackup/security/urbackup-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Backup
-- OpenSource
-- ClientServer
+- Open Source
+- Client-Server
 - Windows
 - Linux
 - FreeBSD

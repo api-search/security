@@ -25,5 +25,8 @@ tags:
 - Federated Query
 - Data Governance
 - Business Intelligence
+- Data Platform
+- Analytics
+- Apache Iceberg
 trust_url: https://trust.starburst.io/
 ---

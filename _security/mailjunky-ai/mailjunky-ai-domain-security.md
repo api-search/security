@@ -68,7 +68,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Email Marketing
-- AI
+- Artificial Intelligence
 - Automation
 - Analytics
 ---

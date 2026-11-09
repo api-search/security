@@ -88,6 +88,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-s3-glacier/security/amazon-s3-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Archives
+- Amazon Web Services
 - Backup
 - Storage
 ---

@@ -32,9 +32,8 @@ source_yaml_url: https://artifacts.apis.io/ragfeed-de/security/ragfeed-de-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Web Scraping
-- API
-- AI Data
+- Ai Data
 - EU Hosting
 - Compliance
-- SaaS
+- Software-as-a-Service
 ---

@@ -35,4 +35,10 @@ tags:
 - Intelligence
 - Arabic
 - Marketing
+- Media Intelligence
+- Arabic Content
+- Advertising
+- Audience Analytics
+- Podcasts
+- Content Production
 ---

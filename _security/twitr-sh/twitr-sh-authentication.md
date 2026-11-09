@@ -89,9 +89,8 @@ source_yaml_url: https://artifacts.apis.io/twitr-sh/authentication/twitr-sh-auth
 summary_line: 3 schemes
 tags:
 - Company
-- API
 - X
 - Twitter
 - Pay-per-call
-- AI
+- Artificial Intelligence
 ---

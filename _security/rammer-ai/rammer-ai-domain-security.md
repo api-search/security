@@ -30,10 +30,10 @@ source_yaml_url: https://artifacts.apis.io/rammer-ai/security/rammer-ai-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- Conversation
+- Artificial Intelligence
+- Conversations
 - Speech
-- NLP
-- Real-time
-- Communication
+- Natural Language Processing
+- Real-Time
+- Communications
 ---

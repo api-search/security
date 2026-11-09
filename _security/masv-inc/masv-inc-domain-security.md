@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/masv-inc/security/masv-inc-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FileTransfer
+- File Transfer
 - Media
-- CloudIntegration
+- Cloud Integration
 - Enterprise
 ---

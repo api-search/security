@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Networking
-- WiFi
-- AI
+- Wi-Fi
+- Artificial Intelligence
 - Enterprise
 ---

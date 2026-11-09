@@ -31,7 +31,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Payments
-- FinTech
-- API
-- GlobalPayments
+- Fintech
+- Global Payments
 ---

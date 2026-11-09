@@ -32,7 +32,6 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Fantasy Sports
-- API
 - Sports
 - Football
 ---

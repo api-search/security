@@ -80,9 +80,8 @@ summary_line: TLSv1.3
 tags:
 - Twitter
 - X
-- API
 - Data
 - Search
 - Monitoring
-- AI
+- Artificial Intelligence
 ---

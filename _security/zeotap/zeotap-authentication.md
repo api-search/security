@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/zeotap/authentication/zeotap-authenti
 summary_line: 2 schemes
 tags:
 - Company
-- AI
-- Customer-Data-Platform
-- Data-Integration
-- Identity-Resolution
+- Artificial Intelligence
+- Customer Data Platform
+- Data Integration
+- Identity Resolution
 ---

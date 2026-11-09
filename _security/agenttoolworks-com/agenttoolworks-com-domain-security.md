@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/agenttoolworks-com/security/agenttool
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Verification
-- DataTools
-- Scraping
+- Data Tools
+- Web Scraping
 ---

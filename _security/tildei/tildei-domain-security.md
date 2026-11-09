@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Event Management
 - Booking Platform
-- SaaS
+- Software-as-a-Service
 - AI Analytics
 - Secure Cloud
 ---

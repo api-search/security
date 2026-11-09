@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: ottic-plants-api-openapi.yml
-  format: yaml
-  label: Ottic API
-  slug: ottic-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/ottic/openapi/ottic-plants-api-openapi.yml
 description: ''
 domains:
 - caa: []

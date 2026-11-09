@@ -21,8 +21,8 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Automation
-- Workflow
+- Workflows
 - Integration
-- SaaS
+- Software-as-a-Service
 trust_url: https://nextmatter.com/security
 ---

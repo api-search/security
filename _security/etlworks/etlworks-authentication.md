@@ -47,6 +47,5 @@ tags:
 - Company
 - Data Integration
 - ETL
-- API
 - Cloud
 ---

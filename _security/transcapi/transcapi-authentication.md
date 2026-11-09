@@ -76,7 +76,6 @@ summary_line: 2 schemes
 tags:
 - Company
 - Transport
-- API
-- UK
+- United Kingdom
 - Ireland
 ---

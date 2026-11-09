@@ -44,7 +44,6 @@ summary_line: 0 schemes
 tags:
 - Company
 - Federation
-- OnPremise
+- On-Premises
 - Commerce
-- API
 ---

@@ -75,10 +75,9 @@ source_yaml_url: https://artifacts.apis.io/pdfs-build/security/pdfs-build-trust-
 summary_line: SOC 2, ISO 27001
 tags:
 - PDF
-- API
-- TemplateEngine
+- Template Engine
 - Rendering
-- SaaS
-- DocumentGeneration
+- Software-as-a-Service
+- Document Generation
 trust_url: https://pdfs.build/security/
 ---

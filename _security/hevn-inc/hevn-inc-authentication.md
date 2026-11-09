@@ -177,18 +177,66 @@ api_specs:
   slug: hevn-inc-xero-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-xero-api-openapi.yml
+- filename: hevn-inc-accounts-api-openapi.yml
+  format: yaml
+  label: Hevn Accounts API
+  slug: hevn-inc-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-accounts-api-openapi.yml
+- filename: hevn-inc-b2b-api-openapi.yml
+  format: yaml
+  label: Hevn B2B API
+  slug: hevn-inc-b2b-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-b2b-api-openapi.yml
+- filename: hevn-inc-catalog-api-openapi.yml
+  format: yaml
+  label: Hevn Catalog API
+  slug: hevn-inc-catalog-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-catalog-api-openapi.yml
+- filename: hevn-inc-contacts-api-openapi.yml
+  format: yaml
+  label: Hevn Contacts API
+  slug: hevn-inc-contacts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-contacts-api-openapi.yml
+- filename: hevn-inc-escrow-api-openapi.yml
+  format: yaml
+  label: Hevn Escrow API
+  slug: hevn-inc-escrow-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-escrow-api-openapi.yml
+- filename: hevn-inc-sandbox-api-openapi.yml
+  format: yaml
+  label: Hevn Sandbox API
+  slug: hevn-inc-sandbox-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-sandbox-api-openapi.yml
+- filename: hevn-inc-transfers-api-openapi.yml
+  format: yaml
+  label: Hevn Transfers API
+  slug: hevn-inc-transfers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-transfers-api-openapi.yml
+- filename: hevn-inc-verification-api-openapi.yml
+  format: yaml
+  label: Hevn Verification API
+  slug: hevn-inc-verification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-verification-api-openapi.yml
+- filename: hevn-inc-virtual-accounts-api-openapi.yml
+  format: yaml
+  label: Hevn virtual accounts API
+  slug: hevn-inc-virtual-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-virtual-accounts-api-openapi.yml
 - filename: hevn-inc-2-fa-api-openapi.yml
   format: yaml
   label: Hevn 2 FA API
   slug: hevn-inc-2-fa-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-2-fa-api-openapi.yml
-- filename: hevn-inc-b2-b-api-openapi.yml
-  format: yaml
-  label: Hevn B2B API
-  slug: hevn-inc-b2-b-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-b2-b-api-openapi.yml
 auth_types:
 - apiKey
 - http

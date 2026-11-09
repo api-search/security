@@ -42,5 +42,5 @@ tags:
 - Bookkeeping
 - Automation
 - Accounting
-- AI
+- Artificial Intelligence
 ---

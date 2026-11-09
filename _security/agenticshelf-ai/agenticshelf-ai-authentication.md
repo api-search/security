@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/agenticshelf-ai/authentication/agenti
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Commerce
 - MCP
 - Auditing

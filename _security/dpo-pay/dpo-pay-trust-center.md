@@ -22,7 +22,7 @@ tags:
 - Company
 - Payments
 - Africa
-- FinTech
-- E‑commerce
+- Fintech
+- E-Commerce
 trust_url: https://dpogroup.com/compliance/
 ---

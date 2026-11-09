@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Manufacturing
-- Additive Manufacturing
 - 3D Printing
 - Aerospace
 - Automotive

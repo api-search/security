@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Contract Lifecycle Management
 - Legal Tech
-- Electronic Signature
+- E-Signature
 - Generative AI
 - Real Estate
 - Corporations

@@ -119,6 +119,5 @@ tags:
 - Company
 - Logistics
 - Delivery
-- API
 - Platform
 ---

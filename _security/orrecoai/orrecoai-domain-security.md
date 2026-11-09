@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/orrecoai/security/orrecoai-domain-sec
 summary_line: TLSv1.3 · HSTS
 tags:
 - Sports
-- AI
+- Artificial Intelligence
 - Analytics
-- HealthTech
+- Health Tech
 - Company
 ---

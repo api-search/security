@@ -45,7 +45,7 @@ source_yaml_url: https://artifacts.apis.io/shiprust/authentication/shiprust-auth
 summary_line: http · 1 scheme
 tags:
 - Rust
-- SaaS
+- Software-as-a-Service
 - Starter
 - Axum
 - PostgreSQL

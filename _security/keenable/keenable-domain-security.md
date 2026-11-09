@@ -45,7 +45,6 @@ source_yaml_url: https://artifacts.apis.io/keenable/security/keenable-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web Search
-- API
 - AI Agents
 - AI Labs
 - Inference Platforms

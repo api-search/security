@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/solarscope-io/security/solarscope-io-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Solar
-- AI
-- Renewable-Energy
+- Artificial Intelligence
+- Renewable Energy
 - Site-Screening
 - Mapping
 ---

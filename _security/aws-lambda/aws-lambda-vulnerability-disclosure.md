@@ -60,12 +60,6 @@ api_specs:
   slug: aws-lambda-code-signing-config-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-code-signing-config-api-openapi.yml
-- filename: aws-lambda-code-signing-configs-api-openapi.yml
-  format: yaml
-  label: AWS Lambda Lambda Code Signing Configs API
-  slug: aws-lambda-code-signing-configs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/aws-lambda/openapi/aws-lambda-code-signing-configs-api-openapi.yml
 - filename: aws-lambda-event-invoke-config-api-openapi.yml
   format: yaml
   label: AWS Lambda Lambda Event Invoke Config API

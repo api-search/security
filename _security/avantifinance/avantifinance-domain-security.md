@@ -33,5 +33,4 @@ tags:
 - Company
 - Fintech
 - Lending
-- Data-Driven
 ---

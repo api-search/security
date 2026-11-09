@@ -464,6 +464,18 @@ api_specs:
   slug: eden-ai-whoami-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-whoami-api-openapi.yml
+- filename: eden-ai-decisions-api-openapi.yml
+  format: yaml
+  label: Eden AI Decisions API
+  slug: eden-ai-decisions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-decisions-api-openapi.yml
+- filename: eden-ai-videos-api-openapi.yml
+  format: yaml
+  label: Eden AI Videos API
+  slug: eden-ai-videos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-videos-api-openapi.yml
 auth_types:
 - http
 description: ''

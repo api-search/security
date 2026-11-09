@@ -85,6 +85,7 @@ tags:
 - Media
 - Social
 - Writing
-- Authentication
+- OAuth
 - Deprecated API
+- Authentication
 ---

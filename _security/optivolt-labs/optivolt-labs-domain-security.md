@@ -39,4 +39,7 @@ tags:
 - Power Electronics
 - Solar Monitoring
 - IoT
+- Battery Management
+- Renewable Energy
+- Software-as-a-Service
 ---

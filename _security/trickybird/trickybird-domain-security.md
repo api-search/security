@@ -38,13 +38,12 @@ source_yaml_url: https://artifacts.apis.io/trickybird/security/trickybird-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - web proxy
-- unblock
-- no account
-- no install
+- Unblock
+- No-install
 - Browser
 - Agent-Native
 - WebMCP
-- llms-txt
+- Llms.txt
 - Privacy
 - network filtering circumvention
 ---

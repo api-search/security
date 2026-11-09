@@ -36,8 +36,8 @@ source_yaml_url: https://artifacts.apis.io/relaystation-ai/authentication/relays
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data-Relay
-- Real-time
+- Real-Time
 - Cloud
 ---

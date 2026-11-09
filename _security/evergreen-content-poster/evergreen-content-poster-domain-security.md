@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/evergreen-content-poster/security/eve
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- EmployeeRecognition
-- SaaS
+- Employee Recognition
+- Software-as-a-Service
 - ESG
-- WorkplaceCulture
+- Workplace Culture
 ---

@@ -99,7 +99,6 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - E-Invoicing
-- API
 - Finance
 - Compliance
 - European Standards

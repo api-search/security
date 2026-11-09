@@ -73,7 +73,8 @@ tags:
 - Identity and Access Management
 - SSO
 - Multi-Factor Authentication
-- Authentication
+- OAuth
 - Zero Trust
+- Authentication
 trust_url: https://trust.cyberark.com/
 ---

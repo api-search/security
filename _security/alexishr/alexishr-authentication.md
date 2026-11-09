@@ -33,7 +33,7 @@ tags:
 - People Analytics
 - Payroll
 - AI Chatbot
-- Integrations
+- Integration
 - Onboarding
 - Performance Management
 - User Provisioning

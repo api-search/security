@@ -32,6 +32,6 @@ tags:
 - Company
 - Venture
 - Techstars
-- Startup
+- Startups
 - Portfolio
 ---

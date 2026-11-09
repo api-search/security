@@ -32,6 +32,6 @@ tags:
 - Company
 - Education
 - Music
-- OnlineLearning
+- E-Learning
 - VocalCoaching
 ---

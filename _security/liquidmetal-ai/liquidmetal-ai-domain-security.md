@@ -32,5 +32,5 @@ tags:
 - Yield Control Plane
 - AI factories
 - GPU utilization
-- Control plane
+- Control Plane
 ---

@@ -1,0 +1,34 @@
+---
+api_specs:
+- filename: microsoft-powerpoint-drive-items-api-openapi.yml
+  format: yaml
+  label: Microsoft PowerPoint Drive Items API
+  slug: microsoft-powerpoint-drive-items-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-powerpoint/openapi/microsoft-powerpoint-drive-items-api-openapi.yml
+certification_count: 1
+certifications:
+- GDPR
+description: ''
+kind: trust-center
+layout: security
+name: Microsoft Powerpoint Trust Center
+name_suffix: Trust Center
+overview: Microsoft PowerPoint maintains a public trust center documenting GDPR compliance.
+provider_name: Microsoft PowerPoint
+provider_slug: microsoft-powerpoint
+slug: microsoft-powerpoint-trust-center
+source_filename: microsoft-powerpoint-trust-center.yml
+source_heading: Trust Center
+source_url: ''
+source_yaml: "generated: '2026-11-05'\nmethod: searched\nprobe: true\nsource: https://www.microsoft.com/en-us/trust-center\nurl: https://www.microsoft.com/en-us/trust-center\ncertifications:\n- GDPR\nevidence:\n- source: https://www.microsoft.com/en-us/trust-center\n  keywords:\n  - trust center\n  - gdpr\n"
+source_yaml_url: https://artifacts.apis.io/microsoft-powerpoint/security/microsoft-powerpoint-trust-center.yml
+summary_line: GDPR
+tags:
+- Microsoft Office
+- Microsoft 365
+- Presentations
+- Productivity
+- Documents
+trust_url: https://www.microsoft.com/en-us/trust-center
+---

@@ -29,7 +29,6 @@ summary_line: DMARC
 tags:
 - Company
 - Telescope
-- API
 - Data
 - Analytics
 - Platform

@@ -34,8 +34,7 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://screens
 source_yaml_url: https://artifacts.apis.io/screenshotink-com/authentication/screenshotink-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- Screenshot
-- API
+- Screenshots
 - Automation
 - Monitoring
 - MCP

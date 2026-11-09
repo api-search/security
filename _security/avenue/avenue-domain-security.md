@@ -38,4 +38,6 @@ tags:
 - Revenue Operations
 - Task Queue
 - Defunct
+- Automation
+- Software-as-a-Service
 ---

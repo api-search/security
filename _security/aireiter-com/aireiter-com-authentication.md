@@ -38,8 +38,8 @@ source_yaml: "generated: '2026-10-29'\nmethod: derived\nsource: openapi/aireiter
 source_yaml_url: https://artifacts.apis.io/aireiter-com/authentication/aireiter-com-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:
-- AI
-- Multimodal
+- Artificial Intelligence
+- Multi-Modal
 - Generation
 - OpenAI-Compatible
 - Credit-Pricing

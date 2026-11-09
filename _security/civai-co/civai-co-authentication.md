@@ -187,7 +187,7 @@ source_yaml_url: https://artifacts.apis.io/civai-co/authentication/civai-co-auth
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Technology
 - Platform
 - Africa

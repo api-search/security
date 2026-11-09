@@ -35,4 +35,5 @@ tags:
 - Therapeutics
 - Clinical Trials
 - Innovation
+- Healthcare
 ---

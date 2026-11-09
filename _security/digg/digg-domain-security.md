@@ -37,4 +37,5 @@ tags:
 - Technology
 - Media
 - Artificial Intelligence
+- News
 ---

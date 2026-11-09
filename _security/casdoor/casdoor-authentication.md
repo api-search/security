@@ -91,6 +91,7 @@ tags:
 - LDAP
 - MCP
 - MFA
+- OAuth
 - OpenID Connect
 - Open Source
 - Passkeys

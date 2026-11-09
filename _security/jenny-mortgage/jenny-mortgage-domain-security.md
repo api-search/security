@@ -34,6 +34,6 @@ tags:
 - Company
 - Mortgage
 - Calculator
-- AI
+- Artificial Intelligence
 - Canada
 ---

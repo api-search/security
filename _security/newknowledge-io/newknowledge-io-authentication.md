@@ -38,6 +38,6 @@ tags:
 - Company
 - Disinformation
 - Research
-- AI
+- Artificial Intelligence
 - Austin
 ---

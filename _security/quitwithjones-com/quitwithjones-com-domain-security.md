@@ -33,6 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Nicotine Replacement Therapy
 - Health App
-- FDA-approved
+- FDA-Approved
 - Behavioral Support
 ---

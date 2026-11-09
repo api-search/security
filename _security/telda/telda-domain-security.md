@@ -41,6 +41,6 @@ tags:
 - Company
 - Fintech
 - Payments
-- MobileApp
-- DigitalBanking
+- Mobile App
+- Digital Banking
 ---

@@ -56,7 +56,7 @@ source_yaml_url: https://artifacts.apis.io/topxea-com/authentication/topxea-com-
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data
 - Finance
 - Research

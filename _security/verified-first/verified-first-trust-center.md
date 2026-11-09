@@ -19,7 +19,7 @@ source_yaml_url: https://artifacts.apis.io/verified-first/security/verified-firs
 summary_line: SOC 2
 tags:
 - Company
-- Background-Checks
+- Background Checks
 - Screening
 - Verification
 - Employment

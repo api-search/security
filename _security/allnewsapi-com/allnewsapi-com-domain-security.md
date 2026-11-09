@@ -31,7 +31,6 @@ source_yaml_url: https://artifacts.apis.io/allnewsapi-com/security/allnewsapi-co
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - News
-- API
 - Data
 - Media
 - Aggregation

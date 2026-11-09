@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/bellwether-markets/security/bellwethe
 summary_line: TLSv1.3
 tags:
 - Company
-- Prediction-Market
-- API
-- FinTech
-- Data-Aggregation
+- Prediction Market
+- Fintech
+- Data Aggregation
 ---

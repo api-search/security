@@ -35,9 +35,9 @@ source_yaml_url: https://artifacts.apis.io/guildai-co/authentication/guildai-co-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Defense
 - Manufacturing
 - Aerospace
-- Startup
+- Startups
 ---

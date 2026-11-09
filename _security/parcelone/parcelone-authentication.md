@@ -97,7 +97,7 @@ summary_line: apiKey/http · 3 schemes
 tags:
 - Logistics
 - Shipping
-- E-commerce
+- E-Commerce
 - Fulfillment
 - International
 ---

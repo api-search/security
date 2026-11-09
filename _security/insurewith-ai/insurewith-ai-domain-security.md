@@ -34,5 +34,5 @@ tags:
 - Insurance
 - Pharmacy
 - Data
-- AI
+- Artificial Intelligence
 ---

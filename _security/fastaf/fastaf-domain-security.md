@@ -196,7 +196,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web Scraping
 - SERP
-- API
 - Developer Tools
 - AI Integration
 ---

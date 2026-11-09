@@ -39,6 +39,6 @@ tags:
 - Company
 - B2B
 - Marketing
-- ABM
+- Account Based Marketing
 - Personalization
 ---

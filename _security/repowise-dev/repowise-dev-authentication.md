@@ -274,7 +274,7 @@ source_yaml_url: https://artifacts.apis.io/repowise-dev/authentication/repowise-
 summary_line: 1 scheme
 tags:
 - Code Intelligence
-- AI
+- Artificial Intelligence
 - Open Source
 - Developer Tools
 - MCP

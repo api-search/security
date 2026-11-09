@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/casuyi-com/authentication/casuyi-com-
 summary_line: 0 schemes
 tags:
 - Company
-- Mobile Apps
+- Mobile App
 - Privacy
 - Productivity
 - Health

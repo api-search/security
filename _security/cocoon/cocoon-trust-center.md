@@ -24,5 +24,7 @@ tags:
 - Payroll
 - HRIS
 - Employee Benefits
+- EmployeeLeave
+- Software-as-a-Service
 trust_url: https://trust.cocoon.com/
 ---

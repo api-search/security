@@ -29,7 +29,7 @@ source_yaml_url: https://artifacts.apis.io/futureagi/security/futureagi-trust-ce
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
 - Agents
 - Simulation

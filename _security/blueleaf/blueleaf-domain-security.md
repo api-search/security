@@ -42,5 +42,6 @@ tags:
 - Investment Reporting
 - Account Aggregation
 - Client Portal
+- OAuth
 - Authentication
 ---

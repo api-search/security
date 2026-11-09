@@ -46,9 +46,8 @@ source_yaml_url: https://artifacts.apis.io/lunch-flow/authentication/lunch-flow-
 summary_line: 2 schemes
 tags:
 - Fintech
-- API
 - Banking
 - Integration
 - OpenAPI
-- Developer
+- Developers
 ---

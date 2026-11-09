@@ -105,6 +105,66 @@ api_specs:
   slug: didit-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/didit/openapi/didit-workflows-api-openapi.yml
+- filename: didit-aml-ongoing-monitoring-api-openapi.yml
+  format: yaml
+  label: Didit AML Ongoing Monitoring API
+  slug: didit-aml-ongoing-monitoring-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-aml-ongoing-monitoring-api-openapi.yml
+- filename: didit-biometric-templates-api-openapi.yml
+  format: yaml
+  label: Didit Biometric Templates API
+  slug: didit-biometric-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-biometric-templates-api-openapi.yml
+- filename: didit-case-assignment-api-openapi.yml
+  format: yaml
+  label: Didit Case Assignment API
+  slug: didit-case-assignment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-case-assignment-api-openapi.yml
+- filename: didit-case-management-api-openapi.yml
+  format: yaml
+  label: Didit Case Management API
+  slug: didit-case-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-case-management-api-openapi.yml
+- filename: didit-digital-id-wallets-api-openapi.yml
+  format: yaml
+  label: Didit Digital ID wallets API
+  slug: didit-digital-id-wallets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-digital-id-wallets-api-openapi.yml
+- filename: didit-draft-api-openapi.yml
+  format: yaml
+  label: Didit Draft API
+  slug: didit-draft-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-draft-api-openapi.yml
+- filename: didit-fraud-check-api-openapi.yml
+  format: yaml
+  label: Didit Fraud Check API
+  slug: didit-fraud-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-fraud-check-api-openapi.yml
+- filename: didit-history-api-openapi.yml
+  format: yaml
+  label: Didit History API
+  slug: didit-history-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-history-api-openapi.yml
+- filename: didit-networks-api-openapi.yml
+  format: yaml
+  label: Didit Networks API
+  slug: didit-networks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-networks-api-openapi.yml
+- filename: didit-publish-api-openapi.yml
+  format: yaml
+  label: Didit Publish API
+  slug: didit-publish-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/didit/openapi/didit-publish-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

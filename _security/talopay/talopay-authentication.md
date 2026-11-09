@@ -45,6 +45,6 @@ tags:
 - Fintech
 - Payments
 - Argentina
-- E-commerce
+- E-Commerce
 - Bank Transfers
 ---

@@ -36,8 +36,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Payments
-- Crypto
+- Cryptocurrency
 - Web3
-- FinTech
-- API
+- Fintech
 ---

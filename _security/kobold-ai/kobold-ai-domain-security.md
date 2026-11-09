@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/kobold-ai/security/kobold-ai-domain-s
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Marketing
-- DataQuality
+- Data Quality
 ---

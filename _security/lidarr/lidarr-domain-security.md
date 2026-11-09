@@ -32,6 +32,6 @@ tags:
 - Music
 - Media
 - Automation
-- OpenSource
-- DownloadManager
+- Open Source
+- Download-Manager
 ---

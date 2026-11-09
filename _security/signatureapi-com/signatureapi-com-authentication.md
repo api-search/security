@@ -74,9 +74,8 @@ source_yaml_url: https://artifacts.apis.io/signatureapi-com/authentication/signa
 summary_line: 1 scheme
 tags:
 - Company
-- ElectronicSignature
-- API
-- SaaS
+- E-Signature
+- Software-as-a-Service
 - Compliance
 - Automation
 ---

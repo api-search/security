@@ -559,9 +559,10 @@ tags:
 - SOC
 - Threat Intelligence
 - Extended Detection and Response
-- Authentication
+- OAuth
 - Webhook
 - Automation
 - MCP
+- Authentication
 trust_url: ''
 ---

@@ -38,9 +38,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://qveris.
 source_yaml_url: https://artifacts.apis.io/qveris/authentication/qveris-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Data
 - Platform
-- DeveloperTools
+- Developer Tools
 - MCP
 ---

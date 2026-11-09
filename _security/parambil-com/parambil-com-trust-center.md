@@ -19,10 +19,10 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/parambil-com/security/parambil-com-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- AI
+- Artificial Intelligence
 - Healthcare
 - Litigation
-- MedicalRecords
-- SaaS
+- Medical Records
+- Software-as-a-Service
 trust_url: https://www.parambil.com/security
 ---

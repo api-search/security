@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Compensation
-- Private-Equity
-- Talent-Management
+- Private Equity
+- Talent Management
 - Software
 ---

@@ -47,7 +47,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Email Verification
-- API
-- Real-time
+- Real-Time
 - Developer Tools
 ---

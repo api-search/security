@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/e-sign/security/e-sign-domain-securit
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- ElectronicSignature
+- E-Signature
 - Compliance
-- API
-- UK
+- United Kingdom
 ---

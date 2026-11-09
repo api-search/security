@@ -140,8 +140,8 @@ source_yaml_url: https://artifacts.apis.io/easee/security/easee-domain-security.
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- EVCharging
-- SmartHome
+- EV Charging
+- Smart Home
 - IoT
 - Energy
 ---

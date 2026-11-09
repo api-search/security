@@ -34,7 +34,7 @@ tags:
 - Company
 - Freight
 - Factoring
-- FinTech
+- Fintech
 - Payments
 - Logistics
 ---

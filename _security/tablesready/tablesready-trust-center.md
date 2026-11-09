@@ -23,6 +23,6 @@ tags:
 - Waitlist
 - Scheduling
 - Restaurant
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.tablesready.com/security/
 ---

@@ -37,8 +37,9 @@ source_yaml_url: https://artifacts.apis.io/judoscale/authentication/judoscale-au
 summary_line: 3 schemes
 tags:
 - Company
-- Autoscaling
+- Auto-Scaling
 - Cloud
 - DevOps
 - Heroku
+- Amazon Web Services
 ---

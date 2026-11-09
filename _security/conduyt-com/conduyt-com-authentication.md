@@ -650,7 +650,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - CRM
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Sales
 ---

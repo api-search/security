@@ -33,6 +33,6 @@ tags:
 - Company
 - Geospatial
 - Consulting
-- OpenSource
+- Open Source
 - FOSS4G
 ---

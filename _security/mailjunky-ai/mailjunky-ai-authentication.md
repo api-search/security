@@ -67,7 +67,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Email Marketing
-- AI
+- Artificial Intelligence
 - Automation
 - Analytics
 ---

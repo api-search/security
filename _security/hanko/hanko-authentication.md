@@ -174,6 +174,7 @@ tags:
 - WebAuthn
 - FIDO2
 - Identity
+- OAuth
 - SAML
 - Passwordless
 - Open Source

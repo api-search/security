@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/vikunja/authentication/vikunja-authen
 summary_line: 1 scheme
 tags:
 - Company
-- OpenSource
-- TaskManagement
-- SelfHostable
+- Open Source
+- Task Management
+- Self-Hosted
 - European
 ---

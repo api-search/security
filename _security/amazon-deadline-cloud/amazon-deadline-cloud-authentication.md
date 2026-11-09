@@ -165,6 +165,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-d
 source_yaml_url: https://artifacts.apis.io/amazon-deadline-cloud/authentication/amazon-deadline-cloud-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Compute
 - Media
 - Rendering

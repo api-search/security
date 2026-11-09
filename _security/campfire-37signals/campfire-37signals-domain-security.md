@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/campfire-37signals/security/campfire-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Chat
-- OpenSource
-- SelfHosted
+- Open Source
+- Self-Hosted
 - Collaboration
 - Privacy
 ---

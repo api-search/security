@@ -248,7 +248,7 @@ source_yaml_url: https://artifacts.apis.io/roark/authentication/roark-authentica
 summary_line: 1 scheme
 tags:
 - Company
-- VoiceAI
+- Voice AI
 - Testing
 - Evaluation
 - Benchmarking

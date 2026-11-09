@@ -47,9 +47,8 @@ source_yaml_url: https://artifacts.apis.io/grabbit-live/security/grabbit-live-do
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Screenshot
-- AI-Agent
+- Screenshots
+- AI Agents
 - Automation
-- API
 - Visual
 ---

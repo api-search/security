@@ -48,9 +48,9 @@ source_yaml: "name: CheapestInference authentication\ngenerated: '2026-10-30'\nm
 source_yaml_url: https://artifacts.apis.io/cheapestinference-com/authentication/cheapestinference-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Inference
 - LLM
-- Flat-rate
-- SaaS
+- Flat Rate
+- Software-as-a-Service
 ---

@@ -58,7 +58,6 @@ tags:
 - Company
 - Data
 - B2B
-- AI
-- API
+- Artificial Intelligence
 - Analytics
 ---

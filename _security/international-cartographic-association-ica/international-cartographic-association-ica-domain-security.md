@@ -30,6 +30,6 @@ tags:
 - Cartography
 - GIScience
 - Geography
-- Nonprofit
+- Non-Profit
 - International
 ---

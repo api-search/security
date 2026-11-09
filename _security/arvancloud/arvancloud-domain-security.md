@@ -33,7 +33,7 @@ tags:
 - Cloud
 - CDN
 - Storage
-- VideoStreaming
+- Video Streaming
 - Security
 - Company
 ---

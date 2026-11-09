@@ -34,6 +34,6 @@ tags:
 - Company
 - Monitoring
 - Plex
-- Open-Source
+- Open Source
 - Analytics
 ---

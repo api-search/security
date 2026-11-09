@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/b77-ai/authentication/b77-ai-authenti
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
 - Enterprise
 - Productivity

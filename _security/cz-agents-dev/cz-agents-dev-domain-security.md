@@ -41,6 +41,6 @@ tags:
 - MCP
 - Czech
 - Compliance
-- Open-Source
-- AI
+- Open Source
+- Artificial Intelligence
 ---

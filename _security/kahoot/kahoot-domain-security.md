@@ -53,5 +53,6 @@ tags:
 - Engagement
 - Enterprise Learning
 - Reporting
+- OAuth
 - Authentication
 ---

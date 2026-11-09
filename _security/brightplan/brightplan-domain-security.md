@@ -59,6 +59,6 @@ tags:
 - Wealth Management
 - Financial Services
 - Retirement
-- Investment Advice
+- Investment-Advice
 - Company
 ---

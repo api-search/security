@@ -31,8 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Energy
-- Home
+- Homes
 - Climate
-- Advice
 - Savings
 ---

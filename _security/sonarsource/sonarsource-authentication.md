@@ -244,4 +244,7 @@ tags:
 - DevOps
 - Code Review
 - SonarQube
+- CI/CD
+- Security
+- SonarCloud
 ---

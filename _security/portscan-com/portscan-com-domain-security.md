@@ -47,6 +47,4 @@ tags:
 - Networking
 - Security
 - Port Scanning
-- Free Tool
-- API
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/tracepass-eu/security/tracepass-eu-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Digital-Product-Passport
+- Artificial Intelligence
+- Digital Product Passport
 - EU-Regulation
 - Sustainability
 ---

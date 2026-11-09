@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/penguindriver-com/authentication/peng
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Taiwan
 - Aggregator
 - Data

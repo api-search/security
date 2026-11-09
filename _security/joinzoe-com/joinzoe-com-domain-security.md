@@ -34,7 +34,7 @@ tags:
 - Company
 - Health
 - Nutrition
-- Gut-Health
+- Gut Health
 - Science
 - Wellness
 ---

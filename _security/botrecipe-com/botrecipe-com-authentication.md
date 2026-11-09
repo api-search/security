@@ -114,7 +114,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Bot
-- Chatbot
+- Chatbots
 - Recipes
 - Automation
 - Integration

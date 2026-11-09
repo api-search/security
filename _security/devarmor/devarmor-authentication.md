@@ -308,7 +308,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Security
-- AI
+- Artificial Intelligence
 - Threat Modeling
 - DevOps
 ---

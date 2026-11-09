@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/orshot-com/authentication/orshot-com-
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Media
 - Automation
-- AI
+- Artificial Intelligence
 ---

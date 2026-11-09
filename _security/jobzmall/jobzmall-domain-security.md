@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/jobzmall/security/jobzmall-domain-sec
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- video
-- talent
-- marketplace
-- hiring
-- resumes
+- Video
+- Talent
+- Marketplace
+- Hiring
+- Resume
 ---

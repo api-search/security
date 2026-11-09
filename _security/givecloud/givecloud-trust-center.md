@@ -22,8 +22,8 @@ summary_line: SOC 2, PCI DSS, GDPR
 tags:
 - Company
 - Fundraising
-- Nonprofit
-- SaaS
+- Non-Profit
+- Software-as-a-Service
 - Platform
 trust_url: https://help.givecloud.com/en/articles/6045181-security
 ---

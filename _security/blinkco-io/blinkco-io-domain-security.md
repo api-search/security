@@ -33,6 +33,6 @@ tags:
 - Company
 - IoT
 - Security
-- Smart-Home
+- Smart Home
 - Cloud
 ---

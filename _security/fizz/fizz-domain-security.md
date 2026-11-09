@@ -41,4 +41,7 @@ tags:
 - Consumer
 - Mobile
 - Marketplace
+- Gen Z
+- College
+- Advertising
 ---

@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/ephemeraltattoos-com/security/ephemer
 summary_line: TLSv1.3 · HSTS
 tags:
 - Tattoo
-- Biotech
+- Biotechnology
 - Health
-- Startup
+- Startups
 - Cosmetics
 - Company
 ---

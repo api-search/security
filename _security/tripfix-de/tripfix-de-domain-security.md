@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/tripfix-de/security/tripfix-de-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Travel
-- Expense
-- SaaS
+- Expenses
+- Software-as-a-Service
 - Germany
 - Freelancers
 ---

@@ -40,7 +40,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Email Verification
-- API
 - Data Validation
 - Deliverability
 - Bulk

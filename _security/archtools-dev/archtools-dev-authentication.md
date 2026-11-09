@@ -32,9 +32,8 @@ source_yaml_url: https://artifacts.apis.io/archtools-dev/authentication/archtool
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tools
-- API
 - Automation
 - MCP
 ---

@@ -33,6 +33,6 @@ tags:
 - Company
 - M&A
 - InvestmentBank
-- SmallBusiness
+- Small Business
 - Advisory
 ---

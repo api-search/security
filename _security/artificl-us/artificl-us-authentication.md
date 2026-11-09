@@ -35,7 +35,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Compliance
-- AI
+- Artificial Intelligence
 - Document Tracking
 - Small Business
 ---

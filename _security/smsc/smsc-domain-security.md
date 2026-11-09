@@ -34,6 +34,5 @@ tags:
 - SMS
 - Messaging
 - Telecommunications
-- API
 - Russia
 ---

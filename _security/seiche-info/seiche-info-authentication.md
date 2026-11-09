@@ -248,7 +248,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Finance
-- MarketData
-- OpenSource
+- Market Data
+- Open Source
 - Research
 ---

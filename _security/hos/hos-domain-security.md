@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/hos/security/hos-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- Startup
-- Venture-backed
+- Artificial Intelligence
+- Startups
 - Technology
 ---

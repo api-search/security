@@ -296,6 +296,5 @@ tags:
 - Label Printing
 - Barcode Generation
 - ZPL API
-- Cloud Service
 - Developer Tools
 ---

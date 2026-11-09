@@ -118,6 +118,7 @@ tags:
 - Cloud Commitments
 - Cost Optimization
 - MCP
+- Amazon Web Services
 - Microsoft Azure
 - Google Cloud
 - Reserved Instances

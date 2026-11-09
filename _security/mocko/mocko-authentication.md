@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: mocko-mocko-api-api-openapi.yml
-  format: yaml
-  label: Mocko API
-  slug: mocko-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mocko/openapi/mocko-mocko-api-api-openapi.yml
 - filename: mocko-core-openapi-generated.yml
   format: yaml
   label: Mocko core API

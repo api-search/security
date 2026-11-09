@@ -32,7 +32,7 @@ tags:
 - Company
 - Collaboration
 - Team Collaboration
-- Decision Making
+- Decision-Making
 - Employee Engagement
 - Meetings
 - Productivity

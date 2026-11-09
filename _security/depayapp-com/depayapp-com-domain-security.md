@@ -43,8 +43,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Payments
-- Crypto
+- Cryptocurrency
 - Web3
-- FinTech
-- API
+- Fintech
 ---

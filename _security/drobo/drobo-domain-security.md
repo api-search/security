@@ -29,7 +29,7 @@ summary_line: DMARC
 tags:
 - Company
 - Storage
-- DataManagement
-- SmallBusiness
+- Data Management
+- Small Business
 - Enterprise
 ---

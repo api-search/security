@@ -124,10 +124,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://klisten
 source_yaml_url: https://artifacts.apis.io/klisten-co-kr/authentication/klisten-co-kr-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - ToolGuard
 - MCP
 - Policy
-- API
 - Prepaid
 ---

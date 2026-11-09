@@ -71,9 +71,8 @@ source_yaml_url: https://artifacts.apis.io/ffmpeg-micro-com/authentication/ffmpe
 summary_line: 1 scheme
 tags:
 - Video
-- API
 - Automation
 - FFmpeg
 - Cloud
-- MediaProcessing
+- Media Processing
 ---

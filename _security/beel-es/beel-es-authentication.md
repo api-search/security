@@ -354,9 +354,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/beel-es/authentication/beel-es-authentication.yml
 summary_line: 1 scheme
 tags:
-- invoicing
+- Invoicing
 - Spain
-- API
-- fintech
-- SaaS
+- Fintech
+- Software-as-a-Service
 ---

@@ -38,7 +38,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Email
-- OpenSource
-- API
-- AI
+- Open Source
+- Artificial Intelligence
 ---

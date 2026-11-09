@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - MCP
-- Public-Data
+- Public Data
 - Japan
-- AI-Integration
+- AI Integration
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/fides/security/fides-domain-security.
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance
 - Compliance
 - Entity Management

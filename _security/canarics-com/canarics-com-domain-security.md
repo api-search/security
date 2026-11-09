@@ -117,8 +117,8 @@ source_yaml_url: https://artifacts.apis.io/canarics-com/security/canarics-com-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Voice
-- Sales-Intelligence
+- Sales Intelligence
 - Enterprise
 ---

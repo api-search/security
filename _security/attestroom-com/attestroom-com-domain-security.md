@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Policy Management
 - Compliance
-- SaaS
+- Software-as-a-Service
 - US
 - Small Business
 ---

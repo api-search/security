@@ -41,5 +41,5 @@ tags:
 - Defense
 - Communications
 - Cybersecurity
-- SignalProcessing
+- Signal Processing
 ---

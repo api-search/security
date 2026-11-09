@@ -52,9 +52,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Finance
-- MarketData
-- API
-- Forex
+- Market Data
+- Foreign Exchange
 - Gold
 - MCP
 ---

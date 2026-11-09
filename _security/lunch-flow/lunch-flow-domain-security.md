@@ -39,9 +39,8 @@ source_yaml_url: https://artifacts.apis.io/lunch-flow/security/lunch-flow-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
-- API
 - Banking
 - Integration
 - OpenAPI
-- Developer
+- Developers
 ---

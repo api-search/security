@@ -32,6 +32,6 @@ tags:
 - Company
 - Standards
 - 3D
-- OpenSource
+- Open Source
 - Community
 ---

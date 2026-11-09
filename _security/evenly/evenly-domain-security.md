@@ -33,6 +33,6 @@ tags:
 - Company
 - Dental
 - Orthodontics
-- SaaS
+- Software-as-a-Service
 - Healthcare
 ---

@@ -39,8 +39,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Security
-- AI
-- Penetration-Testing
+- Artificial Intelligence
+- Penetration Testing
 - DevSecOps
-- API
 ---

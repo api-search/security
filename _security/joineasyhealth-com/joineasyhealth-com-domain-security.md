@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Health
 - Healthcare
-- API
-- SaaS
+- Software-as-a-Service
 - Insurance
 ---

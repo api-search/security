@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Manga
-- OpenSource
+- Open Source
 - Media
-- Server
+- Servers
 - Community
 ---

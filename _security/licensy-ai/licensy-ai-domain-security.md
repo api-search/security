@@ -220,7 +220,6 @@ tags:
 - Company
 - Healthcare
 - Licensing
-- API
 - Data
-- AI
+- Artificial Intelligence
 ---

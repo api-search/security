@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/send-ai/security/send-ai-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Document Processing
 - EDI
 - Supply Chain

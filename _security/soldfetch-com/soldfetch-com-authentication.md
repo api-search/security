@@ -79,6 +79,5 @@ tags:
 - eBay
 - Listings
 - Pricing
-- API
 - Reseller
 ---

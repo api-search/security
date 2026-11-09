@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/phos-nz/authentication/phos-nz-authen
 summary_line: 0 schemes
 tags:
 - Company
-- RealEstate
-- PropertyManagement
+- Real Estate
+- Property Management
 - Wellington
 - NZ
 ---

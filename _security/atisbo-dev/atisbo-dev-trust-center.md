@@ -22,6 +22,6 @@ tags:
 - Product Management
 - Evidence
 - Decision Support
-- AI
+- Artificial Intelligence
 trust_url: https://app.atisbo.dev/security
 ---

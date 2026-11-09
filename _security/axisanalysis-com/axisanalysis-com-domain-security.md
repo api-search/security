@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/axisanalysis-com/security/axisanalysi
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Commodities
-- Market-Intelligence
+- Market Intelligence
 - Trading
 ---

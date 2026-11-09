@@ -440,5 +440,6 @@ tags:
 - Revenue Management
 - PMS
 - MCP
+- OAuth
 - Authentication
 ---

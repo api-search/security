@@ -681,9 +681,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://hugging
 source_yaml_url: https://artifacts.apis.io/huggingbay-xyz/authentication/huggingbay-xyz-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
-- Open-Source
+- Artificial Intelligence
+- Open Source
 - Models
 - Platform
-- Machine-Learning
+- Machine Learning
 ---

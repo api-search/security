@@ -41,5 +41,4 @@ tags:
 - Integration
 - Retail
 - Hospitality
-- API
 ---

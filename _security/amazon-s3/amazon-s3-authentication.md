@@ -144,6 +144,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-s3/authentication/amazon-s3-au
 summary_line: apiKey · 1 scheme
 tags:
 - Archives
+- Amazon Web Services
 - Backup
 - Cloud Storage
 - Data Storage

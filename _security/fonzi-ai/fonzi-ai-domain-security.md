@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/fonzi-ai/security/fonzi-ai-domain-sec
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Hiring
-- TalentMarketplace
-- Startup
+- Talent Marketplace
+- Startups
 ---

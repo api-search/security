@@ -40,5 +40,5 @@ tags:
 - Travel
 - Subscription
 - Platform
-- SaaS
+- Software-as-a-Service
 ---

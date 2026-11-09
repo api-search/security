@@ -33,6 +33,6 @@ tags:
 - Company
 - Health
 - Parenting
-- DigitalHealth
-- AI
+- Digital Health
+- Artificial Intelligence
 ---

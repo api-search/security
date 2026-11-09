@@ -22,7 +22,7 @@ tags:
 - Company
 - Institutional-Intelligence
 - Analytics
-- Enterprise-Software
+- Enterprise Software
 - Platform
 trust_url: https://www.pometry.com/security/
 ---

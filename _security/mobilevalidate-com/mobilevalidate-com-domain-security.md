@@ -76,7 +76,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fraud Prevention
 - Phone Validation
-- Email Validation
+- Email Verification
 - API Service
-- Telecom
+- Telecommunications
 ---

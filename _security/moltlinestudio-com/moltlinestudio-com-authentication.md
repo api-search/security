@@ -59,7 +59,7 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://moltlin
 source_yaml_url: https://artifacts.apis.io/moltlinestudio-com/authentication/moltlinestudio-com-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - MCP
 - Agent Skills
 - Platform

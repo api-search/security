@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/engine-yard/security/engine-yard-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- PaaS
+- Platform-as-a-Service
 - Ruby
-- Rails
-- CloudHosting
+- Ruby on Rails
+- Cloud Hosting
 ---

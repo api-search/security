@@ -45,36 +45,12 @@ api_specs:
   slug: amazon-iot-twinmaker-workspaces-list-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-workspaces-list-api-openapi.yml
-- filename: amazon-iot-twinmaker-component-types-api-openapi.yml
-  format: yaml
-  label: Amazon IoT TwinMaker Iot Twinmaker Component Types API
-  slug: amazon-iot-twinmaker-component-types-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-component-types-api-openapi.yml
-- filename: amazon-iot-twinmaker-entities-api-openapi.yml
-  format: yaml
-  label: Amazon IoT TwinMaker Iot Twinmaker Entities API
-  slug: amazon-iot-twinmaker-entities-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-entities-api-openapi.yml
-- filename: amazon-iot-twinmaker-entity-properties-api-openapi.yml
-  format: yaml
-  label: Amazon IoT TwinMaker Iot Twinmaker Entity Properties API
-  slug: amazon-iot-twinmaker-entity-properties-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-entity-properties-api-openapi.yml
 - filename: amazon-iot-twinmaker-operations-api-openapi.yml
   format: yaml
   label: Amazon IoT TwinMaker Iot Twinmaker Operations API
   slug: amazon-iot-twinmaker-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-operations-api-openapi.yml
-- filename: amazon-iot-twinmaker-scenes-api-openapi.yml
-  format: yaml
-  label: Amazon IoT TwinMaker Iot Twinmaker Scenes API
-  slug: amazon-iot-twinmaker-scenes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-iot-twinmaker/openapi/amazon-iot-twinmaker-scenes-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -105,6 +81,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-i
 source_yaml_url: https://artifacts.apis.io/amazon-iot-twinmaker/authentication/amazon-iot-twinmaker-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - 3D Visualization
 - Digital Twin
 - Industrial IoT

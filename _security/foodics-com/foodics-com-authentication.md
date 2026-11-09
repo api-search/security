@@ -32,7 +32,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Restaurant
-- SaaS
-- API
+- Software-as-a-Service
 - Cloud
 ---

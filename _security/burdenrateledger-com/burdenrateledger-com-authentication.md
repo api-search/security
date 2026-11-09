@@ -42,6 +42,5 @@ tags:
 - Company
 - Labor
 - Calculator
-- SmallBusiness
-- API
+- Small Business
 ---

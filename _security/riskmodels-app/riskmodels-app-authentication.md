@@ -133,8 +133,7 @@ source_yaml_url: https://artifacts.apis.io/riskmodels-app/authentication/riskmod
 summary_line: 2 schemes
 tags:
 - Finance
-- Risk
+- Risk Management
 - Analytics
-- API
 - Equity
 ---

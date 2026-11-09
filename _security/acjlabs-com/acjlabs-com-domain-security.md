@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/acjlabs-com/security/acjlabs-com-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- AgenticCommerce
-- OpenSource
+- Artificial Intelligence
+- Agentic Commerce
+- Open Source
 - Australia
 ---

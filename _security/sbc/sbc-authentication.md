@@ -37,8 +37,7 @@ source_yaml_url: https://artifacts.apis.io/sbc/authentication/sbc-authentication
 summary_line: 1 scheme
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
-- Stablecoin
-- API
+- Stablecoins
 ---

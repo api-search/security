@@ -58,9 +58,8 @@ source_yaml_url: https://artifacts.apis.io/fabtally-com/authentication/fabtally-
 summary_line: 1 scheme
 tags:
 - Company
-- 3D-printing
+- 3D Printing
 - Slicing
 - Quotes
-- API
 - Manufacturing
 ---

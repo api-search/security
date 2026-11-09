@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/tune/security/tune-domain-security.ym
 summary_line: TLSv1.3 · DMARC
 tags:
 - Marketing
-- Affiliate
-- SaaS
+- Affiliates
+- Software-as-a-Service
 - Advertising
 - Partnerships
 ---

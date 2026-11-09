@@ -51,9 +51,9 @@ source_yaml_url: https://artifacts.apis.io/vulk-dev/security/vulk-dev-trust-cent
 summary_line: PCI DSS, GDPR
 tags:
 - Company
-- AI
-- AppBuilder
-- NoCode
+- Artificial Intelligence
+- App Builder
+- No-Code
 - 3D
 trust_url: https://vulk.dev/security
 ---

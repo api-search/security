@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - ERP
-- SaaS
+- Software-as-a-Service
 - Enterprise Software
 - Public Sector
 - Financial Management

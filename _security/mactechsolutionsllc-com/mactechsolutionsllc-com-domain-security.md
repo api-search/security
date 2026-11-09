@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cybersecurity
 - CMMC
-- NIST-800-171
+- NIST 800-171
 - DFARS
 - SDVOSB
 - Compliance

@@ -36,9 +36,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/billcommons-org/authentication/billcommons-org-authentication.yml
 summary_line: 2 schemes
 tags:
-- Legislative data
+- Legislative
 - State bills
-- API
-- Open source
-- Research tools
+- Open Source
+- Research Tools
 ---

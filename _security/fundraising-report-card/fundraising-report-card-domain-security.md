@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/fundraising-report-card/security/fund
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Analytics
 - Fundraising
 - Metrics

@@ -57,8 +57,8 @@ source_yaml_url: https://artifacts.apis.io/amfionhq-com/authentication/amfionhq-
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
-- FrontDesk
+- Artificial Intelligence
+- Front Desk
 - Booking
 - Automation
 ---

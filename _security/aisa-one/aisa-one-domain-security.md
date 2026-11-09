@@ -387,9 +387,8 @@ source_yaml_url: https://artifacts.apis.io/aisa-one/security/aisa-one-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Data
 - Platform
-- Knowledge-Graph
-- API
+- Knowledge Graph
 ---

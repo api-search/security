@@ -97,9 +97,8 @@ source_yaml_url: https://artifacts.apis.io/caption-sh/authentication/caption-sh-
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Video
 - Captions
-- API
 - Automation
 ---

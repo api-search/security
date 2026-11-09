@@ -103,6 +103,7 @@ tags:
 - Medical Records
 - Release of Information
 - Privacy
-- Authentication
+- OAuth
 - Health Information Exchange
+- Authentication
 ---

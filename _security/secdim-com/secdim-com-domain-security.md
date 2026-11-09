@@ -34,6 +34,6 @@ tags:
 - Company
 - Security
 - Training
-- AI
-- Developer
+- Artificial Intelligence
+- Developers
 ---

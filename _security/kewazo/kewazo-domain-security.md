@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/kewazo/security/kewazo-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Robotics
-- AI
-- IndustrialAutomation
-- MaterialHandling
+- Artificial Intelligence
+- Industrial Automation
+- Material Handling
 - LiftBot
 ---

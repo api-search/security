@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Canvas
-- DesignTools
-- OpenSource
+- Design Tools
+- Open Source
 - JavaScript
 ---

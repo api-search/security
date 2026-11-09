@@ -35,5 +35,4 @@ tags:
 - Accounting
 - ERP
 - Fintech
-- API
 ---

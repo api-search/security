@@ -35,5 +35,5 @@ tags:
 - Fashion
 - Apparel
 - Lifestyle
-- E-commerce
+- E-Commerce
 ---

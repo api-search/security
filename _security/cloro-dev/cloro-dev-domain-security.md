@@ -34,30 +34,40 @@ description: ''
 domains:
 - caa: []
   dmarc: true
-  dmarc_policy: quarantine
+  dmarc_policy: reject
   dnssec: true
   domain: cloro.dev
   spf: true
 hosts:
-- cert_expires: Nov 30 16:17:38 2026 GMT
+- cert_expires: Jan 28 20:09:03 2027 GMT
   host: cloro.dev
   hsts: false
   https: true
   tls_version: TLSv1.3
-hosts_probed: 1
+- cert_expires: Jan  4 17:45:32 2027 GMT
+  host: mcp.cloro.dev
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec 10 09:50:02 2026 GMT
+  host: api.cloro.dev
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Cloro Dev Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for cloro, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for cloro, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: cloro
 provider_slug: cloro-dev
 slug: cloro-dev-domain-security
 source_filename: cloro-dev-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloro.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 30 16:17:38 2026 GMT\n  hsts: false\ndomains:\n- domain: cloro.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-11-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloro.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 28 20:09:03 2027 GMT\n  hsts: false\n- host: mcp.cloro.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 17:45:32 2027 GMT\n  hsts: null\n- host: api.cloro.dev\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 09:50:02 2026 GMT\n  hsts: null\ndomains:\n- domain: cloro.dev\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/cloro-dev/security/cloro-dev-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:

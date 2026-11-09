@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: shaarli-shaarli-api-openapi.yml
-  format: yaml
-  label: Shaarli API
-  slug: shaarli-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/shaarli/openapi/shaarli-shaarli-api-openapi.yml
 - filename: shaarli-openapi-generated.yml
   format: yaml
   label: Shaarli API
@@ -61,8 +55,8 @@ source_yaml_url: https://artifacts.apis.io/shaarli/security/shaarli-domain-secur
 summary_line: TLSv1.3 · HSTS
 tags:
 - Bookmarking
-- Self-hosted
-- Open-source
+- Self-Hosted
+- Open Source
 - PHP
 - Minimalist
 ---

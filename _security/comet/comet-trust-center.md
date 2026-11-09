@@ -283,5 +283,7 @@ tags:
 - Prompt Management
 - Agents
 - Open Source
+- Machine Learning
+- Generative AI
 trust_url: https://trust.comet.com/
 ---

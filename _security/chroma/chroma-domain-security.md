@@ -86,7 +86,7 @@ source_yaml_url: https://artifacts.apis.io/chroma/security/chroma-domain-securit
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Artificial Intelligence
-- AI-Native
+- AI-native
 - Apache 2.0
 - Cloud
 - Embeddings

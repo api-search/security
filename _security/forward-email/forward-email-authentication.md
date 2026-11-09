@@ -142,6 +142,5 @@ tags:
 - Email Forwarding
 - Email Hosting
 - Open Source
-- API
 - Secure Email
 ---

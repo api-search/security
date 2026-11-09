@@ -94,7 +94,7 @@ source_yaml_url: https://artifacts.apis.io/majr-app/authentication/majr-app-auth
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Media
 - SEO
 - Encoding

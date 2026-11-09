@@ -98,8 +98,8 @@ source_yaml_url: https://artifacts.apis.io/lazyweb-com/security/lazyweb-com-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Growth
-- AI
-- No-code
+- Artificial Intelligence
+- No-Code
 ---

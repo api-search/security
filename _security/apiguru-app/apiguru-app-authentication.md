@@ -46,9 +46,8 @@ source_yaml_url: https://artifacts.apis.io/apiguru-app/authentication/apiguru-ap
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- API
 - Data
 - Amazon
-- Real-time
+- Real-Time
 - Integration
 ---

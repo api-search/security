@@ -293,6 +293,5 @@ tags:
 - Company
 - Data Analytics
 - Cybersecurity
-- APIs
 - Enterprise
 ---

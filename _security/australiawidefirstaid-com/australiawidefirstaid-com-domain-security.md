@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/australiawidefirstaid-com/security/au
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- FirstAid
+- First Aid
 - Training
 - Australia
 - Health

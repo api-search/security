@@ -42,8 +42,8 @@ source_yaml_url: https://artifacts.apis.io/finology-tech/authentication/finology
 summary_line: 2 schemes
 tags:
 - Company
-- FinTech
-- StudentLoans
-- AIIntegration
-- FinancialAdvisors
+- Fintech
+- Student Loans
+- AI Integration
+- Financial Advisors
 ---

@@ -28,5 +28,8 @@ tags:
 - Financial Services
 - R&D Tax Credits
 - Software-as-a-Service
+- Artificial Intelligence
+- Compliance
+- Global
 trust_url: https://exactera.com/trust/
 ---

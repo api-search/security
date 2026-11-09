@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/lm-kit/security/lm-kit-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Private
 - Enterprise
 - Infrastructure

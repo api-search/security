@@ -143,27 +143,59 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/broadcom-operations-for-applications-openapi.yml
-  - openapi/broadcom-vmware-cloud-foundation-openapi.yml
+  - openapi/broadcom-alerts-api-openapi.yml
+  - openapi/broadcom-api-tokens-api-openapi.yml
+  - openapi/broadcom-authentication-api-openapi.yml
+  - openapi/broadcom-clusters-api-openapi.yml
+  - openapi/broadcom-dashboards-api-openapi.yml
+  - openapi/broadcom-events-api-openapi.yml
+  - openapi/broadcom-hosts-api-openapi.yml
+  - openapi/broadcom-network-pools-api-openapi.yml
+  - openapi/broadcom-proxies-api-openapi.yml
+  - openapi/broadcom-query-api-openapi.yml
+  - openapi/broadcom-sources-api-openapi.yml
+  - openapi/broadcom-tasks-api-openapi.yml
+  - openapi/broadcom-upgrades-api-openapi.yml
+  - openapi/broadcom-workload-domains-api-openapi.yml
   type: http
 - name: basicAuth
   scheme: basic
   sources:
-  - openapi/broadcom-vmware-cloud-foundation-openapi.yml
-  - openapi/broadcom-vsphere-automation-openapi.yml
+  - openapi/broadcom-authentication-api-openapi.yml
+  - openapi/broadcom-clusters-api-openapi.yml
+  - openapi/broadcom-content-library-api-openapi.yml
+  - openapi/broadcom-datastores-api-openapi.yml
+  - openapi/broadcom-hosts-api-openapi.yml
+  - openapi/broadcom-network-pools-api-openapi.yml
+  - openapi/broadcom-networks-api-openapi.yml
+  - openapi/broadcom-session-api-openapi.yml
+  - openapi/broadcom-tagging-api-openapi.yml
+  - openapi/broadcom-tasks-api-openapi.yml
+  - openapi/broadcom-upgrades-api-openapi.yml
+  - openapi/broadcom-virtual-machines-api-openapi.yml
+  - openapi/broadcom-workload-domains-api-openapi.yml
   type: http
 - description: Session token obtained via POST /cis/session
   in: header
   name: sessionAuth
   parameter: vmware-api-session-id
   sources:
-  - openapi/broadcom-vsphere-automation-openapi.yml
+  - openapi/broadcom-clusters-api-openapi.yml
+  - openapi/broadcom-content-library-api-openapi.yml
+  - openapi/broadcom-datastores-api-openapi.yml
+  - openapi/broadcom-hosts-api-openapi.yml
+  - openapi/broadcom-networks-api-openapi.yml
+  - openapi/broadcom-session-api-openapi.yml
+  - openapi/broadcom-tagging-api-openapi.yml
+  - openapi/broadcom-virtual-machines-api-openapi.yml
   type: apiKey
 slug: broadcom-authentication
 source_filename: broadcom-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/broadcom-operations-for-applications-openapi.yml, openapi/broadcom-vmware-cloud-foundation-openapi.yml,\n  openapi/broadcom-vsphere-automation-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API token for authentication\n  sources:\n  - openapi/broadcom-operations-for-applications-openapi.yml\n  - openapi/broadcom-vmware-cloud-foundation-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/broadcom-vmware-cloud-foundation-openapi.yml\n  - openapi/broadcom-vsphere-automation-openapi.yml\n- name: sessionAuth\n  type: apiKey\n  in: header\n  parameter: vmware-api-session-id\n  description: Session token obtained via POST /cis/session\n  sources:\n  - openapi/broadcom-vsphere-automation-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/broadcom-alerts-api-openapi.yml, openapi/broadcom-api-tokens-api-openapi.yml,\n  openapi/broadcom-authentication-api-openapi.yml, openapi/broadcom-clusters-api-openapi.yml,\n  openapi/broadcom-content-library-api-openapi.yml, openapi/broadcom-dashboards-api-openapi.yml,\n  openapi/broadcom-datastores-api-openapi.yml, openapi/broadcom-events-api-openapi.yml, openapi/broadcom-hosts-api-openapi.yml,\n  openapi/broadcom-network-pools-api-openapi.yml, openapi/broadcom-networks-api-openapi.yml,\n  openapi/broadcom-proxies-api-openapi.yml ...\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: API token for authentication\n  sources:\n  - openapi/broadcom-alerts-api-openapi.yml\n  - openapi/broadcom-api-tokens-api-openapi.yml\n  - openapi/broadcom-authentication-api-openapi.yml\n  - openapi/broadcom-clusters-api-openapi.yml\n  - openapi/broadcom-dashboards-api-openapi.yml\n\
+  \  - openapi/broadcom-events-api-openapi.yml\n  - openapi/broadcom-hosts-api-openapi.yml\n  - openapi/broadcom-network-pools-api-openapi.yml\n  - openapi/broadcom-proxies-api-openapi.yml\n  - openapi/broadcom-query-api-openapi.yml\n  - openapi/broadcom-sources-api-openapi.yml\n  - openapi/broadcom-tasks-api-openapi.yml\n  - openapi/broadcom-upgrades-api-openapi.yml\n  - openapi/broadcom-workload-domains-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  sources:\n  - openapi/broadcom-authentication-api-openapi.yml\n  - openapi/broadcom-clusters-api-openapi.yml\n  - openapi/broadcom-content-library-api-openapi.yml\n  - openapi/broadcom-datastores-api-openapi.yml\n  - openapi/broadcom-hosts-api-openapi.yml\n  - openapi/broadcom-network-pools-api-openapi.yml\n  - openapi/broadcom-networks-api-openapi.yml\n  - openapi/broadcom-session-api-openapi.yml\n  - openapi/broadcom-tagging-api-openapi.yml\n  - openapi/broadcom-tasks-api-openapi.yml\n  - openapi/broadcom-upgrades-api-openapi.yml\n\
+  \  - openapi/broadcom-virtual-machines-api-openapi.yml\n  - openapi/broadcom-workload-domains-api-openapi.yml\n- name: sessionAuth\n  type: apiKey\n  in: header\n  parameter: vmware-api-session-id\n  description: Session token obtained via POST /cis/session\n  sources:\n  - openapi/broadcom-clusters-api-openapi.yml\n  - openapi/broadcom-content-library-api-openapi.yml\n  - openapi/broadcom-datastores-api-openapi.yml\n  - openapi/broadcom-hosts-api-openapi.yml\n  - openapi/broadcom-networks-api-openapi.yml\n  - openapi/broadcom-session-api-openapi.yml\n  - openapi/broadcom-tagging-api-openapi.yml\n  - openapi/broadcom-virtual-machines-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/broadcom/authentication/broadcom-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:

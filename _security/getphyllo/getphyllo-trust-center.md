@@ -21,9 +21,8 @@ source_yaml_url: https://artifacts.apis.io/getphyllo/security/getphyllo-trust-ce
 summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - Company
-- API
-- SocialData
-- InfluencerMarketing
-- FinTech
+- Social Data
+- Influencer Marketing
+- Fintech
 trust_url: https://www.getphyllo.com/security
 ---

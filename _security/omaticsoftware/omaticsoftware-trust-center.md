@@ -19,7 +19,7 @@ source_yaml: "generated: '2026-10-21'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/omaticsoftware/security/omaticsoftware-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- Nonprofit
+- Non-Profit
 - Data Integration
 - Cloud Platform
 - Automation

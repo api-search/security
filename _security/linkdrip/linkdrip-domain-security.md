@@ -33,5 +33,5 @@ tags:
 - No-Code
 - Marketing
 - Analytics
-- URL Shortener
+- URL Shorteners
 ---

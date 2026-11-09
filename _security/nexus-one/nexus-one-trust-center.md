@@ -28,5 +28,8 @@ tags:
 - Data Platform
 - Control Plane
 - Open Source
+- Data
+- Platform
+- Integration
 trust_url: ''
 ---

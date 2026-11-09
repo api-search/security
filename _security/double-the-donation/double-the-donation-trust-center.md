@@ -19,9 +19,9 @@ source_yaml_url: https://artifacts.apis.io/double-the-donation/security/double-t
 summary_line: SOC 2
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - Fundraising
 - Matching Gifts
-- SaaS
+- Software-as-a-Service
 trust_url: https://security.doublethedonation.com/
 ---

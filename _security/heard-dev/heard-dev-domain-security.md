@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/heard-dev/security/heard-dev-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Voice
 - macOS
-- DeveloperTools
+- Developer Tools
 ---

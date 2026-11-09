@@ -33,7 +33,6 @@ tags:
 - Fintech
 - Banking
 - Payments
-- APIs
-- DeveloperPlatform
+- Developer Platform
 - Company
 ---

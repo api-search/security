@@ -54,6 +54,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-serverless-application-reposit
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Application Repository
+- Amazon Web Services
 - Lambda
 - SAM
 - Serverless

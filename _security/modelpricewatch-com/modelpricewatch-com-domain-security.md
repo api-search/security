@@ -34,6 +34,5 @@ tags:
 - Company
 - LLM
 - Pricing
-- API
 - Data
 ---

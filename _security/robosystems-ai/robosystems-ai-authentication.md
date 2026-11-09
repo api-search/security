@@ -306,8 +306,7 @@ source_yaml_url: https://artifacts.apis.io/robosystems-ai/authentication/robosys
 summary_line: apiKey/http · 2 schemes
 tags:
 - Finance
-- AI
-- KnowledgeGraph
-- OpenSource
-- API
+- Artificial Intelligence
+- Knowledge Graph
+- Open Source
 ---

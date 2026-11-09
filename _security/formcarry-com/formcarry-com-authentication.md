@@ -50,8 +50,7 @@ source_yaml_url: https://artifacts.apis.io/formcarry-com/authentication/formcarr
 summary_line: 2 schemes
 tags:
 - Company
-- API
 - Forms
 - Backend-as-a-Service
-- Webhooks
+- Webhook
 ---

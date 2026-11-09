@@ -104,8 +104,7 @@ source_yaml_url: https://artifacts.apis.io/audivo-dev/authentication/audivo-dev-
 summary_line: 2 schemes
 tags:
 - Company
-- Podcast
+- Podcasts
 - Transcripts
-- API
 - Audio
 ---

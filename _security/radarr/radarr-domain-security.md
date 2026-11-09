@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Media
 - Automation
-- Open-Source
+- Open Source
 - Movie-Management
 - Community
 ---

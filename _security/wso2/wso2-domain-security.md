@@ -597,4 +597,5 @@ tags:
 - SOAP
 - REST
 - Identity Federation
+- API Gateway
 ---

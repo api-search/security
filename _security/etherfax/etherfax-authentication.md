@@ -68,7 +68,7 @@ summary_line: http · 1 scheme
 tags:
 - Fax
 - Cloud
-- AI
+- Artificial Intelligence
 - Secure
-- DocumentAutomation
+- Document Automation
 ---

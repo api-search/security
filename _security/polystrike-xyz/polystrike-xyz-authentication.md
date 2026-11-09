@@ -89,7 +89,6 @@ tags:
 - Company
 - Finance
 - Data
-- Prediction-Market
-- API
-- Crypto
+- Prediction Market
+- Cryptocurrency
 ---

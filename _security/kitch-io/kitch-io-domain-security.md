@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/kitch-io/security/kitch-io-domain-sec
 summary_line: TLSv1.3
 tags:
 - Company
-- Startup
+- Startups
 - Technology
-- API
 - Seedcamp
 ---

@@ -104,6 +104,12 @@ api_specs:
   slug: guru-user-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/guru/openapi/guru-user-api-openapi.yml
+- filename: guru-drafts-api-openapi.yml
+  format: yaml
+  label: Guru Drafts API
+  slug: guru-drafts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/guru/openapi/guru-drafts-api-openapi.yml
 auth_types:
 - http
 description: ''

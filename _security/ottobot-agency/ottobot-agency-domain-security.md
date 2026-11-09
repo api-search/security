@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/ottobot-agency/security/ottobot-agenc
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- WebDesign
+- Web Design
 - SEO
-- ContractorTools
-- ManagedServices
-- LocalMarketing
+- Contractor tools
+- Managed Service
+- Local Marketing
 ---

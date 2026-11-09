@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: invidious-invidious-api-api-openapi.yml
-  format: yaml
-  label: Invidious API
-  slug: invidious-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/invidious/openapi/invidious-invidious-api-api-openapi.yml
 - filename: invidious-openapi-generated.yml
   format: yaml
   label: Invidious API
@@ -43,10 +37,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/invidious/security/invidious-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- video
-- open-source
-- privacy
-- api
-- frontend
-- youtube
+- Video
+- Open Source
+- Privacy
+- Frontend
+- YouTube
 ---

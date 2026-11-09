@@ -33,6 +33,6 @@ tags:
 - Company
 - Finance
 - Payments
-- SME
+- Small Business
 - Malaysia
 ---

@@ -22,7 +22,7 @@ tags:
 - Company
 - IoT
 - Industrial
-- DataPlatform
+- Data Platform
 - Manufacturing
 trust_url: https://www.sensorup.com/security/
 ---

@@ -44,7 +44,7 @@ source_yaml_url: https://artifacts.apis.io/gridzen-ai/security/gridzen-ai-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Energy
 - Grid
 - Optimization

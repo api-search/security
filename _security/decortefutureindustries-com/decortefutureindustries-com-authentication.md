@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/decortefutureindustries-com/authentic
 summary_line: 0 schemes
 tags:
 - Company
-- HealthTech
-- DeepTech
-- UK
+- Health Tech
+- Deep Tech
+- United Kingdom
 - Cambridge
 - AudioAnalytics
 ---

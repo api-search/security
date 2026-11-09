@@ -40,4 +40,6 @@ tags:
 - Wildfire Risk
 - Grid Reliability
 - Remote Sensing
+- Energy
+- Vegetation
 ---

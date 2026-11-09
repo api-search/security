@@ -1432,6 +1432,24 @@ api_specs:
   slug: amcs-group-zone-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-zone-api-openapi.yml
+- filename: amcs-group-apitowerroute-api-openapi.yml
+  format: yaml
+  label: AMCS Group API Tower Route API
+  slug: amcs-group-apitowerroute-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-apitowerroute-api-openapi.yml
+- filename: amcs-group-truxcontaminationevent-api-openapi.yml
+  format: yaml
+  label: AMCS Group Trux Contamination Event API
+  slug: amcs-group-truxcontaminationevent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-truxcontaminationevent-api-openapi.yml
+- filename: amcs-group-truxoverfilledevent-api-openapi.yml
+  format: yaml
+  label: AMCS Group Trux Overfilled Event API
+  slug: amcs-group-truxoverfilledevent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-truxoverfilledevent-api-openapi.yml
 - filename: amcs-group-access-group-api-openapi.yml
   format: yaml
   label: AMCS Group Access Group API

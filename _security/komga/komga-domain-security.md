@@ -32,7 +32,7 @@ tags:
 - Media Server
 - Comics
 - Manga
-- eBooks
+- Ebooks
 - Open Source
 - Community
 ---

@@ -33,6 +33,6 @@ tags:
 - Company
 - Healthcare
 - Remote Monitoring
-- AI
+- Artificial Intelligence
 - Ballistocardiography
 ---

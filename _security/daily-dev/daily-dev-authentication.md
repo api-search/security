@@ -122,8 +122,8 @@ source_yaml_url: https://artifacts.apis.io/daily-dev/authentication/daily-dev-au
 summary_line: 2 schemes
 tags:
 - Company
-- DeveloperTools
+- Developer Tools
 - NewsAggregator
-- AI
+- Artificial Intelligence
 - Community
 ---

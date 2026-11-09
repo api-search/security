@@ -120,6 +120,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-personalize/security/amazon-pe
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Artificial Intelligence
+- Amazon Web Services
 - Customer Experience
 - Machine Learning
 - Personalization

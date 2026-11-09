@@ -19,9 +19,9 @@ source_yaml_url: https://artifacts.apis.io/recce/security/recce-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - DataReview
 - Engineering
-- SaaS
+- Software-as-a-Service
 trust_url: https://reccehq.com/security/
 ---

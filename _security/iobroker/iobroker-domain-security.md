@@ -32,8 +32,8 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - IoT
-- HomeAutomation
-- OpenSource
-- IntegrationPlatform
-- SelfHosted
+- Home Automation
+- Open Source
+- Integration Platform
+- Self-Hosted
 ---

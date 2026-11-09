@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/nestegg/security/nestegg-domain-secur
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Lending
-- CreditUnion
-- UK
+- Credit Union
+- United Kingdom
 ---

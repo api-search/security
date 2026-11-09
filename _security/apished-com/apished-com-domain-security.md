@@ -30,7 +30,6 @@ source_yaml_url: https://artifacts.apis.io/apished-com/security/apished-com-doma
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- API
 - Modular
 - OpenAPI
 - MCP

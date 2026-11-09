@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/propertypartner-co/authentication/pro
 summary_line: 0 schemes
 tags:
 - Real Estate
-- FinTech
+- Fintech
 - Investment
 - Marketplace
 - Property

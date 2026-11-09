@@ -39,5 +39,6 @@ tags:
 - MCP
 - Agent-Native
 - Open Banking
+- OAuth
 - Authentication
 ---

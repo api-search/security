@@ -35,5 +35,4 @@ tags:
 - HTML5
 - Free
 - Browser
-- Casual
 ---

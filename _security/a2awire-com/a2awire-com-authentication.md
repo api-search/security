@@ -404,7 +404,7 @@ source_yaml: "generated: '2026-10-29'\nmethod: derived\nsource: openapi/a2awire-
 source_yaml_url: https://artifacts.apis.io/a2awire-com/authentication/a2awire-com-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- AI
+- Artificial Intelligence
 - AgentEconomy
 - Commerce
 - TrustLayer

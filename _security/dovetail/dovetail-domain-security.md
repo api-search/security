@@ -186,4 +186,7 @@ tags:
 - Analytics
 - Artificial Intelligence
 - Product Management
+- Customer Intelligence
+- Feedback
+- Research
 ---

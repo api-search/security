@@ -94,6 +94,5 @@ tags:
 - Fintech
 - Payments
 - Currency
-- API
 - Embedded
 ---

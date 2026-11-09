@@ -30,10 +30,10 @@ source_yaml_url: https://artifacts.apis.io/zenpire-holdings/security/zenpire-hol
 summary_line: TLSv1.3
 tags:
 - Shopify Apps
-- E‑commerce
+- E-Commerce
 - Dropshipping
 - Promotions
-- Events
+- Event
 - Sizing
 - Product Variants
 ---

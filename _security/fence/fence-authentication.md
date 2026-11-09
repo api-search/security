@@ -60,7 +60,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Fintech
-- Asset-Backed-Finance
+- Asset-Backed Finance
 - Real-Time
-- API
 ---

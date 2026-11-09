@@ -116,7 +116,7 @@ source_yaml_url: https://artifacts.apis.io/cekura-ai/authentication/cekura-ai-au
 summary_line: 2 schemes
 tags:
 - Company
-- VoiceAI
+- Voice AI
 - QA
 - Testing
 - Benchmarking

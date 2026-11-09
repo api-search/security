@@ -39,7 +39,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Fitness
-- Self-hosted
-- Open-source
+- Self-Hosted
+- Open Source
 - Privacy
 ---

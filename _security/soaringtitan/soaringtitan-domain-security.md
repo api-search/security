@@ -32,6 +32,6 @@ tags:
 - IoT
 - Cloud
 - Analytics
-- DeviceManagement
+- Device Management
 - Platform
 ---

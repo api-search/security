@@ -49,6 +49,5 @@ tags:
 - Company
 - AstroFinance
 - Astrology
-- MarketData
-- API
+- Market Data
 ---

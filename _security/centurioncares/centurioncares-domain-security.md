@@ -28,8 +28,8 @@ source_yaml_url: https://artifacts.apis.io/centurioncares/security/centurioncare
 summary_line: DMARC
 tags:
 - Company
-- HealthTech
-- RemoteMonitoring
+- Health Tech
+- Remote Monitoring
 - Telehealth
-- PatientCare
+- Patient Care
 ---

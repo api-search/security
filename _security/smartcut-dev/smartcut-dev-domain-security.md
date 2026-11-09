@@ -41,5 +41,4 @@ tags:
 - Developer Tools
 - Automation
 - CI/CD
-- APIs
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/coveralls/security/coveralls-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- CodeCoverage
-- CIIntegration
-- OpenSource
-- SaaS
+- Code Coverage
+- CI Integration
+- Open Source
+- Software-as-a-Service
 ---

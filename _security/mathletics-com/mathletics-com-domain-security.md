@@ -38,7 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education
 - Math
-- OnlineLearning
-- K12
-- SaaS
+- E-Learning
+- K-12
+- Software-as-a-Service
 ---

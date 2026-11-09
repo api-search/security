@@ -54,6 +54,66 @@ api_specs:
   slug: mesh-transfers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mesh/openapi/mesh-transfers-api-openapi.yml
+- filename: mesh-blockchainquery-api-openapi.yml
+  format: yaml
+  label: Mesh Blockchain Query API
+  slug: mesh-blockchainquery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mesh/openapi/mesh-blockchainquery-api-openapi.yml
+- filename: mesh-cataloggassponsorship-api-openapi.yml
+  format: yaml
+  label: Mesh Catalog Gas Sponsorship API
+  slug: mesh-cataloggassponsorship-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mesh/openapi/mesh-cataloggassponsorship-api-openapi.yml
+- filename: mesh-catalogsubscription-api-openapi.yml
+  format: yaml
+  label: Mesh Catalog Subscription API
+  slug: mesh-catalogsubscription-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mesh/openapi/mesh-catalogsubscription-api-openapi.yml
+- filename: mesh-headless-bridging-api-openapi.yml
+  format: yaml
+  label: Mesh Headless Bridging API
+  slug: mesh-headless-bridging-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mesh/openapi/mesh-headless-bridging-api-openapi.yml
+- filename: mesh-integrations-account-information-api-openapi.yml
+  format: yaml
+  label: Mesh Integrations account information API
+  slug: mesh-integrations-account-information-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mesh/openapi/mesh-integrations-account-information-api-openapi.yml
+- filename: mesh-rampkyc-api-openapi.yml
+  format: yaml
+  label: Mesh Ramp Kyc API
+  slug: mesh-rampkyc-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mesh/openapi/mesh-rampkyc-api-openapi.yml
+- filename: mesh-ramppayment-api-openapi.yml
+  format: yaml
+  label: Mesh Ramp Payment API
+  slug: mesh-ramppayment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mesh/openapi/mesh-ramppayment-api-openapi.yml
+- filename: mesh-rampsession-api-openapi.yml
+  format: yaml
+  label: Mesh Ramp Session API
+  slug: mesh-rampsession-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mesh/openapi/mesh-rampsession-api-openapi.yml
+- filename: mesh-tokennetworkpairs-api-openapi.yml
+  format: yaml
+  label: Mesh Token Network Pairs API
+  slug: mesh-tokennetworkpairs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mesh/openapi/mesh-tokennetworkpairs-api-openapi.yml
+- filename: mesh-wallets-api-openapi.yml
+  format: yaml
+  label: Mesh Wallets API
+  slug: mesh-wallets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mesh/openapi/mesh-wallets-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type II

@@ -33,6 +33,6 @@ tags:
 - Company
 - LiDAR
 - Geospatial
-- PointCloud
+- Point Cloud
 - Surveying
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/pallie/security/pallie-domain-securit
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Personal Companion
 - Mental Health
 - Productivity

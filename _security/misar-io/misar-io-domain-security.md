@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/misar-io/security/misar-io-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Startup
-- SaaS
+- Artificial Intelligence
+- Startups
+- Software-as-a-Service
 - Automation
 ---

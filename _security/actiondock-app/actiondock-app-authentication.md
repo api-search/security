@@ -28,9 +28,8 @@ source_yaml_url: https://artifacts.apis.io/actiondock-app/authentication/actiond
 summary_line: 1 scheme
 tags:
 - Company
-- API
-- AI
+- Artificial Intelligence
 - MCP
-- Gateway
-- Human-in-the-loop
+- Gateways
+- Human-in-the-Loop
 ---

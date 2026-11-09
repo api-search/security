@@ -39,9 +39,8 @@ source_yaml_url: https://artifacts.apis.io/tpsclear-co-uk/security/tpsclear-co-u
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Telecommunications
-- UK
+- United Kingdom
 - HubSpot
 - Phone Screening
-- API
 - Compliance
 ---

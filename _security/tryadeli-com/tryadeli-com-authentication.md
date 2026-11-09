@@ -29,7 +29,6 @@ summary_line: 1 scheme
 tags:
 - Social Media
 - Advertising
-- API
 - Marketing
 - Automation
 ---

@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/rayven/security/rayven-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
 - Software
 - Platform

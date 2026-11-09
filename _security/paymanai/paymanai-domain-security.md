@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/paymanai/security/paymanai-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Banking
-- FinTech
-- Agentic
+- Fintech
+- AI Agents
 ---

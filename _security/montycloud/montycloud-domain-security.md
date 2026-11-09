@@ -38,6 +38,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud
 - Cloud Operations
+- Amazon Web Services
 - Managed Service Providers
 - Governance
 - Compliance

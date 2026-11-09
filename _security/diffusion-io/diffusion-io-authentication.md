@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Enterprise
 - SoftwareFactory
-- AI
+- Artificial Intelligence
 - Automation
 - Platform
 ---

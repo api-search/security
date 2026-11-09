@@ -33,5 +33,5 @@ tags:
 - Notification
 - Monitoring
 - Integration
-- OpenSource
+- Open Source
 ---

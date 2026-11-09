@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/usenarrative-ai/security/usenarrative
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Video Editing
-- SaaS
+- Software-as-a-Service
 - Creator Tools
 ---

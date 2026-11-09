@@ -34,5 +34,4 @@ tags:
 - Fintech
 - Payments
 - Malaysia
-- API
 ---

@@ -33,6 +33,5 @@ tags:
 - Company
 - 3D Printing
 - Manufacturing
-- Additive Manufacturing
 - Industrial
 ---

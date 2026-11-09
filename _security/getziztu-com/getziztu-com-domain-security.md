@@ -117,8 +117,8 @@ source_yaml_url: https://artifacts.apis.io/getziztu-com/security/getziztu-com-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Video
-- SocialMedia
-- ContentCreation
+- Social Media
+- Content Creation
 ---

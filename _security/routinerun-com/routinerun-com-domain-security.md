@@ -12,6 +12,30 @@ api_specs:
   slug: routinerun-com-runs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/routinerun-com/openapi/routinerun-com-runs-api-openapi.yml
+- filename: routinerun-com-commands-api-openapi.yml
+  format: yaml
+  label: routinerun-com Commands API
+  slug: routinerun-com-commands-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/routinerun-com/openapi/routinerun-com-commands-api-openapi.yml
+- filename: routinerun-com-history-api-openapi.yml
+  format: yaml
+  label: routinerun-com History API
+  slug: routinerun-com-history-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/routinerun-com/openapi/routinerun-com-history-api-openapi.yml
+- filename: routinerun-com-pagerduty-api-openapi.yml
+  format: yaml
+  label: routinerun-com Pagerduty API
+  slug: routinerun-com-pagerduty-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/routinerun-com/openapi/routinerun-com-pagerduty-api-openapi.yml
+- filename: routinerun-com-routines-api-openapi.yml
+  format: yaml
+  label: routinerun-com Routines API
+  slug: routinerun-com-routines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/routinerun-com/openapi/routinerun-com-routines-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -47,5 +71,5 @@ tags:
 - Automation
 - Productivity
 - Task Management
-- No-code
+- No-Code
 ---

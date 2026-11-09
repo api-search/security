@@ -49,9 +49,10 @@ tags:
 - Sports Data
 - Identity
 - OpenID Connect
-- Authentication
+- OAuth
 - Audience Data
 - Media
 - Reporting
 - Conversion Tracking
+- Authentication
 ---

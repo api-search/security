@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/kindsight/security/kindsight-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Fundraising
-- AI
-- Nonprofits
+- Artificial Intelligence
+- Non-Profit
 - Data
 - Platform
 ---

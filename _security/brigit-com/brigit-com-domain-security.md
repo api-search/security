@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-10-24'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/brigit-com/security/brigit-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- fintech
-- personal-finance
-- cash-advance
-- credit-building
-- budgeting
+- Fintech
+- Personal Finance
+- Cash Advance
+- Credit Building
+- Budgeting
 ---

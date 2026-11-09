@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - LawTech
-- LegalTech
+- Legal Tech
 - RegTech
-- AI
+- Artificial Intelligence
 ---

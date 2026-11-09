@@ -34,6 +34,6 @@ tags:
 - Company
 - Hospitality
 - Compliance
-- IdentityVerification
-- SaaS
+- Identity Verification
+- Software-as-a-Service
 ---

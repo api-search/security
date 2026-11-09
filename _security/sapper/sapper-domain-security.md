@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Finance
 - Automation
-- AI
-- Accounts-Payable
+- Artificial Intelligence
+- Accounts Payable
 - ERP
 ---

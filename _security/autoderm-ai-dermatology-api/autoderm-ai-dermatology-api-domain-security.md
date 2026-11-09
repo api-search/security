@@ -79,7 +79,7 @@ tags:
 - skin-analysis
 - REST API
 - OpenAPI
-- llms-txt
+- Llms.txt
 - ce-marked
 - White Label
 - Healthcare

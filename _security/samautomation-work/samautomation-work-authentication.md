@@ -35,9 +35,8 @@ source_yaml_url: https://artifacts.apis.io/samautomation-work/authentication/sam
 summary_line: 1 scheme
 tags:
 - Video
-- AI
+- Artificial Intelligence
 - JSON
 - Automation
 - Media
-- API
 ---

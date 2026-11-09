@@ -75,8 +75,7 @@ source_yaml_url: https://artifacts.apis.io/layercall-com/security/layercall-com-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FraudDetection
+- Fraud Prevention
 - TrustIntelligence
-- API
 - Security
 ---

@@ -63,5 +63,6 @@ tags:
 - Fintech
 - Belgium
 - Spain
+- OAuth
 - Authentication
 ---

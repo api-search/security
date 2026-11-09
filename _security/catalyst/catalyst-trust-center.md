@@ -26,5 +26,7 @@ tags:
 - Customer Growth
 - Retention
 - Revenue
+- Platform
+- Automation
 trust_url: https://trust.catalyst.io/
 ---

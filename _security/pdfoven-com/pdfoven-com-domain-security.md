@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/pdfoven-com/security/pdfoven-com-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
 - PDF
 - Conversion
-- Developer
+- Developers
 ---

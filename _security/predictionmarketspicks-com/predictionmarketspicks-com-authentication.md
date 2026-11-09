@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/predictionmarketspicks-com/authentica
 summary_line: 1 scheme
 tags:
 - Company
-- PredictionMarkets
+- Prediction Markets
 - TradingTools
 - Analytics
 - News

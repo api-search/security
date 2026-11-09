@@ -32,9 +32,8 @@ source_yaml_url: https://artifacts.apis.io/actiondock-app/security/actiondock-ap
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
-- AI
+- Artificial Intelligence
 - MCP
-- Gateway
-- Human-in-the-loop
+- Gateways
+- Human-in-the-Loop
 ---

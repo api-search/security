@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fax
 - Cloud
-- AI
+- Artificial Intelligence
 - Secure
-- DocumentAutomation
+- Document Automation
 ---

@@ -39,9 +39,9 @@ source_yaml_url: https://artifacts.apis.io/weflow/security/weflow-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - RevenueAI
-- RevOps
+- Revenue Operations
 - Salesforce
 - Automation
-- AI
+- Artificial Intelligence
 - Analytics
 ---

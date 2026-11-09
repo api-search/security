@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: html2img-com-api-openapi.json
-  format: json
-  label: HTML to Image API API
-  slug: html-to-image-api-api
+- filename: html2img-com-account-api-openapi.yml
+  format: yaml
+  label: html2img-com Account API
+  slug: html2img-com-account-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/_original/html2img-com-api-openapi.json
+  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-account-api-openapi.yml
+- filename: html2img-com-html-rendering-api-openapi.yml
+  format: yaml
+  label: html2img-com HTML rendering API
+  slug: html2img-com-html-rendering-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-html-rendering-api-openapi.yml
+- filename: html2img-com-screenshots-api-openapi.yml
+  format: yaml
+  label: html2img-com Screenshots API
+  slug: html2img-com-screenshots-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-screenshots-api-openapi.yml
+- filename: html2img-com-templates-api-openapi.yml
+  format: yaml
+  label: html2img-com Templates API
+  slug: html2img-com-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -38,9 +56,8 @@ source_yaml_url: https://artifacts.apis.io/html2img-com/security/html2img-com-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
-- Screenshot
+- Screenshots
 - PDF
 - Rendering
-- HeadlessChrome
+- Headless Chrome
 ---

@@ -33,7 +33,6 @@ summary_line: TLSv1.2 · HSTS
 tags:
 - Company
 - Japanese
-- Dictionary
-- Language-Learning
-- API
+- Dictionaries
+- Language Learning
 ---

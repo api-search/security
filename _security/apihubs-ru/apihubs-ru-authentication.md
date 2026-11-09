@@ -40,9 +40,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://docs.ap
 source_yaml_url: https://artifacts.apis.io/apihubs-ru/authentication/apihubs-ru-authentication.yml
 summary_line: 1 scheme
 tags:
-- API
-- AI
+- Artificial Intelligence
 - Marketplace
 - Russian
-- SaaS
+- Software-as-a-Service
 ---

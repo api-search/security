@@ -35,6 +35,6 @@ tags:
 - Indexing
 - Insurance
 - Government
-- RealEstate
-- AI
+- Real Estate
+- Artificial Intelligence
 ---

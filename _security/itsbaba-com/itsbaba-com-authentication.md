@@ -134,5 +134,4 @@ tags:
 - Translation
 - Hebrew
 - Language
-- API
 ---

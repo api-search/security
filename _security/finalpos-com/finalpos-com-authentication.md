@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/finalpos-com/authentication/finalpos-
 summary_line: 2 schemes
 tags:
 - Company
-- POS
+- Point-of-Sale
 - Retail
 - Payments
-- FinTech
+- Fintech
 ---

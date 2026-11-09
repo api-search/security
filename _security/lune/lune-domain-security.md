@@ -125,6 +125,6 @@ tags:
 - Logistics
 - Emissions
 - Carbon
-- Supply-Chain
+- Supply Chain
 - Sustainability
 ---

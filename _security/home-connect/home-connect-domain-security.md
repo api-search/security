@@ -80,7 +80,7 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/home-connect/security/home-connect-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- smart home
-- appliances
-- connected devices
+- Smart Home
+- Appliances
+- Connected Devices
 ---

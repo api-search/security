@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: turbodocx-deliverable-api-openapi.yml
+  format: yaml
+  label: TurboDocx Deliverable API
+  slug: turbodocx-deliverable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/turbodocx/openapi/turbodocx-deliverable-api-openapi.yml
+- filename: turbodocx-tag-api-openapi.yml
+  format: yaml
+  label: TurboDocx Tag API
+  slug: turbodocx-tag-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/turbodocx/openapi/turbodocx-tag-api-openapi.yml
+- filename: turbodocx-template-api-openapi.yml
+  format: yaml
+  label: TurboDocx Template API
+  slug: turbodocx-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/turbodocx/openapi/turbodocx-template-api-openapi.yml
+- filename: turbodocx-webhooks-api-openapi.yml
+  format: yaml
+  label: TurboDocx Webhooks API
+  slug: turbodocx-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/turbodocx/openapi/turbodocx-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -8,8 +33,8 @@ domains:
   domain: turbodocx.com
   spf: true
 hosts:
-- cert_expires: Jan 11 13:25:52 2027 GMT
-  host: turbodocx.com
+- cert_expires: Jan 13 01:08:36 2027 GMT
+  host: www.turbodocx.com
   hsts: true
   hsts_max_age: 63072000
   https: true
@@ -27,14 +52,14 @@ slug: turbodocx-domain-security
 source_filename: turbodocx-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: turbodocx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 13:25:52 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: turbodocx.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-11-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.turbodocx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 01:08:36 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: turbodocx.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://artifacts.apis.io/turbodocx/security/turbodocx-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- DocumentAutomation
-- ESignature
-- AI
+- Document Automation
+- E-Signature
+- Artificial Intelligence
 - Integration
-- SaaS
+- Software-as-a-Service
 ---

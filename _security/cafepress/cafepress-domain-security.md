@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/cafepress/security/cafepress-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- e-commerce
-- print-on-demand
-- custom merchandise
+- E-Commerce
+- Print on Demand
+- Custom Merchandise
 - online marketplace
 ---

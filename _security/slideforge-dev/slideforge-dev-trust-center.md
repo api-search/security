@@ -275,9 +275,8 @@ source_yaml_url: https://artifacts.apis.io/slideforge-dev/security/slideforge-de
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Presentation
-- API
 - MCP
 trust_url: https://slideforge.dev/trust
 ---

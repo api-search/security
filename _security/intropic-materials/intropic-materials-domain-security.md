@@ -31,7 +31,7 @@ summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
 - Biotechnology
-- MaterialsScience
-- EnzymeEngineering
+- Materials Science
+- Enzyme Engineering
 - SustainableTech
 ---

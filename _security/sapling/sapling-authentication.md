@@ -74,9 +74,8 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://sapling
 source_yaml_url: https://artifacts.apis.io/sapling/authentication/sapling-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Language-Model
-- API
 - Enterprise
 - Productivity
 ---

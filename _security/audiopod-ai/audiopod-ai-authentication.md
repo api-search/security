@@ -176,10 +176,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://docs.au
 source_yaml_url: https://artifacts.apis.io/audiopod-ai/authentication/audiopod-ai-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Audio
-- Podcast
+- Podcasts
 - Audiobook
-- SaaS
+- Software-as-a-Service
 - Company
 ---

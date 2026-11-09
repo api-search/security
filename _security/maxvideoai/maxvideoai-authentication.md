@@ -59,5 +59,5 @@ tags:
 - Agent-Native
 - Image-to-Video
 - Creative Production
-- Pay As You Go
+- Pay-as-you-go
 ---

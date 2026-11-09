@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/openfreemap/security/openfreemap-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Open-source
+- Open Source
 - Mapping
 - GIS
 - Vector Tiles

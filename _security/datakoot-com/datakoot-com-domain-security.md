@@ -94,8 +94,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Data
-- AI
-- Real-time
+- Artificial Intelligence
+- Real-Time
 - MCP
 - Security
 ---

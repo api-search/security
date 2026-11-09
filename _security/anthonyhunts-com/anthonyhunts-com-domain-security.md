@@ -69,8 +69,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Marketing
-- AI
+- Artificial Intelligence
 - Automation
-- LatinAmerica
+- Latin America
 - US
 ---

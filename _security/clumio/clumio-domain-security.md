@@ -44,6 +44,7 @@ tags:
 - Data Protection
 - Disaster Recovery
 - Cloud
+- Amazon Web Services
 - Storage
 - Security
 - Compliance

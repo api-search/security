@@ -30,6 +30,6 @@ tags:
 - Spend Management
 - Corporate Cards
 - Latin America
-- AI
+- Artificial Intelligence
 trust_url: https://trust.clara.com/
 ---

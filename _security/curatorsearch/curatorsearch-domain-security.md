@@ -47,7 +47,7 @@ tags:
 - Agent-Native
 - MCP
 - OpenAPI
-- llms-txt
+- Llms.txt
 - Open Data
 - Job
 - Cultural Heritage

@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/langdrive/security/langdrive-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Mortgage
 - Automation
-- FinTech
+- Fintech
 ---

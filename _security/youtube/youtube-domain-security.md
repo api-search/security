@@ -116,19 +116,19 @@ api_specs:
   url: https://artifacts.apis.io/youtube/openapi/youtube-videos-api-openapi.yml
 - filename: youtube-comment-threads-api-openapi.yml
   format: yaml
-  label: Youtube Comment Threads API
+  label: YouTube Comment Threads API
   slug: youtube-comment-threads-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/youtube/openapi/youtube-comment-threads-api-openapi.yml
 - filename: youtube-live-streams-api-openapi.yml
   format: yaml
-  label: Youtube Live Streams API
+  label: YouTube Live Streams API
   slug: youtube-live-streams-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/youtube/openapi/youtube-live-streams-api-openapi.yml
 - filename: youtube-report-types-api-openapi.yml
   format: yaml
-  label: Youtube Report Types API
+  label: YouTube Report Types API
   slug: youtube-report-types-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/youtube/openapi/youtube-report-types-api-openapi.yml
@@ -149,20 +149,20 @@ domains:
   domain: googleapis.com
   spf: true
 hosts:
-- cert_expires: Sep 14 08:35:22 2026 GMT
+- cert_expires: Dec 30 19:07:41 2026 GMT
   host: developers.google.com
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 08:37:17 2026 GMT
+- cert_expires: Dec 30 19:09:10 2026 GMT
   host: www.googleapis.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 08:37:17 2026 GMT
-  host: youtubeanalytics.googleapis.com
-  hsts: null
+- cert_expires: Jan 18 15:04:07 2027 GMT
+  host: oembed.com
+  hsts: false
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -171,14 +171,14 @@ layout: security
 method: probed
 name: Youtube Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Youtube, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Youtube
+overview: 'Domain security posture for YouTube, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: YouTube
 provider_slug: youtube
 slug: youtube-domain-security
 source_filename: youtube-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\n- host: youtubeanalytics.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:07:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:09:10 2026 GMT\n  hsts: null\n- host: oembed.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 15:04:07 2027 GMT\n  hsts: false\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/youtube/security/youtube-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

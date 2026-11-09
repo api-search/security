@@ -318,6 +318,24 @@ api_specs:
   slug: gremlin-oauth-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gremlin/openapi/gremlin-oauth-api-openapi.yml
+- filename: gremlin-teams-legacy-api-openapi.yml
+  format: yaml
+  label: Gremlin Teams Legacy API
+  slug: gremlin-teams-legacy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gremlin/openapi/gremlin-teams-legacy-api-openapi.yml
+- filename: gremlin-test-series-runs-api-openapi.yml
+  format: yaml
+  label: Gremlin Test Series Runs API
+  slug: gremlin-test-series-runs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gremlin/openapi/gremlin-test-series-runs-api-openapi.yml
+- filename: gremlin-tpm-api-openapi.yml
+  format: yaml
+  label: Gremlin Tpm API
+  slug: gremlin-tpm-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gremlin/openapi/gremlin-tpm-api-openapi.yml
 - filename: gremlin-api-keys-api-openapi.yml
   format: yaml
   label: Gremlin API Keys API

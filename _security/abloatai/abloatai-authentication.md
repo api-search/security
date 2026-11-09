@@ -82,7 +82,7 @@ source_yaml_url: https://artifacts.apis.io/abloatai/authentication/abloatai-auth
 summary_line: http · 1 scheme
 tags:
 - Agent Infrastructure
-- multi-agent-coordination
+- Multi‑Agent Coordination
 - concurrency-control
 - State Management
 - Database

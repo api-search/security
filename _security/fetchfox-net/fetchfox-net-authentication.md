@@ -36,7 +36,6 @@ source_yaml_url: https://artifacts.apis.io/fetchfox-net/authentication/fetchfox-
 summary_line: 2 schemes
 tags:
 - Social Data
-- API
 - Media
 - YouTube
 - Instagram

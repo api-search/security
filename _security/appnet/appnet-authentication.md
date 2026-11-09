@@ -57,6 +57,7 @@ tags:
 - Real-Time
 - Streaming
 - Developer Platform
-- Authentication
+- OAuth
 - Defunct
+- Authentication
 ---

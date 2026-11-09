@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Software
 - Management
-- AI
+- Artificial Intelligence
 - Portugal
-- SaaS
+- Software-as-a-Service
 ---

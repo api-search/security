@@ -30,4 +30,6 @@ source_yaml_url: https://artifacts.apis.io/thousand-api-com/authentication/thous
 summary_line: 0 schemes
 tags:
 - Company
+- Data
+- Services
 ---

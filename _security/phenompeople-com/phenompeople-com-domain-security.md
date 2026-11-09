@@ -33,7 +33,7 @@ summary_line: TLSv1.2 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Talent
-- AI
+- Artificial Intelligence
 - Recruiting
 - Platform
 ---

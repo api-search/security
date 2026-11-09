@@ -92,7 +92,9 @@ source_yaml_url: https://artifacts.apis.io/amazon-cognito/security/amazon-cognit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Authentication
+- Amazon Web Services
 - Identity
+- OAuth
 - OpenID Connect
 - SAML
 - User Management

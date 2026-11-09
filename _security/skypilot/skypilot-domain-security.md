@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/skypilot/security/skypilot-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- OpenSource
+- Artificial Intelligence
+- Open Source
 - Compute
 - Orchestration
 ---

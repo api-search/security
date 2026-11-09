@@ -246,8 +246,8 @@ source_yaml_url: https://artifacts.apis.io/romm/authentication/romm-authenticati
 summary_line: 4 schemes
 tags:
 - Company
-- OpenSource
-- RetroGaming
-- MediaManagement
+- Open Source
+- Retro Gaming
+- Media Management
 - Docker
 ---

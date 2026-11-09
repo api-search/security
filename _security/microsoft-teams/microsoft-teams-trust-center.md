@@ -54,36 +54,24 @@ api_specs:
   slug: microsoft-teams-teams-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-teams/openapi/microsoft-teams-teams-api-openapi.yml
-certification_count: 12
+certification_count: 1
 certifications:
-- SOC 1
-- SOC 2
-- SOC 3
-- ISO 27001
-- ISO 27017
-- ISO 27018
-- ISO 27701
-- FedRAMP
-- HIPAA / HITECH
-- PCI DSS
-- CSA STAR
 - GDPR
-description: Microsoft operates a central Trust Center and a Service Trust Portal that publish independent audit reports and certifications for Microsoft 365 (which includes Microsoft Teams). Certifications below are the named standards Microsoft 365 online services are audited against.
+description: ''
 kind: trust-center
 layout: security
 name: Microsoft Teams Trust Center
 name_suffix: Trust Center
-overview: Microsoft Teams maintains a public trust center documenting SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, FedRAMP, HIPAA / HITECH, PCI DSS, CSA STAR, and GDPR compliance.
+overview: Microsoft Teams maintains a public trust center documenting GDPR compliance.
 provider_name: Microsoft Teams
 provider_slug: microsoft-teams
 slug: microsoft-teams-trust-center
 source_filename: microsoft-teams-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https://www.microsoft.com/en-us/trust-center\ndescription: >-\n  Microsoft operates a central Trust Center and a Service Trust Portal that\n  publish independent audit reports and certifications for Microsoft 365\n  (which includes Microsoft Teams). Certifications below are the named standards\n  Microsoft 365 online services are audited against.\nservice_trust_portal: https://servicetrust.microsoft.com/\ncompliance_offerings: https://learn.microsoft.com/en-us/compliance/regulatory/offering-home\ncertifications:\n  - SOC 1\n  - SOC 2\n  - SOC 3\n  - ISO 27001\n  - ISO 27017\n  - ISO 27018\n  - ISO 27701\n  - FedRAMP\n  - HIPAA / HITECH\n  - PCI DSS\n  - CSA STAR\n  - GDPR\nevidence:\n  - source: https://www.microsoft.com/en-us/trust-center\n    keywords: [trust center, compliance, certifications]\n  - source: https://servicetrust.microsoft.com/\n    keywords: [audit reports, soc, iso 27001, fedramp]\nnotes:\n  - Teams-specific\
-  \ data protection and admin controls are documented under the Microsoft 365 / Teams security & compliance guidance.\n"
+source_yaml: "generated: '2026-11-05'\nmethod: searched\nprobe: true\nsource: https://www.microsoft.com/en-us/trust-center\nurl: https://www.microsoft.com/en-us/trust-center\ncertifications:\n- GDPR\nevidence:\n- source: https://www.microsoft.com/en-us/trust-center\n  keywords:\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-teams/security/microsoft-teams-trust-center.yml
-summary_line: SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, FedRAMP, HIPAA / HITECH, PCI DSS, CSA STAR, GDPR
+summary_line: GDPR
 tags:
 - Microsoft Teams
 - Chat

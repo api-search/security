@@ -118,6 +118,7 @@ tags:
 - Cloud Storage
 - Data Lake
 - Multi-Cloud
+- Amazon Web Services
 - Microsoft Azure
 - Google Cloud
 ---

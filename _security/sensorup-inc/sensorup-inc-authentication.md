@@ -50,6 +50,6 @@ tags:
 - Company
 - IoT
 - Industrial
-- DataPlatform
+- Data Platform
 - Manufacturing
 ---

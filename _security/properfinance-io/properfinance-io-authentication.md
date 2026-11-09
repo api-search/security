@@ -31,7 +31,6 @@ summary_line: 0 schemes
 tags:
 - Finance
 - Reconciliation
-- API
 - Platform
-- SaaS
+- Software-as-a-Service
 ---

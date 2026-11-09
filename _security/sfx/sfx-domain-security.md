@@ -36,4 +36,7 @@ tags:
 - Entertainment
 - Electronic Dance Music
 - Festivals
+- Fintech
+- Financial Services
+- Developer Platform
 ---

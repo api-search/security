@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/grandet-ai/security/grandet-ai-domain
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - LLM
 - Pricing
 - Data

@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/prefrontal/security/prefrontal-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- Data-Analytics
+- Artificial Intelligence
+- Data Analytics
 - Platform
 - Enterprise
 ---

@@ -87,9 +87,9 @@ source_yaml_url: https://artifacts.apis.io/coderpad/security/coderpad-trust-cent
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Hiring
-- TechnicalAssessment
+- Technical Assessment
 - InterviewPlatform
 trust_url: https://coderpad.io/security/
 ---

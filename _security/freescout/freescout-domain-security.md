@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/freescout/security/freescout-domain-s
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- HelpDesk
-- OpenSource
+- Help Desk
+- Open Source
 - PHP
 - Laravel
 ---

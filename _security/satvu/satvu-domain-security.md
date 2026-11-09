@@ -38,9 +38,9 @@ source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/satvu/security/satvu-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Thermal imagery
-- Satellite data
-- National security
+- Thermal Imagery
+- Satellite Data
+- National Security
 - Economic monitoring
-- Climate resilience
+- Climate-Resilience
 ---

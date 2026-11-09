@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/virtualq/security/virtualq-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Business
-- AI
+- Artificial Intelligence
 - Customer Service
 - Appointment Management
 - Callbacks

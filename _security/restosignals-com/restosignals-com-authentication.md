@@ -114,7 +114,6 @@ summary_line: 1 scheme
 tags:
 - Restaurant
 - Data
-- API
 - MCP
 - Lead Generation
 ---

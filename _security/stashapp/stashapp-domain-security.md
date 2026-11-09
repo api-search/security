@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Media
-- Open-source
+- Open Source
 - Adult
 - Organizer
 ---

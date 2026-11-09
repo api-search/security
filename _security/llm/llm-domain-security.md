@@ -34,5 +34,5 @@ tags:
 - Artificial Intelligence
 - Private-LLM
 - Enterprise
-- Custom-Development
+- Custom Development
 ---

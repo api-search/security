@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/stract-api/authentication/stract-api-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- Document-Processing
-- Data-Extraction
-- SaaS
+- Artificial Intelligence
+- Document Processing
+- Data Extraction
+- Software-as-a-Service
 ---

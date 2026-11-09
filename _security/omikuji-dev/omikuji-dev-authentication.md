@@ -40,5 +40,5 @@ tags:
 - Blog
 - Tools
 - Gadgets
-- Personal-Development
+- Personal Development
 ---

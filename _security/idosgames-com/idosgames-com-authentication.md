@@ -36,7 +36,7 @@ summary_line: 1 scheme
 tags:
 - Gaming
 - Web3
-- AI
+- Artificial Intelligence
 - Marketplace
 - Platform
 ---

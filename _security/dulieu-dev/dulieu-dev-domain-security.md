@@ -39,6 +39,5 @@ tags:
 - Company
 - Data
 - Vietnam
-- Economic
-- API
+- Economics
 ---

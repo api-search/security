@@ -73,9 +73,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://ogstamp
 source_yaml_url: https://artifacts.apis.io/ogstamp-com/authentication/ogstamp-com-authentication.yml
 summary_line: 2 schemes
 tags:
-- Open Graph
+- OpenGraph
 - Image Generation
-- API
 - Pay-as-you-go
 - Social Media
 ---

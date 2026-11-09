@@ -30,8 +30,6 @@ source_yaml_url: https://artifacts.apis.io/mentum/security/mentum-domain-securit
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- Startup
-- FinTech
-- API
-- VentureBacked
+- Startups
+- Fintech
 ---

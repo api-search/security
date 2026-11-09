@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/proxykey-org/authentication/proxykey-
 summary_line: 0 schemes
 tags:
 - Security
-- API-Management
+- API Management
 - Encryption
-- Key-Vault
-- Developer-Tools
+- Key Vault
+- Developer Tools
 ---

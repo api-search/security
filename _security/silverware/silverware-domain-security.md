@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/silverware/security/silverware-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Hospitality
-- POS
-- Restaurants
+- Point-of-Sale
+- Restaurant
 - Hotels
 - Software
 ---

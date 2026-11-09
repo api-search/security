@@ -33,7 +33,7 @@ tags:
 - Company
 - Tax
 - Compliance
-- AI
+- Artificial Intelligence
 - Finance
-- SaaS
+- Software-as-a-Service
 ---

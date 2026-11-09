@@ -88,9 +88,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/past-dev/authentication/past-dev-authentication.yml
 summary_line: 3 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Memory
-- API
 - Platform
-- Developer
+- Developers
 ---

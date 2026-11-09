@@ -146,6 +146,7 @@ source_yaml: "generated: '2026-08-13'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://artifacts.apis.io/amazon-clean-rooms/authentication/amazon-clean-rooms-authentication.yml
 summary_line: aws-sigv4 · 1 scheme
 tags:
+- Amazon Web Services
 - Cleanroom
 - Data Collaboration
 - Privacy

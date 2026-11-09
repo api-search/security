@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Insurance
-- Workers' Compensation
+- Workers Compensation
 - Wearables
 - Safety
 - Technology

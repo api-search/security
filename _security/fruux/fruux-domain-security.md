@@ -31,10 +31,10 @@ source_yaml: "generated: '2026-10-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/fruux/security/fruux-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
-- sync
-- contacts
-- calendars
-- tasks
-- collaboration
+- Sync
+- Contacts
+- Calendar
+- Task
+- Collaboration
 - Company
 ---

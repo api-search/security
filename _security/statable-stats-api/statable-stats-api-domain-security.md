@@ -66,6 +66,6 @@ tags:
 - GDPR
 - OpenAPI
 - MCP
-- llms-txt
+- Llms.txt
 - EU-hosted
 ---

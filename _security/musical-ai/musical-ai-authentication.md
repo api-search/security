@@ -38,8 +38,8 @@ summary_line: 1 scheme
 tags:
 - Company
 - Music
-- AI
+- Artificial Intelligence
 - Attribution
-- RightsManagement
-- GenerativeAI
+- Rights Management
+- Generative AI
 ---

@@ -61,8 +61,8 @@ source_yaml_url: https://artifacts.apis.io/vulk-dev/authentication/vulk-dev-auth
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- AppBuilder
-- NoCode
+- Artificial Intelligence
+- App Builder
+- No-Code
 - 3D
 ---

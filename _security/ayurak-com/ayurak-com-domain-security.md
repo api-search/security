@@ -38,9 +38,9 @@ source_yaml_url: https://artifacts.apis.io/ayurak-com/security/ayurak-com-domain
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - Healthcare
-- EmergencyResponse
+- Emergency Response
 - Technology
 ---

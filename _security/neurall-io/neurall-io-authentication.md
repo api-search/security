@@ -64,10 +64,10 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://neurall
 source_yaml_url: https://artifacts.apis.io/neurall-io/authentication/neurall-io-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Video
 - Image
 - Voice
-- Creator
-- Developer
+- Creators
+- Developers
 ---

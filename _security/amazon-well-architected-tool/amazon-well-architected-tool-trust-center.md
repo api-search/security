@@ -42,54 +42,18 @@ api_specs:
   slug: amazon-well-architected-tool-consolidatedreport-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-consolidatedreport-api-openapi.yml
-- filename: amazon-well-architected-tool-import-lens-api-openapi.yml
-  format: yaml
-  label: Amazon Well-Architected Tool Import Lens API
-  slug: amazon-well-architected-tool-import-lens-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-import-lens-api-openapi.yml
 - filename: amazon-well-architected-tool-profile-notifications-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Profile Notifications API
   slug: amazon-well-architected-tool-profile-notifications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-profile-notifications-api-openapi.yml
-- filename: amazon-well-architected-tool-profile-summaries-api-openapi.yml
-  format: yaml
-  label: Amazon Well-Architected Tool Profile Summaries API
-  slug: amazon-well-architected-tool-profile-summaries-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-profile-summaries-api-openapi.yml
-- filename: amazon-well-architected-tool-profile-template-api-openapi.yml
-  format: yaml
-  label: Amazon Well-Architected Tool Profile Template API
-  slug: amazon-well-architected-tool-profile-template-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-profile-template-api-openapi.yml
-- filename: amazon-well-architected-tool-share-invitations-api-openapi.yml
-  format: yaml
-  label: Amazon Well-Architected Tool Share Invitations API
-  slug: amazon-well-architected-tool-share-invitations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-share-invitations-api-openapi.yml
-- filename: amazon-well-architected-tool-workloads-summaries-api-openapi.yml
-  format: yaml
-  label: Amazon Well-Architected Tool Workloads Summaries API
-  slug: amazon-well-architected-tool-workloads-summaries-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-workloads-summaries-api-openapi.yml
 - filename: amazon-well-architected-tool-answers-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Well Architected Tool Answers API
   slug: amazon-well-architected-tool-answers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-answers-api-openapi.yml
-- filename: amazon-well-architected-tool-api-api-openapi.yml
-  format: yaml
-  label: Amazon Well-Architected Tool Well Architected Tool API
-  slug: amazon-well-architected-tool-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-api-api-openapi.yml
 - filename: amazon-well-architected-tool-contexts-api-openapi.yml
   format: yaml
   label: Amazon Well-Architected Tool Well Architected Tool Contexts API
@@ -126,6 +90,48 @@ api_specs:
   slug: amazon-well-architected-tool-templates-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-templates-api-openapi.yml
+- filename: amazon-well-architected-tool-agent-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Agent Profiles API
+  slug: amazon-well-architected-tool-agent-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-agent-profiles-api-openapi.yml
+- filename: amazon-well-architected-tool-agent-recommendations-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Agent Recommendations API
+  slug: amazon-well-architected-tool-agent-recommendations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-agent-recommendations-api-openapi.yml
+- filename: amazon-well-architected-tool-import-lens-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Import Lens API
+  slug: amazon-well-architected-tool-import-lens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-import-lens-api-openapi.yml
+- filename: amazon-well-architected-tool-profile-summaries-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Profile Summaries API
+  slug: amazon-well-architected-tool-profile-summaries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-profile-summaries-api-openapi.yml
+- filename: amazon-well-architected-tool-profile-template-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Profile Template API
+  slug: amazon-well-architected-tool-profile-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-profile-template-api-openapi.yml
+- filename: amazon-well-architected-tool-share-invitations-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Share Invitations API
+  slug: amazon-well-architected-tool-share-invitations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-share-invitations-api-openapi.yml
+- filename: amazon-well-architected-tool-workloads-summaries-api-openapi.yml
+  format: yaml
+  label: Amazon Well-Architected Tool Workloads Summaries API
+  slug: amazon-well-architected-tool-workloads-summaries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-well-architected-tool/openapi/amazon-well-architected-tool-workloads-summaries-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -150,6 +156,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-well-architected-tool/security
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Architecture
+- Amazon Web Services
 - Best Practices
 - Cloud Governance
 - Well-Architected

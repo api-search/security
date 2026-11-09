@@ -34,6 +34,5 @@ tags:
 - Company
 - IoT
 - Data Analytics
-- Real-time
-- APIs
+- Real-Time
 ---

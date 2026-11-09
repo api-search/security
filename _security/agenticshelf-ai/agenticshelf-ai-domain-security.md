@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/agenticshelf-ai/security/agenticshelf
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Commerce
 - MCP
 - Auditing

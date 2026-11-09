@@ -63,6 +63,5 @@ tags:
 - Company
 - Marketplace
 - Deals
-- E-commerce
-- API
+- E-Commerce
 ---

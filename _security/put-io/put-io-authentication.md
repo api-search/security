@@ -30,6 +30,5 @@ tags:
 - Cloud Storage
 - Media Streaming
 - File Management
-- API
 - Automation
 ---

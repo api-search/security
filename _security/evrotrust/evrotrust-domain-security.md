@@ -93,7 +93,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Trust Services
-- Electronic Signatures
+- E-Signature
 - Digital Identity
 - eIDAS
 - KYC

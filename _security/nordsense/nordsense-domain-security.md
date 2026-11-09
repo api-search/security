@@ -31,7 +31,7 @@ summary_line: TLSv1.2
 tags:
 - Company
 - Sensors
-- WasteManagement
+- Waste Management
 - IoT
 - DataInsights
 ---

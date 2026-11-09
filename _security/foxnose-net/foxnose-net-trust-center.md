@@ -34,7 +34,6 @@ source_yaml_url: https://artifacts.apis.io/foxnose-net/security/foxnose-net-trus
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
-- API
 - Networking
 - Security
 - Integration

@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/clara-co/security/clara-co-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
-- LegalTech
+- Fintech
+- Legal Tech
 - Incorporation
-- EquityManagement
+- Equity Management
 ---

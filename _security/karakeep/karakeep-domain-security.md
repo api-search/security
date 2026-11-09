@@ -38,7 +38,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Bookmarking
-- AI
+- Artificial Intelligence
 - Collaboration
-- OpenSource
+- Open Source
 ---

@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/back9ins-com/security/back9ins-com-tr
 summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS
 tags:
 - Insurance
-- InsurTech
-- SaaS
+- Insurtech
+- Software-as-a-Service
 - B2B
-- LifeInsurance
+- Life Insurance
 trust_url: https://back9ins.com/security
 ---

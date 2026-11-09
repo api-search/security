@@ -91,10 +91,10 @@ source_yaml_url: https://artifacts.apis.io/compuute-se/authentication/compuute-s
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - MCP
 - Compliance
 - Sweden
-- AgenticAI
+- AI Agents
 ---

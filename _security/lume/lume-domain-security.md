@@ -44,7 +44,7 @@ tags:
 - ETL
 - Data Transformation
 - Artificial Intelligence
-- Schema Mapping
+- Schema-Mapping
 - Data Quality
 - Developer Tools
 ---

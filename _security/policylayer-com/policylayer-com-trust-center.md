@@ -23,8 +23,8 @@ source_yaml_url: https://artifacts.apis.io/policylayer-com/security/policylayer-
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Company
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - Policy
 - Governance
 - Automation

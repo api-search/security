@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/rebar/security/rebar-domain-security.
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- AI
-- ConstructionTech
+- Artificial Intelligence
+- Construction Technology
 - Mechanical
 - Estimation
 - Bidding

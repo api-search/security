@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Robotics
-- AI
+- Artificial Intelligence
 - Industrial
 - Construction
 ---

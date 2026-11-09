@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/redditapis-com/authentication/reddita
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Reddit
 - Pay-per-call
-- AI
+- Artificial Intelligence
 ---

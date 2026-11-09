@@ -38,9 +38,8 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/imgapi-ai/security/imgapi-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Image Generation
-- Text-to-Image
-- Image-to-Image
+- Image to Image
 - Model Comparison
 ---

@@ -27,9 +27,9 @@ source_yaml_url: https://artifacts.apis.io/sweethawk/authentication/sweethawk-au
 summary_line: 1 scheme
 tags:
 - Zendesk apps
-- IT service management
+- ITSM
 - HR service
 - Employee service desk
-- Workflow automation
-- Change management
+- Workflow Automation
+- Change Management
 ---

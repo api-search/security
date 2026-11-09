@@ -66,8 +66,8 @@ source_yaml_url: https://artifacts.apis.io/jithox-com/security/jithox-com-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- BackOffice
+- Back Office
 - Tools
 ---

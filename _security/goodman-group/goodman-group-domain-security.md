@@ -40,7 +40,7 @@ tags:
 - Industrial Property
 - Real Estate
 - Logistics
-- Data Centers
+- Data Center
 - Property Development
 - Funds Management
 - Australia

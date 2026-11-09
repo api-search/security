@@ -34,6 +34,6 @@ tags:
 - Company
 - Geospatial
 - Research
-- Open-Standards
-- Data-Processing
+- Open Standard
+- Data Processing
 ---

@@ -31,5 +31,5 @@ tags:
 - Finance
 - India
 - Payments
-- OpenBanking
+- Open Banking
 ---

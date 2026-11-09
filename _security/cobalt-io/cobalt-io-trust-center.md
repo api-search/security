@@ -23,9 +23,9 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA
 tags:
 - Company
 - Security
-- PenetrationTesting
-- OffensiveSecurity
-- SaaS
+- Penetration Testing
+- Offensive Security
+- Software-as-a-Service
 - Platform
 trust_url: https://www.cobalt.io/solutions/compliance
 ---

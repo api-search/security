@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Payroll
-- EOR
-- GlobalHiring
-- API
+- Employer of Record
+- Global Hiring
 ---

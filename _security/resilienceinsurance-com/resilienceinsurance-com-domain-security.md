@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/resilienceinsurance-com/security/resi
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- CyberRisk
+- Cyber Risk
 - Insurance
-- AI
+- Artificial Intelligence
 - Enterprise
 ---

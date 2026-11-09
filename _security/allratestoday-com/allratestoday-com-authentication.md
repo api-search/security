@@ -74,7 +74,6 @@ summary_line: 2 schemes
 tags:
 - Company
 - Fintech
-- ExchangeRates
-- API
+- Exchange Rates
 - Data
 ---

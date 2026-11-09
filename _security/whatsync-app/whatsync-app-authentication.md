@@ -89,7 +89,7 @@ source_yaml_url: https://artifacts.apis.io/whatsync-app/authentication/whatsync-
 summary_line: 0 schemes
 tags:
 - WhatsApp
-- AI
+- Artificial Intelligence
 - ChatGPT
 - Claude
 - Integration

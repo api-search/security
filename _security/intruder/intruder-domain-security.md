@@ -83,7 +83,6 @@ tags:
 - Company
 - Security
 - Cloud
-- API
-- AI
+- Artificial Intelligence
 - Platform
 ---

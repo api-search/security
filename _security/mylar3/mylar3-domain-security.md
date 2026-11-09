@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/mylar3/security/mylar3-domain-securit
 summary_line: TLSv1.3
 tags:
 - Company
-- Data-Analytics
+- Data Analytics
 - Visualization
-- Machine-Learning
-- APIs
+- Machine Learning
 ---

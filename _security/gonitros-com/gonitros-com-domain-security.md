@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/gonitros-com/security/gonitros-com-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- e-commerce
+- E-Commerce
 - Shopify
-- DigitalProducts
-- API
+- Digital Products
 ---

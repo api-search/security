@@ -59,7 +59,6 @@ tags:
 - Tennis
 - Sports
 - Data
-- API
 - MCP
 - Rankings
 ---

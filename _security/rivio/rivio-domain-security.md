@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/rivio/security/rivio-domain-security.
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Procurement
-- SaaS
+- Software-as-a-Service
 - B2B
 - Automation
 ---

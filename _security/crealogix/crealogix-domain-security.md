@@ -39,6 +39,6 @@ tags:
 - Company
 - Banking
 - Wealth Management
-- FinTech
+- Fintech
 - Digital Banking
 ---

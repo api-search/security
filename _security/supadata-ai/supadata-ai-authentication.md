@@ -29,12 +29,11 @@ summary_line: 1 scheme
 tags:
 - Video
 - Transcript
-- API
 - YouTube
 - TikTok
 - Instagram
 - Facebook
 - X
-- AI
+- Artificial Intelligence
 - Data
 ---

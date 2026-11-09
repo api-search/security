@@ -40,4 +40,9 @@ tags:
 - Environment Health and Safety
 - Reality Capture
 - Heavy Industry
+- IoT
+- Integration
+- Automation
+- Cloud
+- Edge
 ---

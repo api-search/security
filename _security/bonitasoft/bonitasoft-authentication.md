@@ -520,4 +520,8 @@ tags:
 - AI Agents
 - Case Management
 - Java
+- Artificial Intelligence
+- Enterprise
+- Automation
+- Platform
 ---

@@ -90,7 +90,7 @@ source_yaml_url: https://artifacts.apis.io/chroma/authentication/chroma-authenti
 summary_line: apiKey/http · 3 schemes
 tags:
 - Artificial Intelligence
-- AI-Native
+- AI-native
 - Apache 2.0
 - Cloud
 - Embeddings

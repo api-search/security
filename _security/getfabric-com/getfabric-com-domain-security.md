@@ -35,8 +35,8 @@ tags:
 - Automation
 - Robotics
 - Grocery
-- Health & Beauty
-- Micro Fulfillment
+- Health and Beauty
+- Micro-Fulfillment
 - Storage
-- Q‑commerce
+- Q-Commerce
 ---

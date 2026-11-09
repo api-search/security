@@ -57,8 +57,8 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://artifacts.apis.io/gotolstoy-com/authentication/gotolstoy-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
-- Ecommerce
+- Artificial Intelligence
+- E-Commerce
 - Platform
 - Automation
 - Marketing

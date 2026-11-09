@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Neuroscience
-- Brain-Computer-Interface
-- AI
+- Brain-Computer Interface
+- Artificial Intelligence
 - EEG
 ---

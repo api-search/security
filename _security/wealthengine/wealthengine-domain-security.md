@@ -35,5 +35,5 @@ tags:
 - Wealth
 - Analytics
 - Marketing
-- Nonprofit
+- Non-Profit
 ---

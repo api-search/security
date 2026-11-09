@@ -37,7 +37,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Healthcare
-- AI
+- Artificial Intelligence
 - Revenue Cycle Management
 - Automation
 ---

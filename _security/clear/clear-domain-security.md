@@ -55,6 +55,7 @@ tags:
 - Authentication
 - KYC
 - Biometrics
+- OAuth
 - OpenID Connect
 - Healthcare
 - Financial Services

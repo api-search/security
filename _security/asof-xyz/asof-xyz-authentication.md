@@ -35,8 +35,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Finance
-- Crypto
-- Wallet
+- Cryptocurrency
+- Wallets
 - Analytics
-- API
 ---

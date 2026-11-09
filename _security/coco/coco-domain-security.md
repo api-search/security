@@ -39,4 +39,6 @@ tags:
 - Autonomous Vehicles
 - Urban Mobility
 - Food Delivery
+- Advertising
+- Fleet Management
 ---

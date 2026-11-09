@@ -32,6 +32,5 @@ tags:
 - Company
 - Sanctions
 - Compliance
-- API
-- FinTech
+- Fintech
 ---

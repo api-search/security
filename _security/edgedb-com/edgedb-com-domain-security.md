@@ -47,7 +47,7 @@ tags:
 - Data Platform
 - Graph Queries
 - Authentication
-- AI
+- Artificial Intelligence
 - Cloud
 - Open Source
 ---

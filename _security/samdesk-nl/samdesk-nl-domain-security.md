@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - CRM
-- Helpdesk
-- E-commerce
-- AI
+- Help Desk
+- E-Commerce
+- Artificial Intelligence
 ---

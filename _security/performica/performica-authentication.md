@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/performica/authentication/performica-
 summary_line: 0 schemes
 tags:
 - Company
-- Data-Analytics
+- Data Analytics
 - Platform
 - API-First
-- Emerging
 ---

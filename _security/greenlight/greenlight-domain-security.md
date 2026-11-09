@@ -39,4 +39,7 @@ tags:
 - Kids Banking
 - Investing
 - Financial Literacy
+- Payments
+- Mobile App
+- Education
 ---

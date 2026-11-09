@@ -40,4 +40,6 @@ tags:
 - Payments
 - Banking Infrastructure
 - India
+- Banking
+- Treasury
 ---

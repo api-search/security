@@ -33,6 +33,4 @@ tags:
 - Company
 - YouTube
 - Transcript
-- FreeTool
-- API
 ---

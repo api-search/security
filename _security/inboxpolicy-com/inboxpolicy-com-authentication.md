@@ -40,9 +40,8 @@ source_yaml_url: https://artifacts.apis.io/inboxpolicy-com/authentication/inboxp
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- EmailVerification
-- API
-- AI
+- Email Verification
+- Artificial Intelligence
 - Payments
 - Pricing
 ---

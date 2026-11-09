@@ -87,7 +87,8 @@ tags:
 - Medical Records
 - Release of Information
 - Privacy
-- Authentication
+- OAuth
 - Health Information Exchange
+- Authentication
 trust_url: https://trust.datavant.com/
 ---

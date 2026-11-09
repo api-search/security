@@ -50,11 +50,10 @@ source_yaml: "generated: '2026-10-29'\nmethod: derived\nsource: https://api.send
 source_yaml_url: https://artifacts.apis.io/sendbridge-com/authentication/sendbridge-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- email
-- verification
-- api
-- deliverability
-- validation
-- marketing
-- service
+- Email
+- Verification
+- Deliverability
+- Validation
+- Marketing
+- Services
 ---

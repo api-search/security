@@ -37,8 +37,7 @@ source_yaml_url: https://artifacts.apis.io/jevmodel-org/authentication/jevmodel-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- Decision-Model
-- API
-- TypeSafe
+- Artificial Intelligence
+- DecisionModel
+- Type Safe
 ---

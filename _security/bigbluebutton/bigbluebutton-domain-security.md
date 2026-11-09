@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Education
-- OpenSource
-- VideoConferencing
-- E‑Learning
+- Open Source
+- Video Conferencing
+- E-Learning
 ---

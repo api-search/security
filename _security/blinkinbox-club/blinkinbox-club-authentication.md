@@ -62,9 +62,7 @@ source_yaml_url: https://artifacts.apis.io/blinkinbox-club/authentication/blinki
 summary_line: http · 1 scheme
 tags:
 - Email
-- Temporary
-- API
 - MCP
-- DeveloperTools
+- Developer Tools
 - Disposable
 ---

@@ -34,6 +34,6 @@ tags:
 - Company
 - Elevation
 - Geospatial
-- Open-Source
+- Open Source
 - Free
 ---

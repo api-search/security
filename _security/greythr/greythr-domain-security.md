@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/greythr/security/greythr-domain-secur
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- HR
+- Human Resources
 - Payroll
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

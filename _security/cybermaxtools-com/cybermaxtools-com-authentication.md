@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/cybermaxtools-com/authentication/cybe
 summary_line: 2 schemes
 tags:
 - Games
-- AI
-- Data APIs
+- Artificial Intelligence
+- Data API
 - Creator Kits
 - Marketplace
 ---

@@ -36,8 +36,8 @@ source_yaml_url: https://artifacts.apis.io/wombo-gg/security/wombo-gg-domain-sec
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- AI
-- GenerativeArt
+- Artificial Intelligence
+- Generative Art
 - Media
 - Platform
 ---

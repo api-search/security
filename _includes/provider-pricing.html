@@ -1,0 +1,45 @@
+{%- comment -%}
+  PRICING ON THE PROVIDER PAGE (2026-11-05). "openai api pricing" is 50K searches a month, and this
+  page answered it with a box holding a file name. page.pricing is written by build.py's
+  _pricing_summary() from the plans, rate-limit and FinOps records; nothing here is inferred.
+  The page states where each figure came from. A record the pipeline generated is shown with a
+  label saying it has not been checked against the provider's own pricing page. No Offer markup:
+  most records state prices in words, and an Offer without a numeric price is a Search Console
+  error. The FAQ carries the figure instead. Stories link #pricing.
+{%- endcomment -%}
+{%- assign _pr = page.pricing -%}
+{%- if _pr -%}
+<section id="pricing" class="provider-pricing" style="margin:2rem 0;padding:1rem 1.25rem;border:1px solid #d1d5db;border-radius:8px">
+  <h2 style="margin-top:0">{{ page.name }}{% unless page.name contains 'API' %} API{% endunless %} pricing</h2>
+  {%- if _pr.plans.size > 0 %}
+  <p style="margin:.25rem 0 .75rem;font-size:.95rem">
+    {%- if _pr.evidence_backed -%}
+      Prices published by {{ page.name }}{% if _pr.source_url %}, read{% if _pr.as_of %} {{ _pr.as_of }}{% endif %} from <a href="{{ _pr.source_url }}" rel="nofollow noopener">{{ _pr.source_url | remove: 'https://' | remove: 'http://' | truncate: 60 }}</a>{% endif %}.{% if _pr.stale %} This record is due for a re-check.{% endif %}
+    {%- else -%}
+      <span style="background:#fef3c7;padding:.1rem .35rem;border-radius:4px">Not yet checked against {{ page.name }}'s own pricing page.</span> Compiled by API Evangelist{% if _pr.as_of %} on {{ _pr.as_of }}{% endif %}{% if _pr.source_url %} from <a href="{{ _pr.source_url }}" rel="nofollow noopener">{{ _pr.source_url | remove: 'https://' | remove: 'http://' | truncate: 60 }}</a>{% endif %}; confirm before you rely on a figure.
+    {%- endif %}
+    {%- if _pr.free_tier %} A free plan or tier is listed.{% endif %}
+  </p>
+  <table style="width:100%;border-collapse:collapse;font-size:.92rem">
+    <thead><tr><th style="text-align:left;border-bottom:1px solid #e5e7eb;padding:.35rem">Plan</th><th style="text-align:left;border-bottom:1px solid #e5e7eb;padding:.35rem">Price</th></tr></thead>
+    <tbody>
+    {%- for p in _pr.plans %}
+      <tr><td style="padding:.35rem;border-bottom:1px solid #f3f4f6;vertical-align:top">{{ p.name | escape }}{% if p.type %} <span style="color:#6b7280;font-size:.8rem">{{ p.type | escape }}</span>{% endif %}</td>
+          <td style="padding:.35rem;border-bottom:1px solid #f3f4f6">{{ p.price | default: '—' | escape }}{% if p.includes %}<div style="color:#6b7280;font-size:.82rem">Includes: {{ p.includes | escape }}</div>{% endif %}</td></tr>
+    {%- endfor %}
+    </tbody>
+  </table>
+  <p style="margin:.5rem 0 0;font-size:.9rem"><a href="https://apis.io/plans/{{ page.slug }}/{{ _pr.plans_slug }}/">{% if _pr.plan_count > _pr.plans.size %}All {{ _pr.plan_count }} plans{% else %}Plan details{% endif %}, limits and sources &rarr;</a></p>
+  {%- endif %}
+  {%- if _pr.rate_limits.size > 0 %}
+  <h3 style="font-size:1.05rem;margin:1.1rem 0 .3rem">Rate limits</h3>
+  <ul style="margin:.2rem 0 .3rem 1.1rem;padding:0;font-size:.92rem">
+    {%- for l in _pr.rate_limits %}<li>{% if l.name %}{{ l.name | escape }}: {% endif %}{{ l.limit | escape }}</li>{% endfor %}
+  </ul>
+  <p style="margin:0;font-size:.9rem">{% unless _pr.rate_limits_evidence_backed %}Compiled by API Evangelist, not yet checked against {{ page.name }}'s documentation. {% endunless %}<a href="https://apis.io/rate-limits/{{ page.slug }}/{{ _pr.rate_limits_slug }}/">{% if _pr.rate_limit_count > _pr.rate_limits.size %}All {{ _pr.rate_limit_count }} limits{% else %}Rate-limit details{% endif %} &rarr;</a></p>
+  {%- endif %}
+  {%- if _pr.billing_unit %}
+  <p style="margin:.9rem 0 0;font-size:.92rem"><strong>Billed by:</strong> {{ _pr.billing_unit | escape }} &middot; <a href="https://apis.io/finops/{{ page.slug }}/{{ _pr.finops_slug }}/">FinOps profile &rarr;</a></p>
+  {%- endif %}
+</section>
+{%- endif -%}

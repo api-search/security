@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/qodex/security/qodex-domain-security.
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Testing
 - Continuous Integration
 - DevOps

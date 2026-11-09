@@ -29,9 +29,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/hugo-team/authentication/hugo-team-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
-- Customer Support
-- SaaS
+- Artificial Intelligence
+- Customer Service
+- Software-as-a-Service
 - Automation
 - Enterprise
 ---

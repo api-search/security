@@ -40,7 +40,7 @@ tags:
 - Company
 - Self-Hosted
 - Monitoring
-- Speedtest
+- Speed Test
 - Docker
-- Open-Source
+- Open Source
 ---

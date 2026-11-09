@@ -23,9 +23,9 @@ source_yaml: "{\n  \"generated\": \"2026-10-29\",\n  \"method\": \"none\",\n  \"
 source_yaml_url: https://artifacts.apis.io/getboon-ai/authentication/getboon-ai-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Construction
 - Estimating
 - Software
-- Startup
+- Startups
 ---

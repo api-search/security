@@ -875,8 +875,7 @@ source_yaml_url: https://artifacts.apis.io/api-ninjas-com/authentication/api-nin
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Data
 - Finance
-- Developer
+- Developers
 ---

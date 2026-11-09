@@ -55,6 +55,7 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Active Directory
 - Authentication
+- Amazon Web Services
 - Directory Services
 - Identity and Access Management
 trust_url: https://aws.amazon.com/compliance/

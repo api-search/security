@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/kalicart-com/security/kalicart-com-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - WooCommerce
-- AgenticCommerce
-- OpenProtocol
-- AI
+- Agentic Commerce
+- Open Protocol
+- Artificial Intelligence
 ---

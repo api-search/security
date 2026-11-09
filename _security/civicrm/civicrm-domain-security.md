@@ -42,7 +42,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Open Source
 - CRM
-- Nonprofit
+- Non-Profit
 - Community
 - PHP
 - Extensions

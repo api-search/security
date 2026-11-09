@@ -41,6 +41,6 @@ tags:
 - Company
 - Education
 - Coding
-- MobileApp
-- LearningPlatform
+- Mobile App
+- Learning Platform
 ---

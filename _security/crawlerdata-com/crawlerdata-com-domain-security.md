@@ -56,10 +56,9 @@ source_yaml_url: https://artifacts.apis.io/crawlerdata-com/security/crawlerdata-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Search
-- API
 - Google
 - SERP
 - Data
-- E-commerce
+- E-Commerce
 - SEO
 ---

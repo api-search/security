@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Lease Accounting
 - Data Extraction
-- SaaS
+- Software-as-a-Service
 - Accounting Software
 - CPA Firms
 - Financial Professionals

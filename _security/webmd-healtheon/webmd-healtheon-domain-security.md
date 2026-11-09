@@ -33,7 +33,6 @@ tags:
 - Company
 - Health
 - Information
-- API
 - Consumer
 - Professional
 ---

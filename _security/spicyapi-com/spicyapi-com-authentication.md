@@ -101,7 +101,7 @@ source_yaml_url: https://artifacts.apis.io/spicyapi-com/authentication/spicyapi-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Adult
 - Image Generation
 - Video Generation

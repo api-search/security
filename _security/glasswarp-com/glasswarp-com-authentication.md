@@ -105,7 +105,6 @@ source_yaml_url: https://artifacts.apis.io/glasswarp-com/authentication/glasswar
 summary_line: 2 schemes
 tags:
 - Company
-- API
 - Automation
 - Windows
 - RPA

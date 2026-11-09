@@ -382,7 +382,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance
 - Bookkeeping
-- AI
-- Startup
+- Artificial Intelligence
+- Startups
 - Accounting
 ---

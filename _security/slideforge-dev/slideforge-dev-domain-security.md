@@ -284,8 +284,7 @@ source_yaml_url: https://artifacts.apis.io/slideforge-dev/security/slideforge-de
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Presentation
-- API
 - MCP
 ---

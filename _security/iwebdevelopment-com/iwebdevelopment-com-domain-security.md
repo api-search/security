@@ -34,6 +34,6 @@ tags:
 - Accounting
 - Automation
 - Integration
-- FinTech
-- E-commerce
+- Fintech
+- E-Commerce
 ---

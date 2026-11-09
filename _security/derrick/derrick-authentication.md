@@ -59,11 +59,11 @@ tags:
 - Lead Generation
 - Sales Intelligence
 - CRM Enrichment
-- tech-stack-detection
+- Tech Stack Detection
 - Email Verification
 - siret-siren-france
 - MCP Server
-- llms-txt
+- Llms.txt
 - Google Sheets
-- gtm-tools
+- GTM-Tools
 ---

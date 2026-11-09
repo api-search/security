@@ -30,5 +30,8 @@ tags:
 - ESG
 - KYC
 - Supplier Onboarding
+- Identity
+- Verification
+- Fraud Prevention
 trust_url: https://trust.certa.ai/
 ---

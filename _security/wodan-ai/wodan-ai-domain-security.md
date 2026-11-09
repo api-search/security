@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/wodan-ai/security/wodan-ai-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- Zero-Trust
+- Artificial Intelligence
+- Zero Trust
 - Encryption
-- Data-Privacy
-- Financial-Services
+- Privacy
+- Financial Services
 ---

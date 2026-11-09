@@ -153,7 +153,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Bookmarking
-- OpenSource
-- SelfHostable
+- Open Source
+- Self-Hosted
 - Productivity
 ---

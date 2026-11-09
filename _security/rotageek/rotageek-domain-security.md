@@ -173,6 +173,6 @@ tags:
 - Company
 - Workforce Management
 - Scheduling
-- AI-Insights
+- AI Insights
 - HR Integration
 ---

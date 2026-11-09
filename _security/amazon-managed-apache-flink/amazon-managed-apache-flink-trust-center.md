@@ -36,6 +36,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-managed-apache-flink/security/
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Apache Flink
+- Amazon Web Services
 - Big Data
 - Real-Time Processing
 - Streaming Analytics

@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/deepsightinc-com/security/deepsightin
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Ultrasound
 - Medical Imaging
 - Technology

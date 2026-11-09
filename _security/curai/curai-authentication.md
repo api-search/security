@@ -47,4 +47,5 @@ tags:
 - Patient Engagement
 - Partner API
 - SDK
+- Artificial Intelligence
 ---

@@ -40,4 +40,8 @@ tags:
 - Hyperpolarization
 - Healthcare
 - Deep Tech
+- Imaging
+- Hardware
+- Software
+- Industrial
 ---

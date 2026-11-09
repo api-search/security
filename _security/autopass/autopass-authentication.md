@@ -95,6 +95,7 @@ tags:
 - Payments
 - Automotive
 - Financial Services
-- Authentication
+- OAuth
 - Taiwan
+- Authentication
 ---

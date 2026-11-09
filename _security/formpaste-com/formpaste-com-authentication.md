@@ -36,7 +36,6 @@ source_yaml_url: https://artifacts.apis.io/formpaste-com/authentication/formpast
 summary_line: 2 schemes
 tags:
 - Company
-- API
 - Form
 - Contact
 - Free

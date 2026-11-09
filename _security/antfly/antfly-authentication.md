@@ -163,9 +163,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: derived\nsource: openapi/antfly-o
 source_yaml_url: https://artifacts.apis.io/antfly/authentication/antfly-authentication.yml
 summary_line: apiKey/http · 3 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Search
 - Retrieval
-- Vector
+- Vectors
 - Hybrid
 ---

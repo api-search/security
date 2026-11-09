@@ -69,9 +69,10 @@ tags:
 - Charging
 - MQTT
 - Streaming
-- Authentication
+- OAuth
 - Device Code Flow
 - GDPR
 - Right To Repair
 - Mobility
+- Authentication
 ---

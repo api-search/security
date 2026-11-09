@@ -40,6 +40,6 @@ tags:
 - Company
 - Identity
 - Authentication
-- UAE
+- United Arab Emirates
 - Digital
 ---

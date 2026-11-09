@@ -94,9 +94,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: derived\nsource: openapi/intenche
 source_yaml_url: https://artifacts.apis.io/intencheck-com/authentication/intencheck-com-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- AI
-- NLP
-- TextAnalysis
+- Artificial Intelligence
+- Natural Language Processing
+- Text Analysis
 - Sentiment
 - Emotion
 ---

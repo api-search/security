@@ -93,4 +93,9 @@ tags:
 - Notification
 - Payments
 - Telegram
+- Social
+- Public APIs
+- Chatbots
+- Webhook
+- Mini Apps
 ---

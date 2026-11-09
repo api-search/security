@@ -184,8 +184,9 @@ tags:
 - Knowledge Graph
 - MCP
 - Agent-Native
-- Authentication
+- OAuth
 - Data Engineering
 - Interoperability
+- Authentication
 trust_url: https://www.flumehealth.com/security
 ---

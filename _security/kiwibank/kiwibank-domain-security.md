@@ -33,6 +33,6 @@ tags:
 - Company
 - Banking
 - Finance
-- NewZealand
-- DigitalBanking
+- New Zealand
+- Digital Banking
 ---

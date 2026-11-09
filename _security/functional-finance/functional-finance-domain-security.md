@@ -33,8 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Insurance
-- FinTech
+- Fintech
 - Payments
 - Billing
-- API
 ---

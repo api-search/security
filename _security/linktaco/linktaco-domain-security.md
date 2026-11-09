@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/linktaco/security/linktaco-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- OpenSource
+- Open Source
 - Bookmarking
 - LinkShortening
-- CuratedLists
+- Curated Lists
 ---

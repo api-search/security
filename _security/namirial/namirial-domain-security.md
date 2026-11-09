@@ -166,7 +166,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Digital Trust
-- Electronic Signature
+- E-Signature
 - Identity Verification
 - Digital Identity
 - Trust Services

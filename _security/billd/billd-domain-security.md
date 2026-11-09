@@ -34,6 +34,6 @@ tags:
 - Construction
 - Financing
 - Subcontractors
-- WorkingCapital
+- Working Capital
 - Billd
 ---

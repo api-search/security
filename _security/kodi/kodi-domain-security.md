@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Media
 - Home-Theater
-- Open-Source
+- Open Source
 - Entertainment
 - Software
 ---

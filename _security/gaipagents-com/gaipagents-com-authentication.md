@@ -73,8 +73,8 @@ source_yaml_url: https://artifacts.apis.io/gaipagents-com/authentication/gaipage
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Agentic
+- Artificial Intelligence
+- AI Agents
 - MCP
 - A2A
 - OpenAPI

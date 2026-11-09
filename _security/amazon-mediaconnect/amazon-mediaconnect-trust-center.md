@@ -131,6 +131,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/amazon-mediaconnect/security/amazon-mediaconnect-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
+- Amazon Web Services
 - Broadcasting
 - Live Streaming
 - Media

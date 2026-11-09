@@ -35,5 +35,5 @@ tags:
 - Savings
 - Stocks
 - ETFs
-- Crypto
+- Cryptocurrency
 ---

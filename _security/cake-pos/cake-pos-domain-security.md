@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/cake-pos/security/cake-pos-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- POS
+- Point-of-Sale
 - Retail
-- Restaurants
+- Restaurant
 - Cloud
 ---

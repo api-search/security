@@ -135,8 +135,9 @@ tags:
 - OTC
 - Prime Brokerage
 - Embed
-- Authentication
+- OAuth
 - Public APIs
 - Real-Time
+- Authentication
 trust_url: https://trust.payward.com/
 ---

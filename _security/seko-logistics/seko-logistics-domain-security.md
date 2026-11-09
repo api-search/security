@@ -34,6 +34,6 @@ tags:
 - Company
 - Logistics
 - Freight
-- SupplyChain
-- ECommerce
+- Supply Chain
+- E-Commerce
 ---

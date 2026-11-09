@@ -40,4 +40,8 @@ tags:
 - Digital Health
 - Therapy
 - Psychiatry
+- Virtual Therapy
+- Pediatric Mental Health
+- Insurance Covered
+- Mental Health Services
 ---

@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Biopharma
-- Rare Diseases
+- Rare Disease
 - Clinical Trials
 - Growth Hormone
 ---

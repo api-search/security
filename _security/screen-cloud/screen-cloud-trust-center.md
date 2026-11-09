@@ -20,8 +20,8 @@ source_yaml_url: https://artifacts.apis.io/screen-cloud/security/screen-cloud-tr
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- DigitalSignage
-- SaaS
+- Digital Signage
+- Software-as-a-Service
 - Cloud
 - Marketing
 trust_url: https://screencloud.com/security

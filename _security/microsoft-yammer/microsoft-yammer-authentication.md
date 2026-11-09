@@ -80,13 +80,22 @@ schemes:
     tokenUrl: https://www.yammer.com/oauth2/access_token.json
   name: OAuth2
   sources:
-  - openapi/microsoft-yammer-openapi.yml
+  - openapi/microsoft-yammer-files-api-openapi.yml
+  - openapi/microsoft-yammer-groups-api-openapi.yml
+  - openapi/microsoft-yammer-messages-api-openapi.yml
+  - openapi/microsoft-yammer-networks-api-openapi.yml
+  - openapi/microsoft-yammer-search-api-openapi.yml
+  - openapi/microsoft-yammer-subscriptions-api-openapi.yml
+  - openapi/microsoft-yammer-threads-api-openapi.yml
+  - openapi/microsoft-yammer-topics-api-openapi.yml
+  - openapi/microsoft-yammer-users-api-openapi.yml
   type: oauth2
 slug: microsoft-yammer-authentication
 source_filename: microsoft-yammer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-yammer-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.yammer.com/dialog/oauth\n    tokenUrl: https://www.yammer.com/oauth2/access_token.json\n    scopes: 0\n  description: Yammer OAuth 2.0 legacy tokens or Microsoft Entra tokens. Delegated access only.\n  sources:\n  - openapi/microsoft-yammer-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-yammer-files-api-openapi.yml, openapi/microsoft-yammer-groups-api-openapi.yml,\n  openapi/microsoft-yammer-messages-api-openapi.yml, openapi/microsoft-yammer-networks-api-openapi.yml,\n  openapi/microsoft-yammer-search-api-openapi.yml, openapi/microsoft-yammer-subscriptions-api-openapi.yml,\n  openapi/microsoft-yammer-threads-api-openapi.yml, openapi/microsoft-yammer-topics-api-openapi.yml,\n  openapi/microsoft-yammer-users-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.yammer.com/dialog/oauth\n    tokenUrl: https://www.yammer.com/oauth2/access_token.json\n    scopes: 0\n  description: Yammer OAuth 2.0 legacy tokens or Microsoft Entra tokens. Delegated access only.\n  sources:\n  - openapi/microsoft-yammer-files-api-openapi.yml\n  - openapi/microsoft-yammer-groups-api-openapi.yml\n\
+  \  - openapi/microsoft-yammer-messages-api-openapi.yml\n  - openapi/microsoft-yammer-networks-api-openapi.yml\n  - openapi/microsoft-yammer-search-api-openapi.yml\n  - openapi/microsoft-yammer-subscriptions-api-openapi.yml\n  - openapi/microsoft-yammer-threads-api-openapi.yml\n  - openapi/microsoft-yammer-topics-api-openapi.yml\n  - openapi/microsoft-yammer-users-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-yammer/authentication/microsoft-yammer-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

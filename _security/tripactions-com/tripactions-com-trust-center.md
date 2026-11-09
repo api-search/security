@@ -24,7 +24,7 @@ tags:
 - Company
 - Travel
 - Expense Management
-- SaaS
+- Software-as-a-Service
 - Corporate
 trust_url: https://navan.com/security
 ---

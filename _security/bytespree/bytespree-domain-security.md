@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/bytespree/security/bytespree-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Nonprofit
-- DataPlatform
-- API
-- OpenSource
+- Non-Profit
+- Data Platform
+- Open Source
 ---

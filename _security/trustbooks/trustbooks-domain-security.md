@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Accounting
-- LegalTech
-- SaaS
-- TrustAccounting
+- Legal Tech
+- Software-as-a-Service
+- Trust Accounting
 ---

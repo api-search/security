@@ -76,9 +76,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: \"https://feedi
 source_yaml_url: https://artifacts.apis.io/feedico-io/authentication/feedico-io-authentication.yml
 summary_line: 1 scheme
 tags:
-- Affiliate
+- Affiliates
 - Marketing
-- API
-- E-commerce
+- E-Commerce
 - Coupons
 ---

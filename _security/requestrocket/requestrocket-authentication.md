@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: requestrocket-requestrocket-api-api-openapi.yml
-  format: yaml
-  label: RequestRocket API
-  slug: requestrocket-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/requestrocket/openapi/requestrocket-requestrocket-api-api-openapi.yml
 - filename: requestrocket-openapi-generated.yml
   format: yaml
   label: RequestRocket API

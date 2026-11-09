@@ -21,9 +21,9 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Construction
 - Security
-- AI
+- Artificial Intelligence
 - Video
 - Monitoring
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.truelook.com/
 ---

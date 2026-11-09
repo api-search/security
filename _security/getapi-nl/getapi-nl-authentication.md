@@ -141,8 +141,7 @@ source_yaml_url: https://artifacts.apis.io/getapi-nl/authentication/getapi-nl-au
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- API
 - Dutch
-- WebScraping
-- DataValidation
+- Web Scraping
+- Data Validation
 ---

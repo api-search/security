@@ -74,9 +74,8 @@ source_yaml_url: https://artifacts.apis.io/swathapi-com/security/swathapi-com-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Weather
 - Storm
-- AI
+- Artificial Intelligence
 - NOAA
 ---

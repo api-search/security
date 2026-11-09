@@ -26,6 +26,36 @@ api_specs:
   slug: jina-ai-reranker-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reranker-api-openapi.yml
+- filename: jina-ai-batch-embeddings-api-openapi.yml
+  format: yaml
+  label: Jina AI Batch Embeddings API
+  slug: jina-ai-batch-embeddings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-batch-embeddings-api-openapi.yml
+- filename: jina-ai-generative-models-api-openapi.yml
+  format: yaml
+  label: Jina AI Generative Models API
+  slug: jina-ai-generative-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-generative-models-api-openapi.yml
+- filename: jina-ai-model-list-api-openapi.yml
+  format: yaml
+  label: Jina AI Model List API
+  slug: jina-ai-model-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-model-list-api-openapi.yml
+- filename: jina-ai-search-api-openapi.yml
+  format: yaml
+  label: Jina AI Search API
+  slug: jina-ai-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-search-api-openapi.yml
+- filename: jina-ai-search-foundation-models-api-openapi.yml
+  format: yaml
+  label: Jina AI Search Foundation Models API
+  slug: jina-ai-search-foundation-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-search-foundation-models-api-openapi.yml
 auth_types:
 - http
 description: ''

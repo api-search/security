@@ -29,9 +29,9 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/todox-dev/authentication/todox-dev-authentication.yml
 summary_line: 0 schemes
 tags:
-- Company
 - Developer Tools
+- Artificial Intelligence
 - Productivity
-- AI
-- Collaboration
+- Open Source
+- Privacy
 ---

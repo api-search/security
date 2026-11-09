@@ -42,6 +42,18 @@ api_specs:
   slug: listings-api-supporting-apis-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/listings-api/openapi/listings-api-supporting-apis-api-openapi.yml
+- filename: listings-api-day-pass-api-openapi.yml
+  format: yaml
+  label: Listings API Day pass API
+  slug: listings-api-day-pass-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-day-pass-api-openapi.yml
+- filename: listings-api-social-api-openapi.yml
+  format: yaml
+  label: Listings API Social API
+  slug: listings-api-social-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/listings-api/openapi/listings-api-social-api-openapi.yml
 description: ''
 domains:
 - caa: []

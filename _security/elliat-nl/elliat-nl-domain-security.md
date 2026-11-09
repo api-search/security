@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/elliat-nl/security/elliat-nl-domain-s
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- Developer
+- Developers
 - JavaScript
 - XML
 - Fonto

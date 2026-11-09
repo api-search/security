@@ -39,4 +39,6 @@ tags:
 - Fintech
 - Pre-Seed
 - Series A
+- Women
+- Families
 ---

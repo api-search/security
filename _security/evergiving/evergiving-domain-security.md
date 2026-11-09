@@ -39,7 +39,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Fundraising
-- Nonprofit
-- API
+- Non-Profit
 - Integration
 ---

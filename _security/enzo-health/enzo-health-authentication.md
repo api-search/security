@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/enzo-health/authentication/enzo-healt
 summary_line: http · 1 scheme
 tags:
 - Company
-- Home Health
-- EHR
+- Home Care
+- Electronic Health Records
 - Healthcare
-- SaaS
+- Software-as-a-Service
 ---

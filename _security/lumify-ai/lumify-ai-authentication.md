@@ -130,7 +130,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Sports
-- AI
-- Real-time
+- Artificial Intelligence
+- Real-Time
 - Betting
 ---

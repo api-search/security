@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/lunchbadger/security/lunchbadger-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API-Design
+- API Design
 - Low-Code
 - Microservices
 - Enterprise

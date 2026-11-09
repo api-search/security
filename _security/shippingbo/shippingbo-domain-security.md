@@ -51,8 +51,9 @@ tags:
 - 3PL
 - Marketplace
 - Webhook
-- Authentication
+- OAuth
 - Software-as-a-Service
 - France
 - French Tech
+- Authentication
 ---

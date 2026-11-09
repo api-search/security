@@ -41,6 +41,6 @@ tags:
 - Company
 - Integration
 - iPaaS
-- AI
+- Artificial Intelligence
 - ERP
 ---

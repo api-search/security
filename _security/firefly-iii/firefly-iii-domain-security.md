@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/firefly-iii/security/firefly-iii-doma
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Finance
-- OpenSource
-- PersonalFinance
+- Open Source
+- Personal Finance
 - Budgeting
 - Community
 ---

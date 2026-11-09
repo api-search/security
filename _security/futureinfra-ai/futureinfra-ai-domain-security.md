@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: futureinfra-ai-futureinfra-api-api-openapi.yml
-  format: yaml
-  label: FutureInfra API
-  slug: futureinfra-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/futureinfra-ai/openapi/futureinfra-ai-futureinfra-api-api-openapi.yml
 - filename: futureinfra-ai-openapi-generated.yml
   format: yaml
   label: FutureInfra API
@@ -45,7 +39,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Cloud
 - Infrastructure
-- AI
+- Artificial Intelligence
 - Korean
 - Platform
 ---

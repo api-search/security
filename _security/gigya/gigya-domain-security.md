@@ -47,6 +47,7 @@ tags:
 - Authentication
 - CIAM
 - Customer Identity
+- OAuth
 - SSO
 - Consent Management
 - SAP

@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Analytics
-- CreatorEconomy
+- Creator Economy
 - Revenue
-- SaaS
+- Software-as-a-Service
 - Marketing
 ---

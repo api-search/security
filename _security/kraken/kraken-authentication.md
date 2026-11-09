@@ -154,7 +154,8 @@ tags:
 - OTC
 - Prime Brokerage
 - Embed
-- Authentication
+- OAuth
 - Public APIs
 - Real-Time
+- Authentication
 ---

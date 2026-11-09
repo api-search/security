@@ -19,9 +19,9 @@ source_yaml_url: https://artifacts.apis.io/infuseai-io/security/infuseai-io-trus
 summary_line: SOC 2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - DataReview
 - CI/CD
-- DataQuality
+- Data Quality
 trust_url: https://reccehq.com/
 ---

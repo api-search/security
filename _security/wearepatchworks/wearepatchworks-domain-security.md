@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/wearepatchworks/security/wearepatchwo
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Integration
-- eCommerce
+- E-Commerce
 - ERP
 - Automation
-- AI
+- Artificial Intelligence
 ---

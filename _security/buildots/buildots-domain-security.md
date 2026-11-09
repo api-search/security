@@ -51,6 +51,6 @@ tags:
 - Workforce Intelligence
 - Capture Services
 - Genda
-- Tel Aviv
+- Tel-Aviv
 - Israel
 ---

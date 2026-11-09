@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/atlasburn-com/security/atlasburn-com-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cost Management
 - Monitoring
 - SDK

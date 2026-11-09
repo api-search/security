@@ -116,8 +116,7 @@ source_yaml_url: https://artifacts.apis.io/signdocs-com-br/security/signdocs-com
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- DigitalSignature
+- Digital Signature
 - Brazil
-- API
-- DocumentManagement
+- Document Management
 ---

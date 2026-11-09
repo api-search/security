@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bioprocessing
 - Data Analytics
-- Biotech
+- Biotechnology
 - Biopharma
 - Process Optimization
 ---

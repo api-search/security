@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/stay22/authentication/stay22-authenti
 summary_line: 1 scheme
 tags:
 - TravelTech
-- AffiliateMarketing
-- SaaS
-- Events
+- Affiliate Marketing
+- Software-as-a-Service
+- Event
 - Maps
 ---

@@ -48,7 +48,7 @@ tags:
 - Secure Collaboration
 - Cloud Storage
 - Data Sovereignty
-- SaaS
+- Software-as-a-Service
 - On-Premises
 - Compliance
 ---

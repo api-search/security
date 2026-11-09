@@ -67,7 +67,7 @@ source_yaml: "generated: '2026-08-11'\nmethod: searched\nsource: https://tweetap
 source_yaml_url: https://artifacts.apis.io/tweetapi/authentication/tweetapi-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:
-- twitter
+- Twitter
 - X
 - Social Media
 - Social Data
@@ -77,6 +77,6 @@ tags:
 - Developer Tools
 - MCP
 - Agent-Native
-- llms-txt
+- Llms.txt
 - REST API
 ---

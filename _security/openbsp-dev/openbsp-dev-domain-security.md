@@ -34,5 +34,5 @@ tags:
 - Open Source
 - WhatsApp
 - Messaging
-- AI
+- Artificial Intelligence
 ---

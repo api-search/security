@@ -20,7 +20,7 @@ source_yaml_url: https://artifacts.apis.io/joon/security/joon-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cybersecurity
 - SOC
 - Automation

@@ -30,10 +30,10 @@ source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/syncspider/security/syncspider-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- eCommerce
+- E-Commerce
 - Automation
 - Integration
 - Retail
-- SaaS
+- Software-as-a-Service
 - Company
 ---

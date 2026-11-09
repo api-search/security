@@ -58,5 +58,6 @@ tags:
 - Security Findings
 - Asset Discovery
 - Continuous Threat Exposure Management
+- OAuth
 - Authentication
 ---

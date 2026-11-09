@@ -32,7 +32,6 @@ tags:
 - Company
 - Polymer
 - Materials
-- API
 - Sustainability
 - Aerospace
 ---

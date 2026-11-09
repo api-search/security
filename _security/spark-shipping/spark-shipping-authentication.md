@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/spark-shipping/authentication/spark-s
 summary_line: 0 schemes
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Dropshipping
 - Automation
-- SaaS
+- Software-as-a-Service
 - Integration
 ---

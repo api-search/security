@@ -205,10 +205,11 @@ tags:
 - Healthcare
 - Hospital System
 - MyChart
-- Authentication
+- OAuth
 - Patient Access
 - Provider Directory
 - SMART on FHIR
 - US Core
 - USCDI
+- Authentication
 ---

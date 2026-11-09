@@ -67,6 +67,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-global-accelerator/security/am
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Availability
+- Amazon Web Services
 - CDN
 - Global
 - Load Balancing

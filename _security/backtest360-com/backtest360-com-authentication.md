@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/backtest360-com/authentication/backte
 summary_line: 1 scheme
 tags:
 - Company
-- FinTech
+- Fintech
 - Trading
 - Backtesting
-- API
 ---

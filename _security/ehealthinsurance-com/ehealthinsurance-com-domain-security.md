@@ -34,5 +34,4 @@ tags:
 - Health
 - Insurance
 - Technology
-- API
 ---

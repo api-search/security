@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/begin/security/begin-domain-security.
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
-- DeveloperTools
+- Developer Tools
 - Platform
-- Startup
+- Startups
 ---

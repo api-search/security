@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/getmodern-ai/security/getmodern-ai-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Finance
 - Automation
-- AccountsReceivable
+- Accounts Receivable
 ---

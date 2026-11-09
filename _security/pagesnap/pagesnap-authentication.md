@@ -135,7 +135,7 @@ tags:
 - Structured Data
 - Web Crawling
 - Change Monitoring
-- llms-txt
+- Llms.txt
 - Agentic Payments
 - Software-as-a-Service
 ---

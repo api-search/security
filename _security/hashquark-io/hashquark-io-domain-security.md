@@ -30,6 +30,5 @@ tags:
 - Company
 - Blockchain
 - Cryptocurrency
-- APIs
-- DeveloperTools
+- Developer Tools
 ---

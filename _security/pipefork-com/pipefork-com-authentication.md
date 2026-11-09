@@ -31,8 +31,8 @@ summary_line: 0 schemes
 tags:
 - Company
 - API Builder
-- AI
+- Artificial Intelligence
 - MCP
-- Low-code
+- Low-Code
 - Integration
 ---

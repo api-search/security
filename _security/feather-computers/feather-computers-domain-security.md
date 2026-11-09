@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/feather-computers/security/feather-co
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Email
 - Productivity
-- SaaS
+- Software-as-a-Service
 ---

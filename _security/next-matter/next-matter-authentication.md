@@ -50,7 +50,7 @@ summary_line: 5 schemes
 tags:
 - Company
 - Automation
-- Workflow
+- Workflows
 - Integration
-- SaaS
+- Software-as-a-Service
 ---

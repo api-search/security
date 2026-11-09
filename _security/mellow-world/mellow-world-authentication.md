@@ -40,5 +40,5 @@ tags:
 - Marketing
 - Scheduling
 - Content Creation
-- SaaS
+- Software-as-a-Service
 ---

@@ -74,7 +74,7 @@ summary_line: http · 2 schemes
 tags:
 - Company
 - Data Analytics
-- Real-time
+- Real-Time
 - API Platform
 - Streaming
 ---

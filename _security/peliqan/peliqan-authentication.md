@@ -36,7 +36,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Data Platform
-- AI
+- Artificial Intelligence
 - ETL
 - Reverse ETL
 ---

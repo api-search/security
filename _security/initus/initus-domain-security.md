@@ -32,9 +32,9 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Integration
 - Workflow Automation
-- AI
+- Artificial Intelligence
 - Consulting
 - ERP
 - CRM
-- E‑commerce
+- E-Commerce
 ---

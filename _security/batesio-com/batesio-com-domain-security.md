@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Document Management
 - Accounting
-- SaaS
+- Software-as-a-Service
 - Small Business
 - File Sharing
 ---

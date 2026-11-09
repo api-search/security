@@ -32,6 +32,6 @@ tags:
 - Biotechnology
 - Neurodegenerative Diseases
 - Parkinson's Disease
-- Small‑Molecule Therapeutics
+- Small Molecule Therapeutics
 - AI‑Driven Drug Discovery
 ---

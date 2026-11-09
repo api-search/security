@@ -43,4 +43,8 @@ tags:
 - Arctic
 - Government
 - Canada
+- Energy
+- IoT
+- Automation
+- Sustainability
 ---

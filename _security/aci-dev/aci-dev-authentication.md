@@ -62,8 +62,9 @@ tags:
 - Artificial Intelligence
 - Function Calling
 - MCP
-- Authentication
+- OAuth
 - Open Source
 - Tool Calling
 - VibeOps
+- Authentication
 ---

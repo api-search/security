@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/thehive-ai/security/thehive-ai-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Machine Learning
 - Data Labeling
 - Enterprise

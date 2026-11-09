@@ -41,6 +41,6 @@ tags:
 - Company
 - Media
 - Automation
-- Self-hosted
+- Self-Hosted
 - Docker
 ---

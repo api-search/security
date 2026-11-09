@@ -77,9 +77,9 @@ source_yaml_url: https://artifacts.apis.io/shlink/authentication/shlink-authenti
 summary_line: 1 scheme
 tags:
 - Company
-- URL-Shortener
+- URL Shorteners
 - PHP
 - Self-Hosted
-- Open-Source
-- REST-API
+- Open Source
+- REST API
 ---

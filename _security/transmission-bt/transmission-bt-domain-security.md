@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/transmission-bt/security/transmission
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - BitTorrent
-- OpenSource
-- CrossPlatform
-- FileSharing
+- Open Source
+- Cross-Platform
+- File Sharing
 - Privacy
 ---

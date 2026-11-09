@@ -616,9 +616,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/sketchxflow-com/authentication/sketchxflow-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
-- website-builder
-- design
+- Artificial Intelligence
+- Website Builder
+- Design
 - brand-consistency
-- low-code
+- Low-Code
 ---

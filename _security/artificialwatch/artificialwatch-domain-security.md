@@ -36,5 +36,4 @@ tags:
 - Benchmarks
 - RSS feed
 - Open Data
-- Free Service
 ---

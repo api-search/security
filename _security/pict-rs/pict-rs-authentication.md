@@ -36,6 +36,5 @@ tags:
 - Image Hosting
 - Rust
 - Open Source
-- API
-- Self-hosted
+- Self-Hosted
 ---

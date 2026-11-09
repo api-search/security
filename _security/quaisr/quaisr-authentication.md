@@ -32,6 +32,5 @@ tags:
 - SimOps
 - Engineering
 - Simulation
-- Data-driven
 - Connectivity
 ---

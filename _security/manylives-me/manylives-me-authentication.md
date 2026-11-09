@@ -62,8 +62,8 @@ source_yaml_url: https://artifacts.apis.io/manylives-me/authentication/manylives
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Payments
-- Crypto
+- Cryptocurrency
 - Tools
 ---

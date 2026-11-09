@@ -34,5 +34,5 @@ tags:
 - Email
 - SMS
 - Messaging
-- SaaS
+- Software-as-a-Service
 ---

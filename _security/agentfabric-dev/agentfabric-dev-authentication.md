@@ -67,7 +67,7 @@ source_yaml_url: https://artifacts.apis.io/agentfabric-dev/authentication/agentf
 summary_line: 5 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - HumanReview
 - MCP
 - REST

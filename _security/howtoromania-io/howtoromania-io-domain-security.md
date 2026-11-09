@@ -35,5 +35,5 @@ tags:
 - Data
 - Finance
 - Legal
-- AI
+- Artificial Intelligence
 ---

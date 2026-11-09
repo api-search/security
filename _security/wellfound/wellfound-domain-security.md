@@ -51,6 +51,7 @@ tags:
 - Startups
 - MCP
 - Agent-Native
-- Authentication
+- OAuth
 - AI Sourcing
+- Authentication
 ---

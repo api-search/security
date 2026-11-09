@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/open-ar-cloud-association/security/op
 summary_line: TLSv1.3
 tags:
 - Company
-- AR
+- Augmented Reality
 - Spatial Computing
-- Open Standards
+- Open Standard
 - Community
 ---

@@ -28,9 +28,8 @@ source_yaml_url: https://artifacts.apis.io/attestvio-com/authentication/attestvi
 summary_line: 0 schemes
 tags:
 - Company
-- HR
+- Human Resources
 - Compliance
-- SaaS
+- Software-as-a-Service
 - Software
-- API
 ---

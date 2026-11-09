@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Software Development
-- Mobile Apps
+- Mobile App
 - AI Tools
-- UAE
+- United Arab Emirates
 - Agency
 ---

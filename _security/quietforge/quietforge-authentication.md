@@ -78,7 +78,7 @@ tags:
 - x402
 - Micropayments
 - MCP
-- pay-per-call
+- Pay-per-call
 - Cloudflare Workers
 - Software-as-a-Service
 - Business Automation

@@ -29,7 +29,7 @@ tags:
 - Company
 - Employee Communication
 - Enterprise Software
-- SaaS
-- HR Tech
+- Software-as-a-Service
+- Human Resources
 trust_url: https://firstup.io/legal/information-security-guidelines/
 ---

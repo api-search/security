@@ -117,6 +117,66 @@ api_specs:
   slug: escape-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/escape/openapi/escape-workflows-api-openapi.yml
+- filename: escape-aichats-api-openapi.yml
+  format: yaml
+  label: Escape AI Chats API
+  slug: escape-aichats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-aichats-api-openapi.yml
+- filename: escape-compliance-api-openapi.yml
+  format: yaml
+  label: Escape Compliance API
+  slug: escape-compliance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-compliance-api-openapi.yml
+- filename: escape-knowledgefiles-api-openapi.yml
+  format: yaml
+  label: Escape Knowledge Files API
+  slug: escape-knowledgefiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-knowledgefiles-api-openapi.yml
+- filename: escape-organizationsettings-api-openapi.yml
+  format: yaml
+  label: Escape Organization Settings API
+  slug: escape-organizationsettings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-organizationsettings-api-openapi.yml
+- filename: escape-regressiontests-api-openapi.yml
+  format: yaml
+  label: Escape Regression Tests API
+  slug: escape-regressiontests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-regressiontests-api-openapi.yml
+- filename: escape-retests-api-openapi.yml
+  format: yaml
+  label: Escape Retests API
+  slug: escape-retests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-retests-api-openapi.yml
+- filename: escape-securitytests-api-openapi.yml
+  format: yaml
+  label: Escape Security Tests API
+  slug: escape-securitytests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-securitytests-api-openapi.yml
+- filename: escape-validations-api-openapi.yml
+  format: yaml
+  label: Escape Validations API
+  slug: escape-validations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-validations-api-openapi.yml
+- filename: escape-vaultvariables-api-openapi.yml
+  format: yaml
+  label: Escape Vault Variables API
+  slug: escape-vaultvariables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-vaultvariables-api-openapi.yml
+- filename: escape-views-api-openapi.yml
+  format: yaml
+  label: Escape Views API
+  slug: escape-views-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/escape/openapi/escape-views-api-openapi.yml
 - filename: escape-custom-rules-api-openapi.yml
   format: yaml
   label: Escape Custom Rules API

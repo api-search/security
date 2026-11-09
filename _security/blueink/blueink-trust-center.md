@@ -26,13 +26,12 @@ source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/blueink/security/blueink-trust-center.yml
 summary_line: HIPAA, GDPR
 tags:
-- eSignature
-- API
+- E-Signature
 - Government
 - Education
 - Enterprise
 - Compliance
-- Workflow
+- Workflows
 - Integration
 trust_url: https://www.blueink.com/compliance
 ---

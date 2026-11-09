@@ -46,5 +46,6 @@ tags:
 - Hospitality
 - Ordering
 - GraphQL
+- OAuth
 - Authentication
 ---

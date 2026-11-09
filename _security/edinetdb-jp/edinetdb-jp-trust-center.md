@@ -136,7 +136,6 @@ summary_line: SOC 2, ISO 27001
 tags:
 - Finance
 - Data
-- API
 - Japan
 - EDINET
 trust_url: https://edinetdb.jp/security

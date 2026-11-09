@@ -40,6 +40,6 @@ tags:
 - Company
 - SMS
 - Fundraising
-- Nonprofit
+- Non-Profit
 - Marketing
 ---

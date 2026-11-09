@@ -93,8 +93,7 @@ source_yaml_url: https://artifacts.apis.io/recruitmcp-com/security/recruitmcp-co
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Recruitment
-- API
+- Recruiting
 - MCP
-- HR
+- Human Resources
 ---

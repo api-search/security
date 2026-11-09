@@ -116,9 +116,8 @@ source_yaml_url: https://artifacts.apis.io/compsniper-com/security/compsniper-co
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Marketplace
-- E-commerce
+- E-Commerce
 - Data
 - Collectibles
 ---

@@ -51,6 +51,6 @@ tags:
 - Artificial Intelligence
 - Wiki
 - Knowledge Management
-- Agent-Integration
+- Agent Integration
 - Open Source
 ---

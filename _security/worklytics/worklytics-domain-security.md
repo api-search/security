@@ -41,6 +41,6 @@ tags:
 - Company
 - Analytics
 - Workplace
-- AI
+- Artificial Intelligence
 - Productivity
 ---

@@ -36,5 +36,4 @@ tags:
 - Consulting
 - Advisory
 - Finance
-- Operations
 ---

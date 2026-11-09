@@ -149,6 +149,5 @@ tags:
 - Image Rendering
 - PDF Generation
 - Template Engine
-- API
 - AI Integration
 ---

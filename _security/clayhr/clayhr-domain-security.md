@@ -39,10 +39,10 @@ source_yaml: "generated: '2026-10-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/clayhr/security/clayhr-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- HR
+- Human Resources
 - HRMS
-- SaaS
-- AI
-- Employee-Management
-- Performance-Management
+- Software-as-a-Service
+- Artificial Intelligence
+- Employee Management
+- Performance Management
 ---

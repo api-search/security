@@ -88,6 +88,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-organizations/authentication/a
 summary_line: apiKey · 1 scheme
 tags:
 - Account Management
+- Amazon Web Services
 - Consolidated Billing
 - Governance
 - Multi-Account

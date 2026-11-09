@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - eFPGA
 - FPGA
-- Semiconductor
+- Semiconductors
 - Custom FPGA
 - Rad‑Hard
 - Chiplets

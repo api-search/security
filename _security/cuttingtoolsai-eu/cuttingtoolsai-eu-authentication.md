@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/cuttingtoolsai-eu/authentication/cutt
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cutting-Tools
 - Manufacturing
 - Metalworking

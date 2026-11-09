@@ -81,7 +81,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/sorsa-op
 source_yaml_url: https://artifacts.apis.io/sorsa/authentication/sorsa-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- twitter
+- Twitter
 - X
 - Social Media
 - Data Extraction

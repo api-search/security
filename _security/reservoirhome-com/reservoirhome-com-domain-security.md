@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/reservoirhome-com/security/reservoirh
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Home
+- Homes
 - Electrification
-- CleanEnergy
+- Clean Energy
 - Water
 ---

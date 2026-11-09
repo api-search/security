@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-10-30'\nmethod: derived\nsource: https://abm.dev/
 source_yaml_url: https://artifacts.apis.io/abm-dev/authentication/abm-dev-authentication.yml
 summary_line: 2 schemes
 tags:
-- Account-Based Marketing
+- Account Based Marketing
 - AI Agents
 - Data Enrichment
 - B2B

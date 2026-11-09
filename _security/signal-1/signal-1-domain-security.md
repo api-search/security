@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/signal-1/security/signal-1-domain-sec
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Healthcare
 - Platform
 - Management

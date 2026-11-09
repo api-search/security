@@ -29,7 +29,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Fundraising
-- Nonprofit
-- SaaS
+- Non-Profit
+- Software-as-a-Service
 - Platform
 ---

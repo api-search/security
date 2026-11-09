@@ -80,7 +80,7 @@ source_yaml_url: https://artifacts.apis.io/agentbit-app/security/agentbit-app-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tools
 - Pay-per-call
 - Data

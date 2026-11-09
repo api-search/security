@@ -40,8 +40,6 @@ source_yaml_url: https://artifacts.apis.io/firetiger/authentication/firetiger-au
 summary_line: 2 schemes
 tags:
 - Company
-- Startup
-- Venture-Backed
+- Startups
 - Technology
-- API
 ---

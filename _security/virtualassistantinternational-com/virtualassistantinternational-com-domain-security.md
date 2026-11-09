@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/virtualassistantinternational-com/sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- VirtualAssistant
-- RemoteWork
+- Artificial Intelligence
+- Virtual Assistant
+- Remote Work
 - Netherlands
 ---

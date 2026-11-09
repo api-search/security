@@ -33,6 +33,5 @@ tags:
 - Company
 - Integration
 - Enterprise
-- API
 - Automation
 ---

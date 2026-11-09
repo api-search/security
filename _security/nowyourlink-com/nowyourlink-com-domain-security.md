@@ -75,7 +75,6 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Advertising
 - Marketplace
-- Auction
-- API
+- Auctions
 - Technology
 ---

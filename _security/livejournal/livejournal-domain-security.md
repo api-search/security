@@ -34,5 +34,4 @@ tags:
 - Blogging
 - Social
 - Community
-- API
 ---

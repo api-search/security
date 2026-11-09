@@ -33,7 +33,6 @@ tags:
 - Company
 - Full-stack Development
 - Artificial Intelligence
-- SaaS
+- Software-as-a-Service
 - Luxembourg
-- API Provider
 ---

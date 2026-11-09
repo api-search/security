@@ -41,5 +41,5 @@ tags:
 - SEO
 - Audit
 - Free
-- AI
+- Artificial Intelligence
 ---

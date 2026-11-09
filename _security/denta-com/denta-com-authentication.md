@@ -38,7 +38,7 @@ summary_line: 1 scheme
 tags:
 - Dental
 - Benefits
-- SaaS
+- Software-as-a-Service
 - Healthcare
 - Employer
 ---

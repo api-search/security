@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: fastn-fastn-api-api-openapi.yml
-  format: yaml
-  label: Fastn API
-  slug: fastn-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/fastn/openapi/fastn-fastn-api-api-openapi.yml
 - filename: fastn-openapi-generated.yml
   format: yaml
   label: Fastn API

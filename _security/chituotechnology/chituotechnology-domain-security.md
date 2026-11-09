@@ -34,5 +34,4 @@ tags:
 - Technology
 - Innovation
 - Startups
-- Emerging
 ---

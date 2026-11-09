@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/apione-store/security/apione-store-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - B2B
-- Enrichment
-- API
+- Data Enrichment
 - Data
 - GCC
 - MENA

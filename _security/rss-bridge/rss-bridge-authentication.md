@@ -32,9 +32,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://raw.git
 source_yaml_url: https://artifacts.apis.io/rss-bridge/authentication/rss-bridge-authentication.yml
 summary_line: 3 schemes
 tags:
-- OpenSource
+- Open Source
 - PHP
 - RSS
 - Aggregator
-- SelfHosted
+- Self-Hosted
 ---

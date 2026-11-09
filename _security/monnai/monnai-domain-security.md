@@ -44,5 +44,6 @@ tags:
 - Collection
 - Emerging Markets
 - Decisioning
+- OAuth
 - Authentication
 ---

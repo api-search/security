@@ -19,6 +19,11 @@ source_yaml_url: https://artifacts.apis.io/bing-maps/security/bing-maps-trust-ce
 summary_line: GDPR
 tags:
 - Geocoding
+- Maps
+- Routing
+- Geospatial
+- Microsoft
+- Deprecated
 - Public APIs
 trust_url: https://www.microsoft.com/en-us/trust-center
 ---

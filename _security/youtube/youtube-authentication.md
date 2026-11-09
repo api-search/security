@@ -119,19 +119,19 @@ api_specs:
   url: https://artifacts.apis.io/youtube/openapi/youtube-videos-api-openapi.yml
 - filename: youtube-comment-threads-api-openapi.yml
   format: yaml
-  label: Youtube Comment Threads API
+  label: YouTube Comment Threads API
   slug: youtube-comment-threads-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/youtube/openapi/youtube-comment-threads-api-openapi.yml
 - filename: youtube-live-streams-api-openapi.yml
   format: yaml
-  label: Youtube Live Streams API
+  label: YouTube Live Streams API
   slug: youtube-live-streams-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/youtube/openapi/youtube-live-streams-api-openapi.yml
 - filename: youtube-report-types-api-openapi.yml
   format: yaml
-  label: Youtube Report Types API
+  label: YouTube Report Types API
   slug: youtube-report-types-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/youtube/openapi/youtube-report-types-api-openapi.yml
@@ -147,8 +147,8 @@ name: Youtube Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: Youtube secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
-provider_name: Youtube
+overview: YouTube secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: YouTube
 provider_slug: youtube
 scheme_count: 2
 schemes:
@@ -160,27 +160,56 @@ schemes:
     tokenUrl: https://oauth2.googleapis.com/token
   name: OAuth2
   sources:
-  - openapi/youtube-analytics-openapi-original.yml
-  - openapi/youtube-analytics-openapi.yml
-  - openapi/youtube-data-api-openapi.yml
-  - openapi/youtube-data-openapi-original.yml
-  - openapi/youtube-live-streaming-openapi.yml
-  - openapi/youtube-reporting-openapi.yml
+  - openapi/youtube-analytics-groups-api-openapi.yml
+  - openapi/youtube-analytics-reports-api-openapi.yml
+  - openapi/youtube-captions-api-openapi.yml
+  - openapi/youtube-channels-api-openapi.yml
+  - openapi/youtube-comment-threads-api-openapi.yml
+  - openapi/youtube-comments-api-openapi.yml
+  - openapi/youtube-group-items-api-openapi.yml
+  - openapi/youtube-groups-api-openapi.yml
+  - openapi/youtube-i18n-api-openapi.yml
+  - openapi/youtube-jobs-api-openapi.yml
+  - openapi/youtube-live-streams-api-openapi.yml
+  - openapi/youtube-livebroadcasts-api-openapi.yml
+  - openapi/youtube-livechatmessages-api-openapi.yml
+  - openapi/youtube-livechatmoderators-api-openapi.yml
+  - openapi/youtube-playlist-items-api-openapi.yml
+  - openapi/youtube-playlists-api-openapi.yml
+  - openapi/youtube-report-types-api-openapi.yml
+  - openapi/youtube-reports-api-openapi.yml
+  - openapi/youtube-search-api-openapi.yml
+  - openapi/youtube-subscriptions-api-openapi.yml
+  - openapi/youtube-videocategories-api-openapi.yml
+  - openapi/youtube-videos-api-openapi.yml
   type: oauth2
 - in: query
   name: apiKey
   parameter: key
   sources:
-  - openapi/youtube-data-api-openapi.yml
-  - openapi/youtube-data-openapi-original.yml
-  - openapi/youtube-live-streaming-openapi.yml
+  - openapi/youtube-captions-api-openapi.yml
+  - openapi/youtube-channels-api-openapi.yml
+  - openapi/youtube-comment-threads-api-openapi.yml
+  - openapi/youtube-comments-api-openapi.yml
+  - openapi/youtube-i18n-api-openapi.yml
+  - openapi/youtube-live-streams-api-openapi.yml
+  - openapi/youtube-livebroadcasts-api-openapi.yml
+  - openapi/youtube-livechatmessages-api-openapi.yml
+  - openapi/youtube-livechatmoderators-api-openapi.yml
+  - openapi/youtube-playlist-items-api-openapi.yml
+  - openapi/youtube-playlists-api-openapi.yml
+  - openapi/youtube-search-api-openapi.yml
+  - openapi/youtube-subscriptions-api-openapi.yml
+  - openapi/youtube-videocategories-api-openapi.yml
+  - openapi/youtube-videos-api-openapi.yml
   type: apiKey
 slug: youtube-authentication
 source_filename: youtube-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/youtube-analytics-openapi-original.yml, openapi/youtube-analytics-openapi.yml,\n  openapi/youtube-data-api-openapi.yml, openapi/youtube-data-openapi-original.yml, openapi/youtube-live-streaming-openapi.yml,\n  openapi/youtube-reporting-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 4\n  description: OAuth 2.0 authentication for YouTube Analytics API\n  sources:\n  - openapi/youtube-analytics-openapi-original.yml\n  - openapi/youtube-analytics-openapi.yml\n  - openapi/youtube-data-api-openapi.yml\n  - openapi/youtube-data-openapi-original.yml\n  - openapi/youtube-live-streaming-openapi.yml\n  - openapi/youtube-reporting-openapi.yml\n- name:\
-  \ apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/youtube-data-api-openapi.yml\n  - openapi/youtube-data-openapi-original.yml\n  - openapi/youtube-live-streaming-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/youtube-analytics-groups-api-openapi.yml, openapi/youtube-analytics-reports-api-openapi.yml,\n  openapi/youtube-captions-api-openapi.yml, openapi/youtube-channels-api-openapi.yml, openapi/youtube-comment-threads-api-openapi.yml,\n  openapi/youtube-comments-api-openapi.yml, openapi/youtube-group-items-api-openapi.yml, openapi/youtube-groups-api-openapi.yml,\n  openapi/youtube-i18n-api-openapi.yml, openapi/youtube-jobs-api-openapi.yml, openapi/youtube-live-streams-api-openapi.yml,\n  openapi/youtube-livebroadcasts-api-openapi.yml ...\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 4\n  description: OAuth 2.0 authentication for YouTube Analytics API\n \
+  \ sources:\n  - openapi/youtube-analytics-groups-api-openapi.yml\n  - openapi/youtube-analytics-reports-api-openapi.yml\n  - openapi/youtube-captions-api-openapi.yml\n  - openapi/youtube-channels-api-openapi.yml\n  - openapi/youtube-comment-threads-api-openapi.yml\n  - openapi/youtube-comments-api-openapi.yml\n  - openapi/youtube-group-items-api-openapi.yml\n  - openapi/youtube-groups-api-openapi.yml\n  - openapi/youtube-i18n-api-openapi.yml\n  - openapi/youtube-jobs-api-openapi.yml\n  - openapi/youtube-live-streams-api-openapi.yml\n  - openapi/youtube-livebroadcasts-api-openapi.yml\n  - openapi/youtube-livechatmessages-api-openapi.yml\n  - openapi/youtube-livechatmoderators-api-openapi.yml\n  - openapi/youtube-playlist-items-api-openapi.yml\n  - openapi/youtube-playlists-api-openapi.yml\n  - openapi/youtube-report-types-api-openapi.yml\n  - openapi/youtube-reports-api-openapi.yml\n  - openapi/youtube-search-api-openapi.yml\n  - openapi/youtube-subscriptions-api-openapi.yml\n  - openapi/youtube-videocategories-api-openapi.yml\n\
+  \  - openapi/youtube-videos-api-openapi.yml\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/youtube-captions-api-openapi.yml\n  - openapi/youtube-channels-api-openapi.yml\n  - openapi/youtube-comment-threads-api-openapi.yml\n  - openapi/youtube-comments-api-openapi.yml\n  - openapi/youtube-i18n-api-openapi.yml\n  - openapi/youtube-live-streams-api-openapi.yml\n  - openapi/youtube-livebroadcasts-api-openapi.yml\n  - openapi/youtube-livechatmessages-api-openapi.yml\n  - openapi/youtube-livechatmoderators-api-openapi.yml\n  - openapi/youtube-playlist-items-api-openapi.yml\n  - openapi/youtube-playlists-api-openapi.yml\n  - openapi/youtube-search-api-openapi.yml\n  - openapi/youtube-subscriptions-api-openapi.yml\n  - openapi/youtube-videocategories-api-openapi.yml\n  - openapi/youtube-videos-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/youtube/authentication/youtube-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:

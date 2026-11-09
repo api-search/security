@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Software
-- Interface
-- AI
-- Startup
+- Interfaces
+- Artificial Intelligence
+- Startups
 ---

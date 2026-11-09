@@ -39,7 +39,6 @@ tags:
 - Company
 - Real Estate
 - Marketplace
-- API
 - Germany
 - Property Listings
 - OAuth

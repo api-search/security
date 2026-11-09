@@ -48,5 +48,5 @@ tags:
 - Blockchain
 - Data
 - Analytics
-- Token
+- Tokens
 ---

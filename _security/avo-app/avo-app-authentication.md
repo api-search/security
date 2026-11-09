@@ -46,6 +46,6 @@ tags:
 - Company
 - Data Governance
 - Analytics
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

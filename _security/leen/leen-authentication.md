@@ -34,8 +34,7 @@ source_yaml_url: https://artifacts.apis.io/leen/authentication/leen-authenticati
 summary_line: 2 schemes
 tags:
 - Security
-- API
-- DataFabric
+- Data Fabric
 - Integration
 - Automation
 ---

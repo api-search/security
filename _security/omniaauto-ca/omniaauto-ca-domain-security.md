@@ -41,6 +41,5 @@ tags:
 - Company
 - Automotive
 - Data
-- API
-- Market
+- Markets
 ---

@@ -89,9 +89,8 @@ source_yaml_url: https://artifacts.apis.io/hunta-ai/authentication/hunta-ai-auth
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
-- API
 - MCP
 - Attestable
 ---

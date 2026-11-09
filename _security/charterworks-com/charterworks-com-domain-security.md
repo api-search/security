@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/charterworks-com/security/charterwork
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Future of Work
-- AI
+- Future Of Work
+- Artificial Intelligence
 - Management
 - Hybrid Workplace
 ---

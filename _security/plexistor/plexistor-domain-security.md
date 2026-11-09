@@ -34,7 +34,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Storage
-- Persistent Memory
+- Persistent-Memory
 - Software-Defined Memory
 - Data Infrastructure
 - Enterprise Storage

@@ -209,4 +209,6 @@ tags:
 - QR Codes
 - Net Banking
 - Identity Verification
+- Fintech
+- Gateways
 ---

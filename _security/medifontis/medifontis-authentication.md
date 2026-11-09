@@ -38,7 +38,6 @@ summary_line: 2 schemes
 tags:
 - Company
 - Healthcare
-- API
 - FDA
 - Drugs
 ---

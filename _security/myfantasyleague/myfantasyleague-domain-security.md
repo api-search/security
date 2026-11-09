@@ -33,7 +33,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Fantasy Sports
 - Football
-- League Management
+- League-Management
 - Custom Scoring
 - Community
 ---

@@ -34,6 +34,6 @@ tags:
 - Company
 - Geospatial
 - Mapping
-- DataAnalytics
+- Data Analytics
 - LocationInsight
 ---

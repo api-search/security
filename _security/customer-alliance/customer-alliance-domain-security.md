@@ -89,6 +89,6 @@ tags:
 - Company
 - Hospitality
 - Review Management
-- SaaS
+- Software-as-a-Service
 - Hotels
 ---

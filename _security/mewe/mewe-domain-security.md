@@ -34,5 +34,5 @@ tags:
 - Social
 - Privacy
 - Networking
-- Communication
+- Communications
 ---

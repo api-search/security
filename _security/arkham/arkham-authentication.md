@@ -147,6 +147,12 @@ api_specs:
   slug: arkham-ws-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/arkham/openapi/arkham-ws-api-openapi.yml
+- filename: arkham-search-api-openapi.yml
+  format: yaml
+  label: Arkham Search API
+  slug: arkham-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arkham/openapi/arkham-search-api-openapi.yml
 - filename: arkham-market-data-api-openapi.yml
   format: yaml
   label: Arkham Market Data API

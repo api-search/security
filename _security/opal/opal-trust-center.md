@@ -509,7 +509,8 @@ tags:
 - Approvals
 - Digital Asset Management
 - JSON:API
-- Authentication
+- OAuth
 - OpenAPI
+- Authentication
 trust_url: https://workwithopal.com/security/
 ---

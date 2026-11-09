@@ -47,7 +47,7 @@
   <a>, and a nested anchor is invalid HTML that browsers silently unnest.
 {% endcomment %}
 {% assign _base = include.link_base | default: '/providers/' %}
-{% assign _rows = include.rows %}
+{% comment %} roadmap#1069. NEVER assign a whole data file to a variable: Liquid's assign tag walks the value to score it, so it costs every row on every page. 0.25s a page on /tags/ when this took a variable. {% endcomment %}
 {% if include.layout == 'kin' %}{% assign _variant = ' band-list-kin' %}{% else %}{% assign _variant = '' %}{% endif %}
 {% assign _omit = include.omit_tag %}
 
@@ -74,7 +74,7 @@
         is a hard build failure. See network/CLAUDE.md.)
       {%- endcomment -%}
       {%- for entry in group.items -%}
-      {%- if _rows %}{% assign item = _rows[entry] %}{% assign _slug = entry %}
+      {%- if include.rows %}{% assign item = include.rows[entry] %}{% assign _slug = entry %}
       {%- else %}{% assign item = entry %}{% assign _slug = entry.slug %}{% endif -%}
       {%- if item -%}
       <a class="band-row" href="{{ _base }}{{ _slug }}/"

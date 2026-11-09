@@ -36,6 +36,5 @@ summary_line: 1 scheme
 tags:
 - Company
 - IP Geolocation
-- Developer-Friendly
 - Free Tier
 ---

@@ -34,5 +34,5 @@ tags:
 - Developer Relations
 - Directory
 - Guides
-- Jobs
+- Job
 ---

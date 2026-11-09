@@ -27,8 +27,8 @@ source_yaml_url: https://artifacts.apis.io/casedev/security/casedev-trust-center
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- LegalTech
-- AI
+- Legal Tech
+- Artificial Intelligence
 - Platform
 - Automation
 trust_url: https://case.dev/

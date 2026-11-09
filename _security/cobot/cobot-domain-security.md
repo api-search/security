@@ -311,5 +311,6 @@ tags:
 - Software-as-a-Service
 - Germany
 - JSON:API
+- OAuth
 - Authentication
 ---

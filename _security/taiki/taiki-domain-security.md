@@ -32,7 +32,6 @@ source_yaml_url: https://artifacts.apis.io/taiki/security/taiki-domain-security.
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Tax Documents
-- API
 - Payroll Integration
 - Financial Data Extraction
 - Tax Forms

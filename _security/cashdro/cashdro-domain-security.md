@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/cashdro/security/cashdro-domain-secur
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Cash Management
 - Retail
 - Hardware

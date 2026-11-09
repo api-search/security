@@ -31,8 +31,5 @@ source_yaml_url: https://artifacts.apis.io/zhihuo-net/security/zhihuo-net-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
-- Stub
-- Unknown
 - Harvest
 ---

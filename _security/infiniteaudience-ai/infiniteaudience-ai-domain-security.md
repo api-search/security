@@ -117,20 +117,31 @@ hosts:
   hsts_max_age: 31556926
   https: true
   tls_version: TLSv1.3
-hosts_probed: 1
+- cert_expires: Dec 21 13:28:21 2026 GMT
+  host: docs.infiniteaudience.ai
+  hsts: true
+  hsts_max_age: 31556926
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec 24 17:59:00 2026 GMT
+  host: mcp.infiniteaudience.ai
+  hsts: null
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Infiniteaudience Ai Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Infinite Audience, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Infinite Audience, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Infinite Audience
 provider_slug: infiniteaudience-ai
 slug: infiniteaudience-ai-domain-security
 source_filename: infiniteaudience-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: infiniteaudience.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 13:28:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\ndomains:\n- domain: infiniteaudience.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-11-02'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: infiniteaudience.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 13:28:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: docs.infiniteaudience.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 21 13:28:21 2026 GMT\n  hsts: true\n  hsts_max_age: 31556926\n- host: mcp.infiniteaudience.ai\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 17:59:00 2026 GMT\n  hsts: null\ndomains:\n- domain: infiniteaudience.ai\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://artifacts.apis.io/infiniteaudience-ai/security/infiniteaudience-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

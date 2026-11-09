@@ -30,9 +30,8 @@ source_yaml_url: https://artifacts.apis.io/yomitasu-jp/authentication/yomitasu-j
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - MCP
 - Website-Transformation
-- Free-Service
 - Japanese
 ---

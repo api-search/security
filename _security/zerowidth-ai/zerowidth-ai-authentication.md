@@ -66,9 +66,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/zerowidth-ai/authentication/zerowidth-ai-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Consulting
-- SaaS
+- Software-as-a-Service
 - Platform
 ---

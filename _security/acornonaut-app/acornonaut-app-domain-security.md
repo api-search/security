@@ -51,7 +51,7 @@ source_yaml_url: https://artifacts.apis.io/acornonaut-app/security/acornonaut-ap
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Education
 - Flashcards
 - YouTube

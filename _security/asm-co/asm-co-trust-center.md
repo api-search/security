@@ -28,9 +28,9 @@ source_yaml_url: https://artifacts.apis.io/asm-co/security/asm-co-trust-center.y
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
-- Low-code
+- Low-Code
 - CRM
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 trust_url: https://security.assembly.com/
 ---

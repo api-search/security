@@ -85,8 +85,7 @@ source_yaml_url: https://artifacts.apis.io/snaplab-dev/authentication/snaplab-de
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company
-- Screenshot
+- Screenshots
 - PDF
 - OpenGraph
-- API
 ---

@@ -96,8 +96,7 @@ source_yaml_url: https://artifacts.apis.io/recruitmcp-com/authentication/recruit
 summary_line: 2 schemes
 tags:
 - Company
-- Recruitment
-- API
+- Recruiting
 - MCP
-- HR
+- Human Resources
 ---

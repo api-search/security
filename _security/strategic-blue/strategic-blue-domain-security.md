@@ -34,6 +34,7 @@ tags:
 - Company
 - FinOps
 - Cloud Cost Management
+- Amazon Web Services
 - Rate Optimization
 - Cloud
 - Reserved Instances

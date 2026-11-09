@@ -87,9 +87,9 @@ source_yaml_url: https://artifacts.apis.io/profit-rhino/authentication/profit-rh
 summary_line: 1 scheme
 tags:
 - Company
-- flat-rate
-- contractor
+- Flat Rate
+- Contractor
 - HVAC
-- software
+- Software
 - sales-tool
 ---

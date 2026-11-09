@@ -123,7 +123,7 @@ source_yaml_url: https://artifacts.apis.io/densify/security/densify-trust-center
 summary_line: SOC 2, ISO 27001
 tags:
 - Cloud Cost
-- Container Optimization
+- Container-Optimization
 - FinOps
 - Kubernetes
 - Machine Learning

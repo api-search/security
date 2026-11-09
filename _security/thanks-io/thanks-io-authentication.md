@@ -124,8 +124,7 @@ source_yaml_url: https://artifacts.apis.io/thanks-io/authentication/thanks-io-au
 summary_line: 2 schemes
 tags:
 - Company
-- AI
-- DirectMail
+- Artificial Intelligence
+- Direct Mail
 - Automation
-- API
 ---

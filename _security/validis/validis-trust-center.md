@@ -24,6 +24,5 @@ tags:
 - Specialist Lending
 - M&A Due Diligence
 - Financial Data Infrastructure
-- API
 trust_url: https://www.validis.com/privacy-security/
 ---

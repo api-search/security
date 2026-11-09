@@ -29,9 +29,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/parambil-com/authentication/parambil-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Healthcare
 - Litigation
-- MedicalRecords
-- SaaS
+- Medical Records
+- Software-as-a-Service
 ---

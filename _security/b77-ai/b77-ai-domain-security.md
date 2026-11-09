@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/b77-ai/security/b77-ai-domain-securit
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
 - Enterprise
 - Productivity

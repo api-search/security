@@ -29,9 +29,9 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/israel-meteorological-service/authentication/israel-meteorological-service-authentication.yml
 summary_line: 0 schemes
 tags:
-- meteorology
-- weather
+- Meteorology
+- Weather
 - Israel
-- government
-- public-service
+- Government
+- Public Service
 ---

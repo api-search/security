@@ -110,8 +110,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Payments
-- Crypto
-- API
-- Non-custodial
-- AI
+- Cryptocurrency
+- Non-Custodial
+- Artificial Intelligence
 ---

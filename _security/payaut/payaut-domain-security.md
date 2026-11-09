@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: payaut-notification-api-openapi.yml
-  format: yaml
-  label: Payaut API
-  slug: payaut-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/payaut/openapi/payaut-notification-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -41,6 +34,5 @@ tags:
 - Fintech
 - Payments
 - Embedded Payments
-- Platforms
-- APIs
+- Platform
 ---

@@ -25,6 +25,6 @@ tags:
 - Banking
 - Construction
 - Payments
-- FinTech
+- Fintech
 trust_url: https://trusspayments.com/security
 ---

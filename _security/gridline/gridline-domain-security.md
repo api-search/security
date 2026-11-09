@@ -117,10 +117,10 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Onboarding
-- IdentityVerification
+- Identity Verification
 - KYC
 - eSigning
-- FraudDetection
+- Fraud Prevention
 - VideoKYC
 - DigitalOnboarding
 - Fintech

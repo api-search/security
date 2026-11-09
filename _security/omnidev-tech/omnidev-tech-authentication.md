@@ -36,9 +36,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/omnidev-tech/authentication/omnidev-tech-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - LLM
 - Pay-per-call
-- Developer-friendly
 - Company
 ---

@@ -36,5 +36,5 @@ tags:
 - Accessories
 - Home Essentials
 - Family Shopping
-- Indian Market
+- Indian-Market
 ---

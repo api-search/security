@@ -41,6 +41,5 @@ tags:
 - Company
 - Water
 - Pricing
-- Dataset
-- API
+- Datasets
 ---

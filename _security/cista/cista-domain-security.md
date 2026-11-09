@@ -32,6 +32,6 @@ tags:
 - Vision
 - Imaging
 - Sensors
-- Semiconductor
+- Semiconductors
 - Technology
 ---

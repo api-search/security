@@ -38,9 +38,9 @@ source_yaml_url: https://artifacts.apis.io/i18nagent-ai/security/i18nagent-ai-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Localization
 - Translation
 - Developer Tools
-- SaaS
+- Software-as-a-Service
 ---

@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/aicoolies-com/authentication/aicoolie
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Developer Tools
 - Directory
 - Reviews

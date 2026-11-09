@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-21'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/blueprint-health/security/blueprint-health-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- HealthTech
-- AI
+- Health Tech
+- Artificial Intelligence
 - Therapy
-- SaaS
-- MentalHealth
+- Software-as-a-Service
+- Mental Health
 ---

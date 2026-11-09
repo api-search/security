@@ -34,6 +34,5 @@ tags:
 - Company
 - Spam
 - Security
-- API
 - Community
 ---

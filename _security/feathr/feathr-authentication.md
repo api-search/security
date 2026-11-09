@@ -38,7 +38,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Digital Marketing
-- AI
-- Nonprofit
+- Artificial Intelligence
+- Non-Profit
 - Event Promotion
 ---

@@ -278,6 +278,5 @@ tags:
 - Company
 - Mapping
 - Routing
-- APIs
 - Geocoding
 ---

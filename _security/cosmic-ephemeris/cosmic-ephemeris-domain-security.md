@@ -51,8 +51,7 @@ source_yaml_url: https://artifacts.apis.io/cosmic-ephemeris/security/cosmic-ephe
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Astrology
-- API
-- Developer
+- Developers
 - Data
 - U.S.-based
 ---

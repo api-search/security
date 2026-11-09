@@ -25,9 +25,10 @@ tags:
 - Writing
 - Literacy
 - K-12
-- Authentication
+- OAuth
 - SSO
 - Rostering
 - Identity
+- Authentication
 trust_url: https://trust.noredink.com
 ---

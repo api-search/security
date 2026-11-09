@@ -40,7 +40,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video
 - Audio
-- MediaProcessing
-- CloudAPI
+- Media Processing
 - FFmpeg
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/dynamicare-health/security/dynamicare
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Health
-- DigitalTherapeutics
+- Digital Therapeutics
 - SubstanceUseRecovery
-- HealthcareTechnology
-- MentalHealth
+- Health Tech
+- Mental Health
 ---

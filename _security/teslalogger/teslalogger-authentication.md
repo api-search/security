@@ -39,7 +39,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Automotive
-- DataLogging
-- OpenSource
+- Data Logging
+- Open Source
 - Tesla
 ---

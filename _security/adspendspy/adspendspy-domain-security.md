@@ -40,5 +40,4 @@ tags:
 - Advertising
 - Analytics
 - Meta
-- API
 ---

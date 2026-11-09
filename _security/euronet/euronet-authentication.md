@@ -153,6 +153,30 @@ api_specs:
   slug: euronet-xeta-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euronet/openapi/euronet-xeta-api-openapi.yml
+- filename: euronet-alternative-source-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Alternative Source Exchange Rates API
+  slug: euronet-alternative-source-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euronet/openapi/euronet-alternative-source-exchange-rates-api-openapi.yml
+- filename: euronet-bid-ask-rates-beta-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Bid & Ask Rates (Beta) API
+  slug: euronet-bid-ask-rates-beta-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euronet/openapi/euronet-bid-ask-rates-beta-api-openapi.yml
+- filename: euronet-central-bank-exchange-rates-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Central Bank Exchange Rates API
+  slug: euronet-central-bank-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euronet/openapi/euronet-central-bank-exchange-rates-api-openapi.yml
+- filename: euronet-mid-market-rates-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Mid-market Rates API
+  slug: euronet-mid-market-rates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euronet/openapi/euronet-mid-market-rates-api-openapi.yml
 auth_types:
 - apiKey
 - http

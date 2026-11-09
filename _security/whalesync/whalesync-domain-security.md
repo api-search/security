@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Integration
-- DataSync
-- NoCode
-- SaaS
+- Data Sync
+- No-Code
+- Software-as-a-Service
 ---

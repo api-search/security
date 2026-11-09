@@ -328,6 +328,7 @@ tags:
 - Replication
 - Data Protection
 - Microsoft 365
+- Amazon Web Services
 - Microsoft Azure
 - Google Cloud
 - Ransomware Recovery

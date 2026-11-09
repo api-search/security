@@ -41,7 +41,7 @@ tags:
 - Company
 - Authorization
 - Policy
-- ZeroTrust
+- Zero Trust
 - Compliance
 - Enterprise
 ---

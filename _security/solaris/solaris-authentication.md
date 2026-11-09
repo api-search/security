@@ -1,6 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: solarisbank-openapi-generated.yml
+  format: yaml
+  label: solarisBank AG API
+  slug: solarisbank-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/solaris/openapi/_ae-authored/solarisbank-openapi-generated.yml
 auth_types:
 - oauth2
 description: ''
@@ -50,7 +57,10 @@ tags:
 - KYC
 - Lending
 - Compliance
-- Authentication
+- OAuth
 - Webhook
 - Germany
+- Finance
+- Europe
+- Authentication
 ---

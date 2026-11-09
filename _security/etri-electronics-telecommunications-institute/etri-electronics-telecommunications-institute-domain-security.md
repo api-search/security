@@ -33,6 +33,6 @@ tags:
 - Company
 - Research
 - ICT
-- Korea
+- South Korea
 - Government
 ---

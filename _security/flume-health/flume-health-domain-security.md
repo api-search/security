@@ -199,7 +199,8 @@ tags:
 - Knowledge Graph
 - MCP
 - Agent-Native
-- Authentication
+- OAuth
 - Data Engineering
 - Interoperability
+- Authentication
 ---

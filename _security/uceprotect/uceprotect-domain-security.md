@@ -27,9 +27,9 @@ source_yaml_url: https://artifacts.apis.io/uceprotect/security/uceprotect-domain
 summary_line: no transport/DNS hardening detected
 tags:
 - Company
-- SpamProtection
-- EmailSecurity
+- Spam Protection
+- Email Security
 - Blacklist
-- NetworkSecurity
+- Network Security
 - Switzerland
 ---

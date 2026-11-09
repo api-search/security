@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/avacast-jp/authentication/avacast-jp-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- Avatar
-- Real-time
+- Artificial Intelligence
+- Avatars
+- Real-Time
 - Japan
 ---

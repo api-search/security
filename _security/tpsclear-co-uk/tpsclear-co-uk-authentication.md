@@ -35,9 +35,8 @@ source_yaml_url: https://artifacts.apis.io/tpsclear-co-uk/authentication/tpsclea
 summary_line: 1 scheme
 tags:
 - Telecommunications
-- UK
+- United Kingdom
 - HubSpot
 - Phone Screening
-- API
 - Compliance
 ---

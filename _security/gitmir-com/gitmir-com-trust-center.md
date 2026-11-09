@@ -20,9 +20,9 @@ source_yaml_url: https://artifacts.apis.io/gitmir-com/security/gitmir-com-trust-
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Automation
-- Business-Logic
+- Business Logic
 - Enterprise
 trust_url: https://gitmir.com/security
 ---

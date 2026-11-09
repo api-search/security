@@ -70,7 +70,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Data Analytics
-- Real-time
+- Real-Time
 - API Platform
 - Streaming
 ---

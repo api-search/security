@@ -49,5 +49,6 @@ tags:
 - Web3
 - Decentralized Identity
 - Sanctions Screening
+- OAuth
 - Authentication
 ---

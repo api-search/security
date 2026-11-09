@@ -52,7 +52,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Email
 - Verification
-- API
-- SaaS
-- DataQuality
+- Software-as-a-Service
+- Data Quality
 ---

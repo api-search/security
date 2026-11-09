@@ -193,7 +193,6 @@ source_yaml_url: https://artifacts.apis.io/sendly-now/authentication/sendly-now-
 summary_line: 1 scheme
 tags:
 - Email
-- API
 - Transactional Email
 - Marketing Campaigns
 - Workflow Automation

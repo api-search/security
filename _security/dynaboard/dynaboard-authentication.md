@@ -47,9 +47,9 @@ source_yaml: "generated: '2026-10-24'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/dynaboard/authentication/dynaboard-authentication.yml
 summary_line: 4 schemes
 tags:
-- Low-code
+- Low-Code
 - Collaboration
-- Real-time
-- AI
+- Real-Time
+- Artificial Intelligence
 - Web Development
 ---

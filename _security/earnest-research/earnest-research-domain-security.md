@@ -35,5 +35,4 @@ tags:
 - Finance
 - Data
 - Analytics
-- APIs
 ---

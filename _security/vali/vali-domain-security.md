@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/vali/security/vali-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- HomeCare
+- Artificial Intelligence
+- Home Care
 - Healthcare
 - Workforce
 ---

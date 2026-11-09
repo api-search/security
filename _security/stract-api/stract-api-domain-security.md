@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/stract-api/security/stract-api-domain
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
-- Document-Processing
-- Data-Extraction
-- SaaS
+- Artificial Intelligence
+- Document Processing
+- Data Extraction
+- Software-as-a-Service
 ---

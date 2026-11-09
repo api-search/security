@@ -33,7 +33,6 @@ tags:
 - Travel
 - Loyalty
 - Fintech
-- White‑label
-- API
+- White Label
 - SDK
 ---

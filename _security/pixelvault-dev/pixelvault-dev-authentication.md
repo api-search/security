@@ -29,7 +29,6 @@ summary_line: 1 scheme
 tags:
 - Image Hosting
 - CDN
-- API
 - AI Agents
 - Developer Tools
 ---

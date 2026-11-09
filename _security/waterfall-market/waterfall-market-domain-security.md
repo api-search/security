@@ -30,6 +30,5 @@ tags:
 - Company
 - Marketplace
 - Procurement
-- SaaS
-- API
+- Software-as-a-Service
 ---

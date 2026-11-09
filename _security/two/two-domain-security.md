@@ -64,7 +64,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - B2B Payments
-- FinTech
+- Fintech
 - API Platform
 - Checkout
 - Trade Accounts

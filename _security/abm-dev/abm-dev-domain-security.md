@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/abm-dev/security/abm-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Account-Based Marketing
+- Account Based Marketing
 - AI Agents
 - Data Enrichment
 - B2B

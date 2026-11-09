@@ -96,5 +96,4 @@ tags:
 - CX Platform
 - Cloud Communications
 - Contact Center
-- API
 ---

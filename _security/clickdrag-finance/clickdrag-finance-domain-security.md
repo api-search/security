@@ -34,6 +34,5 @@ tags:
 - Finance
 - Cost Segregation
 - Real Estate
-- API
 - Tax
 ---

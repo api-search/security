@@ -179,5 +179,6 @@ source_yaml_url: https://artifacts.apis.io/amazon-systems-manager/security/amazo
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Automation
+- Amazon Web Services
 - Management
 ---

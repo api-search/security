@@ -47,8 +47,7 @@ source_yaml_url: https://artifacts.apis.io/dadata/authentication/dadata-authenti
 summary_line: 1 scheme
 tags:
 - Data
-- API
 - Russian
-- DataEnrichment
+- Data Enrichment
 - AddressStandardization
 ---

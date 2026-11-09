@@ -526,6 +526,12 @@ api_specs:
   slug: chainstack-vesting-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/chainstack/openapi/chainstack-vesting-api-openapi.yml
+- filename: chainstack-marketplace-api-openapi.yml
+  format: yaml
+  label: Chainstack Marketplace API
+  slug: chainstack-marketplace-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/chainstack/openapi/chainstack-marketplace-api-openapi.yml
 auth_types:
 - apiKey
 - http

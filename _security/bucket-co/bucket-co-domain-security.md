@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/bucket-co/security/bucket-co-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Feature Flags
-- SaaS
+- Software-as-a-Service
 - Developer Tools
-- SDKs
-- Integrations
+- SDK
+- Integration
 ---

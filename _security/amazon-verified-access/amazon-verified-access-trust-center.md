@@ -180,6 +180,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-verified-access/security/amazo
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Identity and Access Management
+- Amazon Web Services
 - Security
 - Zero Trust
 trust_url: https://aws.amazon.com/compliance/

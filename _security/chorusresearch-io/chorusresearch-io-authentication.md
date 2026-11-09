@@ -35,10 +35,9 @@ source_yaml_url: https://artifacts.apis.io/chorusresearch-io/authentication/chor
 summary_line: 1 scheme
 tags:
 - Company
-- Survey
-- AI
+- Surveys
+- Artificial Intelligence
 - Research
 - MCP
-- API
 - Automation
 ---

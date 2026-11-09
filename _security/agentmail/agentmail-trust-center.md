@@ -168,12 +168,60 @@ api_specs:
   slug: agentmail-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agentmail/openapi/agentmail-webhooks-api-openapi.yml
-- filename: agentmail-api-reference-api-openapi.yml
+- filename: agentmail-accounts-api-openapi.yml
   format: yaml
-  label: AgentMail API Reference API
-  slug: agentmail-api-reference-api
+  label: AgentMail Accounts API
+  slug: agentmail-accounts-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/agentmail/openapi/agentmail-api-reference-api-openapi.yml
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-accounts-api-openapi.yml
+- filename: agentmail-apps-api-openapi.yml
+  format: yaml
+  label: AgentMail Apps API
+  slug: agentmail-apps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-apps-api-openapi.yml
+- filename: agentmail-inboxes-accounts-api-openapi.yml
+  format: yaml
+  label: AgentMail inboxes > accounts API
+  slug: agentmail-inboxes-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-accounts-api-openapi.yml
+- filename: agentmail-inboxes-calendar-api-openapi.yml
+  format: yaml
+  label: AgentMail inboxes > calendar API
+  slug: agentmail-inboxes-calendar-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-calendar-api-openapi.yml
+- filename: agentmail-inboxes-files-api-openapi.yml
+  format: yaml
+  label: AgentMail inboxes > files API
+  slug: agentmail-inboxes-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-files-api-openapi.yml
+- filename: agentmail-inboxes-webhooks-polling-api-openapi.yml
+  format: yaml
+  label: AgentMail inboxes > webhooks > polling API
+  slug: agentmail-inboxes-webhooks-polling-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-inboxes-webhooks-polling-api-openapi.yml
+- filename: agentmail-pods-accounts-api-openapi.yml
+  format: yaml
+  label: AgentMail pods > accounts API
+  slug: agentmail-pods-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-accounts-api-openapi.yml
+- filename: agentmail-pods-webhooks-polling-api-openapi.yml
+  format: yaml
+  label: AgentMail pods > webhooks > polling API
+  slug: agentmail-pods-webhooks-polling-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-pods-webhooks-polling-api-openapi.yml
+- filename: agentmail-webhooks-polling-api-openapi.yml
+  format: yaml
+  label: AgentMail webhooks > polling API
+  slug: agentmail-webhooks-polling-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-webhooks-polling-api-openapi.yml
 certification_count: 2
 certifications:
 - SOC 2 Type I

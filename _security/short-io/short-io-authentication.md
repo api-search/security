@@ -100,7 +100,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - URL-shortening
 - Analytics
-- QR-codes
+- QR Codes
 - Enterprise
-- Integrations
+- Integration
 ---

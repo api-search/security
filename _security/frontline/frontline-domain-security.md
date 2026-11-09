@@ -258,6 +258,90 @@ api_specs:
   slug: frontline-users-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/frontline/openapi/frontline-users-api-openapi.yml
+- filename: frontline-audiences-api-openapi.yml
+  format: yaml
+  label: Frontline Audiences API
+  slug: frontline-audiences-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-audiences-api-openapi.yml
+- filename: frontline-campaigns-api-openapi.yml
+  format: yaml
+  label: Frontline Campaigns API
+  slug: frontline-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-campaigns-api-openapi.yml
+- filename: frontline-data-sync-api-openapi.yml
+  format: yaml
+  label: Frontline Data & Sync API
+  slug: frontline-data-sync-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-data-sync-api-openapi.yml
+- filename: frontline-email-templates-api-openapi.yml
+  format: yaml
+  label: Frontline Email Templates API
+  slug: frontline-email-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-email-templates-api-openapi.yml
+- filename: frontline-max-connectors-api-openapi.yml
+  format: yaml
+  label: Frontline Max Connectors API
+  slug: frontline-max-connectors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-max-connectors-api-openapi.yml
+- filename: frontline-max-conversations-api-openapi.yml
+  format: yaml
+  label: Frontline Max Conversations API
+  slug: frontline-max-conversations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-max-conversations-api-openapi.yml
+- filename: frontline-max-meetings-api-openapi.yml
+  format: yaml
+  label: Frontline Max Meetings API
+  slug: frontline-max-meetings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-max-meetings-api-openapi.yml
+- filename: frontline-max-playbooks-api-openapi.yml
+  format: yaml
+  label: Frontline Max Playbooks API
+  slug: frontline-max-playbooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-max-playbooks-api-openapi.yml
+- filename: frontline-max-proactive-api-openapi.yml
+  format: yaml
+  label: Frontline Max Proactive API
+  slug: frontline-max-proactive-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-max-proactive-api-openapi.yml
+- filename: frontline-max-settings-api-openapi.yml
+  format: yaml
+  label: Frontline Max Settings API
+  slug: frontline-max-settings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-max-settings-api-openapi.yml
+- filename: frontline-max-tasks-api-openapi.yml
+  format: yaml
+  label: Frontline Max Tasks API
+  slug: frontline-max-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-max-tasks-api-openapi.yml
+- filename: frontline-meeting-analytics-api-openapi.yml
+  format: yaml
+  label: Frontline Meeting Analytics API
+  slug: frontline-meeting-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-meeting-analytics-api-openapi.yml
+- filename: frontline-sequences-api-openapi.yml
+  format: yaml
+  label: Frontline Sequences API
+  slug: frontline-sequences-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-sequences-api-openapi.yml
+- filename: frontline-workspace-connectors-api-openapi.yml
+  format: yaml
+  label: Frontline Workspace Connectors API
+  slug: frontline-workspace-connectors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/frontline/openapi/frontline-workspace-connectors-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/getmealticket-com/security/getmealtic
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Foodservice
+- Food Service
 - Profitability
-- SaaS
+- Software-as-a-Service
 - B2B
 ---

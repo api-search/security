@@ -68,7 +68,6 @@ source_yaml_url: https://artifacts.apis.io/joinsandwich-com/authentication/joins
 summary_line: 2 schemes
 tags:
 - Company
-- API
 - Directory
 - Caregiving
 - Technology

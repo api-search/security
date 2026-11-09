@@ -19,9 +19,8 @@ source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/docuten/security/docuten-trust-center.yml
 summary_line: ISO 27001, GDPR
 tags:
-- API
 - Invoicing
-- Document Signing
+- E-Signature
 - Compliance
 - Spain
 trust_url: https://docuten.com/en/security-policy/

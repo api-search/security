@@ -114,6 +114,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-ecs/security/amazon-ecs-trust-
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Amazon
+- Amazon Web Services
 - Containers
 - Docker
 - ECS

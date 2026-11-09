@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/rynse/security/rynse-domain-security.
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Fleet
+- Fleet Management
 - Washing
-- VehicleCare
-- SaaS
+- Vehicle Care
+- Software-as-a-Service
 ---

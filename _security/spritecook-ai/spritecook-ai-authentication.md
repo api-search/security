@@ -64,9 +64,9 @@ source_yaml: "generated: '2026-10-31'\nmethod: derived\nsource: openapi/spriteco
 source_yaml_url: https://artifacts.apis.io/spritecook-ai/authentication/spritecook-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Pixel Art
 - Game Development
-- SaaS
+- Software-as-a-Service
 - Graphics
 ---

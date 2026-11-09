@@ -28,6 +28,6 @@ tags:
 - Observability
 - IT Infrastructure
 - Open Source
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.checkmk.com/
 ---

@@ -34,6 +34,6 @@ tags:
 - NGO
 - Africa
 - Transparency
-- CivicTech
+- Civic Tech
 - DigitalRights
 ---

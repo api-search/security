@@ -44,7 +44,7 @@ source_yaml_url: https://artifacts.apis.io/shiprust/security/shiprust-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Rust
-- SaaS
+- Software-as-a-Service
 - Starter
 - Axum
 - PostgreSQL

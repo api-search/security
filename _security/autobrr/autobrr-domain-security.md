@@ -183,7 +183,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Torrent
 - Automation
-- Open-Source
+- Open Source
 - Self-Hosted
 - Media
 ---

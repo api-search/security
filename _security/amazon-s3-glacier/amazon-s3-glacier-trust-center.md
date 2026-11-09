@@ -66,6 +66,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-s3-glacier/security/amazon-s3-
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Archives
+- Amazon Web Services
 - Backup
 - Storage
 trust_url: https://aws.amazon.com/compliance/

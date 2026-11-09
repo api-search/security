@@ -32,6 +32,5 @@ tags:
 - Company
 - Payments
 - Merchant Services
-- FinTech
-- API
+- Fintech
 ---

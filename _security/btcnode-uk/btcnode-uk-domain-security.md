@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Bitcoin
-- NodeHosting
+- Node Hosting
 - Blockchain
-- UK
+- United Kingdom
 ---

@@ -32,7 +32,6 @@ tags:
 - Company
 - Bookmarking
 - Social
-- API
 - Productivity
 - Web
 ---

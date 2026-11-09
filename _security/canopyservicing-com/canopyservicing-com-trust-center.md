@@ -214,8 +214,8 @@ summary_line: SOC 2, PCI DSS
 tags:
 - Company
 - B2B
-- LoanManagement
-- FinTech
-- APIPlatform
+- Loan Management
+- Fintech
+- API Platform
 trust_url: https://trust.canopyservicing.com/
 ---

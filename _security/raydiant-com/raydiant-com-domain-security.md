@@ -34,8 +34,8 @@ tags:
 - Digital Signage
 - Employee Engagement
 - Visitor Analytics
-- Kiosks
-- Brick‑and‑Mortar
+- Kiosk
+- Brick And Mortar
 - Enterprise Solutions
-- In‑Location Experience
+- In-Location Experience
 ---

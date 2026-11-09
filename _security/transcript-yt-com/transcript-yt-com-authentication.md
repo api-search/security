@@ -76,6 +76,5 @@ tags:
 - Company
 - YouTube
 - Transcript
-- API
 - MCP
 ---

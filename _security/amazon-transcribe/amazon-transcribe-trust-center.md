@@ -84,6 +84,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-transcribe/security/amazon-tra
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Audio Processing
+- Amazon Web Services
 - Machine Learning
 - Speech Recognition
 - Speech-to-Text

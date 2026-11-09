@@ -82,7 +82,6 @@ summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
 - ASO
-- AppStore
-- API
+- App Store
 - Data
 ---

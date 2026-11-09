@@ -39,7 +39,6 @@ tags:
 - Company
 - Geocoding
 - Geolocation
-- OpenSource
+- Open Source
 - Maps
-- API
 ---

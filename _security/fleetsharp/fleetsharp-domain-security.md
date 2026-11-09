@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/fleetsharp/security/fleetsharp-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - GPS
-- FleetTracking
-- AssetManagement
-- DashCameras
+- Fleet Tracking
+- Asset Management
+- Dash Cameras
 - Software
 ---

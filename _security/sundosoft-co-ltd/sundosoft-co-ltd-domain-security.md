@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/sundosoft-co-ltd/security/sundosoft-c
 summary_line: TLSv1.2
 tags:
 - Software
-- AI
+- Artificial Intelligence
 - GIS
-- BigData
+- Big Data
 - Drone
 - Platform
 ---

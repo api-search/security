@@ -41,6 +41,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - FinOps
 - Cloud Cost Management
+- Amazon Web Services
 - GCP
 - Cost Optimization
 - Cost Units

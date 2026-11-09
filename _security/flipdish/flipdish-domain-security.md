@@ -432,6 +432,24 @@ api_specs:
   slug: flipdish-whitelabelconfig-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/flipdish/openapi/flipdish-whitelabelconfig-api-openapi.yml
+- filename: flipdish-enduserfees-api-openapi.yml
+  format: yaml
+  label: Flipdish End User Fees API
+  slug: flipdish-enduserfees-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/flipdish/openapi/flipdish-enduserfees-api-openapi.yml
+- filename: flipdish-integrationmetadatacatalogue-api-openapi.yml
+  format: yaml
+  label: Flipdish Integration Metadata Catalogue API
+  slug: flipdish-integrationmetadatacatalogue-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/flipdish/openapi/flipdish-integrationmetadatacatalogue-api-openapi.yml
+- filename: flipdish-whitelabelcontactformtype-api-openapi.yml
+  format: yaml
+  label: Flipdish White Label Contact Form Type API
+  slug: flipdish-whitelabelcontactformtype-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/flipdish/openapi/flipdish-whitelabelcontactformtype-api-openapi.yml
 - filename: flipdish-app-store-api-openapi.yml
   format: yaml
   label: Flipdish App Store API

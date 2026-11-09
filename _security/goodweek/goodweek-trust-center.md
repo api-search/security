@@ -20,7 +20,7 @@ source_yaml_url: https://artifacts.apis.io/goodweek/security/goodweek-trust-cent
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
 - Governance
 - Enterprise

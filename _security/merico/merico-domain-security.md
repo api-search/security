@@ -38,4 +38,7 @@ tags:
 - Software Analytics
 - Open Source
 - Data Platform
+- Technology
+- Analytics
+- Software Engineering
 ---

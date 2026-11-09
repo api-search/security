@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: digibee-com-digibee-api-api-openapi.yml
-  format: yaml
-  label: Digibee API
-  slug: digibee-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digibee-com/openapi/digibee-com-digibee-api-api-openapi.yml
 - filename: digibee-com-openapi-generated.yml
   format: yaml
   label: Digibee API

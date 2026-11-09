@@ -80,8 +80,7 @@ summary_line: 0 schemes
 tags:
 - Finance
 - Trading
-- API
-- Forex
+- Foreign Exchange
 - MT5
 - MT4
 ---

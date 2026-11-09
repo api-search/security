@@ -72,6 +72,7 @@ tags:
 - SSO
 - Multi-Factor Authentication
 - SAML
-- Authentication
+- OAuth
 - Identity Federation
+- Authentication
 ---

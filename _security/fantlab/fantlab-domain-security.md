@@ -33,6 +33,6 @@ tags:
 - Company
 - Community
 - Literature
-- Science-Fiction
+- Science Fiction
 - Fantasy
 ---

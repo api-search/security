@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/ticketsocket/security/ticketsocket-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Events
+- Event
 - Ticketing
 - Marketing
-- API
 ---

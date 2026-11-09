@@ -96,37 +96,102 @@ api_specs:
   slug: microsoft-power-bi-reports-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/power-bi/openapi/power-bi-reports-api-openapi.yml
-certification_count: 13
+- filename: power-bi-admin-api-openapi.yml
+  format: yaml
+  label: Power BI Admin API
+  slug: power-bi-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-admin-api-openapi.yml
+- filename: power-bi-availablefeatures-api-openapi.yml
+  format: yaml
+  label: Power BI Available Features API
+  slug: power-bi-availablefeatures-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-availablefeatures-api-openapi.yml
+- filename: power-bi-dataflowstorageaccounts-api-openapi.yml
+  format: yaml
+  label: Power BI Dataflow Storage Accounts API
+  slug: power-bi-dataflowstorageaccounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-dataflowstorageaccounts-api-openapi.yml
+- filename: power-bi-goalnotes-preview-api-openapi.yml
+  format: yaml
+  label: Power BI Goal Notes (Preview) API
+  slug: power-bi-goalnotes-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-goalnotes-preview-api-openapi.yml
+- filename: power-bi-goals-preview-api-openapi.yml
+  format: yaml
+  label: Power BI Goals (Preview) API
+  slug: power-bi-goals-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-goals-preview-api-openapi.yml
+- filename: power-bi-goalsstatusrules-preview-api-openapi.yml
+  format: yaml
+  label: Power BI Goals Status Rules (Preview) API
+  slug: power-bi-goalsstatusrules-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-goalsstatusrules-preview-api-openapi.yml
+- filename: power-bi-goalvalues-preview-api-openapi.yml
+  format: yaml
+  label: Power BI Goal Values (Preview) API
+  slug: power-bi-goalvalues-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-goalvalues-preview-api-openapi.yml
+- filename: power-bi-pipelines-api-openapi.yml
+  format: yaml
+  label: Power BI Pipelines API
+  slug: power-bi-pipelines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-pipelines-api-openapi.yml
+- filename: power-bi-profiles-api-openapi.yml
+  format: yaml
+  label: Power BI Profiles API
+  slug: power-bi-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-profiles-api-openapi.yml
+- filename: power-bi-pushdatasets-api-openapi.yml
+  format: yaml
+  label: Power BI Push Datasets API
+  slug: power-bi-pushdatasets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-pushdatasets-api-openapi.yml
+- filename: power-bi-scorecards-preview-api-openapi.yml
+  format: yaml
+  label: Power BI Scorecards (Preview) API
+  slug: power-bi-scorecards-preview-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-scorecards-preview-api-openapi.yml
+- filename: power-bi-templateapps-api-openapi.yml
+  format: yaml
+  label: Power BI Template Apps API
+  slug: power-bi-templateapps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-templateapps-api-openapi.yml
+- filename: power-bi-users-api-openapi.yml
+  format: yaml
+  label: Power BI Users API
+  slug: power-bi-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/power-bi/openapi/power-bi-users-api-openapi.yml
+certification_count: 1
 certifications:
-- SOC 1
-- SOC 2
-- SOC 3
-- ISO 27001
-- ISO 27017
-- ISO 27018
-- ISO 27701
-- PCI DSS
-- HIPAA / HITECH
-- HITRUST
-- FedRAMP
 - GDPR
-- CSA STAR
-description: Power BI inherits Microsoft's enterprise compliance program via the Microsoft Trust Center and the Service Trust Portal. Certifications and audit reports are published per compliance offering; the full attestation list is at the Service Trust Portal.
+description: ''
 kind: trust-center
 layout: security
 name: Power Bi Trust Center
 name_suffix: Trust Center
-overview: Power BI maintains a public trust center documenting SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, PCI DSS, HIPAA / HITECH, HITRUST, FedRAMP, GDPR, and CSA STAR compliance.
+overview: Power BI maintains a public trust center documenting GDPR compliance.
 provider_name: Power BI
 provider_slug: power-bi
 slug: power-bi-trust-center
 source_filename: power-bi-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-06-20'\nmethod: searched\nprobe: true\nurl: https://www.microsoft.com/en-us/trust-center\nsource: Microsoft Trust Center + Power BI security documentation\ndescription: >-\n  Power BI inherits Microsoft's enterprise compliance program via the Microsoft\n  Trust Center and the Service Trust Portal. Certifications and audit reports\n  are published per compliance offering; the full attestation list is at the\n  Service Trust Portal.\nportals:\n  - name: Microsoft Trust Center\n    url: https://www.microsoft.com/en-us/trust-center\n  - name: Service Trust Portal (audit reports)\n    url: https://servicetrust.microsoft.com/\n  - name: Compliance offerings catalog\n    url: https://learn.microsoft.com/en-us/compliance/regulatory/offering-home\n  - name: Power BI security whitepaper\n    url: https://learn.microsoft.com/en-us/power-bi/enterprise/service-admin-power-bi-security\ncertifications:\n  - SOC 1\n  - SOC 2\n  - SOC 3\n  - ISO 27001\n  - ISO 27017\n  - ISO\
-  \ 27018\n  - ISO 27701\n  - PCI DSS\n  - HIPAA / HITECH\n  - HITRUST\n  - FedRAMP\n  - GDPR\n  - CSA STAR\nevidence:\n  - source: https://www.microsoft.com/en-us/trust-center\n    keywords: [trust center, compliance, certifications, audit reports]\n  - source: https://learn.microsoft.com/en-us/compliance/regulatory/offering-home\n    keywords: [soc 2, iso 27001, fedramp, hipaa, pci dss]\n"
+source_yaml: "generated: '2026-11-05'\nmethod: searched\nprobe: true\nsource: https://www.microsoft.com/en-us/trust-center\nurl: https://www.microsoft.com/en-us/trust-center\ncertifications:\n- GDPR\nevidence:\n- source: https://www.microsoft.com/en-us/trust-center\n  keywords:\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://artifacts.apis.io/power-bi/security/power-bi-trust-center.yml
-summary_line: SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, PCI DSS, HIPAA / HITECH, HITRUST, FedRAMP, GDPR, CSA STAR
+summary_line: GDPR
 tags:
 - Analytics
 - Business Intelligence

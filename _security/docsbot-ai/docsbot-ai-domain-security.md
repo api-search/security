@@ -51,8 +51,8 @@ source_yaml_url: https://artifacts.apis.io/docsbot-ai/security/docsbot-ai-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
-- Chatbot
+- Artificial Intelligence
+- Chatbots
 - Automation
-- Customer Support
+- Customer Service
 ---

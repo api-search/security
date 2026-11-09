@@ -34,6 +34,6 @@ tags:
 - Company
 - GIS
 - Geospatial
-- DataInfrastructure
+- Data Infrastructure
 - Consulting
 ---

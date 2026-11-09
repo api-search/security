@@ -40,6 +40,5 @@ tags:
 - Company
 - SMS
 - Messaging
-- API
 - Russia
 ---

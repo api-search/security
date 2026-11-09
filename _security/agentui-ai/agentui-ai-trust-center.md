@@ -27,10 +27,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/agentui-ai/security/agentui-ai-trust-center.yml
 summary_line: SOC 2, PCI DSS, GDPR
 tags:
-- AI
-- Internal-Tools
+- Artificial Intelligence
+- Internal Tools
 - Automation
-- No-code
+- No-Code
 - LLM
 - Company
 trust_url: https://www.agentui.ai/en/security/

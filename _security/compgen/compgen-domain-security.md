@@ -33,6 +33,6 @@ tags:
 - Genealogy
 - History
 - Data
-- Non-profit
+- Non-Profit
 - Germany
 ---

@@ -33,6 +33,6 @@ tags:
 - Software Development
 - Custom Software
 - Web Applications
-- Mobile Apps
-- AI/ML
+- Mobile App
+- Artificial Intelligence
 ---

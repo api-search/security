@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/finetunedb/security/finetunedb-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Machine Learning
 - Platform
-- Fine-tuning
+- Fine-Tuning
 ---

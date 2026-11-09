@@ -70,8 +70,7 @@ source_yaml_url: https://artifacts.apis.io/puzaricloud-in/security/puzaricloud-i
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Monitoring
-- API
-- SaaS
+- Software-as-a-Service
 - India
 - Alerts
 trust_url: https://puzaricloud.in/security

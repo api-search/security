@@ -34,9 +34,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://www.lea
 source_yaml_url: https://artifacts.apis.io/leadfriendly-com/authentication/leadfriendly-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - CRM
 - Voice
-- Small-Business
+- Small Business
 - Telephony
 ---

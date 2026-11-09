@@ -38,4 +38,7 @@ tags:
 - Game Development
 - Racing Games
 - Free-to-Play
+- Mobile
+- Console
+- United Kingdom
 ---

@@ -49,8 +49,7 @@ source_yaml_url: https://artifacts.apis.io/loopholetape-com/security/loopholetap
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Solana
-- Risk
-- API
+- Risk Management
 ---

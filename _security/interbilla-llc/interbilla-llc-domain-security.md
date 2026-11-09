@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/interbilla-llc/security/interbilla-ll
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Governance
 - Mission Engineering
 - Trusted AI

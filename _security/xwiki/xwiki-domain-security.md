@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/xwiki/security/xwiki-domain-security.
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Open-Source
+- Open Source
 - Enterprise
 - Wiki
-- Knowledge-Management
+- Knowledge Management
 - Collaboration
 ---

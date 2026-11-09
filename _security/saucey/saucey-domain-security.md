@@ -37,4 +37,7 @@ tags:
 - Logistics
 - Consumer
 - Marketplace
+- Alcohol
+- Delivery
+- On-Demand
 ---

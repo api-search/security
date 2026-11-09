@@ -116,4 +116,7 @@ tags:
 - Threat Intelligence
 - Human Risk Management
 - Takedowns
+- Artificial Intelligence
+- Social-Engineering
+- Defense
 ---

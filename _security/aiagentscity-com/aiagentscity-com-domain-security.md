@@ -405,7 +405,7 @@ source_yaml_url: https://artifacts.apis.io/aiagentscity-com/security/aiagentscit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - Platform
 - Marketplace

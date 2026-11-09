@@ -118,10 +118,11 @@ tags:
 - AI Security
 - Compliance
 - Governance
-- Authentication
+- OAuth
 - SaaS Management
 - SaaS Security
 - Security
 - Shadow IT
 - SSPM
+- Authentication
 ---

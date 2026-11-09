@@ -34,5 +34,4 @@ tags:
 - Communications
 - Unified Communications
 - VoIP
-- Business Solutions
 ---

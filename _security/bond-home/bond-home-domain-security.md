@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/bond-home/security/bond-home-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SmartHome
+- Smart Home
 - IoT
-- HomeAutomation
+- Home Automation
 - Connectivity
 ---

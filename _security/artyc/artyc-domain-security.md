@@ -31,9 +31,8 @@ source_yaml_url: https://artifacts.apis.io/artyc/security/artyc-domain-security.
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Technology
-- Digital-Asset-Management
-- Workflow-Automation
-- APIs
+- Digital Asset Management
+- Workflow Automation
 - Integration
 - Analytics
 ---

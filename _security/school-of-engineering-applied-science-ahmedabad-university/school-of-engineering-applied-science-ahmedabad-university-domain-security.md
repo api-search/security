@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education
 - Engineering
-- HigherEducation
+- Higher Education
 - India
 - Research
 ---

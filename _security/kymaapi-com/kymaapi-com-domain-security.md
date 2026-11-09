@@ -100,7 +100,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - LLM
 - API Gateway
-- AI
+- Artificial Intelligence
 - Machine Learning
 - Developer Tools
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/waystation/security/waystation-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Sourcing
-- CPG
+- Consumer Packaged Goods
 - Procurement
 ---

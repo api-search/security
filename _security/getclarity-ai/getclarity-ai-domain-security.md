@@ -45,8 +45,8 @@ source_yaml_url: https://artifacts.apis.io/getclarity-ai/security/getclarity-ai-
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Hiring fraud
-- Identity verification
-- Deepfake detection
+- Identity Verification
+- Deepfake Detection
 - Talent acquisition security
 - AI hiring security
 ---

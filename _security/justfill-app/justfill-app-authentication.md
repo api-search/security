@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/justfill-app/authentication/justfill-
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - PDF
-- FormFilling
-- SaaS
+- Form Filling
+- Software-as-a-Service
 ---

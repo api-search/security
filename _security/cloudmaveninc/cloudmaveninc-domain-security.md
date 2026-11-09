@@ -41,6 +41,6 @@ tags:
 - Company
 - Automation
 - Salesforce
-- FinTech
+- Fintech
 - Lending
 ---

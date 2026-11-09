@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/densityai-com/authentication/densitya
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Inference
 - Platform
 - Cloud

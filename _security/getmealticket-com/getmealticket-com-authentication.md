@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/getmealticket-com/authentication/getm
 summary_line: 0 schemes
 tags:
 - Company
-- Foodservice
+- Food Service
 - Profitability
-- SaaS
+- Software-as-a-Service
 - B2B
 ---

@@ -44,7 +44,7 @@ tags:
 - Company
 - Alerting
 - Monitoring
-- OpenSource
+- Open Source
 - DevOps
-- IncidentManagement
+- Incident Management
 ---

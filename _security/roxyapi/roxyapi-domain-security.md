@@ -160,7 +160,7 @@ tags:
 - Forecast
 - Biorhythm
 - I-Ching
-- crystals
+- Crystals
 - Dreams
 - Angel Numbers
 - Location
@@ -172,7 +172,7 @@ tags:
 - Wellness
 - MCP Server
 - OpenAPI
-- llms-txt
+- Llms.txt
 - Agent-Native
 - A2A
 ---

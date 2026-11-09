@@ -129,18 +129,18 @@ api_specs:
   slug: aws-app-runner-aws-app-runner-x-amz-target-apprunner-updatevpcingressconne-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-app-runner/openapi/aws-app-runner-aws-app-runner-x-amz-target-apprunner-updatevpcingressconne-api-openapi.yml
-- filename: aws-app-runner-autoscaling-api-openapi.yml
-  format: yaml
-  label: AWS App Runner Autoscaling API
-  slug: aws-app-runner-autoscaling-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/aws-app-runner/openapi/aws-app-runner-autoscaling-api-openapi.yml
 - filename: aws-app-runner-operations-api-openapi.yml
   format: yaml
   label: AWS App Runner App Runner Operations API
   slug: aws-app-runner-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-app-runner/openapi/aws-app-runner-operations-api-openapi.yml
+- filename: aws-app-runner-autoscaling-api-openapi.yml
+  format: yaml
+  label: AWS App Runner Autoscaling API
+  slug: aws-app-runner-autoscaling-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-app-runner/openapi/aws-app-runner-autoscaling-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -171,6 +171,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aws-app-
 source_yaml_url: https://artifacts.apis.io/aws-app-runner/authentication/aws-app-runner-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - CI/CD
 - Containers
 - Deployment

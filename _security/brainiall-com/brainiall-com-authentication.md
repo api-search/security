@@ -27,9 +27,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource:\n  - https://ww
 source_yaml_url: https://artifacts.apis.io/brainiall-com/authentication/brainiall-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Industrial
 - Energy
 - Automation
-- MachineLearning
+- Machine Learning
 ---

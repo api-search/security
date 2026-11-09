@@ -32,7 +32,7 @@ tags:
 - MCP
 - Southeast Asia
 - Data
-- AI
+- Artificial Intelligence
 - Shopee
 - Grab
 - IDX

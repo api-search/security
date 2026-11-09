@@ -34,6 +34,6 @@ tags:
 - Company
 - Hospitality
 - Education
-- VR
-- AI
+- Virtual Reality
+- Artificial Intelligence
 ---

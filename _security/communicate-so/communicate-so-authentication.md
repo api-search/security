@@ -118,9 +118,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://artifacts.apis.io/communicate-so/authentication/communicate-so-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
-- Customer Support
-- Chatbot
-- SaaS
+- Artificial Intelligence
+- Customer Service
+- Chatbots
+- Software-as-a-Service
 - Automation
 ---

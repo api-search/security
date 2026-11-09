@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Security
 - Threat Intelligence
-- AI
+- Artificial Intelligence
 - Platform
 - Exposure Management
 ---

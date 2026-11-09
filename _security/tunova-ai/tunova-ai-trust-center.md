@@ -38,7 +38,7 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/tunova-ai/security/tunova-ai-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- AI
+- Artificial Intelligence
 - Music
 - Audio
 - Suno

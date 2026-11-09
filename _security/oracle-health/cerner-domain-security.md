@@ -399,7 +399,7 @@ tags:
 - Interoperability
 - Millennium Platform
 - Multi-Tenant
-- Authentication
+- OAuth
 - Oracle
 - Oracle Health
 - Patient Access
@@ -407,4 +407,5 @@ tags:
 - SMART Backend Services
 - SMART on FHIR
 - US Core
+- Authentication
 ---

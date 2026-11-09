@@ -29,9 +29,8 @@ source_yaml_url: https://artifacts.apis.io/instapaper/authentication/instapaper-
 summary_line: 1 scheme
 tags:
 - Company
-- read-it-later
-- productivity
-- web-service
-- bookmarking
-- API
+- Read-it-later
+- Productivity
+- Web Service
+- Bookmarking
 ---

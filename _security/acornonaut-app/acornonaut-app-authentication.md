@@ -46,7 +46,7 @@ source_yaml_url: https://artifacts.apis.io/acornonaut-app/authentication/acornon
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Education
 - Flashcards
 - YouTube

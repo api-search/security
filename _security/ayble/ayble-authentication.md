@@ -37,9 +37,9 @@ source_yaml_url: https://artifacts.apis.io/ayble/authentication/ayble-authentica
 summary_line: 1 scheme
 tags:
 - Health
-- Telemedicine
-- DigestiveHealth
+- Telehealth
+- Digestive Health
 - VirtualClinic
-- EmployerBenefits
+- Employer Benefits
 - Healthcare
 ---

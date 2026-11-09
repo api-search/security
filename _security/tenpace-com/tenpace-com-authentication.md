@@ -35,9 +35,9 @@ source_yaml_url: https://artifacts.apis.io/tenpace-com/authentication/tenpace-co
 summary_line: 1 scheme
 tags:
 - Health
-- SaaS
+- Software-as-a-Service
 - Productivity
-- Workflow
+- Workflows
 - Integration
 - Company
 ---

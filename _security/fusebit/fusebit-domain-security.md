@@ -191,7 +191,8 @@ tags:
 - Embedded iPaaS
 - Integration
 - Serverless
-- Authentication
+- OAuth
 - Acquired
 - Defunct
+- Authentication
 ---

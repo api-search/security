@@ -368,7 +368,7 @@ tags:
 - Hospitality Cloud
 - Hotels
 - Housing
-- Authentication
+- OAuth
 - Passkeys
 - Reservations
 - RFP
@@ -378,5 +378,6 @@ tags:
 - Supplier Network
 - Venues
 - Venue Sourcing
+- Authentication
 trust_url: https://trust.cvent.com/
 ---

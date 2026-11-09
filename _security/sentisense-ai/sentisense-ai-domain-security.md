@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/sentisense-ai/security/sentisense-ai-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Enterprise
 ---

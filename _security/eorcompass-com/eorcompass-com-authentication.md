@@ -51,8 +51,8 @@ source_yaml_url: https://artifacts.apis.io/eorcompass-com/authentication/eorcomp
 summary_line: http · 1 scheme
 tags:
 - Company
-- EmployerOfRecord
+- Employer of Record
 - Payroll
 - PricingComparison
-- HRTech
+- Human Resources
 ---

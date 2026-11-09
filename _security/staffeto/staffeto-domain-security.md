@@ -33,5 +33,5 @@ tags:
 - Workforce
 - Automation
 - Scheduling
-- HR
+- Human Resources
 ---

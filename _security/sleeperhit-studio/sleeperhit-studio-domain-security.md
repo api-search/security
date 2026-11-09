@@ -33,7 +33,7 @@ tags:
 - Company
 - Audio
 - Video
-- Podcast
+- Podcasts
 - Enterprise
 - Automation
 ---

@@ -28,7 +28,7 @@ source_yaml_url: https://artifacts.apis.io/savedthat-app/authentication/savedtha
 summary_line: 1 scheme
 tags:
 - Video
-- AI
+- Artificial Intelligence
 - Search
 - Transcription
 - Productivity

@@ -40,7 +40,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Logistics
 - Shipping
-- E‑commerce
-- API
+- E-Commerce
 - Norway
 ---

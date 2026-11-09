@@ -34,6 +34,5 @@ tags:
 - Integration
 - ServiceNow
 - Enterprise
-- API
 - Automation
 ---

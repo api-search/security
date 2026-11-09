@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/botoi-com/security/botoi-com-domain-s
 summary_line: TLSv1.3
 tags:
 - Company
-- API
 - Tools
-- Developer
+- Developers
 - Free
 ---

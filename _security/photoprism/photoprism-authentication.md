@@ -226,7 +226,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Photo Management
-- AI
-- Self‑Hosted
+- Artificial Intelligence
+- Self-Hosted
 - Open Source
 ---

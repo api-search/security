@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/keen-technologies/security/keen-techn
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Research
 - AGI
 - Technology

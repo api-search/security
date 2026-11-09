@@ -31,8 +31,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Company
 - Email
-- API
-- SaaS
-- Communication
+- Software-as-a-Service
+- Communications
 trust_url: https://mailkite.dev/security/
 ---

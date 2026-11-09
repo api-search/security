@@ -36,5 +36,4 @@ tags:
 - Transportation
 - Public Sector
 - Sweden
-- API Provider
 ---

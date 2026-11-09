@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/awolvision/security/awolvision-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HomeTheater
+- Home-Theater
 - Projectors
 - E-Commerce
 - Consumer Electronics

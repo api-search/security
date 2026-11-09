@@ -29,7 +29,7 @@ source_yaml_url: https://artifacts.apis.io/getxapi/authentication/getxapi-authen
 summary_line: 1 scheme
 tags:
 - Company
-- twitter
+- Twitter
 - Tools
 - Documentation
 ---

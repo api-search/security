@@ -154,7 +154,7 @@ tags:
 - Recording
 - Works
 - Labels
-- Cover Art
+- CoverArt
 - Open Source
 - Non-Profit
 ---

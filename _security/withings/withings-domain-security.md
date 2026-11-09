@@ -153,7 +153,8 @@ tags:
 - Blood Pressure
 - Activity Tracking
 - Remote Patient Monitoring
-- Authentication
+- OAuth
 - Webhook
 - Wellness
+- Authentication
 ---

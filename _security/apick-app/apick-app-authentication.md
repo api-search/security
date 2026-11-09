@@ -33,7 +33,6 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://apick.a
 source_yaml_url: https://artifacts.apis.io/apick-app/authentication/apick-app-authentication.yml
 summary_line: 1 scheme
 tags:
-- API
 - Korean
 - Platform
 - Data

@@ -87,7 +87,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Finance
-- Market-Data
-- Real-time
-- API
+- Market Data
+- Real-Time
 ---

@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/baikal/security/baikal-domain-securit
 summary_line: TLSv1.3
 tags:
 - Company
-- API
-- OpenSource
+- Open Source
 - Calendar
 - CardDAV
 ---

@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/superpilot-labs/authentication/superp
 summary_line: 0 schemes
 tags:
 - Marketing
-- AI
+- Artificial Intelligence
 - Commerce
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

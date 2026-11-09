@@ -64,7 +64,7 @@ source_yaml_url: https://artifacts.apis.io/virtuosis-voice-biomarker-api/authent
 summary_line: http · 1 scheme
 tags:
 - Digital Health
-- voice biomarkers
+- VoiceBiomarkers
 - Speech Analysis
 - acoustic analysis
 - Medical Devices

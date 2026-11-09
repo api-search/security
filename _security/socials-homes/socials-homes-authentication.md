@@ -29,8 +29,8 @@ summary_line: 0 schemes
 tags:
 - Company
 - Housing
-- Rental
+- Rentals
 - International
 - WhatsApp
-- RealEstate
+- Real Estate
 ---

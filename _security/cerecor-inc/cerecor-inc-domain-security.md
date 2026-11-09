@@ -34,5 +34,5 @@ tags:
 - Biotechnology
 - Therapeutics
 - IL-1β
-- Clinical-stage
+- Clinical Stage
 ---

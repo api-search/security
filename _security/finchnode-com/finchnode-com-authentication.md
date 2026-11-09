@@ -47,7 +47,6 @@ summary_line: 2 schemes
 tags:
 - Company
 - Healthcare
-- API
-- EHR
-- OpenData
+- Electronic Health Records
+- Open Data
 ---

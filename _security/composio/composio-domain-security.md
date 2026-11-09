@@ -156,6 +156,7 @@ tags:
 - Authentication
 - Integration
 - MCP
+- OAuth
 - Sandbox
 - Tools
 - Triggers

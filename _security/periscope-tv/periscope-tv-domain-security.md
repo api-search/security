@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/periscope-tv/security/periscope-tv-do
 summary_line: TLSv1.2 · HSTS
 tags:
 - Company
-- Live-Streaming
+- Live Streaming
 - Video
 - Social
 - Broadcast

@@ -56,6 +56,7 @@ tags:
 - Loyalty
 - MarTech
 - Webhook
+- OAuth
 - Authentication
 trust_url: https://playable.com/iso-gdpr-security/
 ---

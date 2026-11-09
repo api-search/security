@@ -94,7 +94,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Social Media
-- AI
+- Artificial Intelligence
 - Data API
 - MCP
 - Analytics

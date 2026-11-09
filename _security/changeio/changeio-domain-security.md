@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Donations
 - Compliance
-- API
 - Nonprofit Verification
 - Disbursements
 - Corporate Giving

@@ -38,6 +38,5 @@ tags:
 - IP Geolocation
 - Threat Detection
 - Privacy
-- API
 - Data
 ---

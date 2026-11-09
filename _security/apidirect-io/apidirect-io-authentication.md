@@ -144,8 +144,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Social
-- Listening
-- API
-- Real-time
+- Social Listening
+- Real-Time
 - Media
 ---

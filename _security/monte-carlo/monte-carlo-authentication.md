@@ -100,4 +100,6 @@ tags:
 - Data Lineage
 - Monitoring
 - AI Observability
+- Data Monitoring
+- GraphQL
 ---

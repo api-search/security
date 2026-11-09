@@ -37,9 +37,9 @@ source_yaml_url: https://artifacts.apis.io/andromeda-ai/authentication/andromeda
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cloud
 - Platform
-- Machine-Learning
+- Machine Learning
 - Enterprise
 ---

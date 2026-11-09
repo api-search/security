@@ -212,8 +212,9 @@ tags:
 - Employee Advocacy
 - Customer Service
 - SCIM
-- Authentication
+- OAuth
 - Webhook
 - Scheduling
 - Canada
+- Authentication
 ---

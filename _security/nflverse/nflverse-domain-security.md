@@ -34,6 +34,6 @@ tags:
 - Sports
 - Data
 - Analytics
-- Open-Source
+- Open Source
 - NFL
 ---

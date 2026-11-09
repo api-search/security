@@ -78,8 +78,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Company
 - Finance
-- Market-Data
-- Real-time
-- API
+- Market Data
+- Real-Time
 trust_url: https://tickdb.ai/security
 ---

@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/collabora-ltd/security/collabora-ltd-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- OpenSource
+- Open Source
 - Consulting
 - Software
 - Services

@@ -56,9 +56,9 @@ source_yaml_url: https://artifacts.apis.io/appdeploy-ai/authentication/appdeploy
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Deployment
 - Platform
-- LowCode
+- Low-Code
 - Automation
 ---

@@ -27,5 +27,6 @@ tags:
 - Distributed Energy Resources
 - Grid Flexibility
 - Sustainability
+- Clean Energy
 trust_url: https://cpowerenergy.com/cpower-high-level-security/
 ---

@@ -220,6 +220,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
 - Apache Flink
+- Amazon Web Services
 - Big Data
 - Data Processing
 - Real-Time

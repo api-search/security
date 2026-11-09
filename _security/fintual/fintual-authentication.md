@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/fintual/authentication/fintual-authen
 summary_line: 0 schemes
 tags:
 - Company
-- FinTech
+- Fintech
 - Investment
 - Chile
 - Robo-Advisor

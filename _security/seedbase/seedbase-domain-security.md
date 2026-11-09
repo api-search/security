@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/seedbase/security/seedbase-domain-sec
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- FinTech
+- Fintech
 - Banking
-- Workflow
+- Workflows
 - Compliance
 ---

@@ -39,13 +39,15 @@ schemes:
   name: BearerAuth
   scheme: bearer
   sources:
-  - openapi/github-container-registry-openapi.yml
+  - openapi/github-container-registry-organization-packages-api-openapi.yml
+  - openapi/github-container-registry-user-namespace-packages-api-openapi.yml
+  - openapi/github-container-registry-user-packages-api-openapi.yml
   type: http
 slug: github-container-registry-authentication
 source_filename: github-container-registry-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/github-container-registry-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: token\n  sources:\n  - openapi/github-container-registry-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/github-container-registry-organization-packages-api-openapi.yml, openapi/github-container-registry-user-namespace-packages-api-openapi.yml,\n  openapi/github-container-registry-user-packages-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: token\n  sources:\n  - openapi/github-container-registry-organization-packages-api-openapi.yml\n  - openapi/github-container-registry-user-namespace-packages-api-openapi.yml\n  - openapi/github-container-registry-user-packages-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/github-container-registry/authentication/github-container-registry-authentication.yml
 summary_line: http · 1 scheme
 tags:
@@ -54,4 +56,6 @@ tags:
 - GitHub
 - Packages
 - Registry
+- OCI
+- Docker
 ---

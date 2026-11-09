@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/wearecabinet-com/security/wearecabine
 summary_line: TLSv1.3 · DMARC
 tags:
 - OTC medicines
-- Private label
-- Sustainable packaging
+- Private Label
+- Sustainable Packaging
 - Retail supply chain
 - Manufacturing
 - Wholesale

@@ -31,7 +31,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Media
 - IPTV
-- OpenSource
+- Open Source
 - Proxy
 - Plex
 - Emby

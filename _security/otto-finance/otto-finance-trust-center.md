@@ -20,9 +20,9 @@ source_yaml_url: https://artifacts.apis.io/otto-finance/security/otto-finance-tr
 summary_line: ISO 27001, GDPR
 tags:
 - Company
-- FinTech
+- Fintech
 - Wealth Management
 - Automation
-- AI
+- Artificial Intelligence
 trust_url: https://ottofinance.io/security
 ---

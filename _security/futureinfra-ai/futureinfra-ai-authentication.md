@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: futureinfra-ai-futureinfra-api-api-openapi.yml
-  format: yaml
-  label: FutureInfra API
-  slug: futureinfra-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/futureinfra-ai/openapi/futureinfra-ai-futureinfra-api-api-openapi.yml
 - filename: futureinfra-ai-openapi-generated.yml
   format: yaml
   label: FutureInfra API
@@ -45,7 +39,7 @@ summary_line: 1 scheme
 tags:
 - Cloud
 - Infrastructure
-- AI
+- Artificial Intelligence
 - Korean
 - Platform
 ---

@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Accounting
 - Software
-- Nonprofit
+- Non-Profit
 - Small Business
 - Government
-- On-Premise
+- On-Premises
 ---

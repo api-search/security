@@ -34,7 +34,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - DNS
-- OpenSource
+- Open Source
 - Privacy
 - Security
 ---

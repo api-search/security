@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/send4-com-br/security/send4-com-br-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Lead-Qualification
+- Lead Qualification
 - SMS
-- Chatbot
-- CRM-Integration
-- AI
+- Chatbots
+- CRM Integration
+- Artificial Intelligence
 ---

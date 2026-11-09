@@ -35,7 +35,7 @@ tags:
 - Program Management
 - Mentorship
 - Leadership Development
-- High‑Volume Hiring
+- High-Volume Hiring
 - Military Hiring
 - Analytics
 ---

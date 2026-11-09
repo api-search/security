@@ -33,6 +33,6 @@ tags:
 - Company
 - Mobile
 - Advertising
-- AI
+- Artificial Intelligence
 - Growth
 ---

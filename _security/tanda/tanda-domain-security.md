@@ -34,7 +34,7 @@ tags:
 - Company
 - Workforce Management
 - Payroll
-- HR
+- Human Resources
 - Scheduling
 - Australia
 ---

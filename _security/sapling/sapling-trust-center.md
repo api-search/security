@@ -64,9 +64,8 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/sapling/security/sapling-trust-center.yml
 summary_line: SOC 2, PCI DSS, HIPAA, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Language-Model
-- API
 - Enterprise
 - Productivity
 trust_url: https://sapling.ai/security

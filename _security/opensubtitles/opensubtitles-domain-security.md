@@ -37,8 +37,7 @@ source_yaml_url: https://artifacts.apis.io/opensubtitles/security/opensubtitles-
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- subtitles
-- video
-- media
-- API
+- Subtitles
+- Video
+- Media
 ---

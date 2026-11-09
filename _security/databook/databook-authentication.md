@@ -74,4 +74,6 @@ tags:
 - Agents
 - Reasoning
 - Company Data
+- Data Platform
+- Business Intelligence
 ---

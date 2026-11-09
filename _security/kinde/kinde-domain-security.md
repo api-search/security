@@ -222,6 +222,7 @@ tags:
 - Authorization
 - Customer Identity
 - Identity and Access Management
+- OAuth
 - OpenID Connect
 - SSO
 - Multi-Factor Authentication

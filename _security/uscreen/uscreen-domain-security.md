@@ -35,5 +35,5 @@ tags:
 - Video
 - Membership
 - Platform
-- Creator
+- Creators
 ---

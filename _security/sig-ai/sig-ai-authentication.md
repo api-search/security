@@ -177,9 +177,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: derived\nsource: https://api.sig.
 source_yaml_url: https://artifacts.apis.io/sig-ai/authentication/sig-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Data
 - Analytics
-- Decision-Intelligence
+- Decision Intelligence
 - Marketing
 ---

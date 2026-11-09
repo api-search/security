@@ -102,6 +102,5 @@ tags:
 - MCP
 - A2A
 - Agent-Native
-- Deterministic
 - United States
 ---

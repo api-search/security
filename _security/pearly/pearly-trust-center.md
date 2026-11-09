@@ -22,8 +22,8 @@ summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Dental
 - Billing
-- RCM
-- SaaS
+- Revenue Cycle Management
+- Software-as-a-Service
 - Healthcare
 trust_url: https://www.pearly.co/security
 ---

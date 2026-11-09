@@ -53,6 +53,5 @@ tags:
 - Company
 - Insurance
 - Data
-- RealEstate
-- API
+- Real Estate
 ---

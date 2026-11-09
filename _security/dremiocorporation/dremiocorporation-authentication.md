@@ -52,6 +52,6 @@ tags:
 - Data
 - Lakehouse
 - Analytics
-- AI
+- Artificial Intelligence
 - SAP
 ---

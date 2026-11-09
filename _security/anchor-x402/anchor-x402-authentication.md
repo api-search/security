@@ -104,6 +104,12 @@ api_specs:
   slug: anchor-x402-tldr-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-tldr-api-openapi.yml
+- filename: anchor-x402-feedback-api-openapi.yml
+  format: yaml
+  label: anchor-x402 Feedback API
+  slug: anchor-x402-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchor-x402/openapi/anchor-x402-feedback-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -170,7 +176,7 @@ tags:
 - Blockchain
 - MCP
 - Web3
-- pay-per-call
+- Pay-per-call
 - Agentic Payments
 - Stablecoins
 - Compliance

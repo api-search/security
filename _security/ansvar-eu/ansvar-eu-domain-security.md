@@ -45,7 +45,7 @@ source_yaml_url: https://artifacts.apis.io/ansvar-eu/security/ansvar-eu-domain-s
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Compliance
 - Legal
 - Security

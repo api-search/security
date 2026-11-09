@@ -36,8 +36,8 @@ source_yaml_url: https://artifacts.apis.io/pinafly-com/authentication/pinafly-co
 summary_line: 0 schemes
 tags:
 - Review
-- AI
+- Artificial Intelligence
 - Collaboration
 - Feedback
-- WebApp
+- Web App
 ---

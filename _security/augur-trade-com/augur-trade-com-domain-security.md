@@ -99,7 +99,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Finance
-- Crypto
+- Cryptocurrency
 - Trading
 - Automation
 - Solana

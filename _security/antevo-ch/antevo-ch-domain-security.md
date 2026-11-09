@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Wealth
-- Data-Integration
-- AI-Assistants
+- Data Integration
+- AI Assistant
 - Swiss
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/carbikly-com/security/carbikly-com-do
 summary_line: TLSv1.3 · HSTS
 tags:
 - Car Tax
-- UK
+- United Kingdom
 - Finance
 - Calculator
 - Automotive

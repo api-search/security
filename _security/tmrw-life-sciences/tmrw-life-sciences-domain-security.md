@@ -39,4 +39,7 @@ tags:
 - Cryostorage
 - Biotechnology
 - Automation
+- Diagnostics
+- Therapeutics
+- Artificial Intelligence
 ---

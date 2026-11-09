@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Compliance
-- AI
+- Artificial Intelligence
 - Document Tracking
 - Small Business
 ---

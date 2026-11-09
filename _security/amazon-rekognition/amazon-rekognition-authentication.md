@@ -148,6 +148,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: openapi/amazon-
 source_yaml_url: https://artifacts.apis.io/amazon-rekognition/authentication/amazon-rekognition-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Celebrity Recognition
 - Computer Vision
 - Content Moderation

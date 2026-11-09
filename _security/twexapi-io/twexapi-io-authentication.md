@@ -168,8 +168,7 @@ summary_line: 1 scheme
 tags:
 - Social
 - Data
-- API
 - X
 - Credit
-- AI
+- Artificial Intelligence
 ---

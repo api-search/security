@@ -34,8 +34,8 @@ source_yaml_url: https://artifacts.apis.io/otto-finance/security/otto-finance-do
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Wealth Management
 - Automation
-- AI
+- Artificial Intelligence
 ---

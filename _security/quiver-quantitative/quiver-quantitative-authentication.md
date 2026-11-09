@@ -58,4 +58,10 @@ tags:
 - Data
 - Finance
 - Politics
+- Alternative Data
+- Financial Data
+- Investment Research
+- Market Data
+- Government Data
+- Congressional Trading
 ---

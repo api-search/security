@@ -81,7 +81,6 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Web Scraping
 - Data Extraction
-- API
 - Automation
 - Markdown
 ---

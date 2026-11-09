@@ -135,9 +135,8 @@ source_yaml_url: https://artifacts.apis.io/breezecash/security/breezecash-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
-- Crypto
-- Startup
-- Venture-backed
+- Cryptocurrency
+- Startups
 ---

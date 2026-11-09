@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/asm-co/security/asm-co-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Low-code
+- Low-Code
 - CRM
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

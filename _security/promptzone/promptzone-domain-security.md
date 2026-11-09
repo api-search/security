@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: promptzone-openapi.json
+  format: json
+  label: Promptzone API
+  slug: promptzone-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/promptzone/openapi/promptzone-openapi.json
 description: ''
 domains:
 - caa: []

@@ -8,9 +8,9 @@
   Renders NOTHING when the slug has no market, or when the site has no market_links.json yet.
   Provisional and unweighted: not part of the Kin Score composite or agent readiness.
 {%- endcomment -%}
-{%- assign _ml_data = site.data.market_links -%}
+{%- comment -%} roadmap#1069. NEVER assign a whole data file to a variable: Liquid's assign tag walks the value to score it, so it costs every row on every page. {%- endcomment -%}
 {%- assign _ml_kind = include.kind | default: "tag" -%}
-{%- assign _ml_rows = _ml_data[_ml_kind][include.slug] -%}
+{%- assign _ml_rows = site.data.market_links[_ml_kind][include.slug] -%}
 {%- if _ml_rows and _ml_rows.size > 0 -%}
 <style>
   .ml-box { margin: 2rem 0; }

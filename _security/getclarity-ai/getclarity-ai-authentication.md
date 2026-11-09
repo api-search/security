@@ -51,8 +51,8 @@ source_yaml_url: https://artifacts.apis.io/getclarity-ai/authentication/getclari
 summary_line: 2 schemes
 tags:
 - Hiring fraud
-- Identity verification
-- Deepfake detection
+- Identity Verification
+- Deepfake Detection
 - Talent acquisition security
 - AI hiring security
 ---

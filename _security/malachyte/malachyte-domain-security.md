@@ -34,6 +34,5 @@ tags:
 - Company
 - Personalization
 - Retail
-- Real-time
-- API
+- Real-Time
 ---

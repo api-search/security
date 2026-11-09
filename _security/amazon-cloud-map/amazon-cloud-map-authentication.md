@@ -63,6 +63,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-c
 source_yaml_url: https://artifacts.apis.io/amazon-cloud-map/authentication/amazon-cloud-map-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Cloud Map
 - Service Discovery
 - Microservices

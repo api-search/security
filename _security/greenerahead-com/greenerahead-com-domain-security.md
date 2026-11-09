@@ -38,6 +38,6 @@ tags:
 - Company
 - ESG
 - Sustainability
-- CarbonAccounting
+- Carbon Accounting
 - ClimateStrategy
 ---

@@ -38,4 +38,6 @@ tags:
 - Customer Growth
 - Retention
 - Revenue
+- Platform
+- Automation
 ---

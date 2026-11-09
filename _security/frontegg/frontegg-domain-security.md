@@ -423,6 +423,7 @@ tags:
 - SSO
 - SCIM
 - Entitlements
+- OAuth
 - OpenID Connect
 - Identity Federation
 ---

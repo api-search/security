@@ -47,5 +47,6 @@ tags:
 - Grand Theft Auto
 - Red Dead Redemption
 - Identity
+- OAuth
 - Authentication
 ---

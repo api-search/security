@@ -44,5 +44,5 @@ tags:
 - Media Server Integration
 - Automation Integration
 - Permissions
-- Notifications
+- Notification
 ---

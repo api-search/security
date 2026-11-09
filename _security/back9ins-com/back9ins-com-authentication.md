@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/back9ins-com/authentication/back9ins-
 summary_line: 0 schemes
 tags:
 - Insurance
-- InsurTech
-- SaaS
+- Insurtech
+- Software-as-a-Service
 - B2B
-- LifeInsurance
+- Life Insurance
 ---

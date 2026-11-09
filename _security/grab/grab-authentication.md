@@ -58,6 +58,7 @@ tags:
 - Identity
 - Loyalty
 - QR Payments
-- Authentication
+- OAuth
 - Mobility
+- Authentication
 ---

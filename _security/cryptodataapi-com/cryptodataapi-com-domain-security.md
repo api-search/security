@@ -261,9 +261,9 @@ source_yaml_url: https://artifacts.apis.io/cryptodataapi-com/security/cryptodata
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Crypto
+- Cryptocurrency
 - Finance
 - Data
-- Real-time
-- Market-Data
+- Real-Time
+- Market Data
 ---

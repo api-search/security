@@ -39,7 +39,6 @@ tags:
 - Sports
 - Betting
 - Odds
-- Real-time
+- Real-Time
 - Analytics
-- API
 ---

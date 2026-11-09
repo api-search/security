@@ -279,6 +279,7 @@ tags:
 - Authorization
 - Identity
 - OpenID Connect
+- OAuth
 - SAML
 - Open Source
 - Identity Federation

@@ -45,9 +45,9 @@ source_yaml_url: https://artifacts.apis.io/duve/security/duve-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Hospitality
-- GuestExperience
-- SaaS
-- AI
-- RevenueOptimization
+- Guest Experience
+- Software-as-a-Service
+- Artificial Intelligence
+- Revenue-Optimization
 - Company
 ---

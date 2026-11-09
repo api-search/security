@@ -69,8 +69,10 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-p
 source_yaml_url: https://artifacts.apis.io/amazon-panorama/authentication/amazon-panorama-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Camera
 - Computer Vision
 - Edge ML
 - Industrial IoT
+- Defunct
 ---

@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/evloop-io/security/evloop-io-domain-s
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- EVCharging
+- EV Charging
 - Infrastructure
 - Sustainable
 - Software

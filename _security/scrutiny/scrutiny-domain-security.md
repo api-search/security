@@ -38,9 +38,8 @@ source_yaml_url: https://artifacts.apis.io/scrutiny/security/scrutiny-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- MarketResearch
+- Market Research
 - Intelligence
-- API
 - Healthcare
 - B2B
 ---

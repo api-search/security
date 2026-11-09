@@ -81,9 +81,8 @@ source_yaml_url: https://artifacts.apis.io/recruitmcp-com/security/recruitmcp-co
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- Recruitment
-- API
+- Recruiting
 - MCP
-- HR
+- Human Resources
 trust_url: https://recruitmcp.com/security
 ---

@@ -38,9 +38,8 @@ source_yaml_url: https://artifacts.apis.io/apiguru-app/security/apiguru-app-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Data
 - Amazon
-- Real-time
+- Real-Time
 - Integration
 ---

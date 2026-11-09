@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/paratus/security/paratus-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Military
-- KnowledgeManagement
+- Knowledge Management
 - Security
 ---

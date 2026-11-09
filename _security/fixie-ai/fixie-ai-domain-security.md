@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/fixie-ai/security/fixie-ai-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- VoiceAI
-- RealTime
+- Voice AI
+- Real-Time
 - SpeechNative
-- DeveloperAPI
+- Developer API
 ---

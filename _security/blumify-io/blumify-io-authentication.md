@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/blumify-io/authentication/blumify-io-
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Finance
 - Transcription
 - Data

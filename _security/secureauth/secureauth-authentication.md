@@ -588,5 +588,6 @@ tags:
 - Identity
 - Authentication
 - Authorization
+- OAuth
 - Open Banking
 ---

@@ -81,9 +81,8 @@ source_yaml_url: https://artifacts.apis.io/hunta-ai/security/hunta-ai-trust-cent
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Memory
-- API
 - MCP
 - Attestable
 trust_url: https://hunta.ai/trust

@@ -33,5 +33,5 @@ tags:
 - Blockchain
 - Infrastructure
 - EVM
-- Layer2
+- Layer 2
 ---

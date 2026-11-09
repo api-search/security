@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Cybersecurity
-- ZeroTrust
-- SDWAN
-- CloudSecurity
+- Zero Trust
+- SD-WAN
+- Cloud Security
 ---

@@ -36,5 +36,5 @@ tags:
 - Bookkeeping
 - Tax
 - Incorporation
-- Startup
+- Startups
 ---

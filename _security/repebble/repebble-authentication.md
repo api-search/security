@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/repebble/authentication/repebble-auth
 summary_line: 0 schemes
 tags:
 - Company
-- smartwatch
-- wearables
+- Smartwatch
+- Wearables
 - IoT
-- hardware
-- consumer
+- Hardware
+- Consumer
 ---

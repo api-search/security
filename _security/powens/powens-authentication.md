@@ -36,8 +36,7 @@ source_yaml_url: https://artifacts.apis.io/powens/authentication/powens-authenti
 summary_line: 1 scheme
 tags:
 - Company
-- FinTech
-- OpenFinance
-- APIs
+- Fintech
+- Open Finance
 - Payments
 ---

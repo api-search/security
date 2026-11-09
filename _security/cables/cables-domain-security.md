@@ -39,7 +39,7 @@ tags:
 - MCP Server
 - Agent-Native
 - x402
-- pay-per-call
+- Pay-per-call
 - Machine Learning
 - tensorflow-js
 - Natural Language Processing

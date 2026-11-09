@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/georobotix-inc/security/georobotix-in
 summary_line: TLSv1.3 · HSTS
 tags:
 - Sensors
-- Real-time Processing
+- Real-Time Processing
 - Autonomous Operations
-- Open Standards
+- Open Standard
 - Mission Management
 ---

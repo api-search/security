@@ -57,9 +57,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://llminte
 source_yaml_url: https://artifacts.apis.io/llmintel-ai/authentication/llmintel-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Cost
 - Observability
 - Telemetry
-- GenAI
+- Generative AI
 ---

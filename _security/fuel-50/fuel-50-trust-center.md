@@ -21,7 +21,7 @@ tags:
 - Company
 - Workforce
 - Scheduling
-- TimeTracking
-- LaborCompliance
+- Time Tracking
+- Labor Compliance
 trust_url: https://fuel50.com/privacy-and-legal
 ---

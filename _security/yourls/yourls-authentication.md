@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/yourls/authentication/yourls-authenti
 summary_line: 1 scheme
 tags:
 - Company
-- URL-Shortener
-- Open-Source
+- URL Shorteners
+- Open Source
 - PHP
 - Self-Hosted
 ---

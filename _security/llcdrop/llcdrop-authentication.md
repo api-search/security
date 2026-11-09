@@ -70,9 +70,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://api.llc
 source_yaml_url: https://artifacts.apis.io/llcdrop/authentication/llcdrop-authentication.yml
 summary_line: 1 scheme
 tags:
-- lead-generation
-- business-data
-- marketing
-- real-estate
-- api
+- Lead Generation
+- Business Data
+- Marketing
+- Real Estate
 ---

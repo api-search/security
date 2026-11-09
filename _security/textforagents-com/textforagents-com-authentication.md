@@ -110,9 +110,8 @@ source_yaml_url: https://artifacts.apis.io/textforagents-com/authentication/text
 summary_line: 3 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Telephony
 - SMS
 - Agents
-- API
 ---

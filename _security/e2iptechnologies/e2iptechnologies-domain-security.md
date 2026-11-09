@@ -40,6 +40,6 @@ tags:
 - Company
 - SmartSurfaces
 - IoT
-- InteractiveDisplays
-- EnterpriseSolutions
+- Interactive Displays
+- Enterprise Solutions
 ---

@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Biopharma
-- Clinical-stage
+- Clinical Stage
 - Asthma
 - COPD
 - Inflammatory Diseases

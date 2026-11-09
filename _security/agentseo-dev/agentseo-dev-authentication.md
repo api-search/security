@@ -173,8 +173,7 @@ source_yaml_url: https://artifacts.apis.io/agentseo-dev/authentication/agentseo-
 summary_line: 1 scheme
 tags:
 - SEO
-- AI
+- Artificial Intelligence
 - Search
-- API
-- DeveloperTools
+- Developer Tools
 ---

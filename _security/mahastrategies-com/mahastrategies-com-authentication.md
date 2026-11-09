@@ -153,7 +153,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Technology
-- AI
+- Artificial Intelligence
 - Research
 - Software
 - Education

@@ -22,9 +22,9 @@ source_yaml_url: https://artifacts.apis.io/claimhit-com/security/claimhit-com-tr
 summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
 tags:
 - Company
-- Patent
+- Patents
 - Intelligence
-- LegalTech
+- Legal Tech
 - IP
 trust_url: https://www.claimhit.com/security
 ---

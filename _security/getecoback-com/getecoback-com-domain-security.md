@@ -31,8 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Energy
-- Home
+- Homes
 - Climate
-- Advice
 - Savings
 ---

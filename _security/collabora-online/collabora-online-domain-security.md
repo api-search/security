@@ -34,6 +34,6 @@ tags:
 - Company
 - Collaboration
 - Office Suite
-- Real-time Editing
+- Real-Time Editing
 - Enterprise
 ---

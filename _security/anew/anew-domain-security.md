@@ -50,18 +50,18 @@ source_yaml_url: https://artifacts.apis.io/anew/security/anew-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - HTML
-- webpage
+- Webpage
 - Websites
 - URLs
-- encode
+- Encode
 - Share
 - Web Publishing
 - Developer Tools
 - MCP
 - A2A
 - AI / Agent Tooling
-- llms-txt
-- agents-txt
+- Llms.txt
+- Agents.txt
 - Agent Skills
 - WebMCP
 - OpenAPI

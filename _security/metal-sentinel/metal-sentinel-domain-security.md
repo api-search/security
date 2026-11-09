@@ -39,6 +39,5 @@ tags:
 - Company
 - Financial Data
 - Metals
-- API
-- Real-time
+- Real-Time
 ---

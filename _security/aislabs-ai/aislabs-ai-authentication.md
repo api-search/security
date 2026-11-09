@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/aislabs-ai/authentication/aislabs-ai-
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tools
 - Briefs
 - Security

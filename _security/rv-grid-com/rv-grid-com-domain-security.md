@@ -38,9 +38,9 @@ source_yaml_url: https://artifacts.apis.io/rv-grid-com/security/rv-grid-com-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- DataGrid
+- Data Grid
 - JavaScript
-- UIComponent
-- OpenSource
+- UI Component
+- Open Source
 - ProVersion
 ---

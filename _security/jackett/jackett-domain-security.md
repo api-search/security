@@ -37,8 +37,7 @@ source_yaml_url: https://artifacts.apis.io/jackett/security/jackett-domain-secur
 summary_line: TLSv1.3
 tags:
 - Company
-- OpenSource
+- Open Source
 - Torrent
 - Proxy
-- API
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Medical
 - Diabetes
-- HealthTech
-- ImplantableDevices
+- Health Tech
+- Implantable Devices
 - CGM
 ---

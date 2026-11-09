@@ -39,4 +39,6 @@ tags:
 - Charging Infrastructure
 - Mobility
 - Clean Energy
+- Infrastructure
+- Technology
 ---

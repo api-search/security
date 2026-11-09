@@ -108,6 +108,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-kendra/security/amazon-kendra-
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Artificial Intelligence
+- Amazon Web Services
 - Enterprise Search
 - Knowledge Management
 - Machine Learning

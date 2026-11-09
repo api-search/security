@@ -43,6 +43,5 @@ tags:
 - EU
 - Procurement
 - Tenders
-- API
 - Data
 ---

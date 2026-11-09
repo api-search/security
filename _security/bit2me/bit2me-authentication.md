@@ -145,5 +145,4 @@ tags:
 - Fintech
 - Exchange
 - Payments
-- API
 ---

@@ -92,9 +92,8 @@ source_yaml_url: https://artifacts.apis.io/track/security/track-domain-security.
 summary_line: TLSv1.3 · HSTS
 tags:
 - Music
-- FinTech
+- Fintech
 - Royalties
 - Payments
 - Banking
-- API
 ---

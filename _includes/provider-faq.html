@@ -49,7 +49,7 @@
 {%- assign _pc = 0 -%}{%- for p in page.plans -%}{%- assign _pc = _pc | plus: p.plan_count -%}{%- endfor -%}
 {%- if _pc > 0 -%}
   {%- capture _q -%}How much does the {{ _api_name }} cost?{%- endcapture -%}
-  {%- capture _a -%}APIs.io lists {{ _pc }} pricing plan{% if _pc != 1 %}s{% endif %} for {{ _n }}, with each plan's price, limits and inclusions under Pricing Plans on this page.{%- endcapture -%}
+  {%- capture _a -%}{% if page.pricing.example %}{{ _n }} publishes its prices; its {{ page.pricing.example.name }} plan is {{ page.pricing.example.price | strip }}{% if page.pricing.as_of %} as of {{ page.pricing.as_of }}{% endif %}. {% endif %}APIs.io lists {{ _pc }} pricing plan{% if _pc != 1 %}s{% endif %} for {{ _n }}, with each plan's price, limits and inclusions under Pricing on this page.{%- endcapture -%}
   {%- assign _qs = _qs | push: _q -%}{%- assign _as = _as | push: _a -%}
 {%- endif -%}
 

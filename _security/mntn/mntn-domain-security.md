@@ -160,6 +160,6 @@ tags:
 - Conversion Tracking
 - Programmatic Advertising
 - private-marketplace
-- marketing-reporting
+- Marketing Reporting
 - AdTech
 ---

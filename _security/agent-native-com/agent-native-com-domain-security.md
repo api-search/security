@@ -45,9 +45,9 @@ source_yaml_url: https://artifacts.apis.io/agent-native-com/security/agent-nativ
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Agentic
+- Artificial Intelligence
+- AI Agents
 - Framework
-- Open-source
-- DeveloperTools
+- Open Source
+- Developer Tools
 ---

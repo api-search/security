@@ -124,6 +124,7 @@ tags:
 - Metering
 - Smart Meter
 - Germany
-- Authentication
+- OAuth
 - Webhook
+- Authentication
 ---

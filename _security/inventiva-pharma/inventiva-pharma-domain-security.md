@@ -34,5 +34,5 @@ tags:
 - Biotechnology
 - Pharmaceuticals
 - MASH
-- ClinicalTrials
+- Clinical Trials
 ---

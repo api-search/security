@@ -9,6 +9,30 @@ api_specs:
   slug: dottxt-models-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dottxt/openapi/dottxt-models-api-openapi.yml
+- filename: dottxt-batches-api-openapi.yml
+  format: yaml
+  label: dottxt Batches API
+  slug: dottxt-batches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dottxt/openapi/dottxt-batches-api-openapi.yml
+- filename: dottxt-embeddings-api-openapi.yml
+  format: yaml
+  label: dottxt Embeddings API
+  slug: dottxt-embeddings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dottxt/openapi/dottxt-embeddings-api-openapi.yml
+- filename: dottxt-files-api-openapi.yml
+  format: yaml
+  label: dottxt Files API
+  slug: dottxt-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dottxt/openapi/dottxt-files-api-openapi.yml
+- filename: dottxt-responses-api-api-openapi.yml
+  format: yaml
+  label: dottxt Responses API
+  slug: dottxt-responses-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dottxt/openapi/dottxt-responses-api-api-openapi.yml
 - filename: dottxt-chat-completions-api-openapi.yml
   format: yaml
   label: dottxt Chat Completions API

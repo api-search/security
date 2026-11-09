@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payroll Tax Compliance
 - Payroll Platforms
-- EOR
+- Employer of Record
 - PEO
 - Recruiting
 - Staffing

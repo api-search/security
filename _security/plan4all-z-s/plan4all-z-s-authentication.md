@@ -28,7 +28,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Fintech
-- Financial-Planning
-- API
+- Financial Planning
 - EU
 ---

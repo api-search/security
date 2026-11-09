@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/answerai/security/answerai-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Research
-- OpenSource
-- Products
+- Open Source
+- Product
 ---

@@ -41,5 +41,5 @@ tags:
 - Smart Lighting
 - IoT
 - Home Automation
-- AI
+- Artificial Intelligence
 ---

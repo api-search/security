@@ -40,4 +40,6 @@ tags:
 - Careers
 - Talent
 - Workforce
+- Talent Marketplace
+- Staffing
 ---

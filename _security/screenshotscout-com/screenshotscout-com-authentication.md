@@ -39,8 +39,7 @@ source_yaml_url: https://artifacts.apis.io/screenshotscout-com/authentication/sc
 summary_line: 2 schemes
 tags:
 - Screenshots
-- API
-- WebAutomation
-- DeveloperTools
-- SaaS
+- Browser Automation
+- Developer Tools
+- Software-as-a-Service
 ---

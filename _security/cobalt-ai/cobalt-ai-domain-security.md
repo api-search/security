@@ -43,4 +43,6 @@ tags:
 - Robotics
 - Remote Monitoring
 - Security Operations
+- Security
+- Automation
 ---

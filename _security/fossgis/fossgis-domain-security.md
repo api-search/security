@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - GIS
 - Routing
-- Open-Source
+- Open Source
 - Geospatial
 - Community
 - Organization

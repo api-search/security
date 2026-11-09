@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Data Integration
 - No-Code
-- SaaS
+- Software-as-a-Service
 - Automation
 - Y Combinator
 ---

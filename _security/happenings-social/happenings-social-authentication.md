@@ -29,7 +29,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Social
-- Events
+- Event
 - Platform
 - Community
 ---

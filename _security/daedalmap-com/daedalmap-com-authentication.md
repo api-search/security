@@ -333,6 +333,5 @@ tags:
 - Geography
 - Data
 - Mapping
-- OpenSource
-- API
+- Open Source
 ---

@@ -96,8 +96,8 @@ source_yaml_url: https://artifacts.apis.io/argus-town/authentication/argus-town-
 summary_line: 3 schemes
 tags:
 - Company
-- API-Monitoring
-- Cost-Management
-- Developer-Tools
+- API Monitoring
+- Cost Management
+- Developer Tools
 - MCP
 ---

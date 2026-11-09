@@ -112,7 +112,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Payments
-- Crypto
-- Stablecoin
-- API
+- Cryptocurrency
+- Stablecoins
 ---

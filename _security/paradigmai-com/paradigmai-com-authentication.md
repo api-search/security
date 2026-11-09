@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/paradigmai-com/authentication/paradig
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- GTM
+- Artificial Intelligence
+- Go-To-Market
 - Automation
 - Analytics
 ---

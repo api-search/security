@@ -33,6 +33,5 @@ tags:
 - Company
 - Integration
 - EDI
-- API
 - Supply Chain
 ---

@@ -33,7 +33,7 @@ tags:
 - Company
 - Cloudflare
 - Networking
-- Multi-cloud
+- Multi-Cloud
 - Edge
-- SaaS
+- Software-as-a-Service
 ---

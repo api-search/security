@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/govsignals/security/govsignals-domain
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Procurement
 - Government
 - Platform

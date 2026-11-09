@@ -48,7 +48,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - PDF
-- AI
+- Artificial Intelligence
 - Marketing
-- SaaS
+- Software-as-a-Service
 ---

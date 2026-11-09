@@ -148,8 +148,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Social
-- Listening
-- API
-- Real-time
+- Social Listening
+- Real-Time
 - Media
 ---

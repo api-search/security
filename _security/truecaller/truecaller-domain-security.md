@@ -47,8 +47,9 @@ tags:
 - Caller ID
 - Phone Verification
 - Identity
-- Authentication
+- OAuth
 - Spam Detection
 - Communications
 - Mobile SDK
+- Authentication
 ---

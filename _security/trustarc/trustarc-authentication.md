@@ -358,7 +358,7 @@ tags:
 - Privacy
 - SCIM
 - Identity
-- Authentication
+- OAuth
 - User Provisioning
 - Privacy Management
 - Consent Management
@@ -383,4 +383,5 @@ tags:
 - RegTech
 - Trust Center
 - Enterprise Saas
+- Authentication
 ---

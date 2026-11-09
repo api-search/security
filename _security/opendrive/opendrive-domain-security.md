@@ -31,9 +31,8 @@ source_yaml: "generated: '2026-10-27'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/opendrive/security/opendrive-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- cloud-storage
-- backup
-- file-sync
-- collaboration
-- api
+- Cloud Storage
+- Backup
+- File Sync
+- Collaboration
 ---

@@ -176,6 +176,30 @@ api_specs:
   slug: arcee-ai-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-webhooks-api-openapi.yml
+- filename: arcee-ai-aws-marketplace-api-openapi.yml
+  format: yaml
+  label: Arcee AI AWS Marketplace API
+  slug: arcee-ai-aws-marketplace-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-aws-marketplace-api-openapi.yml
+- filename: arcee-ai-decisions-api-openapi.yml
+  format: yaml
+  label: Arcee AI Decisions API
+  slug: arcee-ai-decisions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-decisions-api-openapi.yml
+- filename: arcee-ai-responses-api-openapi.yml
+  format: yaml
+  label: Arcee AI Responses API
+  slug: arcee-ai-responses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-responses-api-openapi.yml
+- filename: arcee-ai-signup-campaigns-api-openapi.yml
+  format: yaml
+  label: Arcee AI Signup Campaigns API
+  slug: arcee-ai-signup-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/arcee-ai/openapi/arcee-ai-signup-campaigns-api-openapi.yml
 auth_types:
 - http
 description: ''

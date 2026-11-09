@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/apiai-me/security/apiai-me-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Orchestration
 - Automation
 - Platform

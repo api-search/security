@@ -31,7 +31,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Social Media
-- API
 - MCP
-- SaaS
+- Software-as-a-Service
 ---

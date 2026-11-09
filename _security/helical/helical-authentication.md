@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/helical/authentication/helical-authen
 summary_line: 0 schemes
 tags:
 - Company
-- Biotech
-- AI
+- Biotechnology
+- Artificial Intelligence
 - Drug Discovery
 - Bioinformatics
 - Platform

@@ -33,7 +33,7 @@ source_yaml_url: https://artifacts.apis.io/codescene/authentication/codescene-au
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Code Analysis
 - Technical Debt
 - DevOps

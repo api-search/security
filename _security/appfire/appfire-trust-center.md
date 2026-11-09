@@ -488,7 +488,7 @@ tags:
 - OKRs
 - Workflow Automation
 - Azure DevOps
-- marketplace-apps
+- Marketplace Apps
 - Document Workflow
 - Enterprise Software
 trust_url: https://trust.appfire.com/

@@ -52,7 +52,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - rental-screening
 - Tenant Screening
-- resident-screening
+- Resident Screening
 - rental-application
 - Underwriting
 - Decisioning

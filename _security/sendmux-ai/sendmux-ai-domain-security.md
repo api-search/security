@@ -100,7 +100,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Email
-- AI
+- Artificial Intelligence
 - Agents
 - Integration
 ---

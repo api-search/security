@@ -42,5 +42,5 @@ tags:
 - DeFi
 - Asset-Tokenization
 - Blockchain
-- FinTech
+- Fintech
 ---

@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/baipiaoji-com/security/baipiaoji-com-
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tools
 - Directory
 - Chinese

@@ -66,6 +66,7 @@ tags:
 - Students
 - Travel
 - MCP
-- Authentication
+- OAuth
 - Agents
+- Authentication
 ---

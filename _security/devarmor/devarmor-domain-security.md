@@ -313,7 +313,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Security
-- AI
+- Artificial Intelligence
 - Threat Modeling
 - DevOps
 ---

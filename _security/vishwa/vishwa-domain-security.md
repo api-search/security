@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/vishwa/security/vishwa-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- FinTech
+- Artificial Intelligence
+- Fintech
 - Underwriting
 - Credit
 ---

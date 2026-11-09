@@ -36,7 +36,7 @@ tags:
 - Cryptocurrency
 - Market Data
 - Bitcoin
-- crypto-price
+- Crypto Price
 - binance-spot
 - Orderflow
 - market-depth

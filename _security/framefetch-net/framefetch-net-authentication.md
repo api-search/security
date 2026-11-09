@@ -135,7 +135,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Video
-- AI
-- DataAPI
+- Artificial Intelligence
+- Data API
 - Media
 ---

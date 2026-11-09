@@ -35,5 +35,5 @@ tags:
 - Hospital Solutions
 - Enterprise Intelligence
 - Automation
-- Healthcare Technology
+- Health Tech
 ---

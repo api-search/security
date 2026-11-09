@@ -231,7 +231,7 @@ tags:
 - USDC
 - Base L2
 - Agentic Commerce
-- pay-per-call
+- Pay-per-call
 - MCP
 - A2A
 - Agents

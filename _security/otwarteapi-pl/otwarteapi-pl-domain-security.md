@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/otwarteapi-pl/security/otwarteapi-pl-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- OpenData
+- Open Data
 - Government
-- API-Catalog
+- API Catalog
 - Poland
 ---

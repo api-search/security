@@ -199,8 +199,8 @@ source_yaml_url: https://artifacts.apis.io/agentdata-api-com/security/agentdata-
 summary_line: TLSv1.3
 tags:
 - Company
-- Crypto
-- AI
+- Cryptocurrency
+- Artificial Intelligence
 - Blockchain
 - Data
 - Signals

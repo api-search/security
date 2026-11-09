@@ -52,6 +52,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-codedeploy/authentication/amaz
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon
+- Amazon Web Services
 - Deployment
 - DevOps
 - CI/CD

@@ -36,6 +36,12 @@ api_specs:
   slug: flexai-video-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/flexai/openapi/flexai-video-api-openapi.yml
+- filename: flexai-usage-api-openapi.yml
+  format: yaml
+  label: FlexAI Usage API
+  slug: flexai-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/flexai/openapi/flexai-usage-api-openapi.yml
 - filename: flexai-chat-completions-api-openapi.yml
   format: yaml
   label: FlexAI Chat Completions API

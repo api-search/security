@@ -54,8 +54,7 @@ source_yaml_url: https://artifacts.apis.io/cosmic-ephemeris/authentication/cosmi
 summary_line: 2 schemes
 tags:
 - Astrology
-- API
-- Developer
+- Developers
 - Data
 - U.S.-based
 ---

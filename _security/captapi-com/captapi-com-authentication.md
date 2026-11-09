@@ -275,7 +275,6 @@ source_yaml_url: https://artifacts.apis.io/captapi-com/authentication/captapi-co
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- API
 - Social Media
 - Data Aggregation
 - Video

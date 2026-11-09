@@ -102,6 +102,48 @@ api_specs:
   slug: gmx-trades-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gmx/openapi/gmx-trades-api-openapi.yml
+- filename: gmx-incentives-api-openapi.yml
+  format: yaml
+  label: GMX Incentives API
+  slug: gmx-incentives-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-incentives-api-openapi.yml
+- filename: gmx-paxos-transit-api-openapi.yml
+  format: yaml
+  label: GMX Paxos Transit API
+  slug: gmx-paxos-transit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-paxos-transit-api-openapi.yml
+- filename: gmx-relay-api-openapi.yml
+  format: yaml
+  label: GMX Relay API
+  slug: gmx-relay-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-relay-api-openapi.yml
+- filename: gmx-risk-oracle-api-openapi.yml
+  format: yaml
+  label: GMX Risk Oracle API
+  slug: gmx-risk-oracle-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-risk-oracle-api-openapi.yml
+- filename: gmx-stats-api-openapi.yml
+  format: yaml
+  label: GMX Stats API
+  slug: gmx-stats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-stats-api-openapi.yml
+- filename: gmx-whitelists-api-openapi.yml
+  format: yaml
+  label: GMX Whitelists API
+  slug: gmx-whitelists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-whitelists-api-openapi.yml
+- filename: gmx-yield-api-openapi.yml
+  format: yaml
+  label: GMX Yield API
+  slug: gmx-yield-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gmx/openapi/gmx-yield-api-openapi.yml
 - filename: gmx-buy-back-api-openapi.yml
   format: yaml
   label: GMX Buy Back API

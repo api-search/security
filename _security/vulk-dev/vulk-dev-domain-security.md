@@ -69,8 +69,8 @@ source_yaml_url: https://artifacts.apis.io/vulk-dev/security/vulk-dev-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- AppBuilder
-- NoCode
+- Artificial Intelligence
+- App Builder
+- No-Code
 - 3D
 ---

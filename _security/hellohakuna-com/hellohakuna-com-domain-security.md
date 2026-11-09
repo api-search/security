@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Retail
-- ProductProtection
-- SaaS
+- Product Protection
+- Software-as-a-Service
 - Germany
 ---

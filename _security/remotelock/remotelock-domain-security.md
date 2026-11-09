@@ -38,7 +38,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Access Control
 - IoT
-- Smart Locks
+- smart-locks
 - Property Management
-- API
 ---

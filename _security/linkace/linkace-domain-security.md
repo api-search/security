@@ -81,8 +81,7 @@ source_yaml_url: https://artifacts.apis.io/linkace/security/linkace-domain-secur
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- OpenSource
+- Open Source
 - Bookmarking
-- SelfHosted
-- API
+- Self-Hosted
 ---

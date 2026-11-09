@@ -41,5 +41,6 @@ tags:
 - Company
 - Data Platform
 - Life Sciences
-- AI
+- Amazon Web Services
+- Artificial Intelligence
 ---

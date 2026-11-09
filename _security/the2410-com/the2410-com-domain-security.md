@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/the2410-com/security/the2410-com-doma
 summary_line: TLSv1.3
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - B2B
 - Web Development
-- AI
+- Artificial Intelligence
 - Automation
 ---

@@ -24,5 +24,7 @@ tags:
 - Vendor Management
 - Procurement
 - Source-to-Pay
+- Workforce
+- Software-as-a-Service
 trust_url: https://trust.rigup.com/
 ---

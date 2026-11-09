@@ -40,8 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Education
-- UK
+- United Kingdom
 - School
 - Term-Dates
-- API
 ---

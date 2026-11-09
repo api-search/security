@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/indices-io/authentication/indices-io-
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Infrastructure
-- Real-time
+- Real-Time
 - Security
 ---

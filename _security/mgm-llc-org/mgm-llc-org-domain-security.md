@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Software
-- SaaS
+- Software-as-a-Service
 - Tools
 - Japan
 ---

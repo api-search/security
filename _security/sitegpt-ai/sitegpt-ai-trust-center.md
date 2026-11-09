@@ -221,10 +221,10 @@ source_yaml_url: https://artifacts.apis.io/sitegpt-ai/security/sitegpt-ai-trust-
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- AI
-- Customer Support
-- Chatbot
-- SaaS
+- Artificial Intelligence
+- Customer Service
+- Chatbots
+- Software-as-a-Service
 - Automation
 trust_url: https://trust.sitegpt.ai/
 ---

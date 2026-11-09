@@ -52,6 +52,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-config/authentication/amazon-c
 summary_line: apiKey · 1 scheme
 tags:
 - Auditing
+- Amazon Web Services
 - Compliance
 - Configuration Management
 - Governance

@@ -133,8 +133,8 @@ source_yaml_url: https://artifacts.apis.io/broadcastwell-com/authentication/broa
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - AnswerOperations
-- SaaS
+- Software-as-a-Service
 - Marketing
 ---

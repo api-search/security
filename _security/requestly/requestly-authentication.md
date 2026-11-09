@@ -53,7 +53,6 @@ source_yaml: "generated: '2026-10-21'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/requestly/authentication/requestly-authentication.yml
 summary_line: 2 schemes
 tags:
-- API
 - Platform
 - Testing
 - Development

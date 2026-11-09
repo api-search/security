@@ -38,7 +38,7 @@ source_yaml_url: https://artifacts.apis.io/futureagi/security/futureagi-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
 - Agents
 - Simulation

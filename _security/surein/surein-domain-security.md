@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Insurance
 - Commercial
-- RiskManagement
+- Risk Management
 - Germany
 - B2B
 ---

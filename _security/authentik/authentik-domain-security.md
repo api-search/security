@@ -210,6 +210,7 @@ tags:
 - Authorization
 - Identity Provider
 - LDAP
+- OAuth
 - Open Source
 - OpenID Connect
 - SAML

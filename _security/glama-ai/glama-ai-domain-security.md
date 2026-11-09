@@ -48,6 +48,7 @@ tags:
 - MCP Marketplace
 - AI Workspace
 - Multi-Provider
-- Authentication
+- OAuth
 - Observability
+- Authentication
 ---

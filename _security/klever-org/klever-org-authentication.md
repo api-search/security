@@ -38,7 +38,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Blockchain
-- Crypto
-- Smart-Contracts
-- Developer-Platform
+- Cryptocurrency
+- Smart Contracts
+- Developer Platform
 ---

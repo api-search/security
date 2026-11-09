@@ -33,6 +33,6 @@ tags:
 - Company
 - Health
 - Tracking
-- AI
+- Artificial Intelligence
 - Wellness
 ---

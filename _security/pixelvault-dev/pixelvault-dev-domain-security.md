@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Image Hosting
 - CDN
-- API
 - AI Agents
 - Developer Tools
 ---

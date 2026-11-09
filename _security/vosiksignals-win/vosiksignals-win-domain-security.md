@@ -34,5 +34,5 @@ tags:
 - Tools
 - Data
 - Automation
-- AI
+- Artificial Intelligence
 ---

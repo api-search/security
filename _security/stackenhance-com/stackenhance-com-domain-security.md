@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Marketing
-- AI
-- Competitive-Intelligence
+- Artificial Intelligence
+- Competitive Intelligence
 - Advertising
-- SaaS
+- Software-as-a-Service
 ---

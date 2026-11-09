@@ -78,10 +78,9 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://www.pre
 source_yaml_url: https://artifacts.apis.io/prereason-com/authentication/prereason-com-authentication.yml
 summary_line: 2 schemes
 tags:
-- Financial
-- Market
-- API
-- AI
+- Finance
+- Markets
+- Artificial Intelligence
 - Data
 - MCP
 ---

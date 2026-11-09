@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - BitTorrent
-- OpenSource
-- WebUI
+- Open Source
+- Web UI
 - GPLv3
 ---

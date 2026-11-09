@@ -143,7 +143,7 @@ source_yaml_url: https://artifacts.apis.io/densify/security/densify-domain-secur
 summary_line: TLSv1.3
 tags:
 - Cloud Cost
-- Container Optimization
+- Container-Optimization
 - FinOps
 - Kubernetes
 - Machine Learning

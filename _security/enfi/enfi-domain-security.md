@@ -32,7 +32,6 @@ source_yaml_url: https://artifacts.apis.io/enfi/security/enfi-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Fintech
-- API
 - Automation
 - Data Integration
 - Cloud

@@ -44,8 +44,7 @@ summary_line: 3 schemes
 tags:
 - Company
 - Web Scraping
-- API
-- AI
+- Artificial Intelligence
 - Data Extraction
 - Automation
 ---

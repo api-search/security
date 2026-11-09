@@ -38,6 +38,7 @@ tags:
 - Home Insurance
 - Pet Insurance
 - Smartphone Insurance
-- Authentication
+- OAuth
 - Azure API Management
+- Authentication
 ---

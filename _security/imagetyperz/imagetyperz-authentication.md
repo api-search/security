@@ -30,9 +30,8 @@ source_yaml_url: https://artifacts.apis.io/imagetyperz/authentication/imagetyper
 summary_line: 0 schemes
 tags:
 - Company
-- captcha
-- automation
-- api
-- service
-- image-processing
+- CAPTCHA
+- Automation
+- Services
+- Image Processing
 ---

@@ -35,5 +35,4 @@ tags:
 - Energy
 - Platform
 - Distributed-Resources
-- API
 ---

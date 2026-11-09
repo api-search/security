@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/vera-health/authentication/vera-healt
 summary_line: 1 scheme
 tags:
 - Health
-- AI
+- Artificial Intelligence
 - Clinical Decision Support
 - Medical Knowledge
 - Healthcare

@@ -44,9 +44,9 @@ source_yaml: "generated: '2026-10-24'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/dynaboard/security/dynaboard-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Low-code
+- Low-Code
 - Collaboration
-- Real-time
-- AI
+- Real-Time
+- Artificial Intelligence
 - Web Development
 ---

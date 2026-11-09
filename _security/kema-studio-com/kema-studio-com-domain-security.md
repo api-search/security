@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Software
 - Management
-- AI
+- Artificial Intelligence
 - Portugal
-- SaaS
+- Software-as-a-Service
 ---

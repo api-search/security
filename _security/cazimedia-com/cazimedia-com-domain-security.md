@@ -31,8 +31,8 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/cazimedia-com/security/cazimedia-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Apps
-- Integrations
+- Application
+- Integration
 - Productivity
 - Shopify
 - Monday.com

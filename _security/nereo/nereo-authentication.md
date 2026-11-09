@@ -46,9 +46,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://api.ner
 source_yaml_url: https://artifacts.apis.io/nereo/authentication/nereo-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Video Generation
 - Marketing
 - Creator Tools
-- SaaS
+- Software-as-a-Service
 ---

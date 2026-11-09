@@ -39,8 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Finance
-- Market-Data
+- Market Data
 - A-Share
-- API
-- Python-SDK
+- Python SDK
 ---

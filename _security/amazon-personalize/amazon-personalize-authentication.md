@@ -130,6 +130,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-personalize/authentication/ama
 summary_line: apiKey · 1 scheme
 tags:
 - Artificial Intelligence
+- Amazon Web Services
 - Customer Experience
 - Machine Learning
 - Personalization

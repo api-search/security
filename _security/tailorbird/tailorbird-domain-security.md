@@ -41,4 +41,5 @@ tags:
 - Renovation
 - Asset Management
 - Artificial Intelligence
+- Property Data
 ---

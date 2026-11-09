@@ -31,7 +31,6 @@ summary_line: TLSv1.3
 tags:
 - Cloud
 - Storage
-- FileSharing
-- API
-- DeveloperTools
+- File Sharing
+- Developer Tools
 ---

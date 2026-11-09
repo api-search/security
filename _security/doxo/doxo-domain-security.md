@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/doxo/security/doxo-domain-security.ym
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bill Pay
-- FinTech
+- Fintech
 - Consumer Services
 - Payments
 - Personal Finance

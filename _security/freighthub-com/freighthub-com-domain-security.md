@@ -62,11 +62,11 @@ source_yaml: "generated: '2026-10-23'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/freighthub-com/security/freighthub-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Sea Freight
+- Ocean Freight
 - Air Freight
 - Rail Freight
 - Logistics
 - Sustainability
-- AI
+- Artificial Intelligence
 - Platform
 ---

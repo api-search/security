@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Finance
 - Agriculture
-- FarmManagement
-- SaaS
+- Farm Management
+- Software-as-a-Service
 - Accounting
 ---

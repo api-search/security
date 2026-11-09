@@ -34,6 +34,6 @@ tags:
 - IT
 - Integration
 - Consulting
-- OpenBanking
-- DigitalTransformation
+- Open Banking
+- Digital Transformation
 ---

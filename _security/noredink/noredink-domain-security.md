@@ -44,8 +44,9 @@ tags:
 - Writing
 - Literacy
 - K-12
-- Authentication
+- OAuth
 - SSO
 - Rostering
 - Identity
+- Authentication
 ---

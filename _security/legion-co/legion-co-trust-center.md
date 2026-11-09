@@ -23,7 +23,7 @@ tags:
 - Company
 - Workforce
 - Automation
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 trust_url: https://trust.legion.co/
 ---

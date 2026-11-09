@@ -40,4 +40,6 @@ tags:
 - Analytics
 - Machine Learning
 - Cloud
+- Workflow Automation
+- Python
 ---

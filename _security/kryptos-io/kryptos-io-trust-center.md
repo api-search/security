@@ -50,9 +50,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/kryptos-io/security/kryptos-io-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- Crypto
+- Cryptocurrency
 - Finance
-- API
 - Portfolio
 - Tax
 trust_url: https://kryptos.io/

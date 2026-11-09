@@ -49,4 +49,6 @@ tags:
 - ESG
 - AI Governance
 - Software-as-a-Service
+- Artificial Intelligence
+- Enterprise
 ---

@@ -42,5 +42,4 @@ tags:
 - Federal
 - Procurement
 - Data
-- API
 ---

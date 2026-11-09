@@ -30,12 +30,6 @@ api_specs:
   slug: amazon-data-exchange-tags-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-tags-api-openapi.yml
-- filename: amazon-data-exchange-datasets-api-openapi.yml
-  format: yaml
-  label: Amazon Data Exchange Datasets API
-  slug: amazon-data-exchange-datasets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-datasets-api-openapi.yml
 - filename: amazon-data-exchange-data-grants-api-openapi.yml
   format: yaml
   label: Amazon Data Exchange Data Exchange Data Grants API
@@ -48,6 +42,12 @@ api_specs:
   slug: amazon-data-exchange-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-operations-api-openapi.yml
+- filename: amazon-data-exchange-datasets-api-openapi.yml
+  format: yaml
+  label: Amazon Data Exchange Datasets API
+  slug: amazon-data-exchange-datasets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-data-exchange/openapi/amazon-data-exchange-datasets-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -71,6 +71,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/amazon-data-exchange/security/amazon-data-exchange-trust-center.yml
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
+- Amazon Web Services
 - Data Exchange
 - Data Marketplace
 - Third-Party Data

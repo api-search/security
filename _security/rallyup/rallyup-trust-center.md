@@ -21,8 +21,8 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Fundraising
-- Nonprofit
-- SaaS
-- DigitalPlatform
+- Non-Profit
+- Software-as-a-Service
+- Digital Platform
 trust_url: https://rallyup.com/security/
 ---

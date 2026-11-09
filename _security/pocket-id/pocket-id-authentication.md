@@ -47,6 +47,6 @@ tags:
 - Company
 - Identity
 - OpenID Connect
-- OAuth2
+- OAuth
 - Self-Hosted
 ---

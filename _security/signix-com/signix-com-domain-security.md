@@ -28,8 +28,7 @@ source_yaml_url: https://artifacts.apis.io/signix-com/security/signix-com-domain
 summary_line: DMARC
 tags:
 - Company
-- DigitalSignature
-- API
+- Digital Signature
 - Compliance
 - RemoteNotarization
 ---

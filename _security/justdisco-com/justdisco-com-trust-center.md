@@ -22,8 +22,8 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - EventTech
-- AudienceEngagement
-- RealTimeAnalytics
+- Audience Engagement
+- Real-Time Analytics
 - Ticketing
 trust_url: https://www.disco.co/security
 ---

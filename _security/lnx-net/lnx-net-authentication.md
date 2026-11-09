@@ -37,9 +37,9 @@ source_yaml_url: https://artifacts.apis.io/lnx-net/authentication/lnx-net-authen
 summary_line: 0 schemes
 tags:
 - Company
-- Link-in-bio
+- Link in Bio
 - Creator Tools
-- SaaS
+- Software-as-a-Service
 - Social Media
 - Analytics
 ---

@@ -8,6 +8,12 @@ api_specs:
   slug: the-brief-public-graphql-api
   spec_type: Postman
   url: https://www.postman.com/thebrieftechnical/the-brief-api/collection/1lfct1g/graphql-api
+- filename: creatopy-com-openapi-generated.yml
+  format: yaml
+  label: TheBrief API
+  slug: creatopy-com-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/thebrief/openapi/_ae-authored/creatopy-com-openapi-generated.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -96,4 +102,5 @@ tags:
 - Creative Automation
 - Digital Asset Management
 - Webhook
+- Platform
 ---

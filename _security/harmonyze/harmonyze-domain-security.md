@@ -34,6 +34,5 @@ tags:
 - Performance Coaching
 - Franchise Brands
 - Data Integration
-- Operations
 - Field Coaching
 ---

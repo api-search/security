@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/nitter/security/nitter-domain-securit
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- OpenSource
+- Open Source
 - Privacy
 - TwitterAlternative
-- Lightweight
 ---

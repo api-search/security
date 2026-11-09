@@ -20,8 +20,8 @@ layout: security
 method: probed
 name: Runcomfy Com Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for runcomfy-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
-provider_name: runcomfy-com
+overview: 'Domain security posture for RunComfy, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+provider_name: RunComfy
 provider_slug: runcomfy-com
 slug: runcomfy-com-domain-security
 source_filename: runcomfy-com-domain-security.yml
@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-31'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/runcomfy-com/security/runcomfy-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
-- ComfyUI
+- Artificial Intelligence
 - Cloud
-- Automation
-- Art
+- Image Generation
+- Workflow Automation
+- ComfyUI
 ---

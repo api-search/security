@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video
 - Streaming
-- RemoteProduction
-- LiveEvents
-- SaaS
+- Remote Production
+- Live Events
+- Software-as-a-Service
 ---

@@ -42,5 +42,5 @@ summary_line: 2 schemes
 tags:
 - AI Workspace
 - File Storage
-- Integrations
+- Integration
 ---

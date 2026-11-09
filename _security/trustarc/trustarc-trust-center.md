@@ -327,7 +327,7 @@ tags:
 - Privacy
 - SCIM
 - Identity
-- Authentication
+- OAuth
 - User Provisioning
 - Privacy Management
 - Consent Management
@@ -352,5 +352,6 @@ tags:
 - RegTech
 - Trust Center
 - Enterprise Saas
+- Authentication
 trust_url: https://trust.trustarc.com/en-US/
 ---

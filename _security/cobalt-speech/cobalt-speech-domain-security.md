@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Speech
-- AI
+- Artificial Intelligence
 - Transcription
 - Voice
 ---

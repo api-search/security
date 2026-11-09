@@ -50,8 +50,8 @@ source_yaml_url: https://artifacts.apis.io/vectorpanda-com/authentication/vector
 summary_line: http · 1 scheme
 tags:
 - Company
-- AI
-- Vector Database
+- Artificial Intelligence
+- Vector Search
 - Semantic Search
 - Embeddings
 ---

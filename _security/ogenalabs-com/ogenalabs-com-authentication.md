@@ -27,7 +27,7 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://ogenala
 source_yaml_url: https://artifacts.apis.io/ogenalabs-com/authentication/ogenalabs-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Blockchain
 - Security

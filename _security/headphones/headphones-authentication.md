@@ -30,8 +30,6 @@ source_yaml_url: https://artifacts.apis.io/headphones/authentication/headphones-
 summary_line: 0 schemes
 tags:
 - Company
-- Stub
 - Placeholder
-- API
 - Harvest
 ---

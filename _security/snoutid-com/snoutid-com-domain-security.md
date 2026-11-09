@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Veterinary
-- PetCare
+- Pet Care
 - Subscription
-- HealthTech
+- Health Tech
 ---

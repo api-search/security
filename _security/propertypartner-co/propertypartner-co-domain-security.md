@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/propertypartner-co/security/propertyp
 summary_line: TLSv1.3 · DMARC
 tags:
 - Real Estate
-- FinTech
+- Fintech
 - Investment
 - Marketplace
 - Property

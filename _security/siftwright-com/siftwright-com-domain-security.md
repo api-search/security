@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/siftwright-com/security/siftwright-co
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
 - Data
-- AI
-- Web-Data
+- Artificial Intelligence
+- Web Data
 ---

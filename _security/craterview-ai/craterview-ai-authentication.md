@@ -64,10 +64,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: \"https://crate
 source_yaml_url: https://artifacts.apis.io/craterview-ai/authentication/craterview-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- ImageProcessing
-- AI
+- Image Processing
+- Artificial Intelligence
 - PhotoRestoration
 - Upscaling
-- API
 - Multimedia
 ---

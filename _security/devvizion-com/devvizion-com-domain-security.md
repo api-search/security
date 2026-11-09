@@ -33,6 +33,6 @@ tags:
 - Company
 - Freelance
 - Web Development
-- Developer
+- Developers
 - Portfolio
 ---

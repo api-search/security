@@ -52,7 +52,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Finance
-- Stock-Market
-- Data-API
+- Stock Market
+- Data API
 - China
 ---

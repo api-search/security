@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/digitalml/security/digitalml-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Platform
 - Enterprise
-- DigitalTransformation
+- Digital Transformation
 ---

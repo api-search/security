@@ -23,8 +23,8 @@ summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
 - Time Tracking
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Productivity
 trust_url: https://www.timely.com/security/
 ---

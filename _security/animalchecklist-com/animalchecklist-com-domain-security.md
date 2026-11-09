@@ -76,6 +76,6 @@ tags:
 - Company
 - Animals
 - Checklist
-- MobileApp
+- Mobile App
 - Free
 ---

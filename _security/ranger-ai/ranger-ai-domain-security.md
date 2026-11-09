@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/ranger-ai/security/ranger-ai-domain-s
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Industrial Engineering
 - Procurement
 - Document Automation

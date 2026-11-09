@@ -52,7 +52,6 @@ summary_line: 2 schemes
 tags:
 - Email
 - Verification
-- API
-- SaaS
-- DataQuality
+- Software-as-a-Service
+- Data Quality
 ---

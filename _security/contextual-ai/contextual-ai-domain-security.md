@@ -54,6 +54,42 @@ api_specs:
   slug: contextual-ai-users-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-users-api-openapi.yml
+- filename: contextual-ai-agents-id-query-api-openapi.yml
+  format: yaml
+  label: Contextual AI /agents/{id}/query API
+  slug: contextual-ai-agents-id-query-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-id-query-api-openapi.yml
+- filename: contextual-ai-billing-api-openapi.yml
+  format: yaml
+  label: Contextual AI /billing API
+  slug: contextual-ai-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-billing-api-openapi.yml
+- filename: contextual-ai-contents-api-openapi.yml
+  format: yaml
+  label: Contextual AI /contents API
+  slug: contextual-ai-contents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-contents-api-openapi.yml
+- filename: contextual-ai-datastores-id-documents-api-openapi.yml
+  format: yaml
+  label: Contextual AI /datastores/{id}/documents API
+  slug: contextual-ai-datastores-id-documents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-datastores-id-documents-api-openapi.yml
+- filename: contextual-ai-extract-api-openapi.yml
+  format: yaml
+  label: Contextual AI /extract API
+  slug: contextual-ai-extract-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-extract-api-openapi.yml
+- filename: contextual-ai-workspaces-api-openapi.yml
+  format: yaml
+  label: Contextual AI /workspaces API
+  slug: contextual-ai-workspaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-workspaces-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -189,7 +189,6 @@ tags:
 - Company
 - Regulatory
 - Quality Assurance
-- UK
+- United Kingdom
 - Evidence
-- API
 ---

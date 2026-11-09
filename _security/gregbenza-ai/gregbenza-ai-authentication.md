@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/gregbenza-ai/authentication/gregbenza
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Agents
 - OpenAPI
 - MCP

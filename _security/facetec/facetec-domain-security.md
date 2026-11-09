@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/facetec/security/facetec-domain-secur
 summary_line: TLSv1.3 · DMARC
 tags:
 - Biometric
-- IdentityVerification
+- Identity Verification
 - Security
 - SDK
-- API
 ---

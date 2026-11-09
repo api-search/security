@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/grey-rhino/security/grey-rhino-domain
 summary_line: TLSv1.3
 tags:
 - Company
-- RiskManagement
+- Risk Management
 - InsuranceAnalytics
-- AI
+- Artificial Intelligence
 - Enterprise
 ---

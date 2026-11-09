@@ -49,7 +49,6 @@ source_yaml_url: https://artifacts.apis.io/une-education/security/une-education-
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- API
 - Compliance
 - Trade
 - Automation

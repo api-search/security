@@ -26,6 +26,30 @@ api_specs:
   slug: linkup-so-search-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-search-api-openapi.yml
+- filename: linkup-so-extract-api-openapi.yml
+  format: yaml
+  label: Linkup Extract API
+  slug: linkup-so-extract-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-extract-api-openapi.yml
+- filename: linkup-so-responses-api-openapi.yml
+  format: yaml
+  label: Linkup Responses API
+  slug: linkup-so-responses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-responses-api-openapi.yml
+- filename: linkup-so-rewind-api-openapi.yml
+  format: yaml
+  label: Linkup Rewind API
+  slug: linkup-so-rewind-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-rewind-api-openapi.yml
+- filename: linkup-so-tasks-api-openapi.yml
+  format: yaml
+  label: Linkup Tasks API
+  slug: linkup-so-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkup-so/openapi/linkup-so-tasks-api-openapi.yml
 auth_types:
 - http
 description: ''

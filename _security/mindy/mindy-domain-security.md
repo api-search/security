@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/mindy/security/mindy-domain-security.
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Workflow Automation
 - Email Agent
 - Enterprise

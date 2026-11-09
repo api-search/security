@@ -644,8 +644,8 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR
 tags:
 - Company
 - CRM
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Sales
 trust_url: https://conduyt.com/trust/
 ---

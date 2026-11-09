@@ -35,4 +35,6 @@ tags:
 - Autonomous Systems
 - Field Operations
 - AgTech
+- Artificial Intelligence
+- Automation
 ---

@@ -219,7 +219,6 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - QR Codes
 - Lead Capture
-- API
-- Webhooks
-- SDKs
+- Webhook
+- SDK
 ---

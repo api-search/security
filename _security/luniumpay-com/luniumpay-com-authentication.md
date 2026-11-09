@@ -151,7 +151,6 @@ tags:
 - Company
 - Payments
 - Fintech
-- API
 - Pix
-- Stablecoin
+- Stablecoins
 ---

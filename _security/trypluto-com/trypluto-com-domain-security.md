@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/trypluto-com/security/trypluto-com-do
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- HealthTech
+- Health Tech
 - Clinical Intelligence
 - Data Integration
 - Patient Care

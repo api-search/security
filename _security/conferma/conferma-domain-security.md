@@ -33,8 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Payments
-- Virtual-Card
-- API
-- FinTech
+- Virtual Card
+- Fintech
 - B2B
 ---

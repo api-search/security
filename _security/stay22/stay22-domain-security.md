@@ -45,8 +45,8 @@ source_yaml_url: https://artifacts.apis.io/stay22/security/stay22-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - TravelTech
-- AffiliateMarketing
-- SaaS
-- Events
+- Affiliate Marketing
+- Software-as-a-Service
+- Event
 - Maps
 ---

@@ -113,4 +113,9 @@ tags:
 - Fault-Tolerant Quantum Computing
 - Quantum-Classical Hybrid
 - Public Company
+- Quantum Cloud
+- Developer Tools
+- SDK
+- Scientific Computing
+- Deep Tech
 ---

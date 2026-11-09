@@ -34,7 +34,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Integration
-- AI
+- Artificial Intelligence
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

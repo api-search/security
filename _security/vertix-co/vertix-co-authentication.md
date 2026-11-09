@@ -33,6 +33,6 @@ tags:
 - Materials
 - Foundry
 - Machinery
-- Supply-Chain
+- Supply Chain
 - Metallurgy
 ---

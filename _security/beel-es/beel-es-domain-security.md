@@ -362,9 +362,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/beel-es/security/beel-es-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- invoicing
+- Invoicing
 - Spain
-- API
-- fintech
-- SaaS
+- Fintech
+- Software-as-a-Service
 ---

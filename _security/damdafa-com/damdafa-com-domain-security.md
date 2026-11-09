@@ -171,8 +171,8 @@ source_yaml_url: https://artifacts.apis.io/damdafa-com/security/damdafa-com-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Applications
+- Artificial Intelligence
+- Application
 - Tools
 - Developer Platform
 ---

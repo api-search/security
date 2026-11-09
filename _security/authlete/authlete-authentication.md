@@ -168,8 +168,9 @@ source_yaml_url: https://artifacts.apis.io/authlete/authentication/authlete-auth
 summary_line: http · 1 scheme
 tags:
 - Company
-- Authentication
+- OAuth
 - OpenID Connect
+- Authentication
 - Authorization
 - Identity
 - API Security

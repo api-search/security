@@ -21,12 +21,6 @@ api_specs:
   slug: agentphone-calls-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agentphone/openapi/agentphone-calls-api-openapi.yml
-- filename: agentphone-contactcards-api-openapi.yml
-  format: yaml
-  label: AgentPhone Contact Cards API
-  slug: agentphone-contactcards-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/agentphone/openapi/agentphone-contactcards-api-openapi.yml
 - filename: agentphone-contacts-api-openapi.yml
   format: yaml
   label: AgentPhone Contacts API
@@ -75,6 +69,48 @@ api_specs:
   slug: agentphone-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agentphone/openapi/agentphone-webhooks-api-openapi.yml
+- filename: agentphone-agent-signup-api-openapi.yml
+  format: yaml
+  label: AgentPhone Agent Signup API
+  slug: agentphone-agent-signup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-agent-signup-api-openapi.yml
+- filename: agentphone-contact-cards-api-openapi.yml
+  format: yaml
+  label: AgentPhone contact cards API
+  slug: agentphone-contact-cards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-contact-cards-api-openapi.yml
+- filename: agentphone-feedback-api-openapi.yml
+  format: yaml
+  label: AgentPhone Feedback API
+  slug: agentphone-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-feedback-api-openapi.yml
+- filename: agentphone-integrations-api-openapi.yml
+  format: yaml
+  label: AgentPhone Integrations API
+  slug: agentphone-integrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-integrations-api-openapi.yml
+- filename: agentphone-sip-trunks-api-openapi.yml
+  format: yaml
+  label: AgentPhone Sip Trunks API
+  slug: agentphone-sip-trunks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-sip-trunks-api-openapi.yml
+- filename: agentphone-verification-api-openapi.yml
+  format: yaml
+  label: AgentPhone Verification API
+  slug: agentphone-verification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-verification-api-openapi.yml
+- filename: agentphone-whatsapp-api-openapi.yml
+  format: yaml
+  label: AgentPhone WhatsApp API
+  slug: agentphone-whatsapp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentphone/openapi/agentphone-whatsapp-api-openapi.yml
 - filename: agentphone-subaccounts-api-openapi.yml
   format: yaml
   label: AgentPhone Subaccounts API

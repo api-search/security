@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Chess
 - Gaming
-- AI
+- Artificial Intelligence
 - Education
 - Community
 ---

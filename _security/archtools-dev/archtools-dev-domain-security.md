@@ -32,9 +32,8 @@ source_yaml_url: https://artifacts.apis.io/archtools-dev/security/archtools-dev-
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tools
-- API
 - Automation
 - MCP
 ---

@@ -226,5 +226,4 @@ tags:
 - DeFi
 - Risk Management
 - Analytics
-- API
 ---

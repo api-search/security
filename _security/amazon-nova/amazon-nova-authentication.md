@@ -60,6 +60,7 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: openapi/amazon-
 source_yaml_url: https://artifacts.apis.io/amazon-nova/authentication/amazon-nova-authentication.yml
 summary_line: aws-sigv4/http-bearer · 2 schemes
 tags:
+- Amazon Web Services
 - Foundation Models
 - Generative AI
 - Image Generation

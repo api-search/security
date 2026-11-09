@@ -33,6 +33,6 @@ tags:
 - Company
 - Knowledge Graph
 - Data Modelling
-- AI
+- Artificial Intelligence
 - Consulting
 ---

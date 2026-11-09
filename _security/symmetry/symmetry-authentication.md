@@ -55,7 +55,7 @@ summary_line: 5 schemes
 tags:
 - Payroll Tax Compliance
 - Payroll Platforms
-- EOR
+- Employer of Record
 - PEO
 - Recruiting
 - Staffing

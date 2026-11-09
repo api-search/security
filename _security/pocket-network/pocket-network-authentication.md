@@ -139,4 +139,8 @@ tags:
 - Shannon
 - Cosmos
 - POKT
+- Decentralized
+- Ethereum
+- EVM
+- Infrastructure
 ---

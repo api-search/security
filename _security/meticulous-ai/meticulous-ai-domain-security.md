@@ -44,5 +44,5 @@ tags:
 - Testing
 - Automation
 - Frontend
-- VisualRegression
+- Visual Regression
 ---

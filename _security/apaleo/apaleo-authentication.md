@@ -38,6 +38,78 @@ api_specs:
   slug: apaleo-settings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apaleo/openapi/apaleo-settings-api-openapi.yml
+- filename: apaleo-authorization-api-openapi.yml
+  format: yaml
+  label: apaleo Authorization API
+  slug: apaleo-authorization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-authorization-api-openapi.yml
+- filename: apaleo-authorizationactions-api-openapi.yml
+  format: yaml
+  label: apaleo Authorization Actions API
+  slug: apaleo-authorizationactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-authorizationactions-api-openapi.yml
+- filename: apaleo-block-api-openapi.yml
+  format: yaml
+  label: apaleo Block API
+  slug: apaleo-block-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-block-api-openapi.yml
+- filename: apaleo-blockactions-api-openapi.yml
+  format: yaml
+  label: apaleo Block Actions API
+  slug: apaleo-blockactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-blockactions-api-openapi.yml
+- filename: apaleo-group-api-openapi.yml
+  format: yaml
+  label: apaleo Group API
+  slug: apaleo-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-group-api-openapi.yml
+- filename: apaleo-groupactions-api-openapi.yml
+  format: yaml
+  label: apaleo Group Actions API
+  slug: apaleo-groupactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-groupactions-api-openapi.yml
+- filename: apaleo-offer-api-openapi.yml
+  format: yaml
+  label: apaleo Offer API
+  slug: apaleo-offer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-offer-api-openapi.yml
+- filename: apaleo-paymentaccountactions-api-openapi.yml
+  format: yaml
+  label: apaleo Payment Account Actions API
+  slug: apaleo-paymentaccountactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-paymentaccountactions-api-openapi.yml
+- filename: apaleo-reservation-api-openapi.yml
+  format: yaml
+  label: apaleo Reservation API
+  slug: apaleo-reservation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-reservation-api-openapi.yml
+- filename: apaleo-reservationactions-api-openapi.yml
+  format: yaml
+  label: apaleo Reservation Actions API
+  slug: apaleo-reservationactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-reservationactions-api-openapi.yml
+- filename: apaleo-types-api-openapi.yml
+  format: yaml
+  label: apaleo Types API
+  slug: apaleo-types-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-types-api-openapi.yml
+- filename: apaleo-payment-account-api-openapi.yml
+  format: yaml
+  label: apaleo Payment Account API
+  slug: apaleo-payment-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apaleo/openapi/apaleo-payment-account-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

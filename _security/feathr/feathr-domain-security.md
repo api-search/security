@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Digital Marketing
-- AI
-- Nonprofit
+- Artificial Intelligence
+- Non-Profit
 - Event Promotion
 ---

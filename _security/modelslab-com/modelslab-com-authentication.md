@@ -36,8 +36,8 @@ source_yaml_url: https://artifacts.apis.io/modelslab-com/authentication/modelsla
 summary_line: 1 scheme
 tags:
 - Company
-- AI
-- GenerativeAI
+- Artificial Intelligence
+- Generative AI
 - Image
 - Video
 - Audio

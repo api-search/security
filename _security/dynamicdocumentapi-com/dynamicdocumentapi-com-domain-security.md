@@ -34,6 +34,6 @@ tags:
 - Company
 - PDF
 - Image Generation
-- E-invoicing
+- E-Invoicing
 - REST API
 ---

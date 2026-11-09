@@ -34,9 +34,9 @@ source_yaml_url: https://artifacts.apis.io/push-operations/authentication/push-o
 summary_line: 1 scheme
 tags:
 - Payroll
-- HR
+- Human Resources
 - Workforce Management
-- SaaS
+- Software-as-a-Service
 - Hospitality
 - Company
 ---

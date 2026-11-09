@@ -190,7 +190,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Grants
-- SaaS
-- Nonprofit
+- Software-as-a-Service
+- Non-Profit
 - Funding
 ---

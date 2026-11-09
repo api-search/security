@@ -41,6 +41,5 @@ tags:
 - Company
 - Geocoding
 - Japan
-- API
 - Location
 ---

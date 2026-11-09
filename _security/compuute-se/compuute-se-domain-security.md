@@ -92,10 +92,10 @@ source_yaml_url: https://artifacts.apis.io/compuute-se/security/compuute-se-doma
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - MCP
 - Compliance
 - Sweden
-- AgenticAI
+- AI Agents
 ---

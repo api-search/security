@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/nicejob/authentication/nicejob-authen
 summary_line: 0 schemes
 tags:
 - Reputation Marketing
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Service Business
-- Customer Reviews
+- CustomerReviews
 ---

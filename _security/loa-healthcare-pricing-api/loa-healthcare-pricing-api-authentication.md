@@ -72,5 +72,5 @@ tags:
 - MCP
 - Agent-Native
 - OpenAPI
-- llms-txt
+- Llms.txt
 ---

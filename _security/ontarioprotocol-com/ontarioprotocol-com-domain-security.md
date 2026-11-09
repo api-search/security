@@ -40,6 +40,5 @@ tags:
 - Company
 - Payments
 - Verification
-- API
-- Agent
+- Agents
 ---

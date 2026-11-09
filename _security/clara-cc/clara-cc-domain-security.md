@@ -42,5 +42,5 @@ tags:
 - Spend Management
 - Corporate Cards
 - Latin America
-- AI
+- Artificial Intelligence
 ---

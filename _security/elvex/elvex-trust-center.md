@@ -19,7 +19,7 @@ source_yaml: "generated: '2026-10-20'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/elvex/security/elvex-trust-center.yml
 summary_line: SOC 2, HIPAA
 tags:
-- AI
+- Artificial Intelligence
 - Enterprise
 - Platform
 - Automation

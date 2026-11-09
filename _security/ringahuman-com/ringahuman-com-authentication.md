@@ -42,8 +42,8 @@ source_yaml_url: https://artifacts.apis.io/ringahuman-com/authentication/ringahu
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Telephony
-- LeadGeneration
+- Lead Generation
 - Compliance
 ---

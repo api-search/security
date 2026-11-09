@@ -51,4 +51,11 @@ tags:
 - Quantum Error Correction
 - Bloqade
 - Hardware
+- QPU
+- Analog Quantum
+- Rydberg
+- Quantum SDK
+- Scientific Computing
+- High Performance Computing
+- Research
 ---

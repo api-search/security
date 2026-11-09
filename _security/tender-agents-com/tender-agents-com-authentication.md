@@ -101,9 +101,8 @@ source_yaml_url: https://artifacts.apis.io/tender-agents-com/authentication/tend
 summary_line: 1 scheme
 tags:
 - EU
-- procurement
-- tenders
-- API
-- AI
-- public-data
+- Procurement
+- Tenders
+- Artificial Intelligence
+- Public Data
 ---

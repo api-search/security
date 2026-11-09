@@ -58,6 +58,6 @@ tags:
 - Sales Intelligence
 - x402
 - Agent-Native
-- llms-txt
+- Llms.txt
 - OpenAPI
 ---

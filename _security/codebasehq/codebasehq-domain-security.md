@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/codebasehq/security/codebasehq-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Git
+- Version Control
 - Mercurial
 - Subversion
 - Project Management

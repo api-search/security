@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Diagramming
 - Collaboration
-- OpenSource
+- Open Source
 - Privacy
 - Integration
 - Cloud

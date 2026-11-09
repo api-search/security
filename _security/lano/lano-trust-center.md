@@ -21,8 +21,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Payroll
-- EOR
-- GlobalHiring
-- API
+- Employer of Record
+- Global Hiring
 trust_url: https://www.lano.io/security
 ---

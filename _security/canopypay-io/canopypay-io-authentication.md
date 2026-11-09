@@ -36,9 +36,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/canopypay-io/authentication/canopypay-io-authentication.yml
 summary_line: 1 scheme
 tags:
-- FinTech
-- Crypto
+- Fintech
+- Cryptocurrency
 - Payments
-- API
 - Deposit
 ---

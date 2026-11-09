@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/gotify/security/gotify-domain-securit
 summary_line: TLSv1.3 · HSTS
 tags:
 - Messaging
-- OpenSource
-- SelfHosted
-- Notifications
-- API
+- Open Source
+- Self-Hosted
+- Notification
 ---

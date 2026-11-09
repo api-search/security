@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Dental
 - Billing
-- RCM
-- SaaS
+- Revenue Cycle Management
+- Software-as-a-Service
 - Healthcare
 ---

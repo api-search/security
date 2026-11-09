@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/alchemylab-sh/security/alchemylab-sh-
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Software
 - Studio
-- Products
+- Product
 ---

@@ -36,4 +36,6 @@ tags:
 - Asset Tracking
 - Smart Labels
 - Sensors
+- Real-Time-Tracking
+- Predictive Maintenance
 ---

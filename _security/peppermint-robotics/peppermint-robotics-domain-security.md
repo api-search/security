@@ -34,6 +34,6 @@ tags:
 - Company
 - Robotics
 - Automation
-- AI
+- Artificial Intelligence
 - Logistics
 ---

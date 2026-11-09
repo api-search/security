@@ -54,13 +54,17 @@ schemes:
     tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token
   name: oauth2
   sources:
-  - openapi/microsoft-entra-graph-identity-openapi.yml
+  - openapi/microsoft-entra-applications-api-openapi.yml
+  - openapi/microsoft-entra-groups-api-openapi.yml
+  - openapi/microsoft-entra-service-principals-api-openapi.yml
+  - openapi/microsoft-entra-users-api-openapi.yml
   type: oauth2
 slug: microsoft-entra-authentication
 source_filename: microsoft-entra-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-entra-graph-identity-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 12\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n    scopes: 1\n  description: OAuth 2.0 authorization using Microsoft identity platform. Supports authorization\n    code flow for delegated permissions and client credentials flow for application permissions.\n  sources:\n  - openapi/microsoft-entra-graph-identity-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-entra-applications-api-openapi.yml, openapi/microsoft-entra-groups-api-openapi.yml,\n  openapi/microsoft-entra-service-principals-api-openapi.yml, openapi/microsoft-entra-users-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 12\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token\n    scopes: 1\n  description: OAuth 2.0 authorization using Microsoft identity platform. Supports authorization\n    code flow for delegated permissions and client credentials flow for application permissions.\n  sources:\n  - openapi/microsoft-entra-applications-api-openapi.yml\n\
+  \  - openapi/microsoft-entra-groups-api-openapi.yml\n  - openapi/microsoft-entra-service-principals-api-openapi.yml\n  - openapi/microsoft-entra-users-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-entra/authentication/microsoft-entra-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

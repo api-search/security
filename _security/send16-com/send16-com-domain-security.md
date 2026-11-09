@@ -34,6 +34,6 @@ tags:
 - Email
 - Marketing
 - Automation
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

@@ -83,8 +83,7 @@ source_yaml_url: https://artifacts.apis.io/layercall-com/authentication/layercal
 summary_line: apiKey/http · 2 schemes
 tags:
 - Company
-- FraudDetection
+- Fraud Prevention
 - TrustIntelligence
-- API
 - Security
 ---

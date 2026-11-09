@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/newzai-ai/authentication/newzai-ai-au
 summary_line: 1 scheme
 tags:
 - News
-- AI
+- Artificial Intelligence
 - Aggregation
 - Personalization
 - Multilingual

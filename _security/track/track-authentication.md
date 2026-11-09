@@ -100,9 +100,8 @@ source_yaml_url: https://artifacts.apis.io/track/authentication/track-authentica
 summary_line: apiKey/http · 2 schemes
 tags:
 - Music
-- FinTech
+- Fintech
 - Royalties
 - Payments
 - Banking
-- API
 ---

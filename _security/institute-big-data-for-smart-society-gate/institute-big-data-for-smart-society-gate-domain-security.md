@@ -34,5 +34,5 @@ tags:
 - Research
 - Big Data
 - Smart Society
-- AI
+- Artificial Intelligence
 ---

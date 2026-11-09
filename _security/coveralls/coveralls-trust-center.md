@@ -23,9 +23,9 @@ source_yaml_url: https://artifacts.apis.io/coveralls/security/coveralls-trust-ce
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Company
-- CodeCoverage
-- CIIntegration
-- OpenSource
-- SaaS
+- Code Coverage
+- CI Integration
+- Open Source
+- Software-as-a-Service
 trust_url: https://trust.coveralls.io/
 ---

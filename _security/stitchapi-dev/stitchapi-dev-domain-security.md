@@ -53,7 +53,6 @@ source_yaml_url: https://artifacts.apis.io/stitchapi-dev/security/stitchapi-dev-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
 - Integration
 - TypeScript
 - Node.js

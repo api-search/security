@@ -34,6 +34,6 @@ tags:
 - Crown land management
 - Overseas investment regulation
 - Land registration
-- Geospatial data
+- Geospatial Data
 - Mapping
 ---

@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: virtuoso-qa-virtuoso-qa-api-api-openapi.yml
-  format: yaml
-  label: Virtuoso QA API
-  slug: virtuoso-qa-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/virtuoso-qa/openapi/virtuoso-qa-virtuoso-qa-api-api-openapi.yml
 - filename: virtuoso-qa-openapi-generated.yml
   format: yaml
   label: Virtuoso QA API
@@ -46,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - QA
-- TestAutomation
-- AI
+- Test Automation
+- Artificial Intelligence
 - Enterprise
 ---

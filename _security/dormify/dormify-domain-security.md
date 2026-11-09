@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/dormify/security/dormify-domain-secur
 summary_line: TLSv1.3
 tags:
 - Home Goods
-- E-commerce
+- E-Commerce
 - Dorm Decor
 - Furniture
 - Bedding

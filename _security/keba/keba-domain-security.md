@@ -40,6 +40,5 @@ tags:
 - Company
 - Automation
 - Industrial
-- DigitalSolutions
 - Energy
 ---

@@ -93,7 +93,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Email
-- API
-- AI
-- Developer
+- Artificial Intelligence
+- Developers
 ---

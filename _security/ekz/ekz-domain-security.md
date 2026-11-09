@@ -34,6 +34,6 @@ tags:
 - Energy
 - Utilities
 - Switzerland
-- Renewable
-- CustomerPortal
+- Renewables
+- Customer Portal
 ---

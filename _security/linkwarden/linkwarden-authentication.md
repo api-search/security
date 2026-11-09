@@ -153,7 +153,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Bookmarking
-- OpenSource
-- SelfHostable
+- Open Source
+- Self-Hosted
 - Productivity
 ---

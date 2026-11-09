@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/intuitek-ai/authentication/intuitek-a
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Research
 - Systems
 - Missouri

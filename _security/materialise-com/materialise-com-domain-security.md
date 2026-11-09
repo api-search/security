@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/materialise-com/security/materialise-
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- 3DPrinting
-- DigitalManufacturing
+- 3D Printing
+- Digital Manufacturing
 - AssetControl
-- MedicalDevices
+- Medical Devices
 ---

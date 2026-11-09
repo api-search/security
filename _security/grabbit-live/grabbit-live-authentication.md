@@ -58,9 +58,8 @@ source_yaml_url: https://artifacts.apis.io/grabbit-live/authentication/grabbit-l
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- Screenshot
-- AI-Agent
+- Screenshots
+- AI Agents
 - Automation
-- API
 - Visual
 ---

@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Mapping
 - Historical
-- Open-Source
-- Nonprofit
+- Open Source
+- Non-Profit
 - Geospatial
 - Community
 ---

@@ -33,6 +33,5 @@ tags:
 - Company
 - Rendering
 - Shutdown
-- API
-- Service
+- Services
 ---

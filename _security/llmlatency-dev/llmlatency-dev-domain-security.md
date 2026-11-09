@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/llmlatency-dev/security/llmlatency-de
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Latency
 - Monitoring
 - Performance

@@ -33,6 +33,5 @@ tags:
 - Company
 - Finance
 - Currency
-- API
 - Data
 ---

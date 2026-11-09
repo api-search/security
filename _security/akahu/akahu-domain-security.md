@@ -198,5 +198,4 @@ tags:
 - Finance
 - Open Banking
 - New Zealand
-- API
 ---

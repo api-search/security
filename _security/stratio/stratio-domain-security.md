@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/stratio/security/stratio-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Decision-Intelligence
+- Artificial Intelligence
+- Decision Intelligence
 - Regulated-Enterprises
-- Data-Governance
+- Data Governance
 ---

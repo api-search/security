@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/payone/security/payone-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
-- E‑Commerce
-- Point‑of‑Sale
+- E-Commerce
+- Point-of-Sale
 - Card Payments
 - Retail
 - Hospitality

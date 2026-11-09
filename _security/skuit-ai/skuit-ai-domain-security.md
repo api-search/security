@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Networking
 - BOM
-- AI
+- Artificial Intelligence
 - Automation
 - Cloud
 ---

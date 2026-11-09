@@ -94,8 +94,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Marketing
 - Automation
-- AI
+- Artificial Intelligence
 - B2B
-- SaaS
+- Software-as-a-Service
 - Platform
 ---

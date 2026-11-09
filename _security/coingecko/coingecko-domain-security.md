@@ -132,6 +132,48 @@ api_specs:
   slug: coingecko-nfts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coingecko/openapi/coingecko-nfts-api-openapi.yml
+- filename: coingecko-entities-api-openapi.yml
+  format: yaml
+  label: CoinGecko Entities API
+  slug: coingecko-entities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-entities-api-openapi.yml
+- filename: coingecko-insights-api-openapi.yml
+  format: yaml
+  label: CoinGecko Insights API
+  slug: coingecko-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-insights-api-openapi.yml
+- filename: coingecko-key-api-openapi.yml
+  format: yaml
+  label: CoinGecko Key API
+  slug: coingecko-key-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-key-api-openapi.yml
+- filename: coingecko-news-api-openapi.yml
+  format: yaml
+  label: CoinGecko News API
+  slug: coingecko-news-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-news-api-openapi.yml
+- filename: coingecko-public-treasury-api-openapi.yml
+  format: yaml
+  label: CoinGecko Public Treasury API
+  slug: coingecko-public-treasury-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-public-treasury-api-openapi.yml
+- filename: coingecko-rwas-api-openapi.yml
+  format: yaml
+  label: CoinGecko Rwas API
+  slug: coingecko-rwas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-rwas-api-openapi.yml
+- filename: coingecko-on-chain-api-openapi.yml
+  format: yaml
+  label: CoinGecko On Chain API
+  slug: coingecko-on-chain-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-on-chain-api-openapi.yml
 description: ''
 domains:
 - caa:

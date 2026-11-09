@@ -46,8 +46,8 @@ summary_line: 3 schemes
 tags:
 - Collaboration
 - Documentation
-- AI
+- Artificial Intelligence
 - Platform
-- OpenSource
+- Open Source
 - Company
 ---

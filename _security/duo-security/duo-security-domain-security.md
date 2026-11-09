@@ -103,4 +103,9 @@ tags:
 - Zero Trust
 - Identity
 - Identity Federation
+- Security
+- Multi-Factor Authentication
+- Identity and Access Management
+- Cloud Services
+- Enterprise
 ---

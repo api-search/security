@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: oscar-lopez-com-index-api-openapi.yml
-  format: yaml
-  label: Argentina Food & Beverage Price Index API
-  slug: price-index-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/oscar-lopez-com/openapi/oscar-lopez-com-index-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,6 +32,6 @@ tags:
 - Academic
 - Researcher
 - Information-Systems
-- Data-Analytics
-- Artificial-Intelligence
+- Data Analytics
+- Artificial Intelligence
 ---

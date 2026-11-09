@@ -36,8 +36,8 @@ source_yaml_url: https://artifacts.apis.io/vesync/security/vesync-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- SmartHome
+- Smart Home
 - IoT
-- ConsumerElectronics
-- CloudPlatform
+- Consumer Electronics
+- Cloud Platform
 ---

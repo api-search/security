@@ -41,5 +41,5 @@ tags:
 - Data Management
 - Open Source
 - Scientific Computing
-- Nonprofit
+- Non-Profit
 ---

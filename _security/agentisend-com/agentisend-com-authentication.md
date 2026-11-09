@@ -205,6 +205,5 @@ tags:
 - Email
 - Transactional Email
 - AI Agents
-- API
-- SaaS
+- Software-as-a-Service
 ---

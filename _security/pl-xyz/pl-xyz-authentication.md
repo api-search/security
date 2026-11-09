@@ -36,7 +36,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Decentralized
-- OpenSource
+- Open Source
 - Web3
 - Infrastructure
 ---

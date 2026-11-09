@@ -32,7 +32,7 @@ tags:
 - Company
 - Education
 - Language
-- AI
+- Artificial Intelligence
 - Cloud
 - Enterprise
 ---

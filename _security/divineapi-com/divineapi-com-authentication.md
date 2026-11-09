@@ -35,8 +35,7 @@ source_yaml_url: https://artifacts.apis.io/divineapi-com/authentication/divineap
 summary_line: 0 schemes
 tags:
 - Astrology
-- API
 - Data
-- Developer
+- Developers
 - Platform
 ---

@@ -76,9 +76,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://domaine
 source_yaml_url: https://artifacts.apis.io/domainee-dev/authentication/domainee-dev-authentication.yml
 summary_line: 1 scheme
 tags:
-- API
-- SaaS
-- Custom-Domains
-- Free-Tier
+- Software-as-a-Service
+- Custom Domains
+- Free Tier
 - MCP
 ---

@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/kayako/security/kayako-domain-securit
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Customer Support
-- AI
-- SaaS
+- Customer Service
+- Artificial Intelligence
+- Software-as-a-Service
 - Help Desk
 ---

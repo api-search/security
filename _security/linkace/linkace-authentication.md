@@ -80,8 +80,7 @@ source_yaml_url: https://artifacts.apis.io/linkace/authentication/linkace-authen
 summary_line: http · 1 scheme
 tags:
 - Company
-- OpenSource
+- Open Source
 - Bookmarking
-- SelfHosted
-- API
+- Self-Hosted
 ---

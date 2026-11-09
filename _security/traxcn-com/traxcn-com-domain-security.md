@@ -32,6 +32,6 @@ tags:
 - Company
 - Data
 - Intelligence
-- Venture-Capital
+- Venture Capital
 - Analytics
 ---

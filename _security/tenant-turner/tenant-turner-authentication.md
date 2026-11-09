@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/tenant-turner/authentication/tenant-t
 summary_line: 0 schemes
 tags:
 - Leasing
-- Property-Management
+- Property Management
 - Automation
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

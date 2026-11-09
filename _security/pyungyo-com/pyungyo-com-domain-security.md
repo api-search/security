@@ -86,9 +86,9 @@ source_yaml_url: https://artifacts.apis.io/pyungyo-com/security/pyungyo-com-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- telecom
-- mobile
-- Korea
-- price-comparison
-- open-api
+- Telecommunications
+- Mobile
+- South Korea
+- Price Comparison
+- OpenAPI
 ---

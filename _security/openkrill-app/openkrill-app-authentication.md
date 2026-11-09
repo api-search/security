@@ -35,7 +35,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - MarineBiology
-- DataAnalytics
+- Data Analytics
 - EnvironmentalResearch
-- OpenData
+- Open Data
 ---

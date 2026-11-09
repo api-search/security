@@ -45,9 +45,8 @@ source_yaml_url: https://artifacts.apis.io/easyparser-com/authentication/easypar
 summary_line: 2 schemes
 tags:
 - Company
-- API
 - Amazon
-- Scraping
-- Real-time
-- Data-Extraction
+- Web Scraping
+- Real-Time
+- Data Extraction
 ---

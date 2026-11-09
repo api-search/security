@@ -29,10 +29,9 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/valence-trade/authentication/valence-trade-authentication.yml
 summary_line: 0 schemes
 tags:
-- fintech
-- trading
+- Fintech
+- Trading
 - algorithmic
-- y-combinator
-- startup
-- api
+- Y Combinator
+- Startups
 ---

@@ -456,7 +456,7 @@ tags:
 - Conferences
 - Event Management
 - Event
-- Authentication
+- OAuth
 - On-Site Check-In
 - Registration
 - REST API
@@ -465,4 +465,5 @@ tags:
 - SOAP
 - Ticketing
 - Webhook
+- Authentication
 ---

@@ -41,5 +41,5 @@ tags:
 - Automation
 - No-Code
 - Integration
-- Workflow
+- Workflows
 ---

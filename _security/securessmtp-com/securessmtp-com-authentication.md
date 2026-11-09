@@ -38,8 +38,7 @@ summary_line: 1 scheme
 tags:
 - Email
 - Transactional
-- API
 - SMTP
-- Service
+- Services
 - SecureSMTP
 ---

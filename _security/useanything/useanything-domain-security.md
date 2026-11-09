@@ -39,6 +39,4 @@ tags:
 - Company
 - Placeholder
 - API-Evangelist
-- Stub
-- Unknown
 ---

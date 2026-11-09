@@ -31,10 +31,10 @@ source_yaml: "generated: '2026-10-24'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/cake-ai/security/cake-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI platform
-- Regulated industries
-- Coding agents
-- Data extraction
+- AI Platform
+- Regulated Industries
+- Coding Agents
+- Data Extraction
 - Enterprise AI
 - Governance
 - Security

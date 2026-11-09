@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/voxy/security/voxy-domain-security.ym
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- LanguageLearning
-- AI
-- CorporateTraining
+- Language Learning
+- Artificial Intelligence
+- Corporate Training
 - Education
 ---

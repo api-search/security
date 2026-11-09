@@ -162,6 +162,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-systems-manager/security/amazo
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Automation
+- Amazon Web Services
 - Management
 trust_url: https://aws.amazon.com/compliance/
 ---

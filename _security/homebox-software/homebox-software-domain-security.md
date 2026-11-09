@@ -38,9 +38,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/homebox-software/security/homebox-software-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Home
+- Homes
 - Inventory
-- OpenSource
-- SelfHosted
+- Open Source
+- Self-Hosted
 - Go
 ---

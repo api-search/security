@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/finetunefast/security/finetunefast-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- Machine-Learning
+- Artificial Intelligence
+- Machine Learning
 - Platform
-- Startup
+- Startups
 ---

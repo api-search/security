@@ -21,9 +21,9 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Software Development
-- Mobile Apps
+- Mobile App
 - AI Tools
-- UAE
+- United Arab Emirates
 - Agency
 trust_url: https://neoninnovationlab.com/security
 ---

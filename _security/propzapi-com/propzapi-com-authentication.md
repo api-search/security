@@ -62,5 +62,4 @@ tags:
 - Image Generation
 - Rendering
 - AI Agents
-- API
 ---

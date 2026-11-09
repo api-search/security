@@ -64,5 +64,7 @@ tags:
 - Goals
 - Gong
 - Slack
+- Revenue
+- Automation
 trust_url: https://app.drata.com/trust/9cbd947a-0c38-11ee-865f-029d78a187d9
 ---

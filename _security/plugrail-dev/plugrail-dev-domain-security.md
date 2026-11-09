@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - MCP
-- Public-Data
+- Public Data
 - Japan
-- AI-Integration
+- AI Integration
 ---

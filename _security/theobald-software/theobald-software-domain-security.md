@@ -35,5 +35,4 @@ tags:
 - Integration
 - SAP
 - Data
-- API
 ---

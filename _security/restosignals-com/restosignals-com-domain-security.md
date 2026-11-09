@@ -117,7 +117,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Restaurant
 - Data
-- API
 - MCP
 - Lead Generation
 ---

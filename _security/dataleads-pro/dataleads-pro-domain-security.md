@@ -279,8 +279,7 @@ source_yaml_url: https://artifacts.apis.io/dataleads-pro/security/dataleads-pro-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Lead-Generation
-- API
-- Data-Enrichment
+- Lead Generation
+- Data Enrichment
 - Marketing
 ---

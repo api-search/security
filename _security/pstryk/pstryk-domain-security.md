@@ -33,7 +33,7 @@ tags:
 - Company
 - Energy
 - Utilities
-- FinTech
+- Fintech
 - Poland
-- DynamicPricing
+- Dynamic Pricing
 ---

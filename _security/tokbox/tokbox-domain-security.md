@@ -40,7 +40,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Video
 - WebRTC
-- Real-time Communication
-- SDKs
+- Real-Time Communication
+- SDK
 - Vonage
 ---

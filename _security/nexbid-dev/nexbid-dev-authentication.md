@@ -45,9 +45,9 @@ source_yaml_url: https://artifacts.apis.io/nexbid-dev/authentication/nexbid-dev-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Commerce
 - Advertising
 - Switzerland
-- OpenSource
+- Open Source
 ---

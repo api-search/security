@@ -40,6 +40,5 @@ tags:
 - Company
 - Email
 - Transactional
-- API
 - European
 ---

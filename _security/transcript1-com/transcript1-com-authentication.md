@@ -38,6 +38,5 @@ tags:
 - Audio
 - Video
 - Transcription
-- API
 - MCP
 ---

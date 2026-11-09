@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/chibitek-com/authentication/chibitek-
 summary_line: 0 schemes
 tags:
 - Company
-- AI
-- Managed Services
+- Artificial Intelligence
+- Managed Service
 - IT Support
 - Cloud
 ---

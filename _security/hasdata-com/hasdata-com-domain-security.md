@@ -69,8 +69,7 @@ source_yaml_url: https://artifacts.apis.io/hasdata-com/security/hasdata-com-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Web Scraping
-- Data Pipelines
-- AI
-- API
+- Data Pipeline
+- Artificial Intelligence
 - Automation
 ---

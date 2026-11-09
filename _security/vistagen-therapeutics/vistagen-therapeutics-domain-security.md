@@ -33,6 +33,6 @@ tags:
 - Company
 - Biopharma
 - Neuroscience
-- MentalHealth
-- DrugDevelopment
+- Mental Health
+- Drug Development
 ---

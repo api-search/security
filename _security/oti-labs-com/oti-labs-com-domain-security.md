@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/oti-labs-com/security/oti-labs-com-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Domain-Intelligence
+- Domain Intelligence
 - Security
 - WHOIS
 - DNS

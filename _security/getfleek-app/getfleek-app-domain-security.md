@@ -41,6 +41,6 @@ tags:
 - Subscription
 - Rewards
 - Fintech
-- ConsumerApp
+- Consumer App
 - Platform
 ---

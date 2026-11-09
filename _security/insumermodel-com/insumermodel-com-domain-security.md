@@ -96,6 +96,6 @@ tags:
 - Blockchain
 - AI Agents
 - Condition-Based Access
-- Crypto
+- Cryptocurrency
 - Developer Tools
 ---

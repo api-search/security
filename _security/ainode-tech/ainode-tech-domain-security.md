@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Wearables
-- AI
+- Artificial Intelligence
 - Privacy
 - Portugal
 ---

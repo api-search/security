@@ -75,7 +75,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Sports
 - Data
-- API
 - DFS
 - Fantasy
 ---

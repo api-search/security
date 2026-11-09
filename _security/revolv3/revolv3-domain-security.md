@@ -37,7 +37,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Payments
-- SaaS
+- Software-as-a-Service
 - Enterprise
-- API
 ---

@@ -35,8 +35,7 @@ source_yaml_url: https://artifacts.apis.io/modernmt/authentication/modernmt-auth
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Translation
-- API
 - Multilingual
 ---

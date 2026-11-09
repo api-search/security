@@ -31,4 +31,7 @@ source_yaml_url: https://artifacts.apis.io/real/security/real-domain-security.ym
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
+- Fintech
+- Banking
+- Payments
 ---

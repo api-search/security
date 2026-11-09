@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/national-institute-of-building-scienc
 summary_line: TLSv1.3 · DMARC
 tags:
 - Building Sciences
-- Nonprofit
+- Non-Profit
 - Research
 - Standards
 - Education

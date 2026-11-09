@@ -45,6 +45,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-i
 source_yaml_url: https://artifacts.apis.io/amazon-iot-greengrass/authentication/amazon-iot-greengrass-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Edge Computing
 - IoT
 - Lambda

@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/enzo-health/security/enzo-health-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Home Health
-- EHR
+- Home Care
+- Electronic Health Records
 - Healthcare
-- SaaS
+- Software-as-a-Service
 ---

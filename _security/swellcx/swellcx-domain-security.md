@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/swellcx/security/swellcx-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Healthcare
 - Reputation
-- PatientExperience
+- Patient Experience
 ---

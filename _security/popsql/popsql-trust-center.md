@@ -35,7 +35,7 @@ tags:
 - Company
 - SQL
 - Collaboration
-- Data-Analytics
+- Data Analytics
 - Cloud
 trust_url: https://popsql.com/security
 ---

@@ -78,8 +78,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Procurement
-- PublicData
-- API
+- Public Data
 - France
 - Europe
 ---

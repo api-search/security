@@ -51,10 +51,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/llmintel-ai/security/llmintel-ai-trust-center.yml
 summary_line: SOC 2, PCI DSS, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Cost
 - Observability
 - Telemetry
-- GenAI
+- Generative AI
 trust_url: https://llmintel.ai/security
 ---

@@ -33,6 +33,5 @@ tags:
 - Company
 - Lyrics
 - Music
-- API
-- OpenSource
+- Open Source
 ---

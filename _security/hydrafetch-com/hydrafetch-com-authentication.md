@@ -78,7 +78,6 @@ summary_line: 1 scheme
 tags:
 - Web Scraping
 - Data Extraction
-- API
 - Automation
 - Markdown
 ---

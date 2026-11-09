@@ -571,5 +571,6 @@ tags:
 - SOAP
 - REST
 - Identity Federation
+- API Gateway
 trust_url: https://wso2.com/security
 ---

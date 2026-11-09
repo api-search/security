@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/kipling-secure/security/kipling-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
 - MSP
-- SaaS
+- Software-as-a-Service
 ---

@@ -33,6 +33,6 @@ tags:
 - Fintech
 - Retirement
 - Pensions
-- MobileApp
-- FinancialPlanning
+- Mobile App
+- Financial Planning
 ---

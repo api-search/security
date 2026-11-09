@@ -143,6 +143,6 @@ tags:
 - Company
 - Social Listening
 - AI Integration
-- SDKs
-- Real-time Monitoring
+- SDK
+- Real-Time Monitoring
 ---

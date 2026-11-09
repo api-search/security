@@ -133,7 +133,7 @@ tags:
 - Marketing
 - MCP
 - Media
-- Authentication
+- OAuth
 - OpenAPI
 - Reporting
 - Retail
@@ -141,4 +141,5 @@ tags:
 - Sponsored Products
 - A2A
 - AdTech
+- Authentication
 ---

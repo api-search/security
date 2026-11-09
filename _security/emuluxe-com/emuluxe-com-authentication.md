@@ -35,7 +35,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - MobileSimulation
-- DeveloperTools
-- AI
+- Developer Tools
+- Artificial Intelligence
 - DeviceEmulation
 ---

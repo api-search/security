@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: observee-plants-api-openapi.yml
-  format: yaml
-  label: Observee MCP API
-  slug: observee-mcp-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/observee/openapi/observee-plants-api-openapi.yml
 description: ''
 domains:
 - caa: []

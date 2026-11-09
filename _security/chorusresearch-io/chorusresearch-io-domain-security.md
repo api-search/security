@@ -38,10 +38,9 @@ source_yaml_url: https://artifacts.apis.io/chorusresearch-io/security/chorusrese
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Survey
-- AI
+- Surveys
+- Artificial Intelligence
 - Research
 - MCP
-- API
 - Automation
 ---

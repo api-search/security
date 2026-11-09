@@ -38,7 +38,8 @@ tags:
 - Financial Services
 - Fortune 1000
 - Identity
-- Authentication
+- OAuth
 - Consumer Software
 - Tax
+- Authentication
 ---

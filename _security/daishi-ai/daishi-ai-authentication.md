@@ -30,11 +30,11 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://daishi.
 source_yaml_url: https://artifacts.apis.io/daishi-ai/authentication/daishi-ai-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Agents
 - Platform
 - Evaluation
 - Simulation
 - Marketplace
-- Benchmark
+- Benchmarks
 ---

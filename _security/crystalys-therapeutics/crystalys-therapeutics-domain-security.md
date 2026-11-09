@@ -3,14 +3,14 @@ description: ''
 domains:
 - caa: []
   dmarc: true
-  dmarc_policy: none
+  dmarc_policy: quarantine
   dnssec: false
-  domain: forgeglobal.com
+  domain: crystalystx.com
   spf: true
 hosts:
-- cert_expires: Dec 18 16:17:45 2026 GMT
-  host: forgeglobal.com
-  hsts: null
+- cert_expires: Dec 15 17:47:23 2026 GMT
+  host: crystalystx.com
+  hsts: false
   https: true
   tls_version: TLSv1.3
 hosts_probed: 1
@@ -19,16 +19,25 @@ layout: security
 method: probed
 name: Crystalys Therapeutics Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Crystalys Therapeutics, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Crystalys Therapeutics, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Crystalys Therapeutics
 provider_slug: crystalys-therapeutics
 slug: crystalys-therapeutics-domain-security
 source_filename: crystalys-therapeutics-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: forgeglobal.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 16:17:45 2026 GMT\n  hsts: null\ndomains:\n- domain: forgeglobal.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-11-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: crystalystx.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 15 17:47:23 2026 GMT\n  hsts: false\ndomains:\n- domain: crystalystx.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://artifacts.apis.io/crystalys-therapeutics/security/crystalys-therapeutics-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
+- Biopharmaceutical
+- Clinical Stage
+- Pharmaceuticals
+- Drug Development
+- Therapeutics
+- Gout
+- Hyperuricemia
+- Dotinurad
+- URAT1 Inhibitor
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/carbo-culture/security/carbo-culture-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- ClimateTech
-- CarbonRemoval
+- Climate Tech
+- Carbon Removal
 - Biochar
-- RenewableEnergy
+- Renewable Energy
 ---

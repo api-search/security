@@ -38,10 +38,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Email Marketing
 - Automation
-- AI
+- Artificial Intelligence
 - SMS
 - Higher Education
-- Nonprofit
+- Non-Profit
 - Government
 - Travel & Hospitality
 ---

@@ -20,9 +20,9 @@ source_yaml_url: https://artifacts.apis.io/workgrounds/security/workgrounds-trus
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Travel
-- Hotel
+- Hotels
 - Automation
 - Corporate
 trust_url: https://workgrounds.com/trust

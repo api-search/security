@@ -38,4 +38,7 @@ tags:
 - Artificial Intelligence
 - Talent Development
 - People Analytics
+- People Development
+- Skill Mapping
+- Talent Management
 ---

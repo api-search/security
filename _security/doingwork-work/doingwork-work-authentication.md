@@ -43,8 +43,7 @@ source_yaml_url: https://artifacts.apis.io/doingwork-work/authentication/doingwo
 summary_line: oauth2 · 1 scheme
 tags:
 - Company
-- Field Service
+- Field Service Management
 - Invoicing
-- API
 - Mobile
 ---

@@ -229,7 +229,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Accounting
-- API
 - Cloud
 - EU
 ---

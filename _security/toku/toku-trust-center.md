@@ -241,7 +241,7 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/toku/security/toku-trust-center.yml
 summary_line: PCI DSS
 tags:
-- FinTech
+- Fintech
 - Payments
 - B2B
 - Automation

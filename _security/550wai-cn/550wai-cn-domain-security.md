@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/550wai-cn/security/550wai-cn-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC
 tags:
-- AI
-- VideoProcessing
-- ImageProcessing
-- WatermarkRemoval
+- Artificial Intelligence
+- Video Processing
+- Image Processing
+- Watermark Removal
 - SubtitleRemoval
 ---

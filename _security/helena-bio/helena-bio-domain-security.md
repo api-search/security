@@ -228,5 +228,5 @@ tags:
 - Genomics
 - Clinical
 - Healthcare
-- DataScience
+- Data Science
 ---

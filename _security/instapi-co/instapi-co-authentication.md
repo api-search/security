@@ -36,7 +36,6 @@ summary_line: 1 scheme
 tags:
 - Instagram
 - Search
-- Enrichment
-- API
+- Data Enrichment
 - Social Media
 ---

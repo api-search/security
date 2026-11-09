@@ -38,7 +38,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - MCP
-- AI
-- Integrations
+- Artificial Intelligence
+- Integration
 - Sweden
 ---

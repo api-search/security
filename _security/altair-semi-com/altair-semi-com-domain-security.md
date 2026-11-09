@@ -32,10 +32,10 @@ source_yaml_url: https://artifacts.apis.io/altair-semi-com/security/altair-semi-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cellular IoT
-- LTE‑M
-- NB‑IoT
+- LTE-M
+- NB-IoT
 - LPWA
 - Modems
-- System‑on‑Chip
+- System on Chip
 - IoT Chipsets
 ---

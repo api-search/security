@@ -87,6 +87,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-n
 source_yaml_url: https://artifacts.apis.io/amazon-network-firewall/authentication/amazon-network-firewall-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Firewall
 - Intrusion Detection
 - Network Security

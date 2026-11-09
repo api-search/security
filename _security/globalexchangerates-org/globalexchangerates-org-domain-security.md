@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Finance
-- API
-- ExchangeRates
+- Exchange Rates
 - ERP
 ---

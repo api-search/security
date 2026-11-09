@@ -40,6 +40,5 @@ tags:
 - Android
 - Emulator
 - Cloud
-- DeveloperTools
-- API
+- Developer Tools
 ---

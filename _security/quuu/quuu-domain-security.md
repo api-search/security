@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/quuu/security/quuu-domain-security.ym
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Social Media
 - Automation
 - Marketing

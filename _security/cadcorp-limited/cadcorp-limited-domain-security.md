@@ -34,6 +34,6 @@ tags:
 - Company
 - GIS
 - Mapping
-- Spatial-Analysis
-- Enterprise-Software
+- Spatial Analysis
+- Enterprise Software
 ---

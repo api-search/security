@@ -38,9 +38,8 @@ source_yaml_url: https://artifacts.apis.io/octocrawl-dev/security/octocrawl-dev-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
-- WebScraping
-- DataExtraction
-- SaaS
+- Web Scraping
+- Data Extraction
+- Software-as-a-Service
 - Automation
 ---

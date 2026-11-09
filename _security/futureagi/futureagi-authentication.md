@@ -35,7 +35,7 @@ source_yaml_url: https://artifacts.apis.io/futureagi/authentication/futureagi-au
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
 - Agents
 - Simulation

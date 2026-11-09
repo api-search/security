@@ -42,30 +42,30 @@ api_specs:
   slug: amazon-opensearch-config-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-config-api-openapi.yml
-- filename: amazon-opensearch-datasource-api-openapi.yml
-  format: yaml
-  label: Amazon OpenSearch Service API Opensearch Datasource API
-  slug: amazon-opensearch-datasource-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-datasource-api-openapi.yml
 - filename: amazon-opensearch-index-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Opensearch Index API
   slug: amazon-opensearch-index-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-index-api-openapi.yml
-- filename: amazon-opensearch-opensearch-api-openapi.yml
-  format: yaml
-  label: Amazon OpenSearch Service API Opensearch Opensearch API
-  slug: amazon-opensearch-opensearch-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-opensearch-api-openapi.yml
 - filename: amazon-opensearch-operations-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Opensearch Operations API
   slug: amazon-opensearch-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-operations-api-openapi.yml
+- filename: amazon-opensearch-data-source-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Data Source API
+  slug: amazon-opensearch-data-source-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-data-source-api-openapi.yml
+- filename: amazon-opensearch-open-search-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Open Search API
+  slug: amazon-opensearch-open-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-open-search-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -107,6 +107,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-opensearch/security/amazon-ope
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
+- Amazon Web Services
 - Elasticsearch
 - Search
 ---

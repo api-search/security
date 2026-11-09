@@ -90,6 +90,7 @@ tags:
 - Authorization
 - Java
 - JWT
+- OAuth
 - OpenID Connect
 - SAML
 - Security

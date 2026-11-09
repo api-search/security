@@ -39,4 +39,5 @@ tags:
 - Clinical Documentation
 - Pharmaceuticals
 - AI Agents
+- Clinical Development
 ---

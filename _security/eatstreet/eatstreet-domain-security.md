@@ -39,5 +39,6 @@ tags:
 - Local Commerce
 - Consumer
 - Point-of-Sale
+- OAuth
 - Authentication
 ---

@@ -31,6 +31,7 @@ tags:
 - Software-as-a-Service
 - MCP
 - Agent-Native
+- OAuth
 - Authentication
 trust_url: ''
 ---

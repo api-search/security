@@ -27,7 +27,7 @@ source_yaml_url: https://artifacts.apis.io/getklo-com/authentication/getklo-com-
 summary_line: 1 scheme
 tags:
 - Video Editing
-- AI
+- Artificial Intelligence
 - Cloud Rendering
 - Collaboration
 - Marketing

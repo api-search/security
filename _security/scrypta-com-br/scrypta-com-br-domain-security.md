@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/scrypta-com-br/security/scrypta-com-b
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - MCP
 - Brazil
-- SaaS
+- Software-as-a-Service
 ---

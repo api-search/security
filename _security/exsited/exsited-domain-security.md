@@ -31,8 +31,7 @@ source_yaml_url: https://artifacts.apis.io/exsited/security/exsited-domain-secur
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- API
 - Integration
-- SaaS
+- Software-as-a-Service
 - Automation
 ---

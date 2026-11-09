@@ -38,12 +38,6 @@ api_specs:
   slug: apiclaw-agents-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-agents-api-openapi.yml
-- filename: apiclaw-anthropic-passthrough-api-openapi.yml
-  format: yaml
-  label: APIClaw Anthropic Passthrough API
-  slug: apiclaw-anthropic-passthrough-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-anthropic-passthrough-api-openapi.yml
 - filename: apiclaw-anthropic-skills-api-openapi.yml
   format: yaml
   label: APIClaw Anthropic Skills API
@@ -332,12 +326,6 @@ api_specs:
   slug: apiclaw-internal-user-management-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-internal-user-management-api-openapi.yml
-- filename: apiclaw-jwt-mappings-api-openapi.yml
-  format: yaml
-  label: APIClaw JWT Mappings API
-  slug: apiclaw-jwt-mappings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-jwt-mappings-api-openapi.yml
 - filename: apiclaw-key-management-api-openapi.yml
   format: yaml
   label: APIClaw key management API
@@ -362,12 +350,6 @@ api_specs:
   slug: apiclaw-litellm-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-litellm-api-openapi.yml
-- filename: apiclaw-llm-passthrough-api-openapi.yml
-  format: yaml
-  label: APIClaw Llm Passthrough API
-  slug: apiclaw-llm-passthrough-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-llm-passthrough-api-openapi.yml
 - filename: apiclaw-llm-utils-api-openapi.yml
   format: yaml
   label: APIClaw llm utils API
@@ -386,12 +368,6 @@ api_specs:
   slug: apiclaw-mcp-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-mcp-api-openapi.yml
-- filename: apiclaw-mcp-rest-api-openapi.yml
-  format: yaml
-  label: APIClaw MCP Rest API
-  slug: apiclaw-mcp-rest-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-mcp-rest-api-openapi.yml
 - filename: apiclaw-memory-management-api-openapi.yml
   format: yaml
   label: APIClaw memory management API
@@ -530,12 +506,6 @@ api_specs:
   slug: apiclaw-rust-control-plane-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-rust-control-plane-api-openapi.yml
-- filename: apiclaw-scim-api-openapi.yml
-  format: yaml
-  label: APIClaw SCIM API
-  slug: apiclaw-scim-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-scim-api-openapi.yml
 - filename: apiclaw-search-api-openapi.yml
   format: yaml
   label: APIClaw Search API
@@ -608,12 +578,6 @@ api_specs:
   slug: apiclaw-ui-theme-settings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-ui-theme-settings-api-openapi.yml
-- filename: apiclaw-usage-ai-api-openapi.yml
-  format: yaml
-  label: APIClaw Usage AI API
-  slug: apiclaw-usage-ai-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-usage-ai-api-openapi.yml
 - filename: apiclaw-user-agent-analytics-api-openapi.yml
   format: yaml
   label: APIClaw user agent analytics API
@@ -668,6 +632,240 @@ api_specs:
   slug: apiclaw-workflow-management-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-workflow-management-api-openapi.yml
+- filename: apiclaw-agent-tracing-api-openapi.yml
+  format: yaml
+  label: APIClaw agent tracing API
+  slug: apiclaw-agent-tracing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-agent-tracing-api-openapi.yml
+- filename: apiclaw-amazon-transcribe-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Amazon Transcribe Pass-through API
+  slug: apiclaw-amazon-transcribe-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-amazon-transcribe-pass-through-api-openapi.yml
+- filename: apiclaw-anthropic-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Anthropic Pass-through API
+  slug: apiclaw-anthropic-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-anthropic-pass-through-api-openapi.yml
+- filename: apiclaw-apiclaw-partners-api-openapi.yml
+  format: yaml
+  label: APIClaw APIClaw Partners API
+  slug: apiclaw-apiclaw-partners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-apiclaw-partners-api-openapi.yml
+- filename: apiclaw-assemblyai-eu-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw AssemblyAI EU Pass-through API
+  slug: apiclaw-assemblyai-eu-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-assemblyai-eu-pass-through-api-openapi.yml
+- filename: apiclaw-assemblyai-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw AssemblyAI Pass-through API
+  slug: apiclaw-assemblyai-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-assemblyai-pass-through-api-openapi.yml
+- filename: apiclaw-aws-comprehend-medical-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw AWS Comprehend Medical Pass-through API
+  slug: apiclaw-aws-comprehend-medical-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-aws-comprehend-medical-pass-through-api-openapi.yml
+- filename: apiclaw-azure-ai-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Azure AI Pass-through API
+  slug: apiclaw-azure-ai-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-azure-ai-pass-through-api-openapi.yml
+- filename: apiclaw-azure-ai-speech-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Azure AI Speech Pass-through API
+  slug: apiclaw-azure-ai-speech-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-azure-ai-speech-pass-through-api-openapi.yml
+- filename: apiclaw-azure-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Azure Pass-through API
+  slug: apiclaw-azure-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-azure-pass-through-api-openapi.yml
+- filename: apiclaw-bedrock-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Bedrock Pass-through API
+  slug: apiclaw-bedrock-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-bedrock-pass-through-api-openapi.yml
+- filename: apiclaw-beta-anthropic-event-logging-api-openapi.yml
+  format: yaml
+  label: APIClaw [beta] Anthropic Event Logging API
+  slug: apiclaw-beta-anthropic-event-logging-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-beta-anthropic-event-logging-api-openapi.yml
+- filename: apiclaw-beta-anthropic-messages-token-counting-api-openapi.yml
+  format: yaml
+  label: APIClaw [beta] Anthropic Messages Token Counting API
+  slug: apiclaw-beta-anthropic-messages-token-counting-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-beta-anthropic-messages-token-counting-api-openapi.yml
+- filename: apiclaw-beta-anthropic-v1-messages-api-openapi.yml
+  format: yaml
+  label: APIClaw [beta] Anthropic `/v1/messages` API
+  slug: apiclaw-beta-anthropic-v1-messages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-beta-anthropic-v1-messages-api-openapi.yml
+- filename: apiclaw-cohere-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Cohere Pass-through API
+  slug: apiclaw-cohere-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-cohere-pass-through-api-openapi.yml
+- filename: apiclaw-cost-optimization-api-openapi.yml
+  format: yaml
+  label: APIClaw Cost Optimization API
+  slug: apiclaw-cost-optimization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-cost-optimization-api-openapi.yml
+- filename: apiclaw-cursor-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Cursor Pass-through API
+  slug: apiclaw-cursor-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-cursor-pass-through-api-openapi.yml
+- filename: apiclaw-decisions-api-openapi.yml
+  format: yaml
+  label: APIClaw Decisions API
+  slug: apiclaw-decisions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-decisions-api-openapi.yml
+- filename: apiclaw-fal-ai-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Fal AI Pass-through API
+  slug: apiclaw-fal-ai-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-fal-ai-pass-through-api-openapi.yml
+- filename: apiclaw-gigachat-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Gigachat Pass-through API
+  slug: apiclaw-gigachat-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-gigachat-pass-through-api-openapi.yml
+- filename: apiclaw-google-ai-studio-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Google AI Studio Pass-through API
+  slug: apiclaw-google-ai-studio-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-google-ai-studio-pass-through-api-openapi.yml
+- filename: apiclaw-indexes-api-openapi.yml
+  format: yaml
+  label: APIClaw Indexes API
+  slug: apiclaw-indexes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-indexes-api-openapi.yml
+- filename: apiclaw-jwt-key-mapping-api-openapi.yml
+  format: yaml
+  label: APIClaw JWT Key Mapping API
+  slug: apiclaw-jwt-key-mapping-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-jwt-key-mapping-api-openapi.yml
+- filename: apiclaw-lens-api-openapi.yml
+  format: yaml
+  label: APIClaw Lens API
+  slug: apiclaw-lens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-lens-api-openapi.yml
+- filename: apiclaw-milvus-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Milvus Pass-through API
+  slug: apiclaw-milvus-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-milvus-pass-through-api-openapi.yml
+- filename: apiclaw-mistral-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Mistral Pass-through API
+  slug: apiclaw-mistral-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-mistral-pass-through-api-openapi.yml
+- filename: apiclaw-model-insights-api-openapi.yml
+  format: yaml
+  label: APIClaw model insights API
+  slug: apiclaw-model-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-model-insights-api-openapi.yml
+- filename: apiclaw-nvidia-nim-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw NVIDIA NIM Pass-through API
+  slug: apiclaw-nvidia-nim-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-nvidia-nim-pass-through-api-openapi.yml
+- filename: apiclaw-openrouter-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw OpenRouter Pass-through API
+  slug: apiclaw-openrouter-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-openrouter-pass-through-api-openapi.yml
+- filename: apiclaw-policy-management-api-openapi.yml
+  format: yaml
+  label: APIClaw policy management API
+  slug: apiclaw-policy-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-policy-management-api-openapi.yml
+- filename: apiclaw-roi-calculator-api-openapi.yml
+  format: yaml
+  label: APIClaw roi calculator API
+  slug: apiclaw-roi-calculator-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-roi-calculator-api-openapi.yml
+- filename: apiclaw-scim-v2-enterprise-only-api-openapi.yml
+  format: yaml
+  label: APIClaw ✨ SCIM v2 (Enterprise Only) API
+  slug: apiclaw-scim-v2-enterprise-only-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-scim-v2-enterprise-only-api-openapi.yml
+- filename: apiclaw-tinyfish-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw TinyFish Pass-through API
+  slug: apiclaw-tinyfish-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-tinyfish-pass-through-api-openapi.yml
+- filename: apiclaw-typesafe-ai-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw TypeSafe AI Pass-through API
+  slug: apiclaw-typesafe-ai-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-typesafe-ai-pass-through-api-openapi.yml
+- filename: apiclaw-ui-session-api-openapi.yml
+  format: yaml
+  label: APIClaw UI Session API
+  slug: apiclaw-ui-session-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-ui-session-api-openapi.yml
+- filename: apiclaw-vector-store-files-api-openapi.yml
+  format: yaml
+  label: APIClaw Vector Store Files API
+  slug: apiclaw-vector-store-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-vector-store-files-api-openapi.yml
+- filename: apiclaw-vertex-ai-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Vertex AI Pass-through API
+  slug: apiclaw-vertex-ai-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-vertex-ai-pass-through-api-openapi.yml
+- filename: apiclaw-vllm-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw VLLM Pass-through API
+  slug: apiclaw-vllm-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-vllm-pass-through-api-openapi.yml
+- filename: apiclaw-watsonx-pass-through-api-openapi.yml
+  format: yaml
+  label: APIClaw Watsonx Pass-through API
+  slug: apiclaw-watsonx-pass-through-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apiclaw/openapi/apiclaw-watsonx-pass-through-api-openapi.yml
 - filename: apiclaw-passthrough-api-openapi.yml
   format: yaml
   label: APIClaw Passthrough API

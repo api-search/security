@@ -34,5 +34,5 @@ tags:
 - IT Services
 - Digital Transformation
 - Cloud
-- AI
+- Artificial Intelligence
 ---

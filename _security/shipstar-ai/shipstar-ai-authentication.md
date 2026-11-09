@@ -101,7 +101,7 @@ summary_line: 3 schemes
 tags:
 - Company
 - Marketing
-- DeveloperTools
+- Developer Tools
 - Automation
-- OpenSource
+- Open Source
 ---

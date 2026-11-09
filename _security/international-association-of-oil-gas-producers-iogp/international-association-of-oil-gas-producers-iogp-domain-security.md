@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Energy
-- Oil & Gas
-- Non-profit
+- Oil and Gas
+- Non-Profit
 - Collaboration
 ---

@@ -31,7 +31,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Data Analytics
-- AI
+- Artificial Intelligence
 - Enterprise
-- APIs
 ---

@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/neostella/security/neostella-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- LegalTech
-- SaaS
-- CaseManagement
+- Legal Tech
+- Software-as-a-Service
+- Case Management
 - Enterprise
 ---

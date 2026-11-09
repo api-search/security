@@ -124,6 +124,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-ecs/authentication/amazon-ecs-
 summary_line: apiKey · 1 scheme
 tags:
 - Amazon
+- Amazon Web Services
 - Containers
 - Docker
 - ECS

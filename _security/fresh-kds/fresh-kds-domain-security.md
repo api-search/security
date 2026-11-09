@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/fresh-kds/security/fresh-kds-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Kitchen Display System
-- Restaurants
+- Restaurant
 - POS Integration
 - Enterprise
 - Tablet-based

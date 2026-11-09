@@ -37,8 +37,5 @@ source_yaml_url: https://artifacts.apis.io/ifreework-com/security/ifreework-com-
 summary_line: TLSv1.3
 tags:
 - Company
-- API
-- Stub
 - Harvest
-- Unknown
 ---

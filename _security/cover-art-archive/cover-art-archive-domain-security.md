@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/cover-art-archive/security/cover-art-
 summary_line: TLSv1.3
 tags:
 - Music
-- OpenData
+- Open Data
 - Community
-- API
 - CoverArt
 ---

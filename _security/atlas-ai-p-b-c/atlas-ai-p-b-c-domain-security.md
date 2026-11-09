@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/atlas-ai-p-b-c/security/atlas-ai-p-b-
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Analytics
-- DataEnrichment
-- PublicBenefit
+- Data Enrichment
+- Public-benefit
 ---

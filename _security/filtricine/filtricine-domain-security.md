@@ -33,6 +33,6 @@ tags:
 - Biotechnology
 - Cancer
 - Medical-Food
-- Clinical-Trials
-- San-Francisco
+- Clinical Trials
+- San Francisco
 ---

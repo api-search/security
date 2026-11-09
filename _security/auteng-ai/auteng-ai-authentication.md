@@ -57,7 +57,7 @@ source_yaml_url: https://artifacts.apis.io/auteng-ai/authentication/auteng-ai-au
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Documentation
 - Technical Writing
 - Markdown

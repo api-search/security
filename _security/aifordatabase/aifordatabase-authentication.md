@@ -123,7 +123,7 @@ tags:
 - Workflow Automation
 - Alerts
 - Agent-Native
-- llms-txt
+- Llms.txt
 - OpenAPI
 - Webhook
 - MCP

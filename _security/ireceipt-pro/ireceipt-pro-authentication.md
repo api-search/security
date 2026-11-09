@@ -61,8 +61,7 @@ source_yaml_url: https://artifacts.apis.io/ireceipt-pro/authentication/ireceipt-
 summary_line: http · 1 scheme
 tags:
 - Company
-- API
 - PDF
-- ImageGeneration
+- Image Generation
 - Templates
 ---

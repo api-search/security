@@ -78,6 +78,7 @@ tags:
 - Identity Verification
 - Authentication
 - OpenID Connect
+- OAuth
 - SAML
 - SSO
 - Digital Identity

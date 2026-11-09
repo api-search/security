@@ -39,7 +39,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Email
-- API
-- SaaS
-- Communication
+- Software-as-a-Service
+- Communications
 ---

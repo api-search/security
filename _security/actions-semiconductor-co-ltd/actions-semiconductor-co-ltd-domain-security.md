@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/actions-semiconductor-co-ltd/security
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Semiconductor
-- AI
+- Semiconductors
+- Artificial Intelligence
 - Edge Computing
 - Low Power
 - IoT

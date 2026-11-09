@@ -54,9 +54,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/agent-manager-dev/authentication/agent-manager-dev-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
-- Agent
+- Artificial Intelligence
+- Agents
 - Terminal
-- OpenSource
+- Open Source
 - Go
 ---

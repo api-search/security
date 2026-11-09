@@ -35,5 +35,4 @@ tags:
 - Plants
 - Geolocation
 - Free
-- API
 ---

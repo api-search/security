@@ -36,9 +36,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/partnerpage/authentication/partnerpage-authentication.yml
 summary_line: 1 scheme
 tags:
-- Partner
+- Partners
 - Directory
-- SaaS
+- Software-as-a-Service
 - B2B
-- No-code
+- No-Code
 ---

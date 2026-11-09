@@ -480,6 +480,66 @@ api_specs:
   slug: corestack-zoho-incident-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/corestack/openapi/corestack-zoho-incident-api-openapi.yml
+- filename: corestack-ai-agents-observability-api-openapi.yml
+  format: yaml
+  label: CoreStack AI Agents Observability API
+  slug: corestack-ai-agents-observability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/corestack/openapi/corestack-ai-agents-observability-api-openapi.yml
+- filename: corestack-lock-configuration-api-openapi.yml
+  format: yaml
+  label: CoreStack Lock Configuration API
+  slug: corestack-lock-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/corestack/openapi/corestack-lock-configuration-api-openapi.yml
+- filename: corestack-policy-v2-api-openapi.yml
+  format: yaml
+  label: CoreStack Policy V2 API
+  slug: corestack-policy-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/corestack/openapi/corestack-policy-v2-api-openapi.yml
+- filename: corestack-roles-api-openapi.yml
+  format: yaml
+  label: CoreStack Roles API
+  slug: corestack-roles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/corestack/openapi/corestack-roles-api-openapi.yml
+- filename: corestack-templates-api-openapi.yml
+  format: yaml
+  label: CoreStack Templates API
+  slug: corestack-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/corestack/openapi/corestack-templates-api-openapi.yml
+- filename: corestack-tenants-api-openapi.yml
+  format: yaml
+  label: CoreStack Tenants API
+  slug: corestack-tenants-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/corestack/openapi/corestack-tenants-api-openapi.yml
+- filename: corestack-userdelegation-api-openapi.yml
+  format: yaml
+  label: CoreStack User Delegation API
+  slug: corestack-userdelegation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/corestack/openapi/corestack-userdelegation-api-openapi.yml
+- filename: corestack-users-api-openapi.yml
+  format: yaml
+  label: CoreStack Users API
+  slug: corestack-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/corestack/openapi/corestack-users-api-openapi.yml
+- filename: corestack-usersauth-api-openapi.yml
+  format: yaml
+  label: CoreStack Users Auth API
+  slug: corestack-usersauth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/corestack/openapi/corestack-usersauth-api-openapi.yml
+- filename: corestack-usersprofile-api-openapi.yml
+  format: yaml
+  label: CoreStack Users Profile API
+  slug: corestack-usersprofile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/corestack/openapi/corestack-usersprofile-api-openapi.yml
 - filename: corestack-ai-governance-api-openapi.yml
   format: yaml
   label: CoreStack AI Governance API

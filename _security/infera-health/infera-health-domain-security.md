@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Compliance
 - Medical Devices
-- AI
+- Artificial Intelligence
 - Software
 - Risk Management
 - Verification

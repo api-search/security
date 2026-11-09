@@ -39,9 +39,8 @@ source_yaml_url: https://artifacts.apis.io/relaygpu-com/security/relaygpu-com-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Compute
 - GPU
 - Cloud
-- API
 ---

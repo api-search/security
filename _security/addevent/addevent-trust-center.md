@@ -60,8 +60,7 @@ tags:
 - Calendar
 - Integration
 - Marketing
-- API
-- SaaS
-- Events
+- Software-as-a-Service
+- Event
 trust_url: https://www.addevent.com:443/c/legal/security
 ---

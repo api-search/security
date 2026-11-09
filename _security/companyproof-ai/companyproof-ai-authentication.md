@@ -27,7 +27,7 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://company
 source_yaml_url: https://artifacts.apis.io/companyproof-ai/authentication/companyproof-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Verification
 - Compliance
 - Data

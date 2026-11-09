@@ -936,7 +936,7 @@ tags:
 - API-First
 - E-Commerce
 - JSON:API
-- Authentication
+- OAuth
 - Multi-Market
 - Multi-Currency
 - Consumer
@@ -946,4 +946,5 @@ tags:
 - Inventory
 - Order Management
 - Checkout
+- Authentication
 ---

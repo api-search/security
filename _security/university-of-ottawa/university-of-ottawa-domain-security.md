@@ -91,7 +91,6 @@ tags:
 - Education
 - Canada
 - Ontario
-- Bilingual
 - Public Research University
 - U15
 - Institutional Repository

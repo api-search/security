@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: sugarcrm-com-rest-api-openapi.yml
-  format: yaml
-  label: SugarCRM REST API
-  slug: sugarcrm-rest-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/sugarcrm-com/openapi/sugarcrm-com-rest-api-openapi.yml
 - filename: sugarcrm-com-openapi-generated.yml
   format: yaml
   label: SugarCRM API
@@ -53,7 +47,7 @@ tags:
 - CRM
 - Sales
 - B2B
-- SaaS
-- AI
+- Software-as-a-Service
+- Artificial Intelligence
 - Integration
 ---

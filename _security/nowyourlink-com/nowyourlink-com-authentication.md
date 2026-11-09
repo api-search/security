@@ -83,7 +83,6 @@ summary_line: 1 scheme
 tags:
 - Advertising
 - Marketplace
-- Auction
-- API
+- Auctions
 - Technology
 ---

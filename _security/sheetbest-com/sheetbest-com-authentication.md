@@ -37,8 +37,7 @@ source_yaml_url: https://artifacts.apis.io/sheetbest-com/authentication/sheetbes
 summary_line: 1 scheme
 tags:
 - Company
-- API
-- Spreadsheet
+- Spreadsheets
 - Data Integration
 - Automation
 ---

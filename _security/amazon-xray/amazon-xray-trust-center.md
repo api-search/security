@@ -150,6 +150,12 @@ api_specs:
   slug: amazon-xray-updatesamplingrule-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-xray/openapi/amazon-xray-updatesamplingrule-api-openapi.yml
+- filename: amazon-xray-operations-api-openapi.yml
+  format: yaml
+  label: Amazon X-Ray Xray Operations API
+  slug: amazon-xray-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-xray/openapi/amazon-xray-operations-api-openapi.yml
 - filename: amazon-xray-delete-group-api-openapi.yml
   format: yaml
   label: Amazon X-Ray Delete Group API
@@ -186,12 +192,6 @@ api_specs:
   slug: amazon-xray-update-group-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-xray/openapi/amazon-xray-update-group-api-openapi.yml
-- filename: amazon-xray-operations-api-openapi.yml
-  format: yaml
-  label: Amazon X-Ray Xray Operations API
-  slug: amazon-xray-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-xray/openapi/amazon-xray-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -216,6 +216,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-xray/security/amazon-xray-trus
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Application Performance
+- Amazon Web Services
 - Debugging
 - Developer Tools
 - Distributed Tracing

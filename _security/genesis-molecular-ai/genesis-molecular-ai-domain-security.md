@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/genesis-molecular-ai/security/genesis
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- DrugDiscovery
+- Artificial Intelligence
+- Drug Discovery
 - Biotechnology
 - Platform
 ---

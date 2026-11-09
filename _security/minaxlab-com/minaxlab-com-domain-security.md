@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/minaxlab-com/security/minaxlab-com-do
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Creative
 - Tools
 - Platform

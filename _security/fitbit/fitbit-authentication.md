@@ -39,28 +39,18 @@ schemes:
 - flows:
   - authorizationUrl: https://www.fitbit.com/oauth2/authorize
     flow: authorizationCode
-    scopes: 15
+    scopes: 1
     tokenUrl: https://api.fitbit.com/oauth2/token
   name: OAuth2
   sources:
-  - openapi/fitbit-activity-api-openapi.yml
-  - openapi/fitbit-body-api-openapi.yml
-  - openapi/fitbit-devices-api-openapi.yml
-  - openapi/fitbit-ecg-irn-api-openapi.yml
-  - openapi/fitbit-friends-api-openapi.yml
-  - openapi/fitbit-heart-rate-api-openapi.yml
-  - openapi/fitbit-nutrition-api-openapi.yml
-  - openapi/fitbit-sleep-api-openapi.yml
-  - openapi/fitbit-spo2-breathing-temperature-api-openapi.yml
-  - openapi/fitbit-subscriptions-api-openapi.yml
+  - openapi/fitbit-foods-api-openapi.yml
   - openapi/fitbit-user-api-openapi.yml
   type: oauth2
 slug: fitbit-authentication
 source_filename: fitbit-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/fitbit-activity-api-openapi.yml, openapi/fitbit-body-api-openapi.yml, openapi/fitbit-devices-api-openapi.yml,\n  openapi/fitbit-ecg-irn-api-openapi.yml, openapi/fitbit-friends-api-openapi.yml, openapi/fitbit-heart-rate-api-openapi.yml,\n  openapi/fitbit-nutrition-api-openapi.yml, openapi/fitbit-sleep-api-openapi.yml, openapi/fitbit-spo2-breathing-temperature-api-openapi.yml,\n  openapi/fitbit-subscriptions-api-openapi.yml, openapi/fitbit-user-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.fitbit.com/oauth2/authorize\n    tokenUrl: https://api.fitbit.com/oauth2/token\n    scopes: 15\n  sources:\n  - openapi/fitbit-activity-api-openapi.yml\n  - openapi/fitbit-body-api-openapi.yml\n  - openapi/fitbit-devices-api-openapi.yml\n  - openapi/fitbit-ecg-irn-api-openapi.yml\n\
-  \  - openapi/fitbit-friends-api-openapi.yml\n  - openapi/fitbit-heart-rate-api-openapi.yml\n  - openapi/fitbit-nutrition-api-openapi.yml\n  - openapi/fitbit-sleep-api-openapi.yml\n  - openapi/fitbit-spo2-breathing-temperature-api-openapi.yml\n  - openapi/fitbit-subscriptions-api-openapi.yml\n  - openapi/fitbit-user-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/fitbit-foods-api-openapi.yml, openapi/fitbit-user-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.fitbit.com/oauth2/authorize\n    tokenUrl: https://api.fitbit.com/oauth2/token\n    scopes: 1\n  sources:\n  - openapi/fitbit-foods-api-openapi.yml\n  - openapi/fitbit-user-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/fitbit/authentication/fitbit-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

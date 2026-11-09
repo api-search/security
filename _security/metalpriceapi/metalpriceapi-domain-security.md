@@ -34,6 +34,5 @@ tags:
 - Company
 - Metals
 - Finance
-- API
 - Data
 ---

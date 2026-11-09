@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/blockit-ai/security/blockit-ai-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Scheduling
 - Productivity
 - Calendar

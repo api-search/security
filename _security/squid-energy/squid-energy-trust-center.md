@@ -22,8 +22,8 @@ summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Company
 - Energy
-- PowerSystems
+- Power Systems
 - Modeling
-- GridPlanning
+- Grid Planning
 trust_url: https://www.squid.energy/security
 ---

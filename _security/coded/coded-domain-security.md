@@ -39,4 +39,7 @@ tags:
 - Cybersecurity
 - Data Science
 - Kuwait
+- Bootcamps
+- Technology
+- Coding
 ---

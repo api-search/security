@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/cuponation/security/cuponation-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- E-commerce
+- E-Commerce
 - Cashback
 - Coupons
 - Digital Shopping

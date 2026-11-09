@@ -62,8 +62,7 @@ source_yaml_url: https://artifacts.apis.io/threadsnoop-com/authentication/thread
 summary_line: 2 schemes
 tags:
 - Reddit
-- API
-- AI
+- Artificial Intelligence
 - MCP
-- Read‑only
+- Read Only
 ---

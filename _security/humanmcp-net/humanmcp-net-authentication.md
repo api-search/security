@@ -32,6 +32,5 @@ tags:
 - Company
 - Human
 - MCP
-- API
 - OpenAPI
 ---

@@ -23,10 +23,10 @@
       {% when 'plans' %}{% assign _title_suffix = ' — API Pricing Plans' %}
       {% when 'ratelimits' %}{% assign _title_suffix = ' — API Rate Limits' %}
       {% when 'finops' %}{% assign _title_suffix = ' — API FinOps Profile' %}
-      {% when 'industries' %}{% assign _title_suffix = ' — Industry Vertical, API Providers' %}
-      {% when 'regions' %}{% assign _title_suffix = ' — Sales Region, API Providers' %}
-      {% when 'skills' %}{% assign _title_suffix = ' — Official Agent Skill' %}
-      {% when 'servers' %}{% assign _title_suffix = ' — Official MCP Server' %}
+      {% when 'industries' %}{% assign _title_suffix = ' — APIs and Providers by Industry' %}
+      {% when 'regions' %}{% assign _title_suffix = ' — APIs and Providers by Region' %}
+      {% when 'skills' %}{% assign _title_suffix = ' — Agent Skill' %}
+      {% when 'servers' %}{% assign _title_suffix = ' — MCP Server' %}
       {% when 'channels' %}{% assign _title_suffix = ' — Event-Driven Channel' %}
       {% when 'channel_providers' %}{% assign _title_suffix = ' — Event-Driven API Provider' %}
     {% endcase %}
@@ -44,11 +44,11 @@
         {% when 'plan' %}{% assign _title_suffix = ' — API Pricing Plans' %}
         {% when 'ratelimit' %}{% assign _title_suffix = ' — API Rate Limits' %}
         {% when 'finops' %}{% assign _title_suffix = ' — API FinOps Profile' %}
-        {% when 'industry' %}{% assign _title_suffix = ' — Industry Vertical, API Providers' %}
-        {% when 'region' %}{% assign _title_suffix = ' — Sales Region, API Providers' %}
-        {% when 'skill' %}{% assign _title_suffix = ' — Official Agent Skill' %}
-        {% when 'skill-provider' %}{% assign _title_suffix = ' — Official Agent Skills' %}
-        {% when 'mcp-server' %}{% assign _title_suffix = ' — Official MCP Server' %}
+        {% when 'industry' %}{% assign _title_suffix = ' — APIs and Providers by Industry' %}
+        {% when 'region' %}{% assign _title_suffix = ' — APIs and Providers by Region' %}
+        {% when 'skill' %}{% assign _title_suffix = ' — Agent Skill' %}
+        {% when 'skill-provider' %}{% assign _title_suffix = ' — Agent Skills' %}
+        {% when 'mcp-server' %}{% assign _title_suffix = ' — MCP Server' %}
         {% when 'channel' %}{% assign _title_suffix = ' — Event-Driven Channel' %}
         {% when 'channel-provider' %}{% assign _title_suffix = ' — Event-Driven API Provider' %}
       {% endcase %}
@@ -63,11 +63,36 @@
     {% elsif page.collection == 'apis' and page.name %}
       {% assign _pd = page.provider_name | downcase %}
       {% capture _seo_title %}{{ page.name }}{% unless _nd contains 'api' %} API{% endunless %}{% if page.provider_name and page.provider_name != page.name %}{% unless _nd contains _pd %} ({{ page.provider_name }}){% endunless %}{% endif %} — OpenAPI &amp; Docs | APIs.io{% endcapture %}
+    {% comment %} EVERY OTHER COLLECTION (2026-11-02): Jekyll gives each document a slug-derived
+       page.title, so the suffix table above never fired and pages read "Argocd Plans Pricing |
+       APIs.io Plans". /plans/ alone had 168K impressions, on searches like "encord pricing".
+       Lead with the provider's real name and the thing searched for. {% endcomment %}
+    {% elsif page.collection == 'plans' and page.provider_name %}
+      {% capture _seo_title %}{{ page.provider_name }} Pricing &amp; API Plans | APIs.io{% endcapture %}
+    {% elsif page.collection == 'ratelimits' and page.provider_name %}
+      {% capture _seo_title %}{{ page.provider_name }} API Rate Limits | APIs.io{% endcapture %}
+    {% elsif page.collection == 'finops' and page.provider_name %}
+      {% capture _seo_title %}{{ page.provider_name }} API FinOps Profile | APIs.io{% endcapture %}
+    {% elsif page.collection == 'scopes' and page.provider_name %}
+      {% capture _seo_title %}{{ page.provider_name }} OAuth Scopes | APIs.io{% endcapture %}
+    {% elsif page.collection == 'security' and page.provider_name and page.kind == 'authentication' %}
+      {% capture _seo_title %}{{ page.provider_name }} API Authentication | APIs.io{% endcapture %}
+    {% elsif page.collection == 'security' and page.provider_name and page.kind == 'domain-security' %}
+      {% capture _seo_title %}{{ page.provider_name }} Domain Security Profile | APIs.io{% endcapture %}
+    {% elsif page.collection == 'security' and page.provider_name and page.kind == 'vulnerability-disclosure' %}
+      {% capture _seo_title %}{{ page.provider_name }} Vulnerability Disclosure | APIs.io{% endcapture %}
+    {% elsif page.collection == 'security' and page.provider_name and page.kind == 'trust-center' %}
+      {% capture _seo_title %}{{ page.provider_name }} Trust Center | APIs.io{% endcapture %}
+    {% elsif page.collection and page.name and _title_suffix != '' %}
+      {% assign _pd = page.provider_name | downcase %}
+      {% capture _seo_title %}{{ page.name }}{% if page.provider_name %}{% unless _nd contains _pd %} ({{ page.provider_name }}){% endunless %}{% endif %}{{ _title_suffix }} | APIs.io{% endcapture %}
     {% endif %}
     <title>{% if page.meta_title %}{{ page.meta_title }}{% if paginator.page and paginator.page > 1 %} — Page {{ paginator.page }}{% endif %}{% elsif _seo_title != "" %}{{ _seo_title }}{% elsif page.title %}{{ page.title }}{% if paginator.page and paginator.page > 1 %} — Page {{ paginator.page }}{% endif %} | {{ site.name }}{% elsif page.name %}{{ page.name }}{{ _title_suffix }} | {{ site.name }}{% else %}{{ site.name }} - {{ site.description }}{% endif %}</title>
-    <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% if paginator.page and paginator.page > 1 %} Page {{ paginator.page }}{% endif %}{% elsif page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 160 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% elsif page.collection == "posts" and page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 160 }}{% elsif page.collection == "tags" %}{{ page.name }} APIs on APIs.io: {{ page.api_count | default: 0 }} API{% if page.api_count != 1 %}s{% endif %} from {{ page.api_provider_count | default: 0 }} provider{% if page.api_provider_count != 1 %}s{% endif %} tagged {{ page.name }}{% if page.broader.size > 0 %}, under {{ page.broader | join: ", " }}{% endif %} — compare their OpenAPI, ratings and agent readiness.{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% if paginator.page and paginator.page > 1 %} Page {{ paginator.page }}{% endif %}{% elsif page.collection == "plans" and page.plans.size > 0 and page.provider_name %}{% assign _pn = page.plans | map: "name" | compact %}{% capture _pdesc %}{{ page.provider_name }} pricing and API plans on APIs.io: {{ page.plans.size }} plan{% if page.plans.size != 1 %}s{% endif %}{% if _pn.size > 0 %}, including {{ _pn | slice: 0, 3 | join: ", " }}{% endif %}. See limits, inclusions and sources.{% endcapture %}{{ _pdesc | normalize_whitespace | truncate: 160 | escape_once }}{% elsif page.overview %}{{ page.overview | markdownify | strip_html | normalize_whitespace | truncate: 160 | escape_once }}{% elsif page.description %}{{ page.description | strip_html | normalize_whitespace | truncate: 160 | escape_once }}{% elsif page.collection == "posts" and page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape_once }}{% elsif page.collection == "tags" %}{{ page.name }} APIs on APIs.io: {{ page.api_count | default: 0 }} API{% if page.api_count != 1 %}s{% endif %} from {{ page.api_provider_count | default: 0 }} provider{% if page.api_provider_count != 1 %}s{% endif %} tagged {{ page.name }}{% if page.broader.size > 0 %}, under {{ page.broader | join: ", " }}{% endif %} — compare their OpenAPI, ratings and agent readiness.{% else %}{{ site.description }}{% endif %}">
     <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', ' }}, {% endif %}{{ site.keywords | join: ', ' }}">
     <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% elsif page.url contains "/plugin/apis-io/skills/" %}{{ page.url | replace_first: "/plugin/apis-io/skills/", "/skills/" | prepend: site.url }}{% else %}{{ page.url | prepend: site.url }}{% endif %}">
+    {%- if page.noindex %}
+    <meta name="robots" content="noindex">{% endif %}
     <link rel="api-catalog" href="https://apis.io/.well-known/api-catalog" type="application/linkset+json">
     <link rel="agent-skills" href="https://apis.io/skills/">
     {%- comment -%}
@@ -113,7 +138,7 @@
 
     <!-- Open Graph -->
     <meta property="og:title" content="{% if _seo_title != "" %}{{ _seo_title }}{% elsif page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
-    <meta property="og:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 200 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 200 }}{% elsif page.collection == "posts" and page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 200 }}{% elsif page.collection == "tags" %}{{ page.name }} APIs on APIs.io: {{ page.api_count | default: 0 }} API{% if page.api_count != 1 %}s{% endif %} from {{ page.api_provider_count | default: 0 }} provider{% if page.api_provider_count != 1 %}s{% endif %} tagged {{ page.name }}{% if page.broader.size > 0 %}, under {{ page.broader | join: ", " }}{% endif %} — compare their OpenAPI, ratings and agent readiness.{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | normalize_whitespace | truncate: 200 | escape_once }}{% elsif page.description %}{{ page.description | strip_html | normalize_whitespace | truncate: 200 | escape_once }}{% elsif page.collection == "posts" and page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace | truncate: 200 | escape_once }}{% elsif page.collection == "tags" %}{{ page.name }} APIs on APIs.io: {{ page.api_count | default: 0 }} API{% if page.api_count != 1 %}s{% endif %} from {{ page.api_provider_count | default: 0 }} provider{% if page.api_provider_count != 1 %}s{% endif %} tagged {{ page.name }}{% if page.broader.size > 0 %}, under {{ page.broader | join: ", " }}{% endif %} — compare their OpenAPI, ratings and agent readiness.{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
     <meta property="og:site_name" content="{{ site.name }}">
     <meta property="og:type" content="{{ _og_type }}">
@@ -130,7 +155,7 @@
     <meta name="twitter:image" content="{{ _og_image }}">
     <meta name="twitter:image:alt" content="{{ _og_alt | escape }}">
     <meta name="twitter:title" content="{% if _seo_title != "" %}{{ _seo_title }}{% elsif page.title %}{{ page.title }} | {{ site.name }}{% elsif page.name %}{{ page.name }} | {{ site.name }}{% else %}{{ site.name }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | strip_newlines | truncate: 200 }}{% elsif page.description %}{{ page.description | strip_html | strip_newlines | truncate: 200 }}{% elsif page.collection == "posts" and page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | truncate: 200 }}{% elsif page.collection == "tags" %}{{ page.name }} APIs on APIs.io: {{ page.api_count | default: 0 }} API{% if page.api_count != 1 %}s{% endif %} from {{ page.api_provider_count | default: 0 }} provider{% if page.api_provider_count != 1 %}s{% endif %} tagged {{ page.name }}{% if page.broader.size > 0 %}, under {{ page.broader | join: ", " }}{% endif %} — compare their OpenAPI, ratings and agent readiness.{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.overview %}{{ page.overview | markdownify | strip_html | normalize_whitespace | truncate: 200 | escape_once }}{% elsif page.description %}{{ page.description | strip_html | normalize_whitespace | truncate: 200 | escape_once }}{% elsif page.collection == "posts" and page.excerpt %}{{ page.excerpt | strip_html | normalize_whitespace | truncate: 200 | escape_once }}{% elsif page.collection == "tags" %}{{ page.name }} APIs on APIs.io: {{ page.api_count | default: 0 }} API{% if page.api_count != 1 %}s{% endif %} from {{ page.api_provider_count | default: 0 }} provider{% if page.api_provider_count != 1 %}s{% endif %} tagged {{ page.name }}{% if page.broader.size > 0 %}, under {{ page.broader | join: ", " }}{% endif %} — compare their OpenAPI, ratings and agent readiness.{% else %}{{ site.description }}{% endif %}">
 
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">

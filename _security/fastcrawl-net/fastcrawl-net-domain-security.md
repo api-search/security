@@ -127,7 +127,7 @@ source_yaml_url: https://artifacts.apis.io/fastcrawl-net/security/fastcrawl-net-
 summary_line: TLSv1.3
 tags:
 - Web Scraping
-- AI
+- Artificial Intelligence
 - Content Extraction
 - REST API
 - MCP

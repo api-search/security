@@ -109,7 +109,6 @@ summary_line: apiKey · 2 schemes
 tags:
 - Cricket
 - Data
-- Developer-Friendly
 - Football
 - Formula 1
 - Live Scores

@@ -129,8 +129,7 @@ source_yaml_url: https://artifacts.apis.io/signdocs-com-br/authentication/signdo
 summary_line: 2 schemes
 tags:
 - Company
-- DigitalSignature
+- Digital Signature
 - Brazil
-- API
-- DocumentManagement
+- Document Management
 ---

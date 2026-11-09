@@ -21,8 +21,8 @@ summary_line: ISO 27001, GDPR
 tags:
 - GIS
 - Mapping
-- Spatial-Analytics
-- Enterprise-Software
-- UK
+- Spatial Analytics
+- Enterprise Software
+- United Kingdom
 trust_url: https://trust.esriuk.com/
 ---

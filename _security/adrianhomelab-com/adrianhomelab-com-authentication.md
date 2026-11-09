@@ -40,10 +40,10 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource: https://leadgen
 source_yaml_url: https://artifacts.apis.io/adrianhomelab-com/authentication/adrianhomelab-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- frontend
-- react
-- javascript
-- typescript
-- web-development
-- portfolio
+- Frontend
+- React
+- JavaScript
+- TypeScript
+- Web Development
+- Portfolio
 ---

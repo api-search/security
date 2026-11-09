@@ -36,7 +36,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Time Tracking
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Productivity
 ---

@@ -58,7 +58,6 @@ tags:
 - Government
 - Law
 - Regulations
-- API
-- OpenData
+- Open Data
 - Free
 ---

@@ -19,7 +19,7 @@ source_yaml_url: https://artifacts.apis.io/zania/security/zania-trust-center.yml
 summary_line: SOC 2
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Compliance
 - Risk Management
 - GRC

@@ -50,8 +50,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Insurance
-- Risk
-- API
+- Risk Management
 - Data
 - Analytics
 ---

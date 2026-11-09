@@ -92,8 +92,6 @@ source_yaml_url: https://artifacts.apis.io/tppflow-com/security/tppflow-com-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Data
 - Analytics
-- Unknown
 ---

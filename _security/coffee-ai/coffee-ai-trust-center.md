@@ -21,7 +21,7 @@ source_yaml_url: https://artifacts.apis.io/coffee-ai/security/coffee-ai-trust-ce
 summary_line: SOC 2, HIPAA, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - CRM
 - Sales
 - Automation

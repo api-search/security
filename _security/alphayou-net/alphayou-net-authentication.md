@@ -46,8 +46,8 @@ source_yaml_url: https://artifacts.apis.io/alphayou-net/authentication/alphayou-
 summary_line: apiKey/http · 2 schemes
 tags:
 - Finance
-- StockResearch
+- Stock Research
 - TradingTools
-- MarketAnalytics
+- Market Analytics
 - Alerts
 ---

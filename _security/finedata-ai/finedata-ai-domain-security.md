@@ -86,9 +86,9 @@ source_yaml_url: https://artifacts.apis.io/finedata-ai/security/finedata-ai-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
-- WebScraping
-- DataExtraction
+- Artificial Intelligence
+- Web Scraping
+- Data Extraction
 - MCP
 - LLM
 ---

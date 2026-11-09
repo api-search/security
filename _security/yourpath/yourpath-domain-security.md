@@ -34,5 +34,5 @@ tags:
 - Health
 - Mental Health
 - Telehealth
-- Substance-Use
+- SubstanceUse
 ---

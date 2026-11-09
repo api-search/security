@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/smugmug/authentication/smugmug-authen
 summary_line: 2 schemes
 tags:
 - Photography
-- PhotoSharing
-- ECommerce
-- CloudStorage
-- SaaS
+- Photo Sharing
+- E-Commerce
+- Cloud Storage
+- Software-as-a-Service
 ---

@@ -26,8 +26,8 @@
   .section-anchor / .breakdown-card / .stat-badge with different rules, and this block has to look
   the same on all of them.
 {%- endcomment -%}
-{%- assign _cb_data = site.data.cohort_brief -%}
-{%- assign _cb = _cb_data.briefs[page.slug] -%}
+{%- comment -%} roadmap#1069. NEVER assign a whole data file to a variable: Liquid's assign tag walks the value to score it, so it costs every row on every page. {%- endcomment -%}
+{%- assign _cb = site.data.cohort_brief.briefs[page.slug] -%}
 {%- if _cb -%}
 {%- assign kind = site.nav_active -%}
 {%- case kind -%}
@@ -291,10 +291,10 @@
       {%- endif -%}
     {%- endif -%}
     Generated from the catalog build of
-    {{ _cb_data.catalog_generated_at | date: "%-d %B %Y" }}, across {{ _cb_data.catalog_providers }}
+    {{ site.data.cohort_brief.catalog_generated_at | date: "%-d %B %Y" }}, across {{ site.data.cohort_brief.catalog_providers }}
     providers, using the same computation served by the
     <a href="https://apis.io/api/">APIs.io cohort API</a>. Briefs are published for rosters of
-    {{ _cb_data.min_cohort }} or more scored providers; below that a distribution is not meaningful.
+    {{ site.data.cohort_brief.min_cohort }} or more scored providers; below that a distribution is not meaningful.
   </div>
 
 </div>

@@ -35,4 +35,8 @@ tags:
 - Marketing
 - E-Commerce
 - Data
+- Identity Resolution
+- Data Enrichment
+- Software-as-a-Service
+- B2B
 ---

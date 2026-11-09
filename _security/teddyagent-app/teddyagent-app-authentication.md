@@ -27,9 +27,9 @@ source_yaml_url: https://artifacts.apis.io/teddyagent-app/authentication/teddyag
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Education
 - Productivity
 - Collaboration
-- Knowledge-Management
+- Knowledge Management
 ---

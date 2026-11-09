@@ -121,6 +121,6 @@ tags:
 - Application Development
 - Project Management
 - Workflow Automation
-- Databases
+- Database
 trust_url: https://www.quickbase.com/compliance
 ---

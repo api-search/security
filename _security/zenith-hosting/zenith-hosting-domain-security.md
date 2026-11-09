@@ -33,6 +33,6 @@ tags:
 - Company
 - Hosting
 - Cloud
-- SaaS
-- Apps
+- Software-as-a-Service
+- Application
 ---

@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-25'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/ebbcarbon/security/ebbcarbon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- ClimateTech
+- Climate Tech
 - WaterSecurity
-- CarbonRemoval
+- Carbon Removal
 - Desalination
-- CleanTech
+- Cleantech
 ---

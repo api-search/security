@@ -31,7 +31,7 @@ summary_line: 1 scheme
 tags:
 - Security
 - Threat Intelligence
-- AI
+- Artificial Intelligence
 - Platform
 - Exposure Management
 ---

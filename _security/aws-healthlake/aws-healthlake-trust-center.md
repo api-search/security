@@ -74,5 +74,6 @@ tags:
 - Natural Language Processing
 - Medical
 - HL7
+- Amazon Web Services
 trust_url: https://aws.amazon.com/compliance/
 ---

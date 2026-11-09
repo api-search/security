@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/coursestorm/security/coursestorm-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education
-- SaaS
+- Software-as-a-Service
 - Registration
 - Community
 - Arts

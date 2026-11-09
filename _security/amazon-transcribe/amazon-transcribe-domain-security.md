@@ -101,6 +101,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-transcribe/security/amazon-tra
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Audio Processing
+- Amazon Web Services
 - Machine Learning
 - Speech Recognition
 - Speech-to-Text

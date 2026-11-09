@@ -69,9 +69,8 @@ source_yaml_url: https://artifacts.apis.io/ecommercedataapi-com/security/ecommer
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- ecommerce
-- data
-- api
-- amazon
-- market-research
+- E-Commerce
+- Data
+- Amazon
+- Market Research
 ---

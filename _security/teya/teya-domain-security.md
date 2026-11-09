@@ -147,4 +147,6 @@ tags:
 - Fintech
 - Merchant Services
 - Europe
+- Card Machines
+- Business Accounts
 ---

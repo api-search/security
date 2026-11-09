@@ -52,8 +52,9 @@ tags:
 - Cloud Platform
 - Artificial Intelligence
 - South Korea
-- Authentication
+- OAuth
 - SMS
 - OCR
 - Webtoon
+- Authentication
 ---

@@ -42,8 +42,8 @@ source_yaml_url: https://artifacts.apis.io/useclad-ai/authentication/useclad-ai-
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Support
-- SaaS
+- Software-as-a-Service
 - Automation
 ---

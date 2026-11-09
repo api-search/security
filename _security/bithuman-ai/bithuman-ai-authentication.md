@@ -140,8 +140,8 @@ source_yaml_url: https://artifacts.apis.io/bithuman-ai/authentication/bithuman-a
 summary_line: 2 schemes
 tags:
 - Company
-- AI
-- Avatar
-- Real-time
+- Artificial Intelligence
+- Avatars
+- Real-Time
 - Platform
 ---

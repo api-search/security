@@ -144,6 +144,54 @@ api_specs:
   slug: babyblueviper-com-waternova-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-waternova-api-openapi.yml
+- filename: babyblueviper-com-admission-chain-api-openapi.yml
+  format: yaml
+  label: invinoveritas Admission Chain API
+  slug: babyblueviper-com-admission-chain-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-admission-chain-api-openapi.yml
+- filename: babyblueviper-com-check-api-openapi.yml
+  format: yaml
+  label: invinoveritas Check API
+  slug: babyblueviper-com-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-check-api-openapi.yml
+- filename: babyblueviper-com-embed-api-openapi.yml
+  format: yaml
+  label: invinoveritas Embed API
+  slug: babyblueviper-com-embed-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-embed-api-openapi.yml
+- filename: babyblueviper-com-keys-api-openapi.yml
+  format: yaml
+  label: invinoveritas Keys API
+  slug: babyblueviper-com-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-keys-api-openapi.yml
+- filename: babyblueviper-com-media-api-openapi.yml
+  format: yaml
+  label: invinoveritas Media API
+  slug: babyblueviper-com-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-media-api-openapi.yml
+- filename: babyblueviper-com-register-media-api-openapi.yml
+  format: yaml
+  label: invinoveritas Register Media API
+  slug: babyblueviper-com-register-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-register-media-api-openapi.yml
+- filename: babyblueviper-com-verify-media-api-openapi.yml
+  format: yaml
+  label: invinoveritas Verify Media API
+  slug: babyblueviper-com-verify-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-verify-media-api-openapi.yml
+- filename: babyblueviper-com-work-acceptance-api-openapi.yml
+  format: yaml
+  label: invinoveritas Work Acceptance API
+  slug: babyblueviper-com-work-acceptance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/babyblueviper-com/openapi/babyblueviper-com-work-acceptance-api-openapi.yml
 description: ''
 domains:
 - caa: []

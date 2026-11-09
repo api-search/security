@@ -34,4 +34,6 @@ tags:
 - High Performance Computing
 - SDK
 - China
+- Artificial Intelligence
+- Cloud
 ---

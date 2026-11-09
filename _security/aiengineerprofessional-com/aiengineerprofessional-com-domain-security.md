@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/aiengineerprofessional-com/security/a
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Engineering
 - Guides
 - Knowledge

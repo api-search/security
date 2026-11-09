@@ -146,5 +146,6 @@ tags:
 - Payments
 - Sweden
 - Small Business
+- OAuth
 - Authentication
 ---

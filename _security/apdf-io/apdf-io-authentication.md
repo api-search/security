@@ -28,7 +28,6 @@ summary_line: 1 scheme
 tags:
 - PDF
 - Analytics
-- API
-- SaaS
+- Software-as-a-Service
 - Engagement
 ---

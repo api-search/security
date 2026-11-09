@@ -144,6 +144,7 @@ tags:
 - Telehealth
 - Health and Wellness
 - REST API
-- Authentication
+- OAuth
 - Webhook
+- Authentication
 ---

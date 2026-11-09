@@ -145,7 +145,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Notarization
-- LegalTech
-- SaaS
-- DigitalSignature
+- Legal Tech
+- Software-as-a-Service
+- Digital Signature
 ---

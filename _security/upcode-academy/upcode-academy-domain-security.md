@@ -37,4 +37,7 @@ tags:
 - Data Science
 - Singapore
 - Defunct
+- Coding
+- Tutorials
+- Community
 ---

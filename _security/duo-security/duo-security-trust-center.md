@@ -68,5 +68,10 @@ tags:
 - Zero Trust
 - Identity
 - Identity Federation
+- Security
+- Multi-Factor Authentication
+- Identity and Access Management
+- Cloud Services
+- Enterprise
 trust_url: https://duo.com/support/security-and-reliability
 ---

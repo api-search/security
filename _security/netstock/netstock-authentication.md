@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/netstock/authentication/netstock-auth
 summary_line: 0 schemes
 tags:
 - Supply Chain Planning
-- Inventory Management
+- Inventory
 - Demand Planning
-- AI
+- Artificial Intelligence
 - ERP Integration
 - Manufacturing
 - Retail

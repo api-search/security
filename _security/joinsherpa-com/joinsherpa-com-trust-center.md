@@ -21,7 +21,6 @@ summary_line: SOC 2, PCI DSS
 tags:
 - Travel
 - eVisa
-- API
 - Airlines
 - TravelTech
 trust_url: https://trust.joinsherpa.com/

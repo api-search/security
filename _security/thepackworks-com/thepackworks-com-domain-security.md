@@ -28,9 +28,8 @@ source_yaml_url: https://artifacts.apis.io/thepackworks-com/security/thepackwork
 summary_line: DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Marketplace
 - Philippines
 - Sari-sari
-- API
 ---

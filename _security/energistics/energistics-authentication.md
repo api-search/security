@@ -43,7 +43,7 @@ summary_line: 3 schemes
 tags:
 - Data Standards
 - Energy Industry
-- Oil & Gas
+- Oil and Gas
 - Non‑profit Consortium
 - Data Interoperability
 - Technical Standards

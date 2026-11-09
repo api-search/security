@@ -66,7 +66,9 @@ source_yaml_url: https://artifacts.apis.io/amazon-cognito/security/amazon-cognit
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Authentication
+- Amazon Web Services
 - Identity
+- OAuth
 - OpenID Connect
 - SAML
 - User Management

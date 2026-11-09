@@ -88,7 +88,7 @@ summary_line: http · 1 scheme
 tags:
 - Finance
 - Data
-- AI
+- Artificial Intelligence
 - QuantitativeTools
-- DeveloperAPI
+- Developer API
 ---

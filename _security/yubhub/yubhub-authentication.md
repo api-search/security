@@ -29,8 +29,7 @@ source_yaml_url: https://artifacts.apis.io/yubhub/authentication/yubhub-authenti
 summary_line: 1 scheme
 tags:
 - JobFeed
-- Recruitment
-- API
-- UK
-- DataEnrichment
+- Recruiting
+- United Kingdom
+- Data Enrichment
 ---

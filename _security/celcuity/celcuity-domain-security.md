@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/celcuity/security/celcuity-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cancer therapies
-- Clinical trials
-- Breast cancer
-- Prostate cancer
+- Clinical Trials
+- Breast Cancer
+- Prostate Cancer
 - Solid tumors
 ---

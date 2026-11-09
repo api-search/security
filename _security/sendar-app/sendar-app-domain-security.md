@@ -58,6 +58,5 @@ tags:
 - Company
 - Logistics
 - Delivery
-- API
 - Automation
 ---

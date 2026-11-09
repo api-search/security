@@ -50,8 +50,7 @@ source_yaml_url: https://artifacts.apis.io/formcarry-com/security/formcarry-com-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Forms
 - Backend-as-a-Service
-- Webhooks
+- Webhook
 ---

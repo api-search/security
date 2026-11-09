@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/umesh-malik-com/authentication/umesh-
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cloud
 - Observability
-- DeveloperTools
+- Developer Tools
 ---

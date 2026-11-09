@@ -42,6 +42,6 @@ tags:
 - Filings
 - Stocks
 - MCP
-- llms-txt
+- Llms.txt
 - OpenAPI
 ---

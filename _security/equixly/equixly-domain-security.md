@@ -38,7 +38,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Security
-- AI
-- PenetrationTesting
-- Continuous
+- Artificial Intelligence
+- Penetration Testing
 ---

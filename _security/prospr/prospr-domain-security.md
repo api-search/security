@@ -30,7 +30,7 @@ source_yaml_url: https://artifacts.apis.io/prospr/security/prospr-domain-securit
 summary_line: TLSv1.3
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Frontline Management
 - Collaboration
 - Scheduling

@@ -33,6 +33,6 @@ tags:
 - Company
 - Geospatial
 - Intelligence
-- Nonprofit
+- Non-Profit
 - Community
 ---

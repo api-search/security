@@ -34,6 +34,6 @@ tags:
 - Company
 - Artificial Intelligence
 - Proxy
-- Cost‑Saving
+- Cost-Saving
 - Open Source
 ---

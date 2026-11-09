@@ -31,10 +31,10 @@ source_yaml: "generated: '2026-10-26'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/stitch-data/security/stitch-data-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- data integration
+- Data Integration
 - ETL
-- data pipelines
-- cloud data
-- data warehouse
-- data lake
+- Data Pipeline
+- Cloud Data
+- Data Warehouse
+- Data Lake
 ---

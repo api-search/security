@@ -75,6 +75,7 @@ source_yaml: "generated: '2026-06-20'\nmethod: searched\nsource: >-\n  https://d
 source_yaml_url: https://artifacts.apis.io/amazon-secrets-manager/authentication/amazon-secrets-manager-authentication.yml
 summary_line: aws-sigv4 · 1 scheme
 tags:
+- Amazon Web Services
 - Configuration
 - Credentials
 - Rotation

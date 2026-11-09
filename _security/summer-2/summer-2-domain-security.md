@@ -40,4 +40,6 @@ tags:
 - PropTech
 - Artificial Intelligence
 - Market Intelligence
+- Asset Intelligence
+- Revenue Forecasting
 ---

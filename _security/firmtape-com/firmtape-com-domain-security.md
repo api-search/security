@@ -6,6 +6,18 @@ api_specs:
   slug: firmtape-com-levels-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/firmtape-com/openapi/firmtape-com-levels-api-openapi.yml
+- filename: firmtape-com-days-api-openapi.yml
+  format: yaml
+  label: FirmTape Days API
+  slug: firmtape-com-days-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/firmtape-com/openapi/firmtape-com-days-api-openapi.yml
+- filename: firmtape-com-session-api-openapi.yml
+  format: yaml
+  label: FirmTape Session API
+  slug: firmtape-com-session-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/firmtape-com/openapi/firmtape-com-session-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -27,8 +39,8 @@ layout: security
 method: probed
 name: Firmtape Com Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for firmtape-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: firmtape-com
+overview: 'Domain security posture for FirmTape, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: FirmTape
 provider_slug: firmtape-com
 slug: firmtape-com-domain-security
 source_filename: firmtape-com-domain-security.yml

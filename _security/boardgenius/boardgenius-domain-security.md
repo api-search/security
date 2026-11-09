@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/boardgenius/security/boardgenius-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- SaaS
+- Software-as-a-Service
 - Integration
 - Automation
-- Project-Management
+- Project Management
 ---

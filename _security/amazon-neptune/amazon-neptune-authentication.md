@@ -210,6 +210,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-n
 source_yaml_url: https://artifacts.apis.io/amazon-neptune/authentication/amazon-neptune-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Database
 - Graph Database
 - Gremlin

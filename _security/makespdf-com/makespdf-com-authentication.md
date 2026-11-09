@@ -77,7 +77,6 @@ summary_line: 3 schemes
 tags:
 - Company
 - PDF
-- API
 - Conversion
-- Developer
+- Developers
 ---

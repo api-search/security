@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/crowdcast/security/crowdcast-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Video
-- Live-Streaming
+- Live Streaming
 - Webinars
 - Community
-- SaaS
+- Software-as-a-Service
 ---

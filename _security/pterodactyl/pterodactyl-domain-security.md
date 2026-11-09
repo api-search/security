@@ -89,5 +89,4 @@ tags:
 - Game Server
 - Open Source
 - Docker
-- API
 ---

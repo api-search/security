@@ -51,7 +51,6 @@ summary_line: 3 schemes
 tags:
 - Logistics
 - Shipping
-- E‑commerce
-- API
+- E-Commerce
 - Norway
 ---

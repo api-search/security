@@ -46,8 +46,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Kubernetes
-- Development Environments
-- Cloud Native
+- Developer Environments
+- Cloud-Native
 - Developer Tools
 - Preview Environments
 - AI Agents

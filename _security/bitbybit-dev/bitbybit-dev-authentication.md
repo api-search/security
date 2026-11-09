@@ -84,7 +84,6 @@ summary_line: 1 scheme
 tags:
 - 3D CAD
 - TypeScript
-- API
 - Platform
 - Creative Coding
 - Modeling

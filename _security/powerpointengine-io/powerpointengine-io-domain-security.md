@@ -39,7 +39,6 @@ source_yaml_url: https://artifacts.apis.io/powerpointengine-io/security/powerpoi
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - PowerPoint
 - Presentation
 - Automation

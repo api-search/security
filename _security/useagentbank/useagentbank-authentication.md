@@ -39,8 +39,8 @@ summary_line: 1 scheme
 tags:
 - Company
 - Finance
-- AI
+- Artificial Intelligence
 - Banking
-- Crypto
+- Cryptocurrency
 - Payments
 ---

@@ -69,12 +69,6 @@ api_specs:
   slug: amazon-ground-station-tags-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-tags-api-openapi.yml
-- filename: amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
-  format: yaml
-  label: Amazon Ground Station Dataflow Endpoint Group API
-  slug: amazon-ground-station-dataflow-endpoint-group-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
 - filename: amazon-ground-station-operations-api-openapi.yml
   format: yaml
   label: Amazon Ground Station Ground Station Operations API
@@ -87,6 +81,12 @@ api_specs:
   slug: amazon-ground-station-versions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-versions-api-openapi.yml
+- filename: amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
+  format: yaml
+  label: Amazon Ground Station Dataflow Endpoint Group API
+  slug: amazon-ground-station-dataflow-endpoint-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ground-station/openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -117,6 +117,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-g
 source_yaml_url: https://artifacts.apis.io/amazon-ground-station/authentication/amazon-ground-station-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Data Processing
 - IoT
 - Satellite Communications

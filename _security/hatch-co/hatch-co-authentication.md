@@ -29,10 +29,10 @@ source_yaml: 'generated: ''2026-10-29''
 source_yaml_url: https://artifacts.apis.io/hatch-co/authentication/hatch-co-authentication.yml
 summary_line: 0 schemes
 tags:
-- sleep
-- health
-- smart-home
-- iot
-- family
-- wellness
+- Sleep
+- Health
+- Smart Home
+- IoT
+- Family
+- Wellness
 ---

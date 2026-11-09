@@ -67,5 +67,7 @@ tags:
 - Behavioral Data
 - E-Commerce
 - Webhook
+- Artificial Intelligence
+- Identity
 trust_url: https://trust.wunderkind.co/
 ---

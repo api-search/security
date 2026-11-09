@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/botsee-io/authentication/botsee-io-au
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Visibility
 - Analytics
 - LLM

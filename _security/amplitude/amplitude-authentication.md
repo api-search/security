@@ -75,12 +75,6 @@ api_specs:
   slug: amplitude-event-types-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amplitude/openapi/amplitude-event-types-api-openapi.yml
-- filename: amplitude-events-api-openapi.yml
-  format: yaml
-  label: Amplitude Events API
-  slug: amplitude-events-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amplitude/openapi/amplitude-events-api-openapi.yml
 - filename: amplitude-experiments-api-openapi.yml
   format: yaml
   label: Amplitude Experiments API
@@ -147,6 +141,48 @@ api_specs:
   slug: amplitude-versions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amplitude/openapi/amplitude-versions-api-openapi.yml
+- filename: amplitude-analytics-api-openapi.yml
+  format: yaml
+  label: Amplitude Analytics API
+  slug: amplitude-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amplitude/openapi/amplitude-analytics-api-openapi.yml
+- filename: amplitude-dsar-api-openapi.yml
+  format: yaml
+  label: Amplitude DSAR API
+  slug: amplitude-dsar-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amplitude/openapi/amplitude-dsar-api-openapi.yml
+- filename: amplitude-export-api-openapi.yml
+  format: yaml
+  label: Amplitude Export API
+  slug: amplitude-export-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amplitude/openapi/amplitude-export-api-openapi.yml
+- filename: amplitude-ingestion-api-openapi.yml
+  format: yaml
+  label: Amplitude Ingestion API
+  slug: amplitude-ingestion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amplitude/openapi/amplitude-ingestion-api-openapi.yml
+- filename: amplitude-mcp-api-openapi.yml
+  format: yaml
+  label: Amplitude MCP API
+  slug: amplitude-mcp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amplitude/openapi/amplitude-mcp-api-openapi.yml
+- filename: amplitude-site-content-api-openapi.yml
+  format: yaml
+  label: Amplitude Site content API
+  slug: amplitude-site-content-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amplitude/openapi/amplitude-site-content-api-openapi.yml
+- filename: amplitude-taxonomy-api-openapi.yml
+  format: yaml
+  label: Amplitude Taxonomy API
+  slug: amplitude-taxonomy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amplitude/openapi/amplitude-taxonomy-api-openapi.yml
 auth_types:
 - apiKey
 - http

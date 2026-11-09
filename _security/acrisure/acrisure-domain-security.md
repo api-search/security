@@ -65,5 +65,6 @@ tags:
 - Mortgage
 - Surety
 - MCP
+- OAuth
 - Authentication
 ---

@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/cincel/security/cincel-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- DigitalSignature
-- SaaS
-- LatinAmerica
+- Digital Signature
+- Software-as-a-Service
+- Latin America
 - Compliance
 ---

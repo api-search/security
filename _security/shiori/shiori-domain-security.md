@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/shiori/security/shiori-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Bookmarks
-- Self-hosted
-- Open-source
+- Self-Hosted
+- Open Source
 - Go
 - CLI
 ---

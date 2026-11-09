@@ -62,8 +62,7 @@ source_yaml_url: https://artifacts.apis.io/ireceipt-pro/security/ireceipt-pro-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - PDF
-- ImageGeneration
+- Image Generation
 - Templates
 ---

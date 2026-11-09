@@ -32,9 +32,9 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://docs.tr
 source_yaml_url: https://artifacts.apis.io/trilo-chat/authentication/trilo-chat-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Collaboration
 - Productivity
 - Workspace
-- Chatbot
+- Chatbots
 ---

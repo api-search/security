@@ -35,6 +35,6 @@ tags:
 - Financial Services
 - Community Bank
 - Ohio
-- Personal Banking
+- Consumer Banking
 - Business Banking
 ---

@@ -66,4 +66,8 @@ tags:
 - AI Agents
 - MCP
 - Insight Partners
+- Artificial Intelligence
+- Observability
+- Monitoring
+- Platform
 ---

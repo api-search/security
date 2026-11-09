@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/juma/authentication/juma-authenticati
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Marketing
 - Automation
-- SaaS
+- Software-as-a-Service
 - Advertising
 ---

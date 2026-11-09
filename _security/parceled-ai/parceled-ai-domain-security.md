@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/parceled-ai/security/parceled-ai-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- RealEstate
-- DataAPI
+- Real Estate
+- Data API
 - Mapping
-- AI
+- Artificial Intelligence
 ---

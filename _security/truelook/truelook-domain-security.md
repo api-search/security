@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Construction
 - Security
-- AI
+- Artificial Intelligence
 - Video
 - Monitoring
-- SaaS
+- Software-as-a-Service
 ---

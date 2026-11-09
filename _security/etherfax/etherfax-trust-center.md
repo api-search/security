@@ -60,8 +60,8 @@ summary_line: PCI DSS, HIPAA, FedRAMP, GDPR
 tags:
 - Fax
 - Cloud
-- AI
+- Artificial Intelligence
 - Secure
-- DocumentAutomation
+- Document Automation
 trust_url: https://www.etherfax.net/security/
 ---

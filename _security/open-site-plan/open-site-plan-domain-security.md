@@ -32,6 +32,6 @@ tags:
 - Company
 - Web
 - Infrastructure
-- Site-Management
-- SaaS
+- Site Management
+- Software-as-a-Service
 ---

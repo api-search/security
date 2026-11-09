@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/hugo-team/security/hugo-team-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI
-- Customer Support
-- SaaS
+- Artificial Intelligence
+- Customer Service
+- Software-as-a-Service
 - Automation
 - Enterprise
 ---

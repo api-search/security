@@ -29,7 +29,6 @@ summary_line: DMARC
 tags:
 - Company
 - Fintech
-- APIs
 - Compliance
-- DataAnalytics
+- Data Analytics
 ---

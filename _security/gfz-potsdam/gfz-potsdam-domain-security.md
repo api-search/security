@@ -37,5 +37,5 @@ tags:
 - Geosciences
 - Research
 - Data
-- EarthScience
+- Earth Science
 ---

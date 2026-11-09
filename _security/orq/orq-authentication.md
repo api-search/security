@@ -385,7 +385,7 @@ source_yaml: "generated: '2026-10-21'\nmethod: derived\nsource: openapi/orq-open
 source_yaml_url: https://artifacts.apis.io/orq/authentication/orq-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Platform
 - Enterprise
 - Governance

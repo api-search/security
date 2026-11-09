@@ -24,6 +24,6 @@ tags:
 - Finance
 - Planning
 - Budgeting
-- SaaS
+- Software-as-a-Service
 trust_url: https://trust.planful.com/
 ---

@@ -348,6 +348,126 @@ api_specs:
   slug: bird-workspaces-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bird/openapi/bird-workspaces-api-openapi.yml
+- filename: bird-amb-business-accounts-api-openapi.yml
+  format: yaml
+  label: Bird Amb Business Accounts API
+  slug: bird-amb-business-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-amb-business-accounts-api-openapi.yml
+- filename: bird-amb-conversations-api-openapi.yml
+  format: yaml
+  label: Bird Amb Conversations API
+  slug: bird-amb-conversations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-amb-conversations-api-openapi.yml
+- filename: bird-amb-messages-api-openapi.yml
+  format: yaml
+  label: Bird Amb Messages API
+  slug: bird-amb-messages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-amb-messages-api-openapi.yml
+- filename: bird-amb-routing-rules-api-openapi.yml
+  format: yaml
+  label: Bird Amb Routing Rules API
+  slug: bird-amb-routing-rules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-amb-routing-rules-api-openapi.yml
+- filename: bird-amb-stats-api-openapi.yml
+  format: yaml
+  label: Bird Amb Stats API
+  slug: bird-amb-stats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-amb-stats-api-openapi.yml
+- filename: bird-amb-suppressions-api-openapi.yml
+  format: yaml
+  label: Bird Amb Suppressions API
+  slug: bird-amb-suppressions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-amb-suppressions-api-openapi.yml
+- filename: bird-amb-templates-api-openapi.yml
+  format: yaml
+  label: Bird Amb Templates API
+  slug: bird-amb-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-amb-templates-api-openapi.yml
+- filename: bird-asset-folders-api-openapi.yml
+  format: yaml
+  label: Bird Asset Folders API
+  slug: bird-asset-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-asset-folders-api-openapi.yml
+- filename: bird-assets-api-openapi.yml
+  format: yaml
+  label: Bird Assets API
+  slug: bird-assets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-assets-api-openapi.yml
+- filename: bird-esim-offers-api-openapi.yml
+  format: yaml
+  label: Bird Esim Offers API
+  slug: bird-esim-offers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-esim-offers-api-openapi.yml
+- filename: bird-esim-zones-api-openapi.yml
+  format: yaml
+  label: Bird Esim Zones API
+  slug: bird-esim-zones-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-esim-zones-api-openapi.yml
+- filename: bird-esims-api-openapi.yml
+  format: yaml
+  label: Bird Esims API
+  slug: bird-esims-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-esims-api-openapi.yml
+- filename: bird-voice-destinations-api-openapi.yml
+  format: yaml
+  label: Bird Voice Destinations API
+  slug: bird-voice-destinations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-voice-destinations-api-openapi.yml
+- filename: bird-voice-legs-api-openapi.yml
+  format: yaml
+  label: Bird Voice Legs API
+  slug: bird-voice-legs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-voice-legs-api-openapi.yml
+- filename: bird-voice-numbers-api-openapi.yml
+  format: yaml
+  label: Bird Voice Numbers API
+  slug: bird-voice-numbers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-voice-numbers-api-openapi.yml
+- filename: bird-voice-trunks-api-openapi.yml
+  format: yaml
+  label: Bird Voice Trunks API
+  slug: bird-voice-trunks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-voice-trunks-api-openapi.yml
+- filename: bird-voice-verified-numbers-api-openapi.yml
+  format: yaml
+  label: Bird Voice Verified Numbers API
+  slug: bird-voice-verified-numbers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-voice-verified-numbers-api-openapi.yml
+- filename: bird-whatsapp-agent-notifications-api-openapi.yml
+  format: yaml
+  label: Bird Whatsapp Agent Notifications API
+  slug: bird-whatsapp-agent-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-whatsapp-agent-notifications-api-openapi.yml
+- filename: bird-whatsapp-groups-api-openapi.yml
+  format: yaml
+  label: Bird Whatsapp Groups API
+  slug: bird-whatsapp-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-whatsapp-groups-api-openapi.yml
+- filename: bird-whatsapp-suppressions-api-openapi.yml
+  format: yaml
+  label: Bird Whatsapp Suppressions API
+  slug: bird-whatsapp-suppressions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bird/openapi/bird-whatsapp-suppressions-api-openapi.yml
 - filename: bird-language-detection-api-openapi.yml
   format: yaml
   label: Bird Language Detection API

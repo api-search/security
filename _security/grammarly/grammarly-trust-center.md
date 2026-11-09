@@ -27,7 +27,8 @@ tags:
 - Natural Language Processing
 - Analytics
 - Content
-- Authentication
+- OAuth
 - Enterprise
+- Authentication
 trust_url: https://www.grammarly.com/trust
 ---

@@ -238,7 +238,7 @@ source_yaml_url: https://artifacts.apis.io/roark/security/roark-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Company
-- VoiceAI
+- Voice AI
 - Testing
 - Evaluation
 - Benchmarking

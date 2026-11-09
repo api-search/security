@@ -80,9 +80,8 @@ source_yaml_url: https://artifacts.apis.io/typesearch-ai/authentication/typesear
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Search
-- API
-- SaaS
+- Software-as-a-Service
 - Data
 ---

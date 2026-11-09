@@ -32,7 +32,7 @@ tags:
 - Platform
 - TLS
 - SSH
-- DeveloperTools
-- OpenSource
+- Developer Tools
+- Open Source
 - Company
 ---

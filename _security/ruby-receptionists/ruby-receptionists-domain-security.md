@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/ruby-receptionists/security/ruby-receptionists-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- virtual-receptionist
-- live-chat
+- Virtual Receptionist
+- Live Chat
 - 24-7-support
-- small-business
-- call-answering
+- Small Business
+- Call Answering
 ---

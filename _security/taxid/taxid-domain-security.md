@@ -33,6 +33,5 @@ tags:
 - Company
 - Tax
 - Validation
-- API
 - Fintech
 ---

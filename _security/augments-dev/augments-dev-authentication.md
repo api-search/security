@@ -52,9 +52,9 @@ source_yaml_url: https://artifacts.apis.io/augments-dev/authentication/augments-
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - TypeScript
 - npm
 - Documentation
-- CodeExamples
+- Code Examples
 ---

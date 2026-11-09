@@ -31,7 +31,6 @@ source_yaml_url: https://artifacts.apis.io/mintpdf-dev/authentication/mintpdf-de
 summary_line: http · 1 scheme
 tags:
 - Company
-- API
 - PDF
 - Markdown
 - HTML

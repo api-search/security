@@ -42,8 +42,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - LLM
 - Compression
-- API
 - Cost-Reduction
-- AI
-- DeveloperTools
+- Artificial Intelligence
+- Developer Tools
 ---

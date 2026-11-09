@@ -878,8 +878,7 @@ source_yaml_url: https://artifacts.apis.io/api-ninjas-com/security/api-ninjas-co
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- API
 - Data
 - Finance
-- Developer
+- Developers
 ---

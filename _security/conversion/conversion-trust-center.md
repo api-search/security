@@ -82,9 +82,9 @@ summary_line: SOC 2, GDPR
 tags:
 - Marketing
 - Automation
-- AI
+- Artificial Intelligence
 - B2B
-- SaaS
+- Software-as-a-Service
 - Platform
 trust_url: https://conversion.ai/security/
 ---

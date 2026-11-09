@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - MarineBiology
-- DataAnalytics
+- Data Analytics
 - EnvironmentalResearch
-- OpenData
+- Open Data
 ---

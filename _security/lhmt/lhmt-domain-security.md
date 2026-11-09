@@ -40,7 +40,6 @@ tags:
 - Company
 - Weather
 - Meteorology
-- API
 - Lithuania
 - Government
 ---

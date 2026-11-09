@@ -65,6 +65,6 @@ tags:
 - MCP
 - A2A
 - Webhook
-- llms-txt
+- Llms.txt
 - Agent-Native
 ---

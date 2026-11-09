@@ -43,6 +43,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - OpenID Connect
-- Authentication
+- OAuth
 - Identity
+- Authentication
 ---

@@ -36,10 +36,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/eloedge-com/authentication/eloedge-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
-- Prediction-Market
+- Artificial Intelligence
+- Prediction Market
 - Trading-Agent
 - MCP
-- Data-Feeds
+- Data Feed
 - Platform
 ---

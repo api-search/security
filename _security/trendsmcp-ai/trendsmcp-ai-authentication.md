@@ -33,7 +33,7 @@ source_yaml: "generated: '2026-10-29'\nmethod: searched\nsource:\n  - https://ww
 source_yaml_url: https://artifacts.apis.io/trendsmcp-ai/authentication/trendsmcp-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Trends
 - Data
 - Analytics

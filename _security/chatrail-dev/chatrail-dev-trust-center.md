@@ -105,9 +105,8 @@ source_yaml_url: https://artifacts.apis.io/chatrail-dev/security/chatrail-dev-tr
 summary_line: SOC 2, ISO 27001
 tags:
 - WhatsApp
-- API
 - Messaging
-- AI
+- Artificial Intelligence
 - Developers
 trust_url: https://www.chatrail.dev/security
 ---

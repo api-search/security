@@ -203,5 +203,5 @@ tags:
 - Cloud
 - VoIP
 - Collaboration
-- AI
+- Artificial Intelligence
 ---

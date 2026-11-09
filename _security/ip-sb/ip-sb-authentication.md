@@ -37,7 +37,6 @@ source_yaml_url: https://artifacts.apis.io/ip-sb/authentication/ip-sb-authentica
 summary_line: 0 schemes
 tags:
 - Company
-- API
 - IP
 - GeoIP
 - DNS

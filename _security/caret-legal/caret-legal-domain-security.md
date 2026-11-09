@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/caret-legal/security/caret-legal-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- LegalTech
-- SaaS
+- Legal Tech
+- Software-as-a-Service
 - Cloud
-- PracticeManagement
+- Practice Management
 ---

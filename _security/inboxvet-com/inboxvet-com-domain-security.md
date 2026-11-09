@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: inboxvet-com-openapi-generated.yml
+  format: yaml
+  label: inboxvet-com API
+  slug: inboxvet-com-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/inboxvet-com/openapi/_ae-authored/inboxvet-com-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -32,4 +39,7 @@ source_yaml_url: https://artifacts.apis.io/inboxvet-com/security/inboxvet-com-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
+- Email Verification
+- Software-as-a-Service
+- Marketing
 ---

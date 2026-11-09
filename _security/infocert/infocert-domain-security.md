@@ -663,7 +663,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Digital Trust
-- Electronic Signatures
+- E-Signature
 - Digital Identity
 - Certified Email
 - E-Invoicing

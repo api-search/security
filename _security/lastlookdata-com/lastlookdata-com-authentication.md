@@ -39,6 +39,6 @@ tags:
 - Company
 - Finance
 - Data
-- AI
-- MarketData
+- Artificial Intelligence
+- Market Data
 ---

@@ -34,6 +34,5 @@ tags:
 - Technology
 - Defense
 - Cyber-Physical
-- APIs
 - Embedded Systems
 ---

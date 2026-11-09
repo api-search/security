@@ -81,5 +81,5 @@ tags:
 - AI Agents
 - Rust
 - Open Source
-- Search API
+- SERP
 ---

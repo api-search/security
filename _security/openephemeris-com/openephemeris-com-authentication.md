@@ -173,8 +173,7 @@ summary_line: apiKey/http · 4 schemes
 tags:
 - Company
 - Astrology
-- AI
+- Artificial Intelligence
 - Astronomy
 - Data
-- API
 ---

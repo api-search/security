@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/virtuous/security/virtuous-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Nonprofit
+- Non-Profit
 - CRM
 - Fundraising
-- SaaS
+- Software-as-a-Service
 ---

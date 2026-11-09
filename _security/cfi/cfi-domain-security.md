@@ -34,6 +34,6 @@ tags:
 - Company
 - Education
 - Finance
-- Certifications
-- Online-Learning
+- Certification
+- E-Learning
 ---

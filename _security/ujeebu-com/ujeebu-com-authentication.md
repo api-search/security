@@ -28,9 +28,8 @@ source_yaml_url: https://artifacts.apis.io/ujeebu-com/authentication/ujeebu-com-
 summary_line: 1 scheme
 tags:
 - Company
-- API
-- WebScraping
-- DataExtraction
-- SaaS
+- Web Scraping
+- Data Extraction
+- Software-as-a-Service
 - Automation
 ---

@@ -33,5 +33,4 @@ tags:
 - News
 - Canada
 - Media
-- API
 ---

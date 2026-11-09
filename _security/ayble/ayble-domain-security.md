@@ -39,9 +39,9 @@ source_yaml_url: https://artifacts.apis.io/ayble/security/ayble-domain-security.
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Health
-- Telemedicine
-- DigestiveHealth
+- Telehealth
+- Digestive Health
 - VirtualClinic
-- EmployerBenefits
+- Employer Benefits
 - Healthcare
 ---

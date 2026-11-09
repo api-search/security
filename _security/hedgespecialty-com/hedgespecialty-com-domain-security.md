@@ -113,6 +113,6 @@ tags:
 - Company
 - Insurance
 - Wholesale
-- Brokers
+- Brokerage
 - Specialty
 ---

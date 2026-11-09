@@ -69,5 +69,5 @@ tags:
 - Publishing
 - Video
 - Content
-- Cross Posting
+- Cross-Posting
 ---

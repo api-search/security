@@ -34,5 +34,5 @@ tags:
 - Payments
 - Retail
 - Automation
-- POS
+- Point-of-Sale
 ---

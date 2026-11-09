@@ -1188,6 +1188,102 @@ api_specs:
   slug: benchling-worksheet-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/benchling/openapi/benchling-worksheet-api-openapi.yml
+- filename: benchling-aamonomer-api-openapi.yml
+  format: yaml
+  label: Benchling Aa Monomer API
+  slug: benchling-aamonomer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-aamonomer-api-openapi.yml
+- filename: benchling-appdefinition-api-openapi.yml
+  format: yaml
+  label: Benchling App Definition API
+  slug: benchling-appdefinition-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-appdefinition-api-openapi.yml
+- filename: benchling-appdefinitionversion-api-openapi.yml
+  format: yaml
+  label: Benchling App Definition Version API
+  slug: benchling-appdefinitionversion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-appdefinitionversion-api-openapi.yml
+- filename: benchling-attachment-api-openapi.yml
+  format: yaml
+  label: Benchling Attachment API
+  slug: benchling-attachment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-attachment-api-openapi.yml
+- filename: benchling-automationstep-api-openapi.yml
+  format: yaml
+  label: Benchling Automation Step API
+  slug: benchling-automationstep-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-automationstep-api-openapi.yml
+- filename: benchling-automationstepdata-api-openapi.yml
+  format: yaml
+  label: Benchling Automation Step Data API
+  slug: benchling-automationstepdata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-automationstepdata-api-openapi.yml
+- filename: benchling-automationtemplate-api-openapi.yml
+  format: yaml
+  label: Benchling Automation Template API
+  slug: benchling-automationtemplate-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-automationtemplate-api-openapi.yml
+- filename: benchling-automationtemplatedataframevariable-api-openapi.yml
+  format: yaml
+  label: Benchling Automation Template Data Frame Variable API
+  slug: benchling-automationtemplatedataframevariable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-automationtemplatedataframevariable-api-openapi.yml
+- filename: benchling-automationtemplatevariable-api-openapi.yml
+  format: yaml
+  label: Benchling Automation Template Variable API
+  slug: benchling-automationtemplatevariable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-automationtemplatevariable-api-openapi.yml
+- filename: benchling-documentpartresultstable-api-openapi.yml
+  format: yaml
+  label: Benchling Document Part Results Table API
+  slug: benchling-documentpartresultstable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-documentpartresultstable-api-openapi.yml
+- filename: benchling-documentpartunstructuredtable-api-openapi.yml
+  format: yaml
+  label: Benchling Document Part Unstructured Table API
+  slug: benchling-documentpartunstructuredtable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-documentpartunstructuredtable-api-openapi.yml
+- filename: benchling-platerecord-api-openapi.yml
+  format: yaml
+  label: Benchling Plate Record API
+  slug: benchling-platerecord-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-platerecord-api-openapi.yml
+- filename: benchling-procedureflowchartconfigversion-api-openapi.yml
+  format: yaml
+  label: Benchling Procedure Flowchart Config Version API
+  slug: benchling-procedureflowchartconfigversion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-procedureflowchartconfigversion-api-openapi.yml
+- filename: benchling-salt-api-openapi.yml
+  format: yaml
+  label: Benchling Salt API
+  slug: benchling-salt-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-salt-api-openapi.yml
+- filename: benchling-solvent-api-openapi.yml
+  format: yaml
+  label: Benchling Solvent API
+  slug: benchling-solvent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-solvent-api-openapi.yml
+- filename: benchling-systemcategory-api-openapi.yml
+  format: yaml
+  label: Benchling System Category API
+  slug: benchling-systemcategory-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/benchling/openapi/benchling-systemcategory-api-openapi.yml
 - filename: benchling-app-installation-api-openapi.yml
   format: yaml
   label: Benchling App Installation API

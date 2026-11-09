@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Ticketing
-- Events
-- SaaS
-- OnlinePayments
+- Event
+- Software-as-a-Service
+- Online Payments
 ---

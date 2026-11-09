@@ -33,6 +33,6 @@ tags:
 - Feedback
 - Surveys
 - Marketing
-- CustomerExperience
-- AI
+- Customer Experience
+- Artificial Intelligence
 ---

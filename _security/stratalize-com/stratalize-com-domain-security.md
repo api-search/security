@@ -42,6 +42,6 @@ tags:
 - Construction
 - Project Controls
 - Schedule Management
-- AI
+- Artificial Intelligence
 - Compliance
 ---

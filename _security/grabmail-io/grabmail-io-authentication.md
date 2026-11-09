@@ -45,7 +45,5 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - Email
-- Temporary
-- API
-- DeveloperTools
+- Developer Tools
 ---

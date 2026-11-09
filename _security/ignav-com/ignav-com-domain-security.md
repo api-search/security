@@ -51,9 +51,8 @@ source_yaml_url: https://artifacts.apis.io/ignav-com/security/ignav-com-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- Flight
+- Flights
 - Travel
-- API
 - Pricing
 - Data
 ---

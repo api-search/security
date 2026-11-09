@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/gorodeo-app/security/gorodeo-app-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Career
-- JobSearch
-- Startup
+- Careers
+- Job Search
+- Startups
 - Closed
 ---

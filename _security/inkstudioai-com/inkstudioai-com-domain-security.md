@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/inkstudioai-com/security/inkstudioai-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Tattoo
 - Design
 - Generator

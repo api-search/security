@@ -32,6 +32,5 @@ tags:
 - Travel
 - Flights
 - Price-Tracking
-- Data-Analytics
-- Free-Tool
+- Data Analytics
 ---

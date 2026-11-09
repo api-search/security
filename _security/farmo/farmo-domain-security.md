@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Agriculture
 - Industrial
-- SmartCity
-- RemoteMonitoring
+- Smart City
+- Remote Monitoring
 - Automation
 ---

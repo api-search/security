@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/teamcentral/security/teamcentral-doma
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Integration
-- Supply-Chain
+- Supply Chain
 - Enterprise
 ---

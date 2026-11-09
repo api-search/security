@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/joon/security/joon-domain-security.ym
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Cybersecurity
 - SOC
 - Automation

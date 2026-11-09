@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: eagle-doc-doc-api-openapi.yml
-  format: yaml
-  label: Eagle Doc API
-  slug: eagle-doc-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eagle-doc/openapi/eagle-doc-doc-api-openapi.yml
 - filename: eagle-doc-openapi-generated.yml
   format: yaml
   label: Eagle Doc API
@@ -44,9 +38,8 @@ source_yaml_url: https://artifacts.apis.io/eagle-doc/security/eagle-doc-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - OCR
 - Bookkeeping
-- Document-Processing
-- API
+- Document Processing
 ---

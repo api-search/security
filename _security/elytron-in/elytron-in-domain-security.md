@@ -36,8 +36,8 @@ source_yaml_url: https://artifacts.apis.io/elytron-in/security/elytron-in-domain
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
-- E-commerce
-- SaaS
+- Artificial Intelligence
+- E-Commerce
+- Software-as-a-Service
 - Retail
 ---

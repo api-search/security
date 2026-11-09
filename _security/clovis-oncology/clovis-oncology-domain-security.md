@@ -31,6 +31,6 @@ tags:
 - Company
 - Oncology
 - Biopharma
-- CancerTherapeutics
-- ClinicalTrials
+- Cancer Therapeutics
+- Clinical Trials
 ---

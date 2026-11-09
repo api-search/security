@@ -1,11 +1,4 @@
 ---
-api_specs:
-- filename: payjunction-payjunction-api-api-openapi.yml
-  format: yaml
-  label: PayJunction API
-  slug: payjunction-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/payjunction/openapi/payjunction-payjunction-api-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/payjunction/security/payjunction-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
-- FinTech
-- API
-- SaaS
+- Fintech
+- Software-as-a-Service
 - B2B
 ---

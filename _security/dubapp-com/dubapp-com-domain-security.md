@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/dubapp-com/security/dubapp-com-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- FinTech
-- CopyTrading
+- Fintech
+- Copy Trading
 - Investment
-- API
 ---

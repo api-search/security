@@ -30,5 +30,4 @@ summary_line: 1 scheme
 tags:
 - SMS
 - WhatsApp
-- API
 ---

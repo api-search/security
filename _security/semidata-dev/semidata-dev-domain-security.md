@@ -44,9 +44,9 @@ source_yaml_url: https://artifacts.apis.io/semidata-dev/security/semidata-dev-do
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Quantum
-- SupplyChain
-- DataAPI
+- Supply Chain
+- Data API
 - Intelligence
 ---

@@ -32,8 +32,7 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Subscription
 - Billing
-- SaaS
-- API
+- Software-as-a-Service
 - Payments
 - Company
 ---

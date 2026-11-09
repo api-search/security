@@ -36,8 +36,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - API Builder
-- AI
+- Artificial Intelligence
 - MCP
-- Low-code
+- Low-Code
 - Integration
 ---

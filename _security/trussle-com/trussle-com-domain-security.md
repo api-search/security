@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/trussle-com/security/trussle-com-doma
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Mortgage
-- FinTech
-- UK
-- Broker
+- Fintech
+- United Kingdom
+- Brokerage
 - Digital
 ---

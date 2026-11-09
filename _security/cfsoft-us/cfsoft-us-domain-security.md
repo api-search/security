@@ -62,8 +62,7 @@ source_yaml_url: https://artifacts.apis.io/cfsoft-us/security/cfsoft-us-domain-s
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
-- AI
+- Artificial Intelligence
 - Finance
 - Legal
 ---

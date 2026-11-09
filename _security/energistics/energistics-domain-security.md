@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Data Standards
 - Energy Industry
-- Oil & Gas
+- Oil and Gas
 - Non‑profit Consortium
 - Data Interoperability
 - Technical Standards

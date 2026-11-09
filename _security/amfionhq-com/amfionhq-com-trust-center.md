@@ -46,8 +46,8 @@ source_yaml_url: https://artifacts.apis.io/amfionhq-com/security/amfionhq-com-tr
 summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Company
-- AI
-- FrontDesk
+- Artificial Intelligence
+- Front Desk
 - Booking
 - Automation
 trust_url: https://amfionhq.com/security

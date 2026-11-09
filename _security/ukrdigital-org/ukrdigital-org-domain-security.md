@@ -35,5 +35,5 @@ tags:
 - HumanitarianAid
 - Ukraine
 - Web3
-- Nonprofit
+- Non-Profit
 ---

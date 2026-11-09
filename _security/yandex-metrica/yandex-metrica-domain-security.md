@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/yandex-metrica/security/yandex-metric
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Analytics
-- WebAnalytics
+- Web Analytics
 - Marketing
 - Yandex
 - Russia

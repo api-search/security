@@ -38,4 +38,6 @@ tags:
 - Marketplace
 - Hiring
 - Early Childhood Education
+- Recruiting
+- Software-as-a-Service
 ---

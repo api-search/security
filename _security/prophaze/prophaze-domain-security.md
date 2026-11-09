@@ -38,7 +38,7 @@ summary_line: DNSSEC · DMARC
 tags:
 - Company
 - Security
-- AI
+- Artificial Intelligence
 - WAAP
 - Enterprise
 ---

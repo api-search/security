@@ -182,6 +182,6 @@ tags:
 - Rendering
 - GPU
 - Blender
-- AI
+- Artificial Intelligence
 - Cloud
 ---

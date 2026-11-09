@@ -39,5 +39,5 @@ tags:
 - Observability
 - IT Infrastructure
 - Open Source
-- SaaS
+- Software-as-a-Service
 ---

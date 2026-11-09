@@ -47,7 +47,7 @@ tags:
 - Data Integration
 - Business Analytics
 - Embedded Analytics
-- AI
+- Artificial Intelligence
 - Financial Services
 - Healthcare
 - Manufacturing

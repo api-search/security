@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/timesolv/security/timesolv-domain-sec
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- LegalTech
-- TimeTracking
+- Legal Tech
+- Time Tracking
 - Billing
-- SaaS
-- PracticeManagement
+- Software-as-a-Service
+- Practice Management
 ---

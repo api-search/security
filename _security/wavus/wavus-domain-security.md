@@ -31,7 +31,6 @@ source_yaml_url: https://artifacts.apis.io/wavus/security/wavus-domain-security.
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- API
 - Technology
 - Platform
 - Services

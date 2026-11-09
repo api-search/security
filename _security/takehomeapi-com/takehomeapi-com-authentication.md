@@ -51,7 +51,7 @@ source_yaml_url: https://artifacts.apis.io/takehomeapi-com/authentication/takeho
 summary_line: 2 schemes
 tags:
 - Company
-- UK
+- United Kingdom
 - Finance
 - Tax
 - Payroll

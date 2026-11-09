@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/local-line/security/local-line-domain
 summary_line: TLSv1.3 · HSTS
 tags:
 - Agriculture
-- E-commerce
+- E-Commerce
 - Supply Chain
 - Food Tech
-- SaaS
+- Software-as-a-Service
 ---

@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Impact
-- eCommerce
+- E-Commerce
 - Marketing
-- SaaS
+- Software-as-a-Service
 ---

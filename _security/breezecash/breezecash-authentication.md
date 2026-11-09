@@ -134,9 +134,8 @@ source_yaml_url: https://artifacts.apis.io/breezecash/authentication/breezecash-
 summary_line: http · 1 scheme
 tags:
 - Company
-- FinTech
+- Fintech
 - Payments
-- Crypto
-- Startup
-- Venture-backed
+- Cryptocurrency
+- Startups
 ---

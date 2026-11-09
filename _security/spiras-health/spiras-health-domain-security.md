@@ -32,6 +32,6 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Home-based care
 - Nurse practitioner services
-- Health plans
-- Patient services
+- Health Plans
+- Patient Services
 ---

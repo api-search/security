@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Revenue Cycle Management
 - Healthcare
-- AI
+- Artificial Intelligence
 - Billing
 - Claims
 - Payments

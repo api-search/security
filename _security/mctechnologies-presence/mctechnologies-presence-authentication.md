@@ -1,13 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: mctechnologies-presence-tasks-api-openapi.yml
-  format: yaml
-  label: Presence API
-  slug: presence-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mctechnologies-presence/openapi/mctechnologies-presence-tasks-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
@@ -37,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/mctechnologies-presence/authenticatio
 summary_line: 0 schemes
 tags:
 - Company
-- HumanVerification
-- AI
-- OnDemand
+- Human Verification
+- Artificial Intelligence
+- On-Demand
 - Inspection
 ---

@@ -33,6 +33,6 @@ tags:
 - Company
 - Social
 - Networking
-- Apps
+- Application
 - Friendship
 ---

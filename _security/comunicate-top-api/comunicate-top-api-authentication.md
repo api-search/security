@@ -121,5 +121,6 @@ tags:
 - MCP
 - Open Data
 - Webhook
+- OAuth
 - Authentication
 ---

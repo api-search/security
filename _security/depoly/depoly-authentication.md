@@ -32,6 +32,6 @@ tags:
 - Company
 - Recycling
 - Plastics
-- CircularEconomy
+- Circular Economy
 - Technology
 ---

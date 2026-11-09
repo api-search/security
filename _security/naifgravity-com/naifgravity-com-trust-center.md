@@ -27,9 +27,8 @@ source_yaml_url: https://artifacts.apis.io/naifgravity-com/security/naifgravity-
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- API
 - Webhook
-- AI
+- Artificial Intelligence
 - Technical Services
 trust_url: https://naifgravity.com/trust
 ---

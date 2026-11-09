@@ -258,4 +258,6 @@ tags:
 - MCP
 - Platform
 - Identity Federation
+- OpenID Connect
+- Identity and Access Management
 ---

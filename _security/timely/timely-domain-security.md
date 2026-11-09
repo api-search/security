@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Time Tracking
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 - Productivity
 ---

@@ -32,9 +32,8 @@ source_yaml_url: https://artifacts.apis.io/shiprush/security/shiprush-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Shipping
-- Ecommerce
+- E-Commerce
 - Multi-Carrier
-- SaaS
-- API
+- Software-as-a-Service
 - Company
 ---

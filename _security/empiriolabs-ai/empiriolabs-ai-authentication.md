@@ -70,7 +70,7 @@ source_yaml_url: https://artifacts.apis.io/empiriolabs-ai/authentication/empirio
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Inference
 - Cloud
 - Platform

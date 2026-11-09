@@ -71,7 +71,7 @@ summary_line: SOC 2, ISO 27001, HIPAA
 tags:
 - Company
 - Speech
-- AI
+- Artificial Intelligence
 - Transcription
 - Voice
 trust_url: https://oruk.ai/security

@@ -39,8 +39,7 @@ source_yaml_url: https://artifacts.apis.io/screenshotscout-com/security/screensh
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Screenshots
-- API
-- WebAutomation
-- DeveloperTools
-- SaaS
+- Browser Automation
+- Developer Tools
+- Software-as-a-Service
 ---

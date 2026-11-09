@@ -37,8 +37,8 @@ source_yaml: "generated: '2026-10-22'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/phoebe-ai/authentication/phoebe-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
-- Machine-Learning
+- Artificial Intelligence
+- Machine Learning
 - Platform
 - Ethics
 - Enterprise

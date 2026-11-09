@@ -33,8 +33,8 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Warehouse
 - Logistics
-- SaaS
-- E-commerce
+- Software-as-a-Service
+- E-Commerce
 - Fulfilment
 - Company
 ---

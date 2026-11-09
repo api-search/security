@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/jaikin-eu/authentication/jaikin-eu-au
 summary_line: 2 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Odoo
-- Custom-Software
+- Custom Software
 - Consulting
 - France
 ---

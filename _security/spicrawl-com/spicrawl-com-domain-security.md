@@ -82,7 +82,6 @@ tags:
 - Company
 - Web Scraping
 - Data Extraction
-- API
 - Automation
-- AI
+- Artificial Intelligence
 ---

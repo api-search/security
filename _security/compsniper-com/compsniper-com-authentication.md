@@ -125,9 +125,8 @@ source_yaml_url: https://artifacts.apis.io/compsniper-com/authentication/compsni
 summary_line: 2 schemes
 tags:
 - Company
-- API
 - Marketplace
-- E-commerce
+- E-Commerce
 - Data
 - Collectibles
 ---

@@ -75,7 +75,7 @@ tags:
 - Social Data
 - Instagram
 - TikTok
-- twitter
+- Twitter
 - Reddit
 - Public Data
 - social-media-api

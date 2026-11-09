@@ -32,6 +32,6 @@ tags:
 - Company
 - Identity
 - Authentication
-- OpenSource
+- Open Source
 - Rust
 ---

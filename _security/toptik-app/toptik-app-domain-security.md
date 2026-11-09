@@ -45,7 +45,6 @@ source_yaml_url: https://artifacts.apis.io/toptik-app/security/toptik-app-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - TikTok
 - Data
 - Public

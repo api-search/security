@@ -31,9 +31,8 @@ source_yaml_url: https://artifacts.apis.io/pdfops-dev/security/pdfops-dev-domain
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- API
 - PDF
-- AI
-- No-code
+- Artificial Intelligence
+- No-Code
 - Python
 ---

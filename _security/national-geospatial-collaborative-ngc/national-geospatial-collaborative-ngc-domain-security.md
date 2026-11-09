@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/national-geospatial-collaborative-ngc
 summary_line: TLSv1.3 · HSTS
 tags:
 - Geospatial
-- Nonprofit
-- DataSharing
+- Non-Profit
+- Data Sharing
 - Collaboration
-- OpenSource
+- Open Source
 ---

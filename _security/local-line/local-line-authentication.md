@@ -28,8 +28,8 @@ source_yaml_url: https://artifacts.apis.io/local-line/authentication/local-line-
 summary_line: 0 schemes
 tags:
 - Agriculture
-- E-commerce
+- E-Commerce
 - Supply Chain
 - Food Tech
-- SaaS
+- Software-as-a-Service
 ---

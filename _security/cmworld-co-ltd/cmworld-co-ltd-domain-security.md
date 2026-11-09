@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/cmworld-co-ltd/security/cmworld-co-lt
 summary_line: TLSv1.3
 tags:
 - Company
-- AI
-- DigitalTwin
+- Artificial Intelligence
+- Digital Twin
 - GIS
-- SmartCities
+- Smart Cities
 ---

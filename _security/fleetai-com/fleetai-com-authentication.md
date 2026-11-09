@@ -115,7 +115,7 @@ tags:
 - Artificial Intelligence
 - AI Agents
 - Reinforcement Learning Environments
-- Evaluations
+- Evaluation
 - Simulation
 - Training Data
 ---

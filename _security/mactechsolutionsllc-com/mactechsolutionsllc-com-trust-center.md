@@ -23,7 +23,7 @@ summary_line: SOC 2, ISO 27001, FedRAMP, FIPS 140
 tags:
 - Cybersecurity
 - CMMC
-- NIST-800-171
+- NIST 800-171
 - DFARS
 - SDVOSB
 - Compliance

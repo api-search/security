@@ -30,7 +30,7 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Company
 - Health
-- DigitalHealth
-- Telemedicine
+- Digital Health
+- Telehealth
 - China
 ---

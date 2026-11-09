@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Restaurant
-- SaaS
-- API
+- Software-as-a-Service
 - Cloud
 ---

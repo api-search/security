@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/cirrus-logic/security/cirrus-logic-do
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Audio
 - IoT
 - Automotive

@@ -39,6 +39,6 @@ tags:
 - Company
 - Accounting
 - Automation
-- AI
+- Artificial Intelligence
 - Integration
 ---

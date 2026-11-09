@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Loyalty
 - Platform
-- SaaS
+- Software-as-a-Service
 - Retail
-- Consumer Brands
+- Consumer Brand
 - Company
 ---

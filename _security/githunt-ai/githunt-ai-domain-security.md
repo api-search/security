@@ -63,8 +63,8 @@ source_yaml_url: https://artifacts.apis.io/githunt-ai/security/githunt-ai-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Talent
-- Recruitment
-- Developer
+- Recruiting
+- Developers
 ---

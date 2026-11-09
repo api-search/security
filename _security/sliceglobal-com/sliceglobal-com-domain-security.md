@@ -34,6 +34,6 @@ tags:
 - Company
 - Equity
 - Compliance
-- SaaS
-- CapTable
+- Software-as-a-Service
+- Cap Table
 ---

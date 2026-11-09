@@ -28,9 +28,9 @@ source_yaml_url: https://artifacts.apis.io/appsignal/security/appsignal-trust-ce
 summary_line: ISO 27001, HIPAA, GDPR
 tags:
 - Monitoring
-- ErrorTracking
+- Error Tracking
 - Performance
 - Observability
-- SaaS
+- Software-as-a-Service
 trust_url: https://www.appsignal.com/security
 ---

@@ -118,7 +118,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Decision API
 - Rule Engine
-- SaaS
+- Software-as-a-Service
 - Automation
 - Runtime
 ---

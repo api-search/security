@@ -32,9 +32,8 @@ source_yaml_url: https://artifacts.apis.io/mappls/security/mappls-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- mapping
-- navigation
-- location
-- APIs
+- Mapping
+- Navigation
+- Location
 - India
 ---

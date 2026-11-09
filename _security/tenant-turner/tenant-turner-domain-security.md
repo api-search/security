@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/tenant-turner/security/tenant-turner-
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Leasing
-- Property-Management
+- Property Management
 - Automation
-- AI
-- SaaS
+- Artificial Intelligence
+- Software-as-a-Service
 ---

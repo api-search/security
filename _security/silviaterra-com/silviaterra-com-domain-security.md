@@ -30,7 +30,5 @@ summary_line: no transport/DNS hardening detected
 tags:
 - Agriculture
 - Data
-- APIs
-- SaaS
-- Venture-backed
+- Software-as-a-Service
 ---

@@ -37,10 +37,10 @@ source_yaml_url: https://artifacts.apis.io/fieldproxy-ai/authentication/fieldpro
 summary_line: 1 scheme
 tags:
 - Field Service Software
-- AI
+- Artificial Intelligence
 - Scheduling
 - Dispatch
 - Invoicing
 - Customer Portal
-- Multi‑language
+- Multi-Language
 ---

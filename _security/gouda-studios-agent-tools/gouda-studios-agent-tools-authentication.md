@@ -40,6 +40,5 @@ tags:
 - Data
 - Government
 - Finance
-- API
 - Pay-per-result
 ---

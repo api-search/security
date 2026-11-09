@@ -29,8 +29,8 @@ source_yaml_url: https://artifacts.apis.io/listenbrainz/security/listenbrainz-do
 summary_line: DMARC
 tags:
 - Music
-- OpenSource
+- Open Source
 - Community
-- DataAPI
-- Listening
+- Data API
+- Social Listening
 ---

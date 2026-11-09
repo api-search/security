@@ -34,6 +34,6 @@ tags:
 - Email Management
 - Legal AI
 - Workflow Automation
-- Integrations
+- Integration
 - Security
 ---

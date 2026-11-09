@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/thisisalice-com/security/thisisalice-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Benefits
 - Payroll
-- EmployeeExperience
+- Employee Experience
 ---

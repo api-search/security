@@ -54,7 +54,7 @@ source_yaml_url: https://artifacts.apis.io/allscreenshots-com/authentication/all
 summary_line: apiKey/http · 3 schemes
 tags:
 - Company
-- ScreenshotAPI
+- Screenshots
 - Automation
 - Marketing
 - Developers

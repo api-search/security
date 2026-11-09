@@ -27,9 +27,8 @@ source_yaml_url: https://artifacts.apis.io/banksapi/security/banksapi-trust-cent
 summary_line: ISO 27001, GDPR
 tags:
 - Banking
-- API
-- FinTech
+- Fintech
 - Payments
-- DataAnalytics
+- Data Analytics
 trust_url: https://banksapi.de/en/security/
 ---

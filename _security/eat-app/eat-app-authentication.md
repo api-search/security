@@ -80,4 +80,6 @@ tags:
 - Booking
 - Guest CRM
 - Availability
+- Reservation
+- Software-as-a-Service
 ---

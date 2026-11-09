@@ -76,6 +76,5 @@ tags:
 - Company
 - RDAP
 - Domain
-- API
-- Whois
+- WHOIS
 ---

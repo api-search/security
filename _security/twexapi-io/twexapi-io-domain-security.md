@@ -172,8 +172,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Social
 - Data
-- API
 - X
 - Credit
-- AI
+- Artificial Intelligence
 ---

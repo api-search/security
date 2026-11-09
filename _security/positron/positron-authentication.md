@@ -78,7 +78,7 @@ summary_line: apiKey/http-bearer · 2 schemes
 tags:
 - Artificial Intelligence
 - Inference
-- inference-hardware
+- Inference Hardware
 - AI Accelerators
 - LLM
 - Transformers

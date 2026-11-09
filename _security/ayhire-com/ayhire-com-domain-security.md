@@ -81,7 +81,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Hiring
-- DeveloperTools
-- Recruitment
-- OpenSource
+- Developer Tools
+- Recruiting
+- Open Source
 ---

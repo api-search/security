@@ -41,6 +41,6 @@ tags:
 - Superannuation
 - Retirement
 - Financial Services
-- Investments
+- Investment
 - Australia
 ---

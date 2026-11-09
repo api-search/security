@@ -126,10 +126,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/klisten-co-kr/security/klisten-co-kr-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AI
+- Artificial Intelligence
 - ToolGuard
 - MCP
 - Policy
-- API
 - Prepaid
 ---

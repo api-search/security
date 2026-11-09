@@ -67,8 +67,7 @@ tags:
 - Company
 - Security
 - Cloud
-- API
-- AI
+- Artificial Intelligence
 - Platform
 trust_url: https://www.intruder.io/security
 ---

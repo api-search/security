@@ -91,9 +91,9 @@ source_yaml_url: https://artifacts.apis.io/nginx-proxy-manager/authentication/ng
 summary_line: 0 schemes
 tags:
 - Company
-- OpenSource
+- Open Source
 - Docker
-- Nginx
+- NGINX
 - Proxy
 - SSL
 ---

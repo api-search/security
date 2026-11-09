@@ -60,6 +60,18 @@ api_specs:
   slug: atomicwork-workspaces-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/atomicwork/openapi/atomicwork-workspaces-api-openapi.yml
+- filename: atomicwork-assignees-api-openapi.yml
+  format: yaml
+  label: Atomicwork Assignees API
+  slug: atomicwork-assignees-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/atomicwork/openapi/atomicwork-assignees-api-openapi.yml
+- filename: atomicwork-importjobs-api-openapi.yml
+  format: yaml
+  label: Atomicwork Import Jobs API
+  slug: atomicwork-importjobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/atomicwork/openapi/atomicwork-importjobs-api-openapi.yml
 - filename: atomicwork-access-management-api-openapi.yml
   format: yaml
   label: Atomicwork Access Management API

@@ -49,9 +49,9 @@ source_yaml_url: https://artifacts.apis.io/userainbow-com/authentication/userain
 summary_line: 1 scheme
 tags:
 - Insurance
-- Restaurants
+- Restaurant
 - Commercial Real Estate
-- Beauty & Wellness
+- Beauty and Wellness
 - Agents
 - MGA
 ---

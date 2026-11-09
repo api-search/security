@@ -29,7 +29,6 @@ source_yaml_url: https://artifacts.apis.io/numeratica-com/authentication/numerat
 summary_line: 1 scheme
 tags:
 - Finance
-- API
 - Calculators
 - Retirement
 - Household

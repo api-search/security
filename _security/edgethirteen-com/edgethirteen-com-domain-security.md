@@ -33,6 +33,6 @@ tags:
 - Company
 - Finance
 - Investing
-- Newsletter
+- Newsletters
 - Value Investing
 ---

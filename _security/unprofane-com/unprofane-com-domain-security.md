@@ -41,7 +41,6 @@ tags:
 - Company
 - Profanity Filtering
 - Content Moderation
-- API
 - Machine Learning
 - Safety
 ---

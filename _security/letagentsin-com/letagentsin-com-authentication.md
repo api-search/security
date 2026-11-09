@@ -70,7 +70,7 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/letagentsin-com/authentication/letagentsin-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Agent Audits
 - Developer Tools
 - API Testing

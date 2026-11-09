@@ -20,10 +20,9 @@ source_yaml_url: https://artifacts.apis.io/actiondock-app/security/actiondock-ap
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- API
-- AI
+- Artificial Intelligence
 - MCP
-- Gateway
-- Human-in-the-loop
+- Gateways
+- Human-in-the-Loop
 trust_url: https://actiondock.app/security
 ---

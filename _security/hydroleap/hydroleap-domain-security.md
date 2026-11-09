@@ -34,7 +34,7 @@ tags:
 - Water Treatment
 - Wastewater
 - Cleantech
-- Greentech
+- GreenTech
 - Sustainability
 - Electrochemical
 - Industrial

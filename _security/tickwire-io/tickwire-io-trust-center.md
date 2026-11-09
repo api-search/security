@@ -22,7 +22,6 @@ tags:
 - Company
 - Finance
 - Trading
-- API
 - MetaTrader
 trust_url: https://tickwire.io/security/
 ---

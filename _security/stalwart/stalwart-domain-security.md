@@ -50,9 +50,9 @@ source_yaml_url: https://artifacts.apis.io/stalwart/security/stalwart-domain-sec
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Email
-- OpenSource
+- Open Source
 - Rust
 - Collaboration
-- Server
+- Servers
 - Company
 ---

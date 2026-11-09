@@ -33,6 +33,6 @@ tags:
 - Company
 - Gaming
 - Social
-- CreatorEconomy
+- Creator Economy
 - Web3
 ---

@@ -29,9 +29,9 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/reachpad-dev/authentication/reachpad-dev-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Collaboration
 - AppHosting
-- LowCode
+- Low-Code
 - Productivity
 ---

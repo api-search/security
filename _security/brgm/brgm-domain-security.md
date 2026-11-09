@@ -32,7 +32,7 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Geology
-- EarthScience
-- PublicService
+- Earth Science
+- Public Service
 - France
 ---

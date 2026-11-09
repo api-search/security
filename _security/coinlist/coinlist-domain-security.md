@@ -60,6 +60,12 @@ api_specs:
   slug: coinlist-oauth-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coinlist/openapi/coinlist-oauth-api-openapi.yml
+- filename: coinlist-ondo-api-openapi.yml
+  format: yaml
+  label: CoinList Ondo API
+  slug: coinlist-ondo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coinlist/openapi/coinlist-ondo-api-openapi.yml
 - filename: coinlist-document-submissions-api-openapi.yml
   format: yaml
   label: CoinList document submissions API
@@ -108,8 +114,9 @@ tags:
 - Token Sales
 - Tokenized Equities
 - KYC
-- Authentication
+- OAuth
 - Blockchain
 - Digital Assets
 - Embedded Finance
+- Authentication
 ---

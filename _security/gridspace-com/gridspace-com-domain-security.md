@@ -31,7 +31,6 @@ source_yaml_url: https://artifacts.apis.io/gridspace-com/security/gridspace-com-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Voice AI
-- API
 - Regulated Compliance
 - Healthcare
 - Insurance

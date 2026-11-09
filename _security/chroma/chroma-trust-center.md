@@ -63,7 +63,7 @@ source_yaml_url: https://artifacts.apis.io/chroma/security/chroma-trust-center.y
 summary_line: SOC 2, ISO 27001
 tags:
 - Artificial Intelligence
-- AI-Native
+- AI-native
 - Apache 2.0
 - Cloud
 - Embeddings

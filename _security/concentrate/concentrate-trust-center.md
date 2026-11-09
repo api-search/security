@@ -57,10 +57,9 @@ source_yaml_url: https://artifacts.apis.io/concentrate/security/concentrate-trus
 summary_line: SOC 2, HIPAA
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - LLM
-- Gateway
+- Gateways
 - Platform
-- API
 trust_url: https://trust.concentrate.ai/
 ---

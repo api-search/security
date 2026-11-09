@@ -6,6 +6,84 @@ api_specs:
   slug: google-drive-files-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-drive/openapi/google-drive-files-api-openapi.yml
+- filename: google-drive-about-api-openapi.yml
+  format: yaml
+  label: Google Drive About API
+  slug: google-drive-about-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-about-api-openapi.yml
+- filename: google-drive-accessproposals-api-openapi.yml
+  format: yaml
+  label: Google Drive Accessproposals API
+  slug: google-drive-accessproposals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-accessproposals-api-openapi.yml
+- filename: google-drive-approvals-api-openapi.yml
+  format: yaml
+  label: Google Drive Approvals API
+  slug: google-drive-approvals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-approvals-api-openapi.yml
+- filename: google-drive-apps-api-openapi.yml
+  format: yaml
+  label: Google Drive Apps API
+  slug: google-drive-apps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-apps-api-openapi.yml
+- filename: google-drive-changes-api-openapi.yml
+  format: yaml
+  label: Google Drive Changes API
+  slug: google-drive-changes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-changes-api-openapi.yml
+- filename: google-drive-channels-api-openapi.yml
+  format: yaml
+  label: Google Drive Channels API
+  slug: google-drive-channels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-channels-api-openapi.yml
+- filename: google-drive-comments-api-openapi.yml
+  format: yaml
+  label: Google Drive Comments API
+  slug: google-drive-comments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-comments-api-openapi.yml
+- filename: google-drive-drives-api-openapi.yml
+  format: yaml
+  label: Google Drive Drives API
+  slug: google-drive-drives-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-drives-api-openapi.yml
+- filename: google-drive-operations-api-openapi.yml
+  format: yaml
+  label: Google Drive Operations API
+  slug: google-drive-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-operations-api-openapi.yml
+- filename: google-drive-permissions-api-openapi.yml
+  format: yaml
+  label: Google Drive Permissions API
+  slug: google-drive-permissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-permissions-api-openapi.yml
+- filename: google-drive-replies-api-openapi.yml
+  format: yaml
+  label: Google Drive Replies API
+  slug: google-drive-replies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-replies-api-openapi.yml
+- filename: google-drive-revisions-api-openapi.yml
+  format: yaml
+  label: Google Drive Revisions API
+  slug: google-drive-revisions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-revisions-api-openapi.yml
+- filename: google-drive-teamdrives-api-openapi.yml
+  format: yaml
+  label: Google Drive Teamdrives API
+  slug: google-drive-teamdrives-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-teamdrives-api-openapi.yml
 certification_count: 11
 certifications:
 - SOC 1

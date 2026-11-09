@@ -24,6 +24,6 @@ tags:
 - Tax
 - Compliance
 - VAT
-- eInvoicing
+- E-Invoicing
 trust_url: https://fintua.com/security/
 ---

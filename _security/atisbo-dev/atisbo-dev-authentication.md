@@ -34,5 +34,5 @@ tags:
 - Product Management
 - Evidence
 - Decision Support
-- AI
+- Artificial Intelligence
 ---

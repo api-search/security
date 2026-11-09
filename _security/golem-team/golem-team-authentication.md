@@ -30,9 +30,9 @@ source_yaml_url: https://artifacts.apis.io/golem-team/authentication/golem-team-
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Security
-- Agent
+- Agents
 - Detection
 - Response
 ---

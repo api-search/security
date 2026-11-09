@@ -34,5 +34,5 @@ tags:
 - AerialSurvey
 - Geospatial
 - DroneTechnology
-- DataAnalytics
+- Data Analytics
 ---

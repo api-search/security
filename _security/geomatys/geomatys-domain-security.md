@@ -35,5 +35,5 @@ tags:
 - Geospatial
 - GIS
 - Mapping
-- DataIntegration
+- Data Integration
 ---

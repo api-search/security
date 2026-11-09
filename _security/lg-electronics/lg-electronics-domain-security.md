@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/lg-electronics/security/lg-electronic
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- SmartHome
+- Smart Home
 - IoT
-- ConsumerElectronics
-- AI
+- Consumer Electronics
+- Artificial Intelligence
 ---

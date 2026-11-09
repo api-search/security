@@ -46,7 +46,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - FinOps
-- CloudOptimization
-- AI
+- Cloud Optimization
+- Artificial Intelligence
 - Sustainability
 ---

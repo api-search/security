@@ -80,8 +80,7 @@ source_yaml_url: https://artifacts.apis.io/puzaricloud-in/security/puzaricloud-i
 summary_line: TLSv1.3 · DMARC
 tags:
 - Monitoring
-- API
-- SaaS
+- Software-as-a-Service
 - India
 - Alerts
 ---

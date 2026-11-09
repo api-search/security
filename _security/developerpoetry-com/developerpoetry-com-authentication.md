@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/developerpoetry-com/authentication/de
 summary_line: 0 schemes
 tags:
 - Poetry
-- Developer
-- AI
+- Developers
+- Artificial Intelligence
 - Community
 - Platform
 ---

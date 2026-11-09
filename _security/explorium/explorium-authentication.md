@@ -123,6 +123,18 @@ api_specs:
   slug: explorium-version-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/explorium/openapi/explorium-version-api-openapi.yml
+- filename: explorium-v2enrollments-api-openapi.yml
+  format: yaml
+  label: Explorium V2Enrollments API
+  slug: explorium-v2enrollments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2enrollments-api-openapi.yml
+- filename: explorium-v2webhooks-api-openapi.yml
+  format: yaml
+  label: Explorium V2Webhooks API
+  slug: explorium-v2webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/explorium/openapi/explorium-v2webhooks-api-openapi.yml
 - filename: explorium-health-check-api-openapi.yml
   format: yaml
   label: Explorium Health Check API

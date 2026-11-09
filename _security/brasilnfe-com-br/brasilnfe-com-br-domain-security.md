@@ -42,5 +42,4 @@ tags:
 - Finance
 - Tax
 - Invoicing
-- API
 ---

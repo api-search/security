@@ -123,8 +123,7 @@ source_yaml_url: https://artifacts.apis.io/thanks-io/security/thanks-io-domain-s
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- DirectMail
+- Artificial Intelligence
+- Direct Mail
 - Automation
-- API
 ---

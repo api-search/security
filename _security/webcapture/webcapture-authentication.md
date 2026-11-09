@@ -27,9 +27,8 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://webcapt
 source_yaml_url: https://artifacts.apis.io/webcapture/authentication/webcapture-authentication.yml
 summary_line: 1 scheme
 tags:
-- WebCapture
+- Web Capture
 - PDF
-- API
-- SaaS
+- Software-as-a-Service
 - Automation
 ---

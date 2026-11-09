@@ -105,9 +105,8 @@ source_yaml_url: https://artifacts.apis.io/tender-agents-com/security/tender-age
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - EU
-- procurement
-- tenders
-- API
-- AI
-- public-data
+- Procurement
+- Tenders
+- Artificial Intelligence
+- Public Data
 ---

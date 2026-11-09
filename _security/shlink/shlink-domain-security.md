@@ -80,9 +80,9 @@ source_yaml_url: https://artifacts.apis.io/shlink/security/shlink-domain-securit
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Company
-- URL-Shortener
+- URL Shorteners
 - PHP
 - Self-Hosted
-- Open-Source
-- REST-API
+- Open Source
+- REST API
 ---

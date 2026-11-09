@@ -44,9 +44,9 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/memxus-com/authentication/memxus-com-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
-- ContextEngine
-- DeveloperTools
+- Artificial Intelligence
+- Context Engine
+- Developer Tools
 - Productivity
 - Memory
 ---

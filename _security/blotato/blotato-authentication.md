@@ -27,6 +27,48 @@ api_specs:
   slug: blotato-visuals-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/blotato/openapi/blotato-visuals-api-openapi.yml
+- filename: blotato-analytics-api-openapi.yml
+  format: yaml
+  label: Blotato Analytics API
+  slug: blotato-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-analytics-api-openapi.yml
+- filename: blotato-automations-api-openapi.yml
+  format: yaml
+  label: Blotato Automations API
+  slug: blotato-automations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-automations-api-openapi.yml
+- filename: blotato-billing-api-openapi.yml
+  format: yaml
+  label: Blotato Billing API
+  slug: blotato-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-billing-api-openapi.yml
+- filename: blotato-comments-api-openapi.yml
+  format: yaml
+  label: Blotato Comments API
+  slug: blotato-comments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-comments-api-openapi.yml
+- filename: blotato-messaging-api-openapi.yml
+  format: yaml
+  label: Blotato Messaging API
+  slug: blotato-messaging-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-messaging-api-openapi.yml
+- filename: blotato-publishing-api-openapi.yml
+  format: yaml
+  label: Blotato Publishing API
+  slug: blotato-publishing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-publishing-api-openapi.yml
+- filename: blotato-video-api-openapi.yml
+  format: yaml
+  label: Blotato Video API
+  slug: blotato-video-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blotato/openapi/blotato-video-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

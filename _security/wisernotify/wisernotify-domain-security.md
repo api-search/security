@@ -33,7 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Notification
-- API
-- SaaS
-- Real-time
+- Software-as-a-Service
+- Real-Time
 ---

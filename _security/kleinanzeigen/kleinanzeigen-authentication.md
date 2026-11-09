@@ -34,9 +34,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: searched\nsource: https://develop
 source_yaml_url: https://artifacts.apis.io/kleinanzeigen/authentication/kleinanzeigen-authentication.yml
 summary_line: 1 scheme
 tags:
-- classifieds
-- marketplace
+- Classifieds
+- Marketplace
 - Germany
 - free-ads
-- consumer
+- Consumer
 ---

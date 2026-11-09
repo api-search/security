@@ -42,5 +42,5 @@ tags:
 - Founders
 - Outreach
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

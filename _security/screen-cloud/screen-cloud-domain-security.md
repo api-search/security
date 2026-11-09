@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/screen-cloud/security/screen-cloud-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- DigitalSignage
-- SaaS
+- Digital Signage
+- Software-as-a-Service
 - Cloud
 - Marketing
 ---

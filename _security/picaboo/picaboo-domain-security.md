@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/picaboo/security/picaboo-domain-secur
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Photo
+- Photos
 - Printing
-- E-commerce
-- SaaS
+- E-Commerce
+- Software-as-a-Service
 ---

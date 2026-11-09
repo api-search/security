@@ -65,8 +65,7 @@ source_yaml_url: https://artifacts.apis.io/hasdata-com/authentication/hasdata-co
 summary_line: 1 scheme
 tags:
 - Web Scraping
-- Data Pipelines
-- AI
-- API
+- Data Pipeline
+- Artificial Intelligence
 - Automation
 ---

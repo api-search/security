@@ -31,7 +31,6 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Fintech
-- Financial-Planning
-- API
+- Financial Planning
 - EU
 ---

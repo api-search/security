@@ -40,7 +40,6 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - SMS
 - Messaging
-- API
 - Communications
 - Business
 ---

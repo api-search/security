@@ -126,5 +126,4 @@ tags:
 - Carbon
 - Energy
 - Sustainability
-- API
 ---

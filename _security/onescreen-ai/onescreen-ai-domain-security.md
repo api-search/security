@@ -39,6 +39,7 @@ tags:
 - Media
 - AI Agents
 - MCP
-- Authentication
+- OAuth
 - Agent Readiness
+- Authentication
 ---

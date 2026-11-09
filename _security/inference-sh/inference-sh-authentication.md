@@ -419,9 +419,8 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://inferen
 source_yaml_url: https://artifacts.apis.io/inference-sh/authentication/inference-sh-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Machine Learning
 - Platform
-- API
 - Inference
 ---

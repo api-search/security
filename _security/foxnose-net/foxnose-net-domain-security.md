@@ -45,7 +45,6 @@ source_yaml_url: https://artifacts.apis.io/foxnose-net/security/foxnose-net-doma
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- API
 - Networking
 - Security
 - Integration

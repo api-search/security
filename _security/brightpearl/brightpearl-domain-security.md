@@ -38,8 +38,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Retail
-- Ecommerce
-- SaaS
+- E-Commerce
+- Software-as-a-Service
 - ERP
 - Inventory
 ---

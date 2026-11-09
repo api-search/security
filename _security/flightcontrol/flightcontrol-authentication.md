@@ -68,6 +68,7 @@ source_yaml_url: https://artifacts.apis.io/flightcontrol/authentication/flightco
 summary_line: http · 1 scheme
 tags:
 - Deployment
+- Amazon Web Services
 - Platform-as-a-Service
 - Infrastructure
 - DevOps

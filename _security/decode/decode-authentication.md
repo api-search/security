@@ -28,9 +28,9 @@ source_yaml_url: https://artifacts.apis.io/decode/authentication/decode-authenti
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Collaboration
-- DeveloperTools
-- LowCode
+- Developer Tools
+- Low-Code
 - Whiteboard
 ---

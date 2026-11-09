@@ -112,7 +112,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - B2B
 - Data
-- Enrichment
-- API
-- GTM
+- Data Enrichment
+- Go-To-Market
 ---

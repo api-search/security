@@ -35,7 +35,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Email
-- API
-- SaaS
-- Communication
+- Software-as-a-Service
+- Communications
 ---

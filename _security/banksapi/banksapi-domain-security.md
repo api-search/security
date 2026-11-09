@@ -44,8 +44,7 @@ source_yaml_url: https://artifacts.apis.io/banksapi/security/banksapi-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Banking
-- API
-- FinTech
+- Fintech
 - Payments
-- DataAnalytics
+- Data Analytics
 ---

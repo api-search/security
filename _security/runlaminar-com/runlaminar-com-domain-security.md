@@ -33,8 +33,8 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Sensors
-- AI
+- Artificial Intelligence
 - Manufacturing
-- FoodTech
-- CPG
+- Food Tech
+- Consumer Packaged Goods
 ---

@@ -23,9 +23,9 @@ source_yaml_url: https://artifacts.apis.io/aioproductos-com/security/aioproducto
 summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Platform
-- Startup
+- Startups
 - Tools
 trust_url: https://aioproductos.com/trust
 ---

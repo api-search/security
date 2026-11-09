@@ -30,6 +30,6 @@ source_yaml_url: https://artifacts.apis.io/token-counter/security/token-counter-
 summary_line: TLSv1.3
 tags:
 - LLM pricing
-- Token counting
+- Token Counting
 - API cost calculator
 ---

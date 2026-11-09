@@ -39,10 +39,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: derived\nsource: https://docs.dea
 source_yaml_url: https://artifacts.apis.io/deapi-ai/authentication/deapi-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Generative AI
-- API
-- Open-source
+- Open Source
 - Image Generation
 - Text-to-Speech
 - Video Transcription

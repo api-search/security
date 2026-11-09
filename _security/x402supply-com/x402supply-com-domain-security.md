@@ -49,8 +49,7 @@ source_yaml_url: https://artifacts.apis.io/x402supply-com/security/x402supply-co
 summary_line: TLSv1.3
 tags:
 - Company
-- API
-- AI
+- Artificial Intelligence
 - Pay-per-call
 - Blockchain
 - Tools

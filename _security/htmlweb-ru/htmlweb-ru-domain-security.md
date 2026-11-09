@@ -39,7 +39,6 @@ summary_line: TLSv1.2 · DMARC
 tags:
 - Company
 - Web
-- API
 - Russia
 - Data
 - Utilities

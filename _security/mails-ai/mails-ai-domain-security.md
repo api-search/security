@@ -147,7 +147,7 @@ source_yaml_url: https://artifacts.apis.io/mails-ai/security/mails-ai-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Email
 - Infrastructure
 - Agents

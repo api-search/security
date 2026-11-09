@@ -102,7 +102,6 @@ summary_line: apiKey/http · 2 schemes
 tags:
 - Company
 - Grocery
-- API
 - Denmark
 - Retail
 ---

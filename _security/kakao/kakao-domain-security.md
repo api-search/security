@@ -80,7 +80,8 @@ tags:
 - Search
 - South Korea
 - Identity
-- Authentication
+- OAuth
 - KakaoTalk
 - LLM
+- Authentication
 ---

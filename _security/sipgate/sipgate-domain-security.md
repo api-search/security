@@ -33,6 +33,5 @@ tags:
 - Company
 - Telephony
 - Cloud
-- API
 - Communications
 ---

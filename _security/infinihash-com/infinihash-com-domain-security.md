@@ -351,10 +351,10 @@ source_yaml_url: https://artifacts.apis.io/infinihash-com/security/infinihash-co
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
-- Crypto
+- Fintech
+- Cryptocurrency
 - Compliance
 - KYC
-- KYT
+- Transaction Monitoring
 - Infrastructure
 ---

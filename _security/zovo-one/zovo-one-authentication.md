@@ -34,5 +34,5 @@ tags:
 - Productivity
 - Privacy
 - Free Tools
-- Developer
+- Developers
 ---

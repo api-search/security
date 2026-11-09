@@ -22,7 +22,7 @@ tags:
 - IT
 - Integration
 - Consulting
-- OpenBanking
-- DigitalTransformation
+- Open Banking
+- Digital Transformation
 trust_url: https://savangard.com/career/job-offers/compliance-officer-for-it-regulations-k-m/
 ---

@@ -45,8 +45,8 @@ source_yaml_url: https://artifacts.apis.io/opensensors/authentication/opensensor
 summary_line: 0 schemes
 tags:
 - Company
-- WorkplaceAnalytics
+- Workplace Analytics
 - RealEstateTech
 - IoT
-- DataAnalytics
+- Data Analytics
 ---

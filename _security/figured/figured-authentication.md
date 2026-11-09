@@ -30,7 +30,7 @@ summary_line: 1 scheme
 tags:
 - Finance
 - Agriculture
-- FarmManagement
-- SaaS
+- Farm Management
+- Software-as-a-Service
 - Accounting
 ---

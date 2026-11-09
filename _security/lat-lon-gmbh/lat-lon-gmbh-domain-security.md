@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - GIS
-- Open-Source
+- Open Source
 - Consulting
 - Geodata
 ---

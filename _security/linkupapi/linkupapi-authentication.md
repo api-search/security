@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: linkupapi-linkupapi-api-api-openapi.yml
-  format: yaml
-  label: LinkupAPI API
-  slug: linkupapi-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/linkupapi/openapi/linkupapi-linkupapi-api-api-openapi.yml
 - filename: linkupapi-openapi-generated.yml
   format: yaml
   label: LinkupAPI API

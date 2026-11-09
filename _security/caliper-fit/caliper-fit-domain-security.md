@@ -33,6 +33,5 @@ tags:
 - Geometry
 - CAD
 - Metadata
-- API
 - MCP
 ---

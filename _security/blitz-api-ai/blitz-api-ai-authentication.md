@@ -110,7 +110,6 @@ summary_line: 1 scheme
 tags:
 - B2B
 - Data
-- Enrichment
-- API
-- GTM
+- Data Enrichment
+- Go-To-Market
 ---

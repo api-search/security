@@ -38,7 +38,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Retail
-- ProductProtection
-- SaaS
+- Product Protection
+- Software-as-a-Service
 - Germany
 ---

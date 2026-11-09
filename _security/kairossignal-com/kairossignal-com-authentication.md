@@ -106,8 +106,8 @@ summary_line: 2 schemes
 tags:
 - Company
 - DePIN
-- DataAPI
-- Crypto
+- Data API
+- Cryptocurrency
 - Telemetry
 - Analytics
 ---

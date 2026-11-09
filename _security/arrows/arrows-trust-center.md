@@ -20,10 +20,10 @@ source_yaml_url: https://artifacts.apis.io/arrows/security/arrows-trust-center.y
 summary_line: SOC 2, GDPR
 tags:
 - Sales
-- AI
+- Artificial Intelligence
 - Automation
 - CRM
-- SaaS
+- Software-as-a-Service
 - Productivity
 trust_url: https://arrows.to/security/
 ---

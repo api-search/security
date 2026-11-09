@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/contovista/security/contovista-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Banking
-- AI
-- FinTech
-- DataAnalytics
+- Artificial Intelligence
+- Fintech
+- Data Analytics
 - TransactionCategorisation
 ---

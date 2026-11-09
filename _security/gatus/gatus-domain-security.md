@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Monitoring
-- OpenSource
-- StatusPage
+- Open Source
+- Status Pages
 - Alerting
 - DevOps
 ---

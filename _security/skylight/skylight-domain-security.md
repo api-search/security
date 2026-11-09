@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Performance
 - Ruby
-- Rails
+- Ruby on Rails
 - Monitoring
 - Profiling
 - Company

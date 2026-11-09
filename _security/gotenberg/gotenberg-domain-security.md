@@ -39,7 +39,6 @@ summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - PDF
 - Docker
-- API
 - Conversion
-- OpenSource
+- Open Source
 ---

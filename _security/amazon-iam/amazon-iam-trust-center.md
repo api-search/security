@@ -164,6 +164,7 @@ tags:
 - Identity and Access Management
 - Authentication
 - Authorization
+- Amazon Web Services
 - Identity
 - Security
 trust_url: https://aws.amazon.com/compliance/

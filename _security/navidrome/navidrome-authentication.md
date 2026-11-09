@@ -38,6 +38,6 @@ tags:
 - Music
 - Streaming
 - Self-Hosted
-- Open-Source
-- Media-Server
+- Open Source
+- Media Server
 ---

@@ -118,7 +118,7 @@ tags:
 - Healthcare
 - Hospital System
 - MyChart
-- Authentication
+- OAuth
 - Patient Access
 - Price Transparency
 - R4
@@ -126,4 +126,5 @@ tags:
 - Temple University
 - US Core
 - USCDI
+- Authentication
 ---

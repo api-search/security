@@ -181,7 +181,6 @@ source_yaml_url: https://artifacts.apis.io/connskill-com/authentication/connskil
 summary_line: apiKey · 2 schemes
 tags:
 - Company
-- API Provider
 - SEO
 - SERP
 - Keyword Research

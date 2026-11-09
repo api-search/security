@@ -75,7 +75,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Artificial Intelligence
 - Inference
-- inference-hardware
+- Inference Hardware
 - AI Accelerators
 - LLM
 - Transformers

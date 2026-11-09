@@ -34,5 +34,5 @@ tags:
 - Genomics
 - Oncology
 - Diagnostics
-- PrecisionMedicine
+- Precision Medicine
 ---

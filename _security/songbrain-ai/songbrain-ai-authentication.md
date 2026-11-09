@@ -27,8 +27,7 @@ source_yaml_url: https://artifacts.apis.io/songbrain-ai/authentication/songbrain
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Music
 - Video
-- API
 ---

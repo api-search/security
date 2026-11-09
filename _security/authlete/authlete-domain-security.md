@@ -170,8 +170,9 @@ source_yaml_url: https://artifacts.apis.io/authlete/security/authlete-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- Authentication
+- OAuth
 - OpenID Connect
+- Authentication
 - Authorization
 - Identity
 - API Security

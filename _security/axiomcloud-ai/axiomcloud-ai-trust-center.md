@@ -20,7 +20,7 @@ summary_line: SOC 2
 tags:
 - Company
 - Cloud
-- AI
+- Artificial Intelligence
 - Infrastructure
 - Automation
 trust_url: https://trust.axiomcloud.ai/

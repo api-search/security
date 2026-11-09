@@ -32,8 +32,6 @@ source_yaml_url: https://artifacts.apis.io/silversentinel-ai/security/silversent
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- FinTech
-- Venture-backed
-- API
-- Startup
+- Fintech
+- Startups
 ---

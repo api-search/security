@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- DataPlatform
-- PatientSafety
-- RealTimeAnalytics
+- Data Platform
+- Patient Safety
+- Real-Time Analytics
 ---

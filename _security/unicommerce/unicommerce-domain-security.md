@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/unicommerce/security/unicommerce-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- e-commerce
-- SaaS
+- E-Commerce
+- Software-as-a-Service
 - Order Management
 - Warehouse Management
 ---

@@ -38,9 +38,9 @@ source_yaml_url: https://artifacts.apis.io/guildai-co/security/guildai-co-domain
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Defense
 - Manufacturing
 - Aerospace
-- Startup
+- Startups
 ---

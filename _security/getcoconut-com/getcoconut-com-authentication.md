@@ -30,8 +30,7 @@ source_yaml_url: https://artifacts.apis.io/getcoconut-com/authentication/getcoco
 summary_line: 0 schemes
 tags:
 - Company
-- FinTech
+- Fintech
 - Accounting
-- SaaS
-- API
+- Software-as-a-Service
 ---

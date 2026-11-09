@@ -34,8 +34,8 @@ tags:
 - Research
 - Market Research
 - Consumer Insights
-- AI
-- Survey
+- Artificial Intelligence
+- Surveys
 - Quantitative
 - Qualitative
 - Brand Insights

@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/studeo/security/studeo-domain-securit
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Education
-- AI
+- Artificial Intelligence
 - Tutoring
-- PersonalizedLearning
-- SaaS
+- Personalized Learning
+- Software-as-a-Service
 - Company
 ---

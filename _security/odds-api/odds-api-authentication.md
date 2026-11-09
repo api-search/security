@@ -113,7 +113,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Sports
 - Sports Betting
-- betting-odds
+- Betting Odds
 - bookmaker-odds
 - live-odds
 - Sportsbook
@@ -124,7 +124,7 @@ tags:
 - OpenAPI
 - MCP
 - Agent-Native
-- llms-txt
+- Llms.txt
 - SDK
 - Postman
 ---

@@ -29,8 +29,7 @@ summary_line: ISO 27001, PCI DSS, GDPR
 tags:
 - Company
 - Fundraising
-- Nonprofit
-- API
+- Non-Profit
 - Integration
 trust_url: https://www.evergiving.com/security/
 ---

@@ -82,8 +82,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Orchestration
-- API
 - B2B
 ---

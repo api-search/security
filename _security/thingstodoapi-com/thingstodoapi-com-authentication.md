@@ -57,10 +57,9 @@ source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://thingst
 source_yaml_url: https://artifacts.apis.io/thingstodoapi-com/authentication/thingstodoapi-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- Events
+- Event
 - Local
-- API
-- AI
+- Artificial Intelligence
 - JSON
 - MCP
 ---

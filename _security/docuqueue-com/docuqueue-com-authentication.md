@@ -93,9 +93,9 @@ source_yaml_url: https://artifacts.apis.io/docuqueue-com/authentication/docuqueu
 summary_line: 2 schemes
 tags:
 - Company
-- AI
-- DocumentAutomation
+- Artificial Intelligence
+- Document Automation
 - PDF
-- RESTAPI
+- REST API
 - MCP
 ---

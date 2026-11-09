@@ -32,10 +32,10 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Healthcare
-- HomeCare
-- LabTesting
-- UAE
-- SaudiArabia
+- Home Care
+- Lab Testing
+- United Arab Emirates
+- Saudi Arabia
 - Qatar
 - Kuwait
 ---

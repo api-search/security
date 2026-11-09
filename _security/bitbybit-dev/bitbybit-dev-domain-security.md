@@ -87,7 +87,6 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - 3D CAD
 - TypeScript
-- API
 - Platform
 - Creative Coding
 - Modeling

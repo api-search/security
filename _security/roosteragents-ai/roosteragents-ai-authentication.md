@@ -55,9 +55,9 @@ source_yaml: "generated: '2026-10-29'\nmethod: derived\nsource: openapi/roostera
 source_yaml_url: https://artifacts.apis.io/roosteragents-ai/authentication/roosteragents-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Marketing
 - Automation
-- SaaS
+- Software-as-a-Service
 - Data
 ---

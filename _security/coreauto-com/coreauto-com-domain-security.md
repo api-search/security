@@ -32,8 +32,8 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Automation
-- AI
-- Workflow
+- Artificial Intelligence
+- Workflows
 - Technology
 - Platform
 ---

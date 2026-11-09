@@ -33,6 +33,6 @@ tags:
 - Company
 - Retail
 - Grocery
-- E‑commerce
+- E-Commerce
 - Europe
 ---

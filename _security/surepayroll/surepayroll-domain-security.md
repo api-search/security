@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/surepayroll/security/surepayroll-doma
 summary_line: TLSv1.3 · DMARC
 tags:
 - Payroll
-- HR
+- Human Resources
 - Small Business
 - Paychex
 - Cloud Services

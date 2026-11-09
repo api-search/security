@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/binstockly-com/security/binstockly-co
 summary_line: TLSv1.3 · HSTS
 tags:
 - Auto Parts
-- Inventory Management
+- Inventory
 - Software
 - Small Business
 - Free Tools

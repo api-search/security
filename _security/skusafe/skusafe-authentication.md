@@ -31,9 +31,9 @@ summary_line: 0 schemes
 tags:
 - Company
 - Food
-- Beverage
-- CPG
+- Beverages
+- Consumer Packaged Goods
 - PLM
-- Supply-Chain
-- Quality-Management
+- Supply Chain
+- Quality Management
 ---

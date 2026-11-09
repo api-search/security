@@ -31,11 +31,11 @@ source_yaml_url: https://artifacts.apis.io/puralink/security/puralink-domain-sec
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
 - pipe inspection
-- autonomous robots
-- infrastructure
-- robotics
-- wastewater
-- oil & gas
-- mining
-- data center
+- Autonomous Robots
+- Infrastructure
+- Robotics
+- Wastewater
+- Oil and Gas
+- Mining
+- Data Center
 ---

@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
 - Web Scraping
-- AI
+- Artificial Intelligence
 - Data
 - MCP
 ---

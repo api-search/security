@@ -34,7 +34,7 @@ tags:
 - Wireless
 - 5G
 - DAS
-- Wi‑Fi
+- Wi-Fi
 - Venues
 - Healthcare
 - Military

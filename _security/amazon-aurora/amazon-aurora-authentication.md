@@ -73,5 +73,6 @@ tags:
 - MySQL
 - PostgreSQL
 - Relational Database
+- Amazon Web Services
 - Database
 ---

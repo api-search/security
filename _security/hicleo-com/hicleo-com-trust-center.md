@@ -20,10 +20,10 @@ source_yaml_url: https://artifacts.apis.io/hicleo-com/security/hicleo-com-trust-
 summary_line: SOC 2, GDPR
 tags:
 - Company
-- caregiving
-- health
-- employer
-- family
-- platform
+- Caregiving
+- Health
+- Employer
+- Family
+- Platform
 trust_url: https://hicleo.com/wahhh/
 ---

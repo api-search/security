@@ -21,8 +21,8 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Communications
-- AI
-- Unified-Communications
-- Contact-Center
+- Artificial Intelligence
+- Unified Communications
+- Contact Center
 trust_url: https://www.easydial.io/trust
 ---

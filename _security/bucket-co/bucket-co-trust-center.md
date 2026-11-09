@@ -21,9 +21,9 @@ source_yaml_url: https://artifacts.apis.io/bucket-co/security/bucket-co-trust-ce
 summary_line: SOC 2, ISO 27001, GDPR
 tags:
 - Feature Flags
-- SaaS
+- Software-as-a-Service
 - Developer Tools
-- SDKs
-- Integrations
+- SDK
+- Integration
 trust_url: https://reflag.com/security
 ---

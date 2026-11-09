@@ -36,4 +36,5 @@ tags:
 - Cloud
 - Artificial Intelligence
 - Risk Management
+- Amazon Web Services
 ---

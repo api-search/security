@@ -89,5 +89,5 @@ tags:
 - Fintech
 - Digital Banking
 - API Platform
-- AI-Native
+- AI-native
 ---

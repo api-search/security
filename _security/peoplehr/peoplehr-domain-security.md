@@ -39,10 +39,9 @@ source_yaml_url: https://artifacts.apis.io/peoplehr/security/peoplehr-domain-sec
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- HR
-- SaaS
+- Human Resources
+- Software-as-a-Service
 - Payroll
-- Recruitment
-- HRTech
-- EmployeeManagement
+- Recruiting
+- Employee Management
 ---

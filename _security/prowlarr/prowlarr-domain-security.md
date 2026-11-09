@@ -238,5 +238,4 @@ tags:
 - Indexing
 - Media Management
 - Open Source
-- API
 ---

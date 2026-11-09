@@ -32,9 +32,9 @@ source_yaml_url: https://artifacts.apis.io/spark-shipping/security/spark-shippin
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- eCommerce
+- E-Commerce
 - Dropshipping
 - Automation
-- SaaS
+- Software-as-a-Service
 - Integration
 ---

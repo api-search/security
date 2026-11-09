@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/getcoconut-com/security/getcoconut-co
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
+- Fintech
 - Accounting
-- SaaS
-- API
+- Software-as-a-Service
 ---

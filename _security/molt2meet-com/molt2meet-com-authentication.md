@@ -159,10 +159,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: derived\nsource: openapi/molt2mee
 source_yaml_url: https://artifacts.apis.io/molt2meet-com/authentication/molt2meet-com-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - MCP
 - Automation
-- Human-in-the-loop
-- Webhooks
+- Human-in-the-Loop
+- Webhook
 - Company
 ---

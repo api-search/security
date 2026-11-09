@@ -44,4 +44,6 @@ tags:
 - KYC
 - Banking
 - India
+- Data Intelligence
+- Indian-Market
 ---

@@ -56,9 +56,9 @@ source_yaml: "generated: '2026-10-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/podcast-co/security/podcast-co-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Podcasting
+- Podcasts
 - Hosting
 - Audio
-- SaaS
+- Software-as-a-Service
 - Media
 ---

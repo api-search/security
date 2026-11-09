@@ -32,6 +32,6 @@ tags:
 - Company
 - Insurance
 - Small Business
-- FinTech
+- Fintech
 - US
 ---

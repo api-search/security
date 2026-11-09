@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/connectall/security/connectall-domain
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- Semiconductor
+- Semiconductors
 - Software
 - Infrastructure
 - Enterprise

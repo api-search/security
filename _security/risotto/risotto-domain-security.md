@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/risotto/security/risotto-domain-secur
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- HelpDesk
-- ITAutomation
+- Artificial Intelligence
+- Help Desk
+- IT Automation
 - Ticketing
 ---

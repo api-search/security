@@ -100,7 +100,7 @@ summary_line: 2 schemes
 tags:
 - LLM
 - API Gateway
-- AI
+- Artificial Intelligence
 - Machine Learning
 - Developer Tools
 ---

@@ -91,6 +91,5 @@ tags:
 - Company
 - IoT
 - Connectivity
-- API
 - Industrial
 ---

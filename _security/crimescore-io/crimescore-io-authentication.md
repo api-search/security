@@ -48,8 +48,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Safety
-- RealEstate
+- Real Estate
 - Data
 - Mapping
-- API
 ---

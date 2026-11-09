@@ -33,9 +33,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://houseda
 source_yaml_url: https://artifacts.apis.io/housedata-dev/authentication/housedata-dev-authentication.yml
 summary_line: 1 scheme
 tags:
-- RealEstate
+- Real Estate
 - Zillow
-- DataAPI
+- Data API
 - US
 - Property
 ---

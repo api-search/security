@@ -45,10 +45,9 @@ source_yaml_url: https://artifacts.apis.io/onlinecompiler-io/security/onlinecomp
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- CodeExecution
-- API
-- DeveloperTools
+- Code Execution
+- Developer Tools
 - Education
-- AI
+- Artificial Intelligence
 trust_url: https://onlinecompiler.io/security
 ---

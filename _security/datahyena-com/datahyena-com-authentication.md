@@ -82,5 +82,4 @@ tags:
 - Funding
 - M&A
 - Hiring
-- API
 ---

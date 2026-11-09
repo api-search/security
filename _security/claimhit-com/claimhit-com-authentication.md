@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/claimhit-com/authentication/claimhit-
 summary_line: 2 schemes
 tags:
 - Company
-- Patent
+- Patents
 - Intelligence
-- LegalTech
+- Legal Tech
 - IP
 ---

@@ -42,6 +42,5 @@ tags:
 - Data
 - Trends
 - Analytics
-- API
 - Marketing
 ---

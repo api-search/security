@@ -65,5 +65,6 @@ tags:
 - AI Agents
 - Data Integration
 - Security
+- OAuth
 - Authentication
 ---

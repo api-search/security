@@ -34,7 +34,7 @@ tags:
 - Web Mapping
 - Access Control
 - Analytics
-- Managed Services
+- Managed Service
 - Cloud
-- On-Premise
+- On-Premises
 ---

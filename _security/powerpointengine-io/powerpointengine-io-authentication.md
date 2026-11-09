@@ -36,7 +36,6 @@ source_yaml_url: https://artifacts.apis.io/powerpointengine-io/authentication/po
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - PowerPoint
 - Presentation
 - Automation

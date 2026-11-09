@@ -114,6 +114,6 @@ tags:
 - Company
 - Retail
 - Customer Data Platform
-- AI
+- Artificial Intelligence
 - Marketing
 ---

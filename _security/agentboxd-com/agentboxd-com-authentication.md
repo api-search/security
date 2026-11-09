@@ -132,9 +132,8 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/agentboxd-com/authentication/agentboxd-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Email
-- API
 - Messaging
 - Beta
 ---

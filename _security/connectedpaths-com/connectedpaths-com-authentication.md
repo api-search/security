@@ -29,7 +29,7 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/connectedpaths-com/authentication/connectedpaths-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Consultancy
 - Strategy
 - Implementation

@@ -30,8 +30,8 @@ source_yaml_url: https://artifacts.apis.io/rootz-global/authentication/rootz-glo
 summary_line: 0 schemes
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Quality
 - DataOwnership
-- ConfidentialComputing
+- Confidential Computing
 ---

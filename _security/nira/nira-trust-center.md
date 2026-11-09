@@ -22,10 +22,10 @@ source_yaml_url: https://artifacts.apis.io/nira/security/nira-trust-center.yml
 summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 tags:
 - Company
-- Data-Management
+- Data Management
 - Security
 - Cloud
-- File-Sharing
-- Access-Control
+- File Sharing
+- Access Control
 trust_url: https://nira.com/security/
 ---

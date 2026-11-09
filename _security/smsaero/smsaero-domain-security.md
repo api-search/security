@@ -35,5 +35,4 @@ tags:
 - SMS
 - Messaging
 - Bulk
-- API
 ---

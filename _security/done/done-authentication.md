@@ -182,7 +182,7 @@ tags:
 - AI Agents
 - Agent-Native
 - x402
-- pay-per-call
+- Pay-per-call
 - Web3
 - Crypto Payments
 - DNS

@@ -120,6 +120,18 @@ api_specs:
   slug: boxc-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/boxc/openapi/boxc-webhooks-api-openapi.yml
+- filename: boxc-pga-api-openapi.yml
+  format: yaml
+  label: Boxc PGA API
+  slug: boxc-pga-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/boxc/openapi/boxc-pga-api-openapi.yml
+- filename: boxc-waybills-api-openapi.yml
+  format: yaml
+  label: Boxc Waybills API
+  slug: boxc-waybills-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/boxc/openapi/boxc-waybills-api-openapi.yml
 - filename: boxc-entry-points-api-openapi.yml
   format: yaml
   label: Boxc Entry Points API

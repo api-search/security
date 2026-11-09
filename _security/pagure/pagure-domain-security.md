@@ -33,7 +33,7 @@ tags:
 - Code Hosting
 - Open Source
 - Fedora
-- Git
+- Version Control
 - Collaboration
-- Archive
+- Archives
 ---

@@ -116,7 +116,7 @@ tags:
 - REST API
 - OpenAPI
 - MCP Server
-- llms-txt
+- Llms.txt
 - LLM Tooling
 - slot RTP
 - paytable data

@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/raylu/security/raylu-domain-security.
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
-- PrivateMarkets
+- Artificial Intelligence
+- Private Markets
 - Investment
 - Origination
 ---

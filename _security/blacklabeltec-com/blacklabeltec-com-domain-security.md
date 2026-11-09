@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/blacklabeltec-com/security/blacklabel
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Software
-- AI
+- Artificial Intelligence
 - Automation
 - Cybersecurity
-- CustomSoftware
+- Custom Software
 ---

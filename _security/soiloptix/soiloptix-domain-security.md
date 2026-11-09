@@ -117,7 +117,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Agriculture
 - Soil-Analysis
-- Precision-Agriculture
+- Precision Agriculture
 - Mapping
 - Technology
 ---

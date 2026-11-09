@@ -85,7 +85,7 @@ summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Construction
 - Bidding
-- SaaS
+- Software-as-a-Service
 - Collaboration
 - Analytics
 trust_url: https://scope.bid/trust

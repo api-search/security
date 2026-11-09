@@ -33,6 +33,6 @@ tags:
 - Booking
 - Hospitality
 - SelfCheckIn
-- SaaS
+- Software-as-a-Service
 - DirectBookings
 ---

@@ -28,7 +28,7 @@ summary_line: SOC 2, GDPR
 tags:
 - Company
 - Analytics
-- AI
+- Artificial Intelligence
 - Data Integration
 - Business Intelligence
 trust_url: https://trust.databox.com/

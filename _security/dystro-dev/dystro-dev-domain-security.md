@@ -97,8 +97,7 @@ source_yaml_url: https://artifacts.apis.io/dystro-dev/security/dystro-dev-domain
 summary_line: TLSv1.3
 tags:
 - Company
-- API
-- Developer
+- Developers
 - Technology
 - Integration
 ---

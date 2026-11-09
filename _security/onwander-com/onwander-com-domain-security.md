@@ -33,7 +33,7 @@ tags:
 - Company
 - Travel
 - Platform
-- Startup
+- Startups
 - Venture
 - Technology
 ---

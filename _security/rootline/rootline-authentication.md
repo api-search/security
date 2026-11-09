@@ -47,8 +47,7 @@ source_yaml_url: https://artifacts.apis.io/rootline/authentication/rootline-auth
 summary_line: 1 scheme
 tags:
 - Payments
-- FinTech
-- EmbeddedPayments
-- API
+- Fintech
+- Embedded Payments
 - Platform
 ---

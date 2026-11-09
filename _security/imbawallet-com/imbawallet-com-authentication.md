@@ -68,9 +68,9 @@ source_yaml: "generated: '2026-10-30'\nmethod: searched\nsource: https://api-doc
 source_yaml_url: https://artifacts.apis.io/imbawallet-com/authentication/imbawallet-com-authentication.yml
 summary_line: 2 schemes
 tags:
-- FinTech
+- Fintech
 - Payments
 - Cryptocurrency
-- VirtualCards
-- Wallet
+- Virtual Cards
+- Wallets
 ---

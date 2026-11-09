@@ -58,8 +58,7 @@ source_yaml_url: https://artifacts.apis.io/doconda-com/authentication/doconda-co
 summary_line: 1 scheme
 tags:
 - Document Generation
-- API
 - Conversion
 - Automation
-- AI
+- Artificial Intelligence
 ---

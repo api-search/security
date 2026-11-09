@@ -31,8 +31,8 @@ source_yaml_url: https://artifacts.apis.io/savantcat-cn/security/savantcat-cn-do
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- AI
-- KnowledgeBase
-- SMB
+- Artificial Intelligence
+- Knowledge Base
+- Small Business
 - Enterprise
 ---

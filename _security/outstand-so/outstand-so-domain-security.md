@@ -32,7 +32,6 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Company
 - Social Media
-- API
 - MCP
-- SaaS
+- Software-as-a-Service
 ---

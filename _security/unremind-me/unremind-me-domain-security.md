@@ -34,5 +34,5 @@ tags:
 - Productivity
 - Reminders
 - Context-Aware
-- AI
+- Artificial Intelligence
 ---

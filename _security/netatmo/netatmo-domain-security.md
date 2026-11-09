@@ -32,8 +32,7 @@ source_yaml_url: https://artifacts.apis.io/netatmo/security/netatmo-domain-secur
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
-- SmartHome
+- Smart Home
 - IoT
 - Devices
-- API
 ---

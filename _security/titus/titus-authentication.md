@@ -83,8 +83,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Orchestration
-- API
 - B2B
 ---

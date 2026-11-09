@@ -219,6 +219,7 @@ tags:
 - Reviews
 - Shipping
 - Taxonomy
-- Authentication
+- OAuth
 - Agentic Commerce
+- Authentication
 ---

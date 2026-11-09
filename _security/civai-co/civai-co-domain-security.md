@@ -188,7 +188,7 @@ source_yaml_url: https://artifacts.apis.io/civai-co/security/civai-co-domain-sec
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Technology
 - Platform
 - Africa

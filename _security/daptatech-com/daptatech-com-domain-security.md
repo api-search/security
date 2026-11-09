@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/daptatech-com/security/daptatech-com-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
-- SalesAutomation
-- VoiceAgents
+- Artificial Intelligence
+- Sales Automation
+- Voice Agents
 - TextAgents
 ---

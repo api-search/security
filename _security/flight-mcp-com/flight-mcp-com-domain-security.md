@@ -45,8 +45,7 @@ source_yaml_url: https://artifacts.apis.io/flight-mcp-com/security/flight-mcp-co
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Travel
-- API
-- Flight
+- Flights
 - MCP
 - Search
 ---

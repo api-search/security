@@ -30,7 +30,6 @@ source_yaml_url: https://artifacts.apis.io/numeratica-com/security/numeratica-co
 summary_line: TLSv1.3 · DNSSEC
 tags:
 - Finance
-- API
 - Calculators
 - Retirement
 - Household

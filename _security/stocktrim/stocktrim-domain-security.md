@@ -34,6 +34,6 @@ tags:
 - Company
 - Inventory
 - Forecasting
-- Supply-Chain
-- SaaS
+- Supply Chain
+- Software-as-a-Service
 ---

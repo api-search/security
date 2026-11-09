@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Decentralized
-- OpenSource
+- Open Source
 - Web3
 - Infrastructure
 ---

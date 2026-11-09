@@ -40,7 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Agents
 - API Tools
-- Pay‑per‑use
+- Pay-Per-Use
 - Search
-- Scraping
+- Web Scraping
 ---

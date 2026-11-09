@@ -37,6 +37,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-a
 source_yaml_url: https://artifacts.apis.io/amazon-app-studio/authentication/amazon-app-studio-authentication.yml
 summary_line: http · 1 scheme
 tags:
+- Amazon Web Services
 - Generative AI
 - Internal Tools
 - Low-Code

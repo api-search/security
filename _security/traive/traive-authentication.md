@@ -59,4 +59,6 @@ tags:
 - Lending
 - AgTech
 - Brazil
+- Artificial Intelligence
+- Data
 ---

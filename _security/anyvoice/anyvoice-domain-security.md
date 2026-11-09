@@ -33,5 +33,4 @@ tags:
 - Voice
 - Text-to-Speech
 - Speech Synthesis
-- Cloud API
 ---

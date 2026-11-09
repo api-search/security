@@ -27,13 +27,9 @@ source_yaml_url: https://artifacts.apis.io/enable-com/security/enable-com-trust-
 summary_line: SOC 2, ISO 27001
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Pricing
 - Rebate
-- SaaS
-- AI
-- Pricing
-- Rebate
-- SaaS
+- Software-as-a-Service
 trust_url: https://developers.enable.com/articles/certifications-and-compliance
 ---

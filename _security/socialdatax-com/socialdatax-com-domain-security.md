@@ -39,6 +39,5 @@ tags:
 - Company
 - Social Media
 - Data Integration
-- AI
-- API
+- Artificial Intelligence
 ---

@@ -39,9 +39,8 @@ source_yaml_url: https://artifacts.apis.io/adona-robot-com/authentication/adona-
 summary_line: 2 schemes
 tags:
 - Finance
-- Market-Data
-- Forex
+- Market Data
+- Foreign Exchange
 - Metals
-- API
 - Swiss
 ---

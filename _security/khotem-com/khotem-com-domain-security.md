@@ -301,8 +301,5 @@ source_yaml_url: https://artifacts.apis.io/khotem-com/security/khotem-com-domain
 summary_line: TLSv1.3
 tags:
 - Company
-- Unknown
-- Stub
-- API
 - Placeholder
 ---

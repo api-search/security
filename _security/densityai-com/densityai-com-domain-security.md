@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/densityai-com/security/densityai-com-
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Inference
 - Platform
 - Cloud

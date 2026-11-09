@@ -33,5 +33,4 @@ tags:
 - IoT
 - Connectivity
 - Industrial
-- API
 ---

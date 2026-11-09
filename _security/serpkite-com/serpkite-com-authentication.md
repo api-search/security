@@ -2,47 +2,241 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: serpkite-com-openapi-generated.yml
+- filename: serpkite-com-account-api-openapi.yml
   format: yaml
-  label: serpkite-com API
-  slug: serpkite-com-api
+  label: SerpKite Account API
+  slug: serpkite-com-account-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/serpkite-com/openapi/_ae-authored/serpkite-com-openapi-generated.yml
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-account-api-openapi.yml
+- filename: serpkite-com-ai-mode-api-openapi.yml
+  format: yaml
+  label: SerpKite Ai Mode API
+  slug: serpkite-com-ai-mode-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-ai-mode-api-openapi.yml
+- filename: serpkite-com-answer-api-openapi.yml
+  format: yaml
+  label: SerpKite Answer API
+  slug: serpkite-com-answer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-answer-api-openapi.yml
+- filename: serpkite-com-autocomplete-api-openapi.yml
+  format: yaml
+  label: SerpKite Autocomplete API
+  slug: serpkite-com-autocomplete-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-autocomplete-api-openapi.yml
+- filename: serpkite-com-batches-api-openapi.yml
+  format: yaml
+  label: SerpKite Batches API
+  slug: serpkite-com-batches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-batches-api-openapi.yml
+- filename: serpkite-com-brave-ai-api-openapi.yml
+  format: yaml
+  label: SerpKite Brave Ai API
+  slug: serpkite-com-brave-ai-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-brave-ai-api-openapi.yml
+- filename: serpkite-com-chatgpt-api-openapi.yml
+  format: yaml
+  label: SerpKite Chatgpt API
+  slug: serpkite-com-chatgpt-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-chatgpt-api-openapi.yml
+- filename: serpkite-com-copilot-api-openapi.yml
+  format: yaml
+  label: SerpKite Copilot API
+  slug: serpkite-com-copilot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-copilot-api-openapi.yml
+- filename: serpkite-com-crawl-api-openapi.yml
+  format: yaml
+  label: SerpKite Crawl API
+  slug: serpkite-com-crawl-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-crawl-api-openapi.yml
+- filename: serpkite-com-extract-api-openapi.yml
+  format: yaml
+  label: SerpKite Extract API
+  slug: serpkite-com-extract-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-extract-api-openapi.yml
+- filename: serpkite-com-gemini-api-openapi.yml
+  format: yaml
+  label: SerpKite Gemini API
+  slug: serpkite-com-gemini-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-gemini-api-openapi.yml
+- filename: serpkite-com-healthz-api-openapi.yml
+  format: yaml
+  label: SerpKite Healthz API
+  slug: serpkite-com-healthz-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-healthz-api-openapi.yml
+- filename: serpkite-com-images-api-openapi.yml
+  format: yaml
+  label: SerpKite Images API
+  slug: serpkite-com-images-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-images-api-openapi.yml
+- filename: serpkite-com-livez-api-openapi.yml
+  format: yaml
+  label: SerpKite Livez API
+  slug: serpkite-com-livez-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-livez-api-openapi.yml
+- filename: serpkite-com-map-api-openapi.yml
+  format: yaml
+  label: SerpKite Map API
+  slug: serpkite-com-map-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-map-api-openapi.yml
+- filename: serpkite-com-maps-api-openapi.yml
+  format: yaml
+  label: SerpKite Maps API
+  slug: serpkite-com-maps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-maps-api-openapi.yml
+- filename: serpkite-com-mcp-api-openapi.yml
+  format: yaml
+  label: SerpKite MCP API
+  slug: serpkite-com-mcp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-mcp-api-openapi.yml
+- filename: serpkite-com-monitors-api-openapi.yml
+  format: yaml
+  label: SerpKite Monitors API
+  slug: serpkite-com-monitors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-monitors-api-openapi.yml
+- filename: serpkite-com-news-api-openapi.yml
+  format: yaml
+  label: SerpKite News API
+  slug: serpkite-com-news-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-news-api-openapi.yml
+- filename: serpkite-com-patents-api-openapi.yml
+  format: yaml
+  label: SerpKite Patents API
+  slug: serpkite-com-patents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-patents-api-openapi.yml
+- filename: serpkite-com-place-api-openapi.yml
+  format: yaml
+  label: SerpKite Place API
+  slug: serpkite-com-place-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-place-api-openapi.yml
+- filename: serpkite-com-places-api-openapi.yml
+  format: yaml
+  label: SerpKite Places API
+  slug: serpkite-com-places-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-places-api-openapi.yml
+- filename: serpkite-com-playground-api-openapi.yml
+  format: yaml
+  label: SerpKite Playground API
+  slug: serpkite-com-playground-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-playground-api-openapi.yml
+- filename: serpkite-com-rank-api-openapi.yml
+  format: yaml
+  label: SerpKite Rank API
+  slug: serpkite-com-rank-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-rank-api-openapi.yml
+- filename: serpkite-com-research-api-openapi.yml
+  format: yaml
+  label: SerpKite Research API
+  slug: serpkite-com-research-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-research-api-openapi.yml
+- filename: serpkite-com-reviews-api-openapi.yml
+  format: yaml
+  label: SerpKite Reviews API
+  slug: serpkite-com-reviews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-reviews-api-openapi.yml
+- filename: serpkite-com-scholar-api-openapi.yml
+  format: yaml
+  label: SerpKite Scholar API
+  slug: serpkite-com-scholar-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-scholar-api-openapi.yml
+- filename: serpkite-com-search-api-openapi.yml
+  format: yaml
+  label: SerpKite Search API
+  slug: serpkite-com-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-search-api-openapi.yml
+- filename: serpkite-com-shopping-api-openapi.yml
+  format: yaml
+  label: SerpKite Shopping API
+  slug: serpkite-com-shopping-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-shopping-api-openapi.yml
+- filename: serpkite-com-status-api-openapi.yml
+  format: yaml
+  label: SerpKite Status API
+  slug: serpkite-com-status-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-status-api-openapi.yml
+- filename: serpkite-com-videos-api-openapi.yml
+  format: yaml
+  label: SerpKite Videos API
+  slug: serpkite-com-videos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-videos-api-openapi.yml
+- filename: serpkite-com-webpage-api-openapi.yml
+  format: yaml
+  label: SerpKite Webpage API
+  slug: serpkite-com-webpage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-webpage-api-openapi.yml
+- filename: serpkite-com-well-known-api-openapi.yml
+  format: yaml
+  label: SerpKite .well Known API
+  slug: serpkite-com-well-known-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-well-known-api-openapi.yml
+- filename: serpkite-com-custom-search-api-openapi.yml
+  format: yaml
+  label: SerpKite Custom Search API
+  slug: serpkite-com-custom-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/serpkite-com/openapi/serpkite-com-custom-search-api-openapi.yml
 auth_types: []
-description: Authentication methods for SerpKite API
+description: ''
 kind: authentication
 layout: security
-mechanism_count: 2
+mechanism_count: 1
 method: searched
 name: Serpkite Com Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: serpkite-com declares 2 security scheme(s) across its OpenAPI definitions.
-provider_name: serpkite-com
+overview: SerpKite declares 1 security scheme(s) across its OpenAPI definitions.
+provider_name: SerpKite
 provider_slug: serpkite-com
-scheme_count: 2
+scheme_count: 1
 schemes:
-- evidence: Send the key as a Bearer token in the `Authorization` header.
-  header: Authorization
-  location: header
-  name: API key (Bearer header)
-  type: apiKey
-- evidence: 'OAuth access token `Authorization: Bearer skt_oat_…` the MCP server only, issued when you approve an MCP client.'
-  header: Authorization
-  location: header
-  name: OAuth access token (MCP server)
-  type: apiKey
+- bearerFormat: JWT
+  description: API key sent as Bearer token in Authorization header or as query parameter "api_key".
+  in: header
+  name: Authorization
+  scheme: bearer
+  type: http
 slug: serpkite-com-authentication
 source_filename: serpkite-com-authentication.yml
 source_heading: Authentication Profile
-source_url: https://serpkite.com/docs/authentication.md
-source_yaml: "generated: '2026-10-31'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://serpkite.com/docs/authentication.md\nsources:\n- https://serpkite.com/docs/authentication.md\n- https://serpkite.com/docs/api-keys.md\n- https://serpkite.com/docs/authentication\n- https://serpkite.com/docs/api-keys\ndescription: Authentication methods for SerpKite API\nschemes:\n- type: apiKey\n  name: API key (Bearer header)\n  evidence: Send the key as a Bearer token in the `Authorization` header.\n  location: header\n  header: Authorization\n- type: apiKey\n  name: OAuth access token (MCP server)\n  evidence: 'OAuth access token `Authorization: Bearer skt_oat_…` the MCP server only, issued when you approve an MCP client.'\n  location: header\n  header: Authorization\nnote: No OAuth2 flows, HTTP basic, JWT, HMAC, or MTLS are documented. 3 extracted row(s) were dropped because their quote was not on the page.\ndocs: https://serpkite.com/docs/authentication.md\n"
+source_url: ''
+source_yaml: "generated: '2026-10-31'\nmethod: searched\nsource: https://serpkite.com/docs/authentication.md\nschemes:\n  - type: http\n    scheme: bearer\n    description: API key sent as Bearer token in Authorization header or as query parameter \"api_key\".\n    bearerFormat: JWT\n    in: header\n    name: Authorization\n"
 source_yaml_url: https://artifacts.apis.io/serpkite-com/authentication/serpkite-com-authentication.yml
-summary_line: 2 schemes
+summary_line: 1 scheme
 tags:
 - Company
 - Search
-- Data Retrieval
-- API
-- Developer Platform
+- Artificial Intelligence
+- SERP
+- Google
 ---

@@ -236,4 +236,17 @@ tags:
 - Healthcare
 - Standards
 - Interoperability
+- FHIR
+- HL7
+- Clinical Data
+- Health IT
+- Open Standard
+- SMART on FHIR
+- Clinical
+- CDA
+- DICOM
+- ICD
+- LOINC
+- SNOMED CT
+- US Core
 ---

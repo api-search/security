@@ -32,7 +32,6 @@ source_yaml_url: https://artifacts.apis.io/itsus/security/itsus-domain-security.
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Automation
-- Business Solutions
 - Integration
 - Software-as-a-Service
 - Netherlands

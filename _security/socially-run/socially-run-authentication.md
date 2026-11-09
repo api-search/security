@@ -116,5 +116,5 @@ tags:
 - Data API
 - JSON
 - MCP
-- AI-Agent
+- AI Agents
 ---

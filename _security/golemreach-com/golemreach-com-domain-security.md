@@ -42,7 +42,7 @@ tags:
 - Company
 - Gaming
 - MMORPG
-- AI
+- Artificial Intelligence
 - Fantasy
 - Browser
 ---

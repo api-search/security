@@ -44,7 +44,6 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Federation
-- OnPremise
+- On-Premises
 - Commerce
-- API
 ---

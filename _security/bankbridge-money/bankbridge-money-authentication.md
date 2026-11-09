@@ -43,7 +43,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Finance
-- AI
+- Artificial Intelligence
 - MCP
 - Banking
 ---

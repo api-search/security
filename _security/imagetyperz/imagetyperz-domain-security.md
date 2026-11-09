@@ -30,9 +30,8 @@ source_yaml_url: https://artifacts.apis.io/imagetyperz/security/imagetyperz-doma
 summary_line: TLSv1.2
 tags:
 - Company
-- captcha
-- automation
-- api
-- service
-- image-processing
+- CAPTCHA
+- Automation
+- Services
+- Image Processing
 ---

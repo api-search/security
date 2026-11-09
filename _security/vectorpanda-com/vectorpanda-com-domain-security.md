@@ -50,8 +50,8 @@ source_yaml_url: https://artifacts.apis.io/vectorpanda-com/security/vectorpanda-
 summary_line: TLSv1.2 · DMARC
 tags:
 - Company
-- AI
-- Vector Database
+- Artificial Intelligence
+- Vector Search
 - Semantic Search
 - Embeddings
 ---

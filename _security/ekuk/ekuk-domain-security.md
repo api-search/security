@@ -33,5 +33,5 @@ tags:
 - Estonia
 - Technology
 - Corporate
-- WebPresence
+- Web Presence
 ---

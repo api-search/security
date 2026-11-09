@@ -37,5 +37,5 @@ tags:
 - Retail
 - Travel
 - Hospitality
-- Financial-Services
+- Financial Services
 ---

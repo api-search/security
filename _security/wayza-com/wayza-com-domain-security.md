@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/wayza-com/security/wayza-com-domain-s
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Integration
 - Protocol
-- Open-Source
+- Open Source
 ---

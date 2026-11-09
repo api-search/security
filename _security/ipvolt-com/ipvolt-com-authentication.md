@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/ipvolt-com/authentication/ipvolt-com-
 summary_line: 0 schemes
 tags:
 - Proxy
-- DeveloperTools
+- Developer Tools
 - Infrastructure
 - Networking
 - Data

@@ -33,6 +33,6 @@ tags:
 - Company
 - Government
 - Translation
-- AI
+- Artificial Intelligence
 - Multilingual
 ---

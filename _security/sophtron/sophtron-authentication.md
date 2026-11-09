@@ -29,9 +29,8 @@ source_yaml: 'generated: ''2026-10-28''
 source_yaml_url: https://artifacts.apis.io/sophtron/authentication/sophtron-authentication.yml
 summary_line: 0 schemes
 tags:
-- FinTech
+- Fintech
 - Data Aggregation
-- API
 - Banking
 - Financial Services
 ---

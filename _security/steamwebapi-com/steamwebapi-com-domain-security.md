@@ -41,5 +41,4 @@ tags:
 - Gaming
 - Marketplace
 - Inventory
-- API
 ---

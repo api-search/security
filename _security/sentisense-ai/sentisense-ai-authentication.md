@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/sentisense-ai/authentication/sentisen
 summary_line: 1 scheme
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Analytics
-- Machine-Learning
+- Machine Learning
 - Enterprise
 ---

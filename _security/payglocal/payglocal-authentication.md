@@ -38,7 +38,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Payments
-- FinTech
+- Fintech
 - Cross-Border
 - RBI-Authorized
 ---

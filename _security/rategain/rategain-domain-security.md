@@ -51,7 +51,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Hospitality
-- Travel Tech
+- TravelTech
 - Software-as-a-Service
 - Revenue Management
 ---

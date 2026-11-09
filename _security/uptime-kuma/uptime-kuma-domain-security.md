@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Monitoring
 - Self-Hosted
-- Open-Source
-- Dashboard
+- Open Source
+- Dashboards
 - Alerts
 ---

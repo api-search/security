@@ -29,8 +29,8 @@ source_yaml_url: https://artifacts.apis.io/cuspai-com/security/cuspai-com-domain
 summary_line: DNSSEC · DMARC
 tags:
 - Company
-- AI
-- Data-Analytics
+- Artificial Intelligence
+- Data Analytics
 - Automation
 - Cloud
 ---

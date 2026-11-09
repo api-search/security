@@ -60,6 +60,7 @@ tags:
 - Analytics
 - K-12
 - LTI
-- Authentication
+- OAuth
 - Student Data
+- Authentication
 ---

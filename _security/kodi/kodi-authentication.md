@@ -31,7 +31,7 @@ summary_line: 0 schemes
 tags:
 - Media
 - Home-Theater
-- Open-Source
+- Open Source
 - Entertainment
 - Software
 ---

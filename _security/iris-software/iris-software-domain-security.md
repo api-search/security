@@ -35,6 +35,6 @@ tags:
 - Software
 - Accounting
 - Payroll
-- HR
+- Human Resources
 - Education
 ---

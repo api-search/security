@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/naksha-social/security/naksha-social-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Astrology
-- MobileApp
+- Mobile App
 - Vedic
-- PersonalGrowth
+- Personal Growth
 - Compatibility
 ---

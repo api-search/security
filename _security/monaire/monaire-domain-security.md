@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/monaire/security/monaire-domain-secur
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - HVAC
-- EnergyManagement
-- SaaS
+- Energy Management
+- Software-as-a-Service
 ---

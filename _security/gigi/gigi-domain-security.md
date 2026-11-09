@@ -34,7 +34,7 @@ source_yaml_url: https://artifacts.apis.io/gigi/security/gigi-domain-security.ym
 summary_line: TLSv1.3 · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Networking
 - Agents
 - Privacy

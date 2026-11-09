@@ -149,9 +149,8 @@ source_yaml_url: https://artifacts.apis.io/reqistry-dev/authentication/reqistry-
 summary_line: 1 scheme
 tags:
 - Company
-- API
 - Catalog
 - Intelligence
 - Builder
-- Agent
+- Agents
 ---

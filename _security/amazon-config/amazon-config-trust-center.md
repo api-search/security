@@ -42,6 +42,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-config/security/amazon-config-
 summary_line: PCI DSS, HIPAA, FedRAMP, GDPR, FIPS 140
 tags:
 - Auditing
+- Amazon Web Services
 - Compliance
 - Configuration Management
 - Governance

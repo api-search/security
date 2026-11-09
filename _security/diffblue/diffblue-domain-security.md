@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: diffblue-diffblue-api-api-openapi.yml
-  format: yaml
-  label: Diffblue API
-  slug: diffblue-api-2
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/diffblue/openapi/diffblue-diffblue-api-api-openapi.yml
 - filename: diffblue-openapi-generated.yml
   format: yaml
   label: Diffblue API

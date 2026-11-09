@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: splitforms-openapi.json
+  format: json
+  label: Form Submission API
+  slug: form-submission-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/splitforms/openapi/splitforms-openapi.json
 certification_count: 5
 certifications:
 - SOC 2

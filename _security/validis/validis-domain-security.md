@@ -35,5 +35,4 @@ tags:
 - Specialist Lending
 - M&A Due Diligence
 - Financial Data Infrastructure
-- API
 ---

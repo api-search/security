@@ -413,7 +413,7 @@ summary_line: apiKey/http · 5 schemes
 tags:
 - Finance
 - Bookkeeping
-- AI
-- Startup
+- Artificial Intelligence
+- Startups
 - Accounting
 ---

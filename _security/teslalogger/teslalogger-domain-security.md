@@ -39,7 +39,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Automotive
-- DataLogging
-- OpenSource
+- Data Logging
+- Open Source
 - Tesla
 ---

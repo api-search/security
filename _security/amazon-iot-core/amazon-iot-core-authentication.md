@@ -375,36 +375,12 @@ api_specs:
   slug: amazon-iot-core-violation-events-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-violation-events-api-openapi.yml
-- filename: amazon-iot-core-domain-configurations-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core Domain Configurations API
-  slug: amazon-iot-core-domain-configurations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-domain-configurations-api-openapi.yml
-- filename: amazon-iot-core-logging-options-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core Logging Options API
-  slug: amazon-iot-core-logging-options-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-logging-options-api-openapi.yml
-- filename: amazon-iot-core-ota-updates-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core OTA Updates API
-  slug: amazon-iot-core-ota-updates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-ota-updates-api-openapi.yml
 - filename: amazon-iot-core-v2-logging-level-api-openapi.yml
   format: yaml
   label: Amazon IoT Core V2 Logging Level API
   slug: amazon-iot-core-v2-logging-level-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-v2-logging-level-api-openapi.yml
-- filename: amazon-iot-core-v2-logging-options-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core V2 Logging Options API
-  slug: amazon-iot-core-v2-logging-options-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-v2-logging-options-api-openapi.yml
 - filename: amazon-iot-core-certificate-providers-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Iot Core Certificate Providers API
@@ -441,6 +417,30 @@ api_specs:
   slug: amazon-iot-core-versions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-versions-api-openapi.yml
+- filename: amazon-iot-core-domain-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Domain Configurations API
+  slug: amazon-iot-core-domain-configurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-domain-configurations-api-openapi.yml
+- filename: amazon-iot-core-logging-options-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Logging Options API
+  slug: amazon-iot-core-logging-options-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-logging-options-api-openapi.yml
+- filename: amazon-iot-core-ota-updates-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core OTA Updates API
+  slug: amazon-iot-core-ota-updates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-ota-updates-api-openapi.yml
+- filename: amazon-iot-core-v2-logging-options-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core V2 Logging Options API
+  slug: amazon-iot-core-v2-logging-options-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-v2-logging-options-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -472,6 +472,7 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-i
 source_yaml_url: https://artifacts.apis.io/amazon-iot-core/authentication/amazon-iot-core-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
+- Amazon Web Services
 - Device Management
 - IoT
 - MQTT

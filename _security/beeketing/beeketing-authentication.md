@@ -234,8 +234,9 @@ tags:
 - Marketing
 - Shopify Apps
 - REST API
-- Authentication
+- OAuth
 - Webhook
 - Themes
 - Payments
+- Authentication
 ---

@@ -40,7 +40,7 @@ source_yaml_url: https://artifacts.apis.io/gnu-taler/security/gnu-taler-domain-s
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Payments
-- E‑Cash
+- Ecash
 - Open Source
 - Finance
 - Privacy

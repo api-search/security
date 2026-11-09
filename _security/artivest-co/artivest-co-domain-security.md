@@ -30,7 +30,7 @@ tags:
 - Company
 - Investment
 - Platform
-- PrivateEquity
-- RealEstate
-- VentureCapital
+- Private Equity
+- Real Estate
+- Venture Capital
 ---

@@ -38,9 +38,9 @@ source_yaml: 'generated: ''2026-10-30''
 source_yaml_url: https://artifacts.apis.io/somosvelora-com/authentication/somosvelora-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Commerce
-- Agentic
+- AI Agents
 - Argentina
 - MCP
 - Company

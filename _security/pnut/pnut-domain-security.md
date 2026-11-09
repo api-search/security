@@ -40,8 +40,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Social
-- API-first
+- API-First
 - Community
 - Sustainability
-- Developer-friendly
 ---

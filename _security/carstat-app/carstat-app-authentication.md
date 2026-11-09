@@ -59,6 +59,5 @@ tags:
 - Company
 - Automotive
 - Data
-- API
-- Vehicle
+- Vehicles
 ---

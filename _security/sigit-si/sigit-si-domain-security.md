@@ -32,7 +32,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Company
 - Git Hosting
-- AI
+- Artificial Intelligence
 - Version Control
 - Model Storage
 - Open Source

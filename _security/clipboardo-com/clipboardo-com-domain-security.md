@@ -33,6 +33,6 @@ tags:
 - Healthcare
 - Intake
 - Software
-- SmallBusiness
+- Small Business
 - Templates
 ---

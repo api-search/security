@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/applecrumbyandfish-com/security/apple
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- ecommerce
-- retail
+- E-Commerce
+- Retail
 - Shopify
-- merchandise
+- Merchandise
 ---

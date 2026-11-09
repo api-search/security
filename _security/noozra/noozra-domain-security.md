@@ -38,8 +38,7 @@ source_yaml_url: https://artifacts.apis.io/noozra/security/noozra-domain-securit
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - News
-- API
 - Free
 - Community
-- AI
+- Artificial Intelligence
 ---

@@ -86,10 +86,10 @@ source_yaml: "generated: '2026-10-30'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/handlediq-com/security/handlediq-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Field Service
-- SaaS
+- Field Service Management
+- Software-as-a-Service
 - Home Services
 - Scheduling
 - Payments
-- AI
+- Artificial Intelligence
 ---

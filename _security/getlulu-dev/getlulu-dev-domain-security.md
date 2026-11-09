@@ -111,7 +111,7 @@ summary_line: TLSv1.3 · DMARC
 tags:
 - Advertising
 - Monetization
-- AI
+- Artificial Intelligence
 - MCP
-- SaaS
+- Software-as-a-Service
 ---

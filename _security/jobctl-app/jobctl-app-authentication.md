@@ -30,8 +30,8 @@ summary_line: 1 scheme
 tags:
 - Company
 - Job-Tracking
-- Developer-Tools
-- AI
+- Developer Tools
+- Artificial Intelligence
 - MCP
 - Productivity
 ---

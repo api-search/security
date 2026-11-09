@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: userig-rig-api-api-openapi.yml
-  format: yaml
-  label: Rig API
-  slug: rig-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/userig/openapi/userig-rig-api-api-openapi.yml
 - filename: userig-openapi-generated.yml
   format: yaml
   label: Rig API

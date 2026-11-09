@@ -74,8 +74,8 @@ source_yaml_url: https://artifacts.apis.io/emitrr/security/emitrr-domain-securit
 summary_line: TLSv1.2 · DMARC
 tags:
 - Healthcare
-- AI
-- Communication
+- Artificial Intelligence
+- Communications
 - Messaging
-- SaaS
+- Software-as-a-Service
 ---

@@ -32,6 +32,6 @@ tags:
 - iOS
 - Android
 - Privacy
-- Developer
-- Apps
+- Developers
+- Application
 ---

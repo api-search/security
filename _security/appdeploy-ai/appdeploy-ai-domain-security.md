@@ -45,9 +45,9 @@ source_yaml_url: https://artifacts.apis.io/appdeploy-ai/security/appdeploy-ai-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Deployment
 - Platform
-- LowCode
+- Low-Code
 - Automation
 ---
