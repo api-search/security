@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Radicalhealth Trust Center
+name: Radical Health Trust Center
 name_suffix: Trust Center
 overview: Radical Health maintains a public trust center documenting HIPAA and SOC 2 Type II compliance.
 provider_name: Radical Health

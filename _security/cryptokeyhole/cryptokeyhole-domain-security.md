@@ -1,4 +1,35 @@
 ---
+api_specs:
+- filename: cryptokeyhole-charts-api-openapi.yml
+  format: yaml
+  label: CryptoKeyhole Charts API
+  slug: cryptokeyhole-charts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cryptokeyhole/openapi/cryptokeyhole-charts-api-openapi.yml
+- filename: cryptokeyhole-indices-api-openapi.yml
+  format: yaml
+  label: CryptoKeyhole Indices API
+  slug: cryptokeyhole-indices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cryptokeyhole/openapi/cryptokeyhole-indices-api-openapi.yml
+- filename: cryptokeyhole-markets-api-openapi.yml
+  format: yaml
+  label: CryptoKeyhole Markets API
+  slug: cryptokeyhole-markets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cryptokeyhole/openapi/cryptokeyhole-markets-api-openapi.yml
+- filename: cryptokeyhole-platform-api-openapi.yml
+  format: yaml
+  label: CryptoKeyhole Platform API
+  slug: cryptokeyhole-platform-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cryptokeyhole/openapi/cryptokeyhole-platform-api-openapi.yml
+- filename: cryptokeyhole-tools-api-openapi.yml
+  format: yaml
+  label: CryptoKeyhole Tools API
+  slug: cryptokeyhole-tools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cryptokeyhole/openapi/cryptokeyhole-tools-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -18,7 +49,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Cryptokeyhole Domain Security
+name: CryptoKeyhole Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CryptoKeyhole, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: CryptoKeyhole

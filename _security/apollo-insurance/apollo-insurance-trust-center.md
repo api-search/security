@@ -26,7 +26,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Apollo Insurance Trust Center
+name: APOLLO Insurance Trust Center
 name_suffix: Trust Center
 overview: APOLLO Insurance maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
 provider_name: APOLLO Insurance

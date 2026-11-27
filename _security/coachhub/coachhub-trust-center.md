@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Coachhub Trust Center
+name: coachhub Trust Center
 name_suffix: Trust Center
 overview: coachhub maintains a public trust center documenting ISO 27001, ISO 27701, SOC 2 Type II, TISAX, PCI DSS Level 1, ISO 9001, GDPR, and CCPA compliance.
 provider_name: coachhub

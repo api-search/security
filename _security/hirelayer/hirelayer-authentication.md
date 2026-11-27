@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Hirelayer Authentication
+name: HireLayer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HireLayer declares 1 security scheme(s) across its OpenAPI definitions.

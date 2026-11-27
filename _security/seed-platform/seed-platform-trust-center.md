@@ -8,7 +8,7 @@ certifications:
 description: Cantaloupe's Data Security and Compliance page is the company's trust surface. It names four security and payments programs in the provider's own words. There is no separate trust.cantaloupe.com portal, no downloadable report request flow, and no subprocessor list.
 kind: trust-center
 layout: security
-name: Seed Platform Trust Center
+name: Seed Trust Center
 name_suffix: Trust Center
 overview: Seed maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, PCI DSS, and Point-to-Point Encryption (P2PE) compliance.
 provider_name: Seed

@@ -5,7 +5,7 @@ api_specs:
   label: Monday.com API
   slug: monday-com
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/asyncapi/monday-com-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/monday-com/asyncapi/monday-com-webhooks-asyncapi.yml
 - filename: monday-com-monday-com-platform-graphql-api-api-openapi.yml
   format: yaml
   label: Monday.com Platform GraphQL API
@@ -36,7 +36,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Monday Com Domain Security
+name: Monday.com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Monday.com, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Monday.com

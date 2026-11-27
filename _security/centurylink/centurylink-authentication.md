@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Centurylink Authentication
+name: CenturyLink (Lumen Technologies) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CenturyLink (Lumen Technologies) declares 3 security scheme(s) across its OpenAPI definitions.

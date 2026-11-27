@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: University Of Bristol Authentication
+name: University of Bristol Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Bristol secures its APIs with none, apiKey, and saml across 0 declared security schemes, as derived from its OpenAPI definitions.

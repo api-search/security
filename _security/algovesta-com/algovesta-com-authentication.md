@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Algovesta Com Authentication
+name: AlgoVesta Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AlgoVesta declares 2 security scheme(s) across its OpenAPI definitions.

@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Ubc Authentication
+name: University of British Columbia Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of British Columbia declares 0 security scheme(s) across its OpenAPI definitions.

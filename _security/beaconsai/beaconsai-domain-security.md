@@ -35,7 +35,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Beaconsai Domain Security
+name: Beacons.ai Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Beacons.ai, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Beacons.ai
@@ -51,7 +51,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Creator Economy
-- Link in Bio
+- Link-in-bio
 - Creator Website Builder
 - Creator Storefront
 - Media Kit

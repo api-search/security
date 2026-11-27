@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Neuron7Ai Trust Center
+name: Neuron7.ai Trust Center
 name_suffix: Trust Center
 overview: Neuron7.ai maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
 provider_name: Neuron7.ai

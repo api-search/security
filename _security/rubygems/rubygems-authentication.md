@@ -8,31 +8,31 @@ api_specs:
   label: RubyGems Gems API
   slug: gems-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-gems-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-gems-api-openapi.yml
 - filename: rubygems-downloads-api-openapi.yml
   format: yaml
   label: RubyGems Downloads API
   slug: downloads-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-downloads-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-downloads-api-openapi.yml
 - filename: rubygems-search-api-openapi.yml
   format: yaml
   label: RubyGems Search API
   slug: search-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-search-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-search-api-openapi.yml
 - filename: rubygems-activity-api-openapi.yml
   format: yaml
   label: RubyGems Activity API
   slug: activity-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-activity-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-activity-api-openapi.yml
 - filename: rubygems-webhooks-api-openapi.yml
   format: yaml
   label: RubyGems Webhooks API
   slug: webhooks-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/rubygems/refs/heads/main/openapi/rubygems-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/rubygems/openapi/rubygems-webhooks-api-openapi.yml
 - filename: rubygems-dependencies-api-openapi.yml
   format: yaml
   label: RubyGems Dependencies API
@@ -65,7 +65,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Rubygems Authentication
+name: RubyGems Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RubyGems secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

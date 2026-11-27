@@ -5,7 +5,7 @@ api_specs:
   label: Mantle WebSocket (Mainnet)
   slug: websocket-mainnet
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mantle-network/refs/heads/main/asyncapi/mantle-network-asyncapi.yml
+  url: https://artifacts.apis.io/mantle-network/asyncapi/mantle-network-asyncapi.yml
 description: ''
 domains:
 - caa: []

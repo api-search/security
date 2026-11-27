@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hireart Trust Center
+name: HireArt Trust Center
 name_suffix: Trust Center
 overview: HireArt maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: HireArt

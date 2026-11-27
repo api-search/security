@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Socialhook Authentication
+name: Lead Lock Systems Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Lead Lock Systems declares 1 security scheme(s) across its OpenAPI definitions.

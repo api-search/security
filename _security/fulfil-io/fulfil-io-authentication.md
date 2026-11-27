@@ -71,7 +71,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Fulfil Io Authentication
+name: Fulfil Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

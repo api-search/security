@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Aleva Se Authentication
+name: Aleva Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aleva declares 2 security scheme(s) across its OpenAPI definitions.

@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: ''
-name: Curtin Authentication
+name: Curtin University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Curtin University declares 0 security scheme(s) across its OpenAPI definitions.

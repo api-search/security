@@ -27,7 +27,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Service Cloud Trust Center
+name: Salesforce Service Cloud APIs Trust Center
 name_suffix: Trust Center
 overview: Salesforce Service Cloud APIs maintains a public trust center documenting note, observed, unverified_in_this_pass, and unverified_note compliance.
 provider_name: Salesforce Service Cloud APIs

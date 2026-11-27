@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Sursatech Com Authentication
+name: SursaTech Authentication
 name_suffix: Authentication
 oauth_flows:
 - client_credentials (anonymous — token_endpoint_auth_methods_supported [none])

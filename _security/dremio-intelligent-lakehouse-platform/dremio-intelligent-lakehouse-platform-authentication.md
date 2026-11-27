@@ -58,7 +58,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Dremio Intelligent Lakehouse Platform Authentication
+name: Dremio | Intelligent Lakehouse Platform Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

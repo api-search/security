@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bommel Bot Authentication
+name: bommel-bot Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: bommel-bot declares 2 security scheme(s) across its OpenAPI definitions.

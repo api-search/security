@@ -5,7 +5,7 @@ api_specs:
   label: Gumroad v2 API
   slug: v2-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gumroad/refs/heads/main/asyncapi.yml
+  url: https://artifacts.apis.io/gumroad/asyncapi.yml
 description: ''
 domains:
 - caa: []

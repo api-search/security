@@ -346,7 +346,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Mongodb Authentication
+name: MongoDB Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

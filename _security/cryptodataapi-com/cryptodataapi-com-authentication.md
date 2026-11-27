@@ -236,7 +236,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cryptodataapi Com Authentication
+name: cryptodataapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: cryptodataapi-com declares 1 security scheme(s) across its OpenAPI definitions.

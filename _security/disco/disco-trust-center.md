@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Disco Trust Center
+name: DISCO Trust Center
 name_suffix: Trust Center
 overview: DISCO maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: DISCO

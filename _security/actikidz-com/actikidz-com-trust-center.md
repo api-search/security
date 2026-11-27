@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Actikidz Com Trust Center
+name: ActiKidz Trust Center
 name_suffix: Trust Center
 overview: ActiKidz maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: ActiKidz

@@ -8,18 +8,66 @@ api_specs:
   slug: google-cloud-dns-changes-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-changes-api-openapi.yml
-- filename: google-cloud-dns-managedzones-api-openapi.yml
-  format: yaml
-  label: Google Cloud DNS ManagedZones API
-  slug: google-cloud-dns-managedzones-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-managedzones-api-openapi.yml
 - filename: google-cloud-dns-policies-api-openapi.yml
   format: yaml
   label: Google Cloud DNS Policies API
   slug: google-cloud-dns-policies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-policies-api-openapi.yml
+- filename: google-cloud-dns-locations-api-openapi.yml
+  format: yaml
+  label: Google Cloud DNS Cloud Dns Locations API
+  slug: google-cloud-dns-locations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-locations-api-openapi.yml
+- filename: google-cloud-dns-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud DNS Cloud Dns Operations API
+  slug: google-cloud-dns-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-operations-api-openapi.yml
+- filename: google-cloud-dns-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud DNS Cloud Dns Projects API
+  slug: google-cloud-dns-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-projects-api-openapi.yml
+- filename: google-cloud-dns-dnskeys-api-openapi.yml
+  format: yaml
+  label: Google Cloud DNS Dns Keys API
+  slug: google-cloud-dns-dnskeys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-dnskeys-api-openapi.yml
+- filename: google-cloud-dns-managedzoneoperations-api-openapi.yml
+  format: yaml
+  label: Google Cloud DNS Managed Zone Operations API
+  slug: google-cloud-dns-managedzoneoperations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-managedzoneoperations-api-openapi.yml
+- filename: google-cloud-dns-managedzones-api-openapi.yml
+  format: yaml
+  label: Google Cloud DNS Managed Zones API
+  slug: google-cloud-dns-managedzones-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-managedzones-api-openapi.yml
+- filename: google-cloud-dns-outboundendpoints-api-openapi.yml
+  format: yaml
+  label: Google Cloud DNS Outbound Endpoints API
+  slug: google-cloud-dns-outboundendpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-outboundendpoints-api-openapi.yml
+- filename: google-cloud-dns-responsepolicies-api-openapi.yml
+  format: yaml
+  label: Google Cloud DNS Response Policies API
+  slug: google-cloud-dns-responsepolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-responsepolicies-api-openapi.yml
+- filename: google-cloud-dns-responsepolicyrules-api-openapi.yml
+  format: yaml
+  label: Google Cloud DNS Response Policy Rules API
+  slug: google-cloud-dns-responsepolicyrules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-dns/openapi/google-cloud-dns-responsepolicyrules-api-openapi.yml
 - filename: google-cloud-dns-resource-record-sets-api-openapi.yml
   format: yaml
   label: Google Cloud DNS Resource Record Sets API
@@ -33,7 +81,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Cloud Dns Authentication
+name: Google Cloud DNS Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

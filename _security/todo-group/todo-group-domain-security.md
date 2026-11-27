@@ -35,7 +35,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Todo Group Domain Security
+name: TODO Group Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for TODO Group, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: TODO Group

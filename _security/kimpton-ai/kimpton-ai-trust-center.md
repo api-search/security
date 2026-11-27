@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Kimpton Ai Trust Center
+name: Kimpton AI Trust Center
 name_suffix: Trust Center
 overview: Kimpton AI maintains a public trust center covering its security and compliance posture.
 provider_name: Kimpton AI

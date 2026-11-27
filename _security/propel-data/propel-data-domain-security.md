@@ -34,7 +34,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Propel Data Domain Security
+name: Propel Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Propel, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Propel
@@ -51,5 +51,5 @@ tags:
 - GraphQL
 - Data Warehouse
 - Metrics
-- Customer Facing Analytics
+- Customer-Facing Analytics
 ---

@@ -3200,6 +3200,84 @@ api_specs:
   slug: procore-workflow-tools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/procore/openapi/procore-workflow-tools-api-openapi.yml
+- filename: procore-project-funding-sources-api-openapi.yml
+  format: yaml
+  label: Procore Project Funding Sources API
+  slug: procore-project-funding-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-project-funding-sources-api-openapi.yml
+- filename: procore-project-entitlements-api-openapi.yml
+  format: yaml
+  label: Procore Project Entitlements API
+  slug: procore-project-entitlements-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-project-entitlements-api-openapi.yml
+- filename: procore-funding-sources-api-openapi.yml
+  format: yaml
+  label: Procore Funding Sources API
+  slug: procore-funding-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-funding-sources-api-openapi.yml
+- filename: procore-funding-rules-api-openapi.yml
+  format: yaml
+  label: Procore Funding Rules API
+  slug: procore-funding-rules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-funding-rules-api-openapi.yml
+- filename: procore-rate-values-api-openapi.yml
+  format: yaml
+  label: Procore Rate Values API
+  slug: procore-rate-values-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-values-api-openapi.yml
+- filename: procore-rate-columns-api-openapi.yml
+  format: yaml
+  label: Procore Rate Columns API
+  slug: procore-rate-columns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-columns-api-openapi.yml
+- filename: procore-audit-logs-company-api-openapi.yml
+  format: yaml
+  label: Procore Audit Logs (Company) API
+  slug: procore-audit-logs-company-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-audit-logs-company-api-openapi.yml
+- filename: procore-audit-logs-project-api-openapi.yml
+  format: yaml
+  label: Procore Audit Logs (Project) API
+  slug: procore-audit-logs-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-audit-logs-project-api-openapi.yml
+- filename: procore-rate-columns-project-api-openapi.yml
+  format: yaml
+  label: Procore Rate Columns (Project) API
+  slug: procore-rate-columns-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-columns-project-api-openapi.yml
+- filename: procore-rate-tables-company-api-openapi.yml
+  format: yaml
+  label: Procore Rate Tables (Company) API
+  slug: procore-rate-tables-company-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-tables-company-api-openapi.yml
+- filename: procore-rate-tables-project-api-openapi.yml
+  format: yaml
+  label: Procore Rate Tables (Project) API
+  slug: procore-rate-tables-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-tables-project-api-openapi.yml
+- filename: procore-requirement-controller-api-openapi.yml
+  format: yaml
+  label: Procore Requirement Controller API
+  slug: procore-requirement-controller-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-requirement-controller-api-openapi.yml
+- filename: procore-time-and-material-subcontractor-api-openapi.yml
+  format: yaml
+  label: Procore Time And Material Subcontractor API
+  slug: procore-time-and-material-subcontractor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-time-and-material-subcontractor-api-openapi.yml
 - filename: procore-purchase-orders-api-openapi.yml
   format: yaml
   label: Procore Purchase Orders API
@@ -3229,8 +3307,10 @@ schemes:
 slug: procore-authentication
 source_filename: procore-authentication.yml
 source_heading: Authentication Profile
-source_url: ''
-source_yaml: "generated: '2026-10-20'\nmethod: searched\nsource: openapi/procore-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/procore-openapi.json\ndocs: https://developers.procore.com/documentation/oauth-choose-grant-type\noauth2:\n  grants:\n  - authorization_code\n  - client_credentials\n  authorization_host: https://login.procore.com\n  docs:\n  - https://developers.procore.com/documentation/oauth-auth-grant-flow\n  - https://developers.procore.com/documentation/oauth-client-credentials\n  - https://developers.procore.com/documentation/oauth-endpoints\n  - https://developers.procore.com/documentation/developer-managed-service-accounts\n  note: Grant types from the Procore docs index titles; the contract declares only http bearer.\n"
+source_url: openapi/procore-openapi.json
+source_yaml: "generated: '2026-11-11'\nmethod: searched\nsource: openapi/procore-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  sources:\n  - openapi/procore-openapi.json\ndocs: https://developers.procore.com/documentation/oauth-choose-grant-type\noauth2:\n  grants:\n  - authorization_code\n  - client_credentials\n  authorization_host: https://login.procore.com\n  docs:\n  - https://developers.procore.com/documentation/oauth-auth-grant-flow\n  - https://developers.procore.com/documentation/oauth-client-credentials\n  - https://developers.procore.com/documentation/oauth-endpoints\n  - https://developers.procore.com/documentation/developer-managed-service-accounts\n  note: Grant types from the Procore docs index titles; the contract declares only http bearer.\n  token_endpoint: https://login.procore.com/oauth/token\n  scopes: 'none documented: the access-token and grant-type pages describe no OAuth scope parameter; access is governed\
+  \ by the authorizing user\n    or service account permissions in Procore'\nsources:\n- openapi/procore-openapi.json\n- https://web.archive.org/web/20251113181718/https://procore.github.io/documentation/oauth-access-tokens\ntokens:\n- type: Access Token\n  expiration: 1.5 Hours\n  description: A confidential credential used by an application to access the Procore API on behalf of a user.\n  grants:\n  - Authorization Code Grant\n  - Client Credentials Grant\n- type: Refresh Token\n  expiration: Until Used\n  description: A special kind of token used by an application to obtain a renewed access token. This token lasts indefinitely until it is consumed,\n    at which point a new refresh token is returned.\n  grants:\n  - Authorization Code Grant\ntoken_lifetime_change: The Procore API OAuth token timeout is gradually being reduced from 2 hours to 15 minutes to align with authentication\n  security best practices.\nrefresh_rules:\n- Keep in mind that the refresh token may only be used once.\n\
+  - Retrieving a new OAuth token on every Procore API call is not encouraged.\nexpired_token_error: Your access token has expired, please use your refresh token to obtain a fresh token.\ntoken_docs: https://web.archive.org/web/20251113181718/https://procore.github.io/documentation/oauth-access-tokens\nnote: Token facts are quoted from the Wayback capture (2025-11-13) of Procore's docs origin procore.github.io/documentation/oauth-access-tokens;\n  the live portal page https://developers.procore.com/documentation/oauth-access-tokens is client-rendered and returned no body text on 2026-11-11.\n  The token endpoint URL is taken from the developer portal JavaScript bundle (https://login.procore.com/oauth/token); it was not called.\n"
 source_yaml_url: https://artifacts.apis.io/procore/authentication/procore-authentication.yml
 summary_line: http · 1 scheme
 tags:

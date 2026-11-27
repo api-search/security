@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fastapi Labs Authentication
+name: FastAPI Labs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FastAPI Labs declares 2 security scheme(s) across its OpenAPI definitions.

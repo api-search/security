@@ -89,7 +89,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Imgauth Api Di Attestazione Opere Digitali Trust Center
+name: imgauth — API di attestazione opere digitali Trust Center
 name_suffix: Trust Center
 overview: imgauth — API di attestazione opere digitali maintains a public trust center covering its security and compliance posture.
 provider_name: imgauth — API di attestazione opere digitali

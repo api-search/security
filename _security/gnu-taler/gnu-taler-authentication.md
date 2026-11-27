@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Gnu Taler Authentication
+name: GNU Taler Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GNU Taler declares 0 security scheme(s) across its OpenAPI definitions.

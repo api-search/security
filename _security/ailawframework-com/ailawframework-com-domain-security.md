@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Ailawframework Com Domain Security
+name: ailawframework-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ailawframework-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
 provider_name: ailawframework-com
@@ -32,6 +32,6 @@ source_yaml_url: https://artifacts.apis.io/ailawframework-com/security/ailawfram
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - AI Policy
-- Law firm tools
+- Law Firm Tools
 - Knowledge Management
 ---

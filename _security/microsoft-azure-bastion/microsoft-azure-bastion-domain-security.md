@@ -1,17 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-bastion-bastion-hosts-api-openapi.yml
+- filename: microsoft-azure-bastion-bastionhosts-api-openapi.yml
   format: yaml
-  label: Azure Bastion Hosts API
-  slug: microsoft-azure-bastion-bastion-hosts-api
+  label: Azure Bastion Bastion Hosts API
+  slug: microsoft-azure-bastion-bastionhosts-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-bastion-hosts-api-openapi.yml
-- filename: microsoft-azure-bastion-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-bastionhosts-api-openapi.yml
+- filename: microsoft-azure-bastion-bastionshareablelink-api-openapi.yml
   format: yaml
-  label: Azure Bastion Operations API
-  slug: microsoft-azure-bastion-operations-api
+  label: Azure Bastion Bastion Shareable Link API
+  slug: microsoft-azure-bastion-bastionshareablelink-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-bastionshareablelink-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -50,7 +50,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Bastion Domain Security
+name: Azure Bastion Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure Bastion, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Azure Bastion

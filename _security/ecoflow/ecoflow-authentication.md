@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: derived
-name: Ecoflow Authentication
+name: EcoFlow Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EcoFlow secures its APIs with apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Golem Team Authentication
+name: golem-team Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: golem-team declares 0 security scheme(s) across its OpenAPI definitions.

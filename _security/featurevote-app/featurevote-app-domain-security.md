@@ -21,7 +21,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Featurevote App Domain Security
+name: Featurevote Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Featurevote, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Featurevote
@@ -36,7 +36,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Feedback
 - Voting
-- SaaS
-- ProductManagement
+- Software-as-a-Service
+- Product Management
 - FeaturePrioritization
 ---

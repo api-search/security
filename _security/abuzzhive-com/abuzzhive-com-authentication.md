@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Abuzzhive Com Authentication
+name: AbuzzHive Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AbuzzHive declares 1 security scheme(s) across its OpenAPI definitions.

@@ -3,12 +3,30 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: openapi.yaml
+- filename: safetydatasheetapi-account-api-openapi.yml
   format: yaml
-  label: SDS/MSDS Extraction REST API
-  slug: sdsmsds-extraction-rest-api
+  label: SafetyDataSheetAPI Account API
+  slug: safetydatasheetapi-account-api
   spec_type: OpenAPI
-  url: https://safetydatasheetapi.com/openapi.yaml
+  url: https://artifacts.apis.io/safetydatasheetapi/openapi/safetydatasheetapi-account-api-openapi.yml
+- filename: safetydatasheetapi-bulk-api-openapi.yml
+  format: yaml
+  label: SafetyDataSheetAPI Bulk API
+  slug: safetydatasheetapi-bulk-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/safetydatasheetapi/openapi/safetydatasheetapi-bulk-api-openapi.yml
+- filename: safetydatasheetapi-extraction-api-openapi.yml
+  format: yaml
+  label: SafetyDataSheetAPI Extraction API
+  slug: safetydatasheetapi-extraction-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/safetydatasheetapi/openapi/safetydatasheetapi-extraction-api-openapi.yml
+- filename: safetydatasheetapi-website-api-openapi.yml
+  format: yaml
+  label: SafetyDataSheetAPI Website API
+  slug: safetydatasheetapi-website-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/safetydatasheetapi/openapi/safetydatasheetapi-website-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -17,11 +35,11 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Safetydatasheetapi Authentication
+name: SafetyDataSheetAPI Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Safety Data Sheet (SDS/MSDS) Extraction API secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: Safety Data Sheet (SDS/MSDS) Extraction API
+overview: SafetyDataSheetAPI secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: SafetyDataSheetAPI
 provider_slug: safetydatasheetapi
 scheme_count: 2
 schemes:

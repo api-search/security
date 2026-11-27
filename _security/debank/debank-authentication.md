@@ -71,7 +71,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Debank Authentication
+name: DeBank Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
@@ -128,7 +128,7 @@ tags:
 - Portfolio Tracking
 - On-Chain Data
 - Wallets
-- token-data
+- Token Data
 - NFT
 - Ethereum
 - OAuth

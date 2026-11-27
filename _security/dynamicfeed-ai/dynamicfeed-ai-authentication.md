@@ -416,7 +416,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Dynamicfeed Ai Authentication
+name: Dynamic Feed Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dynamic Feed declares 4 security scheme(s) across its OpenAPI definitions.

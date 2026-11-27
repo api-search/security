@@ -52,7 +52,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Acumensoftware Domain Security
+name: Acumen Software Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Acumen Software, probed live across 5 host(s) and 3 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Acumen Software

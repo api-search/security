@@ -282,6 +282,12 @@ api_specs:
   slug: novopayment-usercreation-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/novopayment/openapi/novopayment-usercreation-api-openapi.yml
+- filename: novopayment-exchange-api-openapi.yml
+  format: yaml
+  label: NovoPayment Exchange API
+  slug: novopayment-exchange-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/novopayment/openapi/novopayment-exchange-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -291,7 +297,13 @@ domains:
   domain: novopayment.com
   spf: true
 hosts:
-- cert_expires: Dec  5 03:39:20 2026 GMT
+- cert_expires: Dec 11 23:22:44 2026 GMT
+  host: novopayment.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Feb  5 02:41:19 2027 GMT
   host: developer.novopayment.com
   hsts: false
   https: true
@@ -301,27 +313,22 @@ hosts:
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Mar  2 23:59:59 2027 GMT
-  host: cert-api.novopayment.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
 hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Novopayment Domain Security
+name: NovoPayment Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for NovoPayment, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for NovoPayment, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: NovoPayment
 provider_slug: novopayment
 slug: novopayment-domain-security
 source_filename: novopayment-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.novopayment.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  5 03:39:20 2026 GMT\n  hsts: false\n- host: sandbox-api.novopayment.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  2 23:59:59 2027 GMT\n  hsts: null\n- host: cert-api.novopayment.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: novopayment.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-11-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: novopayment.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 23:22:44 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.novopayment.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  5 02:41:19 2027 GMT\n  hsts: false\n- host: sandbox-api.novopayment.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: novopayment.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://artifacts.apis.io/novopayment/security/novopayment-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Payments
 - Banking as a Service

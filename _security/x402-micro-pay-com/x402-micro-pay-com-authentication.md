@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: X402 Micro Pay Com Authentication
+name: x402-micro-pay-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: x402-micro-pay-com declares 1 security scheme(s) across its OpenAPI definitions.

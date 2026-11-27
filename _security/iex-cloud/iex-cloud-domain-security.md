@@ -25,7 +25,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Iex Cloud Domain Security
+name: IEX Cloud Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for IEX Cloud, probed live across 3 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: IEX Cloud

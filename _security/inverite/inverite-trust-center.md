@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Inverite Trust Center
+name: Inverite Verification Trust Center
 name_suffix: Trust Center
 overview: Inverite Verification maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: Inverite Verification

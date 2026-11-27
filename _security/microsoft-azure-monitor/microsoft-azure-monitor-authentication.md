@@ -3,120 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: microsoft-azure-monitor-action-groups-api-openapi.yml
+- filename: microsoft-azure-monitor-datacollectionruleconfigurationmetadata-api-openapi.yml
   format: yaml
-  label: Azure Monitor Action Groups API
-  slug: microsoft-azure-monitor-action-groups-api
+  label: Azure Monitor Data Collection Rule Configuration Metadata API
+  slug: microsoft-azure-monitor-datacollectionruleconfigurationmetadata-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-action-groups-api-openapi.yml
-- filename: microsoft-azure-monitor-activity-logs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-datacollectionruleconfigurationmetadata-api-openapi.yml
+- filename: microsoft-azure-monitor-operations-api-openapi.yml
   format: yaml
-  label: Azure Monitor Activity Logs API
-  slug: microsoft-azure-monitor-activity-logs-api
+  label: Azure Monitor Operations API
+  slug: microsoft-azure-monitor-operations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-activity-logs-api-openapi.yml
-- filename: microsoft-azure-monitor-alert-rules-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Alert Rules API
-  slug: microsoft-azure-monitor-alert-rules-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-alert-rules-api-openapi.yml
-- filename: microsoft-azure-monitor-autoscale-settings-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Autoscale Settings API
-  slug: microsoft-azure-monitor-autoscale-settings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-autoscale-settings-api-openapi.yml
-- filename: microsoft-azure-monitor-data-collection-endpoints-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Data Collection Endpoints API
-  slug: microsoft-azure-monitor-data-collection-endpoints-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-data-collection-endpoints-api-openapi.yml
-- filename: microsoft-azure-monitor-data-collection-rules-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Data Collection Rules API
-  slug: microsoft-azure-monitor-data-collection-rules-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-data-collection-rules-api-openapi.yml
-- filename: microsoft-azure-monitor-diagnostic-settings-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Diagnostic Settings API
-  slug: microsoft-azure-monitor-diagnostic-settings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-diagnostic-settings-api-openapi.yml
-- filename: microsoft-azure-monitor-events-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Events API
-  slug: microsoft-azure-monitor-events-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-events-api-openapi.yml
-- filename: microsoft-azure-monitor-logs-ingestion-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Logs Ingestion API
-  slug: microsoft-azure-monitor-logs-ingestion-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-logs-ingestion-api-openapi.yml
-- filename: microsoft-azure-monitor-metadata-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Metadata API
-  slug: microsoft-azure-monitor-metadata-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-metadata-api-openapi.yml
-- filename: microsoft-azure-monitor-metric-definitions-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Metric Definitions API
-  slug: microsoft-azure-monitor-metric-definitions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-metric-definitions-api-openapi.yml
-- filename: microsoft-azure-monitor-metrics-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Metrics API
-  slug: microsoft-azure-monitor-metrics-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-metrics-api-openapi.yml
-- filename: microsoft-azure-monitor-metrics-batch-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Metrics Batch API
-  slug: microsoft-azure-monitor-metrics-batch-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-metrics-batch-api-openapi.yml
-- filename: microsoft-azure-monitor-predictive-metrics-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Predictive Metrics API
-  slug: microsoft-azure-monitor-predictive-metrics-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-predictive-metrics-api-openapi.yml
-- filename: microsoft-azure-monitor-private-link-scopes-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Private Link Scopes API
-  slug: microsoft-azure-monitor-private-link-scopes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-private-link-scopes-api-openapi.yml
-- filename: microsoft-azure-monitor-query-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Query API
-  slug: microsoft-azure-monitor-query-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-query-api-openapi.yml
-- filename: microsoft-azure-monitor-scheduled-query-rules-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-operations-api-openapi.yml
+- filename: microsoft-azure-monitor-scheduledqueryrules-api-openapi.yml
   format: yaml
   label: Azure Monitor Scheduled Query Rules API
-  slug: microsoft-azure-monitor-scheduled-query-rules-api
+  slug: microsoft-azure-monitor-scheduledqueryrules-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-scheduled-query-rules-api-openapi.yml
-- filename: microsoft-azure-monitor-scoped-resources-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Scoped Resources API
-  slug: microsoft-azure-monitor-scoped-resources-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-scoped-resources-api-openapi.yml
-- filename: microsoft-azure-monitor-test-notifications-api-openapi.yml
-  format: yaml
-  label: Azure Monitor Test Notifications API
-  slug: microsoft-azure-monitor-test-notifications-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-test-notifications-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-monitor/openapi/microsoft-azure-monitor-scheduledqueryrules-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -125,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Microsoft Azure Monitor Authentication
+name: Azure Monitor Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

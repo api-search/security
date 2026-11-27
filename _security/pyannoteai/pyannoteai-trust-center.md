@@ -37,7 +37,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pyannoteai Trust Center
+name: PyannoteAI Trust Center
 name_suffix: Trust Center
 overview: PyannoteAI maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: PyannoteAI

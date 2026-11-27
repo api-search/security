@@ -246,7 +246,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Precisely Apis Domain Security
+name: Precisely APIs Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Precisely APIs, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Precisely APIs

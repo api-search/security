@@ -72,7 +72,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: derived
-name: University Of Sheffield Authentication
+name: University of Sheffield Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Sheffield secures its APIs with oauth2, apiKey, http, and saml2 across 5 declared security schemes, as derived from its OpenAPI definitions.

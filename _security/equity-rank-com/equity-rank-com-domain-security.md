@@ -1,0 +1,459 @@
+---
+api_specs:
+- filename: equity-rank-com-admin-api-openapi.yml
+  format: yaml
+  label: Equity Rank Admin API
+  slug: equity-rank-com-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-admin-api-openapi.yml
+- filename: equity-rank-com-admin-auto-trader-api-openapi.yml
+  format: yaml
+  label: Equity Rank Admin Auto Trader API
+  slug: equity-rank-com-admin-auto-trader-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-admin-auto-trader-api-openapi.yml
+- filename: equity-rank-com-admin-options-edge-api-openapi.yml
+  format: yaml
+  label: Equity Rank Admin Options Edge API
+  slug: equity-rank-com-admin-options-edge-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-admin-options-edge-api-openapi.yml
+- filename: equity-rank-com-admin-owner-portfolio-api-openapi.yml
+  format: yaml
+  label: Equity Rank Admin Owner Portfolio API
+  slug: equity-rank-com-admin-owner-portfolio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-admin-owner-portfolio-api-openapi.yml
+- filename: equity-rank-com-admin-v79-api-openapi.yml
+  format: yaml
+  label: Equity Rank Admin V79 API
+  slug: equity-rank-com-admin-v79-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-admin-v79-api-openapi.yml
+- filename: equity-rank-com-ai-api-openapi.yml
+  format: yaml
+  label: Equity Rank AI API
+  slug: equity-rank-com-ai-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-ai-api-openapi.yml
+- filename: equity-rank-com-alerts-api-openapi.yml
+  format: yaml
+  label: Equity Rank Alerts API
+  slug: equity-rank-com-alerts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-alerts-api-openapi.yml
+- filename: equity-rank-com-analytics-api-openapi.yml
+  format: yaml
+  label: Equity Rank Analytics API
+  slug: equity-rank-com-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-analytics-api-openapi.yml
+- filename: equity-rank-com-audit-api-openapi.yml
+  format: yaml
+  label: Equity Rank Audit API
+  slug: equity-rank-com-audit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-audit-api-openapi.yml
+- filename: equity-rank-com-auth-api-openapi.yml
+  format: yaml
+  label: Equity Rank Auth API
+  slug: equity-rank-com-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-auth-api-openapi.yml
+- filename: equity-rank-com-backtest-api-openapi.yml
+  format: yaml
+  label: Equity Rank Backtest API
+  slug: equity-rank-com-backtest-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-backtest-api-openapi.yml
+- filename: equity-rank-com-cancel-api-openapi.yml
+  format: yaml
+  label: Equity Rank Cancel API
+  slug: equity-rank-com-cancel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-cancel-api-openapi.yml
+- filename: equity-rank-com-cron-api-openapi.yml
+  format: yaml
+  label: Equity Rank Cron API
+  slug: equity-rank-com-cron-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-cron-api-openapi.yml
+- filename: equity-rank-com-cs-agent-api-openapi.yml
+  format: yaml
+  label: Equity Rank Cs Agent API
+  slug: equity-rank-com-cs-agent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-cs-agent-api-openapi.yml
+- filename: equity-rank-com-demo-api-openapi.yml
+  format: yaml
+  label: Equity Rank Demo API
+  slug: equity-rank-com-demo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-demo-api-openapi.yml
+- filename: equity-rank-com-digest-api-openapi.yml
+  format: yaml
+  label: Equity Rank Digest API
+  slug: equity-rank-com-digest-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-digest-api-openapi.yml
+- filename: equity-rank-com-earnings-api-openapi.yml
+  format: yaml
+  label: Equity Rank Earnings API
+  slug: equity-rank-com-earnings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-earnings-api-openapi.yml
+- filename: equity-rank-com-errors-api-openapi.yml
+  format: yaml
+  label: Equity Rank Errors API
+  slug: equity-rank-com-errors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-errors-api-openapi.yml
+- filename: equity-rank-com-friends-and-family-api-openapi.yml
+  format: yaml
+  label: Equity Rank Friends And Family API
+  slug: equity-rank-com-friends-and-family-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-friends-and-family-api-openapi.yml
+- filename: equity-rank-com-health-api-openapi.yml
+  format: yaml
+  label: Equity Rank Health API
+  slug: equity-rank-com-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-health-api-openapi.yml
+- filename: equity-rank-com-history-api-openapi.yml
+  format: yaml
+  label: Equity Rank History API
+  slug: equity-rank-com-history-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-history-api-openapi.yml
+- filename: equity-rank-com-inbox-api-openapi.yml
+  format: yaml
+  label: Equity Rank Inbox API
+  slug: equity-rank-com-inbox-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-inbox-api-openapi.yml
+- filename: equity-rank-com-ingest-api-openapi.yml
+  format: yaml
+  label: Equity Rank Ingest API
+  slug: equity-rank-com-ingest-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-ingest-api-openapi.yml
+- filename: equity-rank-com-innovation-api-openapi.yml
+  format: yaml
+  label: Equity Rank Innovation API
+  slug: equity-rank-com-innovation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-innovation-api-openapi.yml
+- filename: equity-rank-com-investor-api-openapi.yml
+  format: yaml
+  label: Equity Rank Investor API
+  slug: equity-rank-com-investor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-investor-api-openapi.yml
+- filename: equity-rank-com-learn-api-openapi.yml
+  format: yaml
+  label: Equity Rank Learn API
+  slug: equity-rank-com-learn-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-learn-api-openapi.yml
+- filename: equity-rank-com-market-api-openapi.yml
+  format: yaml
+  label: Equity Rank Market API
+  slug: equity-rank-com-market-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-market-api-openapi.yml
+- filename: equity-rank-com-mcp-api-openapi.yml
+  format: yaml
+  label: Equity Rank MCP API
+  slug: equity-rank-com-mcp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-mcp-api-openapi.yml
+- filename: equity-rank-com-methodology-api-openapi.yml
+  format: yaml
+  label: Equity Rank Methodology API
+  slug: equity-rank-com-methodology-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-methodology-api-openapi.yml
+- filename: equity-rank-com-money-api-openapi.yml
+  format: yaml
+  label: Equity Rank Money API
+  slug: equity-rank-com-money-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-money-api-openapi.yml
+- filename: equity-rank-com-money-plaid-api-openapi.yml
+  format: yaml
+  label: Equity Rank Money Plaid API
+  slug: equity-rank-com-money-plaid-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-money-plaid-api-openapi.yml
+- filename: equity-rank-com-multiples-api-openapi.yml
+  format: yaml
+  label: Equity Rank Multiples API
+  slug: equity-rank-com-multiples-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-multiples-api-openapi.yml
+- filename: equity-rank-com-options-api-openapi.yml
+  format: yaml
+  label: Equity Rank Options API
+  slug: equity-rank-com-options-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-options-api-openapi.yml
+- filename: equity-rank-com-options-backtest-api-openapi.yml
+  format: yaml
+  label: Equity Rank Options Backtest API
+  slug: equity-rank-com-options-backtest-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-options-backtest-api-openapi.yml
+- filename: equity-rank-com-options-screener-api-openapi.yml
+  format: yaml
+  label: Equity Rank Options Screener API
+  slug: equity-rank-com-options-screener-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-options-screener-api-openapi.yml
+- filename: equity-rank-com-ownership-api-openapi.yml
+  format: yaml
+  label: Equity Rank Ownership API
+  slug: equity-rank-com-ownership-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-ownership-api-openapi.yml
+- filename: equity-rank-com-pharma-events-api-openapi.yml
+  format: yaml
+  label: Equity Rank Pharma Events API
+  slug: equity-rank-com-pharma-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-pharma-events-api-openapi.yml
+- filename: equity-rank-com-portfolio-api-openapi.yml
+  format: yaml
+  label: Equity Rank Portfolio API
+  slug: equity-rank-com-portfolio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-portfolio-api-openapi.yml
+- filename: equity-rank-com-projection-api-openapi.yml
+  format: yaml
+  label: Equity Rank Projection API
+  slug: equity-rank-com-projection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-projection-api-openapi.yml
+- filename: equity-rank-com-public-api-openapi.yml
+  format: yaml
+  label: Equity Rank Public API
+  slug: equity-rank-com-public-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-public-api-openapi.yml
+- filename: equity-rank-com-public-datasets-api-openapi.yml
+  format: yaml
+  label: Equity Rank Public Datasets API
+  slug: equity-rank-com-public-datasets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-public-datasets-api-openapi.yml
+- filename: equity-rank-com-public-feeds-api-openapi.yml
+  format: yaml
+  label: Equity Rank Public Feeds API
+  slug: equity-rank-com-public-feeds-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-public-feeds-api-openapi.yml
+- filename: equity-rank-com-rates-api-openapi.yml
+  format: yaml
+  label: Equity Rank Rates API
+  slug: equity-rank-com-rates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-rates-api-openapi.yml
+- filename: equity-rank-com-referral-api-openapi.yml
+  format: yaml
+  label: Equity Rank Referral API
+  slug: equity-rank-com-referral-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-referral-api-openapi.yml
+- filename: equity-rank-com-research-api-openapi.yml
+  format: yaml
+  label: Equity Rank Research API
+  slug: equity-rank-com-research-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-research-api-openapi.yml
+- filename: equity-rank-com-save-api-openapi.yml
+  format: yaml
+  label: Equity Rank Save API
+  slug: equity-rank-com-save-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-save-api-openapi.yml
+- filename: equity-rank-com-saved-screeners-api-openapi.yml
+  format: yaml
+  label: Equity Rank Saved Screeners API
+  slug: equity-rank-com-saved-screeners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-saved-screeners-api-openapi.yml
+- filename: equity-rank-com-scenarios-api-openapi.yml
+  format: yaml
+  label: Equity Rank Scenarios API
+  slug: equity-rank-com-scenarios-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-scenarios-api-openapi.yml
+- filename: equity-rank-com-screener-api-openapi.yml
+  format: yaml
+  label: Equity Rank Screener API
+  slug: equity-rank-com-screener-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-screener-api-openapi.yml
+- filename: equity-rank-com-screener-export-api-openapi.yml
+  format: yaml
+  label: Equity Rank Screener Export API
+  slug: equity-rank-com-screener-export-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-screener-export-api-openapi.yml
+- filename: equity-rank-com-screeners-api-openapi.yml
+  format: yaml
+  label: Equity Rank Screeners API
+  slug: equity-rank-com-screeners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-screeners-api-openapi.yml
+- filename: equity-rank-com-security-api-openapi.yml
+  format: yaml
+  label: Equity Rank Security API
+  slug: equity-rank-com-security-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-security-api-openapi.yml
+- filename: equity-rank-com-social-api-openapi.yml
+  format: yaml
+  label: Equity Rank Social API
+  slug: equity-rank-com-social-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-social-api-openapi.yml
+- filename: equity-rank-com-statements-api-openapi.yml
+  format: yaml
+  label: Equity Rank Statements API
+  slug: equity-rank-com-statements-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-statements-api-openapi.yml
+- filename: equity-rank-com-stock-follows-api-openapi.yml
+  format: yaml
+  label: Equity Rank Stock Follows API
+  slug: equity-rank-com-stock-follows-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-stock-follows-api-openapi.yml
+- filename: equity-rank-com-stocks-api-openapi.yml
+  format: yaml
+  label: Equity Rank Stocks API
+  slug: equity-rank-com-stocks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-stocks-api-openapi.yml
+- filename: equity-rank-com-store-api-openapi.yml
+  format: yaml
+  label: Equity Rank Store API
+  slug: equity-rank-com-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-store-api-openapi.yml
+- filename: equity-rank-com-stripe-api-openapi.yml
+  format: yaml
+  label: Equity Rank Stripe API
+  slug: equity-rank-com-stripe-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-stripe-api-openapi.yml
+- filename: equity-rank-com-subscribe-api-openapi.yml
+  format: yaml
+  label: Equity Rank Subscribe API
+  slug: equity-rank-com-subscribe-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-subscribe-api-openapi.yml
+- filename: equity-rank-com-subscription-api-openapi.yml
+  format: yaml
+  label: Equity Rank Subscription API
+  slug: equity-rank-com-subscription-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-subscription-api-openapi.yml
+- filename: equity-rank-com-support-api-openapi.yml
+  format: yaml
+  label: Equity Rank Support API
+  slug: equity-rank-com-support-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-support-api-openapi.yml
+- filename: equity-rank-com-tracking-api-openapi.yml
+  format: yaml
+  label: Equity Rank Tracking API
+  slug: equity-rank-com-tracking-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-tracking-api-openapi.yml
+- filename: equity-rank-com-valuation-api-openapi.yml
+  format: yaml
+  label: Equity Rank Valuation API
+  slug: equity-rank-com-valuation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-valuation-api-openapi.yml
+- filename: equity-rank-com-valuation-split-api-openapi.yml
+  format: yaml
+  label: Equity Rank Valuation Split API
+  slug: equity-rank-com-valuation-split-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-valuation-split-api-openapi.yml
+- filename: equity-rank-com-valuation-views-api-openapi.yml
+  format: yaml
+  label: Equity Rank Valuation Views API
+  slug: equity-rank-com-valuation-views-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-valuation-views-api-openapi.yml
+- filename: equity-rank-com-valuation-views-public-api-openapi.yml
+  format: yaml
+  label: Equity Rank Valuation Views Public API
+  slug: equity-rank-com-valuation-views-public-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-valuation-views-public-api-openapi.yml
+- filename: equity-rank-com-watchlist-api-openapi.yml
+  format: yaml
+  label: Equity Rank Watchlist API
+  slug: equity-rank-com-watchlist-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-watchlist-api-openapi.yml
+- filename: equity-rank-com-watchlists-public-api-openapi.yml
+  format: yaml
+  label: Equity Rank Watchlists Public API
+  slug: equity-rank-com-watchlists-public-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-watchlists-public-api-openapi.yml
+- filename: equity-rank-com-well-known-api-openapi.yml
+  format: yaml
+  label: Equity Rank Well Known API
+  slug: equity-rank-com-well-known-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-well-known-api-openapi.yml
+- filename: equity-rank-com-wheel-screener-api-openapi.yml
+  format: yaml
+  label: Equity Rank Wheel Screener API
+  slug: equity-rank-com-wheel-screener-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/equity-rank-com/openapi/equity-rank-com-wheel-screener-api-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: equity-rank.com
+  spf: true
+hosts:
+- cert_expires: Dec 22 18:35:29 2026 GMT
+  host: equity-rank.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Equity Rank Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Equity Rank, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Equity Rank
+provider_slug: equity-rank-com
+slug: equity-rank-com-domain-security
+source_filename: equity-rank-com-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-11-07'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: equity-rank.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 22 18:35:29 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: equity-rank.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://artifacts.apis.io/equity-rank-com/security/equity-rank-com-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- Finance
+- Stock Analysis
+- Valuation
+- Investment Tools
+---

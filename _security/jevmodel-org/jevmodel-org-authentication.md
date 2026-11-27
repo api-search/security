@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Jevmodel Org Authentication
+name: Jev Model Guide Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Jev Model Guide declares 1 security scheme(s) across its OpenAPI definitions.

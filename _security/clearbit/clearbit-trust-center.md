@@ -4,7 +4,7 @@ certifications: []
 description: Clearbit publishes a single-page trust center covering legal terms, data governance and privacy, compliance posture, security practices and a link to the status page. It documents a real compliance program — California data-broker registration, CCPA subjection, GDPR alignment, a subprocessor list, annual third-party penetration testing — but it does NOT claim any Clearbit-held security certification.
 kind: trust-center
 layout: security
-name: Clearbit Trust Center
+name: Clearbit (HubSpot Breeze Intelligence) Trust Center
 name_suffix: Trust Center
 overview: Clearbit (HubSpot Breeze Intelligence) maintains a public trust center covering its security and compliance posture.
 provider_name: Clearbit (HubSpot Breeze Intelligence)

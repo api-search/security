@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Legitfit Authentication
+name: LegitFit Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -81,7 +81,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Paywithmybank Authentication
+name: PayWithMyBank (Trustly) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PayWithMyBank (Trustly) secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

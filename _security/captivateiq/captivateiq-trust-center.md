@@ -106,7 +106,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Captivateiq Trust Center
+name: CaptivateIQ Trust Center
 name_suffix: Trust Center
 overview: CaptivateIQ maintains a public trust center documenting ISO 27001, SOC 1, SOC 2, SOX, and GDPR compliance.
 provider_name: CaptivateIQ

@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cyberinsurancecost Co Uk Authentication
+name: Cyber Insurance Cost Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cyber Insurance Cost secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

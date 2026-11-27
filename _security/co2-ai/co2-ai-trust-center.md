@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Co2 Ai Trust Center
+name: CO2 AI Trust Center
 name_suffix: Trust Center
 overview: CO2 AI maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: CO2 AI

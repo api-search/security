@@ -29,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Canfly Ai Authentication
+name: CanFly Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CanFly secures its APIs with http-bearer and payment (HTTP 402 / MPP) across 2 declared security schemes, as derived from its OpenAPI definitions.

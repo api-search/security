@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Alice  Bob Authentication
+name: Alice Bob Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Alice Bob declares 1 security scheme(s) across its OpenAPI definitions.

@@ -39,7 +39,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Aifi Domain Security
+name: AiFi Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AiFi, probed live across 4 host(s) and 1 registrable domain(s). 4 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: AiFi

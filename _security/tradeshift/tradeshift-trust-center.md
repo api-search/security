@@ -260,7 +260,7 @@ tags:
 - B2B Commerce
 - Invoicing
 - UBL
-- PEPPOL
+- Peppol
 - e-invoicing-compliance
 - Supplier Network
 - business-documents

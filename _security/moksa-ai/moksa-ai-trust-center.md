@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Moksa Ai Trust Center
+name: mokSa AI Trust Center
 name_suffix: Trust Center
 overview: mokSa AI maintains a public trust center documenting SOC 2 Type 2 and GDPR compliance.
 provider_name: mokSa AI

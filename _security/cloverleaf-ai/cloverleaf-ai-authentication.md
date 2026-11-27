@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Cloverleaf Ai Authentication
+name: Cloverleaf AI Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

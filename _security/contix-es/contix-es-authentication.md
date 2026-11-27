@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Contix Es Authentication
+name: contix-es Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: contix-es declares 1 security scheme(s) across its OpenAPI definitions.

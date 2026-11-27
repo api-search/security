@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ablefy Authentication
+name: ablefy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ablefy declares 1 security scheme(s) across its OpenAPI definitions.

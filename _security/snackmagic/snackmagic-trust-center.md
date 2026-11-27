@@ -35,7 +35,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Snackmagic Trust Center
+name: SnackMagic Trust Center
 name_suffix: Trust Center
 overview: SnackMagic maintains a public trust center covering its security and compliance posture.
 provider_name: SnackMagic

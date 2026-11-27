@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Contract Guard Authentication
+name: Contract Guard / Autonomous Utility Factory Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Contract Guard / Autonomous Utility Factory declares 1 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Krosyn Authentication
+name: Chmura Software Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Chmura Software declares 2 security scheme(s) across its OpenAPI definitions.

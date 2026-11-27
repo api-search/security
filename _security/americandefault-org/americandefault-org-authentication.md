@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Americandefault Org Authentication
+name: American Default Research Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: American Default Research declares 0 security scheme(s) across its OpenAPI definitions.

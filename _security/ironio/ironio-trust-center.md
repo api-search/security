@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Ironio Trust Center
+name: Iron.io Trust Center
 name_suffix: Trust Center
 overview: Iron.io maintains a public trust center covering its security and compliance posture.
 provider_name: Iron.io

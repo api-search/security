@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Uplinkswitch Authentication
+name: UplinkSwitch Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: UplinkSwitch declares 2 security scheme(s) across its OpenAPI definitions.

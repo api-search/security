@@ -34,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Botsociety Authentication
+name: BotSociety Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BotSociety secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

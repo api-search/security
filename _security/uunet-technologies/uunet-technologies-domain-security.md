@@ -64,7 +64,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Uunet Technologies Domain Security
+name: UUNET Technologies Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for UUNET Technologies, probed live across 5 host(s) and 3 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: UUNET Technologies

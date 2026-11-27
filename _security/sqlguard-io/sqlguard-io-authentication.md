@@ -218,7 +218,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Sqlguard Io Authentication
+name: sqlguard-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: sqlguard-io declares 0 security scheme(s) across its OpenAPI definitions.

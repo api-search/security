@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Finalpaycalculator Co Nz Authentication
+name: Final Pay Calculator NZ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Final Pay Calculator NZ secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

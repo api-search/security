@@ -83,21 +83,29 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/amazon-advertising-api-openapi.yml
-  - openapi/amazon-selling-partner-api-openapi.yml
+  - openapi/amazon-ad-groups-api-openapi.yml
+  - openapi/amazon-campaigns-api-openapi.yml
+  - openapi/amazon-keywords-api-openapi.yml
+  - openapi/amazon-profiles-api-openapi.yml
+  - openapi/amazon-reports-api-openapi.yml
+  - openapi/amazon-targets-api-openapi.yml
   type: http
 - description: AMZN-PAY-RSASSA-PSS-V2 signature using merchant private key
   in: header
   name: amazonPaySignature
   parameter: authorization
   sources:
-  - openapi/amazon-pay-api-openapi.yml
+  - openapi/amazon-charge-permissions-api-openapi.yml
+  - openapi/amazon-charges-api-openapi.yml
+  - openapi/amazon-checkout-sessions-api-openapi.yml
+  - openapi/amazon-refunds-api-openapi.yml
   type: apiKey
 slug: amazon-authentication
 source_filename: amazon-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-advertising-api-openapi.yml, openapi/amazon-pay-api-openapi.yml, openapi/amazon-selling-partner-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token from Login with Amazon\n  sources:\n  - openapi/amazon-advertising-api-openapi.yml\n  - openapi/amazon-selling-partner-api-openapi.yml\n- name: amazonPaySignature\n  type: apiKey\n  in: header\n  parameter: authorization\n  description: AMZN-PAY-RSASSA-PSS-V2 signature using merchant private key\n  sources:\n  - openapi/amazon-pay-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-ad-groups-api-openapi.yml, openapi/amazon-campaigns-api-openapi.yml,\n  openapi/amazon-charge-permissions-api-openapi.yml, openapi/amazon-charges-api-openapi.yml,\n  openapi/amazon-checkout-sessions-api-openapi.yml, openapi/amazon-keywords-api-openapi.yml,\n  openapi/amazon-profiles-api-openapi.yml, openapi/amazon-refunds-api-openapi.yml, openapi/amazon-reports-api-openapi.yml,\n  openapi/amazon-targets-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  description: OAuth 2.0 access token from Login with Amazon\n  sources:\n  - openapi/amazon-ad-groups-api-openapi.yml\n  - openapi/amazon-campaigns-api-openapi.yml\n  - openapi/amazon-keywords-api-openapi.yml\n  - openapi/amazon-profiles-api-openapi.yml\n  - openapi/amazon-reports-api-openapi.yml\n  - openapi/amazon-targets-api-openapi.yml\n- name: amazonPaySignature\n\
+  \  type: apiKey\n  in: header\n  parameter: authorization\n  description: AMZN-PAY-RSASSA-PSS-V2 signature using merchant private key\n  sources:\n  - openapi/amazon-charge-permissions-api-openapi.yml\n  - openapi/amazon-charges-api-openapi.yml\n  - openapi/amazon-checkout-sessions-api-openapi.yml\n  - openapi/amazon-refunds-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon/authentication/amazon-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

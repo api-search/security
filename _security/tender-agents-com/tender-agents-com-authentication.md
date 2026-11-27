@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Tender Agents Com Authentication
+name: tender-agents-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tender-agents-com declares 1 security scheme(s) across its OpenAPI definitions.
@@ -96,7 +96,7 @@ slug: tender-agents-com-authentication
 source_filename: tender-agents-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "specification: API Commons Authentication\nspecificationVersion: '0.1'\nschema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Authentication\nprovider: Tender Agents\nproviderId: tender-agents-com\ncreated: '2026-10-31'\nmodified: '2026-10-31'\ngenerated: '2026-10-31'\nmethod: searched\nsource: https://www.tender-agents.com/developers\nschemes:\n  - type: http\n    scheme: bearer\n    bearerFormat: JWT\n    description: API key passed as Bearer token in Authorization header.\n"
+source_yaml: "specification: API Commons Authentication\nspecificationVersion: '0.1'\nschema: https://artifacts.apis.io/interface-research/schema/api-commons.yml#/$defs/Authentication\nprovider: Tender Agents\nproviderId: tender-agents-com\ncreated: '2026-10-31'\nmodified: '2026-10-31'\ngenerated: '2026-10-31'\nmethod: searched\nsource: https://www.tender-agents.com/developers\nschemes:\n  - type: http\n    scheme: bearer\n    bearerFormat: JWT\n    description: API key passed as Bearer token in Authorization header.\n"
 source_yaml_url: https://artifacts.apis.io/tender-agents-com/authentication/tender-agents-com-authentication.yml
 summary_line: 1 scheme
 tags:

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Tryadeli Com Authentication
+name: Adeli Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Adeli declares 1 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Shiftrx Authentication
+name: ShiftRx Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ShiftRx declares 0 security scheme(s) across its OpenAPI definitions.

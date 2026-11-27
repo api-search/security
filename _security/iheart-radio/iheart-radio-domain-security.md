@@ -5,19 +5,19 @@ api_specs:
   label: iHeartRadio Catalog API
   slug: iheartradio-catalog-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/openapi.yml
+  url: https://artifacts.apis.io/iheart-radio/openapi.yml
 - filename: openapi.yml
   format: yaml
   label: iHeartRadio Live Stations API
   slug: iheartradio-live-stations-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/openapi.yml
+  url: https://artifacts.apis.io/iheart-radio/openapi.yml
 - filename: openapi.yml
   format: yaml
   label: iHeartRadio Podcasts API
   slug: iheartradio-podcasts-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/iheart-radio/refs/heads/main/openapi.yml
+  url: https://artifacts.apis.io/iheart-radio/openapi.yml
 description: ''
 domains:
 - caa:
@@ -50,7 +50,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Iheart Radio Domain Security
+name: iHeartRadio Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for iHeartRadio, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: iHeartRadio

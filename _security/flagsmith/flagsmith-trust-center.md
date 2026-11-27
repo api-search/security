@@ -177,6 +177,5 @@ tags:
 - Open Source
 - Software-as-a-Service
 - MCP
-- Agent Ready
 trust_url: https://trust.flagsmith.com
 ---

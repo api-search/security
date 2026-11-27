@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Deepledger Ai Authentication
+name: DeepLedger Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DeepLedger declares 1 security scheme(s) across its OpenAPI definitions.

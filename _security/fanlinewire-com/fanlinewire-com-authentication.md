@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Fanlinewire Com Authentication
+name: fanlinewire-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: fanlinewire-com declares 3 security scheme(s) across its OpenAPI definitions.

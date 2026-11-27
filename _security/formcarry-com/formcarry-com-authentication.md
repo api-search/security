@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Formcarry Com Authentication
+name: formcarry-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: formcarry-com declares 2 security scheme(s) across its OpenAPI definitions.

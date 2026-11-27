@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Findweedny Com Domain Security
+name: FindWeedNY Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FindWeedNY, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: FindWeedNY
@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/findweedny-com/security/findweedny-co
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Cannabis
-- NewYork
+- New York
 - Directory
-- OpenData
+- Open Data
 - Maps
 ---

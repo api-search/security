@@ -412,7 +412,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Launchdarkly Trust Center
+name: LaunchDarkly Trust Center
 name_suffix: Trust Center
 overview: LaunchDarkly maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: LaunchDarkly

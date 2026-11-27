@@ -65,7 +65,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Platzi Fake Store Api Domain Security
+name: Platzi Fake Store API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Platzi Fake Store API, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: Platzi Fake Store API

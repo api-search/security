@@ -5,7 +5,7 @@ api_specs:
   label: CyberConnect GraphQL API
   slug: cyberconnect-graphql-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/cyberconnect/refs/heads/main/openapi.yml
+  url: https://artifacts.apis.io/cyberconnect/openapi.yml
 description: ''
 domains:
 - caa:
@@ -46,7 +46,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Cyberconnect Domain Security
+name: CyberConnect Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CyberConnect, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: CyberConnect

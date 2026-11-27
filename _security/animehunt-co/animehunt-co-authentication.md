@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Animehunt Co Authentication
+name: AnimeHunt Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AnimeHunt declares 0 security scheme(s) across its OpenAPI definitions.

@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Forecast Solar Authentication
+name: Forecast.Solar Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Forecast.Solar declares 1 security scheme(s) across its OpenAPI definitions.

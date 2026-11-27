@@ -114,7 +114,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Theloopbreaker Com Authentication
+name: Vaultfire Protocol Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Vaultfire Protocol secures its APIs with none, erc-8128-http-signature, x402-payment, and wallet-signature across 5 declared security schemes, as derived from its OpenAPI definitions.

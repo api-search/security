@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Graphite Com Authentication
+name: Graphite Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Graphite secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -57,7 +57,7 @@ summary_line: http · 1 scheme
 tags:
 - Code Review
 - Stacked PRs
-- Merge Queue
+- merge-queue
 - AI Code Review
 - Developer Tools
 - GitHub

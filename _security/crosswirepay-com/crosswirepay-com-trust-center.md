@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Crosswirepay Com Trust Center
+name: Crosswire Trust Center
 name_suffix: Trust Center
 overview: Crosswire maintains a public trust center documenting GDPR compliance.
 provider_name: Crosswire

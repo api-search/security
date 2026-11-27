@@ -186,7 +186,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Scraper Api Com Domain Security
+name: scraper-api-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for scraper-api-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
 provider_name: scraper-api-com

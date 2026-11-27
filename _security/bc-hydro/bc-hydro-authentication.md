@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bc Hydro Authentication
+name: BC Hydro Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BC Hydro secures its APIs with session-sso across 1 declared security scheme, as derived from its OpenAPI definitions.

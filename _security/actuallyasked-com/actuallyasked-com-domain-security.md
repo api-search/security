@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Actuallyasked Com Domain Security
+name: Actually Asked Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Actually Asked, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Actually Asked

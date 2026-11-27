@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Redstone Authentication
+name: RedStone Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RedStone secures its APIs with none across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Traceabledocs Com Trust Center
+name: traceabledocs-com Trust Center
 name_suffix: Trust Center
 overview: traceabledocs-com maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: traceabledocs-com

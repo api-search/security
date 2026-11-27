@@ -343,7 +343,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: searched
-name: Eqbuilder Dev Authentication
+name: Marz Greta-Lock Network Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Marz Greta-Lock Network secures its APIs with none (anonymous free surface), x402 payment-as-authorization (header), apiKey-style secret token (header), ownership proof (query), and apiKey (header) + cookie session (operator/admin only) across 7 declared security schemes, as derived from its OpenAPI definitions.

@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anchorregistry Ai Authentication
+name: AnchorRegistry Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AnchorRegistry declares 0 security scheme(s) across its OpenAPI definitions.

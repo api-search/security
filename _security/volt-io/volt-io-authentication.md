@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Volt Io Authentication
+name: Volt Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

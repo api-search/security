@@ -40,7 +40,7 @@ tags:
 - Parental Controls
 - Child Safety
 - Online Safety
-- Content-Monitoring
+- Content Monitoring
 - Screen Time
 - Family Tech
 - Cybersafety

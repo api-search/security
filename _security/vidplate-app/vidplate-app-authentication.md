@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Vidplate App Authentication
+name: VidPlate Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VidPlate secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

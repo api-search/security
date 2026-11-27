@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Campaignmonitor Trust Center
+name: Campaign Monitor Trust Center
 name_suffix: Trust Center
 overview: Campaign Monitor maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Campaign Monitor

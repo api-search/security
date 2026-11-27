@@ -44,7 +44,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Inworld Trust Center
+name: Inworld AI Trust Center
 name_suffix: Trust Center
 overview: Inworld AI maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Inworld AI

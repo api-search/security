@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Regscale Trust Center
+name: RegScale Trust Center
 name_suffix: Trust Center
 overview: RegScale maintains a public trust center documenting FedRAMP High, SOC 2 Type 2, ISO 27001:2022, TX-RAMP Level 2, CSA STAR Level 1, CSA STAR Valid-AI-ted, DoD IL5 (in process), HIPAA, and GDPR compliance.
 provider_name: RegScale

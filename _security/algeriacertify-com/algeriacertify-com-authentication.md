@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Algeriacertify Com Authentication
+name: Algeria Certify Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Algeria Certify declares 1 security scheme(s) across its OpenAPI definitions.

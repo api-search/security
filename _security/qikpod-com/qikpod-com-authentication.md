@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Qikpod Com Authentication
+name: QikPod Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: QikPod declares 0 security scheme(s) across its OpenAPI definitions.

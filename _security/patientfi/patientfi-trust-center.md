@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Patientfi Trust Center
+name: PatientFi Trust Center
 name_suffix: Trust Center
 overview: PatientFi maintains a public trust center covering its security and compliance posture.
 provider_name: PatientFi

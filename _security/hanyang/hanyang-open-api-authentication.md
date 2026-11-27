@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Hanyang Open Api Authentication
+name: Hanyang University Open Api Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hanyang University declares 0 security scheme(s) across its OpenAPI definitions.

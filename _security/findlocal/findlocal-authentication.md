@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Findlocal Authentication
+name: FindLocal Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FindLocal declares 2 security scheme(s) across its OpenAPI definitions.

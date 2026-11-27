@@ -1,13 +1,20 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: secondfactor-openapi-generated.yml
+  format: yaml
+  label: SecondFactor API
+  slug: secondfactor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/secondfactor/openapi/_ae-authored/secondfactor-openapi-generated.yml
 auth_types: []
-description: Authentication schemes for SecondFactor API
+description: ''
 kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Secondfactor Authentication
+name: SecondFactor Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SecondFactor declares 1 security scheme(s) across its OpenAPI definitions.
@@ -25,7 +32,7 @@ slug: secondfactor-authentication
 source_filename: secondfactor-authentication.yml
 source_heading: Authentication Profile
 source_url: https://docs.secondfactor.ai/authentication
-source_yaml: "generated: '2026-10-27'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.secondfactor.ai/authentication\nsources:\n- https://docs.secondfactor.ai/authentication\n- https://docs.secondfactor.ai/\ndescription: Authentication schemes for SecondFactor API\nschemes:\n- type: apiKey\n  name: X-API-Key\n  evidence: Send your API key in the X-API-Key header on every request.\n  location: header\n  header: X-API-Key\n  how_to_obtain: Create and revoke keys on the dashboard's API keys page.\ndocs: https://docs.secondfactor.ai/authentication\n"
+source_yaml: "generated: '2026-11-15'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.secondfactor.ai/authentication\nsources:\n- https://docs.secondfactor.ai/authentication\n- https://docs.secondfactor.ai/\nschemes:\n- type: apiKey\n  name: X-API-Key\n  evidence: Send your API key in the X-API-Key header on every request.\n  location: header\n  header: X-API-Key\n  how_to_obtain: Create and revoke keys on the dashboard's API keys page.\ndocs: https://docs.secondfactor.ai/authentication\n"
 source_yaml_url: https://artifacts.apis.io/secondfactor/authentication/secondfactor-authentication.yml
 summary_line: 1 scheme
 tags:

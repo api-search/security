@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Proof Of Play Authentication
+name: Proof of Play Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Proof of Play secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

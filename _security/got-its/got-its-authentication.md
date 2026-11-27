@@ -155,7 +155,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Got Its Authentication
+name: Reelables Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Gstinapi Authentication
+name: GSTIN API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GSTIN API declares 1 security scheme(s) across its OpenAPI definitions.

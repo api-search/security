@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Balad Corp Authentication
+name: BALAD Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

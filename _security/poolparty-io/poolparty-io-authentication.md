@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Poolparty Io Authentication
+name: PoolParty Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PoolParty secures its APIs with none, http-bearer, and wallet-signature across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -71,7 +71,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bureau Of Transportation Statistics Authentication
+name: Bureau of Transportation Statistics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bureau of Transportation Statistics secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

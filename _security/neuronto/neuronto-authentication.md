@@ -158,7 +158,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Neuronto Authentication
+name: Neuronto ARD Registry Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Neuronto ARD Registry declares 2 security scheme(s) across its OpenAPI definitions.

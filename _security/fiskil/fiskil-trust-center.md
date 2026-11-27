@@ -54,7 +54,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fiskil Trust Center
+name: FISKIL Trust Center
 name_suffix: Trust Center
 overview: FISKIL maintains a public trust center documenting SOC 2 compliance.
 provider_name: FISKIL

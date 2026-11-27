@@ -193,7 +193,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sewerai Trust Center
+name: SewerAI Trust Center
 name_suffix: Trust Center
 overview: SewerAI maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: SewerAI

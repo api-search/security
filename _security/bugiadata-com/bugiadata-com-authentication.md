@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bugiadata Com Authentication
+name: BugiaData Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BugiaData declares 1 security scheme(s) across its OpenAPI definitions.

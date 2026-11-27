@@ -98,7 +98,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Slng Trust Center
+name: SLNG Trust Center
 name_suffix: Trust Center
 overview: SLNG maintains a public trust center documenting ISO 27001, HIPAA, and GDPR compliance.
 provider_name: SLNG

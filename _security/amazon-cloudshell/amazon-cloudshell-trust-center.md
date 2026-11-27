@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Cloudshell Trust Center
+name: Amazon CloudShell Trust Center
 name_suffix: Trust Center
 overview: Amazon CloudShell maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon CloudShell

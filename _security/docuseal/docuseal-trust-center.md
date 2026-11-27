@@ -27,7 +27,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Docuseal Trust Center
+name: DocuSeal Trust Center
 name_suffix: Trust Center
 overview: DocuSeal maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: DocuSeal

@@ -28,7 +28,7 @@ certifications:
 description: 'Cisco operates a two-part trust surface: the Trust Center (narrative — trust principles, transparency, responsible-AI framework, vulnerability-disclosure posture) and the Trust Portal (self-service document access — audit reports, penetration tests, security questionnaires, privacy data sheets). Named certifications live on the Portal, not on the Center landing page.'
 kind: trust-center
 layout: security
-name: Cisco Psirt Trust Center
+name: Cisco PSIRT openVuln API Trust Center
 name_suffix: Trust Center
 overview: Cisco PSIRT openVuln API maintains a public trust center documenting SOC 2, ISO 27001, FedRAMP, BSI C5, and GDPR compliance.
 provider_name: Cisco PSIRT openVuln API

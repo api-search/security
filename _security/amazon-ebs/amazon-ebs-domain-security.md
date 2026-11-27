@@ -6,6 +6,12 @@ api_specs:
   slug: amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-ebs/openapi/amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api-openapi.yml
+- filename: amazon-ebs-blocks-api-openapi.yml
+  format: yaml
+  label: Amazon EBS Ebs Blocks API
+  slug: amazon-ebs-blocks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ebs/openapi/amazon-ebs-blocks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,7 +42,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Ebs Domain Security
+name: Amazon EBS Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon EBS, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon EBS

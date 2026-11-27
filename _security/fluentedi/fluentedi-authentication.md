@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Fluentedi Authentication
+name: FluentEDI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FluentEDI declares 0 security scheme(s) across its OpenAPI definitions.

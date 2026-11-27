@@ -157,7 +157,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Chronary Ai Trust Center
+name: Chronary Trust Center
 name_suffix: Trust Center
 overview: Chronary maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: Chronary

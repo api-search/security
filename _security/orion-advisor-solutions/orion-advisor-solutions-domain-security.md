@@ -3438,33 +3438,69 @@ api_specs:
   slug: orion-advisor-solutions-validateimport-echo-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-validateimport-echo-api-openapi.yml
+- filename: orion-advisor-solutions-billing-cloud-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Billing/Cloud API
+  slug: orion-advisor-solutions-billing-cloud-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-billing-cloud-api-openapi.yml
+- filename: orion-advisor-solutions-confirm-reconcases-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Confirm/Recon Cases API
+  slug: orion-advisor-solutions-confirm-reconcases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-confirm-reconcases-api-openapi.yml
+- filename: orion-advisor-solutions-reporting-income-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Reporting/Income API
+  slug: orion-advisor-solutions-reporting-income-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-reporting-income-api-openapi.yml
+- filename: orion-advisor-solutions-utility-gridexport-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Utility/Grid Export API
+  slug: orion-advisor-solutions-utility-gridexport-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-utility-gridexport-api-openapi.yml
 description: ''
 domains:
 - caa:
-  - 0 issue "amazon.com"
-  - 0 issuewild "awstrust.com"
-  - 0 issue "digicert.com"
+  - 0 issue "godaddy.com"
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog"
+  - 0 iodef "mailto:appsec@orion.com"
   - 0 iodef "mailto:security@orion.com"
-  - 0 issuewild "godaddy.com"
-  - 0 issuewild "amazonaws.com"
+  - 0 issue "amazon.com"
   dmarc: true
-  dmarc_policy: none
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: orion.com
+  spf: true
+- caa:
+  - 0 issuewild "amazontrust.com"
+  - 0 issuewild "awstrust.com"
+  - 0 issuewild "digicert.com"
+  - 0 issuewild "godaddy.com"
+  - 0 issuewild "letsencrypt.org"
+  - 0 iodef "mailto:appsec@orion.com"
+  dmarc: true
+  dmarc_policy: quarantine
   dnssec: false
   domain: orionadvisor.com
-  spf: false
+  spf: true
 hosts:
-- cert_expires: Oct 21 23:52:44 2026 GMT
-  host: www.orionadvisor.com
+- cert_expires: Jan 25 09:23:12 2027 GMT
+  host: orion.com
   hsts: true
   hsts_max_age: 15768000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov  8 01:31:25 2026 GMT
+- cert_expires: Jan  6 01:12:05 2027 GMT
   host: developers.orionadvisor.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Jan  2 23:59:59 2027 GMT
+- cert_expires: May  8 23:59:59 2027 GMT
   host: api.orionadvisor.com
   hsts: null
   https: true
@@ -3475,14 +3511,15 @@ layout: security
 method: probed
 name: Orion Advisor Solutions Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Orion Advisor Solutions, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
+overview: 'Domain security posture for Orion Advisor Solutions, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Orion Advisor Solutions
 provider_slug: orion-advisor-solutions
 slug: orion-advisor-solutions-domain-security
 source_filename: orion-advisor-solutions-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-09-10'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.orionadvisor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:52:44 2026 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: developers.orionadvisor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 01:31:25 2026 GMT\n  hsts: false\n- host: api.orionadvisor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  2 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: orionadvisor.com\n  dnssec: false\n  caa:\n  - 0 issue \"amazon.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issue \"digicert.com\"\n  - 0 iodef \"mailto:security@orion.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"amazonaws.com\"\n  spf: false\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-11-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: orion.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 25 09:23:12 2027 GMT\n  hsts: true\n  hsts_max_age: 15768000\n- host: developers.orionadvisor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  6 01:12:05 2027 GMT\n  hsts: false\n- host: api.orionadvisor.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: May  8 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: orion.com\n  dnssec: false\n  caa:\n  - 0 issue \"godaddy.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 iodef \"mailto:appsec@orion.com\"\n  - 0 iodef \"mailto:security@orion.com\"\n  - 0 issue \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: orionadvisor.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"amazontrust.com\"\n  - 0 issuewild \"awstrust.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild\
+  \ \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 iodef \"mailto:appsec@orion.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://artifacts.apis.io/orion-advisor-solutions/security/orion-advisor-solutions-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

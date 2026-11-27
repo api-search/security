@@ -1,17 +1,29 @@
 ---
 api_specs:
-- filename: microsoft-azure-firewall-firewalls-api-openapi.yml
+- filename: microsoft-azure-firewall-firewallpolicies-api-openapi.yml
   format: yaml
-  label: Azure Firewall Firewalls API
-  slug: microsoft-azure-firewall-firewalls-api
+  label: Azure Firewall Firewall Policies API
+  slug: microsoft-azure-firewall-firewallpolicies-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-firewalls-api-openapi.yml
-- filename: microsoft-azure-firewall-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-firewallpolicies-api-openapi.yml
+- filename: microsoft-azure-firewall-firewallpolicykubeselectorgroups-api-openapi.yml
   format: yaml
-  label: Azure Firewall Operations API
-  slug: microsoft-azure-firewall-operations-api
+  label: Azure Firewall Firewall Policy Kube Selector Groups API
+  slug: microsoft-azure-firewall-firewallpolicykubeselectorgroups-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-firewallpolicykubeselectorgroups-api-openapi.yml
+- filename: microsoft-azure-firewall-firewallpolicyrulecollectiongroups-api-openapi.yml
+  format: yaml
+  label: Azure Firewall Firewall Policy Rule Collection Groups API
+  slug: microsoft-azure-firewall-firewallpolicyrulecollectiongroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-firewallpolicyrulecollectiongroups-api-openapi.yml
+- filename: microsoft-azure-firewall-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Firewall Subscriptions API
+  slug: microsoft-azure-firewall-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-firewall/openapi/microsoft-azure-firewall-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -50,7 +62,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Firewall Domain Security
+name: Azure Firewall Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure Firewall, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Azure Firewall

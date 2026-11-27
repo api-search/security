@@ -32,11 +32,11 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Algoum De Authentication
+name: Algoum Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: algoum-de declares 1 security scheme(s) across its OpenAPI definitions.
-provider_name: algoum-de
+overview: Algoum declares 1 security scheme(s) across its OpenAPI definitions.
+provider_name: Algoum
 provider_slug: algoum-de
 scheme_count: 1
 schemes:

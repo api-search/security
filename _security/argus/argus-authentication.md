@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Argus Authentication
+name: ARGUS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ARGUS declares 2 security scheme(s) across its OpenAPI definitions.

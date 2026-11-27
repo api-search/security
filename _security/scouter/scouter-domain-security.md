@@ -38,4 +38,8 @@ tags:
 - Event
 - Real Estate
 - Mexico
+- Field Service Management
+- IoT
+- Asset Tracking
+- Predictive Maintenance
 ---

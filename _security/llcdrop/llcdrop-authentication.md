@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Llcdrop Authentication
+name: LLCDrop Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LLCDrop declares 1 security scheme(s) across its OpenAPI definitions.

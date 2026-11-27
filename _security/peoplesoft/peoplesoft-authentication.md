@@ -238,7 +238,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Peoplesoft Authentication
+name: PeopleSoft Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

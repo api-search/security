@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: coingate-conversions-api-openapi.yml
-  format: yaml
-  label: CoinGate Conversions API
-  slug: coingate-conversions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingate/openapi/coingate-conversions-api-openapi.yml
 - filename: coingate-currencies-api-openapi.yml
   format: yaml
   label: CoinGate Currencies API
@@ -135,7 +129,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Coingate Authentication
+name: CoinGate Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CoinGate secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

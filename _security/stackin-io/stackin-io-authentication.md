@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Stackin Io Authentication
+name: stackin-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: stackin-io declares 1 security scheme(s) across its OpenAPI definitions.

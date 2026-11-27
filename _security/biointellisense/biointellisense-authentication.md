@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Biointellisense Authentication
+name: BioIntelliSense Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BioIntelliSense secures its APIs with unknown-bearer across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Orum Com Authentication
+name: Orum Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Orum secures its APIs with saml, openIdConnect, oauth2, and hmac-signature across 2 declared security schemes, as derived from its OpenAPI definitions.

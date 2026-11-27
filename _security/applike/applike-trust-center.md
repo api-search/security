@@ -47,7 +47,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Applike Trust Center
+name: AppLike Group Trust Center
 name_suffix: Trust Center
 overview: AppLike Group maintains a public trust center covering its security and compliance posture.
 provider_name: AppLike Group

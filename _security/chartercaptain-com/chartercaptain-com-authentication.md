@@ -147,7 +147,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Chartercaptain Com Authentication
+name: Charter Captain Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Charter Captain secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

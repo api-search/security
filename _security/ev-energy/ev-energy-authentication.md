@@ -159,7 +159,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ev Energy Authentication
+name: ev.energy Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

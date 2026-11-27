@@ -304,7 +304,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Sap Sales And Distribution Sd Domain Security
+name: SAP Sales and Distribution (SD) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for SAP Sales and Distribution (SD), probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: SAP Sales and Distribution (SD)

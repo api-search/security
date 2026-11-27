@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Owncloud Trust Center
+name: ownCloud Trust Center
 name_suffix: Trust Center
 overview: ownCloud maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: ownCloud

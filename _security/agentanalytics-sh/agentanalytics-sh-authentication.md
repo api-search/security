@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Agentanalytics Sh Authentication
+name: Agent Analytics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Analytics declares 3 security scheme(s) across its OpenAPI definitions.

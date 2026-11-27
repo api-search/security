@@ -9,40 +9,82 @@ api_specs:
   slug: google-identity-platform-accounts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-identity-platform/openapi/google-identity-platform-accounts-api-openapi.yml
+- filename: google-identity-platform-projects-api-openapi.yml
+  format: yaml
+  label: Google Identity Platform Identity Platform Projects API
+  slug: google-identity-platform-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-identity-platform/openapi/google-identity-platform-projects-api-openapi.yml
+- filename: google-identity-platform-defaultsupportedidps-api-openapi.yml
+  format: yaml
+  label: Google Identity Platform Default Supported Idps API
+  slug: google-identity-platform-defaultsupportedidps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-identity-platform/openapi/google-identity-platform-defaultsupportedidps-api-openapi.yml
+- filename: google-identity-platform-recaptchaconfig-api-openapi.yml
+  format: yaml
+  label: Google Identity Platform Recaptcha Config API
+  slug: google-identity-platform-recaptchaconfig-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-identity-platform/openapi/google-identity-platform-recaptchaconfig-api-openapi.yml
+- filename: google-identity-platform-password-policy-api-openapi.yml
+  format: yaml
+  label: Google Identity Platform Password Policy API
+  slug: google-identity-platform-password-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-identity-platform/openapi/google-identity-platform-password-policy-api-openapi.yml
 auth_types:
 - apiKey
+- oauth2
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 1
+mechanism_count: 2
 method: derived
 name: Google Identity Platform Authentication
 name_suffix: Authentication
-oauth_flows: []
-overview: Google Identity Platform secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
+oauth_flows:
+- authorizationCode
+overview: Google Identity Platform secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
 provider_name: Google Identity Platform
 provider_slug: google-identity-platform
-scheme_count: 1
+scheme_count: 2
 schemes:
-- in: query
+- description: API key; accepted by methods that do not need user data.
+  in: query
   name: apiKey
   parameter: key
   sources:
-  - openapi/identity-toolkit-openapi.yml
+  - openapi/google-identity-platform-accounts-api-openapi.yml
+  - openapi/google-identity-platform-default-supported-idps-api-openapi.yml
+  - openapi/google-identity-platform-projects-api-openapi.yml
+  - openapi/google-identity-platform-v2-api-openapi.yml
   type: apiKey
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    scopes: 2
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  sources:
+  - openapi/google-identity-platform-accounts-api-openapi.yml
+  - openapi/google-identity-platform-default-supported-idps-api-openapi.yml
+  - openapi/google-identity-platform-projects-api-openapi.yml
+  - openapi/google-identity-platform-v2-api-openapi.yml
+  type: oauth2
 slug: google-identity-platform-authentication
 source_filename: google-identity-platform-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/identity-toolkit-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - query\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  sources:\n  - openapi/identity-toolkit-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-identity-platform-accounts-api-openapi.yml, openapi/google-identity-platform-default-supported-idps-api-openapi.yml,\n  openapi/google-identity-platform-projects-api-openapi.yml, openapi/google-identity-platform-v2-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key; accepted by methods that do not need user data.\n  sources:\n  - openapi/google-identity-platform-accounts-api-openapi.yml\n  - openapi/google-identity-platform-default-supported-idps-api-openapi.yml\n  - openapi/google-identity-platform-projects-api-openapi.yml\n  - openapi/google-identity-platform-v2-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n\
+  \    scopes: 2\n  sources:\n  - openapi/google-identity-platform-accounts-api-openapi.yml\n  - openapi/google-identity-platform-default-supported-idps-api-openapi.yml\n  - openapi/google-identity-platform-projects-api-openapi.yml\n  - openapi/google-identity-platform-v2-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-identity-platform/authentication/google-identity-platform-authentication.yml
-summary_line: apiKey · 1 scheme
+summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Authentication
 - Google Cloud
 - Identity
 - Multi-Tenancy
-- OAuth
 - OpenID Connect
 - SAML
 - Identity Federation

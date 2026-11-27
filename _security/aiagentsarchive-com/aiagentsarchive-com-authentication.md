@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aiagentsarchive Com Authentication
+name: AI Agents Archive Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI Agents Archive declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Iffco Tokio Authentication
+name: IFFCO-Tokio General Insurance Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IFFCO-Tokio General Insurance declares 0 security scheme(s) across its OpenAPI definitions.

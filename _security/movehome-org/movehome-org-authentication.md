@@ -34,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Movehome Org Authentication
+name: Move Home Organisation CIC Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -69,6 +69,12 @@ api_specs:
   slug: apibara-tech-market-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-market-api-openapi.yml
+- filename: apibara-tech-vehicle-auction-api-openapi.yml
+  format: yaml
+  label: Apibara.tech Vehicle Auction API
+  slug: apibara-tech-vehicle-auction-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/apibara-tech/openapi/apibara-tech-vehicle-auction-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -76,7 +82,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Apibara Tech Authentication
+name: Apibara.tech Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Apibara.tech secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

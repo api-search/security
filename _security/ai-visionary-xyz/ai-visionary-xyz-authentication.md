@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ai Visionary Xyz Authentication
+name: AI Visionary Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI Visionary declares 0 security scheme(s) across its OpenAPI definitions.

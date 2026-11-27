@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Samautomation Work Authentication
+name: samautomation-work Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: samautomation-work declares 1 security scheme(s) across its OpenAPI definitions.

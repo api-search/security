@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Hebrew University Of Jerusalem Authentication
+name: Hebrew University of Jerusalem Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hebrew University of Jerusalem declares 0 security scheme(s) across its OpenAPI definitions.

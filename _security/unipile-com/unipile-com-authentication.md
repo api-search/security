@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Unipile Com Authentication
+name: unipile-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: unipile-com declares 1 security scheme(s) across its OpenAPI definitions.

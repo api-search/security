@@ -858,7 +858,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Mtn Group Authentication
+name: MTN Group Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

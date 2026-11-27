@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Rudderstack Authentication
+name: RudderStack Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RudderStack secures its APIs with http and oauth2 across 5 declared security schemes, as derived from its OpenAPI definitions.

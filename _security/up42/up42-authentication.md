@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Up42 Authentication
+name: UP42 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: UP42 secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

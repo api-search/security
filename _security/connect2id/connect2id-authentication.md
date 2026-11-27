@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Connect2Id Authentication
+name: Connect2id Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Connect2id declares 2 security scheme(s) across its OpenAPI definitions.

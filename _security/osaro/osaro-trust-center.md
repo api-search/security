@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Osaro Trust Center
+name: OSARO Trust Center
 name_suffix: Trust Center
 overview: OSARO maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: OSARO

@@ -16,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Defoorreport Com Authentication
+name: DeFoor Report Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DeFoor Report secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

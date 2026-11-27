@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Iwant Fyi Authentication
+name: iwant.fyi Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: iwant.fyi secures its APIs with http and none across 3 declared security schemes, as derived from its OpenAPI definitions.

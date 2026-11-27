@@ -254,6 +254,78 @@ api_specs:
   slug: gradetv-well-known-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gradetv/openapi/gradetv-well-known-api-openapi.yml
+- filename: gradetv-account-api-openapi.yml
+  format: yaml
+  label: Grade Account API
+  slug: gradetv-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-account-api-openapi.yml
+- filename: gradetv-agent-json-api-openapi.yml
+  format: yaml
+  label: Grade Agent.json API
+  slug: gradetv-agent-json-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-agent-json-api-openapi.yml
+- filename: gradetv-erro-cliente-api-openapi.yml
+  format: yaml
+  label: Grade Erro Cliente API
+  slug: gradetv-erro-cliente-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-erro-cliente-api-openapi.yml
+- filename: gradetv-funil-api-openapi.yml
+  format: yaml
+  label: Grade Funil API
+  slug: gradetv-funil-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-funil-api-openapi.yml
+- filename: gradetv-legacy-api-openapi.yml
+  format: yaml
+  label: Grade Legacy API
+  slug: gradetv-legacy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-legacy-api-openapi.yml
+- filename: gradetv-pagamento-api-openapi.yml
+  format: yaml
+  label: Grade Pagamento API
+  slug: gradetv-pagamento-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-pagamento-api-openapi.yml
+- filename: gradetv-partners-api-openapi.yml
+  format: yaml
+  label: Grade Partners API
+  slug: gradetv-partners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-partners-api-openapi.yml
+- filename: gradetv-pay-api-openapi.yml
+  format: yaml
+  label: Grade Pay API
+  slug: gradetv-pay-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-pay-api-openapi.yml
+- filename: gradetv-pricing-api-openapi.yml
+  format: yaml
+  label: Grade Pricing API
+  slug: gradetv-pricing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-pricing-api-openapi.yml
+- filename: gradetv-programacao-api-openapi.yml
+  format: yaml
+  label: Grade Programacao API
+  slug: gradetv-programacao-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-programacao-api-openapi.yml
+- filename: gradetv-tv-api-openapi.yml
+  format: yaml
+  label: Grade TV API
+  slug: gradetv-tv-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-tv-api-openapi.yml
+- filename: gradetv-vitrine-api-openapi.yml
+  format: yaml
+  label: Grade Vitrine API
+  slug: gradetv-vitrine-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gradetv/openapi/gradetv-vitrine-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -261,7 +333,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Gradetv Authentication
+name: Grade Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Grade secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Anjal App Authentication
+name: Anjal Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Anjal declares 2 security scheme(s) across its OpenAPI definitions.

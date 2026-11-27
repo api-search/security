@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Accesshope Trust Center
+name: AccessHope Trust Center
 name_suffix: Trust Center
 overview: AccessHope maintains a public trust center documenting HITRUST CSF r2, SOC 2 Type I, and SOC 2 Type II compliance.
 provider_name: AccessHope

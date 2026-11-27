@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Besewbizzy Com Authentication
+name: Be Sew Bizzy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Be Sew Bizzy declares 0 security scheme(s) across its OpenAPI definitions.

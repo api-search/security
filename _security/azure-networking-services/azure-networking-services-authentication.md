@@ -2,6 +2,816 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: azure-networking-services-operations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Operations API
+  slug: microsoft-azure-networking-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-operations-api-openapi.yml
+- filename: azure-networking-services-addressprefixsets-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Address Prefix Sets API
+  slug: azure-networking-services-addressprefixsets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-addressprefixsets-api-openapi.yml
+- filename: azure-networking-services-adminrulecollections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Admin Rule Collections API
+  slug: azure-networking-services-adminrulecollections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-adminrulecollections-api-openapi.yml
+- filename: azure-networking-services-adminrules-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Admin Rules API
+  slug: azure-networking-services-adminrules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-adminrules-api-openapi.yml
+- filename: azure-networking-services-applicationgatewayprivateendpointconnections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Application Gateway Private Endpoint Connections API
+  slug: azure-networking-services-applicationgatewayprivateendpointconnections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-applicationgatewayprivateendpointconnections-api-openapi.yml
+- filename: azure-networking-services-applicationgatewayprivatelinkresources-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Application Gateway Private Link Resources API
+  slug: azure-networking-services-applicationgatewayprivatelinkresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-applicationgatewayprivatelinkresources-api-openapi.yml
+- filename: azure-networking-services-applicationsecuritygroups-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Application Security Groups API
+  slug: azure-networking-services-applicationsecuritygroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-applicationsecuritygroups-api-openapi.yml
+- filename: azure-networking-services-authenticationpolicies-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Authentication Policies API
+  slug: azure-networking-services-authenticationpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-authenticationpolicies-api-openapi.yml
+- filename: azure-networking-services-azurefirewallfqdntags-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Azure Firewall Fqdn Tags API
+  slug: azure-networking-services-azurefirewallfqdntags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-azurefirewallfqdntags-api-openapi.yml
+- filename: azure-networking-services-azurefirewalls-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Azure Firewalls API
+  slug: azure-networking-services-azurefirewalls-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-azurefirewalls-api-openapi.yml
+- filename: azure-networking-services-bastionhosts-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Bastion Hosts API
+  slug: azure-networking-services-bastionhosts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-bastionhosts-api-openapi.yml
+- filename: azure-networking-services-bastionshareablelink-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Bastion Shareable Link API
+  slug: azure-networking-services-bastionshareablelink-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-bastionshareablelink-api-openapi.yml
+- filename: azure-networking-services-bgpservicecommunities-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Bgp Service Communities API
+  slug: azure-networking-services-bgpservicecommunities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-bgpservicecommunities-api-openapi.yml
+- filename: azure-networking-services-commits-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Commits API
+  slug: azure-networking-services-commits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-commits-api-openapi.yml
+- filename: azure-networking-services-connectionanalyzers-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Connection Analyzers API
+  slug: azure-networking-services-connectionanalyzers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-connectionanalyzers-api-openapi.yml
+- filename: azure-networking-services-connectionmonitors-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Connection Monitors API
+  slug: azure-networking-services-connectionmonitors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-connectionmonitors-api-openapi.yml
+- filename: azure-networking-services-connectivityconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Connectivity Configurations API
+  slug: azure-networking-services-connectivityconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-connectivityconfigurations-api-openapi.yml
+- filename: azure-networking-services-customipprefixes-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Custom Ip Prefixes API
+  slug: azure-networking-services-customipprefixes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-customipprefixes-api-openapi.yml
+- filename: azure-networking-services-ddoscustompolicies-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Ddos Custom Policies API
+  slug: azure-networking-services-ddoscustompolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-ddoscustompolicies-api-openapi.yml
+- filename: azure-networking-services-ddosprotectionplans-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Ddos Protection Plans API
+  slug: azure-networking-services-ddosprotectionplans-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-ddosprotectionplans-api-openapi.yml
+- filename: azure-networking-services-dscpconfiguration-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Dscp Configuration API
+  slug: azure-networking-services-dscpconfiguration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-dscpconfiguration-api-openapi.yml
+- filename: azure-networking-services-dscpconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Dscp Configurations API
+  slug: azure-networking-services-dscpconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-dscpconfigurations-api-openapi.yml
+- filename: azure-networking-services-expressroutecircuitarptable-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Circuit Arp Table API
+  slug: azure-networking-services-expressroutecircuitarptable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecircuitarptable-api-openapi.yml
+- filename: azure-networking-services-expressroutecircuitauthorizations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Circuit Authorizations API
+  slug: azure-networking-services-expressroutecircuitauthorizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecircuitauthorizations-api-openapi.yml
+- filename: azure-networking-services-expressroutecircuitconnections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Circuit Connections API
+  slug: azure-networking-services-expressroutecircuitconnections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecircuitconnections-api-openapi.yml
+- filename: azure-networking-services-expressroutecircuitpeerings-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Circuit Peerings API
+  slug: azure-networking-services-expressroutecircuitpeerings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecircuitpeerings-api-openapi.yml
+- filename: azure-networking-services-expressroutecircuitroutestable-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Circuit Routes Table API
+  slug: azure-networking-services-expressroutecircuitroutestable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecircuitroutestable-api-openapi.yml
+- filename: azure-networking-services-expressroutecircuitroutestablesummary-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Circuit Routes Table Summary API
+  slug: azure-networking-services-expressroutecircuitroutestablesummary-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecircuitroutestablesummary-api-openapi.yml
+- filename: azure-networking-services-expressroutecircuitstats-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Circuit Stats API
+  slug: azure-networking-services-expressroutecircuitstats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecircuitstats-api-openapi.yml
+- filename: azure-networking-services-expressrouteconnections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Connections API
+  slug: azure-networking-services-expressrouteconnections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressrouteconnections-api-openapi.yml
+- filename: azure-networking-services-expressroutecrossconnectionarptable-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Cross Connection Arp Table API
+  slug: azure-networking-services-expressroutecrossconnectionarptable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecrossconnectionarptable-api-openapi.yml
+- filename: azure-networking-services-expressroutecrossconnectionpeerings-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Cross Connection Peerings API
+  slug: azure-networking-services-expressroutecrossconnectionpeerings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecrossconnectionpeerings-api-openapi.yml
+- filename: azure-networking-services-expressroutecrossconnectionroutetable-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Cross Connection Route Table API
+  slug: azure-networking-services-expressroutecrossconnectionroutetable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecrossconnectionroutetable-api-openapi.yml
+- filename: azure-networking-services-expressroutecrossconnectionroutetablesummary-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Cross Connection Route Table Summary API
+  slug: azure-networking-services-expressroutecrossconnectionroutetablesummary-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecrossconnectionroutetablesummary-api-openapi.yml
+- filename: azure-networking-services-expressroutecrossconnections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Cross Connections API
+  slug: azure-networking-services-expressroutecrossconnections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutecrossconnections-api-openapi.yml
+- filename: azure-networking-services-expressroutegateways-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Gateways API
+  slug: azure-networking-services-expressroutegateways-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutegateways-api-openapi.yml
+- filename: azure-networking-services-expressroutelagauthorizations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Lag Authorizations API
+  slug: azure-networking-services-expressroutelagauthorizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutelagauthorizations-api-openapi.yml
+- filename: azure-networking-services-expressroutelaglinks-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Lag Links API
+  slug: azure-networking-services-expressroutelaglinks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutelaglinks-api-openapi.yml
+- filename: azure-networking-services-expressroutelagmembers-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Lag Members API
+  slug: azure-networking-services-expressroutelagmembers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutelagmembers-api-openapi.yml
+- filename: azure-networking-services-expressroutelags-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Lags API
+  slug: azure-networking-services-expressroutelags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutelags-api-openapi.yml
+- filename: azure-networking-services-expressroutelinks-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Links API
+  slug: azure-networking-services-expressroutelinks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroutelinks-api-openapi.yml
+- filename: azure-networking-services-expressrouteportauthorizations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Port Authorizations API
+  slug: azure-networking-services-expressrouteportauthorizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressrouteportauthorizations-api-openapi.yml
+- filename: azure-networking-services-expressrouteports-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Ports API
+  slug: azure-networking-services-expressrouteports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressrouteports-api-openapi.yml
+- filename: azure-networking-services-expressrouteportslocations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Ports Locations API
+  slug: azure-networking-services-expressrouteportslocations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressrouteportslocations-api-openapi.yml
+- filename: azure-networking-services-expressrouteproviderports-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Provider Ports API
+  slug: azure-networking-services-expressrouteproviderports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressrouteproviderports-api-openapi.yml
+- filename: azure-networking-services-expressrouteserviceproviders-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Express Route Service Providers API
+  slug: azure-networking-services-expressrouteserviceproviders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressrouteserviceproviders-api-openapi.yml
+- filename: azure-networking-services-firewallpolicies-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Firewall Policies API
+  slug: azure-networking-services-firewallpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-firewallpolicies-api-openapi.yml
+- filename: azure-networking-services-firewallpolicykubeselectorgroups-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Firewall Policy Kube Selector Groups API
+  slug: azure-networking-services-firewallpolicykubeselectorgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-firewallpolicykubeselectorgroups-api-openapi.yml
+- filename: azure-networking-services-firewallpolicyrulecollectiongroups-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Firewall Policy Rule Collection Groups API
+  slug: azure-networking-services-firewallpolicyrulecollectiongroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-firewallpolicyrulecollectiongroups-api-openapi.yml
+- filename: azure-networking-services-firstpartyservicetags-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services First Party Service Tags API
+  slug: azure-networking-services-firstpartyservicetags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-firstpartyservicetags-api-openapi.yml
+- filename: azure-networking-services-flowlogs-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Flow Logs API
+  slug: azure-networking-services-flowlogs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-flowlogs-api-openapi.yml
+- filename: azure-networking-services-interconnectgroups-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Interconnect Groups API
+  slug: azure-networking-services-interconnectgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-interconnectgroups-api-openapi.yml
+- filename: azure-networking-services-ipallocations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Ip Allocations API
+  slug: azure-networking-services-ipallocations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-ipallocations-api-openapi.yml
+- filename: azure-networking-services-ipampools-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Ipam Pools API
+  slug: azure-networking-services-ipampools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-ipampools-api-openapi.yml
+- filename: azure-networking-services-ipgroups-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Ip Groups API
+  slug: azure-networking-services-ipgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-ipgroups-api-openapi.yml
+- filename: azure-networking-services-localnetworkgateways-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Local Network Gateways API
+  slug: azure-networking-services-localnetworkgateways-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-localnetworkgateways-api-openapi.yml
+- filename: azure-networking-services-natgateways-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Nat Gateways API
+  slug: azure-networking-services-natgateways-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-natgateways-api-openapi.yml
+- filename: azure-networking-services-network-interfaces-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Interfaces API
+  slug: azure-networking-services-network-interfaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-network-interfaces-api-openapi.yml
+- filename: azure-networking-services-networkgroups-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Groups API
+  slug: azure-networking-services-networkgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkgroups-api-openapi.yml
+- filename: azure-networking-services-networkmanageractiveconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Manager Active Configurations API
+  slug: azure-networking-services-networkmanageractiveconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkmanageractiveconfigurations-api-openapi.yml
+- filename: azure-networking-services-networkmanageractiveconnectivityconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Manager Active Connectivity Configurations API
+  slug: azure-networking-services-networkmanageractiveconnectivityconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkmanageractiveconnectivityconfigurations-api-openapi.yml
+- filename: azure-networking-services-networkmanagerconnections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Manager Connections API
+  slug: azure-networking-services-networkmanagerconnections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkmanagerconnections-api-openapi.yml
+- filename: azure-networking-services-networkmanagereffectiveconnectivityconfiguration-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Manager Effective Connectivity Configuration API
+  slug: azure-networking-services-networkmanagereffectiveconnectivityconfiguration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkmanagereffectiveconnectivityconfiguration-api-openapi.yml
+- filename: azure-networking-services-networkmanagereffectivesecurityadminrules-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Manager Effective Security Admin Rules API
+  slug: azure-networking-services-networkmanagereffectivesecurityadminrules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkmanagereffectivesecurityadminrules-api-openapi.yml
+- filename: azure-networking-services-networkmanagerroutingconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Manager Routing Configurations API
+  slug: azure-networking-services-networkmanagerroutingconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkmanagerroutingconfigurations-api-openapi.yml
+- filename: azure-networking-services-networkmanagers-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Managers API
+  slug: azure-networking-services-networkmanagers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkmanagers-api-openapi.yml
+- filename: azure-networking-services-networkprofiles-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Profiles API
+  slug: azure-networking-services-networkprofiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkprofiles-api-openapi.yml
+- filename: azure-networking-services-networksecuritygroups-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Groups API
+  slug: azure-networking-services-networksecuritygroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecuritygroups-api-openapi.yml
+- filename: azure-networking-services-networksecurityperimeteraccessrules-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Perimeter Access Rules API
+  slug: azure-networking-services-networksecurityperimeteraccessrules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecurityperimeteraccessrules-api-openapi.yml
+- filename: azure-networking-services-networksecurityperimeterassociableresourcetypes-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Perimeter Associable Resource Types API
+  slug: azure-networking-services-networksecurityperimeterassociableresourcetypes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecurityperimeterassociableresourcetypes-api-openapi.yml
+- filename: azure-networking-services-networksecurityperimeterassociations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Perimeter Associations API
+  slug: azure-networking-services-networksecurityperimeterassociations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecurityperimeterassociations-api-openapi.yml
+- filename: azure-networking-services-networksecurityperimeterlinkreferences-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Perimeter Link References API
+  slug: azure-networking-services-networksecurityperimeterlinkreferences-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecurityperimeterlinkreferences-api-openapi.yml
+- filename: azure-networking-services-networksecurityperimeterlinks-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Perimeter Links API
+  slug: azure-networking-services-networksecurityperimeterlinks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecurityperimeterlinks-api-openapi.yml
+- filename: azure-networking-services-networksecurityperimeterloggingconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Perimeter Logging Configurations API
+  slug: azure-networking-services-networksecurityperimeterloggingconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecurityperimeterloggingconfigurations-api-openapi.yml
+- filename: azure-networking-services-networksecurityperimeteroperationstatuses-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Perimeter Operation Statuses API
+  slug: azure-networking-services-networksecurityperimeteroperationstatuses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecurityperimeteroperationstatuses-api-openapi.yml
+- filename: azure-networking-services-networksecurityperimeterprofiles-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Perimeter Profiles API
+  slug: azure-networking-services-networksecurityperimeterprofiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecurityperimeterprofiles-api-openapi.yml
+- filename: azure-networking-services-networksecurityperimeters-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Perimeters API
+  slug: azure-networking-services-networksecurityperimeters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecurityperimeters-api-openapi.yml
+- filename: azure-networking-services-networksecurityperimeterservicetags-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Security Perimeter Service Tags API
+  slug: azure-networking-services-networksecurityperimeterservicetags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networksecurityperimeterservicetags-api-openapi.yml
+- filename: azure-networking-services-networkvirtualappliances-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Virtual Appliances API
+  slug: azure-networking-services-networkvirtualappliances-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkvirtualappliances-api-openapi.yml
+- filename: azure-networking-services-networkwatchers-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Network Watchers API
+  slug: azure-networking-services-networkwatchers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-networkwatchers-api-openapi.yml
+- filename: azure-networking-services-p2svpngateways-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services P2S Vpn Gateways API
+  slug: azure-networking-services-p2svpngateways-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-p2svpngateways-api-openapi.yml
+- filename: azure-networking-services-packetcaptures-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Packet Captures API
+  slug: azure-networking-services-packetcaptures-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-packetcaptures-api-openapi.yml
+- filename: azure-networking-services-peerexpressroutecircuitconnections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Peer Express Route Circuit Connections API
+  slug: azure-networking-services-peerexpressroutecircuitconnections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-peerexpressroutecircuitconnections-api-openapi.yml
+- filename: azure-networking-services-privatednszonegroups-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Private Dns Zone Groups API
+  slug: azure-networking-services-privatednszonegroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-privatednszonegroups-api-openapi.yml
+- filename: azure-networking-services-privatelinkservice-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Private Link Service API
+  slug: azure-networking-services-privatelinkservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-privatelinkservice-api-openapi.yml
+- filename: azure-networking-services-privatelinkservices-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Private Link Services API
+  slug: azure-networking-services-privatelinkservices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-privatelinkservices-api-openapi.yml
+- filename: azure-networking-services-publicipaddresses-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Public IP Addresses API
+  slug: azure-networking-services-publicipaddresses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-publicipaddresses-api-openapi.yml
+- filename: azure-networking-services-publicipprefixes-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Public IP Prefixes API
+  slug: azure-networking-services-publicipprefixes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-publicipprefixes-api-openapi.yml
+- filename: azure-networking-services-reachabilityanalysisintent-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Reachability Analysis Intent API
+  slug: azure-networking-services-reachabilityanalysisintent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-reachabilityanalysisintent-api-openapi.yml
+- filename: azure-networking-services-reachabilityanalysisintents-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Reachability Analysis Intents API
+  slug: azure-networking-services-reachabilityanalysisintents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-reachabilityanalysisintents-api-openapi.yml
+- filename: azure-networking-services-reachabilityanalysisruns-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Reachability Analysis Runs API
+  slug: azure-networking-services-reachabilityanalysisruns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-reachabilityanalysisruns-api-openapi.yml
+- filename: azure-networking-services-routefilterrules-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Route Filter Rules API
+  slug: azure-networking-services-routefilterrules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-routefilterrules-api-openapi.yml
+- filename: azure-networking-services-routefilters-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Route Filters API
+  slug: azure-networking-services-routefilters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-routefilters-api-openapi.yml
+- filename: azure-networking-services-routes-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Routes API
+  slug: azure-networking-services-routes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-routes-api-openapi.yml
+- filename: azure-networking-services-routingrulecollections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Routing Rule Collections API
+  slug: azure-networking-services-routingrulecollections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-routingrulecollections-api-openapi.yml
+- filename: azure-networking-services-scopeconnections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Scope Connections API
+  slug: azure-networking-services-scopeconnections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-scopeconnections-api-openapi.yml
+- filename: azure-networking-services-securityadminconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Security Admin Configurations API
+  slug: azure-networking-services-securityadminconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-securityadminconfigurations-api-openapi.yml
+- filename: azure-networking-services-securitypartnerproviders-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Security Partner Providers API
+  slug: azure-networking-services-securitypartnerproviders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-securitypartnerproviders-api-openapi.yml
+- filename: azure-networking-services-securityuserconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Security User Configurations API
+  slug: azure-networking-services-securityuserconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-securityuserconfigurations-api-openapi.yml
+- filename: azure-networking-services-securityuserrulecollections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Security User Rule Collections API
+  slug: azure-networking-services-securityuserrulecollections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-securityuserrulecollections-api-openapi.yml
+- filename: azure-networking-services-securityuserrules-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Security User Rules API
+  slug: azure-networking-services-securityuserrules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-securityuserrules-api-openapi.yml
+- filename: azure-networking-services-serviceendpointpolicies-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Service Endpoint Policies API
+  slug: azure-networking-services-serviceendpointpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-serviceendpointpolicies-api-openapi.yml
+- filename: azure-networking-services-serviceendpointpolicydefinitions-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Service Endpoint Policy Definitions API
+  slug: azure-networking-services-serviceendpointpolicydefinitions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-serviceendpointpolicydefinitions-api-openapi.yml
+- filename: azure-networking-services-servicegateways-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Service Gateways API
+  slug: azure-networking-services-servicegateways-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-servicegateways-api-openapi.yml
+- filename: azure-networking-services-staticcidrs-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Static Cidrs API
+  slug: azure-networking-services-staticcidrs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-staticcidrs-api-openapi.yml
+- filename: azure-networking-services-staticmembers-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Static Members API
+  slug: azure-networking-services-staticmembers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-staticmembers-api-openapi.yml
+- filename: azure-networking-services-subgroups-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Subgroups API
+  slug: azure-networking-services-subgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subgroups-api-openapi.yml
+- filename: azure-networking-services-trafficanalytics-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Traffic Analytics API
+  slug: azure-networking-services-trafficanalytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-trafficanalytics-api-openapi.yml
+- filename: azure-networking-services-usages-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Usages API
+  slug: azure-networking-services-usages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-usages-api-openapi.yml
+- filename: azure-networking-services-verifierworkspaces-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Verifier Workspaces API
+  slug: azure-networking-services-verifierworkspaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-verifierworkspaces-api-openapi.yml
+- filename: azure-networking-services-vipswap-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Vip Swap API
+  slug: azure-networking-services-vipswap-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-vipswap-api-openapi.yml
+- filename: azure-networking-services-virtualappliancesites-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Appliance Sites API
+  slug: azure-networking-services-virtualappliancesites-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualappliancesites-api-openapi.yml
+- filename: azure-networking-services-virtualapplianceskus-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Appliance Skus API
+  slug: azure-networking-services-virtualapplianceskus-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualapplianceskus-api-openapi.yml
+- filename: azure-networking-services-virtualnetworkappliancecapabilities-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Network Appliance Capabilities API
+  slug: azure-networking-services-virtualnetworkappliancecapabilities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualnetworkappliancecapabilities-api-openapi.yml
+- filename: azure-networking-services-virtualnetworkappliances-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Network Appliances API
+  slug: azure-networking-services-virtualnetworkappliances-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualnetworkappliances-api-openapi.yml
+- filename: azure-networking-services-virtualnetworkgatewayconnections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Network Gateway Connections API
+  slug: azure-networking-services-virtualnetworkgatewayconnections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualnetworkgatewayconnections-api-openapi.yml
+- filename: azure-networking-services-virtualnetworkgateways-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Network Gateways API
+  slug: azure-networking-services-virtualnetworkgateways-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualnetworkgateways-api-openapi.yml
+- filename: azure-networking-services-virtualnetworktap-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Network Tap API
+  slug: azure-networking-services-virtualnetworktap-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualnetworktap-api-openapi.yml
+- filename: azure-networking-services-virtualnetworktaps-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Network Taps API
+  slug: azure-networking-services-virtualnetworktaps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualnetworktaps-api-openapi.yml
+- filename: azure-networking-services-virtualrouterpeerings-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Router Peerings API
+  slug: azure-networking-services-virtualrouterpeerings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualrouterpeerings-api-openapi.yml
+- filename: azure-networking-services-virtualrouters-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Routers API
+  slug: azure-networking-services-virtualrouters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualrouters-api-openapi.yml
+- filename: azure-networking-services-virtualwans-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual WANs API
+  slug: azure-networking-services-virtualwans-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualwans-api-openapi.yml
+- filename: azure-networking-services-vpngateways-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Vpn Gateways API
+  slug: azure-networking-services-vpngateways-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-vpngateways-api-openapi.yml
+- filename: azure-networking-services-vpnlinkconnections-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Vpn Link Connections API
+  slug: azure-networking-services-vpnlinkconnections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-vpnlinkconnections-api-openapi.yml
+- filename: azure-networking-services-vpnserverconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Vpn Server Configurations API
+  slug: azure-networking-services-vpnserverconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-vpnserverconfigurations-api-openapi.yml
+- filename: azure-networking-services-vpnsites-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Vpn Sites API
+  slug: azure-networking-services-vpnsites-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-vpnsites-api-openapi.yml
+- filename: azure-networking-services-webapplicationfirewallpolicies-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Web Application Firewall Policies API
+  slug: azure-networking-services-webapplicationfirewallpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-webapplicationfirewallpolicies-api-openapi.yml
+- filename: azure-networking-services-webcategories-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Web Categories API
+  slug: azure-networking-services-webcategories-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-webcategories-api-openapi.yml
+- filename: azure-networking-services-application-gateways-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Application Gateways API
+  slug: azure-networking-services-application-gateways-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-application-gateways-api-openapi.yml
+- filename: azure-networking-services-expressroute-circuits-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services ExpressRoute Circuits API
+  slug: azure-networking-services-expressroute-circuits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-expressroute-circuits-api-openapi.yml
+- filename: azure-networking-services-load-balancers-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Load Balancers API
+  slug: azure-networking-services-load-balancers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-load-balancers-api-openapi.yml
+- filename: azure-networking-services-private-endpoints-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Private Endpoints API
+  slug: azure-networking-services-private-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-private-endpoints-api-openapi.yml
+- filename: azure-networking-services-route-tables-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Route Tables API
+  slug: azure-networking-services-route-tables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-route-tables-api-openapi.yml
+- filename: azure-networking-services-routing-rules-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Routing Rules API
+  slug: azure-networking-services-routing-rules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-routing-rules-api-openapi.yml
+- filename: azure-networking-services-security-rules-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Security Rules API
+  slug: azure-networking-services-security-rules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-security-rules-api-openapi.yml
 - filename: azure-networking-services-subnets-api-openapi.yml
   format: yaml
   label: Azure Networking Services Subnets API
@@ -14,36 +824,18 @@ api_specs:
   slug: azure-networking-services-subscriptions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subscriptions-api-openapi.yml
+- filename: azure-networking-services-virtual-networks-api-openapi.yml
+  format: yaml
+  label: Azure Networking Services Virtual Networks API
+  slug: azure-networking-services-virtual-networks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtual-networks-api-openapi.yml
 - filename: azure-networking-services-virtualnetworkpeerings-api-openapi.yml
   format: yaml
-  label: Azure Networking Services VirtualNetworkPeerings API
+  label: Azure Networking Services Virtual Network Peerings API
   slug: azure-networking-services-virtualnetworkpeerings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtualnetworkpeerings-api-openapi.yml
-- filename: azure-networking-services-operations-api-openapi.yml
-  format: yaml
-  label: Azure Networking Operations API
-  slug: microsoft-azure-networking-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-operations-api-openapi.yml
-- filename: azure-networking-services-subnets-api-openapi.yml
-  format: yaml
-  label: Azure Networking Subnets API
-  slug: microsoft-azure-networking-subnets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-subnets-api-openapi.yml
-- filename: azure-networking-services-virtual-networks-api-openapi.yml
-  format: yaml
-  label: Azure Networking Virtual Networks API
-  slug: microsoft-azure-networking-virtual-networks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-virtual-networks-api-openapi.yml
-- filename: azure-networking-services-load-balancers-api-openapi.yml
-  format: yaml
-  label: Azure Networking Services Load Balancers API
-  slug: azure-networking-services-load-balancers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-networking-services/openapi/azure-networking-services-load-balancers-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

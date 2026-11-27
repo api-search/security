@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ovms Authentication
+name: Open Vehicle Monitoring System (self-hosted) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Open Vehicle Monitoring System (self-hosted) declares 0 security scheme(s) across its OpenAPI definitions.

@@ -64,7 +64,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Rottentomatoes Domain Security
+name: Rotten Tomatoes Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Rotten Tomatoes, probed live across 2 host(s) and 2 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Rotten Tomatoes

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Multiplierholdings Com Authentication
+name: Multiplier Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Multiplier declares 0 security scheme(s) across its OpenAPI definitions.

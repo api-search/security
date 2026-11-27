@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Backgroundremoverapi Authentication
+name: Background Remover API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Background Remover API declares 1 security scheme(s) across its OpenAPI definitions.

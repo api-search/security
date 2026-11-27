@@ -15,6 +15,42 @@ api_specs:
   slug: google-blogger-users-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-users-api-openapi.yml
+- filename: google-blogger-comments-api-openapi.yml
+  format: yaml
+  label: Google Blogger Comments API
+  slug: google-blogger-comments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-comments-api-openapi.yml
+- filename: google-blogger-pages-api-openapi.yml
+  format: yaml
+  label: Google Blogger Pages API
+  slug: google-blogger-pages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-pages-api-openapi.yml
+- filename: google-blogger-posts-api-openapi.yml
+  format: yaml
+  label: Google Blogger Posts API
+  slug: google-blogger-posts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-posts-api-openapi.yml
+- filename: google-blogger-blog-user-infos-api-openapi.yml
+  format: yaml
+  label: Google Blogger Blogger Blog User Infos API
+  slug: google-blogger-blog-user-infos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-blog-user-infos-api-openapi.yml
+- filename: google-blogger-page-views-api-openapi.yml
+  format: yaml
+  label: Google Blogger Blogger Page Views API
+  slug: google-blogger-page-views-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-page-views-api-openapi.yml
+- filename: google-blogger-post-user-infos-api-openapi.yml
+  format: yaml
+  label: Google Blogger Blogger Post User Infos API
+  slug: google-blogger-post-user-infos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-blogger/openapi/google-blogger-post-user-infos-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

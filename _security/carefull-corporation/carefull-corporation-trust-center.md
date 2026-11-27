@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Carefull Corporation Trust Center
+name: Carefull Trust Center
 name_suffix: Trust Center
 overview: Carefull maintains a public trust center documenting SOC 2 compliance.
 provider_name: Carefull
@@ -26,7 +26,7 @@ tags:
 - Identity Theft Protection
 - Elder Care
 - Financial Caregiving
-- Account Monitoring
+- AccountMonitoring
 - Consumer Finance
 trust_url: https://getcarefull.com/security-practices
 ---

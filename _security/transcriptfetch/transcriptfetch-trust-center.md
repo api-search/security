@@ -17,7 +17,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Transcriptfetch Trust Center
+name: TranscriptFetch Trust Center
 name_suffix: Trust Center
 overview: TranscriptFetch maintains a public trust center covering its security and compliance posture.
 provider_name: TranscriptFetch

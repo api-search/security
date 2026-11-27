@@ -37,7 +37,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Truelayer Trust Center
+name: TrueLayer Trust Center
 name_suffix: Trust Center
 overview: TrueLayer maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: TrueLayer

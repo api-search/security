@@ -56,26 +56,41 @@ domains:
   dnssec: false
   domain: rezdy.com
   spf: true
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: rezdy-staging.com
+  spf: false
 hosts:
-- cert_expires: Dec 26 23:43:33 2026 GMT
+- cert_expires: Jan 13 16:51:01 2027 GMT
   host: rezdy.com
   hsts: false
   https: true
   tls_version: TLSv1.3
-hosts_probed: 1
+- cert_expires: Mar 15 23:59:59 2027 GMT
+  host: developers.rezdy.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Jan 16 23:59:59 2027 GMT
+  host: api.rezdy-staging.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Rezdy Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Rezdy, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Rezdy, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Rezdy
 provider_slug: rezdy
 slug: rezdy-domain-security
 source_filename: rezdy-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rezdy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 26 23:43:33 2026 GMT\n  hsts: false\ndomains:\n- domain: rezdy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-11-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: rezdy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 13 16:51:01 2027 GMT\n  hsts: false\n- host: developers.rezdy.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar 15 23:59:59 2027 GMT\n  hsts: false\n- host: api.rezdy-staging.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 16 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: rezdy.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: rezdy-staging.com\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://artifacts.apis.io/rezdy/security/rezdy-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
@@ -83,4 +98,5 @@ tags:
 - Travel
 - Booking
 - Software-as-a-Service
+- Tourism
 ---

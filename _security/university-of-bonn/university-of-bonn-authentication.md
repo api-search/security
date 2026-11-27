@@ -35,7 +35,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: University Of Bonn Authentication
+name: University of Bonn Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Bonn secures its APIs with none, saml2, and api_key across 4 declared security schemes, as derived from its OpenAPI definitions.

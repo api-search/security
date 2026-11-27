@@ -242,7 +242,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Textql Authentication
+name: TextQL Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TextQL secures its APIs with apiKey, http, oauth2, and openIdConnect across 5 declared security schemes, as derived from its OpenAPI definitions.

@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Allianz Docs Authentication
+name: Allianz Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

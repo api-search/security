@@ -521,7 +521,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Datarobot Trust Center
+name: DataRobot Trust Center
 name_suffix: Trust Center
 overview: DataRobot maintains a public trust center covering its security and compliance posture.
 provider_name: DataRobot

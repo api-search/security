@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Stackadapt Authentication
+name: StackAdapt Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

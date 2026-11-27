@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Gleefulai Authentication
+name: Gleeful AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Gleeful AI declares 1 security scheme(s) across its OpenAPI definitions.

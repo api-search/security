@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 996 Fm Authentication
+name: 996.fm Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 996.fm declares 0 security scheme(s) across its OpenAPI definitions.

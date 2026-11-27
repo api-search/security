@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bykaranteli Authentication
+name: ByKaranteli Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ByKaranteli declares 4 security scheme(s) across its OpenAPI definitions.

@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Clorox Authentication
+name: The Clorox Company Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: The Clorox Company secures its APIs with none and application-password across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Chatsimple Ai Trust Center
+name: Chatsimple Trust Center
 name_suffix: Trust Center
 overview: Chatsimple maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Chatsimple

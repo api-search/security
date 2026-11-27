@@ -38,6 +38,90 @@ api_specs:
   slug: abacatepay-withdraw-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-withdraw-api-openapi.yml
+- filename: abacatepay-bank-statement-api-openapi.yml
+  format: yaml
+  label: AbacatePay Bank Statement API
+  slug: abacatepay-bank-statement-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-bank-statement-api-openapi.yml
+- filename: abacatepay-checkouts-api-openapi.yml
+  format: yaml
+  label: AbacatePay Checkouts API
+  slug: abacatepay-checkouts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-checkouts-api-openapi.yml
+- filename: abacatepay-coupons-api-openapi.yml
+  format: yaml
+  label: AbacatePay Coupons API
+  slug: abacatepay-coupons-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-coupons-api-openapi.yml
+- filename: abacatepay-customer-portal-api-openapi.yml
+  format: yaml
+  label: AbacatePay Customer Portal API
+  slug: abacatepay-customer-portal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-customer-portal-api-openapi.yml
+- filename: abacatepay-customers-api-openapi.yml
+  format: yaml
+  label: AbacatePay Customers API
+  slug: abacatepay-customers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-customers-api-openapi.yml
+- filename: abacatepay-payment-links-api-openapi.yml
+  format: yaml
+  label: AbacatePay Payment Links API
+  slug: abacatepay-payment-links-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-payment-links-api-openapi.yml
+- filename: abacatepay-payouts-api-openapi.yml
+  format: yaml
+  label: AbacatePay Payouts API
+  slug: abacatepay-payouts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-payouts-api-openapi.yml
+- filename: abacatepay-pix-api-openapi.yml
+  format: yaml
+  label: AbacatePay Pix API
+  slug: abacatepay-pix-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-pix-api-openapi.yml
+- filename: abacatepay-products-api-openapi.yml
+  format: yaml
+  label: AbacatePay Products API
+  slug: abacatepay-products-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-products-api-openapi.yml
+- filename: abacatepay-public-mrr-api-openapi.yml
+  format: yaml
+  label: AbacatePay Public Mrr API
+  slug: abacatepay-public-mrr-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-public-mrr-api-openapi.yml
+- filename: abacatepay-stores-api-openapi.yml
+  format: yaml
+  label: AbacatePay Stores API
+  slug: abacatepay-stores-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-stores-api-openapi.yml
+- filename: abacatepay-subscriptions-api-openapi.yml
+  format: yaml
+  label: AbacatePay Subscriptions API
+  slug: abacatepay-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-subscriptions-api-openapi.yml
+- filename: abacatepay-transparents-api-openapi.yml
+  format: yaml
+  label: AbacatePay Transparents API
+  slug: abacatepay-transparents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-transparents-api-openapi.yml
+- filename: abacatepay-webhooks-api-openapi.yml
+  format: yaml
+  label: AbacatePay Webhooks API
+  slug: abacatepay-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/abacatepay/openapi/abacatepay-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +129,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Abacatepay Authentication
+name: AbacatePay Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AbacatePay secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

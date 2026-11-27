@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Heard Dev Authentication
+name: heard-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: heard-dev declares 0 security scheme(s) across its OpenAPI definitions.

@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: University Of Applied Sciences Western Switzerland School Of Business Engineering Vaud Heig Vd Domain Security
+name: University of Applied Sciences, Western Switzerland, School of Business & Engineering Vaud (HEIG-VD) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for University of Applied Sciences, Western Switzerland, School of Business & Engineering Vaud (HEIG-VD), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: University of Applied Sciences, Western Switzerland, School of Business & Engineering Vaud (HEIG-VD)

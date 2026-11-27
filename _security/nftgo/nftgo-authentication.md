@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Nftgo Authentication
+name: NFTgo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NFTgo secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

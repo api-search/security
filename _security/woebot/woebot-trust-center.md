@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Woebot Trust Center
+name: Woebot Health Trust Center
 name_suffix: Trust Center
 overview: Woebot Health maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: Woebot Health

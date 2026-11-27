@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Buildwithorbit Ai Authentication
+name: buildwithorbit-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: buildwithorbit-ai declares 2 security scheme(s) across its OpenAPI definitions.

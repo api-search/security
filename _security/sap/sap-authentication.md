@@ -108,7 +108,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Sap Authentication
+name: SAP Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Fincontext Ai Authentication
+name: FinContext Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FinContext declares 2 security scheme(s) across its OpenAPI definitions.
@@ -37,11 +37,10 @@ summary_line: 2 schemes
 tags:
 - Company
 - MCP
-- Model Context Protocol
-- AI
+- Artificial Intelligence
 - Personal Finance
 - Banking
 - Plaid
 - Fintech
-- Read-Only
+- Read Only
 ---

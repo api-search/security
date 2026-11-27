@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Zhejiang Authentication
+name: Zhejiang University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Zhejiang University declares 0 security scheme(s) across its OpenAPI definitions.

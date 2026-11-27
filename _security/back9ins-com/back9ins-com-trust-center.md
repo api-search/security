@@ -16,7 +16,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Back9Ins Com Trust Center
+name: back9ins-com Trust Center
 name_suffix: Trust Center
 overview: back9ins-com maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, and PCI DSS compliance.
 provider_name: back9ins-com

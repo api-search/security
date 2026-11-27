@@ -1,59 +1,77 @@
 ---
 api_specs:
-- filename: google-cloud-logging-bucket-api-openapi.yml
-  format: yaml
-  label: Google Cloud Logging Bucket API
-  slug: google-cloud-logging-bucket-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-bucket-api-openapi.yml
-- filename: google-cloud-logging-buckets-api-openapi.yml
-  format: yaml
-  label: Google Cloud Logging Buckets API
-  slug: google-cloud-logging-buckets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-buckets-api-openapi.yml
-- filename: google-cloud-logging-entries-copy-api-openapi.yml
-  format: yaml
-  label: Google Cloud Logging Entries:copy API
-  slug: google-cloud-logging-entries-copy-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-copy-api-openapi.yml
-- filename: google-cloud-logging-entries-list-api-openapi.yml
-  format: yaml
-  label: Google Cloud Logging Entries:list API
-  slug: google-cloud-logging-entries-list-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-list-api-openapi.yml
-- filename: google-cloud-logging-entries-tail-api-openapi.yml
-  format: yaml
-  label: Google Cloud Logging Entries:tail API
-  slug: google-cloud-logging-entries-tail-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-tail-api-openapi.yml
-- filename: google-cloud-logging-entries-write-api-openapi.yml
-  format: yaml
-  label: Google Cloud Logging Entries:write API
-  slug: google-cloud-logging-entries-write-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-write-api-openapi.yml
 - filename: google-cloud-logging-exclusions-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Exclusions API
   slug: google-cloud-logging-exclusions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-exclusions-api-openapi.yml
-- filename: google-cloud-logging-google-cloud-logging-api-api-openapi.yml
-  format: yaml
-  label: Google Cloud Logging Google Cloud Logging API
-  slug: google-cloud-logging-google-cloud-logging-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-google-cloud-logging-api-api-openapi.yml
 - filename: google-cloud-logging-sinks-api-openapi.yml
   format: yaml
   label: Google Cloud Logging Sinks API
   slug: google-cloud-logging-sinks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-sinks-api-openapi.yml
+- filename: google-cloud-logging-entries-api-openapi.yml
+  format: yaml
+  label: Google Cloud Logging Cloud Logging Entries API
+  slug: google-cloud-logging-entries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-entries-api-openapi.yml
+- filename: google-cloud-logging-folders-api-openapi.yml
+  format: yaml
+  label: Google Cloud Logging Cloud Logging Folders API
+  slug: google-cloud-logging-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-folders-api-openapi.yml
+- filename: google-cloud-logging-locations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Logging Cloud Logging Locations API
+  slug: google-cloud-logging-locations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-locations-api-openapi.yml
+- filename: google-cloud-logging-logs-api-openapi.yml
+  format: yaml
+  label: Google Cloud Logging Cloud Logging Logs API
+  slug: google-cloud-logging-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-logs-api-openapi.yml
+- filename: google-cloud-logging-organizations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Logging Cloud Logging Organizations API
+  slug: google-cloud-logging-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-organizations-api-openapi.yml
+- filename: google-cloud-logging-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Logging Cloud Logging Projects API
+  slug: google-cloud-logging-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-projects-api-openapi.yml
+- filename: google-cloud-logging-billingaccounts-api-openapi.yml
+  format: yaml
+  label: Google Cloud Logging Billing Accounts API
+  slug: google-cloud-logging-billingaccounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-billingaccounts-api-openapi.yml
+- filename: google-cloud-logging-cmeksettings-api-openapi.yml
+  format: yaml
+  label: Google Cloud Logging Cmek Settings API
+  slug: google-cloud-logging-cmeksettings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-cmeksettings-api-openapi.yml
+- filename: google-cloud-logging-monitoredresourcedescriptors-api-openapi.yml
+  format: yaml
+  label: Google Cloud Logging Monitored Resource Descriptors API
+  slug: google-cloud-logging-monitoredresourcedescriptors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-monitoredresourcedescriptors-api-openapi.yml
+- filename: google-cloud-logging-settings-api-openapi.yml
+  format: yaml
+  label: Google Cloud Logging Settings API
+  slug: google-cloud-logging-settings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-logging/openapi/google-cloud-logging-settings-api-openapi.yml
 certification_count: 14
 certifications:
 - SOC 1

@@ -19,7 +19,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Microbyre Domain Security
+name: MicroByre Domain Security
 name_suffix: Domain Security
 overview: Domain security posture for MicroByre, probed live across 2 host(s) and 0 registrable domain(s).
 provider_name: MicroByre

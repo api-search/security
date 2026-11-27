@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Simulia Trust Center
+name: SIMULIA (Dassault Systemes) Trust Center
 name_suffix: Trust Center
 overview: SIMULIA (Dassault Systemes) maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: SIMULIA (Dassault Systemes)

@@ -26,12 +26,6 @@ api_specs:
   slug: jobspipe-jobs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-jobs-api-openapi.yml
-- filename: jobspipe-jobspipe-api-api-openapi.yml
-  format: yaml
-  label: JobsPipe JobsPipe API
-  slug: jobspipe-jobspipe-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-jobspipe-api-api-openapi.yml
 - filename: jobspipe-labour-market-insights-api-openapi.yml
   format: yaml
   label: JobsPipe Labour Market Insights API
@@ -86,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Jobspipe Authentication
+name: JobsPipe Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JobsPipe declares 1 security scheme(s) across its OpenAPI definitions.

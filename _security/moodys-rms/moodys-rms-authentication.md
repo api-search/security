@@ -305,7 +305,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Moodys Rms Authentication
+name: Moody's RMS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Moody's RMS secures its APIs with apiKey and accessToken across 1 declared security scheme, as derived from its OpenAPI definitions.

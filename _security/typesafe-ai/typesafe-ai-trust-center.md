@@ -20,7 +20,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Typesafe Ai Trust Center
+name: TypeSafe AI Trust Center
 name_suffix: Trust Center
 overview: TypeSafe AI maintains a public trust center documenting observed, observed_note, and how_to_close compliance.
 provider_name: TypeSafe AI

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Aliceapp Ai Authentication
+name: Alice Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Alice declares 1 security scheme(s) across its OpenAPI definitions.

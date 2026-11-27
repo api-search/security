@@ -59,4 +59,7 @@ tags:
 - Conversational AI
 - Copilot Studio
 - Microsoft
+- Direct Line
+- Bot Framework
+- Low-Code
 ---

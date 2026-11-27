@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nomad Data Com Trust Center
+name: Nomad Trust Center
 name_suffix: Trust Center
 overview: Nomad maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Nomad

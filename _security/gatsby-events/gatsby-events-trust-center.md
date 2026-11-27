@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gatsby Events Trust Center
+name: Gatsby Trust Center
 name_suffix: Trust Center
 overview: Gatsby maintains a public trust center documenting SOC 2 compliance.
 provider_name: Gatsby

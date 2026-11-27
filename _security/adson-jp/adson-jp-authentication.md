@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Adson Jp Authentication
+name: ADSON Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ADSON declares 0 security scheme(s) across its OpenAPI definitions.

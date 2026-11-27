@@ -84,7 +84,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Netbox Labs Trust Center
+name: NetBox Labs Trust Center
 name_suffix: Trust Center
 overview: NetBox Labs maintains a public trust center documenting SOC 2 compliance.
 provider_name: NetBox Labs

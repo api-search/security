@@ -42,7 +42,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Shopback Authentication
+name: ShopBack Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ShopBack secures its APIs with http, hmac, and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

@@ -66,7 +66,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Brightedge Trust Center
+name: BrightEdge Trust Center
 name_suffix: Trust Center
 overview: BrightEdge maintains a public trust center documenting SOC 2, ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO/IEC 42001:2023, GDPR, CCPA, and EU-U.S. Data Privacy Framework compliance.
 provider_name: BrightEdge

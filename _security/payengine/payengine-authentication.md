@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Payengine Authentication
+name: PayEngine Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PayEngine declares 4 security scheme(s) across its OpenAPI definitions.

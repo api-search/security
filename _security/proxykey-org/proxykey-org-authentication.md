@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Proxykey Org Authentication
+name: proxykey-org Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: proxykey-org declares 0 security scheme(s) across its OpenAPI definitions.
@@ -32,6 +32,6 @@ tags:
 - Security
 - API Management
 - Encryption
-- Key Vault
+- Key-Vault
 - Developer Tools
 ---

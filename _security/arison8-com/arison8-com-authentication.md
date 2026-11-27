@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Arison8 Com Authentication
+name: ARISON8 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ARISON8 declares 0 security scheme(s) across its OpenAPI definitions.

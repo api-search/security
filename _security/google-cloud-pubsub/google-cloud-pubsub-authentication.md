@@ -2,24 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-pubsub-schemas-api-openapi.yml
+- filename: google-cloud-pubsub-admin-api-openapi.yml
   format: yaml
-  label: Google Cloud Pub/Sub Schemas API
-  slug: google-cloud-pubsub-schemas-api
+  label: Google Cloud Pub/Sub Admin API
+  slug: google-cloud-pubsub-admin-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-schemas-api-openapi.yml
-- filename: google-cloud-pubsub-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-admin-api-openapi.yml
+- filename: google-cloud-pubsub-cursor-api-openapi.yml
   format: yaml
-  label: Google Cloud Pub/Sub Subscriptions API
-  slug: google-cloud-pubsub-subscriptions-api
+  label: Google Cloud Pub/Sub Cursor API
+  slug: google-cloud-pubsub-cursor-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-subscriptions-api-openapi.yml
-- filename: google-cloud-pubsub-topics-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-cursor-api-openapi.yml
+- filename: google-cloud-pubsub-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Pub/Sub Topics API
-  slug: google-cloud-pubsub-topics-api
+  label: Google Cloud Pub/Sub Projects API
+  slug: google-cloud-pubsub-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-topics-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-projects-api-openapi.yml
+- filename: google-cloud-pubsub-topicstats-api-openapi.yml
+  format: yaml
+  label: Google Cloud Pub/Sub Topic Stats API
+  slug: google-cloud-pubsub-topicstats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-pubsub/openapi/google-cloud-pubsub-topicstats-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -27,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Cloud Pubsub Authentication
+name: Google Cloud Pub/Sub Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -8,7 +8,7 @@ api_specs:
   label: Polymarket WebSocket
   slug: websocket
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/polymarket/refs/heads/main/asyncapi/polymarket-asyncapi.yml
+  url: https://artifacts.apis.io/polymarket/asyncapi/polymarket-asyncapi.yml
 - filename: polymarket-clob-market-data-api-openapi.yml
   format: yaml
   label: Polymarket CLOB Market Data API

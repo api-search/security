@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 1Worldsync Trust Center
+name: 1WorldSync Trust Center
 name_suffix: Trust Center
 overview: 1WorldSync maintains a public trust center documenting SOC 2 Type 2 and ISO/IEC 27001:2022 compliance.
 provider_name: 1WorldSync

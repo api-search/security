@@ -38,7 +38,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Smartrecruiters Trust Center
+name: SmartRecruiters Trust Center
 name_suffix: Trust Center
 overview: SmartRecruiters maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: SmartRecruiters

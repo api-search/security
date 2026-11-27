@@ -16,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Edda Authentication
+name: EDDA Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EDDA Technology secures its APIs with none and http across 2 declared security schemes, as derived from its OpenAPI definitions.

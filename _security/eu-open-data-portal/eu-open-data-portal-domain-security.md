@@ -210,7 +210,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Eu Open Data Portal Domain Security
+name: EU Open Data Portal Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for EU Open Data Portal, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC absent.'
 provider_name: EU Open Data Portal

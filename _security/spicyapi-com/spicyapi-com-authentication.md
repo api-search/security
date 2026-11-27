@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Spicyapi Com Authentication
+name: spicyapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: spicyapi-com declares 1 security scheme(s) across its OpenAPI definitions.

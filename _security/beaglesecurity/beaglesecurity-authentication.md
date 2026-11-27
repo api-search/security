@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Beaglesecurity Authentication
+name: Beagle Security Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Beagle Security declares 1 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Getxapi Authentication
+name: GetXAPI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GetXAPI declares 1 security scheme(s) across its OpenAPI definitions.

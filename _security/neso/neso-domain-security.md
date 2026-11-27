@@ -59,7 +59,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Neso Domain Security
+name: National Energy System Operator (NESO) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for National Energy System Operator (NESO), probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: National Energy System Operator (NESO)

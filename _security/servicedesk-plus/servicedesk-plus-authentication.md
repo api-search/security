@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Servicedesk Plus Authentication
+name: ManageEngine ServiceDesk Plus Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

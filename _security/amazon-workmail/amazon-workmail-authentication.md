@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Workmail Authentication
+name: Amazon WorkMail Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon WorkMail secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -36,18 +36,20 @@ provider_name: Amazon WorkMail
 provider_slug: amazon-workmail
 scheme_count: 1
 schemes:
-- description: Amazon Signature authorization v4
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: hmac
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-workmail-openapi-original.yaml
+  - openapi/amazon-workmail-amazon-workmail-api-openapi.yml
+  - openapi/amazon-workmail-identity-provider-configuration-api-openapi.yml
+  - openapi/amazon-workmail-operations-api-openapi.yml
   type: apiKey
 slug: amazon-workmail-authentication
 source_filename: amazon-workmail-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-workmail-openapi-original.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-workmail-openapi-original.yaml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-workmail-amazon-workmail-api-openapi.yml, openapi/amazon-workmail-identity-provider-configuration-api-openapi.yml,\n  openapi/amazon-workmail-operations-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-workmail-amazon-workmail-api-openapi.yml\n  - openapi/amazon-workmail-identity-provider-configuration-api-openapi.yml\n  - openapi/amazon-workmail-operations-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-workmail/authentication/amazon-workmail-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

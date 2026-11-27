@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cardealscore Com Authentication
+name: DealScore Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DealScore declares 1 security scheme(s) across its OpenAPI definitions.

@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Greenly Earth Authentication
+name: Greenly Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Greenly secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

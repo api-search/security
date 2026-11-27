@@ -49,7 +49,7 @@ kind: authentication
 layout: security
 mechanism_count: 8
 method: searched
-name: Workfront Authentication
+name: Adobe Workfront Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

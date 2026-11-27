@@ -116,7 +116,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Groundmail Dev Authentication
+name: groundmail-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: groundmail-dev declares 4 security scheme(s) across its OpenAPI definitions.

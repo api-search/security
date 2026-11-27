@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 9Fin Trust Center
+name: 9FIN Trust Center
 name_suffix: Trust Center
 overview: 9FIN maintains a public trust center documenting SOC 2 Type II, NIST CSF, and GDPR compliance.
 provider_name: 9FIN

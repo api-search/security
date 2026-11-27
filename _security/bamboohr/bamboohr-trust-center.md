@@ -5,7 +5,7 @@ api_specs:
   label: BambooHR Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-asyncapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-asyncapi.yml
 - filename: bamboohr-directory-api-openapi.yml
   format: yaml
   label: BambooHR Directory API
@@ -49,7 +49,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bamboohr Trust Center
+name: BambooHR Trust Center
 name_suffix: Trust Center
 overview: BambooHR maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: BambooHR

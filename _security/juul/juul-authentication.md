@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Juul Authentication
+name: JUUL Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JUUL declares 1 security scheme(s) across its OpenAPI definitions.

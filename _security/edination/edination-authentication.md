@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Edination Authentication
+name: EdiNation Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EdiNation declares 1 security scheme(s) across its OpenAPI definitions.

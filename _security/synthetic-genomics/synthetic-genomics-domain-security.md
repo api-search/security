@@ -52,7 +52,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Synthetic Genomics Domain Security
+name: Viridos Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Viridos, probed live across 1 host(s) and 2 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Viridos

@@ -30,7 +30,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Desci Labs Authentication
+name: DeSci Labs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DeSci Labs secures its APIs with none, apiKey, and oauth2 across 4 declared security schemes, as derived from its OpenAPI definitions.

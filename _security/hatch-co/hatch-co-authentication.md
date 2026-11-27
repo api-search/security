@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Hatch Co Authentication
+name: Hatch Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hatch declares 0 security scheme(s) across its OpenAPI definitions.

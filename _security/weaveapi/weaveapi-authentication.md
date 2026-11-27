@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Weaveapi Authentication
+name: WeaveAPI - OpenAI-compatible AI API Gateway Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WeaveAPI - OpenAI-compatible AI API Gateway secures its APIs with apiKey across 0 declared security schemes, as derived from its OpenAPI definitions.

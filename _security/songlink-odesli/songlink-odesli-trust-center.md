@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Songlink Odesli Trust Center
+name: Songlink / Odesli Trust Center
 name_suffix: Trust Center
 overview: Songlink / Odesli maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, and GDPR compliance.
 provider_name: Songlink / Odesli

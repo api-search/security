@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Thread Ai Trust Center
+name: Thread AI Trust Center
 name_suffix: Trust Center
 overview: Thread AI maintains a public trust center documenting SOC 2 Type 2, HIPAA, GDPR, CJIS, and CMMC 2.0 Level 1 compliance.
 provider_name: Thread AI

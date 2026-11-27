@@ -66,6 +66,36 @@ api_specs:
   slug: amazon-lex-testsets-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-testsets-api-openapi.yml
+- filename: amazon-lex-aliases-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Lex Aliases API
+  slug: amazon-lex-aliases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-aliases-api-openapi.yml
+- filename: amazon-lex-channels-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Lex Channels API
+  slug: amazon-lex-channels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-channels-api-openapi.yml
+- filename: amazon-lex-migrations-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Lex Migrations API
+  slug: amazon-lex-migrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-migrations-api-openapi.yml
+- filename: amazon-lex-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Lex Operations API
+  slug: amazon-lex-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-operations-api-openapi.yml
+- filename: amazon-lex-versions-api-openapi.yml
+  format: yaml
+  label: Amazon Lex Lex Versions API
+  slug: amazon-lex-versions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-lex/openapi/amazon-lex-versions-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

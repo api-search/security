@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Openpayments Io Authentication
+name: Open Payments Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Open Payments declares 1 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Cloudminds Authentication
+name: CloudMinds Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CloudMinds declares 0 security scheme(s) across its OpenAPI definitions.

@@ -377,7 +377,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Vopay Authentication
+name: VoPay Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VoPay secures its APIs with apiKey and signature across 1 declared security scheme, as derived from its OpenAPI definitions.

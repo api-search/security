@@ -236,7 +236,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Harvard Authentication
+name: Harvard University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Harvard University declares 8 security scheme(s) across its OpenAPI definitions.

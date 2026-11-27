@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: documented
-name: Swan Io Authentication
+name: Swan Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Swan secures its APIs with oauth2 and http across 3 declared security schemes, as derived from its OpenAPI definitions.

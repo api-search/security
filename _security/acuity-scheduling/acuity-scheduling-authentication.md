@@ -7,7 +7,7 @@ api_specs:
   label: Acuity Scheduling Webhooks
   slug: webhooks-asyncapi
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/acuity-scheduling/refs/heads/main/openapi/acuity-scheduling-asyncapi.yml
+  url: https://artifacts.apis.io/acuity-scheduling/openapi/acuity-scheduling-asyncapi.yml
 - filename: acuity-scheduling-appointments-api-openapi.yml
   format: yaml
   label: Acuity Scheduling Appointments API

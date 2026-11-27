@@ -2,18 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-colab-files-api-openapi.yml
+- filename: google-colab-operations-api-openapi.yml
   format: yaml
-  label: Google Colab Files API
-  slug: google-colab-files-api
+  label: Google Colab Colab Operations API
+  slug: google-colab-operations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-colab/openapi/google-colab-files-api-openapi.yml
-- filename: google-colab-permissions-api-openapi.yml
-  format: yaml
-  label: Google Colab Permissions API
-  slug: google-colab-permissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-colab/openapi/google-colab-permissions-api-openapi.yml
+  url: https://artifacts.apis.io/google-colab/openapi/google-colab-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

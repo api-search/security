@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Weareocta Com Trust Center
+name: Octa Trust Center
 name_suffix: Trust Center
 overview: Octa maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Octa

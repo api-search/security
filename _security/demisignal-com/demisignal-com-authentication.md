@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Demisignal Com Authentication
+name: DemiSignal Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DemiSignal declares 2 security scheme(s) across its OpenAPI definitions.

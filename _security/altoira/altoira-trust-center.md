@@ -35,7 +35,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Altoira Trust Center
+name: AltoIRA Trust Center
 name_suffix: Trust Center
 overview: AltoIRA maintains a public trust center covering its security and compliance posture.
 provider_name: AltoIRA

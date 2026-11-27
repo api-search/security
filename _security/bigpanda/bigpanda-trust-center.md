@@ -181,7 +181,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bigpanda Trust Center
+name: BigPanda Trust Center
 name_suffix: Trust Center
 overview: BigPanda maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: BigPanda

@@ -66,6 +66,12 @@ api_specs:
   slug: theholisticcare-whitepapers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-whitepapers-api-openapi.yml
+- filename: theholisticcare-podcast-api-openapi.yml
+  format: yaml
+  label: The Holistic Care — THC Open Mindfulness API Podcast API
+  slug: theholisticcare-podcast-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/theholisticcare/openapi/theholisticcare-podcast-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -91,7 +97,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Theholisticcare Domain Security
+name: The Holistic Care — THC Open Mindfulness API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for The Holistic Care — THC Open Mindfulness API, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: The Holistic Care — THC Open Mindfulness API

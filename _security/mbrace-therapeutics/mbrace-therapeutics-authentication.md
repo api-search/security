@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Mbrace Therapeutics Authentication
+name: MBrace Therapeutics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MBrace Therapeutics declares 2 security scheme(s) across its OpenAPI definitions.

@@ -5,7 +5,7 @@ certifications:
 description: AegisAI publishes a Vanta-powered Trust Center at trust.aegisai.ai and displays a SOC 2 Type II certification badge across its company and product pages. The company states it encrypts data in transit and at rest, practices data minimization (it does not retain full email content beyond what is necessary for analysis), and does not share customer data with external AI labs. The automated trust-center probe did not record this because the Trust Center is a JavaScript single-page app whose certification content is not in the initial HTML; this is the searched, human-verified fill.
 kind: trust-center
 layout: security
-name: Aegisai Trust Center
+name: AegisAI Trust Center
 name_suffix: Trust Center
 overview: AegisAI maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: AegisAI

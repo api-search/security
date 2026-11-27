@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Coinspot Authentication
+name: CoinSpot Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CoinSpot declares 2 security scheme(s) across its OpenAPI definitions.

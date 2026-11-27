@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Valid8 Financial Trust Center
+name: VALID8 Financial Trust Center
 name_suffix: Trust Center
 overview: VALID8 Financial maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: VALID8 Financial

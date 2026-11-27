@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Theidco Authentication
+name: The ID Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: The ID declares 1 security scheme(s) across its OpenAPI definitions.

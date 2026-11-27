@@ -36,7 +36,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Toytalk Domain Security
+name: ToyTalk Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ToyTalk, probed live across 2 host(s) and 2 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: ToyTalk

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Elderlycarematch Com Authentication
+name: Elderly Care Match Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Elderly Care Match declares 0 security scheme(s) across its OpenAPI definitions.

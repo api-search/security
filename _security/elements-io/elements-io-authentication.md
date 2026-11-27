@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Elements Io Authentication
+name: Elements Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Elements declares 1 security scheme(s) across its OpenAPI definitions.

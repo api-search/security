@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Registrum Co Uk Authentication
+name: registrum-co-uk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: registrum-co-uk declares 0 security scheme(s) across its OpenAPI definitions.

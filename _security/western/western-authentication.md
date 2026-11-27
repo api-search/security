@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Western Authentication
+name: Western University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Western University secures its APIs with saml2, cas, oauth2, and oidc across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -219,7 +219,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Xray Domain Security
+name: Amazon X-Ray Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon X-Ray, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon X-Ray

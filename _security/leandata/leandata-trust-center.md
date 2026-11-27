@@ -62,7 +62,7 @@ certifications:
 description: LeanData runs a full SafeBase trust center at trust.leandata.com covering compliance, product security, corporate security, data privacy, legal documents, policies, third-party security grades and subprocessors. Certifications are SOC 2 Type 2 plus GDPR and CCPA alignment; the SOC 2 report, pentest report, SIG Lite, DPA and data-flow diagrams are available behind an NDA request rather than as open downloads. This is the most complete public assurance surface LeanData publishes — noticeably more complete than its developer documentation.
 kind: trust-center
 layout: security
-name: Leandata Trust Center
+name: LeanData Trust Center
 name_suffix: Trust Center
 overview: LeanData maintains a public trust center documenting SOC 2 Type 2, GDPR, and CCPA compliance.
 provider_name: LeanData

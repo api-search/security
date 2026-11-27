@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Akiflow Com Authentication
+name: Akiflow Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Akiflow declares 0 security scheme(s) across its OpenAPI definitions.

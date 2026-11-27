@@ -8,7 +8,7 @@ api_specs:
   label: Supabase Realtime API
   slug: realtime-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/asyncapi/supabase-realtime-api-asyncapi.yml
+  url: https://artifacts.apis.io/supabase/asyncapi/supabase-realtime-api-asyncapi.yml
 - filename: supabase-admin-api-openapi.yml
   format: yaml
   label: Supabase Admin API

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Kubit Ai Inc Trust Center
+name: Kubit AI Trust Center
 name_suffix: Trust Center
 overview: Kubit AI maintains a public trust center documenting enumerated and note compliance.
 provider_name: Kubit AI

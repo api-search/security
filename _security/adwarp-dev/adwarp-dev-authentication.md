@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Adwarp Dev Authentication
+name: Adwarp Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Adwarp declares 1 security scheme(s) across its OpenAPI definitions.

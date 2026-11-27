@@ -159,7 +159,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: H2O Ai Trust Center
+name: H2O.ai Trust Center
 name_suffix: Trust Center
 overview: H2O.ai maintains a public trust center documenting SOC 2 Type 2, FedRAMP High, IRAP, and HITECH compliance.
 provider_name: H2O.ai

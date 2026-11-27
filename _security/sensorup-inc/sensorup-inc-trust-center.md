@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sensorup Inc Trust Center
+name: SensorUp Inc. Trust Center
 name_suffix: Trust Center
 overview: SensorUp Inc. maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: SensorUp Inc.

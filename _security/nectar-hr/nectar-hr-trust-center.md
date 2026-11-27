@@ -48,7 +48,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nectar Hr Trust Center
+name: Nectar Trust Center
 name_suffix: Trust Center
 overview: Nectar maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: Nectar

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Kunlunyaochi Com Authentication
+name: 昆仑瑶池 (Kunlun Yaochi) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 昆仑瑶池 (Kunlun Yaochi) declares 3 security scheme(s) across its OpenAPI definitions.

@@ -19,7 +19,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Signl4 Trust Center
+name: SIGNL4 Trust Center
 name_suffix: Trust Center
 overview: SIGNL4 maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: SIGNL4

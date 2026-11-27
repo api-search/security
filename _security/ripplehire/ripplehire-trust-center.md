@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ripplehire Trust Center
+name: RippleHire Trust Center
 name_suffix: Trust Center
 overview: RippleHire maintains a public trust center documenting ISO 27001:2013, SOC 2 Type II, GDPR, and CCPA compliance.
 provider_name: RippleHire

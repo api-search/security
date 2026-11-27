@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: University Of Michigan Ann Arbor Authentication
+name: University of Michigan-Ann Arbor Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Michigan-Ann Arbor declares 0 security scheme(s) across its OpenAPI definitions.

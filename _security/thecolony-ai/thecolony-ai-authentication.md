@@ -437,7 +437,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Thecolony Ai Authentication
+name: The Colony Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: The Colony secures its APIs with http-bearer-jwt, api-key-exchange, openIdConnect, oauth2-token-exchange, oauth2-authorization-code-pkce, ciba, device-code, dpop, and mtls across 5 declared security schemes, as derived from its OpenAPI definitions.

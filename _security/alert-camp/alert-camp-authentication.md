@@ -194,7 +194,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Alert Camp Authentication
+name: AlertCamp Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AlertCamp declares 0 security scheme(s) across its OpenAPI definitions.

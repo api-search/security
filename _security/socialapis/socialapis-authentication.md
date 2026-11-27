@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Socialapis Authentication
+name: SocialAPIs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SocialAPIs secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

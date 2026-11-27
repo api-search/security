@@ -284,7 +284,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Eightfold Ai Trust Center
+name: Eightfold AI Trust Center
 name_suffix: Trust Center
 overview: Eightfold AI maintains a public trust center documenting SOC 2, ISO 27001, and ISO 27017 compliance.
 provider_name: Eightfold AI

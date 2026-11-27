@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Meld Authentication
+name: Meld.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Meld.io declares 1 security scheme(s) across its OpenAPI definitions.

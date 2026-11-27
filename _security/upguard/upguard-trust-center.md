@@ -114,7 +114,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Upguard Trust Center
+name: UpGuard Trust Center
 name_suffix: Trust Center
 overview: UpGuard maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: UpGuard

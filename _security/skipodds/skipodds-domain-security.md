@@ -41,7 +41,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Skipodds Domain Security
+name: SkipOdds Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for SkipOdds, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: SkipOdds
@@ -56,7 +56,7 @@ summary_line: TLSv1.3
 tags:
 - Sports
 - Odds
-- probabilities
+- Probabilities
 - Betting Data
 - de-vig
 - Sports Data
@@ -64,6 +64,5 @@ tags:
 - Webhook
 - Sports Betting
 - MCP
-- Agent Ready
 - Market Data
 ---

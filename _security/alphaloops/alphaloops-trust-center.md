@@ -57,7 +57,7 @@ certifications:
 description: AlphaLoops publishes a security page at https://runalphaloops.com/security and operates a Vanta-hosted Trust Center at https://trust.runalphaloops.com/ (linked from the site footer). The Trust Center returned HTTP 200 but is fully client-rendered — no certification names, control list, or document index are present in the served HTML, and the Vanta trust-page API paths probed anonymously return the SPA shell rather than JSON. The certifications below are therefore read from the PUBLIC SECURITY PAGE, not from the Trust Center itself.
 kind: trust-center
 layout: security
-name: Alphaloops Trust Center
+name: AlphaLoops FMCSA Carrier Data API Trust Center
 name_suffix: Trust Center
 overview: AlphaLoops FMCSA Carrier Data API maintains a public trust center documenting SOC 2 Type II, ISO 27001, NIST Cybersecurity Framework, and COBIT compliance.
 provider_name: AlphaLoops FMCSA Carrier Data API

@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Asteroidxrpl Com Authentication
+name: ASTEROID XRPL Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ASTEROID XRPL declares 0 security scheme(s) across its OpenAPI definitions.

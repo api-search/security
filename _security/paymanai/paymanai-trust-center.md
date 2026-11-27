@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Paymanai Trust Center
+name: Payman AI, Inc Trust Center
 name_suffix: Trust Center
 overview: Payman AI, Inc maintains a public trust center documenting SOC 2 compliance.
 provider_name: Payman AI, Inc

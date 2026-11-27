@@ -60,7 +60,7 @@ certifications:
 description: UserTesting operates a SafeBase-hosted trust center at trust.usertesting.com. The page lists named compliance items with downloadable certificates (document names observed on the page include "UserTesting ISO 27001 Certificate Award - 12.5.2025.pdf" and "UserTesting ISO 27701 Certificate Award - 12.5.2025.pdf"), and states that UserTesting has undergone an accredited third-party ISO 27001:2022 audit performed by CoalFire. Compliance monitoring references Drata.
 kind: trust-center
 layout: security
-name: Usertesting Trust Center
+name: UserTesting Trust Center
 name_suffix: Trust Center
 overview: UserTesting maintains a public trust center documenting SOC 2, ISO 27001:2022 (auditor CoalFire), ISO 27701, CSA STAR, HIPAA, GDPR, and CCPA compliance.
 provider_name: UserTesting

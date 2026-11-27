@@ -47,7 +47,7 @@ tags:
 - UPI
 - QR Payments
 - Payment Reminders
-- Cashbook
+- CashBook
 - Pagarbook
 - Biz Analyst
 - Tally Mobility

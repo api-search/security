@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Humanmcp Net Authentication
+name: humanmcp-net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: humanmcp-net declares 0 security scheme(s) across its OpenAPI definitions.

@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Sap Hana Authentication
+name: SAP HANA Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

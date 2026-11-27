@@ -84,6 +84,102 @@ api_specs:
   slug: amazon-billing-and-cost-management-subscriber-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-subscriber-api-openapi.yml
+- filename: amazon-billing-and-cost-management-bill-estimate-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Bill Estimate API
+  slug: amazon-billing-and-cost-management-bill-estimate-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-bill-estimate-api-openapi.yml
+- filename: amazon-billing-and-cost-management-bill-scenario-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Bill Scenario API
+  slug: amazon-billing-and-cost-management-bill-scenario-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-bill-scenario-api-openapi.yml
+- filename: amazon-billing-and-cost-management-bill-scenario-commitment-modification-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Bill Scenario Commitment Modification API
+  slug: amazon-billing-and-cost-management-bill-scenario-commitment-modification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-bill-scenario-commitment-modification-api-openapi.yml
+- filename: amazon-billing-and-cost-management-bill-scenario-usage-modification-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Bill Scenario Usage Modification API
+  slug: amazon-billing-and-cost-management-bill-scenario-usage-modification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-bill-scenario-usage-modification-api-openapi.yml
+- filename: amazon-billing-and-cost-management-billing-view-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Billing View API
+  slug: amazon-billing-and-cost-management-billing-view-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-billing-view-api-openapi.yml
+- filename: amazon-billing-and-cost-management-contract-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Contract API
+  slug: amazon-billing-and-cost-management-contract-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-contract-api-openapi.yml
+- filename: amazon-billing-and-cost-management-contractual-investment-attestation-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Contractual Investment Attestation API
+  slug: amazon-billing-and-cost-management-contractual-investment-attestation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-contractual-investment-attestation-api-openapi.yml
+- filename: amazon-billing-and-cost-management-dashboard-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Dashboard API
+  slug: amazon-billing-and-cost-management-dashboard-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-dashboard-api-openapi.yml
+- filename: amazon-billing-and-cost-management-export-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Export API
+  slug: amazon-billing-and-cost-management-export-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-export-api-openapi.yml
+- filename: amazon-billing-and-cost-management-invoice-unit-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Invoice Unit API
+  slug: amazon-billing-and-cost-management-invoice-unit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-invoice-unit-api-openapi.yml
+- filename: amazon-billing-and-cost-management-procurement-portal-preference-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Procurement Portal Preference API
+  slug: amazon-billing-and-cost-management-procurement-portal-preference-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-procurement-portal-preference-api-openapi.yml
+- filename: amazon-billing-and-cost-management-report-definition-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Report Definition API
+  slug: amazon-billing-and-cost-management-report-definition-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-report-definition-api-openapi.yml
+- filename: amazon-billing-and-cost-management-scheduled-report-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Scheduled Report API
+  slug: amazon-billing-and-cost-management-scheduled-report-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-scheduled-report-api-openapi.yml
+- filename: amazon-billing-and-cost-management-source-view-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Source View API
+  slug: amazon-billing-and-cost-management-source-view-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-source-view-api-openapi.yml
+- filename: amazon-billing-and-cost-management-workload-estimate-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Workload Estimate API
+  slug: amazon-billing-and-cost-management-workload-estimate-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-workload-estimate-api-openapi.yml
+- filename: amazon-billing-and-cost-management-workload-estimate-usage-api-openapi.yml
+  format: yaml
+  label: Amazon Billing And Cost Management Billing And Cost Management Workload Estimate Usage API
+  slug: amazon-billing-and-cost-management-workload-estimate-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-billing-and-cost-management/openapi/amazon-billing-and-cost-management-workload-estimate-usage-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -99,20 +195,20 @@ domains:
   domain: amazonaws.com
   spf: true
 hosts:
-- cert_expires: Oct 17 23:59:59 2026 GMT
+- cert_expires: Mar  4 23:59:59 2027 GMT
   host: aws.amazon.com
   hsts: true
   hsts_max_age: 47304000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Dec  8 23:59:59 2026 GMT
+- cert_expires: Apr 26 05:01:14 2027 GMT
   host: docs.aws.amazon.com
   hsts: true
   hsts_max_age: 47304000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov  2 23:59:59 2026 GMT
-  host: ce.us-east-1.amazonaws.com
+- cert_expires: Apr 21 07:07:30 2027 GMT
+  host: pricing.us-east-1.amazonaws.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -129,7 +225,7 @@ slug: amazon-billing-and-cost-management-domain-security
 source_filename: amazon-billing-and-cost-management-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: docs.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  8 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: ce.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  2 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-11-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: docs.aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 26 05:01:14 2027 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: pricing.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 21 07:07:30 2027 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://artifacts.apis.io/amazon-billing-and-cost-management/security/amazon-billing-and-cost-management-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Webrix Authentication
+name: Willow AI Governance Control Plane Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Willow AI Governance Control Plane declares 2 security scheme(s) across its OpenAPI definitions.

@@ -140,7 +140,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Horizonshield Dev Authentication
+name: HORIZON SHIELD Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HORIZON SHIELD declares 0 security scheme(s) across its OpenAPI definitions.

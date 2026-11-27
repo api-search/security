@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Lifestyles Healthcare Authentication
+name: LifeStyles Healthcare Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LifeStyles Healthcare declares 3 security scheme(s) across its OpenAPI definitions.

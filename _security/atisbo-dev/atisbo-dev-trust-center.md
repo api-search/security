@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Atisbo Dev Trust Center
+name: atisbo-dev Trust Center
 name_suffix: Trust Center
 overview: atisbo-dev maintains a public trust center documenting SOC 2 compliance.
 provider_name: atisbo-dev

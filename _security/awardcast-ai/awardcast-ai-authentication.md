@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Awardcast Ai Authentication
+name: AwardCast AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AwardCast AI declares 0 security scheme(s) across its OpenAPI definitions.

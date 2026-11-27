@@ -123,6 +123,102 @@ api_specs:
   slug: aws-api-gateway-vpclinks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-vpclinks-api-openapi.yml
+- filename: aws-api-gateway-apimappings-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Apimappings API
+  slug: aws-api-gateway-apimappings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-apimappings-api-openapi.yml
+- filename: aws-api-gateway-cache-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Cache API
+  slug: aws-api-gateway-cache-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-cache-api-openapi.yml
+- filename: aws-api-gateway-clientcertificates-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Clientcertificates API
+  slug: aws-api-gateway-clientcertificates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-clientcertificates-api-openapi.yml
+- filename: aws-api-gateway-domainnameaccessassociations-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Domainnameaccessassociations API
+  slug: aws-api-gateway-domainnameaccessassociations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-domainnameaccessassociations-api-openapi.yml
+- filename: aws-api-gateway-integrationresponses-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Integrationresponses API
+  slug: aws-api-gateway-integrationresponses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-integrationresponses-api-openapi.yml
+- filename: aws-api-gateway-keys-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Keys API
+  slug: aws-api-gateway-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-keys-api-openapi.yml
+- filename: aws-api-gateway-operations-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Operations API
+  slug: aws-api-gateway-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-operations-api-openapi.yml
+- filename: aws-api-gateway-portalproducts-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Portalproducts API
+  slug: aws-api-gateway-portalproducts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-portalproducts-api-openapi.yml
+- filename: aws-api-gateway-portals-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Portals API
+  slug: aws-api-gateway-portals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-portals-api-openapi.yml
+- filename: aws-api-gateway-productpages-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Productpages API
+  slug: aws-api-gateway-productpages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-productpages-api-openapi.yml
+- filename: aws-api-gateway-productrestendpointpages-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Productrestendpointpages API
+  slug: aws-api-gateway-productrestendpointpages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-productrestendpointpages-api-openapi.yml
+- filename: aws-api-gateway-responses-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Responses API
+  slug: aws-api-gateway-responses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-responses-api-openapi.yml
+- filename: aws-api-gateway-routeresponses-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Routeresponses API
+  slug: aws-api-gateway-routeresponses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-routeresponses-api-openapi.yml
+- filename: aws-api-gateway-routingrules-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Routingrules API
+  slug: aws-api-gateway-routingrules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-routingrules-api-openapi.yml
+- filename: aws-api-gateway-sharingpolicy-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Sharingpolicy API
+  slug: aws-api-gateway-sharingpolicy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-sharingpolicy-api-openapi.yml
+- filename: aws-api-gateway-tags-api-openapi.yml
+  format: yaml
+  label: Amazon API Gateway Api Gateway Tags API
+  slug: aws-api-gateway-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-api-gateway/openapi/aws-api-gateway-tags-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -130,7 +226,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Aws Api Gateway Authentication
+name: Amazon API Gateway Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon API Gateway secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -163,7 +259,7 @@ tags:
 - WebSocket
 - Serverless
 - MCP
-- AgentCore
+- Agent Core
 - Developer Portal
 - Developer Tools
 - Real-Time

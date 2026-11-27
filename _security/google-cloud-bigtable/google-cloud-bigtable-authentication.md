@@ -2,24 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-bigtable-clusters-api-openapi.yml
+- filename: google-cloud-bigtable-operations-api-openapi.yml
   format: yaml
-  label: Google Cloud Bigtable Clusters API
-  slug: google-cloud-bigtable-clusters-api
+  label: Google Cloud Bigtable Cloud Bigtable Operations API
+  slug: google-cloud-bigtable-operations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-bigtable/openapi/google-cloud-bigtable-clusters-api-openapi.yml
-- filename: google-cloud-bigtable-instances-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-bigtable/openapi/google-cloud-bigtable-operations-api-openapi.yml
+- filename: google-cloud-bigtable-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Bigtable Instances API
-  slug: google-cloud-bigtable-instances-api
+  label: Google Cloud Bigtable Cloud Bigtable Projects API
+  slug: google-cloud-bigtable-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-bigtable/openapi/google-cloud-bigtable-instances-api-openapi.yml
-- filename: google-cloud-bigtable-tables-api-openapi.yml
-  format: yaml
-  label: Google Cloud Bigtable Tables API
-  slug: google-cloud-bigtable-tables-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-bigtable/openapi/google-cloud-bigtable-tables-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-bigtable/openapi/google-cloud-bigtable-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

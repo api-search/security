@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Audit Domains Authentication
+name: audit.domains Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: audit.domains declares 2 security scheme(s) across its OpenAPI definitions.

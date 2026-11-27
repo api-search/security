@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Wbiztool Com Authentication
+name: wbiztool-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: wbiztool-com declares 1 security scheme(s) across its OpenAPI definitions.

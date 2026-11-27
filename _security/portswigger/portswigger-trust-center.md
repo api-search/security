@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Portswigger Trust Center
+name: PortSwigger Trust Center
 name_suffix: Trust Center
 overview: PortSwigger maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: PortSwigger

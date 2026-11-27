@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 1Inch Trust Center
+name: 1inch Trust Center
 name_suffix: Trust Center
 overview: 1inch maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: 1inch

@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: City Prague Open Data Domain Security
+name: City, Prague Open Data Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for City, Prague Open Data, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: City, Prague Open Data

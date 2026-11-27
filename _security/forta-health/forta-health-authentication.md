@@ -206,6 +206,18 @@ api_specs:
   slug: forta-health-treatment-plan-statuses-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/forta-health/openapi/forta-health-treatment-plan-statuses-api-openapi.yml
+- filename: forta-health-narrative-suggestion-api-openapi.yml
+  format: yaml
+  label: Forta Health Narrative Suggestion API
+  slug: forta-health-narrative-suggestion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/forta-health/openapi/forta-health-narrative-suggestion-api-openapi.yml
+- filename: forta-health-treatment-plans-v3-api-openapi.yml
+  format: yaml
+  label: Forta Health Treatment Plans V3 API
+  slug: forta-health-treatment-plans-v3-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/forta-health/openapi/forta-health-treatment-plans-v3-api-openapi.yml
 auth_types:
 - http
 description: ''

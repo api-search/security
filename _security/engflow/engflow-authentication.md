@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: searched
-name: Engflow Authentication
+name: EngFlow Authentication
 name_suffix: Authentication
 oauth_flows:
 - deviceCode

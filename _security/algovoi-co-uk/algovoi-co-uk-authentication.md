@@ -244,7 +244,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Algovoi Co Uk Authentication
+name: AlgoVoi Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AlgoVoi secures its APIs with http-bearer, apiKey(header), payment-as-auth(x402), payment-as-auth(mpp), hmac-webhook-signature, session-token, and none across 9 declared security schemes, as derived from its OpenAPI definitions.

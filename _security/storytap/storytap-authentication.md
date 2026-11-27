@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Storytap Authentication
+name: StoryTap Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: StoryTap declares 2 security scheme(s) across its OpenAPI definitions.

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Quibim Trust Center
+name: QUIBIM Trust Center
 name_suffix: Trust Center
 overview: QUIBIM maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: QUIBIM

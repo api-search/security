@@ -17,7 +17,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aaico Trust Center
+name: AppliedAI (AAICO) Trust Center
 name_suffix: Trust Center
 overview: AppliedAI (AAICO) maintains a public trust center documenting SOC 2 Type II, ISO 27001, ISO 42001, HIPAA, GDPR, and EU AI Act compliance.
 provider_name: AppliedAI (AAICO)

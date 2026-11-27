@@ -8,7 +8,7 @@ certifications:
 description: Read AI runs a Vanta-hosted Trust Center at trust.read.ai. The page itself is a client-rendered single-page app — the only text a fetch returns is the title "Read AI Trust Center", and every /api/* path answers 200 with the same HTML shell — so the certification list below is taken from Read AI's own Security & Privacy Overview help article, which names what the Trust Center holds. The documents themselves are behind the Trust Center's request/NDA flow and were not fetched.
 kind: trust-center
 layout: security
-name: Read Ai Trust Center
+name: Read AI Trust Center
 name_suffix: Trust Center
 overview: Read AI maintains a public trust center documenting SOC 2 Type 2, HIPAA, GDPR, and EU-U.S. Data Privacy Framework compliance.
 provider_name: Read AI

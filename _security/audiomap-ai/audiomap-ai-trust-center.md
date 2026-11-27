@@ -32,7 +32,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Audiomap Ai Trust Center
+name: AudioMap Trust Center
 name_suffix: Trust Center
 overview: AudioMap maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: AudioMap

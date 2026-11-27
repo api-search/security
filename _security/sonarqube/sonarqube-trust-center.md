@@ -52,7 +52,7 @@ certifications:
 description: SonarSource publishes a Vanta-hosted trust center (trust.sonarsource.com, "Sonar and Gitar Security and Data Protection", rendered 2026-11-05) listing certifications, self-assessments, penetration-test summaries and policies, with a request-access gate for the documents themselves, plus a marketing trust-center page on sonarsource.com that links it, the status page and the accessibility statement. The dossier's security-programs probe wrote nothing because the certifications are rendered client-side; they were read from the rendered page.
 kind: trust-center
 layout: security
-name: Sonarqube Trust Center
+name: SonarQube Trust Center
 name_suffix: Trust Center
 overview: SonarQube maintains a public trust center documenting SOC 2 Type II, ISO/IEC 27001:2022, ISO/IEC 27018:2019, CSA STAR Level 1, and PCI DSS SAQ-A compliance.
 provider_name: SonarQube

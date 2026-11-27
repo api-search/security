@@ -101,7 +101,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Cracked Trust Center
+name: Cracked API Trust Center
 name_suffix: Trust Center
 overview: Cracked API maintains a public trust center covering its security and compliance posture.
 provider_name: Cracked API
@@ -129,7 +129,7 @@ tags:
 - Lead Generation
 - AI Models
 - Developer Tools
-- Leadgen
+- LeadGen
 - SEO
 - social-media-data
 - E-Commerce

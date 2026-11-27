@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Arketo Ai Authentication
+name: Arketo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Arketo declares 1 security scheme(s) across its OpenAPI definitions.

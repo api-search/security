@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Aveva Trust Center
+name: AVEVA Trust Center
 name_suffix: Trust Center
 overview: AVEVA maintains a public trust center covering its security and compliance posture.
 provider_name: AVEVA

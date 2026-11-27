@@ -1,43 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: at-t-developer-hub-network-insights-api.yaml
-  format: yaml
-  label: AT&T Network Insights API
-  slug: att-network-insights-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-network-insights-api.yaml
-- filename: at-t-developer-hub-mobility-threat-anomaly-detection-api.yaml
-  format: yaml
-  label: AT&T Mobility Threat and Anomaly Detection API
-  slug: att-mobility-threat-anomaly-detection-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-mobility-threat-anomaly-detection-api.yaml
-- filename: at-t-developer-hub-sim-swap-api.yaml
-  format: yaml
-  label: AT&T SIM Swap API
-  slug: att-sim-swap-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-sim-swap-api.yaml
-- filename: at-t-developer-hub-device-status-api.yaml
-  format: yaml
-  label: AT&T Device Status API
-  slug: att-device-status-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-device-status-api.yaml
-- filename: at-t-developer-hub-quality-on-demand-api.yaml
-  format: yaml
-  label: AT&T Quality on Demand API
-  slug: att-quality-on-demand-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-quality-on-demand-api.yaml
-- filename: at-t-developer-hub-number-verification-api.yaml
-  format: yaml
-  label: AT&T Number Verification API
-  slug: att-number-verification-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-number-verification-api.yaml
 auth_types:
 - oauth2
 description: ''
@@ -45,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: At T Developer Hub Authentication
+name: AT&T Developer Hub Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

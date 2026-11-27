@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: assemblyai-lemur-api-openapi.yml
-  format: yaml
-  label: AssemblyAI LeMUR API
-  slug: assemblyai-lemur-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/assemblyai/openapi/assemblyai-lemur-api-openapi.yml
-- filename: assemblyai-streaming-api-openapi.yml
-  format: yaml
-  label: AssemblyAI Streaming API
-  slug: assemblyai-streaming-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/assemblyai/openapi/assemblyai-streaming-api-openapi.yml
 - filename: assemblyai-transcript-api-openapi.yml
   format: yaml
   label: AssemblyAI Transcript API
@@ -26,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Assemblyai Trust Center
+name: AssemblyAI Trust Center
 name_suffix: Trust Center
 overview: AssemblyAI maintains a public trust center documenting SOC 2, PCI DSS, and GDPR compliance.
 provider_name: AssemblyAI

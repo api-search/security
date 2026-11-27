@@ -12,6 +12,24 @@ api_specs:
   slug: amazon-compute-optimizer-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-operations-api-openapi.yml
+- filename: amazon-compute-optimizer-account-api-openapi.yml
+  format: yaml
+  label: Amazon Compute Optimizer Compute Optimizer Account API
+  slug: amazon-compute-optimizer-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-account-api-openapi.yml
+- filename: amazon-compute-optimizer-automation-event-api-openapi.yml
+  format: yaml
+  label: Amazon Compute Optimizer Compute Optimizer Automation Event API
+  slug: amazon-compute-optimizer-automation-event-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-automation-event-api-openapi.yml
+- filename: amazon-compute-optimizer-automation-rule-api-openapi.yml
+  format: yaml
+  label: Amazon Compute Optimizer Compute Optimizer Automation Rule API
+  slug: amazon-compute-optimizer-automation-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-automation-rule-api-openapi.yml
 description: ''
 domains:
 - caa: []

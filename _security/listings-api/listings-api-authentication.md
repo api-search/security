@@ -64,7 +64,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Listings Api Authentication
+name: Listings API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Listings API secures its APIs with apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.
@@ -114,7 +114,7 @@ tags:
 - Analytics
 - citation-management
 - Local Marketing
-- social-publishing
+- Social publishing
 - MCP
 - Agent-Native
 ---

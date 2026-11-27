@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Beyourspace Es Domain Security
+name: beyourspace Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for beyourspace, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: beyourspace
@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/beyourspace-es/security/beyourspace-e
 summary_line: TLSv1.3 · HSTS
 tags:
 - API Catalog
-- Pay-Per-Use
+- Pay-per-use
 - Automation
 - Discovery
 - Spanish

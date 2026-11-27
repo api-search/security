@@ -285,7 +285,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Scoutrfp Trust Center
+name: Scout RFP (Workday Strategic Sourcing) Trust Center
 name_suffix: Trust Center
 overview: Scout RFP (Workday Strategic Sourcing) maintains a public trust center documenting SOC 2, ISO 27001, FedRAMP, and GDPR compliance.
 provider_name: Scout RFP (Workday Strategic Sourcing)

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agents Wiki Com Authentication
+name: Agents Wiki Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agents Wiki declares 0 security scheme(s) across its OpenAPI definitions.

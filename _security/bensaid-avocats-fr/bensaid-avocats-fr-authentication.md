@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Bensaid Avocats Fr Authentication
+name: Bensaid Avocats Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bensaid Avocats declares 0 security scheme(s) across its OpenAPI definitions.

@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Przypominamy Com Authentication
+name: przypominamy-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: przypominamy-com declares 1 security scheme(s) across its OpenAPI definitions.

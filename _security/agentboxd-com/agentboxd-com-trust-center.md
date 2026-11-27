@@ -102,26 +102,25 @@ api_specs:
   slug: agentboxd-com-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agentboxd-com/openapi/agentboxd-com-webhooks-api-openapi.yml
-certification_count: 3
+certification_count: 2
 certifications:
 - SOC 2
-- ISO 27001
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Agentboxd Com Trust Center
+name: agentboxd-com Trust Center
 name_suffix: Trust Center
-overview: agentboxd-com maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
+overview: agentboxd-com maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: agentboxd-com
 provider_slug: agentboxd-com
 slug: agentboxd-com-trust-center
 source_filename: agentboxd-com-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: https://agentboxd.com/security\nurl: https://agentboxd.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://agentboxd.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
+source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: https://agentboxd.com/security\nurl: https://agentboxd.com/security\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://agentboxd.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\ncertifications_not_held:\n- ISO 27001\ncertification_quotes:\n  ISO 27001: 'nned. Agentboxd is a small company: we don’t hold SOC 2 or ISO 27001, and we don’t claim\n    to. | sub-processors: | 3 | Three sub-processors.'\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/agentboxd-com/security/agentboxd-com-trust-center.yml
-summary_line: SOC 2, ISO 27001, GDPR
+summary_line: SOC 2, GDPR
 tags:
 - Artificial Intelligence
 - Email

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Agentfabric Dev Authentication
+name: agentfabric-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: agentfabric-dev declares 5 security scheme(s) across its OpenAPI definitions.
@@ -68,7 +68,7 @@ summary_line: 5 schemes
 tags:
 - Company
 - Artificial Intelligence
-- HumanReview
+- Human Review
 - MCP
 - REST
 - Automation

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Transcrypts Trust Center
+name: TransCrypts Trust Center
 name_suffix: Trust Center
 overview: TransCrypts maintains a public trust center documenting HIPAA compliance.
 provider_name: TransCrypts

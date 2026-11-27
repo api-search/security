@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: A3Eecosystem Com Authentication
+name: A3E Ecosystem Inc. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: A3E Ecosystem Inc. declares 0 security scheme(s) across its OpenAPI definitions.

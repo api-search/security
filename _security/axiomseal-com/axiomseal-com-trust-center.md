@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Axiomseal Com Trust Center
+name: AxiomSeal Trust Center
 name_suffix: Trust Center
 overview: AxiomSeal maintains a public trust center documenting ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: AxiomSeal

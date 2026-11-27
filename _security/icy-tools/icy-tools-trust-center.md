@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Icy Tools Trust Center
+name: icy.tools Trust Center
 name_suffix: Trust Center
 overview: icy.tools maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: icy.tools

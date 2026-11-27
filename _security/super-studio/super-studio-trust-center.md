@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Super Studio Trust Center
+name: SUPER STUDIO Trust Center
 name_suffix: Trust Center
 overview: SUPER STUDIO maintains a public trust center documenting ISO/IEC 27001 (ISMS), PrivacyMark (JIS Q 15001), PCI DSS, SOC 1 Type 1, and SOC 2 Type 1 compliance.
 provider_name: SUPER STUDIO

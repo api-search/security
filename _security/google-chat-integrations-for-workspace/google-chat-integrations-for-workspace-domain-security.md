@@ -1,41 +1,23 @@
 ---
 api_specs:
-- filename: google-chat-integrations-for-workspace-google-chat-api-api-openapi.yml
-  format: yaml
-  label: Google Chat Integrations for Workspace Google Chat API
-  slug: google-chat-integrations-for-workspace-google-chat-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-google-chat-api-api-openapi.yml
-- filename: google-chat-integrations-for-workspace-members-api-openapi.yml
-  format: yaml
-  label: Google Chat Integrations for Workspace Members API
-  slug: google-chat-integrations-for-workspace-members-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-members-api-openapi.yml
-- filename: google-chat-integrations-for-workspace-message-api-openapi.yml
-  format: yaml
-  label: Google Chat Integrations for Workspace Message API
-  slug: google-chat-integrations-for-workspace-message-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-message-api-openapi.yml
-- filename: google-chat-integrations-for-workspace-messages-api-openapi.yml
-  format: yaml
-  label: Google Chat Integrations for Workspace Messages API
-  slug: google-chat-integrations-for-workspace-messages-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-messages-api-openapi.yml
-- filename: google-chat-integrations-for-workspace-reactions-api-openapi.yml
-  format: yaml
-  label: Google Chat Integrations for Workspace Reactions API
-  slug: google-chat-integrations-for-workspace-reactions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-reactions-api-openapi.yml
 - filename: google-chat-integrations-for-workspace-spaces-api-openapi.yml
   format: yaml
   label: Google Chat Integrations for Workspace Spaces API
   slug: google-chat-integrations-for-workspace-spaces-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-spaces-api-openapi.yml
+- filename: google-chat-integrations-for-workspace-media-api-openapi.yml
+  format: yaml
+  label: Google Chat Integrations for Workspace Chat Integrations For Workspace Media API
+  slug: google-chat-integrations-for-workspace-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-media-api-openapi.yml
+- filename: google-chat-integrations-for-workspace-users-api-openapi.yml
+  format: yaml
+  label: Google Chat Integrations for Workspace Chat Integrations For Workspace Users API
+  slug: google-chat-integrations-for-workspace-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-chat-integrations-for-workspace/openapi/google-chat-integrations-for-workspace-users-api-openapi.yml
 - filename: google-chat-integrations-for-workspace-custom-emojis-api-openapi.yml
   format: yaml
   label: Google Chat Integrations for Workspace Custom Emojis API
@@ -80,7 +62,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Google Chat Integrations For Workspace Domain Security
+name: Google Chat Integrations for Workspace Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Google Chat Integrations for Workspace, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Google Chat Integrations for Workspace

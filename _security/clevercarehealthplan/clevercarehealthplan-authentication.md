@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Clevercarehealthplan Authentication
+name: Clever Care Health Plan Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

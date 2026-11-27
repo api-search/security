@@ -2,42 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: cometapi-audio-api-openapi.yml
-  format: yaml
-  label: CometAPI Audio API
-  slug: cometapi-audio-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-audio-api-openapi.yml
-- filename: cometapi-embeddings-api-openapi.yml
-  format: yaml
-  label: CometAPI Embeddings API
-  slug: cometapi-embeddings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-embeddings-api-openapi.yml
-- filename: cometapi-images-api-openapi.yml
-  format: yaml
-  label: CometAPI Images API
-  slug: cometapi-images-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-images-api-openapi.yml
 - filename: cometapi-models-api-openapi.yml
   format: yaml
   label: CometAPI Models API
   slug: cometapi-models-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cometapi/openapi/cometapi-models-api-openapi.yml
-- filename: cometapi-video-api-openapi.yml
-  format: yaml
-  label: CometAPI Video API
-  slug: cometapi-video-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-video-api-openapi.yml
-- filename: cometapi-chat-completions-api-openapi.yml
-  format: yaml
-  label: CometAPI Chat Completions API
-  slug: cometapi-chat-completions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-chat-completions-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -45,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cometapi Authentication
+name: CometAPI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CometAPI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

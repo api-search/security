@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: actionpower-image-api-openapi.yml
-  format: yaml
-  label: Actionpower Image API
-  slug: actionpower-image-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/actionpower/openapi/actionpower-image-api-openapi.yml
 - filename: actionpower-nlp-api-openapi.yml
   format: yaml
   label: Actionpower NLP API
@@ -24,12 +18,6 @@ api_specs:
   slug: actionpower-tts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/actionpower/openapi/actionpower-tts-api-openapi.yml
-- filename: actionpower-video-api-openapi.yml
-  format: yaml
-  label: Actionpower Video API
-  slug: actionpower-video-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/actionpower/openapi/actionpower-video-api-openapi.yml
 description: ''
 domains:
 - caa: []

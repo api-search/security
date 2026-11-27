@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Uspl Wrogn Authentication
+name: USPL Wrogn Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: USPL Wrogn declares 3 security scheme(s) across its OpenAPI definitions.

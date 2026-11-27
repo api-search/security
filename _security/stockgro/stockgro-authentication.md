@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Stockgro Authentication
+name: StockGro Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: StockGro declares 0 security scheme(s) across its OpenAPI definitions.

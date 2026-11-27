@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Cabolabs Authentication
+name: CaboLabs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CaboLabs declares 0 security scheme(s) across its OpenAPI definitions.

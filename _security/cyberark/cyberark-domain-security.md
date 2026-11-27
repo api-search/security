@@ -1,47 +1,4 @@
 ---
-api_specs:
-- filename: cyberark-authentication-api-openapi.yml
-  format: yaml
-  label: CyberArk Authentication API
-  slug: cyberark-authentication-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-authentication-api-openapi.yml
-- filename: cyberark-health-api-openapi.yml
-  format: yaml
-  label: CyberArk Health API
-  slug: cyberark-health-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-health-api-openapi.yml
-- filename: cyberark-policies-api-openapi.yml
-  format: yaml
-  label: CyberArk Policies API
-  slug: cyberark-policies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-policies-api-openapi.yml
-- filename: cyberark-resources-api-openapi.yml
-  format: yaml
-  label: CyberArk Resources API
-  slug: cyberark-resources-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-resources-api-openapi.yml
-- filename: cyberark-roles-api-openapi.yml
-  format: yaml
-  label: CyberArk Roles API
-  slug: cyberark-roles-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-roles-api-openapi.yml
-- filename: cyberark-secrets-api-openapi.yml
-  format: yaml
-  label: CyberArk Secrets API
-  slug: cyberark-secrets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-secrets-api-openapi.yml
-- filename: cyberark-public-keys-api-openapi.yml
-  format: yaml
-  label: CyberArk Public Keys API
-  slug: cyberark-public-keys-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-public-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +23,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Cyberark Domain Security
+name: CyberArk Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CyberArk, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: CyberArk

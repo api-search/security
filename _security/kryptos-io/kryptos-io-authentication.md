@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Kryptos Io Authentication
+name: kryptos-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: kryptos-io declares 1 security scheme(s) across its OpenAPI definitions.

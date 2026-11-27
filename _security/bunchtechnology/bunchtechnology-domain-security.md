@@ -34,6 +34,5 @@ tags:
 - Company
 - IoT
 - Smart Buildings
-- Enterprise Solutions
 - Real Estate
 ---

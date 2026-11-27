@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anvilcrm Com Authentication
+name: Anvil CRM Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Anvil CRM declares 0 security scheme(s) across its OpenAPI definitions.

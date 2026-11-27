@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Airwise Solutions Authentication
+name: AirWise Solutions Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AirWise Solutions declares 1 security scheme(s) across its OpenAPI definitions.

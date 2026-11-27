@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Feason Com Authentication
+name: Feason Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Feason declares 1 security scheme(s) across its OpenAPI definitions.

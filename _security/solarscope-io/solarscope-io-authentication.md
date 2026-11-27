@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Solarscope Io Authentication
+name: solarscope-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: solarscope-io declares 2 security scheme(s) across its OpenAPI definitions.

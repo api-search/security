@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Dflow Authentication
+name: DFlow Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DFlow secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -85,7 +85,6 @@ tags:
 - Blockchain
 - MEV Protection
 - Prediction Markets
-- Agent Ready
 - Real-Time
 - Cryptocurrency
 ---

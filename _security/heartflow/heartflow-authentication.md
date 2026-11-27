@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Heartflow Authentication
+name: HeartFlow Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HeartFlow declares 0 security scheme(s) across its OpenAPI definitions.

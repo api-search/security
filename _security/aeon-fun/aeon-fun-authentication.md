@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Aeon Fun Authentication
+name: Aeon Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aeon declares 4 security scheme(s) across its OpenAPI definitions.

@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Universitat Hamburg Authentication
+name: Universität Hamburg Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Universität Hamburg declares 3 security scheme(s) across its OpenAPI definitions.

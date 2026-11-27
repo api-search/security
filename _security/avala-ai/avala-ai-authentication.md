@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Avala Ai Authentication
+name: Avala AI, Inc. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Avala AI, Inc. declares 2 security scheme(s) across its OpenAPI definitions.

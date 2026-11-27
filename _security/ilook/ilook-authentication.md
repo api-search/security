@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ilook Authentication
+name: iLook AI Face Analysis (Wallic Technologies) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: iLook AI Face Analysis (Wallic Technologies) declares 1 security scheme(s) across its OpenAPI definitions.
@@ -35,5 +35,4 @@ tags:
 - Artificial Intelligence
 - FaceAnalysis
 - Image Processing
-- Biometrics
 ---

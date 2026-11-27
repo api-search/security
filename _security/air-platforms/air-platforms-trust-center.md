@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Air Platforms Trust Center
+name: AIR Platforms Trust Center
 name_suffix: Trust Center
 overview: AIR Platforms maintains a public trust center documenting SOC 2 compliance.
 provider_name: AIR Platforms

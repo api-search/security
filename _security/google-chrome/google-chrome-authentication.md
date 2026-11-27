@@ -2,42 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-chrome-app-details-api-openapi.yml
+- filename: google-chrome-challenge-api-openapi.yml
   format: yaml
-  label: Google Chrome App Details API
-  slug: google-chrome-app-details-api
+  label: Google Chrome Challenge API
+  slug: google-chrome-challenge-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-app-details-api-openapi.yml
-- filename: google-chrome-reports-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-challenge-api-openapi.yml
+- filename: google-chrome-customers-api-openapi.yml
   format: yaml
-  label: Google Chrome Reports API
-  slug: google-chrome-reports-api
+  label: Google Chrome Customers API
+  slug: google-chrome-customers-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-reports-api-openapi.yml
-- filename: google-chrome-telemetry-devices-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-customers-api-openapi.yml
+- filename: google-chrome-media-api-openapi.yml
   format: yaml
-  label: Google Chrome Telemetry Devices API
-  slug: google-chrome-telemetry-devices-api
+  label: Google Chrome Media API
+  slug: google-chrome-media-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-devices-api-openapi.yml
-- filename: google-chrome-telemetry-events-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-media-api-openapi.yml
+- filename: google-chrome-operations-api-openapi.yml
   format: yaml
-  label: Google Chrome Telemetry Events API
-  slug: google-chrome-telemetry-events-api
+  label: Google Chrome Operations API
+  slug: google-chrome-operations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-events-api-openapi.yml
-- filename: google-chrome-telemetry-notification-configs-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-operations-api-openapi.yml
+- filename: google-chrome-platforms-api-openapi.yml
   format: yaml
-  label: Google Chrome Telemetry Notification Configs API
-  slug: google-chrome-telemetry-notification-configs-api
+  label: Google Chrome Platforms API
+  slug: google-chrome-platforms-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-notification-configs-api-openapi.yml
-- filename: google-chrome-telemetry-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-platforms-api-openapi.yml
+- filename: google-chrome-publishers-api-openapi.yml
   format: yaml
-  label: Google Chrome Telemetry Users API
-  slug: google-chrome-telemetry-users-api
+  label: Google Chrome Publishers API
+  slug: google-chrome-publishers-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-telemetry-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-publishers-api-openapi.yml
+- filename: google-chrome-records-api-openapi.yml
+  format: yaml
+  label: Google Chrome Records API
+  slug: google-chrome-records-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-chrome/openapi/google-chrome-records-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

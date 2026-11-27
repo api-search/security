@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Datakoot Com Authentication
+name: datakoot-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: datakoot-com declares 0 security scheme(s) across its OpenAPI definitions.

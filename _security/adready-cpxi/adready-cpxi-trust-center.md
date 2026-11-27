@@ -288,24 +288,23 @@ api_specs:
   slug: adready-cpxi-whitelabel-domain-controller-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/adready-cpxi/openapi/adready-cpxi-whitelabel-domain-controller-api-openapi.yml
-certification_count: 1
-certifications:
-- SOC 2
+certification_count: 0
+certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Adready Cpxi Trust Center
+name: AdReady (CPXi) Trust Center
 name_suffix: Trust Center
-overview: AdReady (CPXi) maintains a public trust center documenting SOC 2 compliance.
+overview: AdReady (CPXi) maintains a public trust center covering its security and compliance posture.
 provider_name: AdReady (CPXi)
 provider_slug: adready-cpxi
 slug: adready-cpxi-trust-center
 source_filename: adready-cpxi-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-08-12'\nmethod: searched\nprobe: true\nsource: https://trust.digitalremedy.com/\nurl: https://trust.digitalremedy.com/\ncertifications:\n- SOC 2\nevidence:\n- source: https://trust.digitalremedy.com/\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\n"
+source_yaml: "generated: '2026-08-12'\nmethod: searched\nprobe: true\nsource: https://trust.digitalremedy.com/\nurl: https://trust.digitalremedy.com/\ncertifications: []\nevidence:\n- source: https://trust.digitalremedy.com/\n  keywords:\n  - soc 2\n  - soc2\n  - trust center\ncertifications_in_progress:\n- SOC 2\ncertification_quotes:\n  SOC 2: sources | Subprocessors | Compliances | Details | SOC 2 | In progress | Controls | Details |\n    Product security | Situational A\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/adready-cpxi/security/adready-cpxi-trust-center.yml
-summary_line: SOC 2
+summary_line: trust center published
 tags:
 - Company
 - Commerce

@@ -192,7 +192,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ibm Trust Center
+name: IBM Trust Center
 name_suffix: Trust Center
 overview: IBM maintains a public trust center documenting SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, ISO 27701, ISO 9001, ISO 22301, FedRAMP, HIPAA, PCI DSS, and GDPR compliance.
 provider_name: IBM

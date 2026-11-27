@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: probed
-name: Columbia Authentication
+name: Columbia University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Columbia University declares 6 security scheme(s) across its OpenAPI definitions.

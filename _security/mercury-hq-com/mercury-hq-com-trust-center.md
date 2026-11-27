@@ -120,7 +120,7 @@ description: MERCURY publishes a trust page ("Trust & reputability - what a proc
   resell, or train on the content you fetch"). It names NO SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR or other certification or audit, so no Compliance pointer is emitted. probe-security-programs.py did not record it because the page carries fewer than two of the keywords it requires; it is recorded here by hand because the page is real, first-party and answers the trust question directly.
 kind: trust-center
 layout: security
-name: Mercury Hq Com Trust Center
+name: MERCURY Trust Center
 name_suffix: Trust Center
 overview: MERCURY maintains a public trust center covering its security and compliance posture.
 provider_name: MERCURY

@@ -48,7 +48,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Visio Trust Center
+name: Microsoft Visio API Trust Center
 name_suffix: Trust Center
 overview: Microsoft Visio API maintains a public trust center documenting GDPR compliance.
 provider_name: Microsoft Visio API

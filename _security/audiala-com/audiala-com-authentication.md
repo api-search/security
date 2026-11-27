@@ -182,7 +182,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Audiala Com Authentication
+name: Audiala Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Audiala declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Chibitek Com Authentication
+name: chibitek-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: chibitek-com declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Americantradesindex Com Authentication
+name: American Trades Index Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: American Trades Index declares 0 security scheme(s) across its OpenAPI definitions.

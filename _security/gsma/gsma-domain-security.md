@@ -36,12 +36,6 @@ api_specs:
   slug: gsma-debit-mandates-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gsma/openapi/gsma-debit-mandates-api-openapi.yml
-- filename: gsma-discovery-api-openapi.yml
-  format: yaml
-  label: GSMA Discovery API
-  slug: gsma-discovery-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gsma/openapi/gsma-discovery-api-openapi.yml
 - filename: gsma-home-devices-qod-api-openapi.yml
   format: yaml
   label: GSMA Home Devices QoD API
@@ -156,12 +150,6 @@ api_specs:
   slug: gsma-apiproductorder-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gsma/openapi/gsma-apiproductorder-api-openapi.yml
-- filename: gsma-application-api-openapi.yml
-  format: yaml
-  label: GSMA Application API
-  slug: gsma-application-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gsma/openapi/gsma-application-api-openapi.yml
 - filename: gsma-application-profiles-api-openapi.yml
   format: yaml
   label: GSMA Application Profiles API
@@ -240,6 +228,18 @@ api_specs:
   slug: gsma-traffic-influence-api-write-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gsma/openapi/gsma-traffic-influence-api-write-api-openapi.yml
+- filename: gsma-application-api-openapi.yml
+  format: yaml
+  label: GSMA Application API
+  slug: gsma-application-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gsma/openapi/gsma-application-api-openapi.yml
+- filename: gsma-discovery-api-openapi.yml
+  format: yaml
+  label: GSMA Discovery API
+  slug: gsma-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gsma/openapi/gsma-discovery-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -254,10 +254,10 @@ domains:
   domain: mobilemoneyapi.io
   spf: false
 hosts:
-- cert_expires: Sep 15 14:00:34 2026 GMT
+- cert_expires: Jan 11 23:25:48 2027 GMT
   host: www.gsma.com
   hsts: true
-  hsts_max_age: 15552000
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
 - cert_expires: Dec 24 23:59:59 2026 GMT
@@ -265,26 +265,22 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  3 16:58:09 2026 GMT
-  host: open-gateway.gsma.com
-  hsts: true
-  hsts_max_age: 15552000
-  https: true
-  tls_version: TLSv1.3
+- host: sandbox.mobilemoneyapi.io
+  https: false
 hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Gsma Domain Security
+name: GSMA Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for GSMA, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for GSMA, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: GSMA
 provider_slug: gsma
 slug: gsma-domain-security
 source_filename: gsma-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-25'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gsma.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 14:00:34 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\n- host: developer.mobilemoneyapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: false\n- host: open-gateway.gsma.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  3 16:58:09 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: gsma.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: mobilemoneyapi.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
+source_yaml: "generated: '2026-11-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.gsma.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:25:48 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developer.mobilemoneyapi.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: false\n- host: sandbox.mobilemoneyapi.io\n  https: false\ndomains:\n- domain: gsma.com\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: mobilemoneyapi.io\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://artifacts.apis.io/gsma/security/gsma-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

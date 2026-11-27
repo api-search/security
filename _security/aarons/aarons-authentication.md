@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Aarons Authentication
+name: Aaron's Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aaron's declares 3 security scheme(s) across its OpenAPI definitions.

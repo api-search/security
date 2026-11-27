@@ -56,7 +56,7 @@ certifications:
 description: YouScan runs a public SafeBase trust center at trust.youscan.io covering its certifications, security control families, risk profile and document library. Certificates are named on the public page; the underlying reports (SOC 2 Type 2 report, pentest report, GDPR documents) are behind a "Get access" request form.
 kind: trust-center
 layout: security
-name: Youscan Trust Center
+name: YouScan Trust Center
 name_suffix: Trust Center
 overview: YouScan maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, and GDPR compliance.
 provider_name: YouScan

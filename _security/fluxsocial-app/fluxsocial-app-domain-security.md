@@ -24,7 +24,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fluxsocial App Domain Security
+name: FluxSocial Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FluxSocial, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: FluxSocial
@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-11-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/fluxsocial-app/security/fluxsocial-app-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- AI
+- Artificial Intelligence
 - Social Media
 - Video Generation
 - Marketing

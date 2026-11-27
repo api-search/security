@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Ukg Pro Authentication
+name: UKG Pro Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: UKG Pro secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

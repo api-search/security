@@ -77,8 +77,7 @@ tags:
 - Fixtures
 - Predictions
 - probability-models
-- monte-carlo
+- MonteCarlo
 - MCP
 - Agent-Native
-- Free API
 ---

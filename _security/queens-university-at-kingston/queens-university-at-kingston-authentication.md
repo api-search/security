@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Queens University At Kingston Authentication
+name: Queen's University at Kingston Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Queen's University at Kingston secures its APIs with saml2 across 3 declared security schemes, as derived from its OpenAPI definitions.

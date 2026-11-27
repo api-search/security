@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 4Gclinical Trust Center
+name: 4G Clinical Trust Center
 name_suffix: Trust Center
 overview: 4G Clinical maintains a public trust center documenting SOC 2 Type 2, EU-US Data Privacy Framework (incl. UK Extension and Swiss-US DPF), EcoVadis, and United Nations Global Compact compliance.
 provider_name: 4G Clinical

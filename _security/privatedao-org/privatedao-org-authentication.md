@@ -98,7 +98,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Privatedao Org Authentication
+name: PrivateDAO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PrivateDAO declares 2 security scheme(s) across its OpenAPI definitions.

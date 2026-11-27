@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Policylayer Com Trust Center
+name: policylayer-com Trust Center
 name_suffix: Trust Center
 overview: policylayer-com maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: policylayer-com

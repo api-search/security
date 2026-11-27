@@ -30,6 +30,24 @@ api_specs:
   slug: amazon-directory-service-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-directory-service/openapi/amazon-directory-service-operations-api-openapi.yml
+- filename: amazon-directory-service-groupmemberships-api-openapi.yml
+  format: yaml
+  label: Amazon Directory Service Directory Service Groupmemberships API
+  slug: amazon-directory-service-groupmemberships-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-directory-service/openapi/amazon-directory-service-groupmemberships-api-openapi.yml
+- filename: amazon-directory-service-groups-api-openapi.yml
+  format: yaml
+  label: Amazon Directory Service Directory Service Groups API
+  slug: amazon-directory-service-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-directory-service/openapi/amazon-directory-service-groups-api-openapi.yml
+- filename: amazon-directory-service-users-api-openapi.yml
+  format: yaml
+  label: Amazon Directory Service Directory Service Users API
+  slug: amazon-directory-service-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-directory-service/openapi/amazon-directory-service-users-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

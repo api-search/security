@@ -211,7 +211,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aftership Trust Center
+name: AfterShip Trust Center
 name_suffix: Trust Center
 overview: AfterShip maintains a public trust center documenting SOC 2 Type II and ISO 27001 compliance.
 provider_name: AfterShip

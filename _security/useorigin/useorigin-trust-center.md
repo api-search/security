@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Useorigin Trust Center
+name: Origin Financial Trust Center
 name_suffix: Trust Center
 overview: Origin Financial maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: Origin Financial

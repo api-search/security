@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Uare Ai Trust Center
+name: Uare.ai Trust Center
 name_suffix: Trust Center
 overview: Uare.ai maintains a public trust center covering its security and compliance posture.
 provider_name: Uare.ai

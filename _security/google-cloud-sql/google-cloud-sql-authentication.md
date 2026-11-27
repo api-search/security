@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-sql-backupruns-api-openapi.yml
-  format: yaml
-  label: Google Cloud SQL BackupRuns API
-  slug: google-cloud-sql-backupruns-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-backupruns-api-openapi.yml
 - filename: google-cloud-sql-databases-api-openapi.yml
   format: yaml
   label: Google Cloud SQL Databases API
@@ -26,6 +20,66 @@ api_specs:
   slug: google-cloud-sql-users-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-users-api-openapi.yml
+- filename: google-cloud-sql-backups-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Cloud Sql Backups API
+  slug: google-cloud-sql-backups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-backups-api-openapi.yml
+- filename: google-cloud-sql-connect-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Cloud Sql Connect API
+  slug: google-cloud-sql-connect-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-connect-api-openapi.yml
+- filename: google-cloud-sql-flags-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Cloud Sql Flags API
+  slug: google-cloud-sql-flags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-flags-api-openapi.yml
+- filename: google-cloud-sql-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Cloud Sql Operations API
+  slug: google-cloud-sql-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-operations-api-openapi.yml
+- filename: google-cloud-sql-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Cloud Sql Projects API
+  slug: google-cloud-sql-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-projects-api-openapi.yml
+- filename: google-cloud-sql-tiers-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Cloud Sql Tiers API
+  slug: google-cloud-sql-tiers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-tiers-api-openapi.yml
+- filename: google-cloud-sql-backupruns-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Backup Runs API
+  slug: google-cloud-sql-backupruns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-backupruns-api-openapi.yml
+- filename: google-cloud-sql-bluegreendeployments-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Blue Green Deployments API
+  slug: google-cloud-sql-bluegreendeployments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-bluegreendeployments-api-openapi.yml
+- filename: google-cloud-sql-sslcerts-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Ssl Certs API
+  slug: google-cloud-sql-sslcerts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-sslcerts-api-openapi.yml
+- filename: google-cloud-sql-workloadcaptures-api-openapi.yml
+  format: yaml
+  label: Google Cloud SQL Workload Captures API
+  slug: google-cloud-sql-workloadcaptures-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-sql/openapi/google-cloud-sql-workloadcaptures-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -33,7 +87,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Cloud Sql Authentication
+name: Google Cloud SQL Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

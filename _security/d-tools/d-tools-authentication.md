@@ -170,7 +170,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: D Tools Authentication
+name: D-Tools Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: D-Tools declares 0 security scheme(s) across its OpenAPI definitions.

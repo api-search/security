@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Wisdom Ai Authentication
+name: Wisdom AI Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

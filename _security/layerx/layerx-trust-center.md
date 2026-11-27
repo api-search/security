@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Layerx Trust Center
+name: LayerX Trust Center
 name_suffix: Trust Center
 overview: LayerX maintains a public trust center documenting ISO/IEC 27001 (ISMS), SOC 1 Type 2, JIIMA 電帳法スキャナ保存ソフト法的要件認証, and JIIMA 電帳法電子取引ソフト法的要件認証 compliance.
 provider_name: LayerX

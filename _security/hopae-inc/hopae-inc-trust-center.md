@@ -63,7 +63,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hopae Inc Trust Center
+name: Hopae Trust Center
 name_suffix: Trust Center
 overview: Hopae maintains a public trust center documenting SOC 2, ISO 27001, GDPR, and eIDAS 2.0 compliance.
 provider_name: Hopae

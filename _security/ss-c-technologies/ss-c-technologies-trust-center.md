@@ -36,7 +36,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ss C Technologies Trust Center
+name: SS&C Technologies Trust Center
 name_suffix: Trust Center
 overview: SS&C Technologies maintains a public trust center documenting SOC 1 Type 2 compliance.
 provider_name: SS&C Technologies

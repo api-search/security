@@ -48,18 +48,22 @@ provider_name: Amazon Managed Grafana
 provider_slug: amazon-managed-grafana
 scheme_count: 1
 schemes:
-- description: Amazon Signature authorization v4
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: hmac
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-managed-grafana-openapi-original.yaml
+  - openapi/amazon-managed-grafana-serviceaccounts-api-openapi.yml
+  - openapi/amazon-managed-grafana-tags-api-openapi.yml
+  - openapi/amazon-managed-grafana-tokens-api-openapi.yml
+  - openapi/amazon-managed-grafana-versions-api-openapi.yml
+  - openapi/amazon-managed-grafana-workspaces-api-openapi.yml
   type: apiKey
 slug: amazon-managed-grafana-authentication
 source_filename: amazon-managed-grafana-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-managed-grafana-openapi-original.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-managed-grafana-openapi-original.yaml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-managed-grafana-serviceaccounts-api-openapi.yml, openapi/amazon-managed-grafana-tags-api-openapi.yml,\n  openapi/amazon-managed-grafana-tokens-api-openapi.yml, openapi/amazon-managed-grafana-versions-api-openapi.yml,\n  openapi/amazon-managed-grafana-workspaces-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-managed-grafana-serviceaccounts-api-openapi.yml\n  - openapi/amazon-managed-grafana-tags-api-openapi.yml\n  - openapi/amazon-managed-grafana-tokens-api-openapi.yml\n  - openapi/amazon-managed-grafana-versions-api-openapi.yml\n  - openapi/amazon-managed-grafana-workspaces-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-managed-grafana/authentication/amazon-managed-grafana-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

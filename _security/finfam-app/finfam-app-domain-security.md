@@ -23,7 +23,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Finfam App Domain Security
+name: FinFam Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FinFam, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: FinFam
@@ -40,5 +40,5 @@ tags:
 - Planning
 - Family
 - App
-- FinTech
+- Fintech
 ---

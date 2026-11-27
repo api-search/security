@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Assay Systems Com Authentication
+name: Assay Systems Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Assay Systems declares 0 security scheme(s) across its OpenAPI definitions.

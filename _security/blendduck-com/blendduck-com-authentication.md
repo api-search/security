@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Blendduck Com Authentication
+name: BlendDuck Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BlendDuck declares 1 security scheme(s) across its OpenAPI definitions.

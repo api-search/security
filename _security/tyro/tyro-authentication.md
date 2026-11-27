@@ -135,7 +135,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Tyro Authentication
+name: Tyro Payments Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tyro Payments secures its APIs with openIdConnect across 1 declared security scheme, as derived from its OpenAPI definitions.

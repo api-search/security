@@ -36,7 +36,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: University Of Cambridge Authentication
+name: University of Cambridge Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Cambridge secures its APIs with http, oauth2, openIdConnect, and saml across 3 declared security schemes, as derived from its OpenAPI definitions.

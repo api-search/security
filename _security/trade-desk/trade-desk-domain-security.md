@@ -119,7 +119,7 @@ hosts_probed: 10
 kind: domain-security
 layout: security
 method: probed
-name: Trade Desk Domain Security
+name: The Trade Desk Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for The Trade Desk, probed live across 10 host(s) and 4 registrable domain(s). 10 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: The Trade Desk

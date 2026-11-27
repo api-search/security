@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Openuv Authentication
+name: OpenUV Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OpenUV secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hyperexponential Trust Center
+name: hyperexponential Trust Center
 name_suffix: Trust Center
 overview: hyperexponential maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: hyperexponential

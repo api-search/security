@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 9Am Health Trust Center
+name: 9am Health Trust Center
 name_suffix: Trust Center
 overview: 9am Health maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: 9am Health

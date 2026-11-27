@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Feedback1 Ai Authentication
+name: Feedback1 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Feedback1 declares 2 security scheme(s) across its OpenAPI definitions.
@@ -133,8 +133,8 @@ source_yaml_url: https://artifacts.apis.io/feedback1-ai/authentication/feedback1
 summary_line: 2 schemes
 tags:
 - Feedback
-- Roadmap
-- AI
-- SaaS
-- CustomerSuccess
+- Roadmaps
+- Artificial Intelligence
+- Software-as-a-Service
+- Customer Success
 ---

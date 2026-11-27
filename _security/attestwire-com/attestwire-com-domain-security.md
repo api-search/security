@@ -72,7 +72,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Attestwire Com Domain Security
+name: Attestwire Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Attestwire, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Attestwire
@@ -86,9 +86,9 @@ source_yaml_url: https://artifacts.apis.io/attestwire-com/security/attestwire-co
 summary_line: TLSv1.3 · HSTS
 tags:
 - Attestwire
-- E-invoice
+- e-invoice
 - Validation
 - XRechnung
-- PEPPOL
+- Peppol
 - MCP
 ---

@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ofox Trust Center
+name: NICE TALK Trust Center
 name_suffix: Trust Center
 overview: NICE TALK maintains a public trust center documenting ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: NICE TALK

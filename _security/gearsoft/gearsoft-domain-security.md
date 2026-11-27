@@ -32,5 +32,4 @@ tags:
 - ERP
 - Workflow Automation
 - Cloud Software
-- Enterprise Solutions
 ---

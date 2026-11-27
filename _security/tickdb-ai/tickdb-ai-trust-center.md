@@ -63,7 +63,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tickdb Ai Trust Center
+name: tickdb-ai Trust Center
 name_suffix: Trust Center
 overview: tickdb-ai maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: tickdb-ai

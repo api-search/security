@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ucsd Authentication
+name: University of California, San Diego Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of California, San Diego secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

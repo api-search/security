@@ -67,7 +67,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Whisper Online Authentication
+name: Whisper Security Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Whisper Security secures its APIs with apiKey, http-bearer, oauth2, and network-identity across 5 declared security schemes, as derived from its OpenAPI definitions.

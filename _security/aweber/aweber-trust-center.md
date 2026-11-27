@@ -86,7 +86,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aweber Trust Center
+name: AWeber Trust Center
 name_suffix: Trust Center
 overview: AWeber maintains a public trust center documenting PCI Security certification, Privacy Shield certification, and GDPR compliance.
 provider_name: AWeber

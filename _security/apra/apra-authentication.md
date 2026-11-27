@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Apra Authentication
+name: APRA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: APRA declares 0 security scheme(s) across its OpenAPI definitions.

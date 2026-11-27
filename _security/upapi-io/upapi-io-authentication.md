@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Upapi Io Authentication
+name: upapi-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: upapi-io declares 1 security scheme(s) across its OpenAPI definitions.

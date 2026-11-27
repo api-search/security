@@ -30,7 +30,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pointcheckout Trust Center
+name: PointCheckout Trust Center
 name_suffix: Trust Center
 overview: PointCheckout maintains a public trust center documenting PCI DSS compliance.
 provider_name: PointCheckout

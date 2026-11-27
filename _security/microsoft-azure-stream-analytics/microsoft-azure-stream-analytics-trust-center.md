@@ -60,7 +60,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Microsoft Azure Stream Analytics Trust Center
+name: Azure Stream Analytics Trust Center
 name_suffix: Trust Center
 overview: Azure Stream Analytics maintains a public trust center documenting GDPR compliance.
 provider_name: Azure Stream Analytics

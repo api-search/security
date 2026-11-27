@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ionos Authentication
+name: IONOS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IONOS declares 3 security scheme(s) across its OpenAPI definitions.

@@ -54,7 +54,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Bank Of Sydney Authentication
+name: Bank of Sydney Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -64,7 +64,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gooddata Trust Center
+name: GoodData Trust Center
 name_suffix: Trust Center
 overview: GoodData maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: GoodData

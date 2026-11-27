@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Onestream Trust Center
+name: OneStream Trust Center
 name_suffix: Trust Center
 overview: OneStream maintains a public trust center documenting SOC 1, SOC 2 Type II, ISO 27001, FedRAMP ATO, CSA CAIQ / STAR, and NIST 800-53 (aligned) compliance.
 provider_name: OneStream

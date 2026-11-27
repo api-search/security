@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Horizon3Ai Trust Center
+name: Horizon3.ai Trust Center
 name_suffix: Trust Center
 overview: Horizon3.ai maintains a public trust center documenting FedRAMP High, SOC 2, CMMC 2.0, and NIST SP 800-53 Rev. 5 compliance.
 provider_name: Horizon3.ai

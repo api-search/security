@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Sightcall Authentication
+name: SightCall Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SightCall declares 0 security scheme(s) across its OpenAPI definitions.

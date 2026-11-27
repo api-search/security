@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cryptotaxedge Com Authentication
+name: cryptotaxedge-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: cryptotaxedge-com declares 1 security scheme(s) across its OpenAPI definitions.

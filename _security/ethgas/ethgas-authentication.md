@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ethgas Authentication
+name: ETHGas Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ETHGas secures its APIs with wallet-signature and http-bearer across 2 declared security schemes, as derived from its OpenAPI definitions.

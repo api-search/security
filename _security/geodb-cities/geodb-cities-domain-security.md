@@ -15,7 +15,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Geodb Cities Domain Security
+name: GeoDB Cities Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for GeoDB Cities, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: GeoDB Cities

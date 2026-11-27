@@ -7,7 +7,7 @@ api_specs:
   label: AI21 Jamba Chat Completions API
   slug: chat-completions
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/asyncapi/ai21-labs-asyncapi.yml
+  url: https://artifacts.apis.io/ai21-labs/asyncapi/ai21-labs-asyncapi.yml
 - filename: ai21-labs-library-api-openapi.yml
   format: yaml
   label: AI21 Labs Library API
@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ai21 Labs Authentication
+name: AI21 Labs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI21 Labs secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

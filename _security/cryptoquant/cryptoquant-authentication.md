@@ -279,7 +279,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cryptoquant Authentication
+name: CryptoQuant Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CryptoQuant secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

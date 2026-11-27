@@ -1,4 +1,47 @@
 ---
+api_specs:
+- filename: artificialwatch-cutoffs-api-openapi.yml
+  format: yaml
+  label: ArtificialWatch Cutoffs API
+  slug: artificialwatch-cutoffs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/artificialwatch/openapi/artificialwatch-cutoffs-api-openapi.yml
+- filename: artificialwatch-leaderboards-api-openapi.yml
+  format: yaml
+  label: ArtificialWatch Leaderboards API
+  slug: artificialwatch-leaderboards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/artificialwatch/openapi/artificialwatch-leaderboards-api-openapi.yml
+- filename: artificialwatch-open-weights-api-openapi.yml
+  format: yaml
+  label: ArtificialWatch Open Weights API
+  slug: artificialwatch-open-weights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/artificialwatch/openapi/artificialwatch-open-weights-api-openapi.yml
+- filename: artificialwatch-prices-api-openapi.yml
+  format: yaml
+  label: ArtificialWatch Prices API
+  slug: artificialwatch-prices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/artificialwatch/openapi/artificialwatch-prices-api-openapi.yml
+- filename: artificialwatch-releases-api-openapi.yml
+  format: yaml
+  label: ArtificialWatch Releases API
+  slug: artificialwatch-releases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/artificialwatch/openapi/artificialwatch-releases-api-openapi.yml
+- filename: artificialwatch-retirements-api-openapi.yml
+  format: yaml
+  label: ArtificialWatch Retirements API
+  slug: artificialwatch-retirements-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/artificialwatch/openapi/artificialwatch-retirements-api-openapi.yml
+- filename: artificialwatch-stealth-api-openapi.yml
+  format: yaml
+  label: ArtificialWatch Stealth API
+  slug: artificialwatch-stealth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/artificialwatch/openapi/artificialwatch-stealth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -18,7 +61,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Artificialwatch Domain Security
+name: ArtificialWatch Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ArtificialWatch, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: ArtificialWatch

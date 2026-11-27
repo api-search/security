@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Spotwise Inc Trust Center
+name: Spotwise Trust Center
 name_suffix: Trust Center
 overview: Spotwise maintains a public trust center covering its security and compliance posture.
 provider_name: Spotwise

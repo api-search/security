@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Legalon Trust Center
+name: LegalOn Trust Center
 name_suffix: Trust Center
 overview: LegalOn maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, and GDPR compliance.
 provider_name: LegalOn

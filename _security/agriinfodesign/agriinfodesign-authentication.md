@@ -329,7 +329,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Agriinfodesign Authentication
+name: Agri Info Design Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agri Info Design secures its APIs with http and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

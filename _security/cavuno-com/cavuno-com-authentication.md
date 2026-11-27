@@ -254,7 +254,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cavuno Com Authentication
+name: Cavuno Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cavuno declares 1 security scheme(s) across its OpenAPI definitions.

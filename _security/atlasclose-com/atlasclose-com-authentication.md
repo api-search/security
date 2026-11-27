@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Atlasclose Com Authentication
+name: AtlasClose Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AtlasClose declares 0 security scheme(s) across its OpenAPI definitions.

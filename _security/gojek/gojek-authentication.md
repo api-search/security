@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Gojek Authentication
+name: GoJek Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

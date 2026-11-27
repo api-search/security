@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Velvt Ai Authentication
+name: Velvt Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Velvt declares 2 security scheme(s) across its OpenAPI definitions.

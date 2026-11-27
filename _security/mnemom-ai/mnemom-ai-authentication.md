@@ -1,0 +1,392 @@
+---
+anonymous_access: false
+api_key_in: []
+api_specs:
+- filename: mnemom-ai-a2a-api-openapi.yml
+  format: yaml
+  label: Mnemom A2A API
+  slug: mnemom-ai-a2a-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-a2a-api-openapi.yml
+- filename: mnemom-ai-agent-containment-api-openapi.yml
+  format: yaml
+  label: Mnemom Agent Containment API
+  slug: mnemom-ai-agent-containment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-agent-containment-api-openapi.yml
+- filename: mnemom-ai-agent-groups-api-openapi.yml
+  format: yaml
+  label: Mnemom Agent Groups API
+  slug: mnemom-ai-agent-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-agent-groups-api-openapi.yml
+- filename: mnemom-ai-agents-api-openapi.yml
+  format: yaml
+  label: Mnemom Agents API
+  slug: mnemom-ai-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-agents-api-openapi.yml
+- filename: mnemom-ai-aletheia-support-api-openapi.yml
+  format: yaml
+  label: Mnemom Aletheia Support API
+  slug: mnemom-ai-aletheia-support-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-aletheia-support-api-openapi.yml
+- filename: mnemom-ai-aletheiavoice-api-openapi.yml
+  format: yaml
+  label: Mnemom Aletheia Voice API
+  slug: mnemom-ai-aletheiavoice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-aletheiavoice-api-openapi.yml
+- filename: mnemom-ai-alignment-api-openapi.yml
+  format: yaml
+  label: Mnemom Alignment API
+  slug: mnemom-ai-alignment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-alignment-api-openapi.yml
+- filename: mnemom-ai-analyze-api-openapi.yml
+  format: yaml
+  label: Mnemom Analyze API
+  slug: mnemom-ai-analyze-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-analyze-api-openapi.yml
+- filename: mnemom-ai-attestation-api-openapi.yml
+  format: yaml
+  label: Mnemom Attestation API
+  slug: mnemom-ai-attestation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-attestation-api-openapi.yml
+- filename: mnemom-ai-auth-api-openapi.yml
+  format: yaml
+  label: Mnemom Auth API
+  slug: mnemom-ai-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-auth-api-openapi.yml
+- filename: mnemom-ai-billing-api-openapi.yml
+  format: yaml
+  label: Mnemom Billing API
+  slug: mnemom-ai-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-billing-api-openapi.yml
+- filename: mnemom-ai-blog-api-openapi.yml
+  format: yaml
+  label: Mnemom Blog API
+  slug: mnemom-ai-blog-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-blog-api-openapi.yml
+- filename: mnemom-ai-card-templates-api-openapi.yml
+  format: yaml
+  label: Mnemom Card Templates API
+  slug: mnemom-ai-card-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-card-templates-api-openapi.yml
+- filename: mnemom-ai-catalog-api-openapi.yml
+  format: yaml
+  label: Mnemom Catalog API
+  slug: mnemom-ai-catalog-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-catalog-api-openapi.yml
+- filename: mnemom-ai-checkpoints-api-openapi.yml
+  format: yaml
+  label: Mnemom Checkpoints API
+  slug: mnemom-ai-checkpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-checkpoints-api-openapi.yml
+- filename: mnemom-ai-code-api-openapi.yml
+  format: yaml
+  label: Mnemom Code API
+  slug: mnemom-ai-code-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-code-api-openapi.yml
+- filename: mnemom-ai-coherence-api-openapi.yml
+  format: yaml
+  label: Mnemom Coherence API
+  slug: mnemom-ai-coherence-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-coherence-api-openapi.yml
+- filename: mnemom-ai-conscience-values-api-openapi.yml
+  format: yaml
+  label: Mnemom Conscience Values API
+  slug: mnemom-ai-conscience-values-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-conscience-values-api-openapi.yml
+- filename: mnemom-ai-consent-api-openapi.yml
+  format: yaml
+  label: Mnemom Consent API
+  slug: mnemom-ai-consent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-consent-api-openapi.yml
+- filename: mnemom-ai-dojo-api-openapi.yml
+  format: yaml
+  label: Mnemom Dojo API
+  slug: mnemom-ai-dojo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-dojo-api-openapi.yml
+- filename: mnemom-ai-domains-api-openapi.yml
+  format: yaml
+  label: Mnemom Domains API
+  slug: mnemom-ai-domains-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-domains-api-openapi.yml
+- filename: mnemom-ai-drift-api-openapi.yml
+  format: yaml
+  label: Mnemom Drift API
+  slug: mnemom-ai-drift-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-drift-api-openapi.yml
+- filename: mnemom-ai-enforcement-api-openapi.yml
+  format: yaml
+  label: Mnemom Enforcement API
+  slug: mnemom-ai-enforcement-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-enforcement-api-openapi.yml
+- filename: mnemom-ai-feedback-api-openapi.yml
+  format: yaml
+  label: Mnemom Feedback API
+  slug: mnemom-ai-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-feedback-api-openapi.yml
+- filename: mnemom-ai-governance-api-openapi.yml
+  format: yaml
+  label: Mnemom Governance API
+  slug: mnemom-ai-governance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-governance-api-openapi.yml
+- filename: mnemom-ai-integrity-api-openapi.yml
+  format: yaml
+  label: Mnemom Integrity API
+  slug: mnemom-ai-integrity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-integrity-api-openapi.yml
+- filename: mnemom-ai-intelligence-api-openapi.yml
+  format: yaml
+  label: Mnemom Intelligence API
+  slug: mnemom-ai-intelligence-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-intelligence-api-openapi.yml
+- filename: mnemom-ai-invite-message-template-api-openapi.yml
+  format: yaml
+  label: Mnemom Invite Message Template API
+  slug: mnemom-ai-invite-message-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-invite-message-template-api-openapi.yml
+- filename: mnemom-ai-invites-api-openapi.yml
+  format: yaml
+  label: Mnemom Invites API
+  slug: mnemom-ai-invites-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-invites-api-openapi.yml
+- filename: mnemom-ai-licensing-api-openapi.yml
+  format: yaml
+  label: Mnemom Licensing API
+  slug: mnemom-ai-licensing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-licensing-api-openapi.yml
+- filename: mnemom-ai-mcp-servers-api-openapi.yml
+  format: yaml
+  label: Mnemom MCP Servers API
+  slug: mnemom-ai-mcp-servers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-mcp-servers-api-openapi.yml
+- filename: mnemom-ai-misc-api-openapi.yml
+  format: yaml
+  label: Mnemom Misc API
+  slug: mnemom-ai-misc-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-misc-api-openapi.yml
+- filename: mnemom-ai-mu-api-openapi.yml
+  format: yaml
+  label: Mnemom Mu API
+  slug: mnemom-ai-mu-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-mu-api-openapi.yml
+- filename: mnemom-ai-network-api-openapi.yml
+  format: yaml
+  label: Mnemom Network API
+  slug: mnemom-ai-network-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-network-api-openapi.yml
+- filename: mnemom-ai-notifications-api-openapi.yml
+  format: yaml
+  label: Mnemom Notifications API
+  slug: mnemom-ai-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-notifications-api-openapi.yml
+- filename: mnemom-ai-oauth-api-openapi.yml
+  format: yaml
+  label: Mnemom OAuth API
+  slug: mnemom-ai-oauth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-oauth-api-openapi.yml
+- filename: mnemom-ai-on-chain-api-openapi.yml
+  format: yaml
+  label: Mnemom On Chain API
+  slug: mnemom-ai-on-chain-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-on-chain-api-openapi.yml
+- filename: mnemom-ai-onboarding-api-openapi.yml
+  format: yaml
+  label: Mnemom Onboarding API
+  slug: mnemom-ai-onboarding-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-onboarding-api-openapi.yml
+- filename: mnemom-ai-organizations-api-openapi.yml
+  format: yaml
+  label: Mnemom Organizations API
+  slug: mnemom-ai-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-organizations-api-openapi.yml
+- filename: mnemom-ai-orgs-api-openapi.yml
+  format: yaml
+  label: Mnemom Orgs API
+  slug: mnemom-ai-orgs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-orgs-api-openapi.yml
+- filename: mnemom-ai-policy-api-openapi.yml
+  format: yaml
+  label: Mnemom Policy API
+  slug: mnemom-ai-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-policy-api-openapi.yml
+- filename: mnemom-ai-postures-api-openapi.yml
+  format: yaml
+  label: Mnemom Postures API
+  slug: mnemom-ai-postures-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-postures-api-openapi.yml
+- filename: mnemom-ai-presentations-api-openapi.yml
+  format: yaml
+  label: Mnemom Presentations API
+  slug: mnemom-ai-presentations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-presentations-api-openapi.yml
+- filename: mnemom-ai-protection-api-openapi.yml
+  format: yaml
+  label: Mnemom Protection API
+  slug: mnemom-ai-protection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-protection-api-openapi.yml
+- filename: mnemom-ai-recipes-api-openapi.yml
+  format: yaml
+  label: Mnemom Recipes API
+  slug: mnemom-ai-recipes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-recipes-api-openapi.yml
+- filename: mnemom-ai-reclassification-api-openapi.yml
+  format: yaml
+  label: Mnemom Reclassification API
+  slug: mnemom-ai-reclassification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-reclassification-api-openapi.yml
+- filename: mnemom-ai-reputation-api-openapi.yml
+  format: yaml
+  label: Mnemom Reputation API
+  slug: mnemom-ai-reputation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-reputation-api-openapi.yml
+- filename: mnemom-ai-risk-api-openapi.yml
+  format: yaml
+  label: Mnemom Risk API
+  slug: mnemom-ai-risk-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-risk-api-openapi.yml
+- filename: mnemom-ai-safe-house-api-openapi.yml
+  format: yaml
+  label: Mnemom Safe House API
+  slug: mnemom-ai-safe-house-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-safe-house-api-openapi.yml
+- filename: mnemom-ai-sideband-api-openapi.yml
+  format: yaml
+  label: Mnemom Sideband API
+  slug: mnemom-ai-sideband-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-sideband-api-openapi.yml
+- filename: mnemom-ai-team-reputation-api-openapi.yml
+  format: yaml
+  label: Mnemom Team Reputation API
+  slug: mnemom-ai-team-reputation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-team-reputation-api-openapi.yml
+- filename: mnemom-ai-teams-api-openapi.yml
+  format: yaml
+  label: Mnemom Teams API
+  slug: mnemom-ai-teams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-teams-api-openapi.yml
+- filename: mnemom-ai-tools-api-openapi.yml
+  format: yaml
+  label: Mnemom Tools API
+  slug: mnemom-ai-tools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-tools-api-openapi.yml
+- filename: mnemom-ai-traces-api-openapi.yml
+  format: yaml
+  label: Mnemom Traces API
+  slug: mnemom-ai-traces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-traces-api-openapi.yml
+- filename: mnemom-ai-transparency-api-openapi.yml
+  format: yaml
+  label: Mnemom Transparency API
+  slug: mnemom-ai-transparency-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-transparency-api-openapi.yml
+- filename: mnemom-ai-trust-api-openapi.yml
+  format: yaml
+  label: Mnemom Trust API
+  slug: mnemom-ai-trust-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-trust-api-openapi.yml
+- filename: mnemom-ai-verification-api-openapi.yml
+  format: yaml
+  label: Mnemom Verification API
+  slug: mnemom-ai-verification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-verification-api-openapi.yml
+- filename: mnemom-ai-webhook-notifications-api-openapi.yml
+  format: yaml
+  label: Mnemom Webhook Notifications API
+  slug: mnemom-ai-webhook-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-webhook-notifications-api-openapi.yml
+- filename: mnemom-ai-webhooks-api-openapi.yml
+  format: yaml
+  label: Mnemom Webhooks API
+  slug: mnemom-ai-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mnemom-ai/openapi/mnemom-ai-webhooks-api-openapi.yml
+auth_types: []
+description: Authentication methods for Mnemom
+kind: authentication
+layout: security
+mechanism_count: 1
+method: searched
+name: Mnemom Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: Mnemom declares 1 security scheme(s) across its OpenAPI definitions.
+provider_name: Mnemom
+provider_slug: mnemom-ai
+scheme_count: 1
+schemes:
+- evidence: API keys authenticate server-to-server calls against `api.mnemom.ai` and `gateway.mnemom.ai`.
+  header: X-Mnemom-Api-Key
+  how_to_obtain: Create a key in Settings → API Keys (personal) or Org Settings → API Keys (organization). The full secret is shown once and must be stored by the client.
+  location: header
+  name: Mnemom API Key
+  type: apiKey
+slug: mnemom-ai-authentication
+source_filename: mnemom-ai-authentication.yml
+source_heading: Authentication Profile
+source_url: https://docs.mnemom.ai/guides/authentication.md
+source_yaml: "generated: '2026-11-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.mnemom.ai/guides/authentication.md\nsources:\n- https://docs.mnemom.ai/guides/authentication.md\n- https://docs.mnemom.ai/guides/oauth-device-flow.md\n- https://docs.mnemom.ai/guides/api-keys.md\n- https://docs.mnemom.ai/guides/agent-key-rotation.md\ndescription: Authentication methods for Mnemom\nschemes:\n- type: apiKey\n  name: Mnemom API Key\n  evidence: API keys authenticate server-to-server calls against `api.mnemom.ai` and `gateway.mnemom.ai`.\n  location: header\n  header: X-Mnemom-Api-Key\n  how_to_obtain: Create a key in Settings → API Keys (personal) or Org Settings → API Keys (organization). The full secret is shown once and must\n    be stored by the client.\ndocs: https://docs.mnemom.ai/guides/authentication.md\nnote: 1 extracted row(s) were dropped because their quote was not on the page.\n"
+source_yaml_url: https://artifacts.apis.io/mnemom-ai/authentication/mnemom-ai-authentication.yml
+summary_line: 1 scheme
+tags:
+- Artificial Intelligence
+- Trust
+- Security
+- AgenticInternet
+- Platform
+---

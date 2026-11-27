@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Finn Tannlege Com Authentication
+name: Finn-tannlege Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Finn-tannlege secures its APIs with none and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

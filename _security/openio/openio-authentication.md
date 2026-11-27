@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Openio Authentication
+name: OpenIO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OpenIO secures its APIs with awsSignature and swiftAuth across 2 declared security schemes, as derived from its OpenAPI definitions.

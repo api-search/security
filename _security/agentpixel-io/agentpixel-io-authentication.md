@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentpixel Io Authentication
+name: AgentPixel Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentPixel declares 1 security scheme(s) across its OpenAPI definitions.

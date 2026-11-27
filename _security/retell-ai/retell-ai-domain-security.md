@@ -499,7 +499,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Retell Ai Domain Security
+name: Retell AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Retell AI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Retell AI

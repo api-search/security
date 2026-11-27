@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: American Gene Technologies International Authentication
+name: American Gene Technologies Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: American Gene Technologies secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

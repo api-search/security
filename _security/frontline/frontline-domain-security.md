@@ -192,12 +192,6 @@ api_specs:
   slug: frontline-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/frontline/openapi/frontline-workflows-api-openapi.yml
-- filename: frontline-account-integrations-api-openapi.yml
-  format: yaml
-  label: Frontline Account Integrations API
-  slug: frontline-account-integrations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/frontline/openapi/frontline-account-integrations-api-openapi.yml
 - filename: frontline-agent-channels-api-openapi.yml
   format: yaml
   label: Frontline Agent Channels API
@@ -210,12 +204,6 @@ api_specs:
   slug: frontline-agent-playbooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/frontline/openapi/frontline-agent-playbooks-api-openapi.yml
-- filename: frontline-channels-api-openapi.yml
-  format: yaml
-  label: Frontline Channels API
-  slug: frontline-channels-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/frontline/openapi/frontline-channels-api-openapi.yml
 - filename: frontline-custom-tools-api-openapi.yml
   format: yaml
   label: Frontline Custom Tools API
@@ -234,12 +222,6 @@ api_specs:
   slug: frontline-integration-resources-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/frontline/openapi/frontline-integration-resources-api-openapi.yml
-- filename: frontline-integrations-api-openapi.yml
-  format: yaml
-  label: Frontline Integrations API
-  slug: frontline-integrations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/frontline/openapi/frontline-integrations-api-openapi.yml
 - filename: frontline-knowledge-bases-api-openapi.yml
   format: yaml
   label: Frontline Knowledge Bases API

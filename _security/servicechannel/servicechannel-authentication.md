@@ -405,7 +405,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Servicechannel Authentication
+name: ServiceChannel Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

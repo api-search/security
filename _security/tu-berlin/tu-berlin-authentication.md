@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: probed
-name: Tu Berlin Authentication
+name: Technical University of Berlin Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Technical University of Berlin declares 7 security scheme(s) across its OpenAPI definitions.

@@ -260,7 +260,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Liveramp Trust Center
+name: LiveRamp Trust Center
 name_suffix: Trust Center
 overview: LiveRamp maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: LiveRamp

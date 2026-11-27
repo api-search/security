@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: nuance-labs-browser-api-openapi.yml
+  format: yaml
+  label: Nuance Labs Browser API
+  slug: nuance-labs-browser-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nuance-labs/openapi/nuance-labs-browser-api-openapi.yml
+- filename: nuance-labs-server-api-openapi.yml
+  format: yaml
+  label: Nuance Labs Server API
+  slug: nuance-labs-server-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nuance-labs/openapi/nuance-labs-server-api-openapi.yml
 description: ''
 domains:
 - caa: []

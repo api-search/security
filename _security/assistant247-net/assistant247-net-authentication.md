@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Assistant247 Net Authentication
+name: AssistAnt 24/7 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AssistAnt 24/7 secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

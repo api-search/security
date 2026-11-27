@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Deepsfetch Com Authentication
+name: DeepSFetch Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DeepSFetch declares 1 security scheme(s) across its OpenAPI definitions.

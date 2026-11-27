@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Tinyplates Dev Authentication
+name: tinyplates-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tinyplates-dev declares 1 security scheme(s) across its OpenAPI definitions.

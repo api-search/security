@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Dtu Authentication
+name: Technical University of Denmark Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Technical University of Denmark declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Eplane Authentication
+name: ePlane Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ePlane declares 0 security scheme(s) across its OpenAPI definitions.

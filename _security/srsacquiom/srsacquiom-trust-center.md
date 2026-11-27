@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Srsacquiom Trust Center
+name: SRS Acquiom Trust Center
 name_suffix: Trust Center
 overview: SRS Acquiom maintains a public trust center documenting SOC 2 and SOC 3 compliance.
 provider_name: SRS Acquiom

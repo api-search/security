@@ -100,7 +100,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Tray Ai Authentication
+name: Tray.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tray.ai secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -139,7 +139,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Oura Ring Trust Center
+name: Oura Trust Center
 name_suffix: Trust Center
 overview: Oura maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Oura

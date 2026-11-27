@@ -1,6 +1,7 @@
 ---
 anonymous_access: false
-api_key_in: []
+api_key_in:
+- query
 api_specs:
 - filename: google-cloud-healthcare-projects-api-openapi.yml
   format: yaml
@@ -9,6 +10,7 @@ api_specs:
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-healthcare/openapi/google-cloud-healthcare-projects-api-openapi.yml
 auth_types:
+- apiKey
 - oauth2
 description: ''
 kind: authentication
@@ -19,40 +21,34 @@ name: Google Cloud Healthcare Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-- implicit
-overview: Google Cloud Healthcare secures its APIs with oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode and implicit flow(s).
+overview: Google Cloud Healthcare secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
 provider_name: Google Cloud Healthcare
 provider_slug: google-cloud-healthcare
 scheme_count: 2
 schemes:
-- description: Oauth 2.0 implicit authentication
-  flows:
-  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
-    flow: implicit
-    scopes: 2
-  name: Oauth2
+- description: API key; accepted by methods that do not need user data.
+  in: query
+  name: apiKey
+  parameter: key
   sources:
-  - openapi/openapi-v1.yaml
-  - openapi/openapi-v1beta1.yaml
-  type: oauth2
-- description: Oauth 2.0 authorizationCode authentication
-  flows:
+  - openapi/google-cloud-healthcare-projects-api-openapi.yml
+  type: apiKey
+- flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: authorizationCode
     scopes: 2
-    tokenUrl: https://accounts.google.com/o/oauth2/token
-  name: Oauth2c
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
   sources:
-  - openapi/openapi-v1.yaml
-  - openapi/openapi-v1beta1.yaml
+  - openapi/google-cloud-healthcare-projects-api-openapi.yml
   type: oauth2
 slug: google-cloud-healthcare-authentication
 source_filename: google-cloud-healthcare-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/openapi-v1.yaml, openapi/openapi-v1beta1.yaml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - implicit\nschemes:\n- name: Oauth2\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    scopes: 2\n  description: Oauth 2.0 implicit authentication\n  sources:\n  - openapi/openapi-v1.yaml\n  - openapi/openapi-v1beta1.yaml\n- name: Oauth2c\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://accounts.google.com/o/oauth2/token\n    scopes: 2\n  description: Oauth 2.0 authorizationCode authentication\n  sources:\n  - openapi/openapi-v1.yaml\n  - openapi/openapi-v1beta1.yaml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-cloud-healthcare-projects-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key; accepted by methods that do not need user data.\n  sources:\n  - openapi/google-cloud-healthcare-projects-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/google-cloud-healthcare-projects-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-cloud-healthcare/authentication/google-cloud-healthcare-authentication.yml
-summary_line: oauth2 · 2 schemes
+summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Healthcare
 - FHIR

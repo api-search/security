@@ -18,6 +18,24 @@ api_specs:
   slug: usps-domestic-prices-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/usps/openapi/usps-domestic-prices-api-openapi.yml
+- filename: usps-files-api-openapi.yml
+  format: yaml
+  label: United States Postal Service Files API
+  slug: usps-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/usps/openapi/usps-files-api-openapi.yml
+- filename: usps-listener-url-specification-api-openapi.yml
+  format: yaml
+  label: United States Postal Service Listener URL Specification API
+  slug: usps-listener-url-specification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/usps/openapi/usps-listener-url-specification-api-openapi.yml
+- filename: usps-resources-api-openapi.yml
+  format: yaml
+  label: United States Postal Service Resources API
+  slug: usps-resources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/usps/openapi/usps-resources-api-openapi.yml
 - filename: usps-tracking-api-openapi.yml
   format: yaml
   label: United States Postal Service Tracking API

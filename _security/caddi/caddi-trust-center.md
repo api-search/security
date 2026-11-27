@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Caddi Trust Center
+name: CADDi Trust Center
 name_suffix: Trust Center
 overview: CADDi maintains a public trust center documenting SOC 2 Type II, ISO 27001, ITAR Registered, and GDPR compliance.
 provider_name: CADDi

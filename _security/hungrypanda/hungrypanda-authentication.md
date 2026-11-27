@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Hungrypanda Authentication
+name: HungryPanda Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HungryPanda declares 0 security scheme(s) across its OpenAPI definitions.

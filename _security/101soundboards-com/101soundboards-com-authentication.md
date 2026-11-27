@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 101Soundboards Com Authentication
+name: 101 Soundboards Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 101 Soundboards declares 1 security scheme(s) across its OpenAPI definitions.

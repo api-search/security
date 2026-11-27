@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Makeup By Mario Authentication
+name: Makeup by Mario Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Makeup by Mario declares 5 security scheme(s) across its OpenAPI definitions.

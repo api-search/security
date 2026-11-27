@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Sensorup Inc Authentication
+name: SensorUp Inc. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SensorUp Inc. declares 4 security scheme(s) across its OpenAPI definitions.

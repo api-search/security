@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Exiger Trust Center
+name: EXIGER Trust Center
 name_suffix: Trust Center
 overview: EXIGER maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, NIST CSF, CMMC, and FedRAMP compliance.
 provider_name: EXIGER

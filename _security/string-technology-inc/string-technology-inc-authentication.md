@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: String Technology Inc Authentication
+name: String Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: String Technology secures its APIs with apiKey, walletSignature, and session across 4 declared security schemes, as derived from its OpenAPI definitions.

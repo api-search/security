@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Banksapi Trust Center
+name: fineconomy Trust Center
 name_suffix: Trust Center
 overview: fineconomy maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: fineconomy

@@ -83,7 +83,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Agent Module Dev Authentication
+name: Agent Module Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Module secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

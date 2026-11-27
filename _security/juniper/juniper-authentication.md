@@ -1553,7 +1553,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: derived
-name: Juniper Authentication
+name: Juniper Networks Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Juniper Networks secures its APIs with apiKey and http across 6 declared security schemes, as derived from its OpenAPI definitions.

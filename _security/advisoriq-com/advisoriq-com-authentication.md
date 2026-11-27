@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Advisoriq Com Authentication
+name: AdvisorIQ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AdvisorIQ declares 0 security scheme(s) across its OpenAPI definitions.

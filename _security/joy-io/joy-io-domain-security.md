@@ -55,7 +55,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Joy Io Domain Security
+name: Joy (ex-Privateaser) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Joy (ex-Privateaser), probed live across 5 host(s) and 2 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Joy (ex-Privateaser)

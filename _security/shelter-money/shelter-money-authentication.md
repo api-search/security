@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Shelter Money Authentication
+name: Shelter Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Shelter declares 1 security scheme(s) across its OpenAPI definitions.

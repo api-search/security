@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Monash Trust Center
+name: Monash University Trust Center
 name_suffix: Trust Center
 overview: Monash University maintains a public trust center documenting ISO 27001 and PCI DSS compliance.
 provider_name: Monash University

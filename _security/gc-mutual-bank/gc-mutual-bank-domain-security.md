@@ -70,7 +70,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Gc Mutual Bank Domain Security
+name: G&C Mutual Bank Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for G&C Mutual Bank, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: G&C Mutual Bank

@@ -5,7 +5,7 @@ api_specs:
   label: MQTT Version 5.0 Protocol
   slug: protocol-v5
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mqtt/refs/heads/main/asyncapi.yml
+  url: https://artifacts.apis.io/mqtt/asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -34,7 +34,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Mqtt Domain Security
+name: MQTT Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for MQTT, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: MQTT

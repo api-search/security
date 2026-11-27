@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ripe Ncc Authentication
+name: RIPE NCC Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RIPE NCC declares 0 security scheme(s) across its OpenAPI definitions.

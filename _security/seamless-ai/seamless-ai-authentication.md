@@ -29,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Seamless Ai Authentication
+name: Seamless.AI Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

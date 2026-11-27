@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lemonflow Ai Trust Center
+name: Lemonflow Trust Center
 name_suffix: Trust Center
 overview: Lemonflow maintains a public trust center documenting ISO/IEC 27001 and SOC 2 Type II compliance.
 provider_name: Lemonflow

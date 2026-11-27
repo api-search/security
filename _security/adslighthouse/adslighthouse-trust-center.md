@@ -84,25 +84,23 @@ api_specs:
   slug: adslighthouse-team-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/adslighthouse/openapi/adslighthouse-team-api-openapi.yml
-certification_count: 2
-certifications:
-- SOC 2
-- ISO 27001
+certification_count: 0
+certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Adslighthouse Trust Center
+name: Ads Lighthouse Trust Center
 name_suffix: Trust Center
-overview: Ads Lighthouse maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
+overview: Ads Lighthouse maintains a public trust center covering its security and compliance posture.
 provider_name: Ads Lighthouse
 provider_slug: adslighthouse
 slug: adslighthouse-trust-center
 source_filename: adslighthouse-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-12'\nmethod: searched\nprobe: true\nsource: https://adslighthouse.com/security\nurl: https://adslighthouse.com/security\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://adslighthouse.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n"
+source_yaml: "generated: '2026-10-12'\nmethod: searched\nprobe: true\nsource: https://adslighthouse.com/security\nurl: https://adslighthouse.com/security\ncertifications: []\nevidence:\n- source: https://adslighthouse.com/security\n  keywords:\n  - soc 2\n  - iso 27001\ncertifications_not_held:\n- ISO 27001\n- SOC 2\ncertification_quotes:\n  ISO 27001: we do not claim | Ads Lighthouse does not hold an ISO 27001 certification or a\n  SOC 2: we do not claim | Ads Lighthouse does not hold an ISO 27001 certification or a SOC 2 report today.\n    | We do not promise a guaranteed recovery time or absol\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/adslighthouse/security/adslighthouse-trust-center.yml
-summary_line: SOC 2, ISO 27001
+summary_line: trust center published
 tags:
 - Company
 - Advertising

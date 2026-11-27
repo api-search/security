@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Canopyaerospace Com Authentication
+name: Canopy Aerospace Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Canopy Aerospace declares 0 security scheme(s) across its OpenAPI definitions.

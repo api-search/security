@@ -193,7 +193,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: searched
-name: Advancedmd Authentication
+name: AdvancedMD Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

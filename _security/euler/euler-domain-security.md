@@ -12,24 +12,12 @@ api_specs:
   slug: euler-apys-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euler/openapi/euler-apys-api-openapi.yml
-- filename: euler-auth-api-openapi.yml
-  format: yaml
-  label: Euler Finance Auth API
-  slug: euler-auth-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/euler/openapi/euler-auth-api-openapi.yml
 - filename: euler-chains-api-openapi.yml
   format: yaml
   label: Euler Finance Chains API
   slug: euler-chains-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euler/openapi/euler-chains-api-openapi.yml
-- filename: euler-curator-api-openapi.yml
-  format: yaml
-  label: Euler Finance Curator API
-  slug: euler-curator-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/euler/openapi/euler-curator-api-openapi.yml
 - filename: euler-earn-api-openapi.yml
   format: yaml
   label: Euler Finance Earn API
@@ -198,7 +186,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Euler Domain Security
+name: Euler Finance Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Euler Finance, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: Euler Finance

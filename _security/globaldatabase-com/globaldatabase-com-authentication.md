@@ -87,6 +87,12 @@ api_specs:
   slug: globaldatabase-com-well-known-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-well-known-api-openapi.yml
+- filename: globaldatabase-com-osb-api-openapi.yml
+  format: yaml
+  label: Global Database Osb API
+  slug: globaldatabase-com-osb-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-osb-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -95,7 +101,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Globaldatabase Com Authentication
+name: Global Database Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

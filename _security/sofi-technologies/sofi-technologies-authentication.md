@@ -229,7 +229,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Sofi Technologies Authentication
+name: SoFi Technologies Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SoFi Technologies secures its APIs with body-parameter, http-bearer, and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

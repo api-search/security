@@ -146,7 +146,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Avedaris Com Authentication
+name: AveDaris Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AveDaris declares 0 security scheme(s) across its OpenAPI definitions.

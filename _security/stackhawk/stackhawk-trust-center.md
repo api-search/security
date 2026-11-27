@@ -90,7 +90,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Stackhawk Trust Center
+name: StackHawk Trust Center
 name_suffix: Trust Center
 overview: StackHawk maintains a public trust center documenting SOC 2 compliance.
 provider_name: StackHawk

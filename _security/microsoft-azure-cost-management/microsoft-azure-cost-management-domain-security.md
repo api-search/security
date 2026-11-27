@@ -6,24 +6,12 @@ api_specs:
   slug: microsoft-azure-cost-management-exports-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-exports-api-openapi.yml
-- filename: microsoft-azure-cost-management-operations-api-openapi.yml
-  format: yaml
-  label: Azure Cost Management Operations API
-  slug: microsoft-azure-cost-management-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-operations-api-openapi.yml
 - filename: microsoft-azure-cost-management-alerts-api-openapi.yml
   format: yaml
   label: Azure Cost Management Alerts API
   slug: microsoft-azure-cost-management-alerts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-alerts-api-openapi.yml
-- filename: microsoft-azure-cost-management-budgets-api-openapi.yml
-  format: yaml
-  label: Azure Cost Management Budgets API
-  slug: microsoft-azure-cost-management-budgets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-budgets-api-openapi.yml
 - filename: microsoft-azure-cost-management-costallocationruledefinitions-api-openapi.yml
   format: yaml
   label: Azure Cost Management Cost Allocation Rule Definitions API
@@ -54,12 +42,6 @@ api_specs:
   slug: microsoft-azure-cost-management-markuprules-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-markuprules-api-openapi.yml
-- filename: microsoft-azure-cost-management-providers-api-openapi.yml
-  format: yaml
-  label: Azure Cost Management Providers API
-  slug: microsoft-azure-cost-management-providers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-providers-api-openapi.yml
 - filename: microsoft-azure-cost-management-scheduledactionoperationgroup-api-openapi.yml
   format: yaml
   label: Azure Cost Management Scheduled Action Operation Group API
@@ -90,6 +72,42 @@ api_specs:
   slug: microsoft-azure-cost-management-views-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-views-api-openapi.yml
+- filename: microsoft-azure-cost-management-creditsummaries-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Credit Summaries API
+  slug: microsoft-azure-cost-management-creditsummaries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-creditsummaries-api-openapi.yml
+- filename: microsoft-azure-cost-management-pricesheet-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Price Sheet API
+  slug: microsoft-azure-cost-management-pricesheet-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-pricesheet-api-openapi.yml
+- filename: microsoft-azure-cost-management-pricesheetresults-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Price Sheet Results API
+  slug: microsoft-azure-cost-management-pricesheetresults-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-pricesheetresults-api-openapi.yml
+- filename: microsoft-azure-cost-management-budgets-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Budgets API
+  slug: microsoft-azure-cost-management-budgets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-budgets-api-openapi.yml
+- filename: microsoft-azure-cost-management-operations-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Operations API
+  slug: microsoft-azure-cost-management-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-operations-api-openapi.yml
+- filename: microsoft-azure-cost-management-providers-api-openapi.yml
+  format: yaml
+  label: Azure Cost Management Providers API
+  slug: microsoft-azure-cost-management-providers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cost-management/openapi/microsoft-azure-cost-management-providers-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -128,7 +146,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Cost Management Domain Security
+name: Azure Cost Management Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure Cost Management, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Azure Cost Management

@@ -204,12 +204,6 @@ api_specs:
   slug: deputy-department-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deputy/openapi/deputy-department-api-openapi.yml
-- filename: deputy-departments-api-openapi.yml
-  format: yaml
-  label: Deputy Departments API
-  slug: deputy-departments-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deputy/openapi/deputy-departments-api-openapi.yml
 - filename: deputy-deputy-reports-api-openapi.yml
   format: yaml
   label: Deputy Deputy Reports API
@@ -678,24 +672,6 @@ api_specs:
   slug: deputy-location-setting-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deputy/openapi/deputy-location-setting-api-openapi.yml
-- filename: deputy-locations-api-openapi.yml
-  format: yaml
-  label: Deputy Locations API
-  slug: deputy-locations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deputy/openapi/deputy-locations-api-openapi.yml
-- filename: deputy-logged-in-user-details-api-openapi.yml
-  format: yaml
-  label: Deputy Logged in User Details API
-  slug: deputy-logged-in-user-details-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deputy/openapi/deputy-logged-in-user-details-api-openapi.yml
-- filename: deputy-management-api-openapi.yml
-  format: yaml
-  label: Deputy Management API
-  slug: deputy-management-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deputy/openapi/deputy-management-api-openapi.yml
 - filename: deputy-me-tab-api-openapi.yml
   format: yaml
   label: Deputy Me Tab API
@@ -786,12 +762,6 @@ api_specs:
   slug: deputy-pay-comparison-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deputy/openapi/deputy-pay-comparison-api-openapi.yml
-- filename: deputy-pay-rates-api-openapi.yml
-  format: yaml
-  label: Deputy Pay Rates API
-  slug: deputy-pay-rates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deputy/openapi/deputy-pay-rates-api-openapi.yml
 - filename: deputy-payperiod-api-openapi.yml
   format: yaml
   label: Deputy Pay Period API
@@ -906,12 +876,6 @@ api_specs:
   slug: deputy-rosteropen-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deputy/openapi/deputy-rosteropen-api-openapi.yml
-- filename: deputy-rosters-api-openapi.yml
-  format: yaml
-  label: Deputy Rosters API
-  slug: deputy-rosters-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deputy/openapi/deputy-rosters-api-openapi.yml
 - filename: deputy-rosterswap-api-openapi.yml
   format: yaml
   label: Deputy Roster Swap API
@@ -924,12 +888,6 @@ api_specs:
   slug: deputy-rostertemplate-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deputy/openapi/deputy-rostertemplate-api-openapi.yml
-- filename: deputy-sales-api-openapi.yml
-  format: yaml
-  label: Deputy Sales API
-  slug: deputy-sales-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deputy/openapi/deputy-sales-api-openapi.yml
 - filename: deputy-salesdata-api-openapi.yml
   format: yaml
   label: Deputy Sales Data API
@@ -1254,12 +1212,6 @@ api_specs:
   slug: deputy-user-sso-link-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deputy/openapi/deputy-user-sso-link-api-openapi.yml
-- filename: deputy-utility-request-api-openapi.yml
-  format: yaml
-  label: Deputy Utility request API
-  slug: deputy-utility-request-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deputy/openapi/deputy-utility-request-api-openapi.yml
 - filename: deputy-weather-api-openapi.yml
   format: yaml
   label: Deputy Weather API
@@ -1278,12 +1230,6 @@ api_specs:
   slug: deputy-webhook-triggers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deputy/openapi/deputy-webhook-triggers-api-openapi.yml
-- filename: deputy-webhooks-api-openapi.yml
-  format: yaml
-  label: Deputy Webhooks API
-  slug: deputy-webhooks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deputy/openapi/deputy-webhooks-api-openapi.yml
 - filename: deputy-widget-api-openapi.yml
   format: yaml
   label: Deputy Widget API

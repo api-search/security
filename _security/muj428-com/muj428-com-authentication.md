@@ -134,7 +134,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Muj428 Com Authentication
+name: MUJ428 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MUJ428 declares 0 security scheme(s) across its OpenAPI definitions.

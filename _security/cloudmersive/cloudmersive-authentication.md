@@ -333,12 +333,6 @@ api_specs:
   slug: cloudmersive-postaggerstring-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-postaggerstring-api-openapi.yml
-- filename: cloudmersive-recognize-api-openapi.yml
-  format: yaml
-  label: Cloudmersive Recognize API
-  slug: cloudmersive-recognize-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-recognize-api-openapi.yml
 - filename: cloudmersive-redact-api-openapi.yml
   format: yaml
   label: Cloudmersive Redact API
@@ -399,12 +393,6 @@ api_specs:
   slug: cloudmersive-splitdocument-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-splitdocument-api-openapi.yml
-- filename: cloudmersive-tasksbatchjob-api-openapi.yml
-  format: yaml
-  label: Cloudmersive Tasks Batch Job API
-  slug: cloudmersive-tasksbatchjob-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-tasksbatchjob-api-openapi.yml
 - filename: cloudmersive-textgeneration-api-openapi.yml
   format: yaml
   label: Cloudmersive Text Generation API
@@ -495,12 +483,24 @@ api_specs:
   slug: cloudmersive-phone-number-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-phone-number-api-openapi.yml
+- filename: cloudmersive-recognize-api-openapi.yml
+  format: yaml
+  label: Cloudmersive Recognize API
+  slug: cloudmersive-recognize-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-recognize-api-openapi.yml
 - filename: cloudmersive-spell-check-api-openapi.yml
   format: yaml
   label: Cloudmersive Spell Check API
   slug: cloudmersive-spell-check-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-spell-check-api-openapi.yml
+- filename: cloudmersive-tasksbatchjob-api-openapi.yml
+  format: yaml
+  label: Cloudmersive Tasks Batch Job API
+  slug: cloudmersive-tasksbatchjob-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-tasksbatchjob-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

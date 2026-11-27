@@ -16,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Mindmaze Authentication
+name: MindMaze Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MindMaze secures its APIs with none and http across 2 declared security schemes, as derived from its OpenAPI definitions.

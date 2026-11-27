@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Tessio Eu Authentication
+name: tessio-eu Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tessio-eu declares 1 security scheme(s) across its OpenAPI definitions.

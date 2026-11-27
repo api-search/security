@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fmcg Network Domain Security
+name: fmcg.network Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for fmcg.network, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: fmcg.network
@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/fmcg-network/security/fmcg-network-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FMCG
+- Consumer Packaged Goods
 - FoodCompliance
-- AI
-- DataIntegration
+- Artificial Intelligence
+- Data Integration
 ---

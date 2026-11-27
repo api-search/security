@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Samplehc Authentication
+name: Sample Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sample declares 1 security scheme(s) across its OpenAPI definitions.

@@ -54,7 +54,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Anz Authentication
+name: Australia and New Zealand Banking Group (ANZ) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Australia and New Zealand Banking Group (ANZ) secures its APIs with none, oauth2, openIdConnect, and mutualTLS across 4 declared security schemes, as derived from its OpenAPI definitions.

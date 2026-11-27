@@ -30,7 +30,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: searched
-name: Wealth X Authentication
+name: Wealth-X Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Wealth-X secures its APIs with apiKey, http, and oauth2 across 7 declared security schemes, as derived from its OpenAPI definitions.

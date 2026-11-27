@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Sap S4Hana Authentication
+name: SAP S/4HANA Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

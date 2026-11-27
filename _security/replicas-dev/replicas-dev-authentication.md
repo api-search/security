@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Replicas Dev Authentication
+name: Replicas Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Replicas declares 1 security scheme(s) across its OpenAPI definitions.

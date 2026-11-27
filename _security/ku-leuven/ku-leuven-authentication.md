@@ -272,7 +272,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Ku Leuven Authentication
+name: KU Leuven Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: KU Leuven declares 0 security scheme(s) across its OpenAPI definitions.

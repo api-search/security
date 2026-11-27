@@ -71,7 +71,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Lightroom Authentication
+name: Adobe Lightroom Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

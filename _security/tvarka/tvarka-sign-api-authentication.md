@@ -94,7 +94,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Tvarka Sign Api Authentication
+name: Tvarka ATK API Sign Api Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tvarka ATK API secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Moonpay Trust Center
+name: MoonPay Trust Center
 name_suffix: Trust Center
 overview: MoonPay maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: MoonPay

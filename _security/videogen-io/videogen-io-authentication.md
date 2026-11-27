@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Videogen Io Authentication
+name: VideoGen Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VideoGen declares 2 security scheme(s) across its OpenAPI definitions.

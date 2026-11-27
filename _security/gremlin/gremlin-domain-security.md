@@ -192,12 +192,6 @@ api_specs:
   slug: gremlin-notification-settings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gremlin/openapi/gremlin-notification-settings-api-openapi.yml
-- filename: gremlin-orgs-api-openapi.yml
-  format: yaml
-  label: Gremlin Orgs API
-  slug: gremlin-orgs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gremlin/openapi/gremlin-orgs-api-openapi.yml
 - filename: gremlin-pagerduty-api-openapi.yml
   format: yaml
   label: Gremlin Pagerduty API

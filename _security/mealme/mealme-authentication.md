@@ -64,7 +64,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Mealme Authentication
+name: MealMe Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MealMe secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -37,7 +37,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: 4Dbios Domain Security
+name: 4D Bios Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 4D Bios, probed live across 5 host(s) and 1 registrable domain(s). 4 host(s) serve HTTPS; 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: 4D Bios

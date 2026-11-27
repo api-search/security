@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: five9-open-messaging-api.postman_collection.json
+  format: json
+  label: Five9 Open Messaging API
+  slug: open-messaging-api
+  spec_type: Postman
+  url: https://artifacts.apis.io/five9/openapi/_original/five9-open-messaging-api.postman_collection.json
 description: ''
 domains:
 - caa: []
@@ -50,4 +57,5 @@ tags:
 - Omnichannel
 - Workforce Optimization
 - Virtual Agents
+- Agent Assist
 ---

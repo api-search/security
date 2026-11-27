@@ -151,7 +151,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Audiopod Ai Trust Center
+name: audiopod-ai Trust Center
 name_suffix: Trust Center
 overview: audiopod-ai maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: audiopod-ai

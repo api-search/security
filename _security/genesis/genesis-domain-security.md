@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: genesis-catalogue-api-openapi.yml
+  format: yaml
+  label: GENESIS Catalogue API
+  slug: genesis-catalogue-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/genesis/openapi/genesis-catalogue-api-openapi.yml
+- filename: genesis-data-api-openapi.yml
+  format: yaml
+  label: GENESIS Data API
+  slug: genesis-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/genesis/openapi/genesis-data-api-openapi.yml
+- filename: genesis-find-api-openapi.yml
+  format: yaml
+  label: GENESIS Find API
+  slug: genesis-find-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/genesis/openapi/genesis-find-api-openapi.yml
+- filename: genesis-helloworld-api-openapi.yml
+  format: yaml
+  label: GENESIS Helloworld API
+  slug: genesis-helloworld-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/genesis/openapi/genesis-helloworld-api-openapi.yml
+- filename: genesis-metadata-api-openapi.yml
+  format: yaml
+  label: GENESIS Metadata API
+  slug: genesis-metadata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/genesis/openapi/genesis-metadata-api-openapi.yml
+- filename: genesis-profile-api-openapi.yml
+  format: yaml
+  label: GENESIS Profile API
+  slug: genesis-profile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/genesis/openapi/genesis-profile-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -17,7 +54,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Genesis Domain Security
+name: GENESIS Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for GENESIS, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: GENESIS

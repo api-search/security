@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Triplelift Authentication
+name: TripleLift Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TripleLift declares 5 security scheme(s) across its OpenAPI definitions.

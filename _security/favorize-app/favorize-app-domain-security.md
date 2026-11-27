@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Favorize App Domain Security
+name: Favorize Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Favorize, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Favorize
@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/favorize-app/security/favorize-app-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Wishlist
-- E‑commerce
-- AI
+- E-Commerce
+- Artificial Intelligence
 - Privacy
 - Collaboration
 ---

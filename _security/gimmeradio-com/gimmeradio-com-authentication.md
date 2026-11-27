@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Gimmeradio Com Authentication
+name: Gimme Media Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Gimme Media declares 0 security scheme(s) across its OpenAPI definitions.

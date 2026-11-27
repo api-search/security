@@ -93,7 +93,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Medadvisor Trust Center
+name: MedAdvisor Trust Center
 name_suffix: Trust Center
 overview: MedAdvisor maintains a public trust center documenting ISO 27001, HIPAA, GDPR, and Australian Privacy Principles compliance.
 provider_name: MedAdvisor

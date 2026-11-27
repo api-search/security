@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Luminosai Trust Center
+name: Luminos.AI Trust Center
 name_suffix: Trust Center
 overview: Luminos.AI maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Luminos.AI

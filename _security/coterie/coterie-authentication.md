@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Coterie Authentication
+name: Coterie Insurance Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

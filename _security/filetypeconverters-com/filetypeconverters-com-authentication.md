@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Filetypeconverters Com Authentication
+name: FileType Converters Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FileType Converters declares 2 security scheme(s) across its OpenAPI definitions.
@@ -83,9 +83,9 @@ tags:
 - PDF
 - OCR
 - Spreadsheets
-- Images
+- Image
 - MCP
 - Developer API
 - AI Deep Read
-- File Formats
+- File Format
 ---

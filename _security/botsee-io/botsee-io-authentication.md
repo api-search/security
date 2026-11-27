@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Botsee Io Authentication
+name: botsee-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: botsee-io declares 1 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Getmealticket Com Authentication
+name: Meal Ticket Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Meal Ticket declares 0 security scheme(s) across its OpenAPI definitions.

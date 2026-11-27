@@ -84,7 +84,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Scrunch Ai Trust Center
+name: Scrunch AI Trust Center
 name_suffix: Trust Center
 overview: Scrunch AI maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: Scrunch AI

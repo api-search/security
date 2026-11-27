@@ -499,7 +499,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: derived
-name: Pagopa Authentication
+name: PagoPA Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

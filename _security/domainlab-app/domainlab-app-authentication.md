@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Domainlab App Authentication
+name: Domain Lab Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Domain Lab declares 1 security scheme(s) across its OpenAPI definitions.

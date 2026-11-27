@@ -613,7 +613,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Anyapi Authentication
+name: AnyAPI Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 1099Policy Com Authentication
+name: 1099policy-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 1099policy-com declares 1 security scheme(s) across its OpenAPI definitions.

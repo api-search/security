@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Arlet Dev Authentication
+name: NexaScience Inc. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NexaScience Inc. declares 0 security scheme(s) across its OpenAPI definitions.

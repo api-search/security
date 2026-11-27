@@ -9,7 +9,7 @@ certifications:
 description: Altus Group publishes a public Trust Center covering the ARGUS product family, including ARGUS Developer, which is delivered over the ARGUS Cloud platform. Named certifications and audit reports were read verbatim from the Trust Center compliance section on 2026-09-06.
 kind: trust-center
 layout: security
-name: Argus Developer Trust Center
+name: ARGUS Developer Trust Center
 name_suffix: Trust Center
 overview: ARGUS Developer maintains a public trust center documenting SOC 3 Type 2, SOC 3 Type 2, SOC 3 Type 2, ISO/IEC 27001, and SOC 2 Type II compliance.
 provider_name: ARGUS Developer

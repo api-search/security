@@ -55,7 +55,7 @@ api_specs:
   label: AT Protocol Relay & Firehose
   slug: relay-firehose
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/at-protocol/refs/heads/main/asyncapi/at-protocol-asyncapi.yml
+  url: https://artifacts.apis.io/at-protocol/asyncapi/at-protocol-asyncapi.yml
 auth_types:
 - http
 description: ''
@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Atproto Authentication
+name: AT Protocol Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AT Protocol secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

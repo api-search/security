@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 21St Authentication
+name: 21st Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 21st secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

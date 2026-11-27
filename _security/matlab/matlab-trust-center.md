@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Matlab Trust Center
+name: MATLAB Trust Center
 name_suffix: Trust Center
 overview: MATLAB maintains a public trust center documenting SOC 3, SOC 2 Type II, and ISO 27001 compliance.
 provider_name: MATLAB

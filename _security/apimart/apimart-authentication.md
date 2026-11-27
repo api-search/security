@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Apimart Authentication
+name: APIMart Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: APIMart declares 1 security scheme(s) across its OpenAPI definitions.

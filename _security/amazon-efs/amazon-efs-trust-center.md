@@ -46,7 +46,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Efs Trust Center
+name: Amazon EFS Trust Center
 name_suffix: Trust Center
 overview: Amazon EFS maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon EFS

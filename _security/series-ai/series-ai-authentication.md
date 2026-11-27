@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Series Ai Authentication
+name: Series AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Series AI declares 0 security scheme(s) across its OpenAPI definitions.

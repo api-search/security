@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Draftwise Trust Center
+name: DraftWise Trust Center
 name_suffix: Trust Center
 overview: DraftWise maintains a public trust center documenting SOC 2 Type II, ISO 27001, GDPR, and Cyber Essentials Plus compliance.
 provider_name: DraftWise

@@ -34,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Handy Authentication
+name: handy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: handy secures its APIs with signed-request across 1 declared security scheme, as derived from its OpenAPI definitions.

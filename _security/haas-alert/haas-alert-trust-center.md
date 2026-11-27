@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Haas Alert Trust Center
+name: HAAS Alert Trust Center
 name_suffix: Trust Center
 overview: HAAS Alert maintains a public trust center documenting SOC 2 Type 1, SOC 2 Type 2, SOC 3, ISO/IEC 27001, ISO 9001, GDPR, TX-RAMP, and Cyber Essentials compliance.
 provider_name: HAAS Alert

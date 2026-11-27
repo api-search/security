@@ -379,7 +379,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Moltrust Ch Authentication
+name: MolTrust Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MolTrust secures its APIs with apiKey, http-bearer (declared, not live), x402-payment, and admin-key (undeclared) across 6 declared security schemes, as derived from its OpenAPI definitions.

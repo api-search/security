@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Colab Software Trust Center
+name: CoLab Software Trust Center
 name_suffix: Trust Center
 overview: CoLab Software maintains a public trust center documenting SOC 2 Type 2, ISO 27001, ISO 27017, ISO 27018, TISAX, FedRAMP High, and Controlled Goods Program (CGP) compliance.
 provider_name: CoLab Software

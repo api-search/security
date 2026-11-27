@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agentdrive Sh Trust Center
+name: AgentDrive Trust Center
 name_suffix: Trust Center
 overview: AgentDrive maintains a public trust center documenting SOC 2, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: AgentDrive

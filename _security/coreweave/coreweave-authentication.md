@@ -2,12 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: coreweave-clusters-api-openapi.yml
+- filename: coreweave-freshdesk-api-openapi.yml
   format: yaml
-  label: CoreWeave Clusters API
-  slug: coreweave-clusters-api
+  label: CoreWeave Freshdesk API
+  slug: coreweave-freshdesk-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/coreweave/openapi/coreweave-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-freshdesk-api-openapi.yml
+- filename: coreweave-healthz-api-openapi.yml
+  format: yaml
+  label: CoreWeave Healthz API
+  slug: coreweave-healthz-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-healthz-api-openapi.yml
+- filename: coreweave-reconcile-api-openapi.yml
+  format: yaml
+  label: CoreWeave Reconcile API
+  slug: coreweave-reconcile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-reconcile-api-openapi.yml
+- filename: coreweave-webhooks-api-openapi.yml
+  format: yaml
+  label: CoreWeave Webhooks API
+  slug: coreweave-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-webhooks-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -15,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Coreweave Authentication
+name: CoreWeave Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CoreWeave secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Usetapestry Dev Authentication
+name: Tapestry Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tapestry declares 1 security scheme(s) across its OpenAPI definitions.

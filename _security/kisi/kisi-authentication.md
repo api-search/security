@@ -300,7 +300,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Kisi Authentication
+name: KISI Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

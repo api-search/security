@@ -72,6 +72,42 @@ api_specs:
   slug: amazon-emr-studio-session-mapping-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-studio-session-mapping-api-openapi.yml
+- filename: amazon-emr-applications-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Emr Applications API
+  slug: amazon-emr-applications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-applications-api-openapi.yml
+- filename: amazon-emr-endpoints-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Emr Endpoints API
+  slug: amazon-emr-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-endpoints-api-openapi.yml
+- filename: amazon-emr-jobruns-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Emr Jobruns API
+  slug: amazon-emr-jobruns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-jobruns-api-openapi.yml
+- filename: amazon-emr-tags-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Emr Tags API
+  slug: amazon-emr-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-tags-api-openapi.yml
+- filename: amazon-emr-job-templates-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Job Templates API
+  slug: amazon-emr-job-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-job-templates-api-openapi.yml
+- filename: amazon-emr-virtual-clusters-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Virtual Clusters API
+  slug: amazon-emr-virtual-clusters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-virtual-clusters-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -82,7 +118,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Emr Trust Center
+name: Amazon EMR Trust Center
 name_suffix: Trust Center
 overview: Amazon EMR maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon EMR

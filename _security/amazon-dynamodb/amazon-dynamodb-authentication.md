@@ -86,6 +86,30 @@ api_specs:
   slug: amazon-dynamodb-ttl-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-ttl-api-openapi.yml
+- filename: amazon-dynamodb-bulk-operation-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Dynamodb Bulk Operation API
+  slug: amazon-dynamodb-bulk-operation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-bulk-operation-api-openapi.yml
+- filename: amazon-dynamodb-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Dynamodb Cluster API
+  slug: amazon-dynamodb-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-cluster-api-openapi.yml
+- filename: amazon-dynamodb-parameter-group-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Dynamodb Parameter Group API
+  slug: amazon-dynamodb-parameter-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-parameter-group-api-openapi.yml
+- filename: amazon-dynamodb-subnet-group-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Dynamodb Subnet Group API
+  slug: amazon-dynamodb-subnet-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-subnet-group-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -93,7 +117,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Dynamodb Authentication
+name: Amazon DynamoDB Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon DynamoDB secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

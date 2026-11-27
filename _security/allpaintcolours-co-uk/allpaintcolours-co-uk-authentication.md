@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Allpaintcolours Co Uk Authentication
+name: All Paint Colours Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: All Paint Colours declares 2 security scheme(s) across its OpenAPI definitions.

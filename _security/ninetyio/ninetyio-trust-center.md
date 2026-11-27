@@ -47,7 +47,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Ninetyio Trust Center
+name: Ninety.io Trust Center
 name_suffix: Trust Center
 overview: Ninety.io maintains a public trust center covering its security and compliance posture.
 provider_name: Ninety.io

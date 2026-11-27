@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Blueink Trust Center
+name: BlueInk Technologies Trust Center
 name_suffix: Trust Center
 overview: BlueInk Technologies maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: BlueInk Technologies

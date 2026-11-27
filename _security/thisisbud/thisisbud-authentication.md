@@ -242,7 +242,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Thisisbud Authentication
+name: Bud Financial Limited Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bud Financial Limited declares 1 security scheme(s) across its OpenAPI definitions.

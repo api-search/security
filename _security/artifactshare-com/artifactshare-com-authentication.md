@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Artifactshare Com Authentication
+name: Artifact Share Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Artifact Share declares 0 security scheme(s) across its OpenAPI definitions.

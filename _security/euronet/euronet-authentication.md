@@ -21,12 +21,6 @@ api_specs:
   slug: euronet-budget-category-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euronet/openapi/euronet-budget-category-api-openapi.yml
-- filename: euronet-conversions-api-openapi.yml
-  format: yaml
-  label: Euronet Worldwide Conversions API
-  slug: euronet-conversions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/euronet/openapi/euronet-conversions-api-openapi.yml
 - filename: euronet-currency-information-api-openapi.yml
   format: yaml
   label: Euronet Worldwide Currency Information API
@@ -45,12 +39,6 @@ api_specs:
   slug: euronet-friend-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euronet/openapi/euronet-friend-api-openapi.yml
-- filename: euronet-historic-rates-api-openapi.yml
-  format: yaml
-  label: Euronet Worldwide Historic Rates API
-  slug: euronet-historic-rates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/euronet/openapi/euronet-historic-rates-api-openapi.yml
 - filename: euronet-invitation-api-openapi.yml
   format: yaml
   label: Euronet Worldwide Invitation API
@@ -63,12 +51,6 @@ api_specs:
   slug: euronet-invoice-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euronet/openapi/euronet-invoice-api-openapi.yml
-- filename: euronet-monthly-averages-api-openapi.yml
-  format: yaml
-  label: Euronet Worldwide Monthly Averages API
-  slug: euronet-monthly-averages-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/euronet/openapi/euronet-monthly-averages-api-openapi.yml
 - filename: euronet-payments-api-openapi.yml
   format: yaml
   label: Euronet Worldwide Payments API
@@ -93,24 +75,12 @@ api_specs:
   slug: euronet-purposesofpayment-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euronet/openapi/euronet-purposesofpayment-api-openapi.yml
-- filename: euronet-quote-api-openapi.yml
-  format: yaml
-  label: Euronet Worldwide Quote API
-  slug: euronet-quote-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/euronet/openapi/euronet-quote-api-openapi.yml
 - filename: euronet-recipient-api-openapi.yml
   format: yaml
   label: Euronet Worldwide Recipient API
   slug: euronet-recipient-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euronet/openapi/euronet-recipient-api-openapi.yml
-- filename: euronet-stats-api-openapi.yml
-  format: yaml
-  label: Euronet Worldwide Stats API
-  slug: euronet-stats-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/euronet/openapi/euronet-stats-api-openapi.yml
 - filename: euronet-terms-api-openapi.yml
   format: yaml
   label: Euronet Worldwide Terms API
@@ -129,12 +99,6 @@ api_specs:
   slug: euronet-tradeablecurrency-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euronet/openapi/euronet-tradeablecurrency-api-openapi.yml
-- filename: euronet-transaction-api-openapi.yml
-  format: yaml
-  label: Euronet Worldwide Transaction API
-  slug: euronet-transaction-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/euronet/openapi/euronet-transaction-api-openapi.yml
 - filename: euronet-trip-api-openapi.yml
   format: yaml
   label: Euronet Worldwide Trip API
@@ -177,6 +141,18 @@ api_specs:
   slug: euronet-mid-market-rates-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euronet/openapi/euronet-mid-market-rates-api-openapi.yml
+- filename: euronet-quote-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Quote API
+  slug: euronet-quote-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euronet/openapi/euronet-quote-api-openapi.yml
+- filename: euronet-transaction-api-openapi.yml
+  format: yaml
+  label: Euronet Worldwide Transaction API
+  slug: euronet-transaction-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/euronet/openapi/euronet-transaction-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -185,7 +161,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Euronet Authentication
+name: Euronet Worldwide Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Euronet Worldwide secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -143,7 +143,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Molt2Meet Com Domain Security
+name: molt2meet-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for molt2meet-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: molt2meet-com

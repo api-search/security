@@ -38,7 +38,7 @@ tags:
 - GHS
 - Hazard Communication
 - Labels
-- REACH
+- Reach
 - Regulatory
 - Research
 - Safety Data Sheets

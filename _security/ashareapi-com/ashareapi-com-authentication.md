@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ashareapi Com Authentication
+name: ashareapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ashareapi-com declares 2 security scheme(s) across its OpenAPI definitions.

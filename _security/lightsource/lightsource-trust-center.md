@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lightsource Trust Center
+name: LightSource Trust Center
 name_suffix: Trust Center
 overview: LightSource maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: LightSource

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anyskills Ru Authentication
+name: AnySkills Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AnySkills declares 0 security scheme(s) across its OpenAPI definitions.

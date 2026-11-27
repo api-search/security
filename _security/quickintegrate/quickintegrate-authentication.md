@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Quickintegrate Authentication
+name: ATDEV Services Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ATDEV Services declares 0 security scheme(s) across its OpenAPI definitions.

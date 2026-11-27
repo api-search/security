@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Backpow Com Authentication
+name: BackPoW Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BackPoW declares 0 security scheme(s) across its OpenAPI definitions.

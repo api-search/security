@@ -50,7 +50,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Observeai Trust Center
+name: Observe.AI Trust Center
 name_suffix: Trust Center
 overview: Observe.AI maintains a public trust center documenting SOC 2, ISO 27001, and HIPAA compliance.
 provider_name: Observe.AI

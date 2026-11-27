@@ -36,5 +36,5 @@ tags:
 - Reinforcement Learning
 - Data Lab
 - Simulation
-- Private Beta
+- PrivateBeta
 ---

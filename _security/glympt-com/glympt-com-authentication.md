@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Glympt Com Authentication
+name: glympt-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: glympt-com declares 2 security scheme(s) across its OpenAPI definitions.

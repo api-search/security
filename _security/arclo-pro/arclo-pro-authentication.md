@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Arclo Pro Authentication
+name: Arclo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Arclo declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Asx Authentication
+name: ASX Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ASX declares 1 security scheme(s) across its OpenAPI definitions.

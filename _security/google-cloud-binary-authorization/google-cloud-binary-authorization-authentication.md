@@ -2,24 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-binary-authorization-attestations-api-openapi.yml
+- filename: google-cloud-binary-authorization-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Binary Authorization Attestations API
-  slug: google-cloud-binary-authorization-attestations-api
+  label: Google Cloud Binary Authorization Cloud Binary Authorization Projects API
+  slug: google-cloud-binary-authorization-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-binary-authorization/openapi/google-cloud-binary-authorization-attestations-api-openapi.yml
-- filename: google-cloud-binary-authorization-attestors-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-binary-authorization/openapi/google-cloud-binary-authorization-projects-api-openapi.yml
+- filename: google-cloud-binary-authorization-systempolicy-api-openapi.yml
   format: yaml
-  label: Google Cloud Binary Authorization Attestors API
-  slug: google-cloud-binary-authorization-attestors-api
+  label: Google Cloud Binary Authorization Cloud Binary Authorization Systempolicy API
+  slug: google-cloud-binary-authorization-systempolicy-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-binary-authorization/openapi/google-cloud-binary-authorization-attestors-api-openapi.yml
-- filename: google-cloud-binary-authorization-policy-api-openapi.yml
-  format: yaml
-  label: Google Cloud Binary Authorization Policy API
-  slug: google-cloud-binary-authorization-policy-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-binary-authorization/openapi/google-cloud-binary-authorization-policy-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-binary-authorization/openapi/google-cloud-binary-authorization-systempolicy-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

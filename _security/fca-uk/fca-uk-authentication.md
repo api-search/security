@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fca Uk Authentication
+name: Financial Conduct Authority Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Financial Conduct Authority secures its APIs with apiKey and none across 2 declared security schemes, as derived from its OpenAPI definitions.

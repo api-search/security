@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sma Solar Trust Center
+name: SMA Solar Technology Trust Center
 name_suffix: Trust Center
 overview: SMA Solar Technology maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: SMA Solar Technology

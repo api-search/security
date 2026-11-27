@@ -78,6 +78,18 @@ api_specs:
   slug: dialnexa-llms-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dialnexa/openapi/dialnexa-llms-api-openapi.yml
+- filename: dialnexa-agent-builder-api-openapi.yml
+  format: yaml
+  label: DialNexa Agent Builder API
+  slug: dialnexa-agent-builder-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dialnexa/openapi/dialnexa-agent-builder-api-openapi.yml
+- filename: dialnexa-authentication-api-openapi.yml
+  format: yaml
+  label: DialNexa Authentication API
+  slug: dialnexa-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dialnexa/openapi/dialnexa-authentication-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -102,7 +114,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Dialnexa Domain Security
+name: DialNexa Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for DialNexa, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: DialNexa

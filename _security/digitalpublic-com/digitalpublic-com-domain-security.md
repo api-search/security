@@ -54,12 +54,6 @@ api_specs:
   slug: digitalpublic-com-communications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-communications-api-openapi.yml
-- filename: digitalpublic-com-connections-api-openapi.yml
-  format: yaml
-  label: digitalpublic-com Connections API
-  slug: digitalpublic-com-connections-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-connections-api-openapi.yml
 - filename: digitalpublic-com-creatives-api-openapi.yml
   format: yaml
   label: digitalpublic-com Creatives API
@@ -144,12 +138,6 @@ api_specs:
   slug: digitalpublic-com-meta-ads-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-meta-ads-api-openapi.yml
-- filename: digitalpublic-com-navigator-api-openapi.yml
-  format: yaml
-  label: digitalpublic-com Navigator API
-  slug: digitalpublic-com-navigator-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-navigator-api-openapi.yml
 - filename: digitalpublic-com-orchestrator-api-openapi.yml
   format: yaml
   label: digitalpublic-com Orchestrator API
@@ -348,6 +336,18 @@ api_specs:
   slug: digitalpublic-com-use-cases-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-use-cases-api-openapi.yml
+- filename: digitalpublic-com-connections-api-openapi.yml
+  format: yaml
+  label: digitalpublic-com Connections API
+  slug: digitalpublic-com-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-connections-api-openapi.yml
+- filename: digitalpublic-com-navigator-api-openapi.yml
+  format: yaml
+  label: digitalpublic-com Navigator API
+  slug: digitalpublic-com-navigator-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-navigator-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -366,7 +366,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Digitalpublic Com Domain Security
+name: digitalpublic-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for digitalpublic-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: digitalpublic-com

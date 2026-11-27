@@ -1,35 +1,17 @@
 ---
 api_specs:
-- filename: microsoft-azure-queue-storage-queues-api-openapi.yml
+- filename: microsoft-azure-queue-storage-azure-queue-storage-api-openapi.yml
   format: yaml
-  label: Azure Queue Storage Queues API
-  slug: microsoft-azure-queue-storage-queues-api
+  label: Azure Queue Storage Azure Queue Storage API
+  slug: microsoft-azure-queue-storage-azure-queue-storage-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-queues-api-openapi.yml
-- filename: microsoft-azure-queue-storage-message-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-azure-queue-storage-api-openapi.yml
+- filename: microsoft-azure-queue-storage-messages-api-openapi.yml
   format: yaml
-  label: Azure Queue Storage Message API
-  slug: microsoft-azure-queue-storage-message-api
+  label: Azure Queue Storage Messages API
+  slug: microsoft-azure-queue-storage-messages-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-message-api-openapi.yml
-- filename: microsoft-azure-queue-storage-messageid-api-openapi.yml
-  format: yaml
-  label: Azure Queue Storage Message ID API
-  slug: microsoft-azure-queue-storage-messageid-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-messageid-api-openapi.yml
-- filename: microsoft-azure-queue-storage-queue-api-openapi.yml
-  format: yaml
-  label: Azure Queue Storage Queue API
-  slug: microsoft-azure-queue-storage-queue-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-queue-api-openapi.yml
-- filename: microsoft-azure-queue-storage-service-api-openapi.yml
-  format: yaml
-  label: Azure Queue Storage Service API
-  slug: microsoft-azure-queue-storage-service-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-service-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-queue-storage/openapi/microsoft-azure-queue-storage-messages-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -68,7 +50,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Queue Storage Domain Security
+name: Azure Queue Storage Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure Queue Storage, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Azure Queue Storage

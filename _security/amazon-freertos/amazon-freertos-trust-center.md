@@ -28,7 +28,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Freertos Trust Center
+name: Amazon FreeRTOS Trust Center
 name_suffix: Trust Center
 overview: Amazon FreeRTOS maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon FreeRTOS

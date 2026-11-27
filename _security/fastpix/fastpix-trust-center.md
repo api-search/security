@@ -55,7 +55,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fastpix Trust Center
+name: FastPix Trust Center
 name_suffix: Trust Center
 overview: FastPix maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: FastPix

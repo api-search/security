@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Securitypal Trust Center
+name: SecurityPal Trust Center
 name_suffix: Trust Center
 overview: SecurityPal maintains a public trust center documenting SOC 2 Type 2, GDPR, and CCPA compliance.
 provider_name: SecurityPal

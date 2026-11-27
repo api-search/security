@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Infer By Flow7 Authentication
+name: Infer by Flow7 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Infer by Flow7 declares 1 security scheme(s) across its OpenAPI definitions.

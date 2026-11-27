@@ -1,13 +1,20 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: lawdiver-com-openapi-generated.yml
+  format: yaml
+  label: LawDiver API
+  slug: lawdiver-com-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/lawdiver-com/openapi/_ae-authored/lawdiver-com-openapi-generated.yml
 auth_types: []
 description: ''
 kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Lawdiver Com Authentication
+name: LawDiver Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LawDiver declares 4 security scheme(s) across its OpenAPI definitions.

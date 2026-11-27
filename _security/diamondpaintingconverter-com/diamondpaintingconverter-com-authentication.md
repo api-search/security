@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Diamondpaintingconverter Com Authentication
+name: Diamond Painting Converter Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Diamond Painting Converter declares 2 security scheme(s) across its OpenAPI definitions.

@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: 5Ire Authentication
+name: 5ire Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 5ire secures its APIs with none across 3 declared security schemes, as derived from its OpenAPI definitions.

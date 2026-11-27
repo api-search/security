@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Forex Com Authentication
+name: FOREX.com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FOREX.com secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

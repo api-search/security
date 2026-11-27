@@ -8,7 +8,7 @@ api_specs:
   label: Monday.com API
   slug: monday-com
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/asyncapi/monday-com-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/monday-com/asyncapi/monday-com-webhooks-asyncapi.yml
 - filename: monday-com-monday-com-platform-graphql-api-api-openapi.yml
   format: yaml
   label: Monday.com Platform GraphQL API
@@ -23,7 +23,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Monday Com Authentication
+name: Monday.com Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -243,7 +243,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Open Banking Uk Authentication
+name: UK Open Banking Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

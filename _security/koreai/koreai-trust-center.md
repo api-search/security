@@ -36,7 +36,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Koreai Trust Center
+name: Kore.ai Trust Center
 name_suffix: Trust Center
 overview: Kore.ai maintains a public trust center documenting SOC 2 Type 2, PCI DSS, ISO/IEC 27001:2022, GDPR, CCPA, EU AI Act, and DESC Cloud Service Provider compliance.
 provider_name: Kore.ai

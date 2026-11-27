@@ -90,7 +90,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Payjp Trust Center
+name: PAY.JP Trust Center
 name_suffix: Trust Center
 overview: PAY.JP maintains a public trust center documenting PCI DSS compliance.
 provider_name: PAY.JP

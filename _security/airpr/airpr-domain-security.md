@@ -44,7 +44,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Airpr Domain Security
+name: AirPR Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AirPR, probed live across 4 host(s) and 2 registrable domain(s). 4 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: AirPR

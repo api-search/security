@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Passport Parking Trust Center
+name: Passport Trust Center
 name_suffix: Trust Center
 overview: Passport maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: Passport

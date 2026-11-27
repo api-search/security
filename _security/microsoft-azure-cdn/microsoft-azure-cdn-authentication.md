@@ -98,6 +98,24 @@ api_specs:
   slug: microsoft-azure-cdn-subscriptions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-subscriptions-api-openapi.yml
+- filename: microsoft-azure-cdn-edgeactionexecutionfilters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cdn Edge Action Execution Filters API
+  slug: microsoft-azure-cdn-edgeactionexecutionfilters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-edgeactionexecutionfilters-api-openapi.yml
+- filename: microsoft-azure-cdn-edgeactions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cdn Edge Actions API
+  slug: microsoft-azure-cdn-edgeactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-edgeactions-api-openapi.yml
+- filename: microsoft-azure-cdn-edgeactionversions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cdn Edge Action Versions API
+  slug: microsoft-azure-cdn-edgeactionversions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cdn/openapi/microsoft-azure-cdn-edgeactionversions-api-openapi.yml
 - filename: microsoft-azure-cdn-custom-domains-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cdn Custom Domains API

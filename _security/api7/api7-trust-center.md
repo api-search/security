@@ -105,7 +105,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Api7 Trust Center
+name: API7.ai Trust Center
 name_suffix: Trust Center
 overview: API7.ai maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: API7.ai

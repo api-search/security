@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Vulk Dev Authentication
+name: vulk-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: vulk-dev declares 1 security scheme(s) across its OpenAPI definitions.

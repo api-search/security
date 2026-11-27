@@ -20,7 +20,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Erechnung Konverter Domain Security
+name: E-Rechnung API (XRechnung & ZUGFeRD Validator) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for E-Rechnung API (XRechnung & ZUGFeRD Validator), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: E-Rechnung API (XRechnung & ZUGFeRD Validator)

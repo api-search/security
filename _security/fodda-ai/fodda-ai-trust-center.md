@@ -113,7 +113,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Fodda Ai Trust Center
+name: Fodda (PSFK) Trust Center
 name_suffix: Trust Center
 overview: Fodda (PSFK) maintains a public trust center covering its security and compliance posture.
 provider_name: Fodda (PSFK)

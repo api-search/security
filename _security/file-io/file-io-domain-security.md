@@ -16,7 +16,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: File Io Domain Security
+name: File.io Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for File.io, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: File.io

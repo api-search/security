@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 1Worldsync Authentication
+name: 1WorldSync Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 1WorldSync secures its APIs with hmac across 1 declared security scheme, as derived from its OpenAPI definitions.

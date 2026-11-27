@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Agentsmyth Authentication
+name: AgentSmyth Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentSmyth declares 2 security scheme(s) across its OpenAPI definitions.

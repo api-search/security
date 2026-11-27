@@ -138,7 +138,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: searched
-name: Tietoevry Authentication
+name: TietoEVRY Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TietoEVRY secures its APIs with apiKey, openIdConnect, and mutualTLS across 7 declared security schemes, as derived from its OpenAPI definitions.

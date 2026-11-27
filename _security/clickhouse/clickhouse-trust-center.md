@@ -130,7 +130,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Clickhouse Trust Center
+name: ClickHouse Trust Center
 name_suffix: Trust Center
 overview: ClickHouse maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: ClickHouse

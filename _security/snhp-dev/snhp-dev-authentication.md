@@ -147,7 +147,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Snhp Dev Authentication
+name: SNHP Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SNHP secures its APIs with apiKey, http-bearer, body-field, and none across 5 declared security schemes, as derived from its OpenAPI definitions.

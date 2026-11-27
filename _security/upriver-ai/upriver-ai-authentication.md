@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Upriver Ai Authentication
+name: upriver-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: upriver-ai declares 1 security scheme(s) across its OpenAPI definitions.

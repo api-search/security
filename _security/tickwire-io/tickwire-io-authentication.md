@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Tickwire Io Authentication
+name: Tickwire Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tickwire declares 6 security scheme(s) across its OpenAPI definitions.

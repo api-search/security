@@ -89,7 +89,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Butterflymx Trust Center
+name: ButterflyMX Trust Center
 name_suffix: Trust Center
 overview: ButterflyMX maintains a public trust center covering its security and compliance posture.
 provider_name: ButterflyMX

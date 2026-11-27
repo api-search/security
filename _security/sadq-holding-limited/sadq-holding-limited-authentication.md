@@ -94,7 +94,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Sadq Holding Limited Authentication
+name: Sadq Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
@@ -141,5 +141,4 @@ tags:
 - Saudi Arabia
 - Nafath
 - Webhook
-- Agent Ready
 ---

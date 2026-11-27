@@ -64,7 +64,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Aureliusagent Dev Authentication
+name: WunderCorp Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WunderCorp secures its APIs with none and http across 5 declared security schemes, as derived from its OpenAPI definitions.

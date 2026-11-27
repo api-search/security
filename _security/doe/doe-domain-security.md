@@ -185,7 +185,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Doe Domain Security
+name: Department of Energy Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Department of Energy, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Department of Energy

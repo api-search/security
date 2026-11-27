@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Fudan Authentication
+name: Fudan University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fudan University declares 0 security scheme(s) across its OpenAPI definitions.

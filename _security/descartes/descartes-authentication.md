@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Descartes Authentication
+name: Descartes Systems Group Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Descartes Systems Group declares 2 security scheme(s) across its OpenAPI definitions.

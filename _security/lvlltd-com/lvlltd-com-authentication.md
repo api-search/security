@@ -160,7 +160,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Lvlltd Com Authentication
+name: LVL LTD CO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LVL LTD CO secures its APIs with none and x402-payment-proof across 5 declared security schemes, as derived from its OpenAPI definitions.

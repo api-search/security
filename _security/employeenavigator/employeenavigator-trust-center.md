@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Employeenavigator Trust Center
+name: Employee Navigator Trust Center
 name_suffix: Trust Center
 overview: Employee Navigator maintains a public trust center documenting SOC 2 Type II, HITRUST, HIPAA, GDPR, CCPA, 23 NYCRR 500 (NYDFS), and NIST compliance.
 provider_name: Employee Navigator

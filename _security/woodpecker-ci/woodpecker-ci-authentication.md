@@ -140,7 +140,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Woodpecker Ci Authentication
+name: Woodpecker CI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Woodpecker CI declares 1 security scheme(s) across its OpenAPI definitions.

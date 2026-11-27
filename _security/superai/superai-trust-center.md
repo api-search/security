@@ -121,7 +121,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Superai Trust Center
+name: Super.ai Trust Center
 name_suffix: Trust Center
 overview: Super.ai maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Super.ai

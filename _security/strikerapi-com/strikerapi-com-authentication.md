@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Strikerapi Com Authentication
+name: strikerapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: strikerapi-com declares 2 security scheme(s) across its OpenAPI definitions.

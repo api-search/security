@@ -18,12 +18,6 @@ api_specs:
   slug: keycloak-identity-providers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/keycloak/openapi/keycloak-identity-providers-api-openapi.yml
-- filename: keycloak-realms-api-openapi.yml
-  format: yaml
-  label: Keycloak Realms API
-  slug: keycloak-realms-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/keycloak/openapi/keycloak-realms-api-openapi.yml
 - filename: keycloak-roles-api-openapi.yml
   format: yaml
   label: Keycloak Roles API
@@ -138,6 +132,12 @@ api_specs:
   slug: keycloak-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/keycloak/openapi/keycloak-workflows-api-openapi.yml
+- filename: keycloak-realms-api-openapi.yml
+  format: yaml
+  label: Keycloak Realms API
+  slug: keycloak-realms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/keycloak/openapi/keycloak-realms-api-openapi.yml
 description: ''
 domains:
 - caa: []

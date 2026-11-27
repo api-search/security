@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Altana Ai Trust Center
+name: Altana AI Trust Center
 name_suffix: Trust Center
 overview: Altana AI maintains a public trust center documenting FedRAMP High, SOC 2, ISO/IEC 27001, IRAP, IC C2E, ACSC Essential Eight, Cyber Essentials, and Cyber Essentials Plus compliance.
 provider_name: Altana AI

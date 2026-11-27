@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: La Ruche Qui Dit Oui Authentication
+name: La Ruche qui dit Oui! Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

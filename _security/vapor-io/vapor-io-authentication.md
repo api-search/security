@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Vapor Io Authentication
+name: Vapor IO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Vapor IO declares 0 security scheme(s) across its OpenAPI definitions.

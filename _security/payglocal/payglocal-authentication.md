@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Payglocal Authentication
+name: PayGlocal Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PayGlocal declares 1 security scheme(s) across its OpenAPI definitions.

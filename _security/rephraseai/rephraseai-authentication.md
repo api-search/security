@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Rephraseai Authentication
+name: Rephrase.ai Authentication
 name_suffix: Authentication
 oauth_flows:
 - refreshToken

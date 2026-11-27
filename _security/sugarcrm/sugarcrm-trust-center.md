@@ -8,7 +8,7 @@ certifications:
 description: SugarCRM (Sugar AI) security & compliance posture, captured from the public security & trust page. The automated trust-center probe did not record this because the certifications now live on the sugarai.com/legal/security-trust page rather than a trust.<domain> subdomain meeting the probe's keyword threshold - this is the searched, human-verified fill. Infrastructure runs on AWS with documented compliance programs.
 kind: trust-center
 layout: security
-name: Sugarcrm Trust Center
+name: SugarCRM Trust Center
 name_suffix: Trust Center
 overview: SugarCRM maintains a public trust center documenting ISO/IEC 27001, SOC 2 Type II, CSA STAR, and EcoVadis compliance.
 provider_name: SugarCRM

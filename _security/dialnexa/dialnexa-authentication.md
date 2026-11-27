@@ -80,6 +80,18 @@ api_specs:
   slug: dialnexa-llms-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dialnexa/openapi/dialnexa-llms-api-openapi.yml
+- filename: dialnexa-agent-builder-api-openapi.yml
+  format: yaml
+  label: DialNexa Agent Builder API
+  slug: dialnexa-agent-builder-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dialnexa/openapi/dialnexa-agent-builder-api-openapi.yml
+- filename: dialnexa-authentication-api-openapi.yml
+  format: yaml
+  label: DialNexa Authentication API
+  slug: dialnexa-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dialnexa/openapi/dialnexa-authentication-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -87,7 +99,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Dialnexa Authentication
+name: DialNexa Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DialNexa secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

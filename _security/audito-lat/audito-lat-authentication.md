@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Audito Lat Authentication
+name: audito-lat Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: audito-lat declares 0 security scheme(s) across its OpenAPI definitions.

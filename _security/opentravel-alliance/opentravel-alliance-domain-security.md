@@ -84,7 +84,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Opentravel Alliance Domain Security
+name: OpenTravel Alliance Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for OpenTravel Alliance, probed live across 4 host(s) and 3 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: OpenTravel Alliance

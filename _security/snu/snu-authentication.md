@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Snu Authentication
+name: Seoul National University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Seoul National University secures its APIs with none and saml2 across 3 declared security schemes, as derived from its OpenAPI definitions.

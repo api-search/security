@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Ait Austrian Institute Of Technology Gmbh Domain Security
+name: AIT Austrian Institute of Technology GmbH Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AIT Austrian Institute of Technology GmbH, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: AIT Austrian Institute of Technology GmbH

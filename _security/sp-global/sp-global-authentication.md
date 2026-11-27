@@ -53,7 +53,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Sp Global Authentication
+name: S&P Global Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: S&P Global secures its APIs with http, oauth2, and openIdConnect across 1 declared security scheme, as derived from its OpenAPI definitions.

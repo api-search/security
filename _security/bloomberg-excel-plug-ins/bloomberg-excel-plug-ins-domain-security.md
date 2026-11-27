@@ -26,7 +26,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Bloomberg Excel Plug Ins Domain Security
+name: Bloomberg Excel Plug-ins Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Bloomberg Excel Plug-ins, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Bloomberg Excel Plug-ins

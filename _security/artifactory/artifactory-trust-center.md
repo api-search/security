@@ -113,7 +113,7 @@ certifications:
 description: JFrog's security & compliance posture, captured from the JFrog Trust center (jfrog.com/trust) and its Certificate Program pages. The automated trust-center probe did not clear its keyword threshold on the corporate host, so this is the searched, human-verified fill. JFrog engages Ernst & Young for its annually- validated SOC 2 Type II report and holds a family of ISO/IEC certifications plus FedRAMP and CSA STAR.
 kind: trust-center
 layout: security
-name: Artifactory Trust Center
+name: JFrog Artifactory Trust Center
 name_suffix: Trust Center
 overview: JFrog Artifactory maintains a public trust center documenting SOC 2 Type II, ISO/IEC 27001:2013, ISO/IEC 27017:2014, ISO/IEC 27701:2019, FedRAMP, and CSA STAR compliance.
 provider_name: JFrog Artifactory

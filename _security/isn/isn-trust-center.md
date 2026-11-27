@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Isn Trust Center
+name: ISN Trust Center
 name_suffix: Trust Center
 overview: ISN maintains a public trust center documenting ISO/IEC 27001:2022, ISO 9001:2015, SOC 2 (published as "SSAE-16 SOC2"), and ICSS 2020:2025 Gold Certification compliance.
 provider_name: ISN

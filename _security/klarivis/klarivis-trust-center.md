@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Klarivis Trust Center
+name: KlariVis Trust Center
 name_suffix: Trust Center
 overview: KlariVis maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: KlariVis

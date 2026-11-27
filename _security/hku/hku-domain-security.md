@@ -52,7 +52,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Hku Domain Security
+name: University of Hong Kong Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for University of Hong Kong, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: University of Hong Kong

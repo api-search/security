@@ -67,7 +67,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Crypto Com Trust Center
+name: Crypto.com Trust Center
 name_suffix: Trust Center
 overview: Crypto.com maintains a public trust center documenting ISO 27001 and PCI DSS compliance.
 provider_name: Crypto.com

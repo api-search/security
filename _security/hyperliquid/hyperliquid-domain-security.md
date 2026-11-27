@@ -5,7 +5,7 @@ api_specs:
   label: Hyperliquid WebSocket API
   slug: websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hyperliquid/refs/heads/main/asyncapi/hyperliquid-asyncapi.yml
+  url: https://artifacts.apis.io/hyperliquid/asyncapi/hyperliquid-asyncapi.yml
 - filename: hyperliquid-info-api-openapi.yml
   format: yaml
   label: Hyperliquid Info API

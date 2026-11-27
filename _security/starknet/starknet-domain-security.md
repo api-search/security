@@ -5,7 +5,7 @@ api_specs:
   label: Starknet JSON-RPC Specification
   slug: json-rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/asyncapi/starknet-asyncapi.yml
+  url: https://artifacts.apis.io/starknet/asyncapi/starknet-asyncapi.yml
 - filename: starknet-starknet-json-rpc-api-api-openapi.yml
   format: yaml
   label: Starknet JSON RPC API

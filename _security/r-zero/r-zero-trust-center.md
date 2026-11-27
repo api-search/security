@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: R Zero Trust Center
+name: R-Zero Trust Center
 name_suffix: Trust Center
 overview: R-Zero maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: R-Zero

@@ -105,7 +105,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Foldlaundry Com Authentication
+name: Fold Laundry Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fold Laundry secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -128,9 +128,9 @@ source_yaml_url: https://artifacts.apis.io/foldlaundry-com/authentication/foldla
 summary_line: http · 1 scheme
 tags:
 - Laundry
-- On-demand
+- On-Demand
 - Delivery
 - Los Angeles
 - San Francisco
-- Service
+- Services
 ---

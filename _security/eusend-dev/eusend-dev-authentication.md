@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Eusend Dev Authentication
+name: eusend-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: eusend-dev declares 0 security scheme(s) across its OpenAPI definitions.

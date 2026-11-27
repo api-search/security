@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ai2Fin Com Authentication
+name: AI2Fin Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI2Fin declares 2 security scheme(s) across its OpenAPI definitions.

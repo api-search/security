@@ -23,7 +23,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Anew Trust Center
+name: anew Trust Center
 name_suffix: Trust Center
 overview: anew maintains a public trust center covering its security and compliance posture.
 provider_name: anew

@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fatstack Net Domain Security
+name: Fatstack Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Fatstack, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Fatstack
@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-11-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/fatstack-net/security/fatstack-net-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Marketplace
 - Pay-per-call
 - Blockchain

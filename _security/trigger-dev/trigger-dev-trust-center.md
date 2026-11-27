@@ -62,7 +62,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Trigger Dev Trust Center
+name: Trigger.dev Trust Center
 name_suffix: Trust Center
 overview: Trigger.dev maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Trigger.dev
@@ -75,7 +75,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/trigger-dev/security/trigger-dev-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
-- Developer-First
 - Workflow Automation
 - Background Jobs
 - Durable Execution

@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Salesjobs Now Authentication
+name: SalesJobs.Now Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SalesJobs.Now declares 0 security scheme(s) across its OpenAPI definitions.

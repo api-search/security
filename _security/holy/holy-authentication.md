@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Holy Authentication
+name: HOLY Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

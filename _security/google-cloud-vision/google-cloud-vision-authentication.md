@@ -14,12 +14,24 @@ api_specs:
   slug: google-cloud-vision-images-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-vision/openapi/google-cloud-vision-images-api-openapi.yml
-- filename: google-cloud-vision-product-search-api-openapi.yml
+- filename: google-cloud-vision-locations-api-openapi.yml
   format: yaml
-  label: Google Cloud Vision Product Search API
-  slug: google-cloud-vision-product-search-api
+  label: Google Cloud Vision Cloud Vision Locations API
+  slug: google-cloud-vision-locations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-vision/openapi/google-cloud-vision-product-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vision/openapi/google-cloud-vision-locations-api-openapi.yml
+- filename: google-cloud-vision-operations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Vision Cloud Vision Operations API
+  slug: google-cloud-vision-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-vision/openapi/google-cloud-vision-operations-api-openapi.yml
+- filename: google-cloud-vision-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Vision Cloud Vision Projects API
+  slug: google-cloud-vision-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-vision/openapi/google-cloud-vision-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

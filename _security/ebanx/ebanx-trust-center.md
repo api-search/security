@@ -42,7 +42,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ebanx Trust Center
+name: EBANX Trust Center
 name_suffix: Trust Center
 overview: EBANX maintains a public trust center documenting ISO 27001 compliance.
 provider_name: EBANX

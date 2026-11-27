@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Hotapi Ai Authentication
+name: hotapi-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: hotapi-ai declares 1 security scheme(s) across its OpenAPI definitions.
@@ -28,7 +28,7 @@ source_yaml_url: https://artifacts.apis.io/hotapi-ai/authentication/hotapi-ai-au
 summary_line: 1 scheme
 tags:
 - Artificial Intelligence
-- Nsfw
+- NSFW
 - Chat
 - Image Generation
 - Video Generation

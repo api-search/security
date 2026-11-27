@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Findmytide Com Domain Security
+name: Find My Tide Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Find My Tide, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Find My Tide
@@ -30,7 +30,7 @@ source_yaml: "generated: '2026-11-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/findmytide-com/security/findmytide-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Tide
+- TIDE
 - Weather
 - Marine
 - Forecast

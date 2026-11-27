@@ -55,10 +55,10 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Uetr Ai Domain Security
+name: uetr.ai - UETR and SWIFT Payment Tracking Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for SWIFT UETR Tracker, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: SWIFT UETR Tracker
+overview: 'Domain security posture for uetr.ai - UETR and SWIFT Payment Tracking, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: uetr.ai - UETR and SWIFT Payment Tracking
 provider_slug: uetr-ai
 slug: uetr-ai-domain-security
 source_filename: uetr-ai-domain-security.yml

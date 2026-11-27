@@ -115,7 +115,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Propelauth Trust Center
+name: PropelAuth Trust Center
 name_suffix: Trust Center
 overview: PropelAuth maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: PropelAuth

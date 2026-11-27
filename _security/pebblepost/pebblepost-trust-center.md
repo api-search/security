@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pebblepost Trust Center
+name: PebblePost Trust Center
 name_suffix: Trust Center
 overview: PebblePost maintains a public trust center documenting SOC 2 compliance.
 provider_name: PebblePost

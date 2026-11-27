@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Machinemetrics Authentication
+name: MachineMetrics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MachineMetrics declares 1 security scheme(s) across its OpenAPI definitions.

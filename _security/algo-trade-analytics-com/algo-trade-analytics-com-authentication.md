@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Algo Trade Analytics Com Authentication
+name: Algo Trade Analytics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Algo Trade Analytics declares 0 security scheme(s) across its OpenAPI definitions.

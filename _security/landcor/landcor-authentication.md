@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Landcor Authentication
+name: Landcor Data Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Landcor Data secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

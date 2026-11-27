@@ -43,7 +43,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Dtu Domain Security
+name: Technical University of Denmark Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Technical University of Denmark, probed live across 5 host(s) and 1 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Technical University of Denmark

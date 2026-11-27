@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Graphitehealth Trust Center
+name: Graphite Health Trust Center
 name_suffix: Trust Center
 overview: Graphite Health maintains a public trust center documenting SSAE 18 SOC 2 Type 1 and SSAE 18 SOC 2 Type 2 compliance.
 provider_name: Graphite Health

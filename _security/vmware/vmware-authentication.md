@@ -101,7 +101,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Vmware Authentication
+name: VMware Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VMware secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Astrotelugu Com Authentication
+name: Astro Telugu Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Astro Telugu declares 0 security scheme(s) across its OpenAPI definitions.

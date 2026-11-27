@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Cloud Cdn Authentication
+name: Google Cloud CDN Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

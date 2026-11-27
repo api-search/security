@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Shein Authentication
+name: SHEIN Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SHEIN secures its APIs with seller-authorization across 0 declared security schemes, as derived from its OpenAPI definitions.

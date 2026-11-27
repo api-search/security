@@ -31,7 +31,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hyperpay Trust Center
+name: HyperPay Trust Center
 name_suffix: Trust Center
 overview: HyperPay maintains a public trust center documenting PCI-DSS Level 1 and SAMA (Saudi Central Bank) licensed payment service provider compliance.
 provider_name: HyperPay

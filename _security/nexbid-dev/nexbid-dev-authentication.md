@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Nexbid Dev Authentication
+name: nexbid-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: nexbid-dev declares 1 security scheme(s) across its OpenAPI definitions.

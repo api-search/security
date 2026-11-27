@@ -24,7 +24,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Evidence Dev Trust Center
+name: Evidence Trust Center
 name_suffix: Trust Center
 overview: Evidence maintains a public trust center documenting SOC 2 compliance.
 provider_name: Evidence

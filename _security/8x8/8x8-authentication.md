@@ -414,7 +414,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: 8X8 Authentication
+name: 8x8 Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

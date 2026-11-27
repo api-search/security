@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: University Of Liverpool Authentication
+name: University of Liverpool Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Liverpool secures its APIs with none, oauth2, openIdConnect, and saml2 across 5 declared security schemes, as derived from its OpenAPI definitions.

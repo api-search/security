@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Mileiq Authentication
+name: MileIQ Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

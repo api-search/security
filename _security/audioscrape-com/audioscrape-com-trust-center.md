@@ -90,7 +90,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Audioscrape Com Trust Center
+name: Audioscrape Trust Center
 name_suffix: Trust Center
 overview: Audioscrape maintains a public trust center documenting SOC 2 compliance.
 provider_name: Audioscrape

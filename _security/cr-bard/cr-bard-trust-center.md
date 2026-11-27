@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cr Bard Trust Center
+name: C. R. Bard Trust Center
 name_suffix: Trust Center
 overview: C. R. Bard maintains a public trust center documenting ISO/IEC 27001:2022, SOC 2+, and UL CAP (UL Cybersecurity Assurance Program) compliance.
 provider_name: C. R. Bard

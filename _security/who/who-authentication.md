@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Who Authentication
+name: World Health Organization (WHO) Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

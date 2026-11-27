@@ -6,12 +6,6 @@ api_specs:
   slug: microsoft-azure-advisor-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-operations-api-openapi.yml
-- filename: microsoft-azure-advisor-recommendations-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Advisor Recommendations API
-  slug: microsoft-azure-advisor-recommendations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-advisor/openapi/microsoft-azure-advisor-recommendations-api-openapi.yml
 - filename: microsoft-azure-advisor-advisorscoreentities-api-openapi.yml
   format: yaml
   label: Microsoft Azure Advisor Advisor Score Entities API

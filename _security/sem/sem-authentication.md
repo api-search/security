@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Sem Authentication
+name: Xiaoe (小鹅通) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Xiaoe (小鹅通) secures its APIs with access_token across 0 declared security schemes, as derived from its OpenAPI definitions.

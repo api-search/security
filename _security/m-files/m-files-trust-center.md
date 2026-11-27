@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: M Files Trust Center
+name: M-Files Trust Center
 name_suffix: Trust Center
 overview: M-Files maintains a public trust center documenting ISO/IEC 27001, SOC 2, and GDPR compliance.
 provider_name: M-Files

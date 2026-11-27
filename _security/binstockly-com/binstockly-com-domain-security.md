@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Binstockly Com Domain Security
+name: binstockly-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for binstockly-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: binstockly-com
@@ -34,5 +34,4 @@ tags:
 - Inventory
 - Software
 - Small Business
-- Free Tools
 ---

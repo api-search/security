@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentstackdirectory Com Authentication
+name: Agent Stack Directory Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Stack Directory declares 0 security scheme(s) across its OpenAPI definitions.

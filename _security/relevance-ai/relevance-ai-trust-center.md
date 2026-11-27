@@ -193,7 +193,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Relevance Ai Trust Center
+name: Relevance AI Trust Center
 name_suffix: Trust Center
 overview: Relevance AI maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
 provider_name: Relevance AI

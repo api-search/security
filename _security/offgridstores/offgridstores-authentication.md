@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Offgridstores Authentication
+name: Off Grid Stores - All Things Off-Grid Solar Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Off Grid Stores - All Things Off-Grid Solar declares 0 security scheme(s) across its OpenAPI definitions.

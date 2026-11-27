@@ -30,6 +30,6 @@ source_yaml: "generated: '2026-11-01'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/ask-recipes/security/ask-recipes-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- AI cooking assistant
+- AI Cooking Assistant
 - Recipe Search
 ---

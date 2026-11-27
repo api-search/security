@@ -78,7 +78,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Neonone Trust Center
+name: Neon One Trust Center
 name_suffix: Trust Center
 overview: Neon One maintains a public trust center documenting PCI DSS compliance.
 provider_name: Neon One

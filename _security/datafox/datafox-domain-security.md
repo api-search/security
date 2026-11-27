@@ -55,7 +55,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Datafox Domain Security
+name: DataFox Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for DataFox, probed live across 4 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: DataFox

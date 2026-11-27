@@ -65,7 +65,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Ruby Authentication
+name: Ruby Programming Language and Popular API Gems Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ruby Programming Language and Popular API Gems secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

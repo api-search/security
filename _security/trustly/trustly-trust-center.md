@@ -79,7 +79,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Trustly Trust Center
+name: Trustly Group Trust Center
 name_suffix: Trust Center
 overview: Trustly Group maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: Trustly Group

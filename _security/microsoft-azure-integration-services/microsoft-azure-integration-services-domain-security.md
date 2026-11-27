@@ -1,41 +1,185 @@
 ---
 api_specs:
-- filename: microsoft-azure-integration-services-azure-logic-apps-openapi.yml
+- filename: microsoft-azure-integration-services-armdisasterrecoveries-api-openapi.yml
   format: yaml
-  label: Azure Logic Apps
-  slug: azure-logic-apps
+  label: Microsoft Azure Integration Services Arm Disaster Recoveries API
+  slug: microsoft-azure-integration-services-armdisasterrecoveries-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-logic-apps-openapi.yml
-- filename: microsoft-azure-integration-services-azure-service-bus-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-armdisasterrecoveries-api-openapi.yml
+- filename: microsoft-azure-integration-services-cacertificates-api-openapi.yml
   format: yaml
-  label: Azure Service Bus
-  slug: azure-service-bus
+  label: Microsoft Azure Integration Services Ca Certificates API
+  slug: microsoft-azure-integration-services-cacertificates-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-service-bus-openapi.yml
-- filename: microsoft-azure-integration-services-azure-event-grid-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-cacertificates-api-openapi.yml
+- filename: microsoft-azure-integration-services-channels-api-openapi.yml
   format: yaml
-  label: Azure Event Grid
-  slug: azure-event-grid
+  label: Microsoft Azure Integration Services Channels API
+  slug: microsoft-azure-integration-services-channels-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-event-grid-openapi.yml
-- filename: microsoft-azure-integration-services-azure-event-hubs-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-channels-api-openapi.yml
+- filename: microsoft-azure-integration-services-clientgroups-api-openapi.yml
   format: yaml
-  label: Azure Event Hubs
-  slug: azure-event-hubs
+  label: Microsoft Azure Integration Services Client Groups API
+  slug: microsoft-azure-integration-services-clientgroups-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-event-hubs-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-clientgroups-api-openapi.yml
+- filename: microsoft-azure-integration-services-clients-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Clients API
+  slug: microsoft-azure-integration-services-clients-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-clients-api-openapi.yml
+- filename: microsoft-azure-integration-services-disasterrecoveryconfigs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Disaster Recovery Configs API
+  slug: microsoft-azure-integration-services-disasterrecoveryconfigs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-disasterrecoveryconfigs-api-openapi.yml
+- filename: microsoft-azure-integration-services-domains-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Domains API
+  slug: microsoft-azure-integration-services-domains-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-domains-api-openapi.yml
+- filename: microsoft-azure-integration-services-domaintopics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Domain Topics API
+  slug: microsoft-azure-integration-services-domaintopics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-domaintopics-api-openapi.yml
+- filename: microsoft-azure-integration-services-migrationconfigs-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Migration Configs API
+  slug: microsoft-azure-integration-services-migrationconfigs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-migrationconfigs-api-openapi.yml
+- filename: microsoft-azure-integration-services-namespaces-authorizationrule-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Namespaces AuthorizationRule API
+  slug: microsoft-azure-integration-services-namespaces-authorizationrule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-namespaces-authorizationrule-api-openapi.yml
+- filename: microsoft-azure-integration-services-namespacetopics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Namespace Topics API
+  slug: microsoft-azure-integration-services-namespacetopics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-namespacetopics-api-openapi.yml
+- filename: microsoft-azure-integration-services-networksecurityperimeterconfigurations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Network Security Perimeter Configurations API
+  slug: microsoft-azure-integration-services-networksecurityperimeterconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-networksecurityperimeterconfigurations-api-openapi.yml
+- filename: microsoft-azure-integration-services-partnernamespaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Partner Namespaces API
+  slug: microsoft-azure-integration-services-partnernamespaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-partnernamespaces-api-openapi.yml
+- filename: microsoft-azure-integration-services-partnerregistrations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Partner Registrations API
+  slug: microsoft-azure-integration-services-partnerregistrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-partnerregistrations-api-openapi.yml
+- filename: microsoft-azure-integration-services-partnertopics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Partner Topics API
+  slug: microsoft-azure-integration-services-partnertopics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-partnertopics-api-openapi.yml
+- filename: microsoft-azure-integration-services-permissionbindings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Permission Bindings API
+  slug: microsoft-azure-integration-services-permissionbindings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-permissionbindings-api-openapi.yml
+- filename: microsoft-azure-integration-services-privatelinkresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Private Link Resources API
+  slug: microsoft-azure-integration-services-privatelinkresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-privatelinkresources-api-openapi.yml
+- filename: microsoft-azure-integration-services-queues-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Queues API
+  slug: microsoft-azure-integration-services-queues-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-queues-api-openapi.yml
+- filename: microsoft-azure-integration-services-rules-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Rules API
+  slug: microsoft-azure-integration-services-rules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-rules-api-openapi.yml
+- filename: microsoft-azure-integration-services-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Subscriptions API
+  slug: microsoft-azure-integration-services-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-subscriptions-api-openapi.yml
+- filename: microsoft-azure-integration-services-systemtopics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services System Topics API
+  slug: microsoft-azure-integration-services-systemtopics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-systemtopics-api-openapi.yml
+- filename: microsoft-azure-integration-services-topicspaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Topic Spaces API
+  slug: microsoft-azure-integration-services-topicspaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-topicspaces-api-openapi.yml
+- filename: microsoft-azure-integration-services-topictypes-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Topic Types API
+  slug: microsoft-azure-integration-services-topictypes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-topictypes-api-openapi.yml
+- filename: microsoft-azure-integration-services-verifiedpartners-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Verified Partners API
+  slug: microsoft-azure-integration-services-verifiedpartners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-verifiedpartners-api-openapi.yml
+- filename: microsoft-azure-integration-services-event-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Event Subscriptions API
+  slug: microsoft-azure-integration-services-event-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-event-subscriptions-api-openapi.yml
+- filename: microsoft-azure-integration-services-namespaces-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Namespaces API
+  slug: microsoft-azure-integration-services-namespaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-namespaces-api-openapi.yml
 - filename: microsoft-azure-integration-services-operations-api-openapi.yml
   format: yaml
   label: Microsoft Azure Integration Services Operations API
   slug: microsoft-azure-integration-services-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-operations-api-openapi.yml
-- filename: microsoft-azure-integration-services-azure-api-management-openapi.yml
+- filename: microsoft-azure-integration-services-partner-configurations-api-openapi.yml
   format: yaml
-  label: Azure API Management
-  slug: microsoft-azure-integration-services-services-api
+  label: Microsoft Azure Integration Services Partner Configurations API
+  slug: microsoft-azure-integration-services-partner-configurations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-azure-api-management-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-partner-configurations-api-openapi.yml
+- filename: microsoft-azure-integration-services-private-endpoint-connections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Private Endpoint Connections API
+  slug: microsoft-azure-integration-services-private-endpoint-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-private-endpoint-connections-api-openapi.yml
+- filename: microsoft-azure-integration-services-topics-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Integration Services Topics API
+  slug: microsoft-azure-integration-services-topics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-integration-services/openapi/microsoft-azure-integration-services-topics-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Alderinvoices Com Authentication
+name: Alder Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Alder declares 0 security scheme(s) across its OpenAPI definitions.

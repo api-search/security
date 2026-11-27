@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Bureau Of Ocean Energy Management Authentication
+name: Bureau of Ocean Energy Management Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bureau of Ocean Energy Management declares 1 security scheme(s) across its OpenAPI definitions.

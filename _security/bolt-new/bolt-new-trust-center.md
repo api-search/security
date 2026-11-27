@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bolt New Trust Center
+name: Bolt.new Trust Center
 name_suffix: Trust Center
 overview: Bolt.new maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Bolt.new

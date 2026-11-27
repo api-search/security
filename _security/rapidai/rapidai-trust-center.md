@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Rapidai Trust Center
+name: RapidAI Trust Center
 name_suffix: Trust Center
 overview: RapidAI maintains a public trust center documenting HIPAA, GDPR, ISO 13485, ISO 27001, ISO 27701, ISO 42001, SOC 2 Type 2, and CSA STAR compliance.
 provider_name: RapidAI

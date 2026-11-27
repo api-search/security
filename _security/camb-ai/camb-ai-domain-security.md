@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: camb-ai-dubbing-api-openapi.yml
+- filename: camb-ai-fastapi-api-openapi.yml
   format: yaml
-  label: Camb.AI Dubbing API
-  slug: camb-ai-dubbing-api
+  label: Camb.AI Fast API
+  slug: camb-ai-fastapi-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-dubbing-api-openapi.yml
-- filename: camb-ai-languages-api-openapi.yml
-  format: yaml
-  label: Camb.AI Languages API
-  slug: camb-ai-languages-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-languages-api-openapi.yml
-- filename: camb-ai-text-to-speech-api-openapi.yml
-  format: yaml
-  label: Camb.AI Text-to-Speech API
-  slug: camb-ai-text-to-speech-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-text-to-speech-api-openapi.yml
-- filename: camb-ai-transcription-api-openapi.yml
-  format: yaml
-  label: Camb.AI Transcription API
-  slug: camb-ai-transcription-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-transcription-api-openapi.yml
-- filename: camb-ai-translation-api-openapi.yml
-  format: yaml
-  label: Camb.AI Translation API
-  slug: camb-ai-translation-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-translation-api-openapi.yml
-- filename: camb-ai-voices-api-openapi.yml
-  format: yaml
-  label: Camb.AI Voices API
-  slug: camb-ai-voices-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-voices-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-fastapi-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -66,7 +36,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Camb Ai Domain Security
+name: Camb.AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Camb.AI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Camb.AI

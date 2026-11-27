@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 1F4Bc Ai Authentication
+name: 1F4BC Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 1F4BC declares 1 security scheme(s) across its OpenAPI definitions.

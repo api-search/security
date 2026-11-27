@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Jit Fka Cbrix Authentication
+name: Jit (fka Cbrix) Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Debridge Com Authentication
+name: deBridge Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: deBridge declares 1 security scheme(s) across its OpenAPI definitions.

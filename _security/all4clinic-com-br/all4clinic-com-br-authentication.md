@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: All4Clinic Com Br Authentication
+name: All4Clinic Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: All4Clinic declares 0 security scheme(s) across its OpenAPI definitions.

@@ -104,6 +104,12 @@ api_specs:
   slug: figma-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/figma/openapi/figma-webhooks-api-openapi.yml
+- filename: figma-teams-api-openapi.yml
+  format: yaml
+  label: Figma Teams API
+  slug: figma-teams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-teams-api-openapi.yml
 - filename: figma-o-embed-api-openapi.yml
   format: yaml
   label: Figma o Embed API
@@ -111,68 +117,63 @@ api_specs:
   spec_type: OpenAPI
   url: https://artifacts.apis.io/figma/openapi/figma-o-embed-api-openapi.yml
 auth_types:
-- http
 - oauth2
+- apiKey
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 2
-method: derived
+mechanism_count: 3
+method: searched
 name: Figma Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: Figma secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+overview: Figma secures its APIs with oauth2 and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
 provider_name: Figma
 provider_slug: figma
-scheme_count: 2
+scheme_count: 3
 schemes:
-- flows:
+- docs: https://developers.figma.com/docs/rest-api/oauth-apps/
+  flows:
   - authorizationUrl: https://www.figma.com/oauth
+    client_auth: 'Authorization: Basic <BASE64_ENCODED_CLIENT_ID_AND_SECRET>'
+    code_lifetime: Authentication codes expire 30 seconds after being issued
     flow: authorizationCode
-    scopes: 1
+    pkce: optional; S256 only
     tokenUrl: https://api.figma.com/v1/oauth/token
-  name: OrgOAuth2
-  sources:
-  - openapi/figma-activity-logs-api-openapi.yml
-  - openapi/figma-analytics-api-openapi.yml
-  - openapi/figma-api-openapi.yml
-  - openapi/figma-component-sets-api-openapi.yml
-  - openapi/figma-dev-resources-api-openapi.yml
-  - openapi/figma-files-api-openapi.yml
-  - openapi/figma-images-api-openapi.yml
-  - openapi/figma-me-api-openapi.yml
-  - openapi/figma-projects-api-openapi.yml
-  - openapi/figma-rest-api-openapi.yml
-  - openapi/figma-styles-api-openapi.yml
-  - openapi/figma-teams-api-openapi.yml
+  name: OAuth2
+  note: Token response includes access token expiration in seconds; refresh flow documented. Figma for Government uses a separate api.figma-gov host.
+  required_for:
+  - Activity Logs API
+  - Discovery API
+  - Embed API
+  scopes_ref: scopes/figma-scopes.yml
+  spec_sources:
+  - OAuth2
+  - OrgOAuth2 securitySchemes in openapi/*.yml
   type: oauth2
-- bearerFormat: Figma Personal Access Token
-  description: Personal Access Token for authentication
+  usage: 'Authorization: Bearer <TOKEN>'
+- docs: https://developers.figma.com/docs/rest-api/plan-access-tokens/
+  header: X-Figma-Token
+  in: header
+  name: PlanAccessToken
+  note: 'Scoped to an Organization or Enterprise plan, not tied to a user; managed by plan administrators; optional resource allowlist; max expiration of 1 year. Categories: REST API, npm registry, Figma CLI (fixed scope set). REST API tokens cannot call endpoints requiring file_code_connect:write, file_variables:write, file_comments:write, /v1/me or /v1/oembed.'
+  type: apiKey
+- docs: https://developers.figma.com/docs/rest-api/personal-access-tokens/
+  header: X-Figma-Token
+  in: header
   name: PersonalAccessToken
-  scheme: bearer
-  sources:
-  - openapi/figma-analytics-api-openapi.yml
-  - openapi/figma-api-openapi.yml
-  - openapi/figma-component-sets-api-openapi.yml
-  - openapi/figma-dev-resources-api-openapi.yml
-  - openapi/figma-files-api-openapi.yml
-  - openapi/figma-images-api-openapi.yml
-  - openapi/figma-me-api-openapi.yml
-  - openapi/figma-payments-api-openapi.yml
-  - openapi/figma-projects-api-openapi.yml
-  - openapi/figma-rest-api-openapi.yml
-  - openapi/figma-styles-api-openapi.yml
-  - openapi/figma-teams-api-openapi.yml
-  type: http
+  note: Acts as the user who generated it; expiration and scopes set at creation.
+  type: apiKey
 slug: figma-authentication
 source_filename: figma-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/figma-activity-logs-api-openapi.yml, openapi/figma-analytics-api-openapi.yml,\n  openapi/figma-api-openapi.yml, openapi/figma-component-sets-api-openapi.yml, openapi/figma-dev-resources-api-openapi.yml,\n  openapi/figma-files-api-openapi.yml, openapi/figma-images-api-openapi.yml, openapi/figma-me-api-openapi.yml,\n  openapi/figma-payments-api-openapi.yml, openapi/figma-projects-api-openapi.yml, openapi/figma-rest-api-openapi.yml,\n  openapi/figma-styles-api-openapi.yml ...\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: OrgOAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://api.figma.com/v1/oauth/token\n    scopes: 1\n  sources:\n  - openapi/figma-activity-logs-api-openapi.yml\n  - openapi/figma-analytics-api-openapi.yml\n  - openapi/figma-api-openapi.yml\n  - openapi/figma-component-sets-api-openapi.yml\n\
-  \  - openapi/figma-dev-resources-api-openapi.yml\n  - openapi/figma-files-api-openapi.yml\n  - openapi/figma-images-api-openapi.yml\n  - openapi/figma-me-api-openapi.yml\n  - openapi/figma-projects-api-openapi.yml\n  - openapi/figma-rest-api-openapi.yml\n  - openapi/figma-styles-api-openapi.yml\n  - openapi/figma-teams-api-openapi.yml\n- name: PersonalAccessToken\n  type: http\n  scheme: bearer\n  bearerFormat: Figma Personal Access Token\n  description: Personal Access Token for authentication\n  sources:\n  - openapi/figma-analytics-api-openapi.yml\n  - openapi/figma-api-openapi.yml\n  - openapi/figma-component-sets-api-openapi.yml\n  - openapi/figma-dev-resources-api-openapi.yml\n  - openapi/figma-files-api-openapi.yml\n  - openapi/figma-images-api-openapi.yml\n  - openapi/figma-me-api-openapi.yml\n  - openapi/figma-payments-api-openapi.yml\n  - openapi/figma-projects-api-openapi.yml\n  - openapi/figma-rest-api-openapi.yml\n  - openapi/figma-styles-api-openapi.yml\n  - openapi/figma-teams-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-12'\nmethod: searched\nsource: https://developers.figma.com/docs/rest-api/authentication/\ndocs: https://developers.figma.com/docs/rest-api/authentication/\nsummary:\n  types:\n  - oauth2\n  - apiKey\n  oauth2_flows:\n  - authorizationCode\n  recommended: OAuth app (OAuth 2)\nschemes:\n- name: OAuth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://www.figma.com/oauth\n    tokenUrl: https://api.figma.com/v1/oauth/token\n    pkce: optional; S256 only\n    code_lifetime: Authentication codes expire 30 seconds after being issued\n    client_auth: 'Authorization: Basic <BASE64_ENCODED_CLIENT_ID_AND_SECRET>'\n  usage: 'Authorization: Bearer <TOKEN>'\n  scopes_ref: scopes/figma-scopes.yml\n  required_for:\n  - Activity Logs API\n  - Discovery API\n  - Embed API\n  note: Token response includes access token expiration in seconds; refresh flow documented. Figma for\n    Government uses a separate api.figma-gov host.\n  docs:\
+  \ https://developers.figma.com/docs/rest-api/oauth-apps/\n  spec_sources:\n  - OAuth2\n  - OrgOAuth2 securitySchemes in openapi/*.yml\n- name: PlanAccessToken\n  type: apiKey\n  in: header\n  header: X-Figma-Token\n  note: 'Scoped to an Organization or Enterprise plan, not tied to a user; managed by plan administrators;\n    optional resource allowlist; max expiration of 1 year. Categories: REST API, npm registry, Figma CLI\n    (fixed scope set). REST API tokens cannot call endpoints requiring file_code_connect:write, file_variables:write,\n    file_comments:write, /v1/me or /v1/oembed.'\n  docs: https://developers.figma.com/docs/rest-api/plan-access-tokens/\n- name: PersonalAccessToken\n  type: apiKey\n  in: header\n  header: X-Figma-Token\n  note: Acts as the user who generated it; expiration and scopes set at creation.\n  docs: https://developers.figma.com/docs/rest-api/personal-access-tokens/\ndocs_pages:\n- https://developers.figma.com/docs/rest-api/oauth-apps/\n- https://developers.figma.com/docs/rest-api/plan-access-tokens/\n\
+  - https://developers.figma.com/docs/rest-api/personal-access-tokens/\n- https://developers.figma.com/docs/rest-api/scopes/\n"
 source_yaml_url: https://artifacts.apis.io/figma/authentication/figma-authentication.yml
-summary_line: http/oauth2 · 2 schemes
+summary_line: oauth2/apiKey · 3 schemes
 tags:
 - Collaboration
 - Design

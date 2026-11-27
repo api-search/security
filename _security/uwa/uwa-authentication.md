@@ -19,7 +19,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Uwa Authentication
+name: University of Western Australia Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Western Australia secures its APIs with none, apiKey, and saml2 across 3 declared security schemes, as derived from its OpenAPI definitions.

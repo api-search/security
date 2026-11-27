@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cataractsurgerycost Co Uk Authentication
+name: Cataract Surgery Cost Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cataract Surgery Cost secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

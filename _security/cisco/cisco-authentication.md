@@ -29,13 +29,13 @@ schemes:
   name: apiKeyAuth
   parameter: X-Cisco-Meraki-API-Key
   sources:
-  - https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-organizations-api-openapi.json
+  - https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-organizations-api-openapi.json
   type: apiKey
 slug: cisco-authentication
 source_filename: cisco-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-organizations-api-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Cisco-Meraki-API-Key\n  description: Meraki Dashboard API key.\n  sources:\n  - https://raw.githubusercontent.com/api-evangelist/cisco-meraki/refs/heads/main/openapi/cisco-meraki-organizations-api-openapi.json\n"
+source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-organizations-api-openapi.json\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: apiKeyAuth\n  type: apiKey\n  in: header\n  parameter: X-Cisco-Meraki-API-Key\n  description: Meraki Dashboard API key.\n  sources:\n  - https://artifacts.apis.io/cisco-meraki/openapi/cisco-meraki-organizations-api-openapi.json\n"
 source_yaml_url: https://artifacts.apis.io/cisco/authentication/cisco-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

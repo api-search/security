@@ -67,7 +67,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Home Connect Domain Security
+name: Home Connect (BSH appliances) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Home Connect (BSH appliances), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Home Connect (BSH appliances)

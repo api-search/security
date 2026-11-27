@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agvantage Authentication
+name: AgVantage Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgVantage declares 0 security scheme(s) across its OpenAPI definitions.

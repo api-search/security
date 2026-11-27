@@ -36,18 +36,6 @@ api_specs:
   slug: decart-realtime-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/decart/openapi/decart-realtime-api-openapi.yml
-- filename: decart-verify-api-openapi.yml
-  format: yaml
-  label: Decart Verify API
-  slug: decart-verify-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/decart/openapi/decart-verify-api-openapi.yml
-- filename: decart-watch-stream-api-openapi.yml
-  format: yaml
-  label: Decart Watch Stream API
-  slug: decart-watch-stream-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/decart/openapi/decart-watch-stream-api-openapi.yml
 description: ''
 domains:
 - caa: []

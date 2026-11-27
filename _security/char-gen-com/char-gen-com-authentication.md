@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Char Gen Com Authentication
+name: CharGen Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CharGen declares 1 security scheme(s) across its OpenAPI definitions.

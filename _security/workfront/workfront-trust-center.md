@@ -52,7 +52,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Workfront Trust Center
+name: Adobe Workfront Trust Center
 name_suffix: Trust Center
 overview: Adobe Workfront maintains a public trust center documenting SOC 2 Type 2 (Security, Availability & Confidentiality), SOC 3 (Security, Availability & Confidentiality), ISO 9001:2015, ISO 27001:2022, ISO 27017:2015, ISO 27018:2019, ISO 22301:2019, HIPAA ready, IRAP Assessed (Australia), GLBA ready, and FERPA ready compliance.
 provider_name: Adobe Workfront

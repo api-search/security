@@ -66,25 +66,24 @@ api_specs:
   slug: nhost-verification-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/nhost/openapi/nhost-verification-api-openapi.yml
-certification_count: 2
+certification_count: 1
 certifications:
 - SOC 2
-- HIPAA
 description: ''
 kind: trust-center
 layout: security
 name: Nhost Trust Center
 name_suffix: Trust Center
-overview: Nhost maintains a public trust center documenting SOC 2 and HIPAA compliance.
+overview: Nhost maintains a public trust center documenting SOC 2 compliance.
 provider_name: Nhost
 provider_slug: nhost
 slug: nhost-trust-center
 source_filename: nhost-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://nhost.io/security\nurl: https://nhost.io/security\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://nhost.io/security\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\n"
+source_yaml: "generated: '2026-07-11'\nmethod: searched\nprobe: true\nsource: https://nhost.io/security\nurl: https://nhost.io/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://nhost.io/security\n  keywords:\n  - soc 2\n  - soc2\n  - hipaa\ncertifications_in_progress:\n- HIPAA\ncertification_quotes:\n  HIPAA: port directly through the | Nhost Dashboard | . | HIPAA (coming soon) | Nhost is working towards\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/nhost/security/nhost-trust-center.yml
-summary_line: SOC 2, HIPAA
+summary_line: SOC 2
 tags:
 - GraphQL
 - PostgreSQL

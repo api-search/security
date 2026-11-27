@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Farmbot Monitoring Authentication
+name: Farmbot Monitoring Solutions Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Farmbot Monitoring Solutions declares 1 security scheme(s) across its OpenAPI definitions.

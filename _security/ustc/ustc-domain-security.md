@@ -40,7 +40,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Ustc Domain Security
+name: University of Science and Technology of China Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for University of Science and Technology of China, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: University of Science and Technology of China

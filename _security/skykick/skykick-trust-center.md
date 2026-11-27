@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Skykick Trust Center
+name: SkyKick Trust Center
 name_suffix: Trust Center
 overview: SkyKick maintains a public trust center documenting ISO/IEC 27001:2013, ISO/IEC 27701:2019, Cloud Security Alliance STAR Level 2, SOC 2, and SOC 3 compliance.
 provider_name: SkyKick

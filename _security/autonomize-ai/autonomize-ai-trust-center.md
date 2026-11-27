@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Autonomize Ai Trust Center
+name: Autonomize AI Trust Center
 name_suffix: Trust Center
 overview: Autonomize AI maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Autonomize AI

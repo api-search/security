@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Filingpulse Io Authentication
+name: FilingPulse Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FilingPulse declares 1 security scheme(s) across its OpenAPI definitions.
@@ -77,7 +77,7 @@ tags:
 - 8-K
 - S-1 / IPO Registrations
 - Financial Data
-- Webhooks
+- Webhook
 - REST API
 - MCP Server
 ---

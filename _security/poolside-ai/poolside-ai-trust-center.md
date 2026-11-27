@@ -19,7 +19,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Poolside Ai Trust Center
+name: Poolside Trust Center
 name_suffix: Trust Center
 overview: Poolside maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Poolside

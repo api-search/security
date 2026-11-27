@@ -414,7 +414,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 8X8 Trust Center
+name: 8x8 Trust Center
 name_suffix: Trust Center
 overview: 8x8 maintains a public trust center documenting SOC 2 Type II, ISO 27001:2022, ISO 27017:2015, ISO 27018:2019, CSA Cyber Trust Certificate, HIPAA, and Cyber Essentials Plus (CE+) compliance.
 provider_name: 8x8

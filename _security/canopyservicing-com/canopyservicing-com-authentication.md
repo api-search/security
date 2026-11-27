@@ -200,7 +200,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Canopyservicing Com Authentication
+name: Canopy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Canopy declares 1 security scheme(s) across its OpenAPI definitions.

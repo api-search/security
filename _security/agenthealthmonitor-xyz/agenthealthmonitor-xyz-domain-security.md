@@ -112,7 +112,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Agenthealthmonitor Xyz Domain Security
+name: Agent Health Monitor Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Agent Health Monitor, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Agent Health Monitor

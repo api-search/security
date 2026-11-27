@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Isgenai Authentication
+name: isGenAI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: isGenAI declares 0 security scheme(s) across its OpenAPI definitions.

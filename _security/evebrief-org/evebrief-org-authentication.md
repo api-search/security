@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Evebrief Org Authentication
+name: openclaw / evm-lab Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: openclaw / evm-lab declares 0 security scheme(s) across its OpenAPI definitions.

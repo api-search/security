@@ -14,7 +14,7 @@ certifications:
 description: CentralReach publishes its security and compliance posture on its security page. No dedicated trust-portal subdomain (trust.centralreach.com) was found; the security page serves as the trust surface.
 kind: trust-center
 layout: security
-name: Centralreach Trust Center
+name: CentralReach Trust Center
 name_suffix: Trust Center
 overview: CentralReach maintains a public trust center documenting SOC 2, HIPAA, PCI DSS, FERPA, GDPR, UK GDPR, EU-U.S. Data Privacy Framework, Swiss-U.S. Data Privacy Framework, UK Data Privacy Framework, and PIPEDA compliance.
 provider_name: CentralReach

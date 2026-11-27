@@ -75,7 +75,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Znanylekarz Authentication
+name: ZnanyLekarz Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

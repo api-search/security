@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Newcore Trust Center
+name: NewCore Trust Center
 name_suffix: Trust Center
 overview: NewCore maintains a public trust center documenting SOC 2 Type II, CSA STAR Level 1, GDPR, and CCPA compliance.
 provider_name: NewCore

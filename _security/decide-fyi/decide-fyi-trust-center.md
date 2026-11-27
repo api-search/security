@@ -84,26 +84,23 @@ api_specs:
   slug: decide-fyi-verification-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/decide-fyi/openapi/decide-fyi-verification-api-openapi.yml
-certification_count: 3
-certifications:
-- SOC 2
-- ISO 27001
-- HIPAA
+certification_count: 0
+certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Decide Fyi Trust Center
+name: decide-fyi Trust Center
 name_suffix: Trust Center
-overview: decide-fyi maintains a public trust center documenting SOC 2, ISO 27001, and HIPAA compliance.
+overview: decide-fyi maintains a public trust center covering its security and compliance posture.
 provider_name: decide-fyi
 provider_slug: decide-fyi
 slug: decide-fyi-trust-center
 source_filename: decide-fyi-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-29'\nmethod: searched\nprobe: true\nsource: https://www.decide.fyi/resources/trust\nurl: https://www.decide.fyi/resources/trust\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\nevidence:\n- source: https://www.decide.fyi/resources/trust\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - trust center\n"
+source_yaml: "generated: '2026-10-29'\nmethod: searched\nprobe: true\nsource: https://www.decide.fyi/resources/trust\nurl: https://www.decide.fyi/resources/trust\ncertifications: []\nevidence:\n- source: https://www.decide.fyi/resources/trust\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - trust center\ncertifications_not_held:\n- SOC 2\n- ISO 27001\n- HIPAA\ncertification_quotes:\n  SOC 2: fast without duplicating specs across pages. | No SOC 2,\n  ISO 27001: fast without duplicating specs across pages. | No SOC 2, ISO 27001, HIPAA, PCI, or regulated-industry\n    suitability claim is made on this public\n  HIPAA: fast without duplicating specs across pages. | No SOC 2, ISO 27001, HIPAA, PCI, or regulated-industry\n    suitability claim is made on this public\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/decide-fyi/security/decide-fyi-trust-center.yml
-summary_line: SOC 2, ISO 27001, HIPAA
+summary_line: trust center published
 tags:
 - Decision API
 - Rule Engine

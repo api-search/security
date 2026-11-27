@@ -13,7 +13,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Sap Bw Authentication
+name: SAP BW Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -26,7 +26,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Typingdna Trust Center
+name: TypingDNA Trust Center
 name_suffix: Trust Center
 overview: TypingDNA maintains a public trust center documenting ISO 27001, ISO 27017, and ISO 27018 compliance.
 provider_name: TypingDNA

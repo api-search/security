@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ranger Ai Trust Center
+name: Ranger AI Trust Center
 name_suffix: Trust Center
 overview: Ranger AI maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Ranger AI

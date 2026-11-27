@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: To The Market Authentication
+name: TO THE MARKET Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

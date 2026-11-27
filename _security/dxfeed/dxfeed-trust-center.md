@@ -198,7 +198,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dxfeed Trust Center
+name: dxFeed Trust Center
 name_suffix: Trust Center
 overview: dxFeed maintains a public trust center documenting SOC 2 compliance.
 provider_name: dxFeed

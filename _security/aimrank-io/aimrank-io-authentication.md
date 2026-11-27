@@ -274,7 +274,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Aimrank Io Authentication
+name: AimRank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AimRank secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

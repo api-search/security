@@ -128,7 +128,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bellatorsi Com Authentication
+name: Bellator Schedule Intelligence Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bellator Schedule Intelligence declares 2 security scheme(s) across its OpenAPI definitions.

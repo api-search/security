@@ -452,7 +452,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Archestra Authentication
+name: Archestra AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Archestra AI declares 5 security scheme(s) across its OpenAPI definitions.

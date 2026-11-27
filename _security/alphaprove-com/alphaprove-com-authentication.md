@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Alphaprove Com Authentication
+name: AlphaProve Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AlphaProve declares 1 security scheme(s) across its OpenAPI definitions.

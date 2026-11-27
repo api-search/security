@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gem Com Trust Center
+name: Gem Trust Center
 name_suffix: Trust Center
 overview: Gem maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: Gem

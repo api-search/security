@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Augworlds Ai Authentication
+name: Travel World Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Travel World secures its APIs with oauth2 and http across 3 declared security schemes, as derived from its OpenAPI definitions.

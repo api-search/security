@@ -495,7 +495,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cal Com Trust Center
+name: Cal.com Trust Center
 name_suffix: Trust Center
 overview: Cal.com maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Cal.com

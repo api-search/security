@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Admitbase Com Authentication
+name: AdmitBase Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AdmitBase declares 0 security scheme(s) across its OpenAPI definitions.

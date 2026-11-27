@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Chatrail Dev Authentication
+name: chatrail-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: chatrail-dev declares 2 security scheme(s) across its OpenAPI definitions.

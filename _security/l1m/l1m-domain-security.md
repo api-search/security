@@ -16,7 +16,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: L1M Domain Security
+name: l1m.io Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for l1m.io, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: l1m.io

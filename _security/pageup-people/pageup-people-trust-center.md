@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pageup People Trust Center
+name: PageUp People Trust Center
 name_suffix: Trust Center
 overview: PageUp People maintains a public trust center documenting ISO/IEC 27001:2022 and Texas RAMP compliance.
 provider_name: PageUp People

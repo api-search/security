@@ -400,7 +400,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Inference Sh Trust Center
+name: inference-sh Trust Center
 name_suffix: Trust Center
 overview: inference-sh maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: inference-sh

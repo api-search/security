@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Askeditor Com Authentication
+name: AskEditor Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AskEditor declares 1 security scheme(s) across its OpenAPI definitions.

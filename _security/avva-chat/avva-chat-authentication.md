@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Avva Chat Authentication
+name: avva Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: avva declares 0 security scheme(s) across its OpenAPI definitions.

@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Chainflip Broker Io Authentication
+name: Chainflip Broker as a Service Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Chainflip Broker as a Service declares 1 security scheme(s) across its OpenAPI definitions.

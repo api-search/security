@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Apexcharts Com Authentication
+name: ApexCharts Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ApexCharts declares 0 security scheme(s) across its OpenAPI definitions.

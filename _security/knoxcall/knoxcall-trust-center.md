@@ -144,30 +144,27 @@ api_specs:
   slug: knoxcall-wrap-credentials-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/knoxcall/openapi/knoxcall-wrap-credentials-api-openapi.yml
-certification_count: 7
+certification_count: 3
 certifications:
 - SOC 2
-- ISO 27001
-- ISO 27017
-- ISO 27018
 - PCI DSS
-- HIPAA
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Knoxcall Trust Center
+name: KnoxCall Trust Center
 name_suffix: Trust Center
-overview: KnoxCall maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, and GDPR compliance.
+overview: KnoxCall maintains a public trust center documenting SOC 2, PCI DSS, and GDPR compliance.
 provider_name: KnoxCall
 provider_slug: knoxcall
 slug: knoxcall-trust-center
 source_filename: knoxcall-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-18'\nmethod: searched\nprobe: true\nsource: https://knoxcall.com/trust\nurl: https://knoxcall.com/trust\ncertifications:\n- SOC 2\n- ISO 27001\n- ISO 27017\n- ISO 27018\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://knoxcall.com/trust\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-18'\nmethod: searched\nprobe: true\nsource: https://knoxcall.com/trust\nurl: https://knoxcall.com/trust\ncertifications:\n- SOC 2\n- PCI DSS\n- GDPR\nevidence:\n- source: https://knoxcall.com/trust\n  keywords:\n  - soc 2\n  - iso/iec 27001\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\ncertifications_in_progress:\n- ISO 27001\n- ISO 27017\n- ISO 27018\ncertification_quotes:\n  ISO 27001: l&#160;protected] | . | Last updated 2026-10-16 | ISO/IEC 27001:2022 | In progress | Controls\n    documented; the certification audit is\n  ISO 27017: Statement of Applicability available under NDA. | ISO/IEC 27017:2015 (cloud) | In progress\n    | Controls implemented. Shared-responsibil\n  ISO 27018: red-responsibility matrix available on request. | ISO/IEC 27018:2019 (cloud PII) | In progress\n    | Controls implemented. See the | Priv\n  HIPAA: Z Privacy Act 2020 | Compliant | Privacy Policy | HIPAA | Not offered | KnoxCall does not currently\n    offer a Business\
+  \ Associat\ncertifications_not_held:\n- HIPAA\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/knoxcall/security/knoxcall-trust-center.yml
-summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR
+summary_line: SOC 2, PCI DSS, GDPR
 tags:
 - Company
 - API Management

@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Findefend Com Authentication
+name: FinDefend Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FinDefend secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -61,9 +61,9 @@ source_yaml: "generated: '2026-11-08'\nmethod: derived\nsource: openapi/findefen
 source_yaml_url: https://artifacts.apis.io/findefend-com/authentication/findefend-com-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- FinTech
-- SaaS
-- SubscriptionManagement
-- ExpenseTracking
+- Fintech
+- Software-as-a-Service
+- Subscription Management
+- Expense Tracking
 - Automation
 ---

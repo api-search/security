@@ -50,7 +50,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Signwell Trust Center
+name: SignWell Trust Center
 name_suffix: Trust Center
 overview: SignWell maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: SignWell

@@ -404,7 +404,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Fourzerotwo Si Authentication
+name: fourzerotwo-si Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: fourzerotwo-si declares 0 security scheme(s) across its OpenAPI definitions.

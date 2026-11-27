@@ -262,7 +262,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Outsystems Trust Center
+name: OutSystems Trust Center
 name_suffix: Trust Center
 overview: OutSystems maintains a public trust center documenting ISO 27001, ISO 27017, ISO 27018, FedRAMP, and GDPR compliance.
 provider_name: OutSystems

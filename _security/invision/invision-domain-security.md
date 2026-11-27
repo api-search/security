@@ -21,7 +21,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Invision Domain Security
+name: InVision Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for InVision, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: InVision

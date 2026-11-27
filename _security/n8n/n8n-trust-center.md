@@ -139,7 +139,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: N8N Trust Center
+name: n8n Trust Center
 name_suffix: Trust Center
 overview: n8n maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: n8n

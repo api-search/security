@@ -54,7 +54,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Acma Authentication
+name: ACMA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ACMA secures its APIs with none, soap-body-credentials, ssh-key, and session across 5 declared security schemes, as derived from its OpenAPI definitions.

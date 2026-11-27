@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Meok Ai Authentication
+name: meok-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: meok-ai declares 0 security scheme(s) across its OpenAPI definitions.

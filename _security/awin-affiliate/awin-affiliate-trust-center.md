@@ -37,7 +37,7 @@ certifications:
 description: Awin has no dedicated trust centre subdomain - trust.awin.com does not resolve and www.awin.com/gb/security returns 404. What it publishes instead is an "Awin's Approach to Information Security" legal page carrying a named ISO 27001 certification claim and a GDPR processing statement, plus a separate Compliance page and a Privacy page. There is no evidence portal, no downloadable audit report and no subprocessor list found.
 kind: trust-center
 layout: security
-name: Awin Affiliate Trust Center
+name: Awin Trust Center
 name_suffix: Trust Center
 overview: Awin maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: Awin

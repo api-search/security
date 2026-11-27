@@ -202,7 +202,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Uipath Trust Center
+name: UiPath Trust Center
 name_suffix: Trust Center
 overview: UiPath maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, and HIPAA compliance.
 provider_name: UiPath

@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: University Of Illinois Urbana Champaign Authentication
+name: University of Illinois Urbana-Champaign Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Illinois Urbana-Champaign secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Flexgen Power Systems Trust Center
+name: FlexGen Power Systems Trust Center
 name_suffix: Trust Center
 overview: FlexGen Power Systems maintains a public trust center documenting ISO 9001:2015 compliance.
 provider_name: FlexGen Power Systems

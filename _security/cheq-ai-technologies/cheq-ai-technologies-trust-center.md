@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cheq Ai Technologies Trust Center
+name: CHEQ AI Technologies Trust Center
 name_suffix: Trust Center
 overview: CHEQ AI Technologies maintains a public trust center documenting SOC 2, ISO 27001, GDPR, and CSA STAR compliance.
 provider_name: CHEQ AI Technologies

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Subdomain App Authentication
+name: subdomain-app Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: subdomain-app declares 0 security scheme(s) across its OpenAPI definitions.

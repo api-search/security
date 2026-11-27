@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: 1Uphealth Authentication
+name: 1upHealth Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

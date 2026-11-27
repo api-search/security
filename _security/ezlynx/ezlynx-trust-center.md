@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ezlynx Trust Center
+name: EZLynx Trust Center
 name_suffix: Trust Center
 overview: EZLynx maintains a public trust center documenting SOC 2 and CSA STAR compliance.
 provider_name: EZLynx

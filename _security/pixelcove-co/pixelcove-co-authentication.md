@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Pixelcove Co Authentication
+name: pixelcove-co Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: pixelcove-co declares 0 security scheme(s) across its OpenAPI definitions.

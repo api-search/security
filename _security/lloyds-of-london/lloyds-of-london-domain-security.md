@@ -30,7 +30,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Lloyds Of London Domain Security
+name: Lloyd's of London Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Lloyd''s of London, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Lloyd's of London

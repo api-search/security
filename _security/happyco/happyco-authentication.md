@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Happyco Authentication
+name: HappyCo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HappyCo secures its APIs with http-basic across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Replynodes Com Authentication
+name: replynodes-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: replynodes-com declares 1 security scheme(s) across its OpenAPI definitions.

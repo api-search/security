@@ -32,7 +32,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 6Sense Trust Center
+name: 6sense Trust Center
 name_suffix: Trust Center
 overview: 6sense maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: 6sense

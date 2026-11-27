@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Appliedintuition Trust Center
+name: Applied Intuition Trust Center
 name_suffix: Trust Center
 overview: Applied Intuition maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Applied Intuition

@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aivf Trust Center
+name: AiVF Trust Center
 name_suffix: Trust Center
 overview: AiVF maintains a public trust center documenting CE Mark, ISO 27001, ISO 27799, ISO 13485, HIPAA, and GDPR compliance.
 provider_name: AiVF

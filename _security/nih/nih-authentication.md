@@ -71,7 +71,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Nih Authentication
+name: National Institutes of Health (NIH) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: National Institutes of Health (NIH) secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

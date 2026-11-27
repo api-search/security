@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentkey Authentication
+name: AgentKey (Data API Layer) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentKey (Data API Layer) declares 1 security scheme(s) across its OpenAPI definitions.

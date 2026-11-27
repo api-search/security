@@ -67,7 +67,7 @@ hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed
-name: Flyr Labs Domain Security
+name: FLYR Labs Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FLYR Labs, probed live across 7 host(s) and 3 registrable domain(s). 7 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: FLYR Labs

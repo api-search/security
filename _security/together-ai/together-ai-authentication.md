@@ -177,7 +177,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Together Ai Authentication
+name: Together AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Together AI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

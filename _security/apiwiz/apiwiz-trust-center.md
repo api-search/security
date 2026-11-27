@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Apiwiz Trust Center
+name: APIwiz Trust Center
 name_suffix: Trust Center
 overview: APIwiz maintains a public trust center documenting ISO 27001, SOC 2 Type 1, SOC 2 Type 2, SOC 3, HIPAA, CSA STAR Level 1, GDPR, and CCPA compliance.
 provider_name: APIwiz

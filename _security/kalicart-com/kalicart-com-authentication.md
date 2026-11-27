@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Kalicart Com Authentication
+name: kalicart-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: kalicart-com declares 1 security scheme(s) across its OpenAPI definitions.

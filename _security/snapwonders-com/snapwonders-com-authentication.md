@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Snapwonders Com Authentication
+name: snapwonders-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: snapwonders-com declares 1 security scheme(s) across its OpenAPI definitions.
@@ -78,7 +78,7 @@ summary_line: 1 scheme
 tags:
 - Forensics
 - Steganography
-- MediaConversion
+- Media Conversion
 - Privacy
 - Open Source
 ---

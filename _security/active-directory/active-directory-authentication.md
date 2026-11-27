@@ -14,12 +14,6 @@ api_specs:
   slug: active-directory-applications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/active-directory/openapi/active-directory-applications-api-openapi.yml
-- filename: active-directory-groups-api-openapi.yml
-  format: yaml
-  label: Microsoft Active Directory Groups API
-  slug: active-directory-groups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/active-directory/openapi/active-directory-groups-api-openapi.yml
 - filename: active-directory-members-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Members API
@@ -50,6 +44,12 @@ api_specs:
   slug: microsoft-active-directory-directory-roles-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/active-directory/openapi/active-directory-directory-roles-api-openapi.yml
+- filename: active-directory-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Active Directory Groups API
+  slug: active-directory-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-groups-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Active Directory Authentication
+name: Microsoft Active Directory Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

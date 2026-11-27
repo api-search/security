@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Nuvemshop Authentication
+name: Nuvemshop / Tiendanube Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Nuvemshop / Tiendanube secures its APIs with apiKey and oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions.

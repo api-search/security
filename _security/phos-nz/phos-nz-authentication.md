@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Phos Nz Authentication
+name: phos-nz Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: phos-nz declares 0 security scheme(s) across its OpenAPI definitions.

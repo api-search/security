@@ -1,0 +1,159 @@
+---
+api_specs:
+- filename: gatana-ai-artifact-themes-api-openapi.yml
+  format: yaml
+  label: Gatana Artifact Themes API
+  slug: gatana-ai-artifact-themes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-artifact-themes-api-openapi.yml
+- filename: gatana-ai-artifacts-api-openapi.yml
+  format: yaml
+  label: Gatana Artifacts API
+  slug: gatana-ai-artifacts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-artifacts-api-openapi.yml
+- filename: gatana-ai-audit-logs-api-openapi.yml
+  format: yaml
+  label: Gatana Audit Logs API
+  slug: gatana-ai-audit-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-audit-logs-api-openapi.yml
+- filename: gatana-ai-auth-api-openapi.yml
+  format: yaml
+  label: Gatana Auth API
+  slug: gatana-ai-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-auth-api-openapi.yml
+- filename: gatana-ai-connected-clients-api-openapi.yml
+  format: yaml
+  label: Gatana Connected Clients API
+  slug: gatana-ai-connected-clients-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-connected-clients-api-openapi.yml
+- filename: gatana-ai-deployments-api-openapi.yml
+  format: yaml
+  label: Gatana Deployments API
+  slug: gatana-ai-deployments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-deployments-api-openapi.yml
+- filename: gatana-ai-email-verification-api-openapi.yml
+  format: yaml
+  label: Gatana Email Verification API
+  slug: gatana-ai-email-verification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-email-verification-api-openapi.yml
+- filename: gatana-ai-install-predefined-api-openapi.yml
+  format: yaml
+  label: Gatana Install Predefined API
+  slug: gatana-ai-install-predefined-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-install-predefined-api-openapi.yml
+- filename: gatana-ai-mcp-server-usage-api-openapi.yml
+  format: yaml
+  label: Gatana MCP Server Usage API
+  slug: gatana-ai-mcp-server-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-mcp-server-usage-api-openapi.yml
+- filename: gatana-ai-mcp-servers-api-openapi.yml
+  format: yaml
+  label: Gatana MCP Servers API
+  slug: gatana-ai-mcp-servers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-mcp-servers-api-openapi.yml
+- filename: gatana-ai-profiles-api-openapi.yml
+  format: yaml
+  label: Gatana Profiles API
+  slug: gatana-ai-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-profiles-api-openapi.yml
+- filename: gatana-ai-sandboxes-api-openapi.yml
+  format: yaml
+  label: Gatana Sandboxes API
+  slug: gatana-ai-sandboxes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-sandboxes-api-openapi.yml
+- filename: gatana-ai-scim-config-api-openapi.yml
+  format: yaml
+  label: Gatana SCIM Config API
+  slug: gatana-ai-scim-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-scim-config-api-openapi.yml
+- filename: gatana-ai-secret-stores-api-openapi.yml
+  format: yaml
+  label: Gatana Secret Stores API
+  slug: gatana-ai-secret-stores-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-secret-stores-api-openapi.yml
+- filename: gatana-ai-service-accounts-api-openapi.yml
+  format: yaml
+  label: Gatana Service Accounts API
+  slug: gatana-ai-service-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-service-accounts-api-openapi.yml
+- filename: gatana-ai-siem-destination-api-openapi.yml
+  format: yaml
+  label: Gatana Siem Destination API
+  slug: gatana-ai-siem-destination-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-siem-destination-api-openapi.yml
+- filename: gatana-ai-skill-collections-api-openapi.yml
+  format: yaml
+  label: Gatana Skill Collections API
+  slug: gatana-ai-skill-collections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-skill-collections-api-openapi.yml
+- filename: gatana-ai-skills-api-openapi.yml
+  format: yaml
+  label: Gatana Skills API
+  slug: gatana-ai-skills-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-skills-api-openapi.yml
+- filename: gatana-ai-teams-api-openapi.yml
+  format: yaml
+  label: Gatana Teams API
+  slug: gatana-ai-teams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-teams-api-openapi.yml
+- filename: gatana-ai-tenants-api-openapi.yml
+  format: yaml
+  label: Gatana Tenants API
+  slug: gatana-ai-tenants-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-tenants-api-openapi.yml
+- filename: gatana-ai-tools-api-openapi.yml
+  format: yaml
+  label: Gatana Tools API
+  slug: gatana-ai-tools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-tools-api-openapi.yml
+- filename: gatana-ai-users-api-openapi.yml
+  format: yaml
+  label: Gatana Users API
+  slug: gatana-ai-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gatana-ai/openapi/gatana-ai-users-api-openapi.yml
+certification_count: 0
+certifications: []
+description: ''
+kind: trust-center
+layout: security
+name: Gatana Trust Center
+name_suffix: Trust Center
+overview: Gatana maintains a public trust center covering its security and compliance posture.
+provider_name: Gatana
+provider_slug: gatana-ai
+slug: gatana-ai-trust-center
+source_filename: gatana-ai-trust-center.yml
+source_heading: Trust Center
+source_url: ''
+source_yaml: "generated: '2026-11-09'\nmethod: searched\nprobe: true\nsource: https://www.gatana.ai/security\nurl: https://www.gatana.ai/security\ncertifications: []\nevidence:\n- source: https://www.gatana.ai/security\n  keywords:\n  - soc 2\n  - trust center\ncertifications_in_progress:\n- SOC 2\ncertification_quotes:\n  SOC 2: use, and our breach notification commitments. | A SOC 2 examination is currently in progress.\n    The report will be available to\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
+source_yaml_url: https://artifacts.apis.io/gatana-ai/security/gatana-ai-trust-center.yml
+summary_line: trust center published
+tags:
+- Artificial Intelligence
+- Platform
+- MCP
+- Tools
+- Integration
+trust_url: https://www.gatana.ai/security
+---

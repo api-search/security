@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Gigaio Authentication
+name: GigaIO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GigaIO declares 1 security scheme(s) across its OpenAPI definitions.

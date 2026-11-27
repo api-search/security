@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Delta Witness Authentication
+name: DELTA Witness — Trust Layer for Autonomous Actions Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DELTA Witness — Trust Layer for Autonomous Actions declares 2 security scheme(s) across its OpenAPI definitions.
@@ -113,7 +113,7 @@ tags:
 - agent-guardrails
 - preflight-checks
 - x402 Payments
-- Pay-Per-Use
+- Pay-per-use
 - base-usdc
 - Autonomous Agents
 - MCP

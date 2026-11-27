@@ -89,7 +89,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Agnost Ai Trust Center
+name: Agnost AI Trust Center
 name_suffix: Trust Center
 overview: Agnost AI maintains a public trust center covering its security and compliance posture.
 provider_name: Agnost AI

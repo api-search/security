@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: I18Nagent Ai Authentication
+name: i18nagent-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: i18nagent-ai declares 1 security scheme(s) across its OpenAPI definitions.

@@ -265,7 +265,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Integration App Trust Center
+name: Integration.app (Membrane) Trust Center
 name_suffix: Trust Center
 overview: Integration.app (Membrane) maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Integration.app (Membrane)

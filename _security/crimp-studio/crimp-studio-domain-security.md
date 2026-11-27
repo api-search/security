@@ -24,7 +24,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Crimp Studio Domain Security
+name: Crimp Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Crimp, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Crimp
@@ -41,6 +41,6 @@ tags:
 - 12V Systems
 - Marine Electrical
 - Campervan
-- Off-grid
+- Off-Grid
 - Electrical Simulation
 ---

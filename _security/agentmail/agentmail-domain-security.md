@@ -168,6 +168,12 @@ api_specs:
   slug: agentmail-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agentmail/openapi/agentmail-webhooks-api-openapi.yml
+- filename: agentmail-api-reference-api-openapi.yml
+  format: yaml
+  label: AgentMail API Reference API
+  slug: agentmail-api-reference-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-api-reference-api-openapi.yml
 - filename: agentmail-accounts-api-openapi.yml
   format: yaml
   label: AgentMail Accounts API
@@ -250,7 +256,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Agentmail Domain Security
+name: AgentMail Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AgentMail, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
 provider_name: AgentMail

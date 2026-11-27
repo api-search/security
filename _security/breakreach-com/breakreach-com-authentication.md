@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Breakreach Com Authentication
+name: Breakreach Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Breakreach declares 2 security scheme(s) across its OpenAPI definitions.

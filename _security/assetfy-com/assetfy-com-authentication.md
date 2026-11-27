@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Assetfy Com Authentication
+name: Assetfy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Assetfy declares 1 security scheme(s) across its OpenAPI definitions.

@@ -2,6 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: microsoft-azure-signalr-general-api-openapi.yml
+  format: yaml
+  label: Azure SignalR Service General API
+  slug: microsoft-azure-signalr-general-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-general-api-openapi.yml
 - filename: microsoft-azure-signalr-operations-api-openapi.yml
   format: yaml
   label: Azure SignalR Service Operations API
@@ -10,16 +16,10 @@ api_specs:
   url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-operations-api-openapi.yml
 - filename: microsoft-azure-signalr-signalr-api-openapi.yml
   format: yaml
-  label: Azure SignalR Service SignalR API
+  label: Azure SignalR Service Signal R API
   slug: microsoft-azure-signalr-signalr-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-signalr-api-openapi.yml
-- filename: microsoft-azure-signalr-general-api-openapi.yml
-  format: yaml
-  label: Azure SignalR Service General API
-  slug: microsoft-azure-signalr-general-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-general-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Microsoft Azure Signalr Authentication
+name: Azure SignalR Service Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
@@ -43,14 +43,14 @@ schemes:
     scopes: 1
   name: azure_auth
   sources:
-  - openapi/microsoft-azure-signalr-operations-api-openapi.yml
-  - openapi/microsoft-azure-signalr-signalr-api-openapi.yml
+  - openapi/_superseded/microsoft-azure-signalr-operations-api-openapi.yml
+  - openapi/_superseded/microsoft-azure-signalr-signalr-api-openapi.yml
   type: oauth2
 slug: microsoft-azure-signalr-authentication
 source_filename: microsoft-azure-signalr-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-signalr-operations-api-openapi.yml, openapi/microsoft-azure-signalr-signalr-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-signalr-operations-api-openapi.yml\n  - openapi/microsoft-azure-signalr-signalr-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/_superseded/microsoft-azure-signalr-operations-api-openapi.yml, openapi/_superseded/microsoft-azure-signalr-signalr-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/_superseded/microsoft-azure-signalr-operations-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-signalr-signalr-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-signalr/authentication/microsoft-azure-signalr-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

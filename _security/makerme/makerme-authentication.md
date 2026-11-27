@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Makerme Authentication
+name: Maker.me Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Maker.me declares 2 security scheme(s) across its OpenAPI definitions.

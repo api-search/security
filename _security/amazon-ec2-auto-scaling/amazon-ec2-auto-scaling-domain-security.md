@@ -1,11 +1,77 @@
 ---
 api_specs:
-- filename: amazon-ec2-auto-scaling-autoscaling-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-auto-scaling-group-api-openapi.yml
   format: yaml
-  label: Amazon EC2 Auto Scaling Autoscaling API
-  slug: amazon-ec2-auto-scaling-autoscaling-api
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Auto Scaling Group API
+  slug: amazon-ec2-auto-scaling-auto-scaling-group-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-autoscaling-api-openapi.yml
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-auto-scaling-group-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-launch-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Launch Configuration API
+  slug: amazon-ec2-auto-scaling-launch-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-launch-configuration-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-lifecycle-hook-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Lifecycle Hook API
+  slug: amazon-ec2-auto-scaling-lifecycle-hook-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-lifecycle-hook-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-load-balancer-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Load Balancer API
+  slug: amazon-ec2-auto-scaling-load-balancer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-load-balancer-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-load-balancer-target-group-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Load Balancer Target Group API
+  slug: amazon-ec2-auto-scaling-load-balancer-target-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-load-balancer-target-group-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-notification-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Notification Configuration API
+  slug: amazon-ec2-auto-scaling-notification-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-notification-configuration-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-operations-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Operations API
+  slug: amazon-ec2-auto-scaling-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-operations-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-policy-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Policy API
+  slug: amazon-ec2-auto-scaling-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-policy-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-scaling-plan-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Scaling Plan API
+  slug: amazon-ec2-auto-scaling-scaling-plan-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-scaling-plan-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-scheduled-action-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Scheduled Action API
+  slug: amazon-ec2-auto-scaling-scheduled-action-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-scheduled-action-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-traffic-source-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Traffic Source API
+  slug: amazon-ec2-auto-scaling-traffic-source-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-traffic-source-api-openapi.yml
+- filename: amazon-ec2-auto-scaling-warm-pool-api-openapi.yml
+  format: yaml
+  label: Amazon EC2 Auto Scaling Ec2 Auto Scaling Warm Pool API
+  slug: amazon-ec2-auto-scaling-warm-pool-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ec2-auto-scaling/openapi/amazon-ec2-auto-scaling-warm-pool-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -37,7 +103,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Ec2 Auto Scaling Domain Security
+name: Amazon EC2 Auto Scaling Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon EC2 Auto Scaling, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon EC2 Auto Scaling

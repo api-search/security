@@ -143,7 +143,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Congress Gov Domain Security
+name: Congress.gov API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Congress.gov API, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Congress.gov API

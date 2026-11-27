@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Leena Ai Authentication
+name: Leena AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Leena AI declares 4 security scheme(s) across its OpenAPI definitions.

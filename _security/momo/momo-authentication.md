@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Momo Authentication
+name: MoMo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MoMo declares 7 security scheme(s) across its OpenAPI definitions.

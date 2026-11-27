@@ -20,12 +20,6 @@ api_specs:
   slug: npm-downloads-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/npm/openapi/npm-downloads-api-openapi.yml
-- filename: npm-oidc-api-openapi.yml
-  format: yaml
-  label: npm OIDC API
-  slug: npm-oidc-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/npm/openapi/npm-oidc-api-openapi.yml
 - filename: npm-packages-api-openapi.yml
   format: yaml
   label: npm Packages API
@@ -38,12 +32,6 @@ api_specs:
   slug: npm-search-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/npm/openapi/npm-search-api-openapi.yml
-- filename: npm-tokens-api-openapi.yml
-  format: yaml
-  label: npm Tokens API
-  slug: npm-tokens-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/npm/openapi/npm-tokens-api-openapi.yml
 - filename: npm-trusted-publishers-api-openapi.yml
   format: yaml
   label: npm Trusted Publishers API
@@ -92,6 +80,18 @@ api_specs:
   slug: npm-trust-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/npm/openapi/npm-trust-api-openapi.yml
+- filename: npm-oidc-api-openapi.yml
+  format: yaml
+  label: npm OIDC API
+  slug: npm-oidc-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-oidc-api-openapi.yml
+- filename: npm-tokens-api-openapi.yml
+  format: yaml
+  label: npm Tokens API
+  slug: npm-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-tokens-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -99,7 +99,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Npm Authentication
+name: npm Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: npm secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

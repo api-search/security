@@ -237,7 +237,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Constructorio Trust Center
+name: Constructor.io Trust Center
 name_suffix: Trust Center
 overview: Constructor.io maintains a public trust center documenting SOC 2 Type 2, ISO 27001, CCPA, and MACH Certified compliance.
 provider_name: Constructor.io

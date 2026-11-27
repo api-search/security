@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dayai Trust Center
+name: Day.ai Trust Center
 name_suffix: Trust Center
 overview: Day.ai maintains a public trust center documenting SOC 2 compliance.
 provider_name: Day.ai

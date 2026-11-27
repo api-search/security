@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Klisten Co Kr Authentication
+name: klisten-co-kr Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: klisten-co-kr declares 1 security scheme(s) across its OpenAPI definitions.

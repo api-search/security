@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Fintent Ai Authentication
+name: Fintent Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fintent secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -36,7 +36,7 @@ source_yaml: "generated: '2026-11-08'\nmethod: derived\nsource: openapi/fintent-
 source_yaml_url: https://artifacts.apis.io/fintent-ai/authentication/fintent-ai-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - M&A
 - Predictive Analytics
 - Deal Sourcing

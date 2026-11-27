@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Deniaprint Es Authentication
+name: Denia Print Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Denia Print declares 2 security scheme(s) across its OpenAPI definitions.

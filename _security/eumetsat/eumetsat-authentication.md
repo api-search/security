@@ -252,7 +252,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Eumetsat Authentication
+name: EUMETSAT Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit

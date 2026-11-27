@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Autodesk Powermill Trust Center
+name: Autodesk PowerMill Trust Center
 name_suffix: Trust Center
 overview: Autodesk PowerMill maintains a public trust center documenting ISO/IEC 27001 Information Security Management, ISO/IEC 27017 (cloud security controls), ISO/IEC 27018 (cloud PII protection), ISO/IEC 27701 (privacy information management), SOC 2 attestation, and SOC 3 (6-month and 12-month) attestation compliance.
 provider_name: Autodesk PowerMill

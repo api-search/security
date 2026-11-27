@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fastestrank Com Domain Security
+name: FastestRank Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FastestRank, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: FastestRank
@@ -32,8 +32,8 @@ source_yaml_url: https://artifacts.apis.io/fastestrank-com/security/fastestrank-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - SEO
-- AI
-- Rank-Tracking
-- Keyword-Research
-- Backlink-Analysis
+- Rank Tracking
+- Artificial Intelligence
+- Marketing
+- Analytics
 ---

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Arcai Io Authentication
+name: ARC AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ARC AI declares 0 security scheme(s) across its OpenAPI definitions.

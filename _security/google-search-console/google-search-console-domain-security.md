@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: google-search-console-search-analytics-api-openapi.yml
-  format: yaml
-  label: Google Search Console Search Analytics API
-  slug: google-search-console-search-analytics-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-search-analytics-api-openapi.yml
 - filename: google-search-console-sitemaps-api-openapi.yml
   format: yaml
   label: Google Search Console Sitemaps API
@@ -18,18 +12,18 @@ api_specs:
   slug: google-search-console-sites-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-sites-api-openapi.yml
-- filename: google-search-console-url-inspection-api-openapi.yml
+- filename: google-search-console-searchanalytics-api-openapi.yml
+  format: yaml
+  label: Google Search Console Search Console Searchanalytics API
+  slug: google-search-console-searchanalytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-searchanalytics-api-openapi.yml
+- filename: google-search-console-urlinspection-api-openapi.yml
   format: yaml
   label: Google Search Console URL Inspection API
-  slug: google-search-console-url-inspection-api
+  slug: google-search-console-urlinspection-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-url-inspection-api-openapi.yml
-- filename: google-search-console-urlnotifications-api-openapi.yml
-  format: yaml
-  label: Google Search Console URL Notifications API
-  slug: google-search-console-urlnotifications-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-urlnotifications-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-console/openapi/google-search-console-urlinspection-api-openapi.yml
 - filename: google-search-console-urltestingtools-api-openapi.yml
   format: yaml
   label: Google Search Console URL Testing Tools API
@@ -82,7 +76,7 @@ slug: google-search-console-domain-security
 source_filename: google-search-console-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-11-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:09:53 2026 GMT\n  hsts: false\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:07:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: searchconsole.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:09:10 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:09:53 2026 GMT\n  hsts: false\n- host: developers.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:07:41 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: searchconsole.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:09:10 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/google-search-console/security/google-search-console-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

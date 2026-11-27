@@ -134,7 +134,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Radar Cnpj Authentication
+name: Radar CNPJ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Radar CNPJ declares 5 security scheme(s) across its OpenAPI definitions.

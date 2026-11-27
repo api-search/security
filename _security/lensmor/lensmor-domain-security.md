@@ -74,7 +74,7 @@ source_yaml: "generated: '2026-11-02'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/lensmor/security/lensmor-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Event-Intelligence
+- Event Intelligence
 - B2B
 - Software-as-a-Service
 - Lead Generation

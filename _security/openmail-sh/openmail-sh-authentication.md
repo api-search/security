@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Openmail Sh Authentication
+name: openmail-sh Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: openmail-sh declares 1 security scheme(s) across its OpenAPI definitions.

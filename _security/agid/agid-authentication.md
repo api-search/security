@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agid Authentication
+name: AgID (Agenzia per l'Italia Digitale) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgID (Agenzia per l'Italia Digitale) declares 0 security scheme(s) across its OpenAPI definitions.

@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Hotel Engine Authentication
+name: Engine Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Engine secures its APIs with mutualTLS across 1 declared security scheme, as derived from its OpenAPI definitions.

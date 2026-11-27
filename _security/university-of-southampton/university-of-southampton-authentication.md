@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: University Of Southampton Authentication
+name: University of Southampton Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Southampton declares 0 security scheme(s) across its OpenAPI definitions.

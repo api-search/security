@@ -35,7 +35,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Solvela Ai Authentication
+name: Solvela Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Solvela secures its APIs with apiKey and http across 4 declared security schemes, as derived from its OpenAPI definitions.

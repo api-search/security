@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aivideoatlas Com Authentication
+name: AI Video Atlas Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI Video Atlas declares 0 security scheme(s) across its OpenAPI definitions.

@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Agentum Lat Authentication
+name: AGENTUM Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AGENTUM declares 0 security scheme(s) across its OpenAPI definitions.

@@ -8,7 +8,7 @@ api_specs:
   label: Strapi Webhooks
   slug: strapi-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/asyncapi/strapi-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/strapi/asyncapi/strapi-webhooks-asyncapi.yml
 - filename: strapi-admin-authentication-api-openapi.yml
   format: yaml
   label: Strapi Admin Authentication API

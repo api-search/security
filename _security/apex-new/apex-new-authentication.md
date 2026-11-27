@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Apex New Authentication
+name: Apex by LeadShark Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Apex by LeadShark declares 0 security scheme(s) across its OpenAPI definitions.

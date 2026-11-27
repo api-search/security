@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Geant Trust Center
+name: GEANT Trust Center
 name_suffix: Trust Center
 overview: GEANT maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: GEANT

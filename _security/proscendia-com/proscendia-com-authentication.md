@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Proscendia Com Authentication
+name: proscendia-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: proscendia-com declares 0 security scheme(s) across its OpenAPI definitions.

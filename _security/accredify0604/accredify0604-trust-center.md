@@ -149,7 +149,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Accredify0604 Trust Center
+name: Accredify Trust Center
 name_suffix: Trust Center
 overview: Accredify maintains a public trust center documenting ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, CSA STAR CAIQ, ISO 22301, and IMDA Data Protection Trustmark compliance.
 provider_name: Accredify

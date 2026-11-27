@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: forcedream-ai-account-api-openapi.yml
+- filename: forcedream-ai-oracle-api-openapi.yml
   format: yaml
-  label: ForceDream Account API
-  slug: forcedream-ai-account-api
+  label: ForceDream Oracle API
+  slug: forcedream-ai-oracle-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-account-api-openapi.yml
-- filename: forcedream-ai-agents-api-openapi.yml
-  format: yaml
-  label: ForceDream Agents API
-  slug: forcedream-ai-agents-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-agents-api-openapi.yml
-- filename: forcedream-ai-signup-api-openapi.yml
-  format: yaml
-  label: ForceDream Signup API
-  slug: forcedream-ai-signup-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-signup-api-openapi.yml
-- filename: forcedream-ai-workforce-api-openapi.yml
-  format: yaml
-  label: ForceDream Workforce API
-  slug: forcedream-ai-workforce-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-workforce-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-oracle-api-openapi.yml
 certification_count: 3
 certifications:
 - Cyber Essentials Plus
@@ -32,7 +14,7 @@ certifications:
 description: 'A provider-built Trust Centre (not a Vanta/Drata portal) with seven sub-pages. It is unusually candid: the compliance page ticks UK GDPR, Cyber Essentials Plus and FCA Consumer Duty evidence workflows, and marks SOC 2 Type II and ISO/IEC 27001 with a dash and the sentence "ForceDream is not certified" — attributing those to Google Cloud for the London region it runs in. The site footer''s "SOC2 in progress" badge and /v1/capabilities ("soc2":"planned","iso_27001":"planned") agree. The initial keyword probe recorded "SOC 2" from the page text; that is corrected here because the page''s substance is a denial, not a claim.'
 kind: trust-center
 layout: security
-name: Forcedream Ai Trust Center
+name: ForceDream Trust Center
 name_suffix: Trust Center
 overview: ForceDream maintains a public trust center documenting Cyber Essentials Plus, UK GDPR, and FCA Consumer Duty (PS22/9) compliance.
 provider_name: ForceDream

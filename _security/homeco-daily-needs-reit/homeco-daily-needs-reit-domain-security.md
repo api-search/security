@@ -20,7 +20,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Homeco Daily Needs Reit Domain Security
+name: HomeCo Daily Needs REIT Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for HomeCo Daily Needs REIT, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: HomeCo Daily Needs REIT

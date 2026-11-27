@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Appsignal Trust Center
+name: AppSignal Trust Center
 name_suffix: Trust Center
 overview: AppSignal maintains a public trust center documenting ISO 27001, HIPAA, and GDPR compliance.
 provider_name: AppSignal

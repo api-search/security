@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bytechef Authentication
+name: ByteChef Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ByteChef declares 2 security scheme(s) across its OpenAPI definitions.

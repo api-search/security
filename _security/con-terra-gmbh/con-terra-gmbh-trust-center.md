@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Con Terra Gmbh Trust Center
+name: con terra GmbH Trust Center
 name_suffix: Trust Center
 overview: con terra GmbH maintains a public trust center documenting ISO 27001 compliance.
 provider_name: con terra GmbH

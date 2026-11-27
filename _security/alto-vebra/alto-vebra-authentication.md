@@ -185,7 +185,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Alto Vebra Authentication
+name: Alto (Vebra / Zoopla) Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

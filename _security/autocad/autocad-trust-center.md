@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Autocad Trust Center
+name: AutoCAD Trust Center
 name_suffix: Trust Center
 overview: AutoCAD maintains a public trust center documenting SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, GDPR, FedRAMP, and CSA STAR Level 1 compliance.
 provider_name: AutoCAD

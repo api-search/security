@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Taxbit Trust Center
+name: TaxBit Trust Center
 name_suffix: Trust Center
 overview: TaxBit maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: TaxBit

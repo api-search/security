@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Liftlab Trust Center
+name: LiftLab Trust Center
 name_suffix: Trust Center
 overview: LiftLab maintains a public trust center documenting SOC 2, SOC 2 Type II, ISO 27001, ISO 27001:2013, GDPR, and CCPA compliance.
 provider_name: LiftLab

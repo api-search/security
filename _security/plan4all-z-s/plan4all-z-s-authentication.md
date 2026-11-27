@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Plan4All Z S Authentication
+name: Plan4All z.s. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Plan4All z.s. declares 1 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Railway App Trust Center
+name: Railway Trust Center
 name_suffix: Trust Center
 overview: Railway maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Railway

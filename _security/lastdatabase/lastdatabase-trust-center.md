@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lastdatabase Trust Center
+name: LastDatabase Trust Center
 name_suffix: Trust Center
 overview: LastDatabase maintains a public trust center documenting ISO/IEC 27001, GDPR, and CCPA compliance.
 provider_name: LastDatabase

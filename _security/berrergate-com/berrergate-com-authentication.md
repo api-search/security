@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Berrergate Com Authentication
+name: Berrer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Berrer declares 0 security scheme(s) across its OpenAPI definitions.

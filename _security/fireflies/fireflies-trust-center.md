@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fireflies Trust Center
+name: Fireflies.ai Trust Center
 name_suffix: Trust Center
 overview: Fireflies.ai maintains a public trust center documenting SOC 2 Type II, HIPAA, and GDPR compliance.
 provider_name: Fireflies.ai

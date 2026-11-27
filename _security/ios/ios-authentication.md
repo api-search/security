@@ -7,7 +7,7 @@ api_specs:
   label: App Store Server Notifications
   slug: app-store-server-notifications
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/main/asyncapi/app-store-server-notifications-asyncapi.yml
+  url: https://artifacts.apis.io/ios/asyncapi/app-store-server-notifications-asyncapi.yml
 - filename: ios-accessibilitydeclarations-api-openapi.yml
   format: yaml
   label: iOS AccessibilityDeclarations API
@@ -1167,7 +1167,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ios Authentication
+name: iOS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: iOS secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

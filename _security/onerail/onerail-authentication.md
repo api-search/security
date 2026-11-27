@@ -462,7 +462,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: derived
-name: Onerail Authentication
+name: OneRail Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

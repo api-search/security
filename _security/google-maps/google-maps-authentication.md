@@ -4,102 +4,96 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: google-maps-autocomplete-api-openapi.yml
+- filename: google-maps-pollen-forecast-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Autocomplete API
-  slug: google-maps-autocomplete-api
+  label: Google Maps Platform Maps Pollen Forecast API
+  slug: google-maps-pollen-forecast-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-autocomplete-api-openapi.yml
-- filename: google-maps-directions-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-pollen-forecast-api-openapi.yml
+- filename: google-maps-address-validation-v1-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Directions API
-  slug: google-maps-directions-api
+  label: Google Maps Platform Address Validation V1 API
+  slug: google-maps-address-validation-v1-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-directions-api-openapi.yml
-- filename: google-maps-geocoding-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-address-validation-v1-api-openapi.yml
+- filename: google-maps-air-quality-currentconditions-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Geocoding API
-  slug: google-maps-geocoding-api
+  label: Google Maps Platform Air Quality CurrentConditions API
+  slug: google-maps-air-quality-currentconditions-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geocoding-api-openapi.yml
-- filename: google-maps-nearby-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-air-quality-currentconditions-api-openapi.yml
+- filename: google-maps-air-quality-forecast-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Nearby Search API
-  slug: google-maps-nearby-search-api
+  label: Google Maps Platform Air Quality Forecast API
+  slug: google-maps-air-quality-forecast-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-nearby-search-api-openapi.yml
-- filename: google-maps-photos-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-air-quality-forecast-api-openapi.yml
+- filename: google-maps-air-quality-history-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Photos API
-  slug: google-maps-photos-api
+  label: Google Maps Platform Air Quality History API
+  slug: google-maps-air-quality-history-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-photos-api-openapi.yml
-- filename: google-maps-place-details-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-air-quality-history-api-openapi.yml
+- filename: google-maps-air-quality-maptypes-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Place Details API
-  slug: google-maps-place-details-api
+  label: Google Maps Platform Air Quality MapTypes API
+  slug: google-maps-air-quality-maptypes-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-place-details-api-openapi.yml
-- filename: google-maps-text-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-air-quality-maptypes-api-openapi.yml
+- filename: google-maps-area-insights-v1-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Text Search API
-  slug: google-maps-text-search-api
+  label: Google Maps Platform Area Insights V1 API
+  slug: google-maps-area-insights-v1-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-text-search-api-openapi.yml
-- filename: google-maps-directions-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-area-insights-v1-api-openapi.yml
+- filename: google-maps-pollen-maptypes-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Directions API
-  slug: google-maps-directions-api-api
+  label: Google Maps Platform Pollen MapTypes API
+  slug: google-maps-pollen-maptypes-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-directions-api-api-openapi.yml
-- filename: google-maps-distance-matrix-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-pollen-maptypes-api-openapi.yml
+- filename: google-maps-solar-buildinginsights-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Distance Matrix API
-  slug: google-maps-distance-matrix-api-api
+  label: Google Maps Platform Solar BuildingInsights API
+  slug: google-maps-solar-buildinginsights-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-distance-matrix-api-api-openapi.yml
-- filename: google-maps-elevation-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-solar-buildinginsights-api-openapi.yml
+- filename: google-maps-solar-datalayers-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Elevation API
-  slug: google-maps-elevation-api-api
+  label: Google Maps Platform Solar DataLayers API
+  slug: google-maps-solar-datalayers-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-elevation-api-api-openapi.yml
-- filename: google-maps-geocoding-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-solar-datalayers-api-openapi.yml
+- filename: google-maps-solar-geotiff-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Geocoding API
-  slug: google-maps-geocoding-api-api
+  label: Google Maps Platform Solar GeoTiff API
+  slug: google-maps-solar-geotiff-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geocoding-api-api-openapi.yml
-- filename: google-maps-geolocation-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-solar-geotiff-api-openapi.yml
+- filename: google-maps-street-view-publish-photo-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Geolocation API
-  slug: google-maps-geolocation-api-api
+  label: Google Maps Platform Street View Publish Photo API
+  slug: google-maps-street-view-publish-photo-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-geolocation-api-api-openapi.yml
-- filename: google-maps-places-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-street-view-publish-photo-api-openapi.yml
+- filename: google-maps-street-view-publish-photos-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Places API
-  slug: google-maps-places-api-api
+  label: Google Maps Platform Street View Publish Photos API
+  slug: google-maps-street-view-publish-photos-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-places-api-api-openapi.yml
-- filename: google-maps-roads-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-street-view-publish-photos-api-openapi.yml
+- filename: google-maps-street-view-publish-photosequence-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Roads API
-  slug: google-maps-roads-api-api
+  label: Google Maps Platform Street View Publish PhotoSequence API
+  slug: google-maps-street-view-publish-photosequence-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-roads-api-api-openapi.yml
-- filename: google-maps-street-view-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-street-view-publish-photosequence-api-openapi.yml
+- filename: google-maps-street-view-publish-photosequences-api-openapi.yml
   format: yaml
-  label: Google Maps Platform Street View API
-  slug: google-maps-street-view-api-api
+  label: Google Maps Platform Street View Publish PhotoSequences API
+  slug: google-maps-street-view-publish-photosequences-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-street-view-api-api-openapi.yml
-- filename: google-maps-time-zone-api-api-openapi.yml
-  format: yaml
-  label: Google Maps Platform Time Zone API
-  slug: google-maps-time-zone-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-maps/openapi/google-maps-time-zone-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-maps/openapi/google-maps-street-view-publish-photosequences-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -108,7 +102,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Google Maps Authentication
+name: Google Maps Platform Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Google Maps Platform secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

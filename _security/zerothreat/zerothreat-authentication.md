@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Zerothreat Authentication
+name: ZeroThreat Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ZeroThreat declares 2 security scheme(s) across its OpenAPI definitions.

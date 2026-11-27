@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lark Technologies Trust Center
+name: Lark Trust Center
 name_suffix: Trust Center
 overview: Lark maintains a public trust center documenting SOC 2 Type II, HITRUST, and HIPAA compliance.
 provider_name: Lark

@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Files Trust Center
+name: Files.com Trust Center
 name_suffix: Trust Center
 overview: Files.com maintains a public trust center documenting SOC 2, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: Files.com

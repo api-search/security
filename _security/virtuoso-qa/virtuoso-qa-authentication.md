@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Virtuoso Qa Authentication
+name: Virtuoso QA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Virtuoso QA declares 0 security scheme(s) across its OpenAPI definitions.

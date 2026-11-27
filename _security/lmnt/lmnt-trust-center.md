@@ -24,7 +24,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lmnt Trust Center
+name: LMNT Trust Center
 name_suffix: Trust Center
 overview: LMNT maintains a public trust center documenting SOC 2 compliance.
 provider_name: LMNT

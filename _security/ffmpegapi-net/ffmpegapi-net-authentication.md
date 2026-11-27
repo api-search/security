@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ffmpegapi Net Authentication
+name: ffmpegapi-net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ffmpegapi-net declares 1 security scheme(s) across its OpenAPI definitions.

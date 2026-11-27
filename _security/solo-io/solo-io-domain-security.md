@@ -126,7 +126,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Solo Io Domain Security
+name: Solo.io Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Solo.io, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Solo.io

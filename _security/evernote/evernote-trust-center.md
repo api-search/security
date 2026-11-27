@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Evernote Trust Center
+name: evernote Trust Center
 name_suffix: Trust Center
 overview: evernote maintains a public trust center documenting ISO 27001 and Google CASA Tier 2 (OWASP ASVS) compliance.
 provider_name: evernote

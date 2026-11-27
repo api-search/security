@@ -266,7 +266,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Mcpgate Authentication
+name: mcpgate Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: mcpgate declares 1 security scheme(s) across its OpenAPI definitions.

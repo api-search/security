@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Agentatlas Dev Authentication
+name: AgentAtlas Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentAtlas declares 3 security scheme(s) across its OpenAPI definitions.

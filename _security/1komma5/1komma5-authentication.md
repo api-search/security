@@ -173,7 +173,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: 1Komma5 Authentication
+name: 1KOMMA5° Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Roller Trust Center
+name: ROLLER Trust Center
 name_suffix: Trust Center
 overview: ROLLER maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: ROLLER

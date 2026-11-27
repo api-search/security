@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Algo Pw Authentication
+name: Agent Commons Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Commons declares 1 security scheme(s) across its OpenAPI definitions.

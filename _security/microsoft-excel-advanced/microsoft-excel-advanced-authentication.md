@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Microsoft Excel Advanced Authentication
+name: Microsoft Excel (Advanced) Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
@@ -80,13 +80,22 @@ schemes:
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: oauth2
   sources:
-  - openapi/microsoft-excel-advanced-openapi.yml
+  - openapi/microsoft-excel-advanced-charts-api-openapi.yml
+  - openapi/microsoft-excel-advanced-functions-api-openapi.yml
+  - openapi/microsoft-excel-advanced-named-items-api-openapi.yml
+  - openapi/microsoft-excel-advanced-range-api-openapi.yml
+  - openapi/microsoft-excel-advanced-sessions-api-openapi.yml
+  - openapi/microsoft-excel-advanced-table-columns-api-openapi.yml
+  - openapi/microsoft-excel-advanced-table-rows-api-openapi.yml
+  - openapi/microsoft-excel-advanced-tables-api-openapi.yml
+  - openapi/microsoft-excel-advanced-worksheets-api-openapi.yml
   type: oauth2
 slug: microsoft-excel-advanced-authentication
 source_filename: microsoft-excel-advanced-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-excel-advanced-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 4\n  description: Microsoft Entra ID OAuth 2.0\n  sources:\n  - openapi/microsoft-excel-advanced-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-excel-advanced-charts-api-openapi.yml, openapi/microsoft-excel-advanced-functions-api-openapi.yml,\n  openapi/microsoft-excel-advanced-named-items-api-openapi.yml, openapi/microsoft-excel-advanced-range-api-openapi.yml,\n  openapi/microsoft-excel-advanced-sessions-api-openapi.yml, openapi/microsoft-excel-advanced-table-columns-api-openapi.yml,\n  openapi/microsoft-excel-advanced-table-rows-api-openapi.yml, openapi/microsoft-excel-advanced-tables-api-openapi.yml,\n  openapi/microsoft-excel-advanced-worksheets-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 4\n  description: Microsoft Entra ID OAuth 2.0\n  sources:\n  -\
+  \ openapi/microsoft-excel-advanced-charts-api-openapi.yml\n  - openapi/microsoft-excel-advanced-functions-api-openapi.yml\n  - openapi/microsoft-excel-advanced-named-items-api-openapi.yml\n  - openapi/microsoft-excel-advanced-range-api-openapi.yml\n  - openapi/microsoft-excel-advanced-sessions-api-openapi.yml\n  - openapi/microsoft-excel-advanced-table-columns-api-openapi.yml\n  - openapi/microsoft-excel-advanced-table-rows-api-openapi.yml\n  - openapi/microsoft-excel-advanced-tables-api-openapi.yml\n  - openapi/microsoft-excel-advanced-worksheets-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-excel-advanced/authentication/microsoft-excel-advanced-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

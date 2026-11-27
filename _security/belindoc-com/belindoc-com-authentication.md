@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Belindoc Com Authentication
+name: Belin Doc Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Belin Doc declares 1 security scheme(s) across its OpenAPI definitions.

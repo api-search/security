@@ -218,7 +218,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Comp Ai Authentication
+name: Comp AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Comp AI declares 2 security scheme(s) across its OpenAPI definitions.

@@ -550,7 +550,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Wso2 Trust Center
+name: WSO2 Trust Center
 name_suffix: Trust Center
 overview: WSO2 maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: WSO2

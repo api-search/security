@@ -112,7 +112,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Cloud Wan Trust Center
+name: Amazon Cloud WAN Trust Center
 name_suffix: Trust Center
 overview: Amazon Cloud WAN maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon Cloud WAN

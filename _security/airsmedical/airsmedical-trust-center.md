@@ -13,7 +13,7 @@ certifications:
 description: AIRS Medical has no trust.<domain> portal (the automated trust-center probe recorded none); its compliance posture is published as a "Compliance and Policies" hub at /compliance/ that links the regional privacy policies, terms, accessibility statement, AI transparency statement and two product information-security summaries (SwiftMR and SwiftSight). The named certifications and attestations below are quoted from the FAQ and the whitepaper landing pages; the full security whitepapers themselves are gated behind a download form and were not read.
 kind: trust-center
 layout: security
-name: Airsmedical Trust Center
+name: AIRS Medical Trust Center
 name_suffix: Trust Center
 overview: AIRS Medical maintains a public trust center documenting ISO/IEC 27001:2022, SOC 2 Type II, HIPAA, GDPR, ISO/IEC 42001, FDA 510(k), CE Marking (EU MDR), PMDA approval (Japan), and MDSAP compliance.
 provider_name: AIRS Medical

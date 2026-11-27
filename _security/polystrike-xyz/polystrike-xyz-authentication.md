@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Polystrike Xyz Authentication
+name: polystrike-xyz Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: polystrike-xyz declares 2 security scheme(s) across its OpenAPI definitions.
@@ -89,6 +89,6 @@ tags:
 - Company
 - Finance
 - Data
-- Prediction Market
+- Prediction-Market
 - Cryptocurrency
 ---

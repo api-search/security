@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Coil Trade Authentication
+name: Coil Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Coil declares 4 security scheme(s) across its OpenAPI definitions.

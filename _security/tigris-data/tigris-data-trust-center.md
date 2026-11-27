@@ -24,7 +24,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tigris Data Trust Center
+name: Tigris Trust Center
 name_suffix: Trust Center
 overview: Tigris maintains a public trust center documenting SOC 2 compliance.
 provider_name: Tigris

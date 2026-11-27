@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ticketrev Trust Center
+name: TicketRev Trust Center
 name_suffix: Trust Center
 overview: TicketRev maintains a public trust center documenting SOC 2 Type II and PCI DSS compliance.
 provider_name: TicketRev

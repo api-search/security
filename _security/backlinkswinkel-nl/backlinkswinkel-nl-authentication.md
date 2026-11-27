@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Backlinkswinkel Nl Authentication
+name: BacklinksWinkel Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BacklinksWinkel declares 0 security scheme(s) across its OpenAPI definitions.

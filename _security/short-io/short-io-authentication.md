@@ -76,7 +76,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Short Io Authentication
+name: Short.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Short.io secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -98,7 +98,7 @@ source_yaml: "generated: '2026-10-27'\nmethod: derived\nsource: openapi/short-io
 source_yaml_url: https://artifacts.apis.io/short-io/authentication/short-io-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- URL-shortening
+- URL Shortening
 - Analytics
 - QR Codes
 - Enterprise

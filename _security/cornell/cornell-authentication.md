@@ -35,7 +35,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Cornell Authentication
+name: Cornell University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cornell University secures its APIs with none, apiKey, and saml across 6 declared security schemes, as derived from its OpenAPI definitions.

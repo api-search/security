@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Qevlar Ai Trust Center
+name: Qevlar AI Trust Center
 name_suffix: Trust Center
 overview: Qevlar AI maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: Qevlar AI

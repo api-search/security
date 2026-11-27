@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Advisorfinder Com Authentication
+name: AdvisorFinder Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AdvisorFinder declares 0 security scheme(s) across its OpenAPI definitions.

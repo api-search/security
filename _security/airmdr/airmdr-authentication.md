@@ -142,7 +142,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Airmdr Authentication
+name: AirMDR Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AirMDR secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

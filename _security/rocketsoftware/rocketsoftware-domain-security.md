@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Rocketsoftware Domain Security
+name: Rocket Software Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Rocket Software, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Rocket Software

@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Fxmacrodata Authentication
+name: FXMacroData Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FXMacroData declares 2 security scheme(s) across its OpenAPI definitions.

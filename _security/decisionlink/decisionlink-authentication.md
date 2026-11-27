@@ -384,7 +384,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Decisionlink Authentication
+name: DecisionLink Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DecisionLink secures its APIs with http, oauth2, openIdConnect, and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

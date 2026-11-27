@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Docspring Trust Center
+name: DocSpring Trust Center
 name_suffix: Trust Center
 overview: DocSpring maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: DocSpring

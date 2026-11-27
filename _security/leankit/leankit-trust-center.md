@@ -153,7 +153,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Leankit Trust Center
+name: LeanKit Trust Center
 name_suffix: Trust Center
 overview: LeanKit maintains a public trust center documenting SOC 2, ISO 27001, GDPR, and CSA STAR compliance.
 provider_name: LeanKit

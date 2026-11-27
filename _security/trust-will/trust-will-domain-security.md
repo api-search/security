@@ -31,7 +31,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Trust Will Domain Security
+name: Trust & Will Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Trust & Will, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Trust & Will

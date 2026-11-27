@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Filtrix Ai Authentication
+name: Filtrix AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Filtrix AI declares 1 security scheme(s) across its OpenAPI definitions.
@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-11-07'\nmethod: searched\nsource: https://agent.f
 source_yaml_url: https://artifacts.apis.io/filtrix-ai/authentication/filtrix-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Image Generation
 - Video Generation
 - Creative Tools

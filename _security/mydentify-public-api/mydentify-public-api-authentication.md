@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Mydentify Public Api Authentication
+name: Mydentify Public API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Mydentify Public API declares 0 security scheme(s) across its OpenAPI definitions.

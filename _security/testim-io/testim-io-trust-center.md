@@ -49,7 +49,7 @@ certifications:
 description: Testim is a Tricentis product; its security assurance runs through the Tricentis Security Center / Trust portal. Named certifications below explicitly cover Testim as one of the Tricentis cloud products in scope.
 kind: trust-center
 layout: security
-name: Testim Io Trust Center
+name: Testim Trust Center
 name_suffix: Trust Center
 overview: Testim maintains a public trust center documenting SOC 2 Type 2 and ISO/IEC 27001:2022 compliance.
 provider_name: Testim

@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: agentnexus-app-discovery-api-openapi.yml
+  format: yaml
+  label: Agent Nexus Discovery API
+  slug: agentnexus-app-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentnexus-app/openapi/agentnexus-app-discovery-api-openapi.yml
+- filename: agentnexus-app-keys-api-openapi.yml
+  format: yaml
+  label: Agent Nexus Keys API
+  slug: agentnexus-app-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentnexus-app/openapi/agentnexus-app-keys-api-openapi.yml
+- filename: agentnexus-app-registry-api-openapi.yml
+  format: yaml
+  label: Agent Nexus Registry API
+  slug: agentnexus-app-registry-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentnexus-app/openapi/agentnexus-app-registry-api-openapi.yml
+- filename: agentnexus-app-reliability-api-openapi.yml
+  format: yaml
+  label: Agent Nexus Reliability API
+  slug: agentnexus-app-reliability-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentnexus-app/openapi/agentnexus-app-reliability-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -17,7 +42,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Agentnexus App Domain Security
+name: Agent Nexus Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Agent Nexus, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: Agent Nexus

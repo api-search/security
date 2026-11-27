@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aztra My Authentication
+name: Aztra Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aztra declares 0 security scheme(s) across its OpenAPI definitions.

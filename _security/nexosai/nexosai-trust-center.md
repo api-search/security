@@ -104,7 +104,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nexosai Trust Center
+name: nexos.ai Trust Center
 name_suffix: Trust Center
 overview: nexos.ai maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: nexos.ai

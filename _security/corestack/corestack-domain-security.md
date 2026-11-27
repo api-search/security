@@ -216,12 +216,6 @@ api_specs:
   slug: corestack-guardrails-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/corestack/openapi/corestack-guardrails-api-openapi.yml
-- filename: corestack-identity-api-openapi.yml
-  format: yaml
-  label: CoreStack Identity API
-  slug: corestack-identity-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/corestack/openapi/corestack-identity-api-openapi.yml
 - filename: corestack-jira-service-management-api-openapi.yml
   format: yaml
   label: CoreStack Jira Service Management API
@@ -601,7 +595,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Corestack Domain Security
+name: CoreStack Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CoreStack, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: CoreStack

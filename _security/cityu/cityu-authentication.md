@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Cityu Authentication
+name: City University of Hong Kong Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: City University of Hong Kong secures its APIs with saml, oidc, oauth2, and anonymous across 4 declared security schemes, as derived from its OpenAPI definitions.

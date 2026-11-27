@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Kahoot Trust Center
+name: Kahoot! Trust Center
 name_suffix: Trust Center
 overview: Kahoot! maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Kahoot!

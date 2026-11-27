@@ -24,6 +24,42 @@ api_specs:
   slug: amazon-mediapackage-tags-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-tags-api-openapi.yml
+- filename: amazon-mediapackage-assets-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Assets API
+  slug: amazon-mediapackage-assets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-assets-api-openapi.yml
+- filename: amazon-mediapackage-channelgroup-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Channelgroup API
+  slug: amazon-mediapackage-channelgroup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-channelgroup-api-openapi.yml
+- filename: amazon-mediapackage-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Operations API
+  slug: amazon-mediapackage-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-operations-api-openapi.yml
+- filename: amazon-mediapackage-packaging-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Packaging Configurations API
+  slug: amazon-mediapackage-packaging-configurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-packaging-configurations-api-openapi.yml
+- filename: amazon-mediapackage-packaging-groups-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Packaging Groups API
+  slug: amazon-mediapackage-packaging-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-packaging-groups-api-openapi.yml
+- filename: amazon-mediapackage-policy-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Policy API
+  slug: amazon-mediapackage-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-policy-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -34,7 +70,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Mediapackage Trust Center
+name: Amazon MediaPackage Trust Center
 name_suffix: Trust Center
 overview: Amazon MediaPackage maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon MediaPackage

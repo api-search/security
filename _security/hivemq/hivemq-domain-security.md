@@ -5,7 +5,7 @@ api_specs:
   label: HiveMQ MQTT over WebSocket
   slug: mqtt-websocket
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/asyncapi/hivemq-asyncapi.yml
+  url: https://artifacts.apis.io/hivemq/asyncapi/hivemq-asyncapi.yml
 - filename: hivemq-data-hub-api-openapi.yml
   format: yaml
   label: HiveMQ Data Hub API
@@ -51,7 +51,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Hivemq Domain Security
+name: HiveMQ Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for HiveMQ, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: HiveMQ

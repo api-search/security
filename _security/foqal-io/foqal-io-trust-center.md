@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Foqal Io Trust Center
+name: Foqal Trust Center
 name_suffix: Trust Center
 overview: Foqal maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Foqal
@@ -20,12 +20,12 @@ source_yaml: "generated: '2026-11-08'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/foqal-io/security/foqal-io-trust-center.yml
 summary_line: SOC 2, HIPAA, GDPR
 tags:
-- operations platform
-- request management
+- Operations Platform
+- Request Management
 - IT help desk
 - HR ops
-- customer support
-- Slack integration
+- Customer Service
+- Slack Integration
 - Microsoft Teams integration
 - AI deflection
 trust_url: https://www.foqal.io/security

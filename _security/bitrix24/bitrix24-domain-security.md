@@ -198,6 +198,24 @@ api_specs:
   slug: bitrix24-widgets-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-widgets-api-openapi.yml
+- filename: bitrix24-general-api-openapi.yml
+  format: yaml
+  label: Bitrix24 General API
+  slug: bitrix24-general-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-general-api-openapi.yml
+- filename: bitrix24-mail-api-openapi.yml
+  format: yaml
+  label: Bitrix24 Mail API
+  slug: bitrix24-mail-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-mail-api-openapi.yml
+- filename: bitrix24-note-api-openapi.yml
+  format: yaml
+  label: Bitrix24 Note API
+  slug: bitrix24-note-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitrix24/openapi/bitrix24-note-api-openapi.yml
 - filename: bitrix24-ecommerce-api-openapi.yml
   format: yaml
   label: Bitrix24 Ecommerce API

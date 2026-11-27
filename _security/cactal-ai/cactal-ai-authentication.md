@@ -140,7 +140,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cactal Ai Authentication
+name: Cactal Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cactal declares 1 security scheme(s) across its OpenAPI definitions.

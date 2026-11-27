@@ -9,6 +9,12 @@ api_specs:
   slug: amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-ebs/openapi/amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api-openapi.yml
+- filename: amazon-ebs-blocks-api-openapi.yml
+  format: yaml
+  label: Amazon EBS Ebs Blocks API
+  slug: amazon-ebs-blocks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ebs/openapi/amazon-ebs-blocks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -16,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Ebs Authentication
+name: Amazon EBS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon EBS secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

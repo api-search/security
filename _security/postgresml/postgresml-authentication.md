@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Postgresml Authentication
+name: PostgresML Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PostgresML secures its APIs with connection-string across 1 declared security scheme, as derived from its OpenAPI definitions.

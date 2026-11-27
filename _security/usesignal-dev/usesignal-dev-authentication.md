@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Usesignal Dev Authentication
+name: usesignal-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: usesignal-dev declares 0 security scheme(s) across its OpenAPI definitions.
@@ -29,7 +29,6 @@ source_yaml: 'generated: ''2026-10-31''
 source_yaml_url: https://artifacts.apis.io/usesignal-dev/authentication/usesignal-dev-authentication.yml
 summary_line: 0 schemes
 tags:
-- Free Tools
 - Video
 - Audio
 - PDF

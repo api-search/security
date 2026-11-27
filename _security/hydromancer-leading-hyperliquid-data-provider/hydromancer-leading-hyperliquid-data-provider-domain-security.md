@@ -23,7 +23,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Hydromancer Leading Hyperliquid Data Provider Domain Security
+name: Hydromancer Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Hydromancer, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Hydromancer
@@ -45,5 +45,5 @@ tags:
 - Real-Time
 - WebSocket streaming
 - Historical Data
-- Orderbook data
+- Orderbook Data
 ---

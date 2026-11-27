@@ -122,7 +122,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Brianbooms Com Authentication
+name: Brian Booms Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Brian Booms declares 1 security scheme(s) across its OpenAPI definitions.

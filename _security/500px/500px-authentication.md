@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: 500Px Authentication
+name: 500px Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 500px secures its APIs with oauth1 and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: 0Dteconfluence Com Authentication
+name: 0DTE Confluence Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 0DTE Confluence declares 2 security scheme(s) across its OpenAPI definitions.

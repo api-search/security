@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Quartet Trust Center
+name: Quartet Health Trust Center
 name_suffix: Trust Center
 overview: Quartet Health maintains a public trust center documenting SOC 2 Type I, SOC 2 Type II, ISO 27001, HIPAA/HITECH, PCI DSS, FedRAMP, and HITRUST CSF compliance.
 provider_name: Quartet Health

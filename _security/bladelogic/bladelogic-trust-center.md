@@ -17,7 +17,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bladelogic Trust Center
+name: BladeLogic Trust Center
 name_suffix: Trust Center
 overview: BladeLogic maintains a public trust center documenting SOC 2 Type II, ISO 27001:2022, ISO 27017:2015, ISO 27701:2019, ISO 27005:2022, ISO 27034-1:2011, ISO 27035-1:2023, CSA STAR, C5:2020, TISAX, NIST SP 800-171, TX-RAMP, and VPAT (WCAG 2.1 AA) compliance.
 provider_name: BladeLogic

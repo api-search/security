@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Classlink Trust Center
+name: ClassLink Trust Center
 name_suffix: Trust Center
 overview: ClassLink maintains a public trust center documenting SOC 2, ISO 27001, and CSA STAR compliance.
 provider_name: ClassLink

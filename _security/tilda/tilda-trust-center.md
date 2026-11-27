@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tilda Trust Center
+name: Tilda Research Trust Center
 name_suffix: Trust Center
 overview: Tilda Research maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Tilda Research

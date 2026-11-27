@@ -710,7 +710,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Confluent The Data Streaming Platform Trust Center
+name: Confluent | the Data Streaming Platform Trust Center
 name_suffix: Trust Center
 overview: Confluent | the Data Streaming Platform maintains a public trust center documenting SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO 27001, ISO 27701, PCI DSS, CSA STAR Level 2, HITRUST CSF, and TISAX compliance.
 provider_name: Confluent | the Data Streaming Platform

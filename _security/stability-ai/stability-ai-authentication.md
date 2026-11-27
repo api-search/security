@@ -117,7 +117,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Stability Ai Authentication
+name: Stability AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Stability AI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

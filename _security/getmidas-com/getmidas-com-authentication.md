@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Getmidas Com Authentication
+name: Midas Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Midas declares 0 security scheme(s) across its OpenAPI definitions.

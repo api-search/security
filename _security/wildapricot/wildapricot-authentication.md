@@ -183,7 +183,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Wildapricot Authentication
+name: WildApricot Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Andrewsfreebies Com Authentication
+name: Andrew’s Freebies Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Andrew’s Freebies declares 1 security scheme(s) across its OpenAPI definitions.

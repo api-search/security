@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aicdapi Com Authentication
+name: aicdapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: aicdapi-com declares 1 security scheme(s) across its OpenAPI definitions.

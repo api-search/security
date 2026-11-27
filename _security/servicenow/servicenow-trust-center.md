@@ -107,7 +107,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Servicenow Trust Center
+name: ServiceNow Trust Center
 name_suffix: Trust Center
 overview: ServiceNow maintains a public trust center documenting SOC 2 Type II, ISO 27001:2022, ISO 27017, ISO 27018, FedRAMP (High P-ATO, first achieved 2019), and IRAP compliance.
 provider_name: ServiceNow

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Bankconvert Uk Authentication
+name: Bank Convert Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bank Convert declares 1 security scheme(s) across its OpenAPI definitions.

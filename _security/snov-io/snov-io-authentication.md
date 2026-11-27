@@ -2,72 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: snov-io-authentication-api-openapi.yml
-  format: yaml
-  label: Snov.io Authentication API
-  slug: snov-io-authentication-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-authentication-api-openapi.yml
-- filename: snov-io-campaigns-api-openapi.yml
-  format: yaml
-  label: Snov.io Campaigns API
-  slug: snov-io-campaigns-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-campaigns-api-openapi.yml
-- filename: snov-io-crm-pipeline-api-openapi.yml
-  format: yaml
-  label: Snov.io CRM Pipeline API
-  slug: snov-io-crm-pipeline-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-crm-pipeline-api-openapi.yml
-- filename: snov-io-domain-search-api-openapi.yml
-  format: yaml
-  label: Snov.io Domain Search API
-  slug: snov-io-domain-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-domain-search-api-openapi.yml
-- filename: snov-io-email-accounts-api-openapi.yml
-  format: yaml
-  label: Snov.io Email Accounts API
-  slug: snov-io-email-accounts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-accounts-api-openapi.yml
-- filename: snov-io-email-finder-api-openapi.yml
-  format: yaml
-  label: Snov.io Email Finder API
-  slug: snov-io-email-finder-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-finder-api-openapi.yml
 - filename: snov-io-email-verification-api-openapi.yml
   format: yaml
   label: Snov.io Email Verification API
-  slug: snov-io-email-verification-api
+  slug: snovio-email-verification-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-verification-api-openapi.yml
+- filename: snov-io-campaigns-api-openapi.yml
+  format: yaml
+  label: Snov.io Campaigns API
+  slug: snovio-campaigns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/snov-io/openapi/snov-io-campaigns-api-openapi.yml
 - filename: snov-io-email-warm-up-api-openapi.yml
   format: yaml
   label: Snov.io Email Warm-up API
-  slug: snov-io-email-warm-up-api
+  slug: snovio-email-warm-up-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/snov-io/openapi/snov-io-email-warm-up-api-openapi.yml
-- filename: snov-io-prospects-api-openapi.yml
-  format: yaml
-  label: Snov.io Prospects API
-  slug: snov-io-prospects-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-prospects-api-openapi.yml
-- filename: snov-io-user-api-openapi.yml
-  format: yaml
-  label: Snov.io User API
-  slug: snov-io-user-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/snov-io/openapi/snov-io-user-api-openapi.yml
 - filename: snov-io-webhooks-api-openapi.yml
   format: yaml
   label: Snov.io Webhooks API
-  slug: snov-io-webhooks-api
+  slug: snovio-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/snov-io/openapi/snov-io-webhooks-api-openapi.yml
+- filename: snov-io-openapi-generated.yml
+  format: yaml
+  label: Snov.io API
+  slug: snov-io-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/snov-io/openapi/_ae-authored/snov-io-openapi-generated.yml
 auth_types:
 - oauth2
 - http
@@ -76,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Snov Io Authentication
+name: Snov.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Snov.io secures its APIs with oauth2 and http across 3 declared security schemes, as derived from its OpenAPI definitions.

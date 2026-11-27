@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anchoredhopeindex Com Authentication
+name: Anchored Hope Index Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Anchored Hope Index declares 0 security scheme(s) across its OpenAPI definitions.

@@ -62,7 +62,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bexio Trust Center
+name: bexio Trust Center
 name_suffix: Trust Center
 overview: bexio maintains a public trust center documenting ISO 27001, Swiss FADP (revDSG), and GDPR compliance.
 provider_name: bexio

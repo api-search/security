@@ -6,18 +6,6 @@ api_specs:
   slug: azure-web-pubsub-client-and-upstream-events
   spec_type: AsyncAPI
   url: https://artifacts.apis.io/microsoft-azure-web-pubsub/asyncapi/microsoft-azure-web-pubsub-asyncapi.yml
-- filename: microsoft-azure-web-pubsub-hub-api-openapi.yml
-  format: yaml
-  label: Azure Web PubSub Hub API
-  slug: microsoft-azure-web-pubsub-hub-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-hub-api-openapi.yml
-- filename: microsoft-azure-web-pubsub-permission-api-openapi.yml
-  format: yaml
-  label: Azure Web PubSub Permission API
-  slug: microsoft-azure-web-pubsub-permission-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-permission-api-openapi.yml
 - filename: microsoft-azure-web-pubsub-general-api-openapi.yml
   format: yaml
   label: Azure Web PubSub General API
@@ -30,12 +18,6 @@ api_specs:
   slug: microsoft-azure-web-pubsub-webpubsub-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-webpubsub-api-openapi.yml
-- filename: microsoft-azure-web-pubsub-client-token-api-openapi.yml
-  format: yaml
-  label: Azure Web PubSub Client Token API
-  slug: microsoft-azure-web-pubsub-client-token-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-web-pubsub/openapi/microsoft-azure-web-pubsub-client-token-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -74,7 +56,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Web Pubsub Domain Security
+name: Azure Web PubSub Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure Web PubSub, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Azure Web PubSub

@@ -138,6 +138,36 @@ api_specs:
   slug: amazon-iam-virtual-mfa-device-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-virtual-mfa-device-api-openapi.yml
+- filename: amazon-iam-crl-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Crl API
+  slug: amazon-iam-crl-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-crl-api-openapi.yml
+- filename: amazon-iam-disable-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Disable API
+  slug: amazon-iam-disable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-disable-api-openapi.yml
+- filename: amazon-iam-enable-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Enable API
+  slug: amazon-iam-enable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-enable-api-openapi.yml
+- filename: amazon-iam-profile-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Profile API
+  slug: amazon-iam-profile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-profile-api-openapi.yml
+- filename: amazon-iam-trustanchor-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Trustanchor API
+  slug: amazon-iam-trustanchor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-trustanchor-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -148,7 +178,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Iam Trust Center
+name: Amazon IAM Trust Center
 name_suffix: Trust Center
 overview: Amazon IAM maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon IAM

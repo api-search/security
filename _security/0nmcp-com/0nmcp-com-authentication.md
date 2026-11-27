@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 0Nmcp Com Authentication
+name: 0nMCP Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 0nMCP declares 0 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Scrollport Com Authentication
+name: scrollport-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: scrollport-com declares 0 security scheme(s) across its OpenAPI definitions.
@@ -38,7 +38,7 @@ summary_line: 0 schemes
 tags:
 - AI Agents
 - API Tools
-- Pay-Per-Use
+- Pay-per-use
 - Search
 - Web Scraping
 ---

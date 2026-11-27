@@ -5,19 +5,19 @@ api_specs:
   label: ODFL Bill of Lading API
   slug: bill-of-lading-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/openapi/old-dominion-freight-line-bill-of-lading-api-openapi.yml
+  url: https://artifacts.apis.io/old-dominion-freight-line/openapi/old-dominion-freight-line-bill-of-lading-api-openapi.yml
 - filename: old-dominion-freight-line-pickup-api-openapi.yml
   format: yaml
   label: ODFL Pickup API
   slug: pickup-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/openapi/old-dominion-freight-line-pickup-api-openapi.yml
+  url: https://artifacts.apis.io/old-dominion-freight-line/openapi/old-dominion-freight-line-pickup-api-openapi.yml
 - filename: old-dominion-freight-line-tracking-api-openapi.yml
   format: yaml
   label: ODFL Tracking API
   slug: tracking-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/openapi/old-dominion-freight-line-tracking-api-openapi.yml
+  url: https://artifacts.apis.io/old-dominion-freight-line/openapi/old-dominion-freight-line-tracking-api-openapi.yml
 - filename: old-dominion-freight-line-documents-api-openapi.yml
   format: yaml
   label: Old Dominion Freight Line Documents API

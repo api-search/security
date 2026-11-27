@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Sprite Ai Authentication
+name: Sprite AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sprite AI declares 1 security scheme(s) across its OpenAPI definitions.

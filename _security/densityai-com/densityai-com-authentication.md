@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Densityai Com Authentication
+name: Density Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Density declares 0 security scheme(s) across its OpenAPI definitions.

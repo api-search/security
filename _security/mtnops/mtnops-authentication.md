@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Mtnops Authentication
+name: MTN OPS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MTN OPS declares 1 security scheme(s) across its OpenAPI definitions.

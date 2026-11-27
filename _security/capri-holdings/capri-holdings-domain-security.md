@@ -38,5 +38,4 @@ tags:
 - Footwear
 - Accessories
 - Holding Company
-- No Developer Program
 ---

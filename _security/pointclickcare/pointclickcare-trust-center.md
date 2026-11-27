@@ -50,7 +50,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pointclickcare Trust Center
+name: PointClickCare Trust Center
 name_suffix: Trust Center
 overview: PointClickCare maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: PointClickCare

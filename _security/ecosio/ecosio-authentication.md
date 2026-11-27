@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ecosio Authentication
+name: ecosio Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ecosio declares 2 security scheme(s) across its OpenAPI definitions.
@@ -107,7 +107,7 @@ tags:
 - E-Invoicing
 - B2B Integration
 - VAT Compliance
-- PEPPOL
+- Peppol
 - Supply Chain
 - Messaging
 ---

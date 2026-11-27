@@ -444,6 +444,24 @@ api_specs:
   slug: amazon-sagemaker-workteam-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-sagemaker/openapi/amazon-sagemaker-workteam-api-openapi.yml
+- filename: amazon-sagemaker-cluster-extension-api-openapi.yml
+  format: yaml
+  label: Amazon SageMaker Sagemaker Cluster Extension API
+  slug: amazon-sagemaker-cluster-extension-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sagemaker/openapi/amazon-sagemaker-cluster-extension-api-openapi.yml
+- filename: amazon-sagemaker-earth-observation-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon SageMaker Sagemaker Earth Observation Jobs API
+  slug: amazon-sagemaker-earth-observation-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sagemaker/openapi/amazon-sagemaker-earth-observation-jobs-api-openapi.yml
+- filename: amazon-sagemaker-vector-enrichment-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon SageMaker Sagemaker Vector Enrichment Jobs API
+  slug: amazon-sagemaker-vector-enrichment-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sagemaker/openapi/amazon-sagemaker-vector-enrichment-jobs-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -454,7 +472,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Sagemaker Trust Center
+name: Amazon SageMaker Trust Center
 name_suffix: Trust Center
 overview: Amazon SageMaker maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon SageMaker

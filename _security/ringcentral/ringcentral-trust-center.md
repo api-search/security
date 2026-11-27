@@ -461,7 +461,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ringcentral Trust Center
+name: RingCentral Trust Center
 name_suffix: Trust Center
 overview: RingCentral maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, and GDPR compliance.
 provider_name: RingCentral

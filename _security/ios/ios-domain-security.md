@@ -5,7 +5,7 @@ api_specs:
   label: App Store Server Notifications
   slug: app-store-server-notifications
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ios/main/asyncapi/app-store-server-notifications-asyncapi.yml
+  url: https://artifacts.apis.io/ios/asyncapi/app-store-server-notifications-asyncapi.yml
 - filename: ios-accessibilitydeclarations-api-openapi.yml
   format: yaml
   label: iOS AccessibilityDeclarations API
@@ -1191,7 +1191,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Ios Domain Security
+name: iOS Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for iOS, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: iOS

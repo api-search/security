@@ -63,7 +63,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Goodyear Tire And Rubber Domain Security
+name: Goodyear Tire & Rubber Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Goodyear Tire & Rubber, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Goodyear Tire & Rubber

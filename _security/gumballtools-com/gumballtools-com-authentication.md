@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Gumballtools Com Authentication
+name: gumballtools-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: gumballtools-com declares 1 security scheme(s) across its OpenAPI definitions.

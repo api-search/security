@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Larksuite Trust Center
+name: Lark Trust Center
 name_suffix: Trust Center
 overview: Lark maintains a public trust center covering its security and compliance posture.
 provider_name: Lark

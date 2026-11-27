@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: 4Th Heart Authentication
+name: 4th & Heart Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

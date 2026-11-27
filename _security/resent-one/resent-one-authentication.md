@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Resent One Authentication
+name: resent-one Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: resent-one declares 0 security scheme(s) across its OpenAPI definitions.

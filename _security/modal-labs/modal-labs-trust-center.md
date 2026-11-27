@@ -14,7 +14,7 @@ certifications:
 description: Modal runs a Vanta-hosted security portal at trust.modal.com where the SOC 2 Type 2 report is requested under NDA, and documents its compliance posture in the public docs. The portal itself is a client-rendered SPA — every certification recorded here is read from Modal's own first-party documentation, not scraped from the portal.
 kind: trust-center
 layout: security
-name: Modal Labs Trust Center
+name: Modal Trust Center
 name_suffix: Trust Center
 overview: Modal maintains a public trust center documenting SOC 2 Type 2, HIPAA, and PCI DSS compliance.
 provider_name: Modal

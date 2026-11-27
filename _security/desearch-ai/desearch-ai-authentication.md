@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Desearch Ai Authentication
+name: desearch-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: desearch-ai declares 1 security scheme(s) across its OpenAPI definitions.

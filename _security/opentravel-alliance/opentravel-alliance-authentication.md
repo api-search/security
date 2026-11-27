@@ -45,7 +45,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Opentravel Alliance Authentication
+name: OpenTravel Alliance Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

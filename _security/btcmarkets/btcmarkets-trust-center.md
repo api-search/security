@@ -54,7 +54,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Btcmarkets Trust Center
+name: BTC Markets Trust Center
 name_suffix: Trust Center
 overview: BTC Markets maintains a public trust center documenting ISO 27001 compliance.
 provider_name: BTC Markets

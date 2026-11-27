@@ -5,7 +5,7 @@ api_specs:
   label: CoinAPI Market Data API
   slug: market-data-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coinapi/refs/heads/main/asyncapi/coinapi-asyncapi.yml
+  url: https://artifacts.apis.io/coinapi/asyncapi/coinapi-asyncapi.yml
 description: ''
 domains:
 - caa:
@@ -36,7 +36,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Coinapi Domain Security
+name: CoinAPI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CoinAPI, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: CoinAPI

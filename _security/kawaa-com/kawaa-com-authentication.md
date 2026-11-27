@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Kawaa Com Authentication
+name: kawaa-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: kawaa-com declares 2 security scheme(s) across its OpenAPI definitions.

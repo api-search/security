@@ -24,7 +24,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Copyai Trust Center
+name: Copy.ai Trust Center
 name_suffix: Trust Center
 overview: Copy.ai maintains a public trust center documenting SOC 2 compliance.
 provider_name: Copy.ai

@@ -103,7 +103,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Stanford Trust Center
+name: Stanford University Trust Center
 name_suffix: Trust Center
 overview: Stanford University maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: Stanford University

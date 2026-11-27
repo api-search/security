@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Backquant Com Authentication
+name: BackQuant Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BackQuant declares 1 security scheme(s) across its OpenAPI definitions.

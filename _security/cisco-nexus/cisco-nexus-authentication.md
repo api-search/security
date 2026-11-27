@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cisco Nexus Authentication
+name: Cisco Nexus Dashboard Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cisco Nexus Dashboard secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

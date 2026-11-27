@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Transcend Io Trust Center
+name: Transcend Trust Center
 name_suffix: Trust Center
 overview: Transcend maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Transcend

@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-intune-device-compliance-policies-api-openapi.yml
-  format: yaml
-  label: Microsoft Intune Device Compliance Policies API
-  slug: microsoft-intune-device-compliance-policies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-device-compliance-policies-api-openapi.yml
-- filename: microsoft-intune-device-configurations-api-openapi.yml
-  format: yaml
-  label: Microsoft Intune Device Configurations API
-  slug: microsoft-intune-device-configurations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-device-configurations-api-openapi.yml
-- filename: microsoft-intune-managed-devices-api-openapi.yml
-  format: yaml
-  label: Microsoft Intune Managed Devices API
-  slug: microsoft-intune-managed-devices-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-managed-devices-api-openapi.yml
 - filename: microsoft-intune-deviceappmanagement-androidmanagedappprotection-api-openapi.yml
   format: yaml
   label: Microsoft Intune Device App Management.android Managed App Protection API
@@ -468,12 +450,18 @@ api_specs:
   slug: microsoft-intune-devicemanagement-windowsmalwareinformation-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-devicemanagement-windowsmalwareinformation-api-openapi.yml
-- filename: microsoft-intune-remote-actions-api-openapi.yml
+- filename: microsoft-intune-me-devicemanagementtroubleshootingevent-api-openapi.yml
   format: yaml
-  label: Microsoft Intune Remote Actions API
-  slug: microsoft-intune-remote-actions-api
+  label: Microsoft Intune Me.device Management Troubleshooting Event API
+  slug: microsoft-intune-me-devicemanagementtroubleshootingevent-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-remote-actions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-me-devicemanagementtroubleshootingevent-api-openapi.yml
+- filename: microsoft-intune-users-devicemanagementtroubleshootingevent-api-openapi.yml
+  format: yaml
+  label: Microsoft Intune Users.device Management Troubleshooting Event API
+  slug: microsoft-intune-users-devicemanagementtroubleshootingevent-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-intune/openapi/microsoft-intune-users-devicemanagementtroubleshootingevent-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -495,25 +483,22 @@ hosts:
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Jan 10 23:59:59 2027 GMT
-  host: graph.microsoft.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
+- host: api.manage.microsoft.com
+  https: false
 hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Microsoft Intune Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Microsoft Intune, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Microsoft Intune, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Microsoft Intune
 provider_slug: microsoft-intune
 slug: microsoft-intune-domain-security
 source_filename: microsoft-intune-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-11-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 19:55:21 2027 GMT\n  hsts: false\n- host: docs.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  7 23:37:09 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: graph.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 10 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 17 19:55:21 2027 GMT\n  hsts: false\n- host: docs.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  7 23:37:09 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.manage.microsoft.com\n  https: false\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-intune/security/microsoft-intune-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: probed
-name: University Of Exeter Authentication
+name: University of Exeter Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Exeter secures its APIs with oauth2, openIdConnect, saml2, and token across 5 declared security schemes, as derived from its OpenAPI definitions.

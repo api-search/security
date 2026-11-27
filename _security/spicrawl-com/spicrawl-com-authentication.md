@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Spicrawl Com Authentication
+name: spicrawl-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: spicrawl-com declares 1 security scheme(s) across its OpenAPI definitions.

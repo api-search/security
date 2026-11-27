@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: University Of Tubingen Authentication
+name: University of Tübingen Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Tübingen secures its APIs with none and saml2 across 2 declared security schemes, as derived from its OpenAPI definitions.

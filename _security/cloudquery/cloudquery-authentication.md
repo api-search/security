@@ -165,7 +165,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Cloudquery Authentication
+name: CloudQuery Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CloudQuery secures its APIs with http across 3 declared security schemes, as derived from its OpenAPI definitions.

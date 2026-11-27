@@ -30,7 +30,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Powershell Trust Center
+name: PowerShell Trust Center
 name_suffix: Trust Center
 overview: PowerShell maintains a public trust center documenting GDPR compliance.
 provider_name: PowerShell

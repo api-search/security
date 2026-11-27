@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Gridline Authentication
+name: Gridlines Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Gridlines declares 3 security scheme(s) across its OpenAPI definitions.
@@ -101,7 +101,7 @@ tags:
 - Onboarding
 - Identity Verification
 - KYC
-- eSigning
+- E-signing
 - Fraud Prevention
 - VideoKYC
 - DigitalOnboarding

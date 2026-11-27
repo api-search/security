@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Ultimateai Authentication
+name: Ultimate.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ultimate.ai secures its APIs with http-basic and apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

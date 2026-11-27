@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Tu Delft Authentication
+name: Delft University of Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Delft University of Technology declares 0 security scheme(s) across its OpenAPI definitions.

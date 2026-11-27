@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Convertfilefast Com Authentication
+name: convertfilefast-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: convertfilefast-com declares 1 security scheme(s) across its OpenAPI definitions.

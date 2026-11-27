@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Harmonic Ai Authentication
+name: Harmonic.ai Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

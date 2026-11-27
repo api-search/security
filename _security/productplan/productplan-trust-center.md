@@ -60,7 +60,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Productplan Trust Center
+name: ProductPlan Trust Center
 name_suffix: Trust Center
 overview: ProductPlan maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: ProductPlan

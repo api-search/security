@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bossinsights Trust Center
+name: Boss Insights Trust Center
 name_suffix: Trust Center
 overview: Boss Insights maintains a public trust center documenting SOC 2 compliance.
 provider_name: Boss Insights

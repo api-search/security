@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Xavio In Authentication
+name: xavio-in Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: xavio-in declares 1 security scheme(s) across its OpenAPI definitions.

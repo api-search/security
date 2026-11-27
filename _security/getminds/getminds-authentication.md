@@ -86,6 +86,42 @@ api_specs:
   slug: getminds-study-templates-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/getminds/openapi/getminds-study-templates-api-openapi.yml
+- filename: getminds-acp-api-openapi.yml
+  format: yaml
+  label: Minds ACP API
+  slug: getminds-acp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-acp-api-openapi.yml
+- filename: getminds-billing-api-openapi.yml
+  format: yaml
+  label: Minds Billing API
+  slug: getminds-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-billing-api-openapi.yml
+- filename: getminds-events-api-openapi.yml
+  format: yaml
+  label: Minds Events API
+  slug: getminds-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-events-api-openapi.yml
+- filename: getminds-integrations-api-openapi.yml
+  format: yaml
+  label: Minds Integrations API
+  slug: getminds-integrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-integrations-api-openapi.yml
+- filename: getminds-support-api-openapi.yml
+  format: yaml
+  label: Minds Support API
+  slug: getminds-support-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-support-api-openapi.yml
+- filename: getminds-uploads-api-openapi.yml
+  format: yaml
+  label: Minds Uploads API
+  slug: getminds-uploads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-uploads-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -94,7 +130,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Getminds Authentication
+name: Minds Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Minds secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

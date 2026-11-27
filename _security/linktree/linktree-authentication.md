@@ -85,7 +85,7 @@ summary_line: oauth2 · 1 scheme
 tags:
 - Company
 - Media
-- Link in Bio
+- Link-in-bio
 - Creator Economy
 - Social Media
 - Marketing

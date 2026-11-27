@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Team0 Ai Authentication
+name: team0-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: team0-ai declares 2 security scheme(s) across its OpenAPI definitions.

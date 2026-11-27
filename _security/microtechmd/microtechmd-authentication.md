@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Microtechmd Authentication
+name: MicroTech Medical Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MicroTech Medical declares 0 security scheme(s) across its OpenAPI definitions.

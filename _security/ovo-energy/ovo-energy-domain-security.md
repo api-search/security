@@ -82,7 +82,7 @@ hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed
-name: Ovo Energy Domain Security
+name: OVO Energy Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for OVO Energy, probed live across 8 host(s) and 2 registrable domain(s). 8 host(s) serve HTTPS (up to TLSv1.3); 5 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: OVO Energy

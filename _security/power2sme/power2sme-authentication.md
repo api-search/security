@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Power2Sme Authentication
+name: Power2SME Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Power2SME declares 0 security scheme(s) across its OpenAPI definitions.

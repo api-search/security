@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Put Io Authentication
+name: put.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: put.io declares 1 security scheme(s) across its OpenAPI definitions.

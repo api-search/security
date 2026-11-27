@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Lawtoolbox Authentication
+name: LawToolBox Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LawToolBox declares 0 security scheme(s) across its OpenAPI definitions.

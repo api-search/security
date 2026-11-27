@@ -73,7 +73,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Crypto Com Authentication
+name: Crypto.com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Crypto.com secures its APIs with apiKey, http, and custom-hmac across 6 declared security schemes, as derived from its OpenAPI definitions.

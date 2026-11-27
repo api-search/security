@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Wordsintomusic Authentication
+name: Words into Music Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Words into Music declares 1 security scheme(s) across its OpenAPI definitions.

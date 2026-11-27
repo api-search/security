@@ -38,7 +38,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Robin Ai Trust Center
+name: Robin AI Trust Center
 name_suffix: Trust Center
 overview: Robin AI maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Robin AI

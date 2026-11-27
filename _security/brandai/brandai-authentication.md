@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Brandai Authentication
+name: Brand.ai Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

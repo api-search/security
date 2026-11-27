@@ -55,7 +55,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Powerschool Trust Center
+name: PowerSchool Trust Center
 name_suffix: Trust Center
 overview: PowerSchool maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: PowerSchool

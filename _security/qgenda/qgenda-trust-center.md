@@ -168,7 +168,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Qgenda Trust Center
+name: QGenda Trust Center
 name_suffix: Trust Center
 overview: QGenda maintains a public trust center documenting SOC 2 compliance.
 provider_name: QGenda

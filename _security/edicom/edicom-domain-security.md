@@ -43,5 +43,5 @@ tags:
 - B2B Integration
 - iPaaS
 - VAT Reporting
-- PEPPOL
+- Peppol
 ---

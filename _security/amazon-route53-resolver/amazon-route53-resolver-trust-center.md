@@ -34,7 +34,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Route53 Resolver Trust Center
+name: Amazon Route 53 Resolver Trust Center
 name_suffix: Trust Center
 overview: Amazon Route 53 Resolver maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon Route 53 Resolver

@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Texas A M University Authentication
+name: Texas A&M University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Texas A&M University declares 0 security scheme(s) across its OpenAPI definitions.

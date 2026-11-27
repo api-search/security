@@ -6,12 +6,6 @@ api_specs:
   slug: azure-health-collection-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-health/openapi/azure-health-collection-api-openapi.yml
-- filename: azure-health-deid-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Health Data Services Deid API
-  slug: azure-health-deid-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-health/openapi/azure-health-deid-api-openapi.yml
 - filename: azure-health-dicomservices-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services DicomServices API
@@ -30,12 +24,6 @@ api_specs:
   slug: azure-health-iotconnectors-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-health/openapi/azure-health-iotconnectors-api-openapi.yml
-- filename: azure-health-jobs-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Health Data Services Jobs API
-  slug: azure-health-jobs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-health/openapi/azure-health-jobs-api-openapi.yml
 - filename: azure-health-privatelinkresources-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services PrivateLinkResources API
@@ -115,7 +103,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Azure Health Domain Security
+name: Microsoft Azure Health Data Services Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Microsoft Azure Health Data Services, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Microsoft Azure Health Data Services

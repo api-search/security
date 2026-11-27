@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Arzbin Com Authentication
+name: Arzbin Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Arzbin declares 0 security scheme(s) across its OpenAPI definitions.

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Vrify Trust Center
+name: VRIFY Trust Center
 name_suffix: Trust Center
 overview: VRIFY maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: VRIFY

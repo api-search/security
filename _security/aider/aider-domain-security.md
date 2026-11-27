@@ -127,7 +127,7 @@ tags:
 - Apache 2.0
 - LLM
 - Version Control
-- BYO LLM
+- BYO-LLM
 - Terminal
 - Polyglot
 - Tree-sitter

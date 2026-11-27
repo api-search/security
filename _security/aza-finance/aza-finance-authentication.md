@@ -106,7 +106,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Aza Finance Authentication
+name: AZA Finance Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AZA Finance secures its APIs with apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

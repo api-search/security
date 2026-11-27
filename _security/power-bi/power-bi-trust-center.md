@@ -180,7 +180,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Power Bi Trust Center
+name: Power BI Trust Center
 name_suffix: Trust Center
 overview: Power BI maintains a public trust center documenting GDPR compliance.
 provider_name: Power BI

@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Cloudsight Authentication
+name: CloudSight Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CloudSight secures its APIs with apiKey and oauth1 across 2 declared security schemes, as derived from its OpenAPI definitions.

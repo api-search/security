@@ -100,7 +100,7 @@ summary_line: http · 1 scheme
 tags:
 - Company
 - E-Invoicing
-- PEPPOL
+- Peppol
 - Tax Compliance
 - Invoicing
 - Accounting

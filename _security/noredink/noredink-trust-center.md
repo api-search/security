@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Noredink Trust Center
+name: NoRedInk Trust Center
 name_suffix: Trust Center
 overview: NoRedInk maintains a public trust center covering its security and compliance posture.
 provider_name: NoRedInk

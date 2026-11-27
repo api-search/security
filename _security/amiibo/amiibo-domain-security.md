@@ -32,7 +32,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Amiibo Domain Security
+name: Amiibo API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amiibo API, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Amiibo API

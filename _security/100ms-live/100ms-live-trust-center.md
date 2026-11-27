@@ -79,7 +79,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 100Ms Live Trust Center
+name: 100ms Trust Center
 name_suffix: Trust Center
 overview: 100ms maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: 100ms

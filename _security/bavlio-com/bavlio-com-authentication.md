@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bavlio Com Authentication
+name: Bavlio Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bavlio declares 1 security scheme(s) across its OpenAPI definitions.

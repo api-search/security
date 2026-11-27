@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: M Files Authentication
+name: M-Files Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

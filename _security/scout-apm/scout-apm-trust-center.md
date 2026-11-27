@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Scout Apm Trust Center
+name: Scout APM Trust Center
 name_suffix: Trust Center
 overview: Scout APM maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Scout APM

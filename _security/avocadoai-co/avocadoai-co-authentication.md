@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Avocadoai Co Authentication
+name: Avocado AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Avocado AI declares 2 security scheme(s) across its OpenAPI definitions.

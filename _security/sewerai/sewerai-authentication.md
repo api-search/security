@@ -196,7 +196,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Sewerai Authentication
+name: SewerAI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SewerAI secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

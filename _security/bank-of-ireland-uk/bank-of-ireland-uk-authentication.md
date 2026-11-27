@@ -215,7 +215,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Bank Of Ireland Uk Authentication
+name: Bank of Ireland (UK) Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

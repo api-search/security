@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Bitfury Group Authentication
+name: BitFury Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BitFury secures its APIs with signature, network-partition, and transport-encryption across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -33,6 +33,30 @@ api_specs:
   slug: compabase-watchlist-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/compabase/openapi/compabase-watchlist-api-openapi.yml
+- filename: compabase-financials-api-openapi.yml
+  format: yaml
+  label: Compabase Financials API
+  slug: compabase-financials-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/compabase/openapi/compabase-financials-api-openapi.yml
+- filename: compabase-news-api-openapi.yml
+  format: yaml
+  label: Compabase News API
+  slug: compabase-news-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/compabase/openapi/compabase-news-api-openapi.yml
+- filename: compabase-registers-api-openapi.yml
+  format: yaml
+  label: Compabase Registers API
+  slug: compabase-registers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/compabase/openapi/compabase-registers-api-openapi.yml
+- filename: compabase-tenders-api-openapi.yml
+  format: yaml
+  label: Compabase Tenders API
+  slug: compabase-tenders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/compabase/openapi/compabase-tenders-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -72,4 +96,7 @@ tags:
 - Data
 - Polish
 - Business
+- Finance
+- Risk Management
+- Artificial Intelligence
 ---

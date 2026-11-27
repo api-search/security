@@ -176,7 +176,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Opentext Cybersecurity Authentication
+name: OpenText Cybersecurity Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OpenText Cybersecurity declares 0 security scheme(s) across its OpenAPI definitions.

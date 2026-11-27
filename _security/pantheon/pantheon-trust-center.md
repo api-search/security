@@ -5,7 +5,7 @@ api_specs:
   label: Pantheon REST API
   slug: pantheon-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pantheon/refs/heads/main/openapi.yml
+  url: https://artifacts.apis.io/pantheon/openapi.yml
 certification_count: 2
 certifications:
 - SOC 2

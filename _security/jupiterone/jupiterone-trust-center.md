@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Jupiterone Trust Center
+name: JupiterOne Trust Center
 name_suffix: Trust Center
 overview: JupiterOne maintains a public trust center documenting SOC 2 Type 2, ISO 27001, CSA STAR, and PCI DSS compliance.
 provider_name: JupiterOne

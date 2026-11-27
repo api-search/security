@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Reviews Io Authentication
+name: REVIEWS.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: REVIEWS.io secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

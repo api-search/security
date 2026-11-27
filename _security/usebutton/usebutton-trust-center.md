@@ -43,7 +43,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Usebutton Trust Center
+name: Button Trust Center
 name_suffix: Trust Center
 overview: Button maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Button

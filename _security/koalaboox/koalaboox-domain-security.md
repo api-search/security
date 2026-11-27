@@ -55,7 +55,7 @@ tags:
 - Company
 - Invoicing
 - E-Invoicing
-- PEPPOL
+- Peppol
 - Accounting
 - Invoice Financing
 - Working Capital

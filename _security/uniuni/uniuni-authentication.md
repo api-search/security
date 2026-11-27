@@ -41,7 +41,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Uniuni Authentication
+name: UniUni Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: UniUni secures its APIs with http-bearer and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

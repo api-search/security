@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cautellus Com Trust Center
+name: Cautellus Trust Center
 name_suffix: Trust Center
 overview: Cautellus maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: Cautellus

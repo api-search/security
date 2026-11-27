@@ -24,6 +24,24 @@ api_specs:
   slug: schemasure-primary-x402-v2-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/schemasure/openapi/schemasure-primary-x402-v2-api-api-openapi.yml
+- filename: schemasure-business-time-api-openapi.yml
+  format: yaml
+  label: SchemaSure Business Time API
+  slug: schemasure-business-time-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/schemasure/openapi/schemasure-business-time-api-openapi.yml
+- filename: schemasure-chain-api-openapi.yml
+  format: yaml
+  label: SchemaSure Chain API
+  slug: schemasure-chain-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/schemasure/openapi/schemasure-chain-api-openapi.yml
+- filename: schemasure-guard-api-openapi.yml
+  format: yaml
+  label: SchemaSure Guard API
+  slug: schemasure-guard-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/schemasure/openapi/schemasure-guard-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +61,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Schemasure Domain Security
+name: SchemaSure Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for SchemaSure, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: SchemaSure

@@ -35,7 +35,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Synthesis Ai Domain Security
+name: Synthesis AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Synthesis AI, probed live across 4 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: Synthesis AI

@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Servghost Agent Api Authentication
+name: ServGhost Agent API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ServGhost Agent API declares 2 security scheme(s) across its OpenAPI definitions.

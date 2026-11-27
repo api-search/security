@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Vizai Trust Center
+name: Viz.ai Trust Center
 name_suffix: Trust Center
 overview: Viz.ai maintains a public trust center documenting SOC 2 Type II, HIPAA, ISO/IEC 27001, ISO/IEC 27701, ISO 27799, ISO/IEC 27017, ISO/IEC 27018, ISO 22301, ISO/IEC 27035, ISO/IEC 42001, and GDPR compliance.
 provider_name: Viz.ai

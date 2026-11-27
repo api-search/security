@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: A2A Passport Ai Authentication
+name: A2A Passport Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: A2A Passport declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Qlikview Authentication
+name: QlikView Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: QlikView declares 5 security scheme(s) across its OpenAPI definitions.

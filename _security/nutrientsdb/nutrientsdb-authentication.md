@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Nutrientsdb Authentication
+name: NutrientsDB Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NutrientsDB declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Opensense Formerly Sendergen Authentication
+name: Opensense (formerly SenderGen) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Opensense (formerly SenderGen) declares 3 security scheme(s) across its OpenAPI definitions.

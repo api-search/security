@@ -5,7 +5,7 @@ api_specs:
   label: PoetryDB API
   slug: poetry-db
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/poetry-db/refs/heads/main/openapi/openapi.yml
+  url: https://artifacts.apis.io/poetry-db/openapi/openapi.yml
 description: ''
 domains:
 - caa: []
@@ -23,7 +23,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Poetry Db Domain Security
+name: PoetryDB Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for PoetryDB, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: PoetryDB

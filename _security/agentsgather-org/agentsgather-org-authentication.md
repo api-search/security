@@ -320,7 +320,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentsgather Org Authentication
+name: Agents Gather Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agents Gather declares 1 security scheme(s) across its OpenAPI definitions.

@@ -23,7 +23,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: University Of Pittsburgh Authentication
+name: University of Pittsburgh Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Pittsburgh secures its APIs with api_key, none, and saml across 6 declared security schemes, as derived from its OpenAPI definitions.

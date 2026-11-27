@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Testgorilla Trust Center
+name: TestGorilla Trust Center
 name_suffix: Trust Center
 overview: TestGorilla maintains a public trust center documenting SOC 2 compliance.
 provider_name: TestGorilla

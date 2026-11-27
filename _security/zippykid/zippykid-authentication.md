@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Zippykid Authentication
+name: ZippyKid Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

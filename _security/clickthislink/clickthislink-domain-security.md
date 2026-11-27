@@ -1,4 +1,41 @@
 ---
+api_specs:
+- filename: clickthislink-badge-api-openapi.yml
+  format: yaml
+  label: ClickThisLink Badge API
+  slug: clickthislink-badge-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickthislink/openapi/clickthislink-badge-api-openapi.yml
+- filename: clickthislink-badge-svg-api-openapi.yml
+  format: yaml
+  label: ClickThisLink Badge.svg API
+  slug: clickthislink-badge-svg-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickthislink/openapi/clickthislink-badge-svg-api-openapi.yml
+- filename: clickthislink-check-api-openapi.yml
+  format: yaml
+  label: ClickThisLink Check API
+  slug: clickthislink-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickthislink/openapi/clickthislink-check-api-openapi.yml
+- filename: clickthislink-share-png-api-openapi.yml
+  format: yaml
+  label: ClickThisLink Share.png API
+  slug: clickthislink-share-png-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickthislink/openapi/clickthislink-share-png-api-openapi.yml
+- filename: clickthislink-share-svg-api-openapi.yml
+  format: yaml
+  label: ClickThisLink Share.svg API
+  slug: clickthislink-share-svg-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickthislink/openapi/clickthislink-share-svg-api-openapi.yml
+- filename: clickthislink-opt-out-api-openapi.yml
+  format: yaml
+  label: ClickThisLink opt Out API
+  slug: clickthislink-opt-out-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clickthislink/openapi/clickthislink-opt-out-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -18,7 +55,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Clickthislink Domain Security
+name: ClickThisLink Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ClickThisLink, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: ClickThisLink

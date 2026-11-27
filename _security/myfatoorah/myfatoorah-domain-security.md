@@ -112,7 +112,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Myfatoorah Domain Security
+name: MyFatoorah Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for MyFatoorah, probed live across 5 host(s) and 1 registrable domain(s). 5 host(s) serve HTTPS; 5 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: MyFatoorah

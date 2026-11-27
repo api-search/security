@@ -77,7 +77,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Site24X7 Trust Center
+name: Site24x7 Trust Center
 name_suffix: Trust Center
 overview: Site24x7 maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, GDPR, and CSA STAR compliance.
 provider_name: Site24x7

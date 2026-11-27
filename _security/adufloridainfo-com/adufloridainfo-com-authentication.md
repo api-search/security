@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Adufloridainfo Com Authentication
+name: ADU Florida Info Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ADU Florida Info declares 0 security scheme(s) across its OpenAPI definitions.

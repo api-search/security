@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Safe Security Authentication
+name: SAFE Security Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SAFE Security declares 2 security scheme(s) across its OpenAPI definitions.

@@ -172,7 +172,7 @@ certifications:
 description: PayPal's security & compliance posture, captured from the PayPal Trust Center (paypal-trustcenter.com, powered by SafeBase). PayPal operates as a PCI DSS Level 1 payment provider and maintains ISO/IEC 27001, PCI P2PE, and SOC 1 / SOC 2 reporting; full reports and bridge letters are gated behind Trust Center verification. This is the searched, human-verified fill (the automated probe does not clear the trust.<domain> keyword threshold since PayPal's trust center is on a distinct SafeBase-hosted domain).
 kind: trust-center
 layout: security
-name: Paypal Trust Center
+name: PayPal Trust Center
 name_suffix: Trust Center
 overview: PayPal maintains a public trust center documenting PCI DSS, PCI P2PE, ISO/IEC 27001, SOC 1, and SOC 2 Type II compliance.
 provider_name: PayPal

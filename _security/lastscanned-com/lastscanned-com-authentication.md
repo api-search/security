@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Lastscanned Com Authentication
+name: lastscanned Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: lastscanned declares 1 security scheme(s) across its OpenAPI definitions.

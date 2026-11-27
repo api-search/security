@@ -12,7 +12,7 @@ certifications:
 description: Us2.ai operates a dedicated trust center at trust.us2.ai, linked site-wide as "Trust Center" (the subdomain sits behind a Cloudflare browser challenge for plain HTTP clients; the automated probe verified SOC 2 / ISO 27001 / trust-center keywords in the served body). The fuller certification roster below is published on the Deployment & Security page and in the company's llms.txt.
 kind: trust-center
 layout: security
-name: Us2Ai Trust Center
+name: Us2.ai Trust Center
 name_suffix: Trust Center
 overview: Us2.ai maintains a public trust center documenting SOC 2 Type II, ISO 27001:2022, ISO 13485, MDSAP, HIPAA, GDPR, NHS DSPT, and NHS DTAC compliance.
 provider_name: Us2.ai

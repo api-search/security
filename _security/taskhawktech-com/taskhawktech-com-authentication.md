@@ -3,12 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
+- filename: taskhawktech-com-opaque-event-interface-openapi.json
+  format: json
+  label: TaskHawk Opaque Event Interface
+  slug: taskhawk-opaque-event-interface
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-opaque-event-interface-openapi.json
 - filename: taskhawktech-com-billing-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Billing API
   slug: taskhawktech-com-billing-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-billing-api-openapi.yml
+- filename: taskhawktech-com-events-api-openapi.yml
+  format: yaml
+  label: TaskHawk Systems Events API
+  slug: taskhawktech-com-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/taskhawktech-com/openapi/taskhawktech-com-events-api-openapi.yml
 - filename: taskhawktech-com-governance-api-openapi.yml
   format: yaml
   label: TaskHawk Systems Governance API
@@ -40,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Taskhawktech Com Authentication
+name: TaskHawk Systems Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TaskHawk Systems secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

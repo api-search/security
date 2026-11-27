@@ -113,7 +113,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Anchor X402 Trust Center
+name: anchor-x402 Trust Center
 name_suffix: Trust Center
 overview: anchor-x402 maintains a public trust center covering its security and compliance posture.
 provider_name: anchor-x402

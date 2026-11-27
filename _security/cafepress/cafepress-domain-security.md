@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Cafepress Domain Security
+name: CafePress Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CafePress, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: CafePress
@@ -35,5 +35,5 @@ tags:
 - E-Commerce
 - Print on Demand
 - Custom Merchandise
-- online marketplace
+- Online Marketplace
 ---

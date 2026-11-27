@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Tickettailor Authentication
+name: Ticket Tailor Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ticket Tailor secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

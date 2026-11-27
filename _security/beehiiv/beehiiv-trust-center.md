@@ -186,7 +186,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Beehiiv Trust Center
+name: beehiiv Trust Center
 name_suffix: Trust Center
 overview: beehiiv maintains a public trust center documenting SOC 2 Type I compliance.
 provider_name: beehiiv

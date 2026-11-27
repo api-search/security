@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Vcomply Trust Center
+name: VComply Trust Center
 name_suffix: Trust Center
 overview: VComply maintains a public trust center documenting SOC 2 Type 2, ISO 27001, and HIPAA compliance.
 provider_name: VComply

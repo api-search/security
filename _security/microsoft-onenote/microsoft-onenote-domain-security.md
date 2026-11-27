@@ -1,5 +1,17 @@
 ---
 api_specs:
+- filename: microsoft-onenote-groups-site-api-openapi.yml
+  format: yaml
+  label: Microsoft OneNote Groups.site API
+  slug: microsoft-onenote-groups-site-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-groups-site-api-openapi.yml
+- filename: microsoft-onenote-me-onenote-api-openapi.yml
+  format: yaml
+  label: Microsoft OneNote Me.onenote API
+  slug: microsoft-onenote-me-onenote-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-me-onenote-api-openapi.yml
 - filename: microsoft-onenote-notebooks-api-openapi.yml
   format: yaml
   label: Microsoft OneNote Notebooks API
@@ -14,7 +26,7 @@ api_specs:
   url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-pages-api-openapi.yml
 - filename: microsoft-onenote-sectiongroups-api-openapi.yml
   format: yaml
-  label: Microsoft OneNote SectionGroups API
+  label: Microsoft OneNote Section Groups API
   slug: microsoft-onenote-sectiongroups-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-onenote/openapi/microsoft-onenote-sectiongroups-api-openapi.yml
@@ -80,7 +92,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Onenote Domain Security
+name: Microsoft OneNote Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Microsoft OneNote, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Microsoft OneNote

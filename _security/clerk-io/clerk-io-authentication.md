@@ -125,7 +125,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Clerk Io Authentication
+name: Clerk.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Clerk.io secures its APIs with apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

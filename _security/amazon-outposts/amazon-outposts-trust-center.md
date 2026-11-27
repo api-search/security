@@ -60,6 +60,12 @@ api_specs:
   slug: amazon-outposts-quotes-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-quotes-api-openapi.yml
+- filename: amazon-outposts-s3outposts-api-openapi.yml
+  format: yaml
+  label: Amazon Outposts Outposts S3Outposts API
+  slug: amazon-outposts-s3outposts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-outposts/openapi/amazon-outposts-s3outposts-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

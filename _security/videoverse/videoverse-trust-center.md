@@ -92,7 +92,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Videoverse Trust Center
+name: VideoVerse Trust Center
 name_suffix: Trust Center
 overview: VideoVerse maintains a public trust center documenting ISO/IEC 27001, ISO/IEC 27701, and ISO 9001 compliance.
 provider_name: VideoVerse

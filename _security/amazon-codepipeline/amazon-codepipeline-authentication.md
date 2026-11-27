@@ -21,6 +21,12 @@ api_specs:
   slug: amazon-codepipeline-aws-codepipeline-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-codepipeline/openapi/amazon-codepipeline-aws-codepipeline-api-openapi.yml
+- filename: amazon-codepipeline-operations-api-openapi.yml
+  format: yaml
+  label: Amazon CodePipeline Codepipeline Operations API
+  slug: amazon-codepipeline-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-codepipeline/openapi/amazon-codepipeline-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -28,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Codepipeline Authentication
+name: Amazon CodePipeline Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon CodePipeline secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

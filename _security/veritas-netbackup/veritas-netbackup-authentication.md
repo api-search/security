@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Veritas Netbackup Authentication
+name: Veritas NetBackup Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Veritas NetBackup secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

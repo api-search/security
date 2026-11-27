@@ -77,7 +77,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Sp Global Domain Security
+name: S&P Global Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for S&P Global, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: S&P Global

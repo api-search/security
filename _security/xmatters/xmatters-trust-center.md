@@ -70,7 +70,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Xmatters Trust Center
+name: xMatters Trust Center
 name_suffix: Trust Center
 overview: xMatters maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: xMatters

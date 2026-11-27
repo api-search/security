@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Contract Guard Trust Center
+name: Contract Guard / Autonomous Utility Factory Trust Center
 name_suffix: Trust Center
 overview: Contract Guard / Autonomous Utility Factory maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Contract Guard / Autonomous Utility Factory

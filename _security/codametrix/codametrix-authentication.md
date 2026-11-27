@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Codametrix Authentication
+name: CodaMetrix Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CodaMetrix secures its APIs with none across 0 declared security schemes, as derived from its OpenAPI definitions.

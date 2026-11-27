@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentletterdesk Com Authentication
+name: Agent Letter Desk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Letter Desk declares 1 security scheme(s) across its OpenAPI definitions.

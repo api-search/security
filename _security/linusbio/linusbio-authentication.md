@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Linusbio Authentication
+name: LinusBio Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LinusBio declares 3 security scheme(s) across its OpenAPI definitions.

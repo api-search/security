@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Digicatalyst Ca Authentication
+name: DigiCatalyst Systems Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DigiCatalyst Systems declares 2 security scheme(s) across its OpenAPI definitions.

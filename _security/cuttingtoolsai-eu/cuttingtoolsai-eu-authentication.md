@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Cuttingtoolsai Eu Authentication
+name: cuttingtoolsai-eu Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: cuttingtoolsai-eu declares 0 security scheme(s) across its OpenAPI definitions.

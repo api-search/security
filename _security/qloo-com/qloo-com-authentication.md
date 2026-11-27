@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Qloo Com Authentication
+name: Qloo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Qloo declares 1 security scheme(s) across its OpenAPI definitions.

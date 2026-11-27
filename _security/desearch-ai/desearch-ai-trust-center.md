@@ -68,7 +68,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Desearch Ai Trust Center
+name: desearch-ai Trust Center
 name_suffix: Trust Center
 overview: desearch-ai maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: desearch-ai

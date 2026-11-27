@@ -26,7 +26,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Trm Labs Trust Center
+name: TRM Labs Trust Center
 name_suffix: Trust Center
 overview: TRM Labs maintains a public trust center documenting SOC 2, ISO 27001, and FedRAMP compliance.
 provider_name: TRM Labs

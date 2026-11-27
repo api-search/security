@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Playground Authentication
+name: Playground API — Free Stateful Mock REST & GraphQL Service Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Playground API — Free Stateful Mock REST & GraphQL Service declares 1 security scheme(s) across its OpenAPI definitions.
@@ -91,7 +91,7 @@ tags:
 - Developer Tools
 - Testing
 - Mock API
-- api-sandbox
+- Api Sandbox
 - REST
 - GraphQL
 - E2E Testing

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fettle Sh Authentication
+name: fettle-sh Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: fettle-sh declares 1 security scheme(s) across its OpenAPI definitions.

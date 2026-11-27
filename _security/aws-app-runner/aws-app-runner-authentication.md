@@ -148,7 +148,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Aws App Runner Authentication
+name: AWS App Runner Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AWS App Runner secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

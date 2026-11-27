@@ -53,7 +53,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Handwrite Io Domain Security
+name: Handwrite IO Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Handwrite IO, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Handwrite IO

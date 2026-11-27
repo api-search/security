@@ -90,7 +90,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Didlogic Com Trust Center
+name: DID Logic Trust Center
 name_suffix: Trust Center
 overview: DID Logic maintains a public trust center documenting ISO 27001 compliance.
 provider_name: DID Logic

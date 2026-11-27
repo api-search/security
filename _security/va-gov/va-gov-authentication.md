@@ -186,7 +186,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: derived
-name: Va Gov Authentication
+name: Department of Veterans Affairs (VA Lighthouse) Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ai2Sql Io Authentication
+name: AI2SQL Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI2SQL declares 1 security scheme(s) across its OpenAPI definitions.

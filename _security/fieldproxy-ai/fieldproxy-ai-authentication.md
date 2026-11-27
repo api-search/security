@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fieldproxy Ai Authentication
+name: Fieldproxy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fieldproxy declares 1 security scheme(s) across its OpenAPI definitions.
@@ -42,5 +42,5 @@ tags:
 - Dispatch
 - Invoicing
 - Customer Portal
-- Multi-Language
+- Multi-language
 ---

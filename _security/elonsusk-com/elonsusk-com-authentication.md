@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Elonsusk Com Authentication
+name: Artem / A2A Sandbox Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Artem / A2A Sandbox declares 0 security scheme(s) across its OpenAPI definitions.

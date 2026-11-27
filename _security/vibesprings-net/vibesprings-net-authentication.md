@@ -224,7 +224,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Vibesprings Net Authentication
+name: vibesprings-net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: vibesprings-net declares 1 security scheme(s) across its OpenAPI definitions.

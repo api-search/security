@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Africastalking Authentication
+name: Africa's Talking Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Africa's Talking secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

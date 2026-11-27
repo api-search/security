@@ -168,7 +168,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tackleio Trust Center
+name: Tackle.io Trust Center
 name_suffix: Trust Center
 overview: Tackle.io maintains a public trust center documenting SOC 2 compliance.
 provider_name: Tackle.io

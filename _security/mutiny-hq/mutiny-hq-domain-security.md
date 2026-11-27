@@ -29,7 +29,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Mutiny Hq Domain Security
+name: Mutiny HQ Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Mutiny HQ, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
 provider_name: Mutiny HQ

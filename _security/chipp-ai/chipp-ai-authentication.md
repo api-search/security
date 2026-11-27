@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Chipp Ai Authentication
+name: chipp-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: chipp-ai declares 1 security scheme(s) across its OpenAPI definitions.

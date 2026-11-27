@@ -26,7 +26,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Getvocal Trust Center
+name: GetVocal Trust Center
 name_suffix: Trust Center
 overview: GetVocal maintains a public trust center documenting SOC 2, ISO 27001, and HIPAA compliance.
 provider_name: GetVocal

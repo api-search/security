@@ -8,7 +8,7 @@ api_specs:
   label: Pushbullet Realtime Event Stream
   slug: realtime-event-stream
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushbullet/refs/heads/main/openapi/pushbullet-asyncapi.yml
+  url: https://artifacts.apis.io/pushbullet/openapi/pushbullet-asyncapi.yml
 - filename: pushbullet-channels-api-openapi.yml
   format: yaml
   label: Pushbullet Channels API

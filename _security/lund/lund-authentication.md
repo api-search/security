@@ -16,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Lund Authentication
+name: Lund University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Lund University secures its APIs with none and saml across 2 declared security schemes, as derived from its OpenAPI definitions.

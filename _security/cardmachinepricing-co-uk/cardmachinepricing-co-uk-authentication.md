@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cardmachinepricing Co Uk Authentication
+name: cardmachinepricing-co-uk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: cardmachinepricing-co-uk declares 1 security scheme(s) across its OpenAPI definitions.

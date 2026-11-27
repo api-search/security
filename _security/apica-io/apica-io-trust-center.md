@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Apica Io Trust Center
+name: Apica Trust Center
 name_suffix: Trust Center
 overview: Apica maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
 provider_name: Apica

@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ezcater Trust Center
+name: ezCater Trust Center
 name_suffix: Trust Center
 overview: ezCater maintains a public trust center documenting PCI DSS, SOC 2, CAIQ-Lite, SIG Lite, and HECVAT compliance.
 provider_name: ezCater

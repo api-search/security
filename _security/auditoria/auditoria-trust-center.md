@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Auditoria Trust Center
+name: Auditoria.AI Trust Center
 name_suffix: Trust Center
 overview: Auditoria.AI maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: Auditoria.AI

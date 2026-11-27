@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Trigger Dev Authentication
+name: Trigger.dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Trigger.dev secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -85,7 +85,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/trigger-
 source_yaml_url: https://artifacts.apis.io/trigger-dev/authentication/trigger-dev-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- Developer-First
 - Workflow Automation
 - Background Jobs
 - Durable Execution

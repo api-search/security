@@ -1,4 +1,17 @@
 ---
+api_specs:
+- filename: drawscheduleworks-com-dataset-api-openapi.yml
+  format: yaml
+  label: DrawScheduleWorks Dataset API
+  slug: drawscheduleworks-com-dataset-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/drawscheduleworks-com/openapi/drawscheduleworks-com-dataset-api-openapi.yml
+- filename: drawscheduleworks-com-mcp-api-openapi.yml
+  format: yaml
+  label: DrawScheduleWorks MCP API
+  slug: drawscheduleworks-com-mcp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/drawscheduleworks-com/openapi/drawscheduleworks-com-mcp-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -17,7 +30,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Drawscheduleworks Com Domain Security
+name: DrawScheduleWorks Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for DrawScheduleWorks, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: DrawScheduleWorks
@@ -33,6 +46,6 @@ tags:
 - Construction
 - Tools
 - Estimating
+- Scheduling
 - Small Business
-- FreeSoftware
 ---

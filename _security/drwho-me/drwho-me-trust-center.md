@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Drwho Me Trust Center
+name: drwho-me Trust Center
 name_suffix: Trust Center
 overview: drwho-me maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: drwho-me

@@ -32,7 +32,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Catalogapi Com Trust Center
+name: catalogapi-com Trust Center
 name_suffix: Trust Center
 overview: catalogapi-com maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: catalogapi-com

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Teslalogger Authentication
+name: TeslaLogger (self-hosted) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TeslaLogger (self-hosted) declares 1 security scheme(s) across its OpenAPI definitions.

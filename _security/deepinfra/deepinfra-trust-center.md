@@ -6,24 +6,12 @@ api_specs:
   slug: deepinfra-audio-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-audio-api-openapi.yml
-- filename: deepinfra-completions-api-openapi.yml
-  format: yaml
-  label: DeepInfra Completions API
-  slug: deepinfra-completions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-completions-api-openapi.yml
 - filename: deepinfra-embeddings-api-openapi.yml
   format: yaml
   label: DeepInfra Embeddings API
   slug: deepinfra-embeddings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-embeddings-api-openapi.yml
-- filename: deepinfra-images-api-openapi.yml
-  format: yaml
-  label: DeepInfra Images API
-  slug: deepinfra-images-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-images-api-openapi.yml
 - filename: deepinfra-models-api-openapi.yml
   format: yaml
   label: DeepInfra Models API
@@ -159,7 +147,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Deepinfra Trust Center
+name: DeepInfra Trust Center
 name_suffix: Trust Center
 overview: DeepInfra maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: DeepInfra

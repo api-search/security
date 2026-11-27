@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: kamino-airdrop-api-openapi.yml
-  format: yaml
-  label: Kamino Airdrop API
-  slug: kamino-airdrop-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kamino/openapi/kamino-airdrop-api-openapi.yml
 - filename: kamino-farms-api-openapi.yml
   format: yaml
   label: Kamino Farms API
@@ -230,6 +224,12 @@ api_specs:
   slug: kamino-whirlpools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/kamino/openapi/kamino-whirlpools-api-openapi.yml
+- filename: kamino-airdrop-api-openapi.yml
+  format: yaml
+  label: Kamino Airdrop API
+  slug: kamino-airdrop-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kamino/openapi/kamino-airdrop-api-openapi.yml
 auth_types:
 - none
 description: ''

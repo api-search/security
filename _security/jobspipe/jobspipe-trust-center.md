@@ -24,12 +24,6 @@ api_specs:
   slug: jobspipe-jobs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-jobs-api-openapi.yml
-- filename: jobspipe-jobspipe-api-api-openapi.yml
-  format: yaml
-  label: JobsPipe JobsPipe API
-  slug: jobspipe-jobspipe-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-jobspipe-api-api-openapi.yml
 - filename: jobspipe-labour-market-insights-api-openapi.yml
   format: yaml
   label: JobsPipe Labour Market Insights API
@@ -84,7 +78,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Jobspipe Trust Center
+name: JobsPipe Trust Center
 name_suffix: Trust Center
 overview: JobsPipe maintains a public trust center documenting GDPR compliance.
 provider_name: JobsPipe

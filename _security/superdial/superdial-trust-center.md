@@ -23,7 +23,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Superdial Trust Center
+name: SuperDial Trust Center
 name_suffix: Trust Center
 overview: SuperDial maintains a public trust center covering its security and compliance posture.
 provider_name: SuperDial

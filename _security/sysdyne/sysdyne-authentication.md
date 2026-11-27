@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Sysdyne Authentication
+name: Sysdyne Technologies Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sysdyne Technologies secures its APIs with session and publicKeyExchange across 2 declared security schemes, as derived from its OpenAPI definitions.

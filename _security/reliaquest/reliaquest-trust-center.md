@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Reliaquest Trust Center
+name: ReliaQuest Trust Center
 name_suffix: Trust Center
 overview: ReliaQuest maintains a public trust center documenting SOC 2 Type II, HIPAA, and PCI DSS compliance.
 provider_name: ReliaQuest

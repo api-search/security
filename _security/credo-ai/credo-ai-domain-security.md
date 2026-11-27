@@ -240,18 +240,6 @@ api_specs:
   slug: credo-ai-relationship-types-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/credo-ai/openapi/credo-ai-relationship-types-api-openapi.yml
-- filename: credoai-audit-logs-api-openapi.yml
-  format: yaml
-  label: Credoai Audit Logs API
-  slug: credoai-audit-logs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/credo-ai/openapi/credoai-audit-logs-api-openapi.yml
-- filename: credoai-shadow-ai-api-openapi.yml
-  format: yaml
-  label: Credoai Shadow AI API
-  slug: credoai-shadow-ai-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/credo-ai/openapi/credoai-shadow-ai-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -286,7 +274,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Credo Ai Domain Security
+name: Credo AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Credo AI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Credo AI

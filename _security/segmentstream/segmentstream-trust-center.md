@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Segmentstream Trust Center
+name: SegmentStream Trust Center
 name_suffix: Trust Center
 overview: SegmentStream maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: SegmentStream

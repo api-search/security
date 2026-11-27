@@ -240,7 +240,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fincept In Domain Security
+name: Fincept Terminal Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Fincept Terminal, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Fincept Terminal
@@ -262,5 +262,5 @@ tags:
 - Backtesting
 - Portfolio Management
 - MCP
-- Agentic AI
+- AI Agents
 ---

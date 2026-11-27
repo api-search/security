@@ -64,7 +64,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: 01Mind Net Authentication
+name: 01Mind Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 01Mind secures its APIs with apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sprypoint Trust Center
+name: SpryPoint Trust Center
 name_suffix: Trust Center
 overview: SpryPoint maintains a public trust center documenting SOC 2 compliance.
 provider_name: SpryPoint

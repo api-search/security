@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Clara Cc Trust Center
+name: Clara Trust Center
 name_suffix: Trust Center
 overview: Clara maintains a public trust center documenting ISO 27001 and PCI DSS compliance.
 provider_name: Clara

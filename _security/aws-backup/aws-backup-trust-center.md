@@ -132,6 +132,30 @@ api_specs:
   slug: aws-backup-tiering-configurations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-tiering-configurations-api-openapi.yml
+- filename: aws-backup-export-search-jobs-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Export Search Jobs API
+  slug: aws-backup-export-search-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-export-search-jobs-api-openapi.yml
+- filename: aws-backup-gateway-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Gateway API
+  slug: aws-backup-gateway-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-gateway-api-openapi.yml
+- filename: aws-backup-hypervisor-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Hypervisor API
+  slug: aws-backup-hypervisor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-hypervisor-api-openapi.yml
+- filename: aws-backup-search-jobs-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Search Jobs API
+  slug: aws-backup-search-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-search-jobs-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -142,7 +166,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aws Backup Trust Center
+name: AWS Backup Trust Center
 name_suffix: Trust Center
 overview: AWS Backup maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: AWS Backup

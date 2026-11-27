@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Arithym Xyz Authentication
+name: Arithym Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Arithym declares 1 security scheme(s) across its OpenAPI definitions.

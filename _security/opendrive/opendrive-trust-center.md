@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Opendrive Trust Center
+name: OpenDrive Trust Center
 name_suffix: Trust Center
 overview: OpenDrive maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: OpenDrive

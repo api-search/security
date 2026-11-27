@@ -18,7 +18,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Optisigns Trust Center
+name: OptiSigns Trust Center
 name_suffix: Trust Center
 overview: OptiSigns maintains a public trust center documenting SOC 2 compliance.
 provider_name: OptiSigns

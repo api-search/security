@@ -67,7 +67,6 @@ summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Quotes
 - Open Source
-- Free API
 - Node.js
 - MongoDB
 - Express

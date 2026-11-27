@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Dadan Io Authentication
+name: Dadan Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dadan secures its APIs with apiKey, oauth2, and publicAppId across 3 declared security schemes, as derived from its OpenAPI definitions.

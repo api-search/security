@@ -27,7 +27,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sps Commerce Trust Center
+name: SPS Commerce Trust Center
 name_suffix: Trust Center
 overview: SPS Commerce maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, and ISO 27018 compliance.
 provider_name: SPS Commerce

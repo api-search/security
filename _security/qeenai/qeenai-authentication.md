@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Qeenai Authentication
+name: Qeen.AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Qeen.AI secures its APIs with apiKey and cookie across 3 declared security schemes, as derived from its OpenAPI definitions.

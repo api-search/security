@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Window Sticker Vin Api Authentication
+name: Window Sticker VIN API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Window Sticker VIN API declares 1 security scheme(s) across its OpenAPI definitions.

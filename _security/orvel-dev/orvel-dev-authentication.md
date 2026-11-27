@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Orvel Dev Authentication
+name: orvel-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: orvel-dev declares 3 security scheme(s) across its OpenAPI definitions.

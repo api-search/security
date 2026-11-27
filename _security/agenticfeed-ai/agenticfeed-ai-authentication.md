@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agenticfeed Ai Authentication
+name: Agenticfeed Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agenticfeed declares 0 security scheme(s) across its OpenAPI definitions.

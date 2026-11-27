@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Aar Authentication
+name: AAR Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AAR secures its APIs with http-bearer across 1 declared security scheme, as derived from its OpenAPI definitions.

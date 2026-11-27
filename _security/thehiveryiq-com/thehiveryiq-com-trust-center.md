@@ -905,7 +905,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Thehiveryiq Com Trust Center
+name: Hive Civilization Trust Center
 name_suffix: Trust Center
 overview: Hive Civilization maintains a public trust center covering its security and compliance posture.
 provider_name: Hive Civilization

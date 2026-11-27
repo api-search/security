@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: apaleo-availability-api-openapi.yml
-  format: yaml
-  label: apaleo Availability API
-  slug: apaleo-availability-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apaleo/openapi/apaleo-availability-api-openapi.yml
 - filename: apaleo-booking-api-openapi.yml
   format: yaml
   label: apaleo Booking API
   slug: apaleo-booking-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apaleo/openapi/apaleo-booking-api-openapi.yml
-- filename: apaleo-finance-api-openapi.yml
-  format: yaml
-  label: apaleo Finance API
-  slug: apaleo-finance-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apaleo/openapi/apaleo-finance-api-openapi.yml
-- filename: apaleo-inventory-api-openapi.yml
-  format: yaml
-  label: apaleo Inventory API
-  slug: apaleo-inventory-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apaleo/openapi/apaleo-inventory-api-openapi.yml
-- filename: apaleo-rate-plan-api-openapi.yml
-  format: yaml
-  label: apaleo Rate Plan API
-  slug: apaleo-rate-plan-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apaleo/openapi/apaleo-rate-plan-api-openapi.yml
-- filename: apaleo-settings-api-openapi.yml
-  format: yaml
-  label: apaleo Settings API
-  slug: apaleo-settings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/apaleo/openapi/apaleo-settings-api-openapi.yml
 - filename: apaleo-authorization-api-openapi.yml
   format: yaml
   label: apaleo Authorization API
@@ -138,7 +108,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Apaleo Domain Security
+name: apaleo Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for apaleo, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: apaleo

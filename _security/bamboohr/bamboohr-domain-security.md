@@ -5,7 +5,7 @@ api_specs:
   label: BambooHR Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-asyncapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-asyncapi.yml
 - filename: bamboohr-directory-api-openapi.yml
   format: yaml
   label: BambooHR Directory API
@@ -73,7 +73,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Bamboohr Domain Security
+name: BambooHR Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for BambooHR, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: BambooHR

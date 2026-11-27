@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Cleveland Cliffs Authentication
+name: Cleveland-Cliffs Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

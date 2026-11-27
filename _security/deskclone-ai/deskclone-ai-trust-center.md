@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Deskclone Ai Trust Center
+name: DeskClone AI Trust Center
 name_suffix: Trust Center
 overview: DeskClone AI maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: DeskClone AI

@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cronjob De Authentication
+name: Cronjob.de Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cronjob.de secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

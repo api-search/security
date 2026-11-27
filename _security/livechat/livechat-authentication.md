@@ -7,7 +7,7 @@ api_specs:
   label: LiveChat Webhooks and RTM API
   slug: webhooks-and-rtm
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-asyncapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-asyncapi.yml
 - filename: livechat-chats-api-openapi.yml
   format: yaml
   label: LiveChat Chats API
@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Livechat Authentication
+name: LiveChat Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LiveChat secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

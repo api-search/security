@@ -111,12 +111,12 @@ api_specs:
   spec_type: OpenAPI
   url: https://artifacts.apis.io/prospectapis/openapi/prospectapis-research-api-openapi.yml
 auth_types: []
-description: Authentication schemes for ProspectAPIs
+description: ''
 kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Prospectapis Authentication
+name: ProspectAPIs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ProspectAPIs declares 2 security scheme(s) across its OpenAPI definitions.
@@ -125,16 +125,18 @@ provider_slug: prospectapis
 scheme_count: 2
 schemes:
 - evidence: ProspectAPIs API authentication is a secret API key sent as a Bearer token in the Authorization header of every /v1 request.
-  name: Authorization
+  header: Authorization
+  location: header
+  name: Bearer token
   type: apiKey
-- evidence: Clients that support remote servers can instead sign in with OAuth , and the connected app then shows in your key list
+- evidence: Clients that support remote servers can instead sign in with OAuth , and the connected app then shows in your key list, where you can revoke it.
   name: OAuth
   type: oauth2
 slug: prospectapis-authentication
 source_filename: prospectapis-authentication.yml
 source_heading: Authentication Profile
 source_url: https://prospectapis.com/docs/authentication
-source_yaml: "generated: '2026-11-04'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://prospectapis.com/docs/authentication\nsources:\n- https://prospectapis.com/docs/authentication\n- https://prospectapis.com/mcp#oauth\n- https://prospectapis.com/docs/reference/connect-account-login\n- https://prospectapis.com/faq#getting-started\ndescription: Authentication schemes for ProspectAPIs\nschemes:\n- type: apiKey\n  name: Authorization\n  evidence: ProspectAPIs API authentication is a secret API key sent as a Bearer token in the Authorization header of every /v1 request.\n- type: oauth2\n  name: OAuth\n  evidence: Clients that support remote servers can instead sign in with OAuth , and the connected app then shows in your key list\ndocs: https://prospectapis.com/docs/authentication\n"
+source_yaml: "generated: '2026-11-09'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://prospectapis.com/docs/authentication\nsources:\n- https://prospectapis.com/docs/authentication\n- https://prospectapis.com/mcp#oauth\n- https://prospectapis.com/docs/reference/connect-account-login\n- https://prospectapis.com/faq#getting-started\nschemes:\n- type: apiKey\n  name: Bearer token\n  evidence: ProspectAPIs API authentication is a secret API key sent as a Bearer token in the Authorization header of every /v1 request.\n  location: header\n  header: Authorization\n- type: oauth2\n  name: OAuth\n  evidence: Clients that support remote servers can instead sign in with OAuth , and the connected app then shows in your key list, where you\n    can revoke it.\ndocs: https://prospectapis.com/docs/authentication\n"
 source_yaml_url: https://artifacts.apis.io/prospectapis/authentication/prospectapis-authentication.yml
 summary_line: 2 schemes
 tags:

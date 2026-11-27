@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aktana Trust Center
+name: Aktana (PharmaForceIQ) Trust Center
 name_suffix: Trust Center
 overview: Aktana (PharmaForceIQ) maintains a public trust center documenting SOC 2 Type II, ISO 27001, HIPAA, CCPA, and GDPR compliance.
 provider_name: Aktana (PharmaForceIQ)

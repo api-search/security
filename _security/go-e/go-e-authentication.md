@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Go E Authentication
+name: go-e Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: go-e declares 0 security scheme(s) across its OpenAPI definitions.

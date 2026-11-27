@@ -16,7 +16,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Charliemorrison Dev Domain Security
+name: Charlie Morrison Digital Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Charlie Morrison Digital, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Charlie Morrison Digital

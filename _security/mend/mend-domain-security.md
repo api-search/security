@@ -30,12 +30,6 @@ api_specs:
   slug: mend-administration-users-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mend/openapi/mend-administration-users-api-openapi.yml
-- filename: mend-ai-api-openapi.yml
-  format: yaml
-  label: Mend AI API
-  slug: mend-ai-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mend/openapi/mend-ai-api-openapi.yml
 - filename: mend-alerts-product-api-openapi.yml
   format: yaml
   label: Mend Alerts - Product API
@@ -78,12 +72,6 @@ api_specs:
   slug: mend-customattribute-project-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mend/openapi/mend-customattribute-project-api-openapi.yml
-- filename: mend-dependencies-source-files-api-openapi.yml
-  format: yaml
-  label: Mend Dependencies Source Files API
-  slug: mend-dependencies-source-files-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mend/openapi/mend-dependencies-source-files-api-openapi.yml
 - filename: mend-domain-controller-api-openapi.yml
   format: yaml
   label: Mend Domain Controller API
@@ -108,18 +96,6 @@ api_specs:
   slug: mend-entities-project-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mend/openapi/mend-entities-project-api-openapi.yml
-- filename: mend-findings-project-api-openapi.yml
-  format: yaml
-  label: Mend Findings - Project API
-  slug: mend-findings-project-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mend/openapi/mend-findings-project-api-openapi.yml
-- filename: mend-findings-scan-api-openapi.yml
-  format: yaml
-  label: Mend Findings - Scan API
-  slug: mend-findings-scan-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mend/openapi/mend-findings-scan-api-openapi.yml
 - filename: mend-general-info-licenses-api-openapi.yml
   format: yaml
   label: Mend General Info - Licenses API
@@ -204,12 +180,6 @@ api_specs:
   slug: mend-projects-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mend/openapi/mend-projects-api-openapi.yml
-- filename: mend-red-team-api-openapi.yml
-  format: yaml
-  label: Mend Red Team API
-  slug: mend-red-team-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mend/openapi/mend-red-team-api-openapi.yml
 - filename: mend-reports-api-openapi.yml
   format: yaml
   label: Mend Reports API
@@ -276,12 +246,6 @@ api_specs:
   slug: mend-vulnerable-libraries-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mend/openapi/mend-vulnerable-libraries-api-openapi.yml
-- filename: mend-zero-day-events-api-openapi.yml
-  format: yaml
-  label: Mend Zero-Day Events API
-  slug: mend-zero-day-events-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mend/openapi/mend-zero-day-events-api-openapi.yml
 - filename: mend-administration-activity-log-api-openapi.yml
   format: yaml
   label: Mend Administration - Activity Log API

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Agentdocs Eu Authentication
+name: agentdocs-eu Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: agentdocs-eu declares 3 security scheme(s) across its OpenAPI definitions.

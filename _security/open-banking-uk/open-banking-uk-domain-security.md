@@ -265,7 +265,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Open Banking Uk Domain Security
+name: UK Open Banking Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for UK Open Banking, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: UK Open Banking

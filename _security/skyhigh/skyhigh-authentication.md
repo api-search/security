@@ -18,7 +18,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Skyhigh Authentication
+name: Skyhigh Security Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit

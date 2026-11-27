@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Comos Gateway Com Authentication
+name: comos-gateway-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: comos-gateway-com declares 0 security scheme(s) across its OpenAPI definitions.

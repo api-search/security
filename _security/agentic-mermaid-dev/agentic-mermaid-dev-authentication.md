@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentic Mermaid Dev Authentication
+name: Agentic Mermaid Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agentic Mermaid declares 0 security scheme(s) across its OpenAPI definitions.

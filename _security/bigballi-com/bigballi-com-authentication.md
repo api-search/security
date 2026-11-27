@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Bigballi Com Authentication
+name: bigballi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: bigballi-com declares 0 security scheme(s) across its OpenAPI definitions.

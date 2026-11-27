@@ -159,6 +159,12 @@ api_specs:
   slug: aws-security-hub-organization-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-organization-api-openapi.yml
+- filename: aws-security-hub-softwarev2-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Softwarev2 API
+  slug: aws-security-hub-softwarev2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-softwarev2-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -166,7 +172,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Aws Security Hub Authentication
+name: AWS Security Hub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AWS Security Hub secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -174,18 +180,46 @@ provider_name: AWS Security Hub
 provider_slug: aws-security-hub
 scheme_count: 1
 schemes:
-- description: AWS Signature Version 4 signed Authorization header
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: SigV4
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/aws-security-hub-openapi.yml
+  - openapi/aws-security-hub-action-targets-api-openapi.yml
+  - openapi/aws-security-hub-administrator-api-openapi.yml
+  - openapi/aws-security-hub-aggregatorv2-api-openapi.yml
+  - openapi/aws-security-hub-associations-api-openapi.yml
+  - openapi/aws-security-hub-automation-rules-api-openapi.yml
+  - openapi/aws-security-hub-automationrulesv2-api-openapi.yml
+  - openapi/aws-security-hub-configuration-policies-api-openapi.yml
+  - openapi/aws-security-hub-configurationpolicyassociation-api-openapi.yml
+  - openapi/aws-security-hub-connectors-api-openapi.yml
+  - openapi/aws-security-hub-connectorsv2-api-openapi.yml
+  - openapi/aws-security-hub-controls-api-openapi.yml
+  - openapi/aws-security-hub-exportjobsv2-api-openapi.yml
+  - openapi/aws-security-hub-findingaggregator-api-openapi.yml
+  - openapi/aws-security-hub-findings-api-openapi.yml
+  - openapi/aws-security-hub-findingsv2-api-openapi.yml
+  - openapi/aws-security-hub-hub-api-openapi.yml
+  - openapi/aws-security-hub-hubv2-api-openapi.yml
+  - openapi/aws-security-hub-insights-api-openapi.yml
+  - openapi/aws-security-hub-integrations-api-openapi.yml
+  - openapi/aws-security-hub-invitations-api-openapi.yml
+  - openapi/aws-security-hub-master-api-openapi.yml
+  - openapi/aws-security-hub-members-api-openapi.yml
+  - openapi/aws-security-hub-operations-api-openapi.yml
+  - openapi/aws-security-hub-organization-api-openapi.yml
+  - openapi/aws-security-hub-softwarev2-api-openapi.yml
+  - openapi/aws-security-hub-standards-api-openapi.yml
+  - openapi/aws-security-hub-tags-api-openapi.yml
   type: apiKey
 slug: aws-security-hub-authentication
 source_filename: aws-security-hub-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/aws-security-hub-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: SigV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 signed Authorization header\n  sources:\n  - openapi/aws-security-hub-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/aws-security-hub-action-targets-api-openapi.yml, openapi/aws-security-hub-administrator-api-openapi.yml,\n  openapi/aws-security-hub-aggregatorv2-api-openapi.yml, openapi/aws-security-hub-associations-api-openapi.yml,\n  openapi/aws-security-hub-automation-rules-api-openapi.yml, openapi/aws-security-hub-automationrulesv2-api-openapi.yml,\n  openapi/aws-security-hub-configuration-policies-api-openapi.yml, openapi/aws-security-hub-configurationpolicyassociation-api-openapi.yml,\n  openapi/aws-security-hub-connectors-api-openapi.yml, openapi/aws-security-hub-connectorsv2-api-openapi.yml,\n  openapi/aws-security-hub-controls-api-openapi.yml, openapi/aws-security-hub-exportjobsv2-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n\
+  \    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/aws-security-hub-action-targets-api-openapi.yml\n  - openapi/aws-security-hub-administrator-api-openapi.yml\n  - openapi/aws-security-hub-aggregatorv2-api-openapi.yml\n  - openapi/aws-security-hub-associations-api-openapi.yml\n  - openapi/aws-security-hub-automation-rules-api-openapi.yml\n  - openapi/aws-security-hub-automationrulesv2-api-openapi.yml\n  - openapi/aws-security-hub-configuration-policies-api-openapi.yml\n  - openapi/aws-security-hub-configurationpolicyassociation-api-openapi.yml\n  - openapi/aws-security-hub-connectors-api-openapi.yml\n  - openapi/aws-security-hub-connectorsv2-api-openapi.yml\n  - openapi/aws-security-hub-controls-api-openapi.yml\n  - openapi/aws-security-hub-exportjobsv2-api-openapi.yml\n  - openapi/aws-security-hub-findingaggregator-api-openapi.yml\n  - openapi/aws-security-hub-findings-api-openapi.yml\n\
+  \  - openapi/aws-security-hub-findingsv2-api-openapi.yml\n  - openapi/aws-security-hub-hub-api-openapi.yml\n  - openapi/aws-security-hub-hubv2-api-openapi.yml\n  - openapi/aws-security-hub-insights-api-openapi.yml\n  - openapi/aws-security-hub-integrations-api-openapi.yml\n  - openapi/aws-security-hub-invitations-api-openapi.yml\n  - openapi/aws-security-hub-master-api-openapi.yml\n  - openapi/aws-security-hub-members-api-openapi.yml\n  - openapi/aws-security-hub-operations-api-openapi.yml\n  - openapi/aws-security-hub-organization-api-openapi.yml\n  - openapi/aws-security-hub-softwarev2-api-openapi.yml\n  - openapi/aws-security-hub-standards-api-openapi.yml\n  - openapi/aws-security-hub-tags-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/aws-security-hub/authentication/aws-security-hub-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

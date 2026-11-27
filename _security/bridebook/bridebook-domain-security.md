@@ -33,6 +33,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Wedding Planning
 - Online Planner
-- Free App
+- FreeApp
 - Couples
 ---

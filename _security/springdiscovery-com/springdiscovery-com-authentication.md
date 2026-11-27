@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Springdiscovery Com Authentication
+name: Spring Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Spring declares 0 security scheme(s) across its OpenAPI definitions.

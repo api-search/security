@@ -140,7 +140,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tago Io Trust Center
+name: TagoIO Trust Center
 name_suffix: Trust Center
 overview: TagoIO maintains a public trust center documenting ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: TagoIO

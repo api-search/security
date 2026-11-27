@@ -16,7 +16,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Tidalscale Domain Security
+name: TidalScale Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for TidalScale, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
 provider_name: TidalScale

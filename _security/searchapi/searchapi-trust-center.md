@@ -29,7 +29,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Searchapi Trust Center
+name: SearchApi Trust Center
 name_suffix: Trust Center
 overview: SearchApi maintains a public trust center documenting ISO/IEC 27001:2022, GDPR, SOC 2, PCI DSS, HIPAA, and FedRAMP compliance.
 provider_name: SearchApi

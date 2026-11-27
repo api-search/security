@@ -35,7 +35,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Apimatic Authentication
+name: APIMatic Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

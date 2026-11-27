@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentcentral To Authentication
+name: Agent Central Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Central declares 1 security scheme(s) across its OpenAPI definitions.

@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: microsoft-endpoint-configuration-management-applications-api-openapi.yml
-  format: yaml
-  label: Microsoft Endpoint Configuration Management Applications API
-  slug: microsoft-endpoint-configuration-management-applications-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-applications-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-collections-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Collections API
@@ -50,12 +44,6 @@ api_specs:
   slug: microsoft-endpoint-configuration-management-device-actions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-device-actions-api-openapi.yml
-- filename: microsoft-endpoint-configuration-management-devices-api-openapi.yml
-  format: yaml
-  label: Microsoft Endpoint Configuration Management Devices API
-  slug: microsoft-endpoint-configuration-management-devices-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-devices-api-openapi.yml
 - filename: microsoft-endpoint-configuration-management-export-jobs-api-openapi.yml
   format: yaml
   label: Microsoft Endpoint Configuration Management Export Jobs API
@@ -122,6 +110,18 @@ api_specs:
   slug: microsoft-endpoint-configuration-management-users-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-users-api-openapi.yml
+- filename: microsoft-endpoint-configuration-management-applications-api-openapi.yml
+  format: yaml
+  label: Microsoft Endpoint Configuration Management Applications API
+  slug: microsoft-endpoint-configuration-management-applications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-applications-api-openapi.yml
+- filename: microsoft-endpoint-configuration-management-devices-api-openapi.yml
+  format: yaml
+  label: Microsoft Endpoint Configuration Management Devices API
+  slug: microsoft-endpoint-configuration-management-devices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-endpoint-configuration-management/openapi/microsoft-endpoint-configuration-management-devices-api-openapi.yml
 auth_types:
 - http
 - oauth2

@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Levelup Authentication
+name: LevelUp Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LevelUp secures its APIs with apiKey and custom-token across 4 declared security schemes, as derived from its OpenAPI definitions.

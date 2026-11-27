@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Welocalize Trust Center
+name: Opal by Welocalize Trust Center
 name_suffix: Trust Center
 overview: Opal by Welocalize maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: Opal by Welocalize

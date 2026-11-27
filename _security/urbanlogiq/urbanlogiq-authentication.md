@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Urbanlogiq Authentication
+name: UrbanLogiq Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: UrbanLogiq secures its APIs with signedRequest and bearer across 2 declared security schemes, as derived from its OpenAPI definitions.

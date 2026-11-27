@@ -5,13 +5,13 @@ api_specs:
   label: PlayAI Text-to-Speech API
   slug: tts-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/asyncapi/playht-asyncapi.yml
+  url: https://artifacts.apis.io/playht/asyncapi/playht-asyncapi.yml
 - filename: playht-asyncapi.yml
   format: yaml
   label: PlayAI Voice Agents API
   slug: agents-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/asyncapi/playht-asyncapi.yml
+  url: https://artifacts.apis.io/playht/asyncapi/playht-asyncapi.yml
 - filename: playht-agents-api-openapi.yml
   format: yaml
   label: PlayHT Agents API
@@ -75,7 +75,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Playht Domain Security
+name: PlayHT Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for PlayHT, probed live across 3 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: PlayHT

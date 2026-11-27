@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Betrend Im Authentication
+name: betrend - Live Scores, Odds, Racing and Lottery Results Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: betrend - Live Scores, Odds, Racing and Lottery Results declares 0 security scheme(s) across its OpenAPI definitions.

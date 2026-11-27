@@ -14,7 +14,7 @@ certifications:
 description: TrueContext operates a public Trust Center (a Conveyor-powered portal at trust.truecontext.com) exposing its security and compliance posture and document library. The compliance & security product page corroborates the high-confidence certifications below; additional standards are listed in the Trust Center document library. (FedRAMP appears as a Conveyor document-category keyword on the portal but is not corroborated as an authorization and is omitted.)
 kind: trust-center
 layout: security
-name: Truecontext Trust Center
+name: TrueContext Trust Center
 name_suffix: Trust Center
 overview: TrueContext maintains a public trust center documenting SOC 2 Type II, HIPAA / HITECH, Title 21 CFR Part 11, GDPR, ISO 27001, ISO 27017, ISO 27018, PCI DSS, CSA STAR, and CCPA compliance.
 provider_name: TrueContext

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Omnidev Tech Authentication
+name: omnidev-tech Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: omnidev-tech declares 2 security scheme(s) across its OpenAPI definitions.

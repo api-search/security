@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Agnikul Authentication
+name: Agnikul Cosmos Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agnikul Cosmos declares 4 security scheme(s) across its OpenAPI definitions.

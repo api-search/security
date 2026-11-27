@@ -126,12 +126,6 @@ api_specs:
   slug: flipdish-features-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/flipdish/openapi/flipdish-features-api-openapi.yml
-- filename: flipdish-files-api-openapi.yml
-  format: yaml
-  label: Flipdish Files API
-  slug: flipdish-files-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/flipdish/openapi/flipdish-files-api-openapi.yml
 - filename: flipdish-firebaseapps-api-openapi.yml
   format: yaml
   label: Flipdish FirebaseApps API
@@ -306,12 +300,6 @@ api_specs:
   slug: flipdish-payouts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/flipdish/openapi/flipdish-payouts-api-openapi.yml
-- filename: flipdish-payoutsexport-api-openapi.yml
-  format: yaml
-  label: Flipdish PayoutsExport API
-  slug: flipdish-payoutsexport-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/flipdish/openapi/flipdish-payoutsexport-api-openapi.yml
 - filename: flipdish-processingfeeconfigs-api-openapi.yml
   format: yaml
   label: Flipdish ProcessingFeeConfigs API

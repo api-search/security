@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Flo Ev Trust Center
+name: FLO Trust Center
 name_suffix: Trust Center
 overview: FLO maintains a public trust center documenting SOC 2 Type 2, SOC 2 Type 1, and PCI DSS compliance.
 provider_name: FLO

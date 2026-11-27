@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: 50Heads Com Authentication
+name: 50heads Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 50heads declares 2 security scheme(s) across its OpenAPI definitions.

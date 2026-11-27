@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Mt4Api Authentication
+name: Noble Minds Media Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Noble Minds Media declares 2 security scheme(s) across its OpenAPI definitions.

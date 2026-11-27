@@ -126,7 +126,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Tiledb Authentication
+name: TileDB Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

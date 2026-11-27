@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ticexplorer Com Authentication
+name: ticexplorer-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ticexplorer-com declares 2 security scheme(s) across its OpenAPI definitions.

@@ -90,7 +90,7 @@ source_yaml_url: https://artifacts.apis.io/standard-compute/security/standard-co
 summary_line: TLSv1.3 · DMARC
 tags:
 - LLM API
-- Flat Rate
+- Flat-rate
 - Subscription
 - AI Agents
 - Inference

@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Evcc Authentication
+name: evcc (self-hosted) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: evcc (self-hosted) declares 2 security scheme(s) across its OpenAPI definitions.

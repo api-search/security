@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Wearkinetic Com Authentication
+name: Kinetic Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Kinetic declares 0 security scheme(s) across its OpenAPI definitions.

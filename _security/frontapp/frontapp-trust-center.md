@@ -224,7 +224,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Frontapp Trust Center
+name: FrontApp Trust Center
 name_suffix: Trust Center
 overview: FrontApp maintains a public trust center documenting SOC 2 Type II, ISO 27001, and GDPR compliance.
 provider_name: FrontApp

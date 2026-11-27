@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cloudmaveninc Authentication
+name: Cloud Maven Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cloud Maven declares 1 security scheme(s) across its OpenAPI definitions.

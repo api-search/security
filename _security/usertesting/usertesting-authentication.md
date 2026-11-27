@@ -58,7 +58,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Usertesting Authentication
+name: UserTesting Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

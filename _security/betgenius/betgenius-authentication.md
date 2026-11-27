@@ -36,7 +36,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Betgenius Authentication
+name: BetGenius Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Useagentbank Authentication
+name: AgentBank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentBank declares 1 security scheme(s) across its OpenAPI definitions.

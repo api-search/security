@@ -5,7 +5,7 @@ api_specs:
   label: Mercado Pago Webhooks / Notifications
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/asyncapi/mercado-pago-asyncapi.yml
+  url: https://artifacts.apis.io/mercado-pago/asyncapi/mercado-pago-asyncapi.yml
 - filename: mercado-pago-authentication-api-openapi.yml
   format: yaml
   label: Mercado Pago Authentication API

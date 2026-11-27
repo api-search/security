@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Pocket Id Authentication
+name: Pocket ID Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Pocket ID declares 2 security scheme(s) across its OpenAPI definitions.

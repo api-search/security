@@ -182,7 +182,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Invoicepdfs Com Authentication
+name: invoicepdfs-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: invoicepdfs-com declares 3 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Assertion Ai Com Authentication
+name: Assertion AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Assertion AI declares 0 security scheme(s) across its OpenAPI definitions.

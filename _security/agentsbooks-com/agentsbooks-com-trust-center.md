@@ -57,7 +57,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agentsbooks Com Trust Center
+name: AgentsBooks Trust Center
 name_suffix: Trust Center
 overview: AgentsBooks maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, and GDPR compliance.
 provider_name: AgentsBooks

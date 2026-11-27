@@ -87,6 +87,12 @@ api_specs:
   slug: amazon-athena-session-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-session-api-openapi.yml
+- filename: amazon-athena-system-table-configuration-api-openapi.yml
+  format: yaml
+  label: Amazon Athena Athena System Table Configuration API
+  slug: amazon-athena-system-table-configuration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-athena/openapi/amazon-athena-system-table-configuration-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

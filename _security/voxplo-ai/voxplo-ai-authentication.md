@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Voxplo Ai Authentication
+name: Voxplo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Voxplo declares 2 security scheme(s) across its OpenAPI definitions.

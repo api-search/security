@@ -8,7 +8,7 @@ api_specs:
   label: BILL v3 API
   slug: v3-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/asyncapi/bill-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/bill/asyncapi/bill-webhooks-asyncapi.yml
 - filename: bill-authentication-api-openapi.yml
   format: yaml
   label: BILL Authentication API
@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Bill Authentication
+name: BILL Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BILL secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

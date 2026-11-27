@@ -84,7 +84,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Getaccept Trust Center
+name: GetAccept Trust Center
 name_suffix: Trust Center
 overview: GetAccept maintains a public trust center documenting SOC 2 Type II, GDPR, CCPA, eIDAS (EU Regulation No 910/2014), ESIGN Act, UETA, and Electronic Communications Act 2000 compliance.
 provider_name: GetAccept

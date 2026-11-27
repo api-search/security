@@ -1,13 +1,20 @@
 ---
 anonymous_access: false
 api_key_in: []
+api_specs:
+- filename: tourscanner-ai-tourscanner-api-openapi.yml
+  format: yaml
+  label: TourScanner API
+  slug: tourscanner-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/tourscanner-ai/openapi/tourscanner-ai-tourscanner-api-openapi.yml
 auth_types: []
 description: Authentication for TourScanner AI MCP
 kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Tourscanner Ai Authentication
+name: TourScanner AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TourScanner AI declares 3 security scheme(s) across its OpenAPI definitions.

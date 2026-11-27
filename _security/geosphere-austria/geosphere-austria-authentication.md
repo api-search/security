@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Geosphere Austria Authentication
+name: GeoSphere Austria Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GeoSphere Austria declares 0 security scheme(s) across its OpenAPI definitions.

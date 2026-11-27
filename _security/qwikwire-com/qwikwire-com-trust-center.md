@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Qwikwire Com Trust Center
+name: Qwikwire Trust Center
 name_suffix: Trust Center
 overview: Qwikwire maintains a public trust center documenting PCI DSS compliance.
 provider_name: Qwikwire

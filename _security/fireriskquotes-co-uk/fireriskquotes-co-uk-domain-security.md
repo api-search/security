@@ -25,7 +25,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fireriskquotes Co Uk Domain Security
+name: Fire Risk Quotes Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Fire Risk Quotes, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Fire Risk Quotes
@@ -39,8 +39,8 @@ source_yaml_url: https://artifacts.apis.io/fireriskquotes-co-uk/security/fireris
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - FireRisk
-- UK
-- FireSafety
+- United Kingdom
+- Fire Safety
 - Assessment
 - Quotes
 ---

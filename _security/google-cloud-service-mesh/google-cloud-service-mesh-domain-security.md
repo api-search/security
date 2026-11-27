@@ -1,71 +1,17 @@
 ---
 api_specs:
-- filename: google-cloud-service-mesh-gateways-api-openapi.yml
+- filename: google-cloud-service-mesh-networkservices-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Service Mesh Gateways API
-  slug: google-cloud-service-mesh-gateways-api
+  label: Google Cloud Service Mesh Cloud Service Mesh Networkservices Projects API
+  slug: google-cloud-service-mesh-networkservices-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-gateways-api-openapi.yml
-- filename: google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-networkservices-projects-api-openapi.yml
+- filename: google-cloud-service-mesh-trafficdirector-discovery-api-openapi.yml
   format: yaml
-  label: Google Cloud Service Mesh Google Cloud Network Services API (Service Mesh) API
-  slug: google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api
+  label: Google Cloud Service Mesh Cloud Service Mesh Trafficdirector Discovery API
+  slug: google-cloud-service-mesh-trafficdirector-discovery-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-google-cloud-network-services-api-service-mesh-api-openapi.yml
-- filename: google-cloud-service-mesh-grpcroutes-api-openapi.yml
-  format: yaml
-  label: Google Cloud Service Mesh GrpcRoutes API
-  slug: google-cloud-service-mesh-grpcroutes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-grpcroutes-api-openapi.yml
-- filename: google-cloud-service-mesh-httproutes-api-openapi.yml
-  format: yaml
-  label: Google Cloud Service Mesh HttpRoutes API
-  slug: google-cloud-service-mesh-httproutes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-httproutes-api-openapi.yml
-- filename: google-cloud-service-mesh-locations-api-openapi.yml
-  format: yaml
-  label: Google Cloud Service Mesh Locations API
-  slug: google-cloud-service-mesh-locations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-locations-api-openapi.yml
-- filename: google-cloud-service-mesh-meshes-api-openapi.yml
-  format: yaml
-  label: Google Cloud Service Mesh Meshes API
-  slug: google-cloud-service-mesh-meshes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-meshes-api-openapi.yml
-- filename: google-cloud-service-mesh-operations-api-openapi.yml
-  format: yaml
-  label: Google Cloud Service Mesh Operations API
-  slug: google-cloud-service-mesh-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-operations-api-openapi.yml
-- filename: google-cloud-service-mesh-servicelbpolicies-api-openapi.yml
-  format: yaml
-  label: Google Cloud Service Mesh ServiceLbPolicies API
-  slug: google-cloud-service-mesh-servicelbpolicies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-servicelbpolicies-api-openapi.yml
-- filename: google-cloud-service-mesh-tcproutes-api-openapi.yml
-  format: yaml
-  label: Google Cloud Service Mesh TcpRoutes API
-  slug: google-cloud-service-mesh-tcproutes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-tcproutes-api-openapi.yml
-- filename: google-cloud-service-mesh-tlsroutes-api-openapi.yml
-  format: yaml
-  label: Google Cloud Service Mesh TlsRoutes API
-  slug: google-cloud-service-mesh-tlsroutes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-tlsroutes-api-openapi.yml
-- filename: google-cloud-service-mesh-endpoint-policies-api-openapi.yml
-  format: yaml
-  label: Google Cloud Service Mesh Endpoint Policies API
-  slug: google-cloud-service-mesh-endpoint-policies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-endpoint-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-service-mesh/openapi/google-cloud-service-mesh-trafficdirector-discovery-api-openapi.yml
 description: ''
 domains:
 - caa:

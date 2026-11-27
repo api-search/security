@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ablakunio Com Authentication
+name: Ablakunio – SM-UNIO Nyílászáró Kft. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ablakunio – SM-UNIO Nyílászáró Kft. declares 0 security scheme(s) across its OpenAPI definitions.

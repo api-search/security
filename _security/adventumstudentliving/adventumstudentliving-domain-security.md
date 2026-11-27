@@ -55,7 +55,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Adventumstudentliving Domain Security
+name: Adventum Student Living Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Adventum Student Living, probed live across 4 host(s) and 4 registrable domain(s). 4 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: Adventum Student Living

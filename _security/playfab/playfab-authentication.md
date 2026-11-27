@@ -124,7 +124,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: derived
-name: Playfab Authentication
+name: PlayFab Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PlayFab secures its APIs with apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

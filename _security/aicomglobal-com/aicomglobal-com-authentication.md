@@ -94,7 +94,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Aicomglobal Com Authentication
+name: aicomglobal Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: aicomglobal secures its APIs with http across 4 declared security schemes, as derived from its OpenAPI definitions.
@@ -227,7 +227,7 @@ tags:
 - Trust
 - Reliability Monitoring
 - Agent Discovery
-- Agent Messaging
+- AgentMessaging
 - Developer Tools
 - Agent-Native
 - United Kingdom

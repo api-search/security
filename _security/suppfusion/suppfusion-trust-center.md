@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Suppfusion Trust Center
+name: Support Fusion Trust Center
 name_suffix: Trust Center
 overview: Support Fusion maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
 provider_name: Support Fusion

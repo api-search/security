@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sonicwall Trust Center
+name: SonicWall Trust Center
 name_suffix: Trust Center
 overview: SonicWall maintains a public trust center documenting SOC 2 and FIPS 140 compliance.
 provider_name: SonicWall

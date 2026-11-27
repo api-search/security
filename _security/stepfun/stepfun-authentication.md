@@ -16,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Stepfun Authentication
+name: StepFun Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: StepFun secures its APIs with http-bearer-api-key across 1 declared security scheme, as derived from its OpenAPI definitions.

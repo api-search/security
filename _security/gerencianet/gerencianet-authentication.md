@@ -225,7 +225,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Gerencianet Authentication
+name: Efí Pay (Gerencianet) Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Zbiotics Authentication
+name: ZBiotics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ZBiotics declares 4 security scheme(s) across its OpenAPI definitions.

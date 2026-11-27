@@ -60,7 +60,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Cisco Nexus Domain Security
+name: Cisco Nexus Dashboard Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Cisco Nexus Dashboard, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Cisco Nexus Dashboard

@@ -20,7 +20,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Idrive Trust Center
+name: IDrive Trust Center
 name_suffix: Trust Center
 overview: IDrive maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: IDrive

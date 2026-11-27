@@ -8,12 +8,6 @@ api_specs:
   slug: azure-health-collection-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-health/openapi/azure-health-collection-api-openapi.yml
-- filename: azure-health-deid-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Health Data Services Deid API
-  slug: azure-health-deid-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-health/openapi/azure-health-deid-api-openapi.yml
 - filename: azure-health-dicomservices-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services DicomServices API
@@ -32,12 +26,6 @@ api_specs:
   slug: azure-health-iotconnectors-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-health/openapi/azure-health-iotconnectors-api-openapi.yml
-- filename: azure-health-jobs-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure Health Data Services Jobs API
-  slug: azure-health-jobs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-health/openapi/azure-health-jobs-api-openapi.yml
 - filename: azure-health-privatelinkresources-api-openapi.yml
   format: yaml
   label: Microsoft Azure Health Data Services PrivateLinkResources API
@@ -87,7 +75,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Azure Health Authentication
+name: Microsoft Azure Health Data Services Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
@@ -104,17 +92,17 @@ schemes:
     scopes: 1
   name: azure_auth
   sources:
-  - openapi/azure-health-collection-api-openapi.yml
-  - openapi/azure-health-dicomservices-api-openapi.yml
-  - openapi/azure-health-fhirservices-api-openapi.yml
-  - openapi/azure-health-iotconnectors-api-openapi.yml
-  - openapi/azure-health-private-endpoint-connections-api-openapi.yml
-  - openapi/azure-health-privatelinkresources-api-openapi.yml
-  - openapi/azure-health-proxy-api-openapi.yml
-  - openapi/azure-health-resource-api-openapi.yml
-  - openapi/azure-health-workspaceprivateendpointconnections-api-openapi.yml
-  - openapi/azure-health-workspaceprivatelinkresources-api-openapi.yml
-  - openapi/azure-health-workspaces-api-openapi.yml
+  - openapi/_superseded/azure-health-collection-api-openapi.yml
+  - openapi/_superseded/azure-health-dicomservices-api-openapi.yml
+  - openapi/_superseded/azure-health-fhirservices-api-openapi.yml
+  - openapi/_superseded/azure-health-iotconnectors-api-openapi.yml
+  - openapi/_superseded/azure-health-private-endpoint-connections-api-openapi.yml
+  - openapi/_superseded/azure-health-privatelinkresources-api-openapi.yml
+  - openapi/_superseded/azure-health-proxy-api-openapi.yml
+  - openapi/_superseded/azure-health-resource-api-openapi.yml
+  - openapi/_superseded/azure-health-workspaceprivateendpointconnections-api-openapi.yml
+  - openapi/_superseded/azure-health-workspaceprivatelinkresources-api-openapi.yml
+  - openapi/_superseded/azure-health-workspaces-api-openapi.yml
   type: oauth2
 - description: The Azure Active Directory OAuth2 Flow
   flows:
@@ -124,16 +112,16 @@ schemes:
     tokenUrl: https://login.microsoftonline.com/common/oauth2/token
   name: AadToken
   sources:
-  - openapi/azure-health-deid-api-openapi.yml
-  - openapi/azure-health-jobs-api-openapi.yml
+  - openapi/_superseded/azure-health-deid-api-openapi.yml
+  - openapi/_superseded/azure-health-jobs-api-openapi.yml
   type: oauth2
 slug: azure-health-authentication
 source_filename: azure-health-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/azure-health-collection-api-openapi.yml, openapi/azure-health-deid-api-openapi.yml,\n  openapi/azure-health-dicomservices-api-openapi.yml, openapi/azure-health-fhirservices-api-openapi.yml,\n  openapi/azure-health-iotconnectors-api-openapi.yml, openapi/azure-health-jobs-api-openapi.yml,\n  openapi/azure-health-private-endpoint-connections-api-openapi.yml, openapi/azure-health-privatelinkresources-api-openapi.yml,\n  openapi/azure-health-proxy-api-openapi.yml, openapi/azure-health-resource-api-openapi.yml,\n  openapi/azure-health-workspaceprivateendpointconnections-api-openapi.yml, openapi/azure-health-workspaceprivatelinkresources-api-openapi.yml\n  ...\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description:\
-  \ Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/azure-health-collection-api-openapi.yml\n  - openapi/azure-health-dicomservices-api-openapi.yml\n  - openapi/azure-health-fhirservices-api-openapi.yml\n  - openapi/azure-health-iotconnectors-api-openapi.yml\n  - openapi/azure-health-private-endpoint-connections-api-openapi.yml\n  - openapi/azure-health-privatelinkresources-api-openapi.yml\n  - openapi/azure-health-proxy-api-openapi.yml\n  - openapi/azure-health-resource-api-openapi.yml\n  - openapi/azure-health-workspaceprivateendpointconnections-api-openapi.yml\n  - openapi/azure-health-workspaceprivatelinkresources-api-openapi.yml\n  - openapi/azure-health-workspaces-api-openapi.yml\n- name: AadToken\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n    scopes: 1\n  description: The Azure Active Directory OAuth2 Flow\n\
-  \  sources:\n  - openapi/azure-health-deid-api-openapi.yml\n  - openapi/azure-health-jobs-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/_superseded/azure-health-collection-api-openapi.yml, openapi/_superseded/azure-health-deid-api-openapi.yml,\n  openapi/_superseded/azure-health-dicomservices-api-openapi.yml, openapi/_superseded/azure-health-fhirservices-api-openapi.yml,\n  openapi/_superseded/azure-health-iotconnectors-api-openapi.yml, openapi/_superseded/azure-health-jobs-api-openapi.yml,\n  openapi/_superseded/azure-health-private-endpoint-connections-api-openapi.yml, openapi/_superseded/azure-health-privatelinkresources-api-openapi.yml,\n  openapi/_superseded/azure-health-proxy-api-openapi.yml, openapi/_superseded/azure-health-resource-api-openapi.yml,\n  openapi/_superseded/azure-health-workspaceprivateendpointconnections-api-openapi.yml, openapi/_superseded/azure-health-workspaceprivatelinkresources-api-openapi.yml\n  ...\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - implicit\nschemes:\n- name: azure_auth\n  type:\
+  \ oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/_superseded/azure-health-collection-api-openapi.yml\n  - openapi/_superseded/azure-health-dicomservices-api-openapi.yml\n  - openapi/_superseded/azure-health-fhirservices-api-openapi.yml\n  - openapi/_superseded/azure-health-iotconnectors-api-openapi.yml\n  - openapi/_superseded/azure-health-private-endpoint-connections-api-openapi.yml\n  - openapi/_superseded/azure-health-privatelinkresources-api-openapi.yml\n  - openapi/_superseded/azure-health-proxy-api-openapi.yml\n  - openapi/_superseded/azure-health-resource-api-openapi.yml\n  - openapi/_superseded/azure-health-workspaceprivateendpointconnections-api-openapi.yml\n  - openapi/_superseded/azure-health-workspaceprivatelinkresources-api-openapi.yml\n  - openapi/_superseded/azure-health-workspaces-api-openapi.yml\n- name: AadToken\n\
+  \  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/token\n    scopes: 1\n  description: The Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/_superseded/azure-health-deid-api-openapi.yml\n  - openapi/_superseded/azure-health-jobs-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/azure-health/authentication/azure-health-authentication.yml
 summary_line: oauth2 · 2 schemes
 tags:

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gitmir Com Trust Center
+name: gitmir-com Trust Center
 name_suffix: Trust Center
 overview: gitmir-com maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: gitmir-com

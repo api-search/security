@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Fetchfox Net Authentication
+name: fetchfox-net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: fetchfox-net declares 2 security scheme(s) across its OpenAPI definitions.

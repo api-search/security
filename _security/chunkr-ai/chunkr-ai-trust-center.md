@@ -43,7 +43,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Chunkr Ai Trust Center
+name: Chunkr Trust Center
 name_suffix: Trust Center
 overview: Chunkr maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Chunkr

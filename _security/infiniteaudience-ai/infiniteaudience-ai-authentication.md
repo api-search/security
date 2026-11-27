@@ -104,13 +104,37 @@ api_specs:
   slug: infiniteaudience-ai-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-workflows-api-openapi.yml
+- filename: infiniteaudience-ai-a2a-api-openapi.yml
+  format: yaml
+  label: Infinite Audience A2A API
+  slug: infiniteaudience-ai-a2a-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-a2a-api-openapi.yml
+- filename: infiniteaudience-ai-account-api-openapi.yml
+  format: yaml
+  label: Infinite Audience Account API
+  slug: infiniteaudience-ai-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-account-api-openapi.yml
+- filename: infiniteaudience-ai-audiences-api-openapi.yml
+  format: yaml
+  label: Infinite Audience Audiences API
+  slug: infiniteaudience-ai-audiences-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-audiences-api-openapi.yml
+- filename: infiniteaudience-ai-auth-api-openapi.yml
+  format: yaml
+  label: Infinite Audience Auth API
+  slug: infiniteaudience-ai-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-auth-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Infiniteaudience Ai Authentication
+name: Infinite Audience Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Infinite Audience declares 2 security scheme(s) across its OpenAPI definitions.

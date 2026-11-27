@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ab5D Xyz Authentication
+name: AB5D Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AB5D declares 1 security scheme(s) across its OpenAPI definitions.

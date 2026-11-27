@@ -38,12 +38,6 @@ api_specs:
   slug: mojang-friends-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mojang/openapi/mojang-friends-api-openapi.yml
-- filename: mojang-identity-api-openapi.yml
-  format: yaml
-  label: Mojang Identity API
-  slug: mojang-identity-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mojang/openapi/mojang-identity-api-openapi.yml
 - filename: mojang-keys-api-openapi.yml
   format: yaml
   label: Mojang Keys API
@@ -56,12 +50,6 @@ api_specs:
   slug: mojang-presence-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mojang/openapi/mojang-presence-api-openapi.yml
-- filename: mojang-profile-api-openapi.yml
-  format: yaml
-  label: Mojang Profile API
-  slug: mojang-profile-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mojang/openapi/mojang-profile-api-openapi.yml
 - filename: mojang-server-api-openapi.yml
   format: yaml
   label: Mojang Server API
@@ -86,6 +74,18 @@ api_specs:
   slug: mojang-textures-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mojang/openapi/mojang-textures-api-openapi.yml
+- filename: mojang-identity-api-openapi.yml
+  format: yaml
+  label: Mojang Identity API
+  slug: mojang-identity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mojang/openapi/mojang-identity-api-openapi.yml
+- filename: mojang-profile-api-openapi.yml
+  format: yaml
+  label: Mojang Profile API
+  slug: mojang-profile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mojang/openapi/mojang-profile-api-openapi.yml
 auth_types:
 - http
 description: ''

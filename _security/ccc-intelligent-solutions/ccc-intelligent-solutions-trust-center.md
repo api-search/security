@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Ccc Intelligent Solutions Trust Center
+name: CCC Intelligent Solutions Trust Center
 name_suffix: Trust Center
 overview: CCC Intelligent Solutions maintains a public trust center covering its security and compliance posture.
 provider_name: CCC Intelligent Solutions

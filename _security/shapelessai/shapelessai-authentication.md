@@ -110,13 +110,139 @@ api_specs:
   slug: shapelessai-workspace-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-workspace-api-openapi.yml
+- filename: shapelessai-actions-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Actions API
+  slug: shapelessai-actions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-actions-api-openapi.yml
+- filename: shapelessai-ad-accounts-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Ad Accounts API
+  slug: shapelessai-ad-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-ad-accounts-api-openapi.yml
+- filename: shapelessai-ai-tools-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Ai Tools API
+  slug: shapelessai-ai-tools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-ai-tools-api-openapi.yml
+- filename: shapelessai-assets-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Assets API
+  slug: shapelessai-assets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-assets-api-openapi.yml
+- filename: shapelessai-captions-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Captions API
+  slug: shapelessai-captions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-captions-api-openapi.yml
+- filename: shapelessai-carousels-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Carousels API
+  slug: shapelessai-carousels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-carousels-api-openapi.yml
+- filename: shapelessai-characters-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Characters API
+  slug: shapelessai-characters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-characters-api-openapi.yml
+- filename: shapelessai-conversations-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Conversations API
+  slug: shapelessai-conversations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-conversations-api-openapi.yml
+- filename: shapelessai-identities-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Identities API
+  slug: shapelessai-identities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-identities-api-openapi.yml
+- filename: shapelessai-identity-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Identity API
+  slug: shapelessai-identity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-identity-api-openapi.yml
+- filename: shapelessai-images-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Images API
+  slug: shapelessai-images-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-images-api-openapi.yml
+- filename: shapelessai-inbox-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Inbox API
+  slug: shapelessai-inbox-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-inbox-api-openapi.yml
+- filename: shapelessai-influencers-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Influencers API
+  slug: shapelessai-influencers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-influencers-api-openapi.yml
+- filename: shapelessai-instagram-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Instagram API
+  slug: shapelessai-instagram-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-instagram-api-openapi.yml
+- filename: shapelessai-media-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Media API
+  slug: shapelessai-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-media-api-openapi.yml
+- filename: shapelessai-openapi-json-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Openapi.json API
+  slug: shapelessai-openapi-json-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-openapi-json-api-openapi.yml
+- filename: shapelessai-platforms-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Platforms API
+  slug: shapelessai-platforms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-platforms-api-openapi.yml
+- filename: shapelessai-references-api-openapi.yml
+  format: yaml
+  label: ShapelessAI References API
+  slug: shapelessai-references-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-references-api-openapi.yml
+- filename: shapelessai-speech-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Speech API
+  slug: shapelessai-speech-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-speech-api-openapi.yml
+- filename: shapelessai-thumbnails-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Thumbnails API
+  slug: shapelessai-thumbnails-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-thumbnails-api-openapi.yml
+- filename: shapelessai-trends-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Trends API
+  slug: shapelessai-trends-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-trends-api-openapi.yml
 auth_types: []
-description: ''
+description: Authentication methods published on ShapelessAI docs
 kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Shapelessai Authentication
+name: ShapelessAI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ShapelessAI declares 2 security scheme(s) across its OpenAPI definitions.
@@ -124,24 +250,15 @@ provider_name: ShapelessAI
 provider_slug: shapelessai
 scheme_count: 2
 schemes:
-- evidence: 'A key is `slk_` followed by 40 base64url characters. Send it on every request:
-
-
-    ```bash
-
-    curl -H "Authorization: Bearer slk_..." https://shapelessai.com/api/me
-
-    ```'
+- evidence: 'A key is slk_ followed by 40 base64url characters. Send it on every request: curl -H "Authorization: Bearer slk_..." https://shapelessai.com/api/me'
   header: Authorization
+  how_to_obtain: Mint a key under Settings → API keys, then copy the returned "slk_..." value.
   location: header
   name: Authorization
   type: http-bearer
-- evidence: 'It is OAuth 2.1 with dynamic client registration and PKCE, so a host registers itself:
-
-    - Protected-resource metadata: `https://shapelessai.com/.well-known/oauth-protected-resource/mcp`
-
-    - Scopes: `read`, `write`, `publish`, `offline_access`'
-  name: OAuth 2.1
+- evidence: 'The hosted MCP server at https://shapelessai.com/mcp takes no key. It is OAuth 2.1 with dynamic client registration and PKCE, so a host registers itself:'
+  how_to_obtain: Register a client dynamically with the MCP server using PKCE as described in the protected‑resource metadata.
+  name: MCP OAuth
   scopes:
   - read
   - write
@@ -152,7 +269,8 @@ slug: shapelessai-authentication
 source_filename: shapelessai-authentication.yml
 source_heading: Authentication Profile
 source_url: https://shapelessai.com/docs/auth
-source_yaml: "generated: '2026-10-12'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://shapelessai.com/docs/auth\nsources:\n- https://shapelessai.com/docs/auth\n- https://shapelessai.com/docs/api\n- https://shapelessai.com/docs/auth.md\nschemes:\n- type: http-bearer\n  name: Authorization\n  evidence: 'A key is `slk_` followed by 40 base64url characters. Send it on every request:\n\n\n    ```bash\n\n    curl -H \"Authorization: Bearer slk_...\" https://shapelessai.com/api/me\n\n    ```'\n  location: header\n  header: Authorization\n- type: oauth2\n  name: OAuth 2.1\n  evidence: 'It is OAuth 2.1 with dynamic client registration and PKCE, so a host registers itself:\n\n    - Protected-resource metadata: `https://shapelessai.com/.well-known/oauth-protected-resource/mcp`\n\n    - Scopes: `read`, `write`, `publish`, `offline_access`'\n  scopes:\n  - read\n  - write\n  - publish\n  - offline_access\ndocs: https://shapelessai.com/docs/auth\n"
+source_yaml: "generated: '2026-11-11'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://shapelessai.com/docs/auth\nsources:\n- https://shapelessai.com/docs/auth\n- https://shapelessai.com/docs/api\ndescription: Authentication methods published on ShapelessAI docs\nschemes:\n- type: http-bearer\n  name: Authorization\n  evidence: 'A key is slk_ followed by 40 base64url characters. Send it on every request: curl -H \"Authorization: Bearer slk_...\" https://shapelessai.com/api/me'\n  location: header\n  header: Authorization\n  how_to_obtain: Mint a key under Settings → API keys, then copy the returned \"slk_...\" value.\n- type: oauth2\n  name: MCP OAuth\n  evidence: 'The hosted MCP server at https://shapelessai.com/mcp takes no key. It is OAuth 2.1 with dynamic client registration and PKCE, so\n    a host registers itself:'\n  scopes:\n  - read\n  - write\n  - publish\n  - offline_access\n  how_to_obtain: Register a client dynamically with the MCP server using\
+  \ PKCE as described in the protected‑resource metadata.\ndocs: https://shapelessai.com/docs/auth\n"
 source_yaml_url: https://artifacts.apis.io/shapelessai/authentication/shapelessai-authentication.yml
 summary_line: 2 schemes
 tags:

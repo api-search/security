@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Citoapi Authentication
+name: Cito CS2 API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cito CS2 API declares 1 security scheme(s) across its OpenAPI definitions.

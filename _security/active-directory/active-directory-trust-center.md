@@ -12,12 +12,6 @@ api_specs:
   slug: active-directory-applications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/active-directory/openapi/active-directory-applications-api-openapi.yml
-- filename: active-directory-groups-api-openapi.yml
-  format: yaml
-  label: Microsoft Active Directory Groups API
-  slug: active-directory-groups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/active-directory/openapi/active-directory-groups-api-openapi.yml
 - filename: active-directory-members-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Members API
@@ -48,13 +42,19 @@ api_specs:
   slug: microsoft-active-directory-directory-roles-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/active-directory/openapi/active-directory-directory-roles-api-openapi.yml
+- filename: active-directory-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Active Directory Groups API
+  slug: active-directory-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-groups-api-openapi.yml
 certification_count: 1
 certifications:
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Active Directory Trust Center
+name: Microsoft Active Directory Trust Center
 name_suffix: Trust Center
 overview: Microsoft Active Directory maintains a public trust center documenting GDPR compliance.
 provider_name: Microsoft Active Directory

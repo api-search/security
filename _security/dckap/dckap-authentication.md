@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dckap Authentication
+name: DCKAP Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DCKAP declares 1 security scheme(s) across its OpenAPI definitions.

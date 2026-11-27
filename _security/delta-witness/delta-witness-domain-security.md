@@ -78,7 +78,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Delta Witness Domain Security
+name: DELTA Witness — Trust Layer for Autonomous Actions Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for DELTA Witness — Trust Layer for Autonomous Actions, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: DELTA Witness — Trust Layer for Autonomous Actions
@@ -98,7 +98,7 @@ tags:
 - agent-guardrails
 - preflight-checks
 - x402 Payments
-- Pay-Per-Use
+- Pay-per-use
 - base-usdc
 - Autonomous Agents
 - MCP

@@ -37,7 +37,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Found Business Trust Center
+name: Found Trust Center
 name_suffix: Trust Center
 overview: Found maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: Found

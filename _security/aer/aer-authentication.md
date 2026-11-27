@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Aer Authentication
+name: Australian Energy Regulator Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Australian Energy Regulator declares 0 security scheme(s) across its OpenAPI definitions.

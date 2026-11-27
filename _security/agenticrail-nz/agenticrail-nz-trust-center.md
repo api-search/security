@@ -25,7 +25,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agenticrail Nz Trust Center
+name: AgenticRail Trust Center
 name_suffix: Trust Center
 overview: AgenticRail maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: AgenticRail

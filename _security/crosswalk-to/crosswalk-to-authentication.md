@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Crosswalk To Authentication
+name: crosswalk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: crosswalk declares 1 security scheme(s) across its OpenAPI definitions.

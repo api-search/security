@@ -195,7 +195,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Oracle Weblogic Authentication
+name: Oracle WebLogic Server Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Oracle WebLogic Server secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

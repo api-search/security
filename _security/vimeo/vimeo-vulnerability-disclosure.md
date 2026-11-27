@@ -5,7 +5,7 @@ api_specs:
   label: Vimeo Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/openapi/vimeo-asyncapi.yml
+  url: https://artifacts.apis.io/vimeo/openapi/vimeo-asyncapi.yml
 - filename: vimeo-albums-api-openapi.yml
   format: yaml
   label: Vimeo Albums API

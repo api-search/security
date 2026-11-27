@@ -79,7 +79,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Qualified Com Trust Center
+name: Qualified Trust Center
 name_suffix: Trust Center
 overview: Qualified maintains a public trust center documenting SOC 2 Type II and EU-US Privacy Shield compliance.
 provider_name: Qualified

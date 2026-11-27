@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aplusz App Authentication
+name: aplusz-app Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: aplusz-app declares 0 security scheme(s) across its OpenAPI definitions.

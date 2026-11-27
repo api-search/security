@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Donethat Ai Trust Center
+name: DoneThat Trust Center
 name_suffix: Trust Center
 overview: DoneThat maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: DoneThat

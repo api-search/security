@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Morph Labs Authentication
+name: Morph Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Morph secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -176,7 +176,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Fashionbyu Com Authentication
+name: IRIZ Platform Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IRIZ Platform secures its APIs with apiKey, http, none, hmac-signature, and http-message-signature across 6 declared security schemes, as derived from its OpenAPI definitions.

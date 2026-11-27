@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Arconnet Trust Center
+name: ARCON Trust Center
 name_suffix: Trust Center
 overview: ARCON maintains a public trust center documenting SOC 2, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: ARCON

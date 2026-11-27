@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Dominickprevete Com Authentication
+name: dominickprevete-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: dominickprevete-com declares 0 security scheme(s) across its OpenAPI definitions.

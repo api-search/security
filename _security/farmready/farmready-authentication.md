@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Farmready Authentication
+name: FarmReady (Bolt, Cart, Shed) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FarmReady (Bolt, Cart, Shed) declares 1 security scheme(s) across its OpenAPI definitions.

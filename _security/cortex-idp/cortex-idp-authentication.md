@@ -573,7 +573,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cortex Idp Authentication
+name: Cortex Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cortex secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Cb Insights Authentication
+name: CB Insights Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CB Insights declares 4 security scheme(s) across its OpenAPI definitions.

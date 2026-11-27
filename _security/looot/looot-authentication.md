@@ -584,7 +584,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Looot Authentication
+name: looot Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: looot declares 2 security scheme(s) across its OpenAPI definitions.

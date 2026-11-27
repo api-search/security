@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Drip Apex Com Authentication
+name: DRIP Apex Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DRIP Apex declares 1 security scheme(s) across its OpenAPI definitions.

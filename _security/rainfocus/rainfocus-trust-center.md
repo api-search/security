@@ -7,7 +7,7 @@ certifications:
 description: 'RainFocus has no dedicated trust-center product page. Its Privacy and Security hub at /privacy-security/ is the equivalent surface: it names the certifications and links every legal and security document. A host at trust.rainfocus.com exists and resolves but sits behind a Cloudflare interstitial ("Just a moment...") that this crawler could not clear, so its contents were not read and nothing is asserted about it.'
 kind: trust-center
 layout: security
-name: Rainfocus Trust Center
+name: RainFocus Trust Center
 name_suffix: Trust Center
 overview: RainFocus maintains a public trust center documenting SOC 2 (AICPA SOC), ISO/IEC 27001:2022, and PCI DSS compliance.
 provider_name: RainFocus

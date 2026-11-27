@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Chargeautomation Authentication
+name: ChargeAutomation Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ChargeAutomation declares 1 security scheme(s) across its OpenAPI definitions.

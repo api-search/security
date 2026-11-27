@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Boostupai Trust Center
+name: BoostUp.ai Trust Center
 name_suffix: Trust Center
 overview: BoostUp.ai maintains a public trust center documenting SOC 2, CSA STAR, and FIPS 140 compliance.
 provider_name: BoostUp.ai

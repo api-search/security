@@ -81,7 +81,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Api Video Authentication
+name: API.Video Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: API.Video secures its APIs with http across 3 declared security schemes, as derived from its OpenAPI definitions.

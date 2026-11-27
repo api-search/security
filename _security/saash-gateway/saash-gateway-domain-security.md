@@ -1,4 +1,29 @@
 ---
+api_specs:
+- filename: saash-gateway-connector-api-openapi.yml
+  format: yaml
+  label: SAASH Connector API
+  slug: saash-gateway-connector-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/saash-gateway/openapi/saash-gateway-connector-api-openapi.yml
+- filename: saash-gateway-discovery-api-openapi.yml
+  format: yaml
+  label: SAASH Discovery API
+  slug: saash-gateway-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/saash-gateway/openapi/saash-gateway-discovery-api-openapi.yml
+- filename: saash-gateway-grow-api-openapi.yml
+  format: yaml
+  label: SAASH Grow API
+  slug: saash-gateway-grow-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/saash-gateway/openapi/saash-gateway-grow-api-openapi.yml
+- filename: saash-gateway-invoke-api-openapi.yml
+  format: yaml
+  label: SAASH Invoke API
+  slug: saash-gateway-invoke-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/saash-gateway/openapi/saash-gateway-invoke-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -20,7 +45,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Saash Gateway Domain Security
+name: SAASH Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for SAASH, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: SAASH

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anteroom So Authentication
+name: Anteroom Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Anteroom declares 0 security scheme(s) across its OpenAPI definitions.

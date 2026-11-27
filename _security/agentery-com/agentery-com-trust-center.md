@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agentery Com Trust Center
+name: Agentery Trust Center
 name_suffix: Trust Center
 overview: Agentery maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Agentery

@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Avidxchange Trust Center
+name: AvidXchange Trust Center
 name_suffix: Trust Center
 overview: AvidXchange maintains a public trust center documenting SOC 1 Type 2, SOC 2 Type 2, PCI DSS v4.0.0, and NIST CSF compliance.
 provider_name: AvidXchange

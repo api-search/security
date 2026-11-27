@@ -31,7 +31,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Polly Io Trust Center
+name: Polly Trust Center
 name_suffix: Trust Center
 overview: Polly maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Polly

@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: E2Open Authentication
+name: E2open Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: E2open secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Swiftconnect Authentication
+name: SwiftConnect Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SwiftConnect secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

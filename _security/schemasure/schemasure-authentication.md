@@ -26,13 +26,31 @@ api_specs:
   slug: schemasure-primary-x402-v2-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/schemasure/openapi/schemasure-primary-x402-v2-api-api-openapi.yml
+- filename: schemasure-business-time-api-openapi.yml
+  format: yaml
+  label: SchemaSure Business Time API
+  slug: schemasure-business-time-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/schemasure/openapi/schemasure-business-time-api-openapi.yml
+- filename: schemasure-chain-api-openapi.yml
+  format: yaml
+  label: SchemaSure Chain API
+  slug: schemasure-chain-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/schemasure/openapi/schemasure-chain-api-openapi.yml
+- filename: schemasure-guard-api-openapi.yml
+  format: yaml
+  label: SchemaSure Guard API
+  slug: schemasure-guard-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/schemasure/openapi/schemasure-guard-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Schemasure Authentication
+name: SchemaSure Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SchemaSure declares 2 security scheme(s) across its OpenAPI definitions.

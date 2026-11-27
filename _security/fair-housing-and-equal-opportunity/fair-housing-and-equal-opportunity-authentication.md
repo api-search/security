@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Fair Housing And Equal Opportunity Authentication
+name: Fair Housing and Equal Opportunity Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fair Housing and Equal Opportunity declares 0 security scheme(s) across its OpenAPI definitions.

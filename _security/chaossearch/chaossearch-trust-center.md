@@ -25,7 +25,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Chaossearch Trust Center
+name: ChaosSearch Trust Center
 name_suffix: Trust Center
 overview: ChaosSearch maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: ChaosSearch

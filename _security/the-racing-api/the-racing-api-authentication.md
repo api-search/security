@@ -93,7 +93,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: The Racing Api Authentication
+name: The Racing API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: The Racing API secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

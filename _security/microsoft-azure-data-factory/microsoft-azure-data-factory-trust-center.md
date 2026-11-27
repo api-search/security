@@ -156,7 +156,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Microsoft Azure Data Factory Trust Center
+name: Azure Data Factory Trust Center
 name_suffix: Trust Center
 overview: Azure Data Factory maintains a public trust center documenting GDPR compliance.
 provider_name: Azure Data Factory

@@ -6,12 +6,6 @@ api_specs:
   slug: optum-real-medical-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-auth-referral-submission-api-openapi.yml
-- filename: optum-ambulance-fee-schedule-apis-api-openapi.yml
-  format: yaml
-  label: Optum Ambulance Fee Schedule APIs API
-  slug: optum-ambulance-fee-schedule-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-ambulance-fee-schedule-apis-api-openapi.yml
 - filename: optum-anesthesia-fee-apis-api-openapi.yml
   format: yaml
   label: Optum Anesthesia Fee APIs API
@@ -72,30 +66,12 @@ api_specs:
   slug: optum-authorization-orchestration-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-authorization-orchestration-api-openapi.yml
-- filename: optum-average-sales-price-apis-api-openapi.yml
-  format: yaml
-  label: Optum Average Sales Price APIs API
-  slug: optum-average-sales-price-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-average-sales-price-apis-api-openapi.yml
 - filename: optum-cc-mcc-code-and-excludes-list-for-i10cm-and-i9v1-apis-api-openapi.yml
   format: yaml
   label: Optum CC/MCC Code and Excludes List for I10CM and I9V1 APIs API
   slug: optum-cc-mcc-code-and-excludes-list-for-i10cm-and-i9v1-apis-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-cc-mcc-code-and-excludes-list-for-i10cm-and-i9v1-apis-api-openapi.yml
-- filename: optum-cci-edits-apis-api-openapi.yml
-  format: yaml
-  label: Optum CCI Edits APIs API
-  slug: optum-cci-edits-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-cci-edits-apis-api-openapi.yml
-- filename: optum-cci-edits-code-validator-api-api-openapi.yml
-  format: yaml
-  label: Optum CCI Edits Code Validator API
-  slug: optum-cci-edits-code-validator-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-cci-edits-code-validator-api-api-openapi.yml
 - filename: optum-cdi-and-coding-support-pdf-information-api-openapi.yml
   format: yaml
   label: Optum CDI and Coding Support PDF Information API
@@ -162,30 +138,6 @@ api_specs:
   slug: optum-claimprecheck-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-claimprecheck-api-openapi.yml
-- filename: optum-clinical-diagnostic-laboratory-apis-api-openapi.yml
-  format: yaml
-  label: Optum Clinical Diagnostic Laboratory APIs API
-  slug: optum-clinical-diagnostic-laboratory-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-clinical-diagnostic-laboratory-apis-api-openapi.yml
-- filename: optum-cms-hcc-apis-api-openapi.yml
-  format: yaml
-  label: Optum CMS HCC APIs API
-  slug: optum-cms-hcc-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-cms-hcc-apis-api-openapi.yml
-- filename: optum-cms-iom-s-policy-apis-api-openapi.yml
-  format: yaml
-  label: Optum CMS IOM's Policy APIs API
-  slug: optum-cms-iom-s-policy-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-cms-iom-s-policy-apis-api-openapi.yml
-- filename: optum-cms-transmittal-apis-api-openapi.yml
-  format: yaml
-  label: Optum CMS Transmittal APIs API
-  slug: optum-cms-transmittal-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-cms-transmittal-apis-api-openapi.yml
 - filename: optum-code-book-apis-api-openapi.yml
   format: yaml
   label: Optum Code Book APIs API
@@ -228,12 +180,6 @@ api_specs:
   slug: optum-code-specific-guidelines-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-code-specific-guidelines-api-openapi.yml
-- filename: optum-code-specific-guidelines-apis-api-openapi.yml
-  format: yaml
-  label: Optum Code Specific Guidelines APIs API
-  slug: optum-code-specific-guidelines-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-code-specific-guidelines-apis-api-openapi.yml
 - filename: optum-coding-documentation-guideline-apis-api-openapi.yml
   format: yaml
   label: Optum Coding Documentation Guideline APIs API
@@ -264,18 +210,6 @@ api_specs:
   slug: optum-color-codes-apis-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-color-codes-apis-api-openapi.yml
-- filename: optum-compliance-apis-api-openapi.yml
-  format: yaml
-  label: Optum Compliance APIs API
-  slug: optum-compliance-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-compliance-apis-api-openapi.yml
-- filename: optum-consumer-code-manager-api-api-openapi.yml
-  format: yaml
-  label: Optum Consumer Code Manager API
-  slug: optum-consumer-code-manager-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-consumer-code-manager-api-api-openapi.yml
 - filename: optum-coverage-discovery-api-openapi.yml
   format: yaml
   label: Optum Coverage Discovery API
@@ -288,12 +222,6 @@ api_specs:
   slug: optum-create-attachments-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-create-attachments-api-openapi.yml
-- filename: optum-cross-coder-api-api-openapi.yml
-  format: yaml
-  label: Optum Cross Coder API
-  slug: optum-cross-coder-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-cross-coder-api-api-openapi.yml
 - filename: optum-data-file-api-openapi.yml
   format: yaml
   label: Optum Data File API
@@ -342,12 +270,6 @@ api_specs:
   slug: optum-discovery-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-discovery-api-openapi.yml
-- filename: optum-dme-and-pen-fee-schedule-apis-api-openapi.yml
-  format: yaml
-  label: Optum DME and PEN Fee Schedule APIs API
-  slug: optum-dme-and-pen-fee-schedule-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-dme-and-pen-fee-schedule-apis-api-openapi.yml
 - filename: optum-documentretrieve-api-openapi.yml
   format: yaml
   label: Optum Document Retrieve API
@@ -378,12 +300,6 @@ api_specs:
   slug: optum-dtrcapabilitystatement-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-dtrcapabilitystatement-api-openapi.yml
-- filename: optum-eligibility-api-openapi.yml
-  format: yaml
-  label: Optum Eligibility API
-  slug: optum-eligibility-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-eligibility-api-openapi.yml
 - filename: optum-eligibility-requests-api-openapi.yml
   format: yaml
   label: Optum Eligibility Requests API
@@ -408,12 +324,6 @@ api_specs:
   slug: optum-exports-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-exports-api-openapi.yml
-- filename: optum-facility-compliance-apis-api-openapi.yml
-  format: yaml
-  label: Optum Facility Compliance APIs API
-  slug: optum-facility-compliance-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-facility-compliance-apis-api-openapi.yml
 - filename: optum-federal-register-addendum-b-api-api-openapi.yml
   format: yaml
   label: Optum Federal Register Addendum B API
@@ -492,12 +402,6 @@ api_specs:
   slug: optum-health-care-decision-reason-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-health-care-decision-reason-api-api-openapi.yml
-- filename: optum-health-check-api-openapi.yml
-  format: yaml
-  label: Optum Health Check API
-  slug: optum-health-check-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-health-check-api-openapi.yml
 - filename: optum-i-oce-edits-apis-api-openapi.yml
   format: yaml
   label: Optum I-OCE Edits APIs API
@@ -528,12 +432,6 @@ api_specs:
   slug: optum-image-intelligence-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-image-intelligence-api-openapi.yml
-- filename: optum-inquiry-api-openapi.yml
-  format: yaml
-  label: Optum Inquiry API
-  slug: optum-inquiry-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-inquiry-api-openapi.yml
 - filename: optum-institutional-claims-api-openapi.yml
   format: yaml
   label: Optum Institutional Claims API
@@ -576,30 +474,6 @@ api_specs:
   slug: optum-mdc-optimizing-tips-apis-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-mdc-optimizing-tips-apis-api-openapi.yml
-- filename: optum-medically-unlikely-edits-mues-apis-api-openapi.yml
-  format: yaml
-  label: Optum Medically Unlikely Edits(MUEs) APIs API
-  slug: optum-medically-unlikely-edits-mues-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-medically-unlikely-edits-mues-apis-api-openapi.yml
-- filename: optum-medicare-carrier-localities-api-openapi.yml
-  format: yaml
-  label: Optum Medicare Carrier Localities API
-  slug: optum-medicare-carrier-localities-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-medicare-carrier-localities-api-openapi.yml
-- filename: optum-medicare-coverage-policy-for-part-a-and-part-b-apis-api-openapi.yml
-  format: yaml
-  label: Optum Medicare Coverage Policy for part A and Part B APIs API
-  slug: optum-medicare-coverage-policy-for-part-a-and-part-b-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-medicare-coverage-policy-for-part-a-and-part-b-apis-api-openapi.yml
-- filename: optum-medicare-fee-schedule-apis-api-openapi.yml
-  format: yaml
-  label: Optum Medicare Fee Schedule APIs API
-  slug: optum-medicare-fee-schedule-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-medicare-fee-schedule-apis-api-openapi.yml
 - filename: optum-medicare-policy-api-openapi.yml
   format: yaml
   label: Optum Medicare Policy API
@@ -612,12 +486,6 @@ api_specs:
   slug: optum-merck-manual-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-merck-manual-api-api-openapi.yml
-- filename: optum-modifier-crosswalk-api-api-openapi.yml
-  format: yaml
-  label: Optum Modifier CrossWalk API
-  slug: optum-modifier-crosswalk-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-modifier-crosswalk-api-api-openapi.yml
 - filename: optum-modifiers-api-openapi.yml
   format: yaml
   label: Optum Modifiers API
@@ -642,12 +510,6 @@ api_specs:
   slug: optum-national-charge-data-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-national-charge-data-api-api-openapi.yml
-- filename: optum-national-drug-code-api-api-openapi.yml
-  format: yaml
-  label: Optum National Drug Code API
-  slug: optum-national-drug-code-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-national-drug-code-api-api-openapi.yml
 - filename: optum-nextquestion-api-openapi.yml
   format: yaml
   label: Optum Next Question API
@@ -660,12 +522,6 @@ api_specs:
   slug: optum-noa-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-noa-api-openapi.yml
-- filename: optum-not-otherwise-classified-noc-drug-pricing-apis-api-openapi.yml
-  format: yaml
-  label: Optum Not Otherwise Classified (NOC) Drug Pricing APIs API
-  slug: optum-not-otherwise-classified-noc-drug-pricing-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-not-otherwise-classified-noc-drug-pricing-apis-api-openapi.yml
 - filename: optum-notes-information-apis-api-openapi.yml
   format: yaml
   label: Optum Notes Information APIs API
@@ -750,12 +606,6 @@ api_specs:
   slug: optum-payments-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-payments-api-openapi.yml
-- filename: optum-policy-lookup-apis-api-openapi.yml
-  format: yaml
-  label: Optum Policy Lookup APIs API
-  slug: optum-policy-lookup-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-policy-lookup-apis-api-openapi.yml
 - filename: optum-prepaydme-api-openapi.yml
   format: yaml
   label: Optum Prepaydme API
@@ -786,12 +636,6 @@ api_specs:
   slug: optum-professional-claims-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-professional-claims-api-openapi.yml
-- filename: optum-prometheus-api-openapi.yml
-  format: yaml
-  label: Optum Prometheus API
-  slug: optum-prometheus-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-prometheus-api-openapi.yml
 - filename: optum-provider-lookup-apis-api-openapi.yml
   format: yaml
   label: Optum Provider Lookup APIs API
@@ -846,12 +690,6 @@ api_specs:
   slug: optum-reference-code-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-reference-code-api-openapi.yml
-- filename: optum-release-dates-api-api-openapi.yml
-  format: yaml
-  label: Optum Release Dates API
-  slug: optum-release-dates-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-release-dates-api-api-openapi.yml
 - filename: optum-remittance-advice-remark-codes-apis-api-openapi.yml
   format: yaml
   label: Optum Remittance Advice Remark Codes APIs API
@@ -894,12 +732,6 @@ api_specs:
   slug: optum-roster-management-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-roster-management-api-openapi.yml
-- filename: optum-state-list-fee-schedule-apis-api-openapi.yml
-  format: yaml
-  label: Optum State List Fee Schedule APIs API
-  slug: optum-state-list-fee-schedule-apis-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/optum/openapi/optum-state-list-fee-schedule-apis-api-openapi.yml
 - filename: optum-submission-api-openapi.yml
   format: yaml
   label: Optum Submission API
@@ -960,18 +792,186 @@ api_specs:
   slug: optum-wage-index-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-wage-index-api-api-openapi.yml
+- filename: optum-ambulance-fee-schedule-apis-api-openapi.yml
+  format: yaml
+  label: Optum Ambulance Fee Schedule APIs API
+  slug: optum-ambulance-fee-schedule-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-ambulance-fee-schedule-apis-api-openapi.yml
+- filename: optum-average-sales-price-apis-api-openapi.yml
+  format: yaml
+  label: Optum Average Sales Price APIs API
+  slug: optum-average-sales-price-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-average-sales-price-apis-api-openapi.yml
+- filename: optum-cci-edits-apis-api-openapi.yml
+  format: yaml
+  label: Optum CCI Edits APIs API
+  slug: optum-cci-edits-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-cci-edits-apis-api-openapi.yml
+- filename: optum-cci-edits-code-validator-api-api-openapi.yml
+  format: yaml
+  label: Optum CCI Edits Code Validator API
+  slug: optum-cci-edits-code-validator-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-cci-edits-code-validator-api-api-openapi.yml
+- filename: optum-clinical-diagnostic-laboratory-apis-api-openapi.yml
+  format: yaml
+  label: Optum Clinical Diagnostic Laboratory APIs API
+  slug: optum-clinical-diagnostic-laboratory-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-clinical-diagnostic-laboratory-apis-api-openapi.yml
+- filename: optum-cms-hcc-apis-api-openapi.yml
+  format: yaml
+  label: Optum CMS HCC APIs API
+  slug: optum-cms-hcc-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-cms-hcc-apis-api-openapi.yml
+- filename: optum-cms-iom-s-policy-apis-api-openapi.yml
+  format: yaml
+  label: Optum CMS IOM's Policy APIs API
+  slug: optum-cms-iom-s-policy-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-cms-iom-s-policy-apis-api-openapi.yml
+- filename: optum-cms-transmittal-apis-api-openapi.yml
+  format: yaml
+  label: Optum CMS Transmittal APIs API
+  slug: optum-cms-transmittal-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-cms-transmittal-apis-api-openapi.yml
+- filename: optum-code-specific-guidelines-apis-api-openapi.yml
+  format: yaml
+  label: Optum Code Specific Guidelines APIs API
+  slug: optum-code-specific-guidelines-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-code-specific-guidelines-apis-api-openapi.yml
+- filename: optum-compliance-apis-api-openapi.yml
+  format: yaml
+  label: Optum Compliance APIs API
+  slug: optum-compliance-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-compliance-apis-api-openapi.yml
+- filename: optum-consumer-code-manager-api-api-openapi.yml
+  format: yaml
+  label: Optum Consumer Code Manager API
+  slug: optum-consumer-code-manager-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-consumer-code-manager-api-api-openapi.yml
+- filename: optum-cross-coder-api-api-openapi.yml
+  format: yaml
+  label: Optum Cross Coder API
+  slug: optum-cross-coder-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-cross-coder-api-api-openapi.yml
+- filename: optum-dme-and-pen-fee-schedule-apis-api-openapi.yml
+  format: yaml
+  label: Optum DME and PEN Fee Schedule APIs API
+  slug: optum-dme-and-pen-fee-schedule-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-dme-and-pen-fee-schedule-apis-api-openapi.yml
 - filename: optum-document-reference-api-openapi.yml
   format: yaml
   label: Optum Document Reference API
   slug: optum-document-reference-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-document-reference-api-openapi.yml
+- filename: optum-eligibility-api-openapi.yml
+  format: yaml
+  label: Optum Eligibility API
+  slug: optum-eligibility-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-eligibility-api-openapi.yml
+- filename: optum-facility-compliance-apis-api-openapi.yml
+  format: yaml
+  label: Optum Facility Compliance APIs API
+  slug: optum-facility-compliance-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-facility-compliance-apis-api-openapi.yml
+- filename: optum-health-check-api-openapi.yml
+  format: yaml
+  label: Optum Health Check API
+  slug: optum-health-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-health-check-api-openapi.yml
+- filename: optum-inquiry-api-openapi.yml
+  format: yaml
+  label: Optum Inquiry API
+  slug: optum-inquiry-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-inquiry-api-openapi.yml
+- filename: optum-medically-unlikely-edits-mues-apis-api-openapi.yml
+  format: yaml
+  label: Optum Medically Unlikely Edits(MUEs) APIs API
+  slug: optum-medically-unlikely-edits-mues-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-medically-unlikely-edits-mues-apis-api-openapi.yml
+- filename: optum-medicare-carrier-localities-api-openapi.yml
+  format: yaml
+  label: Optum Medicare Carrier Localities API
+  slug: optum-medicare-carrier-localities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-medicare-carrier-localities-api-openapi.yml
+- filename: optum-medicare-coverage-policy-for-part-a-and-part-b-apis-api-openapi.yml
+  format: yaml
+  label: Optum Medicare Coverage Policy for part A and Part B APIs API
+  slug: optum-medicare-coverage-policy-for-part-a-and-part-b-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-medicare-coverage-policy-for-part-a-and-part-b-apis-api-openapi.yml
+- filename: optum-medicare-fee-schedule-apis-api-openapi.yml
+  format: yaml
+  label: Optum Medicare Fee Schedule APIs API
+  slug: optum-medicare-fee-schedule-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-medicare-fee-schedule-apis-api-openapi.yml
+- filename: optum-modifier-crosswalk-api-api-openapi.yml
+  format: yaml
+  label: Optum Modifier CrossWalk API
+  slug: optum-modifier-crosswalk-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-modifier-crosswalk-api-api-openapi.yml
+- filename: optum-national-drug-code-api-api-openapi.yml
+  format: yaml
+  label: Optum National Drug Code API
+  slug: optum-national-drug-code-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-national-drug-code-api-api-openapi.yml
+- filename: optum-not-otherwise-classified-noc-drug-pricing-apis-api-openapi.yml
+  format: yaml
+  label: Optum Not Otherwise Classified (NOC) Drug Pricing APIs API
+  slug: optum-not-otherwise-classified-noc-drug-pricing-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-not-otherwise-classified-noc-drug-pricing-apis-api-openapi.yml
+- filename: optum-policy-lookup-apis-api-openapi.yml
+  format: yaml
+  label: Optum Policy Lookup APIs API
+  slug: optum-policy-lookup-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-policy-lookup-apis-api-openapi.yml
+- filename: optum-prometheus-api-openapi.yml
+  format: yaml
+  label: Optum Prometheus API
+  slug: optum-prometheus-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-prometheus-api-openapi.yml
 - filename: optum-query-service-api-openapi.yml
   format: yaml
   label: Optum Query Service API
   slug: optum-query-service-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/optum/openapi/optum-query-service-api-openapi.yml
+- filename: optum-release-dates-api-api-openapi.yml
+  format: yaml
+  label: Optum Release Dates API
+  slug: optum-release-dates-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-release-dates-api-api-openapi.yml
+- filename: optum-state-list-fee-schedule-apis-api-openapi.yml
+  format: yaml
+  label: Optum State List Fee Schedule APIs API
+  slug: optum-state-list-fee-schedule-apis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/optum/openapi/optum-state-list-fee-schedule-apis-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -982,18 +982,19 @@ domains:
   domain: optum.com
   spf: true
 hosts:
-- cert_expires: Dec  2 23:59:59 2026 GMT
+- cert_expires: May 16 23:59:59 2027 GMT
   host: www.optum.com
   hsts: true
   hsts_max_age: 300
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 25 12:43:52 2026 GMT
+- cert_expires: Dec 23 16:46:31 2026 GMT
   host: developer.optum.com
-  hsts: null
+  hsts: true
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov  5 05:03:48 2026 GMT
+- cert_expires: Jan  3 05:50:55 2027 GMT
   host: apigw.optum.com
   hsts: true
   hsts_max_age: 15552000
@@ -1005,14 +1006,14 @@ layout: security
 method: probed
 name: Optum Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Optum, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Optum, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Optum
 provider_slug: optum
 slug: optum-domain-security
 source_filename: optum-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-08-14'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.optum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec  2 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: developer.optum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 25 12:43:52 2026 GMT\n  hsts: null\n- host: apigw.optum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  5 05:03:48 2026 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: optum.com\n  dnssec: true\n  caa:\n  - 0 issuemail \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.optum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: May 16 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 300\n- host: developer.optum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 23 16:46:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: apigw.optum.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  3 05:50:55 2027 GMT\n  hsts: true\n  hsts_max_age: 15552000\ndomains:\n- domain: optum.com\n  dnssec: true\n  caa:\n  - 0 issuemail \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/optum/security/optum-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:

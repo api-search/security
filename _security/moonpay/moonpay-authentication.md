@@ -12,7 +12,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Moonpay Authentication
+name: MoonPay Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MoonPay secures its APIs with apiKey, http-bearer, and request-signing across 4 declared security schemes, as derived from its OpenAPI definitions.

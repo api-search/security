@@ -362,7 +362,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aisa One Authentication
+name: aisa-one Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: aisa-one declares 1 security scheme(s) across its OpenAPI definitions.

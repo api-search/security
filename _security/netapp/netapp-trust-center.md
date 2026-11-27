@@ -47,7 +47,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Netapp Trust Center
+name: NetApp Trust Center
 name_suffix: Trust Center
 overview: NetApp maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR, and FIPS 140 compliance.
 provider_name: NetApp

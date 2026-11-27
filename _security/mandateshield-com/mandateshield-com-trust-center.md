@@ -125,7 +125,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Mandateshield Com Trust Center
+name: MandateShield Trust Center
 name_suffix: Trust Center
 overview: MandateShield maintains a public trust center covering its security and compliance posture.
 provider_name: MandateShield

@@ -25,7 +25,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Flyn To Domain Security
+name: Flyn Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Flyn, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Flyn
@@ -38,12 +38,11 @@ source_yaml: "generated: '2026-11-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/flyn-to/security/flyn-to-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- link shortener
+- Link Shortener
 - URL analytics
 - branded domains
-- API
-- QR codes
-- team workspaces
-- A/B testing
-- developer tools
+- QR Codes
+- Team workspaces
+- A/B Testing
+- Developer Tools
 ---

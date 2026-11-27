@@ -28,6 +28,6 @@ tags:
 - Tax
 - Gig Economy
 - HR Integration
-- Business API
+- Business-API
 trust_url: https://trust.motus.com/
 ---

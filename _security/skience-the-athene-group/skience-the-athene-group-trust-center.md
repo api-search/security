@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Skience The Athene Group Trust Center
+name: Skience (The Athene Group) Trust Center
 name_suffix: Trust Center
 overview: Skience (The Athene Group) maintains a public trust center documenting SOC 2 Type 2 and SOC 2 + HITRUST compliance.
 provider_name: Skience (The Athene Group)

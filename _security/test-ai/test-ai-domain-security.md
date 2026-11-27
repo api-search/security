@@ -78,7 +78,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Test Ai Domain Security
+name: test.ai Domain Security
 name_suffix: Domain Security
 overview: Domain security posture for test.ai, probed live across 2 host(s) and 0 registrable domain(s).
 provider_name: test.ai

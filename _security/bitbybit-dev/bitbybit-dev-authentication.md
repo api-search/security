@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Bitbybit Dev Authentication
+name: bitbybit-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: bitbybit-dev declares 1 security scheme(s) across its OpenAPI definitions.

@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Rosentic Com Authentication
+name: Rosentic Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

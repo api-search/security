@@ -6,6 +6,30 @@ api_specs:
   slug: liquidagent-ai-liquid-agent-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-liquid-agent-api-openapi.yml
+- filename: liquidagent-ai-leads-api-openapi.yml
+  format: yaml
+  label: Liquid Agent Leads API
+  slug: liquidagent-ai-leads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-leads-api-openapi.yml
+- filename: liquidagent-ai-liquid-bridge-api-openapi.yml
+  format: yaml
+  label: Liquid Agent Liquid Bridge API
+  slug: liquidagent-ai-liquid-bridge-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-liquid-bridge-api-openapi.yml
+- filename: liquidagent-ai-polymarket-api-openapi.yml
+  format: yaml
+  label: Liquid Agent Polymarket API
+  slug: liquidagent-ai-polymarket-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-polymarket-api-openapi.yml
+- filename: liquidagent-ai-shops-api-openapi.yml
+  format: yaml
+  label: Liquid Agent Shops API
+  slug: liquidagent-ai-shops-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-shops-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -31,7 +55,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Liquidagent Ai Domain Security
+name: Liquid Agent Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Liquid Agent, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Liquid Agent

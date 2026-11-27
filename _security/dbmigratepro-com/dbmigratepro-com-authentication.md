@@ -140,7 +140,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Dbmigratepro Com Authentication
+name: dbmigratepro-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: dbmigratepro-com declares 1 security scheme(s) across its OpenAPI definitions.

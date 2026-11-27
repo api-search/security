@@ -44,7 +44,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Doku Trust Center
+name: DOKU Trust Center
 name_suffix: Trust Center
 overview: DOKU maintains a public trust center documenting PCI DSS Level 1 Service Provider, ISO/IEC 27001, and AES-256 encryption standard compliance.
 provider_name: DOKU

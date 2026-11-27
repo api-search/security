@@ -130,10 +130,10 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Farmdash Domain Security
+name: FarmDash.one Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for FarmDash Agent Hub, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: FarmDash Agent Hub
+overview: 'Domain security posture for FarmDash.one, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: FarmDash.one
 provider_slug: farmdash
 slug: farmdash-domain-security
 source_filename: farmdash-domain-security.yml

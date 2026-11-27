@@ -21,7 +21,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Worldweatheronline Com Domain Security
+name: worldweatheronline-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for worldweatheronline-com, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: worldweatheronline-com

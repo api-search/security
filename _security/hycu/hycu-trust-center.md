@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hycu Trust Center
+name: HYCU Trust Center
 name_suffix: Trust Center
 overview: HYCU maintains a public trust center documenting ISO 27001, HIPAA, and GDPR compliance.
 provider_name: HYCU

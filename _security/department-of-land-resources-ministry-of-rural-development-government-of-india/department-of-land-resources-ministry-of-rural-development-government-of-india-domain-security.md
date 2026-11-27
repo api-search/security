@@ -19,7 +19,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Department Of Land Resources Ministry Of Rural Development Government Of India Domain Security
+name: Department of Land Resources, Ministry of Rural Development, Government of India Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Department of Land Resources, Ministry of Rural Development, Government of India, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Department of Land Resources, Ministry of Rural Development, Government of India

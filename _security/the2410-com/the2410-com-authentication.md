@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: The2410 Com Authentication
+name: the2410-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: the2410-com declares 0 security scheme(s) across its OpenAPI definitions.

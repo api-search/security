@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Securessmtp Com Authentication
+name: securessmtp-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: securessmtp-com declares 1 security scheme(s) across its OpenAPI definitions.

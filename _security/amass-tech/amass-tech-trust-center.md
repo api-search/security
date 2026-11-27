@@ -49,7 +49,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amass Tech Trust Center
+name: Amass Trust Center
 name_suffix: Trust Center
 overview: Amass maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Amass

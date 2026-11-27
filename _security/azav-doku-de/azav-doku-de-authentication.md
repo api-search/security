@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Azav Doku De Authentication
+name: AZAV-Doku Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AZAV-Doku declares 0 security scheme(s) across its OpenAPI definitions.

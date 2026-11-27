@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Mostlypdf Authentication
+name: MostlyPDF Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MostlyPDF declares 2 security scheme(s) across its OpenAPI definitions.
@@ -34,5 +34,4 @@ tags:
 - Company
 - PDF
 - Automation
-- Free Tools
 ---

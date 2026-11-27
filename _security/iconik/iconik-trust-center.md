@@ -42,7 +42,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Iconik Trust Center
+name: iconik Trust Center
 name_suffix: Trust Center
 overview: iconik maintains a public trust center documenting SOC 2 compliance.
 provider_name: iconik

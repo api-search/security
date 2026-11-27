@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aon Pro Authentication
+name: AON Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AON declares 1 security scheme(s) across its OpenAPI definitions.

@@ -44,11 +44,11 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Uetr Ai Authentication
+name: uetr.ai - UETR and SWIFT Payment Tracking Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: SWIFT UETR Tracker declares 2 security scheme(s) across its OpenAPI definitions.
-provider_name: SWIFT UETR Tracker
+overview: uetr.ai - UETR and SWIFT Payment Tracking declares 2 security scheme(s) across its OpenAPI definitions.
+provider_name: uetr.ai - UETR and SWIFT Payment Tracking
 provider_slug: uetr-ai
 scheme_count: 2
 schemes:

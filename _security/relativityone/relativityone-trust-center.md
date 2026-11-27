@@ -43,7 +43,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Relativityone Trust Center
+name: RelativityOne Trust Center
 name_suffix: Trust Center
 overview: RelativityOne maintains a public trust center documenting FedRAMP and GDPR compliance.
 provider_name: RelativityOne

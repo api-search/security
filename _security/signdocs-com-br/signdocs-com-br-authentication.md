@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Signdocs Com Br Authentication
+name: signdocs-com-br Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: signdocs-com-br declares 2 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Swapp1990 Org Authentication
+name: swapp1990-org Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: swapp1990-org declares 0 security scheme(s) across its OpenAPI definitions.

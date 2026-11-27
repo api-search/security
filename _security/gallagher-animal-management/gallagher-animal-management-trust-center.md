@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gallagher Animal Management Trust Center
+name: Gallagher Trust Center
 name_suffix: Trust Center
 overview: Gallagher maintains a public trust center documenting SOC 2, ISO 27001, GDPR, and FIPS 140 compliance.
 provider_name: Gallagher

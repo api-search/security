@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Im8 Authentication
+name: IM8 Health Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IM8 Health declares 2 security scheme(s) across its OpenAPI definitions.

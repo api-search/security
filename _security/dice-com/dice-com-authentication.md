@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Dice Com Authentication
+name: Dice Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dice declares 1 security scheme(s) across its OpenAPI definitions.

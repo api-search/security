@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Yepapi Authentication
+name: YepAPI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: YepAPI declares 1 security scheme(s) across its OpenAPI definitions.

@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Ge Vernova Authentication
+name: GE Vernova Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 9
 method: searched
-name: Jfrog Container Registry Authentication
+name: JFrog Container Registry Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JFrog Container Registry declares 9 security scheme(s) across its OpenAPI definitions.

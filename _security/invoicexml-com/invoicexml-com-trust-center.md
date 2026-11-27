@@ -75,7 +75,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Invoicexml Com Trust Center
+name: invoicexml-com Trust Center
 name_suffix: Trust Center
 overview: invoicexml-com maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: invoicexml-com

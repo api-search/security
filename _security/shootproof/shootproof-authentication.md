@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Shootproof Authentication
+name: ShootProof Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

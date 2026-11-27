@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aiki Wiki Authentication
+name: AIKI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AIKI declares 1 security scheme(s) across its OpenAPI definitions.

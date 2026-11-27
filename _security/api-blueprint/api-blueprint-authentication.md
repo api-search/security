@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Api Blueprint Authentication
+name: API Blueprint Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: API Blueprint declares 0 security scheme(s) across its OpenAPI definitions.

@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Digibee Com Trust Center
+name: Digibee Trust Center
 name_suffix: Trust Center
 overview: Digibee maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: Digibee

@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Citation Co Authentication
+name: Citation Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Citation declares 1 security scheme(s) across its OpenAPI definitions.

@@ -5,7 +5,7 @@ certifications:
 description: Bruno runs a hosted trust center at trust.usebruno.com and summarises its security posture on its own site at /security. The headline claim is SOC 2 Type I certification, independently audited against the AICPA Trust Services Criteria, with the report, subprocessors and security documentation available through the trust center.
 kind: trust-center
 layout: security
-name: Bruno Api Trust Center
+name: Bruno Trust Center
 name_suffix: Trust Center
 overview: Bruno maintains a public trust center documenting SOC 2 Type I compliance.
 provider_name: Bruno

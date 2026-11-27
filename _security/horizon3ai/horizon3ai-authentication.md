@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Horizon3Ai Authentication
+name: Horizon3.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Horizon3.ai secures its APIs with apiKey, http-bearer, and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions.

@@ -32,7 +32,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Koala Io Trust Center
+name: Koala Trust Center
 name_suffix: Trust Center
 overview: Koala maintains a public trust center documenting SOC 2 Type II, GDPR, and CCPA compliance.
 provider_name: Koala

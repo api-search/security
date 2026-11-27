@@ -8,15 +8,9 @@ api_specs:
   slug: google-photos-albums-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-photos/openapi/google-photos-albums-api-openapi.yml
-- filename: google-photos-mediaitems-search-api-openapi.yml
-  format: yaml
-  label: Google Photos Library MediaItems:search API
-  slug: google-photos-mediaitems-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-photos/openapi/google-photos-mediaitems-search-api-openapi.yml
 - filename: google-photos-sharedalbums-api-openapi.yml
   format: yaml
-  label: Google Photos Library SharedAlbums API
+  label: Google Photos Library Shared Albums API
   slug: google-photos-sharedalbums-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-photos/openapi/google-photos-sharedalbums-api-openapi.yml
@@ -33,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Photos Authentication
+name: Google Photos Library Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

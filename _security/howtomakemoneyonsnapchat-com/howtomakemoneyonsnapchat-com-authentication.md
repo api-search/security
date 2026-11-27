@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Howtomakemoneyonsnapchat Com Authentication
+name: howtomakemoneyonsnapchat-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: howtomakemoneyonsnapchat-com declares 2 security scheme(s) across its OpenAPI definitions.

@@ -5,7 +5,7 @@ api_specs:
   label: PartyKit Deployed Party (HTTP / WebSocket)
   slug: deployed-party-http
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/partykit/refs/heads/main/asyncapi/partykit-asyncapi.yml
+  url: https://artifacts.apis.io/partykit/asyncapi/partykit-asyncapi.yml
 description: ''
 domains:
 - caa:
@@ -36,7 +36,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Partykit Domain Security
+name: PartyKit Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for PartyKit, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: PartyKit

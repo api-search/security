@@ -66,7 +66,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Unstoppable Finance Trust Center
+name: Unstoppable Finance (Iron) Trust Center
 name_suffix: Trust Center
 overview: Unstoppable Finance (Iron) maintains a public trust center documenting SOC 2, ISO 27001, ISO 27701, ISO 27018, PCI DSS, CMMC, and GDPR compliance.
 provider_name: Unstoppable Finance (Iron)

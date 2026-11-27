@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Agrodesignstudio Authentication
+name: AgroDesign Studios Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgroDesign Studios declares 2 security scheme(s) across its OpenAPI definitions.

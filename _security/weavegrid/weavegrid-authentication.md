@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Weavegrid Authentication
+name: WeaveGrid Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WeaveGrid declares 1 security scheme(s) across its OpenAPI definitions.

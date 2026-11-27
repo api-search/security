@@ -44,7 +44,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pardot Trust Center
+name: Salesforce Marketing Cloud Account Engagement (Pardot) Trust Center
 name_suffix: Trust Center
 overview: Salesforce Marketing Cloud Account Engagement (Pardot) maintains a public trust center documenting C5 (ISAE 3000), CCCS Assessment - Protected B, CJIS, CSA STAR, DoD IL2, DoD IL4, DoD IL5, EU Cloud Code of Conduct, FedRAMP High, FedRAMP Moderate, GDPR, HIPAA, HITRUST, IRAP, ISMAP, ISO 22301, ISO 27001, ISO 27017, ISO 27018, ISO 42001, ISO 9001, NEN 7510, NIST SP 800-171, PCI DSS, PrivacyMark, SOC 1, SOC 2, SOC 3, Salesforce BCRs, TISAX, TX-RAMP, U.S. Data Privacy Framework (DPF), and WCAG 2.2 AA compliance.
 provider_name: Salesforce Marketing Cloud Account Engagement (Pardot)

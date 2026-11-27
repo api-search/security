@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Sitey My Authentication
+name: sitey-my Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: sitey-my declares 0 security scheme(s) across its OpenAPI definitions.

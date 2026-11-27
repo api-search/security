@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Joinwarp Com Trust Center
+name: Warp Trust Center
 name_suffix: Trust Center
 overview: Warp maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Warp

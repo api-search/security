@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Axiado Corporation Authentication
+name: Axiado Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Axiado secures its APIs with application-privilege and code-signing across 3 declared security schemes, as derived from its OpenAPI definitions.

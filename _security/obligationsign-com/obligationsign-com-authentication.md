@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Obligationsign Com Authentication
+name: obligationsign-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: obligationsign-com declares 1 security scheme(s) across its OpenAPI definitions.

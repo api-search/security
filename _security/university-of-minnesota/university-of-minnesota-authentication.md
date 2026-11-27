@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: University Of Minnesota Authentication
+name: University of Minnesota Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Minnesota declares 0 security scheme(s) across its OpenAPI definitions.

@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ssen Authentication
+name: Scottish and Southern Electricity Networks Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Scottish and Southern Electricity Networks secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

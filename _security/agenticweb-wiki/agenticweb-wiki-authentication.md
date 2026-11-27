@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agenticweb Wiki Authentication
+name: agenticweb-wiki Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: agenticweb-wiki declares 0 security scheme(s) across its OpenAPI definitions.

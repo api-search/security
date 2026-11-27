@@ -54,7 +54,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Neo4J Trust Center
+name: Neo4j Trust Center
 name_suffix: Trust Center
 overview: Neo4j maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR, and CSA STAR compliance.
 provider_name: Neo4j

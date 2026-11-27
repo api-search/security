@@ -2,30 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: klavis-mcp-servers-api-openapi.yml
-  format: yaml
-  label: Klavis AI MCP Servers API
-  slug: klavis-mcp-servers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/klavis/openapi/klavis-mcp-servers-api-openapi.yml
 - filename: klavis-sandbox-api-openapi.yml
   format: yaml
   label: Klavis AI Sandbox API
   slug: klavis-sandbox-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/klavis/openapi/klavis-sandbox-api-openapi.yml
-- filename: klavis-tools-api-openapi.yml
-  format: yaml
-  label: Klavis AI Tools API
-  slug: klavis-tools-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/klavis/openapi/klavis-tools-api-openapi.yml
-- filename: klavis-users-api-openapi.yml
-  format: yaml
-  label: Klavis AI Users API
-  slug: klavis-users-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/klavis/openapi/klavis-users-api-openapi.yml
 - filename: klavis-airtable-oauth-api-openapi.yml
   format: yaml
   label: Klavis AI Airtable OAUTH API
@@ -435,7 +417,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Klavis Authentication
+name: Klavis AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Klavis AI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

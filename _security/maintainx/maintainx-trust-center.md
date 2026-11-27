@@ -194,7 +194,7 @@ certifications:
 description: MaintainX publishes a Trust Center and a security page listing named certifications. (The automated probe did not trip its keyword threshold on the SPA-rendered Trust Center, so this was captured by directly reading the published security page.)
 kind: trust-center
 layout: security
-name: Maintainx Trust Center
+name: MaintainX Trust Center
 name_suffix: Trust Center
 overview: MaintainX maintains a public trust center documenting SOC 2 Type II, ISO/IEC 27001:2022, and GDPR compliance.
 provider_name: MaintainX

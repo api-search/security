@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Hooklayer Dev Authentication
+name: hooklayer-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: hooklayer-dev declares 0 security scheme(s) across its OpenAPI definitions.

@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Past Dev Authentication
+name: past-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: past-dev declares 3 security scheme(s) across its OpenAPI definitions.

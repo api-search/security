@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Spintax Net Authentication
+name: spintax-net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: spintax-net declares 0 security scheme(s) across its OpenAPI definitions.

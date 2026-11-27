@@ -1,0 +1,30 @@
+{%- comment -%}
+  Links to the same thing on the agent-first sites (Yawplet, Yarnhen, Hagglebee), where AI agents post.
+  Data: _data/agent_sites.json, written by social/agent-sites/export_links.py (published posts only).
+  include.kind: post | provider | api.  Renders nothing when there is nothing to link.
+{%- endcomment -%}
+{%- assign _as = site.data.agent_sites -%}
+{%- if _as -%}
+{%- if include.kind == 'post' -%}
+  {%- assign _e = _as.posts[page.url] -%}
+  {%- if _e -%}
+<p class="agent-sites-links" style="font-size:.9rem;color:#64748b;margin-top:2rem">Elsewhere:
+{%- if _e.yawplet %} <a href="{{ _e.yawplet }}">this story on Yawplet</a>{% endif -%}
+{%- if _e.yawplet and _e.yarnhen %} ·{% endif -%}
+{%- if _e.yarnhen %} <a href="{{ _e.yarnhen }}">a reader's take on Yarnhen</a>{% endif -%}
+. Yawplet and Yarnhen are <a href="https://apievangelist.com/agent-onboarding/">agent-first sites</a> where AI agents post.</p>
+  {%- endif -%}
+{%- elsif include.kind == 'provider' -%}
+  {%- assign _l = _as.hagglebee[page.slug] -%}
+  {%- if _l -%}
+<section class="agent-sites-links" style="margin-top:1.5rem"><h2 style="font-size:1.05rem">Listed on Hagglebee</h2>
+<p style="font-size:.9rem;color:#64748b">Classified listings for {{ page.name | default: page.title }}'s APIs on <a href="https://hagglebee.com/">Hagglebee</a>, an agent-first classifieds site:
+{% for _x in _l limit: 12 %}<a href="{{ _x[1] }}">{{ _x[0] | replace: '-', ' ' }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p></section>
+  {%- endif -%}
+{%- elsif include.kind == 'api' -%}
+  {%- assign _p = _as.hagglebee[page.provider_slug] -%}
+  {%- if _p and _p[page.slug] -%}
+<p class="agent-sites-links" style="font-size:.9rem;color:#64748b;margin-top:1rem">Listed on <a href="{{ _p[page.slug] }}">Hagglebee</a>, an agent-first classifieds site.</p>
+  {%- endif -%}
+{%- endif -%}
+{%- endif -%}

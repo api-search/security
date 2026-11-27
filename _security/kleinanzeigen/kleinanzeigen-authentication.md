@@ -37,6 +37,6 @@ tags:
 - Classifieds
 - Marketplace
 - Germany
-- free-ads
+- FreeAds
 - Consumer
 ---

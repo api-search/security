@@ -36,7 +36,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Fangtek Domain Security
+name: FangTek Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FangTek, probed live across 2 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: FangTek

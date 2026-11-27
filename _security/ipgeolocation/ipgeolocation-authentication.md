@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ipgeolocation Authentication
+name: IPGeolocation.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IPGeolocation.io secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -88,7 +88,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/ipgeoloc
 source_yaml_url: https://artifacts.apis.io/ipgeolocation/authentication/ipgeolocation-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:
-- Geocoding
 - IP Geolocation
 - IP Intelligence
 - IP Security

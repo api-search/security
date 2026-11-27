@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Genie Ai Trust Center
+name: Genie AI Trust Center
 name_suffix: Trust Center
 overview: Genie AI maintains a public trust center documenting ISO 27001, SOC 2 Type 2, and GDPR compliance.
 provider_name: Genie AI

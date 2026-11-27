@@ -179,7 +179,7 @@ certifications:
 description: NextGen Healthcare publishes a corporate Trust Center describing its security, privacy and compliance posture. The page names a set of independent third-party certifications and attestations relevant to regulated US health data.
 kind: trust-center
 layout: security
-name: Nextgen Healthcare Trust Center
+name: NextGen Healthcare Trust Center
 name_suffix: Trust Center
 overview: NextGen Healthcare maintains a public trust center documenting SOC 2 Type II, HITRUST CSF, ISO 27001, HIPAA, PCI DSS, and NIST compliance.
 provider_name: NextGen Healthcare

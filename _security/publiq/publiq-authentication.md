@@ -210,7 +210,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Publiq Authentication
+name: publiq Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: publiq secures its APIs with apiKey, oauth2, and openIdConnect across 4 declared security schemes, as derived from its OpenAPI definitions.

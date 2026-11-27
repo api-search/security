@@ -31,7 +31,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Claw Link Dev Trust Center
+name: ClawLink Trust Center
 name_suffix: Trust Center
 overview: ClawLink maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: ClawLink

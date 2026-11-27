@@ -182,7 +182,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Alphanume Com Authentication
+name: Alphanume Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Alphanume declares 1 security scheme(s) across its OpenAPI definitions.

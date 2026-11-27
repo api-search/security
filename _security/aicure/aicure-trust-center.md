@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aicure Trust Center
+name: AiCure Trust Center
 name_suffix: Trust Center
 overview: AiCure maintains a public trust center documenting ISO/IEC 27001 and SOC 2 compliance.
 provider_name: AiCure

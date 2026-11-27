@@ -34,7 +34,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ifs Trust Center
+name: IFS Trust Center
 name_suffix: Trust Center
 overview: IFS maintains a public trust center documenting ISO/IEC 27001:2013 Information Security Management, SOC 1 Type II, SOC 2 Type II, ISO 9001, and TickIT Plus compliance.
 provider_name: IFS

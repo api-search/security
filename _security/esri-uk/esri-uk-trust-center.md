@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Esri Uk Trust Center
+name: Esri UK Trust Center
 name_suffix: Trust Center
 overview: Esri UK maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: Esri UK

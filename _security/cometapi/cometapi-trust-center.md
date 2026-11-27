@@ -1,47 +1,17 @@
 ---
 api_specs:
-- filename: cometapi-audio-api-openapi.yml
-  format: yaml
-  label: CometAPI Audio API
-  slug: cometapi-audio-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-audio-api-openapi.yml
-- filename: cometapi-embeddings-api-openapi.yml
-  format: yaml
-  label: CometAPI Embeddings API
-  slug: cometapi-embeddings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-embeddings-api-openapi.yml
-- filename: cometapi-images-api-openapi.yml
-  format: yaml
-  label: CometAPI Images API
-  slug: cometapi-images-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-images-api-openapi.yml
 - filename: cometapi-models-api-openapi.yml
   format: yaml
   label: CometAPI Models API
   slug: cometapi-models-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cometapi/openapi/cometapi-models-api-openapi.yml
-- filename: cometapi-video-api-openapi.yml
-  format: yaml
-  label: CometAPI Video API
-  slug: cometapi-video-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-video-api-openapi.yml
-- filename: cometapi-chat-completions-api-openapi.yml
-  format: yaml
-  label: CometAPI Chat Completions API
-  slug: cometapi-chat-completions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-chat-completions-api-openapi.yml
 certification_count: 0
 certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Cometapi Trust Center
+name: CometAPI Trust Center
 name_suffix: Trust Center
 overview: CometAPI maintains a public trust center covering its security and compliance posture.
 provider_name: CometAPI

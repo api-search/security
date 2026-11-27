@@ -4,43 +4,43 @@ api_key_in: []
 api_specs:
 - filename: api-stock-com-account-management-api-openapi.yml
   format: yaml
-  label: api-stock-com Account Management API
+  label: API Stock Account Management API
   slug: api-stock-com-account-management-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-account-management-api-openapi.yml
 - filename: api-stock-com-agent-api-openapi.yml
   format: yaml
-  label: api-stock-com Agent API
+  label: API Stock Agent API
   slug: api-stock-com-agent-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-agent-api-openapi.yml
 - filename: api-stock-com-catalog-api-openapi.yml
   format: yaml
-  label: api-stock-com Catalog API
+  label: API Stock Catalog API
   slug: api-stock-com-catalog-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-catalog-api-openapi.yml
 - filename: api-stock-com-costs-api-openapi.yml
   format: yaml
-  label: api-stock-com Costs API
+  label: API Stock Costs API
   slug: api-stock-com-costs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-costs-api-openapi.yml
 - filename: api-stock-com-generations-api-openapi.yml
   format: yaml
-  label: api-stock-com Generations API
+  label: API Stock Generations API
   slug: api-stock-com-generations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-generations-api-openapi.yml
 - filename: api-stock-com-llm-api-openapi.yml
   format: yaml
-  label: api-stock-com LLM API
+  label: API Stock LLM API
   slug: api-stock-com-llm-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-llm-api-openapi.yml
 - filename: api-stock-com-task-management-api-openapi.yml
   format: yaml
-  label: api-stock-com Task Management API
+  label: API Stock Task Management API
   slug: api-stock-com-task-management-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-task-management-api-openapi.yml
@@ -50,11 +50,11 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Api Stock Com Authentication
+name: API Stock Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: api-stock-com declares 2 security scheme(s) across its OpenAPI definitions.
-provider_name: api-stock-com
+overview: API Stock declares 2 security scheme(s) across its OpenAPI definitions.
+provider_name: API Stock
 provider_slug: api-stock-com
 scheme_count: 2
 schemes:

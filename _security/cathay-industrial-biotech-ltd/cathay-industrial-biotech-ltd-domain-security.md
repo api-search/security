@@ -13,7 +13,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Cathay Industrial Biotech Ltd Domain Security
+name: Cathay Industrial Biotech, Ltd. Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Cathay Industrial Biotech, Ltd., probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Cathay Industrial Biotech, Ltd.

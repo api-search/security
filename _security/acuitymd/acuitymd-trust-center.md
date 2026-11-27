@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Acuitymd Trust Center
+name: AcuityMD Trust Center
 name_suffix: Trust Center
 overview: AcuityMD maintains a public trust center documenting SOC 2 Type 1 compliance.
 provider_name: AcuityMD

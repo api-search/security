@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Hcf Trust Center
+name: HCF Trust Center
 name_suffix: Trust Center
 overview: HCF maintains a public trust center covering its security and compliance posture.
 provider_name: HCF

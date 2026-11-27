@@ -6,36 +6,12 @@ api_specs:
   slug: epa-account-type-codes-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-account-type-codes-api-openapi.yml
-- filename: epa-accounts-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Accounts API
-  slug: epa-accounts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-accounts-api-openapi.yml
 - filename: epa-air-emission-testing-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Air Emission Testing API
   slug: epa-air-emission-testing-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-air-emission-testing-api-openapi.yml
-- filename: epa-allowance-compliance-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Allowance Compliance API
-  slug: epa-allowance-compliance-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-allowance-compliance-api-openapi.yml
-- filename: epa-allowance-holdings-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Allowance Holdings API
-  slug: epa-allowance-holdings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-allowance-holdings-api-openapi.yml
-- filename: epa-allowance-transactions-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Allowance Transactions API
-  slug: epa-allowance-transactions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-allowance-transactions-api-openapi.yml
 - filename: epa-analysis-services-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Analysis Services API
@@ -78,60 +54,18 @@ api_specs:
   slug: epa-appendix-e-heat-input-from-oil-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-appendix-e-heat-input-from-oil-api-openapi.yml
-- filename: epa-apportioned-annual-emissions-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Apportioned Annual Emissions API
-  slug: epa-apportioned-annual-emissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-annual-emissions-api-openapi.yml
-- filename: epa-apportioned-daily-emissions-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Apportioned Daily Emissions API
-  slug: epa-apportioned-daily-emissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-daily-emissions-api-openapi.yml
 - filename: epa-apportioned-emissions-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Apportioned Emissions API
   slug: epa-apportioned-emissions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-apportioned-emissions-api-openapi.yml
-- filename: epa-apportioned-hourly-emissions-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Apportioned Hourly Emissions API
-  slug: epa-apportioned-hourly-emissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-hourly-emissions-api-openapi.yml
-- filename: epa-apportioned-hourly-mats-emissions-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Apportioned Hourly MATS Emissions API
-  slug: epa-apportioned-hourly-mats-emissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-hourly-mats-emissions-api-openapi.yml
 - filename: epa-apportioned-mats-emissions-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Apportioned MATS Emissions API
   slug: epa-apportioned-mats-emissions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-apportioned-mats-emissions-api-openapi.yml
-- filename: epa-apportioned-monthly-emissions-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Apportioned Monthly Emissions API
-  slug: epa-apportioned-monthly-emissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-monthly-emissions-api-openapi.yml
-- filename: epa-apportioned-ozone-emissions-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Apportioned Ozone Emissions API
-  slug: epa-apportioned-ozone-emissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-ozone-emissions-api-openapi.yml
-- filename: epa-apportioned-quarterly-emissions-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Apportioned Quarterly Emissions API
-  slug: epa-apportioned-quarterly-emissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-quarterly-emissions-api-openapi.yml
 - filename: epa-attributes-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Attributes API
@@ -258,30 +192,12 @@ api_specs:
   slug: epa-effluent-charts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-effluent-charts-api-openapi.yml
-- filename: epa-emissions-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Emissions API
-  slug: epa-emissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-emissions-api-openapi.yml
-- filename: epa-emissions-compliance-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Emissions Compliance API
-  slug: epa-emissions-compliance-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-emissions-compliance-api-openapi.yml
 - filename: epa-emissions-views-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Emissions Views API
   slug: epa-emissions-views-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-emissions-views-api-openapi.yml
-- filename: epa-facilities-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Facilities API
-  slug: epa-facilities-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-facilities-api-openapi.yml
 - filename: epa-facility-info-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Facility Info API
@@ -354,18 +270,6 @@ api_specs:
   slug: epa-glossary-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-glossary-api-openapi.yml
-- filename: epa-health-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Health API
-  slug: epa-health-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-health-api-openapi.yml
-- filename: epa-help-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Help API
-  slug: epa-help-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-help-api-openapi.yml
 - filename: epa-hg-injection-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Hg Injection API
@@ -438,24 +342,12 @@ api_specs:
   slug: epa-logout-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-logout-api-openapi.yml
-- filename: epa-lookups-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Lookups API
-  slug: epa-lookups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-lookups-api-openapi.yml
 - filename: epa-mats-methods-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency MATS Methods API
   slug: epa-mats-methods-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-mats-methods-api-openapi.yml
-- filename: epa-metadata-api-openapi.yml
-  format: yaml
-  label: EPA — U.S. Environmental Protection Agency Metadata API
-  slug: epa-metadata-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/epa/openapi/epa-metadata-api-openapi.yml
 - filename: epa-methods-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Methods API
@@ -750,12 +642,120 @@ api_specs:
   slug: epa-uv-index-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-uv-index-api-openapi.yml
+- filename: epa-accounts-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Accounts API
+  slug: epa-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-accounts-api-openapi.yml
+- filename: epa-allowance-compliance-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Allowance Compliance API
+  slug: epa-allowance-compliance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-allowance-compliance-api-openapi.yml
+- filename: epa-allowance-holdings-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Allowance Holdings API
+  slug: epa-allowance-holdings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-allowance-holdings-api-openapi.yml
+- filename: epa-allowance-transactions-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Allowance Transactions API
+  slug: epa-allowance-transactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-allowance-transactions-api-openapi.yml
+- filename: epa-apportioned-annual-emissions-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Apportioned Annual Emissions API
+  slug: epa-apportioned-annual-emissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-annual-emissions-api-openapi.yml
+- filename: epa-apportioned-daily-emissions-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Apportioned Daily Emissions API
+  slug: epa-apportioned-daily-emissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-daily-emissions-api-openapi.yml
+- filename: epa-apportioned-hourly-emissions-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Apportioned Hourly Emissions API
+  slug: epa-apportioned-hourly-emissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-hourly-emissions-api-openapi.yml
+- filename: epa-apportioned-hourly-mats-emissions-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Apportioned Hourly MATS Emissions API
+  slug: epa-apportioned-hourly-mats-emissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-hourly-mats-emissions-api-openapi.yml
+- filename: epa-apportioned-monthly-emissions-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Apportioned Monthly Emissions API
+  slug: epa-apportioned-monthly-emissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-monthly-emissions-api-openapi.yml
+- filename: epa-apportioned-ozone-emissions-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Apportioned Ozone Emissions API
+  slug: epa-apportioned-ozone-emissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-ozone-emissions-api-openapi.yml
+- filename: epa-apportioned-quarterly-emissions-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Apportioned Quarterly Emissions API
+  slug: epa-apportioned-quarterly-emissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-apportioned-quarterly-emissions-api-openapi.yml
+- filename: epa-emissions-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Emissions API
+  slug: epa-emissions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-emissions-api-openapi.yml
+- filename: epa-emissions-compliance-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Emissions Compliance API
+  slug: epa-emissions-compliance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-emissions-compliance-api-openapi.yml
+- filename: epa-facilities-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Facilities API
+  slug: epa-facilities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-facilities-api-openapi.yml
 - filename: epa-graph-ql-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Graph QL API
   slug: epa-graph-ql-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/epa/openapi/epa-graph-ql-api-openapi.yml
+- filename: epa-health-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Health API
+  slug: epa-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-health-api-openapi.yml
+- filename: epa-help-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Help API
+  slug: epa-help-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-help-api-openapi.yml
+- filename: epa-lookups-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Lookups API
+  slug: epa-lookups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-lookups-api-openapi.yml
+- filename: epa-metadata-api-openapi.yml
+  format: yaml
+  label: EPA — U.S. Environmental Protection Agency Metadata API
+  slug: epa-metadata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/epa/openapi/epa-metadata-api-openapi.yml
 - filename: epa-signup-api-openapi.yml
   format: yaml
   label: EPA — U.S. Environmental Protection Agency Signup API
@@ -765,24 +765,25 @@ api_specs:
 description: ''
 domains:
 - caa: []
-  dmarc: false
+  dmarc: true
+  dmarc_policy: reject
   dnssec: true
   domain: epa.gov
   spf: true
 hosts:
-- cert_expires: Oct 21 23:59:59 2026 GMT
+- cert_expires: Apr 24 23:59:59 2027 GMT
   host: www.epa.gov
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct 21 23:59:59 2026 GMT
-  host: aqs.epa.gov
+- cert_expires: Dec 18 23:59:59 2026 GMT
+  host: frsqueryprd-api.epa.gov
   hsts: true
-  hsts_max_age: 31536000
+  hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.2
-- cert_expires: Oct 21 23:59:59 2026 GMT
+- cert_expires: Apr 24 23:59:59 2027 GMT
   host: data.epa.gov
   hsts: null
   https: true
@@ -791,18 +792,18 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Epa Domain Security
+name: EPA — U.S. Environmental Protection Agency Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for EPA — U.S. Environmental Protection Agency, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC absent.'
+overview: 'Domain security posture for EPA — U.S. Environmental Protection Agency, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: EPA — U.S. Environmental Protection Agency
 provider_slug: epa
 slug: epa-domain-security
 source_filename: epa-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.epa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: aqs.epa.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: data.epa.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Oct 21 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: epa.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml: "generated: '2026-11-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.epa.gov\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 24 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: frsqueryprd-api.epa.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Dec 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: data.epa.gov\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 24 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: epa.gov\n  dnssec: true\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/epa/security/epa-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DNSSEC
+summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Government
 - Environmental

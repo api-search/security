@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Repebble Authentication
+name: Pebble smartwatch Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Pebble smartwatch declares 0 security scheme(s) across its OpenAPI definitions.

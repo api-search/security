@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Oen Trust Center
+name: OEN Trust Center
 name_suffix: Trust Center
 overview: OEN maintains a public trust center documenting PCI DSS, ISO/IEC 27001, and ISO/IEC 27701 compliance.
 provider_name: OEN

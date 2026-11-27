@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Taskbullet Com Authentication
+name: taskbullet-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: taskbullet-com declares 1 security scheme(s) across its OpenAPI definitions.
@@ -37,6 +37,6 @@ tags:
 - Company
 - Virtual Assistant
 - Software-as-a-Service
-- USBusiness
+- US Business
 - Productivity
 ---

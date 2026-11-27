@@ -71,7 +71,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Emis Health Authentication
+name: EMIS Health Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

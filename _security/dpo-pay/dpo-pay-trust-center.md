@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dpo Pay Trust Center
+name: DPO Pay Trust Center
 name_suffix: Trust Center
 overview: DPO Pay maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: DPO Pay

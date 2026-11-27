@@ -48,7 +48,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Payfit Trust Center
+name: PayFit Trust Center
 name_suffix: Trust Center
 overview: PayFit maintains a public trust center documenting ISO 27001 compliance.
 provider_name: PayFit

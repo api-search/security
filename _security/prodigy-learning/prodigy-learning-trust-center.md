@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Prodigy Learning Trust Center
+name: Prodigy Education Trust Center
 name_suffix: Trust Center
 overview: Prodigy Education maintains a public trust center documenting CSA STAR compliance.
 provider_name: Prodigy Education

@@ -78,18 +78,28 @@ provider_name: Amazon Transcribe
 provider_slug: amazon-transcribe
 scheme_count: 1
 schemes:
-- description: AWS Signature Version 4 authentication.
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: aws_sig_v4
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-transcribe-openapi.yml
+  - openapi/amazon-transcribe-call-analytics-category-api-openapi.yml
+  - openapi/amazon-transcribe-call-analytics-job-api-openapi.yml
+  - openapi/amazon-transcribe-language-model-api-openapi.yml
+  - openapi/amazon-transcribe-medical-scribe-job-api-openapi.yml
+  - openapi/amazon-transcribe-medical-transcription-job-api-openapi.yml
+  - openapi/amazon-transcribe-medical-vocabulary-api-openapi.yml
+  - openapi/amazon-transcribe-operations-api-openapi.yml
+  - openapi/amazon-transcribe-transcription-jobs-api-openapi.yml
+  - openapi/amazon-transcribe-vocabularies-api-openapi.yml
+  - openapi/amazon-transcribe-vocabulary-filter-api-openapi.yml
   type: apiKey
 slug: amazon-transcribe-authentication
 source_filename: amazon-transcribe-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-transcribe-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_sig_v4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication.\n  sources:\n  - openapi/amazon-transcribe-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-transcribe-call-analytics-category-api-openapi.yml, openapi/amazon-transcribe-call-analytics-job-api-openapi.yml,\n  openapi/amazon-transcribe-language-model-api-openapi.yml, openapi/amazon-transcribe-medical-scribe-job-api-openapi.yml,\n  openapi/amazon-transcribe-medical-transcription-job-api-openapi.yml, openapi/amazon-transcribe-medical-vocabulary-api-openapi.yml,\n  openapi/amazon-transcribe-operations-api-openapi.yml, openapi/amazon-transcribe-transcription-jobs-api-openapi.yml,\n  openapi/amazon-transcribe-vocabularies-api-openapi.yml, openapi/amazon-transcribe-vocabulary-filter-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token\
+  \ for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-transcribe-call-analytics-category-api-openapi.yml\n  - openapi/amazon-transcribe-call-analytics-job-api-openapi.yml\n  - openapi/amazon-transcribe-language-model-api-openapi.yml\n  - openapi/amazon-transcribe-medical-scribe-job-api-openapi.yml\n  - openapi/amazon-transcribe-medical-transcription-job-api-openapi.yml\n  - openapi/amazon-transcribe-medical-vocabulary-api-openapi.yml\n  - openapi/amazon-transcribe-operations-api-openapi.yml\n  - openapi/amazon-transcribe-transcription-jobs-api-openapi.yml\n  - openapi/amazon-transcribe-vocabularies-api-openapi.yml\n  - openapi/amazon-transcribe-vocabulary-filter-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-transcribe/authentication/amazon-transcribe-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fpt Is Company Limited Trust Center
+name: FPT IS Company Limited Trust Center
 name_suffix: Trust Center
 overview: FPT IS Company Limited maintains a public trust center documenting ISO 27001 and PCI DSS compliance.
 provider_name: FPT IS Company Limited

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Pbs Biotech Authentication
+name: PBS Biotech Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PBS Biotech declares 2 security scheme(s) across its OpenAPI definitions.

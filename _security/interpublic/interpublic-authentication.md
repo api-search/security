@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Interpublic Authentication
+name: Interpublic Group Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Interpublic Group secures its APIs with none and cookie across 2 declared security schemes, as derived from its OpenAPI definitions.

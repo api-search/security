@@ -187,7 +187,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Data World Trust Center
+name: data.world Trust Center
 name_suffix: Trust Center
 overview: data.world maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: data.world

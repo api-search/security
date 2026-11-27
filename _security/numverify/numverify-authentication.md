@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Numverify Authentication
+name: Numverify API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Numverify API declares 2 security scheme(s) across its OpenAPI definitions.

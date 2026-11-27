@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Aerofarms Authentication
+name: AeroFarms Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AeroFarms declares 0 security scheme(s) across its OpenAPI definitions.

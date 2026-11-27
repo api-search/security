@@ -47,7 +47,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Harness Cloud Cost Trust Center
+name: Harness Cloud Cost Management Trust Center
 name_suffix: Trust Center
 overview: Harness Cloud Cost Management maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, GDPR, and CSA STAR compliance.
 provider_name: Harness Cloud Cost Management

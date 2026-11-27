@@ -64,7 +64,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Medialive Trust Center
+name: Amazon MediaLive Trust Center
 name_suffix: Trust Center
 overview: Amazon MediaLive maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon MediaLive

@@ -444,6 +444,24 @@ api_specs:
   slug: amazon-sagemaker-workteam-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-sagemaker/openapi/amazon-sagemaker-workteam-api-openapi.yml
+- filename: amazon-sagemaker-cluster-extension-api-openapi.yml
+  format: yaml
+  label: Amazon SageMaker Sagemaker Cluster Extension API
+  slug: amazon-sagemaker-cluster-extension-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sagemaker/openapi/amazon-sagemaker-cluster-extension-api-openapi.yml
+- filename: amazon-sagemaker-earth-observation-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon SageMaker Sagemaker Earth Observation Jobs API
+  slug: amazon-sagemaker-earth-observation-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sagemaker/openapi/amazon-sagemaker-earth-observation-jobs-api-openapi.yml
+- filename: amazon-sagemaker-vector-enrichment-jobs-api-openapi.yml
+  format: yaml
+  label: Amazon SageMaker Sagemaker Vector Enrichment Jobs API
+  slug: amazon-sagemaker-vector-enrichment-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-sagemaker/openapi/amazon-sagemaker-vector-enrichment-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -469,7 +487,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Sagemaker Domain Security
+name: Amazon SageMaker Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon SageMaker, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon SageMaker

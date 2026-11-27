@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Beaglesecurity Trust Center
+name: Beagle Security Trust Center
 name_suffix: Trust Center
 overview: Beagle Security maintains a public trust center documenting ISO 27001 compliance.
 provider_name: Beagle Security

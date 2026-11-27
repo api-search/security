@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: New York Public Library Whats On The Menu Authentication
+name: New York Public Library What's On The Menu Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: New York Public Library What's On The Menu secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

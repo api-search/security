@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Findadoctor Si Authentication
+name: findadoctor-si Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: findadoctor-si declares 1 security scheme(s) across its OpenAPI definitions.

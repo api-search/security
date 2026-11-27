@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Terrapay Authentication
+name: TerraPay Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TerraPay secures its APIs with apiKey, custom-signed-headers, and mutualTLS across 6 declared security schemes, as derived from its OpenAPI definitions.

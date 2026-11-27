@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aradia Com Trust Center
+name: Aradia Systems Trust Center
 name_suffix: Trust Center
 overview: Aradia Systems maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Aradia Systems

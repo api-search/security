@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Avahit Com Authentication
+name: Avahit Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Avahit declares 0 security scheme(s) across its OpenAPI definitions.

@@ -31,7 +31,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Teamohana Trust Center
+name: TeamOhana Trust Center
 name_suffix: Trust Center
 overview: TeamOhana maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: TeamOhana

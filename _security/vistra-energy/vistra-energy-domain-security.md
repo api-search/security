@@ -103,7 +103,7 @@ hosts_probed: 10
 kind: domain-security
 layout: security
 method: probed
-name: Vistra Energy Domain Security
+name: Vistra Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Vistra, probed live across 10 host(s) and 7 registrable domain(s). 10 host(s) serve HTTPS (up to TLSv1.3); 7 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Vistra

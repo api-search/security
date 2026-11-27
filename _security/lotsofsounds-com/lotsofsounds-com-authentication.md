@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Lotsofsounds Com Authentication
+name: lotsofsounds-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: lotsofsounds-com declares 1 security scheme(s) across its OpenAPI definitions.

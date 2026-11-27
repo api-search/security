@@ -50,7 +50,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: 4Dbim Domain Security
+name: 4DBIM Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 4DBIM, probed live across 3 host(s) and 2 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: 4DBIM

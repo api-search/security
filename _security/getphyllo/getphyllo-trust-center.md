@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Getphyllo Trust Center
+name: Phyllo Trust Center
 name_suffix: Trust Center
 overview: Phyllo maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
 provider_name: Phyllo

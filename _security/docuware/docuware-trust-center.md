@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Docuware Trust Center
+name: DocuWare Trust Center
 name_suffix: Trust Center
 overview: DocuWare maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: DocuWare

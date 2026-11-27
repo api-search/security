@@ -123,7 +123,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Datagraph City Authentication
+name: DataGraph.city Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DataGraph.city secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -148,5 +148,5 @@ tags:
 - Artificial Intelligence
 - MCP
 - Graph RAG
-- Private Beta
+- PrivateBeta
 ---

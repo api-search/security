@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Filingdesk Com Authentication
+name: FilingDesk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FilingDesk declares 1 security scheme(s) across its OpenAPI definitions.
@@ -36,5 +36,5 @@ tags:
 - Compliance
 - AI Agents
 - MCP
-- SMB
+- Small Business
 ---

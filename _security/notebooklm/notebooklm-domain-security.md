@@ -18,10 +18,10 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Notebooklm Domain Security
+name: Gemini Notebook (NotebookLM) Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Google NotebookLM, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
-provider_name: Google NotebookLM
+overview: 'Domain security posture for Gemini Notebook (NotebookLM), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+provider_name: Gemini Notebook (NotebookLM)
 provider_slug: notebooklm
 slug: notebooklm-domain-security
 source_filename: notebooklm-domain-security.yml
@@ -37,4 +37,5 @@ tags:
 - Document Analysis
 - Generative AI
 - Google
+- Notebooks
 ---

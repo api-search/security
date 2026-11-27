@@ -188,7 +188,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Asap Cool Authentication
+name: ASAP Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ASAP declares 1 security scheme(s) across its OpenAPI definitions.

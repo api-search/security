@@ -58,10 +58,10 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Cloro Dev Domain Security
+name: Cloro Incorporation Ltd. Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for cloro, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
-provider_name: cloro
+overview: 'Domain security posture for Cloro Incorporation Ltd., probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
+provider_name: Cloro Incorporation Ltd.
 provider_slug: cloro-dev
 slug: cloro-dev-domain-security
 source_filename: cloro-dev-domain-security.yml

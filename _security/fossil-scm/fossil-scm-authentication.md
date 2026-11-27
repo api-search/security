@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Fossil Scm Authentication
+name: Fossil SCM Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fossil SCM declares 2 security scheme(s) across its OpenAPI definitions.

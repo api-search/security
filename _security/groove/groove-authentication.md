@@ -8,7 +8,7 @@ api_specs:
   label: Groove Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/asyncapi/groove-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/groove/asyncapi/groove-webhooks-asyncapi.yml
 - filename: groove-agents-api-openapi.yml
   format: yaml
   label: Groove Agents API

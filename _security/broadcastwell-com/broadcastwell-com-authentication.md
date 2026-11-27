@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Broadcastwell Com Authentication
+name: broadcastwell-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: broadcastwell-com declares 0 security scheme(s) across its OpenAPI definitions.

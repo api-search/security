@@ -120,7 +120,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Buildkite Com Trust Center
+name: Buildkite Trust Center
 name_suffix: Trust Center
 overview: Buildkite maintains a public trust center documenting SOC 2 compliance.
 provider_name: Buildkite

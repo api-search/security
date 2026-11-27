@@ -453,5 +453,8 @@ tags:
 - File Transfer
 - FTP
 - SFTP
+- FTPS
+- AS2
+- Managed File Transfer
 trust_url: https://aws.amazon.com/compliance/
 ---

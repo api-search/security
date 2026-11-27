@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agent402 Dev Authentication
+name: agent402.dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: agent402.dev declares 1 security scheme(s) across its OpenAPI definitions.

@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Coteach Authentication
+name: CoTeach Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Moneyhash Authentication
+name: MoneyHash Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MoneyHash declares 2 security scheme(s) across its OpenAPI definitions.

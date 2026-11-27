@@ -2,18 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-firestore-databases-api-openapi.yml
+- filename: google-cloud-firestore-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Firestore Databases API
-  slug: google-cloud-firestore-databases-api
+  label: Google Cloud Firestore Cloud Firestore Projects API
+  slug: google-cloud-firestore-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-firestore/openapi/google-cloud-firestore-databases-api-openapi.yml
-- filename: google-cloud-firestore-documents-api-openapi.yml
-  format: yaml
-  label: Google Cloud Firestore Documents API
-  slug: google-cloud-firestore-documents-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-firestore/openapi/google-cloud-firestore-documents-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-firestore/openapi/google-cloud-firestore-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

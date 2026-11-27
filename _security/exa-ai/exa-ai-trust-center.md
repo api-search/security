@@ -122,7 +122,7 @@ certifications:
 description: Exa's security & compliance posture. Exa operates a trust center at trust.exa.ai (HTTP 200; content is JS-rendered so the automated keyword probe recorded trust=none — this is the searched, human-verified fill). Exa announced SOC 2 Type II certification in 2026 (previously SOC 2 Type I in 2024). HIPAA compliance and Zero Data Retention are offered to Enterprise customers. SOC 2 reports and a Data Processing Agreement are available through the trust center.
 kind: trust-center
 layout: security
-name: Exa Ai Trust Center
+name: Exa Trust Center
 name_suffix: Trust Center
 overview: Exa maintains a public trust center documenting SOC 2 Type II, HIPAA, and GDPR compliance.
 provider_name: Exa

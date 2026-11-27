@@ -210,7 +210,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Amtrust Financial Services Authentication
+name: AmTrust Financial Services Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AmTrust Financial Services secures its APIs with apiKey and openIdConnect across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Andpad Authentication
+name: ANDPAD Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ANDPAD declares 1 security scheme(s) across its OpenAPI definitions.

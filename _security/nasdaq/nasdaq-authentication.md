@@ -7,7 +7,7 @@ api_specs:
   label: Nasdaq Cloud Data Service (NCDS) — Kafka Streams
   slug: nasdaq-cloud-data-service-ncds-kafka-streams
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nasdaq/refs/heads/main/asyncapi/nasdaq-asyncapi.yml
+  url: https://artifacts.apis.io/nasdaq/asyncapi/nasdaq-asyncapi.yml
 - filename: nasdaq-ncds-rest-postman-collection.json
   format: json
   label: Nasdaq Cloud Data Service (NCDS) REST API

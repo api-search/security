@@ -132,6 +132,30 @@ api_specs:
   slug: aws-backup-tiering-configurations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-tiering-configurations-api-openapi.yml
+- filename: aws-backup-export-search-jobs-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Export Search Jobs API
+  slug: aws-backup-export-search-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-export-search-jobs-api-openapi.yml
+- filename: aws-backup-gateway-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Gateway API
+  slug: aws-backup-gateway-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-gateway-api-openapi.yml
+- filename: aws-backup-hypervisor-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Hypervisor API
+  slug: aws-backup-hypervisor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-hypervisor-api-openapi.yml
+- filename: aws-backup-search-jobs-api-openapi.yml
+  format: yaml
+  label: AWS Backup Backup Search Jobs API
+  slug: aws-backup-search-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-backup/openapi/aws-backup-search-jobs-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -168,7 +192,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Aws Backup Domain Security
+name: AWS Backup Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AWS Backup, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: AWS Backup

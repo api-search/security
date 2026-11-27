@@ -240,7 +240,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aidelly Ai Trust Center
+name: Aidelly AI Trust Center
 name_suffix: Trust Center
 overview: Aidelly AI maintains a public trust center documenting GDPR compliance.
 provider_name: Aidelly AI

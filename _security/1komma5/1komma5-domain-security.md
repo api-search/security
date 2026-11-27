@@ -209,7 +209,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: 1Komma5 Domain Security
+name: 1KOMMA5° Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 1KOMMA5°, probed live across 5 host(s) and 2 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: 1KOMMA5°

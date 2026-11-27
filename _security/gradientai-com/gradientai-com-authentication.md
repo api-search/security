@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Gradientai Com Authentication
+name: Gradient Health Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Gradient Health declares 0 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Kubova Com Authentication
+name: kubova-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: kubova-com declares 1 security scheme(s) across its OpenAPI definitions.

@@ -90,7 +90,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Openmeter Domain Security
+name: OpenMeter Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for OpenMeter, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: OpenMeter

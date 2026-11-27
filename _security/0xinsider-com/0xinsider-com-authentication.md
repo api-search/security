@@ -134,7 +134,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: 0Xinsider Com Authentication
+name: 0xinsider Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 0xinsider declares 2 security scheme(s) across its OpenAPI definitions.

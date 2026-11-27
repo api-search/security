@@ -8,7 +8,7 @@ api_specs:
   label: Hasura GraphQL API
   slug: hasura-graphql-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/asyncapi/hasura-asyncapi.yml
+  url: https://artifacts.apis.io/hasura/asyncapi/hasura-asyncapi.yml
 - filename: hasura-healthz-api-openapi.yml
   format: yaml
   label: Hasura Healthz API

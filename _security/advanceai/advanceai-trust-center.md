@@ -29,7 +29,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Advanceai Trust Center
+name: ADVANCE.AI Trust Center
 name_suffix: Trust Center
 overview: ADVANCE.AI maintains a public trust center covering its security and compliance posture.
 provider_name: ADVANCE.AI

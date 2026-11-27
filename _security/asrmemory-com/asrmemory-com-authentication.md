@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Asrmemory Com Authentication
+name: ASR Memory Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ASR Memory declares 2 security scheme(s) across its OpenAPI definitions.

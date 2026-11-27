@@ -152,7 +152,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aiwashere Art Authentication
+name: AI was here Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI was here declares 1 security scheme(s) across its OpenAPI definitions.

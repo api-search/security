@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Adscrawl Authentication
+name: AdsCrawl Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AdsCrawl declares 2 security scheme(s) across its OpenAPI definitions.

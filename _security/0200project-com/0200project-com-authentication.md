@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 0200Project Com Authentication
+name: 0200project Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 0200project declares 0 security scheme(s) across its OpenAPI definitions.

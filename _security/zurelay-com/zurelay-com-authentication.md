@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Zurelay Com Authentication
+name: zurelay-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: zurelay-com declares 1 security scheme(s) across its OpenAPI definitions.

@@ -55,7 +55,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sigma Ratings Trust Center
+name: Sigma360 Trust Center
 name_suffix: Trust Center
 overview: Sigma360 maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
 provider_name: Sigma360

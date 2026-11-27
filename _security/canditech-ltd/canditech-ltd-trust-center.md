@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Canditech Ltd Trust Center
+name: Canditech Trust Center
 name_suffix: Trust Center
 overview: Canditech maintains a public trust center documenting ISO/IEC 27001:2013, GDPR, and PCI DSS (via third-party certified billing processor) compliance.
 provider_name: Canditech

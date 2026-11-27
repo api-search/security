@@ -7,7 +7,7 @@ certifications:
 description: UpSlide's security & compliance posture, captured from the public "UpSlide Security & Compliance" page (upslide.com/upslide-security/, retrieved 2026-07-21) and the help center's "Architecture and security" section. UpSlide is SOC 2 Type II certified (full report shared with clients on request) and ISO 27001 certified, backed by independent audits. The desktop add-in processes documents locally ("read-only add-in" — no documents, models or deal content stored on UpSlide servers); cloud endpoints run in UpSlide's Microsoft Azure tenant, with AI features on dedicated per-client Azure AI Foundry instances (zero data retention, no training on client data, per-feature model benchmarks). Communications use HTTPS/TLS 1.2 with AES-256 encryption. UpSlide is also a certified B Corporation (linked from upslide.com).
 kind: trust-center
 layout: security
-name: Upslide Trust Center
+name: UpSlide Trust Center
 name_suffix: Trust Center
 overview: UpSlide maintains a public trust center documenting SOC 2 Type II, ISO 27001, and B Corporation compliance.
 provider_name: UpSlide

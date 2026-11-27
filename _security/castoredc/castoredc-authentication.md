@@ -279,7 +279,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Castoredc Authentication
+name: Castor Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -76,7 +76,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Openeo Authentication
+name: openEO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: openEO secures its APIs with http and unknown across 3 declared security schemes, as derived from its OpenAPI definitions.

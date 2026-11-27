@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 10
 method: searched
-name: Virtuprobe Authentication
+name: VirtuProbe Studio Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VirtuProbe Studio declares 10 security scheme(s) across its OpenAPI definitions.

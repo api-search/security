@@ -6,7 +6,7 @@ certifications:
 description: involve.me operates a real trust centre on its own subdomain, hosted by Vanta (EU tenant, app.eu.vanta.com). Its certification list is client-rendered and is therefore NOT readable from the served HTML, so the certifications recorded below are taken from involve.me's own first-party blog announcement rather than scraped from the trust centre itself.
 kind: trust-center
 layout: security
-name: Involve Me Trust Center
+name: involve.me Trust Center
 name_suffix: Trust Center
 overview: involve.me maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
 provider_name: involve.me

@@ -30,7 +30,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Passage 1Password Trust Center
+name: Passage by 1Password Trust Center
 name_suffix: Trust Center
 overview: Passage by 1Password maintains a public trust center documenting SOC 2 compliance.
 provider_name: Passage by 1Password

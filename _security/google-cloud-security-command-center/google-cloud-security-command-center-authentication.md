@@ -1,63 +1,75 @@
 ---
 anonymous_access: false
-api_key_in: []
+api_key_in:
+- query
 api_specs:
-- filename: google-cloud-security-command-center-assets-api-openapi.yml
+- filename: google-cloud-security-command-center-folders-api-openapi.yml
   format: yaml
-  label: Google Cloud Security Command Center Assets API
-  slug: google-cloud-security-command-center-assets-api
+  label: Google Cloud Security Command Center Folders API
+  slug: google-cloud-security-command-center-folders-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-assets-api-openapi.yml
-- filename: google-cloud-security-command-center-findings-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-folders-api-openapi.yml
+- filename: google-cloud-security-command-center-organizations-api-openapi.yml
   format: yaml
-  label: Google Cloud Security Command Center Findings API
-  slug: google-cloud-security-command-center-findings-api
+  label: Google Cloud Security Command Center Organizations API
+  slug: google-cloud-security-command-center-organizations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-findings-api-openapi.yml
-- filename: google-cloud-security-command-center-notificationconfigs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-organizations-api-openapi.yml
+- filename: google-cloud-security-command-center-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Security Command Center NotificationConfigs API
-  slug: google-cloud-security-command-center-notificationconfigs-api
+  label: Google Cloud Security Command Center Projects API
+  slug: google-cloud-security-command-center-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-notificationconfigs-api-openapi.yml
-- filename: google-cloud-security-command-center-sources-api-openapi.yml
-  format: yaml
-  label: Google Cloud Security Command Center Sources API
-  slug: google-cloud-security-command-center-sources-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-sources-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-security-command-center/openapi/google-cloud-security-command-center-projects-api-openapi.yml
 auth_types:
+- apiKey
 - oauth2
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 1
+mechanism_count: 2
 method: derived
 name: Google Cloud Security Command Center Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: Google Cloud Security Command Center secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+overview: Google Cloud Security Command Center secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
 provider_name: Google Cloud Security Command Center
 provider_slug: google-cloud-security-command-center
-scheme_count: 1
+scheme_count: 2
 schemes:
+- description: API key; accepted by methods that do not need user data.
+  in: query
+  name: apiKey
+  parameter: key
+  sources:
+  - openapi/google-cloud-security-command-center-securitycenter-folders-api-openapi.yml
+  - openapi/google-cloud-security-command-center-securitycenter-organizations-api-openapi.yml
+  - openapi/google-cloud-security-command-center-securitycenter-projects-api-openapi.yml
+  - openapi/google-cloud-security-command-center-securityposture-organizations-api-openapi.yml
+  - openapi/google-cloud-security-command-center-websecurityscanner-projects-api-openapi.yml
+  type: apiKey
 - flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: authorizationCode
-    scopes: 1
+    scopes: 2
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
   sources:
-  - openapi/security-command-center-api-openapi.yml
+  - openapi/google-cloud-security-command-center-securitycenter-folders-api-openapi.yml
+  - openapi/google-cloud-security-command-center-securitycenter-organizations-api-openapi.yml
+  - openapi/google-cloud-security-command-center-securitycenter-projects-api-openapi.yml
+  - openapi/google-cloud-security-command-center-securityposture-organizations-api-openapi.yml
+  - openapi/google-cloud-security-command-center-websecurityscanner-projects-api-openapi.yml
   type: oauth2
 slug: google-cloud-security-command-center-authentication
 source_filename: google-cloud-security-command-center-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/security-command-center-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/security-command-center-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-cloud-security-command-center-securitycenter-folders-api-openapi.yml,\n  openapi/google-cloud-security-command-center-securitycenter-organizations-api-openapi.yml,\n  openapi/google-cloud-security-command-center-securitycenter-projects-api-openapi.yml, openapi/google-cloud-security-command-center-securityposture-organizations-api-openapi.yml,\n  openapi/google-cloud-security-command-center-websecurityscanner-projects-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key; accepted by methods that do not need user data.\n  sources:\n  - openapi/google-cloud-security-command-center-securitycenter-folders-api-openapi.yml\n  - openapi/google-cloud-security-command-center-securitycenter-organizations-api-openapi.yml\n  - openapi/google-cloud-security-command-center-securitycenter-projects-api-openapi.yml\n\
+  \  - openapi/google-cloud-security-command-center-securityposture-organizations-api-openapi.yml\n  - openapi/google-cloud-security-command-center-websecurityscanner-projects-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/google-cloud-security-command-center-securitycenter-folders-api-openapi.yml\n  - openapi/google-cloud-security-command-center-securitycenter-organizations-api-openapi.yml\n  - openapi/google-cloud-security-command-center-securitycenter-projects-api-openapi.yml\n  - openapi/google-cloud-security-command-center-securityposture-organizations-api-openapi.yml\n  - openapi/google-cloud-security-command-center-websecurityscanner-projects-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-cloud-security-command-center/authentication/google-cloud-security-command-center-authentication.yml
-summary_line: oauth2 · 1 scheme
+summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Cloud Security
 - Compliance

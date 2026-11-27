@@ -726,7 +726,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Akeda Ru Authentication
+name: Akeda Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

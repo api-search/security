@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Cgctransfers Com Au Domain Security
+name: CGC Airport Transfers Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CGC Airport Transfers, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: CGC Airport Transfers
@@ -32,7 +32,7 @@ source_yaml_url: https://artifacts.apis.io/cgctransfers-com-au/security/cgctrans
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Airport Transfers
-- PrivateTransport
+- Private Transport
 - Australia
 - GoldCoast
 - Brisbane

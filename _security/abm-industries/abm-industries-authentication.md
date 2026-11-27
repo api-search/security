@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Abm Industries Authentication
+name: ABM Industries Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ABM Industries declares 3 security scheme(s) across its OpenAPI definitions.

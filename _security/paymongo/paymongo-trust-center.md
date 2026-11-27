@@ -66,7 +66,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Paymongo Trust Center
+name: PayMongo Trust Center
 name_suffix: Trust Center
 overview: PayMongo maintains a public trust center documenting PCI DSS Level 1 Service Provider compliance.
 provider_name: PayMongo

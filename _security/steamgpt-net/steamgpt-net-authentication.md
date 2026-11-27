@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Steamgpt Net Authentication
+name: steamgpt-net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: steamgpt-net declares 1 security scheme(s) across its OpenAPI definitions.

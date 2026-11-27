@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Boardeffect Trust Center
+name: BoardEffect Trust Center
 name_suffix: Trust Center
 overview: BoardEffect maintains a public trust center documenting SOC 2, ISO 27001, and HIPAA compliance.
 provider_name: BoardEffect

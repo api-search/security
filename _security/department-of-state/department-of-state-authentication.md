@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Department Of State Authentication
+name: Department of State Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Department of State secures its APIs with none and http across 2 declared security schemes, as derived from its OpenAPI definitions.

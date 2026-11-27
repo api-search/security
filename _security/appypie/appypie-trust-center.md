@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Appypie Trust Center
+name: Appy Pie LLP Trust Center
 name_suffix: Trust Center
 overview: Appy Pie LLP maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR, and FIPS 140 compliance.
 provider_name: Appy Pie LLP

@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Hakuto 0209 Com Authentication
+name: HaneruTo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HaneruTo secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

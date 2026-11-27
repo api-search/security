@@ -128,7 +128,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Alertio Io Authentication
+name: Alertio Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Alertio declares 0 security scheme(s) across its OpenAPI definitions.

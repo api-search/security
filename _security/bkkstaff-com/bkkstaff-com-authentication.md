@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bkkstaff Com Authentication
+name: BKK Staff Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BKK Staff declares 1 security scheme(s) across its OpenAPI definitions.

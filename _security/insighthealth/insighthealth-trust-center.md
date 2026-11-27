@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Insighthealth Trust Center
+name: Insight Health Trust Center
 name_suffix: Trust Center
 overview: Insight Health maintains a public trust center documenting SOC 2 Type II, ISO 27001, and HIPAA compliance.
 provider_name: Insight Health

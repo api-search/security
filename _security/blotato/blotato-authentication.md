@@ -9,24 +9,6 @@ api_specs:
   slug: blotato-accounts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/blotato/openapi/blotato-accounts-api-openapi.yml
-- filename: blotato-media-api-openapi.yml
-  format: yaml
-  label: Blotato Media API
-  slug: blotato-media-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/blotato/openapi/blotato-media-api-openapi.yml
-- filename: blotato-posts-api-openapi.yml
-  format: yaml
-  label: Blotato Posts API
-  slug: blotato-posts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/blotato/openapi/blotato-posts-api-openapi.yml
-- filename: blotato-visuals-api-openapi.yml
-  format: yaml
-  label: Blotato Visuals API
-  slug: blotato-visuals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/blotato/openapi/blotato-visuals-api-openapi.yml
 - filename: blotato-analytics-api-openapi.yml
   format: yaml
   label: Blotato Analytics API
@@ -101,7 +83,7 @@ summary_line: apiKey · 1 scheme
 tags:
 - Social Media
 - Publishing
-- AI content
+- AI Content
 - Automation
 - Content Creation
 ---

@@ -30,7 +30,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lucidlink Trust Center
+name: LucidLink Trust Center
 name_suffix: Trust Center
 overview: LucidLink maintains a public trust center documenting SOC 2 Type I, SOC 2 Type II, ISO 27001, TPN (Trusted Partner Network), TPN Gold Shield, GDPR, and CCPA compliance.
 provider_name: LucidLink

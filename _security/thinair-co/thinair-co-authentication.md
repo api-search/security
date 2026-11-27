@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Thinair Co Authentication
+name: thinair-co Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: thinair-co declares 1 security scheme(s) across its OpenAPI definitions.

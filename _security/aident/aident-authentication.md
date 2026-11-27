@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aident Authentication
+name: Aident Loadout Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aident Loadout declares 1 security scheme(s) across its OpenAPI definitions.

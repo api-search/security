@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Facerealityskincare Authentication
+name: Face Reality Skincare Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Face Reality Skincare secures its APIs with oauth2 and openIdConnect across 2 declared security schemes, as derived from its OpenAPI definitions.

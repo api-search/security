@@ -47,7 +47,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Medtrainer Authentication
+name: MedTrainer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MedTrainer secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

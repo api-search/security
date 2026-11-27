@@ -146,42 +146,6 @@ api_specs:
   slug: lever-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/lever/openapi/lever-webhooks-api-openapi.yml
-- filename: lever-feedback-api-openapi.yml
-  format: yaml
-  label: Lever Feedback API
-  slug: lever-feedback-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-feedback-api-openapi.yml
-- filename: lever-forms-api-openapi.yml
-  format: yaml
-  label: Lever Forms API
-  slug: lever-forms-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-forms-api-openapi.yml
-- filename: lever-interviews-api-openapi.yml
-  format: yaml
-  label: Lever Interviews API
-  slug: lever-interviews-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-interviews-api-openapi.yml
-- filename: lever-notes-api-openapi.yml
-  format: yaml
-  label: Lever Notes API
-  slug: lever-notes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-notes-api-openapi.yml
-- filename: lever-offers-api-openapi.yml
-  format: yaml
-  label: Lever Offers API
-  slug: lever-offers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-offers-api-openapi.yml
-- filename: lever-resumes-api-openapi.yml
-  format: yaml
-  label: Lever Resumes API
-  slug: lever-resumes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lever/openapi/lever-resumes-api-openapi.yml
 auth_types:
 - http
 - oauth2

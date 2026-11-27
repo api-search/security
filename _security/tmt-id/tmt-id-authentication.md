@@ -60,7 +60,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: searched
-name: Tmt Id Authentication
+name: TMT ID Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TMT ID secures its APIs with apiKey and http across 8 declared security schemes, as derived from its OpenAPI definitions.

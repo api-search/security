@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Olive Ai Trust Center
+name: Olive AI Trust Center
 name_suffix: Trust Center
 overview: Olive AI maintains a public trust center documenting SOC 2, PCI DSS, and HIPAA compliance.
 provider_name: Olive AI

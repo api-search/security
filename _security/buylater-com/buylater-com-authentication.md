@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Buylater Com Authentication
+name: BuyLater Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BuyLater declares 1 security scheme(s) across its OpenAPI definitions.

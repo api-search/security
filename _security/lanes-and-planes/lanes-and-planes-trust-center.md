@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lanes And Planes Trust Center
+name: Lanes & Planes Trust Center
 name_suffix: Trust Center
 overview: Lanes & Planes maintains a public trust center documenting ISO 27001 and ISO 9001 compliance.
 provider_name: Lanes & Planes

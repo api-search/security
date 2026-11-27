@@ -707,7 +707,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Intersight Trust Center
+name: Cisco Intersight Trust Center
 name_suffix: Trust Center
 overview: Cisco Intersight maintains a public trust center covering its security and compliance posture.
 provider_name: Cisco Intersight

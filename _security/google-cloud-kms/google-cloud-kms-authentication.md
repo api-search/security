@@ -2,24 +2,24 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-kms-crypto-keys-api-openapi.yml
+- filename: google-cloud-kms-folders-api-openapi.yml
   format: yaml
-  label: Google Cloud KMS Crypto Keys API
-  slug: google-cloud-kms-crypto-keys-api
+  label: Google Cloud KMS Folders API
+  slug: google-cloud-kms-folders-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-crypto-keys-api-openapi.yml
-- filename: google-cloud-kms-crypto-operations-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-folders-api-openapi.yml
+- filename: google-cloud-kms-organizations-api-openapi.yml
   format: yaml
-  label: Google Cloud KMS Crypto Operations API
-  slug: google-cloud-kms-crypto-operations-api
+  label: Google Cloud KMS Organizations API
+  slug: google-cloud-kms-organizations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-crypto-operations-api-openapi.yml
-- filename: google-cloud-kms-key-rings-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-organizations-api-openapi.yml
+- filename: google-cloud-kms-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud KMS Key Rings API
-  slug: google-cloud-kms-key-rings-api
+  label: Google Cloud KMS Projects API
+  slug: google-cloud-kms-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-key-rings-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-kms/openapi/google-cloud-kms-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Cloud Kms Authentication
+name: Google Cloud KMS Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

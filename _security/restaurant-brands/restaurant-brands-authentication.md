@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Restaurant Brands Authentication
+name: Restaurant Brands International Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Restaurant Brands International secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

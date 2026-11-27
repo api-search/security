@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Auditboard Trust Center
+name: AuditBoard Trust Center
 name_suffix: Trust Center
 overview: AuditBoard maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: AuditBoard

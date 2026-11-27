@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Adroll Trust Center
+name: AdRoll Trust Center
 name_suffix: Trust Center
 overview: AdRoll maintains a public trust center documenting SOC 2, SOC 3, ISO 27001, PCI DSS, GDPR, and CCPA compliance.
 provider_name: AdRoll

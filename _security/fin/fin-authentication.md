@@ -26,24 +26,12 @@ api_specs:
   slug: fin-catalogue-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/fin/openapi/fin-catalogue-api-openapi.yml
-- filename: fin-crypto-orchestration-api-openapi.yml
-  format: yaml
-  label: Fin Crypto Orchestration API
-  slug: fin-crypto-orchestration-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/fin/openapi/fin-crypto-orchestration-api-openapi.yml
 - filename: fin-customers-api-openapi.yml
   format: yaml
   label: Fin Customers API
   slug: fin-customers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/fin/openapi/fin-customers-api-openapi.yml
-- filename: fin-fees-fx-rates-api-openapi.yml
-  format: yaml
-  label: Fin Fees & FX Rates API
-  slug: fin-fees-fx-rates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/fin/openapi/fin-fees-fx-rates-api-openapi.yml
 - filename: fin-transactions-api-openapi.yml
   format: yaml
   label: Fin Transactions API

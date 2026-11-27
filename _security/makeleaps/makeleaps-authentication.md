@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Makeleaps Authentication
+name: MakeLeaps Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MakeLeaps declares 1 security scheme(s) across its OpenAPI definitions.

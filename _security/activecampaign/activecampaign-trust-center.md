@@ -338,7 +338,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Activecampaign Trust Center
+name: ActiveCampaign Trust Center
 name_suffix: Trust Center
 overview: ActiveCampaign maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: ActiveCampaign

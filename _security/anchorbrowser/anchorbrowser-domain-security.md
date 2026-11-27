@@ -102,6 +102,30 @@ api_specs:
   slug: anchorbrowser-tools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-tools-api-openapi.yml
+- filename: anchorbrowser-agent-access-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Agent Access API
+  slug: anchorbrowser-agent-access-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-agent-access-api-openapi.yml
+- filename: anchorbrowser-volume-files-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Volume Files API
+  slug: anchorbrowser-volume-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-volume-files-api-openapi.yml
+- filename: anchorbrowser-volumes-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Volumes API
+  slug: anchorbrowser-volumes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-volumes-api-openapi.yml
+- filename: anchorbrowser-webhooks-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Webhooks API
+  slug: anchorbrowser-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -138,7 +162,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Anchorbrowser Domain Security
+name: Anchor Browser Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Anchor Browser, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Anchor Browser

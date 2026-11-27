@@ -237,7 +237,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mapp Trust Center
+name: Mapp Marketing Cloud Trust Center
 name_suffix: Trust Center
 overview: Mapp Marketing Cloud maintains a public trust center documenting ISO 27001, ISO 27017, ISO 27018, ISO 27701, ISO 22301, GDPR, CCPA, NIS-2, DORA, and Certified Sender Alliance compliance.
 provider_name: Mapp Marketing Cloud

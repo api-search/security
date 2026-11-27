@@ -199,7 +199,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Sirenic Eu Authentication
+name: Sirenic Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sirenic secures its APIs with x402 payment (no credential), apiKey, http bearer, and oauth2 (MCP connector only) across 4 declared security schemes, as derived from its OpenAPI definitions.

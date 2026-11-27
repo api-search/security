@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Citedy Com Authentication
+name: Citedy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Citedy declares 1 security scheme(s) across its OpenAPI definitions.

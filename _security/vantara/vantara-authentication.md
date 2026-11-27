@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Vantara Authentication
+name: Milana Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Istraresearch Com Authentication
+name: Istra Research Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Istra Research declares 0 security scheme(s) across its OpenAPI definitions.

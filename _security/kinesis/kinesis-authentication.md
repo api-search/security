@@ -27,90 +27,42 @@ api_specs:
   slug: kinesis-amazon-kinesis-firehose-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/kinesis/openapi/kinesis-amazon-kinesis-firehose-api-openapi.yml
-- filename: kinesis-create-signaling-channel-api-openapi.yml
+- filename: kinesis-channel-api-openapi.yml
   format: yaml
-  label: AWS Kinesis Create Signaling Channel API
-  slug: kinesis-create-signaling-channel-api
+  label: AWS Kinesis Channel API
+  slug: kinesis-channel-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-create-signaling-channel-api-openapi.yml
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-channel-api-openapi.yml
+- filename: kinesis-operations-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Operations API
+  slug: kinesis-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-operations-api-openapi.yml
+- filename: kinesis-resource-policy-api-openapi.yml
+  format: yaml
+  label: AWS Kinesis Resource Policy API
+  slug: kinesis-resource-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kinesis/openapi/kinesis-resource-policy-api-openapi.yml
 - filename: kinesis-create-stream-api-openapi.yml
   format: yaml
   label: AWS Kinesis Create Stream API
   slug: kinesis-create-stream-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/kinesis/openapi/kinesis-create-stream-api-openapi.yml
-- filename: kinesis-delete-signaling-channel-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Delete Signaling Channel API
-  slug: kinesis-delete-signaling-channel-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-delete-signaling-channel-api-openapi.yml
 - filename: kinesis-delete-stream-api-openapi.yml
   format: yaml
   label: AWS Kinesis Delete Stream API
   slug: kinesis-delete-stream-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/kinesis/openapi/kinesis-delete-stream-api-openapi.yml
-- filename: kinesis-describe-edge-configuration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Describe Edge Configuration API
-  slug: kinesis-describe-edge-configuration-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-edge-configuration-api-openapi.yml
-- filename: kinesis-describe-image-generation-configuration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Describe Image Generation Configuration API
-  slug: kinesis-describe-image-generation-configuration-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-image-generation-configuration-api-openapi.yml
-- filename: kinesis-describe-mapped-resource-configuration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Describe Mapped Resource Configuration API
-  slug: kinesis-describe-mapped-resource-configuration-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-mapped-resource-configuration-api-openapi.yml
-- filename: kinesis-describe-media-storage-configuration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Describe Media Storage Configuration API
-  slug: kinesis-describe-media-storage-configuration-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-media-storage-configuration-api-openapi.yml
-- filename: kinesis-describe-notification-configuration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Describe Notification Configuration API
-  slug: kinesis-describe-notification-configuration-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-notification-configuration-api-openapi.yml
-- filename: kinesis-describe-signaling-channel-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Describe Signaling Channel API
-  slug: kinesis-describe-signaling-channel-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-signaling-channel-api-openapi.yml
 - filename: kinesis-describe-stream-api-openapi.yml
   format: yaml
   label: AWS Kinesis Describe Stream API
   slug: kinesis-describe-stream-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/kinesis/openapi/kinesis-describe-stream-api-openapi.yml
-- filename: kinesis-get-data-endpoint-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Get Data Endpoint API
-  slug: kinesis-get-data-endpoint-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-get-data-endpoint-api-openapi.yml
-- filename: kinesis-get-signaling-channel-endpoint-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Get Signaling Channel Endpoint API
-  slug: kinesis-get-signaling-channel-endpoint-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-get-signaling-channel-endpoint-api-openapi.yml
-- filename: kinesis-list-signaling-channels-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis List Signaling Channels API
-  slug: kinesis-list-signaling-channels-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-list-signaling-channels-api-openapi.yml
 - filename: kinesis-list-tags-for-resource-api-openapi.yml
   format: yaml
   label: AWS Kinesis List Tags For Resource API
@@ -123,72 +75,18 @@ api_specs:
   slug: kinesis-list-tags-for-stream-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/kinesis/openapi/kinesis-list-tags-for-stream-api-openapi.yml
-- filename: kinesis-start-edge-configuration-update-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Start Edge Configuration Update API
-  slug: kinesis-start-edge-configuration-update-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-start-edge-configuration-update-api-openapi.yml
 - filename: kinesis-tag-resource-api-openapi.yml
   format: yaml
   label: AWS Kinesis Tag Resource API
   slug: kinesis-tag-resource-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/kinesis/openapi/kinesis-tag-resource-api-openapi.yml
-- filename: kinesis-tag-stream-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Tag Stream API
-  slug: kinesis-tag-stream-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-tag-stream-api-openapi.yml
 - filename: kinesis-untag-resource-api-openapi.yml
   format: yaml
   label: AWS Kinesis Untag Resource API
   slug: kinesis-untag-resource-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/kinesis/openapi/kinesis-untag-resource-api-openapi.yml
-- filename: kinesis-untag-stream-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Untag Stream API
-  slug: kinesis-untag-stream-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-untag-stream-api-openapi.yml
-- filename: kinesis-update-data-retention-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Update Data Retention API
-  slug: kinesis-update-data-retention-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-data-retention-api-openapi.yml
-- filename: kinesis-update-image-generation-configuration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Update Image Generation Configuration API
-  slug: kinesis-update-image-generation-configuration-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-image-generation-configuration-api-openapi.yml
-- filename: kinesis-update-media-storage-configuration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Update Media Storage Configuration API
-  slug: kinesis-update-media-storage-configuration-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-media-storage-configuration-api-openapi.yml
-- filename: kinesis-update-notification-configuration-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis update Notification Configuration API
-  slug: kinesis-update-notification-configuration-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-notification-configuration-api-openapi.yml
-- filename: kinesis-update-signaling-channel-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Update Signaling Channel API
-  slug: kinesis-update-signaling-channel-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-signaling-channel-api-openapi.yml
-- filename: kinesis-update-stream-api-openapi.yml
-  format: yaml
-  label: AWS Kinesis Update Stream API
-  slug: kinesis-update-stream-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/kinesis/openapi/kinesis-update-stream-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -196,7 +94,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Kinesis Authentication
+name: AWS Kinesis Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AWS Kinesis secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -204,21 +102,32 @@ provider_name: AWS Kinesis
 provider_slug: kinesis
 scheme_count: 1
 schemes:
-- description: Amazon Signature authorization v4
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: hmac
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-data-firehose-openapi-original.yml
-  - openapi/amazon-kinesis-data-analytics-openapi-original.yml
-  - openapi/amazon-kinesis-data-streams-openapi-original.yml
-  - openapi/amazon-kinesis-video-streams-openapi-original.yml
+  - openapi/kinesis-amazon-kinesis-analytics-api-openapi.yml
+  - openapi/kinesis-amazon-kinesis-api-openapi.yml
+  - openapi/kinesis-amazon-kinesis-firehose-api-openapi.yml
+  - openapi/kinesis-channel-api-openapi.yml
+  - openapi/kinesis-create-stream-api-openapi.yml
+  - openapi/kinesis-delete-stream-api-openapi.yml
+  - openapi/kinesis-describe-stream-api-openapi.yml
+  - openapi/kinesis-list-tags-for-resource-api-openapi.yml
+  - openapi/kinesis-list-tags-for-stream-api-openapi.yml
+  - openapi/kinesis-liststreams-api-openapi.yml
+  - openapi/kinesis-operations-api-openapi.yml
+  - openapi/kinesis-resource-policy-api-openapi.yml
+  - openapi/kinesis-tag-resource-api-openapi.yml
+  - openapi/kinesis-untag-resource-api-openapi.yml
   type: apiKey
 slug: kinesis-authentication
 source_filename: kinesis-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-data-firehose-openapi-original.yml, openapi/amazon-kinesis-data-analytics-openapi-original.yml,\n  openapi/amazon-kinesis-data-streams-openapi-original.yml, openapi/amazon-kinesis-video-streams-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-data-firehose-openapi-original.yml\n  - openapi/amazon-kinesis-data-analytics-openapi-original.yml\n  - openapi/amazon-kinesis-data-streams-openapi-original.yml\n  - openapi/amazon-kinesis-video-streams-openapi-original.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/kinesis-amazon-kinesis-analytics-api-openapi.yml, openapi/kinesis-amazon-kinesis-api-openapi.yml,\n  openapi/kinesis-amazon-kinesis-firehose-api-openapi.yml, openapi/kinesis-channel-api-openapi.yml,\n  openapi/kinesis-create-stream-api-openapi.yml, openapi/kinesis-delete-stream-api-openapi.yml,\n  openapi/kinesis-describe-stream-api-openapi.yml, openapi/kinesis-list-tags-for-resource-api-openapi.yml,\n  openapi/kinesis-list-tags-for-stream-api-openapi.yml, openapi/kinesis-liststreams-api-openapi.yml,\n  openapi/kinesis-operations-api-openapi.yml, openapi/kinesis-resource-policy-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for\
+  \ temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/kinesis-amazon-kinesis-analytics-api-openapi.yml\n  - openapi/kinesis-amazon-kinesis-api-openapi.yml\n  - openapi/kinesis-amazon-kinesis-firehose-api-openapi.yml\n  - openapi/kinesis-channel-api-openapi.yml\n  - openapi/kinesis-create-stream-api-openapi.yml\n  - openapi/kinesis-delete-stream-api-openapi.yml\n  - openapi/kinesis-describe-stream-api-openapi.yml\n  - openapi/kinesis-list-tags-for-resource-api-openapi.yml\n  - openapi/kinesis-list-tags-for-stream-api-openapi.yml\n  - openapi/kinesis-liststreams-api-openapi.yml\n  - openapi/kinesis-operations-api-openapi.yml\n  - openapi/kinesis-resource-policy-api-openapi.yml\n  - openapi/kinesis-tag-resource-api-openapi.yml\n  - openapi/kinesis-untag-resource-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/kinesis/authentication/kinesis-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

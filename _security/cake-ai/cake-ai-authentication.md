@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cake Ai Authentication
+name: Cake Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cake declares 1 security scheme(s) across its OpenAPI definitions.

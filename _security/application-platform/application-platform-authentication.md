@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Application Platform Authentication
+name: doppelt.digital Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: doppelt.digital declares 6 security scheme(s) across its OpenAPI definitions.

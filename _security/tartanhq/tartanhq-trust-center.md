@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tartanhq Trust Center
+name: TartanHQ Trust Center
 name_suffix: Trust Center
 overview: TartanHQ maintains a public trust center documenting ISO 27001, ISO 27701, and SOC 2 Type II compliance.
 provider_name: TartanHQ

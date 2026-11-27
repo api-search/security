@@ -502,7 +502,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Fis Authentication
+name: FIS Global Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FIS Global secures its APIs with http and basic across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: David Evans And Associates Domain Security
+name: David Evans and Associates Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for David Evans and Associates, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: David Evans and Associates

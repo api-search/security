@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Putitforward Trust Center
+name: Put it Forward Trust Center
 name_suffix: Trust Center
 overview: Put it Forward maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Put it Forward

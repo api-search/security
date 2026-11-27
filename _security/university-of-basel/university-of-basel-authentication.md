@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: University Of Basel Authentication
+name: University of Basel Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Basel secures its APIs with none, http_bearer, openid_connect, and saml across 6 declared security schemes, as derived from its OpenAPI definitions.

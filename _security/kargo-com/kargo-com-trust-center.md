@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Kargo Com Trust Center
+name: Kargo Trust Center
 name_suffix: Trust Center
 overview: Kargo maintains a public trust center documenting ISO 27001 compliance.
 provider_name: Kargo

@@ -3,42 +3,48 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: microsoft-azure-openai-completions-api-openapi.yml
-  format: yaml
-  label: Azure OpenAI Service Completions API
-  slug: microsoft-azure-openai-completions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-completions-api-openapi.yml
-- filename: microsoft-azure-openai-embeddings-api-openapi.yml
-  format: yaml
-  label: Azure OpenAI Service Embeddings API
-  slug: microsoft-azure-openai-embeddings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-embeddings-api-openapi.yml
-- filename: microsoft-azure-openai-images-api-openapi.yml
-  format: yaml
-  label: Azure OpenAI Service Images API
-  slug: microsoft-azure-openai-images-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-images-api-openapi.yml
 - filename: azure-openai-asyncapi.yml
   format: yaml
   label: Azure OpenAI Inference REST API
   slug: inference-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/azure-openai/refs/heads/main/asyncapi/azure-openai-asyncapi.yml
-- filename: microsoft-azure-openai-audio-api-openapi.yml
+  url: https://artifacts.apis.io/azure-openai/asyncapi/azure-openai-asyncapi.yml
+- filename: microsoft-azure-openai-batch-api-openapi.yml
   format: yaml
-  label: Azure OpenAI Service Audio API
-  slug: microsoft-azure-openai-audio-api
+  label: 'Azure OpenAI Service Batch: API'
+  slug: microsoft-azure-openai-batch-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-audio-api-openapi.yml
-- filename: microsoft-azure-openai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-batch-api-openapi.yml
+- filename: microsoft-azure-openai-deployments-api-openapi.yml
   format: yaml
-  label: Azure OpenAI Service Chat Completions API
-  slug: microsoft-azure-openai-chat-completions-api
+  label: Azure OpenAI Service Deployments API
+  slug: microsoft-azure-openai-deployments-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-chat-completions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-deployments-api-openapi.yml
+- filename: microsoft-azure-openai-files-api-openapi.yml
+  format: yaml
+  label: 'Azure OpenAI Service Files: API'
+  slug: microsoft-azure-openai-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-files-api-openapi.yml
+- filename: microsoft-azure-openai-fine-tuning-api-openapi.yml
+  format: yaml
+  label: 'Azure OpenAI Service Fine Tuning: API'
+  slug: microsoft-azure-openai-fine-tuning-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-fine-tuning-api-openapi.yml
+- filename: microsoft-azure-openai-models-api-openapi.yml
+  format: yaml
+  label: 'Azure OpenAI Service Models: API'
+  slug: microsoft-azure-openai-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-models-api-openapi.yml
+- filename: microsoft-azure-openai-uploadfile-api-openapi.yml
+  format: yaml
+  label: 'Azure OpenAI Service Upload File: API'
+  slug: microsoft-azure-openai-uploadfile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-openai/openapi/microsoft-azure-openai-uploadfile-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -47,7 +53,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Microsoft Azure Openai Authentication
+name: Azure OpenAI Service Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
@@ -56,25 +62,32 @@ provider_name: Azure OpenAI Service
 provider_slug: microsoft-azure-openai
 scheme_count: 2
 schemes:
-- in: header
-  name: apiKey
+- description: Provide your Cognitive Services Azure OpenAI account key here.
+  in: header
+  name: api-key
   parameter: api-key
   sources:
-  - openapi/microsoft-azure-openai-openapi.yml
+  - openapi/microsoft-azure-openai-batch-api-openapi.yml
+  - openapi/microsoft-azure-openai-deployments-api-openapi.yml
+  - openapi/microsoft-azure-openai-files-api-openapi.yml
+  - openapi/microsoft-azure-openai-fine-tuning-api-openapi.yml
+  - openapi/microsoft-azure-openai-models-api-openapi.yml
+  - openapi/microsoft-azure-openai-uploadfile-api-openapi.yml
   type: apiKey
 - flows:
-  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
+  - authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
     flow: implicit
-    scopes: 1
-  name: azure_auth
+    scopes: 0
+  name: bearer
   sources:
-  - openapi/microsoft-azure-openai-openapi.yml
+  - openapi/microsoft-azure-openai-deployments-api-openapi.yml
   type: oauth2
 slug: microsoft-azure-openai-authentication
 source_filename: microsoft-azure-openai-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-azure-openai-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - implicit\nschemes:\n- name: apiKey\n  type: apiKey\n  in: header\n  parameter: api-key\n  sources:\n  - openapi/microsoft-azure-openai-openapi.yml\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  sources:\n  - openapi/microsoft-azure-openai-openapi.yml\n"
+source_yaml: "generated: '2026-11-12'\nmethod: derived\nsource: openapi/microsoft-azure-openai-batch-api-openapi.yml, openapi/microsoft-azure-openai-deployments-api-openapi.yml,\n  openapi/microsoft-azure-openai-files-api-openapi.yml, openapi/microsoft-azure-openai-fine-tuning-api-openapi.yml,\n  openapi/microsoft-azure-openai-models-api-openapi.yml, openapi/microsoft-azure-openai-uploadfile-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - implicit\nschemes:\n- name: api-key\n  type: apiKey\n  in: header\n  parameter: api-key\n  description: Provide your Cognitive Services Azure OpenAI account key here.\n  sources:\n  - openapi/microsoft-azure-openai-batch-api-openapi.yml\n  - openapi/microsoft-azure-openai-deployments-api-openapi.yml\n  - openapi/microsoft-azure-openai-files-api-openapi.yml\n  - openapi/microsoft-azure-openai-fine-tuning-api-openapi.yml\n  - openapi/microsoft-azure-openai-models-api-openapi.yml\n  - openapi/microsoft-azure-openai-uploadfile-api-openapi.yml\n\
+  - name: bearer\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    scopes: 0\n  sources:\n  - openapi/microsoft-azure-openai-deployments-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-openai/authentication/microsoft-azure-openai-authentication.yml
 summary_line: apiKey/oauth2 · 2 schemes
 tags:

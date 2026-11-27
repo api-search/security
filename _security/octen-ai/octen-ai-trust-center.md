@@ -103,7 +103,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Octen Ai Trust Center
+name: Octen Trust Center
 name_suffix: Trust Center
 overview: Octen maintains a public trust center documenting SOC 2 Type II (Certified) and HIPAA (In progress) compliance.
 provider_name: Octen

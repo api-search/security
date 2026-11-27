@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Sumup Authentication
+name: SumUp Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

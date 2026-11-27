@@ -740,7 +740,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Here Trust Center
+name: HERE Trust Center
 name_suffix: Trust Center
 overview: HERE maintains a public trust center documenting ISO/IEC 42001:2023, ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701:2019, SOC 2, TISAX, HITRUST r2, and CSA STAR compliance.
 provider_name: HERE

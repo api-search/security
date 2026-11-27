@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Attestwire Com Authentication
+name: Attestwire Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Attestwire declares 1 security scheme(s) across its OpenAPI definitions.
@@ -82,9 +82,9 @@ source_yaml_url: https://artifacts.apis.io/attestwire-com/authentication/attestw
 summary_line: 1 scheme
 tags:
 - Attestwire
-- E-invoice
+- e-invoice
 - Validation
 - XRechnung
-- PEPPOL
+- Peppol
 - MCP
 ---

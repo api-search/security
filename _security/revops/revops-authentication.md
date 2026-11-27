@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Revops Authentication
+name: RevOps Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RevOps declares 1 security scheme(s) across its OpenAPI definitions.

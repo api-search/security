@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cell Ed Trust Center
+name: Cell-Ed Trust Center
 name_suffix: Trust Center
 overview: Cell-Ed maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Cell-Ed

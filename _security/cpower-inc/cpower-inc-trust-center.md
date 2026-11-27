@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cpower Inc Trust Center
+name: CPower Trust Center
 name_suffix: Trust Center
 overview: CPower maintains a public trust center documenting ISO 27001:2013 and SOC 2 compliance.
 provider_name: CPower

@@ -1,11 +1,17 @@
 ---
 api_specs:
-- filename: yunqi-datasource-api-openapi.yml
+- filename: yunqi-analytics-agent-api-openapi.yml
   format: yaml
-  label: Yunqi (ClickZetta / Singdata Lakehouse) Data Source API
-  slug: yunqi-datasource-api
+  label: Yunqi Analytics Agent Open API
+  slug: yunqi-analytics-agent-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/yunqi/openapi/yunqi-datasource-api-openapi.yml
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-analytics-agent-api-openapi.yml
+- filename: yunqi-ai-gateway-api-openapi.yml
+  format: yaml
+  label: Yunqi AI Gateway API
+  slug: yunqi-ai-gateway-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-ai-gateway-api-openapi.yml
 - filename: yunqi-dqc-api-openapi.yml
   format: yaml
   label: Yunqi (ClickZetta / Singdata Lakehouse) Dqc API
@@ -54,6 +60,12 @@ api_specs:
   slug: yunqi-workspace-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/yunqi/openapi/yunqi-workspace-api-openapi.yml
+- filename: yunqi-data-source-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) Data Source API
+  slug: yunqi-data-source-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-data-source-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -62,27 +74,40 @@ domains:
   dnssec: false
   domain: yunqi.tech
   spf: true
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: clickzetta.com
+  spf: true
 hosts:
-- cert_expires: Oct  7 23:59:59 2026 GMT
+- cert_expires: Apr 10 23:59:59 2027 GMT
   host: www.yunqi.tech
   hsts: true
   hsts_max_age: 15724800
   https: true
   tls_version: TLSv1.3
-hosts_probed: 1
+- cert_expires: Apr 10 23:59:59 2027 GMT
+  host: yunqi.tech
+  hsts: true
+  hsts_max_age: 15724800
+  https: true
+  tls_version: TLSv1.3
+- host: api.clickzetta.com
+  https: false
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Yunqi Domain Security
+name: Yunqi (ClickZetta / Singdata Lakehouse) Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Yunqi (ClickZetta / Singdata Lakehouse), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+overview: 'Domain security posture for Yunqi (ClickZetta / Singdata Lakehouse), probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Yunqi (ClickZetta / Singdata Lakehouse)
 provider_slug: yunqi
 slug: yunqi-domain-security
 source_filename: yunqi-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-21'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.yunqi.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  7 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 15724800\ndomains:\n- domain: yunqi.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-11-06'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.yunqi.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: yunqi.tech\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 10 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 15724800\n- host: api.clickzetta.com\n  https: false\ndomains:\n- domain: yunqi.tech\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n- domain: clickzetta.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
 source_yaml_url: https://artifacts.apis.io/yunqi/security/yunqi-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 0Bull Net Authentication
+name: 0bull Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 0bull declares 1 security scheme(s) across its OpenAPI definitions.

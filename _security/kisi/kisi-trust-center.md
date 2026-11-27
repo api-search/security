@@ -296,7 +296,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Kisi Trust Center
+name: KISI Trust Center
 name_suffix: Trust Center
 overview: KISI maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: KISI

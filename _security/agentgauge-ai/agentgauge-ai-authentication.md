@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentgauge Ai Authentication
+name: AgentGauge Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentGauge declares 0 security scheme(s) across its OpenAPI definitions.

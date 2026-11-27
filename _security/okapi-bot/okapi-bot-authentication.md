@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Okapi Bot Authentication
+name: Okapi Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Okapi declares 1 security scheme(s) across its OpenAPI definitions.

@@ -71,7 +71,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Xcures Trust Center
+name: xCures Trust Center
 name_suffix: Trust Center
 overview: xCures maintains a public trust center covering its security and compliance posture.
 provider_name: xCures

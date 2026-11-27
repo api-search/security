@@ -27,7 +27,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Echorelay Trust Center
+name: EchoRelay Trust Center
 name_suffix: Trust Center
 overview: EchoRelay maintains a public trust center documenting SOC 2, PCI DSS, GDPR, and CSA STAR compliance.
 provider_name: EchoRelay

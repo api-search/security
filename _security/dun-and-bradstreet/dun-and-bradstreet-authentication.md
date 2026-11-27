@@ -60,7 +60,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Dun And Bradstreet Authentication
+name: Dun & Bradstreet Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Jwplayer Trust Center
+name: JW Player Trust Center
 name_suffix: Trust Center
 overview: JW Player maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: JW Player

@@ -58,7 +58,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Scylladb Trust Center
+name: ScyllaDB Trust Center
 name_suffix: Trust Center
 overview: ScyllaDB maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, and PCI DSS compliance.
 provider_name: ScyllaDB

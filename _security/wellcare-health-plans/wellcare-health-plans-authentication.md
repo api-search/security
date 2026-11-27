@@ -88,7 +88,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Wellcare Health Plans Authentication
+name: WellCare Health Plans Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

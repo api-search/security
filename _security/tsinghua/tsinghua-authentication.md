@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Tsinghua Authentication
+name: Tsinghua University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tsinghua University declares 0 security scheme(s) across its OpenAPI definitions.

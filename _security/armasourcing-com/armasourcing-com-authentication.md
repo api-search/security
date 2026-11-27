@@ -122,7 +122,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Armasourcing Com Authentication
+name: Armasourcing Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Armasourcing declares 0 security scheme(s) across its OpenAPI definitions.
@@ -145,6 +145,6 @@ tags:
 - Virtual Assistant
 - Outsourcing
 - FilipinoTalent
-- AIEnhanced
+- AI-enhanced
 - Contact Center
 ---

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Evroc Trust Center
+name: evroc Trust Center
 name_suffix: Trust Center
 overview: evroc maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: evroc

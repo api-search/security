@@ -77,7 +77,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Pingone Domain Security
+name: PingOne Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for PingOne, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: PingOne

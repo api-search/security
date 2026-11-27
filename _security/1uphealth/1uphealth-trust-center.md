@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 1Uphealth Trust Center
+name: 1upHealth Trust Center
 name_suffix: Trust Center
 overview: 1upHealth maintains a public trust center documenting SOC 2, HIPAA, and CSA STAR compliance.
 provider_name: 1upHealth

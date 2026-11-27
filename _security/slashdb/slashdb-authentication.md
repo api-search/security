@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Slashdb Authentication
+name: VT Enterprise Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VT Enterprise declares 5 security scheme(s) across its OpenAPI definitions.

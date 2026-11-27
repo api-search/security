@@ -36,7 +36,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Clevertap Authentication
+name: CleverTap Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

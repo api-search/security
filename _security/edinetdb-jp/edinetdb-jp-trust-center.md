@@ -121,7 +121,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Edinetdb Jp Trust Center
+name: edinetdb-jp Trust Center
 name_suffix: Trust Center
 overview: edinetdb-jp maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: edinetdb-jp

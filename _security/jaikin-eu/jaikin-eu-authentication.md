@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Jaikin Eu Authentication
+name: jaikin-eu Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: jaikin-eu declares 2 security scheme(s) across its OpenAPI definitions.

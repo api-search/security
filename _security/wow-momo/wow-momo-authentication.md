@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Wow Momo Authentication
+name: WOW! Momo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WOW! Momo secures its APIs with http, apiKey, and opaque-application-credential across 3 declared security schemes, as derived from its OpenAPI definitions.

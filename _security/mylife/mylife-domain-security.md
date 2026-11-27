@@ -19,7 +19,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Mylife Domain Security
+name: MyLife Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for MyLife, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: MyLife

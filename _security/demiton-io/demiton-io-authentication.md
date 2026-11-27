@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Demiton Io Authentication
+name: Demiton Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Demiton declares 2 security scheme(s) across its OpenAPI definitions.

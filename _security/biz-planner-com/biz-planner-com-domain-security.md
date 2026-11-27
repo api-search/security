@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Biz Planner Com Domain Security
+name: BizPlanner Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for BizPlanner, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
 provider_name: BizPlanner

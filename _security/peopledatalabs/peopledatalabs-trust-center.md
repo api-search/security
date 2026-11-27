@@ -86,7 +86,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Peopledatalabs Trust Center
+name: People Data Labs Trust Center
 name_suffix: Trust Center
 overview: People Data Labs maintains a public trust center documenting SOC 2, ISO 27001, and FIPS 140 compliance.
 provider_name: People Data Labs

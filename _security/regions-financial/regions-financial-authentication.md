@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Regions Financial Authentication
+name: Regions Financial Corporation Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

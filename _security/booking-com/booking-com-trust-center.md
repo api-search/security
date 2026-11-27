@@ -301,7 +301,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Booking Com Trust Center
+name: Booking.com Trust Center
 name_suffix: Trust Center
 overview: Booking.com maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: Booking.com

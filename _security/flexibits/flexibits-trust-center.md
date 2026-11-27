@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Flexibits Trust Center
+name: Fantastical (Flexibits) Trust Center
 name_suffix: Trust Center
 overview: Fantastical (Flexibits) maintains a public trust center documenting SOC 2 compliance.
 provider_name: Fantastical (Flexibits)

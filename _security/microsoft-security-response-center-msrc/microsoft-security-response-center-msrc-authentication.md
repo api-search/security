@@ -44,12 +44,6 @@ api_specs:
   slug: microsoft-security-response-center-msrc-headercontent-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-security-response-center-msrc/openapi/microsoft-security-response-center-msrc-headercontent-api-openapi.yml
-- filename: microsoft-security-response-center-msrc-metadata-api-openapi.yml
-  format: yaml
-  label: Microsoft Security Response Center (MSRC) Metadata API
-  slug: microsoft-security-response-center-msrc-metadata-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-security-response-center-msrc/openapi/microsoft-security-response-center-msrc-metadata-api-openapi.yml
 - filename: microsoft-security-response-center-msrc-releasenote-api-openapi.yml
   format: yaml
   label: Microsoft Security Response Center (MSRC) Release Note API
@@ -74,13 +68,19 @@ api_specs:
   slug: microsoft-security-response-center-msrc-vulnerability-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-security-response-center-msrc/openapi/microsoft-security-response-center-msrc-vulnerability-api-openapi.yml
+- filename: microsoft-security-response-center-msrc-metadata-api-openapi.yml
+  format: yaml
+  label: Microsoft Security Response Center (MSRC) Metadata API
+  slug: microsoft-security-response-center-msrc-metadata-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-security-response-center-msrc/openapi/microsoft-security-response-center-msrc-metadata-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Microsoft Security Response Center Msrc Authentication
+name: Microsoft Security Response Center (MSRC) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Microsoft Security Response Center (MSRC) declares 1 security scheme(s) across its OpenAPI definitions.

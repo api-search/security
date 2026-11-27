@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Kymaapi Com Authentication
+name: kymaapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: kymaapi-com declares 2 security scheme(s) across its OpenAPI definitions.

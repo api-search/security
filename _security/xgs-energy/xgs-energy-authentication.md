@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Xgs Energy Authentication
+name: XGS Energy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: XGS Energy declares 2 security scheme(s) across its OpenAPI definitions.

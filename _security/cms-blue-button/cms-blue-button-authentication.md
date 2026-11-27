@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cms Blue Button Authentication
+name: CMS Blue Button 2.0 Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

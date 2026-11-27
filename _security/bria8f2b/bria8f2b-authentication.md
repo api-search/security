@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bria8F2B Authentication
+name: Bria8f2b Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bria8f2b declares 2 security scheme(s) across its OpenAPI definitions.

@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Instanda Trust Center
+name: INSTANDA Trust Center
 name_suffix: Trust Center
 overview: INSTANDA maintains a public trust center documenting ISO 27001:2022, SOC 2, Cyber Essentials, and PCI DSS SAQ A compliance.
 provider_name: INSTANDA

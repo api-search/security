@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Alfil Co Authentication
+name: Alfil Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Alfil declares 0 security scheme(s) across its OpenAPI definitions.

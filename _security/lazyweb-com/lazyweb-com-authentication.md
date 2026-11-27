@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Lazyweb Com Authentication
+name: lazyweb-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: lazyweb-com declares 2 security scheme(s) across its OpenAPI definitions.

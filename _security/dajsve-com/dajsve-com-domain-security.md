@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Dajsve Com Domain Security
+name: dajsve-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for dajsve-com, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: dajsve-com

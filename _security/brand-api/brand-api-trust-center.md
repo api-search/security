@@ -36,7 +36,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Brand Api Trust Center
+name: Brand API (Brandfetch) Trust Center
 name_suffix: Trust Center
 overview: Brand API (Brandfetch) maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: Brand API (Brandfetch)

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Factory Ai Trust Center
+name: Factory Trust Center
 name_suffix: Trust Center
 overview: Factory maintains a public trust center documenting SOC 2 compliance.
 provider_name: Factory

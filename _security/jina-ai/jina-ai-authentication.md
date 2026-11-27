@@ -2,30 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: jina-ai-batch-api-openapi.yml
-  format: yaml
-  label: Jina AI Batch API
-  slug: jina-ai-batch-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-batch-api-openapi.yml
-- filename: jina-ai-embeddings-api-openapi.yml
-  format: yaml
-  label: Jina AI Embeddings API
-  slug: jina-ai-embeddings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-embeddings-api-openapi.yml
 - filename: jina-ai-reader-api-openapi.yml
   format: yaml
   label: Jina AI Reader API
   slug: jina-ai-reader-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reader-api-openapi.yml
-- filename: jina-ai-reranker-api-openapi.yml
-  format: yaml
-  label: Jina AI Reranker API
-  slug: jina-ai-reranker-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reranker-api-openapi.yml
 - filename: jina-ai-batch-embeddings-api-openapi.yml
   format: yaml
   label: Jina AI Batch Embeddings API
@@ -63,7 +45,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Jina Ai Authentication
+name: Jina AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Jina AI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

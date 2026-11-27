@@ -1,13 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: amazon-app-studio-apps-api-openapi.yml
-  format: yaml
-  label: Amazon App Studio Apps API
-  slug: amazon-app-studio-apps-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-app-studio/openapi/amazon-app-studio-apps-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -38,6 +31,7 @@ source_yaml_url: https://artifacts.apis.io/amazon-app-studio/authentication/amaz
 summary_line: http · 1 scheme
 tags:
 - Amazon Web Services
+- Application Development
 - Generative AI
 - Internal Tools
 - Low-Code

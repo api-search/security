@@ -97,7 +97,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Contextdev Trust Center
+name: Context.dev Trust Center
 name_suffix: Trust Center
 overview: Context.dev maintains a public trust center documenting SOC 2 Type 1 and SOC 2 Type 2 compliance.
 provider_name: Context.dev

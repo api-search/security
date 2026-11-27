@@ -272,7 +272,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Labelixa Com Authentication
+name: labelixa-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: labelixa-com declares 1 security scheme(s) across its OpenAPI definitions.

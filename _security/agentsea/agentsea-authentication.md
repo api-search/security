@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Agentsea Authentication
+name: AgentSea Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentSea declares 2 security scheme(s) across its OpenAPI definitions.

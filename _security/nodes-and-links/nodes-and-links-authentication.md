@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Nodes And Links Authentication
+name: Nodes and Links Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

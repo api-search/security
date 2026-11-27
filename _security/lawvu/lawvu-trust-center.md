@@ -50,7 +50,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lawvu Trust Center
+name: LawVu Trust Center
 name_suffix: Trust Center
 overview: LawVu maintains a public trust center documenting ISO 27001, SOC 1, and SOC 2 compliance.
 provider_name: LawVu

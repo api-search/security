@@ -17,7 +17,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Offenders Io Trust Center
+name: Offenders.io Trust Center
 name_suffix: Trust Center
 overview: Offenders.io maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: Offenders.io

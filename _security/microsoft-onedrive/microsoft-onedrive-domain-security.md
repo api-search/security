@@ -1,23 +1,71 @@
 ---
 api_specs:
-- filename: microsoft-onedrive-drives-api-openapi.yml
+- filename: microsoft-onedrive-drives-drive-actions-api-openapi.yml
   format: yaml
-  label: Microsoft OneDrive Drives API
-  slug: microsoft-onedrive-drives-api
+  label: Microsoft OneDrive Drives.drive.Actions API
+  slug: microsoft-onedrive-drives-drive-actions-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drives-api-openapi.yml
-- filename: microsoft-onedrive-sharing-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drives-drive-actions-api-openapi.yml
+- filename: microsoft-onedrive-drives-drive-api-openapi.yml
   format: yaml
-  label: Microsoft OneDrive Sharing API
-  slug: microsoft-onedrive-sharing-api
+  label: Microsoft OneDrive Drives.drive API
+  slug: microsoft-onedrive-drives-drive-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-sharing-api-openapi.yml
-- filename: microsoft-onedrive-drive-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drives-drive-api-openapi.yml
+- filename: microsoft-onedrive-drives-drive-functions-api-openapi.yml
   format: yaml
-  label: Microsoft OneDrive Drive Items API
-  slug: microsoft-onedrive-drive-items-api
+  label: Microsoft OneDrive Drives.drive.Functions API
+  slug: microsoft-onedrive-drives-drive-functions-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drive-items-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drives-drive-functions-api-openapi.yml
+- filename: microsoft-onedrive-drives-driveitem-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Drives.drive Item API
+  slug: microsoft-onedrive-drives-driveitem-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drives-driveitem-api-openapi.yml
+- filename: microsoft-onedrive-drives-list-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Drives.list API
+  slug: microsoft-onedrive-drives-list-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drives-list-api-openapi.yml
+- filename: microsoft-onedrive-drives-user-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Drives.user API
+  slug: microsoft-onedrive-drives-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-drives-user-api-openapi.yml
+- filename: microsoft-onedrive-groups-drive-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Groups.drive API
+  slug: microsoft-onedrive-groups-drive-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-groups-drive-api-openapi.yml
+- filename: microsoft-onedrive-groups-site-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Groups.site API
+  slug: microsoft-onedrive-groups-site-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-groups-site-api-openapi.yml
+- filename: microsoft-onedrive-me-drive-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Me.drive API
+  slug: microsoft-onedrive-me-drive-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-me-drive-api-openapi.yml
+- filename: microsoft-onedrive-sites-drive-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Sites.drive API
+  slug: microsoft-onedrive-sites-drive-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-sites-drive-api-openapi.yml
+- filename: microsoft-onedrive-users-drive-api-openapi.yml
+  format: yaml
+  label: Microsoft OneDrive Users.drive API
+  slug: microsoft-onedrive-users-drive-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-onedrive/openapi/microsoft-onedrive-users-drive-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -56,7 +104,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Onedrive Domain Security
+name: Microsoft OneDrive Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Microsoft OneDrive, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Microsoft OneDrive

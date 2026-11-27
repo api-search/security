@@ -183,7 +183,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mediavalet Trust Center
+name: MediaValet Trust Center
 name_suffix: Trust Center
 overview: MediaValet maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: MediaValet

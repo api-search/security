@@ -119,7 +119,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Princeton Authentication
+name: Princeton University Authentication
 name_suffix: Authentication
 oauth_flows:
 - client_credentials

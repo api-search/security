@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Acto Trust Center
+name: ACTO Trust Center
 name_suffix: Trust Center
 overview: ACTO maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001, GDPR, and FDA 21 CFR Part 11 compliance.
 provider_name: ACTO

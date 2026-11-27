@@ -94,6 +94,12 @@ api_specs:
   slug: bolsai-oauth-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bolsai/openapi/bolsai-oauth-api-openapi.yml
+- filename: bolsai-tesouro-api-openapi.yml
+  format: yaml
+  label: Bolsai Tesouro API
+  slug: bolsai-tesouro-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bolsai/openapi/bolsai-tesouro-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

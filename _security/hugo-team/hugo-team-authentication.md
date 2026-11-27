@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Hugo Team Authentication
+name: Hugo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hugo declares 0 security scheme(s) across its OpenAPI definitions.

@@ -98,7 +98,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Roote Authentication
+name: ROOTE Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ROOTE declares 1 security scheme(s) across its OpenAPI definitions.

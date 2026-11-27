@@ -31,7 +31,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Ai Tender By Domain Security
+name: AI-TENDER Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AI-TENDER, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: AI-TENDER
@@ -48,5 +48,5 @@ tags:
 - Tender
 - Government Procurement
 - Belarus
-- Invitation-only
+- Invitation-Only
 ---

@@ -643,7 +643,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: derived
-name: Infocert Authentication
+name: InfoCert Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

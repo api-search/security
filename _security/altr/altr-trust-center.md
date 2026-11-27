@@ -404,7 +404,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Altr Trust Center
+name: ALTR Trust Center
 name_suffix: Trust Center
 overview: ALTR maintains a public trust center documenting SOC 2, PCI DSS, and HIPAA compliance.
 provider_name: ALTR

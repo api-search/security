@@ -42,7 +42,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: N0T1Fy Dev Domain Security
+name: n0t1fy-dev Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for n0t1fy-dev, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: n0t1fy-dev
@@ -59,5 +59,4 @@ tags:
 - SMS
 - Georgia
 - Transactional
-- Developer-First
 ---

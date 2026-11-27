@@ -5,7 +5,7 @@ api_specs:
   label: Honeybadger Outbound Webhook Notifications
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/asyncapi/honeybadger-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/honeybadger/asyncapi/honeybadger-webhooks-asyncapi.yml
 - filename: honeybadger-check-in-api-openapi.yml
   format: yaml
   label: Honeybadger Check In API

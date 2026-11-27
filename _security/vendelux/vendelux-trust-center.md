@@ -19,7 +19,7 @@ source_yaml: "generated: '2026-09-02'\nmethod: searched\nsource: >-\n  https://v
 source_yaml_url: https://artifacts.apis.io/vendelux/security/vendelux-trust-center.yml
 summary_line: trust center published
 tags:
-- Event-Intelligence
+- Event Intelligence
 - Event Marketing
 - B2B Events
 - Marketing Intelligence

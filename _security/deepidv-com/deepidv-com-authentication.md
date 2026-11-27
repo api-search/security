@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Deepidv Com Authentication
+name: Deep Identity Inc. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Deep Identity Inc. declares 1 security scheme(s) across its OpenAPI definitions.

@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: klavis-mcp-servers-api-openapi.yml
-  format: yaml
-  label: Klavis AI MCP Servers API
-  slug: klavis-mcp-servers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/klavis/openapi/klavis-mcp-servers-api-openapi.yml
 - filename: klavis-sandbox-api-openapi.yml
   format: yaml
   label: Klavis AI Sandbox API
   slug: klavis-sandbox-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/klavis/openapi/klavis-sandbox-api-openapi.yml
-- filename: klavis-tools-api-openapi.yml
-  format: yaml
-  label: Klavis AI Tools API
-  slug: klavis-tools-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/klavis/openapi/klavis-tools-api-openapi.yml
-- filename: klavis-users-api-openapi.yml
-  format: yaml
-  label: Klavis AI Users API
-  slug: klavis-users-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/klavis/openapi/klavis-users-api-openapi.yml
 - filename: klavis-airtable-oauth-api-openapi.yml
   format: yaml
   label: Klavis AI Airtable OAUTH API
@@ -450,7 +432,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Klavis Domain Security
+name: Klavis AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Klavis AI, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Klavis AI

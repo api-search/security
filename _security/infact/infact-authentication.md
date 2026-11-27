@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Infact Authentication
+name: InFact Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: InFact declares 2 security scheme(s) across its OpenAPI definitions.

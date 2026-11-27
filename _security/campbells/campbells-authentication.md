@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Campbells Authentication
+name: Campbell's Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Campbell's declares 3 security scheme(s) across its OpenAPI definitions.

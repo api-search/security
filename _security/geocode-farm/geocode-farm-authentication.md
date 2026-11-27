@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Geocode Farm Authentication
+name: Geocode.Farm Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Geocode.Farm declares 1 security scheme(s) across its OpenAPI definitions.

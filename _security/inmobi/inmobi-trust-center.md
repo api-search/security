@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Inmobi Trust Center
+name: InMobi Trust Center
 name_suffix: Trust Center
 overview: InMobi maintains a public trust center documenting TAG Certified Against Fraud, IAB Tech Lab, IAB TCF (certified CMP vendor), MMA, GDPR, and CCPA compliance.
 provider_name: InMobi

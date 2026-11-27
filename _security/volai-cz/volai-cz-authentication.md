@@ -146,7 +146,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Volai Cz Authentication
+name: volai-cz Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: volai-cz declares 1 security scheme(s) across its OpenAPI definitions.

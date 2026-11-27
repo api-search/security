@@ -93,7 +93,7 @@ hosts_probed: 9
 kind: domain-security
 layout: security
 method: probed
-name: Stashaway Domain Security
+name: StashAway Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for StashAway, probed live across 9 host(s) and 6 registrable domain(s). 9 host(s) serve HTTPS (up to TLSv1.3); 6 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: StashAway

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Gpu Nz Authentication
+name: gpu.nz Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: gpu.nz declares 1 security scheme(s) across its OpenAPI definitions.

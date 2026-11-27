@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Beam Ai Authentication
+name: Beam AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Beam AI declares 1 security scheme(s) across its OpenAPI definitions.

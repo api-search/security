@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Xfactorio Trust Center
+name: Xfactor.io Trust Center
 name_suffix: Trust Center
 overview: Xfactor.io maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: Xfactor.io

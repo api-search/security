@@ -98,7 +98,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Tubearchivist Authentication
+name: Tube Archivist Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tube Archivist declares 2 security scheme(s) across its OpenAPI definitions.

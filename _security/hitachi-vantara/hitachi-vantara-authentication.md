@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Hitachi Vantara Authentication
+name: Hitachi Content Platform Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hitachi Content Platform declares 0 security scheme(s) across its OpenAPI definitions.
@@ -33,5 +33,4 @@ tags:
 - Storage
 - Hybrid Cloud
 - AI Services
-- Enterprise Solutions
 ---

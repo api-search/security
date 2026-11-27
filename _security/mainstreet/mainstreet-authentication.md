@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Mainstreet Authentication
+name: MainStreet Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorization_code

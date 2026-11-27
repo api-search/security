@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dataloop Trust Center
+name: DataLoop Trust Center
 name_suffix: Trust Center
 overview: DataLoop maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27701, ISO/IEC 27017:2015, ISO/IEC 27018:2019, GDPR, and AWS Qualified Software compliance.
 provider_name: DataLoop

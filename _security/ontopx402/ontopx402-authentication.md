@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ontopx402 Authentication
+name: OnTopX402 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OnTopX402 declares 2 security scheme(s) across its OpenAPI definitions.

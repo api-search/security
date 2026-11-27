@@ -4,7 +4,7 @@ certifications: []
 description: MAI (MAI Unbound, Inc.) publishes a Secureframe-hosted Trust Center covering its security and compliance posture, with continuous control monitoring and a confidential reporting channel available to internal personnel and external parties. No specific certifications (e.g. SOC 2, ISO 27001) are listed on the public landing view without requesting access; none are asserted here.
 kind: trust-center
 layout: security
-name: Mai Trust Center
+name: MAI Trust Center
 name_suffix: Trust Center
 overview: MAI maintains a public trust center covering its security and compliance posture.
 provider_name: MAI

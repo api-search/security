@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Audiodelivery Net Authentication
+name: Audio Delivery Network Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Audio Delivery Network declares 1 security scheme(s) across its OpenAPI definitions.

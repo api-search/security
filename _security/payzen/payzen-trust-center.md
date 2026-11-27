@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Payzen Trust Center
+name: PayZen Trust Center
 name_suffix: Trust Center
 overview: PayZen maintains a public trust center documenting SOC 2 Type II and HIPAA compliance.
 provider_name: PayZen

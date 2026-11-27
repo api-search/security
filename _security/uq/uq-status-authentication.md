@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Uq Status Authentication
+name: University of Queensland Status Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Queensland declares 0 security scheme(s) across its OpenAPI definitions.

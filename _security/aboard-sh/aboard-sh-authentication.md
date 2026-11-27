@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aboard Sh Authentication
+name: Aboard Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aboard declares 1 security scheme(s) across its OpenAPI definitions.

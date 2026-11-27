@@ -43,7 +43,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Openclinica Trust Center
+name: OpenClinica Trust Center
 name_suffix: Trust Center
 overview: OpenClinica maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: OpenClinica

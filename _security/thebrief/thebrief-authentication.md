@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Thebrief Authentication
+name: TheBrief Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TheBrief declares 3 security scheme(s) across its OpenAPI definitions.

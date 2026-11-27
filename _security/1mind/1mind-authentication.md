@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: 1Mind Authentication
+name: 1mind Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 1mind declares 0 security scheme(s) across its OpenAPI definitions.

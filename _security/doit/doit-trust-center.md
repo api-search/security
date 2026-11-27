@@ -301,7 +301,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Doit Trust Center
+name: DoiT Trust Center
 name_suffix: Trust Center
 overview: DoiT maintains a public trust center documenting SOC 2 Type 2, SOC 3, ISO 27001, ISO 27001:2022, GDPR, CCPA, ICO registered, and EU-US Data Privacy Framework compliance.
 provider_name: DoiT

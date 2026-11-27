@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Vantara Trust Center
+name: Milana Trust Center
 name_suffix: Trust Center
 overview: Milana maintains a public trust center covering its security and compliance posture.
 provider_name: Milana

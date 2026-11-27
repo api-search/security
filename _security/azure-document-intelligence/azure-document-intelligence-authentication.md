@@ -3,60 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: azure-document-intelligence-documentclassifiers-authorizecopy-api-openapi.yml
+- filename: azure-document-intelligence-custom-api-openapi.yml
   format: yaml
-  label: Azure AI Document Intelligence DocumentClassifiers:authorizeCopy API
-  slug: azure-document-intelligence-documentclassifiers-authorizecopy-api
+  label: Azure AI Document Intelligence Custom API
+  slug: azure-document-intelligence-custom-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-documentclassifiers-authorizecopy-api-openapi.yml
-- filename: azure-document-intelligence-info-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-custom-api-openapi.yml
+- filename: azure-document-intelligence-layout-api-openapi.yml
   format: yaml
-  label: Azure AI Document Intelligence Info API
-  slug: azure-document-intelligence-info-api
+  label: Azure AI Document Intelligence Layout API
+  slug: azure-document-intelligence-layout-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-info-api-openapi.yml
-- filename: azure-document-intelligence-operations-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-layout-api-openapi.yml
+- filename: azure-document-intelligence-prebuilt-api-openapi.yml
   format: yaml
-  label: Azure AI Document Intelligence Operations API
-  slug: azure-document-intelligence-operations-api
+  label: Azure AI Document Intelligence Prebuilt API
+  slug: azure-document-intelligence-prebuilt-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-operations-api-openapi.yml
-- filename: azure-document-intelligence-document-classifiers-api-openapi.yml
-  format: yaml
-  label: Azure AI Document Intelligence Document Classifiers API
-  slug: azure-document-intelligence-document-classifiers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-classifiers-api-openapi.yml
-- filename: azure-document-intelligence-document-classifiers-build-api-openapi.yml
-  format: yaml
-  label: Azure AI Document Intelligence Document Classifiers:build API
-  slug: azure-document-intelligence-document-classifiers-build-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-classifiers-build-api-openapi.yml
-- filename: azure-document-intelligence-document-models-api-openapi.yml
-  format: yaml
-  label: Azure AI Document Intelligence Document Models API
-  slug: azure-document-intelligence-document-models-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-api-openapi.yml
-- filename: azure-document-intelligence-document-models-authorize-copy-api-openapi.yml
-  format: yaml
-  label: Azure AI Document Intelligence Document Models:authorize Copy API
-  slug: azure-document-intelligence-document-models-authorize-copy-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-authorize-copy-api-openapi.yml
-- filename: azure-document-intelligence-document-models-build-api-openapi.yml
-  format: yaml
-  label: Azure AI Document Intelligence Document Models:build API
-  slug: azure-document-intelligence-document-models-build-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-build-api-openapi.yml
-- filename: azure-document-intelligence-document-models-compose-api-openapi.yml
-  format: yaml
-  label: Azure AI Document Intelligence Document Models:compose API
-  slug: azure-document-intelligence-document-models-compose-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-document-models-compose-api-openapi.yml
+  url: https://artifacts.apis.io/azure-document-intelligence/openapi/azure-document-intelligence-prebuilt-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -65,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Azure Document Intelligence Authentication
+name: Azure AI Document Intelligence Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

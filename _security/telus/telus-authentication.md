@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Telus Authentication
+name: TELUS Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

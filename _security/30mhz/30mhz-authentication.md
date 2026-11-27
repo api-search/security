@@ -772,7 +772,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: 30Mhz Authentication
+name: 30MHz Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 30MHz secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

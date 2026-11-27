@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 00Widget Com Authentication
+name: 00Widget Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 00Widget declares 1 security scheme(s) across its OpenAPI definitions.

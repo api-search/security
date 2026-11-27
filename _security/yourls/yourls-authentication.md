@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Yourls Authentication
+name: YOURLS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: YOURLS declares 1 security scheme(s) across its OpenAPI definitions.

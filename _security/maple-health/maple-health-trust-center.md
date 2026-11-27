@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Maple Health Trust Center
+name: Maple Trust Center
 name_suffix: Trust Center
 overview: Maple maintains a public trust center documenting SOC 2, SOC 2 Type II, and ISO 27001 compliance.
 provider_name: Maple

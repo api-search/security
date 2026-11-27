@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aibacktester App Authentication
+name: AI Backtester Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI Backtester declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Baccaai Trust Center
+name: Bacca.ai Trust Center
 name_suffix: Trust Center
 overview: Bacca.ai maintains a public trust center documenting SOC 2 Type I, SOC 2 Type II, and GDPR compliance.
 provider_name: Bacca.ai

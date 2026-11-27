@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Avengersofsuperearth Com Authentication
+name: Avengers of Super Earth Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Avengers of Super Earth declares 0 security scheme(s) across its OpenAPI definitions.

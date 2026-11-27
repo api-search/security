@@ -134,7 +134,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Adgpt Com Authentication
+name: AdGPT Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AdGPT declares 1 security scheme(s) across its OpenAPI definitions.

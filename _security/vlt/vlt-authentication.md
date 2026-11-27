@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Vlt Authentication
+name: vlt Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: vlt secures its APIs with http-bearer and oidc-exchange across 4 declared security schemes, as derived from its OpenAPI definitions.

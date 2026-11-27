@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Purespectrum Trust Center
+name: PureSpectrum Trust Center
 name_suffix: Trust Center
 overview: PureSpectrum maintains a public trust center documenting SOC 2 compliance.
 provider_name: PureSpectrum

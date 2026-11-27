@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Constructor University Bremen Ggmbh Domain Security
+name: Constructor University Bremen gGmbH Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Constructor University Bremen gGmbH, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Constructor University Bremen gGmbH

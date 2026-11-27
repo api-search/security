@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Openfaas Authentication
+name: OpenFaaS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OpenFaaS declares 4 security scheme(s) across its OpenAPI definitions.

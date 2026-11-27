@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Anysphere Cursor.Com Authentication
+name: Anysphere Cursor.com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Anysphere Cursor.com declares 1 security scheme(s) across its OpenAPI definitions.

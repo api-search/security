@@ -19,7 +19,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Open Insurance Authentication
+name: Open Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Open secures its APIs with apiKey and jwt-bearer (deprecated) across 5 declared security schemes, as derived from its OpenAPI definitions.

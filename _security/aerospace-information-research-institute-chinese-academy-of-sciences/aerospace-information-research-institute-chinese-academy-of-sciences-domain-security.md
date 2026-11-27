@@ -13,7 +13,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Aerospace Information Research Institute Chinese Academy Of Sciences Domain Security
+name: Aerospace Information Research Institute, Chinese Academy of Sciences Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Aerospace Information Research Institute, Chinese Academy of Sciences, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Aerospace Information Research Institute, Chinese Academy of Sciences

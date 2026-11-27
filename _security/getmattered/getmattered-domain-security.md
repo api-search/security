@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: getmattered-account-api-openapi.yml
-  format: yaml
-  label: GetMattered Account API
-  slug: getmattered-account-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/getmattered/openapi/getmattered-account-api-openapi.yml
 - filename: getmattered-achievements-api-openapi.yml
   format: yaml
   label: GetMattered Achievements API
@@ -313,7 +307,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Getmattered Domain Security
+name: GetMattered Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for GetMattered, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: GetMattered

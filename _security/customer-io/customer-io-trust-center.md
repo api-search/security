@@ -291,7 +291,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Customer Io Trust Center
+name: Customer.io Trust Center
 name_suffix: Trust Center
 overview: Customer.io maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Customer.io

@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Africacompliancedata Com Authentication
+name: africacompliancedata-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: africacompliancedata-com declares 2 security scheme(s) across its OpenAPI definitions.

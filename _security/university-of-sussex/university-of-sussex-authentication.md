@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: University Of Sussex Authentication
+name: University of Sussex Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

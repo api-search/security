@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Docracy Io Trust Center
+name: Docracy Trust Center
 name_suffix: Trust Center
 overview: Docracy maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Docracy

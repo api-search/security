@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Nordspam Authentication
+name: NordSpam Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NordSpam declares 0 security scheme(s) across its OpenAPI definitions.

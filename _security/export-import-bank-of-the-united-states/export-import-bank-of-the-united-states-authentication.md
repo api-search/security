@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Export Import Bank Of The United States Authentication
+name: Export-Import Bank of the United States Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Export-Import Bank of the United States declares 0 security scheme(s) across its OpenAPI definitions.

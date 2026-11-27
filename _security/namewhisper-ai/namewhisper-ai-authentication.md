@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Namewhisper Ai Authentication
+name: NameWhisper Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NameWhisper secures its APIs with none, erc8128-signed-request, and oauth2-metadata across 4 declared security schemes, as derived from its OpenAPI definitions.

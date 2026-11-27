@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Consol Energy Authentication
+name: CONSOL Energy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CONSOL Energy secures its APIs with none, cookie-nonce, and http-basic across 3 declared security schemes, as derived from its OpenAPI definitions.

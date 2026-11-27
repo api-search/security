@@ -3198,6 +3198,84 @@ api_specs:
   slug: procore-workflow-tools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/procore/openapi/procore-workflow-tools-api-openapi.yml
+- filename: procore-project-funding-sources-api-openapi.yml
+  format: yaml
+  label: Procore Project Funding Sources API
+  slug: procore-project-funding-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-project-funding-sources-api-openapi.yml
+- filename: procore-project-entitlements-api-openapi.yml
+  format: yaml
+  label: Procore Project Entitlements API
+  slug: procore-project-entitlements-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-project-entitlements-api-openapi.yml
+- filename: procore-funding-sources-api-openapi.yml
+  format: yaml
+  label: Procore Funding Sources API
+  slug: procore-funding-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-funding-sources-api-openapi.yml
+- filename: procore-funding-rules-api-openapi.yml
+  format: yaml
+  label: Procore Funding Rules API
+  slug: procore-funding-rules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-funding-rules-api-openapi.yml
+- filename: procore-rate-values-api-openapi.yml
+  format: yaml
+  label: Procore Rate Values API
+  slug: procore-rate-values-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-values-api-openapi.yml
+- filename: procore-rate-columns-api-openapi.yml
+  format: yaml
+  label: Procore Rate Columns API
+  slug: procore-rate-columns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-columns-api-openapi.yml
+- filename: procore-audit-logs-company-api-openapi.yml
+  format: yaml
+  label: Procore Audit Logs (Company) API
+  slug: procore-audit-logs-company-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-audit-logs-company-api-openapi.yml
+- filename: procore-audit-logs-project-api-openapi.yml
+  format: yaml
+  label: Procore Audit Logs (Project) API
+  slug: procore-audit-logs-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-audit-logs-project-api-openapi.yml
+- filename: procore-rate-columns-project-api-openapi.yml
+  format: yaml
+  label: Procore Rate Columns (Project) API
+  slug: procore-rate-columns-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-columns-project-api-openapi.yml
+- filename: procore-rate-tables-company-api-openapi.yml
+  format: yaml
+  label: Procore Rate Tables (Company) API
+  slug: procore-rate-tables-company-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-tables-company-api-openapi.yml
+- filename: procore-rate-tables-project-api-openapi.yml
+  format: yaml
+  label: Procore Rate Tables (Project) API
+  slug: procore-rate-tables-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-tables-project-api-openapi.yml
+- filename: procore-requirement-controller-api-openapi.yml
+  format: yaml
+  label: Procore Requirement Controller API
+  slug: procore-requirement-controller-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-requirement-controller-api-openapi.yml
+- filename: procore-time-and-material-subcontractor-api-openapi.yml
+  format: yaml
+  label: Procore Time And Material Subcontractor API
+  slug: procore-time-and-material-subcontractor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-time-and-material-subcontractor-api-openapi.yml
 - filename: procore-purchase-orders-api-openapi.yml
   format: yaml
   label: Procore Purchase Orders API

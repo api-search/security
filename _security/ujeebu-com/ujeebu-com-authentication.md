@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ujeebu Com Authentication
+name: ujeebu-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ujeebu-com declares 1 security scheme(s) across its OpenAPI definitions.

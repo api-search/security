@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Massey Authentication
+name: Massey University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Massey University declares 0 security scheme(s) across its OpenAPI definitions.

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Absencesoft Trust Center
+name: AbsenceSoft Trust Center
 name_suffix: Trust Center
 overview: AbsenceSoft maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: AbsenceSoft

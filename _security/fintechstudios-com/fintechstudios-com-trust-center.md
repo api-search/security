@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fintechstudios Com Trust Center
+name: FinTech Studios Trust Center
 name_suffix: Trust Center
 overview: FinTech Studios maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: FinTech Studios
@@ -26,9 +26,9 @@ source_yaml: "generated: '2026-11-08'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/fintechstudios-com/security/fintechstudios-com-trust-center.yml
 summary_line: SOC 2, GDPR
 tags:
-- AI
+- Artificial Intelligence
 - Intelligence
-- Real-time
+- Real-Time
 - News
 - Data
 trust_url: https://www.fintechstudios.com/security

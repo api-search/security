@@ -149,7 +149,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Agenttrafficlab Com Domain Security
+name: Agent Traffic Lab Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Agent Traffic Lab, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Agent Traffic Lab

@@ -68,7 +68,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Ntt Docomo Domain Security
+name: NTT Docomo Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for NTT Docomo, probed live across 4 host(s) and 2 registrable domain(s). 4 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: NTT Docomo

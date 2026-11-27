@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Kronos Seshat Authentication
+name: Kronos Quant Signal API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Kronos Quant Signal API secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

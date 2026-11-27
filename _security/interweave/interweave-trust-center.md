@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Interweave Trust Center
+name: InterWevae Smart Solutions Trust Center
 name_suffix: Trust Center
 overview: InterWevae Smart Solutions maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: InterWevae Smart Solutions

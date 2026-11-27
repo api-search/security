@@ -259,7 +259,7 @@ hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed
-name: Alto Vebra Domain Security
+name: Alto (Vebra / Zoopla) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Alto (Vebra / Zoopla), probed live across 8 host(s) and 4 registrable domain(s). 8 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Alto (Vebra / Zoopla)

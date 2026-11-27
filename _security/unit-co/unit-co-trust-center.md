@@ -109,7 +109,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Unit Co Trust Center
+name: Unit Trust Center
 name_suffix: Trust Center
 overview: Unit maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: Unit

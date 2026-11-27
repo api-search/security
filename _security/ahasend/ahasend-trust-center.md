@@ -111,7 +111,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ahasend Trust Center
+name: AhaSend Trust Center
 name_suffix: Trust Center
 overview: AhaSend maintains a public trust center documenting GDPR, Certified Senders Alliance (CSA), ISO/IEC 27001, and SOC 2 compliance.
 provider_name: AhaSend

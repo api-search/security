@@ -22,7 +22,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Punkapi Domain Security
+name: Punk API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Punk API, probed live across 2 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
 provider_name: Punk API

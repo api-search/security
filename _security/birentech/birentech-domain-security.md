@@ -13,7 +13,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Birentech Domain Security
+name: Biren Technology Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Biren Technology, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Biren Technology

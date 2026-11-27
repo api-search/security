@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Animal And Plant Health Inspection Service Authentication
+name: Animal and Plant Health Inspection Service Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Animal and Plant Health Inspection Service declares 4 security scheme(s) across its OpenAPI definitions.

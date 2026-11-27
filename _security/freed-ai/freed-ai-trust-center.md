@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Freed Ai Trust Center
+name: Freed Trust Center
 name_suffix: Trust Center
 overview: Freed maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Freed

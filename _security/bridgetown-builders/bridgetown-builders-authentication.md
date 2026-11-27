@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bridgetown Builders Authentication
+name: Bridge Town Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bridge Town declares 1 security scheme(s) across its OpenAPI definitions.

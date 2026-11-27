@@ -97,7 +97,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Nih Domain Security
+name: National Institutes of Health (NIH) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for National Institutes of Health (NIH), probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: National Institutes of Health (NIH)

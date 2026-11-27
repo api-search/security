@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Homecoverhq Com Authentication
+name: homecoverhq-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: homecoverhq-com declares 1 security scheme(s) across its OpenAPI definitions.

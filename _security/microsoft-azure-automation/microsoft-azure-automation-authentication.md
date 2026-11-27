@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-automation-automation-accounts-api-openapi.yml
-  format: yaml
-  label: Azure Automation Accounts API
-  slug: microsoft-azure-automation-automation-accounts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-automation/openapi/microsoft-azure-automation-automation-accounts-api-openapi.yml
 - filename: microsoft-azure-automation-operations-api-openapi.yml
   format: yaml
   label: Azure Automation Operations API
@@ -303,7 +297,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Microsoft Azure Automation Authentication
+name: Azure Automation Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
@@ -319,15 +313,15 @@ schemes:
     scopes: 1
   name: azure_auth
   sources:
-  - openapi/microsoft-azure-automation-automation-accounts-api-openapi.yml
+  - openapi/_superseded/microsoft-azure-automation-automation-accounts-api-openapi.yml
   - openapi/microsoft-azure-automation-management-openapi.yml
-  - openapi/microsoft-azure-automation-operations-api-openapi.yml
+  - openapi/_superseded/microsoft-azure-automation-operations-api-openapi.yml
   type: oauth2
 slug: microsoft-azure-automation-authentication
 source_filename: microsoft-azure-automation-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-automation-automation-accounts-api-openapi.yml, openapi/microsoft-azure-automation-management-openapi.yml,\n  openapi/microsoft-azure-automation-operations-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-automation-automation-accounts-api-openapi.yml\n  - openapi/microsoft-azure-automation-management-openapi.yml\n  - openapi/microsoft-azure-automation-operations-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/_superseded/microsoft-azure-automation-automation-accounts-api-openapi.yml, openapi/microsoft-azure-automation-management-openapi.yml,\n  openapi/_superseded/microsoft-azure-automation-operations-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/_superseded/microsoft-azure-automation-automation-accounts-api-openapi.yml\n  - openapi/microsoft-azure-automation-management-openapi.yml\n  - openapi/_superseded/microsoft-azure-automation-operations-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-automation/authentication/microsoft-azure-automation-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Konfetti Authentication
+name: konfetti Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: konfetti secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

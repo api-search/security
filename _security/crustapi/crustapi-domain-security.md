@@ -12,6 +12,12 @@ api_specs:
   slug: crustapi-search-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/crustapi/openapi/crustapi-search-api-openapi.yml
+- filename: crustapi-account-api-openapi.yml
+  format: yaml
+  label: CrustAPI Account API
+  slug: crustapi-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/crustapi/openapi/crustapi-account-api-openapi.yml
 - filename: crustapi-linked-in-api-openapi.yml
   format: yaml
   label: CrustAPI Linked In API
@@ -37,7 +43,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Crustapi Domain Security
+name: CrustAPI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CrustAPI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: CrustAPI

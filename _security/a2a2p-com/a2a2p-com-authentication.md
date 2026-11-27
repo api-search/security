@@ -122,7 +122,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: A2A2P Com Authentication
+name: a2a2p Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: a2a2p declares 0 security scheme(s) across its OpenAPI definitions.

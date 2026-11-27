@@ -49,7 +49,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Autoleadstar Trust Center
+name: AutoLeadStar Trust Center
 name_suffix: Trust Center
 overview: AutoLeadStar maintains a public trust center documenting ISO/IEC 27001 and ISO/IEC 42001 compliance.
 provider_name: AutoLeadStar

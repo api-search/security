@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: University Of Copenhagen Authentication
+name: University of Copenhagen Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Copenhagen declares 0 security scheme(s) across its OpenAPI definitions.

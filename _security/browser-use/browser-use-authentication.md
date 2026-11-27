@@ -3,24 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: browser-use-billing-api-openapi.yml
-  format: yaml
-  label: Browser Use Billing API
-  slug: browser-use-billing-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/browser-use/openapi/browser-use-billing-api-openapi.yml
 - filename: browser-use-browsers-api-openapi.yml
   format: yaml
   label: Browser Use Browsers API
   slug: browser-use-browsers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/browser-use/openapi/browser-use-browsers-api-openapi.yml
-- filename: browser-use-files-api-openapi.yml
-  format: yaml
-  label: Browser Use Files API
-  slug: browser-use-files-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/browser-use/openapi/browser-use-files-api-openapi.yml
 - filename: browser-use-profiles-api-openapi.yml
   format: yaml
   label: Browser Use Profiles API
@@ -39,36 +27,12 @@ api_specs:
   slug: browser-use-sessions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/browser-use/openapi/browser-use-sessions-api-openapi.yml
-- filename: browser-use-skills-api-openapi.yml
-  format: yaml
-  label: Browser Use Skills API
-  slug: browser-use-skills-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/browser-use/openapi/browser-use-skills-api-openapi.yml
-- filename: browser-use-skills-marketplace-api-openapi.yml
-  format: yaml
-  label: Browser Use Skills Marketplace API
-  slug: browser-use-skills-marketplace-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/browser-use/openapi/browser-use-skills-marketplace-api-openapi.yml
-- filename: browser-use-tasks-api-openapi.yml
-  format: yaml
-  label: Browser Use Tasks API
-  slug: browser-use-tasks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/browser-use/openapi/browser-use-tasks-api-openapi.yml
 - filename: browser-use-workspaces-api-openapi.yml
   format: yaml
   label: Browser Use Workspaces API
   slug: browser-use-workspaces-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/browser-use/openapi/browser-use-workspaces-api-openapi.yml
-- filename: browser-use-x402-api-openapi.yml
-  format: yaml
-  label: Browser Use X402 API
-  slug: browser-use-x402-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/browser-use/openapi/browser-use-x402-api-openapi.yml
 - filename: browser-use-extensions-api-openapi.yml
   format: yaml
   label: Browser Use Extensions API

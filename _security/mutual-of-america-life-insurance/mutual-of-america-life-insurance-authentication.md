@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Mutual Of America Life Insurance Authentication
+name: Mutual of America Life Insurance Company Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Mutual of America Life Insurance Company declares 2 security scheme(s) across its OpenAPI definitions.

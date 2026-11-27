@@ -127,7 +127,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Frameio Trust Center
+name: Frame.io Trust Center
 name_suffix: Trust Center
 overview: Frame.io maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Frame.io

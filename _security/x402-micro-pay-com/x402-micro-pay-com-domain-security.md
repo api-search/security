@@ -25,7 +25,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: X402 Micro Pay Com Domain Security
+name: x402-micro-pay-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for x402-micro-pay-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
 provider_name: x402-micro-pay-com

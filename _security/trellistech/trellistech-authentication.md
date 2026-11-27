@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Trellistech Authentication
+name: Trellis Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Trellis declares 2 security scheme(s) across its OpenAPI definitions.

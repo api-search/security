@@ -690,7 +690,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: derived
-name: Tui Group Authentication
+name: TUI Group Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

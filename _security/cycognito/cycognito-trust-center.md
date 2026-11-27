@@ -80,7 +80,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cycognito Trust Center
+name: CyCognito Trust Center
 name_suffix: Trust Center
 overview: CyCognito maintains a public trust center documenting SOC 2 Type II, ISO/IEC 27001, and GDPR compliance.
 provider_name: CyCognito

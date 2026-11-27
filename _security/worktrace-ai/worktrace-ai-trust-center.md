@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Worktrace Ai Trust Center
+name: Worktrace AI Trust Center
 name_suffix: Trust Center
 overview: Worktrace AI maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Worktrace AI

@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Modelcostcomparison Com Authentication
+name: Model Cost Comparison Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Model Cost Comparison declares 1 security scheme(s) across its OpenAPI definitions.

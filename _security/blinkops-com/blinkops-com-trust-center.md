@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Blinkops Com Trust Center
+name: Blink Trust Center
 name_suffix: Trust Center
 overview: Blink maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Blink

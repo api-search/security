@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: html2img-com-account-api-openapi.yml
-  format: yaml
-  label: html2img-com Account API
-  slug: html2img-com-account-api
+- filename: html2img-com-api-openapi.json
+  format: json
+  label: HTML to Image API API
+  slug: html-to-image-api-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-account-api-openapi.yml
-- filename: html2img-com-html-rendering-api-openapi.yml
-  format: yaml
-  label: html2img-com HTML rendering API
-  slug: html2img-com-html-rendering-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-html-rendering-api-openapi.yml
-- filename: html2img-com-screenshots-api-openapi.yml
-  format: yaml
-  label: html2img-com Screenshots API
-  slug: html2img-com-screenshots-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-screenshots-api-openapi.yml
-- filename: html2img-com-templates-api-openapi.yml
-  format: yaml
-  label: html2img-com Templates API
-  slug: html2img-com-templates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-templates-api-openapi.yml
+  url: https://artifacts.apis.io/html2img-com/openapi/_original/html2img-com-api-openapi.json
 description: ''
 domains:
 - caa: []
@@ -42,7 +24,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Html2Img Com Domain Security
+name: html2img-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for html2img-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: html2img-com

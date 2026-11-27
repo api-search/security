@@ -122,7 +122,7 @@ hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed
-name: Atco Domain Security
+name: ATCO Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ATCO, probed live across 7 host(s) and 3 registrable domain(s). 7 host(s) serve HTTPS (up to TLSv1.3); 5 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: ATCO

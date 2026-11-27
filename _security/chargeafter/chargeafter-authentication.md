@@ -83,7 +83,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Chargeafter Authentication
+name: ChargeAfter Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ChargeAfter secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

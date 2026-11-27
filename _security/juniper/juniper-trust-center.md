@@ -1547,7 +1547,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Juniper Trust Center
+name: Juniper Networks Trust Center
 name_suffix: Trust Center
 overview: Juniper Networks maintains a public trust center covering its security and compliance posture.
 provider_name: Juniper Networks

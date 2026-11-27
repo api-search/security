@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Bet9Ja Domain Security
+name: Bet9ja Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Bet9ja, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Bet9ja
@@ -34,5 +34,5 @@ tags:
 - Sports Betting
 - Gaming
 - Nigeria
-- Online Platform
+- OnlinePlatform
 ---

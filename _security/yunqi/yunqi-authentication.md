@@ -2,12 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: yunqi-datasource-api-openapi.yml
+- filename: yunqi-analytics-agent-api-openapi.yml
   format: yaml
-  label: Yunqi (ClickZetta / Singdata Lakehouse) Data Source API
-  slug: yunqi-datasource-api
+  label: Yunqi Analytics Agent Open API
+  slug: yunqi-analytics-agent-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/yunqi/openapi/yunqi-datasource-api-openapi.yml
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-analytics-agent-api-openapi.yml
+- filename: yunqi-ai-gateway-api-openapi.yml
+  format: yaml
+  label: Yunqi AI Gateway API
+  slug: yunqi-ai-gateway-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-ai-gateway-api-openapi.yml
 - filename: yunqi-dqc-api-openapi.yml
   format: yaml
   label: Yunqi (ClickZetta / Singdata Lakehouse) Dqc API
@@ -56,6 +62,12 @@ api_specs:
   slug: yunqi-workspace-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/yunqi/openapi/yunqi-workspace-api-openapi.yml
+- filename: yunqi-data-source-api-openapi.yml
+  format: yaml
+  label: Yunqi (ClickZetta / Singdata Lakehouse) Data Source API
+  slug: yunqi-data-source-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/yunqi/openapi/yunqi-data-source-api-openapi.yml
 auth_types:
 - username-password
 - key-pair
@@ -65,7 +77,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Yunqi Authentication
+name: Yunqi (ClickZetta / Singdata Lakehouse) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Yunqi (ClickZetta / Singdata Lakehouse) secures its APIs with username-password, key-pair, and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions.

@@ -199,7 +199,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Miso Authentication
+name: MISO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MISO secures its APIs with none, apiKey, and mutualTLS across 2 declared security schemes, as derived from its OpenAPI definitions.

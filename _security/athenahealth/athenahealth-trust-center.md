@@ -146,7 +146,7 @@ certifications:
 description: 'athenahealth runs a dedicated trust center at trust.athenahealth.com, hosted on Vanta, and separately publishes a plain-language certifications page on its own corporate site. The two are complementary: the corporate page NAMES the certifications and is fully machine-readable; the trust center holds the actual attestation documents and gates them behind a request form.'
 kind: trust-center
 layout: security
-name: Athenahealth Trust Center
+name: athenahealth Trust Center
 name_suffix: Trust Center
 overview: athenahealth maintains a public trust center documenting HITRUST CSF Certified, PCI DSS, SOC 1 (SSAE 18), EPCS (Electronic Prescriptions for Controlled Substances), DirectTrust HISP accreditation, DirectTrust CA/RA accreditation, Kantara full-service Credentialing Service Provider, EHNAC accreditation, and ONC Certified Health IT, 2015 Edition compliance.
 provider_name: athenahealth

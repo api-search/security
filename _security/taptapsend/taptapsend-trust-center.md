@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Taptapsend Trust Center
+name: Taptap Send Trust Center
 name_suffix: Trust Center
 overview: Taptap Send maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: Taptap Send

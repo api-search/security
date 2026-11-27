@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Passage 1Password Authentication
+name: Passage by 1Password Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Passage by 1Password secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

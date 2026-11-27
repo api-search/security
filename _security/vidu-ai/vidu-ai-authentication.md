@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: documented
-name: Vidu Ai Authentication
+name: Vidu Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Vidu secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

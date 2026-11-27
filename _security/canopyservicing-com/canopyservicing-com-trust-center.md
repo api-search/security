@@ -199,7 +199,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Canopyservicing Com Trust Center
+name: Canopy Trust Center
 name_suffix: Trust Center
 overview: Canopy maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: Canopy

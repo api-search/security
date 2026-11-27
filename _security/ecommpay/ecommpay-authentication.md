@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ecommpay Authentication
+name: ECOMMPAY Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ECOMMPAY secures its APIs with signature-hmac across 1 declared security scheme, as derived from its OpenAPI definitions.

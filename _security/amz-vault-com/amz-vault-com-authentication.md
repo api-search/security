@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Amz Vault Com Authentication
+name: AMZ Vault Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AMZ Vault declares 0 security scheme(s) across its OpenAPI definitions.

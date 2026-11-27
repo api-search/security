@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Thehive Ai Authentication
+name: Hive Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hive declares 1 security scheme(s) across its OpenAPI definitions.

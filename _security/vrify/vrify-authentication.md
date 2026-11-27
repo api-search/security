@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Vrify Authentication
+name: VRIFY Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VRIFY declares 0 security scheme(s) across its OpenAPI definitions.

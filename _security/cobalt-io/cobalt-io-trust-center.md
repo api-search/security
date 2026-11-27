@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cobalt Io Trust Center
+name: Cobalt Trust Center
 name_suffix: Trust Center
 overview: Cobalt maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and HIPAA compliance.
 provider_name: Cobalt

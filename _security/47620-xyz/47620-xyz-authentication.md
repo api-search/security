@@ -106,7 +106,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: 47620 Xyz Authentication
+name: 47620-xyz Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 47620-xyz secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Socalgas Com Domain Security
+name: Southern California Gas Company Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Southern California Gas Company, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Southern California Gas Company

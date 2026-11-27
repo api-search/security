@@ -192,6 +192,12 @@ api_specs:
   slug: cloudfront-vpc-origin-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cloudfront/openapi/cloudfront-vpc-origin-api-openapi.yml
+- filename: cloudfront-keys-api-openapi.yml
+  format: yaml
+  label: CloudFront Keys API
+  slug: cloudfront-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudfront/openapi/cloudfront-keys-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -202,7 +208,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cloudfront Trust Center
+name: CloudFront Trust Center
 name_suffix: Trust Center
 overview: CloudFront maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: CloudFront

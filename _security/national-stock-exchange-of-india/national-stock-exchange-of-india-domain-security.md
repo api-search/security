@@ -32,7 +32,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: National Stock Exchange Of India Domain Security
+name: National Stock Exchange of India Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for National Stock Exchange of India, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: National Stock Exchange of India

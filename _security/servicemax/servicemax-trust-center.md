@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Servicemax Trust Center
+name: ServiceMax Trust Center
 name_suffix: Trust Center
 overview: ServiceMax maintains a public trust center covering its security and compliance posture.
 provider_name: ServiceMax

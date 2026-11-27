@@ -58,7 +58,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Stay Ai Authentication
+name: Stay AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Stay AI secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: eden-ai-ai-detection-api-openapi.yml
-  format: yaml
-  label: Eden AI Ai Detection API
-  slug: eden-ai-ai-detection-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-ai-detection-api-openapi.yml
-- filename: eden-ai-anonymization-api-openapi.yml
-  format: yaml
-  label: Eden AI Anonymization API
-  slug: eden-ai-anonymization-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-anonymization-api-openapi.yml
 - filename: eden-ai-anonymization-async-api-openapi.yml
   format: yaml
   label: Eden AI Anonymization Async API
@@ -342,12 +330,6 @@ api_specs:
   slug: eden-ai-prompt-optimization-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-prompt-optimization-api-openapi.yml
-- filename: eden-ai-question-answer-api-openapi.yml
-  format: yaml
-  label: Eden AI Question Answer API
-  slug: eden-ai-question-answer-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-question-answer-api-openapi.yml
 - filename: eden-ai-question-answer-async-api-openapi.yml
   format: yaml
   label: Eden AI Question Answer Async API
@@ -474,6 +456,30 @@ api_specs:
   slug: eden-ai-videos-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-videos-api-openapi.yml
+- filename: eden-ai-ai-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Ai Detection API
+  slug: eden-ai-ai-detection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-ai-detection-api-openapi.yml
+- filename: eden-ai-anonymization-api-openapi.yml
+  format: yaml
+  label: Eden AI Anonymization API
+  slug: eden-ai-anonymization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-anonymization-api-openapi.yml
+- filename: eden-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Eden AI Chat Completions API
+  slug: eden-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-chat-completions-api-openapi.yml
+- filename: eden-ai-question-answer-api-openapi.yml
+  format: yaml
+  label: Eden AI Question Answer API
+  slug: eden-ai-question-answer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-question-answer-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -510,7 +516,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Eden Ai Domain Security
+name: Eden AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Eden AI, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Eden AI

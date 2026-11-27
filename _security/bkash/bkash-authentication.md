@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bkash Authentication
+name: bKash Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: bKash secures its APIs with token and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

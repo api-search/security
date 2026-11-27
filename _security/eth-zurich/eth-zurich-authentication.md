@@ -238,7 +238,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Eth Zurich Authentication
+name: ETH Zurich – Swiss Federal Institute of Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ETH Zurich – Swiss Federal Institute of Technology secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -222,25 +222,23 @@ api_specs:
   slug: agentrux-com-well-known-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agentrux-com/openapi/agentrux-com-well-known-api-openapi.yml
-certification_count: 2
-certifications:
-- SOC 2
-- GDPR
+certification_count: 0
+certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Agentrux Com Trust Center
+name: AgenTrux Trust Center
 name_suffix: Trust Center
-overview: AgenTrux maintains a public trust center documenting SOC 2 and GDPR compliance.
+overview: AgenTrux maintains a public trust center covering its security and compliance posture.
 provider_name: AgenTrux
 provider_slug: agentrux-com
 slug: agentrux-com-trust-center
 source_filename: agentrux-com-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-11-01'\nmethod: searched\nprobe: true\nsource: https://agentrux.com/trust\nurl: https://agentrux.com/trust\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://agentrux.com/trust\n  keywords:\n  - soc 2\n  - gdpr\n"
+source_yaml: "generated: '2026-11-01'\nmethod: searched\nprobe: true\nsource: https://agentrux.com/trust\nurl: https://agentrux.com/trust\ncertifications: []\nevidence:\n- source: https://agentrux.com/trust\n  keywords:\n  - soc 2\n  - gdpr\ncertifications_in_progress:\n- SOC 2\n- GDPR\ncertification_quotes:\n  SOC 2: and upcoming SOC 2 compliance audits. | \U0001F465 | Business Group Management | Organize agents\n  GDPR: tamper-proof storage. Retention up to 7 years for GDPR and upcoming\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/agentrux-com/security/agentrux-com-trust-center.yml
-summary_line: SOC 2, GDPR
+summary_line: trust center published
 tags:
 - Artificial Intelligence
 - Security

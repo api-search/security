@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Sealgate Jp Authentication
+name: sealgate-jp Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: sealgate-jp declares 1 security scheme(s) across its OpenAPI definitions.

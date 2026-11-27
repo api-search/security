@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Awardsecrets Com Authentication
+name: AwardSecrets Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AwardSecrets declares 1 security scheme(s) across its OpenAPI definitions.

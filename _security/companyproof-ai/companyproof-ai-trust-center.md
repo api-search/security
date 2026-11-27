@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Companyproof Ai Trust Center
+name: companyproof-ai Trust Center
 name_suffix: Trust Center
 overview: companyproof-ai maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: companyproof-ai

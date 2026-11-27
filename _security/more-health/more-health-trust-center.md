@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: More Health Trust Center
+name: MORE Health Trust Center
 name_suffix: Trust Center
 overview: MORE Health maintains a public trust center documenting HIPAA, GDPR, and ISO 27001 compliance.
 provider_name: MORE Health

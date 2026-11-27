@@ -161,7 +161,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Vaquill Ai Trust Center
+name: Vaquill AI Trust Center
 name_suffix: Trust Center
 overview: Vaquill AI maintains a public trust center covering its security and compliance posture.
 provider_name: Vaquill AI

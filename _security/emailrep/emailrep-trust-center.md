@@ -119,7 +119,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Emailrep Trust Center
+name: EmailRep Trust Center
 name_suffix: Trust Center
 overview: EmailRep maintains a public trust center covering its security and compliance posture.
 provider_name: EmailRep

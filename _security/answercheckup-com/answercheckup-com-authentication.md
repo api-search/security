@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Answercheckup Com Authentication
+name: Answer Checkup Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Answer Checkup declares 0 security scheme(s) across its OpenAPI definitions.

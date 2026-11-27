@@ -116,7 +116,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cloudforbots Com Authentication
+name: cloudforbots-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: cloudforbots-com declares 1 security scheme(s) across its OpenAPI definitions.

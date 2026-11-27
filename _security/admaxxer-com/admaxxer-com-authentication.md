@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Admaxxer Com Authentication
+name: Admaxxer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Admaxxer declares 1 security scheme(s) across its OpenAPI definitions.

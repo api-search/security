@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Betterup Trust Center
+name: BetterUp Trust Center
 name_suffix: Trust Center
 overview: BetterUp maintains a public trust center documenting SOC 2 Type 2, SOC 3, ISO/IEC 27001:2022, ISO/IEC 42001:2023, FedRAMP, GovRAMP, GDPR, CCPA, PIPEDA, and EU-US Data Privacy Framework compliance.
 provider_name: BetterUp

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Songbrain Ai Trust Center
+name: songbrain-ai Trust Center
 name_suffix: Trust Center
 overview: songbrain-ai maintains a public trust center documenting GDPR compliance.
 provider_name: songbrain-ai

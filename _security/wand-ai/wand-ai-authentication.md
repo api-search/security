@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Wand Ai Authentication
+name: Wand Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Wand declares 3 security scheme(s) across its OpenAPI definitions.

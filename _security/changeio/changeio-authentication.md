@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Changeio Authentication
+name: Change.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Change.io declares 1 security scheme(s) across its OpenAPI definitions.

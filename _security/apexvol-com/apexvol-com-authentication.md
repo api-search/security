@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Apexvol Com Authentication
+name: ApexVol Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ApexVol declares 1 security scheme(s) across its OpenAPI definitions.

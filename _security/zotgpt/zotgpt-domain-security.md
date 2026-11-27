@@ -76,7 +76,7 @@ hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed
-name: Zotgpt Domain Security
+name: ZotGPT (UC Irvine) Domain Security
 name_suffix: Domain Security
 overview: Domain security posture for ZotGPT (UC Irvine), probed live across 7 host(s) and 0 registrable domain(s).
 provider_name: ZotGPT (UC Irvine)

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Getpequity Trust Center
+name: Pequity Trust Center
 name_suffix: Trust Center
 overview: Pequity maintains a public trust center documenting SOC 2 Type 2 and GDPR compliance.
 provider_name: Pequity

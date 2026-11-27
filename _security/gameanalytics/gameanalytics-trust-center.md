@@ -25,7 +25,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gameanalytics Trust Center
+name: GameAnalytics Trust Center
 name_suffix: Trust Center
 overview: GameAnalytics maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: GameAnalytics

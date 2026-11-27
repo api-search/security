@@ -138,7 +138,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Sap Bi Authentication
+name: SAP Business Intelligence Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -73,7 +73,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Cogdepot Com Authentication
+name: cogDepot Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode (PKCE S256) on the MCP host only

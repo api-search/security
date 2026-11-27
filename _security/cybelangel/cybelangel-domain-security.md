@@ -124,7 +124,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Cybelangel Domain Security
+name: CybelAngel Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CybelAngel, probed live across 5 host(s) and 1 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: CybelAngel

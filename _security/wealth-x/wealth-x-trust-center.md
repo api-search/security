@@ -25,7 +25,7 @@ certifications:
 description: Wealth-X publishes no security or trust page of its own, and probe-security-programs.py found no security.txt, bug bounty, or trust center on any wealthx.com host. Its parent Altrata publishes a named compliance posture on "Altrata's Privacy Promise", and the llms.txt served from Wealth-X's own domain (https://wealthx.com/llms.txt) states plainly that "Altrata is a subsidiary of Delinian and is SOC 2 certified."
 kind: trust-center
 layout: security
-name: Wealth X Trust Center
+name: Wealth-X Trust Center
 name_suffix: Trust Center
 overview: Wealth-X maintains a public trust center documenting SOC 2 and CCPA Validation compliance.
 provider_name: Wealth-X

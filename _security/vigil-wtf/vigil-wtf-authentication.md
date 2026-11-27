@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Vigil Wtf Authentication
+name: Vigil Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Vigil declares 2 security scheme(s) across its OpenAPI definitions.

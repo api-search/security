@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Artificl Us Authentication
+name: artificl-us Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: artificl-us declares 0 security scheme(s) across its OpenAPI definitions.

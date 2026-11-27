@@ -152,7 +152,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Switchlabs Authentication
+name: Switch Labs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Switch Labs declares 1 security scheme(s) across its OpenAPI definitions.

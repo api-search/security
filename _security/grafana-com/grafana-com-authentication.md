@@ -254,7 +254,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Grafana Com Authentication
+name: Grafana Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Grafana declares 3 security scheme(s) across its OpenAPI definitions.

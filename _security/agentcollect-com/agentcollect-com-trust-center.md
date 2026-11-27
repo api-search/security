@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agentcollect Com Trust Center
+name: AgentCollect Trust Center
 name_suffix: Trust Center
 overview: AgentCollect maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: AgentCollect

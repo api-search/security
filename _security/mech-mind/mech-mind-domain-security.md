@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Mech Mind Domain Security
+name: Mech-Mind Robotics Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Mech-Mind Robotics, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: Mech-Mind Robotics

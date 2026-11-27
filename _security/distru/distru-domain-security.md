@@ -102,6 +102,30 @@ api_specs:
   slug: distru-vehicles-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/distru/openapi/distru-vehicles-api-openapi.yml
+- filename: distru-custom-fields-api-openapi.yml
+  format: yaml
+  label: Distru Custom Fields API
+  slug: distru-custom-fields-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/distru/openapi/distru-custom-fields-api-openapi.yml
+- filename: distru-file-attachments-api-openapi.yml
+  format: yaml
+  label: Distru File Attachments API
+  slug: distru-file-attachments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/distru/openapi/distru-file-attachments-api-openapi.yml
+- filename: distru-payment-methods-api-openapi.yml
+  format: yaml
+  label: Distru Payment Methods API
+  slug: distru-payment-methods-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/distru/openapi/distru-payment-methods-api-openapi.yml
+- filename: distru-test-results-api-openapi.yml
+  format: yaml
+  label: Distru Test Results API
+  slug: distru-test-results-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/distru/openapi/distru-test-results-api-openapi.yml
 - filename: distru-assembly-api-openapi.yml
   format: yaml
   label: Distru Assembly API
@@ -444,18 +468,6 @@ api_specs:
   slug: distru-custom-field-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/distru/openapi/distru-custom-field-api-openapi.yml
-- filename: distru-custom-fields-api-openapi.yml
-  format: yaml
-  label: Distru Custom Fields API
-  slug: distru-custom-fields-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/distru/openapi/distru-custom-fields-api-openapi.yml
-- filename: distru-file-attachments-api-openapi.yml
-  format: yaml
-  label: Distru File Attachments API
-  slug: distru-file-attachments-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/distru/openapi/distru-file-attachments-api-openapi.yml
 - filename: distru-order-fulfillment-api-openapi.yml
   format: yaml
   label: Distru Order Fulfillment API
@@ -468,12 +480,6 @@ api_specs:
   slug: distru-payment-method-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/distru/openapi/distru-payment-method-api-openapi.yml
-- filename: distru-payment-methods-api-openapi.yml
-  format: yaml
-  label: Distru Payment Methods API
-  slug: distru-payment-methods-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/distru/openapi/distru-payment-methods-api-openapi.yml
 - filename: distru-payment-term-api-openapi.yml
   format: yaml
   label: Distru Payment Term API
@@ -492,12 +498,6 @@ api_specs:
   slug: distru-product-group-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/distru/openapi/distru-product-group-api-openapi.yml
-- filename: distru-test-results-api-openapi.yml
-  format: yaml
-  label: Distru Test Results API
-  slug: distru-test-results-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/distru/openapi/distru-test-results-api-openapi.yml
 description: ''
 domains:
 - caa: []

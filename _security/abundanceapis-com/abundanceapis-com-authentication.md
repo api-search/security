@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Abundanceapis Com Authentication
+name: abundanceapis-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: abundanceapis-com declares 0 security scheme(s) across its OpenAPI definitions.

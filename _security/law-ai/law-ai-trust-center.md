@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Law Ai Trust Center
+name: law-ai Trust Center
 name_suffix: Trust Center
 overview: law-ai maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: law-ai

@@ -308,7 +308,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Iit Bombay Authentication
+name: Indian Institute of Technology Bombay Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Indian Institute of Technology Bombay declares 4 security scheme(s) across its OpenAPI definitions.

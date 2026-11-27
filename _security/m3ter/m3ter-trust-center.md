@@ -402,7 +402,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: M3Ter Trust Center
+name: M3ter Trust Center
 name_suffix: Trust Center
 overview: M3ter maintains a public trust center documenting SOC 2 compliance.
 provider_name: M3ter

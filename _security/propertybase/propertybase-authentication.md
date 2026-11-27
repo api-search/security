@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Propertybase Authentication
+name: propertybase Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: propertybase declares 1 security scheme(s) across its OpenAPI definitions.

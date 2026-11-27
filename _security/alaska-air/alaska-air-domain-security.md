@@ -75,7 +75,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Alaska Air Domain Security
+name: Alaska Airlines Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Alaska Airlines, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Alaska Airlines

@@ -37,7 +37,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tryrook Io Trust Center
+name: ROOK Trust Center
 name_suffix: Trust Center
 overview: ROOK maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: ROOK

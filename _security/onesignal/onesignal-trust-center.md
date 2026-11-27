@@ -39,7 +39,7 @@ certifications:
 description: OneSignal publishes its security and compliance posture as documentation rather than as a hosted trust portal. The certifications are named specifically — SOC 2 Type II, ISO 27001, ISO 27701, EU-U.S. Data Privacy Framework — each with its own documentation page. Report artifacts themselves are not publicly downloadable.
 kind: trust-center
 layout: security
-name: Onesignal Trust Center
+name: OneSignal Trust Center
 name_suffix: Trust Center
 overview: OneSignal maintains a public trust center documenting SOC 2 Type II, ISO 27001, ISO 27701, and EU-U.S. Data Privacy Framework compliance.
 provider_name: OneSignal
@@ -71,7 +71,6 @@ tags:
 - Journeys
 - Lifecycle Marketing
 - MCP
-- Agent Ready
 - A2A
 trust_url: ''
 ---

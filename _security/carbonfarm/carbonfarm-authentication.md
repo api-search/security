@@ -48,7 +48,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Carbonfarm Authentication
+name: CarbonFarm Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

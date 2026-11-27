@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aarven Ch Authentication
+name: Aarven Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aarven declares 1 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Adrenalinelist Com Authentication
+name: Adrenaline List Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Adrenaline List declares 0 security scheme(s) across its OpenAPI definitions.

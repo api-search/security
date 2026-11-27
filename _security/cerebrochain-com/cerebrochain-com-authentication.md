@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Cerebrochain Com Authentication
+name: CerebroChain Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CerebroChain declares 2 security scheme(s) across its OpenAPI definitions.

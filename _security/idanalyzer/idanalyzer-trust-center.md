@@ -62,7 +62,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Idanalyzer Trust Center
+name: ID Analyzer Trust Center
 name_suffix: Trust Center
 overview: ID Analyzer maintains a public trust center documenting ISO 27001, HIPAA, and GDPR compliance.
 provider_name: ID Analyzer

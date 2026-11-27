@@ -30,7 +30,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Iss Api Domain Security
+name: ISS Location API (Open Notify) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ISS Location API (Open Notify), probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: ISS Location API (Open Notify)

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Pixelvault Dev Authentication
+name: pixelvault-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: pixelvault-dev declares 1 security scheme(s) across its OpenAPI definitions.

@@ -72,7 +72,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Digits Com Trust Center
+name: Digits Trust Center
 name_suffix: Trust Center
 overview: Digits maintains a public trust center documenting SOC 2 compliance.
 provider_name: Digits

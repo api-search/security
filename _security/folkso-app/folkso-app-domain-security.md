@@ -21,7 +21,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Folkso App Domain Security
+name: Folkso Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Folkso, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
 provider_name: Folkso
@@ -35,8 +35,8 @@ source_yaml_url: https://artifacts.apis.io/folkso-app/security/folkso-app-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- AI
+- Artificial Intelligence
 - Networking
-- Recruitment
+- Recruiting
 - Free
 ---

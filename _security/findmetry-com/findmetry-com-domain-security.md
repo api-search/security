@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Findmetry Com Domain Security
+name: Findmetry Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Findmetry, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC absent.'
 provider_name: Findmetry
@@ -30,9 +30,9 @@ source_yaml: "generated: '2026-11-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/findmetry-com/security/findmetry-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC
 tags:
-- Website
+- Websites
 - Diagnostics
 - Evidence
 - Technical
-- Service
+- Services
 ---

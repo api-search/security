@@ -134,7 +134,7 @@ certifications:
 description: 'MonetizeNow does not run a hosted trust center (no trust.<domain>, no security.<domain>, no Vanta/Drata/SafeBase portal was found). What it publishes instead is a single, substantive public Information Security Policy page that states its control environment, encryption, access, SDLC, vulnerability management, continuity and privacy posture. Read the certification claim carefully: the page says "SOC 2 Type II-ALIGNED control environment" and that the SOC 2 Type II summary and penetration-test attestation are "available to customers under NDA" — that is an alignment claim plus a gated report, not a published certificate. Nothing here is independently verifiable from the public surface.'
 kind: trust-center
 layout: security
-name: Monetizenow Trust Center
+name: MonetizeNow Trust Center
 name_suffix: Trust Center
 overview: MonetizeNow maintains a public trust center documenting SOC 2 Type II, GDPR, and Independent penetration testing compliance.
 provider_name: MonetizeNow

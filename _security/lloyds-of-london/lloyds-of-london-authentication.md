@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Lloyds Of London Authentication
+name: Lloyd's of London Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

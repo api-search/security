@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Datasnipper Trust Center
+name: DataSnipper Trust Center
 name_suffix: Trust Center
 overview: DataSnipper maintains a public trust center documenting SOC 2 Type II, GDPR, and EU-U.S. Data Privacy Framework compliance.
 provider_name: DataSnipper

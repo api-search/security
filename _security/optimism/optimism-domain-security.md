@@ -5,13 +5,13 @@ api_specs:
   label: OP Mainnet JSON-RPC
   slug: mainnet-rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimism/refs/heads/main/asyncapi/optimism-asyncapi.yml
+  url: https://artifacts.apis.io/optimism/asyncapi/optimism-asyncapi.yml
 - filename: optimism-asyncapi.yml
   format: yaml
   label: OP Sepolia JSON-RPC
   slug: sepolia-rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/optimism/refs/heads/main/asyncapi/optimism-asyncapi.yml
+  url: https://artifacts.apis.io/optimism/asyncapi/optimism-asyncapi.yml
 - filename: optimism-json-rpc-api-openapi.yml
   format: yaml
   label: Optimism JSON-RPC API

@@ -103,7 +103,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Weather Gov Domain Security
+name: Weather.gov Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Weather.gov, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC present (p=reject).'
 provider_name: Weather.gov

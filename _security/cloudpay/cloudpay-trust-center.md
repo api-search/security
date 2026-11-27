@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cloudpay Trust Center
+name: CloudPay Trust Center
 name_suffix: Trust Center
 overview: CloudPay maintains a public trust center documenting ISO 27001, ISO 27017, and ISO 27018 compliance.
 provider_name: CloudPay

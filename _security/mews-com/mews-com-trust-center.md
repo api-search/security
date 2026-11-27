@@ -459,7 +459,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mews Com Trust Center
+name: Mews Trust Center
 name_suffix: Trust Center
 overview: Mews maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: Mews

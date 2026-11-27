@@ -57,7 +57,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pactflow Trust Center
+name: PactFlow Trust Center
 name_suffix: Trust Center
 overview: PactFlow maintains a public trust center documenting ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: PactFlow

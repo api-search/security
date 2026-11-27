@@ -385,7 +385,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: derived
-name: Guestready Authentication
+name: GuestReady Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

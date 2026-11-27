@@ -201,7 +201,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: 7Signalsolutions Authentication
+name: 7SIGNAL Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

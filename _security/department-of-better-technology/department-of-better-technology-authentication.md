@@ -58,7 +58,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Department Of Better Technology Authentication
+name: Department of Better Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Department of Better Technology secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

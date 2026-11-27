@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Tickerall Com Authentication
+name: tickerall-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tickerall-com declares 0 security scheme(s) across its OpenAPI definitions.

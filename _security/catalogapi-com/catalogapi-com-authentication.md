@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Catalogapi Com Authentication
+name: catalogapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: catalogapi-com declares 1 security scheme(s) across its OpenAPI definitions.

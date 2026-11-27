@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Adarx Pharmaceuticals Authentication
+name: ADARx Pharmaceuticals Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ADARx Pharmaceuticals secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

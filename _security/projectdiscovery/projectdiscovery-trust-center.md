@@ -128,7 +128,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Projectdiscovery Trust Center
+name: ProjectDiscovery Trust Center
 name_suffix: Trust Center
 overview: ProjectDiscovery maintains a public trust center documenting SOC 2 Type 2, EU-US Data Privacy Framework (DPF), and UK Extension to EU-US DPF compliance.
 provider_name: ProjectDiscovery

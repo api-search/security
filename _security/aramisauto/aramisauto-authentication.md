@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Aramisauto Authentication
+name: AramisAuto Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AramisAuto declares 1 security scheme(s) across its OpenAPI definitions.

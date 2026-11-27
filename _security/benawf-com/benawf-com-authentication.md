@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Benawf Com Authentication
+name: BenAwf Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BenAwf declares 0 security scheme(s) across its OpenAPI definitions.

@@ -372,12 +372,6 @@ api_specs:
   slug: amazon-iot-core-violation-events-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-violation-events-api-openapi.yml
-- filename: amazon-iot-core-v2-logging-level-api-openapi.yml
-  format: yaml
-  label: Amazon IoT Core V2 Logging Level API
-  slug: amazon-iot-core-v2-logging-level-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-v2-logging-level-api-openapi.yml
 - filename: amazon-iot-core-certificate-providers-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Iot Core Certificate Providers API
@@ -414,6 +408,108 @@ api_specs:
   slug: amazon-iot-core-versions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-versions-api-openapi.yml
+- filename: amazon-iot-core-data-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Data API
+  slug: amazon-iot-core-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-data-api-openapi.yml
+- filename: amazon-iot-core-device-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Device Profiles API
+  slug: amazon-iot-core-device-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-device-profiles-api-openapi.yml
+- filename: amazon-iot-core-fuota-tasks-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Fuota Tasks API
+  slug: amazon-iot-core-fuota-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-fuota-tasks-api-openapi.yml
+- filename: amazon-iot-core-log-levels-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Log Levels API
+  slug: amazon-iot-core-log-levels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-log-levels-api-openapi.yml
+- filename: amazon-iot-core-multicast-groups-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Multicast Groups API
+  slug: amazon-iot-core-multicast-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-multicast-groups-api-openapi.yml
+- filename: amazon-iot-core-network-analyzer-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Network Analyzer Configurations API
+  slug: amazon-iot-core-network-analyzer-configurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-network-analyzer-configurations-api-openapi.yml
+- filename: amazon-iot-core-partner-accounts-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Partner Accounts API
+  slug: amazon-iot-core-partner-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-partner-accounts-api-openapi.yml
+- filename: amazon-iot-core-position-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Position Configurations API
+  slug: amazon-iot-core-position-configurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-position-configurations-api-openapi.yml
+- filename: amazon-iot-core-service-profiles-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Service Profiles API
+  slug: amazon-iot-core-service-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-service-profiles-api-openapi.yml
+- filename: amazon-iot-core-session-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Session API
+  slug: amazon-iot-core-session-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-session-api-openapi.yml
+- filename: amazon-iot-core-suitedefinitions-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Suitedefinitions API
+  slug: amazon-iot-core-suitedefinitions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-suitedefinitions-api-openapi.yml
+- filename: amazon-iot-core-suiteruns-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Suiteruns API
+  slug: amazon-iot-core-suiteruns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-suiteruns-api-openapi.yml
+- filename: amazon-iot-core-tasks-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Tasks API
+  slug: amazon-iot-core-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-tasks-api-openapi.yml
+- filename: amazon-iot-core-wireless-device-import-task-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Wireless Device Import Task API
+  slug: amazon-iot-core-wireless-device-import-task-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-wireless-device-import-task-api-openapi.yml
+- filename: amazon-iot-core-wireless-devices-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Wireless Devices API
+  slug: amazon-iot-core-wireless-devices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-wireless-devices-api-openapi.yml
+- filename: amazon-iot-core-wireless-gateway-task-definitions-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Wireless Gateway Task Definitions API
+  slug: amazon-iot-core-wireless-gateway-task-definitions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-wireless-gateway-task-definitions-api-openapi.yml
+- filename: amazon-iot-core-wireless-gateways-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core Iot Core Wireless Gateways API
+  slug: amazon-iot-core-wireless-gateways-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-wireless-gateways-api-openapi.yml
 - filename: amazon-iot-core-domain-configurations-api-openapi.yml
   format: yaml
   label: Amazon IoT Core Domain Configurations API
@@ -432,6 +528,12 @@ api_specs:
   slug: amazon-iot-core-ota-updates-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-ota-updates-api-openapi.yml
+- filename: amazon-iot-core-v2-logging-level-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Core V2 Logging Level API
+  slug: amazon-iot-core-v2-logging-level-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-core/openapi/amazon-iot-core-v2-logging-level-api-openapi.yml
 - filename: amazon-iot-core-v2-logging-options-api-openapi.yml
   format: yaml
   label: Amazon IoT Core V2 Logging Options API
@@ -448,7 +550,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Iot Core Trust Center
+name: Amazon IoT Core Trust Center
 name_suffix: Trust Center
 overview: Amazon IoT Core maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon IoT Core

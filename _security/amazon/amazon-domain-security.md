@@ -69,22 +69,21 @@ domains:
   domain: amazon.com
   spf: true
 hosts:
-- cert_expires: Jan  4 23:59:59 2027 GMT
+- cert_expires: May 22 23:59:59 2027 GMT
   host: developer.amazon.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov 18 23:59:59 2026 GMT
+- cert_expires: Jan 11 23:59:59 2027 GMT
   host: www.amazon.com
   hsts: true
   hsts_max_age: 47474747
   https: true
   tls_version: TLSv1.3
-- cert_expires: Jan  9 23:59:59 2027 GMT
-  host: developer-docs.amazon.com
-  hsts: true
-  hsts_max_age: 31536000
+- cert_expires: May 15 23:59:59 2027 GMT
+  host: affiliate-program.amazon.com
+  hsts: null
   https: true
   tls_version: TLSv1.3
 hosts_probed: 3
@@ -93,14 +92,14 @@ layout: security
 method: probed
 name: Amazon Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Amazon, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Amazon, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon
 provider_slug: amazon
 slug: amazon-domain-security
 source_filename: amazon-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 18 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47474747\n- host: developer-docs.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  9 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-11-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: developer.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: May 22 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: www.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 11 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 47474747\n- host: affiliate-program.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: May 15 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://artifacts.apis.io/amazon/security/amazon-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Harvey Ai Trust Center
+name: Harvey Trust Center
 name_suffix: Trust Center
 overview: Harvey maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Harvey

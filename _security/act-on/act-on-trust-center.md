@@ -153,7 +153,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Act On Trust Center
+name: Act-On Trust Center
 name_suffix: Trust Center
 overview: Act-On maintains a public trust center documenting ISO 27001, HIPAA, TX-RAMP, and TRUSTe compliance.
 provider_name: Act-On

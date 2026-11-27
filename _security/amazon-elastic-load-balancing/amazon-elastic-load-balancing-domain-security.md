@@ -60,6 +60,12 @@ api_specs:
   slug: amazon-elastic-load-balancing-trust-store-revocation-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-trust-store-revocation-api-openapi.yml
+- filename: amazon-elastic-load-balancing-load-balancer-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Elastic Load Balancing Elastic Load Balancing Load Balancer Policy API
+  slug: amazon-elastic-load-balancing-load-balancer-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-elastic-load-balancing/openapi/amazon-elastic-load-balancing-load-balancer-policy-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Federal Mediation And Conciliation Service Authentication
+name: Federal Mediation and Conciliation Service Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Federal Mediation and Conciliation Service secures its APIs with none across 0 declared security schemes, as derived from its OpenAPI definitions.

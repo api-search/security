@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Ninjavan Authentication
+name: Ninja Van Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ninja Van secures its APIs with oauth2 and http across 2 declared security schemes, as derived from its OpenAPI definitions.

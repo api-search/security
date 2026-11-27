@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aws Cli Trust Center
+name: AWS CLI Trust Center
 name_suffix: Trust Center
 overview: AWS CLI maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: AWS CLI

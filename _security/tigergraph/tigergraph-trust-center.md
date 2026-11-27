@@ -40,7 +40,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tigergraph Trust Center
+name: TigerGraph Trust Center
 name_suffix: Trust Center
 overview: TigerGraph maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: TigerGraph

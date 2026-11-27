@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Trustboost Dev Authentication
+name: TrustBoost PII Sanitizer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TrustBoost PII Sanitizer declares 0 security scheme(s) across its OpenAPI definitions.

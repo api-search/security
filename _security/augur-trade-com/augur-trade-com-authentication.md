@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Augur Trade Com Authentication
+name: augur-trade-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: augur-trade-com declares 1 security scheme(s) across its OpenAPI definitions.

@@ -136,7 +136,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Fodda Ai Domain Security
+name: Fodda (PSFK) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Fodda (PSFK), probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
 provider_name: Fodda (PSFK)

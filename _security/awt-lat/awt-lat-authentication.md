@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Awt Lat Authentication
+name: awt.lat Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: awt.lat declares 0 security scheme(s) across its OpenAPI definitions.

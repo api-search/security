@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Image Api Trust Center
+name: Image API Trust Center
 name_suffix: Trust Center
 overview: Image API maintains a public trust center documenting SOC 2, PCI DSS, and HIPAA compliance.
 provider_name: Image API

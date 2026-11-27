@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Threeflow Trust Center
+name: ThreeFlow Trust Center
 name_suffix: Trust Center
 overview: ThreeFlow maintains a public trust center documenting SOC 2 Type 2 and HITRUST E1 compliance.
 provider_name: ThreeFlow

@@ -23,7 +23,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Block402 Xyz Domain Security
+name: block402-xyz Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for block402-xyz, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: block402-xyz
@@ -40,7 +40,7 @@ tags:
 - AI Agents
 - Ethereum
 - Bitcoin
-- Pay‑per‑request
+- Pay-per-request
 - USDC
 - x402
 ---

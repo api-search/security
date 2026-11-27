@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Idle Authentication
+name: Idle Finance Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Idle Finance secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

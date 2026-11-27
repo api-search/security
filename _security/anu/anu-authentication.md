@@ -24,7 +24,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Anu Authentication
+name: Australian National University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Australian National University secures its APIs with apiKey, none, and saml2 across 5 declared security schemes, as derived from its OpenAPI definitions.

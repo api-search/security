@@ -195,7 +195,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Security Scorecard Trust Center
+name: SecurityScorecard Trust Center
 name_suffix: Trust Center
 overview: SecurityScorecard maintains a public trust center documenting ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: SecurityScorecard

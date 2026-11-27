@@ -1,11 +1,35 @@
 ---
 api_specs:
-- filename: desenmascara-me-openapi.yml
+- filename: desenmascara-me-domain-check-api-openapi.yml
   format: yaml
-  label: desenmascara.me API
-  slug: desenmascara-me-openapi
+  label: Desenmascara.me Domain Check API
+  slug: desenmascara-me-domain-check-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/desenmascara-me/openapi/desenmascara-me-openapi.yml
+  url: https://artifacts.apis.io/desenmascara-me/openapi/desenmascara-me-domain-check-api-openapi.yml
+- filename: desenmascara-me-fraud-feed-api-openapi.yml
+  format: yaml
+  label: Desenmascara.me Fraud Feed API
+  slug: desenmascara-me-fraud-feed-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/desenmascara-me/openapi/desenmascara-me-fraud-feed-api-openapi.yml
+- filename: desenmascara-me-public-api-openapi.yml
+  format: yaml
+  label: Desenmascara.me Public API
+  slug: desenmascara-me-public-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/desenmascara-me/openapi/desenmascara-me-public-api-openapi.yml
+- filename: desenmascara-me-search-api-openapi.yml
+  format: yaml
+  label: Desenmascara.me Search API
+  slug: desenmascara-me-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/desenmascara-me/openapi/desenmascara-me-search-api-openapi.yml
+- filename: desenmascara-me-threat-intel-api-openapi.yml
+  format: yaml
+  label: Desenmascara.me Threat Intel API
+  slug: desenmascara-me-threat-intel-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/desenmascara-me/openapi/desenmascara-me-threat-intel-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -25,7 +49,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Desenmascara Me Domain Security
+name: Desenmascara.me Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Desenmascara.me, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Desenmascara.me
@@ -38,5 +62,8 @@ source_yaml: "generated: '2026-11-05'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/desenmascara-me/security/desenmascara-me-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- Company
+- Fraud Prevention
+- Scam Prevention
+- Security
+- Risk Intelligence
 ---

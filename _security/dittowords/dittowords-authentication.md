@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Dittowords Authentication
+name: Ditto (dittowords.com) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ditto (dittowords.com) declares 2 security scheme(s) across its OpenAPI definitions.

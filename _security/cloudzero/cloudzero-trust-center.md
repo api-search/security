@@ -43,7 +43,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cloudzero Trust Center
+name: CloudZero Trust Center
 name_suffix: Trust Center
 overview: CloudZero maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: CloudZero

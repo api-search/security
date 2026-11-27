@@ -182,7 +182,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Asobeast Com Authentication
+name: AsoBeast Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AsoBeast declares 2 security scheme(s) across its OpenAPI definitions.

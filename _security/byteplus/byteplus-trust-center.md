@@ -16,7 +16,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Byteplus Trust Center
+name: BytePlus Trust Center
 name_suffix: Trust Center
 overview: BytePlus maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, PCI DSS, and CSA STAR compliance.
 provider_name: BytePlus

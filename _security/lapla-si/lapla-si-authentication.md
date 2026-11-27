@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Lapla Si Authentication
+name: lapla-si Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: lapla-si declares 0 security scheme(s) across its OpenAPI definitions.

@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Acuris Geo Com Authentication
+name: acuris-geo-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: acuris-geo-com declares 1 security scheme(s) across its OpenAPI definitions.

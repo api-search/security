@@ -70,7 +70,7 @@ source_yaml: "generated: '2026-11-02'\nmethod: derived\nsource: /openapi/lensmor
 source_yaml_url: https://artifacts.apis.io/lensmor/authentication/lensmor-authentication.yml
 summary_line: 1 scheme
 tags:
-- Event-Intelligence
+- Event Intelligence
 - B2B
 - Software-as-a-Service
 - Lead Generation

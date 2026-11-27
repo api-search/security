@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Ringdna Authentication
+name: RingDNA Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

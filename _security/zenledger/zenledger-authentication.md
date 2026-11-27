@@ -88,7 +88,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Zenledger Authentication
+name: ZenLedger Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ZenLedger secures its APIs with oauth2 and http across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -54,7 +54,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bank Of Queensland Authentication
+name: Bank of Queensland Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bank of Queensland secures its APIs with none, oauth2, openIdConnect, and mutualTLS across 2 declared security schemes, as derived from its OpenAPI definitions.

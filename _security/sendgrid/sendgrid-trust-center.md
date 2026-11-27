@@ -392,7 +392,7 @@ certifications:
 description: SendGrid's security posture and certifications are published through the Twilio Trust Center (SendGrid is a Twilio company). SendGrid's own sendgrid.com/en-us/policies/security page 301-redirects to twilio.com/en-us/security. The certifications below are named on the Twilio security/trust-center pages and apply to Twilio's products including SendGrid.
 kind: trust-center
 layout: security
-name: Sendgrid Trust Center
+name: SendGrid Trust Center
 name_suffix: Trust Center
 overview: SendGrid maintains a public trust center documenting SOC 2 Type II, SOC 2 Type I, ISO/IEC 27001:2013, ISO/IEC 27017:2015, ISO/IEC 27018:2019, PCI DSS Level 1, PCI DSS Level 4, HIPAA (eligible products & services), and Binding Corporate Rules compliance.
 provider_name: SendGrid

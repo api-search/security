@@ -18,7 +18,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Effect Photonics Authentication
+name: EFFECT Photonics Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

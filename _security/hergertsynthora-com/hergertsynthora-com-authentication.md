@@ -27,6 +27,12 @@ api_specs:
   slug: hergertsynthora-com-wallet-enrichment-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/hergertsynthora-com/openapi/hergertsynthora-com-wallet-enrichment-api-openapi.yml
+- filename: hergertsynthora-com-discovery-api-openapi.yml
+  format: yaml
+  label: Hergert Synthora Discovery API
+  slug: hergertsynthora-com-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hergertsynthora-com/openapi/hergertsynthora-com-discovery-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -35,7 +41,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Hergertsynthora Com Authentication
+name: Hergert Synthora Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hergert Synthora secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

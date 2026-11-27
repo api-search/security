@@ -98,7 +98,6 @@ tags:
 - Cloud Security
 - Compliance
 - DAST
-- Developer-First
 - IaC Scanning
 - SAST
 - Software Composition Analysis

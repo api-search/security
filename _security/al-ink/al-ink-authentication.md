@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Al Ink Authentication
+name: alink Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: alink declares 0 security scheme(s) across its OpenAPI definitions.

@@ -23,7 +23,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Office Of Child Support Services Domain Security
+name: Office of Child Support Services Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Office of Child Support Services, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Office of Child Support Services

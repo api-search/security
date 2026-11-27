@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Junct Dev Domain Security
+name: junct-dev Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for junct-dev, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC absent.'
 provider_name: junct-dev

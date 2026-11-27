@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Jev Agent Authentication
+name: Jev Agent (Jagent) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Jev Agent (Jagent) declares 1 security scheme(s) across its OpenAPI definitions.

@@ -73,7 +73,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Shipstar Ai Domain Security
+name: shipstar-ai Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for shipstar-ai, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
 provider_name: shipstar-ai

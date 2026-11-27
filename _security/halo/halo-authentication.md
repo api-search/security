@@ -4,18 +4,18 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: halo-h5-api-openapi.yml
-  format: yaml
-  label: Halo H5 API
-  slug: halo-h5-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/halo/openapi/halo-h5-api-openapi.yml
 - filename: halo-h5pc-api-openapi.yml
   format: yaml
   label: Halo H5pc API
   slug: halo-h5pc-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/halo/openapi/halo-h5pc-api-openapi.yml
+- filename: halo-h5-api-openapi.yml
+  format: yaml
+  label: Halo H5 API
+  slug: halo-h5-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/halo/openapi/halo-h5-api-openapi.yml
 - filename: halo-hw2-api-openapi.yml
   format: yaml
   label: Halo Hw2 API

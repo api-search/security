@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Crafting Inc Authentication
+name: Crafting Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Crafting secures its APIs with token, sso, and mutualTLS across 5 declared security schemes, as derived from its OpenAPI definitions.

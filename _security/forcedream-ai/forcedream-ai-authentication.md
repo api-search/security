@@ -2,30 +2,12 @@
 anonymous_access: true
 api_key_in: []
 api_specs:
-- filename: forcedream-ai-account-api-openapi.yml
+- filename: forcedream-ai-oracle-api-openapi.yml
   format: yaml
-  label: ForceDream Account API
-  slug: forcedream-ai-account-api
+  label: ForceDream Oracle API
+  slug: forcedream-ai-oracle-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-account-api-openapi.yml
-- filename: forcedream-ai-agents-api-openapi.yml
-  format: yaml
-  label: ForceDream Agents API
-  slug: forcedream-ai-agents-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-agents-api-openapi.yml
-- filename: forcedream-ai-signup-api-openapi.yml
-  format: yaml
-  label: ForceDream Signup API
-  slug: forcedream-ai-signup-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-signup-api-openapi.yml
-- filename: forcedream-ai-workforce-api-openapi.yml
-  format: yaml
-  label: ForceDream Workforce API
-  slug: forcedream-ai-workforce-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-workforce-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-oracle-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -34,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Forcedream Ai Authentication
+name: ForceDream Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ForceDream secures its APIs with http and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions.

@@ -96,7 +96,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Us Patent And Trademark Office Domain Security
+name: US Patent and Trademark Office Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for US Patent and Trademark Office, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: US Patent and Trademark Office

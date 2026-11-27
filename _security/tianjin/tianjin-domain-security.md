@@ -23,7 +23,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Tianjin Domain Security
+name: Tianjin University Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Tianjin University, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: Tianjin University

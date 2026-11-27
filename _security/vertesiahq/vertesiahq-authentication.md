@@ -298,7 +298,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Vertesiahq Authentication
+name: Vertesia Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

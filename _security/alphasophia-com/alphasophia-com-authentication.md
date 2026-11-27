@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Alphasophia Com Authentication
+name: Alpha Sophia Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Alpha Sophia declares 1 security scheme(s) across its OpenAPI definitions.

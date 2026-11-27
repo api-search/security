@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Breeze Pm Trust Center
+name: breeze-pm Trust Center
 name_suffix: Trust Center
 overview: breeze-pm maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: breeze-pm

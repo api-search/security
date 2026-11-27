@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Welcome To The Jungle Authentication
+name: Welcome to the Jungle Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Welcome to the Jungle declares 2 security scheme(s) across its OpenAPI definitions.

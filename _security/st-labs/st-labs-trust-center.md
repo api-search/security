@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: St Labs Trust Center
+name: ST Labs Trust Center
 name_suffix: Trust Center
 overview: ST Labs maintains a public trust center covering its security and compliance posture.
 provider_name: ST Labs

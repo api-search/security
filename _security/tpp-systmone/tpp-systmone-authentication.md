@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Tpp Systmone Authentication
+name: TPP (SystmOne) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TPP (SystmOne) secures its APIs with mutualTLS, nhs-jwt, and approval-gated-socket across 3 declared security schemes, as derived from its OpenAPI definitions.

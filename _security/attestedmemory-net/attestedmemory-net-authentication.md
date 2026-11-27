@@ -338,7 +338,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Attestedmemory Net Authentication
+name: Attested Memory Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Attested Memory declares 0 security scheme(s) across its OpenAPI definitions.

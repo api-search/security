@@ -1169,7 +1169,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Adp Trust Center
+name: ADP Trust Center
 name_suffix: Trust Center
 overview: ADP maintains a public trust center documenting SOC 1 Type 2, SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 27701, PCI DSS, and Sarbanes-Oxley (SOX) compliance.
 provider_name: ADP

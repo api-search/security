@@ -149,7 +149,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Agentexchange Work Authentication
+name: Agent Exchange Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Exchange secures its APIs with x402-payment and apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

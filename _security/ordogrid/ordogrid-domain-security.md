@@ -71,7 +71,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Ordogrid Domain Security
+name: OrdoGrid Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for OrdoGrid, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: OrdoGrid
@@ -85,7 +85,7 @@ source_yaml_url: https://artifacts.apis.io/ordogrid/security/ordogrid-domain-sec
 summary_line: TLSv1.3
 tags:
 - Invoicing
-- PEPPOL
+- Peppol
 - Belgium
 - Software-as-a-Service
 - business-documents

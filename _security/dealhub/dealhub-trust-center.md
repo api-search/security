@@ -385,7 +385,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dealhub Trust Center
+name: DealHub Trust Center
 name_suffix: Trust Center
 overview: DealHub maintains a public trust center documenting ISO 42001, ISO 27701, ISO 27001, ISO 22301, SOC 1 Type II, SOC 2 Type II, CSA STAR Level 1, and CSA STAR for AI Level 1 compliance.
 provider_name: DealHub

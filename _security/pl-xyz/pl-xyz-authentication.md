@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Pl Xyz Authentication
+name: Protocol Labs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Protocol Labs declares 1 security scheme(s) across its OpenAPI definitions.

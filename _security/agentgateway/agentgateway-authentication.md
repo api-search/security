@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Agentgateway Authentication
+name: AgentGateway Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentGateway declares 0 security scheme(s) across its OpenAPI definitions.

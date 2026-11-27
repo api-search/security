@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Dataflow Kit Covid 19 Domain Security
+name: Dataflow Kit COVID-19 Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Dataflow Kit COVID-19, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Dataflow Kit COVID-19

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Firmledger Co Ke Authentication
+name: FirmLedger Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FirmLedger declares 3 security scheme(s) across its OpenAPI definitions.

@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dchub Cloud Authentication
+name: DC Hub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DC Hub declares 1 security scheme(s) across its OpenAPI definitions.

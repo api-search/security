@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Magicschool Trust Center
+name: MagicSchool Trust Center
 name_suffix: Trust Center
 overview: MagicSchool maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: MagicSchool

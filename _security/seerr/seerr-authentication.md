@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Seerr Authentication
+name: Seerr (Overseerr + Jellyseerr) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Seerr (Overseerr + Jellyseerr) declares 1 security scheme(s) across its OpenAPI definitions.

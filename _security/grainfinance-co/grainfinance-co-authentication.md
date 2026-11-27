@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Grainfinance Co Authentication
+name: Grain Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Grain declares 1 security scheme(s) across its OpenAPI definitions.

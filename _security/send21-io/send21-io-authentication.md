@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Send21 Io Authentication
+name: send21-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: send21-io declares 1 security scheme(s) across its OpenAPI definitions.

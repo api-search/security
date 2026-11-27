@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Smsc Authentication
+name: SMSC.ru Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SMSC.ru declares 0 security scheme(s) across its OpenAPI definitions.

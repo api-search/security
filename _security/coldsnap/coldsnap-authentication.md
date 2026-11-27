@@ -12,7 +12,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Coldsnap Authentication
+name: ColdSnap Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

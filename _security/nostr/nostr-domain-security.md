@@ -5,13 +5,13 @@ api_specs:
   label: Nostr Protocol (NIP-01)
   slug: nostr-protocol
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nostr/refs/heads/main/asyncapi/nostr-asyncapi.yml
+  url: https://artifacts.apis.io/nostr/asyncapi/nostr-asyncapi.yml
 - filename: nostr-asyncapi.yml
   format: yaml
   label: Nostr Relay WebSocket Interface
   slug: relay-interface
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/nostr/refs/heads/main/asyncapi/nostr-asyncapi.yml
+  url: https://artifacts.apis.io/nostr/asyncapi/nostr-asyncapi.yml
 description: ''
 domains:
 - caa: []

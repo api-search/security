@@ -89,7 +89,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Commerce Coinbase Authentication
+name: Coinbase Commerce Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Coinbase Commerce secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

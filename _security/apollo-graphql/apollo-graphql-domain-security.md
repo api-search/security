@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Apollo Graphql Domain Security
+name: Apollo GraphQL Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Apollo GraphQL, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Apollo GraphQL

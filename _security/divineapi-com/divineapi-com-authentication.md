@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Divineapi Com Authentication
+name: divineapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: divineapi-com declares 0 security scheme(s) across its OpenAPI definitions.

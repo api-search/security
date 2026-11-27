@@ -22,7 +22,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: R1 Rcm Domain Security
+name: R1 RCM Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for R1 RCM, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: R1 RCM

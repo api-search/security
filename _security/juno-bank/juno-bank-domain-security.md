@@ -15,7 +15,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Juno Bank Domain Security
+name: Juno Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Juno, probed live across 2 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Juno

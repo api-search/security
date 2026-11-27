@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Xauconnect Com Authentication
+name: XAUConnect Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: XAUConnect declares 1 security scheme(s) across its OpenAPI definitions.

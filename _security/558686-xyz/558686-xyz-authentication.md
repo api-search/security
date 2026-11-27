@@ -26,24 +26,6 @@ api_specs:
   slug: 558686-xyz-gpt55-retained-nonmodel-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-gpt55-retained-nonmodel-api-openapi.yml
-- filename: 558686-xyz-models-api-openapi.yml
-  format: yaml
-  label: gpt55-token-gateway Models API
-  slug: 558686-xyz-models-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-models-api-openapi.yml
-- filename: 558686-xyz-responses-api-openapi.yml
-  format: yaml
-  label: gpt55-token-gateway Responses API
-  slug: 558686-xyz-responses-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-responses-api-openapi.yml
-- filename: 558686-xyz-utility-tools-api-openapi.yml
-  format: yaml
-  label: gpt55-token-gateway Utility Tools API
-  slug: 558686-xyz-utility-tools-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-utility-tools-api-openapi.yml
 - filename: 558686-xyz-wallet-security-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Wallet Security API
@@ -62,12 +44,6 @@ api_specs:
   slug: 558686-xyz-x402-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-x402-api-openapi.yml
-- filename: 558686-xyz-chat-completions-api-openapi.yml
-  format: yaml
-  label: gpt55-token-gateway Chat Completions API
-  slug: 558686-xyz-chat-completions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-chat-completions-api-openapi.yml
 auth_types:
 - x402-payment
 - http-bearer
@@ -77,7 +53,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: 558686 Xyz Authentication
+name: gpt55-token-gateway Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: gpt55-token-gateway secures its APIs with x402-payment, http-bearer, and api-key-header across 4 declared security schemes, as derived from its OpenAPI definitions.

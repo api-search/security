@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dottxt Authentication
+name: dottxt Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: dottxt secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

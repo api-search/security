@@ -57,7 +57,7 @@ hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed
-name: Vipkid Domain Security
+name: VIPKid Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for VIPKid, probed live across 6 host(s) and 3 registrable domain(s). 6 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: VIPKid

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Aiflow Authentication
+name: aiFlow Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: aiFlow declares 2 security scheme(s) across its OpenAPI definitions.

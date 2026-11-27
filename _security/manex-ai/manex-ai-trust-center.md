@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Manex Ai Trust Center
+name: Manex AI Trust Center
 name_suffix: Trust Center
 overview: Manex AI maintains a public trust center documenting ISO 27001, TISAX, and GDPR compliance.
 provider_name: Manex AI

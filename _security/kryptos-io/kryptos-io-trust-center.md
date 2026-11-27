@@ -37,7 +37,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Kryptos Io Trust Center
+name: kryptos-io Trust Center
 name_suffix: Trust Center
 overview: kryptos-io maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: kryptos-io

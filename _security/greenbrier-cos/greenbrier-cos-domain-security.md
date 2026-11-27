@@ -43,7 +43,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Greenbrier Cos Domain Security
+name: Greenbrier Companies Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Greenbrier Companies, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Greenbrier Companies

@@ -76,7 +76,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Graphadvocate Com Authentication
+name: PaulieB14 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PaulieB14 secures its APIs with none and x402-payment across 4 declared security schemes, as derived from its OpenAPI definitions.

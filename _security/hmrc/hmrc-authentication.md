@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Hmrc Authentication
+name: HMRC UK Tax Authority Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

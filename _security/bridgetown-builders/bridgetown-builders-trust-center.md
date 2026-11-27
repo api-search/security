@@ -25,7 +25,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bridgetown Builders Trust Center
+name: Bridge Town Trust Center
 name_suffix: Trust Center
 overview: Bridge Town maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Bridge Town

@@ -1,0 +1,22 @@
+{%- comment -%}
+  get-key-strip.html — a one-line "get a free key" near the TOP of a provider page (2026-11-16).
+
+  Why: search visitors who land on an API page sign up at 6.6 per 1,000 Google clicks; on a
+  provider page, 2.9. Both carry the same sign-in card (api-mcp.html), but on a provider page it
+  sits at ~98% of a 300 KB page, after the provider's own sign-up link and the $499 Influence
+  prompt -- most visitors never reach it. Same sign-in links and the same email disclosure as the
+  card (roadmap#272: say what the code does); the full card stays where it is.
+{%- endcomment -%}
+{%- assign S = site.data.api_surface -%}
+<div class="get-key-strip" id="get-key" data-cta="provider-top"
+     style="margin-top:.85rem;padding:.6rem .85rem;border:1px solid #d1d5db;border-radius:8px;background:#f8fafc;font-size:.92rem;line-height:1.45">
+  {%- comment -%} The key returns CATALOG data about this provider (its APIs, OpenAPI, scores,
+       pricing), never the provider's own data -- the copy must not promise otherwise. {%- endcomment -%}
+  <strong>Pull {{ page.name }}'s APIs, OpenAPI, scores and pricing into your own code or AI agent</strong>
+  with a free APIs.io key &mdash;
+  sign in with
+  <a href="{{ S.api_base }}/auth/login?provider=github" data-cta-provider="github">GitHub</a>,
+  <a href="{{ S.api_base }}/auth/login?provider=google" data-cta-provider="google">Google</a> or
+  <a href="{{ S.api_base }}/auth/login?provider=linkedin" data-cta-provider="linkedin">LinkedIn</a>.
+  <span style="color:#6b7280">No form to fill in; signing in shares your email address with us (<a href="/privacy/">Privacy</a>).</span>
+</div>

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Brainhq Trust Center
+name: BrainHQ Trust Center
 name_suffix: Trust Center
 overview: BrainHQ maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: BrainHQ

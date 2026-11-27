@@ -34,7 +34,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Codeguru Reviewer Trust Center
+name: Amazon CodeGuru Reviewer Trust Center
 name_suffix: Trust Center
 overview: Amazon CodeGuru Reviewer maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon CodeGuru Reviewer

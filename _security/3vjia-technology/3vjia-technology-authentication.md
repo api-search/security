@@ -123,7 +123,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 3Vjia Technology Authentication
+name: 3vjia Technology Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

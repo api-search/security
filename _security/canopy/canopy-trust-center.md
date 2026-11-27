@@ -84,7 +84,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Canopy Trust Center
+name: Canopy Connect Trust Center
 name_suffix: Trust Center
 overview: Canopy Connect maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: Canopy Connect

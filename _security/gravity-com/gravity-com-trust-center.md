@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gravity Com Trust Center
+name: Gravity Trust Center
 name_suffix: Trust Center
 overview: Gravity maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: Gravity

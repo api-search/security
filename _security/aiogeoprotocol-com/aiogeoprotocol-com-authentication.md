@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Aiogeoprotocol Com Authentication
+name: AIO.GEO Protocol Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AIO.GEO Protocol secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

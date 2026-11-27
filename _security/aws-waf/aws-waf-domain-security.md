@@ -90,6 +90,18 @@ api_specs:
   slug: aws-waf-xss-match-set-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-xss-match-set-api-openapi.yml
+- filename: aws-waf-api-key-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Api Key API
+  slug: aws-waf-api-key-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-api-key-api-openapi.yml
+- filename: aws-waf-operations-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Operations API
+  slug: aws-waf-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-operations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -126,7 +138,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Aws Waf Domain Security
+name: AWS WAF Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AWS WAF, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: AWS WAF

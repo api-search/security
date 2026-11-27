@@ -158,7 +158,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Affiliaterail Com Authentication
+name: AffiliateRail Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AffiliateRail declares 1 security scheme(s) across its OpenAPI definitions.

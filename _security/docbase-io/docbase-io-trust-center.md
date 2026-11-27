@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Docbase Io Trust Center
+name: DocBase Trust Center
 name_suffix: Trust Center
 overview: DocBase maintains a public trust center documenting ISO 27001 compliance.
 provider_name: DocBase

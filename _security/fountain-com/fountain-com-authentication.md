@@ -64,7 +64,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Fountain Com Authentication
+name: Fountain Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fountain secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

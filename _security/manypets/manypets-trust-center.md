@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Manypets Trust Center
+name: ManyPets Trust Center
 name_suffix: Trust Center
 overview: ManyPets maintains a public trust center documenting Cyber Essentials, ISO/IEC 27001, ISO/IEC 27001 SoA, PCI DSS v4.0.0, CSA STAR, and GDPR compliance.
 provider_name: ManyPets

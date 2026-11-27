@@ -265,7 +265,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Kfupm Authentication
+name: King Fahd University of Petroleum & Minerals Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: King Fahd University of Petroleum & Minerals secures its APIs with openIdConnect, oauth2, saml2, apiKey, and none across 4 declared security schemes, as derived from its OpenAPI definitions.

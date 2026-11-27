@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ampaworks Trust Center
+name: AMPAworks Trust Center
 name_suffix: Trust Center
 overview: AMPAworks maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: AMPAworks

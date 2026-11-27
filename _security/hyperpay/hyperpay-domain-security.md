@@ -62,7 +62,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Hyperpay Domain Security
+name: HyperPay Domain Security
 name_suffix: Domain Security
 overview: Domain security posture for HyperPay, probed live across 5 host(s) and 0 registrable domain(s). 5 host(s) serve HTTPS; 2 advertise HSTS.
 provider_name: HyperPay

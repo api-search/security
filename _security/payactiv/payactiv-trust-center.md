@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Payactiv Trust Center
+name: PayActiv Trust Center
 name_suffix: Trust Center
 overview: PayActiv maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, CCPA, Visa Service Provider, and Certified B Corporation compliance.
 provider_name: PayActiv

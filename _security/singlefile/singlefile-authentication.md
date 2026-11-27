@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Singlefile Authentication
+name: SingleFile Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Atxminisplit Com Domain Security
+name: ATX Mini Split Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ATX Mini Split, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: ATX Mini Split
@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/atxminisplit-com/security/atxminispli
 summary_line: TLSv1.3 · DMARC
 tags:
 - HVAC
-- Mini Split
+- Mini-split
 - Austin
 - Rankings
 - Data

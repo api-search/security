@@ -63,7 +63,7 @@ certifications:
 description: Tadeus runs a public, ungated trust surface built entirely around the EU AI Act rather than around security certifications. It publishes versioned, dated documents with a review date on each, describes itself as "data-room style", and serves every document as plain markdown at its URL plus ".md" so machines can read it. It also ships a free, no-sign-up interactive classifier that walks a buyer through Article 5, Article 6(1), all eight Annex III categories and the Article 50 duties, and pre-fills a memo.
 kind: trust-center
 layout: security
-name: Tadeus Api Trust Center
+name: Tadeus API Trust Center
 name_suffix: Trust Center
 overview: Tadeus API maintains a public trust center documenting count, audited, claimed, and note compliance.
 provider_name: Tadeus API

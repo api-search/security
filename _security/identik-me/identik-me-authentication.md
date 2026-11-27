@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Identik Me Authentication
+name: identik-me Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: identik-me declares 1 security scheme(s) across its OpenAPI definitions.

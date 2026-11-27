@@ -34,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Loa Healthcare Pricing Api Authentication
+name: Loa Healthcare Pricing API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Loa Healthcare Pricing API secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

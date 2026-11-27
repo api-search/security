@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Bagiq App Authentication
+name: BagIQ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BagIQ declares 0 security scheme(s) across its OpenAPI definitions.

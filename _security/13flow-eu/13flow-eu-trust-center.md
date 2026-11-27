@@ -163,7 +163,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 13Flow Eu Trust Center
+name: 13FLOW Trust Center
 name_suffix: Trust Center
 overview: 13FLOW maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: 13FLOW

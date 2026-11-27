@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bitcompare Net Authentication
+name: Bitcompare Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bitcompare declares 1 security scheme(s) across its OpenAPI definitions.

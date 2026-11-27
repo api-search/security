@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Chargepoint Trust Center
+name: ChargePoint Trust Center
 name_suffix: Trust Center
 overview: ChargePoint maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and FedRAMP compliance.
 provider_name: ChargePoint

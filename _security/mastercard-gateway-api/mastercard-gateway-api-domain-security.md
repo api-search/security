@@ -30,7 +30,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Mastercard Gateway Api Domain Security
+name: Mastercard Gateway API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Mastercard Gateway API, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Mastercard Gateway API

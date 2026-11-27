@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Ai Coustics Authentication
+name: ai-coustics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ai-coustics secures its APIs with licenseKey, jwt, and http-basic across 3 declared security schemes, as derived from its OpenAPI definitions.

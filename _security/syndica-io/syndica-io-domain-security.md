@@ -5,13 +5,13 @@ api_specs:
   label: Syndica Solana RPC (WebSocket) API
   slug: syndica-solana-rpc-websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndica-io/refs/heads/main/asyncapi/syndica-io-asyncapi.yml
+  url: https://artifacts.apis.io/syndica-io/asyncapi/syndica-io-asyncapi.yml
 - filename: syndica-io-asyncapi.yml
   format: yaml
   label: Syndica ChainStream API
   slug: syndica-chainstream-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/syndica-io/refs/heads/main/asyncapi/syndica-io-asyncapi.yml
+  url: https://artifacts.apis.io/syndica-io/asyncapi/syndica-io-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -36,7 +36,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Syndica Io Domain Security
+name: Syndica Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Syndica, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Syndica

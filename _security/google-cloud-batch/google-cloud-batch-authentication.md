@@ -2,18 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-batch-jobs-api-openapi.yml
+- filename: google-cloud-batch-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Batch Jobs API
-  slug: google-cloud-batch-jobs-api
+  label: Google Cloud Batch Cloud Batch Projects API
+  slug: google-cloud-batch-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-batch/openapi/google-cloud-batch-jobs-api-openapi.yml
-- filename: google-cloud-batch-tasks-api-openapi.yml
-  format: yaml
-  label: Google Cloud Batch Tasks API
-  slug: google-cloud-batch-tasks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-batch/openapi/google-cloud-batch-tasks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-batch/openapi/google-cloud-batch-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

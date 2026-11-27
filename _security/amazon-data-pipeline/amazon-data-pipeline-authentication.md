@@ -48,18 +48,22 @@ provider_name: Amazon Data Pipeline
 provider_slug: amazon-data-pipeline
 scheme_count: 1
 schemes:
-- description: AWS Signature Version 4 authentication
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: awsSignatureV4
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-data-pipeline-openapi.yml
+  - openapi/amazon-data-pipeline-operations-api-openapi.yml
+  - openapi/amazon-data-pipeline-pipeline-objects-api-openapi.yml
+  - openapi/amazon-data-pipeline-pipeline-runs-api-openapi.yml
+  - openapi/amazon-data-pipeline-pipelines-api-openapi.yml
+  - openapi/amazon-data-pipeline-tags-api-openapi.yml
   type: apiKey
 slug: amazon-data-pipeline-authentication
 source_filename: amazon-data-pipeline-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-data-pipeline-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSignatureV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-data-pipeline-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-data-pipeline-operations-api-openapi.yml, openapi/amazon-data-pipeline-pipeline-objects-api-openapi.yml,\n  openapi/amazon-data-pipeline-pipeline-runs-api-openapi.yml, openapi/amazon-data-pipeline-pipelines-api-openapi.yml,\n  openapi/amazon-data-pipeline-tags-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-data-pipeline-operations-api-openapi.yml\n  - openapi/amazon-data-pipeline-pipeline-objects-api-openapi.yml\n  - openapi/amazon-data-pipeline-pipeline-runs-api-openapi.yml\n  - openapi/amazon-data-pipeline-pipelines-api-openapi.yml\n  - openapi/amazon-data-pipeline-tags-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-data-pipeline/authentication/amazon-data-pipeline-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

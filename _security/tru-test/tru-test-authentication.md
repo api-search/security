@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Tru Test Authentication
+name: Tru-Test (Datamars) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tru-Test (Datamars) declares 0 security scheme(s) across its OpenAPI definitions.

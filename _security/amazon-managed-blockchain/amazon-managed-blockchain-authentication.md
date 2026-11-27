@@ -27,6 +27,12 @@ api_specs:
   slug: amazon-managed-blockchain-tags-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-managed-blockchain/openapi/amazon-managed-blockchain-tags-api-openapi.yml
+- filename: amazon-managed-blockchain-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Blockchain Managed Blockchain Operations API
+  slug: amazon-managed-blockchain-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-blockchain/openapi/amazon-managed-blockchain-operations-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

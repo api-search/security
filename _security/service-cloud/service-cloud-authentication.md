@@ -29,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Service Cloud Authentication
+name: Salesforce Service Cloud APIs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Salesforce Service Cloud APIs secures its APIs with oauth2, openIdConnect, and http-bearer across 4 declared security schemes, as derived from its OpenAPI definitions.

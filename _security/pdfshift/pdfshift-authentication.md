@@ -58,7 +58,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Pdfshift Authentication
+name: PDFShift Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PDFShift secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

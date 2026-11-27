@@ -92,7 +92,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Arkova Ai Trust Center
+name: Arkova Trust Center
 name_suffix: Trust Center
 overview: Arkova maintains a public trust center documenting SOC 2, ISO 27001, and CSA STAR compliance.
 provider_name: Arkova

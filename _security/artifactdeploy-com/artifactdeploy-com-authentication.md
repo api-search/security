@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Artifactdeploy Com Authentication
+name: ArtifactDeploy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ArtifactDeploy declares 0 security scheme(s) across its OpenAPI definitions.

@@ -24,24 +24,6 @@ api_specs:
   slug: 558686-xyz-gpt55-retained-nonmodel-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-gpt55-retained-nonmodel-api-openapi.yml
-- filename: 558686-xyz-models-api-openapi.yml
-  format: yaml
-  label: gpt55-token-gateway Models API
-  slug: 558686-xyz-models-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-models-api-openapi.yml
-- filename: 558686-xyz-responses-api-openapi.yml
-  format: yaml
-  label: gpt55-token-gateway Responses API
-  slug: 558686-xyz-responses-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-responses-api-openapi.yml
-- filename: 558686-xyz-utility-tools-api-openapi.yml
-  format: yaml
-  label: gpt55-token-gateway Utility Tools API
-  slug: 558686-xyz-utility-tools-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-utility-tools-api-openapi.yml
 - filename: 558686-xyz-wallet-security-api-openapi.yml
   format: yaml
   label: gpt55-token-gateway Wallet Security API
@@ -60,12 +42,6 @@ api_specs:
   slug: 558686-xyz-x402-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-x402-api-openapi.yml
-- filename: 558686-xyz-chat-completions-api-openapi.yml
-  format: yaml
-  label: gpt55-token-gateway Chat Completions API
-  slug: 558686-xyz-chat-completions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/558686-xyz/openapi/558686-xyz-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -95,7 +71,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: 558686 Xyz Domain Security
+name: gpt55-token-gateway Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for gpt55-token-gateway, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: gpt55-token-gateway

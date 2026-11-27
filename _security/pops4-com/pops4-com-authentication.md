@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Pops4 Com Authentication
+name: pops4-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: pops4-com declares 0 security scheme(s) across its OpenAPI definitions.

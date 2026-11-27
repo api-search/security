@@ -70,7 +70,7 @@ schemes:
     purpose: Obtain the short-lived Kittl user JWT for app-backend verification.
   name: oauth-providers
   redirect_uri: https://app.kittl.com/auth/callback/:appId
-  redirect_uri_note: :appId is the app's ID; this must be registered as the callback with the provider.
+  redirect_uri_note: ':appId is the app''s ID; this must be registered as the callback with the provider.'
   role: client
   surface: Sandboxed app to third-party provider
   type: oauth2

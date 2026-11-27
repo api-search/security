@@ -6,7 +6,7 @@ certifications:
 description: 'Verbatim page description: "As a radically transparent PBM, our mission is to reduce cost and complexity for employers and their members. We take the security of your data seriously—applying rigorous compliance standards and best-in-class safeguards to protect sensitive information at every step. Learn more about our commitment to privacy, compliance, and operational integrity."'
 kind: trust-center
 layout: security
-name: Smithrx Trust Center
+name: SmithRx Trust Center
 name_suffix: Trust Center
 overview: SmithRx maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: SmithRx

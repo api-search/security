@@ -139,7 +139,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Lemlist Authentication
+name: lemlist Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

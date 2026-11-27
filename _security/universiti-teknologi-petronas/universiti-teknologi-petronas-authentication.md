@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Universiti Teknologi Petronas Authentication
+name: Universiti Teknologi PETRONAS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Universiti Teknologi PETRONAS declares 0 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Matlab Authentication
+name: MATLAB Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MATLAB declares 7 security scheme(s) across its OpenAPI definitions.

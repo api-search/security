@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Asvaai Com Authentication
+name: Asva AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Asva AI declares 1 security scheme(s) across its OpenAPI definitions.

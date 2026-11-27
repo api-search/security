@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: eden-ai-ai-detection-api-openapi.yml
-  format: yaml
-  label: Eden AI Ai Detection API
-  slug: eden-ai-ai-detection-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-ai-detection-api-openapi.yml
-- filename: eden-ai-anonymization-api-openapi.yml
-  format: yaml
-  label: Eden AI Anonymization API
-  slug: eden-ai-anonymization-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-anonymization-api-openapi.yml
 - filename: eden-ai-anonymization-async-api-openapi.yml
   format: yaml
   label: Eden AI Anonymization Async API
@@ -342,12 +330,6 @@ api_specs:
   slug: eden-ai-prompt-optimization-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-prompt-optimization-api-openapi.yml
-- filename: eden-ai-question-answer-api-openapi.yml
-  format: yaml
-  label: Eden AI Question Answer API
-  slug: eden-ai-question-answer-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-question-answer-api-openapi.yml
 - filename: eden-ai-question-answer-async-api-openapi.yml
   format: yaml
   label: Eden AI Question Answer Async API
@@ -474,6 +456,30 @@ api_specs:
   slug: eden-ai-videos-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-videos-api-openapi.yml
+- filename: eden-ai-ai-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Ai Detection API
+  slug: eden-ai-ai-detection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-ai-detection-api-openapi.yml
+- filename: eden-ai-anonymization-api-openapi.yml
+  format: yaml
+  label: Eden AI Anonymization API
+  slug: eden-ai-anonymization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-anonymization-api-openapi.yml
+- filename: eden-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Eden AI Chat Completions API
+  slug: eden-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-chat-completions-api-openapi.yml
+- filename: eden-ai-question-answer-api-openapi.yml
+  format: yaml
+  label: Eden AI Question Answer API
+  slug: eden-ai-question-answer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-question-answer-api-openapi.yml
 certification_count: 3
 certifications:
 - GDPR
@@ -482,7 +488,7 @@ certifications:
 description: Eden AI runs a public trust center at trust.edenai.co carrying 3 documents, 248 controls and a 6-entry FAQ, grouped as Business Operations, Cloud Security, Human Resources and Data.
 kind: trust-center
 layout: security
-name: Eden Ai Trust Center
+name: Eden AI Trust Center
 name_suffix: Trust Center
 overview: Eden AI maintains a public trust center documenting GDPR, ISO/IEC 27001:2022, and SOC 2 Type 2 compliance.
 provider_name: Eden AI

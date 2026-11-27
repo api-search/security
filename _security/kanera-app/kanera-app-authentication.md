@@ -1,0 +1,184 @@
+---
+anonymous_access: false
+api_key_in: []
+api_specs:
+- filename: kanera-app-activity-api-openapi.yml
+  format: yaml
+  label: Kanera Activity API
+  slug: kanera-app-activity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-activity-api-openapi.yml
+- filename: kanera-app-agent-runs-api-openapi.yml
+  format: yaml
+  label: Kanera Agent Runs API
+  slug: kanera-app-agent-runs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-agent-runs-api-openapi.yml
+- filename: kanera-app-attachments-api-openapi.yml
+  format: yaml
+  label: Kanera Attachments API
+  slug: kanera-app-attachments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-attachments-api-openapi.yml
+- filename: kanera-app-authentication-api-openapi.yml
+  format: yaml
+  label: Kanera Authentication API
+  slug: kanera-app-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-authentication-api-openapi.yml
+- filename: kanera-app-automations-api-openapi.yml
+  format: yaml
+  label: Kanera Automations API
+  slug: kanera-app-automations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-automations-api-openapi.yml
+- filename: kanera-app-board-access-api-openapi.yml
+  format: yaml
+  label: Kanera Board Access API
+  slug: kanera-app-board-access-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-board-access-api-openapi.yml
+- filename: kanera-app-boards-api-openapi.yml
+  format: yaml
+  label: Kanera Boards API
+  slug: kanera-app-boards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-boards-api-openapi.yml
+- filename: kanera-app-card-labels-api-openapi.yml
+  format: yaml
+  label: Kanera Card Labels API
+  slug: kanera-app-card-labels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-card-labels-api-openapi.yml
+- filename: kanera-app-cards-api-openapi.yml
+  format: yaml
+  label: Kanera Cards API
+  slug: kanera-app-cards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-cards-api-openapi.yml
+- filename: kanera-app-comments-api-openapi.yml
+  format: yaml
+  label: Kanera Comments API
+  slug: kanera-app-comments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-comments-api-openapi.yml
+- filename: kanera-app-custom-fields-api-openapi.yml
+  format: yaml
+  label: Kanera Custom Fields API
+  slug: kanera-app-custom-fields-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-custom-fields-api-openapi.yml
+- filename: kanera-app-external-links-api-openapi.yml
+  format: yaml
+  label: Kanera External Links API
+  slug: kanera-app-external-links-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-external-links-api-openapi.yml
+- filename: kanera-app-following-api-openapi.yml
+  format: yaml
+  label: Kanera Following API
+  slug: kanera-app-following-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-following-api-openapi.yml
+- filename: kanera-app-health-api-openapi.yml
+  format: yaml
+  label: Kanera Health API
+  slug: kanera-app-health-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-health-api-openapi.yml
+- filename: kanera-app-lists-api-openapi.yml
+  format: yaml
+  label: Kanera Lists API
+  slug: kanera-app-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-lists-api-openapi.yml
+- filename: kanera-app-media-api-openapi.yml
+  format: yaml
+  label: Kanera Media API
+  slug: kanera-app-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-media-api-openapi.yml
+- filename: kanera-app-notes-api-openapi.yml
+  format: yaml
+  label: Kanera Notes API
+  slug: kanera-app-notes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-notes-api-openapi.yml
+- filename: kanera-app-scratchpad-api-openapi.yml
+  format: yaml
+  label: Kanera Scratchpad API
+  slug: kanera-app-scratchpad-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-scratchpad-api-openapi.yml
+- filename: kanera-app-search-api-openapi.yml
+  format: yaml
+  label: Kanera Search API
+  slug: kanera-app-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-search-api-openapi.yml
+- filename: kanera-app-separators-api-openapi.yml
+  format: yaml
+  label: Kanera Separators API
+  slug: kanera-app-separators-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-separators-api-openapi.yml
+- filename: kanera-app-webhooks-api-openapi.yml
+  format: yaml
+  label: Kanera Webhooks API
+  slug: kanera-app-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-webhooks-api-openapi.yml
+- filename: kanera-app-workspaces-api-openapi.yml
+  format: yaml
+  label: Kanera Workspaces API
+  slug: kanera-app-workspaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/kanera-app/openapi/kanera-app-workspaces-api-openapi.yml
+auth_types: []
+description: Kanera supports OAuth2 (authorization_code with PKCE, device_code, client_credentials) and API keys for authentication.
+kind: authentication
+layout: security
+mechanism_count: 2
+method: searched
+name: Kanera Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: Kanera declares 2 security scheme(s) across its OpenAPI definitions.
+provider_name: Kanera
+provider_slug: kanera-app
+scheme_count: 2
+schemes:
+- authorize_url: https://api.kanera.app/oauth/authorize
+  evidence: Kanera supports OAuth authorisation code with PKCE, device authorisation, refresh tokens, and separately provisioned service connections.
+  flows:
+  - authorization_code
+  - device_code
+  - client_credentials
+  how_to_obtain: Register a public OAuth client at the issuer's registration endpoint (https://api.kanera.app/oauth/register) to obtain a client_id (no client secret for public clients). Then use the appropriate OAuth flow (authorization code with PKCE, device code, or client credentials) to obtain an access token.
+  name: Kanera OAuth2
+  scopes:
+  - kanera:read
+  - kanera:write
+  - offline_access
+  type: oauth2
+- evidence: REST integration using a personal or workspace API key. MCP OAuth tokens are not REST API credentials.
+  header: Authorization
+  how_to_obtain: Create an API key in Profile settings → API keys (personal) or Workspace settings → API (workspace). Use the key as a Bearer token in the Authorization header.
+  location: header
+  name: Kanera API key
+  type: apiKey
+slug: kanera-app-authentication
+source_filename: kanera-app-authentication.yml
+source_heading: Authentication Profile
+source_url: https://www.kanera.app/auth.md
+source_yaml: "generated: '2026-11-13'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://www.kanera.app/auth.md\nsources:\n- https://www.kanera.app/auth.md\n- https://www.kanera.app/docs/ai-mcp-oauth.md\n- https://www.kanera.app/docs/ai-mcp-oauth\n- https://www.kanera.app/docs/getting-started.md\ndescription: Kanera supports OAuth2 (authorization_code with PKCE, device_code, client_credentials) and API keys for authentication.\nschemes:\n- type: oauth2\n  name: Kanera OAuth2\n  evidence: Kanera supports OAuth authorisation code with PKCE, device authorisation, refresh tokens, and separately provisioned service connections.\n  flows:\n  - authorization_code\n  - device_code\n  - client_credentials\n  authorize_url: https://api.kanera.app/oauth/authorize\n  scopes:\n  - kanera:read\n  - kanera:write\n  - offline_access\n  how_to_obtain: Register a public OAuth client at the issuer's registration endpoint (https://api.kanera.app/oauth/register) to obtain a client_id\n\
+  \    (no client secret for public clients). Then use the appropriate OAuth flow (authorization code with PKCE, device code, or client credentials)\n    to obtain an access token.\n- type: apiKey\n  name: Kanera API key\n  evidence: REST integration using a personal or workspace API key. MCP OAuth tokens are not REST API credentials.\n  location: header\n  header: Authorization\n  how_to_obtain: Create an API key in Profile settings → API keys (personal) or Workspace settings → API (workspace). Use the key as a Bearer\n    token in the Authorization header.\ndocs: https://www.kanera.app/auth.md\n"
+source_yaml_url: https://artifacts.apis.io/kanera-app/authentication/kanera-app-authentication.yml
+summary_line: 2 schemes
+tags:
+- Company
+- Project Management
+- Collaboration
+- Artificial Intelligence
+- Automation
+---

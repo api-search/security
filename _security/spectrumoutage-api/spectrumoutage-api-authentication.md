@@ -34,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Spectrumoutage Api Authentication
+name: SpectrumOutage API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SpectrumOutage API secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

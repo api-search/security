@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Liftlab Authentication
+name: LiftLab Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LiftLab declares 1 security scheme(s) across its OpenAPI definitions.

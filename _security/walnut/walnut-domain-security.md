@@ -52,7 +52,6 @@ tags:
 - Sales Enablement
 - Demo Analytics
 - Go-To-Market
-- AI-Powered
 - Webhook
 - MCP
 - Analytics

@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Acadepowder Domain Security
+name: Acade Powder Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Acade Powder, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Acade Powder

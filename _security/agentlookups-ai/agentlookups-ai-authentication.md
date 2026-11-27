@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentlookups Ai Authentication
+name: agentlookups-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: agentlookups-ai declares 0 security scheme(s) across its OpenAPI definitions.

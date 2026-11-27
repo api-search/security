@@ -23,7 +23,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Ascendantfx Capital Domain Security
+name: AscendantFX Capital Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AscendantFX Capital, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: AscendantFX Capital

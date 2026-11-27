@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Mercedes Me Authentication
+name: Mercedes-Benz Mercedes me Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Mercedes-Benz Mercedes me declares 3 security scheme(s) across its OpenAPI definitions.

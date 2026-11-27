@@ -84,6 +84,12 @@ api_specs:
   slug: amazon-kendra-query-suggestions-block-list-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-query-suggestions-block-list-api-openapi.yml
+- filename: amazon-kendra-rescore-execution-plan-api-openapi.yml
+  format: yaml
+  label: Amazon Kendra Kendra Rescore Execution Plan API
+  slug: amazon-kendra-rescore-execution-plan-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-kendra/openapi/amazon-kendra-rescore-execution-plan-api-openapi.yml
 description: ''
 domains:
 - caa: []

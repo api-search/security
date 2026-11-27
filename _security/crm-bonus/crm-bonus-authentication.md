@@ -87,7 +87,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Crm Bonus Authentication
+name: CRM Bonus Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CRM Bonus secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

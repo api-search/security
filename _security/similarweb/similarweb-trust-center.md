@@ -85,7 +85,7 @@ certifications:
 description: Similarweb operates a dedicated trust center at trustcenter.similarweb.com, linked from its Privacy and Security page. The trust center host itself is behind a Cloudflare interstitial and returned HTTP 403 ("Just a moment...") to an automated fetch, so the certifications below are read from the provider's own Privacy and Security page, which returned 200 and states them in prose.
 kind: trust-center
 layout: security
-name: Similarweb Trust Center
+name: SimilarWeb Trust Center
 name_suffix: Trust Center
 overview: SimilarWeb maintains a public trust center documenting SOC 2 Type II and ISO 27001 compliance.
 provider_name: SimilarWeb

@@ -194,7 +194,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Emarsys Trust Center
+name: SAP Emarsys Trust Center
 name_suffix: Trust Center
 overview: SAP Emarsys maintains a public trust center documenting SOC 1, SOC 2, ISO 27001, ISO 22301, PCI DSS, FedRAMP, BSI C5, TISAX, and CSA STAR compliance.
 provider_name: SAP Emarsys

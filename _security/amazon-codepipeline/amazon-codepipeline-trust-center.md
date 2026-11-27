@@ -18,6 +18,12 @@ api_specs:
   slug: amazon-codepipeline-aws-codepipeline-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-codepipeline/openapi/amazon-codepipeline-aws-codepipeline-api-openapi.yml
+- filename: amazon-codepipeline-operations-api-openapi.yml
+  format: yaml
+  label: Amazon CodePipeline Codepipeline Operations API
+  slug: amazon-codepipeline-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-codepipeline/openapi/amazon-codepipeline-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -28,7 +34,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Codepipeline Trust Center
+name: Amazon CodePipeline Trust Center
 name_suffix: Trust Center
 overview: Amazon CodePipeline maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon CodePipeline

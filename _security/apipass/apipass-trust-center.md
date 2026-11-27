@@ -145,7 +145,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Apipass Trust Center
+name: APIPASS API Marketplace Trust Center
 name_suffix: Trust Center
 overview: APIPASS API Marketplace maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: APIPASS API Marketplace

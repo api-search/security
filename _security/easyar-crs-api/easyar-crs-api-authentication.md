@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Easyar Crs Api Authentication
+name: EasyAR CRS API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EasyAR CRS API declares 2 security scheme(s) across its OpenAPI definitions.

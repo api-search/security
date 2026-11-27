@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Aidinrobotics Authentication
+name: AIDIN ROBOTICS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AIDIN ROBOTICS declares 2 security scheme(s) across its OpenAPI definitions.

@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bitflyer Authentication
+name: bitFlyer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: bitFlyer declares 1 security scheme(s) across its OpenAPI definitions.

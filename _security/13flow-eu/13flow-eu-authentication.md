@@ -164,7 +164,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 13Flow Eu Authentication
+name: 13FLOW Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 13FLOW declares 0 security scheme(s) across its OpenAPI definitions.

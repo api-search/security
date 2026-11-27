@@ -17,7 +17,7 @@ certifications:
 description: 'ActionIQ has no trust center on its own domain. Uniphore acquired ActionIQ in December 2024 and actioniq.com now 301-redirects to https://www.uniphore.com/actioniq/, so ActionIQ''s security and compliance posture is published on the parent brand''s SafeBase-hosted trust center at trust.uniphore.com. That is the acquisition/parent-brand case: the product is sold as Uniphore''s CDP Agent and the certifications below cover the platform ActionIQ is now part of.'
 kind: trust-center
 layout: security
-name: Actioniq Trust Center
+name: ActionIQ Trust Center
 name_suffix: Trust Center
 overview: ActionIQ maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO/IEC 27017:2015, ISO/IEC 27018:2019, PCI DSS v4.0.1, HIPAA, GDPR, NIST CSF, CASA Tier 2, EU AI Act, FIPS 140-2, and FIPS 140-3 compliance.
 provider_name: ActionIQ

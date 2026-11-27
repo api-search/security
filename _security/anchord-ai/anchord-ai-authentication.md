@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anchord Ai Authentication
+name: Anchord AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Anchord AI declares 0 security scheme(s) across its OpenAPI definitions.

@@ -236,7 +236,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Affix Io Com Authentication
+name: AffixIO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AffixIO declares 1 security scheme(s) across its OpenAPI definitions.

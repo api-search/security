@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Snoopscan Com Authentication
+name: snoopscan-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: snoopscan-com declares 1 security scheme(s) across its OpenAPI definitions.

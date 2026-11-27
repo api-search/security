@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Antalyatransfers Co Authentication
+name: AntalyaTransfers.co Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AntalyaTransfers.co declares 0 security scheme(s) across its OpenAPI definitions.

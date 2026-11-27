@@ -163,7 +163,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mx Technologies Trust Center
+name: MX Technologies Trust Center
 name_suffix: Trust Center
 overview: MX Technologies maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: MX Technologies

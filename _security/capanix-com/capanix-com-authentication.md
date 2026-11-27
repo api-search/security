@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Capanix Com Authentication
+name: capanix-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: capanix-com secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

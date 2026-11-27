@@ -20,7 +20,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Doubleverify Trust Center
+name: DoubleVerify Trust Center
 name_suffix: Trust Center
 overview: DoubleVerify maintains a public trust center documenting SOC 2, ISO/IEC 27001, ISO/IEC 27001 Statement of Applicability, ISO/IEC 27701, GDPR, CCPA, CPRA, LGPD, PIPEDA, VCDPA, EU-US Data Privacy Framework, Swiss-US Data Privacy Framework, UK Extension to the EU-US Data Privacy Framework, APEC CBPR, APEC PRP, and TRUSTe compliance.
 provider_name: DoubleVerify

@@ -77,7 +77,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Memberpress Authentication
+name: MemberPress Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MemberPress secures its APIs with apiKey and wordpress-capability across 3 declared security schemes, as derived from its OpenAPI definitions.

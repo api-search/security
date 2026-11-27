@@ -54,7 +54,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fal Ai Trust Center
+name: fal Trust Center
 name_suffix: Trust Center
 overview: fal maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: fal

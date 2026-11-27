@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Allnewsapi Com Authentication
+name: allnewsapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: allnewsapi-com declares 1 security scheme(s) across its OpenAPI definitions.

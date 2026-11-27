@@ -29,7 +29,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: University Of Exeter Domain Security
+name: University of Exeter Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for University of Exeter, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: University of Exeter

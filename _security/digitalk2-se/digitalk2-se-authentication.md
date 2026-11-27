@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Digitalk2 Se Authentication
+name: DigitalK2 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DigitalK2 declares 1 security scheme(s) across its OpenAPI definitions.

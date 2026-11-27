@@ -1,0 +1,51 @@
+---
+api_specs:
+- filename: magicscreenshots-com-functions-api-openapi.yml
+  format: yaml
+  label: MagicScreenshots Functions API
+  slug: magicscreenshots-com-functions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/magicscreenshots-com/openapi/magicscreenshots-com-functions-api-openapi.yml
+- filename: magicscreenshots-com-mcp-api-openapi.yml
+  format: yaml
+  label: MagicScreenshots MCP API
+  slug: magicscreenshots-com-mcp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/magicscreenshots-com/openapi/magicscreenshots-com-mcp-api-openapi.yml
+description: ''
+domains:
+- caa: []
+  dmarc: false
+  dnssec: false
+  domain: magicscreenshots.com
+  spf: true
+hosts:
+- cert_expires: Jan 18 20:59:16 2027 GMT
+  host: magicscreenshots.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: MagicScreenshots Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for MagicScreenshots, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
+provider_name: MagicScreenshots
+provider_slug: magicscreenshots-com
+slug: magicscreenshots-com-domain-security
+source_filename: magicscreenshots-com-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-11-17'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: magicscreenshots.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 18 20:59:16 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: magicscreenshots.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: false\n"
+source_yaml_url: https://artifacts.apis.io/magicscreenshots-com/security/magicscreenshots-com-domain-security.yml
+summary_line: TLSv1.3 · HSTS
+tags:
+- Company
+- App Store
+- Screenshots
+- Localization
+- Artificial Intelligence
+---

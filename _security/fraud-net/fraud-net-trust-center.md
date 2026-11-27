@@ -30,7 +30,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fraud Net Trust Center
+name: Fraud.net Trust Center
 name_suffix: Trust Center
 overview: Fraud.net maintains a public trust center documenting SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, GDPR, NIST 800-53, and NTIS compliance.
 provider_name: Fraud.net

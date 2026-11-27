@@ -26,5 +26,8 @@ summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, GDPR, CSA STAR
 tags:
 - Cybersecurity
 - Networking
+- Firewall
+- Cloud Security
+- Artificial Intelligence
 trust_url: https://trust.fortinet.com/
 ---

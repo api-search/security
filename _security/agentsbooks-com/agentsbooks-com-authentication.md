@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Agentsbooks Com Authentication
+name: AgentsBooks Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentsBooks secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

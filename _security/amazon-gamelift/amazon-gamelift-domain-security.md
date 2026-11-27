@@ -24,6 +24,30 @@ api_specs:
   slug: amazon-gamelift-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-operations-api-openapi.yml
+- filename: amazon-gamelift-applications-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Applications API
+  slug: amazon-gamelift-applications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-applications-api-openapi.yml
+- filename: amazon-gamelift-streamgroups-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Streamgroups API
+  slug: amazon-gamelift-streamgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-streamgroups-api-openapi.yml
+- filename: amazon-gamelift-streamsessions-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Streamsessions API
+  slug: amazon-gamelift-streamsessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-streamsessions-api-openapi.yml
+- filename: amazon-gamelift-streamurls-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Streamurls API
+  slug: amazon-gamelift-streamurls-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-streamurls-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +75,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Gamelift Domain Security
+name: Amazon GameLift Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon GameLift, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon GameLift

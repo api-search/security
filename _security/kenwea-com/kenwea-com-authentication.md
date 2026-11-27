@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Kenwea Com Authentication
+name: kenwea-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: kenwea-com declares 0 security scheme(s) across its OpenAPI definitions.

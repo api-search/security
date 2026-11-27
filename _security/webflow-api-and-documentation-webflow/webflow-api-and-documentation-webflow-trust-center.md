@@ -125,7 +125,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Webflow Api And Documentation Webflow Trust Center
+name: Webflow API and Documentation Trust Center
 name_suffix: Trust Center
 overview: Webflow API and Documentation maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, and GDPR compliance.
 provider_name: Webflow API and Documentation

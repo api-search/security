@@ -230,7 +230,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 1Gateway Dev Authentication
+name: 1gateway Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 1gateway declares 0 security scheme(s) across its OpenAPI definitions.

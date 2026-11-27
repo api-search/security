@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Asendia Ai Trust Center
+name: Asendia AI Trust Center
 name_suffix: Trust Center
 overview: Asendia AI maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Asendia AI

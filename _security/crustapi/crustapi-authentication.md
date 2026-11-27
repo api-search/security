@@ -15,6 +15,12 @@ api_specs:
   slug: crustapi-search-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/crustapi/openapi/crustapi-search-api-openapi.yml
+- filename: crustapi-account-api-openapi.yml
+  format: yaml
+  label: CrustAPI Account API
+  slug: crustapi-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/crustapi/openapi/crustapi-account-api-openapi.yml
 - filename: crustapi-linked-in-api-openapi.yml
   format: yaml
   label: CrustAPI Linked In API
@@ -28,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Crustapi Authentication
+name: CrustAPI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CrustAPI secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

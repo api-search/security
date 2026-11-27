@@ -2,6 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: microsoft-azure-traffic-manager-providers-api-openapi.yml
+  format: yaml
+  label: Azure Traffic Manager Providers API
+  slug: microsoft-azure-traffic-manager-providers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-providers-api-openapi.yml
+- filename: microsoft-azure-traffic-manager-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Traffic Manager Subscriptions API
+  slug: microsoft-azure-traffic-manager-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-subscriptions-api-openapi.yml
+- filename: microsoft-azure-traffic-manager-trafficmanagergeographichierarchies-api-openapi.yml
+  format: yaml
+  label: Azure Traffic Manager Traffic Manager Geographic Hierarchies API
+  slug: microsoft-azure-traffic-manager-trafficmanagergeographichierarchies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-trafficmanagergeographichierarchies-api-openapi.yml
+- filename: microsoft-azure-traffic-manager-usermetricsmodels-api-openapi.yml
+  format: yaml
+  label: Azure Traffic Manager User Metrics Models API
+  slug: microsoft-azure-traffic-manager-usermetricsmodels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-usermetricsmodels-api-openapi.yml
 - filename: microsoft-azure-traffic-manager-endpoints-api-openapi.yml
   format: yaml
   label: Azure Traffic Manager Endpoints API
@@ -10,28 +34,28 @@ api_specs:
   url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-endpoints-api-openapi.yml
 - filename: microsoft-azure-traffic-manager-geographichierarchies-api-openapi.yml
   format: yaml
-  label: Azure Traffic Manager GeographicHierarchies API
+  label: Azure Traffic Manager Geographic Hierarchies API
   slug: microsoft-azure-traffic-manager-geographichierarchies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-geographichierarchies-api-openapi.yml
 - filename: microsoft-azure-traffic-manager-heatmap-api-openapi.yml
   format: yaml
-  label: Azure Traffic Manager HeatMap API
+  label: Azure Traffic Manager Heat Map API
   slug: microsoft-azure-traffic-manager-heatmap-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-heatmap-api-openapi.yml
+- filename: microsoft-azure-traffic-manager-usermetrics-api-openapi.yml
+  format: yaml
+  label: Azure Traffic Manager User Metrics API
+  slug: microsoft-azure-traffic-manager-usermetrics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-usermetrics-api-openapi.yml
 - filename: microsoft-azure-traffic-manager-profiles-api-openapi.yml
   format: yaml
   label: Azure Traffic Manager Profiles API
   slug: microsoft-azure-traffic-manager-profiles-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-profiles-api-openapi.yml
-- filename: microsoft-azure-traffic-manager-usermetrics-api-openapi.yml
-  format: yaml
-  label: Azure Traffic Manager UserMetrics API
-  slug: microsoft-azure-traffic-manager-usermetrics-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-traffic-manager/openapi/microsoft-azure-traffic-manager-usermetrics-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -39,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Microsoft Azure Traffic Manager Authentication
+name: Azure Traffic Manager Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit

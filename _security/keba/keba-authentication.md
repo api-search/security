@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Keba Authentication
+name: KEBA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: KEBA declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Boundlesshq Com Authentication
+name: Boundless Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Boundless declares 0 security scheme(s) across its OpenAPI definitions.

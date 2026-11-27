@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Zone And Company Trust Center
+name: Zone & Company Trust Center
 name_suffix: Trust Center
 overview: Zone & Company maintains a public trust center documenting SOC 1 Type 2, SOC 2 Type 2, ISO/IEC 27001, ISO 9001:2015, and ISO 14001 compliance.
 provider_name: Zone & Company

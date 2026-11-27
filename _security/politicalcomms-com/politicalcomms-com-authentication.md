@@ -116,7 +116,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Politicalcomms Com Authentication
+name: politicalcomms-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: politicalcomms-com declares 1 security scheme(s) across its OpenAPI definitions.

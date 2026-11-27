@@ -28,7 +28,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Iot Fleetwise Trust Center
+name: Amazon IoT FleetWise Trust Center
 name_suffix: Trust Center
 overview: Amazon IoT FleetWise maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon IoT FleetWise

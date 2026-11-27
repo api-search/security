@@ -66,7 +66,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Hebrew University Of Jerusalem Domain Security
+name: Hebrew University of Jerusalem Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Hebrew University of Jerusalem, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Hebrew University of Jerusalem

@@ -61,7 +61,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Finedata Ai Trust Center
+name: finedata-ai Trust Center
 name_suffix: Trust Center
 overview: finedata-ai maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: finedata-ai

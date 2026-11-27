@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Schoolai Trust Center
+name: SchoolAI Trust Center
 name_suffix: Trust Center
 overview: SchoolAI maintains a public trust center documenting SOC 2 Type 2, FERPA, COPPA, 1EdTech TrustEd Apps, FIPPA, and ESSA Tier 3 compliance.
 provider_name: SchoolAI

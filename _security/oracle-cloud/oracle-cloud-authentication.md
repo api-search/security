@@ -177,7 +177,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Oracle Cloud Authentication
+name: Oracle Cloud Infrastructure Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Oracle Cloud Infrastructure secures its APIs with http-signature across 1 declared security scheme, as derived from its OpenAPI definitions.

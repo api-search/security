@@ -42,7 +42,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Games24X7 Domain Security
+name: Games24x7 Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Games24x7, probed live across 3 host(s) and 3 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Games24x7

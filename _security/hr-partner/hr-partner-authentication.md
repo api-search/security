@@ -196,7 +196,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Hr Partner Authentication
+name: HR Partner Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HR Partner secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

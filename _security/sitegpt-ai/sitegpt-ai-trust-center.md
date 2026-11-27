@@ -207,7 +207,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sitegpt Ai Trust Center
+name: sitegpt-ai Trust Center
 name_suffix: Trust Center
 overview: sitegpt-ai maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: sitegpt-ai

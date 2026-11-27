@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Warner Bros Discovery Authentication
+name: Warner Bros. Discovery Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

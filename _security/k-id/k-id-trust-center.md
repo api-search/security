@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: K Id Trust Center
+name: k-ID Trust Center
 name_suffix: Trust Center
 overview: k-ID maintains a public trust center covering its security and compliance posture.
 provider_name: k-ID

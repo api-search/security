@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Fintechstudios Com Authentication
+name: FinTech Studios Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FinTech Studios declares 2 security scheme(s) across its OpenAPI definitions.
@@ -43,9 +43,9 @@ source_yaml: "generated: '2026-11-08'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/fintechstudios-com/authentication/fintechstudios-com-authentication.yml
 summary_line: 2 schemes
 tags:
-- AI
+- Artificial Intelligence
 - Intelligence
-- Real-time
+- Real-Time
 - News
 - Data
 ---

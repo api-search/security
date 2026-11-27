@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Octo Authentication
+name: Open Connectivity for Tours, Activities, and Attractions Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Open Connectivity for Tours, Activities, and Attractions secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

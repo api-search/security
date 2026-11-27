@@ -200,7 +200,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agenticfinancegraph Com Authentication
+name: Agentic Finance Graph Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agentic Finance Graph declares 0 security scheme(s) across its OpenAPI definitions.

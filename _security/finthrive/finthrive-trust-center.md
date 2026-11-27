@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Finthrive Trust Center
+name: FinThrive Trust Center
 name_suffix: Trust Center
 overview: FinThrive maintains a public trust center documenting SOC, HITRUST, NIST CSF, and EHNAC compliance.
 provider_name: FinThrive

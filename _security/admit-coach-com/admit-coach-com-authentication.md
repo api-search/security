@@ -728,7 +728,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Admit Coach Com Authentication
+name: Admit Coach Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Admit Coach declares 1 security scheme(s) across its OpenAPI definitions.

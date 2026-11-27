@@ -23,7 +23,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Uidai Domain Security
+name: Aadhaar eSign (UIDAI) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Aadhaar eSign (UIDAI), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Aadhaar eSign (UIDAI)

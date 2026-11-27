@@ -228,7 +228,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: derived
-name: Egym Authentication
+name: EGYM Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Onlinealarmkur Com Domain Security
+name: Date Calculator MCP Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Date Calculator MCP, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Date Calculator MCP

@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Polly Ai Trust Center
+name: Polly Trust Center
 name_suffix: Trust Center
 overview: Polly maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Polly

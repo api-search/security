@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Adhdevaluations Fyi Authentication
+name: ADHDEvaluations Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ADHDEvaluations declares 0 security scheme(s) across its OpenAPI definitions.

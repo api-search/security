@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: 4Screen Authentication
+name: 4.screen Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 4.screen declares 2 security scheme(s) across its OpenAPI definitions.

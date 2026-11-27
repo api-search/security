@@ -2,24 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-datastream-operations-api-openapi.yml
+- filename: google-cloud-datastream-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Datastream Operations API
-  slug: google-cloud-datastream-operations-api
+  label: Google Cloud Datastream Cloud Datastream Projects API
+  slug: google-cloud-datastream-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-datastream/openapi/google-cloud-datastream-operations-api-openapi.yml
-- filename: google-cloud-datastream-streams-api-openapi.yml
-  format: yaml
-  label: Google Cloud Datastream Streams API
-  slug: google-cloud-datastream-streams-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-datastream/openapi/google-cloud-datastream-streams-api-openapi.yml
-- filename: google-cloud-datastream-connection-profiles-api-openapi.yml
-  format: yaml
-  label: Google Cloud Datastream Connection Profiles API
-  slug: google-cloud-datastream-connection-profiles-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-datastream/openapi/google-cloud-datastream-connection-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-datastream/openapi/google-cloud-datastream-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -57,4 +45,6 @@ tags:
 - Data Replication
 - Google Cloud
 - Streaming
+- MCP
+- Database
 ---

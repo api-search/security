@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Foss Public Alert Server Authentication
+name: FOSS Public Alert Server Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FOSS Public Alert Server declares 0 security scheme(s) across its OpenAPI definitions.

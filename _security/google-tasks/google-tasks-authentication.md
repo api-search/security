@@ -2,18 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-tasks-lists-api-openapi.yml
+- filename: google-tasks-tasklists-api-openapi.yml
   format: yaml
-  label: Google Tasks Lists API
-  slug: google-tasks-lists-api
+  label: Google Tasks Tasks Tasklists API
+  slug: google-tasks-tasklists-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-tasks/openapi/google-tasks-lists-api-openapi.yml
-- filename: google-tasks-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-tasks/openapi/google-tasks-tasklists-api-openapi.yml
+- filename: google-tasks-tasks-api-openapi.yml
   format: yaml
-  label: Google Tasks Users API
-  slug: google-tasks-users-api
+  label: Google Tasks Tasks Tasks API
+  slug: google-tasks-tasks-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-tasks/openapi/google-tasks-users-api-openapi.yml
+  url: https://artifacts.apis.io/google-tasks/openapi/google-tasks-tasks-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

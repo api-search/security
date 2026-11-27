@@ -388,7 +388,7 @@ tags:
 - Agriculture
 - Farm Data
 - Field Boundaries
-- Machine Operations
+- Machine-Operations
 - Provider Integrations
 - Unified API
 - Weather

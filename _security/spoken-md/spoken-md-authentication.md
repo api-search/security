@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Spoken Md Authentication
+name: spoken-md Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: spoken-md declares 1 security scheme(s) across its OpenAPI definitions.

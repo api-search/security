@@ -7,7 +7,7 @@ api_specs:
   label: HiveMQ MQTT over WebSocket
   slug: mqtt-websocket
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/asyncapi/hivemq-asyncapi.yml
+  url: https://artifacts.apis.io/hivemq/asyncapi/hivemq-asyncapi.yml
 - filename: hivemq-data-hub-api-openapi.yml
   format: yaml
   label: HiveMQ Data Hub API
@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Hivemq Authentication
+name: HiveMQ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HiveMQ secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

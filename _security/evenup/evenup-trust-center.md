@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Evenup Trust Center
+name: EvenUp Trust Center
 name_suffix: Trust Center
 overview: EvenUp maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: EvenUp

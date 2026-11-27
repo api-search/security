@@ -254,7 +254,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Osrmroute Com Authentication
+name: osrmroute-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: osrmroute-com declares 1 security scheme(s) across its OpenAPI definitions.

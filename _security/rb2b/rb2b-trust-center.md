@@ -7,7 +7,7 @@ certifications:
 description: 'RB2B publishes its security posture on its own site and points at a SecurityPal-hosted assurance profile for verification. The trust centre is on the retention.securitypal.com subdomain rather than an rb2b one: RB2B and Retention.com are sibling products of the same company, which is also why www.rb2b.com/apis 301-redirects to retention.com/apis and the database opt-out is operated at app.retention.com/optout. Confirmed by the link being published on RB2B''s own /security page.'
 kind: trust-center
 layout: security
-name: Rb2B Trust Center
+name: RB2B Trust Center
 name_suffix: Trust Center
 overview: RB2B maintains a public trust center documenting SOC 2 Type 2, CCPA, and GDPR compliance.
 provider_name: RB2B

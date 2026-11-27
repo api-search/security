@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Oncolens Authentication
+name: OncoLens Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OncoLens declares 0 security scheme(s) across its OpenAPI definitions.

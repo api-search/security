@@ -266,7 +266,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Call2Me App Authentication
+name: Call2Me Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Call2Me declares 2 security scheme(s) across its OpenAPI definitions.

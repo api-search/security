@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Snorkel Ai Trust Center
+name: Snorkel AI Trust Center
 name_suffix: Trust Center
 overview: Snorkel AI maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Snorkel AI

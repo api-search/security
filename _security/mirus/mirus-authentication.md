@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Mirus Authentication
+name: MiRus Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MiRus declares 1 security scheme(s) across its OpenAPI definitions.

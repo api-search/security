@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Taxbandits Trust Center
+name: TaxBandits Trust Center
 name_suffix: Trust Center
 overview: TaxBandits maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: TaxBandits

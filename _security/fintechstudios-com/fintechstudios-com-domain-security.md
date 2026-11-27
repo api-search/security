@@ -25,7 +25,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fintechstudios Com Domain Security
+name: FinTech Studios Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FinTech Studios, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: FinTech Studios
@@ -38,9 +38,9 @@ source_yaml: "generated: '2026-11-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/fintechstudios-com/security/fintechstudios-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
+- Artificial Intelligence
 - Intelligence
-- Real-time
+- Real-Time
 - News
 - Data
 ---

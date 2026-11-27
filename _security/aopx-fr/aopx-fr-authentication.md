@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aopx Fr Authentication
+name: aopx-fr Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: aopx-fr declares 0 security scheme(s) across its OpenAPI definitions.

@@ -512,7 +512,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Tandoor Authentication
+name: Tandoor Recipes Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tandoor Recipes declares 3 security scheme(s) across its OpenAPI definitions.

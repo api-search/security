@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Carbonchain Trust Center
+name: CarbonChain Trust Center
 name_suffix: Trust Center
 overview: CarbonChain maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: CarbonChain

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hockeystack Trust Center
+name: HockeyStack Trust Center
 name_suffix: Trust Center
 overview: HockeyStack maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: HockeyStack

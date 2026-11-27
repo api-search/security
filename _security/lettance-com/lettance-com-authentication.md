@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Lettance Com Authentication
+name: lettance-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: lettance-com declares 0 security scheme(s) across its OpenAPI definitions.

@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Incident Iq Authentication
+name: Incident IQ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Incident IQ secures its APIs with http and oauth1 across 4 declared security schemes, as derived from its OpenAPI definitions.

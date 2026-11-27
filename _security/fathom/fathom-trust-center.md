@@ -38,7 +38,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fathom Trust Center
+name: Fathom Analytics Trust Center
 name_suffix: Trust Center
 overview: Fathom Analytics maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Fathom Analytics

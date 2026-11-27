@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Prro Cloud Authentication
+name: prro-cloud Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: prro-cloud declares 1 security scheme(s) across its OpenAPI definitions.

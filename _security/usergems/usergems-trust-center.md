@@ -27,7 +27,7 @@ certifications:
 description: UserGems runs a hosted trust center with a document library available on request, plus a public data-security page. Certifications and frameworks below are read from the trust center's own published highlights and from the data-security page.
 kind: trust-center
 layout: security
-name: Usergems Trust Center
+name: UserGems Trust Center
 name_suffix: Trust Center
 overview: UserGems maintains a public trust center documenting SOC 2 Type II, GDPR, CCPA, and EU AI Act (limited risk) compliance.
 provider_name: UserGems

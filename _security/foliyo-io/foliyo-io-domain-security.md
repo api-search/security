@@ -23,7 +23,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Foliyo Io Domain Security
+name: Foliyo Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Foliyo, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Foliyo
@@ -36,9 +36,9 @@ source_yaml: "generated: '2026-11-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/foliyo-io/security/foliyo-io-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- AI
+- Artificial Intelligence
 - Reports
 - Proposals
 - Branding
-- SaaS
+- Software-as-a-Service
 ---

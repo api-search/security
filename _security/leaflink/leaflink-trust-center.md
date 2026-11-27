@@ -533,7 +533,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Leaflink Trust Center
+name: LeafLink Trust Center
 name_suffix: Trust Center
 overview: LeafLink maintains a public trust center covering its security and compliance posture.
 provider_name: LeafLink

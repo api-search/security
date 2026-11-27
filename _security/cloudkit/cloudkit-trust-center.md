@@ -50,7 +50,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cloudkit Trust Center
+name: Apple CloudKit Trust Center
 name_suffix: Trust Center
 overview: Apple CloudKit maintains a public trust center documenting ISO/IEC 27001, ISO/IEC 27018, and SOC 3 compliance.
 provider_name: Apple CloudKit

@@ -96,7 +96,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Bureau Of Transportation Statistics Domain Security
+name: Bureau of Transportation Statistics Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Bureau of Transportation Statistics, probed live across 4 host(s) and 1 registrable domain(s). 4 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Bureau of Transportation Statistics

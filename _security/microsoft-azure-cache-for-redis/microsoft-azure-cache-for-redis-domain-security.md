@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-cache-for-redis-operations-api-openapi.yml
-  format: yaml
-  label: microsoft-azure-cache-for-redis Operations API
-  slug: microsoft-azure-cache-for-redis-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-linkedserver-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Linked Server API
@@ -42,18 +36,48 @@ api_specs:
   slug: microsoft-azure-cache-for-redis-redisresources-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-redisresources-api-openapi.yml
-- filename: microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-accesspolicyassignments-api-openapi.yml
   format: yaml
-  label: Microsoft Azure Cache For Redis Subscriptions API
-  slug: microsoft-azure-cache-for-redis-subscriptions-api
+  label: Microsoft Azure Cache For Redis Access Policy Assignments API
+  slug: microsoft-azure-cache-for-redis-accesspolicyassignments-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-accesspolicyassignments-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-clusters-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Clusters API
+  slug: microsoft-azure-cache-for-redis-clusters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-clusters-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-databases-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Databases API
+  slug: microsoft-azure-cache-for-redis-databases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-databases-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-migrations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Migrations API
+  slug: microsoft-azure-cache-for-redis-migrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-migrations-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Operations API
+  slug: microsoft-azure-cache-for-redis-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-operations-api-openapi.yml
 - filename: microsoft-azure-cache-for-redis-private-endpoint-connections-api-openapi.yml
   format: yaml
   label: Microsoft Azure Cache For Redis Private Endpoint Connections API
   slug: microsoft-azure-cache-for-redis-private-endpoint-connections-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-private-endpoint-connections-api-openapi.yml
+- filename: microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure Cache For Redis Subscriptions API
+  slug: microsoft-azure-cache-for-redis-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-cache-for-redis/openapi/microsoft-azure-cache-for-redis-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:

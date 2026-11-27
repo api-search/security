@@ -39,7 +39,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Trade Desk Trust Center
+name: The Trade Desk Trust Center
 name_suffix: Trust Center
 overview: The Trade Desk maintains a public trust center documenting SSAE18 SOC 2 Type 2, SSAE18 SOC 1, Sarbanes-Oxley (SOX) Section 404, and PCI DSS SAQ A (self-attestation) compliance.
 provider_name: The Trade Desk

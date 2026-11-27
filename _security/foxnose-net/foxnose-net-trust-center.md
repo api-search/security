@@ -20,7 +20,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Foxnose Net Trust Center
+name: foxnose-net Trust Center
 name_suffix: Trust Center
 overview: foxnose-net maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: foxnose-net

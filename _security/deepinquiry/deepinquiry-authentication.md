@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Deepinquiry Authentication
+name: DeepInquiry Verified Facts API (Machine Accountability Corp) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DeepInquiry Verified Facts API (Machine Accountability Corp) declares 1 security scheme(s) across its OpenAPI definitions.

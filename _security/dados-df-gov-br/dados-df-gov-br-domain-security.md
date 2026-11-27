@@ -20,7 +20,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Dados Df Gov Br Domain Security
+name: Dados abertos Distrito Federal Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Dados abertos Distrito Federal, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Dados abertos Distrito Federal

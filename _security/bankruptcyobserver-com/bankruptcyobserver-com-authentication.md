@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Bankruptcyobserver Com Authentication
+name: BankruptcyObserver Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BankruptcyObserver declares 5 security scheme(s) across its OpenAPI definitions.

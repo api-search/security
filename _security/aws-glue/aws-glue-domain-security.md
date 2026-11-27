@@ -1314,6 +1314,18 @@ api_specs:
   slug: aws-glue-usage-profile-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-glue/openapi/aws-glue-usage-profile-api-openapi.yml
+- filename: aws-glue-data-quality-evaluation-config-api-openapi.yml
+  format: yaml
+  label: AWS Glue Glue Data Quality Evaluation Config API
+  slug: aws-glue-data-quality-evaluation-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-glue/openapi/aws-glue-data-quality-evaluation-config-api-openapi.yml
+- filename: aws-glue-job-upgrade-analysis-api-openapi.yml
+  format: yaml
+  label: AWS Glue Glue Job Upgrade Analysis API
+  slug: aws-glue-job-upgrade-analysis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-glue/openapi/aws-glue-job-upgrade-analysis-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -1350,7 +1362,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Aws Glue Domain Security
+name: AWS Glue Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AWS Glue, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: AWS Glue

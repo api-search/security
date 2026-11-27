@@ -286,7 +286,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Sap Sales And Distribution Sd Authentication
+name: SAP Sales and Distribution (SD) Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

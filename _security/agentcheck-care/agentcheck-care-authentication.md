@@ -125,7 +125,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: probed
-name: Agentcheck Care Authentication
+name: AgentCheck Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentCheck secures its APIs with apiKey, token-in-path, and token-in-query across 5 declared security schemes, as derived from its OpenAPI definitions.

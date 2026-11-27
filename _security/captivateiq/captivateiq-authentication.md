@@ -107,7 +107,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Captivateiq Authentication
+name: CaptivateIQ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CaptivateIQ secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

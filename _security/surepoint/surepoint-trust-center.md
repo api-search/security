@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Surepoint Trust Center
+name: SurePoint Pro Trust Center
 name_suffix: Trust Center
 overview: SurePoint Pro maintains a public trust center documenting SOC 2 compliance.
 provider_name: SurePoint Pro

@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 304Notfound Com Authentication
+name: 304NotModified Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 304NotModified declares 0 security scheme(s) across its OpenAPI definitions.

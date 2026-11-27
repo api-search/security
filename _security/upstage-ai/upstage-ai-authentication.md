@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Upstage Ai Authentication
+name: Upstage Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Upstage declares 1 security scheme(s) across its OpenAPI definitions.

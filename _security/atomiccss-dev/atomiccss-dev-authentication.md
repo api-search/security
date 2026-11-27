@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Atomiccss Dev Authentication
+name: Atomic CSS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Atomic CSS declares 0 security scheme(s) across its OpenAPI definitions.

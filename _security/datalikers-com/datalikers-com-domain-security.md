@@ -90,42 +90,6 @@ api_specs:
   slug: datalikers-com-user-v2-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-user-v2-api-openapi.yml
-- filename: datalikers-com-acquisitions-api-openapi.yml
-  format: yaml
-  label: datalikers-com Acquisitions API
-  slug: datalikers-com-acquisitions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-acquisitions-api-openapi.yml
-- filename: datalikers-com-companies-api-openapi.yml
-  format: yaml
-  label: datalikers-com Companies API
-  slug: datalikers-com-companies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-companies-api-openapi.yml
-- filename: datalikers-com-exec-moves-api-openapi.yml
-  format: yaml
-  label: datalikers-com Exec Moves API
-  slug: datalikers-com-exec-moves-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-exec-moves-api-openapi.yml
-- filename: datalikers-com-funding-events-api-openapi.yml
-  format: yaml
-  label: datalikers-com Funding Events API
-  slug: datalikers-com-funding-events-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-funding-events-api-openapi.yml
-- filename: datalikers-com-hiring-signals-api-openapi.yml
-  format: yaml
-  label: datalikers-com Hiring Signals API
-  slug: datalikers-com-hiring-signals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-hiring-signals-api-openapi.yml
-- filename: datalikers-com-investors-api-openapi.yml
-  format: yaml
-  label: datalikers-com Investors API
-  slug: datalikers-com-investors-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-investors-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -143,7 +107,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Datalikers Com Domain Security
+name: datalikers-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for datalikers-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: datalikers-com

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Bestceremonies Com Au Authentication
+name: Best Ceremonies Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Best Ceremonies declares 0 security scheme(s) across its OpenAPI definitions.

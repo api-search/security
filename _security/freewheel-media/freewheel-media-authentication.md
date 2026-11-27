@@ -402,7 +402,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Freewheel Media Authentication
+name: FreeWheel Media Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

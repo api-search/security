@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Resistant Ai Authentication
+name: Resistant AI Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

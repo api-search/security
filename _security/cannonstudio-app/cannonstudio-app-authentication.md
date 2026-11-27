@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Cannonstudio App Authentication
+name: Cannon Studio Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cannon Studio declares 2 security scheme(s) across its OpenAPI definitions.

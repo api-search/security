@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Allratestoday Com Authentication
+name: allratestoday-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: allratestoday-com declares 2 security scheme(s) across its OpenAPI definitions.

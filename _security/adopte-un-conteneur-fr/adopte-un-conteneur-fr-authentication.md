@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Adopte Un Conteneur Fr Authentication
+name: Adopte Un Conteneur Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Adopte Un Conteneur declares 0 security scheme(s) across its OpenAPI definitions.

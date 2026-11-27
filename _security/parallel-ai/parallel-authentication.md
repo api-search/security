@@ -45,6 +45,48 @@ api_specs:
   slug: parallel-ai-search-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-search-api-openapi.yml
+- filename: parallel-ai-decisions-api-openapi.yml
+  format: yaml
+  label: Parallel Decisions API
+  slug: parallel-ai-decisions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-decisions-api-openapi.yml
+- filename: parallel-ai-apps-api-openapi.yml
+  format: yaml
+  label: Parallel Apps API
+  slug: parallel-ai-apps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-apps-api-openapi.yml
+- filename: parallel-ai-balance-api-openapi.yml
+  format: yaml
+  label: Parallel Balance API
+  slug: parallel-ai-balance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-balance-api-openapi.yml
+- filename: parallel-ai-image-search-api-openapi.yml
+  format: yaml
+  label: Parallel Image Search API
+  slug: parallel-ai-image-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-image-search-api-openapi.yml
+- filename: parallel-ai-keys-api-openapi.yml
+  format: yaml
+  label: Parallel Keys API
+  slug: parallel-ai-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-keys-api-openapi.yml
+- filename: parallel-ai-place-search-api-openapi.yml
+  format: yaml
+  label: Parallel Place Search API
+  slug: parallel-ai-place-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-place-search-api-openapi.yml
+- filename: parallel-ai-usage-api-openapi.yml
+  format: yaml
+  label: Parallel Usage API
+  slug: parallel-ai-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-usage-api-openapi.yml
 - filename: parallel-ai-tasks-api-openapi.yml
   format: yaml
   label: Parallel Tasks API

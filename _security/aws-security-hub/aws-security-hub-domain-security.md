@@ -156,6 +156,12 @@ api_specs:
   slug: aws-security-hub-organization-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-organization-api-openapi.yml
+- filename: aws-security-hub-softwarev2-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Softwarev2 API
+  slug: aws-security-hub-softwarev2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-softwarev2-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -192,7 +198,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Aws Security Hub Domain Security
+name: AWS Security Hub Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AWS Security Hub, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: AWS Security Hub

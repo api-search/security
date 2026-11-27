@@ -37,7 +37,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Paytabs Domain Security
+name: PayTabs Domain Security
 name_suffix: Domain Security
 overview: Domain security posture for PayTabs, probed live across 5 host(s) and 0 registrable domain(s). 5 host(s) serve HTTPS; 0 advertise HSTS.
 provider_name: PayTabs

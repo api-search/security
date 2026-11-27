@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Intakeq Authentication
+name: IntakeQ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IntakeQ secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

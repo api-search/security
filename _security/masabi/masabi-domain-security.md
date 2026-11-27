@@ -34,5 +34,5 @@ tags:
 - Transit
 - Software-as-a-Service
 - MobileTicketing
-- OpenPayments
+- Open Payments
 ---

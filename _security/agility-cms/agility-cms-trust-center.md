@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agility Cms Trust Center
+name: Agility CMS Trust Center
 name_suffix: Trust Center
 overview: Agility CMS maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Agility CMS

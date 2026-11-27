@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Usgrowzones Com Authentication
+name: US Grow Zones Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: US Grow Zones declares 0 security scheme(s) across its OpenAPI definitions.

@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Rdapapi Io Authentication
+name: rdapapi-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: rdapapi-io declares 1 security scheme(s) across its OpenAPI definitions.

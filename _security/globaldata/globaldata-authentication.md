@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Globaldata Authentication
+name: GlobalData Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GlobalData declares 3 security scheme(s) across its OpenAPI definitions.

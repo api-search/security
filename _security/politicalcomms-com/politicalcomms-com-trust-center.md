@@ -115,7 +115,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Politicalcomms Com Trust Center
+name: politicalcomms-com Trust Center
 name_suffix: Trust Center
 overview: politicalcomms-com maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: politicalcomms-com

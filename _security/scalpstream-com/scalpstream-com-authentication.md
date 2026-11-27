@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Scalpstream Com Authentication
+name: ScalpStream Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ScalpStream declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Bianhuakai Club Authentication
+name: OPC / 彼岸花开 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OPC / 彼岸花开 declares 0 security scheme(s) across its OpenAPI definitions.

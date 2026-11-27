@@ -45,5 +45,5 @@ tags:
 - Banking
 - India
 - Data Intelligence
-- Indian-Market
+- Indian Market
 ---

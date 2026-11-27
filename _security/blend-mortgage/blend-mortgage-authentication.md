@@ -69,7 +69,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Blend Mortgage Authentication
+name: Blend Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Blend secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

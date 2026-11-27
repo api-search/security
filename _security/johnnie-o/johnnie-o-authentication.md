@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Johnnie O Authentication
+name: Johnnie-O Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Johnnie-O declares 4 security scheme(s) across its OpenAPI definitions.

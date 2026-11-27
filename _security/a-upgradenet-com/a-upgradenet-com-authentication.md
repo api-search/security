@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: A Upgradenet Com Authentication
+name: Agent Upgrade Network Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Upgrade Network declares 1 security scheme(s) across its OpenAPI definitions.

@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: pub-dev-openapi-generated.yml
+  format: yaml
+  label: pub.dev Packages API
+  slug: pub-dev-packages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/pub-dev/openapi/_ae-authored/pub-dev-openapi-generated.yml
 description: ''
 domains:
 - caa:
@@ -19,7 +26,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Pub Dev Domain Security
+name: pub.dev Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for pub.dev, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: pub.dev

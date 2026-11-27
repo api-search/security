@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tracelink Trust Center
+name: TraceLink Trust Center
 name_suffix: Trust Center
 overview: TraceLink maintains a public trust center documenting ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO 9001:2015, SOC 2 Type II, ISAE 3000 Type II, and CyberVadis compliance.
 provider_name: TraceLink

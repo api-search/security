@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Banking Mcp Com Authentication
+name: Escher Consulting GmbH Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Escher Consulting GmbH declares 1 security scheme(s) across its OpenAPI definitions.

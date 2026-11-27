@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Pensando Authentication
+name: Pensando * Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Pensando * declares 2 security scheme(s) across its OpenAPI definitions.

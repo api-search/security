@@ -315,7 +315,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Growthbook Authentication
+name: GrowthBook Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GrowthBook secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

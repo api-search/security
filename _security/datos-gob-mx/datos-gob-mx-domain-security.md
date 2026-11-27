@@ -15,7 +15,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Datos Gob Mx Domain Security
+name: datos.gob.mx - Sitio oficial de datos abiertos del Gobierno de la República Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for datos.gob.mx - Sitio oficial de datos abiertos del Gobierno de la República, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC absent.'
 provider_name: datos.gob.mx - Sitio oficial de datos abiertos del Gobierno de la República

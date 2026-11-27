@@ -125,7 +125,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Superai Authentication
+name: Super.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Super.ai secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

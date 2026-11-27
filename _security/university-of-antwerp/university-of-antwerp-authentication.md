@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: University Of Antwerp Authentication
+name: University of Antwerp Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Antwerp declares 5 security scheme(s) across its OpenAPI definitions.

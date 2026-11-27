@@ -70,7 +70,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Scope Bid Trust Center
+name: scope-bid Trust Center
 name_suffix: Trust Center
 overview: scope-bid maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: scope-bid

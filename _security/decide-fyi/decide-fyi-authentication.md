@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Decide Fyi Authentication
+name: decide-fyi Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: decide-fyi declares 1 security scheme(s) across its OpenAPI definitions.

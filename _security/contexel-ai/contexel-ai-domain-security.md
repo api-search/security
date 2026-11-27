@@ -31,7 +31,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Contexel Ai Domain Security
+name: Contexel Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Contexel, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: Contexel
@@ -44,7 +44,7 @@ source_yaml: "generated: '2026-11-04'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/contexel-ai/security/contexel-ai-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- AI memory
+- AI Memory
 - Family workspace
 - Personal workspace
 - ChatGPT

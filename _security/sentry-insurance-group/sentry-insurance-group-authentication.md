@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Sentry Insurance Group Authentication
+name: Sentry Insurance Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sentry Insurance declares 2 security scheme(s) across its OpenAPI definitions.

@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Connells Authentication
+name: Connells Group Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Connells Group declares 0 security scheme(s) across its OpenAPI definitions.

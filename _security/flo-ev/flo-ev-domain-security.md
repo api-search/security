@@ -50,7 +50,7 @@ hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed
-name: Flo Ev Domain Security
+name: FLO Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FLO, probed live across 7 host(s) and 1 registrable domain(s). 7 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: FLO

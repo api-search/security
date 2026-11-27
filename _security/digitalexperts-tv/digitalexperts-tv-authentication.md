@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Digitalexperts Tv Authentication
+name: Digital Experts Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Digital Experts declares 1 security scheme(s) across its OpenAPI definitions.

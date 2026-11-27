@@ -1175,7 +1175,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: derived
-name: Eci Solutions Authentication
+name: ECI Solutions Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

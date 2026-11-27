@@ -77,7 +77,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Line Authentication
+name: LINE Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LINE secures its APIs with http, oauth2, and openIdConnect across 3 declared security schemes, as derived from its OpenAPI definitions.

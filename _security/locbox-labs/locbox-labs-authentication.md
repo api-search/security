@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Locbox Labs Authentication
+name: LocBox Labs Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -283,7 +283,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Moengage Trust Center
+name: MoEngage Trust Center
 name_suffix: Trust Center
 overview: MoEngage maintains a public trust center documenting SOC 2 Type 2, CSA STAR Level 2, ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO 22301:2019, HIPAA, GDPR, and CCPA compliance.
 provider_name: MoEngage

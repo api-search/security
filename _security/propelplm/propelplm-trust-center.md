@@ -93,7 +93,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Propelplm Trust Center
+name: Propel Software (Propel PLM) Trust Center
 name_suffix: Trust Center
 overview: Propel Software (Propel PLM) maintains a public trust center documenting SOC 2, ISO 27001, FedRAMP, and GDPR compliance.
 provider_name: Propel Software (Propel PLM)

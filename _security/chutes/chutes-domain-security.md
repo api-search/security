@@ -12,12 +12,6 @@ api_specs:
   slug: chutes-images-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/chutes/openapi/chutes-images-api-openapi.yml
-- filename: chutes-models-api-openapi.yml
-  format: yaml
-  label: Chutes Models API
-  slug: chutes-models-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/chutes/openapi/chutes-models-api-openapi.yml
 - filename: chutes-audit-api-openapi.yml
   format: yaml
   label: Chutes Audit API
@@ -168,12 +162,6 @@ api_specs:
   slug: chutes-well-known-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/chutes/openapi/chutes-well-known-api-openapi.yml
-- filename: chutes-chat-completions-api-openapi.yml
-  format: yaml
-  label: Chutes Chat Completions API
-  slug: chutes-chat-completions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/chutes/openapi/chutes-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []

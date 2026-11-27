@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Docsautomator Co Authentication
+name: docsautomator-co Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: docsautomator-co declares 2 security scheme(s) across its OpenAPI definitions.

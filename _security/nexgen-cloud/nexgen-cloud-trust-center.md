@@ -391,7 +391,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nexgen Cloud Trust Center
+name: NexGen Cloud Trust Center
 name_suffix: Trust Center
 overview: NexGen Cloud maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: NexGen Cloud

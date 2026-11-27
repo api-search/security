@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Anonping Com Authentication
+name: AnonPing Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AnonPing declares 1 security scheme(s) across its OpenAPI definitions.

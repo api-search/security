@@ -5,7 +5,7 @@ api_specs:
   label: ChartMogul Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-asyncapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-asyncapi.yml
 - filename: chartmogul-account-api-openapi.yml
   format: yaml
   label: ChartMogul Account API
@@ -78,7 +78,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Chartmogul Domain Security
+name: ChartMogul Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ChartMogul, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: ChartMogul

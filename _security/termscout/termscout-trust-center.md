@@ -20,7 +20,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Termscout Trust Center
+name: TermScout Trust Center
 name_suffix: Trust Center
 overview: TermScout maintains a public trust center documenting SOC 2, GDPR, and CCPA compliance.
 provider_name: TermScout

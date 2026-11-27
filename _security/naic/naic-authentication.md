@@ -443,7 +443,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Naic Authentication
+name: NAIC Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NAIC secures its APIs with none, cookie, and saml-oidc-sso across 0 declared security schemes, as derived from its OpenAPI definitions.

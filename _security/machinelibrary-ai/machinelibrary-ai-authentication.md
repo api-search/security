@@ -48,7 +48,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Machinelibrary Ai Authentication
+name: Space Frontiers Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Space Frontiers secures its APIs with apiKey, http, and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions.

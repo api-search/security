@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Activityhero Authentication
+name: ActivityHero Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ActivityHero secures its APIs with signature across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -224,7 +224,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Pangolin Net Authentication
+name: Pangolin (Fossorial) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Pangolin (Fossorial) declares 0 security scheme(s) across its OpenAPI definitions.

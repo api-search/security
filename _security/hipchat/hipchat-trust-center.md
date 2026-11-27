@@ -18,7 +18,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hipchat Trust Center
+name: HipChat Trust Center
 name_suffix: Trust Center
 overview: HipChat maintains a public trust center documenting FedRAMP compliance.
 provider_name: HipChat

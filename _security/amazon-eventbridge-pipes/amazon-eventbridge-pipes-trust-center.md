@@ -22,7 +22,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Eventbridge Pipes Trust Center
+name: Amazon EventBridge Pipes Trust Center
 name_suffix: Trust Center
 overview: Amazon EventBridge Pipes maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon EventBridge Pipes

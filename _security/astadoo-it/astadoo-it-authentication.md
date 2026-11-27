@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Astadoo It Authentication
+name: AstaDoo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AstaDoo declares 0 security scheme(s) across its OpenAPI definitions.

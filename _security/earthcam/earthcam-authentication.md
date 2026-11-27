@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Earthcam Authentication
+name: EarthCam Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EarthCam declares 0 security scheme(s) across its OpenAPI definitions.

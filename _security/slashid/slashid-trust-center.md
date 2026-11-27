@@ -50,7 +50,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Slashid Trust Center
+name: SlashID Trust Center
 name_suffix: Trust Center
 overview: SlashID maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: SlashID

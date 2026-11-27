@@ -16,7 +16,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Vnc Trust Center
+name: VNC Trust Center
 name_suffix: Trust Center
 overview: VNC maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: VNC

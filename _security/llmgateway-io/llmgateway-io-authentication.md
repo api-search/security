@@ -105,7 +105,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Llmgateway Io Authentication
+name: LLM Gateway Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LLM Gateway secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

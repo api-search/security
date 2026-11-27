@@ -37,7 +37,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Wellsaid Trust Center
+name: WellSaid Labs Trust Center
 name_suffix: Trust Center
 overview: WellSaid Labs maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: WellSaid Labs

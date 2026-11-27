@@ -177,7 +177,7 @@ certifications:
 description: BlueConic publishes a Security & Trust Center at www.blueconic.com/trust-center, linked from the site header and footer. There is no trust.blueconic.com or security.blueconic.com subdomain — both failed to resolve on 2026-08-13 — and no automated trust-portal (Vanta, Drata, SafeBase) instance; the page is a hand-written control narrative.
 kind: trust-center
 layout: security
-name: Blueconic Trust Center
+name: BlueConic Trust Center
 name_suffix: Trust Center
 overview: BlueConic maintains a public trust center documenting SOC 2 Type 2, TRUSTe Verified Privacy Seal, TRUSTe Verified International Privacy Seal, and EU-U.S. Data Privacy Framework (incl. UK Extension and Swiss-U.S. DPF) compliance.
 provider_name: BlueConic

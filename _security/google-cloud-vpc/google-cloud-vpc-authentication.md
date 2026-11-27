@@ -2,30 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-vpc-firewalls-api-openapi.yml
+- filename: google-cloud-vpc-operations-api-openapi.yml
   format: yaml
-  label: Google Cloud VPC Firewalls API
-  slug: google-cloud-vpc-firewalls-api
+  label: Google Cloud VPC Operations API
+  slug: google-cloud-vpc-operations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-firewalls-api-openapi.yml
-- filename: google-cloud-vpc-networks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-operations-api-openapi.yml
+- filename: google-cloud-vpc-organizations-api-openapi.yml
   format: yaml
-  label: Google Cloud VPC Networks API
-  slug: google-cloud-vpc-networks-api
+  label: Google Cloud VPC Organizations API
+  slug: google-cloud-vpc-organizations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-networks-api-openapi.yml
-- filename: google-cloud-vpc-routes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-organizations-api-openapi.yml
+- filename: google-cloud-vpc-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud VPC Routes API
-  slug: google-cloud-vpc-routes-api
+  label: Google Cloud VPC Projects API
+  slug: google-cloud-vpc-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-routes-api-openapi.yml
-- filename: google-cloud-vpc-subnetworks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-projects-api-openapi.yml
+- filename: google-cloud-vpc-services-api-openapi.yml
   format: yaml
-  label: Google Cloud VPC Subnetworks API
-  slug: google-cloud-vpc-subnetworks-api
+  label: Google Cloud VPC Services API
+  slug: google-cloud-vpc-services-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-subnetworks-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vpc/openapi/google-cloud-vpc-services-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Cloud Vpc Authentication
+name: Google Cloud VPC Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

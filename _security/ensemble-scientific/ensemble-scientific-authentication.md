@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ensemble Scientific Authentication
+name: Ensemble Scientific (ESCI) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ensemble Scientific (ESCI) declares 0 security scheme(s) across its OpenAPI definitions.

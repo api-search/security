@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Volunteerhub Authentication
+name: VolunteerHub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VolunteerHub declares 0 security scheme(s) across its OpenAPI definitions.

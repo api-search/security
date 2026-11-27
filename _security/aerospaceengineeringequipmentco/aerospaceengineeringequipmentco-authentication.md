@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Aerospaceengineeringequipmentco Authentication
+name: Aerospace Engineering Equipment Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aerospace Engineering Equipment declares 0 security scheme(s) across its OpenAPI definitions.

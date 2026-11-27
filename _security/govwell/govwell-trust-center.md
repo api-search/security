@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Govwell Trust Center
+name: GovWell Trust Center
 name_suffix: Trust Center
 overview: GovWell maintains a public trust center covering its security and compliance posture.
 provider_name: GovWell

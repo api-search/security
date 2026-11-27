@@ -223,7 +223,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lucidya Ltd Trust Center
+name: Lucidya Trust Center
 name_suffix: Trust Center
 overview: Lucidya maintains a public trust center documenting SOC 2 Type 2 and ISO 27001 compliance.
 provider_name: Lucidya

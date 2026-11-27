@@ -170,7 +170,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Vee3 Io Authentication
+name: vee3-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: vee3-io declares 1 security scheme(s) across its OpenAPI definitions.

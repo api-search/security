@@ -6,7 +6,7 @@ certifications:
 description: AnnounceKit's trust posture. SOC 2 Type II and GDPR are both claimed on the provider's own trust page, with an independently verified security report published through Drata. Upgraded 2026-09-02 from a keyword-match record to the named program detail on https://announcekit.app/trust and https://announcekit.app/security.
 kind: trust-center
 layout: security
-name: Announcekit Trust Center
+name: AnnounceKit Trust Center
 name_suffix: Trust Center
 overview: AnnounceKit maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
 provider_name: AnnounceKit

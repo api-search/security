@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Agentping Io Authentication
+name: Agent Ping Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Ping declares 3 security scheme(s) across its OpenAPI definitions.

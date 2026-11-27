@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Apilayer Authentication
+name: APILayer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: APILayer declares 3 security scheme(s) across its OpenAPI definitions.

@@ -113,7 +113,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Vectranetworks Authentication
+name: Vectra AI Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

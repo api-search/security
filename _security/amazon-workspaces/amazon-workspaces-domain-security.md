@@ -24,6 +24,42 @@ api_specs:
   slug: amazon-workspaces-workspaces-pool-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-workspaces-pool-api-openapi.yml
+- filename: amazon-workspaces-devices-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Devices API
+  slug: amazon-workspaces-devices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-devices-api-openapi.yml
+- filename: amazon-workspaces-environments-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Environments API
+  slug: amazon-workspaces-environments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-environments-api-openapi.yml
+- filename: amazon-workspaces-softwaresets-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Softwaresets API
+  slug: amazon-workspaces-softwaresets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-softwaresets-api-openapi.yml
+- filename: amazon-workspaces-tags-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Tags API
+  slug: amazon-workspaces-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-tags-api-openapi.yml
+- filename: amazon-workspaces-volume-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Volume API
+  slug: amazon-workspaces-volume-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-volume-api-openapi.yml
+- filename: amazon-workspaces-workspace-instance-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Workspace Instance API
+  slug: amazon-workspaces-workspace-instance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-workspace-instance-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -51,7 +87,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Workspaces Domain Security
+name: Amazon WorkSpaces Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon WorkSpaces, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon WorkSpaces

@@ -26,7 +26,7 @@ certifications:
 description: 'RudderStack publishes a security and compliance overview page rather than a hosted trust center — there is no trust.rudderstack.com (DNS does not resolve) and no Vanta/Drata/SafeBase portal was found. The page names three compliance programs and the enterprise security controls that back them. The architectural claim it leads with is material to how the compliance posture works: RudderStack is warehouse-native and states it does not store customer data, so much of the data-at-rest control surface belongs to the customer''s own warehouse.'
 kind: trust-center
 layout: security
-name: Rudderstack Trust Center
+name: RudderStack Trust Center
 name_suffix: Trust Center
 overview: RudderStack maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: RudderStack

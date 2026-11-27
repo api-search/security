@@ -1,47 +1,4 @@
 ---
-api_specs:
-- filename: cyberark-authentication-api-openapi.yml
-  format: yaml
-  label: CyberArk Authentication API
-  slug: cyberark-authentication-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-authentication-api-openapi.yml
-- filename: cyberark-health-api-openapi.yml
-  format: yaml
-  label: CyberArk Health API
-  slug: cyberark-health-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-health-api-openapi.yml
-- filename: cyberark-policies-api-openapi.yml
-  format: yaml
-  label: CyberArk Policies API
-  slug: cyberark-policies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-policies-api-openapi.yml
-- filename: cyberark-resources-api-openapi.yml
-  format: yaml
-  label: CyberArk Resources API
-  slug: cyberark-resources-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-resources-api-openapi.yml
-- filename: cyberark-roles-api-openapi.yml
-  format: yaml
-  label: CyberArk Roles API
-  slug: cyberark-roles-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-roles-api-openapi.yml
-- filename: cyberark-secrets-api-openapi.yml
-  format: yaml
-  label: CyberArk Secrets API
-  slug: cyberark-secrets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-secrets-api-openapi.yml
-- filename: cyberark-public-keys-api-openapi.yml
-  format: yaml
-  label: CyberArk Public Keys API
-  slug: cyberark-public-keys-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-public-keys-api-openapi.yml
 certification_count: 9
 certifications:
 - SOC 2
@@ -56,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cyberark Trust Center
+name: CyberArk Trust Center
 name_suffix: Trust Center
 overview: CyberArk maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: CyberArk

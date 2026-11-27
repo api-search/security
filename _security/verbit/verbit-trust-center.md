@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Verbit Trust Center
+name: VerbIT Trust Center
 name_suffix: Trust Center
 overview: VerbIT maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: VerbIT

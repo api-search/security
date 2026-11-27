@@ -314,7 +314,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Pipeliner Authentication
+name: Pipeliner CRM Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Pipeliner CRM declares 1 security scheme(s) across its OpenAPI definitions.

@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Cognizant Technology Authentication
+name: Cognizant Technology Solutions Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cognizant Technology Solutions declares 0 security scheme(s) across its OpenAPI definitions.

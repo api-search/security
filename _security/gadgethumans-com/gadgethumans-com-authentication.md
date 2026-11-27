@@ -386,7 +386,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Gadgethumans Com Authentication
+name: gadgethumans-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: gadgethumans-com declares 0 security scheme(s) across its OpenAPI definitions.

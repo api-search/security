@@ -59,5 +59,4 @@ tags:
 - Entitlements
 - Experimentation
 - MCP
-- Agent Ready
 ---

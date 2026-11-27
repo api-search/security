@@ -109,7 +109,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Jasper Da Com Trust Center
+name: Jasper Trust Center
 name_suffix: Trust Center
 overview: Jasper maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Jasper

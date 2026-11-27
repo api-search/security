@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ragfeed De Authentication
+name: ragfeed-de Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ragfeed-de declares 2 security scheme(s) across its OpenAPI definitions.

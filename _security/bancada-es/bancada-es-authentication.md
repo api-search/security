@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Bancada Es Authentication
+name: Bancada Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bancada declares 0 security scheme(s) across its OpenAPI definitions.

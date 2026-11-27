@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agenttoll Dev Authentication
+name: AgentToll Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentToll declares 0 security scheme(s) across its OpenAPI definitions.

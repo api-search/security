@@ -222,7 +222,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Tesslio Authentication
+name: tessl.io Authentication
 name_suffix: Authentication
 oauth_flows:
 - deviceCode

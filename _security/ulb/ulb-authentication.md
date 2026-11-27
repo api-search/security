@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Ulb Authentication
+name: Université libre de Bruxelles Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Université libre de Bruxelles declares 0 security scheme(s) across its OpenAPI definitions.

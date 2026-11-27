@@ -52,7 +52,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Microsoft Sql Server Trust Center
+name: Microsoft SQL Server Trust Center
 name_suffix: Trust Center
 overview: Microsoft SQL Server maintains a public trust center documenting SOC 1, SOC 2, SOC 3, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA / HITRUST, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: Microsoft SQL Server

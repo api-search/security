@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Tianjin Authentication
+name: Tianjin University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tianjin University declares 0 security scheme(s) across its OpenAPI definitions.

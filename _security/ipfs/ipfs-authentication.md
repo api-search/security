@@ -237,7 +237,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ipfs Authentication
+name: IPFS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IPFS secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

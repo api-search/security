@@ -432,12 +432,6 @@ api_specs:
   slug: councilof-ai-prod-readiness-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-prod-readiness-api-openapi.yml
-- filename: councilof-ai-proof-api-openapi.yml
-  format: yaml
-  label: Council of AI Proof API
-  slug: councilof-ai-proof-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-proof-api-openapi.yml
 - filename: councilof-ai-provider-canary-api-openapi.yml
   format: yaml
   label: Council of AI Provider Canary API
@@ -498,12 +492,6 @@ api_specs:
   slug: councilof-ai-root-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-root-api-openapi.yml
-- filename: councilof-ai-root-json-api-openapi.yml
-  format: yaml
-  label: Council of AI Root.json API
-  slug: councilof-ai-root-json-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-root-json-api-openapi.yml
 - filename: councilof-ai-router-api-openapi.yml
   format: yaml
   label: Council of AI Router API
@@ -522,12 +510,6 @@ api_specs:
   slug: councilof-ai-security-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-security-api-openapi.yml
-- filename: councilof-ai-signed-api-openapi.yml
-  format: yaml
-  label: Council of AI Signed API
-  slug: councilof-ai-signed-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-signed-api-openapi.yml
 - filename: councilof-ai-specialists-api-openapi.yml
   format: yaml
   label: Council of AI Specialists API
@@ -612,12 +594,6 @@ api_specs:
   slug: councilof-ai-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-webhooks-api-openapi.yml
-- filename: councilof-ai-well-known-api-openapi.yml
-  format: yaml
-  label: Council of AI .well Known API
-  slug: councilof-ai-well-known-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-well-known-api-openapi.yml
 - filename: councilof-ai-witness-api-openapi.yml
   format: yaml
   label: Council of AI Witness API
@@ -798,7 +774,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Councilof Ai Domain Security
+name: Council of AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Council of AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: Council of AI

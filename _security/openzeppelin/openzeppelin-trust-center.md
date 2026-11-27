@@ -49,7 +49,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Openzeppelin Trust Center
+name: OpenZeppelin Trust Center
 name_suffix: Trust Center
 overview: OpenZeppelin maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: OpenZeppelin

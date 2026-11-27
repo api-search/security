@@ -121,7 +121,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Polycode Co Uk Authentication
+name: Polycode Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Polycode secures its APIs with none, apiKey, openIdConnect, and hmac across 4 declared security schemes, as derived from its OpenAPI definitions.

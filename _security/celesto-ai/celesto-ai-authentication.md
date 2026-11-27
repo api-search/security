@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Celesto Ai Authentication
+name: Celesto AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Celesto AI declares 1 security scheme(s) across its OpenAPI definitions.

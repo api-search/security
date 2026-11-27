@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Kimi Ai Authentication
+name: Kimi (Moonshot AI) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Kimi (Moonshot AI) secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

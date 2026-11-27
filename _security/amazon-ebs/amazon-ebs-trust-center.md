@@ -6,6 +6,12 @@ api_specs:
   slug: amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-ebs/openapi/amazon-ebs-amazon-ebs-amazon-elastic-block-store-ebs-api-api-openapi.yml
+- filename: amazon-ebs-blocks-api-openapi.yml
+  format: yaml
+  label: Amazon EBS Ebs Blocks API
+  slug: amazon-ebs-blocks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-ebs/openapi/amazon-ebs-blocks-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -16,7 +22,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Ebs Trust Center
+name: Amazon EBS Trust Center
 name_suffix: Trust Center
 overview: Amazon EBS maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon EBS

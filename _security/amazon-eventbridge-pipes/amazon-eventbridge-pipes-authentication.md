@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Eventbridge Pipes Authentication
+name: Amazon EventBridge Pipes Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon EventBridge Pipes secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -30,18 +30,19 @@ provider_name: Amazon EventBridge Pipes
 provider_slug: amazon-eventbridge-pipes
 scheme_count: 1
 schemes:
-- description: Amazon Signature authorization v4
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: hmac
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-eventbridge-pipes-openapi.yml
+  - openapi/amazon-eventbridge-pipes-pipes-api-openapi.yml
+  - openapi/amazon-eventbridge-pipes-tags-api-openapi.yml
   type: apiKey
 slug: amazon-eventbridge-pipes-authentication
 source_filename: amazon-eventbridge-pipes-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-eventbridge-pipes-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-eventbridge-pipes-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-eventbridge-pipes-pipes-api-openapi.yml, openapi/amazon-eventbridge-pipes-tags-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-eventbridge-pipes-pipes-api-openapi.yml\n  - openapi/amazon-eventbridge-pipes-tags-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-eventbridge-pipes/authentication/amazon-eventbridge-pipes-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

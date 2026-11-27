@@ -53,7 +53,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Delx Ai Trust Center
+name: Delx Trust Center
 name_suffix: Trust Center
 overview: Delx maintains a public trust center covering its security and compliance posture.
 provider_name: Delx

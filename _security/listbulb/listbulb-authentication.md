@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Listbulb Authentication
+name: List Bulb Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: List Bulb declares 1 security scheme(s) across its OpenAPI definitions.

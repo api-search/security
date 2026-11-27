@@ -98,7 +98,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Enterprise Wikimedia Com Authentication
+name: Wikimedia Enterprise Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Wikimedia Enterprise declares 1 security scheme(s) across its OpenAPI definitions.
@@ -108,7 +108,7 @@ scheme_count: 1
 schemes:
 - evidence: 'Wikimedia Enterprise APIs use JWT authentication passed in the header: all requests must be made over HTTPS and pass a Bearer access token in the `Authorization` header.'
   header: Authorization
-  how_to_obtain: Obtain an access token by calling the Login endpoint (`POST /v1/login`) with your username and password; refresh tokens can be used with the Refresh Token endpoint.
+  how_to_obtain: Use the Login endpoint to receive an access token, then include it as a Bearer token in the Authorization header of each request.
   location: header
   name: Bearer
   type: http-bearer
@@ -116,8 +116,8 @@ slug: enterprise-wikimedia-com-authentication
 source_filename: enterprise-wikimedia-com-authentication.yml
 source_heading: Authentication Profile
 source_url: https://enterprise.wikimedia.com/docs/authentication.md
-source_yaml: "generated: '2026-11-04'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://enterprise.wikimedia.com/docs/authentication.md\nsources:\n- https://enterprise.wikimedia.com/docs/authentication.md\n- https://enterprise.wikimedia.com/docs/authentication/\n- https://enterprise.wikimedia.com/docs/agents.md\n- https://enterprise.wikimedia.com/docs/index.md\ndescription: 'Wikimedia Enterprise APIs use JWT authentication passed in the header: all requests must be made over HTTPS and pass a Bearer access\n  token in the `Authorization` header.'\nschemes:\n- type: http-bearer\n  name: Bearer\n  evidence: 'Wikimedia Enterprise APIs use JWT authentication passed in the header: all requests must be made over HTTPS and pass a Bearer access\n    token in the `Authorization` header.'\n  location: header\n  header: Authorization\n  how_to_obtain: Obtain an access token by calling the Login endpoint (`POST /v1/login`) with your username and password; refresh tokens\
-  \ can be\n    used with the Refresh Token endpoint.\ndocs: https://enterprise.wikimedia.com/docs/authentication.md\n"
+source_yaml: "generated: '2026-11-10'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://enterprise.wikimedia.com/docs/authentication.md\nsources:\n- https://enterprise.wikimedia.com/docs/authentication.md\n- https://enterprise.wikimedia.com/docs/authentication/\n- https://enterprise.wikimedia.com/docs/agents.md\n- https://enterprise.wikimedia.com/docs/index.md\ndescription: 'Wikimedia Enterprise APIs use JWT authentication passed in the header: all requests must be made over HTTPS and pass a Bearer access\n  token in the `Authorization` header.'\nschemes:\n- type: http-bearer\n  name: Bearer\n  evidence: 'Wikimedia Enterprise APIs use JWT authentication passed in the header: all requests must be made over HTTPS and pass a Bearer access\n    token in the `Authorization` header.'\n  location: header\n  header: Authorization\n  how_to_obtain: Use the Login endpoint to receive an access token, then include it as a Bearer token in the Authorization header of each\
+  \ request.\ndocs: https://enterprise.wikimedia.com/docs/authentication.md\n"
 source_yaml_url: https://artifacts.apis.io/enterprise-wikimedia-com/authentication/enterprise-wikimedia-com-authentication.yml
 summary_line: 1 scheme
 tags:

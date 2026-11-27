@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Moradas Dev Authentication
+name: moradas-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: moradas-dev declares 0 security scheme(s) across its OpenAPI definitions.

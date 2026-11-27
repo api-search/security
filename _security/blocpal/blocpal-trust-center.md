@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Blocpal Trust Center
+name: BlocPal Trust Center
 name_suffix: Trust Center
 overview: BlocPal maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: BlocPal

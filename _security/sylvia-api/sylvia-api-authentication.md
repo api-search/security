@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Sylvia Api Authentication
+name: Sylvia API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sylvia API declares 1 security scheme(s) across its OpenAPI definitions.

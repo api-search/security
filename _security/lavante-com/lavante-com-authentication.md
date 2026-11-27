@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Lavante Com Authentication
+name: Lavante Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Lavante declares 0 security scheme(s) across its OpenAPI definitions.

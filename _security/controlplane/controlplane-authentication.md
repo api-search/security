@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Controlplane Authentication
+name: ControlPlane Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ControlPlane declares 1 security scheme(s) across its OpenAPI definitions.

@@ -59,13 +59,18 @@ schemes:
   name: aws_signature_v4
   parameter: Authorization
   sources:
-  - openapi/amazon-fargate-openapi.yml
+  - openapi/amazon-fargate-account-settings-api-openapi.yml
+  - openapi/amazon-fargate-clusters-api-openapi.yml
+  - openapi/amazon-fargate-services-api-openapi.yml
+  - openapi/amazon-fargate-tagging-api-openapi.yml
+  - openapi/amazon-fargate-task-definitions-api-openapi.yml
+  - openapi/amazon-fargate-tasks-api-openapi.yml
   type: apiKey
 slug: amazon-fargate-authentication
 source_filename: amazon-fargate-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-fargate-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_signature_v4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication. Include the Authorization header with\n    the AWS4-HMAC-SHA256 signing algorithm.\n  sources:\n  - openapi/amazon-fargate-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-fargate-account-settings-api-openapi.yml, openapi/amazon-fargate-clusters-api-openapi.yml,\n  openapi/amazon-fargate-services-api-openapi.yml, openapi/amazon-fargate-tagging-api-openapi.yml,\n  openapi/amazon-fargate-task-definitions-api-openapi.yml, openapi/amazon-fargate-tasks-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: aws_signature_v4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication. Include the Authorization header with\n    the AWS4-HMAC-SHA256 signing algorithm.\n  sources:\n  - openapi/amazon-fargate-account-settings-api-openapi.yml\n  - openapi/amazon-fargate-clusters-api-openapi.yml\n  - openapi/amazon-fargate-services-api-openapi.yml\n  - openapi/amazon-fargate-tagging-api-openapi.yml\n  - openapi/amazon-fargate-task-definitions-api-openapi.yml\n  - openapi/amazon-fargate-tasks-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-fargate/authentication/amazon-fargate-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

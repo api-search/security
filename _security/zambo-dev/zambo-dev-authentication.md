@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Zambo Dev Authentication
+name: zambo-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: zambo-dev declares 1 security scheme(s) across its OpenAPI definitions.

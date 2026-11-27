@@ -115,7 +115,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Foldlaundry Com Domain Security
+name: Fold Laundry Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Fold Laundry, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Fold Laundry
@@ -129,9 +129,9 @@ source_yaml_url: https://artifacts.apis.io/foldlaundry-com/security/foldlaundry-
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Laundry
-- On-demand
+- On-Demand
 - Delivery
 - Los Angeles
 - San Francisco
-- Service
+- Services
 ---

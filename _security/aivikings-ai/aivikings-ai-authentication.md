@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Aivikings Ai Authentication
+name: AiVikings.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AiVikings.ai declares 2 security scheme(s) across its OpenAPI definitions.

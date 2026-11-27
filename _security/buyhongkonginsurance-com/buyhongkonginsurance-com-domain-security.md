@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Buyhongkonginsurance Com Domain Security
+name: Hong Kong Insurance Connect Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Hong Kong Insurance Connect, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Hong Kong Insurance Connect

@@ -64,7 +64,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ch Robinson Worldwide Authentication
+name: C.H. Robinson Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

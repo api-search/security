@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Own Ownbackup Trust Center
+name: Own (OwnBackup) Trust Center
 name_suffix: Trust Center
 overview: Own (OwnBackup) maintains a public trust center documenting SOC 2 Type II, SOC 1 Type II, ISO 27001:2013, ISO 27701:2019, FedRAMP Authorized, Cyber Essentials (UK), HDS (Hebergeur de Donnees de Sante), GDPR, EU-U.S. / UK / Swiss-U.S. Data Privacy Framework, and HIPAA/HITECH (extended SOC 2 audit scope) compliance.
 provider_name: Own (OwnBackup)

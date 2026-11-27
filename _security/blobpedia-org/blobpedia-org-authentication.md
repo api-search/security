@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Blobpedia Org Authentication
+name: BLOBPEDIA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BLOBPEDIA declares 1 security scheme(s) across its OpenAPI definitions.

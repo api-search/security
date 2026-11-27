@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Walletwallet Trust Center
+name: WalletWallet Trust Center
 name_suffix: Trust Center
 overview: WalletWallet maintains a public trust center documenting GDPR compliance.
 provider_name: WalletWallet

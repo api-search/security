@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Helix Ml Authentication
+name: HelixML Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HelixML declares 2 security scheme(s) across its OpenAPI definitions.

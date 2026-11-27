@@ -82,7 +82,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Trustly Authentication
+name: Trustly Group Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Trustly Group secures its APIs with http and signature across 5 declared security schemes, as derived from its OpenAPI definitions.

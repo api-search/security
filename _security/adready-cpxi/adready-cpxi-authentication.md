@@ -297,7 +297,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Adready Cpxi Authentication
+name: AdReady (CPXi) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AdReady (CPXi) secures its APIs with session-jwt across 1 declared security scheme, as derived from its OpenAPI definitions.

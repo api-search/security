@@ -159,7 +159,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: H2O Ai Authentication
+name: H2O.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: H2O.ai secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

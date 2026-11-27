@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Tokyo Institute Of Technology Authentication
+name: Tokyo Institute of Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tokyo Institute of Technology secures its APIs with saml2 across 2 declared security schemes, as derived from its OpenAPI definitions.

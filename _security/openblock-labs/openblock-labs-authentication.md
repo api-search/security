@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Openblock Labs Authentication
+name: OpenBlock Labs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OpenBlock Labs declares 0 security scheme(s) across its OpenAPI definitions.

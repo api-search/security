@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anots Com Authentication
+name: ANOTS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ANOTS declares 0 security scheme(s) across its OpenAPI definitions.

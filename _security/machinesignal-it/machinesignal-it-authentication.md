@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Machinesignal It Authentication
+name: machinesignal-it Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: machinesignal-it declares 0 security scheme(s) across its OpenAPI definitions.

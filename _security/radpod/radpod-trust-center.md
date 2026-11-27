@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Radpod Trust Center
+name: RadPod Trust Center
 name_suffix: Trust Center
 overview: RadPod maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: RadPod

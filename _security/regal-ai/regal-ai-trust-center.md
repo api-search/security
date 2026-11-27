@@ -69,7 +69,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Regal Ai Trust Center
+name: Regal Trust Center
 name_suffix: Trust Center
 overview: Regal maintains a public trust center documenting SOC 2, HIPAA, GDPR, and CCPA compliance.
 provider_name: Regal

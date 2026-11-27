@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Getboon Ai Authentication
+name: Boon Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Boon declares 0 security scheme(s) across its OpenAPI definitions.

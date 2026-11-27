@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: O9 Solutions Trust Center
+name: o9 Solutions Trust Center
 name_suffix: Trust Center
 overview: o9 Solutions maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, and GDPR compliance.
 provider_name: o9 Solutions

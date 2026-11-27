@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Centerpoint Energy Smt Authentication
+name: CenterPoint Energy Smt Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CenterPoint Energy declares 0 security scheme(s) across its OpenAPI definitions.

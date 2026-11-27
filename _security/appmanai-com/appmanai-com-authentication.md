@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Appmanai Com Authentication
+name: AppManAi Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AppManAi declares 1 security scheme(s) across its OpenAPI definitions.

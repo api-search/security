@@ -19,7 +19,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Popsql Trust Center
+name: PopSQL Trust Center
 name_suffix: Trust Center
 overview: PopSQL maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: PopSQL

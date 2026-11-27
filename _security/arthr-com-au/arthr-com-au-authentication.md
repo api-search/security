@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Arthr Com Au Authentication
+name: Arthr Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Arthr declares 0 security scheme(s) across its OpenAPI definitions.

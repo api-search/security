@@ -152,7 +152,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Animgen Com Authentication
+name: AnimGen AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AnimGen AI declares 0 security scheme(s) across its OpenAPI definitions.

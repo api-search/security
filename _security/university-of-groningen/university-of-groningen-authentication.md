@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: University Of Groningen Authentication
+name: University of Groningen Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Groningen declares 4 security scheme(s) across its OpenAPI definitions.

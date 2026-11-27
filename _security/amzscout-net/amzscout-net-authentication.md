@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Amzscout Net Authentication
+name: AMZScout Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AMZScout declares 0 security scheme(s) across its OpenAPI definitions.

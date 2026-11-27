@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Astraverify Com Authentication
+name: AstraVerify Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AstraVerify declares 1 security scheme(s) across its OpenAPI definitions.

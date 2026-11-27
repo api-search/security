@@ -97,7 +97,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Surfingdog Ai Domain Security
+name: surfingdog-ai Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for surfingdog-ai, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: surfingdog-ai
@@ -112,7 +112,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - Artificial Intelligence
-- Agent Ready
 - Directory
 - Inbox
 ---

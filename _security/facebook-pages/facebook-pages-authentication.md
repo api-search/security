@@ -75,7 +75,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Facebook Pages Authentication
+name: Facebook Pages API Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

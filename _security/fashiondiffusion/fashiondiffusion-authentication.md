@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fashiondiffusion Authentication
+name: Fashion Diffusion Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fashion Diffusion declares 1 security scheme(s) across its OpenAPI definitions.

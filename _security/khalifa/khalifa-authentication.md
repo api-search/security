@@ -18,7 +18,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: probed
-name: Khalifa Authentication
+name: Khalifa University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Khalifa University secures its APIs with none, oauth2, saml, and apiKey across 7 declared security schemes, as derived from its OpenAPI definitions.

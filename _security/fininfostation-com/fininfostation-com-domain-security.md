@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fininfostation Com Domain Security
+name: 金融情報站 Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 金融情報站, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: 金融情報站

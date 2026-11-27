@@ -46,7 +46,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Cargowise Domain Security
+name: CargoWise Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CargoWise, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: CargoWise

@@ -360,7 +360,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: The Things Network Authentication
+name: The Things Network / The Things Stack Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: The Things Network / The Things Stack secures its APIs with apiKey, oauth2, and http across 5 declared security schemes, as derived from its OpenAPI definitions.

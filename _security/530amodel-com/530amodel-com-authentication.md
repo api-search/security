@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 530Amodel Com Authentication
+name: 530A Model Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 530A Model declares 0 security scheme(s) across its OpenAPI definitions.

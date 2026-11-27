@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Temprhq Io Authentication
+name: temprhq-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: temprhq-io declares 1 security scheme(s) across its OpenAPI definitions.

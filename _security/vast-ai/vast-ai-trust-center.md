@@ -70,7 +70,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Vast Ai Trust Center
+name: Vast.ai Trust Center
 name_suffix: Trust Center
 overview: Vast.ai maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: Vast.ai

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Storsimple Authentication
+name: StorSimple Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: StorSimple declares 1 security scheme(s) across its OpenAPI definitions.

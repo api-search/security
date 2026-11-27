@@ -2,42 +2,30 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: github-copilot-copilot-billing-api-openapi.yml
+- filename: github-copilot-copilot-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Billing API
-  slug: github-copilot-copilot-billing-api
+  label: GitHub Copilot Copilot API
+  slug: github-copilot-copilot-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-billing-api-openapi.yml
-- filename: github-copilot-copilot-content-exclusion-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-api-openapi.yml
+- filename: github-copilot-copilot-spaces-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Content Exclusion API
-  slug: github-copilot-copilot-content-exclusion-api
+  label: GitHub Copilot Copilot Spaces API
+  slug: github-copilot-copilot-spaces-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-content-exclusion-api-openapi.yml
-- filename: github-copilot-copilot-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-spaces-api-openapi.yml
+- filename: github-copilot-merge-queue-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Metrics API
-  slug: github-copilot-copilot-metrics-api
+  label: GitHub Copilot Merge Queue API
+  slug: github-copilot-merge-queue-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-metrics-api-openapi.yml
-- filename: github-copilot-copilot-seats-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-merge-queue-api-openapi.yml
+- filename: github-copilot-pulls-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Seats API
-  slug: github-copilot-copilot-seats-api
+  label: GitHub Copilot Pulls API
+  slug: github-copilot-pulls-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-seats-api-openapi.yml
-- filename: github-copilot-copilot-usage-reports-api-openapi.yml
-  format: yaml
-  label: GitHub Copilot Usage Reports API
-  slug: github-copilot-copilot-usage-reports-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-usage-reports-api-openapi.yml
-- filename: github-copilot-copilot-user-management-api-openapi.yml
-  format: yaml
-  label: GitHub Copilot User Management API
-  slug: github-copilot-copilot-user-management-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-pulls-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -46,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Github Copilot Authentication
+name: GitHub Copilot Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

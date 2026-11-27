@@ -87,7 +87,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Hellosign Authentication
+name: Dropbox Sign (HelloSign) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dropbox Sign (HelloSign) secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Brownie Trust Center
+name: IncidentFox (Brownie) Trust Center
 name_suffix: Trust Center
 overview: IncidentFox (Brownie) maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
 provider_name: IncidentFox (Brownie)

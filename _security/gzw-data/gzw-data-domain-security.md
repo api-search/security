@@ -589,7 +589,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Gzw Data Domain Security
+name: GZW Data API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for GZW Data API, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: GZW Data API
@@ -616,6 +616,5 @@ tags:
 - Public APIs
 - No Auth
 - Read Only
-- Free API
 - Community
 ---

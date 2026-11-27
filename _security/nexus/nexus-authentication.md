@@ -356,24 +356,6 @@ api_specs:
   slug: nexus-datastore-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/nexus/openapi/nexus-datastore-api-openapi.yml
-- filename: nexus-blobstores-api-openapi.yml
-  format: yaml
-  label: Sonatype Nexus Repository Blob Stores API
-  slug: nexus-blobstores-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/nexus/openapi/nexus-blobstores-api-openapi.yml
-- filename: nexus-repositories-api-openapi.yml
-  format: yaml
-  label: Sonatype Nexus Repository Repositories API
-  slug: nexus-repositories-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/nexus/openapi/nexus-repositories-api-openapi.yml
-- filename: nexus-security-api-openapi.yml
-  format: yaml
-  label: Sonatype Nexus Repository Security API
-  slug: nexus-security-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/nexus/openapi/nexus-security-api-openapi.yml
 auth_types:
 - http
 - anonymous
@@ -383,7 +365,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Nexus Authentication
+name: Sonatype Nexus Repository Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sonatype Nexus Repository secures its APIs with http, anonymous, and header across 5 declared security schemes, as derived from its OpenAPI definitions.

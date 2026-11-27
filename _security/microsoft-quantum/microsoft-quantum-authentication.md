@@ -41,7 +41,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Microsoft Quantum Authentication
+name: Microsoft Azure Quantum Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

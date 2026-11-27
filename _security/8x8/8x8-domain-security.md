@@ -435,7 +435,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: 8X8 Domain Security
+name: 8x8 Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 8x8, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: 8x8

@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Pageup People Authentication
+name: PageUp People Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

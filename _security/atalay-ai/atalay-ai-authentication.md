@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Atalay Ai Authentication
+name: Atalay AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Atalay AI declares 0 security scheme(s) across its OpenAPI definitions.

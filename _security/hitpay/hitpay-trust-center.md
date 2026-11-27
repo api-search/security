@@ -151,7 +151,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hitpay Trust Center
+name: HitPay Trust Center
 name_suffix: Trust Center
 overview: HitPay maintains a public trust center documenting PCI DSS and MAS Major Payment Institution (MPI) compliance.
 provider_name: HitPay

@@ -33,7 +33,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tl Dv Trust Center
+name: tl;dv Trust Center
 name_suffix: Trust Center
 overview: tl;dv maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: tl;dv

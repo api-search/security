@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Abbyy Trust Center
+name: ABBYY Trust Center
 name_suffix: Trust Center
 overview: ABBYY maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: ABBYY

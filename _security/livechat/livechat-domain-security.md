@@ -5,7 +5,7 @@ api_specs:
   label: LiveChat Webhooks and RTM API
   slug: webhooks-and-rtm
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/livechat/refs/heads/main/openapi/livechat-asyncapi.yml
+  url: https://artifacts.apis.io/livechat/openapi/livechat-asyncapi.yml
 - filename: livechat-chats-api-openapi.yml
   format: yaml
   label: LiveChat Chats API
@@ -84,7 +84,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Livechat Domain Security
+name: LiveChat Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for LiveChat, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: LiveChat

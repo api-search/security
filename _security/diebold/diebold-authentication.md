@@ -124,7 +124,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Diebold Authentication
+name: Diebold Nixdorf Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Diebold Nixdorf secures its APIs with http and openIdConnect across 3 declared security schemes, as derived from its OpenAPI definitions.

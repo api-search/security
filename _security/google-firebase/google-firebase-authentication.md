@@ -2,18 +2,42 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-firebase-data-api-openapi.yml
+- filename: google-firebase-availableprojects-api-openapi.yml
   format: yaml
-  label: Google Firebase Data API
-  slug: google-firebase-data-api
+  label: Google Firebase Available Projects API
+  slug: google-firebase-availableprojects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-data-api-openapi.yml
-- filename: google-firebase-messages-api-openapi.yml
+  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-availableprojects-api-openapi.yml
+- filename: google-firebase-jwks-api-openapi.yml
   format: yaml
-  label: Google Firebase Messages API
-  slug: google-firebase-messages-api
+  label: Google Firebase Jwks API
+  slug: google-firebase-jwks-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-messages-api-openapi.yml
+  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-jwks-api-openapi.yml
+- filename: google-firebase-media-api-openapi.yml
+  format: yaml
+  label: Google Firebase Media API
+  slug: google-firebase-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-media-api-openapi.yml
+- filename: google-firebase-oauthclients-api-openapi.yml
+  format: yaml
+  label: Google Firebase OAUTH Clients API
+  slug: google-firebase-oauthclients-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-oauthclients-api-openapi.yml
+- filename: google-firebase-operations-api-openapi.yml
+  format: yaml
+  label: Google Firebase Operations API
+  slug: google-firebase-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-operations-api-openapi.yml
+- filename: google-firebase-projects-api-openapi.yml
+  format: yaml
+  label: Google Firebase Projects API
+  slug: google-firebase-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-firebase/openapi/google-firebase-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

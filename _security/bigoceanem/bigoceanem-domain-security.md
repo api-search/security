@@ -31,7 +31,7 @@ summary_line: TLSv1.3
 tags:
 - Company
 - Entertainment
-- K-Pop
+- K-pop
 - Media
 - South Korea
 ---

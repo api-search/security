@@ -31,7 +31,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Charliehr Trust Center
+name: CharlieHR Trust Center
 name_suffix: Trust Center
 overview: CharlieHR maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: CharlieHR

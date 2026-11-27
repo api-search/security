@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Smtpfa St Authentication
+name: smtpfa-st Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: smtpfa-st declares 1 security scheme(s) across its OpenAPI definitions.

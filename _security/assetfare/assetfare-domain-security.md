@@ -30,18 +30,30 @@ api_specs:
   slug: assetfare-status-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/assetfare/openapi/assetfare-status-api-openapi.yml
-- filename: assetfare-app-store-api-openapi.yml
-  format: yaml
-  label: AssetFare App Store API
-  slug: assetfare-app-store-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/assetfare/openapi/assetfare-app-store-api-openapi.yml
 - filename: assetfare-auth-api-openapi.yml
   format: yaml
   label: AssetFare Auth API
   slug: assetfare-auth-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/assetfare/openapi/assetfare-auth-api-openapi.yml
+- filename: assetfare-route-selection-api-openapi.yml
+  format: yaml
+  label: AssetFare Route Selection API
+  slug: assetfare-route-selection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-route-selection-api-openapi.yml
+- filename: assetfare-well-known-api-openapi.yml
+  format: yaml
+  label: AssetFare .well Known API
+  slug: assetfare-well-known-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-well-known-api-openapi.yml
+- filename: assetfare-app-store-api-openapi.yml
+  format: yaml
+  label: AssetFare App Store API
+  slug: assetfare-app-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-app-store-api-openapi.yml
 - filename: assetfare-events-api-openapi.yml
   format: yaml
   label: AssetFare Events API
@@ -60,18 +72,6 @@ api_specs:
   slug: assetfare-jobs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/assetfare/openapi/assetfare-jobs-api-openapi.yml
-- filename: assetfare-route-selection-api-openapi.yml
-  format: yaml
-  label: AssetFare Route Selection API
-  slug: assetfare-route-selection-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/assetfare/openapi/assetfare-route-selection-api-openapi.yml
-- filename: assetfare-well-known-api-openapi.yml
-  format: yaml
-  label: AssetFare .well Known API
-  slug: assetfare-well-known-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/assetfare/openapi/assetfare-well-known-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -107,7 +107,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Assetfare Domain Security
+name: AssetFare Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AssetFare, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: AssetFare

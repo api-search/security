@@ -130,7 +130,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Seller Central Authentication
+name: Amazon Selling Partner API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon Selling Partner API secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Firmastat Cz Authentication
+name: Firmastat Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Firmastat secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -75,7 +75,6 @@ source_yaml_url: https://artifacts.apis.io/firmastat-cz/authentication/firmastat
 summary_line: http · 1 scheme
 tags:
 - Company
-- API
 - Czech
 - Business
 - Data

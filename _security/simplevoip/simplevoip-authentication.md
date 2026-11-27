@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Simplevoip Authentication
+name: SimpleVoIP Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SimpleVoIP declares 1 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dreamworkhq Com Authentication
+name: Dreamwork Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dreamwork declares 1 security scheme(s) across its OpenAPI definitions.

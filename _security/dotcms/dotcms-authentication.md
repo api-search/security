@@ -444,7 +444,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Dotcms Authentication
+name: dotCMS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: dotCMS secures its APIs with http, apiKey-as-bearer, and session across 5 declared security schemes, as derived from its OpenAPI definitions.

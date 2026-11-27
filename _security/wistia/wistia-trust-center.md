@@ -5,7 +5,7 @@ api_specs:
   label: Wistia Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/asyncapi/wistia-asyncapi.yml
+  url: https://artifacts.apis.io/wistia/asyncapi/wistia-asyncapi.yml
 - filename: wistia-account-api-openapi.yml
   format: yaml
   label: Wistia Account API

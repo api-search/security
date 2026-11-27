@@ -119,7 +119,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: 3Vjia Technology Trust Center
+name: 3vjia Technology Trust Center
 name_suffix: Trust Center
 overview: 3vjia Technology maintains a public trust center covering its security and compliance posture.
 provider_name: 3vjia Technology

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Find Codes Authentication
+name: find.codes Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: find.codes declares 1 security scheme(s) across its OpenAPI definitions.
@@ -28,9 +28,9 @@ tags:
 - Promo Codes
 - Referral Codes
 - Discount Codes
-- Affiliate
+- Affiliates
 - Cryptocurrency
-- Exchanges
+- Exchange
 - Travel eSIM
 - MCP
 ---

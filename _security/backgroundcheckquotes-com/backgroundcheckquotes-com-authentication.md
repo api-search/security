@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Backgroundcheckquotes Com Authentication
+name: Background Check Quotes Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Background Check Quotes declares 0 security scheme(s) across its OpenAPI definitions.

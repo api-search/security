@@ -54,6 +54,66 @@ api_specs:
   slug: amazon-opensearch-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-operations-api-openapi.yml
+- filename: amazon-opensearch-access-policy-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Access Policy API
+  slug: amazon-opensearch-access-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-access-policy-api-openapi.yml
+- filename: amazon-opensearch-collection-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Collection API
+  slug: amazon-opensearch-collection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-collection-api-openapi.yml
+- filename: amazon-opensearch-collection-group-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Collection Group API
+  slug: amazon-opensearch-collection-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-collection-group-api-openapi.yml
+- filename: amazon-opensearch-ingestion-job-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Ingestion Job API
+  slug: amazon-opensearch-ingestion-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-ingestion-job-api-openapi.yml
+- filename: amazon-opensearch-ingestion-stream-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Ingestion Stream API
+  slug: amazon-opensearch-ingestion-stream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-ingestion-stream-api-openapi.yml
+- filename: amazon-opensearch-lifecycle-policy-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Lifecycle Policy API
+  slug: amazon-opensearch-lifecycle-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-lifecycle-policy-api-openapi.yml
+- filename: amazon-opensearch-osis-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Osis API
+  slug: amazon-opensearch-osis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-osis-api-openapi.yml
+- filename: amazon-opensearch-replication-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Replication API
+  slug: amazon-opensearch-replication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-replication-api-openapi.yml
+- filename: amazon-opensearch-security-config-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Security Config API
+  slug: amazon-opensearch-security-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-security-config-api-openapi.yml
+- filename: amazon-opensearch-security-policy-api-openapi.yml
+  format: yaml
+  label: Amazon OpenSearch Service API Opensearch Security Policy API
+  slug: amazon-opensearch-security-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-opensearch/openapi/amazon-opensearch-security-policy-api-openapi.yml
 - filename: amazon-opensearch-data-source-api-openapi.yml
   format: yaml
   label: Amazon OpenSearch Service API Data Source API
@@ -93,7 +153,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Opensearch Domain Security
+name: Amazon OpenSearch Service API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon OpenSearch Service API, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon OpenSearch Service API

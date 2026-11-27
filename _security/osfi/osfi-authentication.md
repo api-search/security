@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Osfi Authentication
+name: OSFI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OSFI secures its APIs with none and portal-login across 2 declared security schemes, as derived from its OpenAPI definitions.

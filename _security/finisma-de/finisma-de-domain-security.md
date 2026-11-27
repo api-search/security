@@ -55,7 +55,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Finisma De Domain Security
+name: Paulibytes UG (haftungsbeschränkt) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Paulibytes UG (haftungsbeschränkt), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Paulibytes UG (haftungsbeschränkt)
@@ -69,9 +69,8 @@ source_yaml_url: https://artifacts.apis.io/finisma-de/security/finisma-de-domain
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
-- FinTech
-- Invoice
+- Fintech
+- Invoices
 - PDF
 - ZUGFeRD
-- API
 ---

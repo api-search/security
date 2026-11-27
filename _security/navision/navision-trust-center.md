@@ -18,12 +18,6 @@ api_specs:
   slug: navision-available-applications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/navision/openapi/navision-available-applications-api-openapi.yml
-- filename: navision-companies-api-openapi.yml
-  format: yaml
-  label: Microsoft Dynamics NAV Companies API
-  slug: navision-companies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/navision/openapi/navision-companies-api-openapi.yml
 - filename: navision-configuration-packages-api-openapi.yml
   format: yaml
   label: Microsoft Dynamics NAV Configuration Packages API
@@ -228,13 +222,19 @@ api_specs:
   slug: navision-vendors-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/navision/openapi/navision-vendors-api-openapi.yml
+- filename: navision-companies-api-openapi.yml
+  format: yaml
+  label: Microsoft Dynamics NAV Companies API
+  slug: navision-companies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/navision/openapi/navision-companies-api-openapi.yml
 certification_count: 1
 certifications:
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Navision Trust Center
+name: Microsoft Dynamics NAV Trust Center
 name_suffix: Trust Center
 overview: Microsoft Dynamics NAV maintains a public trust center documenting GDPR compliance.
 provider_name: Microsoft Dynamics NAV

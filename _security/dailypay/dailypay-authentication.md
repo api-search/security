@@ -58,7 +58,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dailypay Authentication
+name: DailyPay Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

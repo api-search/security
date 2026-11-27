@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Letsgetchecked Trust Center
+name: LetsGetChecked Trust Center
 name_suffix: Trust Center
 overview: LetsGetChecked maintains a public trust center documenting GDPR, HITRUST, NIST, and ISO 13485 compliance.
 provider_name: LetsGetChecked

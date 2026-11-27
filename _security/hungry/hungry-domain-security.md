@@ -38,7 +38,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Hungry Domain Security
+name: HUNGRY Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for HUNGRY, probed live across 4 host(s) and 1 registrable domain(s). 4 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: HUNGRY

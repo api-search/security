@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sardine Ai Trust Center
+name: Sardine Trust Center
 name_suffix: Trust Center
 overview: Sardine maintains a public trust center documenting SOC 2 compliance.
 provider_name: Sardine

@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Kaiahealth Trust Center
+name: kaiahealth Trust Center
 name_suffix: Trust Center
 overview: kaiahealth maintains a public trust center documenting SOC 2 Type II, ISO 27001, ISO 13485, HITRUST, HIPAA, GDPR, CCPA, and CE Medical Device compliance.
 provider_name: kaiahealth

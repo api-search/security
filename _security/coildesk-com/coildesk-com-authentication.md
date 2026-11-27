@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Coildesk Com Authentication
+name: coildesk-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: coildesk-com declares 1 security scheme(s) across its OpenAPI definitions.

@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Icon Aircraft Authentication
+name: ICON Aircraft Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ICON Aircraft declares 0 security scheme(s) across its OpenAPI definitions.

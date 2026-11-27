@@ -5,7 +5,7 @@ api_specs:
   label: Bitso WebSocket API
   slug: websocket
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/asyncapi/bitso-asyncapi.yml
+  url: https://artifacts.apis.io/bitso/asyncapi/bitso-asyncapi.yml
 - filename: bitso-private-api-openapi.yml
   format: yaml
   label: Bitso Private API

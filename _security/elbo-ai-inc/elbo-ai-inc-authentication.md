@@ -32,6 +32,12 @@ api_specs:
   slug: elbo-ai-inc-voices-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-voices-api-openapi.yml
+- filename: elbo-ai-inc-puppets-api-openapi.yml
+  format: yaml
+  label: Puppetry Puppets API
+  slug: elbo-ai-inc-puppets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-puppets-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -39,7 +45,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Elbo Ai Inc Authentication
+name: Puppetry Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Puppetry secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

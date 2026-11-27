@@ -58,7 +58,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Hacknotice Authentication
+name: HackNotice Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HackNotice secures its APIs with apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

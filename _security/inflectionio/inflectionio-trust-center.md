@@ -63,7 +63,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Inflectionio Trust Center
+name: Inflection.io Trust Center
 name_suffix: Trust Center
 overview: Inflection.io maintains a public trust center documenting SOC 2, GDPR, CCPA, and Penetration test compliance.
 provider_name: Inflection.io

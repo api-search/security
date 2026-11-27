@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Harness Cloud Cost Authentication
+name: Harness Cloud Cost Management Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Harness Cloud Cost Management secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

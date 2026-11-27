@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Model Ml Trust Center
+name: Model ML Trust Center
 name_suffix: Trust Center
 overview: Model ML maintains a public trust center documenting ISO/IEC 27001, SOC 2 Type II, and GDPR compliance.
 provider_name: Model ML

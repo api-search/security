@@ -21,7 +21,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Stainlessapi Com Domain Security
+name: Stainless Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Stainless, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Stainless

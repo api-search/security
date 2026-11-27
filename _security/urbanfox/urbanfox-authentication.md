@@ -45,7 +45,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Urbanfox Authentication
+name: UrbanFox Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

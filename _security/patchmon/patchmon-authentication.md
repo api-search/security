@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: derived
-name: Patchmon Authentication
+name: PatchMon Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PatchMon declares 6 security scheme(s) across its OpenAPI definitions.

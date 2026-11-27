@@ -59,7 +59,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Bureau Of Land Management Authentication
+name: Bureau of Land Management Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -292,7 +292,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Customer Io Authentication
+name: Customer.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Customer.io secures its APIs with http and oauth2 across 5 declared security schemes, as derived from its OpenAPI definitions.

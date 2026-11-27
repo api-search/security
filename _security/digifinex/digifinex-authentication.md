@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Digifinex Authentication
+name: DigiFinex Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DigiFinex declares 3 security scheme(s) across its OpenAPI definitions.

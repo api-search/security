@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Genhealthai Trust Center
+name: GenHealth.ai Trust Center
 name_suffix: Trust Center
 overview: GenHealth.ai maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: GenHealth.ai

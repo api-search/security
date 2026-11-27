@@ -130,7 +130,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Root Fka Slimai Trust Center
+name: Root (fka Slim.ai) Trust Center
 name_suffix: Trust Center
 overview: Root (fka Slim.ai) maintains a public trust center documenting SOC 2 Type II, Cyber Essentials, SLSA, FIPS 140-3, and STIG compliance.
 provider_name: Root (fka Slim.ai)

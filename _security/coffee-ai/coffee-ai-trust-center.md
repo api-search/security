@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Coffee Ai Trust Center
+name: Coffee Trust Center
 name_suffix: Trust Center
 overview: Coffee maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Coffee

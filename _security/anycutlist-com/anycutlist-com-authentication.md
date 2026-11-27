@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Anycutlist Com Authentication
+name: AnyCutlist Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AnyCutlist declares 1 security scheme(s) across its OpenAPI definitions.

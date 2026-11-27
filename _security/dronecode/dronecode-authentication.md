@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Dronecode Authentication
+name: Dronecode Foundation Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dronecode Foundation declares 0 security scheme(s) across its OpenAPI definitions.

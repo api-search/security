@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Vulcan Tech Com Trust Center
+name: Vulcan Technologies Trust Center
 name_suffix: Trust Center
 overview: Vulcan Technologies maintains a public trust center documenting SOC 2, ISO 27001, FedRAMP, and FIPS 140 compliance.
 provider_name: Vulcan Technologies

@@ -7,7 +7,7 @@ certifications:
 description: LeanTaaS publishes a Vanta-hosted Trust Center at https://trust.leantaas.com/ covering its healthcare security and privacy posture. The page is a JavaScript-rendered single-page application whose control, document and subprocessor data is served from a signed-query GraphQL endpoint, so the automated trust-center probe recorded no keyword hit (the served HTML shell contains only metadata). The certifications below are NOT read from that shell — they are taken from Vanta's own published LeanTaaS customer story, which is a first-party statement by LeanTaaS's Director of Security & Compliance. Individual audit reports are gated behind the Trust Center's access/NDA flow and were not retrieved.
 kind: trust-center
 layout: security
-name: Leantaas Trust Center
+name: LeanTaaS Trust Center
 name_suffix: Trust Center
 overview: LeanTaaS maintains a public trust center documenting HITRUST CSF, SOC 2, and HIPAA compliance.
 provider_name: LeanTaaS

@@ -166,7 +166,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Santevet Authentication
+name: SantéVet Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SantéVet secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

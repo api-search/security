@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: 3Dprintlog Com Authentication
+name: 3D Print Log Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 3D Print Log declares 3 security scheme(s) across its OpenAPI definitions.

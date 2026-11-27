@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Minio Trust Center
+name: MinIO Trust Center
 name_suffix: Trust Center
 overview: MinIO maintains a public trust center documenting ISO 27001 compliance.
 provider_name: MinIO

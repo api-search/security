@@ -142,7 +142,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Setlist Fm Authentication
+name: setlist.fm Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: setlist.fm secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

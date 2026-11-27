@@ -59,7 +59,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Creditbenchmark Trust Center
+name: Credit Benchmark Trust Center
 name_suffix: Trust Center
 overview: Credit Benchmark maintains a public trust center covering its security and compliance posture.
 provider_name: Credit Benchmark

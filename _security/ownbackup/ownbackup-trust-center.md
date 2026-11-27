@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ownbackup Trust Center
+name: OwnBackup Trust Center
 name_suffix: Trust Center
 overview: OwnBackup maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: OwnBackup

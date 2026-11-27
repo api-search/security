@@ -30,6 +30,24 @@ api_specs:
   slug: amazon-cloudhsm-tag-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-cloudhsm/openapi/amazon-cloudhsm-tag-api-openapi.yml
+- filename: amazon-cloudhsm-backup-api-openapi.yml
+  format: yaml
+  label: Amazon CloudHSM Cloudhsm Backup API
+  slug: amazon-cloudhsm-backup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudhsm/openapi/amazon-cloudhsm-backup-api-openapi.yml
+- filename: amazon-cloudhsm-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon CloudHSM Cloudhsm Cluster API
+  slug: amazon-cloudhsm-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudhsm/openapi/amazon-cloudhsm-cluster-api-openapi.yml
+- filename: amazon-cloudhsm-resource-policy-api-openapi.yml
+  format: yaml
+  label: Amazon CloudHSM Cloudhsm Resource Policy API
+  slug: amazon-cloudhsm-resource-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudhsm/openapi/amazon-cloudhsm-resource-policy-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -40,7 +58,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Cloudhsm Trust Center
+name: Amazon CloudHSM Trust Center
 name_suffix: Trust Center
 overview: Amazon CloudHSM maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon CloudHSM

@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Strongdm Authentication
+name: StrongDM Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: StrongDM secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

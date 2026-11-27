@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Kyushu Authentication
+name: Kyushu University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Kyushu University declares 6 security scheme(s) across its OpenAPI definitions.

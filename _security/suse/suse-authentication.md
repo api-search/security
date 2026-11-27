@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Suse Authentication
+name: SUSE Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SUSE declares 1 security scheme(s) across its OpenAPI definitions.

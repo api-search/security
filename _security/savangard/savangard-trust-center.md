@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Savangard Trust Center
+name: IT system integration Trust Center
 name_suffix: Trust Center
 overview: IT system integration maintains a public trust center documenting ISO 27001 compliance.
 provider_name: IT system integration

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Willie S Reserve Authentication
+name: Willie's Reserve Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Willie's Reserve declares 0 security scheme(s) across its OpenAPI definitions.

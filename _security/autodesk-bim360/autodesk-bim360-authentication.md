@@ -93,7 +93,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Autodesk Bim360 Authentication
+name: Autodesk BIM 360 Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

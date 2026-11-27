@@ -539,7 +539,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Scvd Store Trust Center
+name: SCVD General Store Trust Center
 name_suffix: Trust Center
 overview: SCVD General Store maintains a public trust center covering its security and compliance posture.
 provider_name: SCVD General Store

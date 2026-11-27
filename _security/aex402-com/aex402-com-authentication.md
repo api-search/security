@@ -132,7 +132,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: derived
-name: Aex402 Com Authentication
+name: aeX402 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: aeX402 secures its APIs with apiKey and http across 5 declared security schemes, as derived from its OpenAPI definitions.

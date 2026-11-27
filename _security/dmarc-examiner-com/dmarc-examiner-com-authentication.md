@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dmarc Examiner Com Authentication
+name: DMARC Examiner Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DMARC Examiner declares 1 security scheme(s) across its OpenAPI definitions.

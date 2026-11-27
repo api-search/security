@@ -17,7 +17,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Tps Engage Trust Center
+name: TPS Engage Trust Center
 name_suffix: Trust Center
 overview: TPS Engage maintains a public trust center covering its security and compliance posture.
 provider_name: TPS Engage

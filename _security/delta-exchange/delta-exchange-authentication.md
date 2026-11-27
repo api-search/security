@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: delta-exchange-account-api-openapi.yml
-  format: yaml
-  label: Delta Exchange Account API
-  slug: delta-exchange-account-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-account-api-openapi.yml
 - filename: delta-exchange-assets-api-openapi.yml
   format: yaml
   label: Delta Exchange Assets API
@@ -21,24 +15,6 @@ api_specs:
   slug: delta-exchange-heartbeat-management-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-heartbeat-management-api-openapi.yml
-- filename: delta-exchange-historical-ohlc-candles-sparklines-api-openapi.yml
-  format: yaml
-  label: Delta Exchange Historical OHLC Candles/Sparklines API
-  slug: delta-exchange-historical-ohlc-candles-sparklines-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-historical-ohlc-candles-sparklines-api-openapi.yml
-- filename: delta-exchange-indices-api-openapi.yml
-  format: yaml
-  label: Delta Exchange Indices API
-  slug: delta-exchange-indices-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-indices-api-openapi.yml
-- filename: delta-exchange-mmp-api-openapi.yml
-  format: yaml
-  label: Delta Exchange MMP API
-  slug: delta-exchange-mmp-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-mmp-api-openapi.yml
 - filename: delta-exchange-orderbook-api-openapi.yml
   format: yaml
   label: Delta Exchange Orderbook API
@@ -63,30 +39,6 @@ api_specs:
   slug: delta-exchange-products-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-products-api-openapi.yml
-- filename: delta-exchange-settlement-prices-api-openapi.yml
-  format: yaml
-  label: Delta Exchange Settlement Prices API
-  slug: delta-exchange-settlement-prices-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-settlement-prices-api-openapi.yml
-- filename: delta-exchange-stats-api-openapi.yml
-  format: yaml
-  label: Delta Exchange Stats API
-  slug: delta-exchange-stats-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-stats-api-openapi.yml
-- filename: delta-exchange-tradehistory-api-openapi.yml
-  format: yaml
-  label: Delta Exchange Trade History API
-  slug: delta-exchange-tradehistory-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-tradehistory-api-openapi.yml
-- filename: delta-exchange-trades-api-openapi.yml
-  format: yaml
-  label: Delta Exchange Trades API
-  slug: delta-exchange-trades-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/delta-exchange/openapi/delta-exchange-trades-api-openapi.yml
 - filename: delta-exchange-wallet-api-openapi.yml
   format: yaml
   label: Delta Exchange Wallet API

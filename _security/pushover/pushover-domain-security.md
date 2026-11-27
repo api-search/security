@@ -5,7 +5,7 @@ api_specs:
   label: Pushover Open Client API
   slug: open-client-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/pushover/refs/heads/main/openapi/pushover-asyncapi.yml
+  url: https://artifacts.apis.io/pushover/openapi/pushover-asyncapi.yml
 - filename: pushover-apps-api-openapi.yml
   format: yaml
   label: Pushover Apps API

@@ -268,7 +268,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Specterops Trust Center
+name: SpecterOps Trust Center
 name_suffix: Trust Center
 overview: SpecterOps maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, FedRAMP, and GDPR compliance.
 provider_name: SpecterOps

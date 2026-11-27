@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Arvi Ch Authentication
+name: ARVI SA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ARVI SA declares 0 security scheme(s) across its OpenAPI definitions.

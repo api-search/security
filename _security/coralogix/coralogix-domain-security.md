@@ -5,7 +5,7 @@ api_specs:
   label: Coralogix
   slug: coralogix
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/coralogix/refs/heads/main/asyncapi/coralogix-asyncapi.yml
+  url: https://artifacts.apis.io/coralogix/asyncapi/coralogix-asyncapi.yml
 - filename: coralogix-dashboards-api-openapi.yml
   format: yaml
   label: Coralogix Dashboards API

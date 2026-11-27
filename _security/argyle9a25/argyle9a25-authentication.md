@@ -164,7 +164,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Argyle9A25 Authentication
+name: Argyle9a25 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Argyle9a25 declares 1 security scheme(s) across its OpenAPI definitions.

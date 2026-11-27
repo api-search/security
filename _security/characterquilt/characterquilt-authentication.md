@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Characterquilt Authentication
+name: CharacterQuilt Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CharacterQuilt declares 0 security scheme(s) across its OpenAPI definitions.

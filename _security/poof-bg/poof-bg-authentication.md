@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Poof Bg Authentication
+name: poof-bg Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: poof-bg declares 1 security scheme(s) across its OpenAPI definitions.

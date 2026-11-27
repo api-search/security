@@ -30,25 +30,24 @@ api_specs:
   slug: vulk-dev-usage-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/vulk-dev/openapi/vulk-dev-usage-api-openapi.yml
-certification_count: 2
+certification_count: 1
 certifications:
-- PCI DSS
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Vulk Dev Trust Center
+name: vulk-dev Trust Center
 name_suffix: Trust Center
-overview: vulk-dev maintains a public trust center documenting PCI DSS and GDPR compliance.
+overview: vulk-dev maintains a public trust center documenting GDPR compliance.
 provider_name: vulk-dev
 provider_slug: vulk-dev
 slug: vulk-dev-trust-center
 source_filename: vulk-dev-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: https://vulk.dev/security\nurl: https://vulk.dev/security\ncertifications:\n- PCI DSS\n- GDPR\nevidence:\n- source: https://vulk.dev/security\n  keywords:\n  - pci-dss\n  - gdpr\n"
+source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: https://vulk.dev/security\nurl: https://vulk.dev/security\ncertifications:\n- GDPR\nevidence:\n- source: https://vulk.dev/security\n  keywords:\n  - pci-dss\n  - gdpr\ncertifications_not_held:\n- PCI DSS\ncertification_quotes:\n  PCI DSS: terprise terms reviewed within 5 business days. | PCI-DSS | N/A — Stripe handles cards | Card\n    data never touches VULK servers.\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/vulk-dev/security/vulk-dev-trust-center.yml
-summary_line: PCI DSS, GDPR
+summary_line: GDPR
 tags:
 - Company
 - Artificial Intelligence

@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Atlas Red Com Domain Security
+name: Atlas Red Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Atlas Red, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Atlas Red
@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-11-01'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/atlas-red-com/security/atlas-red-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- MindMapping
+- Mind Mapping
 - Productivity
 - Software-as-a-Service
 - no-subscription

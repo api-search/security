@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Reviewpaper Ai Authentication
+name: reviewpaper-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: reviewpaper-ai declares 2 security scheme(s) across its OpenAPI definitions.

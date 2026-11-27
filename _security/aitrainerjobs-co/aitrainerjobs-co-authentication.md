@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aitrainerjobs Co Authentication
+name: AI Trainer Jobs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI Trainer Jobs declares 0 security scheme(s) across its OpenAPI definitions.

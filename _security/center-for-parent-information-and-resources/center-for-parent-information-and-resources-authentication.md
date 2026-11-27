@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Center For Parent Information And Resources Authentication
+name: Center for Parent Information and Resources Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Center for Parent Information and Resources secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

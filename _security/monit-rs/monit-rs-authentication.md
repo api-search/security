@@ -128,7 +128,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Monit Rs Authentication
+name: monit-rs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: monit-rs declares 0 security scheme(s) across its OpenAPI definitions.

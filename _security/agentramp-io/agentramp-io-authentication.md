@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentramp Io Authentication
+name: agentramp-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: agentramp-io declares 1 security scheme(s) across its OpenAPI definitions.

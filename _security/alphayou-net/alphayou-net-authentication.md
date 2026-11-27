@@ -9,6 +9,18 @@ api_specs:
   slug: alphayou-net-alphayou-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/alphayou-net/openapi/alphayou-net-alphayou-api-openapi.yml
+- filename: alphayou-net-products-api-openapi.yml
+  format: yaml
+  label: alphayou-net Products API
+  slug: alphayou-net-products-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alphayou-net/openapi/alphayou-net-products-api-openapi.yml
+- filename: alphayou-net-traders-api-openapi.yml
+  format: yaml
+  label: alphayou-net Traders API
+  slug: alphayou-net-traders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/alphayou-net/openapi/alphayou-net-traders-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -17,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Alphayou Net Authentication
+name: alphayou-net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: alphayou-net secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -90,7 +90,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Vbout Authentication
+name: VBOUT Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

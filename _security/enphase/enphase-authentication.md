@@ -187,7 +187,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Enphase Authentication
+name: Enphase Energy Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

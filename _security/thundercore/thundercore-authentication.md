@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Thundercore Authentication
+name: ThunderCore Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ThunderCore secures its APIs with none and cryptographic-signature across 3 declared security schemes, as derived from its OpenAPI definitions.

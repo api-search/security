@@ -42,7 +42,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Qatar Authentication
+name: Qatar University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Qatar University secures its APIs with none, oauth2, openIdConnect, and saml across 7 declared security schemes, as derived from its OpenAPI definitions.

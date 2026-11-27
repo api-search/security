@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Healthverity Trust Center
+name: HealthVerity Trust Center
 name_suffix: Trust Center
 overview: HealthVerity maintains a public trust center covering its security and compliance posture.
 provider_name: HealthVerity

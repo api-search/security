@@ -12,6 +12,12 @@ api_specs:
   slug: crustapi-search-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/crustapi/openapi/crustapi-search-api-openapi.yml
+- filename: crustapi-account-api-openapi.yml
+  format: yaml
+  label: CrustAPI Account API
+  slug: crustapi-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/crustapi/openapi/crustapi-account-api-openapi.yml
 - filename: crustapi-linked-in-api-openapi.yml
   format: yaml
   label: CrustAPI Linked In API
@@ -23,7 +29,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Crustapi Trust Center
+name: CrustAPI Trust Center
 name_suffix: Trust Center
 overview: CrustAPI maintains a public trust center covering its security and compliance posture.
 provider_name: CrustAPI

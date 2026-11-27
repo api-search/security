@@ -12,12 +12,6 @@ api_specs:
   slug: active-directory-applications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/active-directory/openapi/active-directory-applications-api-openapi.yml
-- filename: active-directory-groups-api-openapi.yml
-  format: yaml
-  label: Microsoft Active Directory Groups API
-  slug: active-directory-groups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/active-directory/openapi/active-directory-groups-api-openapi.yml
 - filename: active-directory-members-api-openapi.yml
   format: yaml
   label: Microsoft Active Directory Members API
@@ -48,6 +42,12 @@ api_specs:
   slug: microsoft-active-directory-directory-roles-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/active-directory/openapi/active-directory-directory-roles-api-openapi.yml
+- filename: active-directory-groups-api-openapi.yml
+  format: yaml
+  label: Microsoft Active Directory Groups API
+  slug: active-directory-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/active-directory/openapi/active-directory-groups-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -79,7 +79,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Active Directory Domain Security
+name: Microsoft Active Directory Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Microsoft Active Directory, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Microsoft Active Directory

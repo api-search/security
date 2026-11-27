@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: cometapi-audio-api-openapi.yml
-  format: yaml
-  label: CometAPI Audio API
-  slug: cometapi-audio-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-audio-api-openapi.yml
-- filename: cometapi-embeddings-api-openapi.yml
-  format: yaml
-  label: CometAPI Embeddings API
-  slug: cometapi-embeddings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-embeddings-api-openapi.yml
-- filename: cometapi-images-api-openapi.yml
-  format: yaml
-  label: CometAPI Images API
-  slug: cometapi-images-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-images-api-openapi.yml
 - filename: cometapi-models-api-openapi.yml
   format: yaml
   label: CometAPI Models API
   slug: cometapi-models-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cometapi/openapi/cometapi-models-api-openapi.yml
-- filename: cometapi-video-api-openapi.yml
-  format: yaml
-  label: CometAPI Video API
-  slug: cometapi-video-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-video-api-openapi.yml
-- filename: cometapi-chat-completions-api-openapi.yml
-  format: yaml
-  label: CometAPI Chat Completions API
-  slug: cometapi-chat-completions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cometapi/openapi/cometapi-chat-completions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -64,7 +34,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Cometapi Domain Security
+name: CometAPI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CometAPI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: CometAPI

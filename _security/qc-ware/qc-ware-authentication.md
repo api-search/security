@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Qc Ware Authentication
+name: QC Ware Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: QC Ware declares 0 security scheme(s) across its OpenAPI definitions.

@@ -16,24 +16,12 @@ api_specs:
   slug: euler-apys-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euler/openapi/euler-apys-api-openapi.yml
-- filename: euler-auth-api-openapi.yml
-  format: yaml
-  label: Euler Finance Auth API
-  slug: euler-auth-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/euler/openapi/euler-auth-api-openapi.yml
 - filename: euler-chains-api-openapi.yml
   format: yaml
   label: Euler Finance Chains API
   slug: euler-chains-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/euler/openapi/euler-chains-api-openapi.yml
-- filename: euler-curator-api-openapi.yml
-  format: yaml
-  label: Euler Finance Curator API
-  slug: euler-curator-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/euler/openapi/euler-curator-api-openapi.yml
 - filename: euler-earn-api-openapi.yml
   format: yaml
   label: Euler Finance Earn API
@@ -174,7 +162,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: derived
-name: Euler Authentication
+name: Euler Finance Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Euler Finance secures its APIs with apiKey and http across 5 declared security schemes, as derived from its OpenAPI definitions.

@@ -41,7 +41,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Crob At Authentication
+name: crob.at Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: crob.at secures its APIs with none and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

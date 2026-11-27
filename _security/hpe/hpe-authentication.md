@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Hpe Authentication
+name: Hewlett Packard Enterprise Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hewlett Packard Enterprise secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

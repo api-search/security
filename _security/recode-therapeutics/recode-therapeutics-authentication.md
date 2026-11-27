@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Recode Therapeutics Authentication
+name: ReCode Therapeutics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ReCode Therapeutics declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: B77 Ai Authentication
+name: b77-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: b77-ai declares 0 security scheme(s) across its OpenAPI definitions.

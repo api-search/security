@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: T Mobile Trust Center
+name: T-Mobile Trust Center
 name_suffix: Trust Center
 overview: T-Mobile maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
 provider_name: T-Mobile

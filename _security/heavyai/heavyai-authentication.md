@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Heavyai Authentication
+name: HEAVY.AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HEAVY.AI secures its APIs with username-password and tls across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Upm Authentication
+name: Universiti Putra Malaysia Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Universiti Putra Malaysia declares 0 security scheme(s) across its OpenAPI definitions.

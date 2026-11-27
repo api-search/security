@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Alden Tech Domain Security
+name: Smart Diagnostics Systems Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Smart Diagnostics Systems, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Smart Diagnostics Systems

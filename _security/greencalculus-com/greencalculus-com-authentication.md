@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Greencalculus Com Authentication
+name: greencalculus-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: greencalculus-com declares 1 security scheme(s) across its OpenAPI definitions.

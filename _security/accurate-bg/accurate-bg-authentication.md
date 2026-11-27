@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Accurate Bg Authentication
+name: Accurate Background Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

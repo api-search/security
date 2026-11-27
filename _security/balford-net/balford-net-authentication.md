@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Balford Net Authentication
+name: Balford Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Balford declares 0 security scheme(s) across its OpenAPI definitions.

@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Keio Authentication
+name: Keio University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Keio University declares 0 security scheme(s) across its OpenAPI definitions.

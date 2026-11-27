@@ -16,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: 86Hc Com Authentication
+name: 恒诚 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 恒诚 secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

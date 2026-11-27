@@ -334,7 +334,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Lightspeed Authentication
+name: Lightspeed Commerce Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Autoshort Org Authentication
+name: AutoShort Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AutoShort declares 1 security scheme(s) across its OpenAPI definitions.

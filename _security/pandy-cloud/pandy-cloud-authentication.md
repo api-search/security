@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Pandy Cloud Authentication
+name: pandy-cloud Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: pandy-cloud declares 0 security scheme(s) across its OpenAPI definitions.

@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: birdsift-com-auth-api-openapi.yml
-  format: yaml
-  label: BirdSift Auth API
-  slug: birdsift-com-auth-api
+- filename: birdsift-com-openapi.json
+  format: json
+  label: BirdSift API
+  slug: birdsift-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/birdsift-com/openapi/birdsift-com-auth-api-openapi.yml
-- filename: birdsift-com-credits-api-openapi.yml
-  format: yaml
-  label: BirdSift Credits API
-  slug: birdsift-com-credits-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/birdsift-com/openapi/birdsift-com-credits-api-openapi.yml
-- filename: birdsift-com-docs-api-openapi.yml
-  format: yaml
-  label: BirdSift Docs API
-  slug: birdsift-com-docs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/birdsift-com/openapi/birdsift-com-docs-api-openapi.yml
-- filename: birdsift-com-leads-api-openapi.yml
-  format: yaml
-  label: BirdSift Leads API
-  slug: birdsift-com-leads-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/birdsift-com/openapi/birdsift-com-leads-api-openapi.yml
-- filename: birdsift-com-mcp-api-openapi.yml
-  format: yaml
-  label: BirdSift MCP API
-  slug: birdsift-com-mcp-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/birdsift-com/openapi/birdsift-com-mcp-api-openapi.yml
-- filename: birdsift-com-searches-api-openapi.yml
-  format: yaml
-  label: BirdSift Searches API
-  slug: birdsift-com-searches-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/birdsift-com/openapi/birdsift-com-searches-api-openapi.yml
+  url: https://artifacts.apis.io/birdsift-com/openapi/birdsift-com-openapi.json
 description: ''
 domains:
 - caa: []
@@ -55,7 +25,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Birdsift Com Domain Security
+name: BirdSift Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for BirdSift, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: BirdSift

@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Heymarvin Trust Center
+name: HeyMarvin Trust Center
 name_suffix: Trust Center
 overview: HeyMarvin maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: HeyMarvin

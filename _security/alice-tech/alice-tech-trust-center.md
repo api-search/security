@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Alice Tech Trust Center
+name: ALICE Technologies Trust Center
 name_suffix: Trust Center
 overview: ALICE Technologies maintains a public trust center documenting SOC 2 compliance.
 provider_name: ALICE Technologies

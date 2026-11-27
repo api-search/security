@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Songt50 Us Authentication
+name: sapjilcoding Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: sapjilcoding declares 0 security scheme(s) across its OpenAPI definitions.

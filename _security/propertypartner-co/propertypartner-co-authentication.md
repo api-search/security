@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Propertypartner Co Authentication
+name: propertypartner Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: propertypartner declares 0 security scheme(s) across its OpenAPI definitions.

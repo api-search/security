@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Echelon Ai Trust Center
+name: Echelon AI Trust Center
 name_suffix: Trust Center
 overview: Echelon AI maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Echelon AI

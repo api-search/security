@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Back9Ins Com Authentication
+name: back9ins-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: back9ins-com declares 0 security scheme(s) across its OpenAPI definitions.

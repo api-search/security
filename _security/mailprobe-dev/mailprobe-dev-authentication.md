@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Mailprobe Dev Authentication
+name: mailprobe-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: mailprobe-dev declares 1 security scheme(s) across its OpenAPI definitions.

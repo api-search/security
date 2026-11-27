@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Arcalune Com Authentication
+name: Arcalune Music Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Arcalune Music declares 0 security scheme(s) across its OpenAPI definitions.

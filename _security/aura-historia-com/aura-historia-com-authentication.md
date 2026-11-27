@@ -116,7 +116,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Aura Historia Com Authentication
+name: Aura Historia Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aura Historia declares 2 security scheme(s) across its OpenAPI definitions.

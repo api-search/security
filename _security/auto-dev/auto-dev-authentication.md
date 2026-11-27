@@ -41,7 +41,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Auto Dev Authentication
+name: Auto.dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Auto.dev secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

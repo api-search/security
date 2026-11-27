@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Great West Lifeco Trust Center
+name: Great-West Lifeco Trust Center
 name_suffix: Trust Center
 overview: Great-West Lifeco maintains a public trust center documenting SOC 2 Type 2, ISO 27001, NIST 800-53, NIST CSF, and OWASP compliance.
 provider_name: Great-West Lifeco

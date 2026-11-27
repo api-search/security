@@ -23,7 +23,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Callrail Authentication
+name: CallRail Authentication
 name_suffix: Authentication
 oauth_flows:
 - unpublished

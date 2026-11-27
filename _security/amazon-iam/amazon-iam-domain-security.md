@@ -138,6 +138,36 @@ api_specs:
   slug: amazon-iam-virtual-mfa-device-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-virtual-mfa-device-api-openapi.yml
+- filename: amazon-iam-crl-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Crl API
+  slug: amazon-iam-crl-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-crl-api-openapi.yml
+- filename: amazon-iam-disable-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Disable API
+  slug: amazon-iam-disable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-disable-api-openapi.yml
+- filename: amazon-iam-enable-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Enable API
+  slug: amazon-iam-enable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-enable-api-openapi.yml
+- filename: amazon-iam-profile-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Profile API
+  slug: amazon-iam-profile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-profile-api-openapi.yml
+- filename: amazon-iam-trustanchor-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Trustanchor API
+  slug: amazon-iam-trustanchor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-trustanchor-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -169,7 +199,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Iam Domain Security
+name: Amazon IAM Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon IAM, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon IAM

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Aictx Authentication
+name: aiCTX (now SynSense) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: aiCTX (now SynSense) declares 3 security scheme(s) across its OpenAPI definitions.

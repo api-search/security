@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: nucleus-security-vulnerability-intelligence-api-openapi.yml
+  format: yaml
+  label: Nucleus Security Vulnerability Intelligence API
+  slug: nucleus-security-vulnerability-intelligence-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nucleus-security/openapi/nucleus-security-vulnerability-intelligence-api-openapi.yml
 description: ''
 domains:
 - caa: []

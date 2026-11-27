@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Evernote Authentication
+name: evernote Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: evernote secures its APIs with oauth1 and developer-token across 2 declared security schemes, as derived from its OpenAPI definitions.

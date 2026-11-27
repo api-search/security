@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Circleback Ai Trust Center
+name: Circleback Trust Center
 name_suffix: Trust Center
 overview: Circleback maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Circleback

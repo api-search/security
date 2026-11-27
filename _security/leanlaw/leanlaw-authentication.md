@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Leanlaw Authentication
+name: LeanLaw Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LeanLaw secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

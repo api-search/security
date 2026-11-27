@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: E2A Dev Authentication
+name: e2a-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: e2a-dev declares 1 security scheme(s) across its OpenAPI definitions.

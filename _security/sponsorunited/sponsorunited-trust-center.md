@@ -523,7 +523,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sponsorunited Trust Center
+name: SponsorUnited Trust Center
 name_suffix: Trust Center
 overview: SponsorUnited maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
 provider_name: SponsorUnited

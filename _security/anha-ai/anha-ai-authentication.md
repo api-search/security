@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anha Ai Authentication
+name: ANHA Registry Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ANHA Registry declares 0 security scheme(s) across its OpenAPI definitions.

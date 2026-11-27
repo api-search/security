@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Rates And Limits Authentication
+name: Rates and Limits Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Rates and Limits declares 0 security scheme(s) across its OpenAPI definitions.

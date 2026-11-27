@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Fruitscout Authentication
+name: FruitScout Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FruitScout declares 0 security scheme(s) across its OpenAPI definitions.

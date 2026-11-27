@@ -220,7 +220,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Comp Ai Trust Center
+name: Comp AI Trust Center
 name_suffix: Trust Center
 overview: Comp AI maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: Comp AI

@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Allover Art Domain Security
+name: All-Over Print Tees Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for All-Over Print Tees, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: All-Over Print Tees

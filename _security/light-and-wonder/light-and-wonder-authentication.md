@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Light And Wonder Authentication
+name: Light & Wonder Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Light & Wonder declares 1 security scheme(s) across its OpenAPI definitions.

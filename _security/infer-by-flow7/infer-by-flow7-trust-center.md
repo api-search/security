@@ -47,7 +47,7 @@ certifications: []
 description: Infer publishes no trust center and holds no named third-party certification. It does publish a complete, versioned legal and data-protection document set, which is the closest thing it has to a trust surface. Recorded so the absence is a checked fact rather than an unchecked one.
 kind: trust-center
 layout: security
-name: Infer By Flow7 Trust Center
+name: Infer by Flow7 Trust Center
 name_suffix: Trust Center
 overview: Infer by Flow7 maintains a public trust center covering its security and compliance posture.
 provider_name: Infer by Flow7

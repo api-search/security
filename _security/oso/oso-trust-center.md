@@ -30,7 +30,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Oso Trust Center
+name: Oso Cloud Trust Center
 name_suffix: Trust Center
 overview: Oso Cloud maintains a public trust center documenting SOC 2 compliance.
 provider_name: Oso Cloud

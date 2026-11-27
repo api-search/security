@@ -3,24 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: parcellab-campaigns-api-openapi.yml
-  format: yaml
-  label: parcelLab Campaigns API
-  slug: parcellab-campaigns-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/parcellab/openapi/parcellab-campaigns-api-openapi.yml
 - filename: parcellab-events-api-openapi.yml
   format: yaml
   label: parcelLab Events API
   slug: parcellab-events-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/parcellab/openapi/parcellab-events-api-openapi.yml
-- filename: parcellab-orders-api-openapi.yml
-  format: yaml
-  label: parcelLab Orders API
-  slug: parcellab-orders-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/parcellab/openapi/parcellab-orders-api-openapi.yml
 - filename: parcellab-place-info-api-openapi.yml
   format: yaml
   label: parcelLab Place Info API
@@ -33,18 +21,84 @@ api_specs:
   slug: parcellab-promise-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/parcellab/openapi/parcellab-promise-api-openapi.yml
-- filename: parcellab-returns-api-openapi.yml
+- filename: parcellab-agents-api-openapi.yml
   format: yaml
-  label: parcelLab Returns API
-  slug: parcellab-returns-api
+  label: parcelLab Agents API
+  slug: parcellab-agents-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/parcellab/openapi/parcellab-returns-api-openapi.yml
-- filename: parcellab-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-agents-api-openapi.yml
+- filename: parcellab-apps-api-openapi.yml
   format: yaml
-  label: parcelLab Surveys API
-  slug: parcellab-surveys-api
+  label: parcelLab Apps API
+  slug: parcellab-apps-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/parcellab/openapi/parcellab-surveys-api-openapi.yml
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-apps-api-openapi.yml
+- filename: parcellab-campaign-api-openapi.yml
+  format: yaml
+  label: parcelLab Campaign API
+  slug: parcellab-campaign-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-campaign-api-openapi.yml
+- filename: parcellab-customer-portals-api-openapi.yml
+  format: yaml
+  label: parcelLab Customer Portals API
+  slug: parcellab-customer-portals-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-customer-portals-api-openapi.yml
+- filename: parcellab-order-api-openapi.yml
+  format: yaml
+  label: parcelLab Order API
+  slug: parcellab-order-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-order-api-openapi.yml
+- filename: parcellab-order-status-page-theme-api-openapi.yml
+  format: yaml
+  label: parcelLab Order Status Page Theme API
+  slug: parcellab-order-status-page-theme-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-order-status-page-theme-api-openapi.yml
+- filename: parcellab-return-configuration-set-api-openapi.yml
+  format: yaml
+  label: parcelLab Return Configuration Set API
+  slug: parcellab-return-configuration-set-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-return-configuration-set-api-openapi.yml
+- filename: parcellab-return-registration-api-openapi.yml
+  format: yaml
+  label: parcelLab Return Registration API
+  slug: parcellab-return-registration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-return-registration-api-openapi.yml
+- filename: parcellab-size-recommender-api-openapi.yml
+  format: yaml
+  label: parcelLab Size Recommender API
+  slug: parcellab-size-recommender-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-size-recommender-api-openapi.yml
+- filename: parcellab-survey-api-openapi.yml
+  format: yaml
+  label: parcelLab Survey API
+  slug: parcellab-survey-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-survey-api-openapi.yml
+- filename: parcellab-theme-api-openapi.yml
+  format: yaml
+  label: parcelLab Theme API
+  slug: parcellab-theme-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-theme-api-openapi.yml
+- filename: parcellab-translation-api-openapi.yml
+  format: yaml
+  label: parcelLab Translation API
+  slug: parcellab-translation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-translation-api-openapi.yml
+- filename: parcellab-voucher-api-openapi.yml
+  format: yaml
+  label: parcelLab Voucher API
+  slug: parcellab-voucher-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parcellab/openapi/parcellab-voucher-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -52,7 +106,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Parcellab Authentication
+name: parcelLab Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: parcelLab secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

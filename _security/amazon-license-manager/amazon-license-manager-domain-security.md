@@ -54,6 +54,30 @@ api_specs:
   slug: amazon-license-manager-token-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-license-manager/openapi/amazon-license-manager-token-api-openapi.yml
+- filename: amazon-license-manager-identity-provider-api-openapi.yml
+  format: yaml
+  label: Amazon License Manager License Manager Identity Provider API
+  slug: amazon-license-manager-identity-provider-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-license-manager/openapi/amazon-license-manager-identity-provider-api-openapi.yml
+- filename: amazon-license-manager-license-server-api-openapi.yml
+  format: yaml
+  label: Amazon License Manager License Manager License Server API
+  slug: amazon-license-manager-license-server-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-license-manager/openapi/amazon-license-manager-license-server-api-openapi.yml
+- filename: amazon-license-manager-subscription-api-openapi.yml
+  format: yaml
+  label: Amazon License Manager License Manager Subscription API
+  slug: amazon-license-manager-subscription-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-license-manager/openapi/amazon-license-manager-subscription-api-openapi.yml
+- filename: amazon-license-manager-user-api-openapi.yml
+  format: yaml
+  label: Amazon License Manager License Manager User API
+  slug: amazon-license-manager-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-license-manager/openapi/amazon-license-manager-user-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -69,7 +93,7 @@ domains:
   domain: amazonaws.com
   spf: true
 hosts:
-- cert_expires: Oct 17 23:59:59 2026 GMT
+- cert_expires: Mar  4 23:59:59 2027 GMT
   host: aws.amazon.com
   hsts: true
   hsts_max_age: 47304000
@@ -77,25 +101,20 @@ hosts:
   tls_version: TLSv1.3
 - host: license-manager.amazonaws.com
   https: false
-- cert_expires: Dec 24 23:59:59 2026 GMT
-  host: license-manager.us-east-1.amazonaws.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-hosts_probed: 3
+hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
 name: Amazon License Manager Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Amazon License Manager, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Amazon License Manager, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon License Manager
 provider_slug: amazon-license-manager
 slug: amazon-license-manager-domain-security
 source_filename: amazon-license-manager-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 17 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: license-manager.amazonaws.com\n  https: false\n- host: license-manager.us-east-1.amazonaws.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 24 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-11-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: aws.amazon.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  4 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 47304000\n- host: license-manager.amazonaws.com\n  https: false\ndomains:\n- domain: amazon.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: amazonaws.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://artifacts.apis.io/amazon-license-manager/security/amazon-license-manager-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

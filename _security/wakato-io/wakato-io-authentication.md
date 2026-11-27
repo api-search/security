@@ -170,7 +170,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Wakato Io Authentication
+name: wakato-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: wakato-io declares 2 security scheme(s) across its OpenAPI definitions.
@@ -200,7 +200,7 @@ source_yaml_url: https://artifacts.apis.io/wakato-io/authentication/wakato-io-au
 summary_line: 2 schemes
 tags:
 - Artificial Intelligence
-- BusinessPlatform
+- Business Platform
 - No-Code
 - Automation
 - Software-as-a-Service

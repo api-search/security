@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Findacopacker Co Uk Authentication
+name: Find A Co-Packer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Find A Co-Packer secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -46,6 +46,6 @@ tags:
 - Food
 - Manufacturing
 - Packaging
-- UK
+- United Kingdom
 - B2B
 ---

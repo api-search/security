@@ -59,7 +59,7 @@ hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed
-name: 24Fix Domain Security
+name: 24 FIX Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 24 FIX, probed live across 8 host(s) and 2 registrable domain(s). 8 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: 24 FIX

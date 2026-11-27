@@ -594,7 +594,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gitlab Ci Trust Center
+name: GitLab CI/CD Trust Center
 name_suffix: Trust Center
 overview: GitLab CI/CD maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, GDPR, and CSA STAR compliance.
 provider_name: GitLab CI/CD

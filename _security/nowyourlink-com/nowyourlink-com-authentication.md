@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Nowyourlink Com Authentication
+name: nowyourlink-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: nowyourlink-com declares 1 security scheme(s) across its OpenAPI definitions.

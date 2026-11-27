@@ -116,7 +116,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Maptiler Trust Center
+name: MapTiler Trust Center
 name_suffix: Trust Center
 overview: MapTiler maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: MapTiler

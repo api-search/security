@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Jb Hi Fi Authentication
+name: JB Hi-Fi Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JB Hi-Fi declares 3 security scheme(s) across its OpenAPI definitions.

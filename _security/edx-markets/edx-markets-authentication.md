@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Edx Markets Authentication
+name: EDX Markets Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EDX Markets secures its APIs with mutualTLS and fix-session-logon across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -862,7 +862,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Cpanel Authentication
+name: cPanel Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: cPanel secures its APIs with http and api-key-in-authorization-header across 6 declared security schemes, as derived from its OpenAPI definitions.

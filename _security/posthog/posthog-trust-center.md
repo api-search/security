@@ -500,7 +500,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Posthog Trust Center
+name: PostHog Trust Center
 name_suffix: Trust Center
 overview: PostHog maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: PostHog

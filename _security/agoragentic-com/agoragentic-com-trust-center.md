@@ -293,7 +293,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Agoragentic Com Trust Center
+name: Agoragentic Trust Center
 name_suffix: Trust Center
 overview: Agoragentic maintains a public trust center covering its security and compliance posture.
 provider_name: Agoragentic

@@ -153,7 +153,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Sparkyfitness Domain Security
+name: SparkyFitness Domain Security
 name_suffix: Domain Security
 overview: Domain security posture for SparkyFitness, probed live across 1 host(s) and 0 registrable domain(s). 1 host(s) serve HTTPS; 1 advertise HSTS.
 provider_name: SparkyFitness

@@ -1,71 +1,23 @@
 ---
 api_specs:
-- filename: github-actions-artifacts-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Artifacts API
-  slug: github-actions-artifacts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-artifacts-api-openapi.yml
-- filename: github-actions-cache-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Cache API
-  slug: github-actions-cache-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-cache-api-openapi.yml
-- filename: github-actions-jobs-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Jobs API
-  slug: github-actions-jobs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-jobs-api-openapi.yml
 - filename: github-actions-oidc-api-openapi.yml
   format: yaml
   label: GitHub Actions OIDC API
   slug: github-actions-oidc-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/github-actions/openapi/github-actions-oidc-api-openapi.yml
-- filename: github-actions-permissions-api-openapi.yml
+- filename: github-actions-actions-api-openapi.yml
   format: yaml
-  label: GitHub Actions Permissions API
-  slug: github-actions-permissions-api
+  label: GitHub Actions Actions API
+  slug: github-actions-actions-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-permissions-api-openapi.yml
-- filename: github-actions-secrets-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-actions-api-openapi.yml
+- filename: github-actions-merge-queue-api-openapi.yml
   format: yaml
-  label: GitHub Actions Secrets API
-  slug: github-actions-secrets-api
+  label: GitHub Actions Merge Queue API
+  slug: github-actions-merge-queue-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-secrets-api-openapi.yml
-- filename: github-actions-self-hosted-runner-groups-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Self-Hosted Runner Groups API
-  slug: github-actions-self-hosted-runner-groups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-self-hosted-runner-groups-api-openapi.yml
-- filename: github-actions-self-hosted-runners-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Self-Hosted Runners API
-  slug: github-actions-self-hosted-runners-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-self-hosted-runners-api-openapi.yml
-- filename: github-actions-variables-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Variables API
-  slug: github-actions-variables-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-variables-api-openapi.yml
-- filename: github-actions-workflow-runs-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Workflow Runs API
-  slug: github-actions-workflow-runs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-workflow-runs-api-openapi.yml
-- filename: github-actions-workflows-api-openapi.yml
-  format: yaml
-  label: GitHub Actions Workflows API
-  slug: github-actions-workflows-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-actions/openapi/github-actions-workflows-api-openapi.yml
+  url: https://artifacts.apis.io/github-actions/openapi/github-actions-merge-queue-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 1 Type 2
@@ -78,7 +30,7 @@ certifications:
 description: GitHub publishes a Trust Center and, for GitHub Enterprise Cloud, a dedicated compliance portal (ghec.github.trust.page) where organization owners can pull SOC reports and the CSA CAIQ self-assessment. Certifications captured from GitHub's published compliance documentation.
 kind: trust-center
 layout: security
-name: Github Actions Trust Center
+name: GitHub Actions Trust Center
 name_suffix: Trust Center
 overview: GitHub Actions maintains a public trust center documenting SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO/IEC 27001:2013, ISO/IEC 42001:2023, CSA STAR Level 2, and FedRAMP LI-SaaS (ATO) compliance.
 provider_name: GitHub Actions

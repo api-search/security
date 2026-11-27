@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Alphabotpro Cloud Authentication
+name: AlphaBotPro Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AlphaBotPro secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

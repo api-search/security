@@ -248,7 +248,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Influxdb Trust Center
+name: InfluxDB Trust Center
 name_suffix: Trust Center
 overview: InfluxDB maintains a public trust center documenting SOC 2, ISO 27001, and ISO 27018 compliance.
 provider_name: InfluxDB

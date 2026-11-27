@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 9Bot Com Br Authentication
+name: 9bot Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 9bot declares 1 security scheme(s) across its OpenAPI definitions.

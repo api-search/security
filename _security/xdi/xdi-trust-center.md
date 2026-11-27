@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Xdi Trust Center
+name: XDI Trust Center
 name_suffix: Trust Center
 overview: XDI maintains a public trust center documenting ISO 27001 compliance.
 provider_name: XDI

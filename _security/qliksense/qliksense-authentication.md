@@ -776,7 +776,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Qliksense Authentication
+name: Qlik Sense Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Qlik Sense declares 8 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Firehol Authentication
+name: FireHOL IP lists Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FireHOL IP lists declares 0 security scheme(s) across its OpenAPI definitions.

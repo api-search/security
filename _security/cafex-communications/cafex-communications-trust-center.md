@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cafex Communications Trust Center
+name: CafeX Communications Trust Center
 name_suffix: Trust Center
 overview: CafeX Communications maintains a public trust center documenting ISO 27001, SOC 2, and ISO 42001 compliance.
 provider_name: CafeX Communications

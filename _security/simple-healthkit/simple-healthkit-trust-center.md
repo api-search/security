@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Simple Healthkit Trust Center
+name: Simple HealthKit Trust Center
 name_suffix: Trust Center
 overview: Simple HealthKit maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Simple HealthKit

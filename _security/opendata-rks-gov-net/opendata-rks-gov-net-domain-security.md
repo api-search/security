@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Opendata Rks Gov Net Domain Security
+name: opendata.rks-gov.net (Kosovo Open Data) [offline] Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for opendata.rks-gov.net (Kosovo Open Data) [offline], probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: opendata.rks-gov.net (Kosovo Open Data) [offline]

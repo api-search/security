@@ -218,7 +218,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Merchant 0 Com Authentication
+name: Merchant-0 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Merchant-0 declares 0 security scheme(s) across its OpenAPI definitions.

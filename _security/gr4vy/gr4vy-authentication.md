@@ -376,7 +376,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Gr4Vy Authentication
+name: Gr4vy Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

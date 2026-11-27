@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Kyc Hospitality Authentication
+name: KYC Hospitality Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: KYC Hospitality declares 1 security scheme(s) across its OpenAPI definitions.

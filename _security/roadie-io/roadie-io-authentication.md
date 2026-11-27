@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Roadie Io Authentication
+name: Roadie Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Roadie secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

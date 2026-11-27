@@ -35,7 +35,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Gatiflow Trust Center
+name: GatiFlow Trust Center
 name_suffix: Trust Center
 overview: GatiFlow maintains a public trust center covering its security and compliance posture.
 provider_name: GatiFlow

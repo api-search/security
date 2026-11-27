@@ -5,7 +5,7 @@ certifications:
 description: 'SimCorp runs a public Trust Center at simcorp.com/trust-center with three published sections — Security, Privacy and Compliance. It is a narrative trust center rather than a document portal: it names one third-party attestation (SOC 2 Type 2) and describes the control environment, but the report itself is released only through an account representative, and no certificate artifacts, sub-processor list or continuous-monitoring dashboard are published.'
 kind: trust-center
 layout: security
-name: Simcorp Dimension Trust Center
+name: SimCorp Dimension Trust Center
 name_suffix: Trust Center
 overview: SimCorp Dimension maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: SimCorp Dimension

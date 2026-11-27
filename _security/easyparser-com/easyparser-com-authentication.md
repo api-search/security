@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Easyparser Com Authentication
+name: easyparser-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: easyparser-com declares 2 security scheme(s) across its OpenAPI definitions.

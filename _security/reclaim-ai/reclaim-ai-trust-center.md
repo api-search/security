@@ -505,7 +505,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Reclaim Ai Trust Center
+name: Reclaim.ai Trust Center
 name_suffix: Trust Center
 overview: Reclaim.ai maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Reclaim.ai

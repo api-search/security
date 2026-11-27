@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Igods Com Authentication
+name: igods-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: igods-com declares 0 security scheme(s) across its OpenAPI definitions.

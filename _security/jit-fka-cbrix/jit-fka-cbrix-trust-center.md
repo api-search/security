@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Jit Fka Cbrix Trust Center
+name: Jit (fka Cbrix) Trust Center
 name_suffix: Trust Center
 overview: Jit (fka Cbrix) maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: Jit (fka Cbrix)

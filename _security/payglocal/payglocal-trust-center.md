@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Payglocal Trust Center
+name: PayGlocal Trust Center
 name_suffix: Trust Center
 overview: PayGlocal maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
 provider_name: PayGlocal

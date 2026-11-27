@@ -237,7 +237,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: University Of Wisconsin Madison Authentication
+name: University of Wisconsin-Madison Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

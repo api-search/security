@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-09-13'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/l2calendar/security/l2calendar-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- lineage2
+- Lineage2
 - MMORPG
 - Game Servers
 - Gaming

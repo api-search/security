@@ -203,7 +203,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Friendliai Trust Center
+name: FriendliAI Trust Center
 name_suffix: Trust Center
 overview: FriendliAI maintains a public trust center covering its security and compliance posture.
 provider_name: FriendliAI

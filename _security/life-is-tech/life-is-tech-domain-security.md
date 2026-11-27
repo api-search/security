@@ -43,7 +43,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Life Is Tech Domain Security
+name: Life is Tech Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Life is Tech, probed live across 5 host(s) and 2 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Life is Tech

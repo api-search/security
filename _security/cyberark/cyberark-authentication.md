@@ -1,49 +1,6 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: cyberark-authentication-api-openapi.yml
-  format: yaml
-  label: CyberArk Authentication API
-  slug: cyberark-authentication-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-authentication-api-openapi.yml
-- filename: cyberark-health-api-openapi.yml
-  format: yaml
-  label: CyberArk Health API
-  slug: cyberark-health-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-health-api-openapi.yml
-- filename: cyberark-policies-api-openapi.yml
-  format: yaml
-  label: CyberArk Policies API
-  slug: cyberark-policies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-policies-api-openapi.yml
-- filename: cyberark-resources-api-openapi.yml
-  format: yaml
-  label: CyberArk Resources API
-  slug: cyberark-resources-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-resources-api-openapi.yml
-- filename: cyberark-roles-api-openapi.yml
-  format: yaml
-  label: CyberArk Roles API
-  slug: cyberark-roles-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-roles-api-openapi.yml
-- filename: cyberark-secrets-api-openapi.yml
-  format: yaml
-  label: CyberArk Secrets API
-  slug: cyberark-secrets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-secrets-api-openapi.yml
-- filename: cyberark-public-keys-api-openapi.yml
-  format: yaml
-  label: CyberArk Public Keys API
-  slug: cyberark-public-keys-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cyberark/openapi/cyberark-public-keys-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cyberark Authentication
+name: CyberArk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CyberArk secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

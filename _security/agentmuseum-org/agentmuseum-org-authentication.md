@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Agentmuseum Org Authentication
+name: The Agent Museum Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: The Agent Museum declares 2 security scheme(s) across its OpenAPI definitions.

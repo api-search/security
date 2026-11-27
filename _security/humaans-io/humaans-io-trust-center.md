@@ -98,7 +98,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Humaans Io Trust Center
+name: Humaans Trust Center
 name_suffix: Trust Center
 overview: Humaans maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Humaans

@@ -60,7 +60,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Department Of Justice Authentication
+name: Department of Justice Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Department of Justice secures its APIs with apiKey and none across 2 declared security schemes, as derived from its OpenAPI definitions.

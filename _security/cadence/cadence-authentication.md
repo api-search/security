@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Cadence Authentication
+name: Cadence Design Systems Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cadence Design Systems declares 4 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Connic Co Authentication
+name: Connic Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Connic declares 2 security scheme(s) across its OpenAPI definitions.

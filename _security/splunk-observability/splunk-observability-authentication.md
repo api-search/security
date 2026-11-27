@@ -298,7 +298,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Splunk Observability Authentication
+name: Splunk Observability Cloud Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Splunk Observability Cloud secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

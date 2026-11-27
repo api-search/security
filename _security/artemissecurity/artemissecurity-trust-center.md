@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Artemissecurity Trust Center
+name: Artemis Security Trust Center
 name_suffix: Trust Center
 overview: Artemis Security maintains a public trust center documenting GDPR compliance.
 provider_name: Artemis Security

@@ -20,7 +20,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Ai Bank Domain Security
+name: AI Bank Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AI Bank, probed live across 1 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: AI Bank

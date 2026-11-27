@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Termdatesapi Co Uk Authentication
+name: termdatesapi-co-uk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: termdatesapi-co-uk declares 1 security scheme(s) across its OpenAPI definitions.

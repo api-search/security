@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Audioscrape Com Authentication
+name: Audioscrape Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Audioscrape declares 1 security scheme(s) across its OpenAPI definitions.

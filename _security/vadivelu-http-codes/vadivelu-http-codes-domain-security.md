@@ -20,7 +20,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Vadivelu Http Codes Domain Security
+name: Vadivelu HTTP Codes Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Vadivelu HTTP Codes, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Vadivelu HTTP Codes

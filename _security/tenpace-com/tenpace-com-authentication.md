@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Tenpace Com Authentication
+name: tenpace-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tenpace-com declares 1 security scheme(s) across its OpenAPI definitions.

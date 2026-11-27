@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Socialneuron Authentication
+name: Social Neuron Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Social Neuron declares 2 security scheme(s) across its OpenAPI definitions.

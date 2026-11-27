@@ -13,7 +13,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Workfusion Authentication
+name: WorkFusion Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WorkFusion secures its APIs with http, apiKey, mutualTLS, and openIdConnect across 5 declared security schemes, as derived from its OpenAPI definitions.

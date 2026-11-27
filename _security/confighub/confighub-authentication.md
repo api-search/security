@@ -260,7 +260,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Confighub Authentication
+name: ConfigHub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ConfigHub declares 1 security scheme(s) across its OpenAPI definitions.

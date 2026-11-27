@@ -86,7 +86,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Crossenagage Trust Center
+name: CrossEngage Trust Center
 name_suffix: Trust Center
 overview: CrossEngage maintains a public trust center documenting ISO/IEC 27001:2022, CSA STAR Certification, and GDPR compliance.
 provider_name: CrossEngage

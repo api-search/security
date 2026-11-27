@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aivideocheck Net Authentication
+name: AI Video Check Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI Video Check declares 1 security scheme(s) across its OpenAPI definitions.

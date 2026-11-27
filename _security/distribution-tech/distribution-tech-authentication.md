@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Distribution Tech Authentication
+name: distribution-tech Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: distribution-tech declares 1 security scheme(s) across its OpenAPI definitions.

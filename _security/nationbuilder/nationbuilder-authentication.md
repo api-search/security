@@ -257,7 +257,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Nationbuilder Authentication
+name: NationBuilder Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

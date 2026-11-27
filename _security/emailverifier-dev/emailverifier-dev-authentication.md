@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Emailverifier Dev Authentication
+name: emailverifier-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: emailverifier-dev declares 2 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: 31Huiyi Authentication
+name: 31huiyi Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 31huiyi declares 4 security scheme(s) across its OpenAPI definitions.

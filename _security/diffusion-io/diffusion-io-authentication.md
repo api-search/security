@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Diffusion Io Authentication
+name: Diffusion Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Diffusion declares 0 security scheme(s) across its OpenAPI definitions.

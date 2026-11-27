@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Lexisnexis Risk Solutions Authentication
+name: LexisNexis Risk Solutions Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

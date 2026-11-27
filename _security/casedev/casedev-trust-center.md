@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Casedev Trust Center
+name: Case.dev Trust Center
 name_suffix: Trust Center
 overview: Case.dev maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Case.dev

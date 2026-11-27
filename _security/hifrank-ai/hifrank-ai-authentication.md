@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Hifrank Ai Authentication
+name: Frank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Frank declares 1 security scheme(s) across its OpenAPI definitions.

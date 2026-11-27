@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Safe Security Trust Center
+name: SAFE Security Trust Center
 name_suffix: Trust Center
 overview: SAFE Security maintains a public trust center documenting SOC 2 Type 2, SOC 3, ISO 27001:2013, ISO 9001:2015, and TX-RAMP compliance.
 provider_name: SAFE Security

@@ -81,7 +81,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Neonone Authentication
+name: Neon One Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Neon One secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

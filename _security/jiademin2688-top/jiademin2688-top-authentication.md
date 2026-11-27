@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Jiademin2688 Top Authentication
+name: AI City Social Town Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI City Social Town secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

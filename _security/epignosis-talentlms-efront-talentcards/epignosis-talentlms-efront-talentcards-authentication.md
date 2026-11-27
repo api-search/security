@@ -105,7 +105,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Epignosis Talentlms Efront Talentcards Authentication
+name: Epignosis (TalentLMS, eFront, TalentCards) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Epignosis (TalentLMS, eFront, TalentCards) secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

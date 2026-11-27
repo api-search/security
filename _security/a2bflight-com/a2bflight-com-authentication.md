@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: A2Bflight Com Authentication
+name: a2bflight Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: a2bflight declares 0 security scheme(s) across its OpenAPI definitions.

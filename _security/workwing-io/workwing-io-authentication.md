@@ -134,7 +134,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Workwing Io Authentication
+name: workwing-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: workwing-io declares 1 security scheme(s) across its OpenAPI definitions.

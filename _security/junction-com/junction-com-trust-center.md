@@ -135,7 +135,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Junction Com Trust Center
+name: Junction Trust Center
 name_suffix: Trust Center
 overview: Junction maintains a public trust center documenting SOC 2, HITRUST CSF, HIPAA, and NIST CSF compliance.
 provider_name: Junction

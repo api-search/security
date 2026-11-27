@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Zuluworksai Com Authentication
+name: zuluworksai-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: zuluworksai-com declares 0 security scheme(s) across its OpenAPI definitions.

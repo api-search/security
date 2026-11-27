@@ -24,6 +24,30 @@ api_specs:
   slug: amazon-gamelift-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-operations-api-openapi.yml
+- filename: amazon-gamelift-applications-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Applications API
+  slug: amazon-gamelift-applications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-applications-api-openapi.yml
+- filename: amazon-gamelift-streamgroups-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Streamgroups API
+  slug: amazon-gamelift-streamgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-streamgroups-api-openapi.yml
+- filename: amazon-gamelift-streamsessions-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Streamsessions API
+  slug: amazon-gamelift-streamsessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-streamsessions-api-openapi.yml
+- filename: amazon-gamelift-streamurls-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Streamurls API
+  slug: amazon-gamelift-streamurls-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-streamurls-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -34,7 +58,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Gamelift Trust Center
+name: Amazon GameLift Trust Center
 name_suffix: Trust Center
 overview: Amazon GameLift maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon GameLift

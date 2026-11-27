@@ -87,7 +87,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Landingai Authentication
+name: Landing.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Landing.ai secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

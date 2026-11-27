@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Verifly Email Authentication
+name: verifly-email Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: verifly-email declares 0 security scheme(s) across its OpenAPI definitions.

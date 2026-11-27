@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Servicedesk Plus Trust Center
+name: ManageEngine ServiceDesk Plus Trust Center
 name_suffix: Trust Center
 overview: ManageEngine ServiceDesk Plus maintains a public trust center documenting ISO 27001, HIPAA, and GDPR compliance.
 provider_name: ManageEngine ServiceDesk Plus

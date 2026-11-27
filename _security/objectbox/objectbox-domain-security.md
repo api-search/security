@@ -19,7 +19,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Objectbox Domain Security
+name: ObjectBox Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ObjectBox, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: ObjectBox

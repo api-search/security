@@ -120,26 +120,25 @@ api_specs:
   slug: benjipays-com-whoami-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/benjipays-com/openapi/benjipays-com-whoami-api-openapi.yml
-certification_count: 3
+certification_count: 2
 certifications:
-- SOC 2
 - PCI DSS
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Benjipays Com Trust Center
+name: Benji Pays Trust Center
 name_suffix: Trust Center
-overview: Benji Pays maintains a public trust center documenting SOC 2, PCI DSS, and GDPR compliance.
+overview: Benji Pays maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: Benji Pays
 provider_slug: benjipays-com
 slug: benjipays-com-trust-center
 source_filename: benjipays-com-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-11-02'\nmethod: searched\nprobe: true\nsource: https://benjipays.com/trust/\nurl: https://benjipays.com/trust/\ncertifications:\n- SOC 2\n- PCI DSS\n- GDPR\nevidence:\n- source: https://benjipays.com/trust/\n  keywords:\n  - soc 2\n  - pci dss\n  - gdpr\n"
+source_yaml: "generated: '2026-11-02'\nmethod: searched\nprobe: true\nsource: https://benjipays.com/trust/\nurl: https://benjipays.com/trust/\ncertifications:\n- PCI DSS\n- GDPR\nevidence:\n- source: https://benjipays.com/trust/\n  keywords:\n  - soc 2\n  - pci dss\n  - gdpr\ncertifications_in_progress:\n- SOC 2\ncertification_quotes:\n  SOC 2: ta tokenized through certified payment partners | SOC 2 (Type II) | Audit in progress\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/benjipays-com/security/benjipays-com-trust-center.yml
-summary_line: SOC 2, PCI DSS, GDPR
+summary_line: PCI DSS, GDPR
 tags:
 - Payments
 - Accounting

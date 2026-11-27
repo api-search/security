@@ -3,54 +3,24 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: google-cloud-dataflow-debug-api-openapi.yml
+- filename: google-cloud-dataflow-folders-api-openapi.yml
   format: yaml
-  label: Google Cloud Dataflow Debug API
-  slug: google-cloud-dataflow-debug-api
+  label: Google Cloud Dataflow Folders API
+  slug: google-cloud-dataflow-folders-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-debug-api-openapi.yml
-- filename: google-cloud-dataflow-flex-templates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-folders-api-openapi.yml
+- filename: google-cloud-dataflow-organizations-api-openapi.yml
   format: yaml
-  label: Google Cloud Dataflow Flex Templates API
-  slug: google-cloud-dataflow-flex-templates-api
+  label: Google Cloud Dataflow Organizations API
+  slug: google-cloud-dataflow-organizations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-flex-templates-api-openapi.yml
-- filename: google-cloud-dataflow-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-organizations-api-openapi.yml
+- filename: google-cloud-dataflow-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Dataflow Jobs API
-  slug: google-cloud-dataflow-jobs-api
+  label: Google Cloud Dataflow Projects API
+  slug: google-cloud-dataflow-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-jobs-api-openapi.yml
-- filename: google-cloud-dataflow-messages-api-openapi.yml
-  format: yaml
-  label: Google Cloud Dataflow Messages API
-  slug: google-cloud-dataflow-messages-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-messages-api-openapi.yml
-- filename: google-cloud-dataflow-metrics-api-openapi.yml
-  format: yaml
-  label: Google Cloud Dataflow Metrics API
-  slug: google-cloud-dataflow-metrics-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-metrics-api-openapi.yml
-- filename: google-cloud-dataflow-snapshots-api-openapi.yml
-  format: yaml
-  label: Google Cloud Dataflow Snapshots API
-  slug: google-cloud-dataflow-snapshots-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-snapshots-api-openapi.yml
-- filename: google-cloud-dataflow-stages-api-openapi.yml
-  format: yaml
-  label: Google Cloud Dataflow Stages API
-  slug: google-cloud-dataflow-stages-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-stages-api-openapi.yml
-- filename: google-cloud-dataflow-templates-api-openapi.yml
-  format: yaml
-  label: Google Cloud Dataflow Templates API
-  slug: google-cloud-dataflow-templates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-templates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-dataflow/openapi/google-cloud-dataflow-projects-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

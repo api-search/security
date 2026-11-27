@@ -241,7 +241,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Spotio Trust Center
+name: SPOTIO Trust Center
 name_suffix: Trust Center
 overview: SPOTIO maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: SPOTIO

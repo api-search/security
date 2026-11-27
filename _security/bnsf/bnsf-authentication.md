@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bnsf Authentication
+name: BNSF Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BNSF secures its APIs with mutualTLS across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -2,30 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-iam-permissions-api-openapi.yml
+- filename: google-cloud-iam-folders-api-openapi.yml
   format: yaml
-  label: Google Cloud IAM Permissions API
-  slug: google-cloud-iam-permissions-api
+  label: Google Cloud IAM Folders API
+  slug: google-cloud-iam-folders-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-permissions-api-openapi.yml
-- filename: google-cloud-iam-roles-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-folders-api-openapi.yml
+- filename: google-cloud-iam-iam-api-openapi.yml
   format: yaml
-  label: Google Cloud IAM Roles API
-  slug: google-cloud-iam-roles-api
+  label: Google Cloud IAM Iam API
+  slug: google-cloud-iam-iam-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-roles-api-openapi.yml
-- filename: google-cloud-iam-service-account-keys-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-iam-api-openapi.yml
+- filename: google-cloud-iam-locations-api-openapi.yml
   format: yaml
-  label: Google Cloud IAM Service Account Keys API
-  slug: google-cloud-iam-service-account-keys-api
+  label: Google Cloud IAM Locations API
+  slug: google-cloud-iam-locations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-service-account-keys-api-openapi.yml
-- filename: google-cloud-iam-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-locations-api-openapi.yml
+- filename: google-cloud-iam-operations-api-openapi.yml
   format: yaml
-  label: Google Cloud IAM Service Accounts API
-  slug: google-cloud-iam-service-accounts-api
+  label: Google Cloud IAM Operations API
+  slug: google-cloud-iam-operations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-service-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-operations-api-openapi.yml
+- filename: google-cloud-iam-organizations-api-openapi.yml
+  format: yaml
+  label: Google Cloud IAM Organizations API
+  slug: google-cloud-iam-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-organizations-api-openapi.yml
+- filename: google-cloud-iam-policies-api-openapi.yml
+  format: yaml
+  label: Google Cloud IAM Policies API
+  slug: google-cloud-iam-policies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-policies-api-openapi.yml
+- filename: google-cloud-iam-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud IAM Projects API
+  slug: google-cloud-iam-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-projects-api-openapi.yml
+- filename: google-cloud-iam-token-api-openapi.yml
+  format: yaml
+  label: Google Cloud IAM Token API
+  slug: google-cloud-iam-token-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-iam/openapi/google-cloud-iam-token-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -33,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Cloud Iam Authentication
+name: Google Cloud IAM Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

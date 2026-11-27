@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Leaftfoods Authentication
+name: Leaft Foods Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Leaft Foods declares 3 security scheme(s) across its OpenAPI definitions.

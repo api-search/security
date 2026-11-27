@@ -516,7 +516,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sendpulse Trust Center
+name: SendPulse Trust Center
 name_suffix: Trust Center
 overview: SendPulse maintains a public trust center documenting CASA Tier 2 compliance.
 provider_name: SendPulse
@@ -545,6 +545,5 @@ tags:
 - Popups
 - Email Verification
 - MCP
-- Agent Ready
 trust_url: ''
 ---

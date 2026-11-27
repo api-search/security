@@ -38,7 +38,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pixee Ai Trust Center
+name: Pixee Trust Center
 name_suffix: Trust Center
 overview: Pixee maintains a public trust center documenting SOC 2, ISO 27001, and CSA STAR compliance.
 provider_name: Pixee
@@ -56,7 +56,7 @@ tags:
 - Security
 - Application Security
 - AppSec
-- Vulnerability Remediation
+- Vulnerability-Remediation
 - Static Analysis
 - SARIF
 - Code Security

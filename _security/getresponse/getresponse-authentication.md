@@ -305,7 +305,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Getresponse Authentication
+name: GetResponse Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit

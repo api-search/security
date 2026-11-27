@@ -66,7 +66,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Openweb Trust Center
+name: OpenWeb Trust Center
 name_suffix: Trust Center
 overview: OpenWeb maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: OpenWeb

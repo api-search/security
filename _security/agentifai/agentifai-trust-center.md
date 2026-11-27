@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agentifai Trust Center
+name: AgentifAI Trust Center
 name_suffix: Trust Center
 overview: AgentifAI maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 42001:2023, PCI DSS v4.0.0, and HIPAA compliance.
 provider_name: AgentifAI

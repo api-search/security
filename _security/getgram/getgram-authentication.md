@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Getgram Authentication
+name: Gram (by Speakeasy) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Gram (by Speakeasy) declares 5 security scheme(s) across its OpenAPI definitions.

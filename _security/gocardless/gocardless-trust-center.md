@@ -104,7 +104,7 @@ certifications:
 description: GoCardless's security & compliance posture, captured from the GoCardless security page. GoCardless is ISO 27001 certified (since 2016, across all services and products) and is authorised by the UK Financial Conduct Authority under the Payment Services Regulations 2017. It handles bank-debit and open-banking payments (it does not store card PANs), and states PCI DSS compliance for the card-adjacent surface. Only certifications GoCardless states about itself are recorded here; third-party attestations are excluded.
 kind: trust-center
 layout: security
-name: Gocardless Trust Center
+name: GoCardless Trust Center
 name_suffix: Trust Center
 overview: GoCardless maintains a public trust center documenting ISO/IEC 27001, FCA authorisation, and PCI DSS compliance.
 provider_name: GoCardless

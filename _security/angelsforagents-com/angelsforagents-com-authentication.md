@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Angelsforagents Com Authentication
+name: Angels for Agents Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Angels for Agents declares 0 security scheme(s) across its OpenAPI definitions.

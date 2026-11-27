@@ -100,7 +100,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Bodyspec Authentication
+name: BodySpec Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

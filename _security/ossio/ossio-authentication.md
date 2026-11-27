@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Ossio Authentication
+name: OSSIO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OSSIO declares 2 security scheme(s) across its OpenAPI definitions.

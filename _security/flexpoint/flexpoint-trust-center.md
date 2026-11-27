@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Flexpoint Trust Center
+name: FlexPoint Trust Center
 name_suffix: Trust Center
 overview: FlexPoint maintains a public trust center documenting PCI DSS Level 1 compliance.
 provider_name: FlexPoint

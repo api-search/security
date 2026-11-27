@@ -312,7 +312,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Elevenlabs Authentication
+name: ElevenLabs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ElevenLabs secures its APIs with apiKey, oauth2, and bearer across 3 declared security schemes, as derived from its OpenAPI definitions.

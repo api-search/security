@@ -116,7 +116,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Bithuman Ai Authentication
+name: bithuman-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: bithuman-ai declares 2 security scheme(s) across its OpenAPI definitions.

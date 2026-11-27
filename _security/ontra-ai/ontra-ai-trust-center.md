@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ontra Ai Trust Center
+name: Ontra AI Trust Center
 name_suffix: Trust Center
 overview: Ontra AI maintains a public trust center documenting SOC 2 Type 2 (all 5 trust services criteria), ISO 27001:2022, ISO 42001, GDPR, and CCPA compliance.
 provider_name: Ontra AI

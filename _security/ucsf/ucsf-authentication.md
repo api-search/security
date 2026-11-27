@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Ucsf Authentication
+name: University of California, San Francisco Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of California, San Francisco declares 0 security scheme(s) across its OpenAPI definitions.

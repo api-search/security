@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cloudnuro Trust Center
+name: CloudNuro Trust Center
 name_suffix: Trust Center
 overview: CloudNuro maintains a public trust center documenting SOC 2, ISO 27001, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: CloudNuro

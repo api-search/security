@@ -48,7 +48,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Tongji Open Platform Authentication
+name: Tongji University Open Platform Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tongji University secures its APIs with none, oauth2, openid-connect, and bearer across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -2,6 +2,13 @@
 anonymous_access: false
 api_key_in:
 - header
+api_specs:
+- filename: nominal-openapi-generated.yml
+  format: yaml
+  label: Nominal API
+  slug: nominal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nominal/openapi/_ae-authored/nominal-openapi-generated.yml
 auth_types:
 - http
 description: ''

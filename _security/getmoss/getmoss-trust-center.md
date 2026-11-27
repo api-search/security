@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Getmoss Trust Center
+name: Moss Trust Center
 name_suffix: Trust Center
 overview: Moss maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: Moss

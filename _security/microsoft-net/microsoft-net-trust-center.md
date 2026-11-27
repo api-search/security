@@ -36,7 +36,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Microsoft Net Trust Center
+name: Microsoft .NET Trust Center
 name_suffix: Trust Center
 overview: Microsoft .NET maintains a public trust center documenting SOC 1, SOC 2, ISO/IEC 27001, ISO/IEC 27018, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: Microsoft .NET

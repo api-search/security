@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anchoredip Com Authentication
+name: AnchoredIP Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AnchoredIP declares 0 security scheme(s) across its OpenAPI definitions.

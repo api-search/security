@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Smry Ai Authentication
+name: smry-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: smry-ai declares 2 security scheme(s) across its OpenAPI definitions.

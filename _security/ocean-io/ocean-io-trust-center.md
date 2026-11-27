@@ -54,7 +54,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ocean Io Trust Center
+name: Ocean.io Trust Center
 name_suffix: Trust Center
 overview: Ocean.io maintains a public trust center documenting SOC 2 compliance.
 provider_name: Ocean.io

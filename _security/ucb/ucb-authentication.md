@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Ucb Authentication
+name: University of California, Berkeley Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of California, Berkeley declares 0 security scheme(s) across its OpenAPI definitions.

@@ -241,7 +241,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Zoho Crm Trust Center
+name: Zoho CRM Trust Center
 name_suffix: Trust Center
 overview: Zoho CRM maintains a public trust center documenting ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO 9001, ISO/IEC 20000-1, ISO 22301, SOC 1 Type 2 (SSAE 18 / ISAE 3402), SOC 2 Type 2, SOC 2 + HIPAA Type 2, PCI DSS (SAQ-D), CSA STAR Self-Assessment, Cyber Essentials Plus, TX-RAMP, ENS (Esquema Nacional de Seguridad, Spain), NCA Class B (Saudi Arabia), NHS DSPT (UK) v8, GoBD (Germany), 21 CFR Part 11 / EudraLex Annex 11, and WCAG 2.2 AA compliance.
 provider_name: Zoho CRM

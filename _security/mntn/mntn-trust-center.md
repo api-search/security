@@ -114,7 +114,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mntn Trust Center
+name: MNTN Trust Center
 name_suffix: Trust Center
 overview: MNTN maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: MNTN
@@ -139,7 +139,7 @@ tags:
 - Audience Targeting
 - Conversion Tracking
 - Programmatic Advertising
-- private-marketplace
+- Private-Marketplace
 - Marketing Reporting
 - AdTech
 trust_url: ''

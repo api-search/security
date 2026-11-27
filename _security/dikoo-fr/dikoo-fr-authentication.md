@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Dikoo Fr Authentication
+name: DIKOO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DIKOO declares 1 security scheme(s) across its OpenAPI definitions.

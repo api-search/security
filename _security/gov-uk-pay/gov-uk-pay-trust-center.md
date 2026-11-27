@@ -36,7 +36,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gov Uk Pay Trust Center
+name: GOV.UK Pay Trust Center
 name_suffix: Trust Center
 overview: GOV.UK Pay maintains a public trust center documenting PCI DSS compliance.
 provider_name: GOV.UK Pay

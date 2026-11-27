@@ -86,7 +86,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Landingai Trust Center
+name: Landing.ai Trust Center
 name_suffix: Trust Center
 overview: Landing.ai maintains a public trust center documenting SOC 2 Type II, HIPAA, and GDPR compliance.
 provider_name: Landing.ai

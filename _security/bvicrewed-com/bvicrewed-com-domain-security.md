@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Bvicrewed Com Domain Security
+name: BVI Crewed Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for BVI Crewed, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
 provider_name: BVI Crewed

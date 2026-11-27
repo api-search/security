@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Peerlookup Com Authentication
+name: peerlookup-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: peerlookup-com declares 2 security scheme(s) across its OpenAPI definitions.

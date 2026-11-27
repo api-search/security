@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Agentic Endpoints Com Authentication
+name: Agentic Endpoints Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agentic Endpoints declares 2 security scheme(s) across its OpenAPI definitions.

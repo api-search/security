@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Datocapital Com Authentication
+name: Dato Capital Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dato Capital declares 1 security scheme(s) across its OpenAPI definitions.

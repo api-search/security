@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Spritefusion Com Authentication
+name: spritefusion-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: spritefusion-com declares 1 security scheme(s) across its OpenAPI definitions.

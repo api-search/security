@@ -2,8 +2,8 @@
 api_specs:
 - filename: fastsocial-co-profiles-api-openapi.yml
   format: yaml
-  label: FastSocial Profiles API
-  slug: fastsocial-co-profiles-api
+  label: Instagram Data API
+  slug: instagram-data-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/fastsocial-co/openapi/fastsocial-co-profiles-api-openapi.yml
 description: ''
@@ -25,7 +25,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fastsocial Co Domain Security
+name: FastSocial Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FastSocial, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: FastSocial
@@ -40,7 +40,6 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Social Media
 - Marketing
-- API
 - Instagram
-- FastSocial
+- Software-as-a-Service
 ---

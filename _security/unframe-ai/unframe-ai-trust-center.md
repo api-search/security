@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Unframe Ai Trust Center
+name: Unframe AI Trust Center
 name_suffix: Trust Center
 overview: Unframe AI maintains a public trust center documenting SOC 2 Type II, ISO 27001, ISO 42001, and HIPAA compliance.
 provider_name: Unframe AI

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Zinc Com Authentication
+name: Zinc Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Zinc declares 1 security scheme(s) across its OpenAPI definitions.

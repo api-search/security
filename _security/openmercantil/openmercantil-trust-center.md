@@ -155,7 +155,7 @@ certifications: []
 description: 'OpenMercantil has no trust portal in the vendor sense — no trust.domain subdomain, no document request flow, no auditor reports. What it has instead is a single public page, /seguridad, that functions as a trust center for a transparency-first open-data project: it enumerates implemented controls, named regulatory regimes, the vulnerability-disclosure process, and an explicit "what we deliberately do NOT do" section.'
 kind: trust-center
 layout: security
-name: Openmercantil Trust Center
+name: OpenMercantil Trust Center
 name_suffix: Trust Center
 overview: OpenMercantil maintains a public trust center covering its security and compliance posture.
 provider_name: OpenMercantil

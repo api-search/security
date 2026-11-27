@@ -111,7 +111,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Circleci Trust Center
+name: CircleCI Trust Center
 name_suffix: Trust Center
 overview: CircleCI maintains a public trust center documenting SOC 2, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: CircleCI

@@ -15,6 +15,12 @@ api_specs:
   slug: shveik-scraping-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/shveik/openapi/shveik-scraping-api-openapi.yml
+- filename: shveik-browser-api-openapi.yml
+  format: yaml
+  label: Shveik Browser API
+  slug: shveik-browser-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shveik/openapi/shveik-browser-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -26,8 +32,8 @@ method: derived
 name: Shveik Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: shveik secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: shveik
+overview: Shveik secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Shveik
 provider_slug: shveik
 scheme_count: 2
 schemes:

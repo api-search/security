@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Voiceops Trust Center
+name: VoiceOps Trust Center
 name_suffix: Trust Center
 overview: VoiceOps maintains a public trust center documenting SOC 2, HIPAA, and PCI DSS compliance.
 provider_name: VoiceOps

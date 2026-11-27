@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Day3 App Authentication
+name: day3 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: day3 declares 1 security scheme(s) across its OpenAPI definitions.

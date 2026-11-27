@@ -34,6 +34,5 @@ tags:
 - Private Networks
 - AI Positioning
 - AI Kits
-- Enterprise Solutions
 - System Integrators
 ---

@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Soci Trust Center
+name: SOCi Trust Center
 name_suffix: Trust Center
 overview: SOCi maintains a public trust center documenting SOC 2 Type II, SOC 3, ISO/IEC 27001, ISO/IEC 27701, and ISO/IEC 42001:2023 compliance.
 provider_name: SOCi

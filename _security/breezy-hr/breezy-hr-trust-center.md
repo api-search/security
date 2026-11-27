@@ -26,7 +26,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Breezy Hr Trust Center
+name: Breezy HR Trust Center
 name_suffix: Trust Center
 overview: Breezy HR maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Breezy HR

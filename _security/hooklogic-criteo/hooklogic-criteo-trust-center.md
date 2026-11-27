@@ -55,7 +55,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hooklogic Criteo Trust Center
+name: HookLogic (Criteo) Trust Center
 name_suffix: Trust Center
 overview: HookLogic (Criteo) maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: HookLogic (Criteo)

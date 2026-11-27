@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dveracity Com Authentication
+name: dVeracity Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: dVeracity declares 1 security scheme(s) across its OpenAPI definitions.

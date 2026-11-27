@@ -98,7 +98,7 @@ hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed
-name: America Movil Domain Security
+name: América Móvil Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for América Móvil, probed live across 6 host(s) and 4 registrable domain(s). 6 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: América Móvil

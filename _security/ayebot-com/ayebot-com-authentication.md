@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ayebot Com Authentication
+name: Ayebot Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ayebot declares 0 security scheme(s) across its OpenAPI definitions.

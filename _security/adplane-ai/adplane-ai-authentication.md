@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Adplane Ai Authentication
+name: Adplane Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Adplane declares 1 security scheme(s) across its OpenAPI definitions.

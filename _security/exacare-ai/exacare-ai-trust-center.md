@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Exacare Ai Trust Center
+name: ExaCare AI Trust Center
 name_suffix: Trust Center
 overview: ExaCare AI maintains a public trust center documenting HIPAA compliance.
 provider_name: ExaCare AI

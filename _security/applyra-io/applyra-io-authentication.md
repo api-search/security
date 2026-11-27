@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Applyra Io Authentication
+name: Applyra Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Applyra declares 2 security scheme(s) across its OpenAPI definitions.

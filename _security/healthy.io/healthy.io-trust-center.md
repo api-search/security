@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Healthy.Io Trust Center
+name: Healthy.io Trust Center
 name_suffix: Trust Center
 overview: Healthy.io maintains a public trust center documenting ISO/IEC 27001:2013, ISO 22301:2019, ISO 13485:2016, HITRUST, UK Cyber Essentials, and NHS Data Security and Protection Toolkit compliance.
 provider_name: Healthy.io

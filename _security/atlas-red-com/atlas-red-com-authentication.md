@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Atlas Red Com Authentication
+name: Atlas Red Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Atlas Red declares 0 security scheme(s) across its OpenAPI definitions.
@@ -29,7 +29,7 @@ source_yaml: 'generated: ''2026-11-02''
 source_yaml_url: https://artifacts.apis.io/atlas-red-com/authentication/atlas-red-com-authentication.yml
 summary_line: 0 schemes
 tags:
-- MindMapping
+- Mind Mapping
 - Productivity
 - Software-as-a-Service
 - no-subscription

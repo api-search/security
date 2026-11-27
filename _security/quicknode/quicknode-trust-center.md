@@ -59,7 +59,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Quicknode Trust Center
+name: QuickNode Trust Center
 name_suffix: Trust Center
 overview: QuickNode maintains a public trust center covering its security and compliance posture.
 provider_name: QuickNode

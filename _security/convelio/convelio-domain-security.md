@@ -56,7 +56,7 @@ tags:
 - Company
 - Logistics
 - Shipping
-- Fine Art
+- FineArt
 - Freight
 - E-Commerce
 - Quotes

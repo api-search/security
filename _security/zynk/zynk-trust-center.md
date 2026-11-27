@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Zynk Trust Center
+name: Zynk Software Limited Trust Center
 name_suffix: Trust Center
 overview: Zynk Software Limited maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: Zynk Software Limited

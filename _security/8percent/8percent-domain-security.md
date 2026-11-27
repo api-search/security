@@ -48,7 +48,7 @@ hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed
-name: 8Percent Domain Security
+name: 8percent Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 8percent, probed live across 7 host(s) and 1 registrable domain(s). 7 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: 8percent

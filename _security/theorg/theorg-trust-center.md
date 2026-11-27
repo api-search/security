@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Theorg Trust Center
+name: The Org Trust Center
 name_suffix: Trust Center
 overview: The Org maintains a public trust center covering its security and compliance posture.
 provider_name: The Org

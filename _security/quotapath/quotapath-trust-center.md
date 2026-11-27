@@ -49,7 +49,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Quotapath Trust Center
+name: QuotaPath Trust Center
 name_suffix: Trust Center
 overview: QuotaPath maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: QuotaPath

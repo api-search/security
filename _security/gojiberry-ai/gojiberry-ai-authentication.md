@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Gojiberry Ai Authentication
+name: Gojiberry AI Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

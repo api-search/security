@@ -42,6 +42,30 @@ api_specs:
   slug: amazon-timestream-scheduled-query-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-timestream/openapi/amazon-timestream-scheduled-query-api-openapi.yml
+- filename: amazon-timestream-db-backup-api-openapi.yml
+  format: yaml
+  label: Amazon Timestream Timestream Db Backup API
+  slug: amazon-timestream-db-backup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-timestream/openapi/amazon-timestream-db-backup-api-openapi.yml
+- filename: amazon-timestream-db-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon Timestream Timestream Db Cluster API
+  slug: amazon-timestream-db-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-timestream/openapi/amazon-timestream-db-cluster-api-openapi.yml
+- filename: amazon-timestream-db-instance-api-openapi.yml
+  format: yaml
+  label: Amazon Timestream Timestream Db Instance API
+  slug: amazon-timestream-db-instance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-timestream/openapi/amazon-timestream-db-instance-api-openapi.yml
+- filename: amazon-timestream-db-parameter-group-api-openapi.yml
+  format: yaml
+  label: Amazon Timestream Timestream Db Parameter Group API
+  slug: amazon-timestream-db-parameter-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-timestream/openapi/amazon-timestream-db-parameter-group-api-openapi.yml
 description: ''
 domains:
 - caa: []

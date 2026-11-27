@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Jeeva Ai Trust Center
+name: Jeeva AI Trust Center
 name_suffix: Trust Center
 overview: Jeeva AI maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Jeeva AI

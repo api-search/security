@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Firstpassmemo Com Domain Security
+name: firstpassmemo-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for firstpassmemo-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: firstpassmemo-com
@@ -31,7 +31,7 @@ source_yaml_url: https://artifacts.apis.io/firstpassmemo-com/security/firstpassm
 summary_line: TLSv1.3 · DMARC
 tags:
 - Red‑flag checker
-- Business‑for‑sale
+- Business For Sale
 - Deal screening
 - Buyer tools
 ---

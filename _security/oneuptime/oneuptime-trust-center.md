@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Oneuptime Trust Center
+name: OneUptime Trust Center
 name_suffix: Trust Center
 overview: OneUptime maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: OneUptime

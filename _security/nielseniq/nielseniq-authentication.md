@@ -161,7 +161,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Nielseniq Authentication
+name: NielsenIQ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NielsenIQ secures its APIs with apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

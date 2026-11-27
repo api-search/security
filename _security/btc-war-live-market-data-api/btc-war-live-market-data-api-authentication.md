@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Btc War Live Market Data Api Authentication
+name: BTC War Live Market Data API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BTC War Live Market Data API secures its APIs with none across 0 declared security schemes, as derived from its OpenAPI definitions.

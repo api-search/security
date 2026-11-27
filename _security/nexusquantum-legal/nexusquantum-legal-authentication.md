@@ -1,0 +1,255 @@
+---
+anonymous_access: false
+api_key_in: []
+api_specs:
+- filename: nexusquantum-legal-account-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Account API
+  slug: nexusquantum-legal-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-account-api-openapi.yml
+- filename: nexusquantum-legal-admin-scope-admin-api-openapi.yml
+  format: yaml
+  label: 'Quantum Nexus Admin (scope: admin) API'
+  slug: nexusquantum-legal-admin-scope-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-admin-scope-admin-api-openapi.yml
+- filename: nexusquantum-legal-analysis-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Analysis API
+  slug: nexusquantum-legal-analysis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-analysis-api-openapi.yml
+- filename: nexusquantum-legal-async-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Async API
+  slug: nexusquantum-legal-async-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-async-api-openapi.yml
+- filename: nexusquantum-legal-aviation-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Aviation API
+  slug: nexusquantum-legal-aviation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-aviation-api-openapi.yml
+- filename: nexusquantum-legal-billing-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Billing API
+  slug: nexusquantum-legal-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-billing-api-openapi.yml
+- filename: nexusquantum-legal-bus-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Bus API
+  slug: nexusquantum-legal-bus-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-bus-api-openapi.yml
+- filename: nexusquantum-legal-byo-llm-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus BYO LLM API
+  slug: nexusquantum-legal-byo-llm-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-byo-llm-api-openapi.yml
+- filename: nexusquantum-legal-byo-perception-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus BYO Perception API
+  slug: nexusquantum-legal-byo-perception-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-byo-perception-api-openapi.yml
+- filename: nexusquantum-legal-byo-screening-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus BYO Screening API
+  slug: nexusquantum-legal-byo-screening-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-byo-screening-api-openapi.yml
+- filename: nexusquantum-legal-cargo-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Cargo API
+  slug: nexusquantum-legal-cargo-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-cargo-api-openapi.yml
+- filename: nexusquantum-legal-cases-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Cases API
+  slug: nexusquantum-legal-cases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-cases-api-openapi.yml
+- filename: nexusquantum-legal-cross-reference-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Cross Reference API
+  slug: nexusquantum-legal-cross-reference-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-cross-reference-api-openapi.yml
+- filename: nexusquantum-legal-deadlines-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Deadlines API
+  slug: nexusquantum-legal-deadlines-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-deadlines-api-openapi.yml
+- filename: nexusquantum-legal-discovery-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Discovery API
+  slug: nexusquantum-legal-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-discovery-api-openapi.yml
+- filename: nexusquantum-legal-dms-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus DMS API
+  slug: nexusquantum-legal-dms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-dms-api-openapi.yml
+- filename: nexusquantum-legal-firm-management-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Firm Management API
+  slug: nexusquantum-legal-firm-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-firm-management-api-openapi.yml
+- filename: nexusquantum-legal-firm-memory-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Firm Memory API
+  slug: nexusquantum-legal-firm-memory-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-firm-memory-api-openapi.yml
+- filename: nexusquantum-legal-governance-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Governance API
+  slug: nexusquantum-legal-governance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-governance-api-openapi.yml
+- filename: nexusquantum-legal-integrations-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Integrations API
+  slug: nexusquantum-legal-integrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-integrations-api-openapi.yml
+- filename: nexusquantum-legal-jurimetrics-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Jurimetrics API
+  slug: nexusquantum-legal-jurimetrics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-jurimetrics-api-openapi.yml
+- filename: nexusquantum-legal-legislation-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Legislation API
+  slug: nexusquantum-legal-legislation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-legislation-api-openapi.yml
+- filename: nexusquantum-legal-multi-tenancy-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Multi Tenancy API
+  slug: nexusquantum-legal-multi-tenancy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-multi-tenancy-api-openapi.yml
+- filename: nexusquantum-legal-nodes-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Nodes API
+  slug: nexusquantum-legal-nodes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-nodes-api-openapi.yml
+- filename: nexusquantum-legal-notifications-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Notifications API
+  slug: nexusquantum-legal-notifications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-notifications-api-openapi.yml
+- filename: nexusquantum-legal-payments-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Payments API
+  slug: nexusquantum-legal-payments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-payments-api-openapi.yml
+- filename: nexusquantum-legal-rail-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Rail API
+  slug: nexusquantum-legal-rail-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-rail-api-openapi.yml
+- filename: nexusquantum-legal-sandbox-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Sandbox API
+  slug: nexusquantum-legal-sandbox-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-sandbox-api-openapi.yml
+- filename: nexusquantum-legal-security-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Security API
+  slug: nexusquantum-legal-security-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-security-api-openapi.yml
+- filename: nexusquantum-legal-ship-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Ship API
+  slug: nexusquantum-legal-ship-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-ship-api-openapi.yml
+- filename: nexusquantum-legal-sla-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus SLA API
+  slug: nexusquantum-legal-sla-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-sla-api-openapi.yml
+- filename: nexusquantum-legal-studio-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Studio API
+  slug: nexusquantum-legal-studio-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-studio-api-openapi.yml
+- filename: nexusquantum-legal-support-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Support API
+  slug: nexusquantum-legal-support-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-support-api-openapi.yml
+- filename: nexusquantum-legal-time-tracking-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Time tracking API
+  slug: nexusquantum-legal-time-tracking-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-time-tracking-api-openapi.yml
+- filename: nexusquantum-legal-webhooks-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus Webhooks API
+  slug: nexusquantum-legal-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-webhooks-api-openapi.yml
+- filename: nexusquantum-legal-white-label-api-openapi.yml
+  format: yaml
+  label: Quantum Nexus White Label API
+  slug: nexusquantum-legal-white-label-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/nexusquantum-legal/openapi/nexusquantum-legal-white-label-api-openapi.yml
+auth_types:
+- http
+description: ''
+kind: authentication
+layout: security
+mechanism_count: 1
+method: derived
+name: Quantum Nexus Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: Quantum Nexus secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Quantum Nexus
+provider_slug: nexusquantum-legal
+scheme_count: 1
+schemes:
+- bearerFormat: nlk_...
+  name: ApiKeyAuth
+  scheme: bearer
+  sources:
+  - openapi/nexusquantum-legal-openapi.json
+  type: http
+slug: nexusquantum-legal-authentication
+source_filename: nexusquantum-legal-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "generated: '2026-11-19'\nmethod: derived\nsource: openapi/nexusquantum-legal-openapi.json\nsummary:\n  types:\n  - http\nschemes:\n- name: ApiKeyAuth\n  type: http\n  scheme: bearer\n  bearerFormat: nlk_...\n  sources:\n  - openapi/nexusquantum-legal-openapi.json\n"
+source_yaml_url: https://artifacts.apis.io/nexusquantum-legal/authentication/nexusquantum-legal-authentication.yml
+summary_line: http · 1 scheme
+tags:
+- Legal AI
+- RegTech
+- Artificial Intelligence
+- Finance
+- Dubai
+---

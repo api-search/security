@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 3Ammiya Com Authentication
+name: 3ammiya Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 3ammiya declares 0 security scheme(s) across its OpenAPI definitions.

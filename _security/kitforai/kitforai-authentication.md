@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Kitforai Authentication
+name: Kit For AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Kit For AI declares 1 security scheme(s) across its OpenAPI definitions.

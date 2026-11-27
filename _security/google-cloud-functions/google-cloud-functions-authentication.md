@@ -2,30 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-functions-functions-api-openapi.yml
+- filename: google-cloud-functions-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Functions API
-  slug: google-cloud-functions-functions-api
+  label: Google Cloud Functions Cloud Functions Projects API
+  slug: google-cloud-functions-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-functions-api-openapi.yml
-- filename: google-cloud-functions-locations-api-openapi.yml
-  format: yaml
-  label: Google Cloud Functions Locations API
-  slug: google-cloud-functions-locations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-locations-api-openapi.yml
-- filename: google-cloud-functions-operations-api-openapi.yml
-  format: yaml
-  label: Google Cloud Functions Operations API
-  slug: google-cloud-functions-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-operations-api-openapi.yml
-- filename: google-cloud-functions-runtimes-api-openapi.yml
-  format: yaml
-  label: Google Cloud Functions Runtimes API
-  slug: google-cloud-functions-runtimes-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-runtimes-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-functions/openapi/google-cloud-functions-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

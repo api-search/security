@@ -16,7 +16,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Brightinsight Trust Center
+name: BrightInsight Trust Center
 name_suffix: Trust Center
 overview: BrightInsight maintains a public trust center documenting ISO/IEC 27001, ISO 13485, HITRUST CSF, HIPAA, GDPR, IEC 62304, IEC 82304-1, EU Medical Device Regulation (MDR), CE Mark, Medical Device Single Audit Program (MDSAP), HDS (Hebergeur de Donnees de Sante), and Privacy Shield compliance.
 provider_name: BrightInsight

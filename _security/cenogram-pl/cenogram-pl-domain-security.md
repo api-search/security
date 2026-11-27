@@ -42,48 +42,6 @@ api_specs:
   slug: cenogram-pl-transactions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cenogram-pl/openapi/cenogram-pl-transactions-api-openapi.yml
-- filename: cenogram-pl-districts-api-openapi.yml
-  format: yaml
-  label: Cenogram Districts API
-  slug: cenogram-pl-districts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cenogram-pl/openapi/cenogram-pl-districts-api-openapi.yml
-- filename: cenogram-pl-infrastructure-signals-api-openapi.yml
-  format: yaml
-  label: Cenogram Infrastructure Signals API
-  slug: cenogram-pl-infrastructure-signals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cenogram-pl/openapi/cenogram-pl-infrastructure-signals-api-openapi.yml
-- filename: cenogram-pl-permits-api-openapi.yml
-  format: yaml
-  label: Cenogram Permits API
-  slug: cenogram-pl-permits-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cenogram-pl/openapi/cenogram-pl-permits-api-openapi.yml
-- filename: cenogram-pl-price-per-m2-api-openapi.yml
-  format: yaml
-  label: Cenogram Price Per M2 API
-  slug: cenogram-pl-price-per-m2-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cenogram-pl/openapi/cenogram-pl-price-per-m2-api-openapi.yml
-- filename: cenogram-pl-stats-api-openapi.yml
-  format: yaml
-  label: Cenogram Stats API
-  slug: cenogram-pl-stats-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cenogram-pl/openapi/cenogram-pl-stats-api-openapi.yml
-- filename: cenogram-pl-streets-api-openapi.yml
-  format: yaml
-  label: Cenogram Streets API
-  slug: cenogram-pl-streets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cenogram-pl/openapi/cenogram-pl-streets-api-openapi.yml
-- filename: cenogram-pl-valuations-api-openapi.yml
-  format: yaml
-  label: Cenogram Valuations API
-  slug: cenogram-pl-valuations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cenogram-pl/openapi/cenogram-pl-valuations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -102,7 +60,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Cenogram Pl Domain Security
+name: Cenogram Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Cenogram, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Cenogram

@@ -75,7 +75,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mpesa Trust Center
+name: M-Pesa (Safaricom Daraja) Trust Center
 name_suffix: Trust Center
 overview: M-Pesa (Safaricom Daraja) maintains a public trust center documenting PCI DSS v4, ISO/IEC 27001, ISO/IEC 27701, and GDPR-aligned / Kenya Data Protection Act 2019 compliance.
 provider_name: M-Pesa (Safaricom Daraja)

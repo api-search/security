@@ -170,6 +170,12 @@ api_specs:
   slug: agentmail-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agentmail/openapi/agentmail-webhooks-api-openapi.yml
+- filename: agentmail-api-reference-api-openapi.yml
+  format: yaml
+  label: AgentMail API Reference API
+  slug: agentmail-api-reference-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-api-reference-api-openapi.yml
 - filename: agentmail-accounts-api-openapi.yml
   format: yaml
   label: AgentMail Accounts API
@@ -231,7 +237,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentmail Authentication
+name: AgentMail Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentMail secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

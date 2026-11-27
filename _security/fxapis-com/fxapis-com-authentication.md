@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fxapis Com Authentication
+name: fxapis-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: fxapis-com declares 1 security scheme(s) across its OpenAPI definitions.

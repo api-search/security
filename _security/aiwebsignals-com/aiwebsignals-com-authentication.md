@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aiwebsignals Com Authentication
+name: AIWebSignals Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AIWebSignals declares 0 security scheme(s) across its OpenAPI definitions.

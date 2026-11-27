@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Apihub Io Authentication
+name: APIHub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: APIHub declares 1 security scheme(s) across its OpenAPI definitions.

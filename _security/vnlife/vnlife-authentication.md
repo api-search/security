@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Vnlife Authentication
+name: VNLIFE Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VNLIFE secures its APIs with checksum-signature and merchant-credential across 2 declared security schemes, as derived from its OpenAPI definitions.

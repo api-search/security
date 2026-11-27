@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Hockeytech Authentication
+name: HockeyTech league feed Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HockeyTech league feed declares 0 security scheme(s) across its OpenAPI definitions.

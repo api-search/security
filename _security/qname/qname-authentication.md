@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Qname Authentication
+name: QName AI WHOIS API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: QName AI WHOIS API declares 0 security scheme(s) across its OpenAPI definitions.

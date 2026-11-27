@@ -20,7 +20,7 @@ summary_line: GDPR
 tags:
 - Company
 - Media
-- Link in Bio
+- Link-in-bio
 - Creator Economy
 - Social Media
 - Marketing

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Orshot Com Authentication
+name: orshot-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: orshot-com declares 1 security scheme(s) across its OpenAPI definitions.

@@ -122,7 +122,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Clerk Io Trust Center
+name: Clerk.io Trust Center
 name_suffix: Trust Center
 overview: Clerk.io maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Clerk.io

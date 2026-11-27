@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Casa Aviation Authentication
+name: Civil Aviation Safety Authority (CASA) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Civil Aviation Safety Authority (CASA) secures its APIs with none and service-account across 2 declared security schemes, as derived from its OpenAPI definitions.

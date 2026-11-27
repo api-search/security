@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Saskpower Authentication
+name: SaskPower Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SaskPower secures its APIs with none and oidc-human-login across 4 declared security schemes, as derived from its OpenAPI definitions.

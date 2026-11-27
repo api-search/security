@@ -2,24 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: adobe-premiere-elements-api-openapi.yml
-  format: yaml
-  label: Adobe Premiere Pro Elements API
-  slug: adobe-premiere-elements-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-elements-api-openapi.yml
-- filename: adobe-premiere-libraries-api-openapi.yml
-  format: yaml
-  label: Adobe Premiere Pro Libraries API
-  slug: adobe-premiere-libraries-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-libraries-api-openapi.yml
-- filename: adobe-premiere-representations-api-openapi.yml
-  format: yaml
-  label: Adobe Premiere Pro Representations API
-  slug: adobe-premiere-representations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-representations-api-openapi.yml
 - filename: adobe-premiere-library-service-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service API
@@ -45,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Adobe Premiere Authentication
+name: Adobe Premiere Pro Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

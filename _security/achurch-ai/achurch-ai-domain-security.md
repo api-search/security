@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Achurch Ai Domain Security
+name: a Church AI + Human Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for a Church AI + Human, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: a Church AI + Human

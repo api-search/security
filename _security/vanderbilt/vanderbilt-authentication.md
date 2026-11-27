@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Vanderbilt Authentication
+name: Vanderbilt University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Vanderbilt University declares 0 security scheme(s) across its OpenAPI definitions.

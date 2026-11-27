@@ -11,7 +11,7 @@ api_specs:
   label: FreshBooks Webhooks (Callbacks API)
   slug: freshbooks-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/asyncapi/freshbooks-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/freshbooks/asyncapi/freshbooks-webhooks-asyncapi.yml
 - filename: freshbooks-auth-api-openapi.yml
   format: yaml
   label: FreshBooks Auth API
@@ -106,7 +106,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Freshbooks Domain Security
+name: FreshBooks Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FreshBooks, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: FreshBooks

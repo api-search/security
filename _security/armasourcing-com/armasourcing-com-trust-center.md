@@ -120,7 +120,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Armasourcing Com Trust Center
+name: Armasourcing Trust Center
 name_suffix: Trust Center
 overview: Armasourcing maintains a public trust center documenting GDPR compliance.
 provider_name: Armasourcing
@@ -136,7 +136,7 @@ tags:
 - Virtual Assistant
 - Outsourcing
 - FilipinoTalent
-- AIEnhanced
+- AI-enhanced
 - Contact Center
 trust_url: https://armasourcing.com/trust/
 ---

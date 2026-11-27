@@ -73,7 +73,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Flora Fauna Trust Center
+name: FLORA Trust Center
 name_suffix: Trust Center
 overview: FLORA maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: FLORA

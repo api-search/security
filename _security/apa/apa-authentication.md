@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Apa Authentication
+name: APA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: APA declares 2 security scheme(s) across its OpenAPI definitions.

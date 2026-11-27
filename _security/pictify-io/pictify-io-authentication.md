@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Pictify Io Authentication
+name: pictify-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: pictify-io declares 1 security scheme(s) across its OpenAPI definitions.

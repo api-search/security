@@ -20,7 +20,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Docsend Trust Center
+name: DocSend Trust Center
 name_suffix: Trust Center
 overview: DocSend maintains a public trust center documenting SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701, ISO 22301, PCI DSS, HIPAA, CSA STAR Level 2, GDPR, CCPA, EU Cloud CoC, EU-US DPF, and ISMAP compliance.
 provider_name: DocSend

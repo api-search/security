@@ -43,7 +43,7 @@ summary_line: TLSv1.2 · HSTS · DMARC
 tags:
 - Company
 - Media
-- Link in Bio
+- Link-in-bio
 - Creator Economy
 - Social Media
 - Marketing

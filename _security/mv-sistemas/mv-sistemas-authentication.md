@@ -220,7 +220,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Mv Sistemas Authentication
+name: MV sistemas Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MV sistemas secures its APIs with apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

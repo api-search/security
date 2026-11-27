@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 1F3D9 Com Authentication
+name: 1F3D9 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 1F3D9 declares 1 security scheme(s) across its OpenAPI definitions.

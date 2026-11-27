@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 8
 method: searched
-name: Telia Authentication
+name: Telia Company Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Docoreai Trust Center
+name: DoCoreAI Trust Center
 name_suffix: Trust Center
 overview: DoCoreAI maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: DoCoreAI

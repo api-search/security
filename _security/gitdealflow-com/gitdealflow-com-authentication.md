@@ -102,7 +102,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Gitdealflow Com Authentication
+name: GitDealFlow Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GitDealFlow secures its APIs with none, http-bearer, x402-payment, and oauth2-client-credentials across 4 declared security schemes, as derived from its OpenAPI definitions.

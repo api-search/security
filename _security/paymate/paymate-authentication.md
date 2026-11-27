@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Paymate Authentication
+name: PayMate Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PayMate secures its APIs with apiKey across 0 declared security schemes, as derived from its OpenAPI definitions.

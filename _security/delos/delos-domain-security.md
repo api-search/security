@@ -120,7 +120,7 @@ tags:
 - Smart Buildings
 - Building Automation
 - Air Purification
-- environmental-sensors
+- Environmental Sensors
 - Commercial Real Estate
 - healthy-buildings
 - Hospitality

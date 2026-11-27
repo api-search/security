@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Baconhollow Com Authentication
+name: Bot Hub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bot Hub declares 0 security scheme(s) across its OpenAPI definitions.

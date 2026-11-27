@@ -320,6 +320,5 @@ tags:
 - Energy
 - Autonomous Vehicles
 - Machine Data
-- Agent Ready
 - A2A
 ---

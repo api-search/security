@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Newcastle Authentication
+name: Newcastle University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Newcastle University declares 0 security scheme(s) across its OpenAPI definitions.

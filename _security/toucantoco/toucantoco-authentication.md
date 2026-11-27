@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Toucantoco Authentication
+name: Toucan Toco Authentication
 name_suffix: Authentication
 oauth_flows:
 - jwt-bearer

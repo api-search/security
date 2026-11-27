@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Spideroak Authentication
+name: SpiderOak Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SpiderOak declares 4 security scheme(s) across its OpenAPI definitions.

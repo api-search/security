@@ -60,7 +60,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Rdapapi Io Domain Security
+name: rdapapi-io Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for rdapapi-io, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: rdapapi-io

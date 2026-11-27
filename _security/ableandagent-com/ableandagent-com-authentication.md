@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ableandagent Com Authentication
+name: ableandagent-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ableandagent-com declares 1 security scheme(s) across its OpenAPI definitions.

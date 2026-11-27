@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentspub Ai Authentication
+name: AgentPub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentPub declares 1 security scheme(s) across its OpenAPI definitions.

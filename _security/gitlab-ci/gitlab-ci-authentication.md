@@ -593,7 +593,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Gitlab Ci Authentication
+name: GitLab CI/CD Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GitLab CI/CD secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

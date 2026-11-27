@@ -31,7 +31,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Veratech Domain Security
+name: Veratech for Health Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Veratech for Health, probed live across 4 host(s) and 1 registrable domain(s). 4 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Veratech for Health

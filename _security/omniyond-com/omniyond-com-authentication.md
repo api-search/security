@@ -29,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Omniyond Com Authentication
+name: omniyond-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: omniyond-com secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
@@ -66,7 +66,7 @@ source_yaml_url: https://artifacts.apis.io/omniyond-com/authentication/omniyond-
 summary_line: apiKey/http · 2 schemes
 tags:
 - Artificial Intelligence
-- Pay-Per-Use
+- Pay-per-use
 - Scheduling
 - Automation
 ---

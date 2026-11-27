@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Katonic Trust Center
+name: Katonic.ai Trust Center
 name_suffix: Trust Center
 overview: Katonic.ai maintains a public trust center documenting ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: Katonic.ai

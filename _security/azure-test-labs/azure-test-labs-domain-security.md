@@ -78,12 +78,6 @@ api_specs:
   slug: azure-test-labs-policies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-policies-api-openapi.yml
-- filename: azure-test-labs-provideroperations-api-openapi.yml
-  format: yaml
-  label: Azure DevTest Labs ProviderOperations API
-  slug: azure-test-labs-provideroperations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-provideroperations-api-openapi.yml
 - filename: azure-test-labs-schedules-api-openapi.yml
   format: yaml
   label: Azure DevTest Labs Schedules API
@@ -126,6 +120,12 @@ api_specs:
   slug: azure-test-labs-virtualmachineschedules-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-virtualmachineschedules-api-openapi.yml
+- filename: azure-test-labs-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure DevTest Labs Subscriptions API
+  slug: azure-test-labs-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-subscriptions-api-openapi.yml
 - filename: azure-test-labs-notification-channels-api-openapi.yml
   format: yaml
   label: Azure DevTest Labs Notification Channels API
@@ -187,7 +187,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Azure Test Labs Domain Security
+name: Azure DevTest Labs Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure DevTest Labs, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Azure DevTest Labs

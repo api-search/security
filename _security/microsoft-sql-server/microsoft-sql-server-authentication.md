@@ -45,7 +45,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Microsoft Sql Server Authentication
+name: Microsoft SQL Server Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

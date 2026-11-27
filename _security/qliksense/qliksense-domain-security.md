@@ -793,7 +793,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Qliksense Domain Security
+name: Qlik Sense Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Qlik Sense, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
 provider_name: Qlik Sense

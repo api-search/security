@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Uab Authentication
+name: Autonomous University of Barcelona Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Autonomous University of Barcelona declares 0 security scheme(s) across its OpenAPI definitions.

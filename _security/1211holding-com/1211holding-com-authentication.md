@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 1211Holding Com Authentication
+name: 1211 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 1211 declares 0 security scheme(s) across its OpenAPI definitions.

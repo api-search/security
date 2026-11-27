@@ -536,7 +536,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aveco App Authentication
+name: Aveco Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aveco declares 0 security scheme(s) across its OpenAPI definitions.

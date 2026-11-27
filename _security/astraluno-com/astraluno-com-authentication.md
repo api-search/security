@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Astraluno Com Authentication
+name: Astraluno Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Astraluno declares 0 security scheme(s) across its OpenAPI definitions.

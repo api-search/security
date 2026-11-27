@@ -121,7 +121,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Portone Trust Center
+name: PortOne Trust Center
 name_suffix: Trust Center
 overview: PortOne maintains a public trust center documenting PCI DSS and ISMS compliance.
 provider_name: PortOne

@@ -29,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Coolcollege Authentication
+name: 酷学院 (Cool College) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 酷学院 (Cool College) secures its APIs with signature and token across 1 declared security scheme, as derived from its OpenAPI definitions.

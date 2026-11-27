@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Infere Authentication
+name: Snowball Studio Ltd. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Snowball Studio Ltd. declares 1 security scheme(s) across its OpenAPI definitions.

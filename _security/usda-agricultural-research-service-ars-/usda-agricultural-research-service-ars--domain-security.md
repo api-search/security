@@ -52,7 +52,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Usda Agricultural Research Service Ars  Domain Security
+name: USDA Agricultural Research Service (ARS) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for USDA Agricultural Research Service (ARS), probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: USDA Agricultural Research Service (ARS)

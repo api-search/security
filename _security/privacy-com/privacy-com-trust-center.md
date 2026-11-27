@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Privacy Com Trust Center
+name: Privacy.com Trust Center
 name_suffix: Trust Center
 overview: Privacy.com maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
 provider_name: Privacy.com

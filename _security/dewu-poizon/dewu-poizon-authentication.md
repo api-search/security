@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dewu Poizon Authentication
+name: Dewu (POIZON) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dewu (POIZON) secures its APIs with apiKey and signature across 1 declared security scheme, as derived from its OpenAPI definitions.

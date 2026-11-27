@@ -30,7 +30,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Faxonline App Domain Security
+name: FaxOnline Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FaxOnline, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: FaxOnline

@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Custom Chat Api Mirrorfly Authentication
+name: Custom Chat API | MirrorFly Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Custom Chat API | MirrorFly secures its APIs with custom-token across 1 declared security scheme, as derived from its OpenAPI definitions.

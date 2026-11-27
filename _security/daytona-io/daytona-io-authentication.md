@@ -184,7 +184,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Daytona Io Authentication
+name: Daytona Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Daytona secures its APIs with http and openIdConnect across 2 declared security schemes, as derived from its OpenAPI definitions.

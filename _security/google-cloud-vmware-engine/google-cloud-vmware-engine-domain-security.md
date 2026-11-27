@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: google-cloud-vmware-engine-clusters-api-openapi.yml
+- filename: google-cloud-vmware-engine-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud VMware Engine Clusters API
-  slug: google-cloud-vmware-engine-clusters-api
+  label: Google Cloud VMware Engine Cloud Vmware Engine Projects API
+  slug: google-cloud-vmware-engine-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-clusters-api-openapi.yml
-- filename: google-cloud-vmware-engine-privateclouds-api-openapi.yml
-  format: yaml
-  label: Google Cloud VMware Engine PrivateClouds API
-  slug: google-cloud-vmware-engine-privateclouds-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-privateclouds-api-openapi.yml
-- filename: google-cloud-vmware-engine-network-policies-api-openapi.yml
-  format: yaml
-  label: Google Cloud VMware Engine Network Policies API
-  slug: google-cloud-vmware-engine-network-policies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-network-policies-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-vmware-engine/openapi/google-cloud-vmware-engine-projects-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -35,31 +23,36 @@ domains:
   domain: googleapis.com
   spf: true
 hosts:
-- cert_expires: Sep 14 08:35:22 2026 GMT
+- cert_expires: Dec 30 19:09:53 2026 GMT
+  host: www.google.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec 30 19:07:41 2026 GMT
   host: cloud.google.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 08:37:17 2026 GMT
+- cert_expires: Dec 30 19:09:10 2026 GMT
   host: vmwareengine.googleapis.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-hosts_probed: 2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Google Cloud Vmware Engine Domain Security
+name: Google Cloud VMware Engine Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Google Cloud VMware Engine, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Google Cloud VMware Engine, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Google Cloud VMware Engine
 provider_slug: google-cloud-vmware-engine
 slug: google-cloud-vmware-engine-domain-security
 source_filename: google-cloud-vmware-engine-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: vmwareengine.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:09:53 2026 GMT\n  hsts: false\n- host: cloud.google.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:07:41 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: vmwareengine.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:09:10 2026 GMT\n  hsts: null\ndomains:\n- domain: google.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/google-cloud-vmware-engine/security/google-cloud-vmware-engine-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

@@ -30,12 +30,6 @@ api_specs:
   slug: clerk-com-allow-list-block-list-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-allow-list-block-list-api-openapi.yml
-- filename: clerk-com-api-keys-api-openapi.yml
-  format: yaml
-  label: Clerk API Keys API
-  slug: clerk-com-api-keys-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-api-keys-api-openapi.yml
 - filename: clerk-com-application-transfers-api-openapi.yml
   format: yaml
   label: Clerk Application Transfers API
@@ -102,18 +96,6 @@ api_specs:
   slug: clerk-com-dev-browser-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-dev-browser-api-openapi.yml
-- filename: clerk-com-domains-api-openapi.yml
-  format: yaml
-  label: Clerk Domains API
-  slug: clerk-com-domains-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-domains-api-openapi.yml
-- filename: clerk-com-email-addresses-api-openapi.yml
-  format: yaml
-  label: Clerk Email Addresses API
-  slug: clerk-com-email-addresses-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-email-addresses-api-openapi.yml
 - filename: clerk-com-email-sms-templates-api-openapi.yml
   format: yaml
   label: Clerk Email & SMS Templates API
@@ -150,24 +132,12 @@ api_specs:
   slug: clerk-com-instance-settings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-instance-settings-api-openapi.yml
-- filename: clerk-com-invitations-api-openapi.yml
-  format: yaml
-  label: Clerk Invitations API
-  slug: clerk-com-invitations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-invitations-api-openapi.yml
 - filename: clerk-com-jwks-api-openapi.yml
   format: yaml
   label: Clerk JWKS API
   slug: clerk-com-jwks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-jwks-api-openapi.yml
-- filename: clerk-com-jwt-templates-api-openapi.yml
-  format: yaml
-  label: Clerk JWT Templates API
-  slug: clerk-com-jwt-templates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-jwt-templates-api-openapi.yml
 - filename: clerk-com-m2m-tokens-api-openapi.yml
   format: yaml
   label: Clerk M2M Tokens API
@@ -294,12 +264,6 @@ api_specs:
   slug: clerk-com-payment-methods-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-payment-methods-api-openapi.yml
-- filename: clerk-com-phone-numbers-api-openapi.yml
-  format: yaml
-  label: Clerk Phone Numbers API
-  slug: clerk-com-phone-numbers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-phone-numbers-api-openapi.yml
 - filename: clerk-com-plans-api-openapi.yml
   format: yaml
   label: Clerk Plans API
@@ -324,12 +288,6 @@ api_specs:
   slug: clerk-com-redirect-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-redirect-api-openapi.yml
-- filename: clerk-com-redirect-urls-api-openapi.yml
-  format: yaml
-  label: Clerk Redirect URLs API
-  slug: clerk-com-redirect-urls-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-redirect-urls-api-openapi.yml
 - filename: clerk-com-role-sets-api-openapi.yml
   format: yaml
   label: Clerk Role Sets API
@@ -354,12 +312,6 @@ api_specs:
   slug: clerk-com-saml-connections-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-saml-connections-api-openapi.yml
-- filename: clerk-com-sessions-api-openapi.yml
-  format: yaml
-  label: Clerk Sessions API
-  slug: clerk-com-sessions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-sessions-api-openapi.yml
 - filename: clerk-com-sign-in-tokens-api-openapi.yml
   format: yaml
   label: Clerk Sign-in Tokens API
@@ -408,12 +360,6 @@ api_specs:
   slug: clerk-com-user-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-user-api-openapi.yml
-- filename: clerk-com-users-api-openapi.yml
-  format: yaml
-  label: Clerk Users API
-  slug: clerk-com-users-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-users-api-openapi.yml
 - filename: clerk-com-waitlist-api-openapi.yml
   format: yaml
   label: Clerk Waitlist API
@@ -449,7 +395,7 @@ api_specs:
   label: Clerk Webhooks (Svix)
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/clerk/refs/heads/main/asyncapi/clerk-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/clerk/asyncapi/clerk-webhooks-asyncapi.yml
 - filename: clerk-com-admin-portal-link-tokens-api-openapi.yml
   format: yaml
   label: Clerk Admin Portal Link Tokens API
@@ -474,12 +420,66 @@ api_specs:
   slug: clerk-com-sso-bypass-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-sso-bypass-api-openapi.yml
+- filename: clerk-com-api-keys-api-openapi.yml
+  format: yaml
+  label: Clerk API Keys API
+  slug: clerk-com-api-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-api-keys-api-openapi.yml
+- filename: clerk-com-domains-api-openapi.yml
+  format: yaml
+  label: Clerk Domains API
+  slug: clerk-com-domains-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-domains-api-openapi.yml
+- filename: clerk-com-email-addresses-api-openapi.yml
+  format: yaml
+  label: Clerk Email Addresses API
+  slug: clerk-com-email-addresses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-email-addresses-api-openapi.yml
+- filename: clerk-com-invitations-api-openapi.yml
+  format: yaml
+  label: Clerk Invitations API
+  slug: clerk-com-invitations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-invitations-api-openapi.yml
+- filename: clerk-com-jwt-templates-api-openapi.yml
+  format: yaml
+  label: Clerk JWT Templates API
+  slug: clerk-com-jwt-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-jwt-templates-api-openapi.yml
+- filename: clerk-com-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Clerk Phone Numbers API
+  slug: clerk-com-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-phone-numbers-api-openapi.yml
+- filename: clerk-com-redirect-urls-api-openapi.yml
+  format: yaml
+  label: Clerk Redirect URLs API
+  slug: clerk-com-redirect-urls-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-redirect-urls-api-openapi.yml
+- filename: clerk-com-sessions-api-openapi.yml
+  format: yaml
+  label: Clerk Sessions API
+  slug: clerk-com-sessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-sessions-api-openapi.yml
 - filename: clerk-com-signups-api-openapi.yml
   format: yaml
   label: Clerk Signups API
   slug: clerk-com-signups-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-signups-api-openapi.yml
+- filename: clerk-com-users-api-openapi.yml
+  format: yaml
+  label: Clerk Users API
+  slug: clerk-com-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clerk-com/openapi/clerk-com-users-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -515,7 +515,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Clerk Com Domain Security
+name: Clerk Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Clerk, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Clerk

@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: manual
-name: Open Payments Authentication
+name: CMS Open Payments Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CMS Open Payments secures its APIs with none across 1 declared security scheme, as derived from its OpenAPI definitions.

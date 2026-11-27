@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Freertos Authentication
+name: Amazon FreeRTOS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon FreeRTOS secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -41,13 +41,15 @@ schemes:
   name: awsSigV4
   parameter: Authorization
   sources:
-  - openapi/amazon-freertos-openapi.yml
+  - openapi/amazon-freertos-ota-updates-api-openapi.yml
+  - openapi/amazon-freertos-software-configurations-api-openapi.yml
+  - openapi/amazon-freertos-tags-api-openapi.yml
   type: apiKey
 slug: amazon-freertos-authentication
 source_filename: amazon-freertos-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-freertos-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSigV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4\n  sources:\n  - openapi/amazon-freertos-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-freertos-ota-updates-api-openapi.yml, openapi/amazon-freertos-software-configurations-api-openapi.yml,\n  openapi/amazon-freertos-tags-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSigV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4\n  sources:\n  - openapi/amazon-freertos-ota-updates-api-openapi.yml\n  - openapi/amazon-freertos-software-configurations-api-openapi.yml\n  - openapi/amazon-freertos-tags-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-freertos/authentication/amazon-freertos-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

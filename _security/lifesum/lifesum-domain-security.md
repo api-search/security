@@ -44,5 +44,5 @@ tags:
 - Wellness
 - Mobile App
 - Consumer
-- Food Tracking
+- FoodTracking
 ---

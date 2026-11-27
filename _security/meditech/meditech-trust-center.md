@@ -54,7 +54,7 @@ certifications:
 description: 'MEDITECH publishes no SOC 2, HITRUST, PCI, or FedRAMP attestation page (searched; none found). It does publish a real, verifiable regulatory compliance program: ONC Health IT Certification under the Certified Health IT Product List (CHPL), which is the credential that actually governs its EHR/FHIR product line under 21st Century Cures Act interoperability rules. Recorded here as the trust-center equivalent for a healthcare EHR vendor.'
 kind: trust-center
 layout: security
-name: Meditech Trust Center
+name: MEDITECH Trust Center
 name_suffix: Trust Center
 overview: MEDITECH maintains a public trust center documenting ONC Health IT Certification (2015 Edition Cures Update) compliance.
 provider_name: MEDITECH

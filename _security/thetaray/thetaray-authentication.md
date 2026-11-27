@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Thetaray Authentication
+name: ThetaRay Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

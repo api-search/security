@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Shearwell Authentication
+name: Shearwell Data Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Shearwell Data declares 0 security scheme(s) across its OpenAPI definitions.

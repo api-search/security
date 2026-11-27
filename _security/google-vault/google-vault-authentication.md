@@ -2,24 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-vault-exports-api-openapi.yml
-  format: yaml
-  label: Google Vault Exports API
-  slug: google-vault-exports-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-vault/openapi/google-vault-exports-api-openapi.yml
-- filename: google-vault-heldaccounts-api-openapi.yml
-  format: yaml
-  label: Google Vault HeldAccounts API
-  slug: google-vault-heldaccounts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-vault/openapi/google-vault-heldaccounts-api-openapi.yml
-- filename: google-vault-holds-api-openapi.yml
-  format: yaml
-  label: Google Vault Holds API
-  slug: google-vault-holds-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-vault/openapi/google-vault-holds-api-openapi.yml
 - filename: google-vault-matters-api-openapi.yml
   format: yaml
   label: Google Vault Matters API
@@ -32,12 +14,6 @@ api_specs:
   slug: google-vault-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-vault/openapi/google-vault-operations-api-openapi.yml
-- filename: google-vault-saved-queries-api-openapi.yml
-  format: yaml
-  label: Google Vault Saved Queries API
-  slug: google-vault-saved-queries-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-vault/openapi/google-vault-saved-queries-api-openapi.yml
 auth_types:
 - oauth2
 description: Every Vault API method requires an OAuth 2.0 access token; there is no API-key or unauthenticated path. Vault is an admin surface, so the token must belong to a Google Workspace user who holds Vault privileges (or to a service account with domain-wide delegation impersonating one). The authorization server is accounts.google.com, whose OIDC and RFC 8414 metadata are saved verbatim under well-known/.

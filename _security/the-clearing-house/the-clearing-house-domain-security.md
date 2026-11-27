@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: The Clearing House Domain Security
+name: The Clearing House (RTP) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for The Clearing House (RTP), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: The Clearing House (RTP)

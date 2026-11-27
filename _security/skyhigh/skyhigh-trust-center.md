@@ -21,7 +21,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Skyhigh Trust Center
+name: Skyhigh Security Trust Center
 name_suffix: Trust Center
 overview: Skyhigh Security maintains a public trust center documenting SOC 2 Type II, ISO/IEC 27001, FedRAMP High, DoD Impact Level (IL2 & IL4), CSA STAR Level 1, IRAP PROTECTED, BSI C5, GDPR, DPDPA, and DORA compliance.
 provider_name: Skyhigh Security

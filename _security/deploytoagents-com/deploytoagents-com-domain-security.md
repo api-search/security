@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Deploytoagents Com Domain Security
+name: We Are 14, Inc. Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for We Are 14, Inc., probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
 provider_name: We Are 14, Inc.

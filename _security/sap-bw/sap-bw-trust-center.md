@@ -19,7 +19,7 @@ certifications:
 description: SAP operates a company-level Trust Center with a searchable compliance document library. The automated probe in probe-security-programs.py returned no hit because www.sap.com answers 403 to its user agent; a re-fetch with full browser headers returned 200 on both the trust center and the certifications page, so this was recorded by hand from that fetch.
 kind: trust-center
 layout: security
-name: Sap Bw Trust Center
+name: SAP BW Trust Center
 name_suffix: Trust Center
 overview: SAP BW maintains a public trust center documenting SOC 1, SOC 2, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO 22301, ISO 9001, PCI DSS, FedRAMP, CSA STAR, TISAX, BSI C5, IRAP, ENS, and GDPR compliance.
 provider_name: SAP BW

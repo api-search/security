@@ -87,7 +87,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Brightspace Authentication
+name: D2L Brightspace Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

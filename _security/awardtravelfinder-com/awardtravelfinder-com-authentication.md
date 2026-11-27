@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Awardtravelfinder Com Authentication
+name: Award Travel Finder Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Award Travel Finder declares 1 security scheme(s) across its OpenAPI definitions.

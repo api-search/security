@@ -30,8 +30,10 @@
   <p class="ml-note">The <a href="https://apis.io/markets/">Kin Score Market layer</a> reads a provider inside its market:
   its position, and how deep its integrations go. Depth is only comparable within a position. Provisional and unweighted:
   not part of the Kin Score or agent readiness.</p>
+  <p class="ml-note"><strong>Depth is one figure for the provider</strong>, the mean of its strongest integrations, so it
+  repeats on every row. It differs by market only where an assurance register's own evidence applies.</p>
   <div class="ml-wrap"><table class="ml-table">
-    <thead><tr><th>Market</th><th>Position</th><th class="num">Depth</th><th class="num">Registered MCP server</th><th class="num">Declares compatibility</th></tr></thead>
+    <thead><tr><th>Market</th><th>Position</th><th class="num" title="Provider-wide integration depth: the same figure on every row unless an assurance register applies">Depth (provider-wide)</th><th class="num">Registered MCP server</th><th class="num">Declares compatibility</th></tr></thead>
     <tbody>
     {%- for r in _ml_rows %}
       <tr>

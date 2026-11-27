@@ -40,7 +40,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: 1Gene Domain Security
+name: 1GENE Domain Security
 name_suffix: Domain Security
 overview: Domain security posture for 1GENE, probed live across 5 host(s) and 0 registrable domain(s).
 provider_name: 1GENE

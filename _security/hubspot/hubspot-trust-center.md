@@ -284,7 +284,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hubspot Trust Center
+name: HubSpot Trust Center
 name_suffix: Trust Center
 overview: HubSpot maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: HubSpot

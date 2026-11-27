@@ -243,18 +243,6 @@ api_specs:
   slug: mediamath-campaign-settings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mediamath/openapi/mediamath-campaign-settings-api-openapi.yml
-- filename: mediamath-classification-v1-0-deprecated-api-openapi.yml
-  format: yaml
-  label: MediaMath Classification (V1.0 - Deprecated) API
-  slug: mediamath-classification-v1-0-deprecated-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mediamath/openapi/mediamath-classification-v1-0-deprecated-api-openapi.yml
-- filename: mediamath-classification-v3-api-openapi.yml
-  format: yaml
-  label: MediaMath Classification (V3) API
-  slug: mediamath-classification-v3-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mediamath/openapi/mediamath-classification-v3-api-openapi.yml
 - filename: mediamath-components-api-openapi.yml
   format: yaml
   label: MediaMath Components API
@@ -297,12 +285,6 @@ api_specs:
   slug: mediamath-iab-data-v3-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mediamath/openapi/mediamath-iab-data-v3-api-openapi.yml
-- filename: mediamath-iab-v1-0-deprecated-api-openapi.yml
-  format: yaml
-  label: MediaMath IAB (V1.0 - Deprecated) API
-  slug: mediamath-iab-v1-0-deprecated-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mediamath/openapi/mediamath-iab-v1-0-deprecated-api-openapi.yml
 - filename: mediamath-metadata-api-openapi.yml
   format: yaml
   label: MediaMath Metadata API
@@ -327,18 +309,6 @@ api_specs:
   slug: mediamath-reports-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mediamath/openapi/mediamath-reports-api-openapi.yml
-- filename: mediamath-video-creative-management-v2-api-openapi.yml
-  format: yaml
-  label: MediaMath Video Creative Management (V2) API
-  slug: mediamath-video-creative-management-v2-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mediamath/openapi/mediamath-video-creative-management-v2-api-openapi.yml
-- filename: mediamath-video-creative-management-v3-api-openapi.yml
-  format: yaml
-  label: MediaMath Video Creative Management (V3) API
-  slug: mediamath-video-creative-management-v3-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/mediamath/openapi/mediamath-video-creative-management-v3-api-openapi.yml
 - filename: mediamath-place-lists-api-openapi.yml
   format: yaml
   label: MediaMath Place Lists API
@@ -353,7 +323,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Mediamath Authentication
+name: MediaMath Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

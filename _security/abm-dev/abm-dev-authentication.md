@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Abm Dev Authentication
+name: abm-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: abm-dev declares 2 security scheme(s) across its OpenAPI definitions.

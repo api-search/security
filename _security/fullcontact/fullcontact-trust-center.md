@@ -42,7 +42,7 @@ certifications:
 description: FullContact runs a Vanta-hosted Trust Center at trust.fullcontact.com. The page returns 200 but is a client-side rendered single-page app, so its certification list is not machine-readable from the served HTML. The one certification FullContact names in plain text in its own documentation is SOC 2, and that is the only one recorded here.
 kind: trust-center
 layout: security
-name: Fullcontact Trust Center
+name: FullContact Trust Center
 name_suffix: Trust Center
 overview: FullContact maintains a public trust center documenting SOC 2 compliance.
 provider_name: FullContact

@@ -8,7 +8,7 @@ certifications:
 description: SuperOps security and compliance posture, captured from the public security page. SuperOps maintains named certifications and privacy programs and runs on AWS infrastructure. There is no dedicated trust.superops.com subdomain; the security page is the canonical hub.
 kind: trust-center
 layout: security
-name: Superops Trust Center
+name: SuperOps Trust Center
 name_suffix: Trust Center
 overview: SuperOps maintains a public trust center documenting SOC 2 Type 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: SuperOps

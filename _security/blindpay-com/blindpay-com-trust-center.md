@@ -145,7 +145,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Blindpay Com Trust Center
+name: blindpay-com Trust Center
 name_suffix: Trust Center
 overview: blindpay-com maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: blindpay-com

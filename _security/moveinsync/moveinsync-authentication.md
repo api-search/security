@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Moveinsync Authentication
+name: MoveInSync Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MoveInSync secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

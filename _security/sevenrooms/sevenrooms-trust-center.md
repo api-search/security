@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sevenrooms Trust Center
+name: SevenRooms Trust Center
 name_suffix: Trust Center
 overview: SevenRooms maintains a public trust center documenting SOC 2, PCI DSS, and GDPR compliance.
 provider_name: SevenRooms

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Playbook Com Authentication
+name: Playbook Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Playbook declares 1 security scheme(s) across its OpenAPI definitions.

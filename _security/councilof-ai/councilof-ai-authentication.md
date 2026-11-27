@@ -435,12 +435,6 @@ api_specs:
   slug: councilof-ai-prod-readiness-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-prod-readiness-api-openapi.yml
-- filename: councilof-ai-proof-api-openapi.yml
-  format: yaml
-  label: Council of AI Proof API
-  slug: councilof-ai-proof-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-proof-api-openapi.yml
 - filename: councilof-ai-provider-canary-api-openapi.yml
   format: yaml
   label: Council of AI Provider Canary API
@@ -501,12 +495,6 @@ api_specs:
   slug: councilof-ai-root-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-root-api-openapi.yml
-- filename: councilof-ai-root-json-api-openapi.yml
-  format: yaml
-  label: Council of AI Root.json API
-  slug: councilof-ai-root-json-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-root-json-api-openapi.yml
 - filename: councilof-ai-router-api-openapi.yml
   format: yaml
   label: Council of AI Router API
@@ -525,12 +513,6 @@ api_specs:
   slug: councilof-ai-security-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-security-api-openapi.yml
-- filename: councilof-ai-signed-api-openapi.yml
-  format: yaml
-  label: Council of AI Signed API
-  slug: councilof-ai-signed-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-signed-api-openapi.yml
 - filename: councilof-ai-specialists-api-openapi.yml
   format: yaml
   label: Council of AI Specialists API
@@ -615,12 +597,6 @@ api_specs:
   slug: councilof-ai-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-webhooks-api-openapi.yml
-- filename: councilof-ai-well-known-api-openapi.yml
-  format: yaml
-  label: Council of AI .well Known API
-  slug: councilof-ai-well-known-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/councilof-ai/openapi/councilof-ai-well-known-api-openapi.yml
 - filename: councilof-ai-witness-api-openapi.yml
   format: yaml
   label: Council of AI Witness API
@@ -785,7 +761,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Councilof Ai Authentication
+name: Council of AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Council of AI secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

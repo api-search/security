@@ -85,7 +85,7 @@ certifications:
 description: 'pVerify links its trust center and status dashboard from the footer of its own site (https://pverify.com/), but both are operated under the parent brand: pVerify is a DoseSpot company, and DoseSpot merged with Arrive Health to form Interra Health — which is why a pverify.com link lands on a dosespot.com host. That is the stated corporate relationship, not a third-party page: pVerify''s own homepage and developer page are the referring surface.'
 kind: trust-center
 layout: security
-name: Pverify Trust Center
+name: pVerify Trust Center
 name_suffix: Trust Center
 overview: pVerify maintains a public trust center documenting SOC 2 Type II and HIPAA compliance.
 provider_name: pVerify

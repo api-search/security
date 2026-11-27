@@ -33,7 +33,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Vgs Trust Center
+name: Very Good Security Trust Center
 name_suffix: Trust Center
 overview: Very Good Security maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: Very Good Security

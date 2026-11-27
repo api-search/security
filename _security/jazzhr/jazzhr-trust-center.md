@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Jazzhr Trust Center
+name: JazzHR Trust Center
 name_suffix: Trust Center
 overview: JazzHR maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: JazzHR

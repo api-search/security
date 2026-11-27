@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Thalium Authentication
+name: SYSGRAFT Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SYSGRAFT declares 1 security scheme(s) across its OpenAPI definitions.

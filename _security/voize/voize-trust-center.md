@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Voize Trust Center
+name: voize Trust Center
 name_suffix: Trust Center
 overview: voize maintains a public trust center covering its security and compliance posture.
 provider_name: voize

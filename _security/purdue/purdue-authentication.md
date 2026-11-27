@@ -206,7 +206,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Purdue Authentication
+name: Purdue University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Purdue University declares 0 security scheme(s) across its OpenAPI definitions.

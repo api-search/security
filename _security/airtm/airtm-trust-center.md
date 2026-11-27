@@ -169,7 +169,7 @@ tags:
 - Remittances
 - Latin America
 - Emerging Markets
-- money-services-business
+- Money Services Business
 - OAuth
 - Authentication
 trust_url: https://trust.airtm.com/

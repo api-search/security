@@ -3441,6 +3441,30 @@ api_specs:
   slug: orion-advisor-solutions-validateimport-echo-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-validateimport-echo-api-openapi.yml
+- filename: orion-advisor-solutions-billing-cloud-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Billing/Cloud API
+  slug: orion-advisor-solutions-billing-cloud-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-billing-cloud-api-openapi.yml
+- filename: orion-advisor-solutions-confirm-reconcases-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Confirm/Recon Cases API
+  slug: orion-advisor-solutions-confirm-reconcases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-confirm-reconcases-api-openapi.yml
+- filename: orion-advisor-solutions-reporting-income-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Reporting/Income API
+  slug: orion-advisor-solutions-reporting-income-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-reporting-income-api-openapi.yml
+- filename: orion-advisor-solutions-utility-gridexport-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Utility/Grid Export API
+  slug: orion-advisor-solutions-utility-gridexport-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-utility-gridexport-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Attrove Com Authentication
+name: Attrove Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Attrove declares 0 security scheme(s) across its OpenAPI definitions.

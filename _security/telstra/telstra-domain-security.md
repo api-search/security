@@ -6,12 +6,6 @@ api_specs:
   slug: telstra-access-token-request-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/telstra/openapi/telstra-access-token-request-api-openapi.yml
-- filename: telstra-authentication-api-openapi.yml
-  format: yaml
-  label: Telstra Authentication API
-  slug: telstra-authentication-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/telstra/openapi/telstra-authentication-api-openapi.yml
 - filename: telstra-check-device-swap-api-openapi.yml
   format: yaml
   label: Telstra Check Device Swap API
@@ -60,18 +54,6 @@ api_specs:
   slug: telstra-modify-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/telstra/openapi/telstra-modify-api-openapi.yml
-- filename: telstra-oidc-access-token-request-api-openapi.yml
-  format: yaml
-  label: Telstra OIDC Access Token Request API
-  slug: telstra-oidc-access-token-request-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/telstra/openapi/telstra-oidc-access-token-request-api-openapi.yml
-- filename: telstra-oidc-authentication-request-api-openapi.yml
-  format: yaml
-  label: Telstra OIDC Authentication Request API
-  slug: telstra-oidc-authentication-request-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/telstra/openapi/telstra-oidc-authentication-request-api-openapi.yml
 - filename: telstra-our-website-api-openapi.yml
   format: yaml
   label: Telstra Our website API
@@ -114,12 +96,6 @@ api_specs:
   slug: telstra-sender-names-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/telstra/openapi/telstra-sender-names-api-openapi.yml
-- filename: telstra-services-api-openapi.yml
-  format: yaml
-  label: Telstra Services API
-  slug: telstra-services-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/telstra/openapi/telstra-services-api-openapi.yml
 - filename: telstra-status-api-openapi.yml
   format: yaml
   label: Telstra Status API
@@ -156,6 +132,30 @@ api_specs:
   slug: telstra-verification-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/telstra/openapi/telstra-verification-api-openapi.yml
+- filename: telstra-authentication-api-openapi.yml
+  format: yaml
+  label: Telstra Authentication API
+  slug: telstra-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/telstra/openapi/telstra-authentication-api-openapi.yml
+- filename: telstra-oidc-access-token-request-api-openapi.yml
+  format: yaml
+  label: Telstra OIDC Access Token Request API
+  slug: telstra-oidc-access-token-request-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/telstra/openapi/telstra-oidc-access-token-request-api-openapi.yml
+- filename: telstra-oidc-authentication-request-api-openapi.yml
+  format: yaml
+  label: Telstra OIDC Authentication Request API
+  slug: telstra-oidc-authentication-request-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/telstra/openapi/telstra-oidc-authentication-request-api-openapi.yml
+- filename: telstra-services-api-openapi.yml
+  format: yaml
+  label: Telstra Services API
+  slug: telstra-services-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/telstra/openapi/telstra-services-api-openapi.yml
 description: ''
 domains:
 - caa: []

@@ -108,6 +108,132 @@ api_specs:
   slug: shapelessai-workspace-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-workspace-api-openapi.yml
+- filename: shapelessai-actions-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Actions API
+  slug: shapelessai-actions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-actions-api-openapi.yml
+- filename: shapelessai-ad-accounts-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Ad Accounts API
+  slug: shapelessai-ad-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-ad-accounts-api-openapi.yml
+- filename: shapelessai-ai-tools-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Ai Tools API
+  slug: shapelessai-ai-tools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-ai-tools-api-openapi.yml
+- filename: shapelessai-assets-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Assets API
+  slug: shapelessai-assets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-assets-api-openapi.yml
+- filename: shapelessai-captions-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Captions API
+  slug: shapelessai-captions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-captions-api-openapi.yml
+- filename: shapelessai-carousels-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Carousels API
+  slug: shapelessai-carousels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-carousels-api-openapi.yml
+- filename: shapelessai-characters-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Characters API
+  slug: shapelessai-characters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-characters-api-openapi.yml
+- filename: shapelessai-conversations-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Conversations API
+  slug: shapelessai-conversations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-conversations-api-openapi.yml
+- filename: shapelessai-identities-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Identities API
+  slug: shapelessai-identities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-identities-api-openapi.yml
+- filename: shapelessai-identity-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Identity API
+  slug: shapelessai-identity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-identity-api-openapi.yml
+- filename: shapelessai-images-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Images API
+  slug: shapelessai-images-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-images-api-openapi.yml
+- filename: shapelessai-inbox-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Inbox API
+  slug: shapelessai-inbox-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-inbox-api-openapi.yml
+- filename: shapelessai-influencers-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Influencers API
+  slug: shapelessai-influencers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-influencers-api-openapi.yml
+- filename: shapelessai-instagram-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Instagram API
+  slug: shapelessai-instagram-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-instagram-api-openapi.yml
+- filename: shapelessai-media-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Media API
+  slug: shapelessai-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-media-api-openapi.yml
+- filename: shapelessai-openapi-json-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Openapi.json API
+  slug: shapelessai-openapi-json-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-openapi-json-api-openapi.yml
+- filename: shapelessai-platforms-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Platforms API
+  slug: shapelessai-platforms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-platforms-api-openapi.yml
+- filename: shapelessai-references-api-openapi.yml
+  format: yaml
+  label: ShapelessAI References API
+  slug: shapelessai-references-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-references-api-openapi.yml
+- filename: shapelessai-speech-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Speech API
+  slug: shapelessai-speech-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-speech-api-openapi.yml
+- filename: shapelessai-thumbnails-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Thumbnails API
+  slug: shapelessai-thumbnails-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-thumbnails-api-openapi.yml
+- filename: shapelessai-trends-api-openapi.yml
+  format: yaml
+  label: ShapelessAI Trends API
+  slug: shapelessai-trends-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/shapelessai/openapi/shapelessai-trends-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -127,7 +253,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Shapelessai Domain Security
+name: ShapelessAI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ShapelessAI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: ShapelessAI

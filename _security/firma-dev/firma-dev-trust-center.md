@@ -78,7 +78,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Firma Dev Trust Center
+name: Firma.dev Trust Center
 name_suffix: Trust Center
 overview: Firma.dev maintains a public trust center documenting GDPR compliance.
 provider_name: Firma.dev

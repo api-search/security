@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Realworldapis Com Authentication
+name: realworldapis-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: realworldapis-com declares 1 security scheme(s) across its OpenAPI definitions.
@@ -78,6 +78,6 @@ summary_line: 1 scheme
 tags:
 - Discovery
 - Artificial Intelligence
-- PhysicalWorld
+- Physical-World
 - RealWorldAPIs
 ---

@@ -333,7 +333,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lightspeed Trust Center
+name: Lightspeed Commerce Trust Center
 name_suffix: Trust Center
 overview: Lightspeed Commerce maintains a public trust center documenting PCI DSS, SOC 2, SOC 3, and GDPR compliance.
 provider_name: Lightspeed Commerce

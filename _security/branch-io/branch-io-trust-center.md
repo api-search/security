@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Branch Io Trust Center
+name: Branch Trust Center
 name_suffix: Trust Center
 overview: Branch maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: Branch

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Next Trucking Authentication
+name: NEXT Trucking Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NEXT Trucking declares 3 security scheme(s) across its OpenAPI definitions.

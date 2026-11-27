@@ -492,7 +492,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fluxito App Domain Security
+name: Fluxito Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Fluxito, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
 provider_name: Fluxito
@@ -508,7 +508,7 @@ tags:
 - Company
 - Marketing
 - Analytics
-- AI
+- Artificial Intelligence
 - Integration
-- SaaS
+- Software-as-a-Service
 ---

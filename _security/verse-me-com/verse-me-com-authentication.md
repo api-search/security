@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Verse Me Com Authentication
+name: Verse (autonomous agent) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Verse (autonomous agent) secures its APIs with payment and none across 3 declared security schemes, as derived from its OpenAPI definitions.

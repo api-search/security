@@ -79,7 +79,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bynn Com Trust Center
+name: Bynn Intelligence Trust Center
 name_suffix: Trust Center
 overview: Bynn Intelligence maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Bynn Intelligence

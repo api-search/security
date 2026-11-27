@@ -146,7 +146,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Blueticked Com Authentication
+name: Blueticked Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Blueticked declares 2 security scheme(s) across its OpenAPI definitions.

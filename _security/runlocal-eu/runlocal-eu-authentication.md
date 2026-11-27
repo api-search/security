@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Runlocal Eu Authentication
+name: runlocal-eu Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: runlocal-eu declares 1 security scheme(s) across its OpenAPI definitions.

@@ -33,7 +33,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Betteruptime Trust Center
+name: Better Uptime Trust Center
 name_suffix: Trust Center
 overview: Better Uptime maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Better Uptime

@@ -15,6 +15,30 @@ api_specs:
   slug: amazon-iot-greengrass-tags-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-tags-api-openapi.yml
+- filename: amazon-iot-greengrass-certificateauthorities-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Greengrass Iot Greengrass Certificateauthorities API
+  slug: amazon-iot-greengrass-certificateauthorities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-certificateauthorities-api-openapi.yml
+- filename: amazon-iot-greengrass-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Greengrass Iot Greengrass Operations API
+  slug: amazon-iot-greengrass-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-operations-api-openapi.yml
+- filename: amazon-iot-greengrass-role-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Greengrass Iot Greengrass Role API
+  slug: amazon-iot-greengrass-role-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-role-api-openapi.yml
+- filename: amazon-iot-greengrass-versions-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Greengrass Iot Greengrass Versions API
+  slug: amazon-iot-greengrass-versions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-versions-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -22,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Iot Greengrass Authentication
+name: Amazon IoT Greengrass Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon IoT Greengrass secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

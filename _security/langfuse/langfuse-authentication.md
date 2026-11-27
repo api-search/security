@@ -158,6 +158,48 @@ api_specs:
   slug: langfuse-unstableevaluators-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/langfuse/openapi/langfuse-unstableevaluators-api-openapi.yml
+- filename: langfuse-evaluationrules-api-openapi.yml
+  format: yaml
+  label: Langfuse Evaluation Rules API
+  slug: langfuse-evaluationrules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langfuse/openapi/langfuse-evaluationrules-api-openapi.yml
+- filename: langfuse-evaluators-api-openapi.yml
+  format: yaml
+  label: Langfuse Evaluators API
+  slug: langfuse-evaluators-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langfuse/openapi/langfuse-evaluators-api-openapi.yml
+- filename: langfuse-experiments-api-openapi.yml
+  format: yaml
+  label: Langfuse Experiments API
+  slug: langfuse-experiments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langfuse/openapi/langfuse-experiments-api-openapi.yml
+- filename: langfuse-feedback-api-openapi.yml
+  format: yaml
+  label: Langfuse Feedback API
+  slug: langfuse-feedback-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langfuse/openapi/langfuse-feedback-api-openapi.yml
+- filename: langfuse-unstabledashboards-api-openapi.yml
+  format: yaml
+  label: Langfuse Unstable Dashboards API
+  slug: langfuse-unstabledashboards-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langfuse/openapi/langfuse-unstabledashboards-api-openapi.yml
+- filename: langfuse-unstabledashboardwidgets-api-openapi.yml
+  format: yaml
+  label: Langfuse Unstable Dashboard Widgets API
+  slug: langfuse-unstabledashboardwidgets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langfuse/openapi/langfuse-unstabledashboardwidgets-api-openapi.yml
+- filename: langfuse-unstableskills-api-openapi.yml
+  format: yaml
+  label: Langfuse Unstable Skills API
+  slug: langfuse-unstableskills-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/langfuse/openapi/langfuse-unstableskills-api-openapi.yml
 - filename: langfuse-annotation-queues-api-openapi.yml
   format: yaml
   label: Langfuse Annotation Queues API

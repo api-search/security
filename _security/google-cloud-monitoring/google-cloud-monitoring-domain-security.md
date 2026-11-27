@@ -6,6 +6,30 @@ api_specs:
   slug: google-cloud-monitoring-projects-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-monitoring/openapi/google-cloud-monitoring-projects-api-openapi.yml
+- filename: google-cloud-monitoring-folders-api-openapi.yml
+  format: yaml
+  label: Google Cloud Monitoring Cloud Monitoring Folders API
+  slug: google-cloud-monitoring-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-monitoring/openapi/google-cloud-monitoring-folders-api-openapi.yml
+- filename: google-cloud-monitoring-organizations-api-openapi.yml
+  format: yaml
+  label: Google Cloud Monitoring Cloud Monitoring Organizations API
+  slug: google-cloud-monitoring-organizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-monitoring/openapi/google-cloud-monitoring-organizations-api-openapi.yml
+- filename: google-cloud-monitoring-services-api-openapi.yml
+  format: yaml
+  label: Google Cloud Monitoring Cloud Monitoring Services API
+  slug: google-cloud-monitoring-services-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-monitoring/openapi/google-cloud-monitoring-services-api-openapi.yml
+- filename: google-cloud-monitoring-uptimecheckips-api-openapi.yml
+  format: yaml
+  label: Google Cloud Monitoring Uptime Check Ips API
+  slug: google-cloud-monitoring-uptimecheckips-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-monitoring/openapi/google-cloud-monitoring-uptimecheckips-api-openapi.yml
 description: ''
 domains:
 - caa:

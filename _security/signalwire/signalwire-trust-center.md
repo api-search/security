@@ -482,7 +482,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Signalwire Trust Center
+name: SignalWire Trust Center
 name_suffix: Trust Center
 overview: SignalWire maintains a public trust center documenting SOC 2 Type II, PCI DSS, and HIPAA compliance.
 provider_name: SignalWire

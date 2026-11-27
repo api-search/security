@@ -88,7 +88,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Uc Davis Authentication
+name: University of California, Davis Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of California, Davis secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

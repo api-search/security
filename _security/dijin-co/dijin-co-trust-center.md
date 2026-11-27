@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dijin Co Trust Center
+name: Dijin Trust Center
 name_suffix: Trust Center
 overview: Dijin maintains a public trust center documenting GDPR compliance.
 provider_name: Dijin

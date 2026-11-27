@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Blubrry Api Restful Api For Podcast Publishing Statistics Authentication
+name: Blubrry API Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Metricstream Trust Center
+name: MetricStream Trust Center
 name_suffix: Trust Center
 overview: MetricStream maintains a public trust center documenting PCI DSS, HIPAA, and GDPR compliance.
 provider_name: MetricStream

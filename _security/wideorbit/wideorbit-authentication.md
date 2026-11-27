@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Wideorbit Authentication
+name: WideOrbit Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WideOrbit declares 3 security scheme(s) across its OpenAPI definitions.

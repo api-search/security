@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Omaticsoftware Trust Center
+name: Omatic Software Trust Center
 name_suffix: Trust Center
 overview: Omatic Software maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Omatic Software

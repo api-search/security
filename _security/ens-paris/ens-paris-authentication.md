@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Ens Paris Authentication
+name: École Normale Supérieure de Paris Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: École Normale Supérieure de Paris secures its APIs with saml, basic, and none across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Ubtech Authentication
+name: UBTech Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: UBTech declares 0 security scheme(s) across its OpenAPI definitions.

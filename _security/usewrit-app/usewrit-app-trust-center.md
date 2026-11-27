@@ -108,7 +108,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Usewrit App Trust Center
+name: usewrit-app Trust Center
 name_suffix: Trust Center
 overview: usewrit-app maintains a public trust center documenting GDPR compliance.
 provider_name: usewrit-app

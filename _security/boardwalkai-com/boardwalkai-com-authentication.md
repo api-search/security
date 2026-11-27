@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Boardwalkai Com Authentication
+name: Boardwalk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Boardwalk declares 2 security scheme(s) across its OpenAPI definitions.

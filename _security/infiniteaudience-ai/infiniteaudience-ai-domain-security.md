@@ -102,6 +102,30 @@ api_specs:
   slug: infiniteaudience-ai-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-workflows-api-openapi.yml
+- filename: infiniteaudience-ai-a2a-api-openapi.yml
+  format: yaml
+  label: Infinite Audience A2A API
+  slug: infiniteaudience-ai-a2a-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-a2a-api-openapi.yml
+- filename: infiniteaudience-ai-account-api-openapi.yml
+  format: yaml
+  label: Infinite Audience Account API
+  slug: infiniteaudience-ai-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-account-api-openapi.yml
+- filename: infiniteaudience-ai-audiences-api-openapi.yml
+  format: yaml
+  label: Infinite Audience Audiences API
+  slug: infiniteaudience-ai-audiences-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-audiences-api-openapi.yml
+- filename: infiniteaudience-ai-auth-api-openapi.yml
+  format: yaml
+  label: Infinite Audience Auth API
+  slug: infiniteaudience-ai-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/infiniteaudience-ai/openapi/infiniteaudience-ai-auth-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -132,7 +156,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Infiniteaudience Ai Domain Security
+name: Infinite Audience Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Infinite Audience, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Infinite Audience

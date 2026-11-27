@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Southendonsea Authentication
+name: SouthendOnSea.city Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SouthendOnSea.city declares 0 security scheme(s) across its OpenAPI definitions.

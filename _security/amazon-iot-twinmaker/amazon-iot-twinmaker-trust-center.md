@@ -58,7 +58,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Iot Twinmaker Trust Center
+name: Amazon IoT TwinMaker Trust Center
 name_suffix: Trust Center
 overview: Amazon IoT TwinMaker maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon IoT TwinMaker

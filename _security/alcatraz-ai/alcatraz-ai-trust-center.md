@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Alcatraz Ai Trust Center
+name: Alcatraz AI Trust Center
 name_suffix: Trust Center
 overview: Alcatraz AI maintains a public trust center documenting SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27017, and ISO/IEC 27018 compliance.
 provider_name: Alcatraz AI

@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Arcade Games Nl Authentication
+name: Mind Arcade Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Mind Arcade declares 3 security scheme(s) across its OpenAPI definitions.

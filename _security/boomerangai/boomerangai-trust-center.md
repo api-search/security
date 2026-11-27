@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Boomerangai Trust Center
+name: BoomerangAI Trust Center
 name_suffix: Trust Center
 overview: BoomerangAI maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: BoomerangAI

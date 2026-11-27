@@ -189,7 +189,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Eve Online Authentication
+name: EVE Online Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit

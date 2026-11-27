@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Botmarket Bot Authentication
+name: KOA Labs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: KOA Labs declares 0 security scheme(s) across its OpenAPI definitions.

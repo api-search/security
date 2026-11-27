@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Arena Predictions Com Authentication
+name: Arena Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Arena declares 2 security scheme(s) across its OpenAPI definitions.

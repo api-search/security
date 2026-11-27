@@ -167,7 +167,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Nmi Authentication
+name: NMI Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

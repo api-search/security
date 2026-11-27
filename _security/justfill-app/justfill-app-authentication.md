@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Justfill App Authentication
+name: justfill-app Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: justfill-app declares 0 security scheme(s) across its OpenAPI definitions.

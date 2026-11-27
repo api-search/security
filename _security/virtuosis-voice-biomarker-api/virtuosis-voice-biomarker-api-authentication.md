@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Virtuosis Voice Biomarker Api Authentication
+name: Virtuosis Voice Biomarker API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Virtuosis Voice Biomarker API secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

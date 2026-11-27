@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Twmarketdata Com Authentication
+name: twmarketdata-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: twmarketdata-com declares 1 security scheme(s) across its OpenAPI definitions.

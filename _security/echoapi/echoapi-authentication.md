@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Echoapi Authentication
+name: EchoAPI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EchoAPI declares 1 security scheme(s) across its OpenAPI definitions.
@@ -41,6 +41,5 @@ tags:
 - API Platform
 - Integration
 - Developer Tools
-- AI-Powered
 - Documentation
 ---

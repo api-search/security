@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Normative Io Trust Center
+name: Normative Trust Center
 name_suffix: Trust Center
 overview: Normative maintains a public trust center documenting ISO 27001 compliance.
 provider_name: Normative

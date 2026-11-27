@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Frigate Authentication
+name: Frigate NVR Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Frigate NVR declares 1 security scheme(s) across its OpenAPI definitions.

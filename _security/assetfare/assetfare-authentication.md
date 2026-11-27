@@ -32,18 +32,30 @@ api_specs:
   slug: assetfare-status-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/assetfare/openapi/assetfare-status-api-openapi.yml
-- filename: assetfare-app-store-api-openapi.yml
-  format: yaml
-  label: AssetFare App Store API
-  slug: assetfare-app-store-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/assetfare/openapi/assetfare-app-store-api-openapi.yml
 - filename: assetfare-auth-api-openapi.yml
   format: yaml
   label: AssetFare Auth API
   slug: assetfare-auth-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/assetfare/openapi/assetfare-auth-api-openapi.yml
+- filename: assetfare-route-selection-api-openapi.yml
+  format: yaml
+  label: AssetFare Route Selection API
+  slug: assetfare-route-selection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-route-selection-api-openapi.yml
+- filename: assetfare-well-known-api-openapi.yml
+  format: yaml
+  label: AssetFare .well Known API
+  slug: assetfare-well-known-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-well-known-api-openapi.yml
+- filename: assetfare-app-store-api-openapi.yml
+  format: yaml
+  label: AssetFare App Store API
+  slug: assetfare-app-store-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/assetfare/openapi/assetfare-app-store-api-openapi.yml
 - filename: assetfare-events-api-openapi.yml
   format: yaml
   label: AssetFare Events API
@@ -62,18 +74,6 @@ api_specs:
   slug: assetfare-jobs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/assetfare/openapi/assetfare-jobs-api-openapi.yml
-- filename: assetfare-route-selection-api-openapi.yml
-  format: yaml
-  label: AssetFare Route Selection API
-  slug: assetfare-route-selection-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/assetfare/openapi/assetfare-route-selection-api-openapi.yml
-- filename: assetfare-well-known-api-openapi.yml
-  format: yaml
-  label: AssetFare .well Known API
-  slug: assetfare-well-known-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/assetfare/openapi/assetfare-well-known-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -81,7 +81,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Assetfare Authentication
+name: AssetFare Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AssetFare secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Heartflow Trust Center
+name: HeartFlow Trust Center
 name_suffix: Trust Center
 overview: HeartFlow maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, ISO 13485:2016, HITRUST, HIPAA, GDPR, and CCPA compliance.
 provider_name: HeartFlow

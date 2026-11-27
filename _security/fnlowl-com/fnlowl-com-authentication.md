@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fnlowl Com Authentication
+name: FnlOwl Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FnlOwl declares 1 security scheme(s) across its OpenAPI definitions.
@@ -136,9 +136,9 @@ source_yaml: "generated: '2026-11-08'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/fnlowl-com/authentication/fnlowl-com-authentication.yml
 summary_line: 1 scheme
 tags:
-- LeadCapture
-- EmailAutomation
-- SaaS
-- MarketingTools
-- SmallBusiness
+- Lead Capture
+- Email Automation
+- Software-as-a-Service
+- Marketing Tools
+- Small Business
 ---

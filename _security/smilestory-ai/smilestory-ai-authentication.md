@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Smilestory Ai Authentication
+name: smilestory-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: smilestory-ai declares 0 security scheme(s) across its OpenAPI definitions.

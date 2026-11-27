@@ -86,7 +86,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gotowebinar Trust Center
+name: GoToWebinar Trust Center
 name_suffix: Trust Center
 overview: GoToWebinar maintains a public trust center documenting SOC 2 (Type II), SOC 3, and C5 (BSI Cloud Computing Compliance Criteria Catalogue) compliance.
 provider_name: GoToWebinar

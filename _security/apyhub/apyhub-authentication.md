@@ -148,7 +148,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Apyhub Authentication
+name: ApyHub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ApyHub secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -177,5 +177,4 @@ tags:
 - Data Processing
 - Artificial Intelligence
 - MCP
-- Agent Ready
 ---

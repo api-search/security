@@ -35,7 +35,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Woz Api Nl Authentication
+name: woz-api-nl Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

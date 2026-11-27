@@ -1,29 +1,4 @@
 ---
-api_specs:
-- filename: besttimetobookhotels-com-booking-timing-api-openapi.yml
-  format: yaml
-  label: Best Time To Book Hotels Booking Timing API
-  slug: besttimetobookhotels-com-booking-timing-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besttimetobookhotels-com/openapi/besttimetobookhotels-com-booking-timing-api-openapi.yml
-- filename: besttimetobookhotels-com-content-api-openapi.yml
-  format: yaml
-  label: Best Time To Book Hotels Content API
-  slug: besttimetobookhotels-com-content-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besttimetobookhotels-com/openapi/besttimetobookhotels-com-content-api-openapi.yml
-- filename: besttimetobookhotels-com-deals-api-openapi.yml
-  format: yaml
-  label: Best Time To Book Hotels Deals API
-  slug: besttimetobookhotels-com-deals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besttimetobookhotels-com/openapi/besttimetobookhotels-com-deals-api-openapi.yml
-- filename: besttimetobookhotels-com-operations-api-openapi.yml
-  format: yaml
-  label: Best Time To Book Hotels Operations API
-  slug: besttimetobookhotels-com-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/besttimetobookhotels-com/openapi/besttimetobookhotels-com-operations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -45,7 +20,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Besttimetobookhotels Com Domain Security
+name: Best Time To Book Hotels Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Best Time To Book Hotels, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: Best Time To Book Hotels

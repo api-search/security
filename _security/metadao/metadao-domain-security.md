@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: metadao-meta-api-openapi.yml
-  format: yaml
-  label: MetaDAO Meta API
-  slug: metadao-meta-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/metadao/openapi/metadao-meta-api-openapi.yml
-- filename: metadao-supply-api-openapi.yml
-  format: yaml
-  label: MetaDAO Supply API
-  slug: metadao-supply-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/metadao/openapi/metadao-supply-api-openapi.yml
 - filename: metadao-tickers-api-openapi.yml
   format: yaml
   label: MetaDAO Tickers API
@@ -60,6 +48,18 @@ api_specs:
   slug: metadao-market-data-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/metadao/openapi/metadao-market-data-api-openapi.yml
+- filename: metadao-meta-api-openapi.yml
+  format: yaml
+  label: MetaDAO Meta API
+  slug: metadao-meta-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/metadao/openapi/metadao-meta-api-openapi.yml
+- filename: metadao-supply-api-openapi.yml
+  format: yaml
+  label: MetaDAO Supply API
+  slug: metadao-supply-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/metadao/openapi/metadao-supply-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -88,7 +88,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Metadao Domain Security
+name: MetaDAO Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for MetaDAO, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: MetaDAO

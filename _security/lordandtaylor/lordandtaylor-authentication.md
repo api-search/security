@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Lordandtaylor Authentication
+name: Lord & Taylor Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

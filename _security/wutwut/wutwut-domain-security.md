@@ -29,7 +29,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Wutwut Domain Security
+name: wutwut Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for wutwut, probed live across 2 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: wutwut

@@ -263,7 +263,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Tttech Authentication
+name: TTTech Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TTTech secures its APIs with apiKey and http across 4 declared security schemes, as derived from its OpenAPI definitions.

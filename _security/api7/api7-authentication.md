@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Api7 Authentication
+name: API7.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: API7.ai declares 5 security scheme(s) across its OpenAPI definitions.

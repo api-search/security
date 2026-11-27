@@ -233,7 +233,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Affix Io Com Trust Center
+name: AffixIO Trust Center
 name_suffix: Trust Center
 overview: AffixIO maintains a public trust center covering its security and compliance posture.
 provider_name: AffixIO

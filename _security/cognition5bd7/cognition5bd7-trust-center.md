@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cognition5Bd7 Trust Center
+name: Cognition5bd7 Trust Center
 name_suffix: Trust Center
 overview: Cognition5bd7 maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Cognition5bd7

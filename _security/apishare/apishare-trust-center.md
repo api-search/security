@@ -11,7 +11,7 @@ certifications:
 description: ApiShare publishes a dedicated certifications page naming seven ISO management system certifications held by the company and verified by independent third parties. It is a certifications page rather than a hosted trust portal — there is no trust.<domain> subdomain, no downloadable report library, and no self-serve NDA flow — which is why the automated trust-center probe (probe-security-programs.py, run 2026-09-04) recorded trust=none. This is the searched, human-verified fill. Attestation documents are supplied on request for vendor assessments, audits and procurement.
 kind: trust-center
 layout: security
-name: Apishare Trust Center
+name: ApiShare Trust Center
 name_suffix: Trust Center
 overview: ApiShare maintains a public trust center documenting ISO 9001, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO 37001, ISO 45001, and ISO 14001 compliance.
 provider_name: ApiShare

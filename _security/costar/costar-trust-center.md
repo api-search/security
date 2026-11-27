@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Costar Trust Center
+name: CoStar Group Trust Center
 name_suffix: Trust Center
 overview: CoStar Group maintains a public trust center documenting ISO 27001 and PCI DSS compliance.
 provider_name: CoStar Group

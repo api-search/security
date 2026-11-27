@@ -84,7 +84,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: A2A402 Market Authentication
+name: A2A402 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: A2A402 secures its APIs with http and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

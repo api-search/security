@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Mycelnet Ai Authentication
+name: Mycelnet Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Mycelnet secures its APIs with none and operator-token across 5 declared security schemes, as derived from its OpenAPI definitions.

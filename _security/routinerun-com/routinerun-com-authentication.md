@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Routinerun Com Authentication
+name: routinerun-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: routinerun-com declares 1 security scheme(s) across its OpenAPI definitions.

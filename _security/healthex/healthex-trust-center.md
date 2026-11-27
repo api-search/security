@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Healthex Trust Center
+name: HealthEx Trust Center
 name_suffix: Trust Center
 overview: HealthEx maintains a public trust center documenting HIPAA and TEFCA compliance.
 provider_name: HealthEx

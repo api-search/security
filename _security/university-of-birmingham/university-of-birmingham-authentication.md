@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: University Of Birmingham Authentication
+name: University of Birmingham Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Birmingham secures its APIs with none, saml, and bearer across 5 declared security schemes, as derived from its OpenAPI definitions.

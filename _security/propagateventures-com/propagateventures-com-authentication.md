@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Propagateventures Com Authentication
+name: Propagate Ventures Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Propagate Ventures declares 0 security scheme(s) across its OpenAPI definitions.

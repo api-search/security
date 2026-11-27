@@ -190,7 +190,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Iot Sitewise Trust Center
+name: Amazon IoT SiteWise Trust Center
 name_suffix: Trust Center
 overview: Amazon IoT SiteWise maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon IoT SiteWise

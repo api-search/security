@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: 24Haowan Com Domain Security
+name: 24haowan-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 24haowan-com, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: 24haowan-com

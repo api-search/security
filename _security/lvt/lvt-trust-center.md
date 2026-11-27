@@ -59,7 +59,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Lvt Trust Center
+name: LVT Trust Center
 name_suffix: Trust Center
 overview: LVT maintains a public trust center covering its security and compliance posture.
 provider_name: LVT

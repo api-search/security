@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Openpages Authentication
+name: OpenPages Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OpenPages secures its APIs with oauth2 and http across 1 declared security scheme, as derived from its OpenAPI definitions.

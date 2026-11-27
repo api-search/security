@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Mactechsolutionsllc Com Authentication
+name: mactechsolutionsllc-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: mactechsolutionsllc-com declares 0 security scheme(s) across its OpenAPI definitions.

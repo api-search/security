@@ -306,7 +306,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Sarj Ai Developer Api Authentication
+name: Sarj AI Developer API Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

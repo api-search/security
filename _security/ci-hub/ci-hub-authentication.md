@@ -30,7 +30,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Ci Hub Authentication
+name: CI HUB Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CI HUB secures its APIs with http, apiKey, and oauth2 across 0 declared security schemes, as derived from its OpenAPI definitions.

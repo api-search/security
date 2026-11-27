@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Tracelink Authentication
+name: TraceLink Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TraceLink secures its APIs with http across 4 declared security schemes, as derived from its OpenAPI definitions.

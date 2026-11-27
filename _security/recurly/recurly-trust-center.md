@@ -420,6 +420,102 @@ api_specs:
   slug: recurly-webhooks-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/recurly/openapi/recurly-webhooks-api-api-openapi.yml
+- filename: recurly-account-acquisition-api-openapi.yml
+  format: yaml
+  label: Recurly Account Acquisition API
+  slug: recurly-account-acquisition-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-account-acquisition-api-openapi.yml
+- filename: recurly-credit-payments-api-openapi.yml
+  format: yaml
+  label: Recurly Credit Payments API
+  slug: recurly-credit-payments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-credit-payments-api-openapi.yml
+- filename: recurly-exports-api-openapi.yml
+  format: yaml
+  label: Recurly Exports API
+  slug: recurly-exports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-exports-api-openapi.yml
+- filename: recurly-external-accounts-api-openapi.yml
+  format: yaml
+  label: Recurly External Accounts API
+  slug: recurly-external-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-external-accounts-api-openapi.yml
+- filename: recurly-external-invoices-api-openapi.yml
+  format: yaml
+  label: Recurly External Invoices API
+  slug: recurly-external-invoices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-external-invoices-api-openapi.yml
+- filename: recurly-external-payment-phases-api-openapi.yml
+  format: yaml
+  label: Recurly External Payment Phases API
+  slug: recurly-external-payment-phases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-external-payment-phases-api-openapi.yml
+- filename: recurly-external-product-references-api-openapi.yml
+  format: yaml
+  label: Recurly External Product References API
+  slug: recurly-external-product-references-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-external-product-references-api-openapi.yml
+- filename: recurly-external-products-api-openapi.yml
+  format: yaml
+  label: Recurly External Products API
+  slug: recurly-external-products-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-external-products-api-openapi.yml
+- filename: recurly-external-subscriptions-api-openapi.yml
+  format: yaml
+  label: Recurly External Subscriptions API
+  slug: recurly-external-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-external-subscriptions-api-openapi.yml
+- filename: recurly-general-ledger-accounts-api-openapi.yml
+  format: yaml
+  label: Recurly General Ledger Accounts API
+  slug: recurly-general-ledger-accounts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-general-ledger-accounts-api-openapi.yml
+- filename: recurly-items-api-openapi.yml
+  format: yaml
+  label: Recurly Items API
+  slug: recurly-items-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-items-api-openapi.yml
+- filename: recurly-measured-units-api-openapi.yml
+  format: yaml
+  label: Recurly Measured Units API
+  slug: recurly-measured-units-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-measured-units-api-openapi.yml
+- filename: recurly-purchases-api-openapi.yml
+  format: yaml
+  label: Recurly Purchases API
+  slug: recurly-purchases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-purchases-api-openapi.yml
+- filename: recurly-shipping-addresses-api-openapi.yml
+  format: yaml
+  label: Recurly Shipping Addresses API
+  slug: recurly-shipping-addresses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-shipping-addresses-api-openapi.yml
+- filename: recurly-shipping-fees-api-openapi.yml
+  format: yaml
+  label: Recurly Shipping Fees API
+  slug: recurly-shipping-fees-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-shipping-fees-api-openapi.yml
+- filename: recurly-subscription-usage-records-api-openapi.yml
+  format: yaml
+  label: Recurly Subscription Usage Records API
+  slug: recurly-subscription-usage-records-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/recurly/openapi/recurly-subscription-usage-records-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2

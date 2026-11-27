@@ -1,23 +1,11 @@
 ---
 api_specs:
-- filename: bigchange-assets-api-openapi.yml
-  format: yaml
-  label: BigChange Assets API
-  slug: bigchange-assets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bigchange/openapi/bigchange-assets-api-openapi.yml
 - filename: bigchange-contacts-api-openapi.yml
   format: yaml
   label: BigChange Contacts API
   slug: bigchange-contacts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bigchange/openapi/bigchange-contacts-api-openapi.yml
-- filename: bigchange-finance-api-openapi.yml
-  format: yaml
-  label: BigChange Finance API
-  slug: bigchange-finance-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bigchange/openapi/bigchange-finance-api-openapi.yml
 - filename: bigchange-jobs-api-openapi.yml
   format: yaml
   label: BigChange Jobs API
@@ -30,12 +18,6 @@ api_specs:
   slug: bigchange-persons-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bigchange/openapi/bigchange-persons-api-openapi.yml
-- filename: bigchange-reference-data-api-openapi.yml
-  format: yaml
-  label: BigChange Reference Data API
-  slug: bigchange-reference-data-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bigchange/openapi/bigchange-reference-data-api-openapi.yml
 - filename: bigchange-resources-api-openapi.yml
   format: yaml
   label: BigChange Resources API
@@ -60,12 +42,6 @@ api_specs:
   slug: bigchange-vehicles-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bigchange/openapi/bigchange-vehicles-api-openapi.yml
-- filename: bigchange-webhooks-api-openapi.yml
-  format: yaml
-  label: BigChange Webhooks API
-  slug: bigchange-webhooks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bigchange/openapi/bigchange-webhooks-api-openapi.yml
 - filename: bigchange-absences-api-openapi.yml
   format: yaml
   label: BigChange Absences API
@@ -186,6 +162,12 @@ api_specs:
   slug: bigchange-purchase-orders-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bigchange/openapi/bigchange-purchase-orders-api-openapi.yml
+- filename: bigchange-reference-data-api-openapi.yml
+  format: yaml
+  label: BigChange Reference Data API
+  slug: bigchange-reference-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-reference-data-api-openapi.yml
 - filename: bigchange-resource-groups-api-openapi.yml
   format: yaml
   label: BigChange Resource Groups API
@@ -232,7 +214,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Bigchange Domain Security
+name: BigChange Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for BigChange, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: BigChange

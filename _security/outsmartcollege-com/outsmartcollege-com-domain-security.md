@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Outsmartcollege Com Domain Security
+name: Outsmart College Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Outsmart College, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=Quarntine).'
 provider_name: Outsmart College

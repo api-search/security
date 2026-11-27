@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Verified Inc Authentication
+name: Verified Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Verified declares 2 security scheme(s) across its OpenAPI definitions.

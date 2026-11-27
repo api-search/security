@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agentui Ai Trust Center
+name: agentui-ai Trust Center
 name_suffix: Trust Center
 overview: agentui-ai maintains a public trust center documenting SOC 2, PCI DSS, and GDPR compliance.
 provider_name: agentui-ai

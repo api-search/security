@@ -158,7 +158,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Sig Ai Authentication
+name: sig-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: sig-ai declares 1 security scheme(s) across its OpenAPI definitions.

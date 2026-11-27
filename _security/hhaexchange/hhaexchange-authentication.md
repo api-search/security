@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Hhaexchange Authentication
+name: HHAeXchange Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

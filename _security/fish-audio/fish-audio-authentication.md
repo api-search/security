@@ -2,30 +2,66 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: fish-audio-asr-api-openapi.yml
-  format: yaml
-  label: Fish Audio Asr API
-  slug: fish-audio-asr-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-asr-api-openapi.yml
 - filename: fish-audio-model-api-openapi.yml
   format: yaml
   label: Fish Audio Model API
   slug: fish-audio-model-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-model-api-openapi.yml
-- filename: fish-audio-tts-api-openapi.yml
-  format: yaml
-  label: Fish Audio Tts API
-  slug: fish-audio-tts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-tts-api-openapi.yml
 - filename: fish-audio-wallet-api-openapi.yml
   format: yaml
   label: Fish Audio Wallet API
   slug: fish-audio-wallet-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-wallet-api-openapi.yml
+- filename: fish-audio-agent-sessions-api-openapi.yml
+  format: yaml
+  label: Fish Audio Agent Sessions API
+  slug: fish-audio-agent-sessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-agent-sessions-api-openapi.yml
+- filename: fish-audio-agent-tests-api-openapi.yml
+  format: yaml
+  label: Fish Audio Agent Tests API
+  slug: fish-audio-agent-tests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-agent-tests-api-openapi.yml
+- filename: fish-audio-agent-tools-api-openapi.yml
+  format: yaml
+  label: Fish Audio Agent Tools API
+  slug: fish-audio-agent-tools-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-agent-tools-api-openapi.yml
+- filename: fish-audio-agents-api-openapi.yml
+  format: yaml
+  label: Fish Audio Agents API
+  slug: fish-audio-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-agents-api-openapi.yml
+- filename: fish-audio-knowledge-sources-api-openapi.yml
+  format: yaml
+  label: Fish Audio Knowledge Sources API
+  slug: fish-audio-knowledge-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-knowledge-sources-api-openapi.yml
+- filename: fish-audio-openapi-v1-api-openapi.yml
+  format: yaml
+  label: Fish Audio OpenAPI v1 API
+  slug: fish-audio-openapi-v1-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-openapi-v1-api-openapi.yml
+- filename: fish-audio-phone-calls-api-openapi.yml
+  format: yaml
+  label: Fish Audio Phone Calls API
+  slug: fish-audio-phone-calls-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-phone-calls-api-openapi.yml
+- filename: fish-audio-phone-numbers-api-openapi.yml
+  format: yaml
+  label: Fish Audio Phone Numbers API
+  slug: fish-audio-phone-numbers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fish-audio/openapi/fish-audio-phone-numbers-api-openapi.yml
 auth_types:
 - http
 description: ''

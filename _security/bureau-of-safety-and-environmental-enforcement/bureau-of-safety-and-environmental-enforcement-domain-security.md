@@ -29,7 +29,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Bureau Of Safety And Environmental Enforcement Domain Security
+name: Bureau of Safety and Environmental Enforcement Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Bureau of Safety and Environmental Enforcement, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Bureau of Safety and Environmental Enforcement

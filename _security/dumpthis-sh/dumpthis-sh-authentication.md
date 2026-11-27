@@ -47,7 +47,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Dumpthis Sh Authentication
+name: V Tracer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: V Tracer secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

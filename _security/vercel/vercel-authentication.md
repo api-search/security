@@ -7,7 +7,7 @@ api_specs:
   label: Vercel Webhooks
   slug: vercel-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/asyncapi/vercel-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/vercel/asyncapi/vercel-webhooks-asyncapi.yml
 - filename: vercel-chats-api-openapi.yml
   format: yaml
   label: Vercel Chats API

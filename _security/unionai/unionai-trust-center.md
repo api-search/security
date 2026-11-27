@@ -55,7 +55,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Unionai Trust Center
+name: Union.ai Trust Center
 name_suffix: Trust Center
 overview: Union.ai maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Union.ai

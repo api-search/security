@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Jid Com Authentication
+name: jid-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: jid-com declares 1 security scheme(s) across its OpenAPI definitions.

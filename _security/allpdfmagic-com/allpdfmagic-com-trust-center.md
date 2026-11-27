@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Allpdfmagic Com Trust Center
+name: AllPDFMagic Trust Center
 name_suffix: Trust Center
 overview: AllPDFMagic maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: AllPDFMagic

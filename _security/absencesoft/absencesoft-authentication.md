@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Absencesoft Authentication
+name: AbsenceSoft Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

@@ -470,4 +470,7 @@ tags:
 - File Transfer
 - FTP
 - SFTP
+- FTPS
+- AS2
+- Managed File Transfer
 ---

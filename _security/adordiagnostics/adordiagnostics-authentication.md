@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Adordiagnostics Authentication
+name: ADOR Diagnostics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ADOR Diagnostics secures its APIs with none and bearer-token across 2 declared security schemes, as derived from its OpenAPI definitions.

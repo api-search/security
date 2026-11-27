@@ -54,12 +54,12 @@ api_specs:
   slug: exchangerate-api-currencies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-currencies-api-openapi.yml
-- filename: exchangerate-api-exchange-rates-api-openapi.yml
+- filename: exchangerate-api-latest-api-openapi.yml
   format: yaml
-  label: ExchangeRate-API Exchange Rates API
-  slug: exchangerate-api-exchange-rates-api
+  label: ExchangeRate-API Latest API
+  slug: exchangerate-api-latest-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-latest-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +94,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Exchangerate Api Domain Security
+name: ExchangeRate-API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ExchangeRate-API, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: ExchangeRate-API

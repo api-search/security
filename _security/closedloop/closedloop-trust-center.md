@@ -76,7 +76,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Closedloop Trust Center
+name: ClosedLoop AI Trust Center
 name_suffix: Trust Center
 overview: ClosedLoop AI maintains a public trust center documenting SOC 2 Type II, ISO 27001, PCI DSS, HIPAA, and FedRAMP compliance.
 provider_name: ClosedLoop AI

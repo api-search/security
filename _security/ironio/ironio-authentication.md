@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ironio Authentication
+name: Iron.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Iron.io secures its APIs with oauth2-token across 2 declared security schemes, as derived from its OpenAPI definitions.

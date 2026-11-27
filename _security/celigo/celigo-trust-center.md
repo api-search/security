@@ -5,7 +5,7 @@ api_specs:
   label: Celigo integrator.io Webhook Listeners
   slug: celigo-webhook-listeners
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/celigo/refs/heads/main/asyncapi/celigo-webhook-listeners-asyncapi.yml
+  url: https://artifacts.apis.io/celigo/asyncapi/celigo-webhook-listeners-asyncapi.yml
 - filename: celigo-connections-api-openapi.yml
   format: yaml
   label: Celigo Connections API

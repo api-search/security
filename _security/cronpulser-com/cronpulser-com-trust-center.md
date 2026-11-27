@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cronpulser Com Trust Center
+name: CronPulser Trust Center
 name_suffix: Trust Center
 overview: CronPulser maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: CronPulser
@@ -28,7 +28,7 @@ summary_line: SOC 2, ISO 27001
 tags:
 - HTTP Scheduler
 - API Scheduling
-- runner
+- Runner
 - TLS Monitoring
 trust_url: https://cronpulser.com/security/
 ---

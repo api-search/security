@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Archestack Com Authentication
+name: Archestack Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Archestack declares 0 security scheme(s) across its OpenAPI definitions.

@@ -2,24 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: microsoft-to-do-linkedresources-api-openapi.yml
-  format: yaml
-  label: Microsoft to Do LinkedResources API
-  slug: microsoft-to-do-linkedresources-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-linkedresources-api-openapi.yml
-- filename: microsoft-to-do-tasklists-api-openapi.yml
-  format: yaml
-  label: Microsoft to Do TaskLists API
-  slug: microsoft-to-do-tasklists-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-tasklists-api-openapi.yml
-- filename: microsoft-to-do-tasks-api-openapi.yml
-  format: yaml
-  label: Microsoft to Do Tasks API
-  slug: microsoft-to-do-tasks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-tasks-api-openapi.yml
 - filename: microsoft-to-do-me-todo-api-openapi.yml
   format: yaml
   label: Microsoft To Do Me.todo API
@@ -32,12 +14,6 @@ api_specs:
   slug: microsoft-to-do-users-todo-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-users-todo-api-openapi.yml
-- filename: microsoft-to-do-checklist-items-api-openapi.yml
-  format: yaml
-  label: Microsoft To Do Checklist Items API
-  slug: microsoft-to-do-checklist-items-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-to-do/openapi/microsoft-to-do-checklist-items-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -57,16 +33,16 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/microsoft-to-do-checklist-items-api-openapi.yml
-  - openapi/microsoft-to-do-linkedresources-api-openapi.yml
-  - openapi/microsoft-to-do-tasklists-api-openapi.yml
-  - openapi/microsoft-to-do-tasks-api-openapi.yml
+  - openapi/_superseded/microsoft-to-do-checklist-items-api-openapi.yml
+  - openapi/_superseded/microsoft-to-do-linkedresources-api-openapi.yml
+  - openapi/_superseded/microsoft-to-do-tasklists-api-openapi.yml
+  - openapi/_superseded/microsoft-to-do-tasks-api-openapi.yml
   type: http
 slug: microsoft-to-do-authentication
 source_filename: microsoft-to-do-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-to-do-checklist-items-api-openapi.yml, openapi/microsoft-to-do-linkedresources-api-openapi.yml,\n  openapi/microsoft-to-do-tasklists-api-openapi.yml, openapi/microsoft-to-do-tasks-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-to-do-checklist-items-api-openapi.yml\n  - openapi/microsoft-to-do-linkedresources-api-openapi.yml\n  - openapi/microsoft-to-do-tasklists-api-openapi.yml\n  - openapi/microsoft-to-do-tasks-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/_superseded/microsoft-to-do-checklist-items-api-openapi.yml, openapi/_superseded/microsoft-to-do-linkedresources-api-openapi.yml,\n  openapi/_superseded/microsoft-to-do-tasklists-api-openapi.yml, openapi/_superseded/microsoft-to-do-tasks-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/_superseded/microsoft-to-do-checklist-items-api-openapi.yml\n  - openapi/_superseded/microsoft-to-do-linkedresources-api-openapi.yml\n  - openapi/_superseded/microsoft-to-do-tasklists-api-openapi.yml\n  - openapi/_superseded/microsoft-to-do-tasks-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-to-do/authentication/microsoft-to-do-authentication.yml
 summary_line: http · 1 scheme
 tags:

@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Connext Authentication
+name: Everclear Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Everclear declares 0 security scheme(s) across its OpenAPI definitions.

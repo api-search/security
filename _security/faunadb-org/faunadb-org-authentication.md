@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Faunadb Org Authentication
+name: Fauna Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fauna declares 1 security scheme(s) across its OpenAPI definitions.

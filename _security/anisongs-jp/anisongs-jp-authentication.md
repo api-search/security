@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anisongs Jp Authentication
+name: Anisongs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Anisongs declares 0 security scheme(s) across its OpenAPI definitions.

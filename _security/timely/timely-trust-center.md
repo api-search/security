@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Timely Trust Center
+name: Timely (Memory AS) Trust Center
 name_suffix: Trust Center
 overview: Timely (Memory AS) maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Timely (Memory AS)

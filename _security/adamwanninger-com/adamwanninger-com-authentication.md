@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Adamwanninger Com Authentication
+name: adamwanninger-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: adamwanninger-com declares 0 security scheme(s) across its OpenAPI definitions.

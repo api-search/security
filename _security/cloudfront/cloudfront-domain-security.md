@@ -192,6 +192,12 @@ api_specs:
   slug: cloudfront-vpc-origin-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cloudfront/openapi/cloudfront-vpc-origin-api-openapi.yml
+- filename: cloudfront-keys-api-openapi.yml
+  format: yaml
+  label: CloudFront Keys API
+  slug: cloudfront-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudfront/openapi/cloudfront-keys-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -228,7 +234,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Cloudfront Domain Security
+name: CloudFront Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CloudFront, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: CloudFront

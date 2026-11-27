@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Brownie Authentication
+name: IncidentFox (Brownie) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IncidentFox (Brownie) secures its APIs with http and openIdConnect across 3 declared security schemes, as derived from its OpenAPI definitions.

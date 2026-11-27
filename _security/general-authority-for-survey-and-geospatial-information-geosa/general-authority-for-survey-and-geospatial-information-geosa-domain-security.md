@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: General Authority For Survey And Geospatial Information Geosa Domain Security
+name: General Authority for Survey and Geospatial Information (GEOSA) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for General Authority for Survey and Geospatial Information (GEOSA), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: General Authority for Survey and Geospatial Information (GEOSA)

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Versyka Com Authentication
+name: versyka-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: versyka-com declares 0 security scheme(s) across its OpenAPI definitions.

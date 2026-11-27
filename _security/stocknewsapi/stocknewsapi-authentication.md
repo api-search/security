@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Stocknewsapi Authentication
+name: StockNewsAPI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: StockNewsAPI declares 1 security scheme(s) across its OpenAPI definitions.

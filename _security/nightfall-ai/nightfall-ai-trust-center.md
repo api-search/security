@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nightfall Ai Trust Center
+name: Nightfall AI Trust Center
 name_suffix: Trust Center
 overview: Nightfall AI maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Nightfall AI

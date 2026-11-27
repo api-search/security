@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Fyld Trust Center
+name: FYLD Trust Center
 name_suffix: Trust Center
 overview: FYLD maintains a public trust center covering its security and compliance posture.
 provider_name: FYLD

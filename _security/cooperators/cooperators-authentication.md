@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Cooperators Authentication
+name: The Co-operators Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

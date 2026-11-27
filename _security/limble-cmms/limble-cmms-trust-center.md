@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Limble Cmms Trust Center
+name: Limble CMMS Trust Center
 name_suffix: Trust Center
 overview: Limble CMMS maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Limble CMMS

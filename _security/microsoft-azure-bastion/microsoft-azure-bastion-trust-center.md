@@ -1,24 +1,24 @@
 ---
 api_specs:
-- filename: microsoft-azure-bastion-bastion-hosts-api-openapi.yml
+- filename: microsoft-azure-bastion-bastionhosts-api-openapi.yml
   format: yaml
-  label: Azure Bastion Hosts API
-  slug: microsoft-azure-bastion-bastion-hosts-api
+  label: Azure Bastion Bastion Hosts API
+  slug: microsoft-azure-bastion-bastionhosts-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-bastion-hosts-api-openapi.yml
-- filename: microsoft-azure-bastion-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-bastionhosts-api-openapi.yml
+- filename: microsoft-azure-bastion-bastionshareablelink-api-openapi.yml
   format: yaml
-  label: Azure Bastion Operations API
-  slug: microsoft-azure-bastion-operations-api
+  label: Azure Bastion Bastion Shareable Link API
+  slug: microsoft-azure-bastion-bastionshareablelink-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-operations-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-bastion/openapi/microsoft-azure-bastion-bastionshareablelink-api-openapi.yml
 certification_count: 1
 certifications:
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Microsoft Azure Bastion Trust Center
+name: Azure Bastion Trust Center
 name_suffix: Trust Center
 overview: Azure Bastion maintains a public trust center documenting GDPR compliance.
 provider_name: Azure Bastion

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Coinnudge Api Authentication
+name: CoinNudge API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CoinNudge API declares 1 security scheme(s) across its OpenAPI definitions.

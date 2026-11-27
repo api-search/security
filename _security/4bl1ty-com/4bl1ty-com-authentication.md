@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: 4Bl1Ty Com Authentication
+name: 4bl1ty Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 4bl1ty declares 2 security scheme(s) across its OpenAPI definitions.

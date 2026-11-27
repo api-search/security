@@ -26,6 +26,42 @@ api_specs:
   slug: microsoft-365-copilot-user-content-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-user-content-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-aiinteractionhistory-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.ai Interaction History API
+  slug: microsoft-365-copilot-copilot-aiinteractionhistory-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-aiinteractionhistory-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-aiuser-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.ai User API
+  slug: microsoft-365-copilot-copilot-aiuser-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-aiuser-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-copilotadmin-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.copilot Admin API
+  slug: microsoft-365-copilot-copilot-copilotadmin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-copilotadmin-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-copilotreportroot-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.copilot Report Root API
+  slug: microsoft-365-copilot-copilot-copilotreportroot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-copilotreportroot-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-copilotroot-actions-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.copilot Root.Actions API
+  slug: microsoft-365-copilot-copilot-copilotroot-actions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-copilotroot-actions-api-openapi.yml
+- filename: microsoft-365-copilot-copilot-copilotroot-api-openapi.yml
+  format: yaml
+  label: Microsoft 365 Copilot Copilot.copilot Root API
+  slug: microsoft-365-copilot-copilot-copilotroot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-365-copilot/openapi/microsoft-365-copilot-copilot-copilotroot-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -54,13 +90,17 @@ schemes:
     tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token
   name: oauth2
   sources:
-  - openapi/microsoft-365-copilot-openapi.yml
+  - openapi/microsoft-365-copilot-connectors-api-openapi.yml
+  - openapi/microsoft-365-copilot-external-items-api-openapi.yml
+  - openapi/microsoft-365-copilot-search-api-openapi.yml
+  - openapi/microsoft-365-copilot-user-content-api-openapi.yml
   type: oauth2
 slug: microsoft-365-copilot-authentication
 source_filename: microsoft-365-copilot-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-365-copilot-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 6\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  description: Microsoft Entra ID OAuth 2.0\n  sources:\n  - openapi/microsoft-365-copilot-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-365-copilot-connectors-api-openapi.yml, openapi/microsoft-365-copilot-external-items-api-openapi.yml,\n  openapi/microsoft-365-copilot-search-api-openapi.yml, openapi/microsoft-365-copilot-user-content-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\n  - clientCredentials\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 6\n  - flow: clientCredentials\n    tokenUrl: https://login.microsoftonline.com/common/oauth2/v2.0/token\n    scopes: 1\n  description: Microsoft Entra ID OAuth 2.0\n  sources:\n  - openapi/microsoft-365-copilot-connectors-api-openapi.yml\n  - openapi/microsoft-365-copilot-external-items-api-openapi.yml\n  - openapi/microsoft-365-copilot-search-api-openapi.yml\n\
+  \  - openapi/microsoft-365-copilot-user-content-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-365-copilot/authentication/microsoft-365-copilot-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

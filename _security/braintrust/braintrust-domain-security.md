@@ -138,6 +138,24 @@ api_specs:
   slug: braintrust-acls-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/braintrust/openapi/braintrust-acls-api-openapi.yml
+- filename: braintrust-agents-api-openapi.yml
+  format: yaml
+  label: Braintrust Agents API
+  slug: braintrust-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/braintrust/openapi/braintrust-agents-api-openapi.yml
+- filename: braintrust-orgautomations-api-openapi.yml
+  format: yaml
+  label: Braintrust Org Automations API
+  slug: braintrust-orgautomations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/braintrust/openapi/braintrust-orgautomations-api-openapi.yml
+- filename: braintrust-projectgroups-api-openapi.yml
+  format: yaml
+  label: Braintrust Project Groups API
+  slug: braintrust-projectgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/braintrust/openapi/braintrust-projectgroups-api-openapi.yml
 - filename: braintrust-api-keys-api-openapi.yml
   format: yaml
   label: Braintrust API Keys API

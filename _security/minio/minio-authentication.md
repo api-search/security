@@ -12,7 +12,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Minio Authentication
+name: MinIO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MinIO secures its APIs with signature-v4, sts, ldap, and oidc across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Synthient Authentication
+name: Synthient API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Synthient API declares 1 security scheme(s) across its OpenAPI definitions.

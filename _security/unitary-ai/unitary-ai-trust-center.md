@@ -35,7 +35,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Unitary Ai Trust Center
+name: Unitary AI Trust Center
 name_suffix: Trust Center
 overview: Unitary AI maintains a public trust center covering its security and compliance posture.
 provider_name: Unitary AI

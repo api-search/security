@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - cookie
 api_specs:
-- filename: ivans-agencies-api-openapi.yml
-  format: yaml
-  label: IVANS Agencies API
-  slug: ivans-agencies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/ivans/openapi/ivans-agencies-api-openapi.yml
 - filename: ivans-agents-api-openapi.yml
   format: yaml
   label: IVANS Agents API
@@ -495,6 +489,12 @@ api_specs:
   slug: ivans-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/ivans/openapi/ivans-webhooks-api-openapi.yml
+- filename: ivans-agencies-api-openapi.yml
+  format: yaml
+  label: IVANS Agencies API
+  slug: ivans-agencies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-agencies-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -504,7 +504,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: derived
-name: Ivans Authentication
+name: IVANS Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

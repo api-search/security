@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Cloudwalk Authentication
+name: CloudWalk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CloudWalk declares 0 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Avnester Com Authentication
+name: AVnester Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AVnester declares 3 security scheme(s) across its OpenAPI definitions.

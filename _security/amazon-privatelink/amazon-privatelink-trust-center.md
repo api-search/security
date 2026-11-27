@@ -34,7 +34,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Privatelink Trust Center
+name: Amazon PrivateLink Trust Center
 name_suffix: Trust Center
 overview: Amazon PrivateLink maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon PrivateLink

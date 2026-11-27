@@ -347,7 +347,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Nationgraph Authentication
+name: NationGraph Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NationGraph secures its APIs with oauth2, openIdConnect, and http across 3 declared security schemes, as derived from its OpenAPI definitions.

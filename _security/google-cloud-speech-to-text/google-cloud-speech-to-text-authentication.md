@@ -14,6 +14,12 @@ api_specs:
   slug: google-cloud-speech-to-text-speech-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-speech-to-text/openapi/google-cloud-speech-to-text-speech-api-openapi.yml
+- filename: google-cloud-speech-to-text-projects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Speech-To-Text Cloud Speech To Text Projects API
+  slug: google-cloud-speech-to-text-projects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-speech-to-text/openapi/google-cloud-speech-to-text-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -21,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Cloud Speech To Text Authentication
+name: Google Cloud Speech-To-Text Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

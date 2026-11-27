@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Powmcp Com Authentication
+name: powmcp-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: powmcp-com declares 1 security scheme(s) across its OpenAPI definitions.

@@ -120,7 +120,7 @@ certifications:
 description: Abnormal AI runs a public trust center at security.abnormal.ai (SafeBase). It publishes the certification and compliance set below, gated security reports (US and EU penetration test reports, a SOC 2 bridge letter, network and data-flow diagrams), and links to the responsible-disclosure policy at abnormal.ai/legal/disclosure.
 kind: trust-center
 layout: security
-name: Abnormal Trust Center
+name: Abnormal AI Trust Center
 name_suffix: Trust Center
 overview: Abnormal AI maintains a public trust center documenting SOC 2, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001:2023, CSA STAR, FedRAMP Moderate, GovRAMP, TX-RAMP, CMMC, Cyber Essentials Plus, CJIS, ITAR, and VPAT compliance.
 provider_name: Abnormal AI

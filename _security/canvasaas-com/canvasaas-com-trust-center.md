@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Canvasaas Com Trust Center
+name: CanvasaaS Trust Center
 name_suffix: Trust Center
 overview: CanvasaaS maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: CanvasaaS

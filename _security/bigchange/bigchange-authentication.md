@@ -2,24 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: bigchange-assets-api-openapi.yml
-  format: yaml
-  label: BigChange Assets API
-  slug: bigchange-assets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bigchange/openapi/bigchange-assets-api-openapi.yml
 - filename: bigchange-contacts-api-openapi.yml
   format: yaml
   label: BigChange Contacts API
   slug: bigchange-contacts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bigchange/openapi/bigchange-contacts-api-openapi.yml
-- filename: bigchange-finance-api-openapi.yml
-  format: yaml
-  label: BigChange Finance API
-  slug: bigchange-finance-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bigchange/openapi/bigchange-finance-api-openapi.yml
 - filename: bigchange-jobs-api-openapi.yml
   format: yaml
   label: BigChange Jobs API
@@ -32,12 +20,6 @@ api_specs:
   slug: bigchange-persons-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bigchange/openapi/bigchange-persons-api-openapi.yml
-- filename: bigchange-reference-data-api-openapi.yml
-  format: yaml
-  label: BigChange Reference Data API
-  slug: bigchange-reference-data-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bigchange/openapi/bigchange-reference-data-api-openapi.yml
 - filename: bigchange-resources-api-openapi.yml
   format: yaml
   label: BigChange Resources API
@@ -62,12 +44,6 @@ api_specs:
   slug: bigchange-vehicles-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bigchange/openapi/bigchange-vehicles-api-openapi.yml
-- filename: bigchange-webhooks-api-openapi.yml
-  format: yaml
-  label: BigChange Webhooks API
-  slug: bigchange-webhooks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bigchange/openapi/bigchange-webhooks-api-openapi.yml
 - filename: bigchange-absences-api-openapi.yml
   format: yaml
   label: BigChange Absences API
@@ -188,6 +164,12 @@ api_specs:
   slug: bigchange-purchase-orders-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bigchange/openapi/bigchange-purchase-orders-api-openapi.yml
+- filename: bigchange-reference-data-api-openapi.yml
+  format: yaml
+  label: BigChange Reference Data API
+  slug: bigchange-reference-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bigchange/openapi/bigchange-reference-data-api-openapi.yml
 - filename: bigchange-resource-groups-api-openapi.yml
   format: yaml
   label: BigChange Resource Groups API
@@ -201,7 +183,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Bigchange Authentication
+name: BigChange Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BigChange secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

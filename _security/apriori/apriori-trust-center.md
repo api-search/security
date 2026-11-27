@@ -20,7 +20,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Apriori Trust Center
+name: aPriori Trust Center
 name_suffix: Trust Center
 overview: aPriori maintains a public trust center documenting ISO/IEC 27001, SOC 2, and GDPR compliance.
 provider_name: aPriori

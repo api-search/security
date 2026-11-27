@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Pixee Ai Authentication
+name: Pixee Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Pixee declares 1 security scheme(s) across its OpenAPI definitions.
@@ -69,7 +69,7 @@ tags:
 - Security
 - Application Security
 - AppSec
-- Vulnerability Remediation
+- Vulnerability-Remediation
 - Static Analysis
 - SARIF
 - Code Security

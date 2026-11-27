@@ -51,7 +51,7 @@ tags:
 - Procurement
 - Inventory
 - Business Planning
-- PEPPOL
+- Peppol
 - E-Invoicing
 - Service Organizations
 - Public Sector

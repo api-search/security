@@ -69,6 +69,7 @@ header:
         items:
           - { key: regions, label: Regions, url: 'https://apis.io/regions/' }
           - { key: countries, label: Countries, url: 'https://apis.io/countries/' }
+          - { key: cities, label: Cities, url: 'https://apis.io/cities/' }
       # Regulations sit under Catalog rather than Artifacts on purpose. A standard is an
       # artifact a provider can publish; a law is context that reaches a cohort whether the
       # provider acknowledges it or not. The section's value is the join — every regulation
@@ -124,7 +125,26 @@ header:
           - { key: skills, label: Agent Skills, url: 'https://apis.io/agent-skills/' }
           - { key: llms-txt, label: llms.txt, url: 'https://apis.io/llms-txt/' }
           - { key: ai-catalog, label: AI Catalog, url: 'https://apis.io/ai-catalog/' }
+          - { key: agentic-commerce, label: Agentic Commerce, url: 'https://apis.io/agentic-commerce/' }
+          - { key: api-catalog, label: API Catalog, url: 'https://apis.io/api-catalog/' }
           - { key: rules, label: Rules, url: 'https://apis.io/rules/' }
+      # Agent Onboarding (Kin, 2026-11-25): one page per standard, in the order of
+      # apievangelist.com/2026/11/20/the-spectrum-of-agent-onboarding-standards/
+      - header: Agent Onboarding
+        items:
+          - { key: agent-auth, label: All Onboarding, url: 'https://apis.io/agent-auth/' }
+          - { key: protected-resource-metadata, label: Protected Resource Metadata, url: 'https://apis.io/protected-resource-metadata/' }
+          - { key: authorization-server-metadata, label: Authorization Server Metadata, url: 'https://apis.io/authorization-server-metadata/' }
+          - { key: openid-connect-discovery, label: OpenID Connect Discovery, url: 'https://apis.io/openid-connect-discovery/' }
+          - { key: dynamic-client-registration, label: Dynamic Client Registration, url: 'https://apis.io/dynamic-client-registration/' }
+          - { key: client-id-metadata-document, label: Client ID Metadata Document, url: 'https://apis.io/client-id-metadata-document/' }
+          - { key: auth-md, label: auth.md, url: 'https://apis.io/auth-md/' }
+          - { key: poppy, label: Poppy, url: 'https://apis.io/poppy/' }
+          - { key: id-jag, label: ID-JAG, url: 'https://apis.io/id-jag/' }
+          - { key: device-authorization-grant, label: Device Authorization Grant, url: 'https://apis.io/device-authorization-grant/' }
+          - { key: ciba, label: CIBA, url: 'https://apis.io/ciba/' }
+          - { key: token-exchange, label: Token Exchange, url: 'https://apis.io/token-exchange/' }
+          - { key: web-bot-auth, label: Web Bot Auth, url: 'https://apis.io/web-bot-auth/' }
 
   # How safe / how expensive — the read-the-risk menu.
   - key: signals
@@ -142,6 +162,18 @@ header:
           - { key: rate-limits, label: Rate Limits, url: 'https://apis.io/rate-limits/' }
           - { key: sla, label: Service Levels, url: 'https://apis.io/sla/' }
           - { key: finops, label: FinOps, url: 'https://apis.io/finops/' }
+      # Machine-readable business layers (planning/machine-readable-business/CONTRACT.md): each read
+      # from the provider's own page, quoted verbatim, never synthetic. /api-terms/ and /api-privacy/
+      # because /terms/ and /privacy/ are APIs.io's own legal pages.
+      - header: Business Terms
+        items:
+          - { key: api-terms, label: Terms of Service, url: 'https://apis.io/api-terms/' }
+          - { key: api-privacy, label: Privacy & Data, url: 'https://apis.io/api-privacy/' }
+          - { key: deprecation, label: Deprecation, url: 'https://apis.io/deprecation/' }
+          - { key: compliance, label: Compliance, url: 'https://apis.io/compliance/' }
+          - { key: eligibility, label: Eligibility, url: 'https://apis.io/eligibility/' }
+          - { key: ai-preferences, label: AI Preferences, url: 'https://apis.io/ai-preferences/' }
+          - { key: data-licenses, label: Data Licenses, url: 'https://apis.io/data-licenses/' }
 
   - key: rating
     label: Kin Score

@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Billgo Trust Center
+name: BillGO Trust Center
 name_suffix: Trust Center
 overview: BillGO maintains a public trust center documenting SOC 2 Type II, SOC 1 Type I, and PCI DSS Level 1 (via service providers) compliance.
 provider_name: BillGO

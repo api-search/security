@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sully Ai Trust Center
+name: Sully AI Trust Center
 name_suffix: Trust Center
 overview: Sully AI maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Sully AI

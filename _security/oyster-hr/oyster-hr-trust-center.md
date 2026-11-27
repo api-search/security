@@ -150,7 +150,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Oyster Hr Trust Center
+name: Oyster HR Trust Center
 name_suffix: Trust Center
 overview: Oyster HR maintains a public trust center documenting SOC 2 compliance.
 provider_name: Oyster HR

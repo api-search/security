@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Unwired Labs Authentication
+name: Unwired Labs (incl. OpenCelliD) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Unwired Labs (incl. OpenCelliD) declares 1 security scheme(s) across its OpenAPI definitions.

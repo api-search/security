@@ -33,7 +33,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Nsw Land Registry Domain Security
+name: NSW Land Registry Services Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for NSW Land Registry Services, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC absent.'
 provider_name: NSW Land Registry Services

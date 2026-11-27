@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Readsoft Trust Center
+name: ReadSoft Trust Center
 name_suffix: Trust Center
 overview: ReadSoft maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: ReadSoft

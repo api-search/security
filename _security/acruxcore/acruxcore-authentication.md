@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Acruxcore Authentication
+name: Acrux Core Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Acrux Core declares 1 security scheme(s) across its OpenAPI definitions.

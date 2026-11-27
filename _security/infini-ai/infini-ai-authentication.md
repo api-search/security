@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Infini Ai Authentication
+name: Infini-AI (无问芯穹) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Infini-AI (无问芯穹) secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

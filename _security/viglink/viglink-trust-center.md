@@ -54,7 +54,7 @@ certifications:
 description: Sovrn — the operator of VigLink / Sovrn Commerce — publishes a Trust Center on its corporate domain, plus a separate public security-program page. One industry certification is named (TAG Platinum); no SOC 2, ISO 27001, PCI DSS or HIPAA attestation is named or offered for download on either page.
 kind: trust-center
 layout: security
-name: Viglink Trust Center
+name: VigLink (Sovrn Commerce) Trust Center
 name_suffix: Trust Center
 overview: VigLink (Sovrn Commerce) maintains a public trust center documenting TAG Platinum compliance.
 provider_name: VigLink (Sovrn Commerce)

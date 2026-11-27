@@ -53,7 +53,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Mystate Bank Authentication
+name: MyState Bank Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

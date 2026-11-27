@@ -1317,6 +1317,18 @@ api_specs:
   slug: aws-glue-usage-profile-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-glue/openapi/aws-glue-usage-profile-api-openapi.yml
+- filename: aws-glue-data-quality-evaluation-config-api-openapi.yml
+  format: yaml
+  label: AWS Glue Glue Data Quality Evaluation Config API
+  slug: aws-glue-data-quality-evaluation-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-glue/openapi/aws-glue-data-quality-evaluation-config-api-openapi.yml
+- filename: aws-glue-job-upgrade-analysis-api-openapi.yml
+  format: yaml
+  label: AWS Glue Glue Job Upgrade Analysis API
+  slug: aws-glue-job-upgrade-analysis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-glue/openapi/aws-glue-job-upgrade-analysis-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -1324,7 +1336,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Aws Glue Authentication
+name: AWS Glue Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AWS Glue secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

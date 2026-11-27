@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Plextrac Llc Trust Center
+name: PlexTrac Trust Center
 name_suffix: Trust Center
 overview: PlexTrac maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: PlexTrac

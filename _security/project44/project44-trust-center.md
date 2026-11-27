@@ -37,7 +37,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Project44 Trust Center
+name: project44 Trust Center
 name_suffix: Trust Center
 overview: project44 maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: project44

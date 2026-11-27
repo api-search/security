@@ -240,7 +240,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Aftership Domain Security
+name: AfterShip Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AfterShip, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: AfterShip

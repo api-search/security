@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Takehomeapi Com Authentication
+name: takehomeapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: takehomeapi-com declares 2 security scheme(s) across its OpenAPI definitions.

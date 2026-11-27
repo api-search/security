@@ -205,7 +205,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Openobserve Trust Center
+name: OpenObserve Trust Center
 name_suffix: Trust Center
 overview: OpenObserve maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: OpenObserve

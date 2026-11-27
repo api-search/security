@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Soundchecklive Io Authentication
+name: soundchecklive-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: soundchecklive-io declares 0 security scheme(s) across its OpenAPI definitions.

@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Opensense Formerly Sendergen Trust Center
+name: Opensense (formerly SenderGen) Trust Center
 name_suffix: Trust Center
 overview: Opensense (formerly SenderGen) maintains a public trust center documenting SOC 2, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: Opensense (formerly SenderGen)

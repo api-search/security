@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Jobo World Authentication
+name: jobo-world Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: jobo-world declares 1 security scheme(s) across its OpenAPI definitions.

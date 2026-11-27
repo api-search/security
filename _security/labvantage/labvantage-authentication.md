@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Labvantage Authentication
+name: LabVantage Solutions Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LabVantage Solutions secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

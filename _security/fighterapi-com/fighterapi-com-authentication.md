@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Fighterapi Com Authentication
+name: fighterapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: fighterapi-com declares 2 security scheme(s) across its OpenAPI definitions.

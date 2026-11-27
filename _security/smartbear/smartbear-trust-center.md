@@ -38,7 +38,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Smartbear Trust Center
+name: SmartBear Trust Center
 name_suffix: Trust Center
 overview: SmartBear maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: SmartBear

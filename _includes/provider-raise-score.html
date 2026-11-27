@@ -13,6 +13,17 @@
                        Facets are ranked by weight x headroom — the composite points on the
                        table — never by the lowest score (a low-weight facet is rarely the
                        best move).
+
+  ASK ABOUT THIS ITEM (2026-11-12, Kin, after Telesign). A whole-score engagement depends on the
+  provider being able to ship everything, and a patchwork estate often cannot -- the work gets
+  stalled by their mess, not ours. So each item gets its own small door: one question about ONE
+  facet or check, sent with the asker's role, to POST /api/v1/submit topic=score-question (one
+  email, nothing automated). Kin reads it, assesses the provider and the person, and replies with
+  a paid, scoped fix for that one area. The knowledge is the product; whether they ship it is theirs.
+
+  FIX KITS (2026-11-18, Kin). An agent-readiness check listed in _data/fix_kits.yml gets a
+  "Fix kit" link to kits.apievangelist.com, carrying the provider and check for attribution.
+  The kit teaches the fix; paying never moves a score.
 {%- endcomment -%}
 {%- assign _rub = site.data.scoring -%}
 {%- assign _dims = page.agent_readiness.dimensions -%}
@@ -23,6 +34,26 @@
     {%- if _dims[d.id] == false -%}{%- assign _unmet = _unmet | push: d -%}{%- endif -%}
   {%- endfor -%}
 {%- endif -%}
+
+{%- comment -%} YOUR TOP THREE (2026-11-20, Kin: "do what matters, not everything"). Of the kits covering an
+  unmet check here, the three with the most points per day of effort. Approximate on purpose: the exact
+  ranking (Kin Score checks, partial credit, band gates) is what_can_i_fix `priorities`. {%- endcomment -%}
+{%- assign _kitrows = "" | split: "" -%}
+{%- assign _seen = "" -%}
+{%- for d in _unmet -%}
+  {%- assign _k = site.data.fix_kits[d.id] -%}
+  {%- if _k and _seen contains _k -%}{%- continue -%}{%- endif -%}
+  {%- if _k -%}
+    {%- assign _seen = _seen | append: "|" | append: _k -%}
+    {%- assign _pts = 0 -%}{%- assign _labels = "" -%}
+    {%- for d2 in _unmet -%}{%- if site.data.fix_kits[d2.id] == _k -%}{%- assign _pts = _pts | plus: d2.points -%}{%- endif -%}{%- endfor -%}
+    {%- assign _eff = site.data.fix_kit_effort[_k] | default: 1 -%}
+    {%- assign _rate = _pts | times: 1.0 | divided_by: _eff | times: 10 | round | plus: 10000 -%}
+    {%- capture _r -%}{{ _rate }}|{{ _k }}|{{ _pts }}|{{ _eff }}|{{ d.label }}{%- endcapture -%}
+    {%- assign _kitrows = _kitrows | push: _r -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign _kitrows = _kitrows | sort | reverse -%}
 
 {%- assign _fac = "" | split: "" -%}
 {%- for f in page.score.facets -%}
@@ -39,11 +70,24 @@
 {%- if _unmet.size > 0 or _fac.size > 0 -%}
 <div class="rd-foot rd-raise" id="raise-your-score" style="border:2px solid #4e9af5;border-radius:8px;padding:.75rem 1rem;background:#f4f9ff;margin-top:.75rem">
   <strong>Raise your score.</strong>
+  {%- if _kitrows.size > 1 %}
+  {%- assign _top = "" | split: "" -%}{%- assign _tsum = 0 -%}{%- assign _tdays = 0 -%}
+  {%- for r in _kitrows limit: 3 -%}{%- assign _p = r | split: "|" -%}{%- assign _top = _top | push: _p[1] -%}{%- assign _tsum = _tsum | plus: _p[2] -%}{%- assign _tdays = _tdays | plus: _p[3] -%}{%- endfor %}
+  <div class="rys-top3" style="margin:.4rem 0 .6rem;padding:.5rem .75rem;background:#fff;border:1px solid #cfe6d8;border-radius:6px">
+    <div><strong>Don't do everything. Do these {{ _top.size }}:</strong></div>
+    <ol style="margin:.2rem 0 .2rem 1.1rem;padding:0">
+      {%- for r in _kitrows limit: 3 %}{%- assign _p = r | split: "|" %}
+      <li><a href="https://kits.apievangelist.com/kits/{{ _p[1] }}/?provider={{ page.slug | default: page.aid | url_encode }}&amp;utm_source=apis.io&amp;utm_medium=top-three">{{ _p[4] }}</a> <span style="color:#555">+{{ _p[2] }} pts, about {{ _p[3] }} day{% if _p[3] != "1" %}s{% endif %}</span></li>
+      {%- endfor %}
+    </ol>
+    <div style="font-size:.9rem">{{ _tsum }} agent-readiness points for about {{ _tdays }} days of work.{% if _top.size == 3 %} <a href="https://kits.apievangelist.com/priorities/?kits={{ _top | join: ',' }}&amp;provider={{ page.slug | default: page.aid | url_encode }}&amp;utm_source=apis.io&amp;utm_medium=top-three">All three kits, $349 &rarr;</a>{% endif %}{% if _kitrows.size > 3 %} The other {{ _kitrows.size | minus: 3 }} can wait.{% endif %}</div>
+  </div>
+  {%- endif %}
   {%- if _unmet.size > 0 %}
   <div style="margin:.4rem 0 .2rem">Agent readiness — checks not met, largest first (exact, from this profile):</div>
   <ul style="margin:.2rem 0 .5rem 1.1rem;padding:0">
     {%- for d in _unmet limit: 6 %}
-    <li><a href="https://apis.io/rating/dimensions/{{ d.id | replace: '_', '-' }}/">{{ d.label }}</a> <span style="color:#555">+{{ d.points }} pts</span> — {{ d.signal }}</li>
+    <li><a href="https://apis.io/rating/dimensions/{{ d.id | replace: '_', '-' }}/">{{ d.label }}</a> <span style="color:#555">+{{ d.points }} pts</span> — {{ d.signal }} {%- assign _kit = site.data.fix_kits[d.id] -%}{%- if _kit %} <a href="https://kits.apievangelist.com/kits/{{ _kit }}/?provider={{ page.slug | default: page.aid | url_encode }}&amp;check={{ d.id }}&amp;utm_source=apis.io&amp;utm_medium=raise-your-score" class="rys-kit" style="font-size:.85rem;white-space:nowrap">Fix kit, $149 &rarr;</a>{%- endif %} <a href="#raise-your-score" class="rys-ask" data-facet="{{ d.label | escape }}" style="font-size:.85rem;white-space:nowrap">Ask about this &rarr;</a></li>
     {%- endfor %}
   </ul>
   {%- if _unmet.size > 6 %}<div style="font-size:.85rem;color:#555">{{ _unmet.size | minus: 6 }} more unmet check{% if _unmet.size != 7 %}s{% endif %} in the Agent Readiness table above.</div>{% endif %}
@@ -52,10 +96,86 @@
   <div style="margin:.4rem 0 .2rem">Kin Score — facets with the most composite points still available (weight &times; headroom):</div>
   <ul style="margin:.2rem 0 .5rem 1.1rem;padding:0">
     {%- for row in _fac limit: 3 %}{%- assign p = row | split: "|" -%}{%- assign _k = p[1] -%}
-    <li><a href="https://apis.io/rating/facets/{{ p[1] | replace: '_', '-' }}/">{{ _rub.facets[_k].label | default: _k }}</a> <span style="color:#555">scores {{ p[3] }} — up to +{{ p[2] }} composite points</span></li>
+    <li><a href="https://apis.io/rating/facets/{{ p[1] | replace: '_', '-' }}/">{{ _rub.facets[_k].label | default: _k }}</a> <span style="color:#555">scores {{ p[3] }} — up to +{{ p[2] }} composite points</span> <a href="#raise-your-score" class="rys-ask" data-facet="{{ _rub.facets[_k].label | default: _k | escape }}" style="font-size:.85rem;white-space:nowrap">Ask about this &rarr;</a></li>
     {%- endfor %}
   </ul>
   {%- endif %}
   <div style="font-size:.85rem">Each check links to what satisfies it. Publish the artifact, or <a href="https://github.com/api-evangelist/{{ page.slug }}/issues/new">tell us where it already lives</a>, and the score moves on the next scoring run.</div>
+  <div style="font-size:.85rem;margin-top:.35rem"><strong>Not sure how this applies to your stack?</strong> Ask about any one item. Kin Lane reads every question, looks at your profile and your situation, and replies with what a fix would take &mdash; scoped to that one area, priced up front, yours whether you ship it or not. <a href="#raise-your-score" class="rys-ask" data-facet="General question">Ask a question &rarr;</a></div>
 </div>
+
+<dialog id="rys-dialog" style="max-width:520px;width:calc(100% - 32px);border:1px solid #4e9af5;border-radius:8px;padding:1rem 1.1rem">
+  <form id="rys-form" method="dialog" novalidate>
+    <div style="display:flex;justify-content:space-between;align-items:start;gap:1rem">
+      <strong>Ask about: <span id="rys-facet-label"></span></strong>
+      <button type="button" id="rys-close" aria-label="Close" style="border:0;background:none;font-size:1.3rem;line-height:1">&times;</button>
+    </div>
+    <div style="font-size:.85rem;color:#555;margin:.25rem 0 .6rem">{{ page.title | default: page.slug }} &middot; a person reads this and replies by email.</div>
+    <label class="form-label small fw-semibold" for="rys-email">Your email *</label>
+    <input class="form-control form-control-sm mb-2" type="email" id="rys-email" autocomplete="email" required>
+    <label class="form-label small fw-semibold" for="rys-role">Your role *</label>
+    <select class="form-select form-select-sm mb-2" id="rys-role" required>
+      <option value="">Choose one</option>
+      <option>Product manager</option><option>Engineer / architect</option><option>Developer relations / docs</option>
+      <option>Platform / API program lead</option><option>Executive</option><option>Marketing</option><option>Consultant / agency</option><option>Other</option>
+    </select>
+    <label class="form-label small fw-semibold" for="rys-q">Your question *</label>
+    <textarea class="form-control form-control-sm mb-2" id="rys-q" rows="4" required placeholder="What you have today, what is blocking you, who controls it."></textarea>
+    <input type="text" id="rys-website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+    <div id="rys-turnstile" class="mb-2"></div>
+    <div id="rys-msg" class="small mb-2" role="status"></div>
+    <button class="btn btn-primary btn-sm" type="submit" id="rys-send">Send question</button>
+    <span class="small text-muted ms-2">or email <a href="mailto:info@apis.io">info@apis.io</a></span>
+  </form>
+</dialog>
+<script>
+(function () {
+  var dlg = document.getElementById('rys-dialog'); if (!dlg || dlg.dataset.wired) return; dlg.dataset.wired = '1';
+  var SITEKEY = '0x4AAAAAAE8OtzayKemZlt6o', tsId = null, facet = '';
+  var $ = function (id) { return document.getElementById(id); };
+  function say(t, ok) { var m = $('rys-msg'); m.textContent = t; m.style.color = ok ? '#1a7f37' : '#9a6700'; }
+  function renderTs() {
+    if (tsId !== null || !window.turnstile) return;
+    tsId = turnstile.render('#rys-turnstile', { sitekey: SITEKEY, theme: 'light' });
+  }
+  window.rysTsReady = renderTs;
+  function loadTs() {
+    if (window.turnstile) return renderTs();
+    if (document.getElementById('rys-ts-js')) return;
+    var s = document.createElement('script'); s.id = 'rys-ts-js'; s.async = true;
+    s.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=rysTsReady';
+    document.head.appendChild(s);
+  }
+  document.querySelectorAll('.rys-ask').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault(); facet = a.dataset.facet || 'General question';
+      $('rys-facet-label').textContent = facet; say('', true);
+      $('rys-send').disabled = false; $('rys-form').style.display = '';
+      if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+      loadTs();
+    });
+  });
+  $('rys-close').addEventListener('click', function () { dlg.close ? dlg.close() : dlg.removeAttribute('open'); });
+  $('rys-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var email = $('rys-email').value.trim(), role = $('rys-role').value, q = $('rys-q').value.trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return say('Add an email so we can reply.');
+    if (!role) return say('Pick the role closest to yours — it shapes the answer.');
+    if (!q) return say('Ask your question.');
+    var tok = (window.turnstile && tsId !== null) ? (turnstile.getResponse(tsId) || '') : '';
+    var body = { topic: 'score-question', name: {{ page.title | default: page.slug | jsonify }}, provider: {{ page.slug | jsonify }},
+      url: location.href, facet: facet, role: role, contact: email, notes: q, website: $('rys-website').value };
+    if (tok) body.turnstile_token = tok; else body.unverified = true;
+    $('rys-send').disabled = true; say('Sending…', true);
+    fetch('https://apis.io/api/v1/submit', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(body) })
+      .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+      .then(function (x) {
+        if (x.ok) { say(x.j.message || 'Received.', true); $('rys-q').value = ''; }
+        else { say((x.j && x.j.detail) || 'Could not send. Email info@apis.io.'); $('rys-send').disabled = false;
+               if (window.turnstile && tsId !== null) turnstile.reset(tsId); }
+      })
+      .catch(function () { say('Could not send. Email info@apis.io.'); $('rys-send').disabled = false; });
+  });
+})();
+</script>
 {%- endif -%}

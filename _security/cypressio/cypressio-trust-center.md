@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cypressio Trust Center
+name: Cypress.io Trust Center
 name_suffix: Trust Center
 overview: Cypress.io maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: Cypress.io

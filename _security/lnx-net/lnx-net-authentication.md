@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Lnx Net Authentication
+name: lnx-net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: lnx-net declares 0 security scheme(s) across its OpenAPI definitions.
@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/lnx-net/authentication/lnx-net-authen
 summary_line: 0 schemes
 tags:
 - Company
-- Link in Bio
+- Link-in-bio
 - Creator Tools
 - Software-as-a-Service
 - Social Media

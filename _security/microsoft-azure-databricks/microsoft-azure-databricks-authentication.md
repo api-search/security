@@ -1,0 +1,104 @@
+---
+anonymous_access: false
+api_key_in: []
+api_specs:
+- filename: microsoft-azure-databricks-accessconnector-api-openapi.yml
+  format: yaml
+  label: Azure Databricks Access Connector API
+  slug: microsoft-azure-databricks-accessconnector-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-accessconnector-api-openapi.yml
+- filename: microsoft-azure-databricks-delete-api-openapi.yml
+  format: yaml
+  label: Azure Databricks DELETE API
+  slug: microsoft-azure-databricks-delete-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-delete-api-openapi.yml
+- filename: microsoft-azure-databricks-operations-api-openapi.yml
+  format: yaml
+  label: Azure Databricks Operations API
+  slug: microsoft-azure-databricks-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-operations-api-openapi.yml
+- filename: microsoft-azure-databricks-privatelinkresources-api-openapi.yml
+  format: yaml
+  label: Azure Databricks Private Link Resources API
+  slug: microsoft-azure-databricks-privatelinkresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-privatelinkresources-api-openapi.yml
+- filename: microsoft-azure-databricks-put-api-openapi.yml
+  format: yaml
+  label: Azure Databricks PUT API
+  slug: microsoft-azure-databricks-put-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-put-api-openapi.yml
+- filename: microsoft-azure-databricks-vnetpeering-api-openapi.yml
+  format: yaml
+  label: Azure Databricks V Net Peering API
+  slug: microsoft-azure-databricks-vnetpeering-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-vnetpeering-api-openapi.yml
+- filename: microsoft-azure-databricks-workspaces-api-openapi.yml
+  format: yaml
+  label: Azure Databricks Workspaces API
+  slug: microsoft-azure-databricks-workspaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-workspaces-api-openapi.yml
+- filename: microsoft-azure-databricks-private-endpoint-connections-api-openapi.yml
+  format: yaml
+  label: Azure Databricks Private Endpoint Connections API
+  slug: microsoft-azure-databricks-private-endpoint-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-private-endpoint-connections-api-openapi.yml
+auth_types:
+- http
+- oauth2
+description: ''
+kind: authentication
+layout: security
+mechanism_count: 2
+method: derived
+name: Azure Databricks Authentication
+name_suffix: Authentication
+oauth_flows:
+- authorizationCode
+overview: Azure Databricks secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Azure Databricks
+provider_slug: microsoft-azure-databricks
+scheme_count: 2
+schemes:
+- description: Databricks personal access token. Pass the token in the Authorization header as Bearer <token>.
+  name: BearerAuth
+  scheme: bearer
+  sources:
+  - openapi/_superseded/microsoft-azure-databricks-clusters-api-openapi.yml
+  - openapi/_superseded/microsoft-azure-databricks-jobs-api-openapi.yml
+  - openapi/_superseded/microsoft-azure-databricks-workspace-api-openapi.yml
+  type: http
+- description: Azure Active Directory token for authenticating with Azure Databricks. Supports both user and service principal authentication.
+  flows:
+  - authorizationUrl: https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/authorize
+    flow: authorizationCode
+    scopes: 1
+    tokenUrl: https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token
+  name: AzureADToken
+  sources:
+  - openapi/_superseded/microsoft-azure-databricks-clusters-api-openapi.yml
+  - openapi/_superseded/microsoft-azure-databricks-jobs-api-openapi.yml
+  - openapi/_superseded/microsoft-azure-databricks-workspace-api-openapi.yml
+  type: oauth2
+slug: microsoft-azure-databricks-authentication
+source_filename: microsoft-azure-databricks-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/_superseded/microsoft-azure-databricks-clusters-api-openapi.yml, openapi/_superseded/microsoft-azure-databricks-jobs-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-databricks-workspace-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: BearerAuth\n  type: http\n  scheme: bearer\n  description: Databricks personal access token. Pass the token in the Authorization header\n    as Bearer <token>.\n  sources:\n  - openapi/_superseded/microsoft-azure-databricks-clusters-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-databricks-jobs-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-databricks-workspace-api-openapi.yml\n- name: AzureADToken\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/authorize\n    tokenUrl: https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token\n\
+  \    scopes: 1\n  description: Azure Active Directory token for authenticating with Azure Databricks. Supports\n    both user and service principal authentication.\n  sources:\n  - openapi/_superseded/microsoft-azure-databricks-clusters-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-databricks-jobs-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-databricks-workspace-api-openapi.yml\n"
+source_yaml_url: https://artifacts.apis.io/microsoft-azure-databricks/authentication/microsoft-azure-databricks-authentication.yml
+summary_line: http/oauth2 · 2 schemes
+tags:
+- Analytics
+- Apache Spark
+- Big Data
+- Data Engineering
+- Machine Learning
+---

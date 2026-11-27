@@ -59,7 +59,7 @@ kind: authentication
 layout: security
 mechanism_count: 8
 method: searched
-name: Agl Authentication
+name: AGL Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AGL secures its APIs with apiKey and http across 9 declared security schemes, as derived from its OpenAPI definitions.

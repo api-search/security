@@ -116,7 +116,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Copper Co Trust Center
+name: Copper.co Trust Center
 name_suffix: Trust Center
 overview: Copper.co maintains a public trust center documenting SOC 2, ISO 27001, and NIST Cybersecurity Framework compliance.
 provider_name: Copper.co

@@ -215,7 +215,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: First Direct Authentication
+name: first direct Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

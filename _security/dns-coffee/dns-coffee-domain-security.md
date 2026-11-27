@@ -1,4 +1,71 @@
 ---
+api_specs:
+- filename: dns-coffee-auth-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Auth API
+  slug: dns-coffee-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-auth-api-openapi.yml
+- filename: dns-coffee-dnssec-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Dnssec API
+  slug: dns-coffee-dnssec-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-dnssec-api-openapi.yml
+- filename: dns-coffee-domains-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Domains API
+  slug: dns-coffee-domains-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-domains-api-openapi.yml
+- filename: dns-coffee-feeds-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Feeds API
+  slug: dns-coffee-feeds-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-feeds-api-openapi.yml
+- filename: dns-coffee-ips-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Ips API
+  slug: dns-coffee-ips-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-ips-api-openapi.yml
+- filename: dns-coffee-nameservers-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Nameservers API
+  slug: dns-coffee-nameservers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-nameservers-api-openapi.yml
+- filename: dns-coffee-records-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Records API
+  slug: dns-coffee-records-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-records-api-openapi.yml
+- filename: dns-coffee-search-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Search API
+  slug: dns-coffee-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-search-api-openapi.yml
+- filename: dns-coffee-stats-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Stats API
+  slug: dns-coffee-stats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-stats-api-openapi.yml
+- filename: dns-coffee-trends-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Trends API
+  slug: dns-coffee-trends-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-trends-api-openapi.yml
+- filename: dns-coffee-zones-api-openapi.yml
+  format: yaml
+  label: DNS Coffee Zones API
+  slug: dns-coffee-zones-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/dns-coffee/openapi/dns-coffee-zones-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -22,7 +89,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Dns Coffee Domain Security
+name: DNS Coffee Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for DNS Coffee, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC present (p=none).'
 provider_name: DNS Coffee
@@ -38,4 +105,7 @@ tags:
 - DNS
 - Domain Names
 - Domains
+- Zone Files
+- Nameservers
+- Research
 ---

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Arctic Qpon Authentication
+name: Arctic Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Arctic declares 1 security scheme(s) across its OpenAPI definitions.

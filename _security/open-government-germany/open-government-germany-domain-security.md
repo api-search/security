@@ -13,7 +13,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Open Government Germany Domain Security
+name: Open Government, Germany Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Open Government, Germany, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Open Government, Germany

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Asapdevs It Authentication
+name: ASAPDEVS sp. z o.o. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ASAPDEVS sp. z o.o. declares 0 security scheme(s) across its OpenAPI definitions.

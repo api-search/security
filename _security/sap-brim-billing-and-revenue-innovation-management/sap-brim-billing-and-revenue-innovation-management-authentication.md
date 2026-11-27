@@ -71,7 +71,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Sap Brim Billing And Revenue Innovation Management Authentication
+name: SAP BRIM (Billing and Revenue Innovation Management) Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

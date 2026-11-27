@@ -116,7 +116,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Georgia Institute Of Technology Authentication
+name: Georgia Institute of Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Georgia Institute of Technology declares 0 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Centerbeam Trust Center
+name: Centerbeam Voice AI SDK Trust Center
 name_suffix: Trust Center
 overview: Centerbeam Voice AI SDK maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Centerbeam Voice AI SDK

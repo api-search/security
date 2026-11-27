@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Stackadapt Trust Center
+name: StackAdapt Trust Center
 name_suffix: Trust Center
 overview: StackAdapt maintains a public trust center documenting SOC 1 Type II, SOC 2 Type II, PCI DSS, ISO/IEC 27001:2022, and NIST Cybersecurity Framework (CSF) compliance.
 provider_name: StackAdapt

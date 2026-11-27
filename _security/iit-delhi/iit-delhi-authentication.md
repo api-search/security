@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Iit Delhi Authentication
+name: Indian Institute of Technology Delhi Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Indian Institute of Technology Delhi declares 0 security scheme(s) across its OpenAPI definitions.

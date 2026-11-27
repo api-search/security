@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Idrive Authentication
+name: IDrive Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IDrive declares 3 security scheme(s) across its OpenAPI definitions.

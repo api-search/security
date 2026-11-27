@@ -31,7 +31,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dopesecurity Trust Center
+name: dope.security Trust Center
 name_suffix: Trust Center
 overview: dope.security maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
 provider_name: dope.security

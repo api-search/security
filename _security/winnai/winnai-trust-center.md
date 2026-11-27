@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Winnai Trust Center
+name: Winn.ai Trust Center
 name_suffix: Trust Center
 overview: Winn.ai maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Winn.ai

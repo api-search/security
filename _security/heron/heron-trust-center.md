@@ -311,7 +311,6 @@ tags:
 - Data Enrichment
 - Bank Statements
 - Transaction Enrichment
-- Agent Ready
 - A2A
 trust_url: https://www.herondata.io/security
 ---

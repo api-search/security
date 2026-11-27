@@ -2161,7 +2161,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ixon Trust Center
+name: IXON Trust Center
 name_suffix: Trust Center
 overview: IXON maintains a public trust center documenting ISO 27001 and ISO 27017 compliance.
 provider_name: IXON

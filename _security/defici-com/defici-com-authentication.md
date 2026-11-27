@@ -148,7 +148,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Defici Com Authentication
+name: Defici Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Defici secures its APIs with http and apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

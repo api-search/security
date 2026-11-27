@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: coreweave-clusters-api-openapi.yml
+- filename: coreweave-freshdesk-api-openapi.yml
   format: yaml
-  label: CoreWeave Clusters API
-  slug: coreweave-clusters-api
+  label: CoreWeave Freshdesk API
+  slug: coreweave-freshdesk-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/coreweave/openapi/coreweave-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-freshdesk-api-openapi.yml
+- filename: coreweave-healthz-api-openapi.yml
+  format: yaml
+  label: CoreWeave Healthz API
+  slug: coreweave-healthz-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-healthz-api-openapi.yml
+- filename: coreweave-reconcile-api-openapi.yml
+  format: yaml
+  label: CoreWeave Reconcile API
+  slug: coreweave-reconcile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-reconcile-api-openapi.yml
+- filename: coreweave-webhooks-api-openapi.yml
+  format: yaml
+  label: CoreWeave Webhooks API
+  slug: coreweave-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-webhooks-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -35,7 +53,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Coreweave Domain Security
+name: CoreWeave Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CoreWeave, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: CoreWeave

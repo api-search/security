@@ -16,7 +16,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Datos Misiones Gob Ar Domain Security
+name: Datos Provincia de Misiones Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Datos Provincia de Misiones, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
 provider_name: Datos Provincia de Misiones

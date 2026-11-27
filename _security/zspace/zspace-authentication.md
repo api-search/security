@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Zspace Authentication
+name: zSpace Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: zSpace declares 3 security scheme(s) across its OpenAPI definitions.

@@ -26,12 +26,6 @@ api_specs:
   slug: linkedin-ad-accounts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-accounts-api-openapi.yml
-- filename: linkedin-ad-targeting-entities-api-openapi.yml
-  format: yaml
-  label: LinkedIn Ad Targeting Entities API
-  slug: linkedin-ad-targeting-entities-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-targeting-entities-api-openapi.yml
 - filename: linkedin-advertiser-transparency-api-openapi.yml
   format: yaml
   label: LinkedIn Advertiser Transparency API
@@ -416,6 +410,12 @@ api_specs:
   slug: linkedin-ad-creatives-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-creatives-api-openapi.yml
+- filename: linkedin-ad-targeting-entities-api-openapi.yml
+  format: yaml
+  label: LinkedIn Ad Targeting Entities API
+  slug: linkedin-ad-targeting-entities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-targeting-entities-api-openapi.yml
 auth_types:
 - http
 - oauth2
@@ -424,7 +424,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Linkedin Authentication
+name: LinkedIn Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

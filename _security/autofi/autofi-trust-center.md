@@ -43,7 +43,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Autofi Trust Center
+name: AutoFi Trust Center
 name_suffix: Trust Center
 overview: AutoFi maintains a public trust center documenting SOC 2 and SOC 3 compliance.
 provider_name: AutoFi

@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Builderforce Ai Trust Center
+name: Builderforce.ai Trust Center
 name_suffix: Trust Center
 overview: Builderforce.ai maintains a public trust center documenting SOC 2 compliance.
 provider_name: Builderforce.ai

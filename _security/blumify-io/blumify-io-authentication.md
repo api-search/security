@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Blumify Io Authentication
+name: blumify-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: blumify-io declares 0 security scheme(s) across its OpenAPI definitions.

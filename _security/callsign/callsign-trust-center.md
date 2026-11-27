@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Callsign Trust Center
+name: CallSign Trust Center
 name_suffix: Trust Center
 overview: CallSign maintains a public trust center documenting ISO/IEC 27001 and SOC 2 compliance.
 provider_name: CallSign

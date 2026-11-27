@@ -2,37 +2,19 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: html2img-com-account-api-openapi.yml
-  format: yaml
-  label: html2img-com Account API
-  slug: html2img-com-account-api
+- filename: html2img-com-api-openapi.json
+  format: json
+  label: HTML to Image API API
+  slug: html-to-image-api-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-account-api-openapi.yml
-- filename: html2img-com-html-rendering-api-openapi.yml
-  format: yaml
-  label: html2img-com HTML rendering API
-  slug: html2img-com-html-rendering-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-html-rendering-api-openapi.yml
-- filename: html2img-com-screenshots-api-openapi.yml
-  format: yaml
-  label: html2img-com Screenshots API
-  slug: html2img-com-screenshots-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-screenshots-api-openapi.yml
-- filename: html2img-com-templates-api-openapi.yml
-  format: yaml
-  label: html2img-com Templates API
-  slug: html2img-com-templates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/html2img-com/openapi/html2img-com-templates-api-openapi.yml
+  url: https://artifacts.apis.io/html2img-com/openapi/_original/html2img-com-api-openapi.json
 auth_types: []
 description: Authentication methods as documented
 kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Html2Img Com Authentication
+name: html2img-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: html2img-com declares 2 security scheme(s) across its OpenAPI definitions.

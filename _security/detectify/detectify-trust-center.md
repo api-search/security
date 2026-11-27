@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Detectify Trust Center
+name: detectify Trust Center
 name_suffix: Trust Center
 overview: detectify maintains a public trust center documenting ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: detectify

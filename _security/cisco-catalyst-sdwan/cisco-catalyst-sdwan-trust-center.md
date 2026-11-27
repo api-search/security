@@ -2297,7 +2297,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Cisco Catalyst Sdwan Trust Center
+name: Cisco Catalyst SD-WAN Trust Center
 name_suffix: Trust Center
 overview: Cisco Catalyst SD-WAN maintains a public trust center covering its security and compliance posture.
 provider_name: Cisco Catalyst SD-WAN

@@ -128,7 +128,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Blueocean Authentication
+name: BlueOcean Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BlueOcean declares 0 security scheme(s) across its OpenAPI definitions.

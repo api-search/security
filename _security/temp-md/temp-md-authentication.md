@@ -93,7 +93,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: searched
-name: Temp Md Authentication
+name: temp.md Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: temp.md secures its APIs with http across 7 declared security schemes, as derived from its OpenAPI definitions.

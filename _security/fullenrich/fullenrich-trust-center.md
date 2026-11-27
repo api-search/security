@@ -32,7 +32,7 @@ certifications:
 description: FullEnrich's Privacy & Legal Center doubles as its trust center, publishing compliance badges, an Article 32 security-measures summary, a public DPA, a sub-processor list, and a request path to the SOC 2 Type II report through a hosted trust portal.
 kind: trust-center
 layout: security
-name: Fullenrich Trust Center
+name: FullEnrich Trust Center
 name_suffix: Trust Center
 overview: FullEnrich maintains a public trust center documenting SOC 2 Type II, GDPR, and CCPA compliance.
 provider_name: FullEnrich
@@ -58,7 +58,6 @@ tags:
 - People Search
 - Company Search
 - Reverse Email Lookup
-- Agent Ready
 - A2A
 - Data Enrichment
 trust_url: https://fullenrich.com/trust

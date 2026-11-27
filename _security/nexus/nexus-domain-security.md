@@ -354,24 +354,6 @@ api_specs:
   slug: nexus-datastore-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/nexus/openapi/nexus-datastore-api-openapi.yml
-- filename: nexus-blobstores-api-openapi.yml
-  format: yaml
-  label: Sonatype Nexus Repository Blob Stores API
-  slug: nexus-blobstores-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/nexus/openapi/nexus-blobstores-api-openapi.yml
-- filename: nexus-repositories-api-openapi.yml
-  format: yaml
-  label: Sonatype Nexus Repository Repositories API
-  slug: nexus-repositories-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/nexus/openapi/nexus-repositories-api-openapi.yml
-- filename: nexus-security-api-openapi.yml
-  format: yaml
-  label: Sonatype Nexus Repository Security API
-  slug: nexus-security-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/nexus/openapi/nexus-security-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -396,7 +378,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Nexus Domain Security
+name: Sonatype Nexus Repository Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Sonatype Nexus Repository, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Sonatype Nexus Repository

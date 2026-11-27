@@ -22,7 +22,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Kinesis Firehose Trust Center
+name: Amazon Kinesis Data Firehose Trust Center
 name_suffix: Trust Center
 overview: Amazon Kinesis Data Firehose maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon Kinesis Data Firehose

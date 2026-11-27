@@ -41,7 +41,7 @@ certifications:
 description: AskNicely publishes a single public security page rather than a dedicated trust centre or trust portal. It names the compliance programme AskNicely itself holds (SOC 2, annual penetration testing, CSA CAIQ registry entry) separately from the certifications inherited from its AWS hosting (ISO 27001, PCI).
 kind: trust-center
 layout: security
-name: Asknicely Trust Center
+name: AskNicely Trust Center
 name_suffix: Trust Center
 overview: AskNicely maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, GDPR, CSA STAR (CAIQ), and New Zealand Privacy Act compliance.
 provider_name: AskNicely

@@ -20,7 +20,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Strongdm Trust Center
+name: StrongDM Trust Center
 name_suffix: Trust Center
 overview: StrongDM maintains a public trust center documenting SOC 2, PCI DSS, and GDPR compliance.
 provider_name: StrongDM

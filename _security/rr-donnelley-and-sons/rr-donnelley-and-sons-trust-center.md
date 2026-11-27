@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Rr Donnelley And Sons Trust Center
+name: RR Donnelley And Sons Trust Center
 name_suffix: Trust Center
 overview: RR Donnelley And Sons maintains a public trust center documenting ISO/IEC 27001, SOC 1 Type 2, SOC 2 Type 2, SOC 2 + HITRUST, PCI DSS, ISO 22301:2019, and Cyber Essentials Plus compliance.
 provider_name: RR Donnelley And Sons

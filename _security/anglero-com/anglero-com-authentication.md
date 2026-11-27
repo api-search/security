@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anglero Com Authentication
+name: MerkabaPhi AS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MerkabaPhi AS declares 0 security scheme(s) across its OpenAPI definitions.

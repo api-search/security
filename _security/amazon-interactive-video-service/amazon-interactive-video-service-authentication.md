@@ -192,18 +192,49 @@ provider_name: Amazon Interactive Video Service
 provider_slug: amazon-interactive-video-service
 scheme_count: 1
 schemes:
-- description: Amazon Signature authorization v4
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: hmac
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-ivs-openapi-original.yml
+  - openapi/amazon-interactive-video-service-batchgetchannel-api-openapi.yml
+  - openapi/amazon-interactive-video-service-batchgetstreamkey-api-openapi.yml
+  - openapi/amazon-interactive-video-service-batchstartviewersessionrevocation-api-openapi.yml
+  - openapi/amazon-interactive-video-service-createchannel-api-openapi.yml
+  - openapi/amazon-interactive-video-service-createrecordingconfiguration-api-openapi.yml
+  - openapi/amazon-interactive-video-service-createstreamkey-api-openapi.yml
+  - openapi/amazon-interactive-video-service-deletechannel-api-openapi.yml
+  - openapi/amazon-interactive-video-service-deleteplaybackkeypair-api-openapi.yml
+  - openapi/amazon-interactive-video-service-deleterecordingconfiguration-api-openapi.yml
+  - openapi/amazon-interactive-video-service-deletestreamkey-api-openapi.yml
+  - openapi/amazon-interactive-video-service-getchannel-api-openapi.yml
+  - openapi/amazon-interactive-video-service-getplaybackkeypair-api-openapi.yml
+  - openapi/amazon-interactive-video-service-getrecordingconfiguration-api-openapi.yml
+  - openapi/amazon-interactive-video-service-getstream-api-openapi.yml
+  - openapi/amazon-interactive-video-service-getstreamkey-api-openapi.yml
+  - openapi/amazon-interactive-video-service-getstreamsession-api-openapi.yml
+  - openapi/amazon-interactive-video-service-importplaybackkeypair-api-openapi.yml
+  - openapi/amazon-interactive-video-service-listchannels-api-openapi.yml
+  - openapi/amazon-interactive-video-service-listplaybackkeypairs-api-openapi.yml
+  - openapi/amazon-interactive-video-service-listrecordingconfigurations-api-openapi.yml
+  - openapi/amazon-interactive-video-service-liststreamkeys-api-openapi.yml
+  - openapi/amazon-interactive-video-service-liststreams-api-openapi.yml
+  - openapi/amazon-interactive-video-service-liststreamsessions-api-openapi.yml
+  - openapi/amazon-interactive-video-service-operations-api-openapi.yml
+  - openapi/amazon-interactive-video-service-putmetadata-api-openapi.yml
+  - openapi/amazon-interactive-video-service-startviewersessionrevocation-api-openapi.yml
+  - openapi/amazon-interactive-video-service-stopstream-api-openapi.yml
+  - openapi/amazon-interactive-video-service-tags-api-openapi.yml
+  - openapi/amazon-interactive-video-service-updatechannel-api-openapi.yml
   type: apiKey
 slug: amazon-interactive-video-service-authentication
 source_filename: amazon-interactive-video-service-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-ivs-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-ivs-openapi-original.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-interactive-video-service-batchgetchannel-api-openapi.yml, openapi/amazon-interactive-video-service-batchgetstreamkey-api-openapi.yml,\n  openapi/amazon-interactive-video-service-batchstartviewersessionrevocation-api-openapi.yml,\n  openapi/amazon-interactive-video-service-createchannel-api-openapi.yml, openapi/amazon-interactive-video-service-createrecordingconfiguration-api-openapi.yml,\n  openapi/amazon-interactive-video-service-createstreamkey-api-openapi.yml, openapi/amazon-interactive-video-service-deletechannel-api-openapi.yml,\n  openapi/amazon-interactive-video-service-deleteplaybackkeypair-api-openapi.yml, openapi/amazon-interactive-video-service-deleterecordingconfiguration-api-openapi.yml,\n  openapi/amazon-interactive-video-service-deletestreamkey-api-openapi.yml, openapi/amazon-interactive-video-service-getchannel-api-openapi.yml,\n  openapi/amazon-interactive-video-service-getplaybackkeypair-api-openapi.yml\
+  \ ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-interactive-video-service-batchgetchannel-api-openapi.yml\n  - openapi/amazon-interactive-video-service-batchgetstreamkey-api-openapi.yml\n  - openapi/amazon-interactive-video-service-batchstartviewersessionrevocation-api-openapi.yml\n  - openapi/amazon-interactive-video-service-createchannel-api-openapi.yml\n  - openapi/amazon-interactive-video-service-createrecordingconfiguration-api-openapi.yml\n  - openapi/amazon-interactive-video-service-createstreamkey-api-openapi.yml\n  - openapi/amazon-interactive-video-service-deletechannel-api-openapi.yml\n  - openapi/amazon-interactive-video-service-deleteplaybackkeypair-api-openapi.yml\n\
+  \  - openapi/amazon-interactive-video-service-deleterecordingconfiguration-api-openapi.yml\n  - openapi/amazon-interactive-video-service-deletestreamkey-api-openapi.yml\n  - openapi/amazon-interactive-video-service-getchannel-api-openapi.yml\n  - openapi/amazon-interactive-video-service-getplaybackkeypair-api-openapi.yml\n  - openapi/amazon-interactive-video-service-getrecordingconfiguration-api-openapi.yml\n  - openapi/amazon-interactive-video-service-getstream-api-openapi.yml\n  - openapi/amazon-interactive-video-service-getstreamkey-api-openapi.yml\n  - openapi/amazon-interactive-video-service-getstreamsession-api-openapi.yml\n  - openapi/amazon-interactive-video-service-importplaybackkeypair-api-openapi.yml\n  - openapi/amazon-interactive-video-service-listchannels-api-openapi.yml\n  - openapi/amazon-interactive-video-service-listplaybackkeypairs-api-openapi.yml\n  - openapi/amazon-interactive-video-service-listrecordingconfigurations-api-openapi.yml\n  - openapi/amazon-interactive-video-service-liststreamkeys-api-openapi.yml\n\
+  \  - openapi/amazon-interactive-video-service-liststreams-api-openapi.yml\n  - openapi/amazon-interactive-video-service-liststreamsessions-api-openapi.yml\n  - openapi/amazon-interactive-video-service-operations-api-openapi.yml\n  - openapi/amazon-interactive-video-service-putmetadata-api-openapi.yml\n  - openapi/amazon-interactive-video-service-startviewersessionrevocation-api-openapi.yml\n  - openapi/amazon-interactive-video-service-stopstream-api-openapi.yml\n  - openapi/amazon-interactive-video-service-tags-api-openapi.yml\n  - openapi/amazon-interactive-video-service-updatechannel-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-interactive-video-service/authentication/amazon-interactive-video-service-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Butterbase Ai Authentication
+name: Butterbase Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Butterbase declares 2 security scheme(s) across its OpenAPI definitions.

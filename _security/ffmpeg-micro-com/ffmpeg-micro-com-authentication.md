@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ffmpeg Micro Com Authentication
+name: ffmpeg-micro-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ffmpeg-micro-com declares 1 security scheme(s) across its OpenAPI definitions.

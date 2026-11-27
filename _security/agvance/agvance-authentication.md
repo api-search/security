@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agvance Authentication
+name: Agvance (SSI) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agvance (SSI) declares 0 security scheme(s) across its OpenAPI definitions.

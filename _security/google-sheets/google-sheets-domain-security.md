@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: google-sheets-sheets-api-openapi.yml
-  format: yaml
-  label: Google Sheets API
-  slug: google-sheets-sheets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-sheets-api-openapi.yml
 - filename: google-sheets-spreadsheets-api-openapi.yml
   format: yaml
   label: Google Sheets Spreadsheets API
   slug: google-sheets-spreadsheets-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-spreadsheets-api-openapi.yml
-- filename: google-sheets-values-api-openapi.yml
-  format: yaml
-  label: Google Sheets Values API
-  slug: google-sheets-values-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-values-api-openapi.yml
-- filename: google-sheets-developer-metadata-api-openapi.yml
-  format: yaml
-  label: Google Sheets Developer Metadata API
-  slug: google-sheets-developer-metadata-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-sheets/openapi/google-sheets-developer-metadata-api-openapi.yml
 description: ''
 domains:
 - caa:

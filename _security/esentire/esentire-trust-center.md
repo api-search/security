@@ -15,7 +15,7 @@ certifications:
 description: eSentire runs a published UpGuard trust page at trust.esentire.com. The page itself renders client-side and returns an HTML shell to any non-browser fetch, but the data behind it is served as public JSON at https://trust.esentire.com/api/trustpage/public/v1/ with no credentials, and that document is the source for everything recorded below. It is the richest machine-readable artifact eSentire publishes — considerably richer than anything on its own developer surface.
 kind: trust-center
 layout: security
-name: Esentire Trust Center
+name: eSentire Trust Center
 name_suffix: Trust Center
 overview: eSentire maintains a public trust center documenting SOC 2 Type II, ISO/IEC 27001:2022, ISO/IEC 27001:2013, PCI DSS 4.0.1, HIPAA, GDPR, CCPA, PIPEDA, DORA (EU Digital Operational Resilience Act), CIS Controls v8.1, and Shared Assessments SIG compliance.
 provider_name: eSentire

@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cloudally Trust Center
+name: CloudAlly Trust Center
 name_suffix: Trust Center
 overview: CloudAlly maintains a public trust center documenting ISO 27001, HIPAA, and GDPR compliance.
 provider_name: CloudAlly

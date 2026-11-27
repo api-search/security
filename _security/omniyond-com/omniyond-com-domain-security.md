@@ -36,7 +36,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Omniyond Com Domain Security
+name: omniyond-com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for omniyond-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: omniyond-com
@@ -50,7 +50,7 @@ source_yaml_url: https://artifacts.apis.io/omniyond-com/security/omniyond-com-do
 summary_line: TLSv1.3 · HSTS
 tags:
 - Artificial Intelligence
-- Pay-Per-Use
+- Pay-per-use
 - Scheduling
 - Automation
 ---

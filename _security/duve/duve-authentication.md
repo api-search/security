@@ -41,6 +41,6 @@ tags:
 - Guest Experience
 - Software-as-a-Service
 - Artificial Intelligence
-- Revenue-Optimization
+- Revenue Optimization
 - Company
 ---

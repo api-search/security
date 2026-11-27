@@ -121,7 +121,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Businessmcp Com Trust Center
+name: BusinessMCP Trust Center
 name_suffix: Trust Center
 overview: BusinessMCP maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: BusinessMCP

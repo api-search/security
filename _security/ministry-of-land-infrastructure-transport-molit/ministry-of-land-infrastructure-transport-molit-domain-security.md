@@ -13,7 +13,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Ministry Of Land Infrastructure Transport Molit Domain Security
+name: Ministry of Land, Infrastructure & Transport-MOLIT Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Ministry of Land, Infrastructure & Transport-MOLIT, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
 provider_name: Ministry of Land, Infrastructure & Transport-MOLIT

@@ -534,7 +534,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Piknik Spot Authentication
+name: Piknik.Spot Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

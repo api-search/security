@@ -161,7 +161,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Appdynamics Authentication
+name: AppDynamics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AppDynamics secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

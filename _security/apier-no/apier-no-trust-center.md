@@ -96,26 +96,24 @@ api_specs:
   slug: apier-no-subscriptions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/apier-no/openapi/apier-no-subscriptions-api-openapi.yml
-certification_count: 3
+certification_count: 1
 certifications:
-- SOC 2
-- ISO 27001
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Apier No Trust Center
+name: Apier.no Trust Center
 name_suffix: Trust Center
-overview: Apier.no maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
+overview: Apier.no maintains a public trust center documenting GDPR compliance.
 provider_name: Apier.no
 provider_slug: apier-no
 slug: apier-no-trust-center
 source_filename: apier-no-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-11-01'\nmethod: searched\nprobe: true\nsource: https://www.apier.no/trust\nurl: https://www.apier.no/trust\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://www.apier.no/trust\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
+source_yaml: "generated: '2026-11-01'\nmethod: searched\nprobe: true\nsource: https://www.apier.no/trust\nurl: https://www.apier.no/trust\ncertifications:\n- GDPR\nevidence:\n- source: https://www.apier.no/trust\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\ncertifications_not_held:\n- ISO 27001\n- SOC 2\ncertification_quotes:\n  ISO 27001: 'ation | Status: | Planned | Apier holds no formal ISO 27001 or'\n  SOC 2: 'ification Status: Planned | Apier holds no formal ISO 27001 or SOC 2 certification today. The\n    architecture is structurally aligned with th'\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/apier-no/security/apier-no-trust-center.yml
-summary_line: SOC 2, ISO 27001, GDPR
+summary_line: GDPR
 tags:
 - Norwegian
 - Company Data

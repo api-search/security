@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Osha Authentication
+name: OSHA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OSHA secures its APIs with http and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

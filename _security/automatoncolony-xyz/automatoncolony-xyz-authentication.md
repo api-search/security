@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Automatoncolony Xyz Authentication
+name: automatoncolony-xyz Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: automatoncolony-xyz declares 0 security scheme(s) across its OpenAPI definitions.

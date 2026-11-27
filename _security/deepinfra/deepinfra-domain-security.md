@@ -6,24 +6,12 @@ api_specs:
   slug: deepinfra-audio-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-audio-api-openapi.yml
-- filename: deepinfra-completions-api-openapi.yml
-  format: yaml
-  label: DeepInfra Completions API
-  slug: deepinfra-completions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-completions-api-openapi.yml
 - filename: deepinfra-embeddings-api-openapi.yml
   format: yaml
   label: DeepInfra Embeddings API
   slug: deepinfra-embeddings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-embeddings-api-openapi.yml
-- filename: deepinfra-images-api-openapi.yml
-  format: yaml
-  label: DeepInfra Images API
-  slug: deepinfra-images-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-images-api-openapi.yml
 - filename: deepinfra-models-api-openapi.yml
   format: yaml
   label: DeepInfra Models API
@@ -180,7 +168,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Deepinfra Domain Security
+name: DeepInfra Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for DeepInfra, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: DeepInfra

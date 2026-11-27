@@ -8,48 +8,6 @@ api_specs:
   slug: google-tag-manager-accounts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-accounts-api-openapi.yml
-- filename: google-tag-manager-containers-api-openapi.yml
-  format: yaml
-  label: Google Tag Manager Containers API
-  slug: google-tag-manager-containers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-containers-api-openapi.yml
-- filename: google-tag-manager-triggers-api-openapi.yml
-  format: yaml
-  label: Google Tag Manager Triggers API
-  slug: google-tag-manager-triggers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-triggers-api-openapi.yml
-- filename: google-tag-manager-user-permissions-api-openapi.yml
-  format: yaml
-  label: Google Tag Manager User Permissions API
-  slug: google-tag-manager-user-permissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-user-permissions-api-openapi.yml
-- filename: google-tag-manager-variables-api-openapi.yml
-  format: yaml
-  label: Google Tag Manager Variables API
-  slug: google-tag-manager-variables-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-variables-api-openapi.yml
-- filename: google-tag-manager-versions-api-openapi.yml
-  format: yaml
-  label: Google Tag Manager Versions API
-  slug: google-tag-manager-versions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-versions-api-openapi.yml
-- filename: google-tag-manager-workspaces-api-openapi.yml
-  format: yaml
-  label: Google Tag Manager Workspaces API
-  slug: google-tag-manager-workspaces-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-workspaces-api-openapi.yml
-- filename: google-tag-manager-tag-manager-api-openapi.yml
-  format: yaml
-  label: Google Tag Manager Tag Manager API
-  slug: google-tag-manager-tag-manager-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-tag-manager/openapi/google-tag-manager-tag-manager-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

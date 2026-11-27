@@ -1,5 +1,11 @@
 ---
 api_specs:
+- filename: microsoft-azure-signalr-general-api-openapi.yml
+  format: yaml
+  label: Azure SignalR Service General API
+  slug: microsoft-azure-signalr-general-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-general-api-openapi.yml
 - filename: microsoft-azure-signalr-operations-api-openapi.yml
   format: yaml
   label: Azure SignalR Service Operations API
@@ -8,16 +14,10 @@ api_specs:
   url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-operations-api-openapi.yml
 - filename: microsoft-azure-signalr-signalr-api-openapi.yml
   format: yaml
-  label: Azure SignalR Service SignalR API
+  label: Azure SignalR Service Signal R API
   slug: microsoft-azure-signalr-signalr-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-signalr-api-openapi.yml
-- filename: microsoft-azure-signalr-general-api-openapi.yml
-  format: yaml
-  label: Azure SignalR Service General API
-  slug: microsoft-azure-signalr-general-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-signalr/openapi/microsoft-azure-signalr-general-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -56,7 +56,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Signalr Domain Security
+name: Azure SignalR Service Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure SignalR Service, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Azure SignalR Service

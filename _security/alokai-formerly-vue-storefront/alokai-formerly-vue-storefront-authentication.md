@@ -118,7 +118,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Alokai Formerly Vue Storefront Authentication
+name: Alokai (formerly Vue Storefront) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Alokai (formerly Vue Storefront) secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

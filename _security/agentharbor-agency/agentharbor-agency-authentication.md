@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentharbor Agency Authentication
+name: Agent Harbor Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Harbor declares 0 security scheme(s) across its OpenAPI definitions.

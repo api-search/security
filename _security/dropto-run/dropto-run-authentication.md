@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dropto Run Authentication
+name: Dropto Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dropto declares 1 security scheme(s) across its OpenAPI definitions.

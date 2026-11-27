@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Assessmyhair Com Authentication
+name: Assess My Hair Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Assess My Hair declares 0 security scheme(s) across its OpenAPI definitions.

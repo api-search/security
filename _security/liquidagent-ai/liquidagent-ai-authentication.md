@@ -9,6 +9,30 @@ api_specs:
   slug: liquidagent-ai-liquid-agent-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-liquid-agent-api-openapi.yml
+- filename: liquidagent-ai-leads-api-openapi.yml
+  format: yaml
+  label: Liquid Agent Leads API
+  slug: liquidagent-ai-leads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-leads-api-openapi.yml
+- filename: liquidagent-ai-liquid-bridge-api-openapi.yml
+  format: yaml
+  label: Liquid Agent Liquid Bridge API
+  slug: liquidagent-ai-liquid-bridge-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-liquid-bridge-api-openapi.yml
+- filename: liquidagent-ai-polymarket-api-openapi.yml
+  format: yaml
+  label: Liquid Agent Polymarket API
+  slug: liquidagent-ai-polymarket-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-polymarket-api-openapi.yml
+- filename: liquidagent-ai-shops-api-openapi.yml
+  format: yaml
+  label: Liquid Agent Shops API
+  slug: liquidagent-ai-shops-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/liquidagent-ai/openapi/liquidagent-ai-shops-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -17,7 +41,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Liquidagent Ai Authentication
+name: Liquid Agent Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Liquid Agent secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

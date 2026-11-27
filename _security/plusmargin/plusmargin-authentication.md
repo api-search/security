@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Plusmargin Authentication
+name: PlusMargin Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PlusMargin declares 0 security scheme(s) across its OpenAPI definitions.

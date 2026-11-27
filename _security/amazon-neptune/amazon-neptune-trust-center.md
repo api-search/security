@@ -6,12 +6,6 @@ api_specs:
   slug: amazon-neptune-amazon-neptune-management-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-amazon-neptune-management-api-api-openapi.yml
-- filename: amazon-neptune-data-processing-api-openapi.yml
-  format: yaml
-  label: Amazon Neptune Data Processing API
-  slug: amazon-neptune-data-processing-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-data-processing-api-openapi.yml
 - filename: amazon-neptune-db-clusters-api-openapi.yml
   format: yaml
   label: Amazon Neptune DB Clusters API
@@ -66,12 +60,6 @@ api_specs:
   slug: amazon-neptune-import-tasks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-import-tasks-api-openapi.yml
-- filename: amazon-neptune-inference-endpoints-api-openapi.yml
-  format: yaml
-  label: Amazon Neptune Inference Endpoints API
-  slug: amazon-neptune-inference-endpoints-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-inference-endpoints-api-openapi.yml
 - filename: amazon-neptune-loader-api-openapi.yml
   format: yaml
   label: Amazon Neptune Loader API
@@ -90,18 +78,6 @@ api_specs:
   slug: amazon-neptune-ml-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-ml-api-openapi.yml
-- filename: amazon-neptune-model-training-api-openapi.yml
-  format: yaml
-  label: Amazon Neptune Model Training API
-  slug: amazon-neptune-model-training-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-model-training-api-openapi.yml
-- filename: amazon-neptune-model-transform-api-openapi.yml
-  format: yaml
-  label: Amazon Neptune Model Transform API
-  slug: amazon-neptune-model-transform-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-model-transform-api-openapi.yml
 - filename: amazon-neptune-parameter-groups-api-openapi.yml
   format: yaml
   label: Amazon Neptune Parameter Groups API
@@ -162,6 +138,48 @@ api_specs:
   slug: amazon-neptune-subnet-groups-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-subnet-groups-api-openapi.yml
+- filename: amazon-neptune-db-cluster-endpoint-api-openapi.yml
+  format: yaml
+  label: Amazon Neptune Neptune Db Cluster Endpoint API
+  slug: amazon-neptune-db-cluster-endpoint-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-db-cluster-endpoint-api-openapi.yml
+- filename: amazon-neptune-db-cluster-parameter-group-api-openapi.yml
+  format: yaml
+  label: Amazon Neptune Neptune Db Cluster Parameter Group API
+  slug: amazon-neptune-db-cluster-parameter-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-db-cluster-parameter-group-api-openapi.yml
+- filename: amazon-neptune-db-parameter-group-api-openapi.yml
+  format: yaml
+  label: Amazon Neptune Neptune Db Parameter Group API
+  slug: amazon-neptune-db-parameter-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-db-parameter-group-api-openapi.yml
+- filename: amazon-neptune-event-subscription-api-openapi.yml
+  format: yaml
+  label: Amazon Neptune Neptune Event Subscription API
+  slug: amazon-neptune-event-subscription-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-event-subscription-api-openapi.yml
+- filename: amazon-neptune-exporttasks-api-openapi.yml
+  format: yaml
+  label: Amazon Neptune Neptune Exporttasks API
+  slug: amazon-neptune-exporttasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-exporttasks-api-openapi.yml
+- filename: amazon-neptune-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Neptune Neptune Operations API
+  slug: amazon-neptune-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-operations-api-openapi.yml
+- filename: amazon-neptune-storage-api-openapi.yml
+  format: yaml
+  label: Amazon Neptune Neptune Storage API
+  slug: amazon-neptune-storage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-neptune/openapi/amazon-neptune-storage-api-openapi.yml
 - filename: amazon-neptune-open-cypher-api-openapi.yml
   format: yaml
   label: Amazon Neptune open Cypher API

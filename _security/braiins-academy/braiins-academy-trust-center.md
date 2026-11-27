@@ -115,7 +115,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Braiins Academy Trust Center
+name: Braiins Trust Center
 name_suffix: Trust Center
 overview: Braiins maintains a public trust center documenting SOC 2 Type 2 and ISO 27001 compliance.
 provider_name: Braiins

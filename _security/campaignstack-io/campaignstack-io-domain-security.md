@@ -24,7 +24,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Campaignstack Io Domain Security
+name: CampaignStack Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for CampaignStack, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: CampaignStack
@@ -37,7 +37,7 @@ source_yaml: "generated: '2026-11-03'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/campaignstack-io/security/campaignstack-io-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Outbound outreach
+- Outbound Outreach
 - LinkedIn sourcing
 - B2B SaaS
 ---

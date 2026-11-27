@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Analyticslegends Ai Authentication
+name: Analytics Legends Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Analytics Legends declares 0 security scheme(s) across its OpenAPI definitions.

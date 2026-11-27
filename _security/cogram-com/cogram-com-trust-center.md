@@ -67,7 +67,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cogram Com Trust Center
+name: Cogram Trust Center
 name_suffix: Trust Center
 overview: Cogram maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Cogram

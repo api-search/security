@@ -12,6 +12,12 @@ api_specs:
   slug: amazon-managed-apache-flink-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-managed-apache-flink/openapi/amazon-managed-apache-flink-operations-api-openapi.yml
+- filename: amazon-managed-apache-flink-snapshot-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Apache Flink Managed Apache Flink Snapshot API
+  slug: amazon-managed-apache-flink-snapshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-apache-flink/openapi/amazon-managed-apache-flink-snapshot-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -39,7 +45,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Managed Apache Flink Domain Security
+name: Amazon Managed Service for Apache Flink Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon Managed Service for Apache Flink, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon Managed Service for Apache Flink

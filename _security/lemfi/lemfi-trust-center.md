@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lemfi Trust Center
+name: LemFi Trust Center
 name_suffix: Trust Center
 overview: LemFi maintains a public trust center documenting SOC 2 Type II, PCI DSS, ISO 27001, and GDPR compliance.
 provider_name: LemFi

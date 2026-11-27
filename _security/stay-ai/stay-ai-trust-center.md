@@ -54,7 +54,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Stay Ai Trust Center
+name: Stay AI Trust Center
 name_suffix: Trust Center
 overview: Stay AI maintains a public trust center documenting SOC 2 compliance.
 provider_name: Stay AI

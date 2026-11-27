@@ -20,7 +20,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Heartland Financial Usa Domain Security
+name: Heartland Financial USA Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Heartland Financial USA, probed live across 3 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Heartland Financial USA
@@ -39,6 +39,6 @@ tags:
 - Treasury Management
 - Acquired
 - Defunct
-- Bank-Holding-Company
+- Bank Holding Company
 - United States
 ---

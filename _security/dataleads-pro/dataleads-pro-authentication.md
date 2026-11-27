@@ -254,7 +254,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dataleads Pro Authentication
+name: dataleads-pro Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: dataleads-pro declares 1 security scheme(s) across its OpenAPI definitions.

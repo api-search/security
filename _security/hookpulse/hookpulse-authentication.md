@@ -116,6 +116,84 @@ api_specs:
   slug: hookpulse-well-known-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-well-known-api-openapi.yml
+- filename: hookpulse-account-api-openapi.yml
+  format: yaml
+  label: HookPulse Account API
+  slug: hookpulse-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-account-api-openapi.yml
+- filename: hookpulse-agent-json-api-openapi.yml
+  format: yaml
+  label: HookPulse Agent.json API
+  slug: hookpulse-agent-json-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-agent-json-api-openapi.yml
+- filename: hookpulse-erro-cliente-api-openapi.yml
+  format: yaml
+  label: HookPulse Erro Cliente API
+  slug: hookpulse-erro-cliente-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-erro-cliente-api-openapi.yml
+- filename: hookpulse-funil-api-openapi.yml
+  format: yaml
+  label: HookPulse Funil API
+  slug: hookpulse-funil-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-funil-api-openapi.yml
+- filename: hookpulse-github-api-openapi.yml
+  format: yaml
+  label: HookPulse GitHub API
+  slug: hookpulse-github-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-github-api-openapi.yml
+- filename: hookpulse-import-api-openapi.yml
+  format: yaml
+  label: HookPulse Import API
+  slug: hookpulse-import-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-import-api-openapi.yml
+- filename: hookpulse-ingest-key-api-openapi.yml
+  format: yaml
+  label: HookPulse Ingest Key API
+  slug: hookpulse-ingest-key-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-ingest-key-api-openapi.yml
+- filename: hookpulse-pagamento-api-openapi.yml
+  format: yaml
+  label: HookPulse Pagamento API
+  slug: hookpulse-pagamento-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-pagamento-api-openapi.yml
+- filename: hookpulse-partners-api-openapi.yml
+  format: yaml
+  label: HookPulse Partners API
+  slug: hookpulse-partners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-partners-api-openapi.yml
+- filename: hookpulse-plans-api-openapi.yml
+  format: yaml
+  label: HookPulse Plans API
+  slug: hookpulse-plans-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-plans-api-openapi.yml
+- filename: hookpulse-pricing-api-openapi.yml
+  format: yaml
+  label: HookPulse Pricing API
+  slug: hookpulse-pricing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-pricing-api-openapi.yml
+- filename: hookpulse-sites-api-openapi.yml
+  format: yaml
+  label: HookPulse Sites API
+  slug: hookpulse-sites-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-sites-api-openapi.yml
+- filename: hookpulse-vitrine-api-openapi.yml
+  format: yaml
+  label: HookPulse Vitrine API
+  slug: hookpulse-vitrine-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hookpulse/openapi/hookpulse-vitrine-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -123,7 +201,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Hookpulse Authentication
+name: HookPulse Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HookPulse secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

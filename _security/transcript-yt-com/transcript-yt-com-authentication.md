@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Transcript Yt Com Authentication
+name: transcript-yt-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: transcript-yt-com declares 2 security scheme(s) across its OpenAPI definitions.

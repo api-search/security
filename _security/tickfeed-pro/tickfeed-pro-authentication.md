@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Tickfeed Pro Authentication
+name: tickfeed-pro Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tickfeed-pro declares 1 security scheme(s) across its OpenAPI definitions.

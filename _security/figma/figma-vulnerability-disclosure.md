@@ -102,6 +102,12 @@ api_specs:
   slug: figma-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/figma/openapi/figma-webhooks-api-openapi.yml
+- filename: figma-teams-api-openapi.yml
+  format: yaml
+  label: Figma Teams API
+  slug: figma-teams-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/figma/openapi/figma-teams-api-openapi.yml
 - filename: figma-o-embed-api-openapi.yml
   format: yaml
   label: Figma o Embed API

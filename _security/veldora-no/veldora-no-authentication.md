@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Veldora No Authentication
+name: veldora-no Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: veldora-no declares 1 security scheme(s) across its OpenAPI definitions.

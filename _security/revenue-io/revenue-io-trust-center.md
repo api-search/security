@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Revenue Io Trust Center
+name: Revenue.io Trust Center
 name_suffix: Trust Center
 overview: Revenue.io maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Revenue.io

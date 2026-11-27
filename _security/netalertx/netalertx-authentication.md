@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Netalertx Authentication
+name: NetAlertX Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NetAlertX declares 0 security scheme(s) across its OpenAPI definitions.

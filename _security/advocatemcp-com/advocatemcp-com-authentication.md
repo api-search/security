@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Advocatemcp Com Authentication
+name: Advocate Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Advocate declares 0 security scheme(s) across its OpenAPI definitions.

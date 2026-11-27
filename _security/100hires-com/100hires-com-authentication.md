@@ -128,7 +128,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 100Hires Com Authentication
+name: 100Hires Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 100Hires declares 0 security scheme(s) across its OpenAPI definitions.

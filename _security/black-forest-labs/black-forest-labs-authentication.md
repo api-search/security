@@ -3,24 +3,24 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: black-forest-labs-editing-api-openapi.yml
-  format: yaml
-  label: Black Forest Labs Editing API
-  slug: black-forest-labs-editing-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-editing-api-openapi.yml
-- filename: black-forest-labs-generation-api-openapi.yml
-  format: yaml
-  label: Black Forest Labs Generation API
-  slug: black-forest-labs-generation-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-generation-api-openapi.yml
 - filename: black-forest-labs-utility-api-openapi.yml
   format: yaml
   label: Black Forest Labs Utility API
   slug: black-forest-labs-utility-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-utility-api-openapi.yml
+- filename: black-forest-labs-credits-api-openapi.yml
+  format: yaml
+  label: Black Forest Labs Credits API
+  slug: black-forest-labs-credits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-credits-api-openapi.yml
+- filename: black-forest-labs-models-api-openapi.yml
+  format: yaml
+  label: Black Forest Labs Models API
+  slug: black-forest-labs-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/black-forest-labs/openapi/black-forest-labs-models-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

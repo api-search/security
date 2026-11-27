@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Arakel Authentication
+name: ARAKEL Machine Evidence Network Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ARAKEL Machine Evidence Network declares 1 security scheme(s) across its OpenAPI definitions.

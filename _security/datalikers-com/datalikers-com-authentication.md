@@ -92,49 +92,13 @@ api_specs:
   slug: datalikers-com-user-v2-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-user-v2-api-openapi.yml
-- filename: datalikers-com-acquisitions-api-openapi.yml
-  format: yaml
-  label: datalikers-com Acquisitions API
-  slug: datalikers-com-acquisitions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-acquisitions-api-openapi.yml
-- filename: datalikers-com-companies-api-openapi.yml
-  format: yaml
-  label: datalikers-com Companies API
-  slug: datalikers-com-companies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-companies-api-openapi.yml
-- filename: datalikers-com-exec-moves-api-openapi.yml
-  format: yaml
-  label: datalikers-com Exec Moves API
-  slug: datalikers-com-exec-moves-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-exec-moves-api-openapi.yml
-- filename: datalikers-com-funding-events-api-openapi.yml
-  format: yaml
-  label: datalikers-com Funding Events API
-  slug: datalikers-com-funding-events-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-funding-events-api-openapi.yml
-- filename: datalikers-com-hiring-signals-api-openapi.yml
-  format: yaml
-  label: datalikers-com Hiring Signals API
-  slug: datalikers-com-hiring-signals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-hiring-signals-api-openapi.yml
-- filename: datalikers-com-investors-api-openapi.yml
-  format: yaml
-  label: datalikers-com Investors API
-  slug: datalikers-com-investors-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datalikers-com/openapi/datalikers-com-investors-api-openapi.yml
 auth_types: []
 description: DataLikers uses OAuth 2.0 for client authentication.
 kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Datalikers Com Authentication
+name: datalikers-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: datalikers-com declares 1 security scheme(s) across its OpenAPI definitions.

@@ -30,7 +30,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Triple S Management Domain Security
+name: Triple-S Management Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Triple-S Management, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: Triple-S Management

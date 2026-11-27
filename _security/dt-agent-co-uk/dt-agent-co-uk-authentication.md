@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Dt Agent Co Uk Authentication
+name: Neva Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Neva secures its APIs with none across 1 declared security scheme, as derived from its OpenAPI definitions.

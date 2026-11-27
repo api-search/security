@@ -61,7 +61,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agentaos Ai Trust Center
+name: AgentaOS Trust Center
 name_suffix: Trust Center
 overview: AgentaOS maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: AgentaOS

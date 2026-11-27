@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fastestrank Com Authentication
+name: FastestRank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FastestRank declares 1 security scheme(s) across its OpenAPI definitions.
@@ -28,8 +28,8 @@ source_yaml_url: https://artifacts.apis.io/fastestrank-com/authentication/fastes
 summary_line: 1 scheme
 tags:
 - SEO
-- AI
-- Rank-Tracking
-- Keyword-Research
-- Backlink-Analysis
+- Rank Tracking
+- Artificial Intelligence
+- Marketing
+- Analytics
 ---

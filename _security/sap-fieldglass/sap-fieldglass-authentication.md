@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Sap Fieldglass Authentication
+name: SAP Fieldglass Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

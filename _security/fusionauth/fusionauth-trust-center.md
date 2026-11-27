@@ -232,7 +232,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fusionauth Trust Center
+name: FusionAuth Trust Center
 name_suffix: Trust Center
 overview: FusionAuth maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: FusionAuth

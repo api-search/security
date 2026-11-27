@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Dant3 Net Authentication
+name: Dant3 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dant3 secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

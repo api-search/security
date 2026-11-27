@@ -200,7 +200,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Joinslash Com Authentication
+name: Slash Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Slash declares 1 security scheme(s) across its OpenAPI definitions.

@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Benchsci Trust Center
+name: BenchSci Trust Center
 name_suffix: Trust Center
 overview: BenchSci maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: BenchSci

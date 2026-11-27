@@ -30,6 +30,24 @@ api_specs:
   slug: amazon-cloudhsm-tag-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-cloudhsm/openapi/amazon-cloudhsm-tag-api-openapi.yml
+- filename: amazon-cloudhsm-backup-api-openapi.yml
+  format: yaml
+  label: Amazon CloudHSM Cloudhsm Backup API
+  slug: amazon-cloudhsm-backup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudhsm/openapi/amazon-cloudhsm-backup-api-openapi.yml
+- filename: amazon-cloudhsm-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon CloudHSM Cloudhsm Cluster API
+  slug: amazon-cloudhsm-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudhsm/openapi/amazon-cloudhsm-cluster-api-openapi.yml
+- filename: amazon-cloudhsm-resource-policy-api-openapi.yml
+  format: yaml
+  label: Amazon CloudHSM Cloudhsm Resource Policy API
+  slug: amazon-cloudhsm-resource-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cloudhsm/openapi/amazon-cloudhsm-resource-policy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +75,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Cloudhsm Domain Security
+name: Amazon CloudHSM Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon CloudHSM, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon CloudHSM

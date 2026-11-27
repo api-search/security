@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: 247 Ai Authentication
+name: '[24]7.ai Authentication'
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

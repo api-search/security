@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-policy-operations-api-openapi.yml
-  format: yaml
-  label: Azure Policy Operations API
-  slug: microsoft-azure-policy-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-operations-api-openapi.yml
-- filename: policyDefinitions.json
-  format: json
-  label: Azure Policy REST API
-  slug: microsoft-azure-policy-policy-definitions-api
-  spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/Azure/azure-rest-api-specs/main/specification/resources/resource-manager/Microsoft.Authorization/policy/stable/2025-01-01/policyDefinitions.json
 - filename: microsoft-azure-policy-policyassignments-api-openapi.yml
   format: yaml
   label: Azure Policy Policy Assignments API
@@ -42,6 +30,18 @@ api_specs:
   slug: microsoft-azure-policy-policysetdefinitionversions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-policysetdefinitionversions-api-openapi.yml
+- filename: microsoft-azure-policy-providers-api-openapi.yml
+  format: yaml
+  label: Azure Policy Providers API
+  slug: microsoft-azure-policy-providers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-providers-api-openapi.yml
+- filename: microsoft-azure-policy-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Policy Subscriptions API
+  slug: microsoft-azure-policy-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-policy/openapi/microsoft-azure-policy-subscriptions-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -80,7 +80,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Policy Domain Security
+name: Azure Policy Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure Policy, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Azure Policy

@@ -31,7 +31,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Deerdawn Com Trust Center
+name: DeerDawn Trust Center
 name_suffix: Trust Center
 overview: DeerDawn maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: DeerDawn

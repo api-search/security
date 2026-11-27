@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mimecast Com Trust Center
+name: ProjectDiscovery Trust Center
 name_suffix: Trust Center
 overview: ProjectDiscovery maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: ProjectDiscovery

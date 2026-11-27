@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Dunkapi Com Authentication
+name: dunkapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: dunkapi-com declares 2 security scheme(s) across its OpenAPI definitions.

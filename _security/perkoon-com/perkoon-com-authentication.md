@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Perkoon Com Authentication
+name: Perkoon Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Perkoon declares 4 security scheme(s) across its OpenAPI definitions.

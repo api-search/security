@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Immix Authentication
+name: IMMIX Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IMMIX declares 1 security scheme(s) across its OpenAPI definitions.

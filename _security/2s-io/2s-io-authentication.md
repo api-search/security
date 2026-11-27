@@ -682,7 +682,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: 2S Io Authentication
+name: 2s Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 2s secures its APIs with apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

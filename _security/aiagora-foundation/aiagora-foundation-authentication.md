@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aiagora Foundation Authentication
+name: AIAgora Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AIAgora declares 0 security scheme(s) across its OpenAPI definitions.

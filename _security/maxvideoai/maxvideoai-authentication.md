@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Maxvideoai Authentication
+name: MaxVideoAI Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bike4Mind Com Trust Center
+name: Bike4Mind Trust Center
 name_suffix: Trust Center
 overview: Bike4Mind maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Bike4Mind

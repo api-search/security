@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ai Tender By Authentication
+name: AI-TENDER Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI-TENDER declares 0 security scheme(s) across its OpenAPI definitions.
@@ -46,5 +46,5 @@ tags:
 - Tender
 - Government Procurement
 - Belarus
-- Invitation-only
+- Invitation-Only
 ---

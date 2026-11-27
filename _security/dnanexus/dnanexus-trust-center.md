@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dnanexus Trust Center
+name: DNAnexus Trust Center
 name_suffix: Trust Center
 overview: DNAnexus maintains a public trust center documenting ISO 27001, FedRAMP, GovRAMP, Cyber Essentials, Cyber Essentials Plus, HIPAA, PCI, EU-U.S. Data Privacy Framework, and EcoVadis compliance.
 provider_name: DNAnexus

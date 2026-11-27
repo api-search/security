@@ -147,7 +147,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Eu Sovereign Cloud Api Authentication
+name: Sovereign European Cloud API (SECA) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sovereign European Cloud API (SECA) secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

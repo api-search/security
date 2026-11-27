@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cfex Trust Center
+name: CFEX Trust Center
 name_suffix: Trust Center
 overview: CFEX maintains a public trust center documenting SOC 2 compliance.
 provider_name: CFEX

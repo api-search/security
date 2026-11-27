@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Instapi Co Authentication
+name: instapi-co Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: instapi-co declares 1 security scheme(s) across its OpenAPI definitions.

@@ -29,7 +29,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Statable Stats Api Trust Center
+name: Statable Stats API Trust Center
 name_suffix: Trust Center
 overview: Statable Stats API maintains a public trust center covering its security and compliance posture.
 provider_name: Statable Stats API

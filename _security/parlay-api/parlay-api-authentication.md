@@ -306,7 +306,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Parlay Api Authentication
+name: ParlayAPI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ParlayAPI secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

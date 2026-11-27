@@ -37,7 +37,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Sssnack Com Authentication
+name: SSSNACK Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SSSNACK secures its APIs with none, bearer-in-argument, and http across 5 declared security schemes, as derived from its OpenAPI definitions.

@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 8
 method: searched
-name: Edf Energy Authentication
+name: EDF Energy Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -1,11 +1,29 @@
 ---
 api_specs:
-- filename: coreweave-clusters-api-openapi.yml
+- filename: coreweave-freshdesk-api-openapi.yml
   format: yaml
-  label: CoreWeave Clusters API
-  slug: coreweave-clusters-api
+  label: CoreWeave Freshdesk API
+  slug: coreweave-freshdesk-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/coreweave/openapi/coreweave-clusters-api-openapi.yml
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-freshdesk-api-openapi.yml
+- filename: coreweave-healthz-api-openapi.yml
+  format: yaml
+  label: CoreWeave Healthz API
+  slug: coreweave-healthz-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-healthz-api-openapi.yml
+- filename: coreweave-reconcile-api-openapi.yml
+  format: yaml
+  label: CoreWeave Reconcile API
+  slug: coreweave-reconcile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-reconcile-api-openapi.yml
+- filename: coreweave-webhooks-api-openapi.yml
+  format: yaml
+  label: CoreWeave Webhooks API
+  slug: coreweave-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coreweave/openapi/coreweave-webhooks-api-openapi.yml
 certification_count: 9
 certifications:
 - SOC 2
@@ -20,7 +38,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Coreweave Trust Center
+name: CoreWeave Trust Center
 name_suffix: Trust Center
 overview: CoreWeave maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: CoreWeave

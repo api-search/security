@@ -246,27 +246,26 @@ api_specs:
   slug: cavuno-com-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cavuno-com/openapi/cavuno-com-webhooks-api-openapi.yml
-certification_count: 4
+certification_count: 3
 certifications:
 - SOC 2
 - ISO 27001
 - PCI DSS
-- GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Cavuno Com Trust Center
+name: Cavuno Trust Center
 name_suffix: Trust Center
-overview: Cavuno maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
+overview: Cavuno maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
 provider_name: Cavuno
 provider_slug: cavuno-com
 slug: cavuno-com-trust-center
 source_filename: cavuno-com-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-11-04'\nmethod: searched\nprobe: true\nsource: https://cavuno.com/security\nurl: https://cavuno.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- GDPR\nevidence:\n- source: https://cavuno.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - pci dss\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-11-04'\nmethod: searched\nprobe: true\nsource: https://cavuno.com/security\nurl: https://cavuno.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\nevidence:\n- source: https://cavuno.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - pci dss\n  - trust center\n  - gdpr\ncertifications_not_held:\n- GDPR\ncertification_quotes:\n  GDPR: Security Subprocessors Data Processing Agreement GDPR and data protection\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/cavuno-com/security/cavuno-com-trust-center.yml
-summary_line: SOC 2, ISO 27001, PCI DSS, GDPR
+summary_line: SOC 2, ISO 27001, PCI DSS
 tags:
 - Job Board Software
 - Artificial Intelligence

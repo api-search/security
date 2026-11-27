@@ -5,7 +5,7 @@ api_specs:
   label: AI21 Jamba Chat Completions API
   slug: chat-completions
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/asyncapi/ai21-labs-asyncapi.yml
+  url: https://artifacts.apis.io/ai21-labs/asyncapi/ai21-labs-asyncapi.yml
 - filename: ai21-labs-library-api-openapi.yml
   format: yaml
   label: AI21 Labs Library API
@@ -54,7 +54,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Ai21 Labs Domain Security
+name: AI21 Labs Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AI21 Labs, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: AI21 Labs

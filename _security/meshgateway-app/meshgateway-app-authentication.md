@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Meshgateway App Authentication
+name: William Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: William declares 0 security scheme(s) across its OpenAPI definitions.

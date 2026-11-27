@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Llmwhisperer Authentication
+name: LLMWhisperer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LLMWhisperer secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

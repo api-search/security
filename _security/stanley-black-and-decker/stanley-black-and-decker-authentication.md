@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Stanley Black And Decker Authentication
+name: Stanley Black & Decker Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Stanley Black & Decker secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -406,7 +406,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Iot Device Management Authentication
+name: Amazon IoT Device Management Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon IoT Device Management secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -419,13 +419,83 @@ schemes:
   name: hmac
   parameter: Authorization
   sources:
-  - openapi/amazon-iot-device-management-openapi-original.yml
+  - openapi/amazon-iot-device-management-accept-certificate-transfer-api-openapi.yml
+  - openapi/amazon-iot-device-management-active-violations-api-openapi.yml
+  - openapi/amazon-iot-device-management-attached-policies-api-openapi.yml
+  - openapi/amazon-iot-device-management-audit-api-openapi.yml
+  - openapi/amazon-iot-device-management-authorizer-api-openapi.yml
+  - openapi/amazon-iot-device-management-authorizers-api-openapi.yml
+  - openapi/amazon-iot-device-management-behavior-model-training-api-openapi.yml
+  - openapi/amazon-iot-device-management-billing-groups-api-openapi.yml
+  - openapi/amazon-iot-device-management-cacertificate-api-openapi.yml
+  - openapi/amazon-iot-device-management-cacertificates-api-openapi.yml
+  - openapi/amazon-iot-device-management-cancel-certificate-transfer-api-openapi.yml
+  - openapi/amazon-iot-device-management-certificate-api-openapi.yml
+  - openapi/amazon-iot-device-management-certificates-api-openapi.yml
+  - openapi/amazon-iot-device-management-certificates-by-ca-api-openapi.yml
+  - openapi/amazon-iot-device-management-certificates-out-going-api-openapi.yml
+  - openapi/amazon-iot-device-management-confirmdestination-api-openapi.yml
+  - openapi/amazon-iot-device-management-custom-metric-api-openapi.yml
+  - openapi/amazon-iot-device-management-custom-metrics-api-openapi.yml
+  - openapi/amazon-iot-device-management-default-authorizer-api-openapi.yml
+  - openapi/amazon-iot-device-management-destinations-api-openapi.yml
+  - openapi/amazon-iot-device-management-detect-api-openapi.yml
+  - openapi/amazon-iot-device-management-dimensions-api-openapi.yml
+  - openapi/amazon-iot-device-management-domain-configurations-api-openapi.yml
+  - openapi/amazon-iot-device-management-dynamic-thing-groups-api-openapi.yml
+  - openapi/amazon-iot-device-management-effective-policies-api-openapi.yml
+  - openapi/amazon-iot-device-management-endpoint-api-openapi.yml
+  - openapi/amazon-iot-device-management-event-configurations-api-openapi.yml
+  - openapi/amazon-iot-device-management-fleet-metric-api-openapi.yml
+  - openapi/amazon-iot-device-management-fleet-metrics-api-openapi.yml
+  - openapi/amazon-iot-device-management-indexing-api-openapi.yml
+  - openapi/amazon-iot-device-management-indices-api-openapi.yml
+  - openapi/amazon-iot-device-management-job-templates-api-openapi.yml
+  - openapi/amazon-iot-device-management-jobs-api-openapi.yml
+  - openapi/amazon-iot-device-management-keys-and-certificate-api-openapi.yml
+  - openapi/amazon-iot-device-management-logging-options-api-openapi.yml
+  - openapi/amazon-iot-device-management-managed-job-templates-api-openapi.yml
+  - openapi/amazon-iot-device-management-metric-values-api-openapi.yml
+  - openapi/amazon-iot-device-management-mitigationactions-api-openapi.yml
+  - openapi/amazon-iot-device-management-ota-updates-api-openapi.yml
+  - openapi/amazon-iot-device-management-policies-api-openapi.yml
+  - openapi/amazon-iot-device-management-policy-principals-api-openapi.yml
+  - openapi/amazon-iot-device-management-policy-targets-api-openapi.yml
+  - openapi/amazon-iot-device-management-principal-policies-api-openapi.yml
+  - openapi/amazon-iot-device-management-principals-api-openapi.yml
+  - openapi/amazon-iot-device-management-provisioning-templates-api-openapi.yml
+  - openapi/amazon-iot-device-management-registrationcode-api-openapi.yml
+  - openapi/amazon-iot-device-management-reject-certificate-transfer-api-openapi.yml
+  - openapi/amazon-iot-device-management-role-aliases-api-openapi.yml
+  - openapi/amazon-iot-device-management-rules-api-openapi.yml
+  - openapi/amazon-iot-device-management-security-profile-behaviors-api-openapi.yml
+  - openapi/amazon-iot-device-management-security-profiles-api-openapi.yml
+  - openapi/amazon-iot-device-management-security-profiles-for-target-api-openapi.yml
+  - openapi/amazon-iot-device-management-streams-api-openapi.yml
+  - openapi/amazon-iot-device-management-tags-api-openapi.yml
+  - openapi/amazon-iot-device-management-target-policies-api-openapi.yml
+  - openapi/amazon-iot-device-management-test-authorization-api-openapi.yml
+  - openapi/amazon-iot-device-management-thing-groups-api-openapi.yml
+  - openapi/amazon-iot-device-management-thing-registration-tasks-api-openapi.yml
+  - openapi/amazon-iot-device-management-thing-types-api-openapi.yml
+  - openapi/amazon-iot-device-management-things-api-openapi.yml
+  - openapi/amazon-iot-device-management-transfer-certificate-api-openapi.yml
+  - openapi/amazon-iot-device-management-untag-api-openapi.yml
+  - openapi/amazon-iot-device-management-v2-logging-level-api-openapi.yml
+  - openapi/amazon-iot-device-management-v2-logging-options-api-openapi.yml
+  - openapi/amazon-iot-device-management-violation-events-api-openapi.yml
+  - openapi/amazon-iot-device-management-violations-api-openapi.yml
   type: apiKey
 slug: amazon-iot-device-management-authentication
 source_filename: amazon-iot-device-management-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-iot-device-management-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-iot-device-management-openapi-original.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-iot-device-management-accept-certificate-transfer-api-openapi.yml, openapi/amazon-iot-device-management-active-violations-api-openapi.yml,\n  openapi/amazon-iot-device-management-attached-policies-api-openapi.yml, openapi/amazon-iot-device-management-audit-api-openapi.yml,\n  openapi/amazon-iot-device-management-authorizer-api-openapi.yml, openapi/amazon-iot-device-management-authorizers-api-openapi.yml,\n  openapi/amazon-iot-device-management-behavior-model-training-api-openapi.yml, openapi/amazon-iot-device-management-billing-groups-api-openapi.yml,\n  openapi/amazon-iot-device-management-cacertificate-api-openapi.yml, openapi/amazon-iot-device-management-cacertificates-api-openapi.yml,\n  openapi/amazon-iot-device-management-cancel-certificate-transfer-api-openapi.yml, openapi/amazon-iot-device-management-certificate-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n\
+  - name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-iot-device-management-accept-certificate-transfer-api-openapi.yml\n  - openapi/amazon-iot-device-management-active-violations-api-openapi.yml\n  - openapi/amazon-iot-device-management-attached-policies-api-openapi.yml\n  - openapi/amazon-iot-device-management-audit-api-openapi.yml\n  - openapi/amazon-iot-device-management-authorizer-api-openapi.yml\n  - openapi/amazon-iot-device-management-authorizers-api-openapi.yml\n  - openapi/amazon-iot-device-management-behavior-model-training-api-openapi.yml\n  - openapi/amazon-iot-device-management-billing-groups-api-openapi.yml\n  - openapi/amazon-iot-device-management-cacertificate-api-openapi.yml\n  - openapi/amazon-iot-device-management-cacertificates-api-openapi.yml\n  - openapi/amazon-iot-device-management-cancel-certificate-transfer-api-openapi.yml\n  - openapi/amazon-iot-device-management-certificate-api-openapi.yml\n\
+  \  - openapi/amazon-iot-device-management-certificates-api-openapi.yml\n  - openapi/amazon-iot-device-management-certificates-by-ca-api-openapi.yml\n  - openapi/amazon-iot-device-management-certificates-out-going-api-openapi.yml\n  - openapi/amazon-iot-device-management-confirmdestination-api-openapi.yml\n  - openapi/amazon-iot-device-management-custom-metric-api-openapi.yml\n  - openapi/amazon-iot-device-management-custom-metrics-api-openapi.yml\n  - openapi/amazon-iot-device-management-default-authorizer-api-openapi.yml\n  - openapi/amazon-iot-device-management-destinations-api-openapi.yml\n  - openapi/amazon-iot-device-management-detect-api-openapi.yml\n  - openapi/amazon-iot-device-management-dimensions-api-openapi.yml\n  - openapi/amazon-iot-device-management-domain-configurations-api-openapi.yml\n  - openapi/amazon-iot-device-management-dynamic-thing-groups-api-openapi.yml\n  - openapi/amazon-iot-device-management-effective-policies-api-openapi.yml\n  - openapi/amazon-iot-device-management-endpoint-api-openapi.yml\n\
+  \  - openapi/amazon-iot-device-management-event-configurations-api-openapi.yml\n  - openapi/amazon-iot-device-management-fleet-metric-api-openapi.yml\n  - openapi/amazon-iot-device-management-fleet-metrics-api-openapi.yml\n  - openapi/amazon-iot-device-management-indexing-api-openapi.yml\n  - openapi/amazon-iot-device-management-indices-api-openapi.yml\n  - openapi/amazon-iot-device-management-job-templates-api-openapi.yml\n  - openapi/amazon-iot-device-management-jobs-api-openapi.yml\n  - openapi/amazon-iot-device-management-keys-and-certificate-api-openapi.yml\n  - openapi/amazon-iot-device-management-logging-options-api-openapi.yml\n  - openapi/amazon-iot-device-management-managed-job-templates-api-openapi.yml\n  - openapi/amazon-iot-device-management-metric-values-api-openapi.yml\n  - openapi/amazon-iot-device-management-mitigationactions-api-openapi.yml\n  - openapi/amazon-iot-device-management-ota-updates-api-openapi.yml\n  - openapi/amazon-iot-device-management-policies-api-openapi.yml\n\
+  \  - openapi/amazon-iot-device-management-policy-principals-api-openapi.yml\n  - openapi/amazon-iot-device-management-policy-targets-api-openapi.yml\n  - openapi/amazon-iot-device-management-principal-policies-api-openapi.yml\n  - openapi/amazon-iot-device-management-principals-api-openapi.yml\n  - openapi/amazon-iot-device-management-provisioning-templates-api-openapi.yml\n  - openapi/amazon-iot-device-management-registrationcode-api-openapi.yml\n  - openapi/amazon-iot-device-management-reject-certificate-transfer-api-openapi.yml\n  - openapi/amazon-iot-device-management-role-aliases-api-openapi.yml\n  - openapi/amazon-iot-device-management-rules-api-openapi.yml\n  - openapi/amazon-iot-device-management-security-profile-behaviors-api-openapi.yml\n  - openapi/amazon-iot-device-management-security-profiles-api-openapi.yml\n  - openapi/amazon-iot-device-management-security-profiles-for-target-api-openapi.yml\n  - openapi/amazon-iot-device-management-streams-api-openapi.yml\n  - openapi/amazon-iot-device-management-tags-api-openapi.yml\n\
+  \  - openapi/amazon-iot-device-management-target-policies-api-openapi.yml\n  - openapi/amazon-iot-device-management-test-authorization-api-openapi.yml\n  - openapi/amazon-iot-device-management-thing-groups-api-openapi.yml\n  - openapi/amazon-iot-device-management-thing-registration-tasks-api-openapi.yml\n  - openapi/amazon-iot-device-management-thing-types-api-openapi.yml\n  - openapi/amazon-iot-device-management-things-api-openapi.yml\n  - openapi/amazon-iot-device-management-transfer-certificate-api-openapi.yml\n  - openapi/amazon-iot-device-management-untag-api-openapi.yml\n  - openapi/amazon-iot-device-management-v2-logging-level-api-openapi.yml\n  - openapi/amazon-iot-device-management-v2-logging-options-api-openapi.yml\n  - openapi/amazon-iot-device-management-violation-events-api-openapi.yml\n  - openapi/amazon-iot-device-management-violations-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-iot-device-management/authentication/amazon-iot-device-management-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

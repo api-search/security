@@ -48,7 +48,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Openchargemap Authentication
+name: Open Charge Map Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Open Charge Map secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

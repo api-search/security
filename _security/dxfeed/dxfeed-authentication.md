@@ -202,7 +202,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Dxfeed Authentication
+name: dxFeed Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: dxFeed secures its APIs with http-basic (login/password credentials) and dxLink AUTH token (protocol message) across 3 declared security schemes, as derived from its OpenAPI definitions.

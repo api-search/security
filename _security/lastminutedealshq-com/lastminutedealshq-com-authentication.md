@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Lastminutedealshq Com Authentication
+name: lastminutedealshq-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: lastminutedealshq-com declares 0 security scheme(s) across its OpenAPI definitions.

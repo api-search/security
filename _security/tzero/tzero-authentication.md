@@ -180,7 +180,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Tzero Authentication
+name: tZERO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tZERO secures its APIs with apiKey, http, and refreshToken across 4 declared security schemes, as derived from its OpenAPI definitions.

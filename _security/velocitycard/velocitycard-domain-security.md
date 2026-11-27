@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: velocitycard-cards-api-openapi.yml
+- filename: velocitycard-openapi-generated.yml
   format: yaml
-  label: VelocityCard Card Issuing Cards API
-  slug: velocitycard-cards-api
+  label: VelocityCard Card Issuing API
+  slug: velocitycard-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/velocitycard/openapi/velocitycard-cards-api-openapi.yml
+  url: https://artifacts.apis.io/velocitycard/openapi/_ae-authored/velocitycard-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -25,10 +25,10 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Velocitycard Domain Security
+name: VelocityCard Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for VelocityCard Card Issuing, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
-provider_name: VelocityCard Card Issuing
+overview: 'Domain security posture for VelocityCard, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+provider_name: VelocityCard
 provider_slug: velocitycard
 slug: velocitycard-domain-security
 source_filename: velocitycard-domain-security.yml

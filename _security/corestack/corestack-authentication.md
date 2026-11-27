@@ -219,12 +219,6 @@ api_specs:
   slug: corestack-guardrails-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/corestack/openapi/corestack-guardrails-api-openapi.yml
-- filename: corestack-identity-api-openapi.yml
-  format: yaml
-  label: CoreStack Identity API
-  slug: corestack-identity-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/corestack/openapi/corestack-identity-api-openapi.yml
 - filename: corestack-jira-service-management-api-openapi.yml
   format: yaml
   label: CoreStack Jira Service Management API
@@ -575,7 +569,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Corestack Authentication
+name: CoreStack Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CoreStack secures its APIs with apiKey and oauth2 across 4 declared security schemes, as derived from its OpenAPI definitions.

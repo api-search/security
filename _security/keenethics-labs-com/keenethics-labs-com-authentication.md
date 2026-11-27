@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Keenethics Labs Com Authentication
+name: keenethics-labs-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: keenethics-labs-com declares 0 security scheme(s) across its OpenAPI definitions.

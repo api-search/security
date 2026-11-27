@@ -594,7 +594,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Thousandeyes Trust Center
+name: ThousandEyes Trust Center
 name_suffix: Trust Center
 overview: ThousandEyes maintains a public trust center documenting FedRAMP Moderate compliance.
 provider_name: ThousandEyes

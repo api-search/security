@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Prdictionedge Ai Authentication
+name: AUX by PrdictionEdge Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AUX by PrdictionEdge declares 3 security scheme(s) across its OpenAPI definitions.

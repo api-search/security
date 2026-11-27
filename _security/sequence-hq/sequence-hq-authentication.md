@@ -45,7 +45,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: documented
-name: Sequence Hq Authentication
+name: Sequence Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sequence secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Edx Netl Doe Gov Domain Security
+name: DOE NETL Energy Data Exchange Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for DOE NETL Energy Data Exchange, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: DOE NETL Energy Data Exchange

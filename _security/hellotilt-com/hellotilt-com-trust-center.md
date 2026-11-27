@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hellotilt Com Trust Center
+name: TiLT Trust Center
 name_suffix: Trust Center
 overview: TiLT maintains a public trust center documenting SOC 2 compliance.
 provider_name: TiLT

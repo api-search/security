@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Finestructure Ai Authentication
+name: Fine Structure Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fine Structure declares 1 security scheme(s) across its OpenAPI definitions.
@@ -54,7 +54,7 @@ source_yaml: "generated: '2026-11-08'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/finestructure-ai/authentication/finestructure-ai-authentication.yml
 summary_line: 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Automation
 - Platform
 - Integration

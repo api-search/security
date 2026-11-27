@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Firecompliancecost Co Uk Authentication
+name: Fire Compliance Cost Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fire Compliance Cost secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -46,6 +46,6 @@ tags:
 - Fire Safety
 - Compliance
 - Cost Estimation
-- UK
+- United Kingdom
 - Free Quotes
 ---

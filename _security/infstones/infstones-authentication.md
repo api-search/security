@@ -16,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Infstones Authentication
+name: InfStones Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: InfStones secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

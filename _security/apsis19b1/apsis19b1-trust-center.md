@@ -19,7 +19,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Apsis19B1 Trust Center
+name: Apsis19b1 Trust Center
 name_suffix: Trust Center
 overview: Apsis19b1 maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: Apsis19b1

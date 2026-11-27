@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fastballapi Com Authentication
+name: fastballapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: fastballapi-com declares 1 security scheme(s) across its OpenAPI definitions.

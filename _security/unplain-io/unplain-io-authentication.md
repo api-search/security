@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Unplain Io Authentication
+name: unplain-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: unplain-io declares 1 security scheme(s) across its OpenAPI definitions.

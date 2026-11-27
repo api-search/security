@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agency Of Rural Development Soil And Water Conservation Ardswc Authentication
+name: Agency of Rural Development & Soil and Water Conservation (ARDSWC) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agency of Rural Development & Soil and Water Conservation (ARDSWC) declares 0 security scheme(s) across its OpenAPI definitions.

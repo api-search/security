@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Spaceiq Trust Center
+name: SpaceIQ Trust Center
 name_suffix: Trust Center
 overview: SpaceIQ maintains a public trust center documenting ISO 27001, FedRAMP, and GDPR compliance.
 provider_name: SpaceIQ

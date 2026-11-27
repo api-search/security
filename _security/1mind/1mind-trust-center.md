@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 1Mind Trust Center
+name: 1mind Trust Center
 name_suffix: Trust Center
 overview: 1mind maintains a public trust center documenting SOC 2 Type II, ISO 27001, and ISO 42001 compliance.
 provider_name: 1mind

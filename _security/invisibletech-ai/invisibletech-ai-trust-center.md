@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Invisibletech Ai Trust Center
+name: Invisible Technologies Trust Center
 name_suffix: Trust Center
 overview: Invisible Technologies maintains a public trust center documenting SOC 2, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: Invisible Technologies

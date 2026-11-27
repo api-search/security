@@ -2,30 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-migration-center-assets-api-openapi.yml
+- filename: google-cloud-migration-center-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Migration Center Assets API
-  slug: google-cloud-migration-center-assets-api
+  label: Google Cloud Migration Center Projects API
+  slug: google-cloud-migration-center-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-assets-api-openapi.yml
-- filename: google-cloud-migration-center-groups-api-openapi.yml
-  format: yaml
-  label: Google Cloud Migration Center Groups API
-  slug: google-cloud-migration-center-groups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-groups-api-openapi.yml
-- filename: google-cloud-migration-center-preferencesets-api-openapi.yml
-  format: yaml
-  label: Google Cloud Migration Center PreferenceSets API
-  slug: google-cloud-migration-center-preferencesets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-preferencesets-api-openapi.yml
-- filename: google-cloud-migration-center-import-jobs-api-openapi.yml
-  format: yaml
-  label: Google Cloud Migration Center Import Jobs API
-  slug: google-cloud-migration-center-import-jobs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-import-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-migration-center/openapi/google-cloud-migration-center-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

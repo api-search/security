@@ -109,7 +109,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Xai Trust Center
+name: xAI Trust Center
 name_suffix: Trust Center
 overview: xAI maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: xAI

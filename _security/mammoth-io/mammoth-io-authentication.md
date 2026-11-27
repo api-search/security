@@ -692,7 +692,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Mammoth Io Authentication
+name: mammoth-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: mammoth-io declares 4 security scheme(s) across its OpenAPI definitions.

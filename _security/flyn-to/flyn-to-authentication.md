@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Flyn To Authentication
+name: Flyn Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Flyn declares 1 security scheme(s) across its OpenAPI definitions.
@@ -36,12 +36,11 @@ source_yaml: "generated: '2026-11-08'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/flyn-to/authentication/flyn-to-authentication.yml
 summary_line: 1 scheme
 tags:
-- link shortener
+- Link Shortener
 - URL analytics
 - branded domains
-- API
-- QR codes
-- team workspaces
-- A/B testing
-- developer tools
+- QR Codes
+- Team workspaces
+- A/B Testing
+- Developer Tools
 ---

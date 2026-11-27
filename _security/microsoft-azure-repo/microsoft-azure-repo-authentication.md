@@ -64,7 +64,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Microsoft Azure Repo Authentication
+name: Azure Repos Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
@@ -81,19 +81,37 @@ schemes:
     tokenUrl: https://app.vssps.visualstudio.com/oauth2/token
   name: oauth2
   sources:
-  - openapi/azure-repo-git-api-openapi.yml
+  - openapi/microsoft-azure-repo-commits-api-openapi.yml
+  - openapi/microsoft-azure-repo-items-api-openapi.yml
+  - openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
+  - openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml
+  - openapi/microsoft-azure-repo-pull-requests-api-openapi.yml
+  - openapi/microsoft-azure-repo-pushes-api-openapi.yml
+  - openapi/microsoft-azure-repo-refs-api-openapi.yml
+  - openapi/microsoft-azure-repo-repositories-api-openapi.yml
+  - openapi/microsoft-azure-repo-stats-api-openapi.yml
   type: oauth2
 - description: HTTP Basic authentication using a Personal Access Token (PAT). Use any string for the username and the PAT as the password.
   name: basicAuth
   scheme: basic
   sources:
-  - openapi/azure-repo-git-api-openapi.yml
+  - openapi/microsoft-azure-repo-commits-api-openapi.yml
+  - openapi/microsoft-azure-repo-items-api-openapi.yml
+  - openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml
+  - openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml
+  - openapi/microsoft-azure-repo-pull-requests-api-openapi.yml
+  - openapi/microsoft-azure-repo-pushes-api-openapi.yml
+  - openapi/microsoft-azure-repo-refs-api-openapi.yml
+  - openapi/microsoft-azure-repo-repositories-api-openapi.yml
+  - openapi/microsoft-azure-repo-stats-api-openapi.yml
   type: http
 slug: microsoft-azure-repo-authentication
 source_filename: microsoft-azure-repo-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-repo-git-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n    scopes: 3\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n    scope for read operations and vso.code_write for write operations.\n  sources:\n  - openapi/azure-repo-git-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using a Personal Access Token (PAT). Use any string\n    for the username and the PAT as the password.\n  sources:\n  - openapi/azure-repo-git-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-azure-repo-commits-api-openapi.yml, openapi/microsoft-azure-repo-items-api-openapi.yml,\n  openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml, openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml,\n  openapi/microsoft-azure-repo-pull-requests-api-openapi.yml, openapi/microsoft-azure-repo-pushes-api-openapi.yml,\n  openapi/microsoft-azure-repo-refs-api-openapi.yml, openapi/microsoft-azure-repo-repositories-api-openapi.yml,\n  openapi/microsoft-azure-repo-stats-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://app.vssps.visualstudio.com/oauth2/authorize\n    tokenUrl: https://app.vssps.visualstudio.com/oauth2/token\n    scopes: 3\n  description: OAuth 2.0 authorization code flow for Azure DevOps Services. Requires the vso.code\n\
+  \    scope for read operations and vso.code_write for write operations.\n  sources:\n  - openapi/microsoft-azure-repo-commits-api-openapi.yml\n  - openapi/microsoft-azure-repo-items-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-requests-api-openapi.yml\n  - openapi/microsoft-azure-repo-pushes-api-openapi.yml\n  - openapi/microsoft-azure-repo-refs-api-openapi.yml\n  - openapi/microsoft-azure-repo-repositories-api-openapi.yml\n  - openapi/microsoft-azure-repo-stats-api-openapi.yml\n- name: basicAuth\n  type: http\n  scheme: basic\n  description: HTTP Basic authentication using a Personal Access Token (PAT). Use any string\n    for the username and the PAT as the password.\n  sources:\n  - openapi/microsoft-azure-repo-commits-api-openapi.yml\n  - openapi/microsoft-azure-repo-items-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-request-reviewers-api-openapi.yml\n\
+  \  - openapi/microsoft-azure-repo-pull-request-threads-api-openapi.yml\n  - openapi/microsoft-azure-repo-pull-requests-api-openapi.yml\n  - openapi/microsoft-azure-repo-pushes-api-openapi.yml\n  - openapi/microsoft-azure-repo-refs-api-openapi.yml\n  - openapi/microsoft-azure-repo-repositories-api-openapi.yml\n  - openapi/microsoft-azure-repo-stats-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-repo/authentication/microsoft-azure-repo-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:

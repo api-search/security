@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Callbaba Com Trust Center
+name: Baba Trust Center
 name_suffix: Trust Center
 overview: Baba maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Baba

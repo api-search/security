@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Nycu Authentication
+name: National Yang Ming Chiao Tung University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: National Yang Ming Chiao Tung University declares 2 security scheme(s) across its OpenAPI definitions.

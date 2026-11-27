@@ -49,7 +49,7 @@ tags:
 - CI/CD
 - Code Quality
 - Flaky Tests
-- Merge Queue
+- merge-queue
 - Test Analytics
 - Static Analysis
 - Webhook

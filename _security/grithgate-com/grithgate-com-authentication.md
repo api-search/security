@@ -12,7 +12,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Grithgate Com Authentication
+name: GRITH Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GRITH secures its APIs with none, custom-handshake, http-bearer, signature-proof, and session across 7 declared security schemes, as derived from its OpenAPI definitions.

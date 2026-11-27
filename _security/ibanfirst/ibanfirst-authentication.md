@@ -66,7 +66,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Ibanfirst Authentication
+name: iBanFirst Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

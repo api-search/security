@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sightcall Trust Center
+name: SightCall Trust Center
 name_suffix: Trust Center
 overview: SightCall maintains a public trust center documenting SOC 2, HIPAA, GDPR, and CSA STAR compliance.
 provider_name: SightCall

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Moveyou Trust Center
+name: MoveYou Trust Center
 name_suffix: Trust Center
 overview: MoveYou maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: MoveYou

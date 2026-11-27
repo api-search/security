@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Sber Authentication
+name: Sber ID / SberCloud Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sber ID / SberCloud declares 0 security scheme(s) across its OpenAPI definitions.

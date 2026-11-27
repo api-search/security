@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Decordepot Co Uk Authentication
+name: Decor Depot Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Decor Depot secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

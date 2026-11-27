@@ -153,7 +153,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Nar Authentication
+name: National Association of REALTORS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: National Association of REALTORS secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cirra Ai Trust Center
+name: Cirra AI Trust Center
 name_suffix: Trust Center
 overview: Cirra AI maintains a public trust center documenting SOC 2 compliance.
 provider_name: Cirra AI

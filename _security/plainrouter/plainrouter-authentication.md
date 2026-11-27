@@ -139,5 +139,5 @@ tags:
 - Company
 - Advertising
 - Developer Tools
-- PaidAds
+- Paid Ads
 ---

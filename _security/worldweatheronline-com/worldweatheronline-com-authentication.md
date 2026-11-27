@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Worldweatheronline Com Authentication
+name: worldweatheronline-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: worldweatheronline-com declares 1 security scheme(s) across its OpenAPI definitions.

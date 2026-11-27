@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Axonagentic Ai Authentication
+name: Axon Agentic Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Axon Agentic declares 0 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Lse Authentication
+name: London School of Economics and Political Science Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: London School of Economics and Political Science declares 0 security scheme(s) across its OpenAPI definitions.

@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Csc Generation Authentication
+name: CSC Generation Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CSC Generation secures its APIs with apiKey and agent-profile-handshake across 2 declared security schemes, as derived from its OpenAPI definitions.

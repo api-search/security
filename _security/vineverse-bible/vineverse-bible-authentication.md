@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Vineverse Bible Authentication
+name: VineVerse Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VineVerse declares 0 security scheme(s) across its OpenAPI definitions.

@@ -72,25 +72,23 @@ api_specs:
   slug: coldrig-dev-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coldrig-dev/openapi/coldrig-dev-webhooks-api-openapi.yml
-certification_count: 2
-certifications:
-- SOC 2
-- ISO 27001
+certification_count: 0
+certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Coldrig Dev Trust Center
+name: Coldrig Trust Center
 name_suffix: Trust Center
-overview: Coldrig maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
+overview: Coldrig maintains a public trust center covering its security and compliance posture.
 provider_name: Coldrig
 provider_slug: coldrig-dev
 slug: coldrig-dev-trust-center
 source_filename: coldrig-dev-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-11-04'\nmethod: searched\nprobe: true\nsource: https://coldrig.dev/security\nurl: https://coldrig.dev/security\ncertifications:\n- SOC 2\n- ISO 27001\nevidence:\n- source: https://coldrig.dev/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - compliance certification\n"
+source_yaml: "generated: '2026-11-04'\nmethod: searched\nprobe: true\nsource: https://coldrig.dev/security\nurl: https://coldrig.dev/security\ncertifications: []\nevidence:\n- source: https://coldrig.dev/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - compliance certification\ncertifications_not_held:\n- SOC 2\n- ISO 27001\ncertification_quotes:\n  SOC 2: English status | Coldrig does not currently claim SOC 2,\n  ISO 27001: English status | Coldrig does not currently claim SOC 2, ISO 27001, penetration-test attestation,\n    or a formal uptime SLA. Production sen\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/coldrig-dev/security/coldrig-dev-trust-center.yml
-summary_line: SOC 2, ISO 27001
+summary_line: trust center published
 tags:
 - Cold Email
 - Outreach

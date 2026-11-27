@@ -11,7 +11,7 @@ certifications:
 description: OncoLens operates a real, publicly reachable SafeBase trust center on its own domain. It is the single most substantive machine-adjacent artifact the company publishes — 30+ security controls marked at full maturity, SOC 2 and HIPAA compliance entries, and gated report downloads. It carries no API, developer, or interoperability content.
 kind: trust-center
 layout: security
-name: Oncolens Trust Center
+name: OncoLens Trust Center
 name_suffix: Trust Center
 overview: OncoLens maintains a public trust center documenting SOC 2, HIPAA, SOC 3, ISO 27001, HITRUST, PCI DSS, and FedRAMP compliance.
 provider_name: OncoLens

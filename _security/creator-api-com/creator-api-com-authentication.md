@@ -236,7 +236,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Creator Api Com Authentication
+name: creator-api-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: creator-api-com declares 0 security scheme(s) across its OpenAPI definitions.

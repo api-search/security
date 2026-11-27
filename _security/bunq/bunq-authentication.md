@@ -688,7 +688,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Bunq Authentication
+name: bunq Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: bunq secures its APIs with apiKey and signature across 3 declared security schemes, as derived from its OpenAPI definitions.

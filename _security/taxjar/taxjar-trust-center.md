@@ -61,7 +61,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Taxjar Trust Center
+name: TaxJar Trust Center
 name_suffix: Trust Center
 overview: TaxJar maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: TaxJar

@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Liv Authentication
+name: LIV Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LIV secures its APIs with tracking-id and device-login across 2 declared security schemes, as derived from its OpenAPI definitions.

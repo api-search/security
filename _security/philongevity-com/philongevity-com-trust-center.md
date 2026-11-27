@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Philongevity Com Trust Center
+name: Phi Longevity Trust Center
 name_suffix: Trust Center
 overview: Phi Longevity maintains a public trust center covering its security and compliance posture.
 provider_name: Phi Longevity

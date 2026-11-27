@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ankarai Trust Center
+name: ankar.ai Trust Center
 name_suffix: Trust Center
 overview: ankar.ai maintains a public trust center documenting SOC 2 Type 2 and ISO 27001:2022 compliance.
 provider_name: ankar.ai

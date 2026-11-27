@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Openbao Authentication
+name: OpenBao Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OpenBao declares 4 security scheme(s) across its OpenAPI definitions.

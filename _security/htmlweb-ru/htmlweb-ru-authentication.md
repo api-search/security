@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Htmlweb Ru Authentication
+name: htmlweb-ru Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: htmlweb-ru declares 0 security scheme(s) across its OpenAPI definitions.

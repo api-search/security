@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Becomefluent Io Trust Center
+name: Fluent Trust Center
 name_suffix: Trust Center
 overview: Fluent maintains a public trust center documenting SOC 2, ISO 27001, and HIPAA compliance.
 provider_name: Fluent

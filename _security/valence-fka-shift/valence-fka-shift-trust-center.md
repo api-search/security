@@ -9,7 +9,7 @@ certifications:
 description: Valence publishes a Vanta-hosted trust center at trust.valence.co (HTTP 200, title "Valence Trust Center") and a marketing trust page at valence.co/trust-and-security. The trust page states Nadia (the AI coaching product) is certified SOC 2 Type 2, ISO 27001, and ISO 42001 (responsible AI management), is GDPR compliant and EU AI Act adherent, and claims to be the only AI coaching platform certified across all three. Security posture includes AES-256 encryption at rest, TLS 1.2+ in transit, SAML SSO, SCIM provisioning, RBAC, single-tenant data isolation, annual external audits with penetration testing, and zero data retention for model training.
 kind: trust-center
 layout: security
-name: Valence Fka Shift Trust Center
+name: Valence (FKA Shift) Trust Center
 name_suffix: Trust Center
 overview: Valence (FKA Shift) maintains a public trust center documenting SOC 2 Type 2, ISO 27001, ISO 42001, GDPR, and EU AI Act (adherence) compliance.
 provider_name: Valence (FKA Shift)

@@ -126,6 +126,60 @@ api_specs:
   slug: amazon-inspector-vulnerabilities-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-inspector/openapi/amazon-inspector-vulnerabilities-api-openapi.yml
+- filename: amazon-inspector-assessment-run-api-openapi.yml
+  format: yaml
+  label: Amazon Inspector Inspector Assessment Run API
+  slug: amazon-inspector-assessment-run-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-inspector/openapi/amazon-inspector-assessment-run-api-openapi.yml
+- filename: amazon-inspector-assessment-target-api-openapi.yml
+  format: yaml
+  label: Amazon Inspector Inspector Assessment Target API
+  slug: amazon-inspector-assessment-target-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-inspector/openapi/amazon-inspector-assessment-target-api-openapi.yml
+- filename: amazon-inspector-assessment-template-api-openapi.yml
+  format: yaml
+  label: Amazon Inspector Inspector Assessment Template API
+  slug: amazon-inspector-assessment-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-inspector/openapi/amazon-inspector-assessment-template-api-openapi.yml
+- filename: amazon-inspector-cis-api-openapi.yml
+  format: yaml
+  label: Amazon Inspector Inspector Cis API
+  slug: amazon-inspector-cis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-inspector/openapi/amazon-inspector-cis-api-openapi.yml
+- filename: amazon-inspector-cissession-api-openapi.yml
+  format: yaml
+  label: Amazon Inspector Inspector Cissession API
+  slug: amazon-inspector-cissession-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-inspector/openapi/amazon-inspector-cissession-api-openapi.yml
+- filename: amazon-inspector-codesecurity-api-openapi.yml
+  format: yaml
+  label: Amazon Inspector Inspector Codesecurity API
+  slug: amazon-inspector-codesecurity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-inspector/openapi/amazon-inspector-codesecurity-api-openapi.yml
+- filename: amazon-inspector-connector-api-openapi.yml
+  format: yaml
+  label: Amazon Inspector Inspector Connector API
+  slug: amazon-inspector-connector-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-inspector/openapi/amazon-inspector-connector-api-openapi.yml
+- filename: amazon-inspector-ondemand-api-openapi.yml
+  format: yaml
+  label: Amazon Inspector Inspector Ondemand API
+  slug: amazon-inspector-ondemand-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-inspector/openapi/amazon-inspector-ondemand-api-openapi.yml
+- filename: amazon-inspector-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Inspector Inspector Operations API
+  slug: amazon-inspector-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-inspector/openapi/amazon-inspector-operations-api-openapi.yml
 - filename: amazon-inspector-organization-configuration-api-openapi.yml
   format: yaml
   label: Amazon Inspector Organization Configuration API

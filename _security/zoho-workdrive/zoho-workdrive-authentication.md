@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Zoho Workdrive Authentication
+name: Zoho Docs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Zoho Docs declares 2 security scheme(s) across its OpenAPI definitions.

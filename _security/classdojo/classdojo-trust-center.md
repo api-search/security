@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Classdojo Trust Center
+name: ClassDojo Trust Center
 name_suffix: Trust Center
 overview: ClassDojo maintains a public trust center documenting SOC 2 compliance.
 provider_name: ClassDojo

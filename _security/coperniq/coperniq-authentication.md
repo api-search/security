@@ -147,6 +147,30 @@ api_specs:
   slug: coperniq-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coperniq/openapi/coperniq-workflows-api-openapi.yml
+- filename: coperniq-folders-api-openapi.yml
+  format: yaml
+  label: Coperniq Folders API
+  slug: coperniq-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-folders-api-openapi.yml
+- filename: coperniq-measurements-api-openapi.yml
+  format: yaml
+  label: Coperniq Measurements API
+  slug: coperniq-measurements-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-measurements-api-openapi.yml
+- filename: coperniq-timesheets-api-openapi.yml
+  format: yaml
+  label: Coperniq Timesheets API
+  slug: coperniq-timesheets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-timesheets-api-openapi.yml
+- filename: coperniq-utilities-api-openapi.yml
+  format: yaml
+  label: Coperniq Utilities API
+  slug: coperniq-utilities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coperniq/openapi/coperniq-utilities-api-openapi.yml
 - filename: coperniq-catalog-items-api-openapi.yml
   format: yaml
   label: Coperniq Catalog Items API

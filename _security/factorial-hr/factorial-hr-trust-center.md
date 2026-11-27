@@ -25,7 +25,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Factorial Hr Trust Center
+name: Factorial Trust Center
 name_suffix: Trust Center
 overview: Factorial maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Factorial

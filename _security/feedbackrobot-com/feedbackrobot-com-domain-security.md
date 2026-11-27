@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Feedbackrobot Com Domain Security
+name: FeedbackRobot Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FeedbackRobot, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: FeedbackRobot
@@ -31,9 +31,9 @@ source_yaml: "generated: '2026-11-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/feedbackrobot-com/security/feedbackrobot-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI
-- CustomerFeedback
-- ReputationManagement
+- Artificial Intelligence
+- Customer Feedback
+- Reputation Management
 - Automation
-- SaaS
+- Software-as-a-Service
 ---

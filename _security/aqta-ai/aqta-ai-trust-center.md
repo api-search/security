@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aqta Ai Trust Center
+name: Aqta Trust Center
 name_suffix: Trust Center
 overview: Aqta maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: Aqta

@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Software Com Domain Security
+name: Software Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Software, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Software

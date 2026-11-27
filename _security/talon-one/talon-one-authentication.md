@@ -263,7 +263,7 @@ kind: authentication
 layout: security
 mechanism_count: 8
 method: searched
-name: Talon One Authentication
+name: Talon.One Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Talon.One secures its APIs with apiKey and http across 8 declared security schemes, as derived from its OpenAPI definitions.

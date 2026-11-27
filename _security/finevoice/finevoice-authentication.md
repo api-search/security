@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Finevoice Authentication
+name: FineVoice (Fineshare) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FineVoice (Fineshare) declares 1 security scheme(s) across its OpenAPI definitions.

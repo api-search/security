@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Terra Bio Trust Center
+name: Terra Trust Center
 name_suffix: Trust Center
 overview: Terra maintains a public trust center documenting HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Terra

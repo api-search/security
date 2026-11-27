@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Rumoro Dev Authentication
+name: rumoro-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: rumoro-dev declares 1 security scheme(s) across its OpenAPI definitions.

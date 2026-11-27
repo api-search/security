@@ -42,7 +42,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Game Of Thrones Domain Security
+name: An API of Ice and Fire Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for An API of Ice and Fire, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: An API of Ice and Fire
@@ -64,5 +64,4 @@ tags:
 - Fantasy
 - Entertainment
 - OpenAPI
-- Free API
 ---

@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Bureau Of Alcohol Tobacco Firearms And Explosives Atf  Authentication
+name: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) declares 0 security scheme(s) across its OpenAPI definitions.

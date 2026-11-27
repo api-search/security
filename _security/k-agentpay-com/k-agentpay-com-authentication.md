@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: K Agentpay Com Authentication
+name: k-agentpay-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: k-agentpay-com declares 0 security scheme(s) across its OpenAPI definitions.
@@ -50,7 +50,7 @@ summary_line: 0 schemes
 tags:
 - Company
 - Travel
-- K-Pop
+- K-pop
 - Data
 - South Korea
 ---

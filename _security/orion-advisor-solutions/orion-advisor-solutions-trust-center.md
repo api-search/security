@@ -3438,6 +3438,30 @@ api_specs:
   slug: orion-advisor-solutions-validateimport-echo-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-validateimport-echo-api-openapi.yml
+- filename: orion-advisor-solutions-billing-cloud-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Billing/Cloud API
+  slug: orion-advisor-solutions-billing-cloud-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-billing-cloud-api-openapi.yml
+- filename: orion-advisor-solutions-confirm-reconcases-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Confirm/Recon Cases API
+  slug: orion-advisor-solutions-confirm-reconcases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-confirm-reconcases-api-openapi.yml
+- filename: orion-advisor-solutions-reporting-income-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Reporting/Income API
+  slug: orion-advisor-solutions-reporting-income-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-reporting-income-api-openapi.yml
+- filename: orion-advisor-solutions-utility-gridexport-api-openapi.yml
+  format: yaml
+  label: Orion Advisor Solutions Utility/Grid Export API
+  slug: orion-advisor-solutions-utility-gridexport-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orion-advisor-solutions/openapi/orion-advisor-solutions-utility-gridexport-api-openapi.yml
 certification_count: 5
 certifications:
 - SOC 1 Type 1
@@ -3457,7 +3481,8 @@ slug: orion-advisor-solutions-trust-center
 source_filename: orion-advisor-solutions-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-09-10'\nmethod: searched\nprobe: true\nurl: https://trustcenter.orion.com/\nplatform: SafeBase (Drata)\ncertifications:\n- SOC 1 Type 1\n- SOC 1 Type 2\n- SOC 2 Type 2\n- ISO/IEC 27001:2022\n- ISO/IEC 42001:2023\ndocuments:\n- Compliance reports and certificates\n- Product-specific security documentation (Redtail CRM, Advisor Portal, Client Portal)\n- BC/DR, Incident Response, and Information Security policies\n- Data Protection Addendum\n- Certificate of Insurance\n- SOC bridge letters\nsubprocessors: [Twilio, Salesforce, Proofpoint, Microsoft, Amazon Web Services]\nevidence:\n- source: https://trustcenter.orion.com/\n  keywords: [SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 42001, trust center]\n  note: direct curl receives a 403 bot challenge; the page is live and renders the\n    full trust center (fetched 2026-09-10 via browser-equivalent fetch)\n- source: https://orion.com/security-privacy\n  keywords: [ISO/IEC 27001, SOC 1, SOC 2, NIST, ISMS]\n"
+source_yaml: "generated: '2026-09-10'\nmethod: searched\nsource:\n- https://trustcenter.orion.com/\n- https://orion.com/security-privacy\nprobe: true\nurl: https://trustcenter.orion.com/\nplatform: safebase\ncertifications:\n- SOC 1 Type 1\n- SOC 1 Type 2\n- SOC 2 Type 2\n- ISO/IEC 27001:2022\n- ISO/IEC 42001:2023\ndocuments:\n- Compliance reports and certificates\n- Product-specific security documentation (Redtail CRM, Advisor Portal, Client Portal)\n- BC/DR, Incident Response, and Information Security policies\n- Data Protection Addendum\n- Certificate of Insurance\n- SOC bridge letters\nsubprocessors:\n- name: Twilio\n- name: Salesforce\n- name: Proofpoint\n- name: Microsoft\n- name: Amazon Web Services\nevidence:\n- source: https://trustcenter.orion.com/\n  keywords:\n  - SOC 2 Type 2\n  - ISO/IEC 27001\n  - ISO/IEC 42001\n  - trust center\n  note: direct curl receives a 403 bot challenge; the page is live and renders the full trust center (fetched\n    2026-09-10 via browser-equivalent\
+  \ fetch)\n- source: https://orion.com/security-privacy\n  keywords:\n  - ISO/IEC 27001\n  - SOC 1\n  - SOC 2\n  - NIST\n  - ISMS\nplatform_evidence: SafeBase (Drata)\n"
 source_yaml_url: https://artifacts.apis.io/orion-advisor-solutions/security/orion-advisor-solutions-trust-center.yml
 summary_line: SOC 1 Type 1, SOC 1 Type 2, SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 42001:2023
 tags:

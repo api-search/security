@@ -2,24 +2,54 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-databricks-clusters-api-openapi.yml
+- filename: microsoft-azure-databricks-accessconnector-api-openapi.yml
   format: yaml
-  label: Azure Databricks Clusters API
-  slug: microsoft-azure-databricks-clusters-api
+  label: Azure Databricks Access Connector API
+  slug: microsoft-azure-databricks-accessconnector-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-clusters-api-openapi.yml
-- filename: microsoft-azure-databricks-jobs-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-accessconnector-api-openapi.yml
+- filename: microsoft-azure-databricks-delete-api-openapi.yml
   format: yaml
-  label: Azure Databricks Jobs API
-  slug: microsoft-azure-databricks-jobs-api
+  label: Azure Databricks DELETE API
+  slug: microsoft-azure-databricks-delete-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-jobs-api-openapi.yml
-- filename: microsoft-azure-databricks-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-delete-api-openapi.yml
+- filename: microsoft-azure-databricks-operations-api-openapi.yml
   format: yaml
-  label: Azure Databricks Workspace API
-  slug: microsoft-azure-databricks-workspace-api
+  label: Azure Databricks Operations API
+  slug: microsoft-azure-databricks-operations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-workspace-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-operations-api-openapi.yml
+- filename: microsoft-azure-databricks-privatelinkresources-api-openapi.yml
+  format: yaml
+  label: Azure Databricks Private Link Resources API
+  slug: microsoft-azure-databricks-privatelinkresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-privatelinkresources-api-openapi.yml
+- filename: microsoft-azure-databricks-put-api-openapi.yml
+  format: yaml
+  label: Azure Databricks PUT API
+  slug: microsoft-azure-databricks-put-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-put-api-openapi.yml
+- filename: microsoft-azure-databricks-vnetpeering-api-openapi.yml
+  format: yaml
+  label: Azure Databricks V Net Peering API
+  slug: microsoft-azure-databricks-vnetpeering-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-vnetpeering-api-openapi.yml
+- filename: microsoft-azure-databricks-workspaces-api-openapi.yml
+  format: yaml
+  label: Azure Databricks Workspaces API
+  slug: microsoft-azure-databricks-workspaces-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-workspaces-api-openapi.yml
+- filename: microsoft-azure-databricks-private-endpoint-connections-api-openapi.yml
+  format: yaml
+  label: Azure Databricks Private Endpoint Connections API
+  slug: microsoft-azure-databricks-private-endpoint-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-databricks/openapi/microsoft-azure-databricks-private-endpoint-connections-api-openapi.yml
 auth_types:
 - http
 - oauth2

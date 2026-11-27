@@ -107,7 +107,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Pontofato Authentication
+name: PontoFato Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PontoFato secures its APIs with none, http-bearer, and x402-payment across 4 declared security schemes, as derived from its OpenAPI definitions.

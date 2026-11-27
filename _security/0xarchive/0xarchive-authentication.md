@@ -321,6 +321,120 @@ api_specs:
   slug: 0xarchive-web3-authentication-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-web3-authentication-api-openapi.yml
+- filename: 0xarchive-hip-3-builder-perps-positions-api-openapi.yml
+  format: yaml
+  label: 0xArchive HIP-3 Builder Perps - Positions API
+  slug: 0xarchive-hip-3-builder-perps-positions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-hip-3-builder-perps-positions-api-openapi.yml
+- filename: 0xarchive-hyperliquid-breadth-api-openapi.yml
+  format: yaml
+  label: 0xArchive Hyperliquid - Breadth API
+  slug: 0xarchive-hyperliquid-breadth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-hyperliquid-breadth-api-openapi.yml
+- filename: 0xarchive-hyperliquid-positions-api-openapi.yml
+  format: yaml
+  label: 0xArchive Hyperliquid - Positions API
+  slug: 0xarchive-hyperliquid-positions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-hyperliquid-positions-api-openapi.yml
+- filename: 0xarchive-lighter-on-robinhood-chain-candles-api-openapi.yml
+  format: yaml
+  label: 0xArchive Lighter on Robinhood Chain - Candles API
+  slug: 0xarchive-lighter-on-robinhood-chain-candles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-lighter-on-robinhood-chain-candles-api-openapi.yml
+- filename: 0xarchive-lighter-on-robinhood-chain-convenience-api-openapi.yml
+  format: yaml
+  label: 0xArchive Lighter on Robinhood Chain - Convenience API
+  slug: 0xarchive-lighter-on-robinhood-chain-convenience-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-lighter-on-robinhood-chain-convenience-api-openapi.yml
+- filename: 0xarchive-lighter-on-robinhood-chain-funding-api-openapi.yml
+  format: yaml
+  label: 0xArchive Lighter on Robinhood Chain - Funding API
+  slug: 0xarchive-lighter-on-robinhood-chain-funding-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-lighter-on-robinhood-chain-funding-api-openapi.yml
+- filename: 0xarchive-lighter-on-robinhood-chain-instruments-api-openapi.yml
+  format: yaml
+  label: 0xArchive Lighter on Robinhood Chain - Instruments API
+  slug: 0xarchive-lighter-on-robinhood-chain-instruments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-lighter-on-robinhood-chain-instruments-api-openapi.yml
+- filename: 0xarchive-lighter-on-robinhood-chain-liquidations-api-openapi.yml
+  format: yaml
+  label: 0xArchive Lighter on Robinhood Chain - Liquidations API
+  slug: 0xarchive-lighter-on-robinhood-chain-liquidations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-lighter-on-robinhood-chain-liquidations-api-openapi.yml
+- filename: 0xarchive-lighter-on-robinhood-chain-open-interest-api-openapi.yml
+  format: yaml
+  label: 0xArchive Lighter on Robinhood Chain - Open Interest API
+  slug: 0xarchive-lighter-on-robinhood-chain-open-interest-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-lighter-on-robinhood-chain-open-interest-api-openapi.yml
+- filename: 0xarchive-lighter-on-robinhood-chain-order-book-api-openapi.yml
+  format: yaml
+  label: 0xArchive Lighter on Robinhood Chain - Order Book API
+  slug: 0xarchive-lighter-on-robinhood-chain-order-book-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-lighter-on-robinhood-chain-order-book-api-openapi.yml
+- filename: 0xarchive-lighter-on-robinhood-chain-positions-api-openapi.yml
+  format: yaml
+  label: 0xArchive Lighter on Robinhood Chain - Positions API
+  slug: 0xarchive-lighter-on-robinhood-chain-positions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-lighter-on-robinhood-chain-positions-api-openapi.yml
+- filename: 0xarchive-lighter-on-robinhood-chain-trades-api-openapi.yml
+  format: yaml
+  label: 0xArchive Lighter on Robinhood Chain - Trades API
+  slug: 0xarchive-lighter-on-robinhood-chain-trades-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-lighter-on-robinhood-chain-trades-api-openapi.yml
+- filename: 0xarchive-lighter-positions-api-openapi.yml
+  format: yaml
+  label: 0xArchive Lighter - Positions API
+  slug: 0xarchive-lighter-positions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-lighter-positions-api-openapi.yml
+- filename: 0xarchive-webhooks-catalog-and-limits-api-openapi.yml
+  format: yaml
+  label: 0xArchive Webhooks - Catalog and Limits API
+  slug: 0xarchive-webhooks-catalog-and-limits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-webhooks-catalog-and-limits-api-openapi.yml
+- filename: 0xarchive-webhooks-deliveries-api-openapi.yml
+  format: yaml
+  label: 0xArchive Webhooks - Deliveries API
+  slug: 0xarchive-webhooks-deliveries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-webhooks-deliveries-api-openapi.yml
+- filename: 0xarchive-webhooks-endpoints-api-openapi.yml
+  format: yaml
+  label: 0xArchive Webhooks - Endpoints API
+  slug: 0xarchive-webhooks-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-webhooks-endpoints-api-openapi.yml
+- filename: 0xarchive-webhooks-previews-api-openapi.yml
+  format: yaml
+  label: 0xArchive Webhooks - Previews API
+  slug: 0xarchive-webhooks-previews-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-webhooks-previews-api-openapi.yml
+- filename: 0xarchive-webhooks-subscriptions-api-openapi.yml
+  format: yaml
+  label: 0xArchive Webhooks - Subscriptions API
+  slug: 0xarchive-webhooks-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-webhooks-subscriptions-api-openapi.yml
+- filename: 0xarchive-webhooks-watched-addresses-api-openapi.yml
+  format: yaml
+  label: 0xArchive Webhooks - Watched Addresses API
+  slug: 0xarchive-webhooks-watched-addresses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/0xarchive/openapi/0xarchive-webhooks-watched-addresses-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -330,7 +444,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: 0Xarchive Authentication
+name: 0xArchive Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 0xArchive secures its APIs with apiKey, oauth2, and siwe across 4 declared security schemes, as derived from its OpenAPI definitions.

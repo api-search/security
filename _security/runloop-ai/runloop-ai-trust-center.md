@@ -153,7 +153,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Runloop Ai Trust Center
+name: Runloop Trust Center
 name_suffix: Trust Center
 overview: Runloop maintains a public trust center documenting SOC 2, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: Runloop

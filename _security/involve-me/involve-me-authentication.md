@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Involve Me Authentication
+name: involve.me Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: involve.me declares 5 security scheme(s) across its OpenAPI definitions.

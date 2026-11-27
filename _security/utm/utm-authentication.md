@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Utm Authentication
+name: Universiti Teknologi Malaysia Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Universiti Teknologi Malaysia declares 5 security scheme(s) across its OpenAPI definitions.

@@ -68,7 +68,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Linqalpha Trust Center
+name: LinqAlpha Trust Center
 name_suffix: Trust Center
 overview: LinqAlpha maintains a public trust center documenting SOC 1 Type II, SOC 2 Type II, and ISO 27001 compliance.
 provider_name: LinqAlpha

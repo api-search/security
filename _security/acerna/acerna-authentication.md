@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Acerna Authentication
+name: aceRNA Technologies Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: aceRNA Technologies secures its APIs with none and session-token across 2 declared security schemes, as derived from its OpenAPI definitions.

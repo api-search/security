@@ -1177,7 +1177,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Eci Solutions Trust Center
+name: ECI Solutions Trust Center
 name_suffix: Trust Center
 overview: ECI Solutions maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: ECI Solutions

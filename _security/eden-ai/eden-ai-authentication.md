@@ -2,18 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: eden-ai-ai-detection-api-openapi.yml
-  format: yaml
-  label: Eden AI Ai Detection API
-  slug: eden-ai-ai-detection-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-ai-detection-api-openapi.yml
-- filename: eden-ai-anonymization-api-openapi.yml
-  format: yaml
-  label: Eden AI Anonymization API
-  slug: eden-ai-anonymization-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-anonymization-api-openapi.yml
 - filename: eden-ai-anonymization-async-api-openapi.yml
   format: yaml
   label: Eden AI Anonymization Async API
@@ -344,12 +332,6 @@ api_specs:
   slug: eden-ai-prompt-optimization-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-prompt-optimization-api-openapi.yml
-- filename: eden-ai-question-answer-api-openapi.yml
-  format: yaml
-  label: Eden AI Question Answer API
-  slug: eden-ai-question-answer-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-question-answer-api-openapi.yml
 - filename: eden-ai-question-answer-async-api-openapi.yml
   format: yaml
   label: Eden AI Question Answer Async API
@@ -476,6 +458,30 @@ api_specs:
   slug: eden-ai-videos-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-videos-api-openapi.yml
+- filename: eden-ai-ai-detection-api-openapi.yml
+  format: yaml
+  label: Eden AI Ai Detection API
+  slug: eden-ai-ai-detection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-ai-detection-api-openapi.yml
+- filename: eden-ai-anonymization-api-openapi.yml
+  format: yaml
+  label: Eden AI Anonymization API
+  slug: eden-ai-anonymization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-anonymization-api-openapi.yml
+- filename: eden-ai-chat-completions-api-openapi.yml
+  format: yaml
+  label: Eden AI Chat Completions API
+  slug: eden-ai-chat-completions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-chat-completions-api-openapi.yml
+- filename: eden-ai-question-answer-api-openapi.yml
+  format: yaml
+  label: Eden AI Question Answer API
+  slug: eden-ai-question-answer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/eden-ai/openapi/eden-ai-question-answer-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -483,7 +489,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Eden Ai Authentication
+name: Eden AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Eden AI secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

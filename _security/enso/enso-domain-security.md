@@ -1,59 +1,41 @@
 ---
 api_specs:
-- filename: enso-ccip-api-openapi.yml
+- filename: enso-account-api-openapi.yml
   format: yaml
-  label: Enso Ccip API
-  slug: enso-ccip-api
+  label: Enso Account API
+  slug: enso-account-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/enso/openapi/enso-ccip-api-openapi.yml
-- filename: enso-cctp-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-account-api-openapi.yml
+- filename: enso-crosschain-api-openapi.yml
   format: yaml
-  label: Enso Cctp API
-  slug: enso-cctp-api
+  label: Enso Crosschain API
+  slug: enso-crosschain-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/enso/openapi/enso-cctp-api-openapi.yml
-- filename: enso-layerzero-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-crosschain-api-openapi.yml
+- filename: enso-defi-api-openapi.yml
   format: yaml
-  label: Enso Layerzero API
-  slug: enso-layerzero-api
+  label: Enso De Fi API
+  slug: enso-defi-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/enso/openapi/enso-layerzero-api-openapi.yml
-- filename: enso-metadata-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-defi-api-openapi.yml
+- filename: enso-defi-shortcuts-api-openapi.yml
   format: yaml
-  label: Enso Metadata API
-  slug: enso-metadata-api
+  label: Enso DeFi Shortcuts API
+  slug: enso-defi-shortcuts-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/enso/openapi/enso-metadata-api-openapi.yml
-- filename: enso-projects-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-defi-shortcuts-api-openapi.yml
+- filename: enso-integration-api-openapi.yml
   format: yaml
-  label: Enso Projects API
-  slug: enso-projects-api
+  label: Enso Integration API
+  slug: enso-integration-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/enso/openapi/enso-projects-api-openapi.yml
-- filename: enso-relay-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-integration-api-openapi.yml
+- filename: enso-tokens-api-openapi.yml
   format: yaml
-  label: Enso Relay API
-  slug: enso-relay-api
+  label: Enso Tokens API
+  slug: enso-tokens-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/enso/openapi/enso-relay-api-openapi.yml
-- filename: enso-shortcuts-api-openapi.yml
-  format: yaml
-  label: Enso Shortcuts API
-  slug: enso-shortcuts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/enso/openapi/enso-shortcuts-api-openapi.yml
-- filename: enso-standards-api-openapi.yml
-  format: yaml
-  label: Enso Standards API
-  slug: enso-standards-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/enso/openapi/enso-standards-api-openapi.yml
-- filename: enso-wallet-api-openapi.yml
-  format: yaml
-  label: Enso Wallet API
-  slug: enso-wallet-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/enso/openapi/enso-wallet-api-openapi.yml
+  url: https://artifacts.apis.io/enso/openapi/enso-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:

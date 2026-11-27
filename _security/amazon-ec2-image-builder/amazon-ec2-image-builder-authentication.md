@@ -340,7 +340,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Ec2 Image Builder Authentication
+name: Amazon EC2 Image Builder Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon EC2 Image Builder secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

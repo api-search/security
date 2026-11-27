@@ -98,7 +98,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Emission Factors Com Authentication
+name: emission-factors-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: emission-factors-com declares 2 security scheme(s) across its OpenAPI definitions.

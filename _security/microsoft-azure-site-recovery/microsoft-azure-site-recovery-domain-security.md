@@ -186,12 +186,6 @@ api_specs:
   slug: microsoft-azure-site-recovery-replication-policies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replication-policies-api-openapi.yml
-- filename: microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
-  format: yaml
-  label: Azure Site Recovery Recovery Plans API
-  slug: microsoft-azure-site-recovery-recoveryplans-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -230,7 +224,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Site Recovery Domain Security
+name: Azure Site Recovery Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure Site Recovery, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Azure Site Recovery

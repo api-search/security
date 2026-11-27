@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Western Union Authentication
+name: The Western Union Company Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: The Western Union Company secures its APIs with mutualTLS across 1 declared security scheme, as derived from its OpenAPI definitions.

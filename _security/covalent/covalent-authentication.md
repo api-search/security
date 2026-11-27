@@ -8,30 +8,6 @@ api_specs:
   slug: covalent-abi-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/covalent/openapi/covalent-abi-api-openapi.yml
-- filename: covalent-balances-api-openapi.yml
-  format: yaml
-  label: Covalent Balances API
-  slug: covalent-balances-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/covalent/openapi/covalent-balances-api-openapi.yml
-- filename: covalent-base-api-openapi.yml
-  format: yaml
-  label: Covalent Base API
-  slug: covalent-base-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/covalent/openapi/covalent-base-api-openapi.yml
-- filename: covalent-bitcoin-api-openapi.yml
-  format: yaml
-  label: Covalent Bitcoin API
-  slug: covalent-bitcoin-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/covalent/openapi/covalent-bitcoin-api-openapi.yml
-- filename: covalent-cross-chain-api-openapi.yml
-  format: yaml
-  label: Covalent Cross-Chain API
-  slug: covalent-cross-chain-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/covalent/openapi/covalent-cross-chain-api-openapi.yml
 - filename: covalent-data-api-openapi.yml
   format: yaml
   label: Covalent Data API
@@ -68,18 +44,6 @@ api_specs:
   slug: covalent-pipelines-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/covalent/openapi/covalent-pipelines-api-openapi.yml
-- filename: covalent-pricing-api-openapi.yml
-  format: yaml
-  label: Covalent Pricing API
-  slug: covalent-pricing-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/covalent/openapi/covalent-pricing-api-openapi.yml
-- filename: covalent-security-api-openapi.yml
-  format: yaml
-  label: Covalent Security API
-  slug: covalent-security-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/covalent/openapi/covalent-security-api-openapi.yml
 - filename: covalent-transactions-api-openapi.yml
   format: yaml
   label: Covalent Transactions API
@@ -92,6 +56,222 @@ api_specs:
   slug: covalent-transforms-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/covalent/openapi/covalent-transforms-api-openapi.yml
+- filename: covalent-check-ownership-in-nft-collection-api-openapi.yml
+  format: yaml
+  label: Covalent Check Ownership In Nft Collection API
+  slug: covalent-check-ownership-in-nft-collection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-check-ownership-in-nft-collection-api-openapi.yml
+- filename: covalent-check-ownership-in-nft-collection-token-api-openapi.yml
+  format: yaml
+  label: Covalent Check Ownership In Nft Collection Token API
+  slug: covalent-check-ownership-in-nft-collection-token-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-check-ownership-in-nft-collection-token-api-openapi.yml
+- filename: covalent-get-a-block-api-openapi.yml
+  format: yaml
+  label: Covalent Get A Block API
+  slug: covalent-get-a-block-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-a-block-api-openapi.yml
+- filename: covalent-get-a-transaction-api-openapi.yml
+  format: yaml
+  label: Covalent Get A Transaction API
+  slug: covalent-get-a-transaction-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-a-transaction-api-openapi.yml
+- filename: covalent-get-address-activity-api-openapi.yml
+  format: yaml
+  label: Covalent Get Address Activity API
+  slug: covalent-get-address-activity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-address-activity-api-openapi.yml
+- filename: covalent-get-all-chain-statuses-api-openapi.yml
+  format: yaml
+  label: Covalent Get All Chain Statuses API
+  slug: covalent-get-all-chain-statuses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-all-chain-statuses-api-openapi.yml
+- filename: covalent-get-all-chains-api-openapi.yml
+  format: yaml
+  label: Covalent Get All Chains API
+  slug: covalent-get-all-chains-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-all-chains-api-openapi.yml
+- filename: covalent-get-all-transactions-in-a-block-api-openapi.yml
+  format: yaml
+  label: Covalent Get All Transactions In A Block API
+  slug: covalent-get-all-transactions-in-a-block-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-all-transactions-in-a-block-api-openapi.yml
+- filename: covalent-get-all-transactions-in-a-block-by-page-api-openapi.yml
+  format: yaml
+  label: Covalent Get All Transactions In A Block By Page API
+  slug: covalent-get-all-transactions-in-a-block-by-page-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-all-transactions-in-a-block-by-page-api-openapi.yml
+- filename: covalent-get-allchains-balances-api-openapi.yml
+  format: yaml
+  label: Covalent Get Allchains Balances API
+  slug: covalent-get-allchains-balances-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-allchains-balances-api-openapi.yml
+- filename: covalent-get-allchains-transactions-api-openapi.yml
+  format: yaml
+  label: Covalent Get Allchains Transactions API
+  slug: covalent-get-allchains-transactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-allchains-transactions-api-openapi.yml
+- filename: covalent-get-bitcoin-balance-for-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Bitcoin Balance For Address API
+  slug: covalent-get-bitcoin-balance-for-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-bitcoin-balance-for-address-api-openapi.yml
+- filename: covalent-get-bitcoin-balances-for-hd-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Bitcoin Balances For Hd Address API
+  slug: covalent-get-bitcoin-balances-for-hd-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-bitcoin-balances-for-hd-address-api-openapi.yml
+- filename: covalent-get-block-heights-api-openapi.yml
+  format: yaml
+  label: Covalent Get Block Heights API
+  slug: covalent-get-block-heights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-block-heights-api-openapi.yml
+- filename: covalent-get-earliest-transactions-for-address-v3-api-openapi.yml
+  format: yaml
+  label: Covalent Get Earliest Transactions For Address V3 API
+  slug: covalent-get-earliest-transactions-for-address-v3-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-earliest-transactions-for-address-v3-api-openapi.yml
+- filename: covalent-get-erc20-token-transfers-for-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Erc20 Token Transfers For Address API
+  slug: covalent-get-erc20-token-transfers-for-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-erc20-token-transfers-for-address-api-openapi.yml
+- filename: covalent-get-gas-prices-api-openapi.yml
+  format: yaml
+  label: Covalent Get Gas Prices API
+  slug: covalent-get-gas-prices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-gas-prices-api-openapi.yml
+- filename: covalent-get-historical-bitcoin-balance-for-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Historical Bitcoin Balance For Address API
+  slug: covalent-get-historical-bitcoin-balance-for-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-historical-bitcoin-balance-for-address-api-openapi.yml
+- filename: covalent-get-historical-portfolio-value-over-time-api-openapi.yml
+  format: yaml
+  label: Covalent Get Historical Portfolio Value Over Time API
+  slug: covalent-get-historical-portfolio-value-over-time-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-historical-portfolio-value-over-time-api-openapi.yml
+- filename: covalent-get-historical-token-balances-for-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Historical Token Balances For Address API
+  slug: covalent-get-historical-token-balances-for-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-historical-token-balances-for-address-api-openapi.yml
+- filename: covalent-get-historical-token-prices-api-openapi.yml
+  format: yaml
+  label: Covalent Get Historical Token Prices API
+  slug: covalent-get-historical-token-prices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-historical-token-prices-api-openapi.yml
+- filename: covalent-get-log-events-by-contract-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Log Events By Contract Address API
+  slug: covalent-get-log-events-by-contract-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-log-events-by-contract-address-api-openapi.yml
+- filename: covalent-get-log-events-by-topic-hash-api-openapi.yml
+  format: yaml
+  label: Covalent Get Log Events By Topic Hash API
+  slug: covalent-get-log-events-by-topic-hash-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-log-events-by-topic-hash-api-openapi.yml
+- filename: covalent-get-logs-api-openapi.yml
+  format: yaml
+  label: Covalent Get Logs API
+  slug: covalent-get-logs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-logs-api-openapi.yml
+- filename: covalent-get-native-token-balance-api-openapi.yml
+  format: yaml
+  label: Covalent Get Native Token Balance API
+  slug: covalent-get-native-token-balance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-native-token-balance-api-openapi.yml
+- filename: covalent-get-nfts-for-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Nfts For Address API
+  slug: covalent-get-nfts-for-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-nfts-for-address-api-openapi.yml
+- filename: covalent-get-paginated-transactions-for-address-v3-api-openapi.yml
+  format: yaml
+  label: Covalent Get Paginated Transactions For Address V3 API
+  slug: covalent-get-paginated-transactions-for-address-v3-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-paginated-transactions-for-address-v3-api-openapi.yml
+- filename: covalent-get-pool-spot-prices-api-openapi.yml
+  format: yaml
+  label: Covalent Get Pool Spot Prices API
+  slug: covalent-get-pool-spot-prices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-pool-spot-prices-api-openapi.yml
+- filename: covalent-get-recent-transactions-for-address-v3-api-openapi.yml
+  format: yaml
+  label: Covalent Get Recent Transactions For Address V3 API
+  slug: covalent-get-recent-transactions-for-address-v3-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-recent-transactions-for-address-v3-api-openapi.yml
+- filename: covalent-get-resolved-address-for-registered-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Resolved Address For Registered Address API
+  slug: covalent-get-resolved-address-for-registered-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-resolved-address-for-registered-address-api-openapi.yml
+- filename: covalent-get-time-bucket-transactions-for-address-v3-api-openapi.yml
+  format: yaml
+  label: Covalent Get Time Bucket Transactions For Address V3 API
+  slug: covalent-get-time-bucket-transactions-for-address-v3-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-time-bucket-transactions-for-address-v3-api-openapi.yml
+- filename: covalent-get-token-approvals-for-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Token Approvals For Address API
+  slug: covalent-get-token-approvals-for-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-token-approvals-for-address-api-openapi.yml
+- filename: covalent-get-token-balances-for-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Token Balances For Address API
+  slug: covalent-get-token-balances-for-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-token-balances-for-address-api-openapi.yml
+- filename: covalent-get-token-holders-as-of-any-block-height-v2-api-openapi.yml
+  format: yaml
+  label: Covalent Get Token Holders As Of Any Block Height V2 API
+  slug: covalent-get-token-holders-as-of-any-block-height-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-token-holders-as-of-any-block-height-v2-api-openapi.yml
+- filename: covalent-get-transaction-summary-for-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Transaction Summary For Address API
+  slug: covalent-get-transaction-summary-for-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-transaction-summary-for-address-api-openapi.yml
+- filename: covalent-get-transactions-for-bitcoin-address-api-openapi.yml
+  format: yaml
+  label: Covalent Get Transactions For Bitcoin Address API
+  slug: covalent-get-transactions-for-bitcoin-address-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/covalent/openapi/covalent-get-transactions-for-bitcoin-address-api-openapi.yml
 - filename: covalent-graph-ql-api-openapi.yml
   format: yaml
   label: Covalent Graph QL API

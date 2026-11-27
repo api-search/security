@@ -23,7 +23,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Rocketreach Trust Center
+name: RocketReach Trust Center
 name_suffix: Trust Center
 overview: RocketReach maintains a public trust center covering its security and compliance posture.
 provider_name: RocketReach

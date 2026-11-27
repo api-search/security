@@ -92,7 +92,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Apollo Io Trust Center
+name: Apollo.io Trust Center
 name_suffix: Trust Center
 overview: Apollo.io maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Apollo.io

@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Secure Flows Com Authentication
+name: secure-flows-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: secure-flows-com declares 2 security scheme(s) across its OpenAPI definitions.

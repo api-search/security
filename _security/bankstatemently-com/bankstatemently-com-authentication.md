@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bankstatemently Com Authentication
+name: Bankstatemently Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bankstatemently declares 2 security scheme(s) across its OpenAPI definitions.

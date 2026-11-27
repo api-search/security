@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-automation-automation-accounts-api-openapi.yml
-  format: yaml
-  label: Azure Automation Accounts API
-  slug: microsoft-azure-automation-automation-accounts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-automation/openapi/microsoft-azure-automation-automation-accounts-api-openapi.yml
 - filename: microsoft-azure-automation-operations-api-openapi.yml
   format: yaml
   label: Azure Automation Operations API
@@ -300,7 +294,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Microsoft Azure Automation Trust Center
+name: Azure Automation Trust Center
 name_suffix: Trust Center
 overview: Azure Automation maintains a public trust center documenting GDPR compliance.
 provider_name: Azure Automation

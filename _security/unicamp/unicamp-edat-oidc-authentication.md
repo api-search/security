@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Unicamp Edat Oidc Authentication
+name: University of Campinas Edat Oidc Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Campinas secures its APIs with openIdConnect and oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions.

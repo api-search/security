@@ -23,7 +23,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: University Of Reading Authentication
+name: University of Reading Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorization_code

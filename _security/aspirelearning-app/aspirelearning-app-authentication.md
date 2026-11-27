@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aspirelearning App Authentication
+name: Aspire Learning Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aspire Learning declares 0 security scheme(s) across its OpenAPI definitions.

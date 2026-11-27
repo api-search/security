@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ucloud Authentication
+name: UCloud Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: UCloud secures its APIs with signature across 2 declared security schemes, as derived from its OpenAPI definitions.

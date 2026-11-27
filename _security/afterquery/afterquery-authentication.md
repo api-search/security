@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Afterquery Authentication
+name: AfterQuery Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AfterQuery declares 1 security scheme(s) across its OpenAPI definitions.

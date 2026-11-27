@@ -72,7 +72,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Us Army Corps Of Engineers Domain Security
+name: US Army Corps of Engineers Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for US Army Corps of Engineers, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: US Army Corps of Engineers

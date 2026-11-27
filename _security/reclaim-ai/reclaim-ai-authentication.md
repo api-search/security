@@ -507,7 +507,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Reclaim Ai Authentication
+name: Reclaim.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Reclaim.ai secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions.

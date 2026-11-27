@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Gatherhq Com Authentication
+name: Gather Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Gather declares 3 security scheme(s) across its OpenAPI definitions.

@@ -54,7 +54,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Move Bank Authentication
+name: MOVE Bank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MOVE Bank secures its APIs with none, oauth2, openIdConnect, and mutualTLS across 0 declared security schemes, as derived from its OpenAPI definitions.

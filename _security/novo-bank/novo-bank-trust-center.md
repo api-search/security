@@ -24,7 +24,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Novo Bank Trust Center
+name: Novo Trust Center
 name_suffix: Trust Center
 overview: Novo maintains a public trust center documenting SOC 2 compliance.
 provider_name: Novo

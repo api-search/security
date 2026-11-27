@@ -58,7 +58,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Passage 1Password Domain Security
+name: Passage by 1Password Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Passage by 1Password, probed live across 3 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Passage by 1Password

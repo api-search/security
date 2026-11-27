@@ -15,7 +15,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Datos Yvera Tur Ar Domain Security
+name: Datos Turismo y Deportes Argentina Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Datos Turismo y Deportes Argentina, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
 provider_name: Datos Turismo y Deportes Argentina

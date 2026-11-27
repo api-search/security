@@ -24,7 +24,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Convertapi Trust Center
+name: ConvertAPI Trust Center
 name_suffix: Trust Center
 overview: ConvertAPI maintains a public trust center documenting ISO 27001 compliance.
 provider_name: ConvertAPI

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ojo So Authentication
+name: ojo-so Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ojo-so declares 1 security scheme(s) across its OpenAPI definitions.

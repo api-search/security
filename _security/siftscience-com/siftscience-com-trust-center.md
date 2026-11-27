@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Siftscience Com Trust Center
+name: Sift Trust Center
 name_suffix: Trust Center
 overview: Sift maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Sift

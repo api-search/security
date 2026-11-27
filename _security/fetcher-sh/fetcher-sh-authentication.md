@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Fetcher Sh Authentication
+name: fetcher-sh Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: fetcher-sh declares 0 security scheme(s) across its OpenAPI definitions.

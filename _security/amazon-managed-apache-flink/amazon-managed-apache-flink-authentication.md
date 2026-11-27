@@ -15,6 +15,12 @@ api_specs:
   slug: amazon-managed-apache-flink-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-managed-apache-flink/openapi/amazon-managed-apache-flink-operations-api-openapi.yml
+- filename: amazon-managed-apache-flink-snapshot-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Apache Flink Managed Apache Flink Snapshot API
+  slug: amazon-managed-apache-flink-snapshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-apache-flink/openapi/amazon-managed-apache-flink-snapshot-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -22,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Managed Apache Flink Authentication
+name: Amazon Managed Service for Apache Flink Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon Managed Service for Apache Flink secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

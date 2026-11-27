@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Antofagasta Authentication
+name: Antofagasta PLC Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Antofagasta PLC declares 0 security scheme(s) across its OpenAPI definitions.

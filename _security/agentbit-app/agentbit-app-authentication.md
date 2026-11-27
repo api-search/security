@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Agentbit App Authentication
+name: agentbit-app Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: agentbit-app secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

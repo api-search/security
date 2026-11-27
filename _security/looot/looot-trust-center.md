@@ -576,24 +576,23 @@ api_specs:
   slug: looot-workspace-files-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/looot/openapi/looot-workspace-files-api-openapi.yml
-certification_count: 1
-certifications:
-- SOC 2
+certification_count: 0
+certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Looot Trust Center
+name: looot Trust Center
 name_suffix: Trust Center
-overview: looot maintains a public trust center documenting SOC 2 compliance.
+overview: looot maintains a public trust center covering its security and compliance posture.
 provider_name: looot
 provider_slug: looot
 slug: looot-trust-center
 source_filename: looot-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-05'\nmethod: searched\nprobe: true\nsource: https://looot.ai/security\nurl: https://looot.ai/security\ncertifications:\n- SOC 2\nevidence:\n- source: https://looot.ai/security\n  keywords:\n  - soc 2\n  - compliance certification\n"
+source_yaml: "generated: '2026-10-05'\nmethod: searched\nprobe: true\nsource: https://looot.ai/security\nurl: https://looot.ai/security\ncertifications: []\nevidence:\n- source: https://looot.ai/security\n  keywords:\n  - soc 2\n  - compliance certification\ncertifications_not_held:\n- SOC 2\ncertification_quotes:\n  SOC 2: What we don&#x27;t claim | looot does not carry SOC 2 or any other third-party compliance certification,\n    and we won&#x27;t\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/looot/security/looot-trust-center.yml
-summary_line: SOC 2
+summary_line: trust center published
 tags:
 - Marketplace
 - Artificial Intelligence

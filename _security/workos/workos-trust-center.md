@@ -254,7 +254,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Workos Trust Center
+name: WorkOS Trust Center
 name_suffix: Trust Center
 overview: WorkOS maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: WorkOS

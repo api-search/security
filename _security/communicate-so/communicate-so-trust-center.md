@@ -84,27 +84,24 @@ api_specs:
   slug: communicate-so-workspaces-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/communicate-so/openapi/communicate-so-workspaces-api-openapi.yml
-certification_count: 4
+certification_count: 1
 certifications:
-- SOC 2
-- ISO 27001
-- HIPAA
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Communicate So Trust Center
+name: communicate-so Trust Center
 name_suffix: Trust Center
-overview: communicate-so maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
+overview: communicate-so maintains a public trust center documenting GDPR compliance.
 provider_name: communicate-so
 provider_slug: communicate-so
 slug: communicate-so-trust-center
 source_filename: communicate-so-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-29'\nmethod: searched\nprobe: true\nsource: https://communicate.so/security\nurl: https://communicate.so/security\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- GDPR\nevidence:\n- source: https://communicate.so/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - gdpr\n"
+source_yaml: "generated: '2026-10-29'\nmethod: searched\nprobe: true\nsource: https://communicate.so/security\nurl: https://communicate.so/security\ncertifications:\n- GDPR\nevidence:\n- source: https://communicate.so/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n  - gdpr\ncertifications_not_held:\n- SOC 2\n- ISO 27001\n- HIPAA\ncertification_quotes:\n  SOC 2: fit yet, and we would rather you know today. | No SOC 2,\n  ISO 27001: fit yet, and we would rather you know today. | No SOC 2, HIPAA, or ISO 27001 certification.\n    If you process protected health information under\n  HIPAA: fit yet, and we would rather you know today. | No SOC 2, HIPAA, or ISO 27001 certification. If\n    you process protected health information under\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/communicate-so/security/communicate-so-trust-center.yml
-summary_line: SOC 2, ISO 27001, HIPAA, GDPR
+summary_line: GDPR
 tags:
 - Artificial Intelligence
 - Customer Service

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Koho Trust Center
+name: KOHO Trust Center
 name_suffix: Trust Center
 overview: KOHO maintains a public trust center documenting SOC 2 Type 2 and PCI DSS compliance.
 provider_name: KOHO

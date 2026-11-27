@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentsvc Io Authentication
+name: Agentsvc Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agentsvc declares 1 security scheme(s) across its OpenAPI definitions.

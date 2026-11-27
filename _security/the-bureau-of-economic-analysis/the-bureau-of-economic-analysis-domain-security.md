@@ -55,7 +55,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: The Bureau Of Economic Analysis Domain Security
+name: The Bureau of Economic Analysis Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for The Bureau of Economic Analysis, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: The Bureau of Economic Analysis

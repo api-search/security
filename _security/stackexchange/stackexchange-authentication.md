@@ -107,7 +107,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Stackexchange Authentication
+name: Stack Exchange Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

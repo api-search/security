@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Go Tou Com Authentication
+name: Go To-U Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Go To-U declares 0 security scheme(s) across its OpenAPI definitions.

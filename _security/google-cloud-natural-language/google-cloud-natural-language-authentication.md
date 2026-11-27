@@ -1,0 +1,59 @@
+---
+anonymous_access: false
+api_key_in:
+- query
+api_specs:
+- filename: google-cloud-natural-language-documents-api-openapi.yml
+  format: yaml
+  label: Google Cloud Natural Language Cloud Natural Language Documents API
+  slug: google-cloud-natural-language-documents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-cloud-natural-language/openapi/google-cloud-natural-language-documents-api-openapi.yml
+auth_types:
+- apiKey
+- oauth2
+description: ''
+kind: authentication
+layout: security
+mechanism_count: 2
+method: derived
+name: Google Cloud Natural Language Authentication
+name_suffix: Authentication
+oauth_flows:
+- authorizationCode
+overview: Google Cloud Natural Language secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+provider_name: Google Cloud Natural Language
+provider_slug: google-cloud-natural-language
+scheme_count: 2
+schemes:
+- description: API key; accepted by methods that do not need user data.
+  in: query
+  name: apiKey
+  parameter: key
+  sources:
+  - openapi/google-cloud-natural-language-documents-api-openapi.yml
+  type: apiKey
+- flows:
+  - authorizationUrl: https://accounts.google.com/o/oauth2/auth
+    flow: authorizationCode
+    scopes: 2
+    tokenUrl: https://oauth2.googleapis.com/token
+  name: oauth2
+  sources:
+  - openapi/google-cloud-natural-language-documents-api-openapi.yml
+  type: oauth2
+slug: google-cloud-natural-language-authentication
+source_filename: google-cloud-natural-language-authentication.yml
+source_heading: Authentication Profile
+source_url: ''
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-cloud-natural-language-documents-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key; accepted by methods that do not need user data.\n  sources:\n  - openapi/google-cloud-natural-language-documents-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 2\n  sources:\n  - openapi/google-cloud-natural-language-documents-api-openapi.yml\n"
+source_yaml_url: https://artifacts.apis.io/google-cloud-natural-language/authentication/google-cloud-natural-language-authentication.yml
+summary_line: apiKey/oauth2 · 2 schemes
+tags:
+- Entity Recognition
+- Google Cloud
+- Machine Learning
+- Natural Language Processing
+- Sentiment Analysis
+- Text Analysis
+---

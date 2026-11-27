@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Inferindex Dev Authentication
+name: inferindex-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: inferindex-dev declares 2 security scheme(s) across its OpenAPI definitions.

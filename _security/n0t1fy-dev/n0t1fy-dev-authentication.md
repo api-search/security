@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: N0T1Fy Dev Authentication
+name: n0t1fy-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: n0t1fy-dev secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -60,5 +60,4 @@ tags:
 - SMS
 - Georgia
 - Transactional
-- Developer-First
 ---

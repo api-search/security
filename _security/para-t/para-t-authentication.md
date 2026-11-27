@@ -153,7 +153,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Para T Authentication
+name: Paraşüt Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

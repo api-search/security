@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Portscan Com Authentication
+name: portscan-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: portscan-com declares 1 security scheme(s) across its OpenAPI definitions.

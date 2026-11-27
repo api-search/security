@@ -22,7 +22,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Incountry Trust Center
+name: InCountry Trust Center
 name_suffix: Trust Center
 overview: InCountry maintains a public trust center documenting SOC 1 Type II, SOC 2 Type II, SOC 3, ISO/IEC 27001:2022, ISO 27017, ISO 27018, ISO 27701, PCI DSS, HIPAA, CSA STAR Level 2, and GxP compliance.
 provider_name: InCountry

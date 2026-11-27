@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Perimeterx Trust Center
+name: PerimeterX (HUMAN Security) Trust Center
 name_suffix: Trust Center
 overview: PerimeterX (HUMAN Security) maintains a public trust center covering its security and compliance posture.
 provider_name: PerimeterX (HUMAN Security)

@@ -50,7 +50,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Seon Tech Trust Center
+name: SEON Trust Center
 name_suffix: Trust Center
 overview: SEON maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: SEON

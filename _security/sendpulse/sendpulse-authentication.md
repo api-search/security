@@ -520,7 +520,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Sendpulse Authentication
+name: SendPulse Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials
@@ -606,5 +606,4 @@ tags:
 - Popups
 - Email Verification
 - MCP
-- Agent Ready
 ---

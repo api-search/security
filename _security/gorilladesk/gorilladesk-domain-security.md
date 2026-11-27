@@ -30,6 +30,96 @@ api_specs:
   slug: gorilladesk-user-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-user-api-openapi.yml
+- filename: gorilladesk-branches-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Branches API
+  slug: gorilladesk-branches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-branches-api-openapi.yml
+- filename: gorilladesk-credits-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Credits API
+  slug: gorilladesk-credits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-credits-api-openapi.yml
+- filename: gorilladesk-customers-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Customers API
+  slug: gorilladesk-customers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-customers-api-openapi.yml
+- filename: gorilladesk-documents-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Documents API
+  slug: gorilladesk-documents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-documents-api-openapi.yml
+- filename: gorilladesk-estimates-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Estimates API
+  slug: gorilladesk-estimates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-estimates-api-openapi.yml
+- filename: gorilladesk-invoices-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Invoices API
+  slug: gorilladesk-invoices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-invoices-api-openapi.yml
+- filename: gorilladesk-jobs-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Jobs API
+  slug: gorilladesk-jobs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-jobs-api-openapi.yml
+- filename: gorilladesk-line-items-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Line Items API
+  slug: gorilladesk-line-items-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-line-items-api-openapi.yml
+- filename: gorilladesk-payment-methods-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Payment Methods API
+  slug: gorilladesk-payment-methods-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-payment-methods-api-openapi.yml
+- filename: gorilladesk-payments-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Payments API
+  slug: gorilladesk-payments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-payments-api-openapi.yml
+- filename: gorilladesk-recurring-invoices-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Recurring Invoices API
+  slug: gorilladesk-recurring-invoices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-recurring-invoices-api-openapi.yml
+- filename: gorilladesk-schedules-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Schedules API
+  slug: gorilladesk-schedules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-schedules-api-openapi.yml
+- filename: gorilladesk-service-templates-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Service Templates API
+  slug: gorilladesk-service-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-service-templates-api-openapi.yml
+- filename: gorilladesk-sources-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Sources API
+  slug: gorilladesk-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-sources-api-openapi.yml
+- filename: gorilladesk-taxes-api-openapi.yml
+  format: yaml
+  label: GorillaDesk Taxes API
+  slug: gorilladesk-taxes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gorilladesk/openapi/gorilladesk-taxes-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -53,7 +143,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Gorilladesk Domain Security
+name: GorillaDesk Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for GorillaDesk, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: GorillaDesk

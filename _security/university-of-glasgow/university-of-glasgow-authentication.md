@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: University Of Glasgow Authentication
+name: University of Glasgow Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Glasgow declares 0 security scheme(s) across its OpenAPI definitions.

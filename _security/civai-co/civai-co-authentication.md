@@ -164,7 +164,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Civai Co Authentication
+name: civai-co Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: civai-co declares 0 security scheme(s) across its OpenAPI definitions.

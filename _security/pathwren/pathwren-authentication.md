@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Pathwren Authentication
+name: AI Crawler Index Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI Crawler Index declares 0 security scheme(s) across its OpenAPI definitions.
@@ -56,8 +56,8 @@ source_yaml: "generated: '2026-09-01'\nmethod: searched\nsource: https://www.pat
 source_yaml_url: https://artifacts.apis.io/pathwren/authentication/pathwren-authentication.yml
 summary_line: 0 schemes
 tags:
-- AI crawlers
-- web crawlers
+- AI Crawlers
+- Web Crawlers
 - Robots.txt
 - User Agents
 - Bot Detection

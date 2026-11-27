@@ -289,7 +289,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Hubspot Authentication
+name: HubSpot Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

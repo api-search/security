@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Answeringservicepicker Com Authentication
+name: Answering Service Picker Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Answering Service Picker declares 1 security scheme(s) across its OpenAPI definitions.

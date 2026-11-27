@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Oxio Trust Center
+name: OXIO Trust Center
 name_suffix: Trust Center
 overview: OXIO maintains a public trust center covering its security and compliance posture.
 provider_name: OXIO

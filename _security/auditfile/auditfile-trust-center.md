@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Auditfile Trust Center
+name: AuditFile Trust Center
 name_suffix: Trust Center
 overview: AuditFile maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: AuditFile

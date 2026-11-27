@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Anyhook Net Authentication
+name: AnyHook Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AnyHook declares 1 security scheme(s) across its OpenAPI definitions.

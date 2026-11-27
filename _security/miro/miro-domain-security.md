@@ -309,30 +309,31 @@ api_specs:
 description: ''
 domains:
 - caa:
-  - 0 issue "letsencrypt.org"
-  - 0 issue "pki.goog"
-  - 0 issue "sectigo.com"
-  - 0 issuewild "amazon.com"
   - 0 issuewild "digicert.com"
   - 0 issuewild "godaddy.com"
+  - 0 issuewild "letsencrypt.org"
+  - 0 issuewild "sectigo.com"
+  - 0 iodef "mailto:admin@miro.com"
+  - 0 iodef "mailto:security@miro.com"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: false
   domain: miro.com
   spf: true
 hosts:
-- cert_expires: Sep 15 23:59:59 2026 GMT
+- cert_expires: Jan 31 23:59:59 2027 GMT
   host: miro.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 22 10:03:45 2026 GMT
+- cert_expires: Dec 18 15:22:20 2026 GMT
   host: developers.miro.com
-  hsts: null
+  hsts: true
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 19 23:59:59 2026 GMT
+- cert_expires: Feb 19 23:59:59 2027 GMT
   host: api.miro.com
   hsts: null
   https: true
@@ -343,14 +344,14 @@ layout: security
 method: probed
 name: Miro Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Miro, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
+overview: 'Domain security posture for Miro, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Miro
 provider_slug: miro
 slug: miro-domain-security
 source_filename: miro-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: miro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 15 23:59:59 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.miro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 10:03:45 2026 GMT\n  hsts: null\n- host: api.miro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 19 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: miro.com\n  dnssec: false\n  caa:\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog\"\n  - 0 issue \"sectigo.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"godaddy.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
+source_yaml: "generated: '2026-11-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: miro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 31 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: developers.miro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 15:22:20 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: api.miro.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 19 23:59:59 2027 GMT\n  hsts: null\ndomains:\n- domain: miro.com\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com\"\n  - 0 issuewild \"godaddy.com\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"sectigo.com\"\n  - 0 iodef \"mailto:admin@miro.com\"\n  - 0 iodef \"mailto:security@miro.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://artifacts.apis.io/miro/security/miro-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
@@ -360,4 +361,6 @@ tags:
 - Diagramming
 - Software-as-a-Service
 - Collaboration
+- Online Whiteboard
+- Developer Platform
 ---

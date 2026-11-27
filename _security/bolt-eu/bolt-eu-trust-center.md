@@ -44,7 +44,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bolt Eu Trust Center
+name: Bolt Trust Center
 name_suffix: Trust Center
 overview: Bolt maintains a public trust center documenting ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: Bolt

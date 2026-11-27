@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Bench Iq Trust Center
+name: Bench IQ Trust Center
 name_suffix: Trust Center
 overview: Bench IQ maintains a public trust center covering its security and compliance posture.
 provider_name: Bench IQ

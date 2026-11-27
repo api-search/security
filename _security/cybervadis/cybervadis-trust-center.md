@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cybervadis Trust Center
+name: CyberVadis Trust Center
 name_suffix: Trust Center
 overview: CyberVadis maintains a public trust center documenting ISO/IEC 27001:2022, ISO/IEC 27701, ISO/IEC 27018, SOC 1, SOC 2, and GDPR compliance.
 provider_name: CyberVadis

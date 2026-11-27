@@ -8,7 +8,7 @@ api_specs:
   label: Swetrix Events API
   slug: swetrix-events-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/openapi/swetrix-events-api-openapi.yml
+  url: https://artifacts.apis.io/swetrix/openapi/swetrix-events-api-openapi.yml
 - filename: swetrix-annotations-api-openapi.yml
   format: yaml
   label: Swetrix Annotations API

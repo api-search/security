@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Catalog Guard Api Authentication
+name: Catalog Guard API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Catalog Guard API declares 0 security scheme(s) across its OpenAPI definitions.

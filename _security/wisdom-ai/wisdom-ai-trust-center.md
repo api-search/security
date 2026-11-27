@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Wisdom Ai Trust Center
+name: Wisdom AI Trust Center
 name_suffix: Trust Center
 overview: Wisdom AI maintains a public trust center documenting SOC 2 Type II, ISO 27001, GDPR, and HIPAA-ready compliance.
 provider_name: Wisdom AI

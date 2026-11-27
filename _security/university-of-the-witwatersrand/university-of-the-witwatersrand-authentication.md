@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: University Of The Witwatersrand Authentication
+name: University of the Witwatersrand Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of the Witwatersrand secures its APIs with none and session across 2 declared security schemes, as derived from its OpenAPI definitions.

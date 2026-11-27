@@ -102,18 +102,32 @@ provider_name: Amazon Ground Station
 provider_slug: amazon-ground-station
 scheme_count: 1
 schemes:
-- description: Amazon Signature authorization v4
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: hmac
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-ground-station-openapi.yaml
+  - openapi/amazon-ground-station-agent-api-openapi.yml
+  - openapi/amazon-ground-station-config-api-openapi.yml
+  - openapi/amazon-ground-station-contact-api-openapi.yml
+  - openapi/amazon-ground-station-contacts-api-openapi.yml
+  - openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml
+  - openapi/amazon-ground-station-ephemerides-api-openapi.yml
+  - openapi/amazon-ground-station-ephemeris-api-openapi.yml
+  - openapi/amazon-ground-station-groundstation-api-openapi.yml
+  - openapi/amazon-ground-station-minute-usage-api-openapi.yml
+  - openapi/amazon-ground-station-missionprofile-api-openapi.yml
+  - openapi/amazon-ground-station-operations-api-openapi.yml
+  - openapi/amazon-ground-station-satellite-api-openapi.yml
+  - openapi/amazon-ground-station-tags-api-openapi.yml
+  - openapi/amazon-ground-station-versions-api-openapi.yml
   type: apiKey
 slug: amazon-ground-station-authentication
 source_filename: amazon-ground-station-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-ground-station-openapi.yaml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-ground-station-openapi.yaml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-ground-station-agent-api-openapi.yml, openapi/amazon-ground-station-config-api-openapi.yml,\n  openapi/amazon-ground-station-contact-api-openapi.yml, openapi/amazon-ground-station-contacts-api-openapi.yml,\n  openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml, openapi/amazon-ground-station-ephemerides-api-openapi.yml,\n  openapi/amazon-ground-station-ephemeris-api-openapi.yml, openapi/amazon-ground-station-groundstation-api-openapi.yml,\n  openapi/amazon-ground-station-minute-usage-api-openapi.yml, openapi/amazon-ground-station-missionprofile-api-openapi.yml,\n  openapi/amazon-ground-station-operations-api-openapi.yml, openapi/amazon-ground-station-satellite-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries\
+  \ an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-ground-station-agent-api-openapi.yml\n  - openapi/amazon-ground-station-config-api-openapi.yml\n  - openapi/amazon-ground-station-contact-api-openapi.yml\n  - openapi/amazon-ground-station-contacts-api-openapi.yml\n  - openapi/amazon-ground-station-dataflow-endpoint-group-api-openapi.yml\n  - openapi/amazon-ground-station-ephemerides-api-openapi.yml\n  - openapi/amazon-ground-station-ephemeris-api-openapi.yml\n  - openapi/amazon-ground-station-groundstation-api-openapi.yml\n  - openapi/amazon-ground-station-minute-usage-api-openapi.yml\n  - openapi/amazon-ground-station-missionprofile-api-openapi.yml\n  - openapi/amazon-ground-station-operations-api-openapi.yml\n  - openapi/amazon-ground-station-satellite-api-openapi.yml\n  - openapi/amazon-ground-station-tags-api-openapi.yml\n  - openapi/amazon-ground-station-versions-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-ground-station/authentication/amazon-ground-station-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

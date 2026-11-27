@@ -52,7 +52,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: modeled
-name: Warrant Dev Domain Security
+name: Warrant Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Warrant, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present.'
 provider_name: Warrant

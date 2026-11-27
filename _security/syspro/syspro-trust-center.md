@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Syspro Trust Center
+name: SYSPRO Trust Center
 name_suffix: Trust Center
 overview: SYSPRO maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: SYSPRO

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Landis Gyr Authentication
+name: Landis+Gyr Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Landis+Gyr declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Beket Ai Authentication
+name: Beket AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Beket AI declares 0 security scheme(s) across its OpenAPI definitions.

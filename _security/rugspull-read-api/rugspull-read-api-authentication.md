@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Rugspull Read Api Authentication
+name: Rugspull Read API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Rugspull Read API declares 0 security scheme(s) across its OpenAPI definitions.
@@ -61,7 +61,7 @@ tags:
 - wbnb
 - Read Only
 - OpenAPI
-- high-risk
+- High Risk
 - discovery-cache
 - DeFi
 - Web3

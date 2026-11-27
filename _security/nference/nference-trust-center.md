@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nference Trust Center
+name: nference Trust Center
 name_suffix: Trust Center
 overview: nference maintains a public trust center documenting ISO/IEC 27001:2022 and HIPAA compliance.
 provider_name: nference

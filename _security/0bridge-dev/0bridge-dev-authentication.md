@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 0Bridge Dev Authentication
+name: 0bridge Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 0bridge declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Causalens Authentication
+name: CausaLens Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CausaLens declares 0 security scheme(s) across its OpenAPI definitions.

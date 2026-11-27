@@ -776,7 +776,7 @@ certifications:
 description: 'Qlik runs a public trust center at security.qlik.com and a compliance summary at qlik.com/us/trust, listing named third-party certifications and attestations for three distinct estates: Qlik generally, Qlik Cloud Government, and Talend Cloud. Certifications are transcribed verbatim from Qlik''s own page; none is inferred.'
 kind: trust-center
 layout: security
-name: Qliksense Trust Center
+name: Qlik Sense Trust Center
 name_suffix: Trust Center
 overview: Qlik Sense maintains a public trust center documenting qlik, qlik_cloud_government, and talend_cloud compliance.
 provider_name: Qlik Sense

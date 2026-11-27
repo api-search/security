@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Truff Authentication
+name: TRUFF Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TRUFF declares 3 security scheme(s) across its OpenAPI definitions.

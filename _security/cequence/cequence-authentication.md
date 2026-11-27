@@ -13,7 +13,7 @@ kind: authentication
 layout: security
 mechanism_count: 12
 method: searched
-name: Cequence Authentication
+name: Cequence Security Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

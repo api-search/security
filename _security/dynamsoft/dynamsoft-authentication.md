@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dynamsoft Authentication
+name: Dynamsoft Web TWAIN Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dynamsoft Web TWAIN declares 1 security scheme(s) across its OpenAPI definitions.

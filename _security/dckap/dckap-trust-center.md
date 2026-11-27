@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dckap Trust Center
+name: DCKAP Trust Center
 name_suffix: Trust Center
 overview: DCKAP maintains a public trust center documenting SOC 2 compliance.
 provider_name: DCKAP

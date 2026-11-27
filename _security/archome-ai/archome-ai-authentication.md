@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Archome Ai Authentication
+name: Archome AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Archome AI declares 0 security scheme(s) across its OpenAPI definitions.

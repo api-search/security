@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cross Deck Com Authentication
+name: Crossdeck Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Crossdeck declares 1 security scheme(s) across its OpenAPI definitions.

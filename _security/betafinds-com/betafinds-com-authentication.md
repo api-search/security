@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Betafinds Com Authentication
+name: BetaFinds Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BetaFinds declares 0 security scheme(s) across its OpenAPI definitions.

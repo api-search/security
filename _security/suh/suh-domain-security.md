@@ -13,7 +13,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Suh Domain Security
+name: SinoUnited Health Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for SinoUnited Health, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: SinoUnited Health

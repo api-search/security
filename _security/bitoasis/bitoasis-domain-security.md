@@ -1,47 +1,47 @@
 ---
 api_specs:
-- filename: bitoasis-account-api-openapi.yml
-  format: yaml
-  label: BitOasis Account API
-  slug: bitoasis-account-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-account-api-openapi.yml
-- filename: bitoasis-coin-deposits-api-openapi.yml
-  format: yaml
-  label: BitOasis Coin Deposits API
-  slug: bitoasis-coin-deposits-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-coin-deposits-api-openapi.yml
-- filename: bitoasis-coin-withdrawals-api-openapi.yml
-  format: yaml
-  label: BitOasis Coin Withdrawals API
-  slug: bitoasis-coin-withdrawals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-coin-withdrawals-api-openapi.yml
-- filename: bitoasis-fiat-deposits-api-openapi.yml
-  format: yaml
-  label: BitOasis Fiat Deposits API
-  slug: bitoasis-fiat-deposits-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-fiat-deposits-api-openapi.yml
-- filename: bitoasis-fiat-withdrawals-api-openapi.yml
-  format: yaml
-  label: BitOasis Fiat Withdrawals API
-  slug: bitoasis-fiat-withdrawals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-fiat-withdrawals-api-openapi.yml
 - filename: bitoasis-market-data-api-openapi.yml
   format: yaml
   label: BitOasis Market Data API
   slug: bitoasis-market-data-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-market-data-api-openapi.yml
-- filename: bitoasis-orders-api-openapi.yml
+- filename: bitoasis-accounts-api-openapi.yml
   format: yaml
-  label: BitOasis Orders API
-  slug: bitoasis-orders-api
+  label: BitOasis Accounts API
+  slug: bitoasis-accounts-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-accounts-api-openapi.yml
+- filename: bitoasis-banks-api-openapi.yml
+  format: yaml
+  label: BitOasis Banks API
+  slug: bitoasis-banks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-banks-api-openapi.yml
+- filename: bitoasis-deposit-api-openapi.yml
+  format: yaml
+  label: BitOasis Deposit API
+  slug: bitoasis-deposit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-deposit-api-openapi.yml
+- filename: bitoasis-error-responses-api-openapi.yml
+  format: yaml
+  label: BitOasis Error responses API
+  slug: bitoasis-error-responses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-error-responses-api-openapi.yml
+- filename: bitoasis-order-api-openapi.yml
+  format: yaml
+  label: BitOasis Order API
+  slug: bitoasis-order-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-order-api-openapi.yml
+- filename: bitoasis-withdrawal-api-openapi.yml
+  format: yaml
+  label: BitOasis Withdrawal API
+  slug: bitoasis-withdrawal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-withdrawal-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -65,7 +65,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Bitoasis Domain Security
+name: BitOasis Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for BitOasis, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: BitOasis

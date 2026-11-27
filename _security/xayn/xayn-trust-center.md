@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Xayn Trust Center
+name: Xayn (now Noxtua) Trust Center
 name_suffix: Trust Center
 overview: Xayn (now Noxtua) maintains a public trust center covering its security and compliance posture.
 provider_name: Xayn (now Noxtua)

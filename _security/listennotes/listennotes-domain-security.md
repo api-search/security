@@ -30,12 +30,6 @@ api_specs:
   slug: listennotes-directory-api-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/listennotes/openapi/listennotes-directory-api-api-openapi.yml
-- filename: listennotes-listen-api-podcast-search-directory-and-insights-api-api-openapi.yml
-  format: yaml
-  label: 'Listen Notes Listen API: Podcast Search, Directory, And Insights API'
-  slug: listennotes-listen-api-podcast-search-directory-and-insights-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/listennotes/openapi/listennotes-listen-api-podcast-search-directory-and-insights-api-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -65,7 +59,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Listennotes Domain Security
+name: Listen Notes Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Listen Notes, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: Listen Notes

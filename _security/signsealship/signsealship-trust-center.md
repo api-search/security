@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Signsealship Trust Center
+name: SignSealShip Partner API Trust Center
 name_suffix: Trust Center
 overview: SignSealShip Partner API maintains a public trust center documenting count, named, and note compliance.
 provider_name: SignSealShip Partner API

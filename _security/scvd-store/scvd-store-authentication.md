@@ -546,7 +546,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Scvd Store Authentication
+name: SCVD General Store Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SCVD General Store secures its APIs with none (anonymous), x402 payment signature (per-call), http bearer (one narrow scope), and http basic (back office, not for agents) across 5 declared security schemes, as derived from its OpenAPI definitions.

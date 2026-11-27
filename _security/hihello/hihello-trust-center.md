@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hihello Trust Center
+name: HiHello Trust Center
 name_suffix: Trust Center
 overview: HiHello maintains a public trust center documenting SOC 2 Type II, GDPR, EU-US Data Privacy Framework, UK Extension to the EU-US Data Privacy Framework, and Swiss-US Data Privacy Framework compliance.
 provider_name: HiHello

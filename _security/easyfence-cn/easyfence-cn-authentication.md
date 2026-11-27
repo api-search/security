@@ -72,7 +72,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Easyfence Cn Authentication
+name: X402 AI 自助门店 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: X402 AI 自助门店 secures its APIs with none, x402-payment, erc8004-identity, and query-token across 4 declared security schemes, as derived from its OpenAPI definitions.

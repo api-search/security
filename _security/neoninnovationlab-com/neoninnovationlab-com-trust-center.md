@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Neoninnovationlab Com Trust Center
+name: neoninnovationlab-com Trust Center
 name_suffix: Trust Center
 overview: neoninnovationlab-com maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: neoninnovationlab-com

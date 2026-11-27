@@ -242,7 +242,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Aidelly Ai Authentication
+name: Aidelly AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aidelly AI declares 2 security scheme(s) across its OpenAPI definitions.

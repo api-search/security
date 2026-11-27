@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Day3 App Trust Center
+name: day3 Trust Center
 name_suffix: Trust Center
 overview: day3 maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: day3

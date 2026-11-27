@@ -6,24 +6,12 @@ api_specs:
   slug: contextual-ai-agents-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-api-openapi.yml
-- filename: contextual-ai-agents-query-api-openapi.yml
-  format: yaml
-  label: Contextual AI Agents Query API
-  slug: contextual-ai-agents-query-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-query-api-openapi.yml
 - filename: contextual-ai-datastores-api-openapi.yml
   format: yaml
   label: Contextual AI Datastores API
   slug: contextual-ai-datastores-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-datastores-api-openapi.yml
-- filename: contextual-ai-documents-api-openapi.yml
-  format: yaml
-  label: Contextual AI Documents API
-  slug: contextual-ai-documents-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-documents-api-openapi.yml
 - filename: contextual-ai-generate-api-openapi.yml
   format: yaml
   label: Contextual AI Generate API
@@ -99,7 +87,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Contextual Ai Trust Center
+name: Contextual AI Trust Center
 name_suffix: Trust Center
 overview: Contextual AI maintains a public trust center documenting SOC 2, ISO 27017, PCI DSS, and CSA STAR compliance.
 provider_name: Contextual AI

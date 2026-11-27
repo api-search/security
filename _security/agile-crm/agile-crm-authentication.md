@@ -69,7 +69,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agile Crm Authentication
+name: Agile CRM Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agile CRM secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

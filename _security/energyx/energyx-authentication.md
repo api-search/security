@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Energyx Authentication
+name: EnergyX Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EnergyX declares 0 security scheme(s) across its OpenAPI definitions.

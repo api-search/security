@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: flexai-audio-api-openapi.yml
-  format: yaml
-  label: FlexAI Audio API
-  slug: flexai-audio-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/flexai/openapi/flexai-audio-api-openapi.yml
 - filename: flexai-completions-api-openapi.yml
   format: yaml
   label: FlexAI Completions API
@@ -20,24 +14,12 @@ api_specs:
   slug: flexai-embeddings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/flexai/openapi/flexai-embeddings-api-openapi.yml
-- filename: flexai-images-api-openapi.yml
-  format: yaml
-  label: FlexAI Images API
-  slug: flexai-images-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/flexai/openapi/flexai-images-api-openapi.yml
 - filename: flexai-models-api-openapi.yml
   format: yaml
   label: FlexAI Models API
   slug: flexai-models-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/flexai/openapi/flexai-models-api-openapi.yml
-- filename: flexai-video-api-openapi.yml
-  format: yaml
-  label: FlexAI Video API
-  slug: flexai-video-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/flexai/openapi/flexai-video-api-openapi.yml
 - filename: flexai-usage-api-openapi.yml
   format: yaml
   label: FlexAI Usage API
@@ -57,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Flexai Authentication
+name: FlexAI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FlexAI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

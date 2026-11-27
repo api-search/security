@@ -47,7 +47,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Goto Gojek Domain Security
+name: GoTo Group (Gojek + Tokopedia) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for GoTo Group (Gojek + Tokopedia), probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: GoTo Group (Gojek + Tokopedia)

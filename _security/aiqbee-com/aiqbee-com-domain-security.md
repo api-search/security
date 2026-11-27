@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Aiqbee Com Domain Security
+name: Aiqbee Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Aiqbee, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Aiqbee
@@ -31,7 +31,7 @@ source_yaml: "generated: '2026-11-01'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/aiqbee-com/security/aiqbee-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
-- AI memory
+- AI Memory
 - Enterprise Knowledge
 - LLM Governance
 - Teams Integration

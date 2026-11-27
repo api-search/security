@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 2Oapi Xyz Authentication
+name: 2O Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 2O declares 1 security scheme(s) across its OpenAPI definitions.

@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Usm Authentication
+name: Universiti Sains Malaysia Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Universiti Sains Malaysia declares 0 security scheme(s) across its OpenAPI definitions.

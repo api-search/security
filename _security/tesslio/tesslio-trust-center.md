@@ -215,7 +215,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Tesslio Trust Center
+name: tessl.io Trust Center
 name_suffix: Trust Center
 overview: tessl.io maintains a public trust center covering its security and compliance posture.
 provider_name: tessl.io

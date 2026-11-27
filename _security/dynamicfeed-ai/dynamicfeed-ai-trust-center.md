@@ -413,7 +413,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Dynamicfeed Ai Trust Center
+name: Dynamic Feed Trust Center
 name_suffix: Trust Center
 overview: Dynamic Feed maintains a public trust center covering its security and compliance posture.
 provider_name: Dynamic Feed

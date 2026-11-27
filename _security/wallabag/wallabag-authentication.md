@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Wallabag Authentication
+name: wallabag Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: wallabag declares 1 security scheme(s) across its OpenAPI definitions.

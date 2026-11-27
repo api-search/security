@@ -6,7 +6,7 @@ certifications:
 description: AltScore's security and compliance posture. Captured from the AltScore security page (altscore.ai/en/security) and confirmed against the trust center at trust.altscore.ai. AltScore is ISO 27001:2022 certified and SOC 2 attested, with 52 controls under continuous monitoring via Sprinto. Data is encrypted at rest (AES-256) and in transit (HTTPS/TLS). Infrastructure uses default-deny firewalls, high availability, continuous cloud monitoring, and verified backups with restoration drills.
 kind: trust-center
 layout: security
-name: Altscore Trust Center
+name: AltScore Trust Center
 name_suffix: Trust Center
 overview: AltScore maintains a public trust center documenting ISO 27001:2022 and SOC 2 compliance.
 provider_name: AltScore

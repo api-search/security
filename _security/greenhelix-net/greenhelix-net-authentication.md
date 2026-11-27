@@ -143,7 +143,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Greenhelix Net Authentication
+name: Green Helix Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Green Helix secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

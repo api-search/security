@@ -1098,36 +1098,6 @@ api_specs:
   slug: gitlab-workspaces-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gitlab/openapi/gitlab-workspaces-api-openapi.yml
-- filename: gitlab-admin-api-openapi.yml
-  format: yaml
-  label: GitLab Admin API
-  slug: gitlab-admin-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gitlab/openapi/gitlab-admin-api-openapi.yml
-- filename: gitlab-application-api-openapi.yml
-  format: yaml
-  label: GitLab Application API
-  slug: gitlab-application-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gitlab/openapi/gitlab-application-api-openapi.yml
-- filename: gitlab-avatar-api-openapi.yml
-  format: yaml
-  label: GitLab Avatar API
-  slug: gitlab-avatar-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gitlab/openapi/gitlab-avatar-api-openapi.yml
-- filename: gitlab-bulk-imports-api-openapi.yml
-  format: yaml
-  label: GitLab Bulk Imports API
-  slug: gitlab-bulk-imports-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gitlab/openapi/gitlab-bulk-imports-api-openapi.yml
-- filename: gitlab-version-api-openapi.yml
-  format: yaml
-  label: GitLab Version API
-  slug: gitlab-version-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gitlab/openapi/gitlab-version-api-openapi.yml
 certification_count: 7
 certifications:
 - SOC 2
@@ -1140,7 +1110,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gitlab Trust Center
+name: GitLab Trust Center
 name_suffix: Trust Center
 overview: GitLab maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, GDPR, and CSA STAR compliance.
 provider_name: GitLab

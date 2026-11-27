@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Es Pera Authentication
+name: ES·pera API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ES·pera API declares 0 security scheme(s) across its OpenAPI definitions.

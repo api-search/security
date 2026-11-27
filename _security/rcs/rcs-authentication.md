@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Rcs Authentication
+name: RCS (Resource Consulting Services) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RCS (Resource Consulting Services) declares 0 security scheme(s) across its OpenAPI definitions.

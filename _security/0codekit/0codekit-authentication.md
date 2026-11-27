@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 0Codekit Authentication
+name: relyon Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: relyon declares 1 security scheme(s) across its OpenAPI definitions.

@@ -218,7 +218,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Ghent Authentication
+name: Ghent University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ghent University declares 0 security scheme(s) across its OpenAPI definitions.

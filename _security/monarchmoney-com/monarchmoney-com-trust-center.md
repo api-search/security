@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Monarchmoney Com Trust Center
+name: Monarch Money Trust Center
 name_suffix: Trust Center
 overview: Monarch Money maintains a public trust center documenting SOC 2 compliance.
 provider_name: Monarch Money

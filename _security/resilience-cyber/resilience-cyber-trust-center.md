@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Resilience Cyber Trust Center
+name: Resilience Trust Center
 name_suffix: Trust Center
 overview: Resilience maintains a public trust center covering its security and compliance posture.
 provider_name: Resilience

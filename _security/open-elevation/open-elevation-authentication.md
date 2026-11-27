@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Open Elevation Authentication
+name: Open-Elevation Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Open-Elevation declares 1 security scheme(s) across its OpenAPI definitions.

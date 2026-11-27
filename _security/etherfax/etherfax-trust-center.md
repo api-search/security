@@ -45,7 +45,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Etherfax Trust Center
+name: etherFAX Trust Center
 name_suffix: Trust Center
 overview: etherFAX maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: etherFAX

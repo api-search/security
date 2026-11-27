@@ -321,24 +321,6 @@ api_specs:
   slug: github-enterprise-teams-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/github-enterprise/openapi/github-enterprise-teams-api-openapi.yml
-- filename: github-enterprise-organizations-api-openapi.yml
-  format: yaml
-  label: GitHub Enterprise Organizations API
-  slug: github-enterprise-organizations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-enterprise/openapi/github-enterprise-organizations-api-openapi.yml
-- filename: github-enterprise-pull-requests-api-openapi.yml
-  format: yaml
-  label: GitHub Enterprise Pull Requests API
-  slug: github-enterprise-pull-requests-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-enterprise/openapi/github-enterprise-pull-requests-api-openapi.yml
-- filename: github-enterprise-repositories-api-openapi.yml
-  format: yaml
-  label: GitHub Enterprise Repositories API
-  slug: github-enterprise-repositories-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-enterprise/openapi/github-enterprise-repositories-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -347,7 +329,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Github Enterprise Authentication
+name: GitHub Enterprise Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GitHub Enterprise secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
@@ -359,37 +341,38 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/github-enterprise-actions-api-openapi.yml
-  - openapi/github-enterprise-code-scanning-api-openapi.yml
-  - openapi/github-enterprise-enterprise-admin-api-openapi.yml
-  - openapi/github-enterprise-issues-api-openapi.yml
+  - openapi/_superseded/github-enterprise-actions-api-openapi.yml
+  - openapi/_superseded/github-enterprise-code-scanning-api-openapi.yml
+  - openapi/_superseded/github-enterprise-enterprise-admin-api-openapi.yml
+  - openapi/_superseded/github-enterprise-issues-api-openapi.yml
   - openapi/github-enterprise-organizations-api-openapi.yml
   - openapi/github-enterprise-pull-requests-api-openapi.yml
   - openapi/github-enterprise-repositories-api-openapi.yml
-  - openapi/github-enterprise-scim-api-openapi.yml
-  - openapi/github-enterprise-users-api-openapi.yml
+  - openapi/_superseded/github-enterprise-scim-api-openapi.yml
+  - openapi/_superseded/github-enterprise-users-api-openapi.yml
   type: http
 - description: Use "token YOUR_PAT" for classic personal access tokens.
   in: header
   name: patAuth
   parameter: Authorization
   sources:
-  - openapi/github-enterprise-actions-api-openapi.yml
-  - openapi/github-enterprise-code-scanning-api-openapi.yml
-  - openapi/github-enterprise-enterprise-admin-api-openapi.yml
-  - openapi/github-enterprise-issues-api-openapi.yml
+  - openapi/_superseded/github-enterprise-actions-api-openapi.yml
+  - openapi/_superseded/github-enterprise-code-scanning-api-openapi.yml
+  - openapi/_superseded/github-enterprise-enterprise-admin-api-openapi.yml
+  - openapi/_superseded/github-enterprise-issues-api-openapi.yml
   - openapi/github-enterprise-organizations-api-openapi.yml
   - openapi/github-enterprise-pull-requests-api-openapi.yml
   - openapi/github-enterprise-repositories-api-openapi.yml
-  - openapi/github-enterprise-scim-api-openapi.yml
-  - openapi/github-enterprise-users-api-openapi.yml
+  - openapi/_superseded/github-enterprise-scim-api-openapi.yml
+  - openapi/_superseded/github-enterprise-users-api-openapi.yml
   type: apiKey
 slug: github-enterprise-authentication
 source_filename: github-enterprise-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/github-enterprise-actions-api-openapi.yml, openapi/github-enterprise-code-scanning-api-openapi.yml,\n  openapi/github-enterprise-enterprise-admin-api-openapi.yml, openapi/github-enterprise-issues-api-openapi.yml,\n  openapi/github-enterprise-organizations-api-openapi.yml, openapi/github-enterprise-pull-requests-api-openapi.yml,\n  openapi/github-enterprise-repositories-api-openapi.yml, openapi/github-enterprise-scim-api-openapi.yml,\n  openapi/github-enterprise-users-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: GitHub Token (PAT or App installation token)\n  sources:\n  - openapi/github-enterprise-actions-api-openapi.yml\n  - openapi/github-enterprise-code-scanning-api-openapi.yml\n  - openapi/github-enterprise-enterprise-admin-api-openapi.yml\n  - openapi/github-enterprise-issues-api-openapi.yml\n \
-  \ - openapi/github-enterprise-organizations-api-openapi.yml\n  - openapi/github-enterprise-pull-requests-api-openapi.yml\n  - openapi/github-enterprise-repositories-api-openapi.yml\n  - openapi/github-enterprise-scim-api-openapi.yml\n  - openapi/github-enterprise-users-api-openapi.yml\n- name: patAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Use \"token YOUR_PAT\" for classic personal access tokens.\n  sources:\n  - openapi/github-enterprise-actions-api-openapi.yml\n  - openapi/github-enterprise-code-scanning-api-openapi.yml\n  - openapi/github-enterprise-enterprise-admin-api-openapi.yml\n  - openapi/github-enterprise-issues-api-openapi.yml\n  - openapi/github-enterprise-organizations-api-openapi.yml\n  - openapi/github-enterprise-pull-requests-api-openapi.yml\n  - openapi/github-enterprise-repositories-api-openapi.yml\n  - openapi/github-enterprise-scim-api-openapi.yml\n  - openapi/github-enterprise-users-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/_superseded/github-enterprise-actions-api-openapi.yml, openapi/_superseded/github-enterprise-code-scanning-api-openapi.yml,\n  openapi/_superseded/github-enterprise-enterprise-admin-api-openapi.yml, openapi/_superseded/github-enterprise-issues-api-openapi.yml,\n  openapi/github-enterprise-organizations-api-openapi.yml, openapi/github-enterprise-pull-requests-api-openapi.yml,\n  openapi/github-enterprise-repositories-api-openapi.yml, openapi/_superseded/github-enterprise-scim-api-openapi.yml,\n  openapi/_superseded/github-enterprise-users-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - http\n  api_key_in:\n  - header\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: GitHub Token (PAT or App installation token)\n  sources:\n  - openapi/_superseded/github-enterprise-actions-api-openapi.yml\n  - openapi/_superseded/github-enterprise-code-scanning-api-openapi.yml\n  - openapi/_superseded/github-enterprise-enterprise-admin-api-openapi.yml\n\
+  \  - openapi/_superseded/github-enterprise-issues-api-openapi.yml\n  - openapi/github-enterprise-organizations-api-openapi.yml\n  - openapi/github-enterprise-pull-requests-api-openapi.yml\n  - openapi/github-enterprise-repositories-api-openapi.yml\n  - openapi/_superseded/github-enterprise-scim-api-openapi.yml\n  - openapi/_superseded/github-enterprise-users-api-openapi.yml\n- name: patAuth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Use \"token YOUR_PAT\" for classic personal access tokens.\n  sources:\n  - openapi/_superseded/github-enterprise-actions-api-openapi.yml\n  - openapi/_superseded/github-enterprise-code-scanning-api-openapi.yml\n  - openapi/_superseded/github-enterprise-enterprise-admin-api-openapi.yml\n  - openapi/_superseded/github-enterprise-issues-api-openapi.yml\n  - openapi/github-enterprise-organizations-api-openapi.yml\n  - openapi/github-enterprise-pull-requests-api-openapi.yml\n  - openapi/github-enterprise-repositories-api-openapi.yml\n\
+  \  - openapi/_superseded/github-enterprise-scim-api-openapi.yml\n  - openapi/_superseded/github-enterprise-users-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/github-enterprise/authentication/github-enterprise-authentication.yml
 summary_line: apiKey/http · 2 schemes
 tags:

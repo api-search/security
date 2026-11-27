@@ -80,7 +80,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Madkudu Trust Center
+name: MadKudu Trust Center
 name_suffix: Trust Center
 overview: MadKudu maintains a public trust center documenting SOC 2 Type 2, CAIQ, and SIG Lite compliance.
 provider_name: MadKudu

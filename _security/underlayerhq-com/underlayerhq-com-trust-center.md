@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Underlayerhq Com Trust Center
+name: underlayerhq-com Trust Center
 name_suffix: Trust Center
 overview: underlayerhq-com maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: underlayerhq-com

@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: documented
-name: Sila Money Authentication
+name: Sila Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sila secures its APIs with signature across 3 declared security schemes, as derived from its OpenAPI definitions.

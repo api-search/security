@@ -20,7 +20,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Csm Domain Security
+name: Common Sense Machines Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Common Sense Machines, probed live across 3 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Common Sense Machines

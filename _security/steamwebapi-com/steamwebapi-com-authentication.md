@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Steamwebapi Com Authentication
+name: steamwebapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: steamwebapi-com declares 1 security scheme(s) across its OpenAPI definitions.

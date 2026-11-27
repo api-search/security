@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Royal Meteorological Institute Belgium Authentication
+name: RMI Belgium WOW-BE Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RMI Belgium WOW-BE declares 0 security scheme(s) across its OpenAPI definitions.

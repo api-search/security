@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: P2Flux Api Authentication
+name: P2Flux API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: P2Flux API declares 0 security scheme(s) across its OpenAPI definitions.

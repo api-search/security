@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mcp Manager Trust Center
+name: MCP Manager Trust Center
 name_suffix: Trust Center
 overview: MCP Manager maintains a public trust center documenting SOC 2 Type 2, HIPAA, ISO 27001:2022, ISO 27701:2019, and TISAX Level 3 compliance.
 provider_name: MCP Manager

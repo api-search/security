@@ -24,7 +24,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Vulncheck Authentication
+name: VulnCheck Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VulnCheck secures its APIs with apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

@@ -28,7 +28,7 @@ source_yaml_url: https://artifacts.apis.io/peppyrus/authentication/peppyrus-auth
 summary_line: 1 scheme
 tags:
 - Company
-- PEPPOL
+- Peppol
 - E-Invoicing
 - Free
 ---

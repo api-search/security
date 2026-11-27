@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Onedroid Ai Authentication
+name: onedroid-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: onedroid-ai declares 1 security scheme(s) across its OpenAPI definitions.

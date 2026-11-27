@@ -95,7 +95,7 @@ hosts_probed: 6
 kind: domain-security
 layout: security
 method: probed
-name: Workfront Domain Security
+name: Adobe Workfront Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Adobe Workfront, probed live across 6 host(s) and 2 registrable domain(s). 6 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Adobe Workfront

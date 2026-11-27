@@ -9,7 +9,7 @@ api_specs:
   label: Healthie GraphQL API
   slug: healthie-graphql-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/asyncapi/healthie-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/healthie/asyncapi/healthie-webhooks-asyncapi.yml
 auth_types:
 - apiKey
 description: ''

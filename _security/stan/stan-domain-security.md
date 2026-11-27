@@ -40,7 +40,7 @@ tags:
 - Company
 - Commerce
 - Creator Economy
-- Link in Bio
+- Link-in-bio
 - Digital Products
 - E-Commerce
 - Content Monetization

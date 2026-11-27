@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aibuildermarketplace Com Authentication
+name: AIBuilder Marketplace Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AIBuilder Marketplace declares 0 security scheme(s) across its OpenAPI definitions.

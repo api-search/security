@@ -618,6 +618,18 @@ api_specs:
   slug: conduyt-com-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-workflows-api-openapi.yml
+- filename: conduyt-com-activity-api-openapi.yml
+  format: yaml
+  label: Conduyt Activity API
+  slug: conduyt-com-activity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-activity-api-openapi.yml
+- filename: conduyt-com-tax-rates-api-openapi.yml
+  format: yaml
+  label: Conduyt Tax Rates API
+  slug: conduyt-com-tax-rates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-tax-rates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -649,7 +661,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Conduyt Com Domain Security
+name: Conduyt Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Conduyt, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Conduyt

@@ -5,7 +5,7 @@ api_specs:
   label: Unleash Client API
   slug: client-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/unleash/refs/heads/main/openapi/unleash-client-api-openapi.yml
+  url: https://artifacts.apis.io/unleash/openapi/unleash-client-api-openapi.yml
 - filename: unleash-admin-ui-api-openapi.yml
   format: yaml
   label: Unleash Admin UI API

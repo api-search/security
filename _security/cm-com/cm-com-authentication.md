@@ -1015,7 +1015,7 @@ kind: authentication
 layout: security
 mechanism_count: 8
 method: derived
-name: Cm Com Authentication
+name: CM.com Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

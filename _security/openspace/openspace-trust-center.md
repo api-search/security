@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Openspace Trust Center
+name: OpenSpace Trust Center
 name_suffix: Trust Center
 overview: OpenSpace maintains a public trust center documenting SOC 2, GDPR, and CSA STAR compliance.
 provider_name: OpenSpace

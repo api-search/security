@@ -143,7 +143,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ninjaone Authentication
+name: NinjaOne Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -32,7 +32,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Jsw One Domain Security
+name: JSW One Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for JSW One, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: JSW One

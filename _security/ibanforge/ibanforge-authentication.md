@@ -66,7 +66,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Ibanforge Authentication
+name: IBANforge Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IBANforge secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

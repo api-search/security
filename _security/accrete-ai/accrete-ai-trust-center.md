@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Accrete Ai Trust Center
+name: Accrete Trust Center
 name_suffix: Trust Center
 overview: Accrete maintains a public trust center documenting SOC 2 Type 1, CMMC Certified, DoD IL4, ITAR, and NDAA compliance.
 provider_name: Accrete

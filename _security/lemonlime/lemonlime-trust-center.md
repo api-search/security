@@ -8,7 +8,7 @@ certifications:
 description: 'LemonLime has no trust.<domain> or security.<domain> subdomain (neither resolves); its compliance posture is published on a single /security page. As an early-stage (YC S2026) company its certification story is forward-looking rather than attained: a SOC 2 examination is in progress with Oneleet and the report is not yet issued. HIPAA/PCI are described as deployment-alignment options on the Enterprise plan, not as held certifications. Recorded here exactly as published — no certification is asserted as complete. The mechanical probe flagged "SOC 2" and "GDPR" as keyword hits on this page; this searched capture qualifies those hits with their real status and is kept in preference to the probe''s flat certification list.'
 kind: trust-center
 layout: security
-name: Lemonlime Trust Center
+name: LemonLime Trust Center
 name_suffix: Trust Center
 overview: LemonLime maintains a public trust center documenting SOC 2, GDPR, HIPAA, and PCI DSS compliance.
 provider_name: LemonLime

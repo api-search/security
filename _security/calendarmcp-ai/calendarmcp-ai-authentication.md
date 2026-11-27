@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Calendarmcp Ai Authentication
+name: CalendarMCP Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CalendarMCP declares 2 security scheme(s) across its OpenAPI definitions.

@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Koreai Authentication
+name: Kore.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Kore.ai declares 0 security scheme(s) across its OpenAPI definitions.

@@ -59,7 +59,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Alaska Air Authentication
+name: Alaska Airlines Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

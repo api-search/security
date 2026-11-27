@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Upspring Ai Authentication
+name: upspring-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: upspring-ai declares 1 security scheme(s) across its OpenAPI definitions.

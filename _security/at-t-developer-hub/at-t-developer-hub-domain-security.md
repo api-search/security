@@ -1,41 +1,4 @@
 ---
-api_specs:
-- filename: at-t-developer-hub-network-insights-api.yaml
-  format: yaml
-  label: AT&T Network Insights API
-  slug: att-network-insights-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-network-insights-api.yaml
-- filename: at-t-developer-hub-mobility-threat-anomaly-detection-api.yaml
-  format: yaml
-  label: AT&T Mobility Threat and Anomaly Detection API
-  slug: att-mobility-threat-anomaly-detection-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-mobility-threat-anomaly-detection-api.yaml
-- filename: at-t-developer-hub-sim-swap-api.yaml
-  format: yaml
-  label: AT&T SIM Swap API
-  slug: att-sim-swap-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-sim-swap-api.yaml
-- filename: at-t-developer-hub-device-status-api.yaml
-  format: yaml
-  label: AT&T Device Status API
-  slug: att-device-status-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-device-status-api.yaml
-- filename: at-t-developer-hub-quality-on-demand-api.yaml
-  format: yaml
-  label: AT&T Quality on Demand API
-  slug: att-quality-on-demand-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-quality-on-demand-api.yaml
-- filename: at-t-developer-hub-number-verification-api.yaml
-  format: yaml
-  label: AT&T Number Verification API
-  slug: att-number-verification-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/at-t-developer-hub/openapi/at-t-developer-hub-number-verification-api.yaml
 description: ''
 domains:
 - caa: []
@@ -67,7 +30,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: At T Developer Hub Domain Security
+name: AT&T Developer Hub Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AT&T Developer Hub, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: AT&T Developer Hub

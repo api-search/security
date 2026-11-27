@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: B2Bhint Com Authentication
+name: B2BHint Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: B2BHint declares 1 security scheme(s) across its OpenAPI definitions.

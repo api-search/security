@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mtech Systems Trust Center
+name: MTech Systems Trust Center
 name_suffix: Trust Center
 overview: MTech Systems maintains a public trust center documenting SOC 2 compliance.
 provider_name: MTech Systems

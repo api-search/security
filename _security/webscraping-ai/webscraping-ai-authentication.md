@@ -41,7 +41,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Webscraping Ai Authentication
+name: WebScraping.AI Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorization_code

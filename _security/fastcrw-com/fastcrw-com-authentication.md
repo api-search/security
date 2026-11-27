@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fastcrw Com Authentication
+name: fastcrw-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: fastcrw-com declares 1 security scheme(s) across its OpenAPI definitions.

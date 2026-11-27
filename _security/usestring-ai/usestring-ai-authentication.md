@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Usestring Ai Authentication
+name: String Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: String declares 1 security scheme(s) across its OpenAPI definitions.

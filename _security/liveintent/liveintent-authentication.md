@@ -53,7 +53,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Liveintent Authentication
+name: LiveIntent Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LiveIntent secures its APIs with apiKey and http across 1 declared security scheme, as derived from its OpenAPI definitions.

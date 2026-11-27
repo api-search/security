@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Usefulapi Io Authentication
+name: usefulapi-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: usefulapi-io declares 0 security scheme(s) across its OpenAPI definitions.

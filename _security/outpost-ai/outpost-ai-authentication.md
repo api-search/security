@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Outpost Ai Authentication
+name: Outpost Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Outpost declares 1 security scheme(s) across its OpenAPI definitions.

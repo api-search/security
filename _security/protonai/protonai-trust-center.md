@@ -83,7 +83,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Protonai Trust Center
+name: Proton.ai Trust Center
 name_suffix: Trust Center
 overview: Proton.ai maintains a public trust center covering its security and compliance posture.
 provider_name: Proton.ai

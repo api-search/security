@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Sundaysky Trust Center
+name: SundaySky Trust Center
 name_suffix: Trust Center
 overview: SundaySky maintains a public trust center covering its security and compliance posture.
 provider_name: SundaySky

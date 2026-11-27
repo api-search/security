@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Dataloop Authentication
+name: DataLoop Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

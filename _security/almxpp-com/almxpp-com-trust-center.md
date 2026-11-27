@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Almxpp Com Trust Center
+name: ALM XPP Trust Center
 name_suffix: Trust Center
 overview: ALM XPP maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: ALM XPP

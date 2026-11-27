@@ -141,6 +141,36 @@ api_specs:
   slug: amazon-iam-virtual-mfa-device-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-virtual-mfa-device-api-openapi.yml
+- filename: amazon-iam-crl-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Crl API
+  slug: amazon-iam-crl-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-crl-api-openapi.yml
+- filename: amazon-iam-disable-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Disable API
+  slug: amazon-iam-disable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-disable-api-openapi.yml
+- filename: amazon-iam-enable-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Enable API
+  slug: amazon-iam-enable-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-enable-api-openapi.yml
+- filename: amazon-iam-profile-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Profile API
+  slug: amazon-iam-profile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-profile-api-openapi.yml
+- filename: amazon-iam-trustanchor-api-openapi.yml
+  format: yaml
+  label: Amazon IAM Iam Trustanchor API
+  slug: amazon-iam-trustanchor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iam/openapi/amazon-iam-trustanchor-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -148,7 +178,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Iam Authentication
+name: Amazon IAM Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon IAM secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -156,18 +186,47 @@ provider_name: Amazon IAM
 provider_slug: amazon-iam
 scheme_count: 1
 schemes:
-- description: AWS Signature Version 4 authentication
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: AWS4Auth
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-iam-openapi.yml
+  - openapi/amazon-iam-access-keys-api-openapi.yml
+  - openapi/amazon-iam-account-password-policy-api-openapi.yml
+  - openapi/amazon-iam-crl-api-openapi.yml
+  - openapi/amazon-iam-delegation-request-api-openapi.yml
+  - openapi/amazon-iam-disable-api-openapi.yml
+  - openapi/amazon-iam-enable-api-openapi.yml
+  - openapi/amazon-iam-group-policy-api-openapi.yml
+  - openapi/amazon-iam-groups-api-openapi.yml
+  - openapi/amazon-iam-instance-profile-api-openapi.yml
+  - openapi/amazon-iam-login-profile-api-openapi.yml
+  - openapi/amazon-iam-mfa-device-api-openapi.yml
+  - openapi/amazon-iam-open-id-connect-provider-api-openapi.yml
+  - openapi/amazon-iam-operations-api-openapi.yml
+  - openapi/amazon-iam-policies-api-openapi.yml
+  - openapi/amazon-iam-policy-version-api-openapi.yml
+  - openapi/amazon-iam-profile-api-openapi.yml
+  - openapi/amazon-iam-role-policy-api-openapi.yml
+  - openapi/amazon-iam-roles-api-openapi.yml
+  - openapi/amazon-iam-saml-provider-api-openapi.yml
+  - openapi/amazon-iam-server-certificate-api-openapi.yml
+  - openapi/amazon-iam-service-last-accessed-detail-api-openapi.yml
+  - openapi/amazon-iam-service-specific-credential-api-openapi.yml
+  - openapi/amazon-iam-signing-certificate-api-openapi.yml
+  - openapi/amazon-iam-ssh-public-key-api-openapi.yml
+  - openapi/amazon-iam-trustanchor-api-openapi.yml
+  - openapi/amazon-iam-user-policy-api-openapi.yml
+  - openapi/amazon-iam-users-api-openapi.yml
+  - openapi/amazon-iam-virtual-mfa-device-api-openapi.yml
   type: apiKey
 slug: amazon-iam-authentication
 source_filename: amazon-iam-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-iam-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: AWS4Auth\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-iam-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-iam-access-keys-api-openapi.yml, openapi/amazon-iam-account-password-policy-api-openapi.yml,\n  openapi/amazon-iam-crl-api-openapi.yml, openapi/amazon-iam-delegation-request-api-openapi.yml,\n  openapi/amazon-iam-disable-api-openapi.yml, openapi/amazon-iam-enable-api-openapi.yml, openapi/amazon-iam-group-policy-api-openapi.yml,\n  openapi/amazon-iam-groups-api-openapi.yml, openapi/amazon-iam-instance-profile-api-openapi.yml,\n  openapi/amazon-iam-login-profile-api-openapi.yml, openapi/amazon-iam-mfa-device-api-openapi.yml,\n  openapi/amazon-iam-open-id-connect-provider-api-openapi.yml ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n\
+  \    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-iam-access-keys-api-openapi.yml\n  - openapi/amazon-iam-account-password-policy-api-openapi.yml\n  - openapi/amazon-iam-crl-api-openapi.yml\n  - openapi/amazon-iam-delegation-request-api-openapi.yml\n  - openapi/amazon-iam-disable-api-openapi.yml\n  - openapi/amazon-iam-enable-api-openapi.yml\n  - openapi/amazon-iam-group-policy-api-openapi.yml\n  - openapi/amazon-iam-groups-api-openapi.yml\n  - openapi/amazon-iam-instance-profile-api-openapi.yml\n  - openapi/amazon-iam-login-profile-api-openapi.yml\n  - openapi/amazon-iam-mfa-device-api-openapi.yml\n  - openapi/amazon-iam-open-id-connect-provider-api-openapi.yml\n  - openapi/amazon-iam-operations-api-openapi.yml\n  - openapi/amazon-iam-policies-api-openapi.yml\n  - openapi/amazon-iam-policy-version-api-openapi.yml\n  - openapi/amazon-iam-profile-api-openapi.yml\n  - openapi/amazon-iam-role-policy-api-openapi.yml\n  - openapi/amazon-iam-roles-api-openapi.yml\n  - openapi/amazon-iam-saml-provider-api-openapi.yml\n\
+  \  - openapi/amazon-iam-server-certificate-api-openapi.yml\n  - openapi/amazon-iam-service-last-accessed-detail-api-openapi.yml\n  - openapi/amazon-iam-service-specific-credential-api-openapi.yml\n  - openapi/amazon-iam-signing-certificate-api-openapi.yml\n  - openapi/amazon-iam-ssh-public-key-api-openapi.yml\n  - openapi/amazon-iam-trustanchor-api-openapi.yml\n  - openapi/amazon-iam-user-policy-api-openapi.yml\n  - openapi/amazon-iam-users-api-openapi.yml\n  - openapi/amazon-iam-virtual-mfa-device-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-iam/authentication/amazon-iam-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

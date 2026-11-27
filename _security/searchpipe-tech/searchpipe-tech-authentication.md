@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Searchpipe Tech Authentication
+name: searchpipe-tech Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: searchpipe-tech declares 1 security scheme(s) across its OpenAPI definitions.

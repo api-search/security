@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Rv Grid Com Authentication
+name: rv-grid-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: rv-grid-com declares 0 security scheme(s) across its OpenAPI definitions.

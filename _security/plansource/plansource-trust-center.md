@@ -64,7 +64,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Plansource Trust Center
+name: PlanSource Trust Center
 name_suffix: Trust Center
 overview: PlanSource maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, HIPAA, CCPA, and 23 NYCRR 500 compliance.
 provider_name: PlanSource

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Theeasyapi Authentication
+name: The Easy API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: The Easy API declares 1 security scheme(s) across its OpenAPI definitions.

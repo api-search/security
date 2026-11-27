@@ -156,7 +156,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Outrival Trust Center
+name: OutRival Trust Center
 name_suffix: Trust Center
 overview: OutRival maintains a public trust center documenting SOC 2 compliance.
 provider_name: OutRival

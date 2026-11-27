@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: 10X Banking Technology Services Authentication
+name: 10x Banking Technology Services Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 10x Banking Technology Services declares 1 security scheme(s) across its OpenAPI definitions.

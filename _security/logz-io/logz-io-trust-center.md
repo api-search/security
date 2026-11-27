@@ -350,7 +350,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Logz Io Trust Center
+name: Logz.io Trust Center
 name_suffix: Trust Center
 overview: Logz.io maintains a public trust center documenting SOC 2, HIPAA, and FedRAMP compliance.
 provider_name: Logz.io

@@ -55,7 +55,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Fullenrich Domain Security
+name: FullEnrich Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FullEnrich, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: FullEnrich
@@ -77,7 +77,6 @@ tags:
 - People Search
 - Company Search
 - Reverse Email Lookup
-- Agent Ready
 - A2A
 - Data Enrichment
 ---

@@ -7,7 +7,7 @@ api_specs:
   label: BambooHR Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/openapi/bamboohr-asyncapi.yml
+  url: https://artifacts.apis.io/bamboohr/openapi/bamboohr-asyncapi.yml
 - filename: bamboohr-directory-api-openapi.yml
   format: yaml
   label: BambooHR Directory API
@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Bamboohr Authentication
+name: BambooHR Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

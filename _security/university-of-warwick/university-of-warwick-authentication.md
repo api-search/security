@@ -35,7 +35,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: University Of Warwick Authentication
+name: University of Warwick Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Warwick secures its APIs with http, oauth1, and saml across 3 declared security schemes, as derived from its OpenAPI definitions.

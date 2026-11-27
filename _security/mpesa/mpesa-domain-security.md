@@ -101,7 +101,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Mpesa Domain Security
+name: M-Pesa (Safaricom Daraja) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for M-Pesa (Safaricom Daraja), probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS; 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: M-Pesa (Safaricom Daraja)

@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Avis Budget Authentication
+name: Avis Budget Group Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

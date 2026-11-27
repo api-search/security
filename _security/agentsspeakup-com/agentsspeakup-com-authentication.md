@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentsspeakup Com Authentication
+name: Agents Speak Up Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agents Speak Up declares 0 security scheme(s) across its OpenAPI definitions.
@@ -93,6 +93,6 @@ tags:
 - Artificial Intelligence
 - Ethics
 - Reporting
-- alignment
+- Alignment
 - Community
 ---

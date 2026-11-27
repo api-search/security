@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: University Of Freiburg Authentication
+name: University of Freiburg Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Freiburg declares 0 security scheme(s) across its OpenAPI definitions.

@@ -169,7 +169,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Vaquill Ai Authentication
+name: Vaquill AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Vaquill AI secures its APIs with apiKey, http, and oauth2 across 5 declared security schemes, as derived from its OpenAPI definitions.

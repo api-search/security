@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Aodn Australian Ocean Data Network Domain Security
+name: AODN - Australian Ocean Data Network Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AODN - Australian Ocean Data Network, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: AODN - Australian Ocean Data Network

@@ -18,18 +18,18 @@ api_specs:
   slug: amazon-polly-voices-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-voices-api-openapi.yml
-- filename: amazon-polly-synthesis-tasks-api-openapi.yml
-  format: yaml
-  label: Amazon Polly Synthesis Tasks API
-  slug: amazon-polly-synthesis-tasks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-synthesis-tasks-api-openapi.yml
 - filename: amazon-polly-operations-api-openapi.yml
   format: yaml
   label: Amazon Polly Polly Operations API
   slug: amazon-polly-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-operations-api-openapi.yml
+- filename: amazon-polly-synthesis-tasks-api-openapi.yml
+  format: yaml
+  label: Amazon Polly Synthesis Tasks API
+  slug: amazon-polly-synthesis-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-polly/openapi/amazon-polly-synthesis-tasks-api-openapi.yml
 description: ''
 domains:
 - caa: []

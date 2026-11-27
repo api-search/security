@@ -6,7 +6,7 @@ hosts_probed: 0
 kind: domain-security
 layout: security
 method: probed
-name: True And Co Domain Security
+name: True & Co Domain Security
 name_suffix: Domain Security
 overview: Domain security posture for True & Co, probed live across 0 host(s) and 0 registrable domain(s).
 provider_name: True & Co

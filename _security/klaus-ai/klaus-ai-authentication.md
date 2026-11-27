@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Klaus Ai Authentication
+name: Klaus AI Authentication
 name_suffix: Authentication
 oauth_flows:
 - deviceCode

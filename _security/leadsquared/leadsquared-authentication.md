@@ -29,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Leadsquared Authentication
+name: LeadSquared Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LeadSquared secures its APIs with apiKey across 5 declared security schemes, as derived from its OpenAPI definitions.

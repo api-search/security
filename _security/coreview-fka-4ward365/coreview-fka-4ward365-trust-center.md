@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Coreview Fka 4Ward365 Trust Center
+name: CoreView (FKA 4ward365) Trust Center
 name_suffix: Trust Center
 overview: CoreView (FKA 4ward365) maintains a public trust center documenting SOC 2, ISO 27001, ISO 27018, CIS, FedRAMP, IRAP, and GDPR compliance.
 provider_name: CoreView (FKA 4ward365)

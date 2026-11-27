@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aiurion Com Authentication
+name: Aiurion Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aiurion declares 0 security scheme(s) across its OpenAPI definitions.

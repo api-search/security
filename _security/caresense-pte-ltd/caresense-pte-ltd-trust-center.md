@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Caresense Pte Ltd Trust Center
+name: Caresense Trust Center
 name_suffix: Trust Center
 overview: Caresense maintains a public trust center covering its security and compliance posture.
 provider_name: Caresense

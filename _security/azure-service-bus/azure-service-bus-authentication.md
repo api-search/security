@@ -1,6 +1,7 @@
 ---
 anonymous_access: false
-api_key_in: []
+api_key_in:
+- header
 api_specs:
 - filename: azure-service-bus-namespaces-api-openapi.yml
   format: yaml
@@ -26,43 +27,100 @@ api_specs:
   slug: azure-service-bus-topics-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-topics-api-openapi.yml
-- filename: azure-service-bus-messages-api-openapi.yml
+- filename: azure-service-bus-armdisasterrecoveries-api-openapi.yml
   format: yaml
-  label: Azure Service Bus Messages API
-  slug: microsoft-azure-service-bus-messages-api
+  label: Azure Service Bus Arm Disaster Recoveries API
+  slug: azure-service-bus-armdisasterrecoveries-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-messages-api-openapi.yml
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-armdisasterrecoveries-api-openapi.yml
+- filename: azure-service-bus-disasterrecoveryconfigs-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Disaster Recovery Configs API
+  slug: azure-service-bus-disasterrecoveryconfigs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-disasterrecoveryconfigs-api-openapi.yml
+- filename: azure-service-bus-migrationconfigs-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Migration Configs API
+  slug: azure-service-bus-migrationconfigs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-migrationconfigs-api-openapi.yml
+- filename: azure-service-bus-namespaces-authorizationrule-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Namespaces AuthorizationRule API
+  slug: azure-service-bus-namespaces-authorizationrule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-namespaces-authorizationrule-api-openapi.yml
+- filename: azure-service-bus-networksecurityperimeterconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Network Security Perimeter Configurations API
+  slug: azure-service-bus-networksecurityperimeterconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-networksecurityperimeterconfigurations-api-openapi.yml
+- filename: azure-service-bus-operations-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Operations API
+  slug: azure-service-bus-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-operations-api-openapi.yml
+- filename: azure-service-bus-rules-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Rules API
+  slug: azure-service-bus-rules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-rules-api-openapi.yml
+- filename: azure-service-bus-private-endpoint-connections-api-openapi.yml
+  format: yaml
+  label: Azure Service Bus Private Endpoint Connections API
+  slug: azure-service-bus-private-endpoint-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-service-bus/openapi/azure-service-bus-private-endpoint-connections-api-openapi.yml
 auth_types:
+- apiKey
 - oauth2
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 1
+mechanism_count: 2
 method: derived
 name: Azure Service Bus Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
-overview: Azure Service Bus secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
+overview: Azure Service Bus secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the implicit flow(s).
 provider_name: Azure Service Bus
 provider_slug: azure-service-bus
-scheme_count: 1
+scheme_count: 2
 schemes:
-- flows:
+- description: Azure Active Directory OAuth2 Flow
+  flows:
   - authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize
     flow: implicit
     scopes: 1
   name: azure_auth
   sources:
-  - openapi/azure-service-bus-openapi.yml
+  - openapi/_superseded/azure-service-bus-data-plane-openapi.yml
+  - openapi/_superseded/azure-service-bus-namespaces-api-openapi.yml
+  - openapi/_superseded/azure-service-bus-queues-api-openapi.yml
+  - openapi/_superseded/azure-service-bus-resource-manager-openapi.yml
+  - openapi/_superseded/azure-service-bus-subscriptions-api-openapi.yml
+  - openapi/_superseded/azure-service-bus-topics-api-openapi.yml
   type: oauth2
+- description: SAS token in Authorization header
+  in: header
+  name: sasToken
+  parameter: Authorization
+  sources:
+  - openapi/_superseded/azure-service-bus-messages-api-openapi.yml
+  type: apiKey
 slug: azure-service-bus-authentication
 source_filename: azure-service-bus-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/azure-service-bus-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  sources:\n  - openapi/azure-service-bus-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/_superseded/azure-service-bus-data-plane-openapi.yml, openapi/_superseded/azure-service-bus-messages-api-openapi.yml,\n  openapi/_superseded/azure-service-bus-namespaces-api-openapi.yml, openapi/_superseded/azure-service-bus-queues-api-openapi.yml,\n  openapi/_superseded/azure-service-bus-resource-manager-openapi.yml, openapi/_superseded/azure-service-bus-subscriptions-api-openapi.yml,\n  openapi/_superseded/azure-service-bus-topics-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - header\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow\n  sources:\n  - openapi/_superseded/azure-service-bus-data-plane-openapi.yml\n  - openapi/_superseded/azure-service-bus-namespaces-api-openapi.yml\n  -\
+  \ openapi/_superseded/azure-service-bus-queues-api-openapi.yml\n  - openapi/_superseded/azure-service-bus-resource-manager-openapi.yml\n  - openapi/_superseded/azure-service-bus-subscriptions-api-openapi.yml\n  - openapi/_superseded/azure-service-bus-topics-api-openapi.yml\n- name: sasToken\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: SAS token in Authorization header\n  sources:\n  - openapi/_superseded/azure-service-bus-messages-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/azure-service-bus/authentication/azure-service-bus-authentication.yml
-summary_line: oauth2 · 1 scheme
+summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Microsoft Azure
 - Cloud

@@ -58,7 +58,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aws Elastic Beanstalk Trust Center
+name: AWS Elastic Beanstalk Trust Center
 name_suffix: Trust Center
 overview: AWS Elastic Beanstalk maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: AWS Elastic Beanstalk

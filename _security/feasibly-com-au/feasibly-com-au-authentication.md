@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Feasibly Com Au Authentication
+name: Feasibly Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Feasibly declares 2 security scheme(s) across its OpenAPI definitions.
@@ -44,7 +44,7 @@ summary_line: 2 schemes
 tags:
 - Company
 - Planning
-- RealEstate
-- DataAPI
+- Real Estate
+- Data API
 - Australia
 ---

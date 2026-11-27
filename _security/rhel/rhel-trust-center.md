@@ -38,7 +38,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Rhel Trust Center
+name: Red Hat Enterprise Linux Trust Center
 name_suffix: Trust Center
 overview: Red Hat Enterprise Linux maintains a public trust center documenting ISO 27001, ISO 27018, and HIPAA compliance.
 provider_name: Red Hat Enterprise Linux

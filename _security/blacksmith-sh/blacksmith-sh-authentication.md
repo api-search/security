@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Blacksmith Sh Authentication
+name: Blacksmith Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

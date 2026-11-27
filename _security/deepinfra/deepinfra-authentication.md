@@ -8,24 +8,12 @@ api_specs:
   slug: deepinfra-audio-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-audio-api-openapi.yml
-- filename: deepinfra-completions-api-openapi.yml
-  format: yaml
-  label: DeepInfra Completions API
-  slug: deepinfra-completions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-completions-api-openapi.yml
 - filename: deepinfra-embeddings-api-openapi.yml
   format: yaml
   label: DeepInfra Embeddings API
   slug: deepinfra-embeddings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-embeddings-api-openapi.yml
-- filename: deepinfra-images-api-openapi.yml
-  format: yaml
-  label: DeepInfra Images API
-  slug: deepinfra-images-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/deepinfra/openapi/deepinfra-images-api-openapi.yml
 - filename: deepinfra-models-api-openapi.yml
   format: yaml
   label: DeepInfra Models API
@@ -159,7 +147,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Deepinfra Authentication
+name: DeepInfra Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DeepInfra secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

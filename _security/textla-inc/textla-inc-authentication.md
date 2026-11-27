@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Textla Inc Authentication
+name: Textla Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Textla declares 0 security scheme(s) across its OpenAPI definitions.

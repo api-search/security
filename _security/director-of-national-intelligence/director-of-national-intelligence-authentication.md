@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Director Of National Intelligence Authentication
+name: Director of National Intelligence Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Director of National Intelligence secures its APIs with none across 0 declared security schemes, as derived from its OpenAPI definitions.

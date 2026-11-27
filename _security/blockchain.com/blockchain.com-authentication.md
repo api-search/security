@@ -125,7 +125,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Blockchain.Com Authentication
+name: Blockchain.com Authentication
 name_suffix: Authentication
 oauth_flows:
 - bearer token (authorization endpoints not publicly documented)

@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Madethis Authentication
+name: MadeThis Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

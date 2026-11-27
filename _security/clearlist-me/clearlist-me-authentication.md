@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Clearlist Me Authentication
+name: ClearList Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ClearList declares 3 security scheme(s) across its OpenAPI definitions.

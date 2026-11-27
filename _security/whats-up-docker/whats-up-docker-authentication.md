@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Whats Up Docker Authentication
+name: What's Up Docker Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: What's Up Docker declares 0 security scheme(s) across its OpenAPI definitions.

@@ -31,7 +31,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Mcgill Authentication
+name: McGill University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: McGill University secures its APIs with saml and none across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Reamaze Authentication
+name: Re:amaze Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Re:amaze declares 0 security scheme(s) across its OpenAPI definitions.

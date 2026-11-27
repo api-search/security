@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Mud Wtr Authentication
+name: Mud\Wtr Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Mud\Wtr declares 0 security scheme(s) across its OpenAPI definitions.

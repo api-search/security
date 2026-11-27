@@ -49,7 +49,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fingoal Trust Center
+name: FinGoal Trust Center
 name_suffix: Trust Center
 overview: FinGoal maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
 provider_name: FinGoal

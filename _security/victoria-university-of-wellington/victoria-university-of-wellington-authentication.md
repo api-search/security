@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Victoria University Of Wellington Authentication
+name: Victoria University of Wellington Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Victoria University of Wellington declares 0 security scheme(s) across its OpenAPI definitions.

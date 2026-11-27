@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 7Ai Trust Center
+name: 7AI Trust Center
 name_suffix: Trust Center
 overview: 7AI maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: 7AI

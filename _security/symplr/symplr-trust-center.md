@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Symplr Trust Center
+name: symplr Trust Center
 name_suffix: Trust Center
 overview: symplr maintains a public trust center documenting ISO 27001:2022, HITRUST, SOC 2 Type II, SOC 1 Type II, HIPAA, and NIST compliance.
 provider_name: symplr

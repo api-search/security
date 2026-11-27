@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Walkme Trust Center
+name: WalkMe Trust Center
 name_suffix: Trust Center
 overview: WalkMe maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, CSA STAR, and FIPS 140 compliance.
 provider_name: WalkMe

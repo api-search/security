@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Scanverity Resolution Api Authentication
+name: Scanverity Resolution API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Scanverity Resolution API declares 1 security scheme(s) across its OpenAPI definitions.
@@ -72,5 +72,4 @@ tags:
 - Risk Analytics
 - Polymarket
 - Event Contracts
-- Agent Ready
 ---

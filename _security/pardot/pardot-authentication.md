@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Pardot Authentication
+name: Salesforce Marketing Cloud Account Engagement (Pardot) Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

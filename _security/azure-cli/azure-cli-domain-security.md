@@ -19,7 +19,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Azure Cli Domain Security
+name: Azure CLI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure CLI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Azure CLI
@@ -34,4 +34,9 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Cloud Provider CLI
 - Command Line Interface
+- Microsoft Azure
+- Microsoft
+- Open Source
+- Python
+- DevOps
 ---

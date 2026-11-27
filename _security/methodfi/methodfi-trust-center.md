@@ -271,7 +271,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Methodfi Trust Center
+name: Method Financial Trust Center
 name_suffix: Trust Center
 overview: Method Financial maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: Method Financial

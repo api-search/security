@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Subotiz Com Authentication
+name: subotiz-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: subotiz-com declares 1 security scheme(s) across its OpenAPI definitions.

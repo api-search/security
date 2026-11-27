@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Cortexcloud Org Authentication
+name: cortexcloud-org Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: cortexcloud-org declares 0 security scheme(s) across its OpenAPI definitions.

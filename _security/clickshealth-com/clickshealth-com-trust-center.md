@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Clickshealth Com Trust Center
+name: Clicks Trust Center
 name_suffix: Trust Center
 overview: Clicks maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Clicks

@@ -48,7 +48,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Edfapay Inc Trust Center
+name: EdfaPay Trust Center
 name_suffix: Trust Center
 overview: EdfaPay maintains a public trust center documenting PCI DSS compliance.
 provider_name: EdfaPay

@@ -81,7 +81,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Qualified Com Authentication
+name: Qualified Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Qualified secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

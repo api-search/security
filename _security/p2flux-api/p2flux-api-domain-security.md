@@ -65,7 +65,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: P2Flux Api Domain Security
+name: P2Flux API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for P2Flux API, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: P2Flux API

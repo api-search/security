@@ -237,7 +237,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Textql Trust Center
+name: TextQL Trust Center
 name_suffix: Trust Center
 overview: TextQL maintains a public trust center documenting SOC 2 Type II, HIPAA, GDPR, and SOX compliance.
 provider_name: TextQL

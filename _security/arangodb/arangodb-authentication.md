@@ -143,7 +143,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Arangodb Authentication
+name: ArangoDB Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ArangoDB secures its APIs with http and apiKey across 0 declared security schemes, as derived from its OpenAPI definitions.

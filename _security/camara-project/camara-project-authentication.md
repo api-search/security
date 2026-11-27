@@ -136,7 +136,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Camara Project Authentication
+name: CAMARA Project Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CAMARA Project secures its APIs with http and openIdConnect across 2 declared security schemes, as derived from its OpenAPI definitions.

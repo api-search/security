@@ -36,7 +36,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Microsoft Quantum Trust Center
+name: Microsoft Azure Quantum Trust Center
 name_suffix: Trust Center
 overview: Microsoft Azure Quantum maintains a public trust center documenting GDPR compliance.
 provider_name: Microsoft Azure Quantum

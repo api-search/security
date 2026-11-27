@@ -1,35 +1,65 @@
 ---
 api_specs:
+- filename: datafiniti-properties-api-openapi.yml
+  format: yaml
+  label: Datafiniti Property Data API
+  slug: property-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-properties-api-openapi.yml
+- filename: datafiniti-people-api-openapi.yml
+  format: yaml
+  label: Datafiniti People Data API
+  slug: people-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-people-api-openapi.yml
+- filename: datafiniti-businesses-api-openapi.yml
+  format: yaml
+  label: Datafiniti Business Data API
+  slug: business-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-businesses-api-openapi.yml
+- filename: datafiniti-products-api-openapi.yml
+  format: yaml
+  label: Datafiniti Product Data API
+  slug: product-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-products-api-openapi.yml
+- filename: datafiniti-downloads-api-openapi.yml
+  format: yaml
+  label: Datafiniti Downloads API
+  slug: downloads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-downloads-api-openapi.yml
+- filename: datafiniti-views-api-openapi.yml
+  format: yaml
+  label: Datafiniti Views API
+  slug: views-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-views-api-openapi.yml
+- filename: datafiniti-real-time-data-requests-api-openapi.yml
+  format: yaml
+  label: Datafiniti Real-time Data Requests API
+  slug: real-time-data-requests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-real-time-data-requests-api-openapi.yml
 - filename: datafiniti-authentication-api-openapi.yml
   format: yaml
   label: Datafiniti Authentication API
   slug: datafiniti-authentication-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-authentication-api-openapi.yml
-- filename: datafiniti-businesses-api-openapi.yml
+- filename: datafiniti-account-api-openapi.yml
   format: yaml
-  label: Datafiniti Businesses API
-  slug: datafiniti-businesses-api
+  label: Datafiniti Account API
+  slug: account-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-businesses-api-openapi.yml
-- filename: datafiniti-people-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-account-api-openapi.yml
+- filename: datafiniti-status-api-openapi.yml
   format: yaml
-  label: Datafiniti People API
-  slug: datafiniti-people-api
+  label: Datafiniti Status API
+  slug: status-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-people-api-openapi.yml
-- filename: datafiniti-products-api-openapi.yml
-  format: yaml
-  label: Datafiniti Products API
-  slug: datafiniti-products-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-products-api-openapi.yml
-- filename: datafiniti-properties-api-openapi.yml
-  format: yaml
-  label: Datafiniti Properties API
-  slug: datafiniti-properties-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-properties-api-openapi.yml
+  url: https://artifacts.apis.io/datafiniti/openapi/datafiniti-status-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -76,7 +106,10 @@ tags:
 - Business Data
 - Data Aggregation
 - Data as a Service
+- Data Enrichment
+- MCP
 - People Data
 - Product Data
 - Property Data
+- Real Estate
 ---

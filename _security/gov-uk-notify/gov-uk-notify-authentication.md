@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Gov Uk Notify Authentication
+name: GOV.UK Notify Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GOV.UK Notify secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

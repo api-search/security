@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Asterwise Com Authentication
+name: asterwise-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: asterwise-com declares 1 security scheme(s) across its OpenAPI definitions.

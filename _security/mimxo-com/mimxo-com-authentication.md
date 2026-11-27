@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Mimxo Com Authentication
+name: mimxo-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: mimxo-com declares 1 security scheme(s) across its OpenAPI definitions.

@@ -73,7 +73,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Smsapi Trust Center
+name: SMSAPI Trust Center
 name_suffix: Trust Center
 overview: SMSAPI maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: SMSAPI

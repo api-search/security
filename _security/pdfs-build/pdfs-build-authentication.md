@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Pdfs Build Authentication
+name: pdfs-build Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: pdfs-build declares 1 security scheme(s) across its OpenAPI definitions.

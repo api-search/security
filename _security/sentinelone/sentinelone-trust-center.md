@@ -18,7 +18,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sentinelone Trust Center
+name: SentinelOne Trust Center
 name_suffix: Trust Center
 overview: SentinelOne maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, FedRAMP, and GDPR compliance.
 provider_name: SentinelOne

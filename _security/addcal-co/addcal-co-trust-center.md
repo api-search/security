@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Addcal Co Trust Center
+name: AddCal Trust Center
 name_suffix: Trust Center
 overview: AddCal maintains a public trust center documenting SOC 2, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: AddCal

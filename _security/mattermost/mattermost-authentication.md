@@ -7,7 +7,7 @@ api_specs:
   label: Mattermost WebSocket API
   slug: websocket-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/asyncapi/mattermost-asyncapi.yml
+  url: https://artifacts.apis.io/mattermost/asyncapi/mattermost-asyncapi.yml
 - filename: mattermost-channels-api-openapi.yml
   format: yaml
   label: Mattermost Channels API

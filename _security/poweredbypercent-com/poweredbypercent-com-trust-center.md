@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Poweredbypercent Com Trust Center
+name: Percent Trust Center
 name_suffix: Trust Center
 overview: Percent maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: Percent

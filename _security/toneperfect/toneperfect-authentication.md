@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Toneperfect Authentication
+name: TonePerfect (Pronunciation Assessment API) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TonePerfect (Pronunciation Assessment API) declares 1 security scheme(s) across its OpenAPI definitions.

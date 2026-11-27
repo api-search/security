@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Ccc Intelligent Solutions Authentication
+name: CCC Intelligent Solutions Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

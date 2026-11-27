@@ -31,6 +31,12 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/kaggle/security/kaggle-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
+- CLI
+- Competitions
+- Data Science
+- Datasets
+- MCP
+- Machine Learning
 - Open Data
 - Public APIs
 ---

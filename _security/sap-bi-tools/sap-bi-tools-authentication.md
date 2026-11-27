@@ -107,7 +107,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Sap Bi Tools Authentication
+name: SAP BI Tools Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

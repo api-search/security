@@ -381,7 +381,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Runai Authentication
+name: NVIDIA Run:ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NVIDIA Run:ai secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -69,7 +69,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Td Synnex Authentication
+name: TD SYNNEX Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

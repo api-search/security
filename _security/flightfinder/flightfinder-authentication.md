@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Flightfinder Authentication
+name: FlightFinder Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FlightFinder secures its APIs with http and none across 2 declared security schemes, as derived from its OpenAPI definitions.
@@ -114,5 +114,4 @@ tags:
 - Government Data
 - Research
 - Reference Data
-- Agent Ready
 ---

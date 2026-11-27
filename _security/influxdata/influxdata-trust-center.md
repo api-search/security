@@ -278,7 +278,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Influxdata Trust Center
+name: InfluxData Trust Center
 name_suffix: Trust Center
 overview: InfluxData maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001, and ISO/IEC 27018 compliance.
 provider_name: InfluxData

@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Transcriptapi Io Authentication
+name: transcriptapi-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: transcriptapi-io declares 1 security scheme(s) across its OpenAPI definitions.

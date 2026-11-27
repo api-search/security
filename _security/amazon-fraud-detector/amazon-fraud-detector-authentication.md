@@ -126,18 +126,37 @@ provider_name: Amazon Fraud Detector
 provider_slug: amazon-fraud-detector
 scheme_count: 1
 schemes:
-- description: AWS Signature Version 4
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: awsSigV4
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-fraud-detector-openapi.yml
+  - openapi/amazon-fraud-detector-batch-import-job-api-openapi.yml
+  - openapi/amazon-fraud-detector-batch-prediction-job-api-openapi.yml
+  - openapi/amazon-fraud-detector-detector-version-api-openapi.yml
+  - openapi/amazon-fraud-detector-detectors-api-openapi.yml
+  - openapi/amazon-fraud-detector-entity-type-api-openapi.yml
+  - openapi/amazon-fraud-detector-event-api-openapi.yml
+  - openapi/amazon-fraud-detector-event-types-api-openapi.yml
+  - openapi/amazon-fraud-detector-external-model-api-openapi.yml
+  - openapi/amazon-fraud-detector-labels-api-openapi.yml
+  - openapi/amazon-fraud-detector-list-api-openapi.yml
+  - openapi/amazon-fraud-detector-model-version-api-openapi.yml
+  - openapi/amazon-fraud-detector-models-api-openapi.yml
+  - openapi/amazon-fraud-detector-operations-api-openapi.yml
+  - openapi/amazon-fraud-detector-outcome-api-openapi.yml
+  - openapi/amazon-fraud-detector-predictions-api-openapi.yml
+  - openapi/amazon-fraud-detector-rules-api-openapi.yml
+  - openapi/amazon-fraud-detector-tags-api-openapi.yml
+  - openapi/amazon-fraud-detector-variable-api-openapi.yml
   type: apiKey
 slug: amazon-fraud-detector-authentication
 source_filename: amazon-fraud-detector-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-fraud-detector-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSigV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4\n  sources:\n  - openapi/amazon-fraud-detector-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-fraud-detector-batch-import-job-api-openapi.yml, openapi/amazon-fraud-detector-batch-prediction-job-api-openapi.yml,\n  openapi/amazon-fraud-detector-detector-version-api-openapi.yml, openapi/amazon-fraud-detector-detectors-api-openapi.yml,\n  openapi/amazon-fraud-detector-entity-type-api-openapi.yml, openapi/amazon-fraud-detector-event-api-openapi.yml,\n  openapi/amazon-fraud-detector-event-types-api-openapi.yml, openapi/amazon-fraud-detector-external-model-api-openapi.yml,\n  openapi/amazon-fraud-detector-labels-api-openapi.yml, openapi/amazon-fraud-detector-list-api-openapi.yml,\n  openapi/amazon-fraud-detector-model-version-api-openapi.yml, openapi/amazon-fraud-detector-models-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries\
+  \ an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-fraud-detector-batch-import-job-api-openapi.yml\n  - openapi/amazon-fraud-detector-batch-prediction-job-api-openapi.yml\n  - openapi/amazon-fraud-detector-detector-version-api-openapi.yml\n  - openapi/amazon-fraud-detector-detectors-api-openapi.yml\n  - openapi/amazon-fraud-detector-entity-type-api-openapi.yml\n  - openapi/amazon-fraud-detector-event-api-openapi.yml\n  - openapi/amazon-fraud-detector-event-types-api-openapi.yml\n  - openapi/amazon-fraud-detector-external-model-api-openapi.yml\n  - openapi/amazon-fraud-detector-labels-api-openapi.yml\n  - openapi/amazon-fraud-detector-list-api-openapi.yml\n  - openapi/amazon-fraud-detector-model-version-api-openapi.yml\n  - openapi/amazon-fraud-detector-models-api-openapi.yml\n  - openapi/amazon-fraud-detector-operations-api-openapi.yml\n  - openapi/amazon-fraud-detector-outcome-api-openapi.yml\n\
+  \  - openapi/amazon-fraud-detector-predictions-api-openapi.yml\n  - openapi/amazon-fraud-detector-rules-api-openapi.yml\n  - openapi/amazon-fraud-detector-tags-api-openapi.yml\n  - openapi/amazon-fraud-detector-variable-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-fraud-detector/authentication/amazon-fraud-detector-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

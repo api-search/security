@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Slxd App Authentication
+name: slxd-app Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: slxd-app declares 0 security scheme(s) across its OpenAPI definitions.

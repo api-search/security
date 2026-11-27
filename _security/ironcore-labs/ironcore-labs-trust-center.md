@@ -36,7 +36,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ironcore Labs Trust Center
+name: IronCore Labs Trust Center
 name_suffix: Trust Center
 overview: IronCore Labs maintains a public trust center documenting SOC 2 compliance.
 provider_name: IronCore Labs

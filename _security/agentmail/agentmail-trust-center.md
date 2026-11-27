@@ -168,6 +168,12 @@ api_specs:
   slug: agentmail-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agentmail/openapi/agentmail-webhooks-api-openapi.yml
+- filename: agentmail-api-reference-api-openapi.yml
+  format: yaml
+  label: AgentMail API Reference API
+  slug: agentmail-api-reference-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/agentmail/openapi/agentmail-api-reference-api-openapi.yml
 - filename: agentmail-accounts-api-openapi.yml
   format: yaml
   label: AgentMail Accounts API
@@ -229,7 +235,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agentmail Trust Center
+name: AgentMail Trust Center
 name_suffix: Trust Center
 overview: AgentMail maintains a public trust center documenting SOC 2 Type I and SOC 2 Type II compliance.
 provider_name: AgentMail

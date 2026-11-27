@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Rsa Insurance Authentication
+name: RSA Insurance Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RSA Insurance declares 4 security scheme(s) across its OpenAPI definitions.

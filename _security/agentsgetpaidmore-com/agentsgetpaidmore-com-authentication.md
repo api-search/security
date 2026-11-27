@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentsgetpaidmore Com Authentication
+name: Agents Get Paid More Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agents Get Paid More declares 0 security scheme(s) across its OpenAPI definitions.

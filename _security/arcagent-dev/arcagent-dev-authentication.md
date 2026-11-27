@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Arcagent Dev Authentication
+name: ArcAgent Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ArcAgent declares 1 security scheme(s) across its OpenAPI definitions.

@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: University Of Auckland Authentication
+name: University of Auckland Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -38,7 +38,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Prophecyio Trust Center
+name: Prophecy.io Trust Center
 name_suffix: Trust Center
 overview: Prophecy.io maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Prophecy.io

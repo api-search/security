@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Callminer Trust Center
+name: CallMiner Trust Center
 name_suffix: Trust Center
 overview: CallMiner maintains a public trust center documenting SOC 2 Type II, ISO/IEC 27001:2022, HITRUST CSF, FISMA, PCI DSS, and HIPAA compliance.
 provider_name: CallMiner

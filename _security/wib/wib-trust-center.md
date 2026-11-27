@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Wib Trust Center
+name: Wenspiredata Trust Center
 name_suffix: Trust Center
 overview: Wenspiredata maintains a public trust center documenting GDPR compliance.
 provider_name: Wenspiredata

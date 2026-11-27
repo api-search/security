@@ -45,7 +45,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Administration For Native Americans Ana  Domain Security
+name: Administration for Native Americans (ANA) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Administration for Native Americans (ANA), probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Administration for Native Americans (ANA)

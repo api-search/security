@@ -95,7 +95,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Solo Io Trust Center
+name: Solo.io Trust Center
 name_suffix: Trust Center
 overview: Solo.io maintains a public trust center covering its security and compliance posture.
 provider_name: Solo.io

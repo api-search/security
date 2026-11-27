@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Hermai Authentication
+name: Hermai Brand API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hermai Brand API declares 1 security scheme(s) across its OpenAPI definitions.

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Praxislabs Trust Center
+name: Praxis Labs Trust Center
 name_suffix: Trust Center
 overview: Praxis Labs maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: Praxis Labs

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Pindropsecurity Com Authentication
+name: Pindrop Security Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Pindrop Security declares 0 security scheme(s) across its OpenAPI definitions.

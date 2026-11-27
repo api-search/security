@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Abyssfallgame Com Authentication
+name: Shark Byte Media Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Shark Byte Media declares 0 security scheme(s) across its OpenAPI definitions.

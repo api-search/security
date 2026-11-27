@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aventuro Io Authentication
+name: Aventuro Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aventuro declares 0 security scheme(s) across its OpenAPI definitions.
@@ -33,5 +33,5 @@ tags:
 - Mapping
 - Trip Planning
 - Accessibility
-- FamilyFriendly
+- Family Friendly
 ---

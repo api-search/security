@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bswift Trust Center
+name: bswift Trust Center
 name_suffix: Trust Center
 overview: bswift maintains a public trust center documenting SOC 1 Type II, SOC 2 Type II, SOC 3, HIPAA, and HITRUST compliance.
 provider_name: bswift

@@ -1,23 +1,5 @@
 ---
 api_specs:
-- filename: adobe-premiere-elements-api-openapi.yml
-  format: yaml
-  label: Adobe Premiere Pro Elements API
-  slug: adobe-premiere-elements-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-elements-api-openapi.yml
-- filename: adobe-premiere-libraries-api-openapi.yml
-  format: yaml
-  label: Adobe Premiere Pro Libraries API
-  slug: adobe-premiere-libraries-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-libraries-api-openapi.yml
-- filename: adobe-premiere-representations-api-openapi.yml
-  format: yaml
-  label: Adobe Premiere Pro Representations API
-  slug: adobe-premiere-representations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/adobe-premiere/openapi/adobe-premiere-representations-api-openapi.yml
 - filename: adobe-premiere-library-service-api-openapi.yml
   format: yaml
   label: Adobe Premiere Pro Library Service API
@@ -71,7 +53,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Adobe Premiere Domain Security
+name: Adobe Premiere Pro Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Adobe Premiere Pro, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Adobe Premiere Pro

@@ -261,7 +261,7 @@ certifications:
 description: ZoomInfo's published security and compliance posture. Certifications are quoted from ZoomInfo's own public security page; the branded trust center itself is bot-protected and could not be read.
 kind: trust-center
 layout: security
-name: Zoominfo Trust Center
+name: ZoomInfo Trust Center
 name_suffix: Trust Center
 overview: ZoomInfo maintains a public trust center documenting ISO/IEC 27001, ISO/IEC 27701, SOC 2 Type II, and TRUSTe compliance.
 provider_name: ZoomInfo

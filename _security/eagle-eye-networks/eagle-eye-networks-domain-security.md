@@ -330,5 +330,6 @@ tags:
 - License Plate Recognition
 - Streaming
 - Webhook
+- OAuth
 - Authentication
 ---

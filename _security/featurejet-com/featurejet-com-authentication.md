@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Featurejet Com Authentication
+name: FeatureJet Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FeatureJet declares 1 security scheme(s) across its OpenAPI definitions.
@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/featurejet-com/authentication/feature
 summary_line: 1 scheme
 tags:
 - Feedback board
-- AI agents
-- Roadmap
-- SaaS
+- AI Agents
+- Roadmaps
+- Software-as-a-Service
 ---

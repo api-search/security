@@ -54,6 +54,18 @@ api_specs:
   slug: amazon-documentdb-tag-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-tag-api-openapi.yml
+- filename: amazon-documentdb-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Cluster API
+  slug: amazon-documentdb-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-cluster-api-openapi.yml
+- filename: amazon-documentdb-cluster-snapshot-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Cluster Snapshot API
+  slug: amazon-documentdb-cluster-snapshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-cluster-snapshot-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -85,7 +97,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Documentdb Domain Security
+name: Amazon DocumentDB Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon DocumentDB, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon DocumentDB

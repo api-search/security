@@ -231,7 +231,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Mux Com Authentication
+name: Mux Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Mux secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

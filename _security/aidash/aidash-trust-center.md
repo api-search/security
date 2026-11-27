@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aidash Trust Center
+name: AiDASH Trust Center
 name_suffix: Trust Center
 overview: AiDASH maintains a public trust center documenting SOC 2, SOC 3, and CSA STAR Level 1 compliance.
 provider_name: AiDASH

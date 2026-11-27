@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Melodyarc Trust Center
+name: MelodyArc Trust Center
 name_suffix: Trust Center
 overview: MelodyArc maintains a public trust center documenting SOC 2 Type 2 and HIPAA compliance.
 provider_name: MelodyArc

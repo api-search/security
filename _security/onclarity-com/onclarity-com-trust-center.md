@@ -614,7 +614,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Onclarity Com Trust Center
+name: Clarity Trust Center
 name_suffix: Trust Center
 overview: Clarity maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Clarity

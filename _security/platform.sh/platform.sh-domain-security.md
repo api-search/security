@@ -418,7 +418,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Platform.Sh Domain Security
+name: Platform.sh Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Platform.sh, probed live across 5 host(s) and 2 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 5 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: Platform.sh

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Immobiliare Authentication
+name: Immobiliare.it Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Immobiliare.it declares 1 security scheme(s) across its OpenAPI definitions.

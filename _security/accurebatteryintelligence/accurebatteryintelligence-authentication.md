@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Accurebatteryintelligence Authentication
+name: ACCURE Battery Intelligence Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ACCURE Battery Intelligence declares 1 security scheme(s) across its OpenAPI definitions.

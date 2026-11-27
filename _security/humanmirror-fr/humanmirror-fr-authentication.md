@@ -318,7 +318,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Humanmirror Fr Authentication
+name: HumanMirror Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HumanMirror secures its APIs with http bearer (per-product prefixed API keys), apiKey in header (X-API-Key, HumanMirror Pro), x402 payment signature (PAYMENT-SIGNATURE header, not an OpenAPI securityScheme), and none (discovery, quotes, verification, Magnet, MCP tools/list) across 11 declared security schemes, as derived from its OpenAPI definitions.

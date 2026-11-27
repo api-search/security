@@ -20,7 +20,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: B Well Trust Center
+name: b.well Trust Center
 name_suffix: Trust Center
 overview: b.well maintains a public trust center documenting HITRUST, NIST Cybersecurity Framework (CSF), and HIPAA compliance.
 provider_name: b.well

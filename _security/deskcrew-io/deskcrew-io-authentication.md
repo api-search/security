@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Deskcrew Io Authentication
+name: DeskCrew Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DeskCrew declares 2 security scheme(s) across its OpenAPI definitions.

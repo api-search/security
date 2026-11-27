@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Rigetti Authentication
+name: Rigetti Computing Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Rigetti Computing secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

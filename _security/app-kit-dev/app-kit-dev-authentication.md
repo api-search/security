@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: App Kit Dev Authentication
+name: app-kit-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: app-kit-dev declares 0 security scheme(s) across its OpenAPI definitions.

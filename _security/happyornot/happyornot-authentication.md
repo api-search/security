@@ -137,7 +137,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Happyornot Authentication
+name: HappyOrNot Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HappyOrNot secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

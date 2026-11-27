@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Imagetyperz Authentication
+name: ImageTyperz Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ImageTyperz declares 0 security scheme(s) across its OpenAPI definitions.

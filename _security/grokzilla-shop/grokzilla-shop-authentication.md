@@ -146,7 +146,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Grokzilla Shop Authentication
+name: grokzilla-shop Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: grokzilla-shop declares 1 security scheme(s) across its OpenAPI definitions.
@@ -172,6 +172,6 @@ tags:
 - Pay-per-call APIs
 - AI Agents
 - Microservices
-- SEO tools
+- SEO Tools
 - OSINT
 ---

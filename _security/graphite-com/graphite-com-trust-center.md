@@ -30,7 +30,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Graphite Com Trust Center
+name: Graphite Trust Center
 name_suffix: Trust Center
 overview: Graphite maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: Graphite
@@ -47,7 +47,7 @@ summary_line: SOC 2 Type II
 tags:
 - Code Review
 - Stacked PRs
-- Merge Queue
+- merge-queue
 - AI Code Review
 - Developer Tools
 - GitHub

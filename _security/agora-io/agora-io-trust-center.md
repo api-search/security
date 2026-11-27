@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Agora Io Trust Center
+name: Agora Trust Center
 name_suffix: Trust Center
 overview: Agora maintains a public trust center documenting SOC 2, ISO 27017, and ISO 27018 compliance.
 provider_name: Agora

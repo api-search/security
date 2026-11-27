@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aviationhs Org Authentication
+name: AviationHS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AviationHS declares 1 security scheme(s) across its OpenAPI definitions.
@@ -48,6 +48,6 @@ tags:
 - Private-Jet
 - Charter
 - Aviation
-- quote-engine
+- QuoteEngine
 - MCP
 ---

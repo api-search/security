@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Filltrust Com Authentication
+name: FillTrust Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FillTrust declares 1 security scheme(s) across its OpenAPI definitions.
@@ -41,6 +41,6 @@ tags:
 - Trust Center
 - SOC 2
 - CAIQ
-- Model Context Protocol
+- MCP
 - AI Drafting
 ---

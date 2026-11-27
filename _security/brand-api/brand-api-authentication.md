@@ -43,7 +43,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Brand Api Authentication
+name: Brand API (Brandfetch) Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

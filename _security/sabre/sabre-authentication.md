@@ -33,11 +33,11 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Sabre Authentication
+name: Sabre Corporation Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: Sabre secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
-provider_name: Sabre
+overview: Sabre Corporation secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
+provider_name: Sabre Corporation
 provider_slug: sabre
 scheme_count: 1
 schemes:

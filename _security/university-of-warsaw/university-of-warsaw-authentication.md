@@ -866,7 +866,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: University Of Warsaw Authentication
+name: University of Warsaw Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Warsaw secures its APIs with apiKey, oauth1a, bearer, and saml across 4 declared security schemes, as derived from its OpenAPI definitions.

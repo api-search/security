@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Slate Hq Uk Authentication
+name: slate-hq-uk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: slate-hq-uk declares 0 security scheme(s) across its OpenAPI definitions.

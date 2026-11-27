@@ -183,7 +183,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Thoughtspot Trust Center
+name: ThoughtSpot Trust Center
 name_suffix: Trust Center
 overview: ThoughtSpot maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: ThoughtSpot

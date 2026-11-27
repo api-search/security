@@ -96,7 +96,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Payu Trust Center
+name: PayU Trust Center
 name_suffix: Trust Center
 overview: PayU maintains a public trust center documenting PCI DSS compliance.
 provider_name: PayU

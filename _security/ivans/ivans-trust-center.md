@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: ivans-agencies-api-openapi.yml
-  format: yaml
-  label: IVANS Agencies API
-  slug: ivans-agencies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/ivans/openapi/ivans-agencies-api-openapi.yml
 - filename: ivans-agents-api-openapi.yml
   format: yaml
   label: IVANS Agents API
@@ -492,6 +486,12 @@ api_specs:
   slug: ivans-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/ivans/openapi/ivans-webhooks-api-openapi.yml
+- filename: ivans-agencies-api-openapi.yml
+  format: yaml
+  label: IVANS Agencies API
+  slug: ivans-agencies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-agencies-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -500,7 +500,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ivans Trust Center
+name: IVANS Trust Center
 name_suffix: Trust Center
 overview: IVANS maintains a public trust center documenting SOC 2, ISO 27001, and CSA STAR compliance.
 provider_name: IVANS

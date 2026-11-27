@@ -116,7 +116,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Anchor X402 Authentication
+name: anchor-x402 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: anchor-x402 declares 2 security scheme(s) across its OpenAPI definitions.

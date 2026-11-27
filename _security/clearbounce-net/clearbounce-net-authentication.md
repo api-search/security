@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Clearbounce Net Authentication
+name: ClearBounce Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ClearBounce declares 1 security scheme(s) across its OpenAPI definitions.
@@ -41,5 +41,4 @@ tags:
 - Form Validation
 - Deliverability
 - Marketing Tools
-- Enterprise Solutions
 ---

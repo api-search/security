@@ -113,7 +113,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Ppro Trust Center
+name: PPRO Trust Center
 name_suffix: Trust Center
 overview: PPRO maintains a public trust center covering its security and compliance posture.
 provider_name: PPRO

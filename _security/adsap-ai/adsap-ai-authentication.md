@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Adsap Ai Authentication
+name: Adsap Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Adsap declares 0 security scheme(s) across its OpenAPI definitions.

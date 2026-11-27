@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Avatarfactory Io Authentication
+name: Avatar Factory Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Avatar Factory declares 0 security scheme(s) across its OpenAPI definitions.

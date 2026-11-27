@@ -308,7 +308,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Elevenlabs Trust Center
+name: ElevenLabs Trust Center
 name_suffix: Trust Center
 overview: ElevenLabs maintains a public trust center documenting SOC 2, ISO 27001, and HIPAA compliance.
 provider_name: ElevenLabs

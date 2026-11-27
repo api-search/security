@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Instacash Pe Trust Center
+name: PreAuth (Instacash) Trust Center
 name_suffix: Trust Center
 overview: PreAuth (Instacash) maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: PreAuth (Instacash)

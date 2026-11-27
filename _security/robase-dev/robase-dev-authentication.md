@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Robase Dev Authentication
+name: robase-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: robase-dev declares 1 security scheme(s) across its OpenAPI definitions.

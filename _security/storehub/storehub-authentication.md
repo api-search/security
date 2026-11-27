@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Storehub Authentication
+name: StoreHub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: StoreHub secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Relationalai Authentication
+name: RelationalAI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RelationalAI secures its APIs with snowflake-connection across 1 declared security scheme, as derived from its OpenAPI definitions.

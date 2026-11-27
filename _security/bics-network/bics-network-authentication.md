@@ -140,7 +140,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: ''
-name: Bics Network Authentication
+name: BICS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BICS declares 0 security scheme(s) across its OpenAPI definitions.

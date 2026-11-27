@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Adadiamonds Com Authentication
+name: Ada Diamonds Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ada Diamonds declares 2 security scheme(s) across its OpenAPI definitions.

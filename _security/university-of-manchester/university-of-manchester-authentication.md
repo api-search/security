@@ -238,7 +238,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: University Of Manchester Authentication
+name: University of Manchester Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Manchester secures its APIs with saml2 and none across 2 declared security schemes, as derived from its OpenAPI definitions.

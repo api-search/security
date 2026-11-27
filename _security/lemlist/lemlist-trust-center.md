@@ -132,7 +132,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lemlist Trust Center
+name: lemlist Trust Center
 name_suffix: Trust Center
 overview: lemlist maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: lemlist

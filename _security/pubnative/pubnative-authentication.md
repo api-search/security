@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Pubnative Authentication
+name: PubNative Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PubNative declares 0 security scheme(s) across its OpenAPI definitions.

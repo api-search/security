@@ -66,6 +66,24 @@ api_specs:
   slug: amazon-msk-vpc-connection-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-vpc-connection-api-openapi.yml
+- filename: amazon-msk-connectors-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Connectors API
+  slug: amazon-msk-connectors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-connectors-api-openapi.yml
+- filename: amazon-msk-custom-plugins-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Custom Plugins API
+  slug: amazon-msk-custom-plugins-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-custom-plugins-api-openapi.yml
+- filename: amazon-msk-worker-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon MSK Msk Worker Configurations API
+  slug: amazon-msk-worker-configurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-msk/openapi/amazon-msk-worker-configurations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -76,7 +94,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Msk Trust Center
+name: Amazon MSK Trust Center
 name_suffix: Trust Center
 overview: Amazon MSK maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon MSK

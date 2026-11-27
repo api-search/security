@@ -7,7 +7,7 @@ certifications:
 description: 'Uplevel publishes a Vanta-hosted trust center at trust.uplevelteam.com (the marketing site''s /security path 301-redirects there). The trust page self-describes: "We build Uplevel with global security standards in mind, offering enterprise-grade security across all aspects of how engineering teams collaborate and ship products. Trusted by leading teams in financial services, healthcare, telecommunications, and more." The uplevelteam.com homepage footer displays SOC 2 (2025 badge), GDPR, and CCPA compliance badges alongside the trust-center link. The Vanta report content renders client-side, so the certification list below is what the provider displays on its own homepage, not a scrape of the Vanta report body.'
 kind: trust-center
 layout: security
-name: Uplevelteam Trust Center
+name: Uplevel Trust Center
 name_suffix: Trust Center
 overview: Uplevel maintains a public trust center documenting SOC 2, GDPR, and CCPA compliance.
 provider_name: Uplevel

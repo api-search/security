@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Payit Trust Center
+name: PayIt Trust Center
 name_suffix: Trust Center
 overview: PayIt maintains a public trust center documenting SOC 1 Type 2, SOC 2 Type 2, ISO 27001, ISO 27018, PCI DSS Level 1, and NIST 800-Series compliance.
 provider_name: PayIt

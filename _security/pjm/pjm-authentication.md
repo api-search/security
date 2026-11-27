@@ -13,7 +13,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Pjm Authentication
+name: PJM Interconnection Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PJM Interconnection secures its APIs with apiKey, custom-session-token, mutualTLS, and none across 5 declared security schemes, as derived from its OpenAPI definitions.

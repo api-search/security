@@ -114,7 +114,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Anecdotes Trust Center
+name: anecdotes Trust Center
 name_suffix: Trust Center
 overview: anecdotes maintains a public trust center documenting SOC 1, SOC 2, ISO 27001, ISO 27701, ISO 27032, ISO 42001, and GDPR compliance.
 provider_name: anecdotes

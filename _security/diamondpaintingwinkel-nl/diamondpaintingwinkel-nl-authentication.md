@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Diamondpaintingwinkel Nl Authentication
+name: DiamondPaintingWinkel.nl Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DiamondPaintingWinkel.nl declares 1 security scheme(s) across its OpenAPI definitions.

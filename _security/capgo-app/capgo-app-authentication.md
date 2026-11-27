@@ -60,7 +60,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: derived
-name: Capgo App Authentication
+name: Capgo Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

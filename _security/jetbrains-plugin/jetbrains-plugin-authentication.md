@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Jetbrains Plugin Authentication
+name: JetBrains Marketplace Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JetBrains Marketplace secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

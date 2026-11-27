@@ -47,7 +47,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Browserstack Authentication
+name: BrowserStack Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BrowserStack secures its APIs with http, oauth2, and openIdConnect across 5 declared security schemes, as derived from its OpenAPI definitions.

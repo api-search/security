@@ -285,6 +285,6 @@ tags:
 - Email
 - Messaging
 - Scheduling
-- A2A
+- Notetaker
 trust_url: https://www.nylas.com/security/
 ---

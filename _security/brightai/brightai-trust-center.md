@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Brightai Trust Center
+name: BrightAI Trust Center
 name_suffix: Trust Center
 overview: BrightAI maintains a public trust center documenting SOC 2 compliance.
 provider_name: BrightAI

@@ -1,0 +1,199 @@
+---
+anonymous_access: false
+api_key_in: []
+api_specs:
+- filename: palisade-email-activity-log-api-openapi.yml
+  format: yaml
+  label: Palisade Activity Log API
+  slug: palisade-email-activity-log-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-activity-log-api-openapi.yml
+- filename: palisade-email-dkimkey-api-openapi.yml
+  format: yaml
+  label: Palisade Dkim Key API
+  slug: palisade-email-dkimkey-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-dkimkey-api-openapi.yml
+- filename: palisade-email-dnsprovider-api-openapi.yml
+  format: yaml
+  label: Palisade Dns Provider API
+  slug: palisade-email-dnsprovider-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-dnsprovider-api-openapi.yml
+- filename: palisade-email-dnssnapshot-api-openapi.yml
+  format: yaml
+  label: Palisade Dns Snapshot API
+  slug: palisade-email-dnssnapshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-dnssnapshot-api-openapi.yml
+- filename: palisade-email-domain-api-openapi.yml
+  format: yaml
+  label: Palisade Domain API
+  slug: palisade-email-domain-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-domain-api-openapi.yml
+- filename: palisade-email-domainsource-api-openapi.yml
+  format: yaml
+  label: Palisade Domain Source API
+  slug: palisade-email-domainsource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-domainsource-api-openapi.yml
+- filename: palisade-email-group-api-openapi.yml
+  format: yaml
+  label: Palisade Group API
+  slug: palisade-email-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-group-api-openapi.yml
+- filename: palisade-email-health-check-api-openapi.yml
+  format: yaml
+  label: Palisade Health Check API
+  slug: palisade-email-health-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-health-check-api-openapi.yml
+- filename: palisade-email-invitation-api-openapi.yml
+  format: yaml
+  label: Palisade Invitation API
+  slug: palisade-email-invitation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-invitation-api-openapi.yml
+- filename: palisade-email-member-api-openapi.yml
+  format: yaml
+  label: Palisade Member API
+  slug: palisade-email-member-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-member-api-openapi.yml
+- filename: palisade-email-mtasts-api-openapi.yml
+  format: yaml
+  label: Palisade Mta Sts API
+  slug: palisade-email-mtasts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-mtasts-api-openapi.yml
+- filename: palisade-email-organization-api-openapi.yml
+  format: yaml
+  label: Palisade Organization API
+  slug: palisade-email-organization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-organization-api-openapi.yml
+- filename: palisade-email-prospecting-reports-api-openapi.yml
+  format: yaml
+  label: Palisade Prospecting Reports API
+  slug: palisade-email-prospecting-reports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-prospecting-reports-api-openapi.yml
+- filename: palisade-email-report-data-api-openapi.yml
+  format: yaml
+  label: Palisade Report Data API
+  slug: palisade-email-report-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-report-data-api-openapi.yml
+- filename: palisade-email-reports-api-openapi.yml
+  format: yaml
+  label: Palisade Reports API
+  slug: palisade-email-reports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-reports-api-openapi.yml
+- filename: palisade-email-scheduled-reports-api-openapi.yml
+  format: yaml
+  label: Palisade Scheduled Reports API
+  slug: palisade-email-scheduled-reports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-scheduled-reports-api-openapi.yml
+- filename: palisade-email-signup-api-openapi.yml
+  format: yaml
+  label: Palisade Signup API
+  slug: palisade-email-signup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-signup-api-openapi.yml
+- filename: palisade-email-source-api-openapi.yml
+  format: yaml
+  label: Palisade Source API
+  slug: palisade-email-source-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-source-api-openapi.yml
+- filename: palisade-email-spf-api-openapi.yml
+  format: yaml
+  label: Palisade Spf API
+  slug: palisade-email-spf-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-spf-api-openapi.yml
+- filename: palisade-email-supportrequest-api-openapi.yml
+  format: yaml
+  label: Palisade Support Request API
+  slug: palisade-email-supportrequest-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-supportrequest-api-openapi.yml
+- filename: palisade-email-supportticket-api-openapi.yml
+  format: yaml
+  label: Palisade Support Ticket API
+  slug: palisade-email-supportticket-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-supportticket-api-openapi.yml
+- filename: palisade-email-task-api-openapi.yml
+  format: yaml
+  label: Palisade Task API
+  slug: palisade-email-task-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-task-api-openapi.yml
+- filename: palisade-email-tlsreport-api-openapi.yml
+  format: yaml
+  label: Palisade Tls Report API
+  slug: palisade-email-tlsreport-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-tlsreport-api-openapi.yml
+- filename: palisade-email-tool-api-openapi.yml
+  format: yaml
+  label: Palisade Tool API
+  slug: palisade-email-tool-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-tool-api-openapi.yml
+- filename: palisade-email-usage-api-openapi.yml
+  format: yaml
+  label: Palisade Usage API
+  slug: palisade-email-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-usage-api-openapi.yml
+- filename: palisade-email-webhooks-api-openapi.yml
+  format: yaml
+  label: Palisade Webhooks API
+  slug: palisade-email-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/palisade-email/openapi/palisade-email-webhooks-api-openapi.yml
+auth_types: []
+description: Authentication methods published for Palisade services
+kind: authentication
+layout: security
+mechanism_count: 2
+method: searched
+name: Palisade Authentication
+name_suffix: Authentication
+oauth_flows: []
+overview: Palisade declares 2 security scheme(s) across its OpenAPI definitions.
+provider_name: Palisade
+provider_slug: palisade-email
+scheme_count: 2
+schemes:
+- evidence: MCP requires OAuth through Palisade's public connector client (ryKtuiPypMeYMoL1Cmhxtz6BYrEYQbLV), using PKCE with no client secret.
+  flows:
+  - authorization_code
+  how_to_obtain: Use the public connector client ID ryKtuiPypMeYMoL1Cmhxtz6BYrEYQbLV with PKCE; no client secret is required.
+  name: Palisade public connector client
+  type: oauth2
+- evidence: Follow the REST guide for HTTP Basic authentication and the required Palisade-Version header.
+  how_to_obtain: Provide HTTP Basic credentials as described in the REST API guide; a Palisade-Version header is also required.
+  name: REST API Basic Auth
+  type: http-basic
+slug: palisade-email-authentication
+source_filename: palisade-email-authentication.yml
+source_heading: Authentication Profile
+source_url: https://docs.palisade.email/guides/fixing-authentication-issues/
+source_yaml: "generated: '2026-11-20'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://docs.palisade.email/guides/fixing-authentication-issues/\nsources:\n- https://docs.palisade.email/guides/fixing-authentication-issues/\n- https://www.palisade.email/mcp.md\n- https://docs.palisade.email/getting-started/implementing-dmarc/\n- https://docs.palisade.email/getting-started/setup/\ndescription: Authentication methods published for Palisade services\nschemes:\n- type: oauth2\n  name: Palisade public connector client\n  evidence: MCP requires OAuth through Palisade's public connector client (ryKtuiPypMeYMoL1Cmhxtz6BYrEYQbLV), using PKCE with no client secret.\n  flows:\n  - authorization_code\n  how_to_obtain: Use the public connector client ID ryKtuiPypMeYMoL1Cmhxtz6BYrEYQbLV with PKCE; no client secret is required.\n- type: http-basic\n  name: REST API Basic Auth\n  evidence: Follow the REST guide for HTTP Basic authentication and the required Palisade-Version\
+  \ header.\n  how_to_obtain: Provide HTTP Basic credentials as described in the REST API guide; a Palisade-Version header is also required.\ndocs: https://docs.palisade.email/guides/fixing-authentication-issues/\n"
+source_yaml_url: https://artifacts.apis.io/palisade-email/authentication/palisade-email-authentication.yml
+summary_line: 2 schemes
+tags:
+- Email
+- Security
+- DMARC
+- MSP
+- Artificial Intelligence
+---

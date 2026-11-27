@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Azurade Com Authentication
+name: Azurade AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Azurade AI declares 0 security scheme(s) across its OpenAPI definitions.

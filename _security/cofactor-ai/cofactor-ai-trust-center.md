@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cofactor Ai Trust Center
+name: Cofactor AI Trust Center
 name_suffix: Trust Center
 overview: Cofactor AI maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Cofactor AI

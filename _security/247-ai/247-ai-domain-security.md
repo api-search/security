@@ -65,7 +65,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: 247 Ai Domain Security
+name: '[24]7.ai Domain Security'
 name_suffix: Domain Security
 overview: 'Domain security posture for [24]7.ai, probed live across 4 host(s) and 3 registrable domain(s). 4 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: '[24]7.ai'

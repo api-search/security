@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Openevidence Trust Center
+name: OpenEvidence Trust Center
 name_suffix: Trust Center
 overview: OpenEvidence maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: OpenEvidence

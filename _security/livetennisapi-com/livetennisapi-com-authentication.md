@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Livetennisapi Com Authentication
+name: Live Tennis API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Live Tennis API declares 1 security scheme(s) across its OpenAPI definitions.

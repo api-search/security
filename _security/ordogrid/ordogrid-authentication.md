@@ -65,7 +65,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Ordogrid Authentication
+name: OrdoGrid Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OrdoGrid secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
@@ -96,7 +96,7 @@ source_yaml_url: https://artifacts.apis.io/ordogrid/authentication/ordogrid-auth
 summary_line: apiKey/http · 2 schemes
 tags:
 - Invoicing
-- PEPPOL
+- Peppol
 - Belgium
 - Software-as-a-Service
 - business-documents

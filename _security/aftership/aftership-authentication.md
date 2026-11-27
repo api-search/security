@@ -216,7 +216,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Aftership Authentication
+name: AfterShip Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AfterShip secures its APIs with apiKey, hmac-signature, and oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions.

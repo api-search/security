@@ -118,7 +118,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mine Trust Center
+name: MINE Trust Center
 name_suffix: Trust Center
 overview: MINE maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001, GDPR, CCPA, and HIPAA compliance.
 provider_name: MINE

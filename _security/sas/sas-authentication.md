@@ -69,7 +69,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Sas Authentication
+name: SAS Institute Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

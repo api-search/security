@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Addshuffle Com Authentication
+name: Shuffle Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Shuffle declares 0 security scheme(s) across its OpenAPI definitions.

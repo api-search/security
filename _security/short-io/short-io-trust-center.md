@@ -73,7 +73,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Short Io Trust Center
+name: Short.io Trust Center
 name_suffix: Trust Center
 overview: Short.io maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Short.io
@@ -86,7 +86,7 @@ source_yaml: "generated: '2026-10-26'\nmethod: searched\nprobe: true\nsource: ht
 source_yaml_url: https://artifacts.apis.io/short-io/security/short-io-trust-center.yml
 summary_line: SOC 2, ISO 27001
 tags:
-- URL-shortening
+- URL Shortening
 - Analytics
 - QR Codes
 - Enterprise

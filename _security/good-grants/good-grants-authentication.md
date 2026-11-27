@@ -164,7 +164,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Good Grants Authentication
+name: GOOD Grants Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GOOD Grants declares 1 security scheme(s) across its OpenAPI definitions.

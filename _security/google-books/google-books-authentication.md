@@ -3,24 +3,84 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: google-books-users-api-openapi.yml
-  format: yaml
-  label: Google Books Users API
-  slug: google-books-users-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-books/openapi/google-books-users-api-openapi.yml
 - filename: google-books-volumes-api-openapi.yml
   format: yaml
   label: Google Books Volumes API
   slug: google-books-volumes-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-books/openapi/google-books-volumes-api-openapi.yml
-- filename: google-books-my-library-api-openapi.yml
+- filename: google-books-bookshelves-api-openapi.yml
   format: yaml
-  label: Google Books My Library API
-  slug: google-books-my-library-api
+  label: Google Books Bookshelves API
+  slug: google-books-bookshelves-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-books/openapi/google-books-my-library-api-openapi.yml
+  url: https://artifacts.apis.io/google-books/openapi/google-books-bookshelves-api-openapi.yml
+- filename: google-books-cloudloading-api-openapi.yml
+  format: yaml
+  label: Google Books Cloudloading API
+  slug: google-books-cloudloading-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-cloudloading-api-openapi.yml
+- filename: google-books-dictionary-api-openapi.yml
+  format: yaml
+  label: Google Books Dictionary API
+  slug: google-books-dictionary-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-dictionary-api-openapi.yml
+- filename: google-books-familysharing-api-openapi.yml
+  format: yaml
+  label: Google Books Familysharing API
+  slug: google-books-familysharing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-familysharing-api-openapi.yml
+- filename: google-books-layers-api-openapi.yml
+  format: yaml
+  label: Google Books Layers API
+  slug: google-books-layers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-layers-api-openapi.yml
+- filename: google-books-myconfig-api-openapi.yml
+  format: yaml
+  label: Google Books Myconfig API
+  slug: google-books-myconfig-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-myconfig-api-openapi.yml
+- filename: google-books-notification-api-openapi.yml
+  format: yaml
+  label: Google Books Notification API
+  slug: google-books-notification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-notification-api-openapi.yml
+- filename: google-books-onboarding-api-openapi.yml
+  format: yaml
+  label: Google Books Onboarding API
+  slug: google-books-onboarding-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-onboarding-api-openapi.yml
+- filename: google-books-personalizedstream-api-openapi.yml
+  format: yaml
+  label: Google Books Personalizedstream API
+  slug: google-books-personalizedstream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-personalizedstream-api-openapi.yml
+- filename: google-books-promooffer-api-openapi.yml
+  format: yaml
+  label: Google Books Promooffer API
+  slug: google-books-promooffer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-promooffer-api-openapi.yml
+- filename: google-books-series-api-openapi.yml
+  format: yaml
+  label: Google Books Series API
+  slug: google-books-series-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-series-api-openapi.yml
+- filename: google-books-mylibrary-api-openapi.yml
+  format: yaml
+  label: Google Books Books Mylibrary API
+  slug: google-books-mylibrary-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-books/openapi/google-books-mylibrary-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2

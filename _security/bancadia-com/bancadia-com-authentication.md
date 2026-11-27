@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bancadia Com Authentication
+name: Bancadia Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bancadia declares 1 security scheme(s) across its OpenAPI definitions.

@@ -44,26 +44,25 @@ domains:
   dnssec: false
   domain: quantumai.google
   spf: false
-- caa:
-  - 0 issue "pki.goog"
-  dmarc: true
-  dmarc_policy: reject
+- caa: []
+  dmarc: false
   dnssec: false
-  domain: googleapis.com
-  spf: true
+  domain: tensorflow.org
+  spf: false
 hosts:
-- cert_expires: Sep 14 08:35:22 2026 GMT
+- cert_expires: Dec 30 19:07:42 2026 GMT
+  host: www.quantumai.google
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Dec 30 19:07:42 2026 GMT
   host: quantumai.google
   hsts: true
   hsts_max_age: 63072000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Sep 14 08:37:17 2026 GMT
-  host: quantum.googleapis.com
-  hsts: null
-  https: true
-  tls_version: TLSv1.3
-- cert_expires: Sep 14 08:35:22 2026 GMT
+- cert_expires: Dec 30 19:07:42 2026 GMT
   host: www.tensorflow.org
   hsts: true
   hsts_max_age: 63072000
@@ -73,18 +72,18 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Google Quantum Ai Domain Security
+name: Google Quantum AI Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Google Quantum AI, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
+overview: 'Domain security posture for Google Quantum AI, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: Google Quantum AI
 provider_slug: google-quantum-ai
 slug: google-quantum-ai-domain-security
 source_filename: google-quantum-ai-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: quantumai.google\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: quantum.googleapis.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:37:17 2026 GMT\n  hsts: null\n- host: www.tensorflow.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 14 08:35:22 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: quantumai.google\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: false\n  dmarc: false\n- domain: googleapis.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.quantumai.google\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:07:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: quantumai.google\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:07:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: www.tensorflow.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 30 19:07:42 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: quantumai.google\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog\"\n  spf: false\n  dmarc: false\n- domain: tensorflow.org\n  dnssec: false\n  caa: []\n  spf: false\n  dmarc: false\n"
 source_yaml_url: https://artifacts.apis.io/google-quantum-ai/security/google-quantum-ai-domain-security.yml
-summary_line: TLSv1.3 · HSTS · DMARC
+summary_line: TLSv1.3 · HSTS
 tags:
 - Quantum Computing
 - Quantum

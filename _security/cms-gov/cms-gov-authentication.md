@@ -295,7 +295,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: derived
-name: Cms Gov Authentication
+name: CMS — Centers for Medicare & Medicaid Services Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

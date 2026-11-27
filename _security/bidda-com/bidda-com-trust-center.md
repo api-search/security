@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bidda Com Trust Center
+name: Bidda Trust Center
 name_suffix: Trust Center
 overview: Bidda maintains a public trust center documenting SOC 2, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: Bidda

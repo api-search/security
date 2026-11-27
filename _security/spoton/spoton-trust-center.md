@@ -97,7 +97,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Spoton Trust Center
+name: SpotOn Trust Center
 name_suffix: Trust Center
 overview: SpotOn maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: SpotOn

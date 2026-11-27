@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 99Datarooms Com Trust Center
+name: 99 Data Rooms Trust Center
 name_suffix: Trust Center
 overview: 99 Data Rooms maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: 99 Data Rooms

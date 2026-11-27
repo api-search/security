@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Eql Trust Center
+name: EQL Trust Center
 name_suffix: Trust Center
 overview: EQL maintains a public trust center documenting SOC 2 Type 2, PCI DSS, and ISO 27001 compliance.
 provider_name: EQL

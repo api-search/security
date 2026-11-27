@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Docstation Trust Center
+name: DocStation Trust Center
 name_suffix: Trust Center
 overview: DocStation maintains a public trust center documenting HIPAA and SOC 2 Type II compliance.
 provider_name: DocStation

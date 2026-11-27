@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Goknit Com Trust Center
+name: Knit Trust Center
 name_suffix: Trust Center
 overview: Knit maintains a public trust center documenting SOC 2, HIPAA, GDPR, and CSA STAR compliance.
 provider_name: Knit

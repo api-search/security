@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Astroclaw Xyz Authentication
+name: Astroclaw Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Astroclaw declares 0 security scheme(s) across its OpenAPI definitions.

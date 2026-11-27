@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Plugrail Dev Authentication
+name: plugrail-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: plugrail-dev declares 0 security scheme(s) across its OpenAPI definitions.

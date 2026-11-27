@@ -88,7 +88,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Opendental Authentication
+name: Open Dental Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Open Dental secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

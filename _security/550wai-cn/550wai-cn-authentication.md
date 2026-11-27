@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: 550Wai Cn Authentication
+name: 550wai-cn Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 550wai-cn declares 2 security scheme(s) across its OpenAPI definitions.

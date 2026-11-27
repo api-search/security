@@ -57,6 +57,18 @@ api_specs:
   slug: amazon-documentdb-tag-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-tag-api-openapi.yml
+- filename: amazon-documentdb-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Cluster API
+  slug: amazon-documentdb-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-cluster-api-openapi.yml
+- filename: amazon-documentdb-cluster-snapshot-api-openapi.yml
+  format: yaml
+  label: Amazon DocumentDB Documentdb Cluster Snapshot API
+  slug: amazon-documentdb-cluster-snapshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-documentdb/openapi/amazon-documentdb-cluster-snapshot-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -64,7 +76,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Documentdb Authentication
+name: Amazon DocumentDB Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon DocumentDB secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

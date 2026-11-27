@@ -354,7 +354,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Zenhr Inc Trust Center
+name: ZenHR Trust Center
 name_suffix: Trust Center
 overview: ZenHR maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: ZenHR

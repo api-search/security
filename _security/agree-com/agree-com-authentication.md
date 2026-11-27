@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Agree Com Authentication
+name: Agree.com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agree.com secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: 12Backlinks Com Authentication
+name: 12backlinks Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 12backlinks declares 1 security scheme(s) across its OpenAPI definitions.

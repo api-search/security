@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Financialdata Net Authentication
+name: FinancialData.Net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FinancialData.Net declares 1 security scheme(s) across its OpenAPI definitions.

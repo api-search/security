@@ -58,7 +58,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Blnkfinance Trust Center
+name: Blnk Finance Trust Center
 name_suffix: Trust Center
 overview: Blnk Finance maintains a public trust center documenting ISO/IEC 27001, GDPR, SOC 2, PCI DSS, and HIPAA compliance.
 provider_name: Blnk Finance

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Icontact Authentication
+name: iContact Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: iContact declares 1 security scheme(s) across its OpenAPI definitions.

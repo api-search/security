@@ -15,7 +15,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Cuspai Com Domain Security
+name: Cuspai Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Cuspai, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Cuspai

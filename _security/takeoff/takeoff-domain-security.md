@@ -49,7 +49,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Takeoff Domain Security
+name: TakeOff Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for TakeOff, probed live across 4 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: TakeOff

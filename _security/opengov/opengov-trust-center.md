@@ -626,7 +626,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Opengov Trust Center
+name: OpenGov Trust Center
 name_suffix: Trust Center
 overview: OpenGov maintains a public trust center documenting SOC 2 Type 2, SOC 3, TX-RAMP, AZ RAMP, GovRAMP, GDPR, CCPA, CPRA, and VPAT compliance.
 provider_name: OpenGov

@@ -1,5 +1,53 @@
 ---
 api_specs:
+- filename: adobe-acrobat-sign-v6-openapi.yml
+  format: yaml
+  label: Adobe Acrobat Sign API
+  slug: adobe-acrobat-sign-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-acrobat-sign-v6-openapi.yml
+- filename: adobe-analytics-2-0-openapi.yml
+  format: yaml
+  label: Adobe Analytics API
+  slug: adobe-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-analytics-2-0-openapi.yml
+- filename: adobe-firefly-openapi.yml
+  format: yaml
+  label: Adobe Firefly API
+  slug: adobe-firefly-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-firefly-openapi.yml
+- filename: adobe-aep-catalog-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform API
+  slug: adobe-experience-platform-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-catalog-openapi.yml
+- filename: adobe-commerce-admin-openapi.yml
+  format: yaml
+  label: Adobe Commerce API
+  slug: adobe-commerce-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-commerce-admin-openapi.yml
+- filename: adobe-marketo-lead-database-openapi.yml
+  format: yaml
+  label: Adobe Marketo Engage API
+  slug: adobe-marketo-engage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-marketo-lead-database-openapi.yml
+- filename: adobe-io-events-openapi.yml
+  format: yaml
+  label: Adobe I/O Events API
+  slug: adobe-io-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-io-events-openapi.yml
+- filename: adobe-aem-sites-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager API
+  slug: adobe-experience-manager-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aem-sites-openapi.yml
 - filename: adobe-accessibility-auto-tag-api-openapi.yml
   format: yaml
   label: Adobe PDF Services Accessibility Auto-Tag API
@@ -240,6 +288,342 @@ api_specs:
   slug: adobe-spacesurl-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/adobe/openapi/adobe-spacesurl-api-openapi.yml
+- filename: adobe-analytics-1-4-openapi.yml
+  format: yaml
+  label: Adobe Analytics 1.4 API
+  slug: adobe-analytics-1-4-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-analytics-1-4-openapi.yml
+- filename: adobe-cloud-manager-openapi.yml
+  format: yaml
+  label: Adobe Cloud Manager API
+  slug: adobe-cloud-manager-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-cloud-manager-openapi.yml
+- filename: adobe-customer-journey-analytics-openapi.yml
+  format: yaml
+  label: Adobe Customer Journey Analytics API
+  slug: adobe-customer-journey-analytics-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-customer-journey-analytics-openapi.yml
+- filename: adobe-lightroom-openapi.yml
+  format: yaml
+  label: Adobe Lightroom API
+  slug: adobe-lightroom-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-lightroom-openapi.yml
+- filename: adobe-commerce-customer-openapi.yml
+  format: yaml
+  label: Adobe Commerce Customer REST API
+  slug: adobe-commerce-customer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-commerce-customer-openapi.yml
+- filename: adobe-commerce-guest-openapi.yml
+  format: yaml
+  label: Adobe Commerce Guest REST API
+  slug: adobe-commerce-guest-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-commerce-guest-openapi.yml
+- filename: adobe-commerce-cloud-service-openapi.yml
+  format: yaml
+  label: Adobe Commerce as a Cloud Service REST API
+  slug: adobe-commerce-cloud-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-commerce-cloud-service-openapi.yml
+- filename: adobe-target-admin-openapi.yml
+  format: yaml
+  label: Adobe Target Admin and Reporting API
+  slug: adobe-target-admin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-target-admin-openapi.yml
+- filename: adobe-target-delivery-openapi.yml
+  format: yaml
+  label: Adobe Target Delivery API
+  slug: adobe-target-delivery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-target-delivery-openapi.yml
+- filename: adobe-target-models-openapi.yml
+  format: yaml
+  label: Adobe Target Models API
+  slug: adobe-target-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-target-models-openapi.yml
+- filename: adobe-target-recommendations-openapi.yml
+  format: yaml
+  label: Adobe Target Recommendations API
+  slug: adobe-target-recommendations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-target-recommendations-openapi.yml
+- filename: adobe-photoshop-openapi.yml
+  format: yaml
+  label: Adobe Photoshop API
+  slug: adobe-photoshop-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-photoshop-openapi.yml
+- filename: adobe-photoshop-v2-openapi.yml
+  format: yaml
+  label: Adobe Photoshop v2 API
+  slug: adobe-photoshop-v2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-photoshop-v2-openapi.yml
+- filename: adobe-firefly-lightroom-openapi.yml
+  format: yaml
+  label: Adobe Firefly Services Lightroom API
+  slug: adobe-firefly-lightroom-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-firefly-lightroom-openapi.yml
+- filename: adobe-express-openapi.yml
+  format: yaml
+  label: Adobe Express API
+  slug: adobe-express-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-express-openapi.yml
+- filename: adobe-indesign-openapi.yml
+  format: yaml
+  label: Adobe InDesign API
+  slug: adobe-indesign-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-indesign-openapi.yml
+- filename: adobe-marketo-asset-openapi.yml
+  format: yaml
+  label: Adobe Marketo Engage Asset API
+  slug: adobe-marketo-asset-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-marketo-asset-openapi.yml
+- filename: adobe-marketo-user-management-openapi.yml
+  format: yaml
+  label: Adobe Marketo Engage User Management API
+  slug: adobe-marketo-user-management-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-marketo-user-management-openapi.yml
+- filename: adobe-marketo-identity-openapi.yml
+  format: yaml
+  label: Adobe Marketo Engage Identity API
+  slug: adobe-marketo-identity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-marketo-identity-openapi.yml
+- filename: adobe-marketo-data-ingestion-openapi.yml
+  format: yaml
+  label: Adobe Marketo Engage Data Ingestion API
+  slug: adobe-marketo-data-ingestion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-marketo-data-ingestion-openapi.yml
+- filename: adobe-aem-assets-author-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager Assets Author API
+  slug: adobe-aem-assets-author-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aem-assets-author-openapi.yml
+- filename: adobe-aem-assets-delivery-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager Dynamic Media with OpenAPI
+  slug: adobe-aem-assets-delivery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aem-assets-delivery-openapi.yml
+- filename: adobe-aem-content-ai-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager Content AI APIs
+  slug: adobe-aem-content-ai-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aem-content-ai-openapi.yml
+- filename: adobe-aem-content-fragments-delivery-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager AEM Content Fragment Delivery with OpenAPI
+  slug: adobe-aem-content-fragments-delivery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aem-content-fragments-delivery-openapi.yml
+- filename: adobe-aem-folders-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager Folders API
+  slug: adobe-aem-folders-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aem-folders-openapi.yml
+- filename: adobe-aem-forms-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager Forms API
+  slug: adobe-aem-forms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aem-forms-openapi.yml
+- filename: adobe-aem-content-fragments-visualization-templates-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager Content Fragment Visualization Templates APIs
+  slug: adobe-aem-content-fragments-visualization-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aem-content-fragments-visualization-templates-openapi.yml
+- filename: adobe-aem-launches-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager Launches for Content Fragments API
+  slug: adobe-aem-launches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aem-launches-openapi.yml
+- filename: adobe-aem-translation-openapi.yml
+  format: yaml
+  label: Adobe Experience Manager Translation Management API
+  slug: adobe-aem-translation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aem-translation-openapi.yml
+- filename: adobe-aep-access-control-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Access Control API
+  slug: adobe-aep-access-control-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-access-control-openapi.yml
+- filename: adobe-aep-ad-hoc-activation-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Ad Hoc Activation API
+  slug: adobe-aep-ad-hoc-activation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-ad-hoc-activation-openapi.yml
+- filename: adobe-aep-audit-query-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Audit Query API
+  slug: adobe-aep-audit-query-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-audit-query-openapi.yml
+- filename: adobe-aep-batch-ingestion-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Batch Ingestion API
+  slug: adobe-aep-batch-ingestion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-batch-ingestion-openapi.yml
+- filename: adobe-aep-data-access-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Data Access API
+  slug: adobe-aep-data-access-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-data-access-openapi.yml
+- filename: adobe-aep-data-distiller-auth-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Data Distiller Authorization API
+  slug: adobe-aep-data-distiller-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-data-distiller-auth-openapi.yml
+- filename: adobe-aep-data-hygiene-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Data Hygiene API
+  slug: adobe-aep-data-hygiene-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-data-hygiene-openapi.yml
+- filename: adobe-aep-data-prep-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Data Prep API
+  slug: adobe-aep-data-prep-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-data-prep-openapi.yml
+- filename: adobe-aep-dataset-service-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Dataset Service API
+  slug: adobe-aep-dataset-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-dataset-service-openapi.yml
+- filename: adobe-aep-destination-authoring-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Destination Authoring API
+  slug: adobe-aep-destination-authoring-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-destination-authoring-openapi.yml
+- filename: adobe-aep-destinations-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Flow Service API - Destinations
+  slug: adobe-aep-destinations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-destinations-openapi.yml
+- filename: adobe-aep-flow-service-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Flow Service API - Sources
+  slug: adobe-aep-flow-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-flow-service-openapi.yml
+- filename: adobe-aep-identity-service-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Identity Service API
+  slug: adobe-aep-identity-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-identity-service-openapi.yml
+- filename: adobe-aep-mtls-service-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform MTLS Service API
+  slug: adobe-aep-mtls-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-mtls-service-openapi.yml
+- filename: adobe-aep-observability-insights-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Observability Insights API
+  slug: adobe-aep-observability-insights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-observability-insights-openapi.yml
+- filename: adobe-aep-policy-service-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Policy Service API
+  slug: adobe-aep-policy-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-policy-service-openapi.yml
+- filename: adobe-aep-privacy-service-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Privacy Service API
+  slug: adobe-aep-privacy-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-privacy-service-openapi.yml
+- filename: adobe-aep-profile-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Real-time Customer Profile API
+  slug: adobe-aep-profile-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-profile-openapi.yml
+- filename: adobe-aep-query-service-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Query Service API
+  slug: adobe-aep-query-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-query-service-openapi.yml
+- filename: adobe-aep-reactor-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Reactor API
+  slug: adobe-aep-reactor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-reactor-openapi.yml
+- filename: adobe-aep-rtcdp-collaboration-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Real-Time CDP Collaboration API
+  slug: adobe-aep-rtcdp-collaboration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-rtcdp-collaboration-openapi.yml
+- filename: adobe-aep-sandbox-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Sandbox API
+  slug: adobe-aep-sandbox-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-sandbox-openapi.yml
+- filename: adobe-aep-schema-registry-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Schema Registry API
+  slug: adobe-aep-schema-registry-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-schema-registry-openapi.yml
+- filename: adobe-aep-segmentation-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Segmentation Service API
+  slug: adobe-aep-segmentation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-segmentation-openapi.yml
+- filename: adobe-aep-sensei-machine-learning-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Sensei Machine Learning API
+  slug: adobe-aep-sensei-machine-learning-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-sensei-machine-learning-openapi.yml
+- filename: adobe-aep-streaming-ingestion-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Streaming Ingestion API
+  slug: adobe-aep-streaming-ingestion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-streaming-ingestion-openapi.yml
+- filename: adobe-aep-unified-tags-openapi.yml
+  format: yaml
+  label: Adobe Experience Platform Unified Tags API
+  slug: adobe-aep-unified-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/adobe/openapi/adobe-aep-unified-tags-openapi.yml
 certification_count: 12
 certifications:
 - SOC 2

@@ -7,7 +7,7 @@ api_specs:
   label: ReadMe Personalized Docs Webhook
   slug: personalized-docs-webhook
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/asyncapi/readme-personalized-docs-webhook-asyncapi.yml
+  url: https://artifacts.apis.io/readme/asyncapi/readme-personalized-docs-webhook-asyncapi.yml
 - filename: readme-analytics-api-openapi.yml
   format: yaml
   label: ReadMe Analytics API
@@ -87,7 +87,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Readme Authentication
+name: ReadMe Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ReadMe secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

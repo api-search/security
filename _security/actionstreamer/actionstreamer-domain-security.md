@@ -216,6 +216,12 @@ api_specs:
   slug: actionstreamer-wificonnection-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-wificonnection-api-openapi.yml
+- filename: actionstreamer-device-group-api-openapi.yml
+  format: yaml
+  label: ActionStreamer Device Group API
+  slug: actionstreamer-device-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-device-group-api-openapi.yml
 - filename: actionstreamer-devicecapability-api-openapi.yml
   format: yaml
   label: ActionStreamer Device Capability API
@@ -270,12 +276,6 @@ api_specs:
   slug: actionstreamer-api-key-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-api-key-api-openapi.yml
-- filename: actionstreamer-device-group-api-openapi.yml
-  format: yaml
-  label: ActionStreamer Device Group API
-  slug: actionstreamer-device-group-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-device-group-api-openapi.yml
 - filename: actionstreamer-device-health-api-openapi.yml
   format: yaml
   label: ActionStreamer Device Health API
@@ -335,7 +335,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Actionstreamer Domain Security
+name: ActionStreamer Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ActionStreamer, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: ActionStreamer

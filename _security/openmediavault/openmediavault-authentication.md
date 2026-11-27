@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Openmediavault Authentication
+name: openmediavault Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: openmediavault declares 0 security scheme(s) across its OpenAPI definitions.

@@ -25,7 +25,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Jamf Trust Center
+name: JAMF Trust Center
 name_suffix: Trust Center
 overview: JAMF maintains a public trust center documenting SOC 2 Type 1, SOC 2 Type 2, ISO/IEC 27001, ISO/IEC 27001 SoA, ISO/IEC 27701, PCI DSS, HIPAA, GDPR, CSA STAR, NIST 800-53 Rev. 5, Cyber Essentials, EU-US Data Privacy Framework, CCPA, and CPRA compliance.
 provider_name: JAMF

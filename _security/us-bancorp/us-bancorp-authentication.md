@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Us Bancorp Authentication
+name: US Bancorp Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -64,7 +64,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Leaseaccelerator Authentication
+name: LeaseAccelerator Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LeaseAccelerator secures its APIs with saml2 and session-token across 1 declared security scheme, as derived from its OpenAPI definitions.

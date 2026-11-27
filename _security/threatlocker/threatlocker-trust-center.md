@@ -116,7 +116,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Threatlocker Trust Center
+name: ThreatLocker Trust Center
 name_suffix: Trust Center
 overview: ThreatLocker maintains a public trust center documenting SOC 2 Type II, ISO 27001, and FedRAMP compliance.
 provider_name: ThreatLocker

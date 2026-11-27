@@ -620,13 +620,25 @@ api_specs:
   slug: conduyt-com-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-workflows-api-openapi.yml
+- filename: conduyt-com-activity-api-openapi.yml
+  format: yaml
+  label: Conduyt Activity API
+  slug: conduyt-com-activity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-activity-api-openapi.yml
+- filename: conduyt-com-tax-rates-api-openapi.yml
+  format: yaml
+  label: Conduyt Tax Rates API
+  slug: conduyt-com-tax-rates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-tax-rates-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Conduyt Com Authentication
+name: Conduyt Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Conduyt declares 0 security scheme(s) across its OpenAPI definitions.

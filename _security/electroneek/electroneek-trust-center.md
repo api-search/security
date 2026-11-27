@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Electroneek Trust Center
+name: ElectroNeek Robotics Trust Center
 name_suffix: Trust Center
 overview: ElectroNeek Robotics maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: ElectroNeek Robotics

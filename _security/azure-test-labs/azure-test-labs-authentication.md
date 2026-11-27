@@ -80,12 +80,6 @@ api_specs:
   slug: azure-test-labs-policies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-policies-api-openapi.yml
-- filename: azure-test-labs-provideroperations-api-openapi.yml
-  format: yaml
-  label: Azure DevTest Labs ProviderOperations API
-  slug: azure-test-labs-provideroperations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-provideroperations-api-openapi.yml
 - filename: azure-test-labs-schedules-api-openapi.yml
   format: yaml
   label: Azure DevTest Labs Schedules API
@@ -128,6 +122,12 @@ api_specs:
   slug: azure-test-labs-virtualmachineschedules-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-virtualmachineschedules-api-openapi.yml
+- filename: azure-test-labs-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure DevTest Labs Subscriptions API
+  slug: azure-test-labs-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-test-labs/openapi/azure-test-labs-subscriptions-api-openapi.yml
 - filename: azure-test-labs-notification-channels-api-openapi.yml
   format: yaml
   label: Azure DevTest Labs Notification Channels API
@@ -159,7 +159,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Azure Test Labs Authentication
+name: Azure DevTest Labs Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit

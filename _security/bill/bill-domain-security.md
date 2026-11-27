@@ -5,7 +5,7 @@ api_specs:
   label: BILL v3 API
   slug: v3-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/asyncapi/bill-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/bill/asyncapi/bill-webhooks-asyncapi.yml
 - filename: bill-authentication-api-openapi.yml
   format: yaml
   label: BILL Authentication API
@@ -90,7 +90,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Bill Domain Security
+name: BILL Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for BILL, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: BILL

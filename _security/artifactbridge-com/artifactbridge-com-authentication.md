@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Artifactbridge Com Authentication
+name: ArtifactBridge Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ArtifactBridge declares 0 security scheme(s) across its OpenAPI definitions.

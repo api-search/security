@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Paypro Global Trust Center
+name: PayPro Global Trust Center
 name_suffix: Trust Center
 overview: PayPro Global maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: PayPro Global

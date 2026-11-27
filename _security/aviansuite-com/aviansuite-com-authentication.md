@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aviansuite Com Authentication
+name: AvianSuite Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AvianSuite declares 1 security scheme(s) across its OpenAPI definitions.

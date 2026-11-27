@@ -24,7 +24,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Mountain America Domain Security
+name: Mountain America Credit Union Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Mountain America Credit Union, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Mountain America Credit Union

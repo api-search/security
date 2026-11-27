@@ -34,7 +34,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Stepfun Domain Security
+name: StepFun Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for StepFun, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC absent.'
 provider_name: StepFun

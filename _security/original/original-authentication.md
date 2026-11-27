@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Original Authentication
+name: Bodygram Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bodygram declares 4 security scheme(s) across its OpenAPI definitions.

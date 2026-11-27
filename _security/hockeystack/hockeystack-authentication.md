@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Hockeystack Authentication
+name: HockeyStack Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

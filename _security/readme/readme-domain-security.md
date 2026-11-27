@@ -5,7 +5,7 @@ api_specs:
   label: ReadMe Personalized Docs Webhook
   slug: personalized-docs-webhook
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/asyncapi/readme-personalized-docs-webhook-asyncapi.yml
+  url: https://artifacts.apis.io/readme/asyncapi/readme-personalized-docs-webhook-asyncapi.yml
 - filename: readme-analytics-api-openapi.yml
   format: yaml
   label: ReadMe Analytics API
@@ -115,7 +115,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Readme Domain Security
+name: ReadMe Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ReadMe, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: ReadMe

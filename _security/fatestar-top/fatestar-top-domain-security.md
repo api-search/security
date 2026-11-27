@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: fatestar-top-openapi-generated.yml
+  format: yaml
+  label: FateStar API
+  slug: fatestar-top-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/fatestar-top/openapi/_ae-authored/fatestar-top-openapi-generated.yml
 description: ''
 domains:
 - caa: []
@@ -16,7 +23,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fatestar Top Domain Security
+name: FateStar Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FateStar, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: FateStar

@@ -72,6 +72,42 @@ api_specs:
   slug: amazon-emr-studio-session-mapping-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-studio-session-mapping-api-openapi.yml
+- filename: amazon-emr-applications-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Emr Applications API
+  slug: amazon-emr-applications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-applications-api-openapi.yml
+- filename: amazon-emr-endpoints-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Emr Endpoints API
+  slug: amazon-emr-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-endpoints-api-openapi.yml
+- filename: amazon-emr-jobruns-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Emr Jobruns API
+  slug: amazon-emr-jobruns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-jobruns-api-openapi.yml
+- filename: amazon-emr-tags-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Emr Tags API
+  slug: amazon-emr-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-tags-api-openapi.yml
+- filename: amazon-emr-job-templates-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Job Templates API
+  slug: amazon-emr-job-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-job-templates-api-openapi.yml
+- filename: amazon-emr-virtual-clusters-api-openapi.yml
+  format: yaml
+  label: Amazon EMR Virtual Clusters API
+  slug: amazon-emr-virtual-clusters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-emr/openapi/amazon-emr-virtual-clusters-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -102,7 +138,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Emr Domain Security
+name: Amazon EMR Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon EMR, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon EMR

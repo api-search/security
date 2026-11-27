@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Bioflyte Authentication
+name: BioFlyte Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BioFlyte secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

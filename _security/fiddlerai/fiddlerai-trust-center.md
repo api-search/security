@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fiddlerai Trust Center
+name: fiddler.ai Trust Center
 name_suffix: Trust Center
 overview: fiddler.ai maintains a public trust center documenting SOC 2 Type II and HIPAA compliance.
 provider_name: fiddler.ai

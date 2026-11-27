@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Simplenexus Authentication
+name: SimpleNexus Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SimpleNexus secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions.

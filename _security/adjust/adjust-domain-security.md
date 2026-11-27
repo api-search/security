@@ -73,6 +73,5 @@ tags:
 - Deep Linking
 - Fraud Prevention
 - Mobile Marketing
-- AI Solutions
 - Gaming
 ---

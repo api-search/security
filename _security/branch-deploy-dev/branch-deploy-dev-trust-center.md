@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Branch Deploy Dev Trust Center
+name: BranchDeploy Trust Center
 name_suffix: Trust Center
 overview: BranchDeploy maintains a public trust center documenting SOC 2, ISO 27001, and PCI DSS compliance.
 provider_name: BranchDeploy

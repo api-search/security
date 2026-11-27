@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Docketai Trust Center
+name: Docket Trust Center
 name_suffix: Trust Center
 overview: Docket maintains a public trust center documenting SOC 2 Type 1, SOC 2 Type 2, ISO 27001, and GDPR compliance.
 provider_name: Docket

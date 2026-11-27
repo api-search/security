@@ -5,7 +5,7 @@ api_specs:
   label: KuCoin
   slug: kucoin
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/kucoin/main/asyncapi/kucoin-asyncapi.yml
+  url: https://artifacts.apis.io/kucoin/asyncapi/kucoin-asyncapi.yml
 description: ''
 domains:
 - caa: []
@@ -25,7 +25,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Kucoin Domain Security
+name: KuCoin Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for KuCoin, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: KuCoin

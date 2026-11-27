@@ -67,7 +67,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Fulfil Io Trust Center
+name: Fulfil Trust Center
 name_suffix: Trust Center
 overview: Fulfil maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Fulfil

@@ -141,7 +141,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dbmigratepro Com Trust Center
+name: dbmigratepro-com Trust Center
 name_suffix: Trust Center
 overview: dbmigratepro-com maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and HIPAA compliance.
 provider_name: dbmigratepro-com

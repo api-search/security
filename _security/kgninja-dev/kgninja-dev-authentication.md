@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Kgninja Dev Authentication
+name: KG-NINJA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: KG-NINJA secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

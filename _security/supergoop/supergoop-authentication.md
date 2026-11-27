@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Supergoop Authentication
+name: Supergoop! Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Supergoop! declares 5 security scheme(s) across its OpenAPI definitions.

@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Savvymoney Trust Center
+name: SavvyMoney Trust Center
 name_suffix: Trust Center
 overview: SavvyMoney maintains a public trust center documenting SOC 2 Type 2, CSA STAR Level 1, CSA STAR Level 2, CSA Trusted Cloud Provider, and TRUSTe compliance.
 provider_name: SavvyMoney

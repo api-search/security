@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: google-slides-pages-api-openapi.yml
-  format: yaml
-  label: Google Slides Pages API
-  slug: google-slides-pages-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-slides/openapi/google-slides-pages-api-openapi.yml
 - filename: google-slides-presentations-api-openapi.yml
   format: yaml
   label: Google Slides Presentations API

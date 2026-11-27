@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Brandai Trust Center
+name: Brand.ai Trust Center
 name_suffix: Trust Center
 overview: Brand.ai maintains a public trust center documenting SOC 2 Type II, GDPR, and CCPA compliance.
 provider_name: Brand.ai

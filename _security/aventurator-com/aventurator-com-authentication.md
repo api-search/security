@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aventurator Com Authentication
+name: Aventurator Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aventurator declares 0 security scheme(s) across its OpenAPI definitions.
@@ -33,5 +33,5 @@ tags:
 - Adventure
 - Navigation
 - Mobile App
-- CanaryIslands
+- Canary Islands
 ---

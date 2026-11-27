@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Modernloop Trust Center
+name: ModernLoop Trust Center
 name_suffix: Trust Center
 overview: ModernLoop maintains a public trust center documenting SOC 2 Type 2, ISO 27001:2022, and ISO 27701:2019 compliance.
 provider_name: ModernLoop

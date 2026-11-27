@@ -74,7 +74,7 @@ source_yaml_url: https://artifacts.apis.io/makeswift/authentication/makeswift-au
 summary_line: apiKey · 1 scheme
 tags:
 - Company
-- Visual Page Builder
+- Visual-Page-Builder
 - Website Builder
 - Next.js
 - Headless CMS

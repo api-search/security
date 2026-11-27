@@ -254,7 +254,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Surewhynot App Authentication
+name: surewhynot-app Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: surewhynot-app declares 0 security scheme(s) across its OpenAPI definitions.

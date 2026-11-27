@@ -31,7 +31,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Apimesh Xyz Authentication
+name: APIMesh Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: APIMesh secures its APIs with apiKey, x402, mpp, and none across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -5,7 +5,7 @@ api_specs:
   label: Gusto Embedded Payroll API
   slug: embedded-payroll-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/openapi/gusto-asyncapi.yml
+  url: https://artifacts.apis.io/gusto/openapi/gusto-asyncapi.yml
 - filename: gusto-companies-api-openapi.yml
   format: yaml
   label: Gusto Companies API

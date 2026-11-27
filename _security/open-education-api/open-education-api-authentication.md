@@ -184,7 +184,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Open Education Api Authentication
+name: Open Education API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Open Education API secures its APIs with http and openIdConnect across 2 declared security schemes, as derived from its OpenAPI definitions.

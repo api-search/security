@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Diligent Boards Trust Center
+name: Diligent Trust Center
 name_suffix: Trust Center
 overview: Diligent maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, and GDPR compliance.
 provider_name: Diligent

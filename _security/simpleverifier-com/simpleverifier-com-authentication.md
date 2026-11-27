@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Simpleverifier Com Authentication
+name: SimpleVerifier Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SimpleVerifier declares 1 security scheme(s) across its OpenAPI definitions.
@@ -31,6 +31,6 @@ summary_line: 1 scheme
 tags:
 - Email Verification
 - Software-as-a-Service
-- BulkTools
+- Bulk Tools
 - Security
 ---

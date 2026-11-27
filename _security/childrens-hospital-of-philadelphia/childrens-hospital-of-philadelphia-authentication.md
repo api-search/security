@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Childrens Hospital Of Philadelphia Authentication
+name: Children's Hospital of Philadelphia Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

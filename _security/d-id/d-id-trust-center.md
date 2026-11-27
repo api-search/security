@@ -60,7 +60,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: D Id Trust Center
+name: D-ID Trust Center
 name_suffix: Trust Center
 overview: D-ID maintains a public trust center documenting GDPR compliance.
 provider_name: D-ID

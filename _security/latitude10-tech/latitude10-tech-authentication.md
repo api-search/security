@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Latitude10 Tech Authentication
+name: latitude10-tech Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: latitude10-tech declares 0 security scheme(s) across its OpenAPI definitions.

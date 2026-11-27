@@ -106,7 +106,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Crowddev Authentication
+name: Crowd.dev Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

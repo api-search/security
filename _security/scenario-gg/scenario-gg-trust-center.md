@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Scenario Gg Trust Center
+name: Scenario Trust Center
 name_suffix: Trust Center
 overview: Scenario maintains a public trust center documenting SOC 2 compliance.
 provider_name: Scenario

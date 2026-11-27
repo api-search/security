@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Pdf Monkey Authentication
+name: PDF Monkey Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PDF Monkey secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

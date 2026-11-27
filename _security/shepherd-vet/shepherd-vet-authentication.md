@@ -644,7 +644,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Shepherd Vet Authentication
+name: Shepherd Veterinary Software Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Shepherd Veterinary Software declares 3 security scheme(s) across its OpenAPI definitions.

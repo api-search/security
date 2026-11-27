@@ -30,25 +30,24 @@ api_specs:
   slug: billionverify-com-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/billionverify-com/openapi/billionverify-com-webhooks-api-openapi.yml
-certification_count: 2
+certification_count: 1
 certifications:
-- SOC 2
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Billionverify Com Trust Center
+name: BillionVerify Trust Center
 name_suffix: Trust Center
-overview: BillionVerify maintains a public trust center documenting SOC 2 and GDPR compliance.
+overview: BillionVerify maintains a public trust center documenting GDPR compliance.
 provider_name: BillionVerify
 provider_slug: billionverify-com
 slug: billionverify-com-trust-center
 source_filename: billionverify-com-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-11-02'\nmethod: searched\nprobe: true\nsource: https://billionverify.com/trust\nurl: https://billionverify.com/trust\ncertifications:\n- SOC 2\n- GDPR\nevidence:\n- source: https://billionverify.com/trust\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-11-02'\nmethod: searched\nprobe: true\nsource: https://billionverify.com/trust\nurl: https://billionverify.com/trust\ncertifications:\n- GDPR\nevidence:\n- source: https://billionverify.com/trust\n  keywords:\n  - soc 2\n  - trust center\n  - gdpr\ncertifications_not_held:\n- SOC 2\ncertification_quotes:\n  SOC 2: execution are handled outside this public page. | SOC 2 | BillionVerify does not currently maintain\n    a completed\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/billionverify-com/security/billionverify-com-trust-center.yml
-summary_line: SOC 2, GDPR
+summary_line: GDPR
 tags:
 - Email Verification
 - Software-as-a-Service

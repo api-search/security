@@ -43,7 +43,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pingone Trust Center
+name: PingOne Trust Center
 name_suffix: Trust Center
 overview: PingOne maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: PingOne

@@ -145,42 +145,48 @@ domains:
   dmarc: true
   dmarc_policy: reject
   dnssec: false
-  domain: microsoft.com
+  domain: azure.com
   spf: true
 - caa:
   - 0 contactemail "caarecordaware@microsoft.com"
   dmarc: true
-  dmarc_policy: none
+  dmarc_policy: reject
   dnssec: false
-  domain: azure.com
+  domain: microsoft.com
   spf: true
 hosts:
-- cert_expires: Sep 24 22:04:48 2026 GMT
+- cert_expires: Jan 21 18:52:15 2027 GMT
+  host: portal.azure.com
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
+- cert_expires: Apr  2 19:05:38 2027 GMT
   host: azure.microsoft.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-- cert_expires: Nov  8 23:36:21 2026 GMT
+- cert_expires: Jan 21 09:41:22 2027 GMT
   host: management.azure.com
   hsts: null
   https: true
   tls_version: TLSv1.3
-hosts_probed: 2
+hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Azure Logic Apps Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Azure Logic Apps, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Azure Logic Apps, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Azure Logic Apps
 provider_slug: azure-logic-apps
 slug: azure-logic-apps-domain-security
 source_filename: azure-logic-apps-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Sep 24 22:04:48 2026 GMT\n  hsts: null\n- host: management.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov  8 23:36:21 2026 GMT\n  hsts: null\ndomains:\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-11-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: portal.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 18:52:15 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: azure.microsoft.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr  2 19:05:38 2027 GMT\n  hsts: null\n- host: management.azure.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 21 09:41:22 2027 GMT\n  hsts: null\ndomains:\n- domain: azure.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: microsoft.com\n  dnssec: false\n  caa:\n  - 0 contactemail \"caarecordaware@microsoft.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/azure-logic-apps/security/azure-logic-apps-domain-security.yml
-summary_line: TLSv1.3 · DMARC
+summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Microsoft Azure
 - Integration

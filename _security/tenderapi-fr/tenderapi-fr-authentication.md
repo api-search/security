@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Tenderapi Fr Authentication
+name: tenderapi-fr Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tenderapi-fr declares 1 security scheme(s) across its OpenAPI definitions.

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Infuseai Trust Center
+name: InfuseAI Trust Center
 name_suffix: Trust Center
 overview: InfuseAI maintains a public trust center documenting SOC 2 compliance.
 provider_name: InfuseAI

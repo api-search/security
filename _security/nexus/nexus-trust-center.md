@@ -354,24 +354,6 @@ api_specs:
   slug: nexus-datastore-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/nexus/openapi/nexus-datastore-api-openapi.yml
-- filename: nexus-blobstores-api-openapi.yml
-  format: yaml
-  label: Sonatype Nexus Repository Blob Stores API
-  slug: nexus-blobstores-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/nexus/openapi/nexus-blobstores-api-openapi.yml
-- filename: nexus-repositories-api-openapi.yml
-  format: yaml
-  label: Sonatype Nexus Repository Repositories API
-  slug: nexus-repositories-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/nexus/openapi/nexus-repositories-api-openapi.yml
-- filename: nexus-security-api-openapi.yml
-  format: yaml
-  label: Sonatype Nexus Repository Security API
-  slug: nexus-security-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/nexus/openapi/nexus-security-api-openapi.yml
 certification_count: 3
 certifications:
 - SOC 2 Type II
@@ -380,7 +362,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nexus Trust Center
+name: Sonatype Nexus Repository Trust Center
 name_suffix: Trust Center
 overview: Sonatype Nexus Repository maintains a public trust center documenting SOC 2 Type II, ISO 27001:2022, and NIST CSF 2.0 compliance.
 provider_name: Sonatype Nexus Repository

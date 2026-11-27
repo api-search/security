@@ -34,13 +34,14 @@ schemes:
   name: bearer
   scheme: bearer
   sources:
-  - openapi/microsoft-power-virtual-agents-openapi.yml
+  - openapi/microsoft-power-virtual-agents-conversations-api-openapi.yml
+  - openapi/microsoft-power-virtual-agents-tokens-api-openapi.yml
   type: http
 slug: microsoft-power-virtual-agents-authentication
 source_filename: microsoft-power-virtual-agents-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/microsoft-power-virtual-agents-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Direct Line authentication uses either a long-lived secret or a short-lived token.\n    Supply the value in the Authorization header as `Bearer {secret-or-token}`.\n  sources:\n  - openapi/microsoft-power-virtual-agents-openapi.yml\n"
+source_yaml: "generated: '2026-11-12'\nmethod: derived\nsource: openapi/microsoft-power-virtual-agents-conversations-api-openapi.yml, openapi/microsoft-power-virtual-agents-tokens-api-openapi.yml\nsummary:\n  types:\n  - http\nschemes:\n- name: bearer\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  description: Direct Line authentication uses either a long-lived secret or a short-lived token.\n    Supply the value in the Authorization header as `Bearer {secret-or-token}`.\n  sources:\n  - openapi/microsoft-power-virtual-agents-conversations-api-openapi.yml\n  - openapi/microsoft-power-virtual-agents-tokens-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-power-virtual-agents/authentication/microsoft-power-virtual-agents-authentication.yml
 summary_line: http · 1 scheme
 tags:
@@ -48,4 +49,7 @@ tags:
 - Conversational AI
 - Copilot Studio
 - Microsoft
+- Direct Line
+- Bot Framework
+- Low-Code
 ---

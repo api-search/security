@@ -9,7 +9,7 @@ certifications:
 description: Altus Group publishes a Trust Center covering the ARGUS platform. It names certifications and links the artifacts directly, rather than gating them behind a portal request — the ISO 27001 certificate and three SOC 3 Type 2 reports are downloadable anonymously. The SOC 2 Type II report is the one item held behind a contact form.
 kind: trust-center
 layout: security
-name: Argus Trust Center
+name: ARGUS Trust Center
 name_suffix: Trust Center
 overview: ARGUS maintains a public trust center documenting ISO/IEC 27001 (Altus Group), SOC 3 Type 2 (ARGUS Cloud (2025)), SOC 3 Type 2 (ARGUS Intelligence Platform (2025)), SOC 3 report (Altus Finance Active / Fairways (2024)), and SOC 2 Type II (Altus Group) compliance.
 provider_name: ARGUS

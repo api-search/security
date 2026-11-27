@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Buildops Trust Center
+name: BuildOps Trust Center
 name_suffix: Trust Center
 overview: BuildOps maintains a public trust center documenting SOC 2 Type I compliance.
 provider_name: BuildOps

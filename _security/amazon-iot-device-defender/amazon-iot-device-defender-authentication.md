@@ -406,7 +406,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Iot Device Defender Authentication
+name: Amazon IoT Device Defender Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon IoT Device Defender secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -419,13 +419,83 @@ schemes:
   name: hmac
   parameter: Authorization
   sources:
-  - openapi/amazon-iot-device-defender-openapi-original.yml
+  - openapi/amazon-iot-device-defender-accept-certificate-transfer-api-openapi.yml
+  - openapi/amazon-iot-device-defender-active-violations-api-openapi.yml
+  - openapi/amazon-iot-device-defender-attached-policies-api-openapi.yml
+  - openapi/amazon-iot-device-defender-audit-api-openapi.yml
+  - openapi/amazon-iot-device-defender-authorizer-api-openapi.yml
+  - openapi/amazon-iot-device-defender-authorizers-api-openapi.yml
+  - openapi/amazon-iot-device-defender-behavior-model-training-api-openapi.yml
+  - openapi/amazon-iot-device-defender-billing-groups-api-openapi.yml
+  - openapi/amazon-iot-device-defender-cacertificate-api-openapi.yml
+  - openapi/amazon-iot-device-defender-cacertificates-api-openapi.yml
+  - openapi/amazon-iot-device-defender-cancel-certificate-transfer-api-openapi.yml
+  - openapi/amazon-iot-device-defender-certificate-api-openapi.yml
+  - openapi/amazon-iot-device-defender-certificates-api-openapi.yml
+  - openapi/amazon-iot-device-defender-certificates-by-ca-api-openapi.yml
+  - openapi/amazon-iot-device-defender-certificates-out-going-api-openapi.yml
+  - openapi/amazon-iot-device-defender-confirmdestination-api-openapi.yml
+  - openapi/amazon-iot-device-defender-custom-metric-api-openapi.yml
+  - openapi/amazon-iot-device-defender-custom-metrics-api-openapi.yml
+  - openapi/amazon-iot-device-defender-default-authorizer-api-openapi.yml
+  - openapi/amazon-iot-device-defender-destinations-api-openapi.yml
+  - openapi/amazon-iot-device-defender-detect-api-openapi.yml
+  - openapi/amazon-iot-device-defender-dimensions-api-openapi.yml
+  - openapi/amazon-iot-device-defender-domain-configurations-api-openapi.yml
+  - openapi/amazon-iot-device-defender-dynamic-thing-groups-api-openapi.yml
+  - openapi/amazon-iot-device-defender-effective-policies-api-openapi.yml
+  - openapi/amazon-iot-device-defender-endpoint-api-openapi.yml
+  - openapi/amazon-iot-device-defender-event-configurations-api-openapi.yml
+  - openapi/amazon-iot-device-defender-fleet-metric-api-openapi.yml
+  - openapi/amazon-iot-device-defender-fleet-metrics-api-openapi.yml
+  - openapi/amazon-iot-device-defender-indexing-api-openapi.yml
+  - openapi/amazon-iot-device-defender-indices-api-openapi.yml
+  - openapi/amazon-iot-device-defender-job-templates-api-openapi.yml
+  - openapi/amazon-iot-device-defender-jobs-api-openapi.yml
+  - openapi/amazon-iot-device-defender-keys-and-certificate-api-openapi.yml
+  - openapi/amazon-iot-device-defender-logging-options-api-openapi.yml
+  - openapi/amazon-iot-device-defender-managed-job-templates-api-openapi.yml
+  - openapi/amazon-iot-device-defender-metric-values-api-openapi.yml
+  - openapi/amazon-iot-device-defender-mitigationactions-api-openapi.yml
+  - openapi/amazon-iot-device-defender-ota-updates-api-openapi.yml
+  - openapi/amazon-iot-device-defender-policies-api-openapi.yml
+  - openapi/amazon-iot-device-defender-policy-principals-api-openapi.yml
+  - openapi/amazon-iot-device-defender-policy-targets-api-openapi.yml
+  - openapi/amazon-iot-device-defender-principal-policies-api-openapi.yml
+  - openapi/amazon-iot-device-defender-principals-api-openapi.yml
+  - openapi/amazon-iot-device-defender-provisioning-templates-api-openapi.yml
+  - openapi/amazon-iot-device-defender-registrationcode-api-openapi.yml
+  - openapi/amazon-iot-device-defender-reject-certificate-transfer-api-openapi.yml
+  - openapi/amazon-iot-device-defender-role-aliases-api-openapi.yml
+  - openapi/amazon-iot-device-defender-rules-api-openapi.yml
+  - openapi/amazon-iot-device-defender-security-profile-behaviors-api-openapi.yml
+  - openapi/amazon-iot-device-defender-security-profiles-api-openapi.yml
+  - openapi/amazon-iot-device-defender-security-profiles-for-target-api-openapi.yml
+  - openapi/amazon-iot-device-defender-streams-api-openapi.yml
+  - openapi/amazon-iot-device-defender-tags-api-openapi.yml
+  - openapi/amazon-iot-device-defender-target-policies-api-openapi.yml
+  - openapi/amazon-iot-device-defender-test-authorization-api-openapi.yml
+  - openapi/amazon-iot-device-defender-thing-groups-api-openapi.yml
+  - openapi/amazon-iot-device-defender-thing-registration-tasks-api-openapi.yml
+  - openapi/amazon-iot-device-defender-thing-types-api-openapi.yml
+  - openapi/amazon-iot-device-defender-things-api-openapi.yml
+  - openapi/amazon-iot-device-defender-transfer-certificate-api-openapi.yml
+  - openapi/amazon-iot-device-defender-untag-api-openapi.yml
+  - openapi/amazon-iot-device-defender-v2-logging-level-api-openapi.yml
+  - openapi/amazon-iot-device-defender-v2-logging-options-api-openapi.yml
+  - openapi/amazon-iot-device-defender-violation-events-api-openapi.yml
+  - openapi/amazon-iot-device-defender-violations-api-openapi.yml
   type: apiKey
 slug: amazon-iot-device-defender-authentication
 source_filename: amazon-iot-device-defender-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-iot-device-defender-openapi-original.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-iot-device-defender-openapi-original.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-iot-device-defender-accept-certificate-transfer-api-openapi.yml, openapi/amazon-iot-device-defender-active-violations-api-openapi.yml,\n  openapi/amazon-iot-device-defender-attached-policies-api-openapi.yml, openapi/amazon-iot-device-defender-audit-api-openapi.yml,\n  openapi/amazon-iot-device-defender-authorizer-api-openapi.yml, openapi/amazon-iot-device-defender-authorizers-api-openapi.yml,\n  openapi/amazon-iot-device-defender-behavior-model-training-api-openapi.yml, openapi/amazon-iot-device-defender-billing-groups-api-openapi.yml,\n  openapi/amazon-iot-device-defender-cacertificate-api-openapi.yml, openapi/amazon-iot-device-defender-cacertificates-api-openapi.yml,\n  openapi/amazon-iot-device-defender-cancel-certificate-transfer-api-openapi.yml, openapi/amazon-iot-device-defender-certificate-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type:\
+  \ apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-iot-device-defender-accept-certificate-transfer-api-openapi.yml\n  - openapi/amazon-iot-device-defender-active-violations-api-openapi.yml\n  - openapi/amazon-iot-device-defender-attached-policies-api-openapi.yml\n  - openapi/amazon-iot-device-defender-audit-api-openapi.yml\n  - openapi/amazon-iot-device-defender-authorizer-api-openapi.yml\n  - openapi/amazon-iot-device-defender-authorizers-api-openapi.yml\n  - openapi/amazon-iot-device-defender-behavior-model-training-api-openapi.yml\n  - openapi/amazon-iot-device-defender-billing-groups-api-openapi.yml\n  - openapi/amazon-iot-device-defender-cacertificate-api-openapi.yml\n  - openapi/amazon-iot-device-defender-cacertificates-api-openapi.yml\n  - openapi/amazon-iot-device-defender-cancel-certificate-transfer-api-openapi.yml\n  - openapi/amazon-iot-device-defender-certificate-api-openapi.yml\n  - openapi/amazon-iot-device-defender-certificates-api-openapi.yml\n\
+  \  - openapi/amazon-iot-device-defender-certificates-by-ca-api-openapi.yml\n  - openapi/amazon-iot-device-defender-certificates-out-going-api-openapi.yml\n  - openapi/amazon-iot-device-defender-confirmdestination-api-openapi.yml\n  - openapi/amazon-iot-device-defender-custom-metric-api-openapi.yml\n  - openapi/amazon-iot-device-defender-custom-metrics-api-openapi.yml\n  - openapi/amazon-iot-device-defender-default-authorizer-api-openapi.yml\n  - openapi/amazon-iot-device-defender-destinations-api-openapi.yml\n  - openapi/amazon-iot-device-defender-detect-api-openapi.yml\n  - openapi/amazon-iot-device-defender-dimensions-api-openapi.yml\n  - openapi/amazon-iot-device-defender-domain-configurations-api-openapi.yml\n  - openapi/amazon-iot-device-defender-dynamic-thing-groups-api-openapi.yml\n  - openapi/amazon-iot-device-defender-effective-policies-api-openapi.yml\n  - openapi/amazon-iot-device-defender-endpoint-api-openapi.yml\n  - openapi/amazon-iot-device-defender-event-configurations-api-openapi.yml\n\
+  \  - openapi/amazon-iot-device-defender-fleet-metric-api-openapi.yml\n  - openapi/amazon-iot-device-defender-fleet-metrics-api-openapi.yml\n  - openapi/amazon-iot-device-defender-indexing-api-openapi.yml\n  - openapi/amazon-iot-device-defender-indices-api-openapi.yml\n  - openapi/amazon-iot-device-defender-job-templates-api-openapi.yml\n  - openapi/amazon-iot-device-defender-jobs-api-openapi.yml\n  - openapi/amazon-iot-device-defender-keys-and-certificate-api-openapi.yml\n  - openapi/amazon-iot-device-defender-logging-options-api-openapi.yml\n  - openapi/amazon-iot-device-defender-managed-job-templates-api-openapi.yml\n  - openapi/amazon-iot-device-defender-metric-values-api-openapi.yml\n  - openapi/amazon-iot-device-defender-mitigationactions-api-openapi.yml\n  - openapi/amazon-iot-device-defender-ota-updates-api-openapi.yml\n  - openapi/amazon-iot-device-defender-policies-api-openapi.yml\n  - openapi/amazon-iot-device-defender-policy-principals-api-openapi.yml\n  - openapi/amazon-iot-device-defender-policy-targets-api-openapi.yml\n\
+  \  - openapi/amazon-iot-device-defender-principal-policies-api-openapi.yml\n  - openapi/amazon-iot-device-defender-principals-api-openapi.yml\n  - openapi/amazon-iot-device-defender-provisioning-templates-api-openapi.yml\n  - openapi/amazon-iot-device-defender-registrationcode-api-openapi.yml\n  - openapi/amazon-iot-device-defender-reject-certificate-transfer-api-openapi.yml\n  - openapi/amazon-iot-device-defender-role-aliases-api-openapi.yml\n  - openapi/amazon-iot-device-defender-rules-api-openapi.yml\n  - openapi/amazon-iot-device-defender-security-profile-behaviors-api-openapi.yml\n  - openapi/amazon-iot-device-defender-security-profiles-api-openapi.yml\n  - openapi/amazon-iot-device-defender-security-profiles-for-target-api-openapi.yml\n  - openapi/amazon-iot-device-defender-streams-api-openapi.yml\n  - openapi/amazon-iot-device-defender-tags-api-openapi.yml\n  - openapi/amazon-iot-device-defender-target-policies-api-openapi.yml\n  - openapi/amazon-iot-device-defender-test-authorization-api-openapi.yml\n\
+  \  - openapi/amazon-iot-device-defender-thing-groups-api-openapi.yml\n  - openapi/amazon-iot-device-defender-thing-registration-tasks-api-openapi.yml\n  - openapi/amazon-iot-device-defender-thing-types-api-openapi.yml\n  - openapi/amazon-iot-device-defender-things-api-openapi.yml\n  - openapi/amazon-iot-device-defender-transfer-certificate-api-openapi.yml\n  - openapi/amazon-iot-device-defender-untag-api-openapi.yml\n  - openapi/amazon-iot-device-defender-v2-logging-level-api-openapi.yml\n  - openapi/amazon-iot-device-defender-v2-logging-options-api-openapi.yml\n  - openapi/amazon-iot-device-defender-violation-events-api-openapi.yml\n  - openapi/amazon-iot-device-defender-violations-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-iot-device-defender/authentication/amazon-iot-device-defender-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

@@ -2,36 +2,18 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-ad-manager-companies-api-openapi.yml
-  format: yaml
-  label: Google Ad Manager Companies API
-  slug: google-ad-manager-companies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-companies-api-openapi.yml
 - filename: google-ad-manager-networks-api-openapi.yml
   format: yaml
   label: Google Ad Manager Networks API
   slug: google-ad-manager-networks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-networks-api-openapi.yml
-- filename: google-ad-manager-orders-api-openapi.yml
+- filename: google-ad-manager-operations-api-openapi.yml
   format: yaml
-  label: Google Ad Manager Orders API
-  slug: google-ad-manager-orders-api
+  label: Google Ad Manager Operations API
+  slug: google-ad-manager-operations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-orders-api-openapi.yml
-- filename: google-ad-manager-reports-run-api-openapi.yml
-  format: yaml
-  label: Google Ad Manager Reports:run API
-  slug: google-ad-manager-reports-run-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-reports-run-api-openapi.yml
-- filename: google-ad-manager-ad-units-api-openapi.yml
-  format: yaml
-  label: Google Ad Manager Ad Units API
-  slug: google-ad-manager-ad-units-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-ad-units-api-openapi.yml
+  url: https://artifacts.apis.io/google-ad-manager/openapi/google-ad-manager-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

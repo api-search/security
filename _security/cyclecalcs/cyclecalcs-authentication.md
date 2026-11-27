@@ -185,7 +185,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Cyclecalcs Authentication
+name: CycleCalcs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CycleCalcs secures its APIs with none and apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

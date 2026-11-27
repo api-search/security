@@ -119,7 +119,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Copper Co Authentication
+name: Copper.co Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Copper.co secures its APIs with apiKey and httpSignature across 2 declared security schemes, as derived from its OpenAPI definitions.

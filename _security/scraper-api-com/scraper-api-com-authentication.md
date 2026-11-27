@@ -176,7 +176,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Scraper Api Com Authentication
+name: scraper-api-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: scraper-api-com declares 1 security scheme(s) across its OpenAPI definitions.

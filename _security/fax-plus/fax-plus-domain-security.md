@@ -23,7 +23,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fax Plus Domain Security
+name: Fax.Plus Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Fax.Plus, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Fax.Plus
@@ -37,8 +37,8 @@ source_yaml_url: https://artifacts.apis.io/fax-plus/security/fax-plus-domain-sec
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
 - Fax
-- Communication
+- Communications
 - Cloud
 - HIPAA
-- SaaS
+- Software-as-a-Service
 ---

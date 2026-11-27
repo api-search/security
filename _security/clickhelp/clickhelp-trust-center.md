@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Clickhelp Trust Center
+name: ClickHelp Trust Center
 name_suffix: Trust Center
 overview: ClickHelp maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: ClickHelp

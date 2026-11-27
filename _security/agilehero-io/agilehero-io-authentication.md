@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agilehero Io Authentication
+name: AgileHero Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgileHero declares 2 security scheme(s) across its OpenAPI definitions.

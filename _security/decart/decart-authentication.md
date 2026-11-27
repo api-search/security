@@ -39,18 +39,6 @@ api_specs:
   slug: decart-realtime-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/decart/openapi/decart-realtime-api-openapi.yml
-- filename: decart-verify-api-openapi.yml
-  format: yaml
-  label: Decart Verify API
-  slug: decart-verify-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/decart/openapi/decart-verify-api-openapi.yml
-- filename: decart-watch-stream-api-openapi.yml
-  format: yaml
-  label: Decart Watch Stream API
-  slug: decart-watch-stream-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/decart/openapi/decart-watch-stream-api-openapi.yml
 auth_types:
 - apiKey
 description: 'Decart uses a two-tier API-key model. Server-side callers present a permanent account key (dct_ prefix) in an x-api-key request header. Browser and mobile clients never see that key: a backend mints a short-lived ephemeral client token (ek_ prefix) through POST /v1/client/tokens, optionally scoped to a model allow-list, an origin allow-list, and a maximum realtime session duration. There is no OAuth 2.0, OIDC, or mTLS surface. The gRPC Oasis service carries the same account key in its InitializeRequest message rather than an HTTP header.'

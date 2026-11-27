@@ -38,5 +38,4 @@ tags:
 - Cell and Gene Therapy
 - Clinical Supply
 - Consumer Health
-- No Developer Program
 ---

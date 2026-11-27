@@ -38,7 +38,7 @@ certifications:
 description: 'VividCortex has no trust center on its own domains (probe 2026-07-21: trust=none on vividcortex.com hosts). As a SolarWinds product (DPM), its compliance posture is published on the SolarWinds Trust Center ("Security Resources", Secure by Design program), which names SOC 2 and ISO/IEC 27001 certifications and GDPR compliance.'
 kind: trust-center
 layout: security
-name: Vividcortex Trust Center
+name: VividCortex Trust Center
 name_suffix: Trust Center
 overview: VividCortex maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: VividCortex

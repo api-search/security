@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Firstkey Io Domain Security
+name: FirstKey Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FirstKey, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: FirstKey
@@ -31,9 +31,9 @@ source_yaml_url: https://artifacts.apis.io/firstkey-io/security/firstkey-io-doma
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- Wallet
-- AI
+- Wallets
+- Artificial Intelligence
 - ICP
-- Agent
-- Crypto
+- Agents
+- Cryptocurrency
 ---

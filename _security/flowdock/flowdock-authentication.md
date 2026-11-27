@@ -100,7 +100,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Flowdock Authentication
+name: Flowdock (Discontinued) Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

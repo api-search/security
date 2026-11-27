@@ -179,7 +179,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Snhp Dev Domain Security
+name: SNHP Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for SNHP, probed live across 5 host(s) and 1 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: SNHP

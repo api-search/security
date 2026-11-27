@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dremio Intelligent Lakehouse Platform Trust Center
+name: Dremio | Intelligent Lakehouse Platform Trust Center
 name_suffix: Trust Center
 overview: Dremio | Intelligent Lakehouse Platform maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, and HIPAA compliance.
 provider_name: Dremio | Intelligent Lakehouse Platform

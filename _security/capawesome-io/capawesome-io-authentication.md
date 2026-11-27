@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Capawesome Io Authentication
+name: capawesome-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: capawesome-io declares 1 security scheme(s) across its OpenAPI definitions.

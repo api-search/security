@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 23Andme Trust Center
+name: 23andMe Trust Center
 name_suffix: Trust Center
 overview: 23andMe maintains a public trust center documenting HIPAA Compliance, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 27018, Genetic Information Nondiscrimination Act (GINA), General Data Protection Regulation (GDPR), State Consumer Privacy & Health Privacy Laws (U.S.), FDA Authorization, and Common Rule compliance.
 provider_name: 23andMe

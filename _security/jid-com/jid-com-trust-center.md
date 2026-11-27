@@ -43,7 +43,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Jid Com Trust Center
+name: jid-com Trust Center
 name_suffix: Trust Center
 overview: jid-com maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: jid-com

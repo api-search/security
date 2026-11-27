@@ -299,7 +299,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: derived
-name: Spotdraft Authentication
+name: SpotDraft Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SpotDraft secures its APIs with apiKey and http across 6 declared security schemes, as derived from its OpenAPI definitions.

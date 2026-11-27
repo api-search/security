@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Buyukesim Com Authentication
+name: BuyUKeSIM Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BuyUKeSIM declares 2 security scheme(s) across its OpenAPI definitions.

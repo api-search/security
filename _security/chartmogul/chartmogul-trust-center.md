@@ -5,7 +5,7 @@ api_specs:
   label: ChartMogul Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/openapi/chartmogul-asyncapi.yml
+  url: https://artifacts.apis.io/chartmogul/openapi/chartmogul-asyncapi.yml
 - filename: chartmogul-account-api-openapi.yml
   format: yaml
   label: ChartMogul Account API
@@ -50,7 +50,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Chartmogul Trust Center
+name: ChartMogul Trust Center
 name_suffix: Trust Center
 overview: ChartMogul maintains a public trust center documenting SOC 2, PCI DSS, and GDPR compliance.
 provider_name: ChartMogul

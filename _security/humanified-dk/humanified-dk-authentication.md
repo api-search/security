@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Humanified Dk Authentication
+name: humanified-dk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: humanified-dk declares 0 security scheme(s) across its OpenAPI definitions.

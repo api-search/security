@@ -24,7 +24,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Firecms Co Domain Security
+name: FireCMS Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FireCMS, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: FireCMS
@@ -38,8 +38,8 @@ source_yaml_url: https://artifacts.apis.io/firecms-co/security/firecms-co-domain
 summary_line: TLSv1.3 · HSTS
 tags:
 - Company
-- OpenSource
+- Open Source
 - CMS
 - Firebase
-- AdminPanel
+- Admin Panel
 ---

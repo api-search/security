@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sproutai Trust Center
+name: Sprout.ai Trust Center
 name_suffix: Trust Center
 overview: Sprout.ai maintains a public trust center documenting ISO 27001, ISO 27018, SOC 2 (SSAE 16), PCI DSS, FedRAMP, and HIPAA compliance.
 provider_name: Sprout.ai

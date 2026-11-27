@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: 0Latency Ai Authentication
+name: 0latency-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 0latency-ai declares 3 security scheme(s) across its OpenAPI definitions.

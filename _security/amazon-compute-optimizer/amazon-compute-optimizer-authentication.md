@@ -15,6 +15,24 @@ api_specs:
   slug: amazon-compute-optimizer-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-operations-api-openapi.yml
+- filename: amazon-compute-optimizer-account-api-openapi.yml
+  format: yaml
+  label: Amazon Compute Optimizer Compute Optimizer Account API
+  slug: amazon-compute-optimizer-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-account-api-openapi.yml
+- filename: amazon-compute-optimizer-automation-event-api-openapi.yml
+  format: yaml
+  label: Amazon Compute Optimizer Compute Optimizer Automation Event API
+  slug: amazon-compute-optimizer-automation-event-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-automation-event-api-openapi.yml
+- filename: amazon-compute-optimizer-automation-rule-api-openapi.yml
+  format: yaml
+  label: Amazon Compute Optimizer Compute Optimizer Automation Rule API
+  slug: amazon-compute-optimizer-automation-rule-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-compute-optimizer/openapi/amazon-compute-optimizer-automation-rule-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -30,18 +48,23 @@ provider_name: Amazon Compute Optimizer
 provider_slug: amazon-compute-optimizer
 scheme_count: 1
 schemes:
-- description: Amazon Signature authorization v4
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: hmac
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-compute-optimizer-openapi.yml
+  - openapi/amazon-compute-optimizer-account-api-openapi.yml
+  - openapi/amazon-compute-optimizer-automation-event-api-openapi.yml
+  - openapi/amazon-compute-optimizer-automation-rule-api-openapi.yml
+  - openapi/amazon-compute-optimizer-aws-compute-optimizer-api-openapi.yml
+  - openapi/amazon-compute-optimizer-operations-api-openapi.yml
   type: apiKey
 slug: amazon-compute-optimizer-authentication
 source_filename: amazon-compute-optimizer-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-compute-optimizer-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: hmac\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: Amazon Signature authorization v4\n  sources:\n  - openapi/amazon-compute-optimizer-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-compute-optimizer-account-api-openapi.yml, openapi/amazon-compute-optimizer-automation-event-api-openapi.yml,\n  openapi/amazon-compute-optimizer-automation-rule-api-openapi.yml, openapi/amazon-compute-optimizer-aws-compute-optimizer-api-openapi.yml,\n  openapi/amazon-compute-optimizer-operations-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-compute-optimizer-account-api-openapi.yml\n  - openapi/amazon-compute-optimizer-automation-event-api-openapi.yml\n  - openapi/amazon-compute-optimizer-automation-rule-api-openapi.yml\n  - openapi/amazon-compute-optimizer-aws-compute-optimizer-api-openapi.yml\n\
+  \  - openapi/amazon-compute-optimizer-operations-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-compute-optimizer/authentication/amazon-compute-optimizer-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

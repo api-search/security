@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Orion By Gravity Trust Center
+name: Orion by Gravity Trust Center
 name_suffix: Trust Center
 overview: Orion by Gravity maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: Orion by Gravity

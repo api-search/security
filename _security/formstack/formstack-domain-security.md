@@ -5,7 +5,7 @@ api_specs:
   label: Formstack Webhooks API
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/formstack/refs/heads/main/openapi/formstack-asyncapi.yml
+  url: https://artifacts.apis.io/formstack/openapi/formstack-asyncapi.yml
 - filename: formstack-partnerapi-api-openapi.yml
   format: yaml
   label: Formstack Partner API

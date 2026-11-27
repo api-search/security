@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-automation-automation-accounts-api-openapi.yml
-  format: yaml
-  label: Azure Automation Accounts API
-  slug: microsoft-azure-automation-automation-accounts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-automation/openapi/microsoft-azure-automation-automation-accounts-api-openapi.yml
 - filename: microsoft-azure-automation-operations-api-openapi.yml
   format: yaml
   label: Azure Automation Operations API
@@ -332,7 +326,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Automation Domain Security
+name: Azure Automation Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure Automation, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Azure Automation

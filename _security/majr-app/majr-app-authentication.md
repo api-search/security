@@ -69,7 +69,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Majr App Authentication
+name: majr-app Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: majr-app secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

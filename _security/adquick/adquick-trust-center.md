@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Adquick Trust Center
+name: AdQuick Trust Center
 name_suffix: Trust Center
 overview: AdQuick maintains a public trust center covering its security and compliance posture.
 provider_name: AdQuick

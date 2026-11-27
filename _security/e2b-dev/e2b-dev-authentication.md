@@ -83,7 +83,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: derived
-name: E2B Dev Authentication
+name: E2B Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: E2B secures its APIs with apiKey and http across 5 declared security schemes, as derived from its OpenAPI definitions.

@@ -66,9 +66,8 @@ api_specs:
   slug: zelto-reviews-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/zelto/openapi/zelto-reviews-api-openapi.yml
-certification_count: 5
+certification_count: 4
 certifications:
-- SOC 2
 - ISO 27001
 - PCI DSS
 - HIPAA
@@ -78,16 +77,16 @@ kind: trust-center
 layout: security
 name: Zelto Trust Center
 name_suffix: Trust Center
-overview: Zelto maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
+overview: Zelto maintains a public trust center documenting ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: Zelto
 provider_slug: zelto
 slug: zelto-trust-center
 source_filename: zelto-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-15'\nmethod: searched\nprobe: true\nsource: https://trust.inc/zelto\nurl: https://trust.inc/zelto\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.inc/zelto\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-10-15'\nmethod: searched\nprobe: true\nsource: https://trust.inc/zelto\nurl: https://trust.inc/zelto\ncertifications:\n- ISO 27001\n- PCI DSS\n- HIPAA\n- GDPR\nevidence:\n- source: https://trust.inc/zelto\n  keywords:\n  - soc 2\n  - soc2\n  - iso 27001\n  - pci dss\n  - hipaa\n  - trust center\n  - gdpr\ncertifications_in_progress:\n- SOC 2\ncertification_quotes:\n  SOC 2: Compliance | 1 active | Powered by | Comp AI | SOC 2 Type 2 | In progress | 1 | Frameworks |\n    25 | Policies | 3 | Subproces\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/zelto/security/zelto-trust-center.yml
-summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR
+summary_line: ISO 27001, PCI DSS, HIPAA, GDPR
 tags:
 - Company
 - Voice AI

@@ -27,7 +27,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Blacksmith Sh Trust Center
+name: Blacksmith Trust Center
 name_suffix: Trust Center
 overview: Blacksmith maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Blacksmith

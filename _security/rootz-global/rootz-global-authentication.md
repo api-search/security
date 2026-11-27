@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Rootz Global Authentication
+name: rootz-global Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: rootz-global declares 0 security scheme(s) across its OpenAPI definitions.

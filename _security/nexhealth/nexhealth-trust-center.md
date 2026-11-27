@@ -205,7 +205,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nexhealth Trust Center
+name: NexHealth Trust Center
 name_suffix: Trust Center
 overview: NexHealth maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: NexHealth

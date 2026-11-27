@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Finddoc Ca Authentication
+name: FindDoc Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FindDoc declares 2 security scheme(s) across its OpenAPI definitions.
@@ -65,7 +65,6 @@ source_yaml_url: https://artifacts.apis.io/finddoc-ca/authentication/finddoc-ca-
 summary_line: 2 schemes
 tags:
 - Healthcare
-- API
 - Doctors
 - Clinics
 - Canada

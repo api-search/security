@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Datadog Apm Trust Center
+name: Datadog APM Trust Center
 name_suffix: Trust Center
 overview: Datadog APM maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: Datadog APM

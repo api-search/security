@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Salad Transcription Api Trust Center
+name: Salad Transcription API Trust Center
 name_suffix: Trust Center
 overview: Salad Transcription API maintains a public trust center documenting SOC 2 compliance.
 provider_name: Salad Transcription API

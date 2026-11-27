@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Vynedental Authentication
+name: Vyne Dental Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Vyne Dental declares 1 security scheme(s) across its OpenAPI definitions.

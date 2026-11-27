@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Gallagher Animal Management Authentication
+name: Gallagher Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Gallagher declares 2 security scheme(s) across its OpenAPI definitions.

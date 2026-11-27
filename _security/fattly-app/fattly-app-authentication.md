@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Fattly App Authentication
+name: Fattly AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fattly AI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -61,7 +61,7 @@ source_yaml: "generated: '2026-11-07'\nmethod: derived\nsource: openapi/fattly-a
 source_yaml_url: https://artifacts.apis.io/fattly-app/authentication/fattly-app-authentication.yml
 summary_line: http · 1 scheme
 tags:
-- AI
+- Artificial Intelligence
 - Image Generation
 - Video Generation
 - Marketing

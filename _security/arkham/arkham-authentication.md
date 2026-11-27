@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: arkham-analytics-api-openapi.yml
-  format: yaml
-  label: Arkham Analytics API
-  slug: arkham-analytics-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/arkham/openapi/arkham-analytics-api-openapi.yml
 - filename: arkham-arkm-api-openapi.yml
   format: yaml
   label: Arkham Arkm API
@@ -51,12 +45,6 @@ api_specs:
   slug: arkham-history-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/arkham/openapi/arkham-history-api-openapi.yml
-- filename: arkham-hypercore-api-openapi.yml
-  format: yaml
-  label: Arkham Hypercore API
-  slug: arkham-hypercore-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/arkham/openapi/arkham-hypercore-api-openapi.yml
 - filename: arkham-intelligence-api-openapi.yml
   format: yaml
   label: Arkham Intelligence API
@@ -87,18 +75,6 @@ api_specs:
   slug: arkham-portfolio-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/arkham/openapi/arkham-portfolio-api-openapi.yml
-- filename: arkham-risk-api-openapi.yml
-  format: yaml
-  label: Arkham Risk API
-  slug: arkham-risk-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/arkham/openapi/arkham-risk-api-openapi.yml
-- filename: arkham-subscription-api-openapi.yml
-  format: yaml
-  label: Arkham Subscription API
-  slug: arkham-subscription-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/arkham/openapi/arkham-subscription-api-openapi.yml
 - filename: arkham-swaps-api-openapi.yml
   format: yaml
   label: Arkham Swaps API
@@ -129,12 +105,6 @@ api_specs:
   slug: arkham-tx-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/arkham/openapi/arkham-tx-api-openapi.yml
-- filename: arkham-user-api-openapi.yml
-  format: yaml
-  label: Arkham User API
-  slug: arkham-user-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/arkham/openapi/arkham-user-api-openapi.yml
 - filename: arkham-volume-api-openapi.yml
   format: yaml
   label: Arkham Volume API

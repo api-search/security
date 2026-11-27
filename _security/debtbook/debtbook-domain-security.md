@@ -54,7 +54,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Debtbook Domain Security
+name: DebtBook Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for DebtBook, probed live across 5 host(s) and 1 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: DebtBook

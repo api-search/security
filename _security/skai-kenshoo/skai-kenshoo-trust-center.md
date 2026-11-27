@@ -302,7 +302,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Skai Kenshoo Trust Center
+name: Skai (Kenshoo) Trust Center
 name_suffix: Trust Center
 overview: Skai (Kenshoo) maintains a public trust center documenting ISO/IEC 27001:2013, SOC 2 Type 2, and ISO 9001:2015 compliance.
 provider_name: Skai (Kenshoo)

@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Nekosia Authentication
+name: Nekosia API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Nekosia API secures its APIs with none across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -41,6 +41,5 @@ tags:
 - Image
 - Media
 - Entertainment
-- Free API
 - Open Access
 ---

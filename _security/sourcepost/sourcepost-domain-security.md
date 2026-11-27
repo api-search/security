@@ -12,6 +12,12 @@ api_specs:
   slug: sourcepost-listings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/sourcepost/openapi/sourcepost-listings-api-openapi.yml
+- filename: sourcepost-system-api-openapi.yml
+  format: yaml
+  label: SourcePost System API
+  slug: sourcepost-system-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/sourcepost/openapi/sourcepost-system-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -30,7 +36,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Sourcepost Domain Security
+name: SourcePost Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for SourcePost, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: SourcePost

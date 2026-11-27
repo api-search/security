@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-api-management-ai-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management AI API
-  slug: microsoft-azure-api-management-ai-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-ai-api-openapi.yml
 - filename: microsoft-azure-api-management-apidiagnostic-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management ApiDiagnostic API
@@ -200,24 +194,12 @@ api_specs:
   slug: microsoft-azure-api-management-group-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-group-api-openapi.yml
-- filename: microsoft-azure-api-management-health-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management Health API
-  slug: microsoft-azure-api-management-health-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-health-api-openapi.yml
 - filename: microsoft-azure-api-management-logger-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management Logger API
   slug: microsoft-azure-api-management-logger-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-logger-api-openapi.yml
-- filename: microsoft-azure-api-management-mcp-api-openapi.yml
-  format: yaml
-  label: Microsoft Azure API Management MCP API
-  slug: microsoft-azure-api-management-mcp-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-mcp-api-openapi.yml
 - filename: microsoft-azure-api-management-namedvalue-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management NamedValue API
@@ -338,48 +320,420 @@ api_specs:
   slug: microsoft-azure-api-management-workspacepolicy-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-workspacepolicy-api-openapi.yml
-- filename: microsoft-azure-api-management-apis-api-openapi.yml
+- filename: microsoft-azure-api-management-aigatewayaliasresources-api-openapi.yml
   format: yaml
-  label: Microsoft Azure API Management APIs API
-  slug: microsoft-azure-api-management-apis-api
+  label: Microsoft Azure API Management AI Gateway Alias Resources API
+  slug: microsoft-azure-api-management-aigatewayaliasresources-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-apis-api-openapi.yml
-- filename: microsoft-azure-api-management-authentication-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-aigatewayaliasresources-api-openapi.yml
+- filename: microsoft-azure-api-management-aigatewayapikeyresources-api-openapi.yml
   format: yaml
-  label: Microsoft Azure API Management Authentication API
-  slug: microsoft-azure-api-management-authentication-api
+  label: Microsoft Azure API Management AI Gateway API Key Resources API
+  slug: microsoft-azure-api-management-aigatewayapikeyresources-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-authentication-api-openapi.yml
-- filename: microsoft-azure-api-management-portal-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-aigatewayapikeyresources-api-openapi.yml
+- filename: microsoft-azure-api-management-aigatewaymodelproviderresources-api-openapi.yml
   format: yaml
-  label: Microsoft Azure API Management Portal API
-  slug: microsoft-azure-api-management-portal-api
+  label: Microsoft Azure API Management AI Gateway Model Provider Resources API
+  slug: microsoft-azure-api-management-aigatewaymodelproviderresources-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-portal-api-openapi.yml
-- filename: microsoft-azure-api-management-products-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-aigatewaymodelproviderresources-api-openapi.yml
+- filename: microsoft-azure-api-management-aigatewaymodelresources-api-openapi.yml
   format: yaml
-  label: Microsoft Azure API Management Products API
-  slug: microsoft-azure-api-management-products-api
+  label: Microsoft Azure API Management AI Gateway Model Resources API
+  slug: microsoft-azure-api-management-aigatewaymodelresources-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-products-api-openapi.yml
-- filename: microsoft-azure-api-management-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-aigatewaymodelresources-api-openapi.yml
+- filename: microsoft-azure-api-management-aigatewaynameavailabilityoperations-api-openapi.yml
   format: yaml
-  label: Microsoft Azure API Management Subscriptions API
-  slug: microsoft-azure-api-management-subscriptions-api
+  label: Microsoft Azure API Management AI Gateway Name Availability Operations API
+  slug: microsoft-azure-api-management-aigatewaynameavailabilityoperations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-aigatewaynameavailabilityoperations-api-openapi.yml
+- filename: microsoft-azure-api-management-aigatewayoperations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management AI Gateway Operations API
+  slug: microsoft-azure-api-management-aigatewayoperations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-aigatewayoperations-api-openapi.yml
+- filename: microsoft-azure-api-management-aigatewayresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management AI Gateway Resources API
+  slug: microsoft-azure-api-management-aigatewayresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-aigatewayresources-api-openapi.yml
+- filename: microsoft-azure-api-management-aigatewaytelemetryexporterresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management AI Gateway Telemetry Exporter Resources API
+  slug: microsoft-azure-api-management-aigatewaytelemetryexporterresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-aigatewaytelemetryexporterresources-api-openapi.yml
+- filename: microsoft-azure-api-management-aigatewaytoolserverresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management AI Gateway Tool Server Resources API
+  slug: microsoft-azure-api-management-aigatewaytoolserverresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-aigatewaytoolserverresources-api-openapi.yml
+- filename: microsoft-azure-api-management-aigatewayworkspaceresources-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management AI Gateway Workspace Resources API
+  slug: microsoft-azure-api-management-aigatewayworkspaceresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-aigatewayworkspaceresources-api-openapi.yml
+- filename: microsoft-azure-api-management-allpolicies-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management All Policies API
+  slug: microsoft-azure-api-management-allpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-allpolicies-api-openapi.yml
+- filename: microsoft-azure-api-management-apigateway-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management API Gateway API
+  slug: microsoft-azure-api-management-apigateway-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-apigateway-api-openapi.yml
+- filename: microsoft-azure-api-management-apigatewayconfigconnection-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management API Gateway Config Connection API
+  slug: microsoft-azure-api-management-apigatewayconfigconnection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-apigatewayconfigconnection-api-openapi.yml
+- filename: microsoft-azure-api-management-apiissueattachment-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management API Issue Attachment API
+  slug: microsoft-azure-api-management-apiissueattachment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-apiissueattachment-api-openapi.yml
+- filename: microsoft-azure-api-management-apiissuecomment-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management API Issue Comment API
+  slug: microsoft-azure-api-management-apiissuecomment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-apiissuecomment-api-openapi.yml
+- filename: microsoft-azure-api-management-apimanagementgatewayskus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management API Management Gateway Skus API
+  slug: microsoft-azure-api-management-apimanagementgatewayskus-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-apimanagementgatewayskus-api-openapi.yml
+- filename: microsoft-azure-api-management-apimanagementworkspacelinks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management API Management Workspace Links API
+  slug: microsoft-azure-api-management-apimanagementworkspacelinks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-apimanagementworkspacelinks-api-openapi.yml
+- filename: microsoft-azure-api-management-apioperationpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management API Operation Policy API
+  slug: microsoft-azure-api-management-apioperationpolicy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-apioperationpolicy-api-openapi.yml
+- filename: microsoft-azure-api-management-apioperationtag-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management API Operation Tag API
+  slug: microsoft-azure-api-management-apioperationtag-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-apioperationtag-api-openapi.yml
+- filename: microsoft-azure-api-management-apisbytag-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management APIs By Tag API
+  slug: microsoft-azure-api-management-apisbytag-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-apisbytag-api-openapi.yml
+- filename: microsoft-azure-api-management-authorization-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Authorization API
+  slug: microsoft-azure-api-management-authorization-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-authorization-api-openapi.yml
+- filename: microsoft-azure-api-management-authorizationaccesspolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Authorization Access Policy API
+  slug: microsoft-azure-api-management-authorizationaccesspolicy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-authorizationaccesspolicy-api-openapi.yml
+- filename: microsoft-azure-api-management-authorizationconfirmconsentcode-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Authorization Confirm Consent Code API
+  slug: microsoft-azure-api-management-authorizationconfirmconsentcode-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-authorizationconfirmconsentcode-api-openapi.yml
+- filename: microsoft-azure-api-management-authorizationloginlinks-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Authorization Login Links API
+  slug: microsoft-azure-api-management-authorizationloginlinks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-authorizationloginlinks-api-openapi.yml
+- filename: microsoft-azure-api-management-authorizationprovider-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Authorization Provider API
+  slug: microsoft-azure-api-management-authorizationprovider-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-authorizationprovider-api-openapi.yml
+- filename: microsoft-azure-api-management-authorizations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Authorizations API
+  slug: microsoft-azure-api-management-authorizations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-authorizations-api-openapi.yml
+- filename: microsoft-azure-api-management-authorizationserver-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Authorization Server API
+  slug: microsoft-azure-api-management-authorizationserver-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-authorizationserver-api-openapi.yml
+- filename: microsoft-azure-api-management-cache-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Cache API
+  slug: microsoft-azure-api-management-cache-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-cache-api-openapi.yml
+- filename: microsoft-azure-api-management-contenttypecontentitem-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Content Type Content Item API
+  slug: microsoft-azure-api-management-contenttypecontentitem-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-contenttypecontentitem-api-openapi.yml
+- filename: microsoft-azure-api-management-delegationsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Delegation Settings API
+  slug: microsoft-azure-api-management-delegationsettings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-delegationsettings-api-openapi.yml
+- filename: microsoft-azure-api-management-deletedservice-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Deleted Service API
+  slug: microsoft-azure-api-management-deletedservice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-deletedservice-api-openapi.yml
+- filename: microsoft-azure-api-management-documentation-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Documentation API
+  slug: microsoft-azure-api-management-documentation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-documentation-api-openapi.yml
+- filename: microsoft-azure-api-management-graphqlapiresolverpolicy-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Graph QL API Resolver Policy API
+  slug: microsoft-azure-api-management-graphqlapiresolverpolicy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-graphqlapiresolverpolicy-api-openapi.yml
+- filename: microsoft-azure-api-management-issue-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Issue API
+  slug: microsoft-azure-api-management-issue-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-issue-api-openapi.yml
+- filename: microsoft-azure-api-management-networkstatus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Network Status API
+  slug: microsoft-azure-api-management-networkstatus-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-networkstatus-api-openapi.yml
+- filename: microsoft-azure-api-management-notificationrecipientemail-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Notification Recipient Email API
+  slug: microsoft-azure-api-management-notificationrecipientemail-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-notificationrecipientemail-api-openapi.yml
+- filename: microsoft-azure-api-management-notificationrecipientuser-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Notification Recipient User API
+  slug: microsoft-azure-api-management-notificationrecipientuser-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-notificationrecipientuser-api-openapi.yml
+- filename: microsoft-azure-api-management-openidconnectprovider-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Openid Connect Provider API
+  slug: microsoft-azure-api-management-openidconnectprovider-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-openidconnectprovider-api-openapi.yml
+- filename: microsoft-azure-api-management-operationresults-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Operation Results API
+  slug: microsoft-azure-api-management-operationresults-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-operationresults-api-openapi.yml
+- filename: microsoft-azure-api-management-operations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Operations API
+  slug: microsoft-azure-api-management-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-operations-api-openapi.yml
+- filename: microsoft-azure-api-management-outboundnetworkdependenciesendpoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Outbound Network Dependencies Endpoints API
+  slug: microsoft-azure-api-management-outboundnetworkdependenciesendpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-outboundnetworkdependenciesendpoints-api-openapi.yml
+- filename: microsoft-azure-api-management-performconnectivitycheck-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Perform Connectivity Check API
+  slug: microsoft-azure-api-management-performconnectivitycheck-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-performconnectivitycheck-api-openapi.yml
+- filename: microsoft-azure-api-management-policydescription-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Policy Description API
+  slug: microsoft-azure-api-management-policydescription-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-policydescription-api-openapi.yml
+- filename: microsoft-azure-api-management-policyrestriction-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Policy Restriction API
+  slug: microsoft-azure-api-management-policyrestriction-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-policyrestriction-api-openapi.yml
+- filename: microsoft-azure-api-management-policyrestrictions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Policy Restrictions API
+  slug: microsoft-azure-api-management-policyrestrictions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-policyrestrictions-api-openapi.yml
+- filename: microsoft-azure-api-management-policyrestrictionsvalidations-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Policy Restrictions Validations API
+  slug: microsoft-azure-api-management-policyrestrictionsvalidations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-policyrestrictionsvalidations-api-openapi.yml
+- filename: microsoft-azure-api-management-portalconfig-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Portal Config API
+  slug: microsoft-azure-api-management-portalconfig-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-portalconfig-api-openapi.yml
+- filename: microsoft-azure-api-management-portalrevision-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Portal Revision API
+  slug: microsoft-azure-api-management-portalrevision-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-portalrevision-api-openapi.yml
+- filename: microsoft-azure-api-management-portalsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Portal Settings API
+  slug: microsoft-azure-api-management-portalsettings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-portalsettings-api-openapi.yml
+- filename: microsoft-azure-api-management-productsbytag-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Products By Tag API
+  slug: microsoft-azure-api-management-productsbytag-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-productsbytag-api-openapi.yml
+- filename: microsoft-azure-api-management-quotabycounterkeys-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Quota By Counter Keys API
+  slug: microsoft-azure-api-management-quotabycounterkeys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-quotabycounterkeys-api-openapi.yml
+- filename: microsoft-azure-api-management-quotabyperiodkeys-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Quota By Period Keys API
+  slug: microsoft-azure-api-management-quotabyperiodkeys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-quotabyperiodkeys-api-openapi.yml
+- filename: microsoft-azure-api-management-region-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Region API
+  slug: microsoft-azure-api-management-region-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-region-api-openapi.yml
+- filename: microsoft-azure-api-management-reports-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Reports API
+  slug: microsoft-azure-api-management-reports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-reports-api-openapi.yml
+- filename: microsoft-azure-api-management-signinsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Sign In Settings API
+  slug: microsoft-azure-api-management-signinsettings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-signinsettings-api-openapi.yml
+- filename: microsoft-azure-api-management-signupsettings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Sign Up Settings API
+  slug: microsoft-azure-api-management-signupsettings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-signupsettings-api-openapi.yml
+- filename: microsoft-azure-api-management-skus-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Skus API
+  slug: microsoft-azure-api-management-skus-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-skus-api-openapi.yml
+- filename: microsoft-azure-api-management-tenantaccess-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Tenant Access API
+  slug: microsoft-azure-api-management-tenantaccess-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-tenantaccess-api-openapi.yml
+- filename: microsoft-azure-api-management-tenantaccessgit-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Tenant Access Git API
+  slug: microsoft-azure-api-management-tenantaccessgit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-tenantaccessgit-api-openapi.yml
+- filename: microsoft-azure-api-management-tenantconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Tenant Configuration API
+  slug: microsoft-azure-api-management-tenantconfiguration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-tenantconfiguration-api-openapi.yml
+- filename: microsoft-azure-api-management-tenantconfigurationsyncstate-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Tenant Configuration Sync State API
+  slug: microsoft-azure-api-management-tenantconfigurationsyncstate-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-tenantconfigurationsyncstate-api-openapi.yml
+- filename: microsoft-azure-api-management-userconfirmationpasswordsend-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management User Confirmation Password Send API
+  slug: microsoft-azure-api-management-userconfirmationpasswordsend-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-userconfirmationpasswordsend-api-openapi.yml
 - filename: microsoft-azure-api-management-api-product-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management Api Product API
   slug: microsoft-azure-api-management-api-product-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-api-product-api-openapi.yml
+- filename: microsoft-azure-api-management-content-type-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Content Type API
+  slug: microsoft-azure-api-management-content-type-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-content-type-api-openapi.yml
+- filename: microsoft-azure-api-management-email-template-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Email Template API
+  slug: microsoft-azure-api-management-email-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-email-template-api-openapi.yml
+- filename: microsoft-azure-api-management-email-templates-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Email Templates API
+  slug: microsoft-azure-api-management-email-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-email-templates-api-openapi.yml
 - filename: microsoft-azure-api-management-group-user-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management Group User API
   slug: microsoft-azure-api-management-group-user-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-group-user-api-openapi.yml
+- filename: microsoft-azure-api-management-identity-provider-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Identity Provider API
+  slug: microsoft-azure-api-management-identity-provider-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-identity-provider-api-openapi.yml
+- filename: microsoft-azure-api-management-private-endpoint-connections-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Private Endpoint Connections API
+  slug: microsoft-azure-api-management-private-endpoint-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-private-endpoint-connections-api-openapi.yml
 - filename: microsoft-azure-api-management-product-api-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management Product API
@@ -398,6 +752,24 @@ api_specs:
   slug: microsoft-azure-api-management-product-tag-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-product-tag-api-openapi.yml
+- filename: microsoft-azure-api-management-subscriptions-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Subscriptions API
+  slug: microsoft-azure-api-management-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-subscriptions-api-openapi.yml
+- filename: microsoft-azure-api-management-tag-resource-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Tag Resource API
+  slug: microsoft-azure-api-management-tag-resource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-tag-resource-api-openapi.yml
+- filename: microsoft-azure-api-management-tenant-settings-api-openapi.yml
+  format: yaml
+  label: Microsoft Azure API Management Tenant Settings API
+  slug: microsoft-azure-api-management-tenant-settings-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-api-management/openapi/microsoft-azure-api-management-tenant-settings-api-openapi.yml
 - filename: microsoft-azure-api-management-user-group-api-openapi.yml
   format: yaml
   label: Microsoft Azure API Management User Group API
@@ -429,7 +801,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Microsoft Azure Api Management Authentication
+name: Microsoft Azure API Management Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit

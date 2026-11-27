@@ -87,7 +87,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Gotowebinar Authentication
+name: GoToWebinar Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

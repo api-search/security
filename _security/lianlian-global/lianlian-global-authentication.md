@@ -282,7 +282,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: derived
-name: Lianlian Global Authentication
+name: LianLian Global Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

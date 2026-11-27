@@ -15,7 +15,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Open Government Mexico Datos Domain Security
+name: Open Government, Mexico Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Open Government, Mexico, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC absent.'
 provider_name: Open Government, Mexico

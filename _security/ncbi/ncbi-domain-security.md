@@ -114,7 +114,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Ncbi Domain Security
+name: National Center for Biotechnology Information (NCBI) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for National Center for Biotechnology Information (NCBI), probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC absent.'
 provider_name: National Center for Biotechnology Information (NCBI)

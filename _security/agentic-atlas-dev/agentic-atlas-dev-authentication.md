@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentic Atlas Dev Authentication
+name: Agentic Atlas Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agentic Atlas declares 0 security scheme(s) across its OpenAPI definitions.

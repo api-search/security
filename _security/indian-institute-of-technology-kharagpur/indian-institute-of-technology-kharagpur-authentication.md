@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Indian Institute Of Technology Kharagpur Authentication
+name: Indian Institute of Technology Kharagpur Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Indian Institute of Technology Kharagpur secures its APIs with none and session across 4 declared security schemes, as derived from its OpenAPI definitions.

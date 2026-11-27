@@ -2,18 +2,60 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: microsoft-azure-front-door-operations-api-openapi.yml
+- filename: microsoft-azure-front-door-checkfrontdoornameavailability-api-openapi.yml
   format: yaml
-  label: Azure Front Door Operations API
-  slug: microsoft-azure-front-door-operations-api
+  label: Azure Front Door Check Front Door Name Availability API
+  slug: microsoft-azure-front-door-checkfrontdoornameavailability-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-operations-api-openapi.yml
-- filename: microsoft-azure-front-door-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-checkfrontdoornameavailability-api-openapi.yml
+- filename: microsoft-azure-front-door-checkfrontdoornameavailabilitywithsubscription-api-openapi.yml
   format: yaml
-  label: Azure Front Door Profiles API
-  slug: microsoft-azure-front-door-profiles-api
+  label: Azure Front Door Check Front Door Name Availability With Subscription API
+  slug: microsoft-azure-front-door-checkfrontdoornameavailabilitywithsubscription-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-profiles-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-checkfrontdoornameavailabilitywithsubscription-api-openapi.yml
+- filename: microsoft-azure-front-door-experiments-api-openapi.yml
+  format: yaml
+  label: Azure Front Door Experiments API
+  slug: microsoft-azure-front-door-experiments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-experiments-api-openapi.yml
+- filename: microsoft-azure-front-door-frontdoors-api-openapi.yml
+  format: yaml
+  label: Azure Front Door Front Doors API
+  slug: microsoft-azure-front-door-frontdoors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-frontdoors-api-openapi.yml
+- filename: microsoft-azure-front-door-networkexperimentprofiles-api-openapi.yml
+  format: yaml
+  label: Azure Front Door Network Experiment Profiles API
+  slug: microsoft-azure-front-door-networkexperimentprofiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-networkexperimentprofiles-api-openapi.yml
+- filename: microsoft-azure-front-door-preconfiguredendpoints-api-openapi.yml
+  format: yaml
+  label: Azure Front Door Preconfigured Endpoints API
+  slug: microsoft-azure-front-door-preconfiguredendpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-preconfiguredendpoints-api-openapi.yml
+- filename: microsoft-azure-front-door-reports-api-openapi.yml
+  format: yaml
+  label: Azure Front Door Reports API
+  slug: microsoft-azure-front-door-reports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-reports-api-openapi.yml
+- filename: microsoft-azure-front-door-webapplicationfirewallmanagedrulesets-api-openapi.yml
+  format: yaml
+  label: Azure Front Door Web Application Firewall Managed Rule Sets API
+  slug: microsoft-azure-front-door-webapplicationfirewallmanagedrulesets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-webapplicationfirewallmanagedrulesets-api-openapi.yml
+- filename: microsoft-azure-front-door-webapplicationfirewallpolicies-api-openapi.yml
+  format: yaml
+  label: Azure Front Door Web Application Firewall Policies API
+  slug: microsoft-azure-front-door-webapplicationfirewallpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-front-door/openapi/microsoft-azure-front-door-webapplicationfirewallpolicies-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -21,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Microsoft Azure Front Door Authentication
+name: Azure Front Door Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit

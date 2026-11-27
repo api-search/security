@@ -817,7 +817,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Elk Stack Trust Center
+name: Elastic Stack Trust Center
 name_suffix: Trust Center
 overview: Elastic Stack maintains a public trust center documenting FedRAMP High, FedRAMP Moderate, PCI DSS (Level 1 Service Provider), CSA STAR, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, SOC 2, SOC 3, TISAX, HIPAA, Cyber Essentials Plus, IRAP Assessed — Protected B, and GDPR compliance.
 provider_name: Elastic Stack

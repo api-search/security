@@ -6,25 +6,23 @@ api_specs:
   slug: clawcall-dev-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clawcall-dev/openapi/_ae-authored/clawcall-dev-openapi-generated.yml
-certification_count: 2
-certifications:
-- SOC 2
-- HIPAA
+certification_count: 0
+certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Clawcall Dev Trust Center
+name: ClawCall Trust Center
 name_suffix: Trust Center
-overview: ClawCall maintains a public trust center documenting SOC 2 and HIPAA compliance.
+overview: ClawCall maintains a public trust center covering its security and compliance posture.
 provider_name: ClawCall
 provider_slug: clawcall-dev
 slug: clawcall-dev-trust-center
 source_filename: clawcall-dev-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-11-03'\nmethod: searched\nprobe: true\nsource: https://clawcall.dev/security\nurl: https://clawcall.dev/security\ncertifications:\n- SOC 2\n- HIPAA\nevidence:\n- source: https://clawcall.dev/security\n  keywords:\n  - soc 2\n  - hipaa\n"
+source_yaml: "generated: '2026-11-03'\nmethod: searched\nprobe: true\nsource: https://clawcall.dev/security\nurl: https://clawcall.dev/security\ncertifications: []\nevidence:\n- source: https://clawcall.dev/security\n  keywords:\n  - soc 2\n  - hipaa\ncertifications_not_held:\n- SOC 2\n- HIPAA\ncertification_quotes:\n  SOC 2: ven to a business or agency for your errand. | No SOC 2 attestation today. | We&#x27;ll publish\n    when we have one. | Instructi\n  HIPAA: an AI when asked | . | What we don&#x27;t do | No HIPAA attestation today. | ClawCall can give\n    your own health details to a b\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/clawcall-dev/security/clawcall-dev-trust-center.yml
-summary_line: SOC 2, HIPAA
+summary_line: trust center published
 tags:
 - AI Phone Calls
 - Developer Tools

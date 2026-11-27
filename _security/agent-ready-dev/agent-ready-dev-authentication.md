@@ -21,12 +21,6 @@ api_specs:
   slug: agent-ready-dev-scans-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/agent-ready-dev/openapi/agent-ready-dev-scans-api-openapi.yml
-- filename: agent-ready-dev-x402-api-openapi.yml
-  format: yaml
-  label: Agent Ready X402 API
-  slug: agent-ready-dev-x402-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/agent-ready-dev/openapi/agent-ready-dev-x402-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -34,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agent Ready Dev Authentication
+name: Agent Ready Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Ready secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

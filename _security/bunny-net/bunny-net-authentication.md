@@ -9,12 +9,6 @@ api_specs:
   slug: stream-webhooks
   spec_type: AsyncAPI
   url: https://artifacts.apis.io/bunny-net/asyncapi/bunny-net-stream-webhooks-asyncapi.yml
-- filename: bunny-net-billing-api-openapi.yml
-  format: yaml
-  label: Bunny.net Billing API
-  slug: bunny-net-billing-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-billing-api-openapi.yml
 - filename: bunny-net-countries-api-openapi.yml
   format: yaml
   label: Bunny.net Countries API
@@ -33,36 +27,24 @@ api_specs:
   slug: bunny-net-purge-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-purge-api-openapi.yml
-- filename: bunny-net-regions-api-openapi.yml
-  format: yaml
-  label: Bunny.net Regions API
-  slug: bunny-net-regions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-regions-api-openapi.yml
 - filename: bunny-net-statistics-api-openapi.yml
   format: yaml
   label: Bunny.net Statistics API
   slug: bunny-net-statistics-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-statistics-api-openapi.yml
-- filename: bunny-net-storagezones-api-openapi.yml
-  format: yaml
-  label: Bunny.net StorageZones API
-  slug: bunny-net-storagezones-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-storagezones-api-openapi.yml
-- filename: bunny-net-stream-api-openapi.yml
-  format: yaml
-  label: Bunny.net Stream API
-  slug: bunny-net-stream-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-stream-api-openapi.yml
 - filename: bunny-net-api-keys-api-openapi.yml
   format: yaml
   label: Bunny.net API Keys API
   slug: bunny-net-api-keys-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-api-keys-api-openapi.yml
+- filename: bunny-net-dns-zones-api-openapi.yml
+  format: yaml
+  label: Bunny.net DNS Zones API
+  slug: bunny-net-dns-zones-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-dns-zones-api-openapi.yml
 - filename: bunny-net-dns-zone-api-openapi.yml
   format: yaml
   label: Bunny.net DNS Zone API
@@ -105,12 +87,6 @@ api_specs:
   slug: bunny-net-user-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-user-api-openapi.yml
-- filename: bunny-net-dns-zones-api-openapi.yml
-  format: yaml
-  label: Bunny.net DNS Zones API
-  slug: bunny-net-dns-zones-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bunny-net/openapi/bunny-net-dns-zones-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -118,7 +94,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Bunny Net Authentication
+name: Bunny.net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bunny.net secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

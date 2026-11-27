@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Applike Authentication
+name: AppLike Group Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AppLike Group declares 6 security scheme(s) across its OpenAPI definitions.

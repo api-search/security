@@ -913,7 +913,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Thehiveryiq Com Authentication
+name: Hive Civilization Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hive Civilization secures its APIs with none, x402-payment, apiKey, and ed25519-signed-request across 6 declared security schemes, as derived from its OpenAPI definitions.

@@ -122,7 +122,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gemini Trust Trust Center
+name: Gemini Trust Company Trust Center
 name_suffix: Trust Center
 overview: Gemini Trust Company maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Gemini Trust Company

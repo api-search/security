@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Mai Authentication
+name: MAI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MAI declares 0 security scheme(s) across its OpenAPI definitions.

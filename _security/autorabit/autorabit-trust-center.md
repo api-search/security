@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Autorabit Trust Center
+name: AutoRABIT Trust Center
 name_suffix: Trust Center
 overview: AutoRABIT maintains a public trust center documenting FedRAMP compliance.
 provider_name: AutoRABIT

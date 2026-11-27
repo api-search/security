@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Atomicreps Com Authentication
+name: Atomic Reps AB Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Atomic Reps AB declares 0 security scheme(s) across its OpenAPI definitions.

@@ -101,7 +101,7 @@ certifications: []
 description: 'Offendersearch publishes a Trust & Security page describing its security and compliance posture. IMPORTANT — the page claims no completed third-party certification: it describes "SOC 2-aligned controls" and the API documentation states "a formal SOC 2 examination is underway". HIPAA is described as a "HIPAA-ready path" with a Business Associate Agreement available to eligible enterprise accounts, not as a HIPAA attestation. Recorded here as claimed posture, not as held certifications, so the catalog does not credit a certification the provider has not asserted.'
 kind: trust-center
 layout: security
-name: Offendersearch Api Trust Center
+name: Offendersearch API Trust Center
 name_suffix: Trust Center
 overview: Offendersearch API maintains a public trust center covering its security and compliance posture.
 provider_name: Offendersearch API

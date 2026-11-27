@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Icims Trust Center
+name: iCIMS Trust Center
 name_suffix: Trust Center
 overview: iCIMS maintains a public trust center documenting SOC 2, ISO 27001, GDPR, and CSA STAR compliance.
 provider_name: iCIMS

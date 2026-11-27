@@ -19,7 +19,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Taskcall Trust Center
+name: TaskCall Trust Center
 name_suffix: Trust Center
 overview: TaskCall maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: TaskCall

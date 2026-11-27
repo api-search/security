@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Tradingview Authentication
+name: TradingView Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

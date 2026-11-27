@@ -97,7 +97,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Askui Trust Center
+name: AskUI Trust Center
 name_suffix: Trust Center
 overview: AskUI maintains a public trust center documenting ISO/IEC 27001:2022 and GDPR compliance.
 provider_name: AskUI

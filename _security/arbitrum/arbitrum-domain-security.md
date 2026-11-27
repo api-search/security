@@ -5,19 +5,19 @@ api_specs:
   label: Arbitrum One JSON-RPC
   slug: one-rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbitrum/refs/heads/main/asyncapi/arbitrum-asyncapi.yml
+  url: https://artifacts.apis.io/arbitrum/asyncapi/arbitrum-asyncapi.yml
 - filename: arbitrum-asyncapi.yml
   format: yaml
   label: Arbitrum Nova JSON-RPC
   slug: nova-rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbitrum/refs/heads/main/asyncapi/arbitrum-asyncapi.yml
+  url: https://artifacts.apis.io/arbitrum/asyncapi/arbitrum-asyncapi.yml
 - filename: arbitrum-asyncapi.yml
   format: yaml
   label: Arbitrum Sepolia JSON-RPC
   slug: sepolia-rpc
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arbitrum/refs/heads/main/asyncapi/arbitrum-asyncapi.yml
+  url: https://artifacts.apis.io/arbitrum/asyncapi/arbitrum-asyncapi.yml
 - filename: arbitrum-json-rpc-api-openapi.yml
   format: yaml
   label: Arbitrum JSON-RPC API

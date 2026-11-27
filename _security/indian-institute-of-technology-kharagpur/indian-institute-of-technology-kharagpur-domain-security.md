@@ -45,7 +45,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Indian Institute Of Technology Kharagpur Domain Security
+name: Indian Institute of Technology Kharagpur Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Indian Institute of Technology Kharagpur, probed live across 3 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=reject).'
 provider_name: Indian Institute of Technology Kharagpur

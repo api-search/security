@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cred Trust Center
+name: CRED Trust Center
 name_suffix: Trust Center
 overview: CRED maintains a public trust center documenting ISO 27001 and PCI DSS compliance.
 provider_name: CRED

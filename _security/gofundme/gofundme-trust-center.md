@@ -428,7 +428,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gofundme Trust Center
+name: GoFundMe Trust Center
 name_suffix: Trust Center
 overview: GoFundMe maintains a public trust center documenting PCI DSS, NIST Cybersecurity Framework, and ISO 27001 compliance.
 provider_name: GoFundMe

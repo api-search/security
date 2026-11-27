@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Kotak Authentication
+name: Kotak Mahindra Bank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Kotak Mahindra Bank secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Apished Com Authentication
+name: apished-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: apished-com declares 0 security scheme(s) across its OpenAPI definitions.

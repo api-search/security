@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Level Ai Trust Center
+name: Level AI Trust Center
 name_suffix: Trust Center
 overview: Level AI maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Level AI

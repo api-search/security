@@ -63,7 +63,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gc Ai Trust Center
+name: GC AI Trust Center
 name_suffix: Trust Center
 overview: GC AI maintains a public trust center documenting SOC 2 Type 1, SOC 2 Type 2, SOC 3, and GDPR compliance.
 provider_name: GC AI

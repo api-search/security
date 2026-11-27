@@ -442,7 +442,7 @@ certifications:
 description: dotCMS runs a hosted trust center at security.dotcms.com carrying its certifications, the CAIQ and a gated SOC 2 report request. The public summary page at /product/security-compliance names the certifications outright, so they are recorded here from the provider's own words rather than inferred from a badge image.
 kind: trust-center
 layout: security
-name: Dotcms Trust Center
+name: dotCMS Trust Center
 name_suffix: Trust Center
 overview: dotCMS maintains a public trust center documenting ISO/IEC 27001:2022, ISO/IEC 42001:2023, SOC 2 Type II, TX-RAMP Level II, and CSA CAIQ compliance.
 provider_name: dotCMS

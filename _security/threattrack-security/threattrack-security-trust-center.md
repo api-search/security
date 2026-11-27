@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Threattrack Security Trust Center
+name: ThreatTrack Security Trust Center
 name_suffix: Trust Center
 overview: ThreatTrack Security maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: ThreatTrack Security

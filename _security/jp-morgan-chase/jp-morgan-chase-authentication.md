@@ -398,7 +398,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Jp Morgan Chase Authentication
+name: JPMorgan Chase Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JPMorgan Chase declares 0 security scheme(s) across its OpenAPI definitions.

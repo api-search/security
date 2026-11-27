@@ -83,7 +83,7 @@ hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed
-name: Medialab Ai Domain Security
+name: MediaLab.AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for MediaLab.AI, probed live across 8 host(s) and 4 registrable domain(s). 8 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: MediaLab.AI

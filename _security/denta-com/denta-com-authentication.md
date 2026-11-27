@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Denta Com Authentication
+name: Denta Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Denta declares 1 security scheme(s) across its OpenAPI definitions.

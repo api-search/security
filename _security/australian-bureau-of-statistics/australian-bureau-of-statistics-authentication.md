@@ -23,7 +23,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Australian Bureau Of Statistics Authentication
+name: Australian Bureau of Statistics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Australian Bureau of Statistics secures its APIs with apiKey and none across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Decortefutureindustries Com Authentication
+name: Decorte Future Industries Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Decorte Future Industries declares 0 security scheme(s) across its OpenAPI definitions.

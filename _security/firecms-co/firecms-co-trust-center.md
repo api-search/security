@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Firecms Co Trust Center
+name: FireCMS Trust Center
 name_suffix: Trust Center
 overview: FireCMS maintains a public trust center documenting GDPR compliance.
 provider_name: FireCMS
@@ -26,9 +26,9 @@ source_yaml_url: https://artifacts.apis.io/firecms-co/security/firecms-co-trust-
 summary_line: GDPR
 tags:
 - Company
-- OpenSource
+- Open Source
 - CMS
 - Firebase
-- AdminPanel
+- Admin Panel
 trust_url: https://firecms.co/security/
 ---

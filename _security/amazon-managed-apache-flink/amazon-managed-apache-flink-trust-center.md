@@ -12,6 +12,12 @@ api_specs:
   slug: amazon-managed-apache-flink-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-managed-apache-flink/openapi/amazon-managed-apache-flink-operations-api-openapi.yml
+- filename: amazon-managed-apache-flink-snapshot-api-openapi.yml
+  format: yaml
+  label: Amazon Managed Service for Apache Flink Managed Apache Flink Snapshot API
+  slug: amazon-managed-apache-flink-snapshot-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-managed-apache-flink/openapi/amazon-managed-apache-flink-snapshot-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -22,7 +28,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Managed Apache Flink Trust Center
+name: Amazon Managed Service for Apache Flink Trust Center
 name_suffix: Trust Center
 overview: Amazon Managed Service for Apache Flink maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon Managed Service for Apache Flink

@@ -3,18 +3,78 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: google-gemini-content-generation-api-openapi.yml
+- filename: google-gemini-auth-tokens-api-openapi.yml
   format: yaml
-  label: Google Gemini Content Generation API
-  slug: google-gemini-content-generation-api
+  label: Google Gemini Gemini Auth Tokens API
+  slug: google-gemini-auth-tokens-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-content-generation-api-openapi.yml
-- filename: google-gemini-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-auth-tokens-api-openapi.yml
+- filename: google-gemini-batches-api-openapi.yml
   format: yaml
-  label: Google Gemini Embeddings API
-  slug: google-gemini-embeddings-api
+  label: Google Gemini Gemini Batches API
+  slug: google-gemini-batches-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-embeddings-api-openapi.yml
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-batches-api-openapi.yml
+- filename: google-gemini-corpora-api-openapi.yml
+  format: yaml
+  label: Google Gemini Gemini Corpora API
+  slug: google-gemini-corpora-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-corpora-api-openapi.yml
+- filename: google-gemini-dynamic-api-openapi.yml
+  format: yaml
+  label: Google Gemini Gemini Dynamic API
+  slug: google-gemini-dynamic-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-dynamic-api-openapi.yml
+- filename: google-gemini-environments-api-openapi.yml
+  format: yaml
+  label: Google Gemini Gemini Environments API
+  slug: google-gemini-environments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-environments-api-openapi.yml
+- filename: google-gemini-files-api-openapi.yml
+  format: yaml
+  label: Google Gemini Gemini Files API
+  slug: google-gemini-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-files-api-openapi.yml
+- filename: google-gemini-media-api-openapi.yml
+  format: yaml
+  label: Google Gemini Gemini Media API
+  slug: google-gemini-media-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-media-api-openapi.yml
+- filename: google-gemini-models-api-openapi.yml
+  format: yaml
+  label: Google Gemini Gemini Models API
+  slug: google-gemini-models-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-models-api-openapi.yml
+- filename: google-gemini-cachedcontents-api-openapi.yml
+  format: yaml
+  label: Google Gemini Cached Contents API
+  slug: google-gemini-cachedcontents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-cachedcontents-api-openapi.yml
+- filename: google-gemini-filesearchstores-api-openapi.yml
+  format: yaml
+  label: Google Gemini File Search Stores API
+  slug: google-gemini-filesearchstores-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-filesearchstores-api-openapi.yml
+- filename: google-gemini-generatedfiles-api-openapi.yml
+  format: yaml
+  label: Google Gemini Generated Files API
+  slug: google-gemini-generatedfiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-generatedfiles-api-openapi.yml
+- filename: google-gemini-tunedmodels-api-openapi.yml
+  format: yaml
+  label: Google Gemini Tuned Models API
+  slug: google-gemini-tunedmodels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-gemini/openapi/google-gemini-tunedmodels-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

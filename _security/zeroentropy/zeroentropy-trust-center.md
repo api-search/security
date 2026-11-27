@@ -49,7 +49,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Zeroentropy Trust Center
+name: ZeroEntropy Trust Center
 name_suffix: Trust Center
 overview: ZeroEntropy maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: ZeroEntropy

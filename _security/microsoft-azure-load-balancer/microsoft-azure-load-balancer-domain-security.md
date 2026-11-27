@@ -6,12 +6,6 @@ api_specs:
   slug: microsoft-azure-load-balancer-load-balancers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-load-balancer/openapi/microsoft-azure-load-balancer-load-balancers-api-openapi.yml
-- filename: microsoft-azure-load-balancer-operations-api-openapi.yml
-  format: yaml
-  label: Azure Load Balancer Operations API
-  slug: microsoft-azure-load-balancer-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-load-balancer/openapi/microsoft-azure-load-balancer-operations-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -50,7 +44,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Load Balancer Domain Security
+name: Azure Load Balancer Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure Load Balancer, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Azure Load Balancer

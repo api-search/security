@@ -107,7 +107,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Vatsim Authentication
+name: VATSIM Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bluenexus Ai Authentication
+name: BlueNexus AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BlueNexus AI declares 2 security scheme(s) across its OpenAPI definitions.

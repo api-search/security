@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Nala Authentication
+name: NALA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NALA secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

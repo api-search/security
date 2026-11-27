@@ -59,7 +59,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Wrongbeauty Com Authentication
+name: WRONG BEAUTY 000 / THE SWARM Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WRONG BEAUTY 000 / THE SWARM secures its APIs with http and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

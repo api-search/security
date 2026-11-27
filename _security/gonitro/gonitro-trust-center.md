@@ -34,7 +34,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gonitro Trust Center
+name: GoNitro Trust Center
 name_suffix: Trust Center
 overview: GoNitro maintains a public trust center documenting ISO 27001, SOC 2, HIPAA, QTSP (Qualified Trust Service Provider, accredited by LSTI under eIDAS), and EU-U.S. Data Privacy Framework (with UK and Swiss extensions) compliance.
 provider_name: GoNitro

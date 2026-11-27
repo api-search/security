@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Helpscout Authentication
+name: Help Scout Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

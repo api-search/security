@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Runrelay Io Authentication
+name: runrelay-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: runrelay-io declares 1 security scheme(s) across its OpenAPI definitions.

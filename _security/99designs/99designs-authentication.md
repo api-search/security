@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: 99Designs Authentication
+name: 99designs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 99designs secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

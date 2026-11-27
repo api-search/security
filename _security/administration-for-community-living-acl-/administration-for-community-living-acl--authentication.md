@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Administration For Community Living Acl  Authentication
+name: Administration for Community Living (ACL) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Administration for Community Living (ACL) declares 2 security scheme(s) across its OpenAPI definitions.

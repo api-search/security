@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Asvaai Com Trust Center
+name: Asva AI Trust Center
 name_suffix: Trust Center
 overview: Asva AI maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Asva AI

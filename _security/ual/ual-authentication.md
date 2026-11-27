@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ual Authentication
+name: Ualá Authentication
 name_suffix: Authentication
 oauth_flows:
 - client_credentials (custom JSON body, non-RFC 6749 encoding)

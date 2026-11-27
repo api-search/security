@@ -34,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Opplevagent No Authentication
+name: Opplevagent Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Opplevagent secures its APIs with none and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

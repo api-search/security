@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Docsbot Ai Authentication
+name: docsbot-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: docsbot-ai declares 1 security scheme(s) across its OpenAPI definitions.

@@ -119,7 +119,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Tiktok Ads Authentication
+name: TikTok Marketing API Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
@@ -181,5 +181,4 @@ tags:
 - Audience Management
 - Reporting
 - Product Catalog
-- Agent Ready
 ---

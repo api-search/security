@@ -20,7 +20,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Paytabs Trust Center
+name: PayTabs Trust Center
 name_suffix: Trust Center
 overview: PayTabs maintains a public trust center documenting PCI DSS Level 1, EMV 3-D Secure 2 (Modirum), and mada / Saudi National Payment Gateway certified compliance.
 provider_name: PayTabs

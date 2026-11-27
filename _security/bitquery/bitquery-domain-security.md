@@ -5,7 +5,7 @@ api_specs:
   label: Bitquery Streaming Subscriptions
   slug: streaming-subscriptions
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/bitquery/refs/heads/main/asyncapi/bitquery-asyncapi.yml
+  url: https://artifacts.apis.io/bitquery/asyncapi/bitquery-asyncapi.yml
 description: ''
 domains:
 - caa: []

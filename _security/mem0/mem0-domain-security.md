@@ -84,6 +84,18 @@ api_specs:
   slug: mem0-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/mem0/openapi/mem0-webhooks-api-openapi.yml
+- filename: mem0-dream-api-openapi.yml
+  format: yaml
+  label: Mem0 Dream API
+  slug: mem0-dream-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mem0/openapi/mem0-dream-api-openapi.yml
+- filename: mem0-profiles-api-openapi.yml
+  format: yaml
+  label: Mem0 Profiles API
+  slug: mem0-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/mem0/openapi/mem0-profiles-api-openapi.yml
 description: ''
 domains:
 - caa: []

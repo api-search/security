@@ -42,7 +42,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Transunion Authentication
+name: TransUnion Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TransUnion secures its APIs with apiKey, ip-allowlist, and mutualTLS across 3 declared security schemes, as derived from its OpenAPI definitions.

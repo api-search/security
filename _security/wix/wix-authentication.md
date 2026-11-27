@@ -8,7 +8,7 @@ api_specs:
   label: Wix Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/asyncapi/wix-asyncapi.yml
+  url: https://artifacts.apis.io/wix/asyncapi/wix-asyncapi.yml
 - filename: wix-cart-api-openapi.yml
   format: yaml
   label: Wix Cart API

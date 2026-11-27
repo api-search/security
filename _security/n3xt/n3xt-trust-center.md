@@ -73,7 +73,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: N3Xt Trust Center
+name: N3XT Trust Center
 name_suffix: Trust Center
 overview: N3XT maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: N3XT

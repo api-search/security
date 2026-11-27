@@ -83,7 +83,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Rest Countries Authentication
+name: REST Countries Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: REST Countries secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

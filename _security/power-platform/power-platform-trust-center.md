@@ -71,7 +71,7 @@ certifications: []
 description: Microsoft operates a public Trust Center and a Service Trust Portal, and the Power Platform compliance documentation names both as the authoritative source for Power Apps, Power Automate and Power BI trust information.
 kind: trust-center
 layout: security
-name: Power Platform Trust Center
+name: Microsoft Power Platform APIs Trust Center
 name_suffix: Trust Center
 overview: Microsoft Power Platform APIs maintains a public trust center covering its security and compliance posture.
 provider_name: Microsoft Power Platform APIs

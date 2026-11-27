@@ -83,7 +83,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Gospotcheck Trust Center
+name: GoSpotCheck Trust Center
 name_suffix: Trust Center
 overview: GoSpotCheck maintains a public trust center covering its security and compliance posture.
 provider_name: GoSpotCheck

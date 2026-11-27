@@ -116,13 +116,169 @@ api_specs:
   slug: editalmd-well-known-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/editalmd/openapi/editalmd-well-known-api-openapi.yml
+- filename: editalmd-account-api-openapi.yml
+  format: yaml
+  label: EditalMD Account API
+  slug: editalmd-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-account-api-openapi.yml
+- filename: editalmd-acesso-api-openapi.yml
+  format: yaml
+  label: EditalMD Acesso API
+  slug: editalmd-acesso-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-acesso-api-openapi.yml
+- filename: editalmd-agent-json-api-openapi.yml
+  format: yaml
+  label: EditalMD Agent.json API
+  slug: editalmd-agent-json-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-agent-json-api-openapi.yml
+- filename: editalmd-atas-api-openapi.yml
+  format: yaml
+  label: EditalMD Atas API
+  slug: editalmd-atas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-atas-api-openapi.yml
+- filename: editalmd-auth-api-openapi.yml
+  format: yaml
+  label: EditalMD Auth API
+  slug: editalmd-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-auth-api-openapi.yml
+- filename: editalmd-avaliacao-api-openapi.yml
+  format: yaml
+  label: EditalMD Avaliacao API
+  slug: editalmd-avaliacao-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-avaliacao-api-openapi.yml
+- filename: editalmd-billing-api-openapi.yml
+  format: yaml
+  label: EditalMD Billing API
+  slug: editalmd-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-billing-api-openapi.yml
+- filename: editalmd-cobranca-api-openapi.yml
+  format: yaml
+  label: EditalMD Cobranca API
+  slug: editalmd-cobranca-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-cobranca-api-openapi.yml
+- filename: editalmd-consulta-api-openapi.yml
+  format: yaml
+  label: EditalMD Consulta API
+  slug: editalmd-consulta-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-consulta-api-openapi.yml
+- filename: editalmd-contact-api-openapi.yml
+  format: yaml
+  label: EditalMD Contact API
+  slug: editalmd-contact-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-contact-api-openapi.yml
+- filename: editalmd-entregas-api-openapi.yml
+  format: yaml
+  label: EditalMD Entregas API
+  slug: editalmd-entregas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-entregas-api-openapi.yml
+- filename: editalmd-erro-cliente-api-openapi.yml
+  format: yaml
+  label: EditalMD Erro Cliente API
+  slug: editalmd-erro-cliente-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-erro-cliente-api-openapi.yml
+- filename: editalmd-exemplos-api-openapi.yml
+  format: yaml
+  label: EditalMD Exemplos API
+  slug: editalmd-exemplos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-exemplos-api-openapi.yml
+- filename: editalmd-funil-api-openapi.yml
+  format: yaml
+  label: EditalMD Funil API
+  slug: editalmd-funil-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-funil-api-openapi.yml
+- filename: editalmd-licitacoes-api-openapi.yml
+  format: yaml
+  label: EditalMD Licitacoes API
+  slug: editalmd-licitacoes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-licitacoes-api-openapi.yml
+- filename: editalmd-me-api-openapi.yml
+  format: yaml
+  label: EditalMD Me API
+  slug: editalmd-me-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-me-api-openapi.yml
+- filename: editalmd-pagamento-api-openapi.yml
+  format: yaml
+  label: EditalMD Pagamento API
+  slug: editalmd-pagamento-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-pagamento-api-openapi.yml
+- filename: editalmd-partners-api-openapi.yml
+  format: yaml
+  label: EditalMD Partners API
+  slug: editalmd-partners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-partners-api-openapi.yml
+- filename: editalmd-planos-api-openapi.yml
+  format: yaml
+  label: EditalMD Planos API
+  slug: editalmd-planos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-planos-api-openapi.yml
+- filename: editalmd-plans-api-openapi.yml
+  format: yaml
+  label: EditalMD Plans API
+  slug: editalmd-plans-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-plans-api-openapi.yml
+- filename: editalmd-precos-api-openapi.yml
+  format: yaml
+  label: EditalMD Precos API
+  slug: editalmd-precos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-precos-api-openapi.yml
+- filename: editalmd-pricing-api-openapi.yml
+  format: yaml
+  label: EditalMD Pricing API
+  slug: editalmd-pricing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-pricing-api-openapi.yml
+- filename: editalmd-ref-api-openapi.yml
+  format: yaml
+  label: EditalMD Ref API
+  slug: editalmd-ref-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-ref-api-openapi.yml
+- filename: editalmd-salvas-api-openapi.yml
+  format: yaml
+  label: EditalMD Salvas API
+  slug: editalmd-salvas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-salvas-api-openapi.yml
+- filename: editalmd-servicos-api-openapi.yml
+  format: yaml
+  label: EditalMD Servicos API
+  slug: editalmd-servicos-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-servicos-api-openapi.yml
+- filename: editalmd-vitrine-api-openapi.yml
+  format: yaml
+  label: EditalMD Vitrine API
+  slug: editalmd-vitrine-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/editalmd/openapi/editalmd-vitrine-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Editalmd Authentication
+name: EditalMD Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EditalMD declares 4 security scheme(s) across its OpenAPI definitions.

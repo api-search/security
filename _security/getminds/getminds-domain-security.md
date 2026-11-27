@@ -84,6 +84,42 @@ api_specs:
   slug: getminds-study-templates-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/getminds/openapi/getminds-study-templates-api-openapi.yml
+- filename: getminds-acp-api-openapi.yml
+  format: yaml
+  label: Minds ACP API
+  slug: getminds-acp-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-acp-api-openapi.yml
+- filename: getminds-billing-api-openapi.yml
+  format: yaml
+  label: Minds Billing API
+  slug: getminds-billing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-billing-api-openapi.yml
+- filename: getminds-events-api-openapi.yml
+  format: yaml
+  label: Minds Events API
+  slug: getminds-events-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-events-api-openapi.yml
+- filename: getminds-integrations-api-openapi.yml
+  format: yaml
+  label: Minds Integrations API
+  slug: getminds-integrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-integrations-api-openapi.yml
+- filename: getminds-support-api-openapi.yml
+  format: yaml
+  label: Minds Support API
+  slug: getminds-support-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-support-api-openapi.yml
+- filename: getminds-uploads-api-openapi.yml
+  format: yaml
+  label: Minds Uploads API
+  slug: getminds-uploads-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/getminds/openapi/getminds-uploads-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -108,7 +144,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Getminds Domain Security
+name: Minds Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Minds, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Minds

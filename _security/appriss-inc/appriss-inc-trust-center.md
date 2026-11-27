@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Appriss Inc Trust Center
+name: Appriss Trust Center
 name_suffix: Trust Center
 overview: Appriss maintains a public trust center documenting ISO/IEC 27001, GDPR, CCPA, and PIPEDA compliance.
 provider_name: Appriss

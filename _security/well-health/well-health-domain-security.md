@@ -28,7 +28,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Well Health Domain Security
+name: WELL Health Technologies Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for WELL Health Technologies, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: WELL Health Technologies

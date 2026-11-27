@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ateam Ai Com Authentication
+name: A-Team Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: A-Team declares 0 security scheme(s) across its OpenAPI definitions.

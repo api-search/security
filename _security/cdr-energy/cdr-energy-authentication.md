@@ -114,7 +114,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Cdr Energy Authentication
+name: Consumer Data Right (Energy) Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

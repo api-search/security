@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: University Of Adelaide Authentication
+name: University of Adelaide Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Adelaide secures its APIs with saml2, cas, and oidc across 4 declared security schemes, as derived from its OpenAPI definitions.

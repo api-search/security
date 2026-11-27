@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Crowdstrike Trust Center
+name: CrowdStrike Trust Center
 name_suffix: Trust Center
 overview: CrowdStrike maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, PCI DSS, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: CrowdStrike

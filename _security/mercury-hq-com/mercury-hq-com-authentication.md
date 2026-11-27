@@ -127,7 +127,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Mercury Hq Com Authentication
+name: MERCURY Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MERCURY secures its APIs with x402-payment, apiKey, and none across 5 declared security schemes, as derived from its OpenAPI definitions.

@@ -163,7 +163,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Workspan Trust Center
+name: WorkSpan Trust Center
 name_suffix: Trust Center
 overview: WorkSpan maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: WorkSpan

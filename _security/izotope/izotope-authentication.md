@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Izotope Authentication
+name: iZotope Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
@@ -76,7 +76,7 @@ tags:
 - Mastering
 - Audio Restoration
 - Audio Repair
-- Post-Production
+- Post‑Production
 - Plugins
 - VST
 - AudioUnit

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Blackveilsecurity Com Trust Center
+name: BlackVeil Trust Center
 name_suffix: Trust Center
 overview: BlackVeil maintains a public trust center documenting GDPR compliance.
 provider_name: BlackVeil

@@ -341,7 +341,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Nationgraph Trust Center
+name: NationGraph Trust Center
 name_suffix: Trust Center
 overview: NationGraph maintains a public trust center covering its security and compliance posture.
 provider_name: NationGraph

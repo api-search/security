@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Atmita Com Authentication
+name: Atmita Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Atmita declares 0 security scheme(s) across its OpenAPI definitions.

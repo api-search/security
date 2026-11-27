@@ -19,7 +19,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Thebrief Trust Center
+name: TheBrief Trust Center
 name_suffix: Trust Center
 overview: TheBrief maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: TheBrief

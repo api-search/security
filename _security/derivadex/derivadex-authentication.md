@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Derivadex Authentication
+name: DerivaDEX Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DerivaDEX secures its APIs with none and wallet-signature across 2 declared security schemes, as derived from its OpenAPI definitions.

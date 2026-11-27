@@ -49,7 +49,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Blink Domain Security
+name: Blink Charging Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Blink Charging, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Blink Charging

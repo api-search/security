@@ -294,7 +294,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Palenca Vech Trust Center
+name: Palenca (Vech) Trust Center
 name_suffix: Trust Center
 overview: Palenca (Vech) maintains a public trust center documenting ISO/IEC 27001 compliance.
 provider_name: Palenca (Vech)

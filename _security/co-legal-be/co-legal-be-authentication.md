@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Co Legal Be Authentication
+name: Co-Legal Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Co-Legal secures its APIs with none, apiKey, and http across 3 declared security schemes, as derived from its OpenAPI definitions.

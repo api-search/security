@@ -47,7 +47,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: S1 Dev Authentication
+name: Search1API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Search1API secures its APIs with http, oauth2, and payment-challenge across 3 declared security schemes, as derived from its OpenAPI definitions.

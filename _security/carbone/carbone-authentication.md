@@ -20,6 +20,12 @@ api_specs:
   slug: carbone-template-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/carbone/openapi/carbone-template-api-openapi.yml
+- filename: carbone-document-api-openapi.yml
+  format: yaml
+  label: Carbone Document API
+  slug: carbone-document-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/carbone/openapi/carbone-document-api-openapi.yml
 auth_types:
 - http
 description: ''

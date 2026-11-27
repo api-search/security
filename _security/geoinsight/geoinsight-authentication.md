@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Geoinsight Authentication
+name: GeoInsight Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GeoInsight declares 0 security scheme(s) across its OpenAPI definitions.

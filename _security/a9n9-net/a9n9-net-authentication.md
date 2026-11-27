@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: A9N9 Net Authentication
+name: a9n9 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: a9n9 declares 0 security scheme(s) across its OpenAPI definitions.

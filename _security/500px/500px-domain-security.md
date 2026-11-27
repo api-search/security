@@ -22,7 +22,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: 500Px Domain Security
+name: 500px Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 500px, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: 500px

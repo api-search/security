@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Psnc Domain Security
+name: Institute of Bioorganic Chemistry of the Polish Academy of Sciences - Poznan Supercomputing and Networking Center Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Institute of Bioorganic Chemistry of the Polish Academy of Sciences - Poznan Supercomputing and Networking Center, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Institute of Bioorganic Chemistry of the Polish Academy of Sciences - Poznan Supercomputing and Networking Center

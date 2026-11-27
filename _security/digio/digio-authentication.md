@@ -20,6 +20,30 @@ api_specs:
   slug: digio-kyc-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digio/openapi/digio-kyc-api-openapi.yml
+- filename: digio-client-api-openapi.yml
+  format: yaml
+  label: Digio Client API
+  slug: digio-client-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digio/openapi/digio-client-api-openapi.yml
+- filename: digio-form-api-openapi.yml
+  format: yaml
+  label: Digio Form API
+  slug: digio-form-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digio/openapi/digio-form-api-openapi.yml
+- filename: digio-sign-api-openapi.yml
+  format: yaml
+  label: Digio Sign API
+  slug: digio-sign-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digio/openapi/digio-sign-api-openapi.yml
+- filename: digio-user-api-openapi.yml
+  format: yaml
+  label: Digio User API
+  slug: digio-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digio/openapi/digio-user-api-openapi.yml
 - filename: digio-e-sign-api-openapi.yml
   format: yaml
   label: Digio e Sign API

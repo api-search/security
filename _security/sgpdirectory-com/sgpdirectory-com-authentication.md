@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Sgpdirectory Com Authentication
+name: sgpdirectory-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: sgpdirectory-com declares 1 security scheme(s) across its OpenAPI definitions.

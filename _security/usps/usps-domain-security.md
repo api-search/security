@@ -18,6 +18,24 @@ api_specs:
   slug: usps-domestic-prices-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/usps/openapi/usps-domestic-prices-api-openapi.yml
+- filename: usps-files-api-openapi.yml
+  format: yaml
+  label: United States Postal Service Files API
+  slug: usps-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/usps/openapi/usps-files-api-openapi.yml
+- filename: usps-listener-url-specification-api-openapi.yml
+  format: yaml
+  label: United States Postal Service Listener URL Specification API
+  slug: usps-listener-url-specification-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/usps/openapi/usps-listener-url-specification-api-openapi.yml
+- filename: usps-resources-api-openapi.yml
+  format: yaml
+  label: United States Postal Service Resources API
+  slug: usps-resources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/usps/openapi/usps-resources-api-openapi.yml
 - filename: usps-tracking-api-openapi.yml
   format: yaml
   label: United States Postal Service Tracking API
@@ -54,7 +72,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Usps Domain Security
+name: United States Postal Service Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for United States Postal Service, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: United States Postal Service

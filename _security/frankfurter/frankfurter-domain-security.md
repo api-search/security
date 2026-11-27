@@ -6,24 +6,6 @@ api_specs:
   slug: frankfurter-currencies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-currencies-api-openapi.yml
-- filename: frankfurter-current-rates-api-openapi.yml
-  format: yaml
-  label: Frankfurter Current Rates API
-  slug: frankfurter-current-rates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-current-rates-api-openapi.yml
-- filename: frankfurter-historical-rates-api-openapi.yml
-  format: yaml
-  label: Frankfurter Historical Rates API
-  slug: frankfurter-historical-rates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-historical-rates-api-openapi.yml
-- filename: frankfurter-metadata-api-openapi.yml
-  format: yaml
-  label: Frankfurter Metadata API
-  slug: frankfurter-metadata-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/frankfurter/openapi/frankfurter-metadata-api-openapi.yml
 - filename: frankfurter-providers-api-openapi.yml
   format: yaml
   label: Frankfurter Providers API

@@ -26,7 +26,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Administration For Community Living Acl  Domain Security
+name: Administration for Community Living (ACL) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Administration for Community Living (ACL), probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Administration for Community Living (ACL)

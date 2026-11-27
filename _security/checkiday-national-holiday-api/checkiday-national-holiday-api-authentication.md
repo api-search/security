@@ -16,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Checkiday National Holiday Api Authentication
+name: Checkiday - National Holiday and Event API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Checkiday - National Holiday and Event API secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

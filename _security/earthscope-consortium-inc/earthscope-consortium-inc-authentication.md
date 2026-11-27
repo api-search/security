@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Earthscope Consortium Inc Authentication
+name: EarthScope Consortium, Inc. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EarthScope Consortium, Inc. declares 1 security scheme(s) across its OpenAPI definitions.

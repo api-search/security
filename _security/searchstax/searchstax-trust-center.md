@@ -47,7 +47,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Searchstax Trust Center
+name: SearchStax Trust Center
 name_suffix: Trust Center
 overview: SearchStax maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, GDPR, and CSA STAR compliance.
 provider_name: SearchStax

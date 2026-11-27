@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Victorops Trust Center
+name: Splunk On-Call (VictorOps) Trust Center
 name_suffix: Trust Center
 overview: Splunk On-Call (VictorOps) maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: Splunk On-Call (VictorOps)

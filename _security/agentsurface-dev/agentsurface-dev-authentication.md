@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Agentsurface Dev Authentication
+name: Agent Surface Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Surface declares 3 security scheme(s) across its OpenAPI definitions.

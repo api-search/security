@@ -3,12 +3,12 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: google-knowledge-graph-entities-search-api-openapi.yml
+- filename: google-knowledge-graph-entities-api-openapi.yml
   format: yaml
-  label: Google Knowledge Graph Search Entities:search API
-  slug: google-knowledge-graph-entities-search-api
+  label: Google Knowledge Graph Search Knowledge Graph Entities API
+  slug: google-knowledge-graph-entities-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-knowledge-graph/openapi/google-knowledge-graph-entities-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-knowledge-graph/openapi/google-knowledge-graph-entities-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -16,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Knowledge Graph Authentication
+name: Google Knowledge Graph Search Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Google Knowledge Graph Search secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

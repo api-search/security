@@ -161,7 +161,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Faa Authentication
+name: Federal Aviation Administration Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Federal Aviation Administration secures its APIs with none and apiKey across 5 declared security schemes, as derived from its OpenAPI definitions.

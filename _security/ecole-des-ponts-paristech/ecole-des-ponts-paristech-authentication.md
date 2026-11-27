@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Ecole Des Ponts Paristech Authentication
+name: École des Ponts ParisTech Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: École des Ponts ParisTech declares 0 security scheme(s) across its OpenAPI definitions.

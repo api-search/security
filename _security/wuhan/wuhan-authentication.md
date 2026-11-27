@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Wuhan Authentication
+name: Wuhan University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Wuhan University declares 0 security scheme(s) across its OpenAPI definitions.

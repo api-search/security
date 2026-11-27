@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Courtrules Authentication
+name: Court Rules Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Court Rules declares 1 security scheme(s) across its OpenAPI definitions.

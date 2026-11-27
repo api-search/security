@@ -58,7 +58,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Managed Prometheus Trust Center
+name: Amazon Managed Service for Prometheus Trust Center
 name_suffix: Trust Center
 overview: Amazon Managed Service for Prometheus maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon Managed Service for Prometheus

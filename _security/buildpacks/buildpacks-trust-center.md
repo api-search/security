@@ -11,7 +11,7 @@ certifications: []
 description: 'Cloud Native Buildpacks operates no trust center and holds no SOC 2, ISO 27001, PCI, HIPAA or FedRAMP certification — and that is the correct posture, not a gap. CNB is a self-hosted open-source specification project: it processes no customer data and operates no multi-tenant service that could be in scope for those audits. The only hosted surface is a read-only public index at registry.buildpacks.io. What it publishes instead is open-source assurance: a completed third-party security audit, an OpenSSF Best Practices badge, a CNCF security self-assessment, and CNCF Graduated status — recorded in security/buildpacks-vulnerability-disclosure.yml and conformance/buildpacks-conformance.yml.'
 kind: trust-center
 layout: security
-name: Buildpacks Trust Center
+name: Cloud Native Buildpacks Trust Center
 name_suffix: Trust Center
 overview: Cloud Native Buildpacks maintains a public trust center covering its security and compliance posture.
 provider_name: Cloud Native Buildpacks

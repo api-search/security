@@ -83,7 +83,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Gnosis Safe Authentication
+name: Safe (Gnosis Safe) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Safe (Gnosis Safe) secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
@@ -113,7 +113,7 @@ source_yaml_url: https://artifacts.apis.io/gnosis-safe/authentication/gnosis-saf
 summary_line: apiKey · 2 schemes
 tags:
 - Multisig
-- Smart Contract
+- Smart-contract
 - Ethereum
 - Web3
 - Blockchain

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Envoapi Com Authentication
+name: envoapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: envoapi-com declares 1 security scheme(s) across its OpenAPI definitions.

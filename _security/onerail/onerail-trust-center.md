@@ -458,7 +458,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Onerail Trust Center
+name: OneRail Trust Center
 name_suffix: Trust Center
 overview: OneRail maintains a public trust center documenting SOC 2 Type II, ISO/IEC 27001:2022, and GDPR compliance.
 provider_name: OneRail

@@ -115,7 +115,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Feedback1 Ai Domain Security
+name: Feedback1 Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Feedback1, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Feedback1
@@ -129,8 +129,8 @@ source_yaml_url: https://artifacts.apis.io/feedback1-ai/security/feedback1-ai-do
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Feedback
-- Roadmap
-- AI
-- SaaS
-- CustomerSuccess
+- Roadmaps
+- Artificial Intelligence
+- Software-as-a-Service
+- Customer Success
 ---

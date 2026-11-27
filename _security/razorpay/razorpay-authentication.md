@@ -13,7 +13,7 @@ api_specs:
   label: Razorpay Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/asyncapi/razorpay-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/razorpay/asyncapi/razorpay-webhooks-asyncapi.yml
 - filename: razorpay-orders-api-openapi.yml
   format: yaml
   label: Razorpay Orders API

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Thepackworks Com Authentication
+name: Packworks Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Packworks declares 0 security scheme(s) across its OpenAPI definitions.

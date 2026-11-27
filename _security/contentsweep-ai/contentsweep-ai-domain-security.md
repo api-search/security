@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Contentsweep Ai Domain Security
+name: contentsweep-ai Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for contentsweep-ai, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: contentsweep-ai
@@ -34,6 +34,6 @@ tags:
 - Company
 - Adult-Content-Protection
 - DMCA
-- Content-Monitoring
+- Content Monitoring
 - Privacy
 ---

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 11X Trust Center
+name: 11x Trust Center
 name_suffix: Trust Center
 overview: 11x maintains a public trust center documenting SOC 2 Type II and CASA Tier 3 compliance.
 provider_name: 11x

@@ -60,6 +60,102 @@ api_specs:
   slug: docker-hub-scim-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-scim-api-openapi.yml
+- filename: docker-hub-config-api-openapi.yml
+  format: yaml
+  label: Docker Hub Config API
+  slug: docker-hub-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-config-api-openapi.yml
+- filename: docker-hub-container-api-openapi.yml
+  format: yaml
+  label: Docker Hub Container API
+  slug: docker-hub-container-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-container-api-openapi.yml
+- filename: docker-hub-distribution-api-openapi.yml
+  format: yaml
+  label: Docker Hub Distribution API
+  slug: docker-hub-distribution-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-distribution-api-openapi.yml
+- filename: docker-hub-exec-api-openapi.yml
+  format: yaml
+  label: Docker Hub Exec API
+  slug: docker-hub-exec-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-exec-api-openapi.yml
+- filename: docker-hub-image-api-openapi.yml
+  format: yaml
+  label: Docker Hub Image API
+  slug: docker-hub-image-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-image-api-openapi.yml
+- filename: docker-hub-network-api-openapi.yml
+  format: yaml
+  label: Docker Hub Network API
+  slug: docker-hub-network-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-network-api-openapi.yml
+- filename: docker-hub-node-api-openapi.yml
+  format: yaml
+  label: Docker Hub Node API
+  slug: docker-hub-node-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-node-api-openapi.yml
+- filename: docker-hub-plugin-api-openapi.yml
+  format: yaml
+  label: Docker Hub Plugin API
+  slug: docker-hub-plugin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-plugin-api-openapi.yml
+- filename: docker-hub-secret-api-openapi.yml
+  format: yaml
+  label: Docker Hub Secret API
+  slug: docker-hub-secret-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-secret-api-openapi.yml
+- filename: docker-hub-service-api-openapi.yml
+  format: yaml
+  label: Docker Hub Service API
+  slug: docker-hub-service-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-service-api-openapi.yml
+- filename: docker-hub-session-experimental-api-openapi.yml
+  format: yaml
+  label: Docker Hub Session (experimental) API
+  slug: docker-hub-session-experimental-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-session-experimental-api-openapi.yml
+- filename: docker-hub-swarm-api-openapi.yml
+  format: yaml
+  label: Docker Hub Swarm API
+  slug: docker-hub-swarm-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-swarm-api-openapi.yml
+- filename: docker-hub-system-api-openapi.yml
+  format: yaml
+  label: Docker Hub System API
+  slug: docker-hub-system-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-system-api-openapi.yml
+- filename: docker-hub-task-api-openapi.yml
+  format: yaml
+  label: Docker Hub Task API
+  slug: docker-hub-task-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-task-api-openapi.yml
+- filename: docker-hub-tasks-api-openapi.yml
+  format: yaml
+  label: Docker Hub Tasks API
+  slug: docker-hub-tasks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-tasks-api-openapi.yml
+- filename: docker-hub-volume-api-openapi.yml
+  format: yaml
+  label: Docker Hub Volume API
+  slug: docker-hub-volume-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/docker-hub/openapi/docker-hub-volume-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -35,7 +35,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Fullenrich Authentication
+name: FullEnrich Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
@@ -137,7 +137,6 @@ tags:
 - People Search
 - Company Search
 - Reverse Email Lookup
-- Agent Ready
 - A2A
 - Data Enrichment
 ---

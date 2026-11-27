@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Quady3D Com Authentication
+name: Quady3D AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Quady3D AI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

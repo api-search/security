@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Santeacademie Authentication
+name: Santé Académie Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Santé Académie declares 0 security scheme(s) across its OpenAPI definitions.

@@ -302,7 +302,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Skai Kenshoo Authentication
+name: Skai (Kenshoo) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Skai (Kenshoo) declares 5 security scheme(s) across its OpenAPI definitions.

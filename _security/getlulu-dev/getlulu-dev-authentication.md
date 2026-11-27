@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Getlulu Dev Authentication
+name: getlulu-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: getlulu-dev declares 1 security scheme(s) across its OpenAPI definitions.

@@ -24,7 +24,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: First Dollar Test Com Domain Security
+name: First Dollar Test Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for First Dollar Test, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: First Dollar Test
@@ -37,8 +37,7 @@ source_yaml: "generated: '2026-11-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/first-dollar-test-com/security/first-dollar-test-com-domain-security.yml
 summary_line: TLSv1.3 · HSTS
 tags:
-- Wallet
-- API
+- Wallets
 - Beta
 - USDC
 ---

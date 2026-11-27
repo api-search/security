@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Maddegen Art Authentication
+name: maddegen-art Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: maddegen-art declares 1 security scheme(s) across its OpenAPI definitions.

@@ -298,7 +298,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Spotdraft Trust Center
+name: SpotDraft Trust Center
 name_suffix: Trust Center
 overview: SpotDraft maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, GDPR, and FIPS 140 compliance.
 provider_name: SpotDraft

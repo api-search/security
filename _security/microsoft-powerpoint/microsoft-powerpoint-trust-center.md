@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Microsoft Powerpoint Trust Center
+name: Microsoft PowerPoint Trust Center
 name_suffix: Trust Center
 overview: Microsoft PowerPoint maintains a public trust center documenting GDPR compliance.
 provider_name: Microsoft PowerPoint

@@ -3198,6 +3198,84 @@ api_specs:
   slug: procore-workflow-tools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/procore/openapi/procore-workflow-tools-api-openapi.yml
+- filename: procore-project-funding-sources-api-openapi.yml
+  format: yaml
+  label: Procore Project Funding Sources API
+  slug: procore-project-funding-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-project-funding-sources-api-openapi.yml
+- filename: procore-project-entitlements-api-openapi.yml
+  format: yaml
+  label: Procore Project Entitlements API
+  slug: procore-project-entitlements-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-project-entitlements-api-openapi.yml
+- filename: procore-funding-sources-api-openapi.yml
+  format: yaml
+  label: Procore Funding Sources API
+  slug: procore-funding-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-funding-sources-api-openapi.yml
+- filename: procore-funding-rules-api-openapi.yml
+  format: yaml
+  label: Procore Funding Rules API
+  slug: procore-funding-rules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-funding-rules-api-openapi.yml
+- filename: procore-rate-values-api-openapi.yml
+  format: yaml
+  label: Procore Rate Values API
+  slug: procore-rate-values-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-values-api-openapi.yml
+- filename: procore-rate-columns-api-openapi.yml
+  format: yaml
+  label: Procore Rate Columns API
+  slug: procore-rate-columns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-columns-api-openapi.yml
+- filename: procore-audit-logs-company-api-openapi.yml
+  format: yaml
+  label: Procore Audit Logs (Company) API
+  slug: procore-audit-logs-company-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-audit-logs-company-api-openapi.yml
+- filename: procore-audit-logs-project-api-openapi.yml
+  format: yaml
+  label: Procore Audit Logs (Project) API
+  slug: procore-audit-logs-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-audit-logs-project-api-openapi.yml
+- filename: procore-rate-columns-project-api-openapi.yml
+  format: yaml
+  label: Procore Rate Columns (Project) API
+  slug: procore-rate-columns-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-columns-project-api-openapi.yml
+- filename: procore-rate-tables-company-api-openapi.yml
+  format: yaml
+  label: Procore Rate Tables (Company) API
+  slug: procore-rate-tables-company-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-tables-company-api-openapi.yml
+- filename: procore-rate-tables-project-api-openapi.yml
+  format: yaml
+  label: Procore Rate Tables (Project) API
+  slug: procore-rate-tables-project-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-rate-tables-project-api-openapi.yml
+- filename: procore-requirement-controller-api-openapi.yml
+  format: yaml
+  label: Procore Requirement Controller API
+  slug: procore-requirement-controller-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-requirement-controller-api-openapi.yml
+- filename: procore-time-and-material-subcontractor-api-openapi.yml
+  format: yaml
+  label: Procore Time And Material Subcontractor API
+  slug: procore-time-and-material-subcontractor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/procore/openapi/procore-time-and-material-subcontractor-api-openapi.yml
 - filename: procore-purchase-orders-api-openapi.yml
   format: yaml
   label: Procore Purchase Orders API
@@ -3207,19 +3285,19 @@ api_specs:
 description: ''
 domains:
 - caa:
+  - 0 issue "digicert.com; cansignhttpexchanges=yes"
+  - 0 issue "globalsign.com"
+  - 0 issue "letsencrypt.org"
   - 0 issue "pki.goog; cansignhttpexchanges=yes"
   - 0 issue "ssl.com"
   - 0 issuewild "amazon.com"
-  - 0 issuewild "comodoca.com"
-  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
-  - 0 issuewild "globalsign.com"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: procore.com
   spf: true
 hosts:
-- cert_expires: Nov 19 14:33:03 2026 GMT
+- cert_expires: Jan 19 16:41:42 2027 GMT
   host: www.procore.com
   hsts: true
   hsts_max_age: 63072000
@@ -3243,7 +3321,7 @@ slug: procore-domain-security
 source_filename: procore-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-10-20'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.procore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Nov 19 14:33:03 2026 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.procore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 08:21:20 2027 GMT\n  hsts: null\ndomains:\n- domain: procore.com\n  dnssec: false\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"globalsign.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.procore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 19 16:41:42 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\n- host: api.procore.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan  7 08:21:20 2027 GMT\n  hsts: null\ndomains:\n- domain: procore.com\n  dnssec: false\n  caa:\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"globalsign.com\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"amazon.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/procore/security/procore-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

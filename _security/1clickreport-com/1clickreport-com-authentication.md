@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 1Clickreport Com Authentication
+name: 1ClickReport Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 1ClickReport declares 1 security scheme(s) across its OpenAPI definitions.

@@ -25,7 +25,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Loopme Trust Center
+name: LoopMe Trust Center
 name_suffix: Trust Center
 overview: LoopMe maintains a public trust center documenting ePrivacyseal and TAG registered (Trustworthy Accountability Group) compliance.
 provider_name: LoopMe

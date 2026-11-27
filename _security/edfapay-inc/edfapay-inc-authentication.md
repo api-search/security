@@ -53,7 +53,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Edfapay Inc Authentication
+name: EdfaPay Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: EdfaPay secures its APIs with apiKey and signature across 2 declared security schemes, as derived from its OpenAPI definitions.

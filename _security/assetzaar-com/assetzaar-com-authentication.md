@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Assetzaar Com Authentication
+name: Assetzaar Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Assetzaar declares 0 security scheme(s) across its OpenAPI definitions.

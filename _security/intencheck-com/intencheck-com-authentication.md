@@ -69,7 +69,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Intencheck Com Authentication
+name: intencheck-com Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

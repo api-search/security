@@ -223,7 +223,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Planradar Trust Center
+name: PlanRadar Trust Center
 name_suffix: Trust Center
 overview: PlanRadar maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: PlanRadar

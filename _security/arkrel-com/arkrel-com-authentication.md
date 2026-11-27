@@ -116,7 +116,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Arkrel Com Authentication
+name: Conecta Media LLC Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Conecta Media LLC declares 1 security scheme(s) across its OpenAPI definitions.

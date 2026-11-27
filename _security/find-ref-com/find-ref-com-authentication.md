@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Find Ref Com Authentication
+name: find-ref Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: find-ref declares 1 security scheme(s) across its OpenAPI definitions.
@@ -70,6 +70,6 @@ tags:
 - Labor Law
 - AI Assistant
 - MCP
-- Korea
+- South Korea
 - Reference Search
 ---

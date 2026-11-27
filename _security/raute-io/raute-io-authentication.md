@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Raute Io Authentication
+name: raute-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: raute-io declares 1 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentic Prompt Com Authentication
+name: Agentic Prompt Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agentic Prompt declares 0 security scheme(s) across its OpenAPI definitions.

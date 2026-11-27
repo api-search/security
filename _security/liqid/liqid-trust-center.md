@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Liqid Trust Center
+name: LIQID Investments Trust Center
 name_suffix: Trust Center
 overview: LIQID Investments maintains a public trust center documenting BaFin / Deutsche Bundesbank supervision, B Corp certification, IVA-Zertifizierung, and VuV membership compliance.
 provider_name: LIQID Investments

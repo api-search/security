@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Serialized Xyz Authentication
+name: Serialized Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Serialized declares 1 security scheme(s) across its OpenAPI definitions.
@@ -32,6 +32,6 @@ tags:
 - Company
 - Onchain
 - Market Data
-- Token Security
+- TokenSecurity
 - Data
 ---

@@ -146,7 +146,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Blindpay Com Authentication
+name: blindpay-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: blindpay-com declares 1 security scheme(s) across its OpenAPI definitions.

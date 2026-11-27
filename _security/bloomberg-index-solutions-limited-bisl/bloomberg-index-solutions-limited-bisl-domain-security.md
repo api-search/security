@@ -23,7 +23,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Bloomberg Index Solutions Limited Bisl Domain Security
+name: Bloomberg Index Solutions Limited (BISL) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Bloomberg Index Solutions Limited (BISL), probed live across 2 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Bloomberg Index Solutions Limited (BISL)

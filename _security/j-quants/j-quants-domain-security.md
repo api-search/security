@@ -83,7 +83,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: J Quants Domain Security
+name: J-Quants Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for J-Quants, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
 provider_name: J-Quants

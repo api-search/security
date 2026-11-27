@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Appseconnect Trust Center
+name: APPSeCONNECT Corp Trust Center
 name_suffix: Trust Center
 overview: APPSeCONNECT Corp maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: APPSeCONNECT Corp

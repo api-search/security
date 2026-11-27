@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Boston Authentication
+name: Boston University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Boston University declares 0 security scheme(s) across its OpenAPI definitions.

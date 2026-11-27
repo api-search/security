@@ -186,19 +186,13 @@ api_specs:
   slug: microsoft-azure-site-recovery-replication-policies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replication-policies-api-openapi.yml
-- filename: microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
-  format: yaml
-  label: Azure Site Recovery Recovery Plans API
-  slug: microsoft-azure-site-recovery-recoveryplans-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
 certification_count: 1
 certifications:
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Microsoft Azure Site Recovery Trust Center
+name: Azure Site Recovery Trust Center
 name_suffix: Trust Center
 overview: Azure Site Recovery maintains a public trust center documenting GDPR compliance.
 provider_name: Azure Site Recovery

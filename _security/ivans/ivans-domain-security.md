@@ -1,11 +1,5 @@
 ---
 api_specs:
-- filename: ivans-agencies-api-openapi.yml
-  format: yaml
-  label: IVANS Agencies API
-  slug: ivans-agencies-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/ivans/openapi/ivans-agencies-api-openapi.yml
 - filename: ivans-agents-api-openapi.yml
   format: yaml
   label: IVANS Agents API
@@ -492,6 +486,12 @@ api_specs:
   slug: ivans-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/ivans/openapi/ivans-webhooks-api-openapi.yml
+- filename: ivans-agencies-api-openapi.yml
+  format: yaml
+  label: IVANS Agencies API
+  slug: ivans-agencies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ivans/openapi/ivans-agencies-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -511,7 +511,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Ivans Domain Security
+name: IVANS Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for IVANS, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: IVANS

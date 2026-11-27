@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: X Tention Trust Center
+name: x-tention Trust Center
 name_suffix: Trust Center
 overview: x-tention maintains a public trust center documenting ISO/IEC 27001, ISO/IEC 27701, and ISO 9001 compliance.
 provider_name: x-tention

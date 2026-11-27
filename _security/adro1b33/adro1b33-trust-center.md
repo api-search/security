@@ -271,7 +271,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Adro1B33 Trust Center
+name: ADRO Trust Center
 name_suffix: Trust Center
 overview: ADRO maintains a public trust center documenting ISO/IEC 27001:2022 and TISAX compliance.
 provider_name: ADRO

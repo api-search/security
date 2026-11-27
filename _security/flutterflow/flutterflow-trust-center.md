@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Flutterflow Trust Center
+name: FlutterFlow Trust Center
 name_suffix: Trust Center
 overview: FlutterFlow maintains a public trust center documenting SOC 2 compliance.
 provider_name: FlutterFlow

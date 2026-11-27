@@ -98,7 +98,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Addy Io Authentication
+name: addy.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: addy.io declares 0 security scheme(s) across its OpenAPI definitions.

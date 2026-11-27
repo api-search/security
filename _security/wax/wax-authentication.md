@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Wax Authentication
+name: WAX Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WAX secures its APIs with none and signature across 3 declared security schemes, as derived from its OpenAPI definitions.

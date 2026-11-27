@@ -536,7 +536,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Anomalyarmor Ai Authentication
+name: AnomalyArmor Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AnomalyArmor declares 2 security scheme(s) across its OpenAPI definitions.

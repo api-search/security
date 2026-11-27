@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Advicepay Trust Center
+name: AdvicePay Trust Center
 name_suffix: Trust Center
 overview: AdvicePay maintains a public trust center documenting SOC 2 Type II and PCI SAQ A compliance.
 provider_name: AdvicePay

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Transcript1 Com Authentication
+name: transcript1-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: transcript1-com declares 1 security scheme(s) across its OpenAPI definitions.

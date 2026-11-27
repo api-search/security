@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Iconductcloud Trust Center
+name: IConduct Ltd Trust Center
 name_suffix: Trust Center
 overview: IConduct Ltd maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: IConduct Ltd

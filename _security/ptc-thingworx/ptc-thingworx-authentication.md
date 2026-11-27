@@ -53,7 +53,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Ptc Thingworx Authentication
+name: PTC ThingWorx Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

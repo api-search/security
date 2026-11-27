@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Israel Meteorological Service Authentication
+name: IMS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IMS declares 0 security scheme(s) across its OpenAPI definitions.

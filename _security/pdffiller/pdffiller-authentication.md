@@ -75,7 +75,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Pdffiller Authentication
+name: PDFfiller Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

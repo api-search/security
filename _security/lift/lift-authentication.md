@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Lift Authentication
+name: LIFT Aircraft Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LIFT Aircraft secures its APIs with none and bearer across 2 declared security schemes, as derived from its OpenAPI definitions.

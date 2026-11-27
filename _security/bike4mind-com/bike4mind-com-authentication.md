@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bike4Mind Com Authentication
+name: Bike4Mind Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bike4Mind declares 2 security scheme(s) across its OpenAPI definitions.

@@ -42,6 +42,48 @@ api_specs:
   slug: parallel-ai-search-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-search-api-openapi.yml
+- filename: parallel-ai-decisions-api-openapi.yml
+  format: yaml
+  label: Parallel Decisions API
+  slug: parallel-ai-decisions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-decisions-api-openapi.yml
+- filename: parallel-ai-apps-api-openapi.yml
+  format: yaml
+  label: Parallel Apps API
+  slug: parallel-ai-apps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-apps-api-openapi.yml
+- filename: parallel-ai-balance-api-openapi.yml
+  format: yaml
+  label: Parallel Balance API
+  slug: parallel-ai-balance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-balance-api-openapi.yml
+- filename: parallel-ai-image-search-api-openapi.yml
+  format: yaml
+  label: Parallel Image Search API
+  slug: parallel-ai-image-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-image-search-api-openapi.yml
+- filename: parallel-ai-keys-api-openapi.yml
+  format: yaml
+  label: Parallel Keys API
+  slug: parallel-ai-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-keys-api-openapi.yml
+- filename: parallel-ai-place-search-api-openapi.yml
+  format: yaml
+  label: Parallel Place Search API
+  slug: parallel-ai-place-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-place-search-api-openapi.yml
+- filename: parallel-ai-usage-api-openapi.yml
+  format: yaml
+  label: Parallel Usage API
+  slug: parallel-ai-usage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/parallel-ai/openapi/parallel-ai-usage-api-openapi.yml
 - filename: parallel-ai-tasks-api-openapi.yml
   format: yaml
   label: Parallel Tasks API
@@ -64,8 +106,8 @@ slug: parallel-trust-center
 source_filename: parallel-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://trust.parallel.ai\nalso:\n- https://docs.parallel.ai/resources/faqs\nnotes: >-\n  UPGRADE vs the 2026-07-20 round, which recorded the Trust Center as\n  email-gated with no public URL. A public Trust Center IS served at\n  https://trust.parallel.ai (HTTP 200, title \"Parallel Trust Center\"). It is a\n  JS-rendered single-page app, so the certification list is not machine-readable\n  from the HTML; the named certifications below are therefore carried from\n  Parallel's own published FAQ, not scraped from the SPA.\ntrust_center:\n  url: https://trust.parallel.ai\n  http_status: 200\n  machine_readable: false\n  note: JS-rendered SPA; server HTML contains only the page title.\ncertifications:\n- name: SOC 2 Type I\n  since: '2025-04'\n  report_access: on request\n- name: SOC 2 Type II\n  since: '2025-04'\n  report_access: on request\ndata_protection:\n- Encrypted in transit (TLS 1.2+) and at rest, in US-based data centers.\n\
-  - Customer data is not used to train any models.\n- Retrieval is limited to the public web; Parallel does not fetch data behind a login.\nenterprise:\n- Private cloud and on-premises deployments available for qualified enterprise customers.\ncontact: partnerships@parallel.ai\nvulnerability_disclosure:\n  published: false\n  note: >-\n    No security.txt, no bug bounty program and no coordinated-disclosure page was\n    found on any Parallel host on 2026-08-14, so no VulnerabilityDisclosure\n    artifact and no Security pointer are emitted. Probed:\n    /.well-known/security.txt on api/docs/www/platform/parallel.ai (all 404).\n"
+source_yaml: "generated: '2026-08-14'\nmethod: searched\nsource: https://trust.parallel.ai\nalso:\n- https://docs.parallel.ai/resources/faqs\nnotes: UPGRADE vs the 2026-07-20 round, which recorded the Trust Center as email-gated with no public\n  URL. A public Trust Center IS served at https://trust.parallel.ai (HTTP 200, title \"Parallel Trust Center\").\n  It is a JS-rendered single-page app, so the certification list is not machine-readable from the HTML;\n  the named certifications below are therefore carried from Parallel's own published FAQ, not scraped\n  from the SPA.\ntrust_center:\n  url: https://trust.parallel.ai\n  http_status: 200\n  machine_readable: false\n  note: JS-rendered SPA; server HTML contains only the page title.\nurl: https://trust.parallel.ai\ncertifications:\n- SOC 2 Type I\n- SOC 2 Type II\ncertification_details:\n- name: SOC 2 Type I\n  since: 2025-04\n  report_access: on request\n- name: SOC 2 Type II\n  since: 2025-04\n  report_access: on request\ndata_protection:\n\
+  - Encrypted in transit (TLS 1.2+) and at rest, in US-based data centers.\n- Customer data is not used to train any models.\n- Retrieval is limited to the public web; Parallel does not fetch data behind a login.\nenterprise:\n- Private cloud and on-premises deployments available for qualified enterprise customers.\ncontact: partnerships@parallel.ai\nvulnerability_disclosure:\n  published: false\n  note: 'No security.txt, no bug bounty program and no coordinated-disclosure page was found on any Parallel\n    host on 2026-08-14, so no VulnerabilityDisclosure artifact and no Security pointer are emitted. Probed:\n    /.well-known/security.txt on api/docs/www/platform/parallel.ai (all 404).'\n"
 source_yaml_url: https://artifacts.apis.io/parallel-ai/security/parallel-trust-center.yml
 summary_line: SOC 2 Type I, SOC 2 Type II
 tags:
@@ -84,5 +126,5 @@ tags:
 - Agent Skills
 - Content Extraction
 - Entity Resolution
-trust_url: ''
+trust_url: https://trust.parallel.ai
 ---

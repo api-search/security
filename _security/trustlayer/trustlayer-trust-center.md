@@ -131,7 +131,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Trustlayer Trust Center
+name: TrustLayer Trust Center
 name_suffix: Trust Center
 overview: TrustLayer maintains a public trust center covering its security and compliance posture.
 provider_name: TrustLayer

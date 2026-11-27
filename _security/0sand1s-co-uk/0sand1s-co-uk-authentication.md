@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 0Sand1S Co Uk Authentication
+name: 0s and 1s Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 0s and 1s declares 0 security scheme(s) across its OpenAPI definitions.

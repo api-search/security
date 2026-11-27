@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Growthspace Authentication
+name: GrowthSpace Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GrowthSpace secures its APIs with bearer-token and client-credentials across 1 declared security scheme, as derived from its OpenAPI definitions.

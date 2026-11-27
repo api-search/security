@@ -8,13 +8,13 @@ api_specs:
   label: PlayAI Text-to-Speech API
   slug: tts-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/asyncapi/playht-asyncapi.yml
+  url: https://artifacts.apis.io/playht/asyncapi/playht-asyncapi.yml
 - filename: playht-asyncapi.yml
   format: yaml
   label: PlayAI Voice Agents API
   slug: agents-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/playht/refs/heads/main/asyncapi/playht-asyncapi.yml
+  url: https://artifacts.apis.io/playht/asyncapi/playht-asyncapi.yml
 - filename: playht-agents-api-openapi.yml
   format: yaml
   label: PlayHT Agents API
@@ -58,7 +58,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Playht Authentication
+name: PlayHT Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PlayHT secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Humanfirst Trust Center
+name: HumanFirst Trust Center
 name_suffix: Trust Center
 overview: HumanFirst maintains a public trust center documenting SOC 2, GDPR, and NIST CSF compliance.
 provider_name: HumanFirst

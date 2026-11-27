@@ -39,7 +39,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Glide Apps Trust Center
+name: Glide Trust Center
 name_suffix: Trust Center
 overview: Glide maintains a public trust center documenting SOC 2, ISO 27001, FedRAMP, and GDPR compliance.
 provider_name: Glide

@@ -60,7 +60,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Itau Unibanco Authentication
+name: Itaú Unibanco Authentication
 name_suffix: Authentication
 oauth_flows:
 - client_credentials

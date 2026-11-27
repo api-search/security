@@ -86,7 +86,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Playground Domain Security
+name: Playground API — Free Stateful Mock REST & GraphQL Service Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Playground API — Free Stateful Mock REST & GraphQL Service, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: Playground API — Free Stateful Mock REST & GraphQL Service
@@ -102,7 +102,7 @@ tags:
 - Developer Tools
 - Testing
 - Mock API
-- api-sandbox
+- Api Sandbox
 - REST
 - GraphQL
 - E2E Testing

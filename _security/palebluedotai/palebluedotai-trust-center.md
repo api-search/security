@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Palebluedotai Trust Center
+name: PaleBlueDot.AI Trust Center
 name_suffix: Trust Center
 overview: PaleBlueDot.AI maintains a public trust center documenting ISO/IEC 27001, SOC 2, and SOC 3 compliance.
 provider_name: PaleBlueDot.AI

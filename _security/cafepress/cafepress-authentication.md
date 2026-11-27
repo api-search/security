@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Cafepress Authentication
+name: CafePress Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CafePress declares 0 security scheme(s) across its OpenAPI definitions.
@@ -33,5 +33,5 @@ tags:
 - E-Commerce
 - Print on Demand
 - Custom Merchandise
-- online marketplace
+- Online Marketplace
 ---

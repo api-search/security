@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Baizhi Cloud Authentication
+name: 长亭百智云 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 长亭百智云 declares 0 security scheme(s) across its OpenAPI definitions.

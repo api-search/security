@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Levocred Ai Trust Center
+name: Levocred AI Trust Center
 name_suffix: Trust Center
 overview: Levocred AI maintains a public trust center covering its security and compliance posture.
 provider_name: Levocred AI

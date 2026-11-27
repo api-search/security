@@ -60,7 +60,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Amp Bank Authentication
+name: AMP Bank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AMP Bank secures its APIs with none, oauth2, openIdConnect, and mutualTLS across 4 declared security schemes, as derived from its OpenAPI definitions.

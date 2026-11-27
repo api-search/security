@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Point Me Authentication
+name: POINT.ME Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: POINT.ME declares 0 security scheme(s) across its OpenAPI definitions.

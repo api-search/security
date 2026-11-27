@@ -2,30 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: lorikeet-conversations-api-openapi.yml
+- filename: lorikeet-tools-api-openapi.yml
   format: yaml
-  label: Lorikeet Conversations API
-  slug: lorikeet-conversations-api
+  label: Lorikeet Tools API
+  slug: lorikeet-tools-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/lorikeet/openapi/lorikeet-conversations-api-openapi.yml
-- filename: lorikeet-knowledge-api-openapi.yml
-  format: yaml
-  label: Lorikeet Knowledge API
-  slug: lorikeet-knowledge-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lorikeet/openapi/lorikeet-knowledge-api-openapi.yml
-- filename: lorikeet-messages-api-openapi.yml
-  format: yaml
-  label: Lorikeet Messages API
-  slug: lorikeet-messages-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lorikeet/openapi/lorikeet-messages-api-openapi.yml
-- filename: lorikeet-webhooks-api-openapi.yml
-  format: yaml
-  label: Lorikeet Webhooks API
-  slug: lorikeet-webhooks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/lorikeet/openapi/lorikeet-webhooks-api-openapi.yml
+  url: https://artifacts.apis.io/lorikeet/openapi/lorikeet-tools-api-openapi.yml
 auth_types:
 - http
 description: ''

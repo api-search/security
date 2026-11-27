@@ -34,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Mystars Faas Fulfilment Api Authentication
+name: MyStars FaaS — Fulfilment API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MyStars FaaS — Fulfilment API secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -69,5 +69,5 @@ tags:
 - Fulfilment
 - Digital Goods
 - Non-Custodial
-- no-kyc
+- NoKYC
 ---

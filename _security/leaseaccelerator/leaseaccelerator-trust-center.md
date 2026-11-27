@@ -63,7 +63,7 @@ certifications:
 description: insightsoftware operates a Conveyor-hosted trust center covering its full product portfolio, including LeaseAccelerator. Certifications below are the programs insightsoftware itself declares on the trust center (the `certifications` list in the trust center's own payload), corroborated by the public insightsoftware.com/trust/ summary page. LeaseAccelerator-specific audit reports and bridge letters are published in the trust center data room; access is gated behind an NDA/request flow.
 kind: trust-center
 layout: security
-name: Leaseaccelerator Trust Center
+name: LeaseAccelerator Trust Center
 name_suffix: Trust Center
 overview: LeaseAccelerator maintains a public trust center documenting SOC 2 Type 2, SOC 1 Type 2, ISO 27001, and ISO 9001 compliance.
 provider_name: LeaseAccelerator

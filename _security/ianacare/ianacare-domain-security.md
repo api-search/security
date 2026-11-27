@@ -45,7 +45,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Ianacare Domain Security
+name: ianacare Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ianacare, probed live across 5 host(s) and 1 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: ianacare

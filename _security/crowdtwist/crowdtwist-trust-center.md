@@ -11,7 +11,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Crowdtwist Trust Center
+name: CrowdTwist Trust Center
 name_suffix: Trust Center
 overview: CrowdTwist maintains a public trust center covering its security and compliance posture.
 provider_name: CrowdTwist

@@ -56,7 +56,7 @@ tags:
 - FastGPT
 - Data Enrichment
 - OpenAPI
-- Pay-Per-Use
+- Pay-per-use
 - Privacy
 - LLM
 - Web Index

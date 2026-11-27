@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: generated
-name: University Of Gottingen Authentication
+name: University of Göttingen Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Göttingen declares 0 security scheme(s) across its OpenAPI definitions.

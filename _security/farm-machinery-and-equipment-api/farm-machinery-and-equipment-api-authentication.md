@@ -16,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Farm Machinery And Equipment Api Authentication
+name: Farm Machinery and Equipment API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Farm Machinery and Equipment API secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

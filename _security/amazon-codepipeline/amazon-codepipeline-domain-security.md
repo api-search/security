@@ -18,6 +18,12 @@ api_specs:
   slug: amazon-codepipeline-aws-codepipeline-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-codepipeline/openapi/amazon-codepipeline-aws-codepipeline-api-openapi.yml
+- filename: amazon-codepipeline-operations-api-openapi.yml
+  format: yaml
+  label: Amazon CodePipeline Codepipeline Operations API
+  slug: amazon-codepipeline-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-codepipeline/openapi/amazon-codepipeline-operations-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -54,7 +60,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Codepipeline Domain Security
+name: Amazon CodePipeline Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon CodePipeline, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon CodePipeline

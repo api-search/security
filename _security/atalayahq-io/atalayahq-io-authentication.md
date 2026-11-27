@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Atalayahq Io Authentication
+name: Atalaya Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Atalaya declares 0 security scheme(s) across its OpenAPI definitions.

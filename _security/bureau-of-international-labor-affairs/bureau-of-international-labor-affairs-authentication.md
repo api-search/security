@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bureau Of International Labor Affairs Authentication
+name: Bureau of International Labor Affairs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bureau of International Labor Affairs declares 1 security scheme(s) across its OpenAPI definitions.

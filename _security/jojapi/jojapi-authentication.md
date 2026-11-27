@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Jojapi Authentication
+name: APRYCO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: APRYCO declares 4 security scheme(s) across its OpenAPI definitions.

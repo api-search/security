@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Vipshop Authentication
+name: VIPShop Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VIPShop secures its APIs with apiKey and signature across 2 declared security schemes, as derived from its OpenAPI definitions.

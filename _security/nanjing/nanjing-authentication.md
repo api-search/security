@@ -12,7 +12,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: probed
-name: Nanjing Authentication
+name: Nanjing University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Nanjing University secures its APIs with none, saml, cas, bearer, and challenge across 9 declared security schemes, as derived from its OpenAPI definitions.

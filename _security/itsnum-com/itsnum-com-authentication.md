@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Itsnum Com Authentication
+name: itsnum-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: itsnum-com declares 2 security scheme(s) across its OpenAPI definitions.

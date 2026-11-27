@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Coremodels Io Authentication
+name: coremodels-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: coremodels-io declares 1 security scheme(s) across its OpenAPI definitions.

@@ -102,6 +102,30 @@ api_specs:
   slug: anchorbrowser-tools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-tools-api-openapi.yml
+- filename: anchorbrowser-agent-access-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Agent Access API
+  slug: anchorbrowser-agent-access-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-agent-access-api-openapi.yml
+- filename: anchorbrowser-volume-files-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Volume Files API
+  slug: anchorbrowser-volume-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-volume-files-api-openapi.yml
+- filename: anchorbrowser-volumes-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Volumes API
+  slug: anchorbrowser-volumes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-volumes-api-openapi.yml
+- filename: anchorbrowser-webhooks-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Webhooks API
+  slug: anchorbrowser-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-webhooks-api-openapi.yml
 certification_count: 4
 certifications:
 - SOC 2
@@ -111,7 +135,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Anchorbrowser Trust Center
+name: Anchor Browser Trust Center
 name_suffix: Trust Center
 overview: Anchor Browser maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Anchor Browser

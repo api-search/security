@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Winfield United Authentication
+name: WinField United Data Silo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WinField United Data Silo declares 0 security scheme(s) across its OpenAPI definitions.

@@ -110,7 +110,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pydantic Ai Trust Center
+name: PydanticAI Trust Center
 name_suffix: Trust Center
 overview: PydanticAI maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: PydanticAI

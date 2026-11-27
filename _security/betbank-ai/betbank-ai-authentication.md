@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Betbank Ai Authentication
+name: BetBank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BetBank declares 0 security scheme(s) across its OpenAPI definitions.

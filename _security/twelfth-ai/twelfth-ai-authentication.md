@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Twelfth Ai Authentication
+name: twelfth-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: twelfth-ai declares 1 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Getklo Com Authentication
+name: getklo-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: getklo-com declares 1 security scheme(s) across its OpenAPI definitions.

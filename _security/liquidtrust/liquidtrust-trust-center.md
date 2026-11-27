@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Liquidtrust Trust Center
+name: LiquidTrust Trust Center
 name_suffix: Trust Center
 overview: LiquidTrust maintains a public trust center documenting SOC 2 Type II, ISO 27001, PCI DSS, GDPR, and CCPA compliance.
 provider_name: LiquidTrust

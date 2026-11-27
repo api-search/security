@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Star Micronics Authentication
+name: Star Micronics CloudPRNT Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Star Micronics CloudPRNT declares 0 security scheme(s) across its OpenAPI definitions.

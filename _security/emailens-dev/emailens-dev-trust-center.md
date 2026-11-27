@@ -15,7 +15,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Emailens Dev Trust Center
+name: emailens-dev Trust Center
 name_suffix: Trust Center
 overview: emailens-dev maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: emailens-dev

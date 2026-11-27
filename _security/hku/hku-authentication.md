@@ -24,7 +24,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Hku Authentication
+name: University of Hong Kong Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Hong Kong secures its APIs with oauth2, openIdConnect, saml2, and apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

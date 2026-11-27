@@ -79,7 +79,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sambanova Systems Trust Center
+name: SambaNova Systems Trust Center
 name_suffix: Trust Center
 overview: SambaNova Systems maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: SambaNova Systems

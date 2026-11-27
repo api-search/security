@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Getboon Ai Trust Center
+name: Boon Trust Center
 name_suffix: Trust Center
 overview: Boon maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Boon

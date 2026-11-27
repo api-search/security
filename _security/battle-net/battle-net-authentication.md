@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Battle Net Authentication
+name: Battle.net Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

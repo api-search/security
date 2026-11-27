@@ -4,24 +4,12 @@ api_key_in:
 - header
 - query
 api_specs:
-- filename: coingecko-asset-platforms-api-openapi.yml
-  format: yaml
-  label: CoinGecko Asset Platforms API
-  slug: coingecko-asset-platforms-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingecko/openapi/coingecko-asset-platforms-api-openapi.yml
 - filename: coingecko-categories-api-openapi.yml
   format: yaml
   label: CoinGecko Categories API
   slug: coingecko-categories-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coingecko/openapi/coingecko-categories-api-openapi.yml
-- filename: coingecko-coins-api-openapi.yml
-  format: yaml
-  label: CoinGecko Coins API
-  slug: coingecko-coins-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingecko/openapi/coingecko-coins-api-openapi.yml
 - filename: coingecko-companies-api-openapi.yml
   format: yaml
   label: CoinGecko Companies API
@@ -34,36 +22,12 @@ api_specs:
   slug: coingecko-contract-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coingecko/openapi/coingecko-contract-api-openapi.yml
-- filename: coingecko-derivatives-api-openapi.yml
-  format: yaml
-  label: CoinGecko Derivatives API
-  slug: coingecko-derivatives-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingecko/openapi/coingecko-derivatives-api-openapi.yml
 - filename: coingecko-dexes-api-openapi.yml
   format: yaml
   label: CoinGecko DEXes API
   slug: coingecko-dexes-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coingecko/openapi/coingecko-dexes-api-openapi.yml
-- filename: coingecko-exchange-rates-api-openapi.yml
-  format: yaml
-  label: CoinGecko Exchange Rates API
-  slug: coingecko-exchange-rates-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingecko/openapi/coingecko-exchange-rates-api-openapi.yml
-- filename: coingecko-exchanges-api-openapi.yml
-  format: yaml
-  label: CoinGecko Exchanges API
-  slug: coingecko-exchanges-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingecko/openapi/coingecko-exchanges-api-openapi.yml
-- filename: coingecko-global-api-openapi.yml
-  format: yaml
-  label: CoinGecko Global API
-  slug: coingecko-global-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingecko/openapi/coingecko-global-api-openapi.yml
 - filename: coingecko-networks-api-openapi.yml
   format: yaml
   label: CoinGecko Networks API
@@ -76,30 +40,12 @@ api_specs:
   slug: coingecko-ohlcv-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coingecko/openapi/coingecko-ohlcv-api-openapi.yml
-- filename: coingecko-ping-api-openapi.yml
-  format: yaml
-  label: CoinGecko Ping API
-  slug: coingecko-ping-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingecko/openapi/coingecko-ping-api-openapi.yml
 - filename: coingecko-pools-api-openapi.yml
   format: yaml
   label: CoinGecko Pools API
   slug: coingecko-pools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coingecko/openapi/coingecko-pools-api-openapi.yml
-- filename: coingecko-search-api-openapi.yml
-  format: yaml
-  label: CoinGecko Search API
-  slug: coingecko-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingecko/openapi/coingecko-search-api-openapi.yml
-- filename: coingecko-simple-api-openapi.yml
-  format: yaml
-  label: CoinGecko Simple API
-  slug: coingecko-simple-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingecko/openapi/coingecko-simple-api-openapi.yml
 - filename: coingecko-token-lists-api-openapi.yml
   format: yaml
   label: CoinGecko Token Lists API
@@ -130,12 +76,6 @@ api_specs:
   slug: coingecko-trending-pools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coingecko/openapi/coingecko-trending-pools-api-openapi.yml
-- filename: coingecko-nfts-api-openapi.yml
-  format: yaml
-  label: CoinGecko NF Ts API
-  slug: coingecko-nfts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/coingecko/openapi/coingecko-nfts-api-openapi.yml
 - filename: coingecko-entities-api-openapi.yml
   format: yaml
   label: CoinGecko Entities API
@@ -172,12 +112,72 @@ api_specs:
   slug: coingecko-rwas-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coingecko/openapi/coingecko-rwas-api-openapi.yml
+- filename: coingecko-asset-platforms-api-openapi.yml
+  format: yaml
+  label: CoinGecko Asset Platforms API
+  slug: coingecko-asset-platforms-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-asset-platforms-api-openapi.yml
+- filename: coingecko-coins-api-openapi.yml
+  format: yaml
+  label: CoinGecko Coins API
+  slug: coingecko-coins-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-coins-api-openapi.yml
+- filename: coingecko-derivatives-api-openapi.yml
+  format: yaml
+  label: CoinGecko Derivatives API
+  slug: coingecko-derivatives-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-derivatives-api-openapi.yml
+- filename: coingecko-exchange-rates-api-openapi.yml
+  format: yaml
+  label: CoinGecko Exchange Rates API
+  slug: coingecko-exchange-rates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-exchange-rates-api-openapi.yml
+- filename: coingecko-exchanges-api-openapi.yml
+  format: yaml
+  label: CoinGecko Exchanges API
+  slug: coingecko-exchanges-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-exchanges-api-openapi.yml
+- filename: coingecko-global-api-openapi.yml
+  format: yaml
+  label: CoinGecko Global API
+  slug: coingecko-global-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-global-api-openapi.yml
+- filename: coingecko-nfts-api-openapi.yml
+  format: yaml
+  label: CoinGecko NFTs API
+  slug: coingecko-nfts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-nfts-api-openapi.yml
 - filename: coingecko-on-chain-api-openapi.yml
   format: yaml
   label: CoinGecko On Chain API
   slug: coingecko-on-chain-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coingecko/openapi/coingecko-on-chain-api-openapi.yml
+- filename: coingecko-ping-api-openapi.yml
+  format: yaml
+  label: CoinGecko Ping API
+  slug: coingecko-ping-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-ping-api-openapi.yml
+- filename: coingecko-search-api-openapi.yml
+  format: yaml
+  label: CoinGecko Search API
+  slug: coingecko-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-search-api-openapi.yml
+- filename: coingecko-simple-api-openapi.yml
+  format: yaml
+  label: CoinGecko Simple API
+  slug: coingecko-simple-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coingecko/openapi/coingecko-simple-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -185,7 +185,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: derived
-name: Coingecko Authentication
+name: CoinGecko Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CoinGecko secures its APIs with apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

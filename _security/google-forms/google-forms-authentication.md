@@ -8,18 +8,6 @@ api_specs:
   slug: google-forms-forms-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-forms/openapi/google-forms-forms-api-openapi.yml
-- filename: google-forms-responses-api-openapi.yml
-  format: yaml
-  label: Google Forms Responses API
-  slug: google-forms-responses-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-forms/openapi/google-forms-responses-api-openapi.yml
-- filename: google-forms-watches-api-openapi.yml
-  format: yaml
-  label: Google Forms Watches API
-  slug: google-forms-watches-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-forms/openapi/google-forms-watches-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

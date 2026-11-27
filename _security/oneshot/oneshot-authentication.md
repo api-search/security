@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Oneshot Authentication
+name: OneShot Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

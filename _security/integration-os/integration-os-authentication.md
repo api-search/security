@@ -199,7 +199,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: derived
-name: Integration Os Authentication
+name: IntegrationOS Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

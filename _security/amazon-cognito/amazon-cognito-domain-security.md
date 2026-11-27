@@ -42,6 +42,12 @@ api_specs:
   slug: amazon-cognito-user-pool-replica-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-user-pool-replica-api-openapi.yml
+- filename: amazon-cognito-datasets-api-openapi.yml
+  format: yaml
+  label: Amazon Cognito Cognito Datasets API
+  slug: amazon-cognito-datasets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-cognito/openapi/amazon-cognito-datasets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -94,7 +100,6 @@ tags:
 - Authentication
 - Amazon Web Services
 - Identity
-- OAuth
 - OpenID Connect
 - SAML
 - User Management

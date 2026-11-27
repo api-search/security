@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Bnetd Ci Authentication
+name: Bureau National d'Etudes Techniques et de Developpement (BNETD) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bureau National d'Etudes Techniques et de Developpement (BNETD) declares 0 security scheme(s) across its OpenAPI definitions.

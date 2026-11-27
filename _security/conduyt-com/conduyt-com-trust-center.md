@@ -618,29 +618,40 @@ api_specs:
   slug: conduyt-com-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-workflows-api-openapi.yml
-certification_count: 6
+- filename: conduyt-com-activity-api-openapi.yml
+  format: yaml
+  label: Conduyt Activity API
+  slug: conduyt-com-activity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-activity-api-openapi.yml
+- filename: conduyt-com-tax-rates-api-openapi.yml
+  format: yaml
+  label: Conduyt Tax Rates API
+  slug: conduyt-com-tax-rates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/conduyt-com/openapi/conduyt-com-tax-rates-api-openapi.yml
+certification_count: 5
 certifications:
 - SOC 2
 - ISO 27001
-- PCI DSS
 - HIPAA
 - FedRAMP
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Conduyt Com Trust Center
+name: Conduyt Trust Center
 name_suffix: Trust Center
-overview: Conduyt maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, and GDPR compliance.
+overview: Conduyt maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, FedRAMP, and GDPR compliance.
 provider_name: Conduyt
 provider_slug: conduyt-com
 slug: conduyt-com-trust-center
 source_filename: conduyt-com-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-29'\nmethod: searched\nprobe: true\nsource: https://conduyt.com/trust/\nurl: https://conduyt.com/trust/\ncertifications:\n- SOC 2\n- ISO 27001\n- PCI DSS\n- HIPAA\n- FedRAMP\n- GDPR\nevidence:\n- source: https://conduyt.com/trust/\n  keywords:\n  - soc 2\n  - iso 27001\n  - pci dss\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
+source_yaml: "generated: '2026-11-17'\nmethod: searched\nprobe: true\nsource: https://conduyt.com/trust/\nurl: https://conduyt.com/trust/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\n- FedRAMP\n- GDPR\ncertifications_not_held:\n- PCI DSS\ncertification_quotes:\n  PCI DSS: other certifications? | We do not currently hold ISO 27001, FedRAMP, or PCI DSS certifications.\n    If your procurement process requires one of these spe\nevidence:\n- source: https://conduyt.com/trust/\n  keywords:\n  - soc 2\n  - iso 27001\n  - pci dss\n  - hipaa\n  - fedramp\n  - trust center\n  - gdpr\n"
 source_yaml_url: https://artifacts.apis.io/conduyt-com/security/conduyt-com-trust-center.yml
-summary_line: SOC 2, ISO 27001, PCI DSS, HIPAA, FedRAMP, GDPR
+summary_line: SOC 2, ISO 27001, HIPAA, FedRAMP, GDPR
 tags:
 - Company
 - CRM

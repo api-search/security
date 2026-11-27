@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 9
 method: searched
-name: Airpipe Io Authentication
+name: Air Pipe Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Air Pipe declares 9 security scheme(s) across its OpenAPI definitions.

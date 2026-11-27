@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nodes And Links Trust Center
+name: Nodes and Links Trust Center
 name_suffix: Trust Center
 overview: Nodes and Links maintains a public trust center documenting ISO 27001 and UK Cyber Essentials compliance.
 provider_name: Nodes and Links

@@ -254,7 +254,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Repowise Dev Authentication
+name: repowise-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: repowise-dev declares 1 security scheme(s) across its OpenAPI definitions.

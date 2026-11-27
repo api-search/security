@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Sportsnet Authentication
+name: Sportsnet stats ticker Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Sportsnet stats ticker declares 0 security scheme(s) across its OpenAPI definitions.

@@ -32,7 +32,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pvcase Trust Center
+name: PVcase Trust Center
 name_suffix: Trust Center
 overview: PVcase maintains a public trust center documenting SOC 2 Type I, SOC 2 Type II, and SOC 3 compliance.
 provider_name: PVcase

@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Apexai Academy Authentication
+name: Apex AI Academy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Apex AI Academy declares 2 security scheme(s) across its OpenAPI definitions.

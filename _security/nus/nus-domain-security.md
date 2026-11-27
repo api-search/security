@@ -122,7 +122,7 @@ hosts_probed: 11
 kind: domain-security
 layout: security
 method: probed
-name: Nus Domain Security
+name: National University of Singapore Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for National University of Singapore, probed live across 11 host(s) and 1 registrable domain(s). 11 host(s) serve HTTPS (up to TLSv1.2); 4 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: National University of Singapore

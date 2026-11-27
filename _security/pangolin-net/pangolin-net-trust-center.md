@@ -223,7 +223,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pangolin Net Trust Center
+name: Pangolin (Fossorial) Trust Center
 name_suffix: Trust Center
 overview: Pangolin (Fossorial) maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Pangolin (Fossorial)

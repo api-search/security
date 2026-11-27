@@ -46,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Finisma De Authentication
+name: Paulibytes UG (haftungsbeschränkt) Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
@@ -80,9 +80,8 @@ source_yaml_url: https://artifacts.apis.io/finisma-de/authentication/finisma-de-
 summary_line: http/oauth2 · 2 schemes
 tags:
 - Company
-- FinTech
-- Invoice
+- Fintech
+- Invoices
 - PDF
 - ZUGFeRD
-- API
 ---

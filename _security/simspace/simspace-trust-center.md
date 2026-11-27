@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Simspace Trust Center
+name: SimSpace Trust Center
 name_suffix: Trust Center
 overview: SimSpace maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, CMMC Level 2, CSA STAR Level 1, NIST SP 800-171, GDPR, CCPA, and HECVAT Lite compliance.
 provider_name: SimSpace

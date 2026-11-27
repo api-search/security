@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Colaunched Ai Authentication
+name: colaunched-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: colaunched-ai declares 0 security scheme(s) across its OpenAPI definitions.

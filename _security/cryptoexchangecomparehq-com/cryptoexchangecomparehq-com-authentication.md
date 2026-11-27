@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cryptoexchangecomparehq Com Authentication
+name: Crypto Exchange Compare HQ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Crypto Exchange Compare HQ secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

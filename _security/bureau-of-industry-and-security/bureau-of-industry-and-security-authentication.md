@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Bureau Of Industry And Security Authentication
+name: Bureau of Industry and Security Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bureau of Industry and Security secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

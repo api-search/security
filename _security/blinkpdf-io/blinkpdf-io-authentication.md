@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Blinkpdf Io Authentication
+name: blinkpdf-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: blinkpdf-io declares 1 security scheme(s) across its OpenAPI definitions.

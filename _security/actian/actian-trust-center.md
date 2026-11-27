@@ -55,7 +55,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Actian Trust Center
+name: Actian Corporation Trust Center
 name_suffix: Trust Center
 overview: Actian Corporation maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: Actian Corporation

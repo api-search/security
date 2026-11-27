@@ -69,7 +69,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Phala Trust Center
+name: Phala Network Trust Center
 name_suffix: Trust Center
 overview: Phala Network maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Phala Network

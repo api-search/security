@@ -1,17 +1,5 @@
 ---
 api_specs:
-- filename: microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
-  format: yaml
-  label: Azure ExpressRoute Circuits API
-  slug: microsoft-azure-express-route-expressroute-circuits-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-express-route/openapi/microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
-- filename: microsoft-azure-express-route-operations-api-openapi.yml
-  format: yaml
-  label: Azure ExpressRoute Operations API
-  slug: microsoft-azure-express-route-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-express-route/openapi/microsoft-azure-express-route-operations-api-openapi.yml
 - filename: microsoft-azure-express-route-bgpservicecommunities-api-openapi.yml
   format: yaml
   label: Azure ExpressRoute Bgp Service Communities API
@@ -180,6 +168,12 @@ api_specs:
   slug: microsoft-azure-express-route-serviceendpointpolicydefinitions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-express-route/openapi/microsoft-azure-express-route-serviceendpointpolicydefinitions-api-openapi.yml
+- filename: microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
+  format: yaml
+  label: Azure ExpressRoute ExpressRoute Circuits API
+  slug: microsoft-azure-express-route-expressroute-circuits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-express-route/openapi/microsoft-azure-express-route-expressroute-circuits-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -218,7 +212,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Microsoft Azure Express Route Domain Security
+name: Azure ExpressRoute Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Azure ExpressRoute, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Azure ExpressRoute

@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Reguscilabs Com Authentication
+name: reguscilabs-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: reguscilabs-com declares 0 security scheme(s) across its OpenAPI definitions.

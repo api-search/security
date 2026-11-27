@@ -18,12 +18,6 @@ api_specs:
   slug: hevn-inc-apps-transfer-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-apps-transfer-api-openapi.yml
-- filename: hevn-inc-auth-api-openapi.yml
-  format: yaml
-  label: Hevn Inc Auth API
-  slug: hevn-inc-auth-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-auth-api-openapi.yml
 - filename: hevn-inc-balance-api-openapi.yml
   format: yaml
   label: Hevn Inc Balance API
@@ -60,12 +54,6 @@ api_specs:
   slug: hevn-inc-devices-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-devices-api-openapi.yml
-- filename: hevn-inc-documents-api-openapi.yml
-  format: yaml
-  label: Hevn Inc Documents API
-  slug: hevn-inc-documents-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-documents-api-openapi.yml
 - filename: hevn-inc-exports-api-openapi.yml
   format: yaml
   label: Hevn Inc Exports API
@@ -138,12 +126,6 @@ api_specs:
   slug: hevn-inc-tee-local-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-tee-local-api-openapi.yml
-- filename: hevn-inc-transactions-api-openapi.yml
-  format: yaml
-  label: Hevn Inc Transactions API
-  slug: hevn-inc-transactions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-transactions-api-openapi.yml
 - filename: hevn-inc-user-api-openapi.yml
   format: yaml
   label: Hevn Inc User API
@@ -234,6 +216,24 @@ api_specs:
   slug: hevn-inc-2-fa-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-2-fa-api-openapi.yml
+- filename: hevn-inc-auth-api-openapi.yml
+  format: yaml
+  label: Hevn Auth API
+  slug: hevn-inc-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-auth-api-openapi.yml
+- filename: hevn-inc-documents-api-openapi.yml
+  format: yaml
+  label: Hevn Documents API
+  slug: hevn-inc-documents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-documents-api-openapi.yml
+- filename: hevn-inc-transactions-api-openapi.yml
+  format: yaml
+  label: Hevn Transactions API
+  slug: hevn-inc-transactions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/hevn-inc/openapi/hevn-inc-transactions-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -271,7 +271,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Hevn Inc Domain Security
+name: Hevn Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Hevn, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=none).'
 provider_name: Hevn

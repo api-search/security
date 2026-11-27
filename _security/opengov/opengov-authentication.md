@@ -624,7 +624,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: derived
-name: Opengov Authentication
+name: OpenGov Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OpenGov secures its APIs with apiKey, http, and openIdConnect across 6 declared security schemes, as derived from its OpenAPI definitions.

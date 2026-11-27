@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Snapshot Site Com Authentication
+name: snapshot-site-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: snapshot-site-com declares 1 security scheme(s) across its OpenAPI definitions.

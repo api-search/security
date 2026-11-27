@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Media2Url Authentication
+name: Media2URL Direct Media Delivery API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Media2URL Direct Media Delivery API declares 1 security scheme(s) across its OpenAPI definitions.

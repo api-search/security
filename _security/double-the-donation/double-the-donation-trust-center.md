@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Double The Donation Trust Center
+name: Double the Donation Trust Center
 name_suffix: Trust Center
 overview: Double the Donation maintains a public trust center documenting SOC 2 compliance.
 provider_name: Double the Donation

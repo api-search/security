@@ -66,7 +66,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Postalform Com Authentication
+name: PostalForm Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PostalForm secures its APIs with http, none, and payment-gated across 3 declared security schemes, as derived from its OpenAPI definitions.

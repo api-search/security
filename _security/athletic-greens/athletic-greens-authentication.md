@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Athletic Greens Authentication
+name: AG1 Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorization_code

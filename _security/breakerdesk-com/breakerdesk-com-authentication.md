@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Breakerdesk Com Authentication
+name: breakerdesk-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: breakerdesk-com declares 0 security scheme(s) across its OpenAPI definitions.

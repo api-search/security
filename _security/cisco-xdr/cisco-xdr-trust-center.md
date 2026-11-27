@@ -538,7 +538,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cisco Xdr Trust Center
+name: Cisco XDR Trust Center
 name_suffix: Trust Center
 overview: Cisco XDR maintains a public trust center documenting ISO 27001, FedRAMP, GDPR, SOC 2, and BSI C5 compliance.
 provider_name: Cisco XDR

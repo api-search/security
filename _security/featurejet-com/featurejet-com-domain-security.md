@@ -25,7 +25,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Featurejet Com Domain Security
+name: FeatureJet Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FeatureJet, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: FeatureJet
@@ -39,7 +39,7 @@ source_yaml_url: https://artifacts.apis.io/featurejet-com/security/featurejet-co
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Feedback board
-- AI agents
-- Roadmap
-- SaaS
+- AI Agents
+- Roadmaps
+- Software-as-a-Service
 ---

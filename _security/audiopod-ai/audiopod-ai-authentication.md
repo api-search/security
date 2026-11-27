@@ -152,7 +152,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Audiopod Ai Authentication
+name: audiopod-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: audiopod-ai declares 2 security scheme(s) across its OpenAPI definitions.

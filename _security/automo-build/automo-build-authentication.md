@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Automo Build Authentication
+name: Automo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Automo declares 1 security scheme(s) across its OpenAPI definitions.

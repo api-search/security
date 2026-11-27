@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Noteworthy Ai Trust Center
+name: Noteworthy AI Trust Center
 name_suffix: Trust Center
 overview: Noteworthy AI maintains a public trust center documenting SOC 2 compliance.
 provider_name: Noteworthy AI

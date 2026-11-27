@@ -23,7 +23,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Seamless Ai Trust Center
+name: Seamless.AI Trust Center
 name_suffix: Trust Center
 overview: Seamless.AI maintains a public trust center covering its security and compliance posture.
 provider_name: Seamless.AI

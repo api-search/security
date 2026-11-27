@@ -35,7 +35,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Clevertap Trust Center
+name: CleverTap Trust Center
 name_suffix: Trust Center
 overview: CleverTap maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, HIPAA, GDPR, and CSA STAR compliance.
 provider_name: CleverTap

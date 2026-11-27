@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Egrul Org Authentication
+name: egrul-org Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: egrul-org declares 1 security scheme(s) across its OpenAPI definitions.

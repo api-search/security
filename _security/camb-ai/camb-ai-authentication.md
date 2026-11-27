@@ -3,42 +3,12 @@ anonymous_access: false
 api_key_in:
 - header
 api_specs:
-- filename: camb-ai-dubbing-api-openapi.yml
+- filename: camb-ai-fastapi-api-openapi.yml
   format: yaml
-  label: Camb.AI Dubbing API
-  slug: camb-ai-dubbing-api
+  label: Camb.AI Fast API
+  slug: camb-ai-fastapi-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-dubbing-api-openapi.yml
-- filename: camb-ai-languages-api-openapi.yml
-  format: yaml
-  label: Camb.AI Languages API
-  slug: camb-ai-languages-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-languages-api-openapi.yml
-- filename: camb-ai-text-to-speech-api-openapi.yml
-  format: yaml
-  label: Camb.AI Text-to-Speech API
-  slug: camb-ai-text-to-speech-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-text-to-speech-api-openapi.yml
-- filename: camb-ai-transcription-api-openapi.yml
-  format: yaml
-  label: Camb.AI Transcription API
-  slug: camb-ai-transcription-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-transcription-api-openapi.yml
-- filename: camb-ai-translation-api-openapi.yml
-  format: yaml
-  label: Camb.AI Translation API
-  slug: camb-ai-translation-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-translation-api-openapi.yml
-- filename: camb-ai-voices-api-openapi.yml
-  format: yaml
-  label: Camb.AI Voices API
-  slug: camb-ai-voices-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-voices-api-openapi.yml
+  url: https://artifacts.apis.io/camb-ai/openapi/camb-ai-fastapi-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -46,7 +16,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Camb Ai Authentication
+name: Camb.AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Camb.AI secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

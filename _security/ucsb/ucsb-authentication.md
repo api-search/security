@@ -342,7 +342,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Ucsb Authentication
+name: University of California, Santa Barbara Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

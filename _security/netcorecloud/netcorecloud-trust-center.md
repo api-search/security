@@ -291,7 +291,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Netcorecloud Trust Center
+name: Netcore Cloud Trust Center
 name_suffix: Trust Center
 overview: Netcore Cloud maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Netcore Cloud

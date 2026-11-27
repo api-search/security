@@ -6,6 +6,12 @@ api_specs:
   slug: coursera-catalog-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/coursera/openapi/coursera-catalog-api-openapi.yml
+- filename: coursera-search-v1-controller-api-openapi.yml
+  format: yaml
+  label: Coursera Search V1 Controller API
+  slug: coursera-search-v1-controller-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/coursera/openapi/coursera-search-v1-controller-api-openapi.yml
 description: ''
 domains:
 - caa: []

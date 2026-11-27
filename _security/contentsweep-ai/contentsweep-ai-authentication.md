@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Contentsweep Ai Authentication
+name: contentsweep-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: contentsweep-ai declares 0 security scheme(s) across its OpenAPI definitions.
@@ -32,6 +32,6 @@ tags:
 - Company
 - Adult-Content-Protection
 - DMCA
-- Content-Monitoring
+- Content Monitoring
 - Privacy
 ---

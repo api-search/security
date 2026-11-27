@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Claimrev Trust Center
+name: Claim.Revolution Trust Center
 name_suffix: Trust Center
 overview: Claim.Revolution maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Claim.Revolution

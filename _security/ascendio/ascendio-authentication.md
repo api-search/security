@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ascendio Authentication
+name: Ascend.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ascend.io secures its APIs with http-bearer and service-account across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -1,11 +1,11 @@
 ---
 api_specs:
-- filename: nizlo-com-openapi-generated.yml
+- filename: nizlo-com-nizlo-rmm-api-openapi.yml
   format: yaml
-  label: Nizlo API
-  slug: nizlo-com-api
+  label: Nizlo RMM API
+  slug: nizlo-rmm-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/nizlo-com/openapi/_ae-authored/nizlo-com-openapi-generated.yml
+  url: https://artifacts.apis.io/nizlo-com/openapi/nizlo-com-nizlo-rmm-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -25,7 +25,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Nizlo Com Domain Security
+name: Nizlo Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Nizlo, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Nizlo

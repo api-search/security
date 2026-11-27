@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Call4 Me Authentication
+name: call4me Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: call4me declares 1 security scheme(s) across its OpenAPI definitions.

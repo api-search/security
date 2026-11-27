@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: activepieces-connections-api-openapi.yml
-  format: yaml
-  label: Activepieces Connections API
-  slug: activepieces-connections-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/activepieces/openapi/activepieces-connections-api-openapi.yml
 - filename: activepieces-flow-runs-api-openapi.yml
   format: yaml
   label: Activepieces Flow Runs API

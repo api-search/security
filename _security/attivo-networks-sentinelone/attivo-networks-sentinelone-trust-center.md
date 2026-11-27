@@ -19,7 +19,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Attivo Networks Sentinelone Trust Center
+name: Attivo Networks (SentinelOne) Trust Center
 name_suffix: Trust Center
 overview: Attivo Networks (SentinelOne) maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 27001 SoA, ISO/IEC 27017:2015, ISO/IEC 27018:2019, FedRAMP Certified (Class D), FISMA High, TX-RAMP, Common Criteria, Cyber Essentials, Cyber Essentials Plus, GDPR, CCPA, ACN, and VPAT compliance.
 provider_name: Attivo Networks (SentinelOne)

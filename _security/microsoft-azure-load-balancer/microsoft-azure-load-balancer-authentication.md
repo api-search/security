@@ -8,12 +8,6 @@ api_specs:
   slug: microsoft-azure-load-balancer-load-balancers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-load-balancer/openapi/microsoft-azure-load-balancer-load-balancers-api-openapi.yml
-- filename: microsoft-azure-load-balancer-operations-api-openapi.yml
-  format: yaml
-  label: Azure Load Balancer Operations API
-  slug: microsoft-azure-load-balancer-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-load-balancer/openapi/microsoft-azure-load-balancer-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -21,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Microsoft Azure Load Balancer Authentication
+name: Azure Load Balancer Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit

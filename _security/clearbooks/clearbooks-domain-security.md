@@ -35,7 +35,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Clearbooks Domain Security
+name: Clear Books Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Clear Books, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Clear Books

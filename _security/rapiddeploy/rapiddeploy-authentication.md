@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Rapiddeploy Authentication
+name: RapidDeploy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RapidDeploy declares 4 security scheme(s) across its OpenAPI definitions.

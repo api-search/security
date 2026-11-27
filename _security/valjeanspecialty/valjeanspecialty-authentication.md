@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Valjeanspecialty Authentication
+name: Valjean Specialty Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Valjean Specialty declares 2 security scheme(s) across its OpenAPI definitions.

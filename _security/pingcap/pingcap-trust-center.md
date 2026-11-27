@@ -276,7 +276,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pingcap Trust Center
+name: PingCAP Trust Center
 name_suffix: Trust Center
 overview: PingCAP maintains a public trust center documenting ISO 27001, ISO 27701, SOC 2, PCI DSS, GDPR, HIPAA, and EU-US Data Privacy Framework compliance.
 provider_name: PingCAP

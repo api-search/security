@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Learnplatform Trust Center
+name: LearnPlatform Trust Center
 name_suffix: Trust Center
 overview: LearnPlatform maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, TX-RAMP, Cyber Essentials, Cyber Essentials Plus, and TRUSTe Enterprise Privacy & Data Governance compliance.
 provider_name: LearnPlatform

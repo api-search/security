@@ -5,7 +5,7 @@ api_specs:
   label: Gorgias Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/asyncapi/gorgias-asyncapi.yml
+  url: https://artifacts.apis.io/gorgias/asyncapi/gorgias-asyncapi.yml
 - filename: gorgias-account-api-openapi.yml
   format: yaml
   label: Gorgias Account API

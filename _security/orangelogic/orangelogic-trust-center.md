@@ -259,7 +259,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Orangelogic Trust Center
+name: Orange Logic Trust Center
 name_suffix: Trust Center
 overview: Orange Logic maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: Orange Logic

@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Wandb Authentication
+name: Weights and Biases Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Weights and Biases secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

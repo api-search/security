@@ -70,7 +70,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Alliance Data Systems Domain Security
+name: Alliance Data Systems (Bread Financial Holdings) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Alliance Data Systems (Bread Financial Holdings), probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Alliance Data Systems (Bread Financial Holdings)

@@ -247,7 +247,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Clawdchat Ai Authentication
+name: ClawdChat 虾聊 Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -12,7 +12,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Crexi Authentication
+name: CREXi Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

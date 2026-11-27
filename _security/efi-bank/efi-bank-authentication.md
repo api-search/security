@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Efi Bank Authentication
+name: Efí Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Efí secures its APIs with oauth2 and mutualTLS across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 1F3Ea Com Authentication
+name: 1F3EA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 1F3EA declares 0 security scheme(s) across its OpenAPI definitions.

@@ -18,12 +18,6 @@ api_specs:
   slug: npm-downloads-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/npm/openapi/npm-downloads-api-openapi.yml
-- filename: npm-oidc-api-openapi.yml
-  format: yaml
-  label: npm OIDC API
-  slug: npm-oidc-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/npm/openapi/npm-oidc-api-openapi.yml
 - filename: npm-packages-api-openapi.yml
   format: yaml
   label: npm Packages API
@@ -36,12 +30,6 @@ api_specs:
   slug: npm-search-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/npm/openapi/npm-search-api-openapi.yml
-- filename: npm-tokens-api-openapi.yml
-  format: yaml
-  label: npm Tokens API
-  slug: npm-tokens-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/npm/openapi/npm-tokens-api-openapi.yml
 - filename: npm-trusted-publishers-api-openapi.yml
   format: yaml
   label: npm Trusted Publishers API
@@ -90,34 +78,46 @@ api_specs:
   slug: npm-trust-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/npm/openapi/npm-trust-api-openapi.yml
+- filename: npm-oidc-api-openapi.yml
+  format: yaml
+  label: npm OIDC API
+  slug: npm-oidc-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-oidc-api-openapi.yml
+- filename: npm-tokens-api-openapi.yml
+  format: yaml
+  label: npm Tokens API
+  slug: npm-tokens-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/npm/openapi/npm-tokens-api-openapi.yml
 description: ''
 domains:
 - caa:
-  - 0 issuewild "ssl.com"
-  - 0 issue "comodoca.com"
-  - 0 issue "digicert.com; cansignhttpexchanges=yes"
-  - 0 issue "letsencrypt.org"
   - 0 issue "pki.goog; cansignhttpexchanges=yes"
   - 0 issue "sectigo.com"
+  - 0 issue "ssl.com"
+  - 0 issuewild "comodoca.com"
+  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
+  - 0 issuewild "letsencrypt.org"
   dmarc: true
   dmarc_policy: quarantine
   dnssec: true
   domain: npmjs.com
   spf: true
 - caa:
+  - 0 issuewild "digicert.com; cansignhttpexchanges=yes"
   - 0 issuewild "letsencrypt.org"
   - 0 issuewild "pki.goog; cansignhttpexchanges=yes"
   - 0 issuewild "ssl.com"
   - 0 issue "comodoca.com"
   - 0 issue "digicert.com; cansignhttpexchanges=yes"
-  - 0 issue "letsencrypt.org"
   dmarc: true
   dmarc_policy: reject
   dnssec: false
   domain: npmjs.org
   spf: true
 hosts:
-- cert_expires: Dec 10 04:46:16 2026 GMT
+- cert_expires: Feb  7 06:08:58 2027 GMT
   host: www.npmjs.com
   hsts: null
   https: true
@@ -136,7 +136,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Npm Domain Security
+name: npm Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for npm, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: npm
@@ -145,8 +145,8 @@ slug: npm-domain-security
 source_filename: npm-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-11-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.npmjs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 10 04:46:16 2026 GMT\n  hsts: null\n- host: registry.npmjs.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 20 11:16:47 2027 GMT\n  hsts: false\n- host: blog.npmjs.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 15:41:50 2027 GMT\n  hsts: false\ndomains:\n- domain: npmjs.com\n  dnssec: true\n  caa:\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: npmjs.org\n  dnssec: false\n  caa:\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue\
-  \ \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issue \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.npmjs.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  7 06:08:58 2027 GMT\n  hsts: null\n- host: registry.npmjs.org\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Jan 20 11:16:47 2027 GMT\n  hsts: false\n- host: blog.npmjs.org\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Jan 26 15:41:50 2027 GMT\n  hsts: false\ndomains:\n- domain: npmjs.com\n  dnssec: true\n  caa:\n  - 0 issue \"pki.goog; cansignhttpexchanges=yes\"\n  - 0 issue \"sectigo.com\"\n  - 0 issue \"ssl.com\"\n  - 0 issuewild \"comodoca.com\"\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n- domain: npmjs.org\n  dnssec: false\n  caa:\n  - 0 issuewild \"digicert.com; cansignhttpexchanges=yes\"\n  - 0 issuewild \"letsencrypt.org\"\n  - 0 issuewild \"pki.goog;\
+  \ cansignhttpexchanges=yes\"\n  - 0 issuewild \"ssl.com\"\n  - 0 issue \"comodoca.com\"\n  - 0 issue \"digicert.com; cansignhttpexchanges=yes\"\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/npm/security/npm-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:

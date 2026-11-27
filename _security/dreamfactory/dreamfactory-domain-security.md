@@ -5,7 +5,7 @@ api_specs:
   label: DreamFactory System API
   slug: system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-system-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-system-api-openapi.yml
 - filename: dreamfactory-admin-api-openapi.yml
   format: yaml
   label: DreamFactory Admin API
@@ -127,7 +127,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Dreamfactory Domain Security
+name: DreamFactory Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for DreamFactory, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: DreamFactory

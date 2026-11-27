@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Oldweb Tech Authentication
+name: oldweb-tech Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: oldweb-tech declares 0 security scheme(s) across its OpenAPI definitions.

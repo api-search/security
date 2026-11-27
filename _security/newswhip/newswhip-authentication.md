@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Newswhip Authentication
+name: NewsWhip Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NewsWhip secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

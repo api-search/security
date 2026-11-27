@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Nimasensor Authentication
+name: NimaSensor Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Rategain Authentication
+name: RateGain Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RateGain declares 3 security scheme(s) across its OpenAPI definitions.

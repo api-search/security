@@ -126,7 +126,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Cloudbees Authentication
+name: CloudBees Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CloudBees secures its APIs with apiKey, http, oauth2, and openIdConnect across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 1Touch Io Trust Center
+name: 1touch.io Trust Center
 name_suffix: Trust Center
 overview: 1touch.io maintains a public trust center documenting SOC 2 Type 2 and ISO 27001 compliance.
 provider_name: 1touch.io

@@ -2,48 +2,48 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: bitoasis-account-api-openapi.yml
-  format: yaml
-  label: BitOasis Account API
-  slug: bitoasis-account-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-account-api-openapi.yml
-- filename: bitoasis-coin-deposits-api-openapi.yml
-  format: yaml
-  label: BitOasis Coin Deposits API
-  slug: bitoasis-coin-deposits-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-coin-deposits-api-openapi.yml
-- filename: bitoasis-coin-withdrawals-api-openapi.yml
-  format: yaml
-  label: BitOasis Coin Withdrawals API
-  slug: bitoasis-coin-withdrawals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-coin-withdrawals-api-openapi.yml
-- filename: bitoasis-fiat-deposits-api-openapi.yml
-  format: yaml
-  label: BitOasis Fiat Deposits API
-  slug: bitoasis-fiat-deposits-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-fiat-deposits-api-openapi.yml
-- filename: bitoasis-fiat-withdrawals-api-openapi.yml
-  format: yaml
-  label: BitOasis Fiat Withdrawals API
-  slug: bitoasis-fiat-withdrawals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-fiat-withdrawals-api-openapi.yml
 - filename: bitoasis-market-data-api-openapi.yml
   format: yaml
   label: BitOasis Market Data API
   slug: bitoasis-market-data-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-market-data-api-openapi.yml
-- filename: bitoasis-orders-api-openapi.yml
+- filename: bitoasis-accounts-api-openapi.yml
   format: yaml
-  label: BitOasis Orders API
-  slug: bitoasis-orders-api
+  label: BitOasis Accounts API
+  slug: bitoasis-accounts-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-orders-api-openapi.yml
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-accounts-api-openapi.yml
+- filename: bitoasis-banks-api-openapi.yml
+  format: yaml
+  label: BitOasis Banks API
+  slug: bitoasis-banks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-banks-api-openapi.yml
+- filename: bitoasis-deposit-api-openapi.yml
+  format: yaml
+  label: BitOasis Deposit API
+  slug: bitoasis-deposit-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-deposit-api-openapi.yml
+- filename: bitoasis-error-responses-api-openapi.yml
+  format: yaml
+  label: BitOasis Error responses API
+  slug: bitoasis-error-responses-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-error-responses-api-openapi.yml
+- filename: bitoasis-order-api-openapi.yml
+  format: yaml
+  label: BitOasis Order API
+  slug: bitoasis-order-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-order-api-openapi.yml
+- filename: bitoasis-withdrawal-api-openapi.yml
+  format: yaml
+  label: BitOasis Withdrawal API
+  slug: bitoasis-withdrawal-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bitoasis/openapi/bitoasis-withdrawal-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bitoasis Authentication
+name: BitOasis Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BitOasis secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

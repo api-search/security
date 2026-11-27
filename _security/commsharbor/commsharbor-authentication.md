@@ -110,6 +110,90 @@ api_specs:
   slug: commsharbor-well-known-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-well-known-api-openapi.yml
+- filename: commsharbor-account-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Account API
+  slug: commsharbor-account-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-account-api-openapi.yml
+- filename: commsharbor-agent-json-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Agent.json API
+  slug: commsharbor-agent-json-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-agent-json-api-openapi.yml
+- filename: commsharbor-contact-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Contact API
+  slug: commsharbor-contact-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-contact-api-openapi.yml
+- filename: commsharbor-email-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Email API
+  slug: commsharbor-email-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-email-api-openapi.yml
+- filename: commsharbor-email-check-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Email Check API
+  slug: commsharbor-email-check-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-email-check-api-openapi.yml
+- filename: commsharbor-erro-cliente-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Erro Cliente API
+  slug: commsharbor-erro-cliente-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-erro-cliente-api-openapi.yml
+- filename: commsharbor-funil-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Funil API
+  slug: commsharbor-funil-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-funil-api-openapi.yml
+- filename: commsharbor-guest-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Guest API
+  slug: commsharbor-guest-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-guest-api-openapi.yml
+- filename: commsharbor-pagamento-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Pagamento API
+  slug: commsharbor-pagamento-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-pagamento-api-openapi.yml
+- filename: commsharbor-partners-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Partners API
+  slug: commsharbor-partners-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-partners-api-openapi.yml
+- filename: commsharbor-pricing-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Pricing API
+  slug: commsharbor-pricing-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-pricing-api-openapi.yml
+- filename: commsharbor-realtime-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Realtime API
+  slug: commsharbor-realtime-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-realtime-api-openapi.yml
+- filename: commsharbor-visitor-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Visitor API
+  slug: commsharbor-visitor-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-visitor-api-openapi.yml
+- filename: commsharbor-vitrine-api-openapi.yml
+  format: yaml
+  label: CommsHarbor Vitrine API
+  slug: commsharbor-vitrine-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/commsharbor/openapi/commsharbor-vitrine-api-openapi.yml
 auth_types:
 - http
 description: ''
@@ -117,7 +201,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Commsharbor Authentication
+name: CommsHarbor Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CommsHarbor secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

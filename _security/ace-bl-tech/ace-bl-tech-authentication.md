@@ -75,7 +75,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ace Bl Tech Authentication
+name: Ace AI Assistant Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ace AI Assistant secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

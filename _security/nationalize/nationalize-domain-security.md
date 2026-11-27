@@ -28,7 +28,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Nationalize Domain Security
+name: Nationalize.io Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Nationalize.io, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
 provider_name: Nationalize.io

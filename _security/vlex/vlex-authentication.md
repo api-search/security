@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Vlex Authentication
+name: vLex Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: vLex secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -42,12 +42,6 @@ api_specs:
   slug: blizzard-entertainment-cards-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-cards-api-openapi.yml
-- filename: blizzard-entertainment-characters-api-openapi.yml
-  format: yaml
-  label: Blizzard Entertainment Characters API
-  slug: blizzard-entertainment-characters-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-characters-api-openapi.yml
 - filename: blizzard-entertainment-decks-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Decks API
@@ -84,12 +78,6 @@ api_specs:
   slug: blizzard-entertainment-mounts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-mounts-api-openapi.yml
-- filename: blizzard-entertainment-profiles-api-openapi.yml
-  format: yaml
-  label: Blizzard Entertainment Profiles API
-  slug: blizzard-entertainment-profiles-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-profiles-api-openapi.yml
 - filename: blizzard-entertainment-realms-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment Realms API
@@ -102,6 +90,18 @@ api_specs:
   slug: blizzard-entertainment-token-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-token-api-openapi.yml
+- filename: blizzard-entertainment-characters-api-openapi.yml
+  format: yaml
+  label: Blizzard Entertainment Characters API
+  slug: blizzard-entertainment-characters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-characters-api-openapi.yml
+- filename: blizzard-entertainment-profiles-api-openapi.yml
+  format: yaml
+  label: Blizzard Entertainment Profiles API
+  slug: blizzard-entertainment-profiles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/blizzard-entertainment/openapi/blizzard-entertainment-profiles-api-openapi.yml
 - filename: blizzard-entertainment-user-info-api-openapi.yml
   format: yaml
   label: Blizzard Entertainment User Info API

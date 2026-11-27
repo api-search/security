@@ -152,6 +152,5 @@ tags:
 - Automation Workflows
 - Analytics
 - MCP
-- Agent Ready
 - Transactional Messaging
 ---

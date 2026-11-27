@@ -144,7 +144,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Chorus Ai Trust Center
+name: Chorus.ai Trust Center
 name_suffix: Trust Center
 overview: Chorus.ai maintains a public trust center documenting source, source_status, verified, quote, held, frameworks, and explicitly_not_held compliance.
 provider_name: Chorus.ai

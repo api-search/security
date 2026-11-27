@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: tourscanner-ai-tourscanner-api-openapi.yml
+  format: yaml
+  label: TourScanner API
+  slug: tourscanner-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/tourscanner-ai/openapi/tourscanner-ai-tourscanner-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -16,7 +23,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Tourscanner Ai Domain Security
+name: TourScanner AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for TourScanner AI, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: TourScanner AI

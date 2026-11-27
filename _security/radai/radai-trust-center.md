@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Radai Trust Center
+name: Rad AI Trust Center
 name_suffix: Trust Center
 overview: Rad AI maintains a public trust center documenting SOC 2 Type II and HIPAA compliance.
 provider_name: Rad AI

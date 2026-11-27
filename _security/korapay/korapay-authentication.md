@@ -53,7 +53,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: documented
-name: Korapay Authentication
+name: Kora Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Kora secures its APIs with http, hmac, and encryption across 4 declared security schemes, as derived from its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: 11Fgb Com Authentication
+name: Eleven Friends of Grumpy Brush Cleaning Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Eleven Friends of Grumpy Brush Cleaning declares 0 security scheme(s) across its OpenAPI definitions.

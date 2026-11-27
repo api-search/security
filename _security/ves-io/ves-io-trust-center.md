@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ves Io Trust Center
+name: Volterra Trust Center
 name_suffix: Trust Center
 overview: Volterra maintains a public trust center documenting FedRAMP compliance.
 provider_name: Volterra

@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: University Of York Authentication
+name: University of York Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of York declares 0 security scheme(s) across its OpenAPI definitions.

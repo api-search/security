@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Beautifulai Trust Center
+name: beautiful.ai Trust Center
 name_suffix: Trust Center
 overview: beautiful.ai maintains a public trust center documenting SOC 2 Type II, GDPR, CCPA, and PCI DSS compliance.
 provider_name: beautiful.ai

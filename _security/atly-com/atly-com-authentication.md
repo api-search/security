@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Atly Com Authentication
+name: Atly Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Atly declares 0 security scheme(s) across its OpenAPI definitions.

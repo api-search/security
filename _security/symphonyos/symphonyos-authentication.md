@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Symphonyos Authentication
+name: SymphonyOS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SymphonyOS declares 2 security scheme(s) across its OpenAPI definitions.

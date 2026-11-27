@@ -2,24 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-cloud-composer-environments-api-openapi.yml
+- filename: google-cloud-composer-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Composer Environments API
-  slug: google-cloud-composer-environments-api
+  label: Google Cloud Composer Cloud Composer Projects API
+  slug: google-cloud-composer-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-composer/openapi/google-cloud-composer-environments-api-openapi.yml
-- filename: google-cloud-composer-operations-api-openapi.yml
-  format: yaml
-  label: Google Cloud Composer Operations API
-  slug: google-cloud-composer-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-composer/openapi/google-cloud-composer-operations-api-openapi.yml
-- filename: google-cloud-composer-image-versions-api-openapi.yml
-  format: yaml
-  label: Google Cloud Composer image versions API
-  slug: google-cloud-composer-image-versions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-composer/openapi/google-cloud-composer-image-versions-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-composer/openapi/google-cloud-composer-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -57,4 +45,6 @@ tags:
 - Data Pipeline
 - Google Cloud
 - Workflow Orchestration
+- Managed Airflow
+- Orchestration
 ---

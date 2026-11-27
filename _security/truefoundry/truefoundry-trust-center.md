@@ -61,7 +61,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Truefoundry Trust Center
+name: TrueFoundry Trust Center
 name_suffix: Trust Center
 overview: TrueFoundry maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: TrueFoundry

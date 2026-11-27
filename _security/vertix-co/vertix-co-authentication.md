@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Vertix Co Authentication
+name: VeriTX Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VeriTX declares 0 security scheme(s) across its OpenAPI definitions.

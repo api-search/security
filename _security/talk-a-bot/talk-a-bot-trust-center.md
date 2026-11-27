@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Talk A Bot Trust Center
+name: Talk-A-Bot Trust Center
 name_suffix: Trust Center
 overview: Talk-A-Bot maintains a public trust center documenting PCI DSS, HIPAA, and GDPR compliance.
 provider_name: Talk-A-Bot

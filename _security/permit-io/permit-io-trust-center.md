@@ -266,7 +266,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Permit Io Trust Center
+name: Permit.io Trust Center
 name_suffix: Trust Center
 overview: Permit.io maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Permit.io

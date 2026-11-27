@@ -30,6 +30,12 @@ api_specs:
   slug: elbo-ai-inc-voices-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-voices-api-openapi.yml
+- filename: elbo-ai-inc-puppets-api-openapi.yml
+  format: yaml
+  label: Puppetry Puppets API
+  slug: elbo-ai-inc-puppets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/elbo-ai-inc/openapi/elbo-ai-inc-puppets-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +61,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Elbo Ai Inc Domain Security
+name: Puppetry Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Puppetry, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Puppetry

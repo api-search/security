@@ -7,13 +7,13 @@ api_specs:
   label: Perplexity Async Chat Completions API
   slug: async-chat-completions-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/asyncapi/perplexity-asyncapi.yml
+  url: https://artifacts.apis.io/perplexity/asyncapi/perplexity-asyncapi.yml
 - filename: perplexity-asyncapi.yml
   format: yaml
   label: Perplexity Responses API
   slug: responses-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/perplexity/refs/heads/main/asyncapi/perplexity-asyncapi.yml
+  url: https://artifacts.apis.io/perplexity/asyncapi/perplexity-asyncapi.yml
 - filename: perplexity-agent-api-openapi.yml
   format: yaml
   label: Perplexity Agent API

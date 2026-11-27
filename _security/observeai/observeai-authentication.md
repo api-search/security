@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Observeai Authentication
+name: Observe.AI Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

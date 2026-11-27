@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Covid 19 India Domain Security
+name: Covid-19 India Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Covid-19 India, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Covid-19 India

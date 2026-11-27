@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Revolution Re Trust Center
+name: Revolution RE Trust Center
 name_suffix: Trust Center
 overview: Revolution RE maintains a public trust center documenting SOC 2 compliance.
 provider_name: Revolution RE

@@ -15,12 +15,6 @@ api_specs:
   slug: amplitude-annotations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amplitude/openapi/amplitude-annotations-api-openapi.yml
-- filename: amplitude-cohorts-api-openapi.yml
-  format: yaml
-  label: Amplitude Cohorts API
-  slug: amplitude-cohorts-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amplitude/openapi/amplitude-cohorts-api-openapi.yml
 - filename: amplitude-data-access-api-openapi.yml
   format: yaml
   label: Amplitude Data Access API
@@ -81,12 +75,6 @@ api_specs:
   slug: amplitude-experiments-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amplitude/openapi/amplitude-experiments-api-openapi.yml
-- filename: amplitude-flags-api-openapi.yml
-  format: yaml
-  label: Amplitude Flags API
-  slug: amplitude-flags-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amplitude/openapi/amplitude-flags-api-openapi.yml
 - filename: amplitude-funnel-analysis-api-openapi.yml
   format: yaml
   label: Amplitude Funnel Analysis API
@@ -183,6 +171,18 @@ api_specs:
   slug: amplitude-taxonomy-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amplitude/openapi/amplitude-taxonomy-api-openapi.yml
+- filename: amplitude-cohorts-api-openapi.yml
+  format: yaml
+  label: Amplitude Cohorts API
+  slug: amplitude-cohorts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amplitude/openapi/amplitude-cohorts-api-openapi.yml
+- filename: amplitude-flags-api-openapi.yml
+  format: yaml
+  label: Amplitude Flags API
+  slug: amplitude-flags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amplitude/openapi/amplitude-flags-api-openapi.yml
 auth_types:
 - apiKey
 - http

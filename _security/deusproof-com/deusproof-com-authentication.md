@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Deusproof Com Authentication
+name: DEUSPROOF Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DEUSPROOF secures its APIs with none, apiKey, and signature across 5 declared security schemes, as derived from its OpenAPI definitions.

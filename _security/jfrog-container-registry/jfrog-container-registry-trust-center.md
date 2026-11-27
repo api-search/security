@@ -8,7 +8,7 @@ certifications:
 description: JFrog publishes a public Trust center with named, individually-linked certifications. Every URL below was fetched on 2026-08-29 and returned HTTP 200 with the stated page title.
 kind: trust-center
 layout: security
-name: Jfrog Container Registry Trust Center
+name: JFrog Container Registry Trust Center
 name_suffix: Trust Center
 overview: JFrog Container Registry maintains a public trust center documenting SOC 2 Type II, SOC 3, ISO/IEC 27001, and ISO/IEC 27701 compliance.
 provider_name: JFrog Container Registry

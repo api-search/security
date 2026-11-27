@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Tubetranscript Io Authentication
+name: tubetranscript-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tubetranscript-io declares 2 security scheme(s) across its OpenAPI definitions.

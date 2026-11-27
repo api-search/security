@@ -63,7 +63,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Threads Api Authentication
+name: Threads Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Threads secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

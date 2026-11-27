@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hr And People Trust Center
+name: HR & People Trust Center
 name_suffix: Trust Center
 overview: HR & People maintains a public trust center documenting SOC 2, ISO 27001, FedRAMP, and GDPR compliance.
 provider_name: HR & People

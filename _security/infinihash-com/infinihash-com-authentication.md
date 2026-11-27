@@ -326,7 +326,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Infinihash Com Authentication
+name: infinihash-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: infinihash-com declares 2 security scheme(s) across its OpenAPI definitions.

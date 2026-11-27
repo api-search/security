@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Neotax Trust Center
+name: Neo.Tax Trust Center
 name_suffix: Trust Center
 overview: Neo.Tax maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Neo.Tax

@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Fluvigil De Authentication
+name: Fluvigil Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fluvigil secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -77,6 +77,5 @@ tags:
 - Water
 - Environment
 - Data
-- API
 - Germany
 ---

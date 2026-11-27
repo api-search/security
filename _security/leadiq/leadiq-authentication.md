@@ -21,6 +21,18 @@ api_specs:
   slug: leadiq-prospects-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/leadiq/openapi/leadiq-prospects-api-openapi.yml
+- filename: leadiq-company-lists-api-openapi.yml
+  format: yaml
+  label: LeadIQ Company Lists API
+  slug: leadiq-company-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-company-lists-api-openapi.yml
+- filename: leadiq-salesforce-api-openapi.yml
+  format: yaml
+  label: LeadIQ Salesforce API
+  slug: leadiq-salesforce-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-salesforce-api-openapi.yml
 - filename: leadiq-graph-ql-api-openapi.yml
   format: yaml
   label: LeadIQ Graph QL API
@@ -36,7 +48,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Leadiq Authentication
+name: LeadIQ Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

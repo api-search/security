@@ -91,7 +91,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Deskcrew Io Trust Center
+name: DeskCrew Trust Center
 name_suffix: Trust Center
 overview: DeskCrew maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: DeskCrew

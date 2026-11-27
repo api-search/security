@@ -882,7 +882,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Live Direct Marketing Online Authentication
+name: Live Direct Marketing Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Live Direct Marketing secures its APIs with http bearer, apiKey (header), and cookie session across 6 declared security schemes, as derived from its OpenAPI definitions.

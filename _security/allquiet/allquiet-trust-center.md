@@ -325,7 +325,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Allquiet Trust Center
+name: All Quiet Trust Center
 name_suffix: Trust Center
 overview: All Quiet maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: All Quiet

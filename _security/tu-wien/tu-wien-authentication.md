@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Tu Wien Authentication
+name: TU Wien Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TU Wien declares 7 security scheme(s) across its OpenAPI definitions.

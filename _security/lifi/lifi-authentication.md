@@ -112,7 +112,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Lifi Authentication
+name: LI.FI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LI.FI secures its APIs with apiKey across 5 declared security schemes, as derived from its OpenAPI definitions.

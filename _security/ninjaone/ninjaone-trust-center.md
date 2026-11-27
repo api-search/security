@@ -140,7 +140,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ninjaone Trust Center
+name: NinjaOne Trust Center
 name_suffix: Trust Center
 overview: NinjaOne maintains a public trust center documenting HIPAA, FedRAMP, and GDPR compliance.
 provider_name: NinjaOne

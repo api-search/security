@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Jump And 8211 Advisor Ai Trust Center
+name: Jump – Advisor AI Trust Center
 name_suffix: Trust Center
 overview: Jump – Advisor AI maintains a public trust center documenting SOC 2 Type II, GDPR, and PIPEDA compliance.
 provider_name: Jump – Advisor AI

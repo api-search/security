@@ -198,7 +198,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: searched
-name: Us Dot Authentication
+name: U.S. Department of Transportation Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: U.S. Department of Transportation secures its APIs with none and apiKey across 8 declared security schemes, as derived from its OpenAPI definitions.

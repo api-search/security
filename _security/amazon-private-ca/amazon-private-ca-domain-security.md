@@ -6,6 +6,48 @@ api_specs:
   slug: amazon-private-ca-aws-certificate-manager-private-certificate-authority-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-private-ca/openapi/amazon-private-ca-aws-certificate-manager-private-certificate-authority-api-openapi.yml
+- filename: amazon-private-ca-accesscontrolentries-api-openapi.yml
+  format: yaml
+  label: Amazon Private CA Private Ca Accesscontrolentries API
+  slug: amazon-private-ca-accesscontrolentries-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-private-ca/openapi/amazon-private-ca-accesscontrolentries-api-openapi.yml
+- filename: amazon-private-ca-connectors-api-openapi.yml
+  format: yaml
+  label: Amazon Private CA Private Ca Connectors API
+  slug: amazon-private-ca-connectors-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-private-ca/openapi/amazon-private-ca-connectors-api-openapi.yml
+- filename: amazon-private-ca-directoryregistrations-api-openapi.yml
+  format: yaml
+  label: Amazon Private CA Private Ca Directoryregistrations API
+  slug: amazon-private-ca-directoryregistrations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-private-ca/openapi/amazon-private-ca-directoryregistrations-api-openapi.yml
+- filename: amazon-private-ca-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Private CA Private Ca Operations API
+  slug: amazon-private-ca-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-private-ca/openapi/amazon-private-ca-operations-api-openapi.yml
+- filename: amazon-private-ca-serviceprincipalnames-api-openapi.yml
+  format: yaml
+  label: Amazon Private CA Private Ca Serviceprincipalnames API
+  slug: amazon-private-ca-serviceprincipalnames-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-private-ca/openapi/amazon-private-ca-serviceprincipalnames-api-openapi.yml
+- filename: amazon-private-ca-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Private CA Private Ca Tags API
+  slug: amazon-private-ca-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-private-ca/openapi/amazon-private-ca-tags-api-openapi.yml
+- filename: amazon-private-ca-templates-api-openapi.yml
+  format: yaml
+  label: Amazon Private CA Private Ca Templates API
+  slug: amazon-private-ca-templates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-private-ca/openapi/amazon-private-ca-templates-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -33,7 +75,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Private Ca Domain Security
+name: Amazon Private CA Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon Private CA, probed live across 2 host(s) and 2 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon Private CA

@@ -549,7 +549,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Wso2 Authentication
+name: WSO2 Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

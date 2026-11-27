@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Matterport Trust Center
+name: MatterPort Trust Center
 name_suffix: Trust Center
 overview: MatterPort maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: MatterPort

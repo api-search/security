@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Disban Io Authentication
+name: disban-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: disban-io declares 1 security scheme(s) across its OpenAPI definitions.

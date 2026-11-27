@@ -45,7 +45,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Faros Trust Center
+name: Faros AI Trust Center
 name_suffix: Trust Center
 overview: Faros AI maintains a public trust center documenting SOC 2, ISO 27001, GDPR, and CSA STAR compliance.
 provider_name: Faros AI

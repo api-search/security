@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Recapped Trust Center
+name: RecappED Trust Center
 name_suffix: Trust Center
 overview: RecappED maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: RecappED

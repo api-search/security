@@ -36,7 +36,7 @@ certifications:
 description: Jitsu (formerly AxleHire) runs a public trust center on SafeBase by Drata at trust.gojitsu.com. It names a single audit certification — SOC 2 Type 2 — and gates the underlying policy documents behind an NDA/request flow typical of SafeBase. Certifications are recorded exactly as published; nothing was inferred.
 kind: trust-center
 layout: security
-name: Axlehire Trust Center
+name: AxleHire (Jitsu) Trust Center
 name_suffix: Trust Center
 overview: AxleHire (Jitsu) maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: AxleHire (Jitsu)

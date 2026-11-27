@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Datosia Net Authentication
+name: DatosIA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DatosIA declares 2 security scheme(s) across its OpenAPI definitions.
@@ -43,7 +43,7 @@ source_yaml_url: https://artifacts.apis.io/datosia-net/authentication/datosia-ne
 summary_line: 2 schemes
 tags:
 - Data
-- CentralAmerica
+- Central America
 - Open Data
 - Statistics
 ---

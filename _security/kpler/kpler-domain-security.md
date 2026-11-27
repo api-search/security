@@ -26,20 +26,27 @@ domains:
   dnssec: false
   domain: kpler.com
   spf: true
+- caa: []
+  dmarc: true
+  dmarc_policy: quarantine
+  dnssec: false
+  domain: marinetraffic.com
+  spf: true
 hosts:
-- cert_expires: Aug 22 02:44:31 2026 GMT
+- cert_expires: Dec 18 13:24:48 2026 GMT
   host: www.kpler.com
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Aug 25 08:43:43 2026 GMT
-  host: liquids.dev.kpler.com
-  hsts: null
+- cert_expires: Dec 11 03:05:26 2026 GMT
+  host: servicedocs.marinetraffic.com
+  hsts: true
+  hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.3
-- cert_expires: Oct  8 23:59:59 2026 GMT
-  host: api.kpler.com
+- cert_expires: Feb  4 05:43:01 2027 GMT
+  host: services.marinetraffic.com
   hsts: null
   https: true
   tls_version: TLSv1.3
@@ -49,14 +56,14 @@ layout: security
 method: probed
 name: Kpler Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Kpler, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Kpler, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Kpler
 provider_slug: kpler
 slug: kpler-domain-security
 source_filename: kpler-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kpler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 22 02:44:31 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: liquids.dev.kpler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Aug 25 08:43:43 2026 GMT\n  hsts: null\n- host: api.kpler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct  8 23:59:59 2026 GMT\n  hsts: null\ndomains:\n- domain: kpler.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-09'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.kpler.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 18 13:24:48 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: servicedocs.marinetraffic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Dec 11 03:05:26 2026 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: services.marinetraffic.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  4 05:43:01 2027 GMT\n  hsts: null\ndomains:\n- domain: kpler.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: marinetraffic.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: quarantine\n"
 source_yaml_url: https://artifacts.apis.io/kpler/security/kpler-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DMARC
 tags:

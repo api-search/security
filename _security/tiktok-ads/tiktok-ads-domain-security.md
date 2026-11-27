@@ -137,7 +137,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Tiktok Ads Domain Security
+name: TikTok Marketing API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for TikTok Marketing API, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: TikTok Marketing API
@@ -159,5 +159,4 @@ tags:
 - Audience Management
 - Reporting
 - Product Catalog
-- Agent Ready
 ---

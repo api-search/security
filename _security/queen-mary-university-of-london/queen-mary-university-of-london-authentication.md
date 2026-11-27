@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Queen Mary University Of London Authentication
+name: Queen Mary University of London Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Queen Mary University of London secures its APIs with saml2, openid_connect, jwt_bearer, and none across 5 declared security schemes, as derived from its OpenAPI definitions.

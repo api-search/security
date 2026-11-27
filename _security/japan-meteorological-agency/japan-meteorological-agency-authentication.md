@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Japan Meteorological Agency Authentication
+name: JMA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JMA declares 0 security scheme(s) across its OpenAPI definitions.

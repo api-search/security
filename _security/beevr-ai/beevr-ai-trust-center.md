@@ -51,7 +51,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Beevr Ai Trust Center
+name: BeevR Trust Center
 name_suffix: Trust Center
 overview: BeevR maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and HIPAA compliance.
 provider_name: BeevR

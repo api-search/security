@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Whoisgeni Us Authentication
+name: whoisgeni-us Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: whoisgeni-us declares 1 security scheme(s) across its OpenAPI definitions.

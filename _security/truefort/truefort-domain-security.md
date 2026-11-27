@@ -23,7 +23,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Truefort Domain Security
+name: TrueFort Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for TrueFort, probed live across 2 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: TrueFort

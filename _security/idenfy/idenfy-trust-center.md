@@ -129,7 +129,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Idenfy Trust Center
+name: iDenfy Trust Center
 name_suffix: Trust Center
 overview: iDenfy maintains a public trust center documenting ISO/IEC 27001:2022, SOC 2 Type II, eIDAS, and iBeta / ISO 30107-3 compliance.
 provider_name: iDenfy

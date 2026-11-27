@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Rallyup Authentication
+name: Rally Up Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Rally Up declares 0 security scheme(s) across its OpenAPI definitions.

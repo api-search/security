@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Tenderapi Eu Authentication
+name: tenderapi-eu Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tenderapi-eu declares 1 security scheme(s) across its OpenAPI definitions.

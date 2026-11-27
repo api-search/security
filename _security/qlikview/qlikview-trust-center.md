@@ -19,7 +19,7 @@ certifications:
 description: Qlik's public trust and security page, the vendor trust center covering QlikView. Upgraded 2026-08-29 from the 2026-07-11 pass, which pointed only at https://security.qlik.com/ and carried a six-item certification list. security.qlik.com is the Qlik Security Trust Center where "Qlik security artifacts are available to customers" - it returned HTTP 403 to an anonymous browser-UA request on 2026-08-29, i.e. it is customer-gated. The public, anonymously readable trust page is https://www.qlik.com/us/trust (HTTP 200) and it names a much longer certification list, recorded below.
 kind: trust-center
 layout: security
-name: Qlikview Trust Center
+name: QlikView Trust Center
 name_suffix: Trust Center
 overview: QlikView maintains a public trust center documenting ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 42001:2023, SOC 1, SOC 2 + HITRUST CSF, SOC 3, HIPAA, TISAX, IRAP, Cyber Essentials, Cyber Essentials Plus, UK G-Cloud v14, CASA Tier 3, and C5 (German BSI) compliance.
 provider_name: QlikView

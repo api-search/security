@@ -326,7 +326,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Infinihash Com Trust Center
+name: infinihash-com Trust Center
 name_suffix: Trust Center
 overview: infinihash-com maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: infinihash-com

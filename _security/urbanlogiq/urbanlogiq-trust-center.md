@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Urbanlogiq Trust Center
+name: UrbanLogiq Trust Center
 name_suffix: Trust Center
 overview: UrbanLogiq maintains a public trust center documenting ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO/IEC 27017:2015, and ISO/IEC 27018:2019 compliance.
 provider_name: UrbanLogiq

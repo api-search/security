@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cdw Trust Center
+name: CDW Trust Center
 name_suffix: Trust Center
 overview: CDW maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and HIPAA compliance.
 provider_name: CDW

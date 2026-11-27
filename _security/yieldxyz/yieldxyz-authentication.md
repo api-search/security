@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Yieldxyz Authentication
+name: Yield.xyz Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Yield.xyz secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

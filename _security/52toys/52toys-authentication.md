@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 52Toys Authentication
+name: 52TOYS Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

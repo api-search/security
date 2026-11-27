@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dialmcp Com Authentication
+name: DialMCP Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DialMCP declares 1 security scheme(s) across its OpenAPI definitions.

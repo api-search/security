@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aimon Trust Center
+name: AIMon Trust Center
 name_suffix: Trust Center
 overview: AIMon maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: AIMon

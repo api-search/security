@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Backtest360 Com Authentication
+name: backtest360-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: backtest360-com declares 1 security scheme(s) across its OpenAPI definitions.

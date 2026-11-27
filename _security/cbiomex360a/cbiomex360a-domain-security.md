@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Cbiomex360A Domain Security
+name: Cbiomex360a Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Cbiomex360a, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Cbiomex360a

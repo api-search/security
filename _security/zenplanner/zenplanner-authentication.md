@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Zenplanner Authentication
+name: Zen Planner Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Peopleai Trust Center
+name: People.ai Trust Center
 name_suffix: Trust Center
 overview: People.ai maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, GDPR, and CSA STAR compliance.
 provider_name: People.ai

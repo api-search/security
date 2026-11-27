@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Snaptrade Authentication
+name: SnapTrade Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SnapTrade declares 1 security scheme(s) across its OpenAPI definitions.

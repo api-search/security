@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Sarnai Dev Authentication
+name: sarnai-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: sarnai-dev declares 0 security scheme(s) across its OpenAPI definitions.

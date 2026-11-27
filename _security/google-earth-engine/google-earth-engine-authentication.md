@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Earth Engine Authentication
+name: Google Earth Engine REST Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

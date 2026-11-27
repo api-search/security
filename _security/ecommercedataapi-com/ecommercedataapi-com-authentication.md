@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ecommercedataapi Com Authentication
+name: ecommercedataapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ecommercedataapi-com declares 0 security scheme(s) across its OpenAPI definitions.

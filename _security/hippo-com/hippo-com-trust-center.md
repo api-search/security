@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hippo Com Trust Center
+name: Hippo Trust Center
 name_suffix: Trust Center
 overview: Hippo maintains a public trust center documenting SOC 2 and CSA STAR compliance.
 provider_name: Hippo

@@ -382,7 +382,6 @@ tags:
 - SLO
 - Infrastructure as Code
 - MCP
-- Agent Ready
 - A2A
 trust_url: https://trust.paloaltonetworks.com/
 ---

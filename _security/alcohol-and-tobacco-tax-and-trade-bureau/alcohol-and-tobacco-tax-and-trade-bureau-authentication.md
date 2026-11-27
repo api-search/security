@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Alcohol And Tobacco Tax And Trade Bureau Authentication
+name: Alcohol and Tobacco Tax and Trade Bureau Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Alcohol and Tobacco Tax and Trade Bureau secures its APIs with none and session-login across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -43,7 +43,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Peachpayments Trust Center
+name: Peach Payments Trust Center
 name_suffix: Trust Center
 overview: Peach Payments maintains a public trust center documenting PCI DSS Level 1 and PCI DSS v4.0 compliance.
 provider_name: Peach Payments

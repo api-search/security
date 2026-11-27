@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ammp Trust Center
+name: AMMP Trust Center
 name_suffix: Trust Center
 overview: AMMP maintains a public trust center documenting ISO 27001 compliance.
 provider_name: AMMP

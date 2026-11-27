@@ -37,7 +37,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Uveye Trust Center
+name: UVeye Trust Center
 name_suffix: Trust Center
 overview: UVeye maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: UVeye

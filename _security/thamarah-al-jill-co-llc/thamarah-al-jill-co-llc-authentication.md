@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Thamarah Al Jill Co Llc Authentication
+name: Thamarah Al-Jill Co LLC Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Runpod Trust Center
+name: RunPod Trust Center
 name_suffix: Trust Center
 overview: RunPod maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: RunPod

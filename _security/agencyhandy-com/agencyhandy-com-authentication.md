@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agencyhandy Com Authentication
+name: Agency Handy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agency Handy declares 1 security scheme(s) across its OpenAPI definitions.

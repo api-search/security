@@ -27,6 +27,30 @@ api_specs:
   slug: amazon-gamelift-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-operations-api-openapi.yml
+- filename: amazon-gamelift-applications-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Applications API
+  slug: amazon-gamelift-applications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-applications-api-openapi.yml
+- filename: amazon-gamelift-streamgroups-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Streamgroups API
+  slug: amazon-gamelift-streamgroups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-streamgroups-api-openapi.yml
+- filename: amazon-gamelift-streamsessions-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Streamsessions API
+  slug: amazon-gamelift-streamsessions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-streamsessions-api-openapi.yml
+- filename: amazon-gamelift-streamurls-api-openapi.yml
+  format: yaml
+  label: Amazon GameLift Gamelift Streamurls API
+  slug: amazon-gamelift-streamurls-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-gamelift/openapi/amazon-gamelift-streamurls-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -34,7 +58,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Gamelift Authentication
+name: Amazon GameLift Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon GameLift secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

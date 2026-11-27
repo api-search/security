@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Transcapi Authentication
+name: TransCAPI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TransCAPI declares 2 security scheme(s) across its OpenAPI definitions.

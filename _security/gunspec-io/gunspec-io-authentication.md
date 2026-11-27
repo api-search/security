@@ -140,7 +140,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Gunspec Io Authentication
+name: gunspec-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: gunspec-io declares 2 security scheme(s) across its OpenAPI definitions.

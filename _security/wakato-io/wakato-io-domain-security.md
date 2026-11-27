@@ -180,7 +180,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Wakato Io Domain Security
+name: wakato-io Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for wakato-io, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: wakato-io
@@ -194,7 +194,7 @@ source_yaml_url: https://artifacts.apis.io/wakato-io/security/wakato-io-domain-s
 summary_line: TLSv1.3 · HSTS
 tags:
 - Artificial Intelligence
-- BusinessPlatform
+- Business Platform
 - No-Code
 - Automation
 - Software-as-a-Service

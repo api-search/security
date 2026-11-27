@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Eden Engine Com Authentication
+name: Eden Engine Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Eden Engine declares 1 security scheme(s) across its OpenAPI definitions.

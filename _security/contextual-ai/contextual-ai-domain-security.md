@@ -6,24 +6,12 @@ api_specs:
   slug: contextual-ai-agents-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-api-openapi.yml
-- filename: contextual-ai-agents-query-api-openapi.yml
-  format: yaml
-  label: Contextual AI Agents Query API
-  slug: contextual-ai-agents-query-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-agents-query-api-openapi.yml
 - filename: contextual-ai-datastores-api-openapi.yml
   format: yaml
   label: Contextual AI Datastores API
   slug: contextual-ai-datastores-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-datastores-api-openapi.yml
-- filename: contextual-ai-documents-api-openapi.yml
-  format: yaml
-  label: Contextual AI Documents API
-  slug: contextual-ai-documents-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/contextual-ai/openapi/contextual-ai-documents-api-openapi.yml
 - filename: contextual-ai-generate-api-openapi.yml
   format: yaml
   label: Contextual AI Generate API
@@ -120,7 +108,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Contextual Ai Domain Security
+name: Contextual AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Contextual AI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Contextual AI

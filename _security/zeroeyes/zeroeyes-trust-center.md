@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Zeroeyes Trust Center
+name: ZeroEyes Trust Center
 name_suffix: Trust Center
 overview: ZeroEyes maintains a public trust center documenting FedRAMP Moderate, SOC 2 Type 2, ISO/IEC 27001:2013, DHS SAFETY Act Designation, BreachBits Cyber Score, and EU-U.S. Data Privacy Framework compliance.
 provider_name: ZeroEyes

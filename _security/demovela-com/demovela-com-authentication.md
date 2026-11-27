@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Demovela Com Authentication
+name: Demovela Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Demovela declares 2 security scheme(s) across its OpenAPI definitions.

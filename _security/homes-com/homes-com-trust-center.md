@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Homes Com Trust Center
+name: Homes.com Trust Center
 name_suffix: Trust Center
 overview: Homes.com maintains a public trust center documenting PCI DSS, ISO/IEC 27001, NIST CSF, SOC 1 Type 2, and SOC 1 Type 2 compliance.
 provider_name: Homes.com

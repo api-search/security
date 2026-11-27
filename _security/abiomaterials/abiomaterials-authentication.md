@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Abiomaterials Authentication
+name: A-Bio Materials Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: A-Bio Materials declares 3 security scheme(s) across its OpenAPI definitions.

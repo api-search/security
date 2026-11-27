@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Art Deco Belgique Be Authentication
+name: Art Déco Belgique Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Art Déco Belgique declares 0 security scheme(s) across its OpenAPI definitions.

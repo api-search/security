@@ -81,7 +81,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Cdk Global Authentication
+name: CDK Global Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit

@@ -86,7 +86,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Adt Domain Security
+name: ADT Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ADT, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: ADT

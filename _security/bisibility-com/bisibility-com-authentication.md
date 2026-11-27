@@ -146,7 +146,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bisibility Com Authentication
+name: Bisibility Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bisibility declares 1 security scheme(s) across its OpenAPI definitions.

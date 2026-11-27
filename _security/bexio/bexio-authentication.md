@@ -64,7 +64,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Bexio Authentication
+name: bexio Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: bexio secures its APIs with oauth2 and http across 2 declared security schemes, as derived from its OpenAPI definitions.

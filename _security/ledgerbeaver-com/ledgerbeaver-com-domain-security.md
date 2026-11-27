@@ -1,0 +1,38 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: ledgerbeaver.com
+  spf: true
+hosts:
+- cert_expires: Feb  8 04:43:58 2027 GMT
+  host: ledgerbeaver.com
+  hsts: false
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: LedgerBeaver Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for LedgerBeaver, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: LedgerBeaver
+provider_slug: ledgerbeaver-com
+slug: ledgerbeaver-com-domain-security
+source_filename: ledgerbeaver-com-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-11-15'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: ledgerbeaver.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb  8 04:43:58 2027 GMT\n  hsts: false\ndomains:\n- domain: ledgerbeaver.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://artifacts.apis.io/ledgerbeaver-com/security/ledgerbeaver-com-domain-security.yml
+summary_line: TLSv1.3 · DMARC
+tags:
+- Accounting
+- Artificial Intelligence
+- Finance
+- Bookkeeping
+- Small Business
+---

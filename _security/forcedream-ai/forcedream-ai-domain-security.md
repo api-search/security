@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: forcedream-ai-account-api-openapi.yml
+- filename: forcedream-ai-oracle-api-openapi.yml
   format: yaml
-  label: ForceDream Account API
-  slug: forcedream-ai-account-api
+  label: ForceDream Oracle API
+  slug: forcedream-ai-oracle-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-account-api-openapi.yml
-- filename: forcedream-ai-agents-api-openapi.yml
-  format: yaml
-  label: ForceDream Agents API
-  slug: forcedream-ai-agents-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-agents-api-openapi.yml
-- filename: forcedream-ai-signup-api-openapi.yml
-  format: yaml
-  label: ForceDream Signup API
-  slug: forcedream-ai-signup-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-signup-api-openapi.yml
-- filename: forcedream-ai-workforce-api-openapi.yml
-  format: yaml
-  label: ForceDream Workforce API
-  slug: forcedream-ai-workforce-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-workforce-api-openapi.yml
+  url: https://artifacts.apis.io/forcedream-ai/openapi/forcedream-ai-oracle-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -57,7 +39,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Forcedream Ai Domain Security
+name: ForceDream Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ForceDream, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: ForceDream

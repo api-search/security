@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Armorcode Trust Center
+name: ArmorCode Trust Center
 name_suffix: Trust Center
 overview: ArmorCode maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: ArmorCode

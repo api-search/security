@@ -13,7 +13,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Ubersense Domain Security
+name: UberSense Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for UberSense, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: UberSense

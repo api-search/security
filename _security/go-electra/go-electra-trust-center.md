@@ -4,7 +4,7 @@ certifications: []
 description: Electra runs a real, publicly linked trust centre. It is the "Security" entry in the site footer on www.go-electra.com and it resolves to a Vanta-hosted trust report on Electra's own subdomain. The automated probe (0-working/probe-security-programs.py) recorded trust=none because it requires trust/compliance keywords in the served body, and Vanta serves a 4.8KB HTML shell that renders its content client-side from a signed bundle — so the presence of the trust centre is verified, but its contents are not readable anonymously.
 kind: trust-center
 layout: security
-name: Go Electra Trust Center
+name: Electra Trust Center
 name_suffix: Trust Center
 overview: Electra maintains a public trust center covering its security and compliance posture.
 provider_name: Electra

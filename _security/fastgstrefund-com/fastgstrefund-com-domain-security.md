@@ -36,7 +36,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fastgstrefund Com Domain Security
+name: Fast GST Refund Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Fast GST Refund, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=none).'
 provider_name: Fast GST Refund
@@ -49,10 +49,9 @@ source_yaml: "generated: '2026-11-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/fastgstrefund-com/security/fastgstrefund-com-domain-security.yml
 summary_line: TLSv1.3 · DNSSEC · DMARC
 tags:
-- GST refund
-- JSON generator
-- Exporters
-- Chartered accountants
-- SaaS companies
-- Accounting practices
+- GST
+- Refund
+- JSON
+- Export
+- India
 ---

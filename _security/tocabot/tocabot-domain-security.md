@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Tocabot Domain Security
+name: Toca.io Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Toca.io, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Toca.io

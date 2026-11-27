@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Fastero Com Domain Security
+name: Fastero Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Fastero, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Fastero
@@ -30,10 +30,10 @@ source_yaml: "generated: '2026-11-07'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/fastero-com/security/fastero-com-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:
-- Data platform
-- AI agents
-- Analytics
-- Streamlit hosting
-- Security
-- Integrations
+- Company
+- Artificial Intelligence
+- Data Platform
+- Agents
+- Dashboards
+- Streamlit
 ---

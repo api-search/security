@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Aireiter Com Authentication
+name: AIReiter Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AIReiter secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.
@@ -42,5 +42,5 @@ tags:
 - Multi-Modal
 - Generation
 - OpenAI-Compatible
-- Credit-Pricing
+- Credit Pricing
 ---

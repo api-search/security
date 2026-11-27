@@ -201,7 +201,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Helena Bio Authentication
+name: Helena Bioinformatics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Helena Bioinformatics secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bergsonne Allgaeu De Authentication
+name: Hotel Bergsonne Allgäu Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hotel Bergsonne Allgäu declares 1 security scheme(s) across its OpenAPI definitions.

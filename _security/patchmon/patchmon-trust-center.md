@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Patchmon Trust Center
+name: PatchMon Trust Center
 name_suffix: Trust Center
 overview: PatchMon maintains a public trust center documenting ISO 27001 compliance.
 provider_name: PatchMon

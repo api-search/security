@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Spotwise Inc Authentication
+name: Spotwise Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Spotwise declares 3 security scheme(s) across its OpenAPI definitions.

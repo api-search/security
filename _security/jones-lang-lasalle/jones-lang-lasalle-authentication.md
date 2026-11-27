@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Jones Lang Lasalle Authentication
+name: Jones Lang LaSalle Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Jones Lang LaSalle secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

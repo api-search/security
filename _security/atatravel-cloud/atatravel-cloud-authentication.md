@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Atatravel Cloud Authentication
+name: ATA Travel Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ATA Travel declares 0 security scheme(s) across its OpenAPI definitions.

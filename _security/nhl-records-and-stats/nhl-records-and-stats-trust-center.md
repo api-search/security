@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nhl Records And Stats Trust Center
+name: NHL Records and Stats Trust Center
 name_suffix: Trust Center
 overview: NHL Records and Stats maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, GDPR, and CSA STAR compliance.
 provider_name: NHL Records and Stats

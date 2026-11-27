@@ -96,7 +96,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Hm Land Registry Authentication
+name: HM Land Registry Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HM Land Registry secures its APIs with http, apiKey, and none across 5 declared security schemes, as derived from its OpenAPI definitions.

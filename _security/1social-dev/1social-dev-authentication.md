@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 1Social Dev Authentication
+name: 1Social Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 1Social declares 1 security scheme(s) across its OpenAPI definitions.

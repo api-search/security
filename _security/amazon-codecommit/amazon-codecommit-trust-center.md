@@ -70,7 +70,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Codecommit Trust Center
+name: Amazon CodeCommit Trust Center
 name_suffix: Trust Center
 overview: Amazon CodeCommit maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon CodeCommit

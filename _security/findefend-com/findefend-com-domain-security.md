@@ -47,7 +47,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Findefend Com Domain Security
+name: FinDefend Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for FinDefend, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: FinDefend
@@ -60,9 +60,9 @@ source_yaml: "generated: '2026-11-08'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/findefend-com/security/findefend-com-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- FinTech
-- SaaS
-- SubscriptionManagement
-- ExpenseTracking
+- Fintech
+- Software-as-a-Service
+- Subscription Management
+- Expense Tracking
 - Automation
 ---

@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Affiliatebase Io Authentication
+name: AffiliateBase Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AffiliateBase declares 3 security scheme(s) across its OpenAPI definitions.

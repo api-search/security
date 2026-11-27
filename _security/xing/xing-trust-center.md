@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Xing Trust Center
+name: XING Trust Center
 name_suffix: Trust Center
 overview: XING maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: XING

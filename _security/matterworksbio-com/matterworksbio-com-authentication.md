@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Matterworksbio Com Authentication
+name: Matterworks Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Matterworks declares 0 security scheme(s) across its OpenAPI definitions.

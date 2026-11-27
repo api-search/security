@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Ministry Of Supply Authentication
+name: Ministry of Supply Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

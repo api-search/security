@@ -112,7 +112,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Aylien Authentication
+name: AYLIEN Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AYLIEN secures its APIs with apiKey across 4 declared security schemes, as derived from its OpenAPI definitions.

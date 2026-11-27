@@ -30,7 +30,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Opensanctions Trust Center
+name: OpenSanctions Trust Center
 name_suffix: Trust Center
 overview: OpenSanctions maintains a public trust center documenting ISO/IEC 27001:2022 compliance.
 provider_name: OpenSanctions

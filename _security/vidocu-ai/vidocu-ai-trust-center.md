@@ -106,7 +106,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Vidocu Ai Trust Center
+name: vidocu-ai Trust Center
 name_suffix: Trust Center
 overview: vidocu-ai maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: vidocu-ai

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Replicas Dev Trust Center
+name: Replicas Trust Center
 name_suffix: Trust Center
 overview: Replicas maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Replicas

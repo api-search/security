@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aiva Works Authentication
+name: AIVA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AIVA declares 1 security scheme(s) across its OpenAPI definitions.

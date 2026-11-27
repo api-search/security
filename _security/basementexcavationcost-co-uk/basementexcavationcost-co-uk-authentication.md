@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Basementexcavationcost Co Uk Authentication
+name: Basement Excavation Cost Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Basement Excavation Cost secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

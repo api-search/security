@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Markifact Com Authentication
+name: markifact-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: markifact-com declares 1 security scheme(s) across its OpenAPI definitions.

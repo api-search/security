@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Meetash Trust Center
+name: MeetAsh Trust Center
 name_suffix: Trust Center
 overview: MeetAsh maintains a public trust center documenting HIPAA, SOC 2 Type II, CLIA, and CAP compliance.
 provider_name: MeetAsh

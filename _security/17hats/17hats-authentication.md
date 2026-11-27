@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: 17Hats Authentication
+name: 17hats Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 17hats declares 1 security scheme(s) across its OpenAPI definitions.

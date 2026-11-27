@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Rowb App Authentication
+name: rowb-app Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: rowb-app declares 0 security scheme(s) across its OpenAPI definitions.

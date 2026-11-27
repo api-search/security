@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agenthost Eu Authentication
+name: agenthost Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: agenthost declares 1 security scheme(s) across its OpenAPI definitions.

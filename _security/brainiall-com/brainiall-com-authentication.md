@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Brainiall Com Authentication
+name: brainiall-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: brainiall-com declares 1 security scheme(s) across its OpenAPI definitions.

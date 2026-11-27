@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Greenerahead Com Authentication
+name: greenerahead-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: greenerahead-com declares 0 security scheme(s) across its OpenAPI definitions.

@@ -103,7 +103,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bvnk Trust Center
+name: BVNK Trust Center
 name_suffix: Trust Center
 overview: BVNK maintains a public trust center documenting ISO 27001:2022 and SOC 2 Type II compliance.
 provider_name: BVNK

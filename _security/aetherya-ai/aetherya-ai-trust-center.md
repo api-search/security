@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aetherya Ai Trust Center
+name: Aetherya Trust Center
 name_suffix: Trust Center
 overview: Aetherya maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Aetherya

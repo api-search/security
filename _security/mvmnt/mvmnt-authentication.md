@@ -178,7 +178,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Mvmnt Authentication
+name: MVMNT Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

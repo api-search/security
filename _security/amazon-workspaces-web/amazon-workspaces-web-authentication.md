@@ -94,7 +94,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Workspaces Web Authentication
+name: Amazon WorkSpaces Web Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon WorkSpaces Web secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

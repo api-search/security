@@ -8,7 +8,7 @@ certifications:
 description: 'The BD Cybersecurity Trust Center is the published trust surface for the CareFusion-descended product lines (BD Alaris, BD Pyxis). It carries downloadable third-party certifications, a bulletins-and-patches feed with BD Alaris and BD Pyxis product pages, a coordinated disclosure process, and supplier cyber requirements. It is a BD-domain document recorded on the CareFusion record because BD owns the CareFusion brand and the trust center names the CareFusion-descended products directly. Certification scope is uneven and is recorded as such below: the ISO/IEC 27001:2022 certificates are entity-scoped (BD ANZ, BD Germany, BD Israel), and the UL 2900-2-1 certificate is product-scoped to BD Synapsys — neither is a CareFusion-product certificate, and neither is claimed as one here.'
 kind: trust-center
 layout: security
-name: Carefusion Trust Center
+name: CareFusion (BD) Trust Center
 name_suffix: Trust Center
 overview: CareFusion (BD) maintains a public trust center documenting ISO/IEC 27001:2022, UL 2900-2-1 (UL Cybersecurity Assurance Program), SOC 2+ (Security, Availability), and MDS2 (Manufacturer Disclosure Statement for Medical Device Security) compliance.
 provider_name: CareFusion (BD)

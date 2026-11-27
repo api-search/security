@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Plotbox Trust Center
+name: PlotBox Trust Center
 name_suffix: Trust Center
 overview: PlotBox maintains a public trust center documenting ISO 27001 and ISO 9001 compliance.
 provider_name: PlotBox

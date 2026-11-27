@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Algovault Com Authentication
+name: AlgoVault Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AlgoVault declares 2 security scheme(s) across its OpenAPI definitions.

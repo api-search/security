@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Accordacff Trust Center
+name: Accord Trust Center
 name_suffix: Trust Center
 overview: Accord maintains a public trust center documenting SOC 2 Type II, SSO Authentication, and GCP Secure compliance.
 provider_name: Accord

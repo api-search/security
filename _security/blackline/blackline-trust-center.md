@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Blackline Trust Center
+name: BlackLine Trust Center
 name_suffix: Trust Center
 overview: BlackLine maintains a public trust center documenting SOC 1 Type 2, SOC 2 Type 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, and ISO/IEC 42001 compliance.
 provider_name: BlackLine

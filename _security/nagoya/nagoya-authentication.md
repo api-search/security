@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Nagoya Authentication
+name: Nagoya University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Nagoya University declares 0 security scheme(s) across its OpenAPI definitions.

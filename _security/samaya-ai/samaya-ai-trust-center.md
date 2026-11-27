@@ -24,7 +24,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Samaya Ai Trust Center
+name: Samaya AI Trust Center
 name_suffix: Trust Center
 overview: Samaya AI maintains a public trust center documenting SOC 2 compliance.
 provider_name: Samaya AI

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Gt Bio Authentication
+name: GT Bio Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GT Bio declares 0 security scheme(s) across its OpenAPI definitions.

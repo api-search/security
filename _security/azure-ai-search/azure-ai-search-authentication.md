@@ -2,55 +2,175 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: azure-ai-search-openapi-generated.yml
-  format: yaml
-  label: Azure AI Search API
-  slug: azure-ai-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-ai-search/openapi/_ae-authored/azure-ai-search-openapi-generated.yml
-- filename: azure-ai-search-azure-ai-search-api-api-openapi.yml
-  format: yaml
-  label: Azure AI Search Azure AI Search API
-  slug: azure-ai-search-azure-ai-search-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-azure-ai-search-api-api-openapi.yml
 - filename: azure-ai-search-indexes-api-openapi.yml
   format: yaml
   label: Azure AI Search Indexes API
   slug: azure-ai-search-indexes-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-indexes-api-openapi.yml
-- filename: azure-ai-search-subscriptions-api-openapi.yml
+- filename: azure-ai-search-aliases-aliasname-api-openapi.yml
   format: yaml
-  label: Azure AI Search Subscriptions API
-  slug: azure-ai-search-subscriptions-api
+  label: Azure AI Search Aliases('{alias Name}') API
+  slug: azure-ai-search-aliases-aliasname-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-subscriptions-api-openapi.yml
-- filename: azure-ai-search-swagger-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-aliases-aliasname-api-openapi.yml
+- filename: azure-ai-search-aliases-api-openapi.yml
   format: yaml
-  label: Azure AI Search Swagger API
-  slug: azure-ai-search-swagger-api
+  label: Azure AI Search Aliases API
+  slug: azure-ai-search-aliases-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-swagger-api-openapi.yml
-- filename: azure-ai-search-todoitems-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-aliases-api-openapi.yml
+- filename: azure-ai-search-datasources-datasourcename-api-openapi.yml
   format: yaml
-  label: Azure AI Search Todoitems API
-  slug: azure-ai-search-todoitems-api
+  label: Azure AI Search Datasources('{data Source Name}') API
+  slug: azure-ai-search-datasources-datasourcename-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-todoitems-api-openapi.yml
-- filename: azure-ai-search-weatherforecast-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-datasources-datasourcename-api-openapi.yml
+- filename: azure-ai-search-indexers-api-openapi.yml
   format: yaml
-  label: Azure AI Search Weatherforecast API
-  slug: azure-ai-search-weatherforecast-api
+  label: Azure AI Search Indexers API
+  slug: azure-ai-search-indexers-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-weatherforecast-api-openapi.yml
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-indexers-api-openapi.yml
+- filename: azure-ai-search-indexers-indexername-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Indexers('{indexer Name}') API
+  slug: azure-ai-search-indexers-indexername-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-indexers-indexername-api-openapi.yml
+- filename: azure-ai-search-indexes-indexname-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Indexes('{index Name}') API
+  slug: azure-ai-search-indexes-indexname-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-indexes-indexname-api-openapi.yml
+- filename: azure-ai-search-indexstats-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Indexstats API
+  slug: azure-ai-search-indexstats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-indexstats-api-openapi.yml
+- filename: azure-ai-search-knowledgebases-knowledgebasename-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Knowledgebases('{knowledge Base Name}') API
+  slug: azure-ai-search-knowledgebases-knowledgebasename-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-knowledgebases-knowledgebasename-api-openapi.yml
+- filename: azure-ai-search-knowledgesources-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Knowledgesources API
+  slug: azure-ai-search-knowledgesources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-knowledgesources-api-openapi.yml
+- filename: azure-ai-search-knowledgesources-sourcename-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Knowledgesources('{source Name}') API
+  slug: azure-ai-search-knowledgesources-sourcename-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-knowledgesources-sourcename-api-openapi.yml
+- filename: azure-ai-search-networksecurityperimeterconfigurations-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Network Security Perimeter Configurations API
+  slug: azure-ai-search-networksecurityperimeterconfigurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-networksecurityperimeterconfigurations-api-openapi.yml
+- filename: azure-ai-search-operations-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Operations API
+  slug: azure-ai-search-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-operations-api-openapi.yml
+- filename: azure-ai-search-privatelinkresources-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Private Link Resources API
+  slug: azure-ai-search-privatelinkresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-privatelinkresources-api-openapi.yml
+- filename: azure-ai-search-querykeys-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Query Keys API
+  slug: azure-ai-search-querykeys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-querykeys-api-openapi.yml
+- filename: azure-ai-search-services-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Services API
+  slug: azure-ai-search-services-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-services-api-openapi.yml
+- filename: azure-ai-search-servicestats-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Servicestats API
+  slug: azure-ai-search-servicestats-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-servicestats-api-openapi.yml
+- filename: azure-ai-search-sharedprivatelinkresources-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Shared Private Link Resources API
+  slug: azure-ai-search-sharedprivatelinkresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-sharedprivatelinkresources-api-openapi.yml
+- filename: azure-ai-search-skillsets-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Skillsets API
+  slug: azure-ai-search-skillsets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-skillsets-api-openapi.yml
+- filename: azure-ai-search-skillsets-skillsetname-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Skillsets('{skillset Name}') API
+  slug: azure-ai-search-skillsets-skillsetname-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-skillsets-skillsetname-api-openapi.yml
+- filename: azure-ai-search-synonymmaps-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Synonymmaps API
+  slug: azure-ai-search-synonymmaps-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-synonymmaps-api-openapi.yml
+- filename: azure-ai-search-synonymmaps-synonymmapname-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Synonymmaps('{synonym Map Name}') API
+  slug: azure-ai-search-synonymmaps-synonymmapname-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-synonymmaps-synonymmapname-api-openapi.yml
+- filename: azure-ai-search-usages-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Usages API
+  slug: azure-ai-search-usages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-usages-api-openapi.yml
+- filename: azure-ai-search-admin-keys-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Admin Keys API
+  slug: azure-ai-search-admin-keys-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-admin-keys-api-openapi.yml
+- filename: azure-ai-search-data-sources-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Data Sources API
+  slug: azure-ai-search-data-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-data-sources-api-openapi.yml
+- filename: azure-ai-search-knowledge-bases-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Knowledge Bases API
+  slug: azure-ai-search-knowledge-bases-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-knowledge-bases-api-openapi.yml
+- filename: azure-ai-search-private-endpoint-connections-api-openapi.yml
+  format: yaml
+  label: Azure AI Search Private Endpoint Connections API
+  slug: azure-ai-search-private-endpoint-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/azure-ai-search/openapi/azure-ai-search-private-endpoint-connections-api-openapi.yml
 auth_types: []
 description: Authentication methods for Azure AI Search as documented.
 kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Azure Ai Search Authentication
+name: Azure AI Search Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Azure AI Search declares 2 security scheme(s) across its OpenAPI definitions.

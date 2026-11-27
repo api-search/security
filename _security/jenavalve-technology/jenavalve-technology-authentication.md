@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Jenavalve Technology Authentication
+name: JenaValve Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JenaValve Technology secures its APIs with none and http across 2 declared security schemes, as derived from its OpenAPI definitions.

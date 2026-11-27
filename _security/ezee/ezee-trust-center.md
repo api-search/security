@@ -19,7 +19,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ezee Trust Center
+name: eZee Technosys Trust Center
 name_suffix: Trust Center
 overview: eZee Technosys maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: eZee Technosys

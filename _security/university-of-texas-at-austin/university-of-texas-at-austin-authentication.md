@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: University Of Texas At Austin Authentication
+name: University of Texas at Austin Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Texas at Austin declares 0 security scheme(s) across its OpenAPI definitions.

@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Covalentnetworks Trust Center
+name: Covalent Trust Center
 name_suffix: Trust Center
 overview: Covalent maintains a public trust center documenting SOC 2, SOC 3, ISO 27001, and ISO 9001 compliance.
 provider_name: Covalent

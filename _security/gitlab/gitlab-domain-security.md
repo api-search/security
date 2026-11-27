@@ -1098,36 +1098,6 @@ api_specs:
   slug: gitlab-workspaces-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gitlab/openapi/gitlab-workspaces-api-openapi.yml
-- filename: gitlab-admin-api-openapi.yml
-  format: yaml
-  label: GitLab Admin API
-  slug: gitlab-admin-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gitlab/openapi/gitlab-admin-api-openapi.yml
-- filename: gitlab-application-api-openapi.yml
-  format: yaml
-  label: GitLab Application API
-  slug: gitlab-application-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gitlab/openapi/gitlab-application-api-openapi.yml
-- filename: gitlab-avatar-api-openapi.yml
-  format: yaml
-  label: GitLab Avatar API
-  slug: gitlab-avatar-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gitlab/openapi/gitlab-avatar-api-openapi.yml
-- filename: gitlab-bulk-imports-api-openapi.yml
-  format: yaml
-  label: GitLab Bulk Imports API
-  slug: gitlab-bulk-imports-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gitlab/openapi/gitlab-bulk-imports-api-openapi.yml
-- filename: gitlab-version-api-openapi.yml
-  format: yaml
-  label: GitLab Version API
-  slug: gitlab-version-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gitlab/openapi/gitlab-version-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -1163,7 +1133,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Gitlab Domain Security
+name: GitLab Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for GitLab, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: GitLab

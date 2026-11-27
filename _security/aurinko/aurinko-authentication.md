@@ -158,7 +158,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aurinko Authentication
+name: Yoxel Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Yoxel declares 1 security scheme(s) across its OpenAPI definitions.

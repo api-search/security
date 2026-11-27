@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ctd Trust Center
+name: Connect The Dots Trust Center
 name_suffix: Trust Center
 overview: Connect The Dots maintains a public trust center documenting SOC 2 Type II, GDPR, and CCPA compliance.
 provider_name: Connect The Dots

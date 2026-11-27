@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Anybotics Trust Center
+name: ANYbotics Trust Center
 name_suffix: Trust Center
 overview: ANYbotics maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: ANYbotics

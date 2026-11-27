@@ -82,7 +82,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Monash Domain Security
+name: Monash University Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Monash University, probed live across 5 host(s) and 2 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Monash University

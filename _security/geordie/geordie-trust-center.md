@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Geordie Trust Center
+name: Geordie AI Trust Center
 name_suffix: Trust Center
 overview: Geordie AI maintains a public trust center documenting SOC 2 Type II, SOC 3, ISO/IEC 27001:2022, and GDPR compliance.
 provider_name: Geordie AI

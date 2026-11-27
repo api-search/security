@@ -36,7 +36,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mosaic App Trust Center
+name: Mosaic Trust Center
 name_suffix: Trust Center
 overview: Mosaic maintains a public trust center documenting SOC 2 compliance.
 provider_name: Mosaic

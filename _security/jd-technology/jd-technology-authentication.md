@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Jd Technology Authentication
+name: JD Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JD Technology secures its APIs with requestSignature across 2 declared security schemes, as derived from its OpenAPI definitions.

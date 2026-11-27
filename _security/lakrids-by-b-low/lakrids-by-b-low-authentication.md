@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Lakrids By B Low Authentication
+name: LAKRIDS BY BÜLOW Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LAKRIDS BY BÜLOW secures its APIs with http across 2 declared security schemes, as derived from its OpenAPI definitions.

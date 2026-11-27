@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Evergreen Marine Authentication
+name: Evergreen Marine Corp. Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Evergreen Marine Corp. declares 2 security scheme(s) across its OpenAPI definitions.

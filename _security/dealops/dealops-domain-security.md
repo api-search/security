@@ -55,5 +55,5 @@ tags:
 - Pricing
 - Artificial Intelligence
 - Software-as-a-Service
-- Revenue-Optimization
+- Revenue Optimization
 ---

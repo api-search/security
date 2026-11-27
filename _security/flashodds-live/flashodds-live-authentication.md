@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Flashodds Live Authentication
+name: flashodds-live Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: flashodds-live declares 1 security scheme(s) across its OpenAPI definitions.

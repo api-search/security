@@ -58,7 +58,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Delx Ai Authentication
+name: Delx Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Delx secures its APIs with apiKey across 6 declared security schemes, as derived from its OpenAPI definitions.

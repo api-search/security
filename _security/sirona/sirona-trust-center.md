@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sirona Trust Center
+name: Sirona Medical Trust Center
 name_suffix: Trust Center
 overview: Sirona Medical maintains a public trust center documenting FDA Class I, SOC 2 Type II, and HIPAA compliance.
 provider_name: Sirona Medical

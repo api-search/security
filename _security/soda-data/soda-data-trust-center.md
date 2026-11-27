@@ -97,7 +97,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Soda Data Trust Center
+name: Soda Trust Center
 name_suffix: Trust Center
 overview: Soda maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Soda

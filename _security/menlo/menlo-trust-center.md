@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Menlo Trust Center
+name: Menlo Security Trust Center
 name_suffix: Trust Center
 overview: Menlo Security maintains a public trust center covering its security and compliance posture.
 provider_name: Menlo Security

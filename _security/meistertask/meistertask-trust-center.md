@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Meistertask Trust Center
+name: MeisterTask Trust Center
 name_suffix: Trust Center
 overview: MeisterTask maintains a public trust center documenting ISO 27001 and GDPR compliance.
 provider_name: MeisterTask

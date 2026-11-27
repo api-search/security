@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hookdeploy Trust Center
+name: HookDeploy Trust Center
 name_suffix: Trust Center
 overview: HookDeploy maintains a public trust center documenting SOC 2 compliance.
 provider_name: HookDeploy

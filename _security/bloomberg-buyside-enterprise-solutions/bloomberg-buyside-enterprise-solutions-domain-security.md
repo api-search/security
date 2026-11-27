@@ -175,7 +175,6 @@ tags:
 - Analytics
 - Asset Management
 - Buy-Side
-- Enterprise Solutions
 - Financial Services
 - Market Data
 - Portfolio Management

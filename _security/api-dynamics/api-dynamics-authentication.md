@@ -13,7 +13,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Api Dynamics Authentication
+name: API Dynamics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: API Dynamics secures its APIs with apiKey, oauth2, openIdConnect, hmac, and totp across 5 declared security schemes, as derived from its OpenAPI definitions.

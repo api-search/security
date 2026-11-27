@@ -21,7 +21,7 @@ certifications:
 description: Dell Technologies operates a public Security and Trust Center covering the organization that builds and operates the EMC storage portfolio. It names seventeen distinct certification and assessment programs and links a product-security, secure-development and supply-chain surface. The reports themselves are not downloadable — Dell directs customers to a sales or service representative to obtain SOC reports.
 kind: trust-center
 layout: security
-name: Emc Trust Center
+name: EMC Trust Center
 name_suffix: Trust Center
 overview: EMC maintains a public trust center documenting ISO 27001, SOC 1 Type 2, SOC 2 Type 2, PCI DSS (Level 2 Merchant), Common Criteria (EAL2+, ALC_FLR.2), O-TTPS / ISO-IEC 20243:2023, TISAX, IRAP, Cyber Essentials, Esquema Nacional de Seguridad (ENS), NHS DSPT, Swift CSP, JOSCAR, CyberGRX, CyberVadis, KY3P, and EU Data Act compliance.
 provider_name: EMC

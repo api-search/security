@@ -578,7 +578,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Gzw Data Authentication
+name: GZW Data API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GZW Data API declares 0 security scheme(s) across its OpenAPI definitions.
@@ -609,6 +609,5 @@ tags:
 - Public APIs
 - No Auth
 - Read Only
-- Free API
 - Community
 ---

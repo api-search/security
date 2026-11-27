@@ -12,6 +12,30 @@ api_specs:
   slug: amazon-iot-greengrass-tags-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-tags-api-openapi.yml
+- filename: amazon-iot-greengrass-certificateauthorities-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Greengrass Iot Greengrass Certificateauthorities API
+  slug: amazon-iot-greengrass-certificateauthorities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-certificateauthorities-api-openapi.yml
+- filename: amazon-iot-greengrass-operations-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Greengrass Iot Greengrass Operations API
+  slug: amazon-iot-greengrass-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-operations-api-openapi.yml
+- filename: amazon-iot-greengrass-role-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Greengrass Iot Greengrass Role API
+  slug: amazon-iot-greengrass-role-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-role-api-openapi.yml
+- filename: amazon-iot-greengrass-versions-api-openapi.yml
+  format: yaml
+  label: Amazon IoT Greengrass Iot Greengrass Versions API
+  slug: amazon-iot-greengrass-versions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-iot-greengrass/openapi/amazon-iot-greengrass-versions-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -22,7 +46,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Iot Greengrass Trust Center
+name: Amazon IoT Greengrass Trust Center
 name_suffix: Trust Center
 overview: Amazon IoT Greengrass maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon IoT Greengrass

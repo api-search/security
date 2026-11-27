@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Splunk Soar Authentication
+name: Splunk SOAR Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Splunk SOAR secures its APIs with http and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

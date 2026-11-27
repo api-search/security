@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Orion By Gravity Authentication
+name: Orion by Gravity Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Orion by Gravity secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Filtersolutions Co Uk Authentication
+name: Filter Solutions Ltd Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Filter Solutions Ltd declares 0 security scheme(s) across its OpenAPI definitions.

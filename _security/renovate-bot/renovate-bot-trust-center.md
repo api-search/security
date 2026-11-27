@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Renovate Bot Trust Center
+name: Renovate Trust Center
 name_suffix: Trust Center
 overview: Renovate maintains a public trust center covering its security and compliance posture.
 provider_name: Renovate

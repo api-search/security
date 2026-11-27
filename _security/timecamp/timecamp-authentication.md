@@ -172,7 +172,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Timecamp Authentication
+name: TimeCamp Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TimeCamp secures its APIs with http and openIdConnect across 2 declared security schemes, as derived from its OpenAPI definitions.

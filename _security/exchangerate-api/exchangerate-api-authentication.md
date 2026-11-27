@@ -57,12 +57,12 @@ api_specs:
   slug: exchangerate-api-currencies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-currencies-api-openapi.yml
-- filename: exchangerate-api-exchange-rates-api-openapi.yml
+- filename: exchangerate-api-latest-api-openapi.yml
   format: yaml
-  label: ExchangeRate-API Exchange Rates API
-  slug: exchangerate-api-exchange-rates-api
+  label: ExchangeRate-API Latest API
+  slug: exchangerate-api-latest-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-exchange-rates-api-openapi.yml
+  url: https://artifacts.apis.io/exchangerate-api/openapi/exchangerate-api-latest-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Exchangerate Api Authentication
+name: ExchangeRate-API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ExchangeRate-API secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

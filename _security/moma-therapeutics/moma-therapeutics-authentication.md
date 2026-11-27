@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Moma Therapeutics Authentication
+name: MOMA Therapeutics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MOMA Therapeutics declares 0 security scheme(s) across its OpenAPI definitions.

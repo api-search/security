@@ -2,43 +2,43 @@
 api_specs:
 - filename: api-stock-com-account-management-api-openapi.yml
   format: yaml
-  label: api-stock-com Account Management API
+  label: API Stock Account Management API
   slug: api-stock-com-account-management-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-account-management-api-openapi.yml
 - filename: api-stock-com-agent-api-openapi.yml
   format: yaml
-  label: api-stock-com Agent API
+  label: API Stock Agent API
   slug: api-stock-com-agent-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-agent-api-openapi.yml
 - filename: api-stock-com-catalog-api-openapi.yml
   format: yaml
-  label: api-stock-com Catalog API
+  label: API Stock Catalog API
   slug: api-stock-com-catalog-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-catalog-api-openapi.yml
 - filename: api-stock-com-costs-api-openapi.yml
   format: yaml
-  label: api-stock-com Costs API
+  label: API Stock Costs API
   slug: api-stock-com-costs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-costs-api-openapi.yml
 - filename: api-stock-com-generations-api-openapi.yml
   format: yaml
-  label: api-stock-com Generations API
+  label: API Stock Generations API
   slug: api-stock-com-generations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-generations-api-openapi.yml
 - filename: api-stock-com-llm-api-openapi.yml
   format: yaml
-  label: api-stock-com LLM API
+  label: API Stock LLM API
   slug: api-stock-com-llm-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-llm-api-openapi.yml
 - filename: api-stock-com-task-management-api-openapi.yml
   format: yaml
-  label: api-stock-com Task Management API
+  label: API Stock Task Management API
   slug: api-stock-com-task-management-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/api-stock-com/openapi/api-stock-com-task-management-api-openapi.yml
@@ -60,10 +60,10 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Api Stock Com Domain Security
+name: API Stock Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for api-stock-com, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
-provider_name: api-stock-com
+overview: 'Domain security posture for API Stock, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: API Stock
 provider_slug: api-stock-com
 slug: api-stock-com-domain-security
 source_filename: api-stock-com-domain-security.yml

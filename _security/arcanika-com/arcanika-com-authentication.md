@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Arcanika Com Authentication
+name: Arcanika Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Arcanika declares 0 security scheme(s) across its OpenAPI definitions.

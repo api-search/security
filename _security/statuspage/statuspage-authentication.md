@@ -8,7 +8,7 @@ api_specs:
   label: Statuspage Webhook Notifications
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/statuspage/refs/heads/main/asyncapi/statuspage-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/statuspage/asyncapi/statuspage-webhooks-asyncapi.yml
 - filename: statuspage-pages-api-openapi.yml
   format: yaml
   label: Statuspage Pages API

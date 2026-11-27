@@ -107,7 +107,7 @@ certifications: []
 description: Vectra AI operates a trust center at trust.vectra.ai. The hostname CNAMEs to trust.cname.drata.com (Drata Trust Center) and the endpoint answers HTTP 403 to non-browser clients (bot-gated), so the certification list could not be read programmatically. No named certifications are asserted here — only the verified existence and platform of the trust center. The security-programs probe found no security.txt, and no public bug-bounty program page on HackerOne/Bugcrowd/Intigriti was verified.
 kind: trust-center
 layout: security
-name: Vectranetworks Trust Center
+name: Vectra AI Trust Center
 name_suffix: Trust Center
 overview: Vectra AI maintains a public trust center covering its security and compliance posture.
 provider_name: Vectra AI

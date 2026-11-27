@@ -13,7 +13,7 @@ api_specs:
   label: FreshBooks Webhooks (Callbacks API)
   slug: freshbooks-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/freshbooks/refs/heads/main/asyncapi/freshbooks-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/freshbooks/asyncapi/freshbooks-webhooks-asyncapi.yml
 - filename: freshbooks-auth-api-openapi.yml
   format: yaml
   label: FreshBooks Auth API
@@ -87,7 +87,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Freshbooks Authentication
+name: FreshBooks Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FreshBooks secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -188,12 +188,6 @@ api_specs:
   slug: microsoft-azure-site-recovery-replication-policies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-replication-policies-api-openapi.yml
-- filename: microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
-  format: yaml
-  label: Azure Site Recovery Recovery Plans API
-  slug: microsoft-azure-site-recovery-recoveryplans-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-site-recovery/openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -201,7 +195,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Microsoft Azure Site Recovery Authentication
+name: Azure Site Recovery Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
@@ -219,13 +213,13 @@ schemes:
   sources:
   - openapi/microsoft-azure-site-recovery-openapi.yml
   - openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml
-  - openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
+  - openapi/_superseded/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml
   type: oauth2
 slug: microsoft-azure-site-recovery-authentication
 source_filename: microsoft-azure-site-recovery-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-site-recovery-openapi.yml, openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml,\n  openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-site-recovery-openapi.yml\n  - openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml\n  - openapi/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-05'\nmethod: derived\nsource: openapi/microsoft-azure-site-recovery-openapi.yml, openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml,\n  openapi/_superseded/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-azure-site-recovery-openapi.yml\n  - openapi/microsoft-azure-site-recovery-recoveryplans-api-openapi.yml\n  - openapi/_superseded/microsoft-azure-site-recovery-replicationprotecteditems-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-azure-site-recovery/authentication/microsoft-azure-site-recovery-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

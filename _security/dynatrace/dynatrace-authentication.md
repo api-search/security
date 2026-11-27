@@ -9,24 +9,12 @@ api_specs:
   slug: dynatrace-entities-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-entities-api-openapi.yml
-- filename: dynatrace-environments-api-openapi.yml
-  format: yaml
-  label: Dynatrace Environments API
-  slug: dynatrace-environments-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-environments-api-openapi.yml
 - filename: dynatrace-events-api-openapi.yml
   format: yaml
   label: Dynatrace Events API
   slug: dynatrace-events-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-events-api-openapi.yml
-- filename: dynatrace-groups-api-openapi.yml
-  format: yaml
-  label: Dynatrace Groups API
-  slug: dynatrace-groups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-groups-api-openapi.yml
 - filename: dynatrace-logs-api-openapi.yml
   format: yaml
   label: Dynatrace Logs API
@@ -39,24 +27,12 @@ api_specs:
   slug: dynatrace-metrics-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-metrics-api-openapi.yml
-- filename: dynatrace-permissions-api-openapi.yml
-  format: yaml
-  label: Dynatrace Permissions API
-  slug: dynatrace-permissions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-permissions-api-openapi.yml
 - filename: dynatrace-problems-api-openapi.yml
   format: yaml
   label: Dynatrace Problems API
   slug: dynatrace-problems-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-problems-api-openapi.yml
-- filename: dynatrace-users-api-openapi.yml
-  format: yaml
-  label: Dynatrace Users API
-  slug: dynatrace-users-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/dynatrace/openapi/dynatrace-users-api-openapi.yml
 - filename: dynatrace-account-audits-api-openapi.yml
   format: yaml
   label: Dynatrace Account Audits API

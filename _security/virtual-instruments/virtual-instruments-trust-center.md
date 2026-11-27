@@ -7,7 +7,7 @@ certifications:
 description: Virtana publishes a Trust page covering its security and compliance posture, and a Regulatory Compliance section in the product docs. SOC 2 Type II compliant (report available upon request); GDPR and CCPA privacy programs; information security program aligned with the CSA Cloud Controls Matrix and listed on the CSA STAR Registry; TX-RAMP Level 2 certified (Texas Risk and Authorization Management Program) per the docs Regulatory Compliance page.
 kind: trust-center
 layout: security
-name: Virtual Instruments Trust Center
+name: Virtana (Virtual Instruments) Trust Center
 name_suffix: Trust Center
 overview: Virtana (Virtual Instruments) maintains a public trust center documenting SOC 2 Type II, TX-RAMP Level 2, and CSA STAR Registry compliance.
 provider_name: Virtana (Virtual Instruments)

@@ -27,12 +27,6 @@ api_specs:
   slug: amazon-aurora-dsql-stream-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-aurora-dsql/openapi/amazon-aurora-dsql-stream-api-openapi.yml
-- filename: amazon-aurora-dsql-multi-region-clusters-api-openapi.yml
-  format: yaml
-  label: Amazon Aurora DSQL Multi-Region Clusters API
-  slug: amazon-aurora-dsql-multi-region-clusters-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amazon-aurora-dsql/openapi/amazon-aurora-dsql-multi-region-clusters-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -40,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Amazon Aurora Dsql Authentication
+name: Amazon Aurora DSQL Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amazon Aurora DSQL secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

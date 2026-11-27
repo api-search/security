@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Otter Ai Trust Center
+name: Otter.ai Trust Center
 name_suffix: Trust Center
 overview: Otter.ai maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Otter.ai

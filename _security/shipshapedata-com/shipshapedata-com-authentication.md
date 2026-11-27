@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Shipshapedata Com Authentication
+name: shipshapedata-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: shipshapedata-com declares 2 security scheme(s) across its OpenAPI definitions.

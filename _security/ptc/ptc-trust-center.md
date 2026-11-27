@@ -12,6 +12,12 @@ api_specs:
   slug: arena-plm-rest-api
   spec_type: OpenAPI
   url: https://api.arenasolutions.com/v1/swagger-ui/index.html
+- filename: ptc-openapi-generated.yml
+  format: yaml
+  label: PTC API
+  slug: ptc-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/ptc/openapi/_ae-authored/ptc-openapi-generated.yml
 certification_count: 3
 certifications:
 - SOC 2
@@ -20,7 +26,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ptc Trust Center
+name: PTC Trust Center
 name_suffix: Trust Center
 overview: PTC maintains a public trust center documenting SOC 2, ISO 27001, and FedRAMP compliance.
 provider_name: PTC

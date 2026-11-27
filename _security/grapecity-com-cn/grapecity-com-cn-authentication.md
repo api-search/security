@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Grapecity Com Cn Authentication
+name: grapecity-com-cn Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: grapecity-com-cn declares 0 security scheme(s) across its OpenAPI definitions.

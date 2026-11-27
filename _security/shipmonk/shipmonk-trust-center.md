@@ -48,7 +48,7 @@ certifications:
 description: 'ShipMonk has no dedicated trust center (trust.shipmonk.com does not resolve and /security returns no policy content), but it does publish its compliance posture: a completed SOC 2 Type II audit announced 2026-02-12.'
 kind: trust-center
 layout: security
-name: Shipmonk Trust Center
+name: ShipMonk Trust Center
 name_suffix: Trust Center
 overview: ShipMonk maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: ShipMonk

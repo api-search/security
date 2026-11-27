@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ns1 Authentication
+name: NS1 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NS1 secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

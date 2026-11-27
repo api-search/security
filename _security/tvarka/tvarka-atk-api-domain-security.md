@@ -156,7 +156,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Tvarka Atk Api Domain Security
+name: Tvarka ATK API Atk Api Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Tvarka ATK API, probed live across 4 host(s) and 1 registrable domain(s). 4 host(s) serve HTTPS (up to TLSv1.3); 4 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Tvarka ATK API

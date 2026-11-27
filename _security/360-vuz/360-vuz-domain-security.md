@@ -25,7 +25,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: 360 Vuz Domain Security
+name: 360 VUZ Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 360 VUZ, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: 360 VUZ

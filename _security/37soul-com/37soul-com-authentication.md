@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: 37Soul Com Authentication
+name: 37Soul Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 37Soul declares 1 security scheme(s) across its OpenAPI definitions.

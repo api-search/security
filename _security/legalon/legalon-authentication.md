@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Legalon Authentication
+name: LegalOn Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

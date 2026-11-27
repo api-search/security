@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Involvesoft Com Domain Security
+name: Involve.AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Involve.AI, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Involve.AI

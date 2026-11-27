@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Alden Tech Authentication
+name: Smart Diagnostics Systems Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Smart Diagnostics Systems declares 0 security scheme(s) across its OpenAPI definitions.

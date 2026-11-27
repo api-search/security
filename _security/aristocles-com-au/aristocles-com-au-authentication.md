@@ -302,7 +302,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aristocles Com Au Authentication
+name: Aristocles Pty Ltd Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aristocles Pty Ltd declares 0 security scheme(s) across its OpenAPI definitions.

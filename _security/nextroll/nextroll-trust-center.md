@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nextroll Trust Center
+name: NextRoll Trust Center
 name_suffix: Trust Center
 overview: NextRoll maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: NextRoll

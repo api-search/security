@@ -80,7 +80,7 @@ tags:
 - Digital Assets
 - Cryptocurrency
 - Blockchain
-- Token Security
+- TokenSecurity
 - Scam Detection
 - Smart Contracts
 - AML

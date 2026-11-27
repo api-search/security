@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Legion Trust Center
+name: Legion Security Trust Center
 name_suffix: Trust Center
 overview: Legion Security maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, ISO/IEC 42001:2023, HIPAA, and CSA STAR Level 1 compliance.
 provider_name: Legion Security

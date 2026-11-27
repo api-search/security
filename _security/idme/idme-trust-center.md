@@ -34,7 +34,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Idme Trust Center
+name: ID.me Trust Center
 name_suffix: Trust Center
 overview: ID.me maintains a public trust center documenting SOC 2, ISO 27001, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: ID.me

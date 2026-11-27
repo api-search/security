@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Site Shot Authentication
+name: Site-Shot Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Site-Shot declares 1 security scheme(s) across its OpenAPI definitions.

@@ -45,7 +45,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Usebutton Authentication
+name: Button Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Button secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

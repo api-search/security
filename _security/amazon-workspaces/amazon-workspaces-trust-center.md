@@ -24,6 +24,42 @@ api_specs:
   slug: amazon-workspaces-workspaces-pool-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-workspaces-pool-api-openapi.yml
+- filename: amazon-workspaces-devices-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Devices API
+  slug: amazon-workspaces-devices-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-devices-api-openapi.yml
+- filename: amazon-workspaces-environments-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Environments API
+  slug: amazon-workspaces-environments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-environments-api-openapi.yml
+- filename: amazon-workspaces-softwaresets-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Softwaresets API
+  slug: amazon-workspaces-softwaresets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-softwaresets-api-openapi.yml
+- filename: amazon-workspaces-tags-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Tags API
+  slug: amazon-workspaces-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-tags-api-openapi.yml
+- filename: amazon-workspaces-volume-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Volume API
+  slug: amazon-workspaces-volume-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-volume-api-openapi.yml
+- filename: amazon-workspaces-workspace-instance-api-openapi.yml
+  format: yaml
+  label: Amazon WorkSpaces Workspaces Workspace Instance API
+  slug: amazon-workspaces-workspace-instance-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-workspaces/openapi/amazon-workspaces-workspace-instance-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -34,7 +70,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Workspaces Trust Center
+name: Amazon WorkSpaces Trust Center
 name_suffix: Trust Center
 overview: Amazon WorkSpaces maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon WorkSpaces

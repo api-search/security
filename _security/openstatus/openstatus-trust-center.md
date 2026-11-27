@@ -36,7 +36,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Openstatus Trust Center
+name: OpenStatus Trust Center
 name_suffix: Trust Center
 overview: OpenStatus maintains a public trust center documenting SOC 2 compliance.
 provider_name: OpenStatus

@@ -82,7 +82,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: University Of Waterloo Authentication
+name: University of Waterloo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Waterloo secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

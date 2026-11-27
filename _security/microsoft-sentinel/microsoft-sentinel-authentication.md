@@ -191,11 +191,11 @@ schemes:
   name: bearerAuth
   scheme: bearer
   sources:
-  - openapi/microsoft-sentinel-alert-rules-api-openapi.yml
-  - openapi/microsoft-sentinel-bookmarks-api-openapi.yml
-  - openapi/microsoft-sentinel-data-connectors-api-openapi.yml
-  - openapi/microsoft-sentinel-incidents-api-openapi.yml
-  - openapi/microsoft-sentinel-threat-intelligence-api-openapi.yml
+  - openapi/_superseded/microsoft-sentinel-alert-rules-api-openapi.yml
+  - openapi/_superseded/microsoft-sentinel-bookmarks-api-openapi.yml
+  - openapi/_superseded/microsoft-sentinel-data-connectors-api-openapi.yml
+  - openapi/_superseded/microsoft-sentinel-incidents-api-openapi.yml
+  - openapi/_superseded/microsoft-sentinel-threat-intelligence-api-openapi.yml
   type: http
 - description: Azure Active Directory OAuth2 Flow.
   flows:
@@ -210,8 +210,8 @@ slug: microsoft-sentinel-authentication
 source_filename: microsoft-sentinel-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/microsoft-sentinel-alert-rules-api-openapi.yml, openapi/microsoft-sentinel-bookmarks-api-openapi.yml,\n  openapi/microsoft-sentinel-data-connectors-api-openapi.yml, openapi/microsoft-sentinel-incidents-api-openapi.yml,\n  openapi/microsoft-sentinel-securityinsights-openapi.yml, openapi/microsoft-sentinel-threat-intelligence-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/microsoft-sentinel-alert-rules-api-openapi.yml\n  - openapi/microsoft-sentinel-bookmarks-api-openapi.yml\n  - openapi/microsoft-sentinel-data-connectors-api-openapi.yml\n  - openapi/microsoft-sentinel-incidents-api-openapi.yml\n  - openapi/microsoft-sentinel-threat-intelligence-api-openapi.yml\n- name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n\
-  \    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-sentinel-securityinsights-openapi.yml\n"
+source_yaml: "generated: '2026-11-04'\nmethod: derived\nsource: openapi/_superseded/microsoft-sentinel-alert-rules-api-openapi.yml, openapi/_superseded/microsoft-sentinel-bookmarks-api-openapi.yml,\n  openapi/_superseded/microsoft-sentinel-data-connectors-api-openapi.yml, openapi/_superseded/microsoft-sentinel-incidents-api-openapi.yml,\n  openapi/microsoft-sentinel-securityinsights-openapi.yml, openapi/_superseded/microsoft-sentinel-threat-intelligence-api-openapi.yml\nsummary:\n  types:\n  - http\n  - oauth2\n  oauth2_flows:\n  - implicit\nschemes:\n- name: bearerAuth\n  type: http\n  scheme: bearer\n  bearerFormat: JWT\n  sources:\n  - openapi/_superseded/microsoft-sentinel-alert-rules-api-openapi.yml\n  - openapi/_superseded/microsoft-sentinel-bookmarks-api-openapi.yml\n  - openapi/_superseded/microsoft-sentinel-data-connectors-api-openapi.yml\n  - openapi/_superseded/microsoft-sentinel-incidents-api-openapi.yml\n  - openapi/_superseded/microsoft-sentinel-threat-intelligence-api-openapi.yml\n\
+  - name: azure_auth\n  type: oauth2\n  flows:\n  - flow: implicit\n    authorizationUrl: https://login.microsoftonline.com/common/oauth2/authorize\n    scopes: 1\n  description: Azure Active Directory OAuth2 Flow.\n  sources:\n  - openapi/microsoft-sentinel-securityinsights-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/microsoft-sentinel/authentication/microsoft-sentinel-authentication.yml
 summary_line: http/oauth2 · 2 schemes
 tags:

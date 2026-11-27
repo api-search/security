@@ -8,7 +8,7 @@ certifications:
 description: cside operates a public Trust Center at https://trust.cside.com. The live host is fronted by CloudFront and returned 403 to automated fetchers on 2026-07-18, so certifications below are captured from the cside llms.txt Trust Center summary and the cside security page rather than scraped from the portal body.
 kind: trust-center
 layout: security
-name: C Side Trust Center
+name: c/side Trust Center
 name_suffix: Trust Center
 overview: c/side maintains a public trust center documenting SOC 2 Type II, PCI DSS (SAQ-D AOC), ISO 27001 (in progress), and GDPR compliance.
 provider_name: c/side

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Espressif Authentication
+name: Espressif Systems Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Espressif Systems declares 1 security scheme(s) across its OpenAPI definitions.

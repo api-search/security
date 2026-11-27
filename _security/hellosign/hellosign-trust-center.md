@@ -87,7 +87,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hellosign Trust Center
+name: Dropbox Sign (HelloSign) Trust Center
 name_suffix: Trust Center
 overview: Dropbox Sign (HelloSign) maintains a public trust center documenting HIPAA, ISO 9001, SOC (CPA/AICPA attestation), and Skyhigh Enterprise-Ready compliance.
 provider_name: Dropbox Sign (HelloSign)

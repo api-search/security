@@ -101,7 +101,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Clearbank Authentication
+name: ClearBank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ClearBank secures its APIs with http and custom-signature across 3 declared security schemes, as derived from its OpenAPI definitions.

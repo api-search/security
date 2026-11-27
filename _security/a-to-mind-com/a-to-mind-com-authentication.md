@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: A To Mind Com Authentication
+name: A-to-Mind Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: A-to-Mind declares 0 security scheme(s) across its OpenAPI definitions.

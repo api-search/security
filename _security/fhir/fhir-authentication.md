@@ -207,7 +207,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Fhir Authentication
+name: Fast Healthcare Interoperability Resources Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fast Healthcare Interoperability Resources secures its APIs with oauth2 across 3 declared security schemes, as derived from its OpenAPI definitions.

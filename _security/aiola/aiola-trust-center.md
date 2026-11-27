@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aiola Trust Center
+name: aiOla Trust Center
 name_suffix: Trust Center
 overview: aiOla maintains a public trust center documenting SOC 2 Type II and ISO 27001:2022 compliance.
 provider_name: aiOla

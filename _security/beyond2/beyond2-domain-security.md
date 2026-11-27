@@ -29,7 +29,7 @@ source_yaml: "generated: '2026-09-28'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/beyond2/security/beyond2-domain-security.yml
 summary_line: TLSv1.3
 tags:
-- ClassicCars
+- Classic Cars
 - Restoration
 - Consultation
 - San Francisco

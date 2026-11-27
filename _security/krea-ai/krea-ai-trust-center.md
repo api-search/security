@@ -84,7 +84,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Krea Ai Trust Center
+name: Krea Trust Center
 name_suffix: Trust Center
 overview: Krea maintains a public trust center documenting SOC 2 compliance.
 provider_name: Krea

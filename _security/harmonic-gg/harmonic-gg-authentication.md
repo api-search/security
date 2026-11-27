@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Harmonic Gg Authentication
+name: Harmonic GG Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Harmonic GG secures its APIs with challenge-response and bearer across 2 declared security schemes, as derived from its OpenAPI definitions.

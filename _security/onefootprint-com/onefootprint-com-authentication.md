@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Onefootprint Com Authentication
+name: Footprint Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Footprint declares 1 security scheme(s) across its OpenAPI definitions.

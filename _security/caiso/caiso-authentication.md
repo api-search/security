@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Caiso Authentication
+name: California ISO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: California ISO secures its APIs with none and mutualTLS across 2 declared security schemes, as derived from its OpenAPI definitions.

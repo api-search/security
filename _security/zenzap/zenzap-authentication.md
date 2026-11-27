@@ -60,7 +60,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Zenzap Authentication
+name: ZenZap Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

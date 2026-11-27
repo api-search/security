@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Bp Authentication
+name: BP Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BP declares 0 security scheme(s) across its OpenAPI definitions.

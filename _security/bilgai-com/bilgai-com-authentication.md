@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bilgai Com Authentication
+name: Bilg Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bilg declares 1 security scheme(s) across its OpenAPI definitions.

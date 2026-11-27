@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Amdahl Ai Authentication
+name: Amdahl Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Amdahl declares 2 security scheme(s) across its OpenAPI definitions.

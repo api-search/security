@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Warpstream Trust Center
+name: WarpStream Trust Center
 name_suffix: Trust Center
 overview: WarpStream maintains a public trust center documenting SOC 2, ISO 27001, and ISO 27017 compliance.
 provider_name: WarpStream

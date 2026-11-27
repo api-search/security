@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Forecast Trust Center
+name: forecast Trust Center
 name_suffix: Trust Center
 overview: forecast maintains a public trust center documenting SOC 2, ISO 27017, ISO 27018, PCI DSS, and FIPS 140 compliance.
 provider_name: forecast

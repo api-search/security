@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Saga It Authentication
+name: Saga IT Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Saga IT declares 1 security scheme(s) across its OpenAPI definitions.

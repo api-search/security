@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aistrail Com Authentication
+name: AIS Trail Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AIS Trail declares 1 security scheme(s) across its OpenAPI definitions.

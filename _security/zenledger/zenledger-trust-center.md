@@ -85,7 +85,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Zenledger Trust Center
+name: ZenLedger Trust Center
 name_suffix: Trust Center
 overview: ZenLedger maintains a public trust center documenting SOC 2 Type II and SOC 2 Framework alignment (Information Security Program) compliance.
 provider_name: ZenLedger

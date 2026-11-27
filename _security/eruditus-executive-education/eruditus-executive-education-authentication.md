@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Eruditus Executive Education Authentication
+name: Eruditus Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Eruditus secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

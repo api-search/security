@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Jobget Authentication
+name: JobGet Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JobGet secures its APIs with visitor-token across 1 declared security scheme, as derived from its OpenAPI definitions.

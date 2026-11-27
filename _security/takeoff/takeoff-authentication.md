@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Takeoff Authentication
+name: TakeOff Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TakeOff declares 0 security scheme(s) across its OpenAPI definitions.

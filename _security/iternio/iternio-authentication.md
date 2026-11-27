@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Iternio Authentication
+name: A Better Route Planner (Iternio) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: A Better Route Planner (Iternio) declares 1 security scheme(s) across its OpenAPI definitions.

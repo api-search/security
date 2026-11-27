@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Vectorai Trust Center
+name: Vector.ai Trust Center
 name_suffix: Trust Center
 overview: Vector.ai maintains a public trust center covering its security and compliance posture.
 provider_name: Vector.ai

@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Function Of Beauty Authentication
+name: Function of Beauty Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -73,7 +73,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Triodos Bank Uk Authentication
+name: Triodos Bank UK Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

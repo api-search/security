@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Bmll Technologies Authentication
+name: BMLL Technologies Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BMLL Technologies secures its APIs with key-pair-jwt, bearer, and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

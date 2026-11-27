@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Betterlytics Io Authentication
+name: Betterlytics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Betterlytics declares 0 security scheme(s) across its OpenAPI definitions.

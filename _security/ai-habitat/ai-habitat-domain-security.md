@@ -29,7 +29,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Ai Habitat Domain Security
+name: AI Habitat Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AI Habitat, probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: AI Habitat

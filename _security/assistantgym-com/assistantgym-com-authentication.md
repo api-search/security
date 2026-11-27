@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Assistantgym Com Authentication
+name: Assistant Gym Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Assistant Gym declares 0 security scheme(s) across its OpenAPI definitions.

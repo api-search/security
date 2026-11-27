@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Saka Run Authentication
+name: saka-run Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: saka-run declares 1 security scheme(s) across its OpenAPI definitions.

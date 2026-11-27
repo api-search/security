@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Pdfbroker Io Authentication
+name: pdfbroker-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: pdfbroker-io declares 1 security scheme(s) across its OpenAPI definitions.

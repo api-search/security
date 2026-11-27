@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Agentsonleave Com Authentication
+name: Agents on Leave Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agents on Leave declares 1 security scheme(s) across its OpenAPI definitions.

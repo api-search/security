@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Tronzap Authentication
+name: TronZap Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TronZap declares 3 security scheme(s) across its OpenAPI definitions.

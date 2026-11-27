@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Accessibe Trust Center
+name: accessiBe Trust Center
 name_suffix: Trust Center
 overview: accessiBe maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: accessiBe

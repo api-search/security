@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Demanddiscovery Ai Authentication
+name: Demand Discovery AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Demand Discovery AI declares 1 security scheme(s) across its OpenAPI definitions.

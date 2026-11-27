@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Verified Inc Trust Center
+name: Verified Trust Center
 name_suffix: Trust Center
 overview: Verified maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Verified

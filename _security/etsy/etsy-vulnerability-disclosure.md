@@ -5,7 +5,7 @@ api_specs:
   label: Etsy Open API v3 Webhooks
   slug: webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/etsy/refs/heads/main/asyncapi/etsy-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/etsy/asyncapi/etsy-webhooks-asyncapi.yml
 - filename: etsy-buyertaxonomy-api-openapi.yml
   format: yaml
   label: Etsy BuyerTaxonomy API

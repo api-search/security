@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Kings College London Authentication
+name: King's College London Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: King's College London secures its APIs with http, openIdConnect, saml, and none across 5 declared security schemes, as derived from its OpenAPI definitions.

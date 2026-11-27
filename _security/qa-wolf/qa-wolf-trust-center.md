@@ -19,7 +19,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Qa Wolf Trust Center
+name: QA Wolf Trust Center
 name_suffix: Trust Center
 overview: QA Wolf maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: QA Wolf

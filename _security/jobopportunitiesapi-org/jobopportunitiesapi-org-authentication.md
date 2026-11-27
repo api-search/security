@@ -27,22 +27,22 @@ api_specs:
   spec_type: OpenAPI
   url: https://artifacts.apis.io/jobopportunitiesapi-org/openapi/jobopportunitiesapi-org-public-api-openapi.yml
 auth_types: []
-description: Authentication is performed by sending the secret key as a bearer token in the Authorization header.
+description: Authentication
 kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Jobopportunitiesapi Org Authentication
+name: Job Opportunities API Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: jobopportunitiesapi-org declares 1 security scheme(s) across its OpenAPI definitions.
-provider_name: jobopportunitiesapi-org
+overview: Job Opportunities API declares 1 security scheme(s) across its OpenAPI definitions.
+provider_name: Job Opportunities API
 provider_slug: jobopportunitiesapi-org
 scheme_count: 1
 schemes:
-- evidence: 'The header § Authorization: Bearer <your key>, on every /v1 request — and on the four /public listing routes too'
+- evidence: 'The header § Authorization: Bearer <your key>, on every /v1 request, and on the four /public listing routes too, now that they need a key.'
   header: Authorization
-  how_to_obtain: Create a free key on the dashboard; the secret is shown once when the key is created.
+  how_to_obtain: 'Create a free key on the dashboard; the secret is shown once and must be sent as Authorization: Bearer <secret>.'
   location: header
   name: Bearer
   type: http-bearer
@@ -50,7 +50,7 @@ slug: jobopportunitiesapi-org-authentication
 source_filename: jobopportunitiesapi-org-authentication.yml
 source_heading: Authentication Profile
 source_url: https://jobopportunitiesapi.org/docs/api/authentication
-source_yaml: "generated: '2026-10-20'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://jobopportunitiesapi.org/docs/api/authentication\nsources:\n- https://jobopportunitiesapi.org/docs/api/authentication\n- https://jobopportunitiesapi.org/docs/quickstart\n- https://jobopportunitiesapi.org/docs/ai/quickstart.md\ndescription: Authentication is performed by sending the secret key as a bearer token in the Authorization header.\nschemes:\n- type: http-bearer\n  name: Bearer\n  evidence: 'The header § Authorization: Bearer <your key>, on every /v1 request — and on the four /public listing routes too'\n  location: header\n  header: Authorization\n  how_to_obtain: Create a free key on the dashboard; the secret is shown once when the key is created.\nnote: No OAuth flows, apiKey, or other authentication methods are documented.\ndocs: https://jobopportunitiesapi.org/docs/api/authentication\n"
+source_yaml: "generated: '2026-11-18'\nmethod: searched\ngenerator: extract-docs-artifacts.py (local)\nsource: https://jobopportunitiesapi.org/docs/api/authentication\nsources:\n- https://jobopportunitiesapi.org/docs/api/authentication\n- https://jobopportunitiesapi.org/docs/quickstart\n- https://jobopportunitiesapi.org/docs/ai/quickstart.md\ndescription: Authentication\nschemes:\n- type: http-bearer\n  name: Bearer\n  evidence: 'The header § Authorization: Bearer <your key>, on every /v1 request, and on the four /public listing routes too, now that they need\n    a key.'\n  location: header\n  header: Authorization\n  how_to_obtain: 'Create a free key on the dashboard; the secret is shown once and must be sent as Authorization: Bearer <secret>.'\nnote: Three spellings are accepted (Bearer, bearer, or the bare key with no scheme), but the canonical form is Bearer.\ndocs: https://jobopportunitiesapi.org/docs/api/authentication\n"
 source_yaml_url: https://artifacts.apis.io/jobopportunitiesapi-org/authentication/jobopportunitiesapi-org-authentication.yml
 summary_line: 1 scheme
 tags:

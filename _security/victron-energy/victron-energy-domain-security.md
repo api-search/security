@@ -29,7 +29,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Victron Energy Domain Security
+name: Victron Energy (VRM) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Victron Energy (VRM), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Victron Energy (VRM)
@@ -45,6 +45,6 @@ tags:
 - Company
 - Energy
 - Renewables
-- Off-grid
+- Off-Grid
 - Monitoring
 ---

@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Taitoai Trust Center
+name: Taito.ai Trust Center
 name_suffix: Trust Center
 overview: Taito.ai maintains a public trust center documenting ISO 27001 compliance.
 provider_name: Taito.ai

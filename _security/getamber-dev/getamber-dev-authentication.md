@@ -12,7 +12,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Getamber Dev Authentication
+name: Ambr Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Ambr secures its APIs with apiKey, x402-payment, wallet-signature, share-token, and session-token across 5 declared security schemes, as derived from its OpenAPI definitions.

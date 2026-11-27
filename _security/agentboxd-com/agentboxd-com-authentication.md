@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentboxd Com Authentication
+name: agentboxd-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: agentboxd-com declares 0 security scheme(s) across its OpenAPI definitions.

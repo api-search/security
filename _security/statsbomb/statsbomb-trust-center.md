@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Statsbomb Trust Center
+name: StatsBomb (Hudl) Trust Center
 name_suffix: Trust Center
 overview: StatsBomb (Hudl) maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: StatsBomb (Hudl)

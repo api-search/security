@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Fastgstrefund Com Authentication
+name: Fast GST Refund Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
@@ -45,20 +45,18 @@ schemes:
   name: account
   sources:
   - openapi/fastgstrefund-com-openapi.json
-  - openapi/fastgstrefund-com-openapi.yml
   type: oauth2
 slug: fastgstrefund-com-authentication
 source_filename: fastgstrefund-com-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-11-07'\nmethod: derived\nsource: openapi/fastgstrefund-com-openapi.json, openapi/fastgstrefund-com-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: account\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://fastgstrefund.com/oauth/authorize\n    tokenUrl: https://fastgstrefund.com/oauth/token\n    scopes: 1\n  description: OAuth 2.1 authorization code with S256 PKCE. Clients register at /oauth/register.\n    The person signs in with an emailed code. See /.well-known/oauth-authorization-server.\n  sources:\n  - openapi/fastgstrefund-com-openapi.json\n  - openapi/fastgstrefund-com-openapi.yml\n"
+source_yaml: "generated: '2026-11-08'\nmethod: derived\nsource: openapi/fastgstrefund-com-openapi.json\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: account\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://fastgstrefund.com/oauth/authorize\n    tokenUrl: https://fastgstrefund.com/oauth/token\n    scopes: 1\n  description: OAuth 2.1 authorization code with S256 PKCE. Clients register at /oauth/register.\n    The person signs in with an emailed code. See /.well-known/oauth-authorization-server.\n  sources:\n  - openapi/fastgstrefund-com-openapi.json\n"
 source_yaml_url: https://artifacts.apis.io/fastgstrefund-com/authentication/fastgstrefund-com-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:
-- GST refund
-- JSON generator
-- Exporters
-- Chartered accountants
-- SaaS companies
-- Accounting practices
+- GST
+- Refund
+- JSON
+- Export
+- India
 ---

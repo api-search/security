@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Evergiving Trust Center
+name: EverGiving Trust Center
 name_suffix: Trust Center
 overview: EverGiving maintains a public trust center documenting ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: EverGiving

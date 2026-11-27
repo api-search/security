@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Wealthville Defi Liquidity Pool Scores Api Solana Evm Authentication
+name: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WealthVille — DeFi Liquidity Pool Scores API (Solana & EVM) secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

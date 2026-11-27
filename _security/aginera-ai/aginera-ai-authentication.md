@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Aginera Ai Authentication
+name: Aginera Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aginera declares 3 security scheme(s) across its OpenAPI definitions.

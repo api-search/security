@@ -38,7 +38,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tensorwave Trust Center
+name: TensorWave Trust Center
 name_suffix: Trust Center
 overview: TensorWave maintains a public trust center documenting SOC 2, ISO 27001, and HIPAA compliance.
 provider_name: TensorWave

@@ -1,0 +1,39 @@
+---
+description: ''
+domains:
+- caa: []
+  dmarc: true
+  dmarc_policy: none
+  dnssec: false
+  domain: netrun.io
+  spf: true
+hosts:
+- cert_expires: Feb 15 23:48:29 2027 GMT
+  host: netrun.io
+  hsts: true
+  hsts_max_age: 63072000
+  https: true
+  tls_version: TLSv1.3
+hosts_probed: 1
+kind: domain-security
+layout: security
+method: probed
+name: Netrun Domain Security
+name_suffix: Domain Security
+overview: 'Domain security posture for Netrun, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
+provider_name: Netrun
+provider_slug: netrun-io
+slug: netrun-io-domain-security
+source_filename: netrun-io-domain-security.yml
+source_heading: Domain Security
+source_url: ''
+source_yaml: "generated: '2026-11-19'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: netrun.io\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Feb 15 23:48:29 2027 GMT\n  hsts: true\n  hsts_max_age: 63072000\ndomains:\n- domain: netrun.io\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml_url: https://artifacts.apis.io/netrun-io/security/netrun-io-domain-security.yml
+summary_line: TLSv1.3 · HSTS · DMARC
+tags:
+- Company
+- Hosting
+- Free Tier
+- Bots
+- Deployment
+---

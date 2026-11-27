@@ -42,7 +42,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Ss C Technologies Authentication
+name: SS&C Technologies Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SS&C Technologies secures its APIs with http, session-token, srp, and openIdConnect across 5 declared security schemes, as derived from its OpenAPI definitions.

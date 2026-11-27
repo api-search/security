@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: A2 Milk Company Authentication
+name: The a2 Milk Company Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: The a2 Milk Company declares 0 security scheme(s) across its OpenAPI definitions.

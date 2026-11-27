@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Wisdomtree Authentication
+name: WisdomTree Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

@@ -106,7 +106,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Epignosis Talentlms Efront Talentcards Trust Center
+name: Epignosis (TalentLMS, eFront, TalentCards) Trust Center
 name_suffix: Trust Center
 overview: Epignosis (TalentLMS, eFront, TalentCards) maintains a public trust center documenting ISO/IEC 27001:2022, ISO 9001:2015, GDPR, CSA STAR Level 1, and EU Cloud Code of Conduct compliance.
 provider_name: Epignosis (TalentLMS, eFront, TalentCards)

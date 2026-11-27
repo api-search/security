@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: getmattered-account-api-openapi.yml
-  format: yaml
-  label: GetMattered Account API
-  slug: getmattered-account-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/getmattered/openapi/getmattered-account-api-openapi.yml
 - filename: getmattered-achievements-api-openapi.yml
   format: yaml
   label: GetMattered Achievements API
@@ -290,7 +284,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Getmattered Authentication
+name: GetMattered Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GetMattered declares 3 security scheme(s) across its OpenAPI definitions.

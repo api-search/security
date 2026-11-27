@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Home Connect Authentication
+name: Home Connect (BSH appliances) Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

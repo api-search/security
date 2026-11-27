@@ -60,7 +60,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Surveymonkey Trust Center
+name: SurveyMonkey Trust Center
 name_suffix: Trust Center
 overview: SurveyMonkey maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: SurveyMonkey

@@ -55,7 +55,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sensible Io Trust Center
+name: Sensible Trust Center
 name_suffix: Trust Center
 overview: Sensible maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Sensible

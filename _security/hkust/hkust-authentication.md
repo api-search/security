@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Hkust Authentication
+name: Hong Kong University of Science and Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hong Kong University of Science and Technology declares 0 security scheme(s) across its OpenAPI definitions.

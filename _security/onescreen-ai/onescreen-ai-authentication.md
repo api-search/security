@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Onescreen Ai Authentication
+name: OneScreen AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OneScreen AI declares 2 security scheme(s) across its OpenAPI definitions.

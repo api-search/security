@@ -142,7 +142,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Zepto Payments Trust Center
+name: Zepto Trust Center
 name_suffix: Trust Center
 overview: Zepto maintains a public trust center documenting PCI DSS Level 1 (v4.0), ISO/IEC 27001, ASAE 3150 (independently certified by RSM Australia), CIS Benchmark Level 2, and ISO 9362 (registered SWIFT BIC SPPYAU22) compliance.
 provider_name: Zepto

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Atlasemoji Com Authentication
+name: Atlasemoji Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Atlasemoji declares 0 security scheme(s) across its OpenAPI definitions.

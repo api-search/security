@@ -374,7 +374,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Controlup Trust Center
+name: ControlUp Trust Center
 name_suffix: Trust Center
 overview: ControlUp maintains a public trust center documenting ISO/IEC 27001:2022, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701:2019, SOC 2 Type 2, SOC 3, FIPS 140-2 Level 1, CSA STAR Level 1, and GDPR compliance.
 provider_name: ControlUp

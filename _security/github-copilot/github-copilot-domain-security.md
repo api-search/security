@@ -1,41 +1,29 @@
 ---
 api_specs:
-- filename: github-copilot-copilot-billing-api-openapi.yml
+- filename: github-copilot-copilot-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Billing API
-  slug: github-copilot-copilot-billing-api
+  label: GitHub Copilot Copilot API
+  slug: github-copilot-copilot-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-billing-api-openapi.yml
-- filename: github-copilot-copilot-content-exclusion-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-api-openapi.yml
+- filename: github-copilot-copilot-spaces-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Content Exclusion API
-  slug: github-copilot-copilot-content-exclusion-api
+  label: GitHub Copilot Copilot Spaces API
+  slug: github-copilot-copilot-spaces-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-content-exclusion-api-openapi.yml
-- filename: github-copilot-copilot-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-spaces-api-openapi.yml
+- filename: github-copilot-merge-queue-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Metrics API
-  slug: github-copilot-copilot-metrics-api
+  label: GitHub Copilot Merge Queue API
+  slug: github-copilot-merge-queue-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-metrics-api-openapi.yml
-- filename: github-copilot-copilot-seats-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-merge-queue-api-openapi.yml
+- filename: github-copilot-pulls-api-openapi.yml
   format: yaml
-  label: GitHub Copilot Seats API
-  slug: github-copilot-copilot-seats-api
+  label: GitHub Copilot Pulls API
+  slug: github-copilot-pulls-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-seats-api-openapi.yml
-- filename: github-copilot-copilot-usage-reports-api-openapi.yml
-  format: yaml
-  label: GitHub Copilot Usage Reports API
-  slug: github-copilot-copilot-usage-reports-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-usage-reports-api-openapi.yml
-- filename: github-copilot-copilot-user-management-api-openapi.yml
-  format: yaml
-  label: GitHub Copilot User Management API
-  slug: github-copilot-copilot-user-management-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-copilot-user-management-api-openapi.yml
+  url: https://artifacts.apis.io/github-copilot/openapi/github-copilot-pulls-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -93,7 +81,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Github Copilot Domain Security
+name: GitHub Copilot Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for GitHub Copilot, probed live across 4 host(s) and 2 registrable domain(s). 4 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: GitHub Copilot

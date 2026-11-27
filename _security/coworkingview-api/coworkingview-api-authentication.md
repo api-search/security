@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Coworkingview Api Authentication
+name: CoworkingView API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CoworkingView API declares 0 security scheme(s) across its OpenAPI definitions.

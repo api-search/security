@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Bureau National D Etudes Techniques Et De Developpement Bnetd Domain Security
+name: Bureau National d'Etudes Techniques et de Developpement (BNETD) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Bureau National d''Etudes Techniques et de Developpement (BNETD), probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Bureau National d'Etudes Techniques et de Developpement (BNETD)

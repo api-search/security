@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Kvcore Authentication
+name: Inside Real Estate (kvCORE / BoldTrail) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Inside Real Estate (kvCORE / BoldTrail) declares 1 security scheme(s) across its OpenAPI definitions.

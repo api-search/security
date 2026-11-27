@@ -46,7 +46,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Bmw Connecteddrive Domain Security
+name: BMW ConnectedDrive Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for BMW ConnectedDrive, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: BMW ConnectedDrive

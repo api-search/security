@@ -318,24 +318,6 @@ api_specs:
   slug: github-enterprise-teams-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/github-enterprise/openapi/github-enterprise-teams-api-openapi.yml
-- filename: github-enterprise-organizations-api-openapi.yml
-  format: yaml
-  label: GitHub Enterprise Organizations API
-  slug: github-enterprise-organizations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-enterprise/openapi/github-enterprise-organizations-api-openapi.yml
-- filename: github-enterprise-pull-requests-api-openapi.yml
-  format: yaml
-  label: GitHub Enterprise Pull Requests API
-  slug: github-enterprise-pull-requests-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-enterprise/openapi/github-enterprise-pull-requests-api-openapi.yml
-- filename: github-enterprise-repositories-api-openapi.yml
-  format: yaml
-  label: GitHub Enterprise Repositories API
-  slug: github-enterprise-repositories-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/github-enterprise/openapi/github-enterprise-repositories-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -359,7 +341,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Github Enterprise Domain Security
+name: GitHub Enterprise Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for GitHub Enterprise, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: GitHub Enterprise

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Campaignstack Io Authentication
+name: CampaignStack Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CampaignStack declares 3 security scheme(s) across its OpenAPI definitions.
@@ -48,7 +48,7 @@ source_yaml: "generated: '2026-11-04'\nmethod: searched\ngenerator: extract-docs
 source_yaml_url: https://artifacts.apis.io/campaignstack-io/authentication/campaignstack-io-authentication.yml
 summary_line: 3 schemes
 tags:
-- Outbound outreach
+- Outbound Outreach
 - LinkedIn sourcing
 - B2B SaaS
 ---

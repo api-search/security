@@ -2,12 +2,162 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: microsoft-purview-accounts-api-openapi.yml
+- filename: microsoft-purview-account-api-openapi.yml
   format: yaml
-  label: Microsoft Purview Accounts API
-  slug: microsoft-purview-accounts-api
+  label: Microsoft Purview Account API
+  slug: microsoft-purview-account-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-accounts-api-openapi.yml
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-account-api-openapi.yml
+- filename: microsoft-purview-atlas-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Atlas API
+  slug: microsoft-purview-atlas-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-atlas-api-openapi.yml
+- filename: microsoft-purview-azurekeyvaults-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Azure Key Vaults API
+  slug: microsoft-purview-azurekeyvaults-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-azurekeyvaults-api-openapi.yml
+- filename: microsoft-purview-credential-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Credential API
+  slug: microsoft-purview-credential-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-credential-api-openapi.yml
+- filename: microsoft-purview-datasourcepreferences-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Datasource Preferences API
+  slug: microsoft-purview-datasourcepreferences-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-datasourcepreferences-api-openapi.yml
+- filename: microsoft-purview-defaultaccount-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Default Account API
+  slug: microsoft-purview-defaultaccount-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-defaultaccount-api-openapi.yml
+- filename: microsoft-purview-feature-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Feature API
+  slug: microsoft-purview-feature-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-feature-api-openapi.yml
+- filename: microsoft-purview-filters-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Filters API
+  slug: microsoft-purview-filters-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-filters-api-openapi.yml
+- filename: microsoft-purview-integrationruntimes-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Integration Runtimes API
+  slug: microsoft-purview-integrationruntimes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-integrationruntimes-api-openapi.yml
+- filename: microsoft-purview-kafkaconfiguration-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Kafka Configuration API
+  slug: microsoft-purview-kafkaconfiguration-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-kafkaconfiguration-api-openapi.yml
+- filename: microsoft-purview-managedprivateendpoints-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Managed Private Endpoints API
+  slug: microsoft-purview-managedprivateendpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-managedprivateendpoints-api-openapi.yml
+- filename: microsoft-purview-managedvirtualnetworks-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Managed Virtual Networks API
+  slug: microsoft-purview-managedvirtualnetworks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-managedvirtualnetworks-api-openapi.yml
+- filename: microsoft-purview-operation-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Operation API
+  slug: microsoft-purview-operation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-operation-api-openapi.yml
+- filename: microsoft-purview-policyelements-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Policy Elements API
+  slug: microsoft-purview-policyelements-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-policyelements-api-openapi.yml
+- filename: microsoft-purview-policyevents-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Policy Events API
+  slug: microsoft-purview-policyevents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-policyevents-api-openapi.yml
+- filename: microsoft-purview-privatelinkresource-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Private Link Resource API
+  slug: microsoft-purview-privatelinkresource-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-privatelinkresource-api-openapi.yml
+- filename: microsoft-purview-provider-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Provider API
+  slug: microsoft-purview-provider-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-provider-api-openapi.yml
+- filename: microsoft-purview-scan-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Scan API
+  slug: microsoft-purview-scan-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-scan-api-openapi.yml
+- filename: microsoft-purview-search-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Search API
+  slug: microsoft-purview-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-search-api-openapi.yml
+- filename: microsoft-purview-systemscanrulesets-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview System Scan Rulesets API
+  slug: microsoft-purview-systemscanrulesets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-systemscanrulesets-api-openapi.yml
+- filename: microsoft-purview-types-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Types API
+  slug: microsoft-purview-types-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-types-api-openapi.yml
+- filename: microsoft-purview-usages-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Usages API
+  slug: microsoft-purview-usages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-usages-api-openapi.yml
+- filename: microsoft-purview-classification-rules-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Classification Rules API
+  slug: microsoft-purview-classification-rules-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-classification-rules-api-openapi.yml
+- filename: microsoft-purview-data-sources-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Data Sources API
+  slug: microsoft-purview-data-sources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-data-sources-api-openapi.yml
+- filename: microsoft-purview-scan-result-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Scan Result API
+  slug: microsoft-purview-scan-result-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-scan-result-api-openapi.yml
+- filename: microsoft-purview-scan-rulesets-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Scan Rulesets API
+  slug: microsoft-purview-scan-rulesets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-scan-rulesets-api-openapi.yml
 - filename: microsoft-purview-approval-api-openapi.yml
   format: yaml
   label: Microsoft Purview Approval API
@@ -26,12 +176,6 @@ api_specs:
   slug: microsoft-purview-cases-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-cases-api-openapi.yml
-- filename: microsoft-purview-classification-rules-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Classification Rules API
-  slug: microsoft-purview-classification-rules-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-classification-rules-api-openapi.yml
 - filename: microsoft-purview-critical-data-elements-api-openapi.yml
   format: yaml
   label: Microsoft Purview Critical Data Elements API
@@ -74,36 +218,12 @@ api_specs:
   slug: microsoft-purview-data-quality-scores-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-data-quality-scores-api-openapi.yml
-- filename: microsoft-purview-data-sources-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Data Sources API
-  slug: microsoft-purview-data-sources-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-data-sources-api-openapi.yml
-- filename: microsoft-purview-discovery-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Discovery API
-  slug: microsoft-purview-discovery-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-discovery-api-openapi.yml
 - filename: microsoft-purview-dlp-policies-api-openapi.yml
   format: yaml
   label: Microsoft Purview DLP Policies API
   slug: microsoft-purview-dlp-policies-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-dlp-policies-api-openapi.yml
-- filename: microsoft-purview-entity-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Entity API
-  slug: microsoft-purview-entity-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-entity-api-openapi.yml
-- filename: microsoft-purview-glossary-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Glossary API
-  slug: microsoft-purview-glossary-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-glossary-api-openapi.yml
 - filename: microsoft-purview-glossary-terms-api-openapi.yml
   format: yaml
   label: Microsoft Purview Glossary Terms API
@@ -122,12 +242,6 @@ api_specs:
   slug: microsoft-purview-legal-holds-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-legal-holds-api-openapi.yml
-- filename: microsoft-purview-lineage-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Lineage API
-  slug: microsoft-purview-lineage-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-lineage-api-openapi.yml
 - filename: microsoft-purview-metadata-policy-api-openapi.yml
   format: yaml
   label: Microsoft Purview Metadata Policy API
@@ -146,30 +260,12 @@ api_specs:
   slug: microsoft-purview-okrs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-okrs-api-openapi.yml
-- filename: microsoft-purview-operations-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Operations API
-  slug: microsoft-purview-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-operations-api-openapi.yml
-- filename: microsoft-purview-private-endpoint-connections-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Private Endpoint Connections API
-  slug: microsoft-purview-private-endpoint-connections-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-private-endpoint-connections-api-openapi.yml
 - filename: microsoft-purview-protection-scopes-api-openapi.yml
   format: yaml
   label: Microsoft Purview Protection Scopes API
   slug: microsoft-purview-protection-scopes-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-protection-scopes-api-openapi.yml
-- filename: microsoft-purview-relationship-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Relationship API
-  slug: microsoft-purview-relationship-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-relationship-api-openapi.yml
 - filename: microsoft-purview-retention-event-types-api-openapi.yml
   format: yaml
   label: Microsoft Purview Retention Event Types API
@@ -194,18 +290,6 @@ api_specs:
   slug: microsoft-purview-review-sets-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-review-sets-api-openapi.yml
-- filename: microsoft-purview-scan-result-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Scan Result API
-  slug: microsoft-purview-scan-result-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-scan-result-api-openapi.yml
-- filename: microsoft-purview-scan-rulesets-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Scan Rulesets API
-  slug: microsoft-purview-scan-rulesets-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-scan-rulesets-api-openapi.yml
 - filename: microsoft-purview-scans-api-openapi.yml
   format: yaml
   label: Microsoft Purview Scans API
@@ -218,24 +302,6 @@ api_specs:
   slug: microsoft-purview-searches-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-searches-api-openapi.yml
-- filename: microsoft-purview-sensitivity-labels-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Sensitivity Labels API
-  slug: microsoft-purview-sensitivity-labels-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-sensitivity-labels-api-openapi.yml
-- filename: microsoft-purview-triggers-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Triggers API
-  slug: microsoft-purview-triggers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-triggers-api-openapi.yml
-- filename: microsoft-purview-type-api-openapi.yml
-  format: yaml
-  label: Microsoft Purview Type API
-  slug: microsoft-purview-type-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-type-api-openapi.yml
 - filename: microsoft-purview-user-requests-api-openapi.yml
   format: yaml
   label: Microsoft Purview User Requests API
@@ -266,6 +332,60 @@ api_specs:
   slug: microsoft-purview-workflows-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-workflows-api-openapi.yml
+- filename: microsoft-purview-discovery-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Discovery API
+  slug: microsoft-purview-discovery-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-discovery-api-openapi.yml
+- filename: microsoft-purview-entity-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Entity API
+  slug: microsoft-purview-entity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-entity-api-openapi.yml
+- filename: microsoft-purview-glossary-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Glossary API
+  slug: microsoft-purview-glossary-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-glossary-api-openapi.yml
+- filename: microsoft-purview-lineage-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Lineage API
+  slug: microsoft-purview-lineage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-lineage-api-openapi.yml
+- filename: microsoft-purview-private-endpoint-connection-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Private Endpoint Connection API
+  slug: microsoft-purview-private-endpoint-connection-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-private-endpoint-connection-api-openapi.yml
+- filename: microsoft-purview-relationship-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Relationship API
+  slug: microsoft-purview-relationship-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-relationship-api-openapi.yml
+- filename: microsoft-purview-sensitivity-labels-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Sensitivity Labels API
+  slug: microsoft-purview-sensitivity-labels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-sensitivity-labels-api-openapi.yml
+- filename: microsoft-purview-triggers-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Triggers API
+  slug: microsoft-purview-triggers-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-triggers-api-openapi.yml
+- filename: microsoft-purview-type-api-openapi.yml
+  format: yaml
+  label: Microsoft Purview Type API
+  slug: microsoft-purview-type-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-purview/openapi/microsoft-purview-type-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

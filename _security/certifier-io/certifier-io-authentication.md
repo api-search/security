@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Certifier Io Authentication
+name: Certifier Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Certifier declares 2 security scheme(s) across its OpenAPI definitions.

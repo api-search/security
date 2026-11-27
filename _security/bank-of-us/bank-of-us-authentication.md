@@ -54,7 +54,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Bank Of Us Authentication
+name: Bank of us Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bank of us secures its APIs with none, oauth2, openIdConnect, and mutualTLS across 4 declared security schemes, as derived from its OpenAPI definitions.

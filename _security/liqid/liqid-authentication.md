@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Liqid Authentication
+name: LIQID Investments Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LIQID Investments declares 0 security scheme(s) across its OpenAPI definitions.

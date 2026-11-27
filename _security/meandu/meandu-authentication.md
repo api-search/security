@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Meandu Authentication
+name: me&u Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: me&u declares 0 security scheme(s) across its OpenAPI definitions.

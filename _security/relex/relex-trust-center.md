@@ -50,7 +50,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Relex Trust Center
+name: RELEX Solutions Trust Center
 name_suffix: Trust Center
 overview: RELEX Solutions maintains a public trust center documenting ISO/IEC 27001:2013, SOC 2 (ISAE 3000), and GDPR compliance.
 provider_name: RELEX Solutions

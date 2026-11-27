@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: National Stock Exchange Of India Authentication
+name: National Stock Exchange of India Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: National Stock Exchange of India secures its APIs with http, apiKey, and mutualTLS across 5 declared security schemes, as derived from its OpenAPI definitions.

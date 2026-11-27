@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Digitalmaker Ai Authentication
+name: Digital Maker AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Digital Maker AI declares 3 security scheme(s) across its OpenAPI definitions.

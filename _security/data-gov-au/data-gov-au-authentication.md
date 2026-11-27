@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Data Gov Au Authentication
+name: data.gov.au Federal Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: data.gov.au Federal declares 2 security scheme(s) across its OpenAPI definitions.

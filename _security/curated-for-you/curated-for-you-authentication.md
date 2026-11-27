@@ -27,7 +27,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Curated For You Authentication
+name: Curated for You Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

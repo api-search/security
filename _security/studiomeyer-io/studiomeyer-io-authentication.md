@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Studiomeyer Io Authentication
+name: studiomeyer-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: studiomeyer-io declares 0 security scheme(s) across its OpenAPI definitions.

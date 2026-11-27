@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Balancos Ai Authentication
+name: Balanços.AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Balanços.AI declares 1 security scheme(s) across its OpenAPI definitions.

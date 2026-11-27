@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Instilus Com Authentication
+name: instilus-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: instilus-com declares 1 security scheme(s) across its OpenAPI definitions.

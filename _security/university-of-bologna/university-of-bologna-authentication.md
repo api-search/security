@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: University Of Bologna Authentication
+name: University of Bologna Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Bologna declares 0 security scheme(s) across its OpenAPI definitions.

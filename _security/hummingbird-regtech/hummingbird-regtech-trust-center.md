@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hummingbird Regtech Trust Center
+name: Hummingbird RegTech Trust Center
 name_suffix: Trust Center
 overview: Hummingbird RegTech maintains a public trust center documenting SOC 2 (Security, Availability, and Confidentiality) compliance.
 provider_name: Hummingbird RegTech

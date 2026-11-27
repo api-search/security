@@ -90,6 +90,18 @@ api_specs:
   slug: aws-waf-xss-match-set-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-xss-match-set-api-openapi.yml
+- filename: aws-waf-api-key-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Api Key API
+  slug: aws-waf-api-key-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-api-key-api-openapi.yml
+- filename: aws-waf-operations-api-openapi.yml
+  format: yaml
+  label: AWS WAF Waf Operations API
+  slug: aws-waf-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-waf/openapi/aws-waf-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -100,7 +112,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aws Waf Trust Center
+name: AWS WAF Trust Center
 name_suffix: Trust Center
 overview: AWS WAF maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: AWS WAF

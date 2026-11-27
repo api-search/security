@@ -224,7 +224,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Lucidya Ltd Authentication
+name: Lucidya Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Lucidya declares 1 security scheme(s) across its OpenAPI definitions.

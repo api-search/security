@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Royalty Technology Authentication
+name: royalty-technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: royalty-technology declares 1 security scheme(s) across its OpenAPI definitions.

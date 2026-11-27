@@ -53,7 +53,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Whisperr Inc Authentication
+name: Whisperr Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Whisperr secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

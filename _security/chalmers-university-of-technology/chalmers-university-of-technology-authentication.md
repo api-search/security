@@ -141,7 +141,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Chalmers University Of Technology Authentication
+name: Chalmers University of Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Chalmers University of Technology secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

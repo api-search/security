@@ -5,7 +5,7 @@ api_specs:
   label: HiveMQ MQTT over WebSocket
   slug: mqtt-websocket
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/hivemq/refs/heads/main/asyncapi/hivemq-asyncapi.yml
+  url: https://artifacts.apis.io/hivemq/asyncapi/hivemq-asyncapi.yml
 - filename: hivemq-data-hub-api-openapi.yml
   format: yaml
   label: HiveMQ Data Hub API
@@ -33,7 +33,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hivemq Trust Center
+name: HiveMQ Trust Center
 name_suffix: Trust Center
 overview: HiveMQ maintains a public trust center documenting SOC 2, ISO 27001, GDPR, and CSA STAR compliance.
 provider_name: HiveMQ

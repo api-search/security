@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Grotto Ai Trust Center
+name: Grotto AI Trust Center
 name_suffix: Trust Center
 overview: Grotto AI maintains a public trust center documenting SOC 2 Type II and ISO 27701 compliance.
 provider_name: Grotto AI

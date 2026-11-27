@@ -54,7 +54,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Linkup So Trust Center
+name: Linkup Trust Center
 name_suffix: Trust Center
 overview: Linkup maintains a public trust center documenting SOC 2 compliance.
 provider_name: Linkup

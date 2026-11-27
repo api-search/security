@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Anilist Authentication
+name: AniList Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

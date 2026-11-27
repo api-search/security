@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Koodisi Trust Center
+name: Ivoyant Trust Center
 name_suffix: Trust Center
 overview: Ivoyant maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Ivoyant

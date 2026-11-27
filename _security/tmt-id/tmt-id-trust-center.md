@@ -53,7 +53,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Tmt Id Trust Center
+name: TMT ID Trust Center
 name_suffix: Trust Center
 overview: TMT ID maintains a public trust center covering its security and compliance posture.
 provider_name: TMT ID

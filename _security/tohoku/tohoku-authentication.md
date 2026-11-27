@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Tohoku Authentication
+name: Tohoku University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tohoku University declares 4 security scheme(s) across its OpenAPI definitions.

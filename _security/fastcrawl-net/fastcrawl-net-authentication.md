@@ -104,7 +104,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Fastcrawl Net Authentication
+name: fastcrawl-net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: fastcrawl-net declares 1 security scheme(s) across its OpenAPI definitions.

@@ -24,12 +24,6 @@ api_specs:
   slug: linkedin-ad-accounts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-accounts-api-openapi.yml
-- filename: linkedin-ad-targeting-entities-api-openapi.yml
-  format: yaml
-  label: LinkedIn Ad Targeting Entities API
-  slug: linkedin-ad-targeting-entities-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-targeting-entities-api-openapi.yml
 - filename: linkedin-advertiser-transparency-api-openapi.yml
   format: yaml
   label: LinkedIn Advertiser Transparency API
@@ -414,13 +408,19 @@ api_specs:
   slug: linkedin-ad-creatives-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-creatives-api-openapi.yml
+- filename: linkedin-ad-targeting-entities-api-openapi.yml
+  format: yaml
+  label: LinkedIn Ad Targeting Entities API
+  slug: linkedin-ad-targeting-entities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-targeting-entities-api-openapi.yml
 certification_count: 1
 certifications:
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Linkedin Trust Center
+name: LinkedIn Trust Center
 name_suffix: Trust Center
 overview: LinkedIn maintains a public trust center documenting GDPR compliance.
 provider_name: LinkedIn

@@ -113,7 +113,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Jasper Da Com Authentication
+name: Jasper Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

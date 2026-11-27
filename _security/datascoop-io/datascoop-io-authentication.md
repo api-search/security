@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Datascoop Io Authentication
+name: DataScoop Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DataScoop declares 1 security scheme(s) across its OpenAPI definitions.

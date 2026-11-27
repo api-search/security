@@ -156,6 +156,12 @@ api_specs:
   slug: aws-security-hub-organization-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-organization-api-openapi.yml
+- filename: aws-security-hub-softwarev2-api-openapi.yml
+  format: yaml
+  label: AWS Security Hub Security Hub Softwarev2 API
+  slug: aws-security-hub-softwarev2-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-security-hub/openapi/aws-security-hub-softwarev2-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -166,7 +172,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aws Security Hub Trust Center
+name: AWS Security Hub Trust Center
 name_suffix: Trust Center
 overview: AWS Security Hub maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: AWS Security Hub

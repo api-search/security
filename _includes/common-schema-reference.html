@@ -1,0 +1,42 @@
+{%- comment -%} One Schema Commons reference context: a standard owns the shape, and the page shows who
+implements it. Param: c (a record from _data/common_schema.yml references). {%- endcomment -%}
+{%- assign c = include.c -%}
+<style>
+  .csd h1 { font-size: 2rem; font-weight: 700; color: #1a1a2e; margin: 1.5rem 0 .4rem; }
+  .csd .lede { color: #4a5568; line-height: 1.65; max-width: 780px; }
+  .csd table { width: 100%; border-collapse: collapse; margin: 1rem 0 2rem; font-size: .9rem; }
+  .csd th, .csd td { text-align: left; padding: .55rem .6rem; border-bottom: 1px solid #e3e7ee; vertical-align: top; }
+  .csd th { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: #64748b; }
+  .csd code { font-size: .82rem; }
+  .csd .share { color: #64748b; font-size: .78rem; }
+  .csd .links a { margin-right: 1rem; }
+  .csd .tag { display: inline-block; font-size: .7rem; text-transform: uppercase; letter-spacing: .06em; background: #ede9fe; color: #5b21b6; border-radius: 4px; padding: .1rem .45rem; }
+</style>
+<div class="csd">
+  <p><a href="/common-schema/">Common Schema</a></p>
+  <p><span class="tag">Reference context</span></p>
+  <h1>{{ c.name }}</h1>
+  <p class="lede">{{ c.intro }}</p>
+  <p class="lede">Measured across {{ c.cohort }} providers' own OpenAPI: <strong>{{ c.implementers }} implement the standard</strong>, and {{ c.mentioned_by }} name it somewhere in a spec. The standard's objects are published unchanged; nothing is renamed.</p>
+  <p class="links"><a href="{{ c.home }}">The standard</a><a href="{{ c.repo }}">Repository, objects and crosswalks</a>{% if c.license %}<span class="share">Licence: {{ c.license }}</span>{% endif %}</p>
+  <table>
+    <thead><tr><th>API</th><th>Release</th><th>Implementers</th></tr></thead>
+    <tbody>
+    {% for a in c.apis %}
+      <tr><td><code>{{ a.api }}</code></td><td><a href="{{ a.release }}">{{ a.release | split: '/' | last }}</a></td><td>{{ a.providers }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <table>
+    <thead><tr><th>Provider</th><th>Implements (share of the standard's fields)</th></tr></thead>
+    <tbody>
+    {% for p in c.implementers_list %}
+      <tr>
+        <td><a href="/providers/{{ p.provider }}/">{{ p.provider }}</a></td>
+        <td>{% for a in p.apis %}<code>{{ a.api }}</code>{% if a.coverage != nil %} <span class="share">{{ a.coverage | times: 100 | round }}%</span>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  {% if c.publishers.size > 0 %}<p class="share">The standard's own publishing bodies are listed in the catalog too ({% for p in c.publishers %}<a href="/providers/{{ p }}/">{{ p }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}) and are not counted as implementers.</p>{% endif %}
+</div>

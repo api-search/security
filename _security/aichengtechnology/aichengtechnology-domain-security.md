@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Aichengtechnology Domain Security
+name: Aicheng Technology Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Aicheng Technology, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.2); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Aicheng Technology

@@ -1,41 +1,11 @@
 ---
 api_specs:
-- filename: google-marketing-platform-v1alpha-api-openapi.yml
-  format: yaml
-  label: Google Marketing Platform Admin V1alpha API
-  slug: google-marketing-platform-v1alpha-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-marketing-platform/openapi/google-marketing-platform-v1alpha-api-openapi.yml
-- filename: google-marketing-platform-adminaccessbindings-api-openapi.yml
-  format: yaml
-  label: Google Marketing Platform Admin Admin Access Bindings API
-  slug: google-marketing-platform-adminaccessbindings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-marketing-platform/openapi/google-marketing-platform-adminaccessbindings-api-openapi.yml
-- filename: google-marketing-platform-analyticsaccountlinks-api-openapi.yml
-  format: yaml
-  label: Google Marketing Platform Admin Analytics Account Links API
-  slug: google-marketing-platform-analyticsaccountlinks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-marketing-platform/openapi/google-marketing-platform-analyticsaccountlinks-api-openapi.yml
-- filename: google-marketing-platform-members-api-openapi.yml
-  format: yaml
-  label: Google Marketing Platform Admin Members API
-  slug: google-marketing-platform-members-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-marketing-platform/openapi/google-marketing-platform-members-api-openapi.yml
 - filename: google-marketing-platform-organizations-api-openapi.yml
   format: yaml
   label: Google Marketing Platform Admin Organizations API
   slug: google-marketing-platform-organizations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-marketing-platform/openapi/google-marketing-platform-organizations-api-openapi.yml
-- filename: google-marketing-platform-user-groups-api-openapi.yml
-  format: yaml
-  label: Google Marketing Platform Admin User Groups API
-  slug: google-marketing-platform-user-groups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-marketing-platform/openapi/google-marketing-platform-user-groups-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -66,7 +36,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Google Marketing Platform Domain Security
+name: Google Marketing Platform Admin Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Google Marketing Platform Admin, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Google Marketing Platform Admin

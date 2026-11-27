@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lexisnexis Risk Solutions Trust Center
+name: LexisNexis Risk Solutions Trust Center
 name_suffix: Trust Center
 overview: LexisNexis Risk Solutions maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: LexisNexis Risk Solutions

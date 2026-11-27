@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Earnup Trust Center
+name: EarnUp Trust Center
 name_suffix: Trust Center
 overview: EarnUp maintains a public trust center documenting SOC 2 Type II, SOC 1 Type II, ISO 27001, and CSA CAIQ compliance.
 provider_name: EarnUp

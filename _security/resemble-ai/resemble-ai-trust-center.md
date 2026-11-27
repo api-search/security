@@ -165,7 +165,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Resemble Ai Trust Center
+name: Resemble AI Trust Center
 name_suffix: Trust Center
 overview: Resemble AI maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: Resemble AI

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Atisbo Dev Authentication
+name: atisbo-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: atisbo-dev declares 1 security scheme(s) across its OpenAPI definitions.

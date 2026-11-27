@@ -448,7 +448,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Vpc Lattice Trust Center
+name: Amazon VPC Lattice Trust Center
 name_suffix: Trust Center
 overview: Amazon VPC Lattice maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon VPC Lattice

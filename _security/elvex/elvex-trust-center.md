@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Elvex Trust Center
+name: elvex Trust Center
 name_suffix: Trust Center
 overview: elvex maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: elvex

@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mastercontrol Trust Center
+name: MasterControl Trust Center
 name_suffix: Trust Center
 overview: MasterControl maintains a public trust center documenting ISO 9001, ISO 27001, ISO 27017, ISO 27701, and ISO 42001 compliance.
 provider_name: MasterControl

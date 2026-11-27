@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: A2A Cosmetics Ai Authentication
+name: A2A Cosmetics Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: A2A Cosmetics declares 1 security scheme(s) across its OpenAPI definitions.

@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Deepip Trust Center
+name: DeepIP Trust Center
 name_suffix: Trust Center
 overview: DeepIP maintains a public trust center documenting SOC 2 Type II, ISO 27001, ISO 42001, HIPAA, and GDPR compliance.
 provider_name: DeepIP

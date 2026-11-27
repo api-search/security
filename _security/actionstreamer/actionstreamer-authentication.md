@@ -218,6 +218,12 @@ api_specs:
   slug: actionstreamer-wificonnection-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-wificonnection-api-openapi.yml
+- filename: actionstreamer-device-group-api-openapi.yml
+  format: yaml
+  label: ActionStreamer Device Group API
+  slug: actionstreamer-device-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-device-group-api-openapi.yml
 - filename: actionstreamer-devicecapability-api-openapi.yml
   format: yaml
   label: ActionStreamer Device Capability API
@@ -272,12 +278,6 @@ api_specs:
   slug: actionstreamer-api-key-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-api-key-api-openapi.yml
-- filename: actionstreamer-device-group-api-openapi.yml
-  format: yaml
-  label: ActionStreamer Device Group API
-  slug: actionstreamer-device-group-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/actionstreamer/openapi/actionstreamer-device-group-api-openapi.yml
 - filename: actionstreamer-device-health-api-openapi.yml
   format: yaml
   label: ActionStreamer Device Health API
@@ -314,7 +314,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Actionstreamer Authentication
+name: ActionStreamer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ActionStreamer declares 2 security scheme(s) across its OpenAPI definitions.

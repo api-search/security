@@ -3,12 +3,6 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: google-drive-files-api-openapi.yml
-  format: yaml
-  label: Google Drive Files API
-  slug: google-drive-files-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-drive/openapi/google-drive-files-api-openapi.yml
 - filename: google-drive-about-api-openapi.yml
   format: yaml
   label: Google Drive About API
@@ -21,6 +15,12 @@ api_specs:
   slug: google-drive-accessproposals-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-drive/openapi/google-drive-accessproposals-api-openapi.yml
+- filename: google-drive-activity-api-openapi.yml
+  format: yaml
+  label: Google Drive Activity API
+  slug: google-drive-activity-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-activity-api-openapi.yml
 - filename: google-drive-approvals-api-openapi.yml
   format: yaml
   label: Google Drive Approvals API
@@ -57,6 +57,24 @@ api_specs:
   slug: google-drive-drives-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-drive/openapi/google-drive-drives-api-openapi.yml
+- filename: google-drive-files-api-openapi.yml
+  format: yaml
+  label: Google Drive Files API
+  slug: google-drive-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-files-api-openapi.yml
+- filename: google-drive-labels-api-openapi.yml
+  format: yaml
+  label: Google Drive Labels API
+  slug: google-drive-labels-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-labels-api-openapi.yml
+- filename: google-drive-limits-api-openapi.yml
+  format: yaml
+  label: Google Drive Limits API
+  slug: google-drive-limits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-limits-api-openapi.yml
 - filename: google-drive-operations-api-openapi.yml
   format: yaml
   label: Google Drive Operations API
@@ -87,6 +105,12 @@ api_specs:
   slug: google-drive-teamdrives-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-drive/openapi/google-drive-teamdrives-api-openapi.yml
+- filename: google-drive-users-api-openapi.yml
+  format: yaml
+  label: Google Drive Users API
+  slug: google-drive-users-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-drive/openapi/google-drive-users-api-openapi.yml
 auth_types:
 - oauth2
 - apiKey

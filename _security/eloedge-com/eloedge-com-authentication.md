@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Eloedge Com Authentication
+name: eloedge-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: eloedge-com declares 1 security scheme(s) across its OpenAPI definitions.
@@ -37,7 +37,7 @@ source_yaml_url: https://artifacts.apis.io/eloedge-com/authentication/eloedge-co
 summary_line: 1 scheme
 tags:
 - Artificial Intelligence
-- Prediction Market
+- Prediction-Market
 - Trading-Agent
 - MCP
 - Data Feed

@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Propzapi Com Authentication
+name: propzapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: propzapi-com declares 1 security scheme(s) across its OpenAPI definitions.

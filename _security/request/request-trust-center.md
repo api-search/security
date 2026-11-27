@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Request Trust Center
+name: Request Finance Trust Center
 name_suffix: Trust Center
 overview: Request Finance maintains a public trust center documenting SOC 2 compliance.
 provider_name: Request Finance

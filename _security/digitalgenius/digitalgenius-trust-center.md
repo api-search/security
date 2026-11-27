@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Digitalgenius Trust Center
+name: DigitalGenius Trust Center
 name_suffix: Trust Center
 overview: DigitalGenius maintains a public trust center covering its security and compliance posture.
 provider_name: DigitalGenius

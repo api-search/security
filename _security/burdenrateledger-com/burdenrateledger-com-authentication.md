@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Burdenrateledger Com Authentication
+name: burdenrateledger-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: burdenrateledger-com declares 1 security scheme(s) across its OpenAPI definitions.

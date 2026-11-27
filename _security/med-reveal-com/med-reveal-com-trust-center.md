@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Med Reveal Com Trust Center
+name: MedReveal Trust Center
 name_suffix: Trust Center
 overview: MedReveal maintains a public trust center documenting SOC 2, ISO 27001, and HIPAA compliance.
 provider_name: MedReveal

@@ -21,7 +21,7 @@ certifications:
 description: Certifications read from DoControl's own documentation page, which names them in plain text. This file was briefly overwritten on 2026-09-06 by an automated keyword probe that could only see HIPAA and GDPR — the marketing /security page is a JS-rendered Webflow page whose certification copy is not in the served HTML, so the probe found less than DoControl actually publishes. The documentation page is the stronger source and is used here.
 kind: trust-center
 layout: security
-name: Docontrol Trust Center
+name: DoControl Trust Center
 name_suffix: Trust Center
 overview: DoControl maintains a public trust center documenting ISO 27001, SOC 2 Type II, HIPAA, and GDPR compliance.
 provider_name: DoControl

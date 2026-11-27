@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: University Of Florida Authentication
+name: University of Florida Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Florida declares 0 security scheme(s) across its OpenAPI definitions.

@@ -94,7 +94,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Datasync Trust Center
+name: Amazon DataSync Trust Center
 name_suffix: Trust Center
 overview: Amazon DataSync maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon DataSync

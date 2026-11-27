@@ -68,7 +68,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bigid Trust Center
+name: BigID Trust Center
 name_suffix: Trust Center
 overview: BigID maintains a public trust center documenting PCI DSS, HIPAA, and GDPR compliance.
 provider_name: BigID

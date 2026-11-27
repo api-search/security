@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Foundriesio Authentication
+name: Foundries.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Foundries.io declares 0 security scheme(s) across its OpenAPI definitions.

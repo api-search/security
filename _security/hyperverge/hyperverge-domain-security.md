@@ -87,7 +87,7 @@ hosts_probed: 5
 kind: domain-security
 layout: security
 method: probed
-name: Hyperverge Domain Security
+name: HyperVerge Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for HyperVerge, probed live across 5 host(s) and 1 registrable domain(s). 5 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: HyperVerge

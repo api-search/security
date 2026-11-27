@@ -17,7 +17,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Resistant Ai Trust Center
+name: Resistant AI Trust Center
 name_suffix: Trust Center
 overview: Resistant AI maintains a public trust center covering its security and compliance posture.
 provider_name: Resistant AI

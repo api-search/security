@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Data Kaltimprov Go Id Domain Security
+name: Satu Data Kalimantan Timur Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Satu Data Kalimantan Timur, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF absent, DMARC absent.'
 provider_name: Satu Data Kalimantan Timur

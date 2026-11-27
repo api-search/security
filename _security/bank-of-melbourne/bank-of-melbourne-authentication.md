@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Bank Of Melbourne Authentication
+name: Bank of Melbourne Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Bank of Melbourne declares 0 security scheme(s) across its OpenAPI definitions.

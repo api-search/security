@@ -6,6 +6,18 @@ api_specs:
   slug: flatin-pt-public-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/flatin-pt/openapi/flatin-pt-public-api-openapi.yml
+- filename: flatin-pt-actions-api-openapi.yml
+  format: yaml
+  label: flatin.pt Actions API
+  slug: flatin-pt-actions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/flatin-pt/openapi/flatin-pt-actions-api-openapi.yml
+- filename: flatin-pt-places-api-openapi.yml
+  format: yaml
+  label: flatin.pt Places API
+  slug: flatin-pt-places-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/flatin-pt/openapi/flatin-pt-places-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -24,7 +36,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Flatin Pt Domain Security
+name: flatin.pt Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for flatin.pt, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: flatin.pt

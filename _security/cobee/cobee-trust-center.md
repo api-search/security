@@ -17,7 +17,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Cobee Trust Center
+name: Cobee by Pluxee Trust Center
 name_suffix: Trust Center
 overview: Cobee by Pluxee maintains a public trust center covering its security and compliance posture.
 provider_name: Cobee by Pluxee

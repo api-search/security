@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Cutiss Authentication
+name: CUTISS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CUTISS declares 2 security scheme(s) across its OpenAPI definitions.

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Immobilienscout24 Authentication
+name: ImmobilienScout24 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ImmobilienScout24 declares 1 security scheme(s) across its OpenAPI definitions.

@@ -5,7 +5,7 @@ api_specs:
   label: Monday.com API
   slug: monday-com
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/asyncapi/monday-com-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/monday-com/asyncapi/monday-com-webhooks-asyncapi.yml
 - filename: monday-com-monday-com-platform-graphql-api-api-openapi.yml
   format: yaml
   label: Monday.com Platform GraphQL API
@@ -25,7 +25,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Monday Com Trust Center
+name: Monday.com Trust Center
 name_suffix: Trust Center
 overview: Monday.com maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR, and CSA STAR compliance.
 provider_name: Monday.com

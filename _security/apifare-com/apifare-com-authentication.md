@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Apifare Com Authentication
+name: apifare-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: apifare-com declares 1 security scheme(s) across its OpenAPI definitions.

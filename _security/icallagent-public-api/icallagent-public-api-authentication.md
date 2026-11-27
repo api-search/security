@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Icallagent Public Api Authentication
+name: iCallAgent Public API Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

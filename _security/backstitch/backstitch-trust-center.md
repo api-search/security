@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Backstitch Trust Center
+name: backstitch Trust Center
 name_suffix: Trust Center
 overview: backstitch maintains a public trust center documenting SOC for Service Organizations (AICPA) compliance.
 provider_name: backstitch

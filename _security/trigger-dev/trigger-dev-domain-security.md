@@ -86,7 +86,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Trigger Dev Domain Security
+name: Trigger.dev Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Trigger.dev, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Trigger.dev
@@ -99,7 +99,6 @@ source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP
 source_yaml_url: https://artifacts.apis.io/trigger-dev/security/trigger-dev-domain-security.yml
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
-- Developer-First
 - Workflow Automation
 - Background Jobs
 - Durable Execution

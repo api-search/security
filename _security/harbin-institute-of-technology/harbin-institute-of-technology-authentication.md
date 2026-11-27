@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Harbin Institute Of Technology Authentication
+name: Harbin Institute of Technology Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Harbin Institute of Technology declares 0 security scheme(s) across its OpenAPI definitions.

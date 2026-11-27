@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Uxpin Trust Center
+name: UXPin Trust Center
 name_suffix: Trust Center
 overview: UXPin maintains a public trust center documenting SOC 2, PCI DSS, HIPAA, and FedRAMP compliance.
 provider_name: UXPin

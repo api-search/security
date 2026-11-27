@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentshandbook Com Authentication
+name: Agents Handbook Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agents Handbook declares 0 security scheme(s) across its OpenAPI definitions.

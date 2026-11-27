@@ -200,7 +200,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Oracle Cloud Trust Center
+name: Oracle Cloud Infrastructure Trust Center
 name_suffix: Trust Center
 overview: Oracle Cloud Infrastructure maintains a public trust center documenting SOC 1, SOC 2, SOC 3, ISO/IEC 27001, ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, PCI DSS, HIPAA, HITRUST, FedRAMP, DoD Impact Levels, CJIS, ITAR, IRAP, C5, ENS, HDS, G-Cloud / Cyber Essentials, ISMAP, K-ISMS, MTCS, TISAX, CSA STAR, CSA AI STAR, GDPR, and NIST compliance.
 provider_name: Oracle Cloud Infrastructure

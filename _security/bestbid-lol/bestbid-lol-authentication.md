@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Bestbid Lol Authentication
+name: BestBid.lol Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BestBid.lol declares 0 security scheme(s) across its OpenAPI definitions.

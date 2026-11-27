@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Attackiq Trust Center
+name: AttackIQ Trust Center
 name_suffix: Trust Center
 overview: AttackIQ maintains a public trust center covering its security and compliance posture.
 provider_name: AttackIQ

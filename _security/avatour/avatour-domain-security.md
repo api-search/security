@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Avatour Domain Security
+name: AVATOUR Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AVATOUR, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: AVATOUR
@@ -33,7 +33,7 @@ summary_line: TLSv1.3 · HSTS · DMARC
 tags:
 - Company
 - VideoCollaboration
-- RemoteInspection
+- Remote Inspection
 - Virtual Tours
 - Artificial Intelligence
 ---

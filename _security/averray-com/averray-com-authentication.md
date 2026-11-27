@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Averray Com Authentication
+name: Averray Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Averray declares 0 security scheme(s) across its OpenAPI definitions.

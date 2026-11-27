@@ -51,7 +51,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Firmenwatch Ch Authentication
+name: Firmenwatch Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Firmenwatch secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -78,5 +78,5 @@ tags:
 - Monitoring
 - Commercial-Register
 - Alerts
-- Business-Intelligence
+- Business Intelligence
 ---

@@ -128,7 +128,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Reqistry Dev Authentication
+name: reqistry-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: reqistry-dev declares 1 security scheme(s) across its OpenAPI definitions.

@@ -31,7 +31,6 @@ summary_line: TLSv1.3
 tags:
 - Background Jobs
 - Cron
-- Developer-First
 - Node.js
 - Queues
 - Scheduling

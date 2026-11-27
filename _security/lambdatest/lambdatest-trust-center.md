@@ -114,7 +114,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lambdatest Trust Center
+name: TestMu AI Trust Center
 name_suffix: Trust Center
 overview: TestMu AI maintains a public trust center documenting GDPR compliance.
 provider_name: TestMu AI

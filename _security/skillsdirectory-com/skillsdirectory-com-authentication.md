@@ -41,7 +41,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Skillsdirectory Com Authentication
+name: Skills Directory Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Skills Directory secures its APIs with apiKey and http-bearer across 2 declared security schemes, as derived from its OpenAPI definitions.

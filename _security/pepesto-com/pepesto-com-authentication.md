@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Pepesto Com Authentication
+name: pepesto-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: pepesto-com declares 1 security scheme(s) across its OpenAPI definitions.

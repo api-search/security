@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Texasautoquotes Com Authentication
+name: texasautoquotes-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: texasautoquotes-com declares 0 security scheme(s) across its OpenAPI definitions.

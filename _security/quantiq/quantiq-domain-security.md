@@ -17,7 +17,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Quantiq Domain Security
+name: QuantiQ Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for QuantiQ, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: QuantiQ
@@ -32,6 +32,5 @@ summary_line: TLSv1.3 · HSTS
 tags:
 - Company
 - Financial Data
-- Developer-First
 - Market Data
 ---

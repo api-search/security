@@ -55,7 +55,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Hiveagentiq Com Authentication
+name: Hive Agent IQ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Hive Agent IQ secures its APIs with apiKey, http-bearer, payment, and signature across 6 declared security schemes, as derived from its OpenAPI definitions.

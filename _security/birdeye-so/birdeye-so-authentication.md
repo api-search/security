@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Birdeye So Authentication
+name: Birdeye (Solana data) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Birdeye (Solana data) declares 1 security scheme(s) across its OpenAPI definitions.

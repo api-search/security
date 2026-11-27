@@ -411,7 +411,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Appsflyer Trust Center
+name: AppsFlyer Trust Center
 name_suffix: Trust Center
 overview: AppsFlyer maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, ISO 27032, ISO 27701, CSA STAR, TrustArc Enterprise Privacy Certification, PRIVO (GDPR + COPPA), and EU-US Data Privacy Framework compliance.
 provider_name: AppsFlyer

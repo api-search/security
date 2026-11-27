@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Arizonaroofreplacementcost Com Authentication
+name: Arizona Roof Replacement Cost Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Arizona Roof Replacement Cost declares 0 security scheme(s) across its OpenAPI definitions.

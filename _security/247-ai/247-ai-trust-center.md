@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: 247 Ai Trust Center
+name: '[24]7.ai Trust Center'
 name_suffix: Trust Center
 overview: '[24]7.ai maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, HIPAA, PCI DSS, NIST SP 800-53 R4/R5, and NIST Cybersecurity Framework (CSF) compliance.'
 provider_name: '[24]7.ai'

@@ -56,7 +56,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Beyourcover Com Authentication
+name: BeYourCover Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BeYourCover declares 2 security scheme(s) across its OpenAPI definitions.

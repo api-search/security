@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Digiparser Authentication
+name: DigiParser Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DigiParser declares 2 security scheme(s) across its OpenAPI definitions.

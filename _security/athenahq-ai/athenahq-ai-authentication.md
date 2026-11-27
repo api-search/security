@@ -92,7 +92,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Athenahq Ai Authentication
+name: AthenaHQ Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AthenaHQ declares 0 security scheme(s) across its OpenAPI definitions.

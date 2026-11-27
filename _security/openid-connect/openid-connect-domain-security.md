@@ -1,41 +1,4 @@
 ---
-api_specs:
-- filename: oidc-authentication-api-openapi.yml
-  format: yaml
-  label: OIDC Authentication API
-  slug: oidc-authentication-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/openid-connect/openapi/oidc-authentication-api-openapi.yml
-- filename: oidc-discovery-api-openapi.yml
-  format: yaml
-  label: OIDC Discovery API
-  slug: oidc-discovery-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/openid-connect/openapi/oidc-discovery-api-openapi.yml
-- filename: oidc-jwks-api-openapi.yml
-  format: yaml
-  label: OIDC JWKS API
-  slug: oidc-jwks-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/openid-connect/openapi/oidc-jwks-api-openapi.yml
-- filename: oidc-session-api-openapi.yml
-  format: yaml
-  label: OIDC Session API
-  slug: oidc-session-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/openid-connect/openapi/oidc-session-api-openapi.yml
-- filename: oidc-token-api-openapi.yml
-  format: yaml
-  label: OIDC Token API
-  slug: oidc-token-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/openid-connect/openapi/oidc-token-api-openapi.yml
-- filename: oidc-user-info-api-openapi.yml
-  format: yaml
-  label: OIDC User Info API
-  slug: oidc-user-info-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/openid-connect/openapi/oidc-user-info-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -55,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Openid Connect Domain Security
+name: OpenID Connect Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for OpenID Connect, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: OpenID Connect

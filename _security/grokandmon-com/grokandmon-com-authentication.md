@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Grokandmon Com Authentication
+name: Grok & Mon Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Grok & Mon secures its APIs with none, x402-payment, and apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

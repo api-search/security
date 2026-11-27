@@ -164,7 +164,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Minia2A Uk Authentication
+name: minia2a-uk Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: minia2a-uk declares 5 security scheme(s) across its OpenAPI definitions.

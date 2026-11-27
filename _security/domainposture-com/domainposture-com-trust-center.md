@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Domainposture Com Trust Center
+name: Domain Posture Trust Center
 name_suffix: Trust Center
 overview: Domain Posture maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Domain Posture

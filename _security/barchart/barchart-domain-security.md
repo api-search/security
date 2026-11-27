@@ -6,12 +6,6 @@ api_specs:
   slug: barchart-charts-and-analytics-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/barchart/openapi/barchart-charts-and-analytics-api-openapi.yml
-- filename: barchart-cryptocurrency-data-api-openapi.yml
-  format: yaml
-  label: Barchart Cryptocurrency Data API
-  slug: barchart-cryptocurrency-data-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/barchart/openapi/barchart-cryptocurrency-data-api-openapi.yml
 - filename: barchart-leaderboards-and-lists-api-openapi.yml
   format: yaml
   label: Barchart Leaderboards and Lists API
@@ -60,6 +54,12 @@ api_specs:
   slug: barchart-etfs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/barchart/openapi/barchart-etfs-api-openapi.yml
+- filename: barchart-cryptocurrency-data-api-openapi.yml
+  format: yaml
+  label: Barchart Cryptocurrency Data API
+  slug: barchart-cryptocurrency-data-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/barchart/openapi/barchart-cryptocurrency-data-api-openapi.yml
 description: ''
 domains:
 - caa:

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Linqgg Authentication
+name: Linq.gg Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Linq.gg declares 5 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Signifyapp Trust Center
+name: Signify Trust Center
 name_suffix: Trust Center
 overview: Signify maintains a public trust center documenting ISO 27001, ISO 27018, and GDPR compliance.
 provider_name: Signify

@@ -3,12 +3,12 @@ anonymous_access: false
 api_key_in:
 - query
 api_specs:
-- filename: google-custom-search-custom-search-api-openapi.yml
+- filename: google-custom-search-cse-api-openapi.yml
   format: yaml
-  label: Google Custom Search Custom Search API
-  slug: google-custom-search-custom-search-api
+  label: Google Custom Search Custom Search Cse API
+  slug: google-custom-search-cse-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-custom-search/openapi/google-custom-search-custom-search-api-openapi.yml
+  url: https://artifacts.apis.io/google-custom-search/openapi/google-custom-search-cse-api-openapi.yml
 auth_types:
 - apiKey
 description: ''

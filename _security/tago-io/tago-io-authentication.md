@@ -142,7 +142,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Tago Io Authentication
+name: TagoIO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TagoIO secures its APIs with apiKey across 3 declared security schemes, as derived from its OpenAPI definitions.

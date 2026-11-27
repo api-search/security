@@ -55,7 +55,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: derived
-name: Datadog Apm Authentication
+name: Datadog APM Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

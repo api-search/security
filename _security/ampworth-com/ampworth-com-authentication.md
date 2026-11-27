@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ampworth Com Authentication
+name: ampworth-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ampworth-com declares 0 security scheme(s) across its OpenAPI definitions.

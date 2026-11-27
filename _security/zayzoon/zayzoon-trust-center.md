@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Zayzoon Trust Center
+name: ZayZoon Trust Center
 name_suffix: Trust Center
 overview: ZayZoon maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: ZayZoon

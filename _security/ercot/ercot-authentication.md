@@ -235,7 +235,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Ercot Authentication
+name: ERCOT Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

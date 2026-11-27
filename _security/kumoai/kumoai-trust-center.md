@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Kumoai Trust Center
+name: Kumo.AI Trust Center
 name_suffix: Trust Center
 overview: Kumo.AI maintains a public trust center documenting SOC 2 compliance.
 provider_name: Kumo.AI

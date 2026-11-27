@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Razi Pro Authentication
+name: razi-pro Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: razi-pro declares 1 security scheme(s) across its OpenAPI definitions.

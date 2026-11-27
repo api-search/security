@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Blockchainanalysis Io Authentication
+name: BlockchainAnalysis.io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BlockchainAnalysis.io declares 1 security scheme(s) across its OpenAPI definitions.

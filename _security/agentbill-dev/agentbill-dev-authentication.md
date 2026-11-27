@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentbill Dev Authentication
+name: AgentBill Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentBill declares 1 security scheme(s) across its OpenAPI definitions.

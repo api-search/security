@@ -27,6 +27,18 @@ api_specs:
   slug: clay-com-tables-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/clay-com/openapi/clay-com-tables-api-openapi.yml
+- filename: clay-com-credits-api-openapi.yml
+  format: yaml
+  label: Clay Credits API
+  slug: clay-com-credits-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-credits-api-openapi.yml
+- filename: clay-com-workflowsruns-api-openapi.yml
+  format: yaml
+  label: Clay Workflows Runs API
+  slug: clay-com-workflowsruns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/clay-com/openapi/clay-com-workflowsruns-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -34,7 +46,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Clay Com Authentication
+name: Clay Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Clay secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

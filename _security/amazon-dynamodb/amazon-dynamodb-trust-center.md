@@ -84,6 +84,30 @@ api_specs:
   slug: amazon-dynamodb-ttl-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-ttl-api-openapi.yml
+- filename: amazon-dynamodb-bulk-operation-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Dynamodb Bulk Operation API
+  slug: amazon-dynamodb-bulk-operation-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-bulk-operation-api-openapi.yml
+- filename: amazon-dynamodb-cluster-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Dynamodb Cluster API
+  slug: amazon-dynamodb-cluster-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-cluster-api-openapi.yml
+- filename: amazon-dynamodb-parameter-group-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Dynamodb Parameter Group API
+  slug: amazon-dynamodb-parameter-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-parameter-group-api-openapi.yml
+- filename: amazon-dynamodb-subnet-group-api-openapi.yml
+  format: yaml
+  label: Amazon DynamoDB Dynamodb Subnet Group API
+  slug: amazon-dynamodb-subnet-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-dynamodb/openapi/amazon-dynamodb-subnet-group-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -94,7 +118,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Dynamodb Trust Center
+name: Amazon DynamoDB Trust Center
 name_suffix: Trust Center
 overview: Amazon DynamoDB maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon DynamoDB

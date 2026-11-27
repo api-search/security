@@ -262,7 +262,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Jack Henry Domain Security
+name: Jack Henry & Associates Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Jack Henry & Associates, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Jack Henry & Associates

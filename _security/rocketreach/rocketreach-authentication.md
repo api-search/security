@@ -29,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Rocketreach Authentication
+name: RocketReach Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: RocketReach secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

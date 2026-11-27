@@ -328,7 +328,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Checkout Com Authentication
+name: Checkout.com Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

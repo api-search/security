@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fin Discovery Com Authentication
+name: Fintel Discovery Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fintel Discovery declares 3 security scheme(s) across its OpenAPI definitions.

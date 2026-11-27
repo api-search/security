@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Aiwatermarkremover Com Authentication
+name: AI Watermark Remover Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI Watermark Remover declares 2 security scheme(s) across its OpenAPI definitions.

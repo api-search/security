@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Altoira Authentication
+name: AltoIRA Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

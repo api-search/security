@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Country State City Api Authentication
+name: Country State City API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Country State City API secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

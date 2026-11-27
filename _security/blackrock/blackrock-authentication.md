@@ -66,7 +66,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: derived
-name: Blackrock Authentication
+name: BlackRock Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

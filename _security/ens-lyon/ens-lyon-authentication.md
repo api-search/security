@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Ens Lyon Authentication
+name: École Normale Supérieure de Lyon Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: École Normale Supérieure de Lyon declares 0 security scheme(s) across its OpenAPI definitions.

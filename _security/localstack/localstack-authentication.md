@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Localstack Authentication
+name: LocalStack Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LocalStack secures its APIs with none and auth-token across 2 declared security schemes, as derived from its OpenAPI definitions.

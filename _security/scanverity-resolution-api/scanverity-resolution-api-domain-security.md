@@ -37,7 +37,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Scanverity Resolution Api Domain Security
+name: Scanverity Resolution API Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Scanverity Resolution API, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Scanverity Resolution API
@@ -60,5 +60,4 @@ tags:
 - Risk Analytics
 - Polymarket
 - Event Contracts
-- Agent Ready
 ---

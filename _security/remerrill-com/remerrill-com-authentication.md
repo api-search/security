@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Remerrill Com Authentication
+name: R.E. Merrill & Associates Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: R.E. Merrill & Associates declares 0 security scheme(s) across its OpenAPI definitions.

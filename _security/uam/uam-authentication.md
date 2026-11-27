@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: probed
-name: Uam Authentication
+name: Autonomous University of Madrid Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Autonomous University of Madrid declares 6 security scheme(s) across its OpenAPI definitions.

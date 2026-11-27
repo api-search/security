@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Govsignals Trust Center
+name: GovSignals Trust Center
 name_suffix: Trust Center
 overview: GovSignals maintains a public trust center documenting SOC 2 and FedRAMP compliance.
 provider_name: GovSignals

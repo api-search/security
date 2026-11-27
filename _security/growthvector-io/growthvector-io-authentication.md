@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Growthvector Io Authentication
+name: growthvector-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: growthvector-io declares 0 security scheme(s) across its OpenAPI definitions.

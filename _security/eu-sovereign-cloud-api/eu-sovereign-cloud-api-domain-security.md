@@ -164,7 +164,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Eu Sovereign Cloud Api Domain Security
+name: Sovereign European Cloud API (SECA) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Sovereign European Cloud API (SECA), probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Sovereign European Cloud API (SECA)

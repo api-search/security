@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Acatrove Com Authentication
+name: AcaTrove Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AcaTrove declares 0 security scheme(s) across its OpenAPI definitions.

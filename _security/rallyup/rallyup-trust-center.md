@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Rallyup Trust Center
+name: Rally Up Trust Center
 name_suffix: Trust Center
 overview: Rally Up maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Rally Up

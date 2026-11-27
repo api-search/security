@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Human Security Trust Center
+name: HUMAN Security Trust Center
 name_suffix: Trust Center
 overview: HUMAN Security maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, and GDPR compliance.
 provider_name: HUMAN Security

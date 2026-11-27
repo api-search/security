@@ -24,7 +24,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Nomic Ai Trust Center
+name: Nomic AI Trust Center
 name_suffix: Trust Center
 overview: Nomic AI maintains a public trust center documenting SOC 2 compliance.
 provider_name: Nomic AI

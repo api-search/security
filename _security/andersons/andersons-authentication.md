@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Andersons Authentication
+name: The Andersons Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: The Andersons declares 0 security scheme(s) across its OpenAPI definitions.

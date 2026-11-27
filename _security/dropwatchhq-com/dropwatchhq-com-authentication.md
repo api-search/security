@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Dropwatchhq Com Authentication
+name: dropwatchhq-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: dropwatchhq-com declares 0 security scheme(s) across its OpenAPI definitions.

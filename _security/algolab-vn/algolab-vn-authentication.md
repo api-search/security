@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Algolab Vn Authentication
+name: Algolab Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Algolab declares 0 security scheme(s) across its OpenAPI definitions.

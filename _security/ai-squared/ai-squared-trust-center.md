@@ -56,7 +56,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ai Squared Trust Center
+name: AI Squared Trust Center
 name_suffix: Trust Center
 overview: AI Squared maintains a public trust center documenting SOC 2 Type II, HIPAA, and CCPA compliance.
 provider_name: AI Squared

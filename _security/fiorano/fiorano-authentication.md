@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Fiorano Authentication
+name: Fiorano Software Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fiorano Software declares 1 security scheme(s) across its OpenAPI definitions.

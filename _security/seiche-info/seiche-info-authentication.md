@@ -224,7 +224,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Seiche Info Authentication
+name: seiche-info Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: seiche-info declares 0 security scheme(s) across its OpenAPI definitions.

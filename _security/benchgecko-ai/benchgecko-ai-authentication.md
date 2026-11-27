@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Benchgecko Ai Authentication
+name: BenchGecko Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BenchGecko declares 0 security scheme(s) across its OpenAPI definitions.

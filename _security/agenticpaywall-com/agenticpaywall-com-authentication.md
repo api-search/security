@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agenticpaywall Com Authentication
+name: Composer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Composer declares 0 security scheme(s) across its OpenAPI definitions.

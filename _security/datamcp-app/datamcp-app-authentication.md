@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Datamcp App Authentication
+name: datamcp Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: datamcp declares 6 security scheme(s) across its OpenAPI definitions.

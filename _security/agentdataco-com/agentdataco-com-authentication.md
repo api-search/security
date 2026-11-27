@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentdataco Com Authentication
+name: Agent Data Co Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Data Co declares 1 security scheme(s) across its OpenAPI definitions.

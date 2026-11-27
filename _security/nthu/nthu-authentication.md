@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Nthu Authentication
+name: National Tsing Hua University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: National Tsing Hua University secures its APIs with oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

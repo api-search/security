@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Luminarylane App Authentication
+name: Luminary Lane Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Luminary Lane secures its APIs with oauth2 and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

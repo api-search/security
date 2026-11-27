@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Foliowiki Online Authentication
+name: Folio Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Folio declares 2 security scheme(s) across its OpenAPI definitions.
@@ -52,8 +52,8 @@ tags:
 - Wiki
 - Documentation
 - Open Source
-- Self‑hosted
-- Git‑based
+- Self-Hosted
+- Git-based
 - Collaboration
 - AI Assistant
 - Docs as Code

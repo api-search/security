@@ -60,7 +60,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Mrscraper Authentication
+name: MrScraper Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MrScraper secures its APIs with apiKey and oauth2 across 4 declared security schemes, as derived from its OpenAPI definitions.

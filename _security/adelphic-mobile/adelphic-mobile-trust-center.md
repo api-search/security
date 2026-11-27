@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Adelphic Mobile Trust Center
+name: Adelphic Mobile * Trust Center
 name_suffix: Trust Center
 overview: Adelphic Mobile * maintains a public trust center documenting SOC 2 Type I compliance.
 provider_name: Adelphic Mobile *

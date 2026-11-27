@@ -245,7 +245,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Captapi Com Authentication
+name: captapi-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: captapi-com secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

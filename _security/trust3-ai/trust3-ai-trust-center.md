@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Trust3 Ai Trust Center
+name: Trust3 AI Trust Center
 name_suffix: Trust Center
 overview: Trust3 AI maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: Trust3 AI

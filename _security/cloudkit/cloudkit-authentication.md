@@ -54,7 +54,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Cloudkit Authentication
+name: Apple CloudKit Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Apple CloudKit secures its APIs with apiKey and signature across 4 declared security schemes, as derived from its OpenAPI definitions.

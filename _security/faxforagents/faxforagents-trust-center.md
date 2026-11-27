@@ -126,26 +126,23 @@ api_specs:
   slug: faxforagents-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/faxforagents/openapi/faxforagents-webhooks-api-openapi.yml
-certification_count: 3
-certifications:
-- SOC 2
-- ISO 27001
-- HIPAA
+certification_count: 0
+certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Faxforagents Trust Center
+name: Fax for Agents Trust Center
 name_suffix: Trust Center
-overview: Fax for Agents maintains a public trust center documenting SOC 2, ISO 27001, and HIPAA compliance.
+overview: Fax for Agents maintains a public trust center covering its security and compliance posture.
 provider_name: Fax for Agents
 provider_slug: faxforagents
 slug: faxforagents-trust-center
 source_filename: faxforagents-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-31'\nmethod: searched\nprobe: true\nsource: https://faxforagents.com/security/\nurl: https://faxforagents.com/security/\ncertifications:\n- SOC 2\n- ISO 27001\n- HIPAA\nevidence:\n- source: https://faxforagents.com/security/\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\n"
+source_yaml: "generated: '2026-10-31'\nmethod: searched\nprobe: true\nsource: https://faxforagents.com/security/\nurl: https://faxforagents.com/security/\ncertifications: []\nevidence:\n- source: https://faxforagents.com/security/\n  keywords:\n  - soc 2\n  - iso 27001\n  - hipaa\ncertifications_not_held:\n- SOC 2\n- ISO 27001\n- HIPAA\ncertification_quotes:\n  SOC 2: abase dumps, in the EU region | Not in place | No SOC 2 report, no\n  ISO 27001: report, no ISO 27001 certificate, no\n  HIPAA: because there are none yet, and it does not claim HIPAA, because the service is not one. | Controls\n    | What is enforced and ho\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/faxforagents/security/faxforagents-trust-center.yml
-summary_line: SOC 2, ISO 27001, HIPAA
+summary_line: trust center published
 tags:
 - Fax
 - MCP

@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: Openapi Generator Authentication
+name: OpenAPI Generator Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OpenAPI Generator declares 0 security scheme(s) across its OpenAPI definitions.

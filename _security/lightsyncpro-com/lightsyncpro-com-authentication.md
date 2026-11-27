@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Lightsyncpro Com Authentication
+name: lightsyncpro-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: lightsyncpro-com declares 0 security scheme(s) across its OpenAPI definitions.

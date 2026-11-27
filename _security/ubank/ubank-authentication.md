@@ -53,7 +53,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Ubank Authentication
+name: ubank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ubank secures its APIs with none, oauth2, and openIdConnect across 0 declared security schemes, as derived from its OpenAPI definitions.

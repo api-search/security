@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: A2Ainfrastructure Com Trust Center
+name: A2A Infrastructure Trust Center
 name_suffix: Trust Center
 overview: A2A Infrastructure maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: A2A Infrastructure

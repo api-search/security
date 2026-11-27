@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sweep Dev Trust Center
+name: Sweep Trust Center
 name_suffix: Trust Center
 overview: Sweep maintains a public trust center documenting SOC 2 compliance.
 provider_name: Sweep

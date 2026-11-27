@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mintmcp Trust Center
+name: MintMCP Trust Center
 name_suffix: Trust Center
 overview: MintMCP maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: MintMCP

@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Oneshot Trust Center
+name: OneShot Trust Center
 name_suffix: Trust Center
 overview: OneShot maintains a public trust center covering its security and compliance posture.
 provider_name: OneShot

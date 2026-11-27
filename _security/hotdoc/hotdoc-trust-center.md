@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hotdoc Trust Center
+name: HotDoc Trust Center
 name_suffix: Trust Center
 overview: HotDoc maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: HotDoc

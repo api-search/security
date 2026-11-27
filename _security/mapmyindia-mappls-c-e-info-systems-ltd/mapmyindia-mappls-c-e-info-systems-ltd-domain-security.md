@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Mapmyindia Mappls C E Info Systems Ltd Domain Security
+name: MapmyIndia Mappls (C.E. Info Systems Ltd.) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for MapmyIndia Mappls (C.E. Info Systems Ltd.), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: MapmyIndia Mappls (C.E. Info Systems Ltd.)

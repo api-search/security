@@ -33,6 +33,30 @@ api_specs:
   slug: plinth-us-grants-data-sql-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-sql-api-openapi.yml
+- filename: plinth-us-grants-data-pulse-api-openapi.yml
+  format: yaml
+  label: Plinth US Grants Data Pulse API
+  slug: plinth-us-grants-data-pulse-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-pulse-api-openapi.yml
+- filename: plinth-us-grants-data-batch-api-openapi.yml
+  format: yaml
+  label: Plinth US Grants Data Batch API
+  slug: plinth-us-grants-data-batch-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-batch-api-openapi.yml
+- filename: plinth-us-grants-data-credentials-api-openapi.yml
+  format: yaml
+  label: Plinth US Grants Data Credentials API
+  slug: plinth-us-grants-data-credentials-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-credentials-api-openapi.yml
+- filename: plinth-us-grants-data-meta-api-openapi.yml
+  format: yaml
+  label: Plinth US Grants Data Meta API
+  slug: plinth-us-grants-data-meta-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/plinth-us-grants-data/openapi/plinth-us-grants-data-meta-api-openapi.yml
 auth_types:
 - apiKey
 - oauth2
@@ -41,7 +65,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Plinth Us Grants Data Authentication
+name: Plinth US Grants Data Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Plinth US Grants Data secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

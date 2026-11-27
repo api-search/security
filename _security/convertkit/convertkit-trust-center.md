@@ -99,7 +99,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Convertkit Trust Center
+name: Kit Trust Center
 name_suffix: Trust Center
 overview: Kit maintains a public trust center documenting SOC 2, ISO 27001, ISO 27018, and GDPR compliance.
 provider_name: Kit

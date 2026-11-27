@@ -1584,7 +1584,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Juniper Domain Security
+name: Juniper Networks Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Juniper Networks, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Juniper Networks

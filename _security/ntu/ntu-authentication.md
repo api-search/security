@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: Ntu Authentication
+name: Nanyang Technological University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Nanyang Technological University declares 0 security scheme(s) across its OpenAPI definitions.

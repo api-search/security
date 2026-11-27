@@ -266,7 +266,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Run402 Com Authentication
+name: run402-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: run402-com declares 0 security scheme(s) across its OpenAPI definitions.

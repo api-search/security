@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Airpr Trust Center
+name: AirPR Trust Center
 name_suffix: Trust Center
 overview: AirPR maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001, Cyber Essentials Plus, GDPR, CCPA, PDPA, Standard Contractual Clauses (SCC), and EcoVadis (Committed, Oct 2025) compliance.
 provider_name: AirPR

@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Astraeyelabs Io Authentication
+name: AstraEye Labs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AstraEye Labs declares 0 security scheme(s) across its OpenAPI definitions.

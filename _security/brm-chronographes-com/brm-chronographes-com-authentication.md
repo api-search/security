@@ -201,7 +201,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Brm Chronographes Com Authentication
+name: B.R.M Chronographes Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: B.R.M Chronographes secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

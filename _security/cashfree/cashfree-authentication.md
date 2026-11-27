@@ -137,7 +137,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: derived
-name: Cashfree Authentication
+name: Cashfree Payments Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cashfree Payments secures its APIs with apiKey and http across 6 declared security schemes, as derived from its OpenAPI definitions.

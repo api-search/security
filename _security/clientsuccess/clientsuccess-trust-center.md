@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Clientsuccess Trust Center
+name: ClientSuccess Trust Center
 name_suffix: Trust Center
 overview: ClientSuccess maintains a public trust center documenting SOC 2, ISO 27001, HIPAA, and GDPR compliance.
 provider_name: ClientSuccess

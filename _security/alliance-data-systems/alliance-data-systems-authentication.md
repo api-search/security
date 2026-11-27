@@ -40,7 +40,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Alliance Data Systems Authentication
+name: Alliance Data Systems (Bread Financial Holdings) Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

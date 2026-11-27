@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ipatlas Dev Authentication
+name: ipatlas-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ipatlas-dev declares 1 security scheme(s) across its OpenAPI definitions.

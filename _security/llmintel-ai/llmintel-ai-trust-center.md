@@ -38,7 +38,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Llmintel Ai Trust Center
+name: llmintel-ai Trust Center
 name_suffix: Trust Center
 overview: llmintel-ai maintains a public trust center documenting SOC 2, PCI DSS, and GDPR compliance.
 provider_name: llmintel-ai

@@ -35,5 +35,5 @@ tags:
 - Fintech
 - Fraud Prevention
 - Artificial Intelligence
-- Account Monitoring
+- AccountMonitoring
 ---

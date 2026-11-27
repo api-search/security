@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Iplocate Authentication
+name: IPLocate (formerly GeoIPs) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IPLocate (formerly GeoIPs) declares 1 security scheme(s) across its OpenAPI definitions.

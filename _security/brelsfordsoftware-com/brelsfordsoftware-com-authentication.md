@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Brelsfordsoftware Com Authentication
+name: brelsfordsoftware-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: brelsfordsoftware-com declares 0 security scheme(s) across its OpenAPI definitions.

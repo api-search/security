@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cybersmart Trust Center
+name: CyberSmart Trust Center
 name_suffix: Trust Center
 overview: CyberSmart maintains a public trust center documenting Cyber Essentials, Cyber Essentials Plus, ISO/IEC 27001, and GDPR compliance.
 provider_name: CyberSmart

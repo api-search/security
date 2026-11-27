@@ -12,7 +12,7 @@ certifications:
 description: TestFairy is part of Sauce Labs and is covered by the Sauce Labs Trust Center and its portfolio-wide security/privacy certifications (the 2021 acquisition of TestFairy is named in the certification scope). Certifications listed below are from Sauce Labs public announcements and the trust center.
 kind: trust-center
 layout: security
-name: Testfairy Trust Center
+name: TestFairy Trust Center
 name_suffix: Trust Center
 overview: TestFairy maintains a public trust center documenting SOC 2 Type II, ISO/IEC 27001, ISO/IEC 27701, ISO/IEC 42001, GDPR, CCPA, CSA, and FSQS (EMEA financial services) compliance.
 provider_name: TestFairy

@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Skyfoundry Authentication
+name: SkyFoundry Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SkyFoundry secures its APIs with scram and http across 5 declared security schemes, as derived from its OpenAPI definitions.

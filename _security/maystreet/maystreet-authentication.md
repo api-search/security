@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Maystreet Authentication
+name: MayStreet Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MayStreet secures its APIs with http-bearer and custom-header across 2 declared security schemes, as derived from its OpenAPI definitions.

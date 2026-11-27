@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Absolutebestair Com Authentication
+name: Absolute Best Air Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Absolute Best Air declares 0 security scheme(s) across its OpenAPI definitions.

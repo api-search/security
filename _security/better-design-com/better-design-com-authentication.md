@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Better Design Com Authentication
+name: Better Design Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Better Design declares 0 security scheme(s) across its OpenAPI definitions.

@@ -52,7 +52,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Formassembly Trust Center
+name: FormAssembly Trust Center
 name_suffix: Trust Center
 overview: FormAssembly maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, FedRAMP, and GDPR compliance.
 provider_name: FormAssembly

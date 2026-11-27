@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Adversa Ai Trust Center
+name: Adversa AI Trust Center
 name_suffix: Trust Center
 overview: Adversa AI maintains a public trust center documenting SOC 2 Type I, SOC 2 Type II, ISO 27001, GDPR, and CCPA compliance.
 provider_name: Adversa AI

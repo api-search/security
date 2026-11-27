@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Lanes And Planes Authentication
+name: Lanes & Planes Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Lanes & Planes secures its APIs with saml across 1 declared security scheme, as derived from its OpenAPI definitions.

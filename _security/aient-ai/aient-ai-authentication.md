@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Aient Ai Authentication
+name: Aient Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Aient declares 2 security scheme(s) across its OpenAPI definitions.

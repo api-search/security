@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Lendingpad Trust Center
+name: LendingPad Trust Center
 name_suffix: Trust Center
 overview: LendingPad maintains a public trust center documenting SOC 2 compliance.
 provider_name: LendingPad

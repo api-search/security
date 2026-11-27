@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Soundcommerce Trust Center
+name: SoundCommerce Trust Center
 name_suffix: Trust Center
 overview: SoundCommerce maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: SoundCommerce

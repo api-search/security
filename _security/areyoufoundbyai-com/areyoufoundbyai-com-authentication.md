@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Areyoufoundbyai Com Authentication
+name: Tech Horizon Labs Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Tech Horizon Labs declares 4 security scheme(s) across its OpenAPI definitions.

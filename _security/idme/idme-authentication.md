@@ -34,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Idme Authentication
+name: ID.me Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Gilion Formerly Ark Trust Center
+name: Gilion (formerly ArK) Trust Center
 name_suffix: Trust Center
 overview: Gilion (formerly ArK) maintains a public trust center documenting SOC 2 Type 2, SOC 2 Type 1, CSA STAR, GDPR, CCPA, and CPRA compliance.
 provider_name: Gilion (formerly ArK)

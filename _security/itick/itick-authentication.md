@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Itick Authentication
+name: iTick Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: iTick declares 1 security scheme(s) across its OpenAPI definitions.

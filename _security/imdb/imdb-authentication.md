@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Imdb Authentication
+name: IMDb Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: IMDb declares 2 security scheme(s) across its OpenAPI definitions.

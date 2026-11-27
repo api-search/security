@@ -116,7 +116,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Logbrew Authentication
+name: LogBrew Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LogBrew declares 0 security scheme(s) across its OpenAPI definitions.

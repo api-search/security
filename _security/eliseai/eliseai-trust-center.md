@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Eliseai Trust Center
+name: EliseAI Trust Center
 name_suffix: Trust Center
 overview: EliseAI maintains a public trust center documenting SOC 2 Type II, HIPAA, and GDPR compliance.
 provider_name: EliseAI

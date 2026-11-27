@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Brainattic Ai Authentication
+name: brainattic Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: brainattic declares 1 security scheme(s) across its OpenAPI definitions.

@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Airouter Authentication
+name: AI Router Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI Router declares 1 security scheme(s) across its OpenAPI definitions.

@@ -121,7 +121,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Appomni Trust Center
+name: AppOmni Trust Center
 name_suffix: Trust Center
 overview: AppOmni maintains a public trust center documenting FedRAMP Moderate Authority to Operate, TX-RAMP, SOC 2 Type II, VPAT, NIST CSF, EU-US Data Privacy Framework, UK Extension to the EU-US Data Privacy Framework, and Swiss-US Data Privacy Framework compliance.
 provider_name: AppOmni

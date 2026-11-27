@@ -70,7 +70,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Us Patent And Trademark Office Authentication
+name: US Patent and Trademark Office Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: US Patent and Trademark Office secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

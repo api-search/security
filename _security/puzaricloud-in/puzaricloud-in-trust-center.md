@@ -48,26 +48,24 @@ api_specs:
   slug: puzaricloud-in-servers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/puzaricloud-in/openapi/puzaricloud-in-servers-api-openapi.yml
-certification_count: 3
+certification_count: 1
 certifications:
-- SOC 2
-- ISO 27001
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Puzaricloud In Trust Center
+name: puzaricloud-in Trust Center
 name_suffix: Trust Center
-overview: puzaricloud-in maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
+overview: puzaricloud-in maintains a public trust center documenting GDPR compliance.
 provider_name: puzaricloud-in
 provider_slug: puzaricloud-in
 slug: puzaricloud-in-trust-center
 source_filename: puzaricloud-in-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: https://puzaricloud.in/security\nurl: https://puzaricloud.in/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://puzaricloud.in/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
+source_yaml: "generated: '2026-10-30'\nmethod: searched\nprobe: true\nsource: https://puzaricloud.in/security\nurl: https://puzaricloud.in/security\ncertifications:\n- GDPR\nevidence:\n- source: https://puzaricloud.in/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\ncertifications_not_held:\n- SOC 2\n- ISO 27001\ncertification_quotes:\n  SOC 2: t to do. | We are a small company and do not hold SOC 2 or\n  ISO 27001: 't to do. | We are a small company and do not hold SOC 2 or ISO 27001 certificates. Ask us\n    anything about how the platform is run: hello@pu'\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/puzaricloud-in/security/puzaricloud-in-trust-center.yml
-summary_line: SOC 2, ISO 27001, GDPR
+summary_line: GDPR
 tags:
 - Monitoring
 - Software-as-a-Service

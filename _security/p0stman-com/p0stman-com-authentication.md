@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: P0Stman Com Authentication
+name: p0stman Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: p0stman declares 1 security scheme(s) across its OpenAPI definitions.

@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Hortosapp Com Authentication
+name: hortosapp-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: hortosapp-com declares 0 security scheme(s) across its OpenAPI definitions.

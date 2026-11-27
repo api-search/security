@@ -34,5 +34,4 @@ tags:
 - Company
 - Data Integration
 - Workflow Automation
-- Enterprise Solutions
 ---

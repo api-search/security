@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Sterling Check Authentication
+name: Sterling Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

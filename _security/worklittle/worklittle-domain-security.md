@@ -78,12 +78,6 @@ api_specs:
   slug: worklittle-organization-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/worklittle/openapi/worklittle-organization-api-openapi.yml
-- filename: worklittle-people-api-openapi.yml
-  format: yaml
-  label: Worklittle People API
-  slug: worklittle-people-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/worklittle/openapi/worklittle-people-api-openapi.yml
 - filename: worklittle-surveys-api-openapi.yml
   format: yaml
   label: Worklittle Surveys API
@@ -96,6 +90,12 @@ api_specs:
   slug: worklittle-webhooks-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/worklittle/openapi/worklittle-webhooks-api-openapi.yml
+- filename: worklittle-people-api-openapi.yml
+  format: yaml
+  label: Worklittle People API
+  slug: worklittle-people-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/worklittle/openapi/worklittle-people-api-openapi.yml
 description: ''
 domains:
 - caa: []

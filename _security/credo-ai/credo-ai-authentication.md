@@ -243,18 +243,6 @@ api_specs:
   slug: credo-ai-relationship-types-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/credo-ai/openapi/credo-ai-relationship-types-api-openapi.yml
-- filename: credoai-audit-logs-api-openapi.yml
-  format: yaml
-  label: Credoai Audit Logs API
-  slug: credoai-audit-logs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/credo-ai/openapi/credoai-audit-logs-api-openapi.yml
-- filename: credoai-shadow-ai-api-openapi.yml
-  format: yaml
-  label: Credoai Shadow AI API
-  slug: credoai-shadow-ai-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/credo-ai/openapi/credoai-shadow-ai-api-openapi.yml
 auth_types:
 - apiKey
 - http
@@ -263,7 +251,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Credo Ai Authentication
+name: Credo AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Credo AI secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Socials Homes Authentication
+name: socials-homes Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: socials-homes declares 0 security scheme(s) across its OpenAPI definitions.

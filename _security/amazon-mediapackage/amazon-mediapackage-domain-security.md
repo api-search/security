@@ -24,6 +24,42 @@ api_specs:
   slug: amazon-mediapackage-tags-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-tags-api-openapi.yml
+- filename: amazon-mediapackage-assets-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Assets API
+  slug: amazon-mediapackage-assets-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-assets-api-openapi.yml
+- filename: amazon-mediapackage-channelgroup-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Channelgroup API
+  slug: amazon-mediapackage-channelgroup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-channelgroup-api-openapi.yml
+- filename: amazon-mediapackage-operations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Operations API
+  slug: amazon-mediapackage-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-operations-api-openapi.yml
+- filename: amazon-mediapackage-packaging-configurations-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Packaging Configurations API
+  slug: amazon-mediapackage-packaging-configurations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-packaging-configurations-api-openapi.yml
+- filename: amazon-mediapackage-packaging-groups-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Packaging Groups API
+  slug: amazon-mediapackage-packaging-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-packaging-groups-api-openapi.yml
+- filename: amazon-mediapackage-policy-api-openapi.yml
+  format: yaml
+  label: Amazon MediaPackage Mediapackage Policy API
+  slug: amazon-mediapackage-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-mediapackage/openapi/amazon-mediapackage-policy-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -43,7 +79,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Amazon Mediapackage Domain Security
+name: Amazon MediaPackage Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Amazon MediaPackage, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Amazon MediaPackage

@@ -85,7 +85,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Geocitation Trust Center
+name: GEOCitation Trust Center
 name_suffix: Trust Center
 overview: GEOCitation maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: GEOCitation

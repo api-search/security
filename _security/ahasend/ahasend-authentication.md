@@ -112,7 +112,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ahasend Authentication
+name: AhaSend Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AhaSend secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -260,7 +260,7 @@ certifications:
 description: Talon.One runs a Vanta-hosted trust center at trust.talon.one and displays certification badges on its marketing site, including a downloadable ISO 27001 certificate.
 kind: trust-center
 layout: security
-name: Talon One Trust Center
+name: Talon.One Trust Center
 name_suffix: Trust Center
 overview: Talon.One maintains a public trust center documenting ISO 27001, SOC 2, and GDPR compliance.
 provider_name: Talon.One

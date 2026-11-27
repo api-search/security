@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Sniffcat Authentication
+name: SniffCat Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SniffCat declares 1 security scheme(s) across its OpenAPI definitions.

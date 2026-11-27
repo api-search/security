@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Joinsherpa Com Trust Center
+name: Sherpa Trust Center
 name_suffix: Trust Center
 overview: Sherpa maintains a public trust center documenting SOC 2 and PCI DSS compliance.
 provider_name: Sherpa

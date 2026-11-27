@@ -32,7 +32,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Activtrak Trust Center
+name: ActivTrak Trust Center
 name_suffix: Trust Center
 overview: ActivTrak maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: ActivTrak

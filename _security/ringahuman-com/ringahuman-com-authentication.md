@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Ringahuman Com Authentication
+name: ringahuman-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ringahuman-com declares 2 security scheme(s) across its OpenAPI definitions.

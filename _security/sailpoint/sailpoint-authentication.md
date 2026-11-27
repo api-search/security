@@ -34,7 +34,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Sailpoint Authentication
+name: SailPoint Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

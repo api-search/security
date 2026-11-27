@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ansvar Eu Trust Center
+name: ansvar-eu Trust Center
 name_suffix: Trust Center
 overview: ansvar-eu maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: ansvar-eu

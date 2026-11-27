@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Amerisourcebergen Authentication
+name: AmerisourceBergen Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Tryneverclosed Com Authentication
+name: tryneverclosed-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: tryneverclosed-com declares 0 security scheme(s) across its OpenAPI definitions.

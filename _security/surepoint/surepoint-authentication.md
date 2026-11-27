@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Surepoint Authentication
+name: SurePoint Pro Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SurePoint Pro declares 0 security scheme(s) across its OpenAPI definitions.

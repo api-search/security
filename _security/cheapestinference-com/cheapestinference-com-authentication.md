@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cheapestinference Com Authentication
+name: cheapestinference-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: cheapestinference-com declares 1 security scheme(s) across its OpenAPI definitions.
@@ -51,6 +51,6 @@ tags:
 - Artificial Intelligence
 - Inference
 - LLM
-- Flat Rate
+- Flat-rate
 - Software-as-a-Service
 ---

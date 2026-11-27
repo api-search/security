@@ -497,7 +497,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Fis Trust Center
+name: FIS Global Trust Center
 name_suffix: Trust Center
 overview: FIS Global maintains a public trust center covering its security and compliance posture.
 provider_name: FIS Global

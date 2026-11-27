@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Tmrw Life Sciences Trust Center
+name: TMRW Life Sciences * Trust Center
 name_suffix: Trust Center
 overview: TMRW Life Sciences * maintains a public trust center documenting SOC 2 Type 2, ISO 27001:2013, and ISO 27018:2019 compliance.
 provider_name: TMRW Life Sciences *

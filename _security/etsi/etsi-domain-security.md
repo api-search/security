@@ -209,7 +209,7 @@ hosts_probed: 8
 kind: domain-security
 layout: security
 method: probed
-name: Etsi Domain Security
+name: ETSI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ETSI, probed live across 8 host(s) and 2 registrable domain(s). 8 host(s) serve HTTPS (up to TLSv1.3); 5 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: ETSI

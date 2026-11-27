@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Artificialwit Com Authentication
+name: Artificial Wit Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Artificial Wit declares 1 security scheme(s) across its OpenAPI definitions.

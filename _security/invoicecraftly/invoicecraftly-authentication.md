@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Invoicecraftly Authentication
+name: InvoiceCraftly Developer Document API Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: InvoiceCraftly Developer Document API secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -45,7 +45,6 @@ summary_line: http · 1 scheme
 tags:
 - Invoicing
 - Invoice Generator
-- Free Tools
 - DocumentExport
 - Payment QR
 - CSV Import

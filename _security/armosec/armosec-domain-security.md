@@ -191,7 +191,7 @@ hosts_probed: 4
 kind: domain-security
 layout: security
 method: probed
-name: Armosec Domain Security
+name: ARMO Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for ARMO, probed live across 4 host(s) and 1 registrable domain(s). 4 host(s) serve HTTPS; 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: ARMO

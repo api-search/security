@@ -393,7 +393,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Ebay Authentication
+name: eBay Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

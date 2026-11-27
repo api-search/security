@@ -68,7 +68,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Apiserpent Authentication
+name: Contentladder Marketing Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Contentladder Marketing declares 1 security scheme(s) across its OpenAPI definitions.

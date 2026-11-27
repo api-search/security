@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Symblai Trust Center
+name: Symbl.ai Trust Center
 name_suffix: Trust Center
 overview: Symbl.ai maintains a public trust center documenting SOC 2 Type II, HIPAA, PCI DSS, GDPR, and CSA CAIQ compliance.
 provider_name: Symbl.ai

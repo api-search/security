@@ -33,7 +33,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Project44 Authentication
+name: project44 Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

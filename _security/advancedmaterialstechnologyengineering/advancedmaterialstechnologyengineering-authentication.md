@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Advancedmaterialstechnologyengineering Authentication
+name: Advanced Materials Technology & Engineering Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Advanced Materials Technology & Engineering secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

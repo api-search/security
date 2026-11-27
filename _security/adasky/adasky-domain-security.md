@@ -40,5 +40,4 @@ tags:
 - Smart Cities
 - Hardware
 - Israel
-- No Developer Program
 ---

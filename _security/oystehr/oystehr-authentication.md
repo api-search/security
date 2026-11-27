@@ -44,5 +44,4 @@ tags:
 - Company
 - Health Tech
 - Electronic Health Records
-- Developer-First
 ---

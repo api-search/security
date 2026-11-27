@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Zhihuo Net Authentication
+name: zhihuo-net Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: zhihuo-net declares 0 security scheme(s) across its OpenAPI definitions.

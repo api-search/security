@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Hdfc Bank Authentication
+name: HDFC Bank Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: HDFC Bank declares 2 security scheme(s) across its OpenAPI definitions.

@@ -6,73 +6,199 @@ api_specs:
   slug: orb-billing-alerts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-alerts-api-openapi.yml
-- filename: orb-billing-coupons-api-openapi.yml
-  format: yaml
-  label: Orb Coupons API
-  slug: orb-billing-coupons-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-coupons-api-openapi.yml
 - filename: orb-billing-credits-api-openapi.yml
   format: yaml
   label: Orb Credits API
   slug: orb-billing-credits-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-credits-api-openapi.yml
-- filename: orb-billing-customers-api-openapi.yml
-  format: yaml
-  label: Orb Customers API
-  slug: orb-billing-customers-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-customers-api-openapi.yml
 - filename: orb-billing-events-api-openapi.yml
   format: yaml
   label: Orb Events API
   slug: orb-billing-events-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-events-api-openapi.yml
-- filename: orb-billing-invoices-api-openapi.yml
+- filename: orb-billing-accounting-sync-webhooks-api-openapi.yml
   format: yaml
-  label: Orb Invoices API
-  slug: orb-billing-invoices-api
+  label: Orb Accounting sync webhooks API
+  slug: orb-billing-accounting-sync-webhooks-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-invoices-api-openapi.yml
-- filename: orb-billing-items-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-accounting-sync-webhooks-api-openapi.yml
+- filename: orb-billing-alert-api-openapi.yml
   format: yaml
-  label: Orb Items API
-  slug: orb-billing-items-api
+  label: Orb Alert API
+  slug: orb-billing-alert-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-items-api-openapi.yml
-- filename: orb-billing-metrics-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-alert-api-openapi.yml
+- filename: orb-billing-automation-webhooks-api-openapi.yml
   format: yaml
-  label: Orb Metrics API
-  slug: orb-billing-metrics-api
+  label: Orb Automation webhooks API
+  slug: orb-billing-automation-webhooks-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-metrics-api-openapi.yml
-- filename: orb-billing-plans-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-automation-webhooks-api-openapi.yml
+- filename: orb-billing-availability-api-openapi.yml
   format: yaml
-  label: Orb Plans API
-  slug: orb-billing-plans-api
+  label: Orb Availability API
+  slug: orb-billing-availability-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-plans-api-openapi.yml
-- filename: orb-billing-prices-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-availability-api-openapi.yml
+- filename: orb-billing-coupon-api-openapi.yml
   format: yaml
-  label: Orb Prices API
-  slug: orb-billing-prices-api
+  label: Orb Coupon API
+  slug: orb-billing-coupon-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-prices-api-openapi.yml
-- filename: orb-billing-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-coupon-api-openapi.yml
+- filename: orb-billing-credit-api-openapi.yml
   format: yaml
-  label: Orb Subscriptions API
-  slug: orb-billing-subscriptions-api
+  label: Orb Credit API
+  slug: orb-billing-credit-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-subscriptions-api-openapi.yml
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-credit-api-openapi.yml
+- filename: orb-billing-credit-note-api-openapi.yml
+  format: yaml
+  label: Orb Credit note API
+  slug: orb-billing-credit-note-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-credit-note-api-openapi.yml
+- filename: orb-billing-customer-api-openapi.yml
+  format: yaml
+  label: Orb Customer API
+  slug: orb-billing-customer-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-customer-api-openapi.yml
+- filename: orb-billing-customer-webhooks-api-openapi.yml
+  format: yaml
+  label: Orb Customer webhooks API
+  slug: orb-billing-customer-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-customer-webhooks-api-openapi.yml
+- filename: orb-billing-dimensional-price-group-api-openapi.yml
+  format: yaml
+  label: Orb Dimensional Price Group API
+  slug: orb-billing-dimensional-price-group-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-dimensional-price-group-api-openapi.yml
+- filename: orb-billing-dunning-webhooks-api-openapi.yml
+  format: yaml
+  label: Orb Dunning webhooks API
+  slug: orb-billing-dunning-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-dunning-webhooks-api-openapi.yml
+- filename: orb-billing-event-api-openapi.yml
+  format: yaml
+  label: Orb Event API
+  slug: orb-billing-event-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-event-api-openapi.yml
+- filename: orb-billing-invoice-and-credit-note-webhooks-api-openapi.yml
+  format: yaml
+  label: Orb Invoice and credit note webhooks API
+  slug: orb-billing-invoice-and-credit-note-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-invoice-and-credit-note-webhooks-api-openapi.yml
+- filename: orb-billing-invoice-api-openapi.yml
+  format: yaml
+  label: Orb Invoice API
+  slug: orb-billing-invoice-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-invoice-api-openapi.yml
+- filename: orb-billing-item-api-openapi.yml
+  format: yaml
+  label: Orb Item API
+  slug: orb-billing-item-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-item-api-openapi.yml
+- filename: orb-billing-license-api-openapi.yml
+  format: yaml
+  label: Orb License API
+  slug: orb-billing-license-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-license-api-openapi.yml
+- filename: orb-billing-licensetype-api-openapi.yml
+  format: yaml
+  label: Orb License Type API
+  slug: orb-billing-licensetype-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-licensetype-api-openapi.yml
+- filename: orb-billing-metric-api-openapi.yml
+  format: yaml
+  label: Orb Metric API
+  slug: orb-billing-metric-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-metric-api-openapi.yml
+- filename: orb-billing-payment-method-webhooks-api-openapi.yml
+  format: yaml
+  label: Orb Payment method webhooks API
+  slug: orb-billing-payment-method-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-payment-method-webhooks-api-openapi.yml
+- filename: orb-billing-plan-api-openapi.yml
+  format: yaml
+  label: Orb Plan API
+  slug: orb-billing-plan-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-plan-api-openapi.yml
+- filename: orb-billing-plan-webhooks-api-openapi.yml
+  format: yaml
+  label: Orb Plan webhooks API
+  slug: orb-billing-plan-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-plan-webhooks-api-openapi.yml
+- filename: orb-billing-price-and-billable-metric-webhooks-api-openapi.yml
+  format: yaml
+  label: Orb Price and billable metric webhooks API
+  slug: orb-billing-price-and-billable-metric-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-price-and-billable-metric-webhooks-api-openapi.yml
+- filename: orb-billing-price-api-openapi.yml
+  format: yaml
+  label: Orb Price API
+  slug: orb-billing-price-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-price-api-openapi.yml
+- filename: orb-billing-price-interval-api-openapi.yml
+  format: yaml
+  label: Orb Price interval API
+  slug: orb-billing-price-interval-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-price-interval-api-openapi.yml
+- filename: orb-billing-subscription-api-openapi.yml
+  format: yaml
+  label: Orb Subscription API
+  slug: orb-billing-subscription-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-subscription-api-openapi.yml
+- filename: orb-billing-subscription-change-api-openapi.yml
+  format: yaml
+  label: Orb Subscription Change API
+  slug: orb-billing-subscription-change-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-subscription-change-api-openapi.yml
+- filename: orb-billing-subscription-webhooks-api-openapi.yml
+  format: yaml
+  label: Orb Subscription webhooks API
+  slug: orb-billing-subscription-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-subscription-webhooks-api-openapi.yml
+- filename: orb-billing-system-webhooks-api-openapi.yml
+  format: yaml
+  label: Orb System webhooks API
+  slug: orb-billing-system-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-system-webhooks-api-openapi.yml
+- filename: orb-billing-webhook-endpoint-api-openapi.yml
+  format: yaml
+  label: Orb Webhook endpoint API
+  slug: orb-billing-webhook-endpoint-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/orb-billing/openapi/orb-billing-webhook-endpoint-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2
 description: ''
 kind: trust-center
 layout: security
-name: Orb Billing Trust Center
+name: Orb Trust Center
 name_suffix: Trust Center
 overview: Orb maintains a public trust center documenting SOC 2 compliance.
 provider_name: Orb
@@ -91,5 +217,7 @@ tags:
 - Subscription
 - Invoicing
 - FinOps
+- Pricing
+- Revenue
 trust_url: https://security.withorb.com/
 ---

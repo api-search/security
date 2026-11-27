@@ -131,7 +131,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: derived
-name: Openephemeris Com Authentication
+name: openephemeris-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: openephemeris-com secures its APIs with apiKey and http across 4 declared security schemes, as derived from its OpenAPI definitions.

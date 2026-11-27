@@ -32,7 +32,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Flipside Domain Security
+name: Flipside Crypto Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Flipside Crypto, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: Flipside Crypto

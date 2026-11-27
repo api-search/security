@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Wesco International Trust Center
+name: WESCO International Trust Center
 name_suffix: Trust Center
 overview: WESCO International maintains a public trust center documenting ISO 27001 and PCI DSS compliance.
 provider_name: WESCO International

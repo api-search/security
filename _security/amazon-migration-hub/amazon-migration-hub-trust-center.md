@@ -18,6 +18,72 @@ api_specs:
   slug: amazon-migration-hub-source-resource-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-source-resource-api-openapi.yml
+- filename: amazon-migration-hub-applications-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Applications API
+  slug: amazon-migration-hub-applications-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-applications-api-openapi.yml
+- filename: amazon-migration-hub-environments-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Environments API
+  slug: amazon-migration-hub-environments-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-environments-api-openapi.yml
+- filename: amazon-migration-hub-home-region-control-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Home Region Control API
+  slug: amazon-migration-hub-home-region-control-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-home-region-control-api-openapi.yml
+- filename: amazon-migration-hub-migrationworkflow-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Migrationworkflow API
+  slug: amazon-migration-hub-migrationworkflow-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-migrationworkflow-api-openapi.yml
+- filename: amazon-migration-hub-routes-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Routes API
+  slug: amazon-migration-hub-routes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-routes-api-openapi.yml
+- filename: amazon-migration-hub-services-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Services API
+  slug: amazon-migration-hub-services-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-services-api-openapi.yml
+- filename: amazon-migration-hub-tags-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Tags API
+  slug: amazon-migration-hub-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-tags-api-openapi.yml
+- filename: amazon-migration-hub-template-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Template API
+  slug: amazon-migration-hub-template-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-template-api-openapi.yml
+- filename: amazon-migration-hub-workflowstep-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Workflowstep API
+  slug: amazon-migration-hub-workflowstep-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-workflowstep-api-openapi.yml
+- filename: amazon-migration-hub-workflowstepgroup-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Migration Hub Workflowstepgroup API
+  slug: amazon-migration-hub-workflowstepgroup-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-workflowstepgroup-api-openapi.yml
+- filename: amazon-migration-hub-resource-policy-api-openapi.yml
+  format: yaml
+  label: Amazon Migration Hub Resource Policy API
+  slug: amazon-migration-hub-resource-policy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-migration-hub/openapi/amazon-migration-hub-resource-policy-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

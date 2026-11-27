@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Duck Hub Com Authentication
+name: Duckhub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Duckhub declares 1 security scheme(s) across its OpenAPI definitions.

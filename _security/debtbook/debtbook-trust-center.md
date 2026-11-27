@@ -9,7 +9,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Debtbook Trust Center
+name: DebtBook Trust Center
 name_suffix: Trust Center
 overview: DebtBook maintains a public trust center documenting SOC 1 Type 1, SOC 1 Type 2, SOC 2 Type 1, SOC 2 Type 2, and CSA STAR Level One compliance.
 provider_name: DebtBook

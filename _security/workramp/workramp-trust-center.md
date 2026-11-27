@@ -184,7 +184,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Workramp Trust Center
+name: WorkRamp Trust Center
 name_suffix: Trust Center
 overview: WorkRamp maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001:2022, Cyber Essentials, GDPR, and CCPA compliance.
 provider_name: WorkRamp

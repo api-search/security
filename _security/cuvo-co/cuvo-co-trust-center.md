@@ -43,7 +43,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cuvo Co Trust Center
+name: Cuvo Health Trust Center
 name_suffix: Trust Center
 overview: Cuvo Health maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Cuvo Health

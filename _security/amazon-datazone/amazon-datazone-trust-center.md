@@ -238,7 +238,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Amazon Datazone Trust Center
+name: Amazon DataZone Trust Center
 name_suffix: Trust Center
 overview: Amazon DataZone maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: Amazon DataZone

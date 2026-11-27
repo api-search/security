@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Cisco Aci Authentication
+name: Cisco ACI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cisco ACI declares 3 security scheme(s) across its OpenAPI definitions.

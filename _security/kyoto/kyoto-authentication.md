@@ -29,7 +29,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Kyoto Authentication
+name: Kyoto University Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Kyoto University secures its APIs with none, saml, and session across 6 declared security schemes, as derived from its OpenAPI definitions.

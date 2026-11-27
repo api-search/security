@@ -41,5 +41,10 @@
   {%- if _pr.billing_unit %}
   <p style="margin:.9rem 0 0;font-size:.92rem"><strong>Billed by:</strong> {{ _pr.billing_unit | escape }} &middot; <a href="https://apis.io/finops/{{ page.slug }}/{{ _pr.finops_slug }}/">FinOps profile &rarr;</a></p>
   {%- endif %}
+  {% include provider-commercial.html %}
+</section>
+{%- elsif page.commercial -%}
+<section id="commercial" class="provider-pricing" style="margin:2rem 0;padding:1rem 1.25rem;border:1px solid #d1d5db;border-radius:8px">
+  {% include provider-commercial.html %}
 </section>
 {%- endif -%}

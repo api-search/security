@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Axowatch Com Authentication
+name: AxoWatch Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AxoWatch declares 0 security scheme(s) across its OpenAPI definitions.

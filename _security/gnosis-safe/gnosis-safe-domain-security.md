@@ -107,7 +107,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Gnosis Safe Domain Security
+name: Safe (Gnosis Safe) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Safe (Gnosis Safe), probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: Safe (Gnosis Safe)
@@ -121,7 +121,7 @@ source_yaml_url: https://artifacts.apis.io/gnosis-safe/security/gnosis-safe-doma
 summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 tags:
 - Multisig
-- Smart Contract
+- Smart-contract
 - Ethereum
 - Web3
 - Blockchain

@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bestaffiliateprograms Cc Authentication
+name: BestAffiliatePrograms.cc Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BestAffiliatePrograms.cc declares 1 security scheme(s) across its OpenAPI definitions.

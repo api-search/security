@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Frvr Authentication
+name: FRVR Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FRVR secures its APIs with oauth2-jwt, platform-federated, and anonymous across 0 declared security schemes, as derived from its OpenAPI definitions.

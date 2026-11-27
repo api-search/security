@@ -2,18 +2,12 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: google-recaptcha-assessments-api-openapi.yml
+- filename: google-recaptcha-projects-api-openapi.yml
   format: yaml
-  label: Google reCAPTCHA Assessments API
-  slug: google-recaptcha-assessments-api
+  label: Google reCAPTCHA Recaptcha Projects API
+  slug: google-recaptcha-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-recaptcha/openapi/google-recaptcha-assessments-api-openapi.yml
-- filename: google-recaptcha-keys-api-openapi.yml
-  format: yaml
-  label: Google reCAPTCHA Keys API
-  slug: google-recaptcha-keys-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-recaptcha/openapi/google-recaptcha-keys-api-openapi.yml
+  url: https://artifacts.apis.io/google-recaptcha/openapi/google-recaptcha-projects-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -21,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Recaptcha Authentication
+name: Google reCAPTCHA Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

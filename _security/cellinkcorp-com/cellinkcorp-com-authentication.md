@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Cellinkcorp Com Authentication
+name: CelLink Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: CelLink declares 0 security scheme(s) across its OpenAPI definitions.

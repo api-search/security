@@ -167,7 +167,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: searched
-name: Getvda Ai Authentication
+name: Verified Digital Agents (VDA) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Verified Digital Agents (VDA) secures its APIs with http, oauth2, and x402-payment across 7 declared security schemes, as derived from its OpenAPI definitions.

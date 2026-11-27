@@ -239,7 +239,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Iab Tech Lab Authentication
+name: IAB Tech Lab Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit (illustrative example in the OpenDirect contract)

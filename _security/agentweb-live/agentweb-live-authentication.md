@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Agentweb Live Authentication
+name: AgentWeb Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AgentWeb declares 0 security scheme(s) across its OpenAPI definitions.

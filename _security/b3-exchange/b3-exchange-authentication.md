@@ -57,7 +57,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: B3 Exchange Authentication
+name: B3 (Brasil Bolsa Balcão) Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

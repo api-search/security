@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Withclutch Trust Center
+name: Clutch Trust Center
 name_suffix: Trust Center
 overview: Clutch maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: Clutch

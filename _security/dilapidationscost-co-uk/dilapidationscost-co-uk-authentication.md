@@ -21,7 +21,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Dilapidationscost Co Uk Authentication
+name: Dilapidations Cost Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Dilapidations Cost secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

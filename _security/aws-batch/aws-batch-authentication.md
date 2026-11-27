@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Aws Batch Authentication
+name: AWS Batch Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AWS Batch secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -5,7 +5,7 @@ api_specs:
   label: Storyblok Webhooks
   slug: storyblok-webhooks
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/storyblok/refs/heads/main/asyncapi/storyblok-webhooks-asyncapi.yml
+  url: https://artifacts.apis.io/storyblok/asyncapi/storyblok-webhooks-asyncapi.yml
 - filename: storyblok-assets-api-openapi.yml
   format: yaml
   label: Storyblok Assets API

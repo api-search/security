@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Powertrade Authentication
+name: PowerTrade Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PowerTrade secures its APIs with jwt-bearer across 0 declared security schemes, as derived from its OpenAPI definitions.

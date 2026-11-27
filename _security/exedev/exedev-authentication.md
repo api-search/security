@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Exedev Authentication
+name: exe.dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: exe.dev secures its APIs with ssh-key, http-bearer, and openIdConnect across 3 declared security schemes, as derived from its OpenAPI definitions.

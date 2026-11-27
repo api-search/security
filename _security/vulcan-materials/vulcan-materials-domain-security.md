@@ -13,7 +13,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Vulcan Materials Domain Security
+name: Vulcan Materials Company Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Vulcan Materials Company, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: Vulcan Materials Company

@@ -152,11 +152,11 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agentseo Dev Authentication
+name: AgentSEO Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: agentseo-dev declares 1 security scheme(s) across its OpenAPI definitions.
-provider_name: agentseo-dev
+overview: AgentSEO declares 1 security scheme(s) across its OpenAPI definitions.
+provider_name: AgentSEO
 provider_slug: agentseo-dev
 scheme_count: 1
 schemes:

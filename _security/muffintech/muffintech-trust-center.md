@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Muffintech Trust Center
+name: muffintech Trust Center
 name_suffix: Trust Center
 overview: muffintech maintains a public trust center documenting ISO 27001:2022 and GDPR compliance.
 provider_name: muffintech

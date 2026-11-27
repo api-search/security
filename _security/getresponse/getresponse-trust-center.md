@@ -302,7 +302,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Getresponse Trust Center
+name: GetResponse Trust Center
 name_suffix: Trust Center
 overview: GetResponse maintains a public trust center documenting SOC 2, PCI DSS, and GDPR compliance.
 provider_name: GetResponse

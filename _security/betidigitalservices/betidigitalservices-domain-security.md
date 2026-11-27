@@ -35,5 +35,4 @@ tags:
 - E-Commerce
 - Marketplace Services
 - Web Development
-- AI Solutions
 ---

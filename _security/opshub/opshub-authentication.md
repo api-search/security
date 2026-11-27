@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Opshub Authentication
+name: OpsHub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: OpsHub declares 1 security scheme(s) across its OpenAPI definitions.

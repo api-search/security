@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Betrend Im Domain Security
+name: betrend - Live Scores, Odds, Racing and Lottery Results Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for betrend - Live Scores, Odds, Racing and Lottery Results, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC present (p=quarantine).'
 provider_name: betrend - Live Scores, Odds, Racing and Lottery Results

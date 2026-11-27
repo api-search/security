@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Platfone Com Authentication
+name: platfone-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: platfone-com declares 0 security scheme(s) across its OpenAPI definitions.

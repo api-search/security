@@ -5,7 +5,7 @@ api_specs:
   label: Arkham Entity Intelligence API
   slug: entity-api
   spec_type: AsyncAPI
-  url: https://raw.githubusercontent.com/api-evangelist/arkham-intelligence/refs/heads/main/asyncapi/arkham-intelligence-asyncapi.yml
+  url: https://artifacts.apis.io/arkham-intelligence/asyncapi/arkham-intelligence-asyncapi.yml
 description: ''
 domains:
 - caa: []

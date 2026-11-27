@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Digitalowl Trust Center
+name: DigitalOwl Trust Center
 name_suffix: Trust Center
 overview: DigitalOwl maintains a public trust center documenting SOC 2, SOC 2 Type II, HIPAA, and GDPR compliance.
 provider_name: DigitalOwl

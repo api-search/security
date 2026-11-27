@@ -605,7 +605,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Anyapi Trust Center
+name: AnyAPI Trust Center
 name_suffix: Trust Center
 overview: AnyAPI maintains a public trust center covering its security and compliance posture.
 provider_name: AnyAPI

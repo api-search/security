@@ -188,7 +188,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Kontaktio Trust Center
+name: Kontakt.io Trust Center
 name_suffix: Trust Center
 overview: Kontakt.io maintains a public trust center documenting SOC 2 Type II, HIPAA Security Rule / HITECH, and GDPR compliance.
 provider_name: Kontakt.io

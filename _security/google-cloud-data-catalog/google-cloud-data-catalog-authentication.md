@@ -1,47 +1,61 @@
 ---
 anonymous_access: false
-api_key_in: []
+api_key_in:
+- query
 api_specs:
 - filename: google-cloud-data-catalog-catalog-api-openapi.yml
   format: yaml
-  label: Google Cloud Data Catalog API
+  label: Google Cloud Data Catalog Catalog API
   slug: google-cloud-data-catalog-catalog-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-catalog-api-openapi.yml
-- filename: google-cloud-data-catalog-entries-api-openapi.yml
+- filename: google-cloud-data-catalog-folders-api-openapi.yml
   format: yaml
-  label: Google Cloud Data Catalog Entries API
-  slug: google-cloud-data-catalog-entries-api
+  label: Google Cloud Data Catalog Folders API
+  slug: google-cloud-data-catalog-folders-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-entries-api-openapi.yml
-- filename: google-cloud-data-catalog-entrygroups-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-folders-api-openapi.yml
+- filename: google-cloud-data-catalog-organizations-api-openapi.yml
   format: yaml
-  label: Google Cloud Data Catalog EntryGroups API
-  slug: google-cloud-data-catalog-entrygroups-api
+  label: Google Cloud Data Catalog Organizations API
+  slug: google-cloud-data-catalog-organizations-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-entrygroups-api-openapi.yml
-- filename: google-cloud-data-catalog-tagtemplates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-organizations-api-openapi.yml
+- filename: google-cloud-data-catalog-projects-api-openapi.yml
   format: yaml
-  label: Google Cloud Data Catalog TagTemplates API
-  slug: google-cloud-data-catalog-tagtemplates-api
+  label: Google Cloud Data Catalog Projects API
+  slug: google-cloud-data-catalog-projects-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-tagtemplates-api-openapi.yml
+  url: https://artifacts.apis.io/google-cloud-data-catalog/openapi/google-cloud-data-catalog-projects-api-openapi.yml
 auth_types:
+- apiKey
 - oauth2
 description: ''
 kind: authentication
 layout: security
-mechanism_count: 1
+mechanism_count: 2
 method: derived
 name: Google Cloud Data Catalog Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode
-overview: Google Cloud Data Catalog secures its APIs with oauth2 across 1 declared security scheme, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
+overview: Google Cloud Data Catalog secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions. OAuth 2.0 is offered via the authorizationCode flow(s).
 provider_name: Google Cloud Data Catalog
 provider_slug: google-cloud-data-catalog
-scheme_count: 1
+scheme_count: 2
 schemes:
+- description: API key; accepted by methods that do not need user data.
+  in: query
+  name: apiKey
+  parameter: key
+  sources:
+  - openapi/google-cloud-data-catalog-datacatalog-catalog-api-openapi.yml
+  - openapi/google-cloud-data-catalog-datacatalog-organizations-api-openapi.yml
+  - openapi/google-cloud-data-catalog-datacatalog-projects-api-openapi.yml
+  - openapi/google-cloud-data-catalog-datalineage-folders-api-openapi.yml
+  - openapi/google-cloud-data-catalog-datalineage-organizations-api-openapi.yml
+  - openapi/google-cloud-data-catalog-datalineage-projects-api-openapi.yml
+  type: apiKey
 - flows:
   - authorizationUrl: https://accounts.google.com/o/oauth2/auth
     flow: authorizationCode
@@ -49,15 +63,21 @@ schemes:
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
   sources:
-  - openapi/google-cloud-data-catalog-openapi.yml
+  - openapi/google-cloud-data-catalog-datacatalog-catalog-api-openapi.yml
+  - openapi/google-cloud-data-catalog-datacatalog-organizations-api-openapi.yml
+  - openapi/google-cloud-data-catalog-datacatalog-projects-api-openapi.yml
+  - openapi/google-cloud-data-catalog-datalineage-folders-api-openapi.yml
+  - openapi/google-cloud-data-catalog-datalineage-organizations-api-openapi.yml
+  - openapi/google-cloud-data-catalog-datalineage-projects-api-openapi.yml
   type: oauth2
 slug: google-cloud-data-catalog-authentication
 source_filename: google-cloud-data-catalog-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/google-cloud-data-catalog-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/google-cloud-data-catalog-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-cloud-data-catalog-datacatalog-catalog-api-openapi.yml, openapi/google-cloud-data-catalog-datacatalog-organizations-api-openapi.yml,\n  openapi/google-cloud-data-catalog-datacatalog-projects-api-openapi.yml, openapi/google-cloud-data-catalog-datalineage-folders-api-openapi.yml,\n  openapi/google-cloud-data-catalog-datalineage-organizations-api-openapi.yml, openapi/google-cloud-data-catalog-datalineage-projects-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  - oauth2\n  api_key_in:\n  - query\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: apiKey\n  type: apiKey\n  in: query\n  parameter: key\n  description: API key; accepted by methods that do not need user data.\n  sources:\n  - openapi/google-cloud-data-catalog-datacatalog-catalog-api-openapi.yml\n  - openapi/google-cloud-data-catalog-datacatalog-organizations-api-openapi.yml\n  - openapi/google-cloud-data-catalog-datacatalog-projects-api-openapi.yml\n\
+  \  - openapi/google-cloud-data-catalog-datalineage-folders-api-openapi.yml\n  - openapi/google-cloud-data-catalog-datalineage-organizations-api-openapi.yml\n  - openapi/google-cloud-data-catalog-datalineage-projects-api-openapi.yml\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/google-cloud-data-catalog-datacatalog-catalog-api-openapi.yml\n  - openapi/google-cloud-data-catalog-datacatalog-organizations-api-openapi.yml\n  - openapi/google-cloud-data-catalog-datacatalog-projects-api-openapi.yml\n  - openapi/google-cloud-data-catalog-datalineage-folders-api-openapi.yml\n  - openapi/google-cloud-data-catalog-datalineage-organizations-api-openapi.yml\n  - openapi/google-cloud-data-catalog-datalineage-projects-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-cloud-data-catalog/authentication/google-cloud-data-catalog-authentication.yml
-summary_line: oauth2 · 1 scheme
+summary_line: apiKey/oauth2 · 2 schemes
 tags:
 - Data Catalog
 - Data Governance

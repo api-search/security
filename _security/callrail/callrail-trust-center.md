@@ -23,7 +23,7 @@ certifications:
 description: CallRail runs a Conveyor-hosted Trust Center at trust.callrail.com and a public Security & Compliance page at callrail.com/security that names each certification and links a PDF or certificate for it.
 kind: trust-center
 layout: security
-name: Callrail Trust Center
+name: CallRail Trust Center
 name_suffix: Trust Center
 overview: CallRail maintains a public trust center documenting ISO 42001, SOC 2 Type II, HIPAA/HITECH, PCI, GDPR, and CCPA compliance.
 provider_name: CallRail

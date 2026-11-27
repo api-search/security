@@ -48,7 +48,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Openrouter Trust Center
+name: OpenRouter Trust Center
 name_suffix: Trust Center
 overview: OpenRouter maintains a public trust center documenting SOC 2 compliance.
 provider_name: OpenRouter

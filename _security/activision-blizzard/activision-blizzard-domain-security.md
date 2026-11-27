@@ -506,28 +506,32 @@ hosts:
   hsts: false
   https: true
   tls_version: TLSv1.2
-- cert_expires: Apr 19 23:59:59 2027 GMT
-  host: develop.battle.net
+- cert_expires: Apr 28 23:59:59 2027 GMT
+  host: community.developer.battle.net
   hsts: true
   hsts_max_age: 31536000
   https: true
   tls_version: TLSv1.2
-- host: gateway.battlenet.com.cn
-  https: false
+- cert_expires: Apr 17 23:59:59 2027 GMT
+  host: oauth.battle.net
+  hsts: true
+  hsts_max_age: 31536000
+  https: true
+  tls_version: TLSv1.3
 hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
 name: Activision Blizzard Domain Security
 name_suffix: Domain Security
-overview: 'Domain security posture for Activision Blizzard, probed live across 3 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
+overview: 'Domain security posture for Activision Blizzard, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Activision Blizzard
 provider_slug: activision-blizzard
 slug: activision-blizzard-domain-security
 source_filename: activision-blizzard-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-11-04'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.activisionblizzard.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: May  5 23:59:59 2027 GMT\n  hsts: false\n- host: develop.battle.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 19 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: gateway.battlenet.com.cn\n  https: false\ndomains:\n- domain: activisionblizzard.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: battle.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
+source_yaml: "generated: '2026-11-12'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: www.activisionblizzard.com\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: May  5 23:59:59 2027 GMT\n  hsts: false\n- host: community.developer.battle.net\n  https: true\n  tls_version: TLSv1.2\n  cert_expires: Apr 28 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\n- host: oauth.battle.net\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Apr 17 23:59:59 2027 GMT\n  hsts: true\n  hsts_max_age: 31536000\ndomains:\n- domain: activisionblizzard.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n- domain: battle.net\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: reject\n"
 source_yaml_url: https://artifacts.apis.io/activision-blizzard/security/activision-blizzard-domain-security.yml
 summary_line: TLSv1.2 · HSTS · DMARC
 tags:

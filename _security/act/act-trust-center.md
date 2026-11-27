@@ -77,7 +77,7 @@ certifications:
 description: 'Act! has no trust-center portal — no Vanta/Drata/SafeBase page, no self-service report request. What it publishes is a downloadable Security and Privacy whitepaper that names its audits and its hosting posture, plus a marketing page explaining what SOC 2 and SOC 3 mean. The audit reports themselves are gated: the SOC 2 report requires an NDA and the SOC 3 report is "available on request".'
 kind: trust-center
 layout: security
-name: Act Trust Center
+name: Act! CRM Trust Center
 name_suffix: Trust Center
 overview: Act! CRM maintains a public trust center documenting SOC 2, SOC 3, ISO 27001, PCI DSS, HIPAA, and FedRAMP compliance.
 provider_name: Act! CRM

@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: derived
-name: University Of Leeds Authentication
+name: University of Leeds Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Leeds declares 0 security scheme(s) across its OpenAPI definitions.

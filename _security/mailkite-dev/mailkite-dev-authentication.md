@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Mailkite Dev Authentication
+name: mailkite-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: mailkite-dev declares 1 security scheme(s) across its OpenAPI definitions.

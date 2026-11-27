@@ -171,7 +171,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dosespot Trust Center
+name: DoseSpot Trust Center
 name_suffix: Trust Center
 overview: DoseSpot maintains a public trust center documenting SOC 2 Type 2, HIPAA, PCI DSS, and NIST compliance.
 provider_name: DoseSpot

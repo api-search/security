@@ -126,12 +126,6 @@ api_specs:
   slug: amcs-group-appliedcost-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-appliedcost-api-openapi.yml
-- filename: amcs-group-areaoforigin-api-openapi.yml
-  format: yaml
-  label: AMCS Group AreaOfOrigin API
-  slug: amcs-group-areaoforigin-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-areaoforigin-api-openapi.yml
 - filename: amcs-group-asset-api-openapi.yml
   format: yaml
   label: AMCS Group Asset API
@@ -144,18 +138,6 @@ api_specs:
   slug: amcs-group-assignedudfs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-assignedudfs-api-openapi.yml
-- filename: amcs-group-auth-api-openapi.yml
-  format: yaml
-  label: AMCS Group Auth API
-  slug: amcs-group-auth-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-auth-api-openapi.yml
-- filename: amcs-group-authentication-api-openapi.yml
-  format: yaml
-  label: AMCS Group Authentication API
-  slug: amcs-group-authentication-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-authentication-api-openapi.yml
 - filename: amcs-group-authstatus-api-openapi.yml
   format: yaml
   label: AMCS Group AuthStatus API
@@ -666,12 +648,6 @@ api_specs:
   slug: amcs-group-invoicefrequency-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-invoicefrequency-api-openapi.yml
-- filename: amcs-group-job-api-openapi.yml
-  format: yaml
-  label: AMCS Group Job API
-  slug: amcs-group-job-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-job-api-openapi.yml
 - filename: amcs-group-jobcancel-api-openapi.yml
   format: yaml
   label: AMCS Group JobCancel API
@@ -882,12 +858,6 @@ api_specs:
   slug: amcs-group-ordercombinationgrouping-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-ordercombinationgrouping-api-openapi.yml
-- filename: amcs-group-outlet-api-openapi.yml
-  format: yaml
-  label: AMCS Group Outlet API
-  slug: amcs-group-outlet-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-outlet-api-openapi.yml
 - filename: amcs-group-outlettype-api-openapi.yml
   format: yaml
   label: AMCS Group OutletType API
@@ -1296,12 +1266,6 @@ api_specs:
   slug: amcs-group-udfworkflowactivity-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-udfworkflowactivity-api-openapi.yml
-- filename: amcs-group-user-api-openapi.yml
-  format: yaml
-  label: AMCS Group User API
-  slug: amcs-group-user-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-user-api-openapi.yml
 - filename: amcs-group-userpreference-api-openapi.yml
   format: yaml
   label: AMCS Group UserPreference API
@@ -1380,12 +1344,6 @@ api_specs:
   slug: amcs-group-weighing-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-weighing-api-openapi.yml
-- filename: amcs-group-weighingtype-api-openapi.yml
-  format: yaml
-  label: AMCS Group WeighingType API
-  slug: amcs-group-weighingtype-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-weighingtype-api-openapi.yml
 - filename: amcs-group-weightblob-api-openapi.yml
   format: yaml
   label: AMCS Group WeightBlob API
@@ -1464,12 +1422,30 @@ api_specs:
   slug: amcs-group-api-documentation-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-api-documentation-api-openapi.yml
+- filename: amcs-group-areaoforigin-api-openapi.yml
+  format: yaml
+  label: AMCS Group Area Of Origin API
+  slug: amcs-group-areaoforigin-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-areaoforigin-api-openapi.yml
+- filename: amcs-group-auth-api-openapi.yml
+  format: yaml
+  label: AMCS Group Auth API
+  slug: amcs-group-auth-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-auth-api-openapi.yml
 - filename: amcs-group-auth-token-api-openapi.yml
   format: yaml
   label: AMCS Group Auth - Token API
   slug: amcs-group-auth-token-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-auth-token-api-openapi.yml
+- filename: amcs-group-authentication-api-openapi.yml
+  format: yaml
+  label: AMCS Group Authentication API
+  slug: amcs-group-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-authentication-api-openapi.yml
 - filename: amcs-group-check-balance-api-openapi.yml
   format: yaml
   label: AMCS Group Check Balance API
@@ -1494,6 +1470,12 @@ api_specs:
   slug: amcs-group-customer-group-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-customer-group-api-openapi.yml
+- filename: amcs-group-job-api-openapi.yml
+  format: yaml
+  label: AMCS Group Job API
+  slug: amcs-group-job-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-job-api-openapi.yml
 - filename: amcs-group-job-log-api-openapi.yml
   format: yaml
   label: AMCS Group Job Log API
@@ -1512,6 +1494,12 @@ api_specs:
   slug: amcs-group-master-account-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-master-account-api-openapi.yml
+- filename: amcs-group-outlet-api-openapi.yml
+  format: yaml
+  label: AMCS Group Outlet API
+  slug: amcs-group-outlet-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-outlet-api-openapi.yml
 - filename: amcs-group-payment-term-api-openapi.yml
   format: yaml
   label: AMCS Group Payment Term API
@@ -1560,6 +1548,18 @@ api_specs:
   slug: amcs-group-unit-of-measure-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-unit-of-measure-api-openapi.yml
+- filename: amcs-group-user-api-openapi.yml
+  format: yaml
+  label: AMCS Group User API
+  slug: amcs-group-user-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-user-api-openapi.yml
+- filename: amcs-group-weighingtype-api-openapi.yml
+  format: yaml
+  label: AMCS Group Weighing Type API
+  slug: amcs-group-weighingtype-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amcs-group/openapi/amcs-group-weighingtype-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -1596,7 +1596,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Amcs Group Domain Security
+name: AMCS Group Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for AMCS Group, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.2); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: AMCS Group

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Leaf4Life Authentication
+name: LEAF4Life Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: LEAF4Life declares 1 security scheme(s) across its OpenAPI definitions.

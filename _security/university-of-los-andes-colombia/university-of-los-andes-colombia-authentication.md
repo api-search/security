@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: University Of Los Andes Colombia Authentication
+name: University of Los Andes Colombia Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Los Andes Colombia secures its APIs with openIdConnect, saml2, and none across 3 declared security schemes, as derived from its OpenAPI definitions.

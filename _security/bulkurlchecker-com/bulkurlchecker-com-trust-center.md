@@ -217,7 +217,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bulkurlchecker Com Trust Center
+name: Bulk URL Checker Trust Center
 name_suffix: Trust Center
 overview: Bulk URL Checker maintains a public trust center documenting PCI DSS and GDPR compliance.
 provider_name: Bulk URL Checker
@@ -232,7 +232,7 @@ summary_line: PCI DSS, GDPR
 tags:
 - Bulk URL Checker
 - Link Checking
-- SEO tools
+- SEO Tools
 - API Service
 - Automation
 - Company

@@ -16,7 +16,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Xiaomishu Domain Security
+name: Xiaomishu (订餐小秘书) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Xiaomishu (订餐小秘书), probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS; 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Xiaomishu (订餐小秘书)

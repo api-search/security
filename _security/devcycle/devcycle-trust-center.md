@@ -157,7 +157,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Devcycle Trust Center
+name: DevCycle Trust Center
 name_suffix: Trust Center
 overview: DevCycle maintains a public trust center documenting SOC 2 Type II and GDPR compliance.
 provider_name: DevCycle

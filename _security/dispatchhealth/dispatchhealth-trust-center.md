@@ -4,7 +4,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Dispatchhealth Trust Center
+name: DispatchHealth Trust Center
 name_suffix: Trust Center
 overview: DispatchHealth maintains a public trust center covering its security and compliance posture.
 provider_name: DispatchHealth

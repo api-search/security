@@ -62,12 +62,6 @@ api_specs:
   slug: altimate-ai-auth-health-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-auth-health-api-openapi.yml
-- filename: altimate-ai-azure-databricks-connections-api-openapi.yml
-  format: yaml
-  label: Altimate AI AZURE_DATABRICKS_CONNECTIONS API
-  slug: altimate-ai-azure-databricks-connections-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-azure-databricks-connections-api-openapi.yml
 - filename: altimate-ai-business-intelligence-api-openapi.yml
   format: yaml
   label: Altimate AI Business Intelligence API
@@ -152,12 +146,6 @@ api_specs:
   slug: altimate-ai-databricks-access-rules-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-databricks-access-rules-api-openapi.yml
-- filename: altimate-ai-databricks-ai-ml-services-api-openapi.yml
-  format: yaml
-  label: Altimate AI Databricks AI/ML Services API
-  slug: altimate-ai-databricks-ai-ml-services-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-databricks-ai-ml-services-api-openapi.yml
 - filename: altimate-ai-databricks-ai-studio-api-openapi.yml
   format: yaml
   label: Altimate AI Databricks AI Studio API
@@ -218,12 +206,6 @@ api_specs:
   slug: altimate-ai-databricks-savings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-databricks-savings-api-openapi.yml
-- filename: altimate-ai-databricks-spark-api-openapi.yml
-  format: yaml
-  label: Altimate AI Databricks Spark API
-  slug: altimate-ai-databricks-spark-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-databricks-spark-api-openapi.yml
 - filename: altimate-ai-databricks-users-api-openapi.yml
   format: yaml
   label: Altimate AI Databricks Users API
@@ -332,12 +314,6 @@ api_specs:
   slug: altimate-ai-entity-detection-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-entity-detection-api-openapi.yml
-- filename: altimate-ai-evals-api-openapi.yml
-  format: yaml
-  label: Altimate AI EVALS API
-  slug: altimate-ai-evals-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-evals-api-openapi.yml
 - filename: altimate-ai-events-api-openapi.yml
   format: yaml
   label: Altimate AI EVENTS API
@@ -428,12 +404,6 @@ api_specs:
   slug: altimate-ai-memory-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-memory-api-openapi.yml
-- filename: altimate-ai-metabase-api-openapi.yml
-  format: yaml
-  label: Altimate AI METABASE API
-  slug: altimate-ai-metabase-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-metabase-api-openapi.yml
 - filename: altimate-ai-metrics-api-openapi.yml
   format: yaml
   label: Altimate AI METRICS API
@@ -578,12 +548,6 @@ api_specs:
   slug: altimate-ai-scheduler-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-scheduler-api-openapi.yml
-- filename: altimate-ai-schedules-api-openapi.yml
-  format: yaml
-  label: Altimate AI SCHEDULES API
-  slug: altimate-ai-schedules-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-schedules-api-openapi.yml
 - filename: altimate-ai-sdk-api-openapi.yml
   format: yaml
   label: Altimate AI SDK API
@@ -614,12 +578,6 @@ api_specs:
   slug: altimate-ai-sso-group-mappings-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-sso-group-mappings-api-openapi.yml
-- filename: altimate-ai-subscriptions-api-openapi.yml
-  format: yaml
-  label: Altimate AI SUBSCRIPTIONS API
-  slug: altimate-ai-subscriptions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/altimate-ai/openapi/altimate-ai-subscriptions-api-openapi.yml
 - filename: altimate-ai-summary-api-openapi.yml
   format: yaml
   label: Altimate AI SUMMARY API
@@ -813,7 +771,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Altimate Ai Authentication
+name: Altimate AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Altimate AI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -272,7 +272,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Adro1B33 Authentication
+name: ADRO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ADRO declares 2 security scheme(s) across its OpenAPI definitions.

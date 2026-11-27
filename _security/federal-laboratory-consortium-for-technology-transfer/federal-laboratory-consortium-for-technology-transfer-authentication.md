@@ -17,7 +17,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Federal Laboratory Consortium For Technology Transfer Authentication
+name: Federal Laboratory Consortium for Technology Transfer Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Federal Laboratory Consortium for Technology Transfer secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

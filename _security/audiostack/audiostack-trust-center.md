@@ -67,7 +67,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Audiostack Trust Center
+name: AudioStack Trust Center
 name_suffix: Trust Center
 overview: AudioStack maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: AudioStack

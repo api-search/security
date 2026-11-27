@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Inherentlaboratories Com Authentication
+name: Inherent Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Inherent declares 1 security scheme(s) across its OpenAPI definitions.

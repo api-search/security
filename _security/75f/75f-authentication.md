@@ -2,6 +2,13 @@
 anonymous_access: false
 api_key_in:
 - header
+api_specs:
+- filename: 75f-openapi-generated.yml
+  format: yaml
+  label: 75F API
+  slug: 75f-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/75f/openapi/_ae-authored/75f-openapi-generated.yml
 auth_types:
 - oauth2
 - http

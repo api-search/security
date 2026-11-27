@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Addresstozip Jp Authentication
+name: addresstozip-jp Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: addresstozip-jp declares 0 security scheme(s) across its OpenAPI definitions.

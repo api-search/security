@@ -8,7 +8,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: University Of Wollongong Authentication
+name: University of Wollongong Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Wollongong secures its APIs with saml2 across 1 declared security scheme, as derived from its OpenAPI definitions.

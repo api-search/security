@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Claudeimagine Com Authentication
+name: Claude Imagine Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Claude Imagine declares 1 security scheme(s) across its OpenAPI definitions.
@@ -35,5 +35,5 @@ summary_line: 1 scheme
 tags:
 - AI Image Generation
 - Video Generation
-- Credit-Pricing
+- Credit Pricing
 ---

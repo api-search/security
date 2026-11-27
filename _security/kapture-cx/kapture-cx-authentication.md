@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Kapture Cx Authentication
+name: Kapture CX Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Kapture CX declares 1 security scheme(s) across its OpenAPI definitions.

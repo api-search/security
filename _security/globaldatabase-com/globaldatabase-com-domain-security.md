@@ -84,6 +84,12 @@ api_specs:
   slug: globaldatabase-com-well-known-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-well-known-api-openapi.yml
+- filename: globaldatabase-com-osb-api-openapi.yml
+  format: yaml
+  label: Global Database Osb API
+  slug: globaldatabase-com-osb-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/globaldatabase-com/openapi/globaldatabase-com-osb-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -109,7 +115,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Globaldatabase Com Domain Security
+name: Global Database Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Global Database, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: Global Database

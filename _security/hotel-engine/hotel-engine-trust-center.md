@@ -30,7 +30,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Hotel Engine Trust Center
+name: Engine Trust Center
 name_suffix: Trust Center
 overview: Engine maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: Engine

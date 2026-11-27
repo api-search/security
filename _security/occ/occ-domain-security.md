@@ -36,7 +36,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Occ Domain Security
+name: Office of the Comptroller of the Currency (OCC) Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Office of the Comptroller of the Currency (OCC), probed live across 2 host(s) and 2 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.2); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Office of the Comptroller of the Currency (OCC)

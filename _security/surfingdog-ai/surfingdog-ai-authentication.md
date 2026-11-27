@@ -86,7 +86,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Surfingdog Ai Authentication
+name: surfingdog-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: surfingdog-ai declares 1 security scheme(s) across its OpenAPI definitions.
@@ -108,7 +108,6 @@ summary_line: 1 scheme
 tags:
 - Company
 - Artificial Intelligence
-- Agent Ready
 - Directory
 - Inbox
 ---

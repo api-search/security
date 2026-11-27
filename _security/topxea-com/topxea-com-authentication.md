@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Topxea Com Authentication
+name: topxea-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: topxea-com declares 2 security scheme(s) across its OpenAPI definitions.

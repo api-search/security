@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: R1 Rcm Trust Center
+name: R1 RCM Trust Center
 name_suffix: Trust Center
 overview: R1 RCM maintains a public trust center documenting SOC 2, PCI DSS, and HIPAA compliance.
 provider_name: R1 RCM

@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Ispottv Authentication
+name: iSpot.tv Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

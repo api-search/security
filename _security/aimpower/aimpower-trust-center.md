@@ -4,7 +4,7 @@ certifications: []
 description: 'Brainsuite operates a public trust centre at trust.brainsuite.ai, hosted by Vanta on its EU tenant (trust-report slug fithz68u9jp7dwx30lhfo, document title "Brainsuite.ai Trust Center"). The page is live and is a real trust report, but its entire body renders client-side: the served HTML is a 5.6KB shell that answers HTTP 200 for every path under the host, and no Vanta JSON endpoint reachable anonymously returns the report content. No certification name could therefore be read, and none is recorded below. Because no certification is readable, no Compliance pointer is emitted for this provider - the trust centre''s existence is a fact; its contents are not something this pass can assert.'
 kind: trust-center
 layout: security
-name: Aimpower Trust Center
+name: Brainsuite.ai Trust Center
 name_suffix: Trust Center
 overview: Brainsuite.ai maintains a public trust center covering its security and compliance posture.
 provider_name: Brainsuite.ai

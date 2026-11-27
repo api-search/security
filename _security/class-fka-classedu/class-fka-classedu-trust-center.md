@@ -49,7 +49,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Class Fka Classedu Trust Center
+name: Class (fka ClassEDU) Trust Center
 name_suffix: Trust Center
 overview: Class (fka ClassEDU) maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Class (fka ClassEDU)

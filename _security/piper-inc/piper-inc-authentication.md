@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Piper Inc Authentication
+name: Piper Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

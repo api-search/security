@@ -23,7 +23,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Aol Authentication
+name: AOL Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

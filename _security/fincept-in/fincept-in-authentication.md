@@ -227,7 +227,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Fincept In Authentication
+name: Fincept Terminal Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fincept Terminal secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.
@@ -281,5 +281,5 @@ tags:
 - Backtesting
 - Portfolio Management
 - MCP
-- Agentic AI
+- AI Agents
 ---

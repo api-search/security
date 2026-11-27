@@ -8,13 +8,25 @@ api_specs:
   slug: flatin-pt-public-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/flatin-pt/openapi/flatin-pt-public-api-openapi.yml
+- filename: flatin-pt-actions-api-openapi.yml
+  format: yaml
+  label: flatin.pt Actions API
+  slug: flatin-pt-actions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/flatin-pt/openapi/flatin-pt-actions-api-openapi.yml
+- filename: flatin-pt-places-api-openapi.yml
+  format: yaml
+  label: flatin.pt Places API
+  slug: flatin-pt-places-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/flatin-pt/openapi/flatin-pt-places-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Flatin Pt Authentication
+name: flatin.pt Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: flatin.pt declares 1 security scheme(s) across its OpenAPI definitions.

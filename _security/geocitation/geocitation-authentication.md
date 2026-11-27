@@ -89,7 +89,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Geocitation Authentication
+name: GEOCitation Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: GEOCitation secures its APIs with http and apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -48,7 +48,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Snaptrade Trust Center
+name: SnapTrade Trust Center
 name_suffix: Trust Center
 overview: SnapTrade maintains a public trust center documenting SOC 2 compliance.
 provider_name: SnapTrade

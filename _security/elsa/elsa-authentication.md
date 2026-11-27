@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Elsa Authentication
+name: ELSA Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ELSA secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

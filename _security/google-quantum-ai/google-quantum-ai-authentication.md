@@ -45,7 +45,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Quantum Ai Authentication
+name: Google Quantum AI Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

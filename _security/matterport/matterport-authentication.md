@@ -12,7 +12,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Matterport Authentication
+name: MatterPort Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -46,7 +46,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cloudwatch Trust Center
+name: AWS CloudWatch Trust Center
 name_suffix: Trust Center
 overview: AWS CloudWatch maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: AWS CloudWatch

@@ -32,7 +32,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Email On Acid Trust Center
+name: Email on Acid Trust Center
 name_suffix: Trust Center
 overview: Email on Acid maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Email on Acid

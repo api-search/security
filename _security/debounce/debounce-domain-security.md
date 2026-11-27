@@ -109,7 +109,7 @@ hosts_probed: 7
 kind: domain-security
 layout: security
 method: probed
-name: Debounce Domain Security
+name: DeBounce Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for DeBounce, probed live across 7 host(s) and 2 registrable domain(s). 7 host(s) serve HTTPS (up to TLSv1.3); 3 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: DeBounce

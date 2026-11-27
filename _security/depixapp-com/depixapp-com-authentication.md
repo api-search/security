@@ -64,7 +64,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Depixapp Com Authentication
+name: DePix App Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DePix App secures its APIs with http and signed-request across 3 declared security schemes, as derived from its OpenAPI definitions.

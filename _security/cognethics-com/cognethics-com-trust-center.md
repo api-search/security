@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cognethics Com Trust Center
+name: Cognethics Trust Center
 name_suffix: Trust Center
 overview: Cognethics maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: Cognethics

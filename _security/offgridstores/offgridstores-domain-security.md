@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Offgridstores Domain Security
+name: Off Grid Stores - All Things Off-Grid Solar Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Off Grid Stores - All Things Off-Grid Solar, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Off Grid Stores - All Things Off-Grid Solar

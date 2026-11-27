@@ -13,7 +13,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Dobby Ai Com Trust Center
+name: Dobby AI Trust Center
 name_suffix: Trust Center
 overview: Dobby AI maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Dobby AI

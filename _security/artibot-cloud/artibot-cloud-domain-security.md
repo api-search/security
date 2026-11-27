@@ -16,7 +16,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Artibot Cloud Domain Security
+name: 智匠云 Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for 智匠云, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF absent, DMARC absent.'
 provider_name: 智匠云

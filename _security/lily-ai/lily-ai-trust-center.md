@@ -125,7 +125,7 @@ certifications: []
 description: ''
 kind: trust-center
 layout: security
-name: Lily Ai Trust Center
+name: Lily AI Trust Center
 name_suffix: Trust Center
 overview: Lily AI maintains a public trust center covering its security and compliance posture.
 provider_name: Lily AI

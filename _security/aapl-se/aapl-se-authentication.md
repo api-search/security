@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Aapl Se Authentication
+name: Apple Nyheter Sverige Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Apple Nyheter Sverige declares 0 security scheme(s) across its OpenAPI definitions.

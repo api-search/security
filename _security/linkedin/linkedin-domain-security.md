@@ -24,12 +24,6 @@ api_specs:
   slug: linkedin-ad-accounts-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-accounts-api-openapi.yml
-- filename: linkedin-ad-targeting-entities-api-openapi.yml
-  format: yaml
-  label: LinkedIn Ad Targeting Entities API
-  slug: linkedin-ad-targeting-entities-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-targeting-entities-api-openapi.yml
 - filename: linkedin-advertiser-transparency-api-openapi.yml
   format: yaml
   label: LinkedIn Advertiser Transparency API
@@ -414,6 +408,12 @@ api_specs:
   slug: linkedin-ad-creatives-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-creatives-api-openapi.yml
+- filename: linkedin-ad-targeting-entities-api-openapi.yml
+  format: yaml
+  label: LinkedIn Ad Targeting Entities API
+  slug: linkedin-ad-targeting-entities-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/linkedin/openapi/linkedin-ad-targeting-entities-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -439,7 +439,7 @@ hosts_probed: 2
 kind: domain-security
 layout: security
 method: probed
-name: Linkedin Domain Security
+name: LinkedIn Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for LinkedIn, probed live across 2 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: LinkedIn

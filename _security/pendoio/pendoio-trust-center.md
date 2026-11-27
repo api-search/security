@@ -104,7 +104,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pendoio Trust Center
+name: Pendo.io Trust Center
 name_suffix: Trust Center
 overview: Pendo.io maintains a public trust center documenting SOC 2, HIPAA, and TX-RAMP compliance.
 provider_name: Pendo.io

@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Datadoe Com Trust Center
+name: DataDoe Trust Center
 name_suffix: Trust Center
 overview: DataDoe maintains a public trust center documenting GDPR compliance.
 provider_name: DataDoe

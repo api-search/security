@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Oreilly Com Trust Center
+name: oreilly-com Trust Center
 name_suffix: Trust Center
 overview: oreilly-com maintains a public trust center documenting SOC 2, PCI DSS, and GDPR compliance.
 provider_name: oreilly-com

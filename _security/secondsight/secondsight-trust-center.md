@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Secondsight Trust Center
+name: SecondSight Trust Center
 name_suffix: Trust Center
 overview: SecondSight maintains a public trust center documenting SOC 2 compliance.
 provider_name: SecondSight

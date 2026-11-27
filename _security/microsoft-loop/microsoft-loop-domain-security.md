@@ -1,4 +1,11 @@
 ---
+api_specs:
+- filename: microsoft-loop-storage-filestorage-api-openapi.yml
+  format: yaml
+  label: Microsoft Loop Storage.file Storage API
+  slug: microsoft-loop-storage-filestorage-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-loop/openapi/microsoft-loop-storage-filestorage-api-openapi.yml
 description: ''
 domains:
 - caa:
@@ -47,4 +54,5 @@ tags:
 - Microsoft
 - Microsoft 365
 - Productivity
+- Workspace
 ---

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Drwho Me Authentication
+name: drwho-me Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: drwho-me declares 0 security scheme(s) across its OpenAPI definitions.

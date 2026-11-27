@@ -23,7 +23,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Skinory Authentication
+name: Skinory (submitted as g2push) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Skinory (submitted as g2push) secures its APIs with apiKey and http across 2 declared security schemes, as derived from its OpenAPI definitions.

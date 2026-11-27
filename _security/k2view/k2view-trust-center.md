@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: K2View Trust Center
+name: K2view Trust Center
 name_suffix: Trust Center
 overview: K2view maintains a public trust center documenting SOC 2, ISO 27001, ISO 27017, ISO 27018, GDPR, and FIPS 140 compliance.
 provider_name: K2view

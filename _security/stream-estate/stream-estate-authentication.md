@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Stream Estate Authentication
+name: stream-estate Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: stream-estate declares 1 security scheme(s) across its OpenAPI definitions.

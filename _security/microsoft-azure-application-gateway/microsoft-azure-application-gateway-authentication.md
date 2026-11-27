@@ -2,18 +2,36 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: microsoft-azure-application-gateway-applicationgatewayprivateendpointconnections-api-openapi.yml
+  format: yaml
+  label: Azure Application Gateway Application Gateway Private Endpoint Connections API
+  slug: microsoft-azure-application-gateway-applicationgatewayprivateendpointconnections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-application-gateway/openapi/microsoft-azure-application-gateway-applicationgatewayprivateendpointconnections-api-openapi.yml
+- filename: microsoft-azure-application-gateway-applicationgatewayprivatelinkresources-api-openapi.yml
+  format: yaml
+  label: Azure Application Gateway Application Gateway Private Link Resources API
+  slug: microsoft-azure-application-gateway-applicationgatewayprivatelinkresources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-application-gateway/openapi/microsoft-azure-application-gateway-applicationgatewayprivatelinkresources-api-openapi.yml
+- filename: microsoft-azure-application-gateway-subscriptions-api-openapi.yml
+  format: yaml
+  label: Azure Application Gateway Subscriptions API
+  slug: microsoft-azure-application-gateway-subscriptions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-application-gateway/openapi/microsoft-azure-application-gateway-subscriptions-api-openapi.yml
+- filename: microsoft-azure-application-gateway-webapplicationfirewallpolicies-api-openapi.yml
+  format: yaml
+  label: Azure Application Gateway Web Application Firewall Policies API
+  slug: microsoft-azure-application-gateway-webapplicationfirewallpolicies-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-azure-application-gateway/openapi/microsoft-azure-application-gateway-webapplicationfirewallpolicies-api-openapi.yml
 - filename: microsoft-azure-application-gateway-application-gateways-api-openapi.yml
   format: yaml
   label: Azure Application Gateway Application Gateways API
   slug: microsoft-azure-application-gateway-application-gateways-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-azure-application-gateway/openapi/microsoft-azure-application-gateway-application-gateways-api-openapi.yml
-- filename: microsoft-azure-application-gateway-operations-api-openapi.yml
-  format: yaml
-  label: Azure Application Gateway Operations API
-  slug: microsoft-azure-application-gateway-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-azure-application-gateway/openapi/microsoft-azure-application-gateway-operations-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -21,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Microsoft Azure Application Gateway Authentication
+name: Azure Application Gateway Authentication
 name_suffix: Authentication
 oauth_flows:
 - implicit
@@ -51,4 +69,6 @@ tags:
 - Load Balancing
 - Reverse Proxy
 - WAF
+- Microsoft Azure
+- Web Application Firewall
 ---

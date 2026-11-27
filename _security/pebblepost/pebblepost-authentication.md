@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Pebblepost Authentication
+name: PebblePost Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PebblePost secures its APIs with account-issued-identifier, out-of-band-credential-exchange, and interactive-login across 5 declared security schemes, as derived from its OpenAPI definitions.

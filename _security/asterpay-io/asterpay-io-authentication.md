@@ -62,7 +62,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Asterpay Io Authentication
+name: AsterPay Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AsterPay declares 2 security scheme(s) across its OpenAPI definitions.

@@ -8,7 +8,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cisco Aci Trust Center
+name: Cisco ACI Trust Center
 name_suffix: Trust Center
 overview: Cisco ACI maintains a public trust center documenting Common Criteria EAL2+ (ALC_FLR.2), Common Criteria EAL2, FIPS 140 (certificate 4747), and FIPS 140 compliance.
 provider_name: Cisco ACI

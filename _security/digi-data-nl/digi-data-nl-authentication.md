@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Digi Data Nl Authentication
+name: DigiData Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DigiData declares 2 security scheme(s) across its OpenAPI definitions.

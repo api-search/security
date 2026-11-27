@@ -101,7 +101,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Capepartners Fr Authentication
+name: Cape Partners Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cape Partners secures its APIs with apiKey across 6 declared security schemes, as derived from its OpenAPI definitions.

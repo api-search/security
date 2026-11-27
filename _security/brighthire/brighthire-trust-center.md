@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Brighthire Trust Center
+name: BrightHire Trust Center
 name_suffix: Trust Center
 overview: BrightHire maintains a public trust center documenting SOC 2 Type 2, GDPR, and CCPA compliance.
 provider_name: BrightHire

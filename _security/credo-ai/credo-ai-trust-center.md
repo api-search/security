@@ -240,25 +240,13 @@ api_specs:
   slug: credo-ai-relationship-types-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/credo-ai/openapi/credo-ai-relationship-types-api-openapi.yml
-- filename: credoai-audit-logs-api-openapi.yml
-  format: yaml
-  label: Credoai Audit Logs API
-  slug: credoai-audit-logs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/credo-ai/openapi/credoai-audit-logs-api-openapi.yml
-- filename: credoai-shadow-ai-api-openapi.yml
-  format: yaml
-  label: Credoai Shadow AI API
-  slug: credoai-shadow-ai-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/credo-ai/openapi/credoai-shadow-ai-api-openapi.yml
 certification_count: 1
 certifications:
 - SOC 2 Type II
 description: ''
 kind: trust-center
 layout: security
-name: Credo Ai Trust Center
+name: Credo AI Trust Center
 name_suffix: Trust Center
 overview: Credo AI maintains a public trust center documenting SOC 2 Type II compliance.
 provider_name: Credo AI

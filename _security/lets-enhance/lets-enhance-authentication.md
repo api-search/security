@@ -28,7 +28,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Lets Enhance Authentication
+name: Let's Enhance Authentication
 name_suffix: Authentication
 oauth_flows:
 - password

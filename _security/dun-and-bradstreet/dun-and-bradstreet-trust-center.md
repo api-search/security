@@ -62,7 +62,7 @@ certifications:
 description: Dun & Bradstreet publishes its security and compliance posture across a small set of public pages rather than a hosted trust-center product. There is no trust.dnb.com or security.dnb.com — both fail to resolve. The pages below are real, public and D&B-authored, and every certification recorded here is quoted from them.
 kind: trust-center
 layout: security
-name: Dun And Bradstreet Trust Center
+name: Dun & Bradstreet Trust Center
 name_suffix: Trust Center
 overview: Dun & Bradstreet maintains a public trust center documenting SOC 2 Type 2, SOC 3, ISO/IEC 27001:2022, ISO/IEC 27701, ISO 22301, PCI DSS, SIG, HIPAA, and GDPR compliance.
 provider_name: Dun & Bradstreet

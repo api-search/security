@@ -11,7 +11,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Unifyapps Authentication
+name: UnifyApps Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: UnifyApps secures its APIs with jwt, oauth2, basic, and custom across 4 declared security schemes, as derived from its OpenAPI definitions.

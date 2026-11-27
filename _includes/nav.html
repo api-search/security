@@ -16,9 +16,9 @@
   here is a hard build failure.)
 {%- endcomment -%}
 {%- assign nav = site.data.nav -%}
-<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+<nav class="navbar navbar-expand-xl navbar-light bg-white">
   <div class="container">
-    <a class="navbar-brand" href="https://apis.io/" aria-label="apis.io home"><img src="/assets/branding/apisio-wordmark-white.png" alt="apis.io"></a>
+    <a class="navbar-brand" href="https://apis.io/" aria-label="apis.io home"><img src="/assets/branding/apisio-wordmark-black.png" alt="apis.io"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -73,7 +73,7 @@
         <input class="form-control form-control-sm" type="search" name="{{ nav.search.param | default: 'search' }}" placeholder="{{ nav.search.placeholder | default: 'Search APIs…' }}" aria-label="Search APIs">
       </form>
       {%- if nav.cta -%}
-        <a class="btn btn-sm btn-outline-light navbar-cta" href="{{ nav.cta.url }}">{{ nav.cta.label }}</a>
+        <a class="btn btn-sm btn-dark navbar-cta" href="{{ nav.cta.url }}">{{ nav.cta.label }}</a>
       {%- endif -%}
     </div>
   </div>

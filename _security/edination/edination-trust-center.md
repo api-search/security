@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Edination Trust Center
+name: EdiNation Trust Center
 name_suffix: Trust Center
 overview: EdiNation maintains a public trust center documenting HIPAA compliance.
 provider_name: EdiNation

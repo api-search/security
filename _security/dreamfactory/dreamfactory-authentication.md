@@ -8,7 +8,7 @@ api_specs:
   label: DreamFactory System API
   slug: system-api
   spec_type: OpenAPI
-  url: https://raw.githubusercontent.com/api-evangelist/dreamfactory/refs/heads/main/openapi/dreamfactory-system-api-openapi.yml
+  url: https://artifacts.apis.io/dreamfactory/openapi/dreamfactory-system-api-openapi.yml
 - filename: dreamfactory-admin-api-openapi.yml
   format: yaml
   label: DreamFactory Admin API
@@ -106,7 +106,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Dreamfactory Authentication
+name: DreamFactory Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DreamFactory secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

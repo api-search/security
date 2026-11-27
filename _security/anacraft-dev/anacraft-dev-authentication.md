@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Anacraft Dev Authentication
+name: anacraft Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: anacraft declares 0 security scheme(s) across its OpenAPI definitions.

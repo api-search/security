@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Zekedoesai Com Authentication
+name: zekedoesai-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: zekedoesai-com declares 0 security scheme(s) across its OpenAPI definitions.

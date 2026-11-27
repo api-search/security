@@ -173,7 +173,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Apifreaks Api Hub For Developers Authentication
+name: APIFreaks - API Hub for Developers Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: APIFreaks - API Hub for Developers secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.
@@ -447,6 +447,5 @@ tags:
 - Astronomy
 - Developer Tools
 - MCP
-- Agent Ready
 - OCR
 ---

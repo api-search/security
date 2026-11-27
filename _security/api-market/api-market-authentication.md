@@ -1,86 +1,13 @@
 ---
 anonymous_access: false
 api_key_in: []
-api_specs:
-- filename: api-market-api-market-api-api-openapi.yml
-  format: yaml
-  label: API.market API.market API
-  slug: api-market-api-market-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-api-market-api-api-openapi.yml
-- filename: api-market-bridgeml-api-openapi.yml
-  format: yaml
-  label: API.market Bridgeml API
-  slug: api-market-bridgeml-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-bridgeml-api-openapi.yml
-- filename: api-market-images-api-openapi.yml
-  format: yaml
-  label: API.market Images API
-  slug: api-market-images-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-images-api-openapi.yml
-- filename: api-market-magicapi-api-openapi.yml
-  format: yaml
-  label: API.market Magicapi API
-  slug: api-market-magicapi-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-magicapi-api-openapi.yml
-- filename: api-market-mcp-api-openapi.yml
-  format: yaml
-  label: API.market MCP API
-  slug: api-market-mcp-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-mcp-api-openapi.yml
-- filename: api-market-models-api-openapi.yml
-  format: yaml
-  label: API.market Models API
-  slug: api-market-models-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-models-api-openapi.yml
-- filename: api-market-pipfeed-api-openapi.yml
-  format: yaml
-  label: API.market Pipfeed API
-  slug: api-market-pipfeed-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-pipfeed-api-openapi.yml
-- filename: api-market-predictions-api-openapi.yml
-  format: yaml
-  label: API.market Predictions API
-  slug: api-market-predictions-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-predictions-api-openapi.yml
-- filename: api-market-status-api-openapi.yml
-  format: yaml
-  label: API.market Status API
-  slug: api-market-status-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-status-api-openapi.yml
-- filename: api-market-subscription-api-openapi.yml
-  format: yaml
-  label: API.market Subscription API
-  slug: api-market-subscription-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-subscription-api-openapi.yml
-- filename: api-market-toonme-api-api-openapi.yml
-  format: yaml
-  label: API.market Toonme API
-  slug: api-market-toonme-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-toonme-api-api-openapi.yml
-- filename: api-market-user-api-openapi.yml
-  format: yaml
-  label: API.market User API
-  slug: api-market-user-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/api-market/openapi/api-market-user-api-openapi.yml
 auth_types: []
 description: ''
 kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Api Market Authentication
+name: API.market Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: API.market declares 2 security scheme(s) across its OpenAPI definitions.

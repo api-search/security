@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Changethisfile Com Authentication
+name: ChangeThisFile Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ChangeThisFile declares 1 security scheme(s) across its OpenAPI definitions.

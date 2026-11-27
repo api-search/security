@@ -61,7 +61,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Keywordsai Trust Center
+name: Keywords AI Trust Center
 name_suffix: Trust Center
 overview: Keywords AI maintains a public trust center documenting HIPAA and GDPR compliance.
 provider_name: Keywords AI

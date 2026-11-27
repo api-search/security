@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Taivps Authentication
+name: TaiVPS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TaiVPS declares 1 security scheme(s) across its OpenAPI definitions.

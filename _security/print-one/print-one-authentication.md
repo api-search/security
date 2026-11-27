@@ -71,7 +71,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Print One Authentication
+name: print-one Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

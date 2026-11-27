@@ -148,7 +148,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aws App Runner Trust Center
+name: AWS App Runner Trust Center
 name_suffix: Trust Center
 overview: AWS App Runner maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: AWS App Runner

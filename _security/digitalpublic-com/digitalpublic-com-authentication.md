@@ -56,12 +56,6 @@ api_specs:
   slug: digitalpublic-com-communications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-communications-api-openapi.yml
-- filename: digitalpublic-com-connections-api-openapi.yml
-  format: yaml
-  label: digitalpublic-com Connections API
-  slug: digitalpublic-com-connections-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-connections-api-openapi.yml
 - filename: digitalpublic-com-creatives-api-openapi.yml
   format: yaml
   label: digitalpublic-com Creatives API
@@ -146,12 +140,6 @@ api_specs:
   slug: digitalpublic-com-meta-ads-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-meta-ads-api-openapi.yml
-- filename: digitalpublic-com-navigator-api-openapi.yml
-  format: yaml
-  label: digitalpublic-com Navigator API
-  slug: digitalpublic-com-navigator-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-navigator-api-openapi.yml
 - filename: digitalpublic-com-orchestrator-api-openapi.yml
   format: yaml
   label: digitalpublic-com Orchestrator API
@@ -350,13 +338,25 @@ api_specs:
   slug: digitalpublic-com-use-cases-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-use-cases-api-openapi.yml
+- filename: digitalpublic-com-connections-api-openapi.yml
+  format: yaml
+  label: digitalpublic-com Connections API
+  slug: digitalpublic-com-connections-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-connections-api-openapi.yml
+- filename: digitalpublic-com-navigator-api-openapi.yml
+  format: yaml
+  label: digitalpublic-com Navigator API
+  slug: digitalpublic-com-navigator-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/digitalpublic-com/openapi/digitalpublic-com-navigator-api-openapi.yml
 auth_types: []
 description: 'DigitalPublic: the main operational MCP, authenticated with OAuth and restricted to the authorized project.'
 kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Digitalpublic Com Authentication
+name: digitalpublic-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: digitalpublic-com declares 1 security scheme(s) across its OpenAPI definitions.

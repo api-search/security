@@ -449,7 +449,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Co Operative Bank Authentication
+name: The Co-operative Bank Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Beaconsai Authentication
+name: Beacons.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Beacons.ai declares 1 security scheme(s) across its OpenAPI definitions.
@@ -52,7 +52,7 @@ summary_line: 1 scheme
 tags:
 - Company
 - Creator Economy
-- Link in Bio
+- Link-in-bio
 - Creator Website Builder
 - Creator Storefront
 - Media Kit

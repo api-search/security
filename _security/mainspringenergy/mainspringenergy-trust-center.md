@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mainspringenergy Trust Center
+name: Mainspring Energy Trust Center
 name_suffix: Trust Center
 overview: Mainspring Energy maintains a public trust center documenting SOC 2 and ISO 27001 compliance.
 provider_name: Mainspring Energy

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Canienter Com Authentication
+name: canienter-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: canienter-com declares 2 security scheme(s) across its OpenAPI definitions.

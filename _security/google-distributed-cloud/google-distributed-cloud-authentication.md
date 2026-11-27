@@ -49,13 +49,16 @@ schemes:
     tokenUrl: https://oauth2.googleapis.com/token
   name: oauth2
   sources:
-  - openapi/distributed-cloud-edge-network-api-openapi.yml
+  - openapi/google-distributed-cloud-networks-api-openapi.yml
+  - openapi/google-distributed-cloud-routers-api-openapi.yml
+  - openapi/google-distributed-cloud-subnets-api-openapi.yml
+  - openapi/google-distributed-cloud-zones-api-openapi.yml
   type: oauth2
 slug: google-distributed-cloud-authentication
 source_filename: google-distributed-cloud-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/distributed-cloud-edge-network-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/distributed-cloud-edge-network-api-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/google-distributed-cloud-networks-api-openapi.yml, openapi/google-distributed-cloud-routers-api-openapi.yml,\n  openapi/google-distributed-cloud-subnets-api-openapi.yml, openapi/google-distributed-cloud-zones-api-openapi.yml\nsummary:\n  types:\n  - oauth2\n  oauth2_flows:\n  - authorizationCode\nschemes:\n- name: oauth2\n  type: oauth2\n  flows:\n  - flow: authorizationCode\n    authorizationUrl: https://accounts.google.com/o/oauth2/auth\n    tokenUrl: https://oauth2.googleapis.com/token\n    scopes: 1\n  sources:\n  - openapi/google-distributed-cloud-networks-api-openapi.yml\n  - openapi/google-distributed-cloud-routers-api-openapi.yml\n  - openapi/google-distributed-cloud-subnets-api-openapi.yml\n  - openapi/google-distributed-cloud-zones-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/google-distributed-cloud/authentication/google-distributed-cloud-authentication.yml
 summary_line: oauth2 · 1 scheme
 tags:

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Manufact Authentication
+name: Manufact (formerly mcp-use) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Manufact (formerly mcp-use) declares 4 security scheme(s) across its OpenAPI definitions.

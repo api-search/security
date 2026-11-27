@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Atco Authentication
+name: ATCO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ATCO declares 0 security scheme(s) across its OpenAPI definitions.

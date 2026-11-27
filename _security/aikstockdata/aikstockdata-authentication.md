@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Aikstockdata Authentication
+name: 한국주식데이터 (aikstockdata) Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 한국주식데이터 (aikstockdata) declares 1 security scheme(s) across its OpenAPI definitions.

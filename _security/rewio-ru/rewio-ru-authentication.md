@@ -80,7 +80,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Rewio Ru Authentication
+name: rewio-ru Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: rewio-ru declares 1 security scheme(s) across its OpenAPI definitions.

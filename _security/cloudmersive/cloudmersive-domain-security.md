@@ -330,12 +330,6 @@ api_specs:
   slug: cloudmersive-postaggerstring-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-postaggerstring-api-openapi.yml
-- filename: cloudmersive-recognize-api-openapi.yml
-  format: yaml
-  label: Cloudmersive Recognize API
-  slug: cloudmersive-recognize-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-recognize-api-openapi.yml
 - filename: cloudmersive-redact-api-openapi.yml
   format: yaml
   label: Cloudmersive Redact API
@@ -396,12 +390,6 @@ api_specs:
   slug: cloudmersive-splitdocument-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-splitdocument-api-openapi.yml
-- filename: cloudmersive-tasksbatchjob-api-openapi.yml
-  format: yaml
-  label: Cloudmersive Tasks Batch Job API
-  slug: cloudmersive-tasksbatchjob-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-tasksbatchjob-api-openapi.yml
 - filename: cloudmersive-textgeneration-api-openapi.yml
   format: yaml
   label: Cloudmersive Text Generation API
@@ -492,12 +480,24 @@ api_specs:
   slug: cloudmersive-phone-number-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-phone-number-api-openapi.yml
+- filename: cloudmersive-recognize-api-openapi.yml
+  format: yaml
+  label: Cloudmersive Recognize API
+  slug: cloudmersive-recognize-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-recognize-api-openapi.yml
 - filename: cloudmersive-spell-check-api-openapi.yml
   format: yaml
   label: Cloudmersive Spell Check API
   slug: cloudmersive-spell-check-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-spell-check-api-openapi.yml
+- filename: cloudmersive-tasksbatchjob-api-openapi.yml
+  format: yaml
+  label: Cloudmersive Tasks Batch Job API
+  slug: cloudmersive-tasksbatchjob-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/cloudmersive/openapi/cloudmersive-tasksbatchjob-api-openapi.yml
 description: ''
 domains:
 - caa: []
@@ -507,7 +507,7 @@ domains:
   domain: cloudmersive.com
   spf: true
 hosts:
-- cert_expires: Oct 19 23:59:59 2026 GMT
+- cert_expires: Mar  6 23:59:59 2027 GMT
   host: cloudmersive.com
   hsts: false
   https: true
@@ -525,7 +525,7 @@ slug: cloudmersive-domain-security
 source_filename: cloudmersive-domain-security.yml
 source_heading: Domain Security
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloudmersive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Oct 19 23:59:59 2026 GMT\n  hsts: false\ndomains:\n- domain: cloudmersive.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
+source_yaml: "generated: '2026-11-05'\nmethod: probed\nsource: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts\nhosts:\n- host: cloudmersive.com\n  https: true\n  tls_version: TLSv1.3\n  cert_expires: Mar  6 23:59:59 2027 GMT\n  hsts: false\ndomains:\n- domain: cloudmersive.com\n  dnssec: false\n  caa: []\n  spf: true\n  dmarc: true\n  dmarc_policy: none\n"
 source_yaml_url: https://artifacts.apis.io/cloudmersive/security/cloudmersive-domain-security.yml
 summary_line: TLSv1.3 · DMARC
 tags:

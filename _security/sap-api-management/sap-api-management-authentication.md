@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Sap Api Management Authentication
+name: SAP API Management Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

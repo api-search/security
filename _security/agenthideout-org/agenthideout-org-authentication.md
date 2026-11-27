@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Agenthideout Org Authentication
+name: Agent Hideout Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agent Hideout declares 1 security scheme(s) across its OpenAPI definitions.

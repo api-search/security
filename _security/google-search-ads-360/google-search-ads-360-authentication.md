@@ -2,18 +2,114 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
+- filename: google-search-ads-360-audienceinsights-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting Audience Insights API
+  slug: google-search-ads-360-audienceinsights-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-audienceinsights-api-openapi.yml
+- filename: google-search-ads-360-conversion-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting Conversion API
+  slug: google-search-ads-360-conversion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-conversion-api-openapi.yml
 - filename: google-search-ads-360-customers-api-openapi.yml
   format: yaml
   label: Google Search Ads 360 Reporting Customers API
   slug: google-search-ads-360-customers-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-customers-api-openapi.yml
-- filename: google-search-ads-360-google-search-ads-360-reporting-api-api-openapi.yml
+- filename: google-search-ads-360-geotargetconstants-api-openapi.yml
   format: yaml
-  label: Google Search Ads 360 Reporting Google Search Ads 360 Reporting API
-  slug: google-search-ads-360-google-search-ads-360-reporting-api-api
+  label: Google Search Ads 360 Reporting Geo Target Constants API
+  slug: google-search-ads-360-geotargetconstants-api
   spec_type: OpenAPI
-  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-google-search-ads-360-reporting-api-api-openapi.yml
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-geotargetconstants-api-openapi.yml
+- filename: google-search-ads-360-incentives-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting Incentives API
+  slug: google-search-ads-360-incentives-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-incentives-api-openapi.yml
+- filename: google-search-ads-360-keywordthemeconstants-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting Keyword Theme Constants API
+  slug: google-search-ads-360-keywordthemeconstants-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-keywordthemeconstants-api-openapi.yml
+- filename: google-search-ads-360-reports-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting Reports API
+  slug: google-search-ads-360-reports-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-reports-api-openapi.yml
+- filename: google-search-ads-360-savedcolumns-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting Saved Columns API
+  slug: google-search-ads-360-savedcolumns-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-savedcolumns-api-openapi.yml
+- filename: google-search-ads-360-searchads360fields-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting Search Ads360 Fields API
+  slug: google-search-ads-360-searchads360fields-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-searchads360fields-api-openapi.yml
+- filename: google-search-ads-360-v23-generateconversionrates-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting V23:generate Conversion Rates API
+  slug: google-search-ads-360-v23-generateconversionrates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-v23-generateconversionrates-api-openapi.yml
+- filename: google-search-ads-360-v23-listbenchmarksavailabledates-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting V23:list Benchmarks Available Dates API
+  slug: google-search-ads-360-v23-listbenchmarksavailabledates-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-v23-listbenchmarksavailabledates-api-openapi.yml
+- filename: google-search-ads-360-v23-listbenchmarkslocations-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting V23:list Benchmarks Locations API
+  slug: google-search-ads-360-v23-listbenchmarkslocations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-v23-listbenchmarkslocations-api-openapi.yml
+- filename: google-search-ads-360-v23-listbenchmarksproducts-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting V23:list Benchmarks Products API
+  slug: google-search-ads-360-v23-listbenchmarksproducts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-v23-listbenchmarksproducts-api-openapi.yml
+- filename: google-search-ads-360-v23-listbenchmarkssources-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting V23:list Benchmarks Sources API
+  slug: google-search-ads-360-v23-listbenchmarkssources-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-v23-listbenchmarkssources-api-openapi.yml
+- filename: google-search-ads-360-v23-listplannablelocations-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting V23:list Plannable Locations API
+  slug: google-search-ads-360-v23-listplannablelocations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-v23-listplannablelocations-api-openapi.yml
+- filename: google-search-ads-360-v23-listplannableproducts-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting V23:list Plannable Products API
+  slug: google-search-ads-360-v23-listplannableproducts-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-v23-listplannableproducts-api-openapi.yml
+- filename: google-search-ads-360-v23-listplannableuserinterests-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting V23:list Plannable User Interests API
+  slug: google-search-ads-360-v23-listplannableuserinterests-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-v23-listplannableuserinterests-api-openapi.yml
+- filename: google-search-ads-360-v23-listplannableuserlists-api-openapi.yml
+  format: yaml
+  label: Google Search Ads 360 Reporting V23:list Plannable User Lists API
+  slug: google-search-ads-360-v23-listplannableuserlists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/google-search-ads-360/openapi/google-search-ads-360-v23-listplannableuserlists-api-openapi.yml
 auth_types:
 - oauth2
 description: ''
@@ -21,7 +117,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Google Search Ads 360 Authentication
+name: Google Search Ads 360 Reporting Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

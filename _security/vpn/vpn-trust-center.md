@@ -26,7 +26,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Vpn Trust Center
+name: VPN Trust Center
 name_suffix: Trust Center
 overview: VPN maintains a public trust center documenting SOC 2, PCI DSS, and HIPAA compliance.
 provider_name: VPN

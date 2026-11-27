@@ -23,7 +23,7 @@ kind: authentication
 layout: security
 mechanism_count: 7
 method: searched
-name: B Well Authentication
+name: b.well Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

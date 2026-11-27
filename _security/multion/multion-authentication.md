@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Multion Authentication
+name: MultiOn Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MultiOn declares 1 security scheme(s) across its OpenAPI definitions.

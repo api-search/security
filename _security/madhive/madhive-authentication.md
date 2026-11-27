@@ -408,7 +408,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Madhive Authentication
+name: MadHive Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

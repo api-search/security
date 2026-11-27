@@ -10,7 +10,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: probed
-name: Nsw Land Registry Authentication
+name: NSW Land Registry Services Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NSW Land Registry Services secures its APIs with none, contract-gated, and session-login across 6 declared security schemes, as derived from its OpenAPI definitions.

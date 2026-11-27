@@ -867,7 +867,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: 3Gpp Authentication
+name: 3GPP Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

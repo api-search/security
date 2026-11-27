@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Sofortfax De Authentication
+name: sofortfax-de Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: sofortfax-de declares 1 security scheme(s) across its OpenAPI definitions.

@@ -1,0 +1,23 @@
+{%- comment -%}
+  "Add to Stack" (Stack v2, 2026-11-12). One include for provider, API and Arazzo pages.
+
+  Params:
+    item   a JSON object string for the item, e.g. {"type":"provider","provider":"stripe"}
+    from   instead of item: a CSS selector whose checked input[data-stack-item] are added
+    label  button text (default "Add to Stack")
+    class  extra button classes (default "btn btn-outline-primary btn-sm")
+
+  Behaviour is in /assets/js/apisio-stack.js, loaded once per page. The stack lives on the
+  account and needs the Learn plan or above; signed-out and Explore visitors get a prompt.
+{%- endcomment -%}
+{%- assign _cls = include.class | default: "btn btn-outline-primary btn-sm" -%}
+<span class="add-to-stack">{% if include.from %}<button type="button" class="{{ _cls }}" data-add-to-stack-from="{{ include.from }}">{{ include.label | default: "Add to Stack" }}</button>{% else %}<button type="button" class="{{ _cls }}" data-add-to-stack='{{ include.item | strip | escape }}'>{{ include.label | default: "Add to Stack" }}</button>{% endif %}</span>
+{%- unless page.stack_js_loaded -%}
+<style>
+  .add-to-stack { display: inline-flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+  .stack-note { font-size: .8rem; color: #4b5563; }
+  .stack-note.is-ok { color: #166534; }
+  .stack-note.is-warn { color: #92400e; }
+</style>
+<script src="/assets/js/apisio-stack.js" defer></script>
+{%- endunless -%}

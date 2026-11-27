@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Trust Will Trust Center
+name: Trust & Will Trust Center
 name_suffix: Trust Center
 overview: Trust & Will maintains a public trust center documenting SOC 2 Type II and HIPAA compliance.
 provider_name: Trust & Will

@@ -134,7 +134,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Satohub Ai Authentication
+name: satohub-ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: satohub-ai declares 4 security scheme(s) across its OpenAPI definitions.

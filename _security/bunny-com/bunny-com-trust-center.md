@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bunny Com Trust Center
+name: Bunny Trust Center
 name_suffix: Trust Center
 overview: Bunny maintains a public trust center documenting SOC 2 compliance.
 provider_name: Bunny

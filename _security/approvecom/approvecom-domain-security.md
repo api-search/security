@@ -14,7 +14,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Approvecom Domain Security
+name: Approve.com Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Approve.com, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=quarantine).'
 provider_name: Approve.com

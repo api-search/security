@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Agentik Cc Authentication
+name: Agentik Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Agentik declares 2 security scheme(s) across its OpenAPI definitions.

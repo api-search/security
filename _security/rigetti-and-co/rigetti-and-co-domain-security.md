@@ -78,7 +78,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Rigetti And Co Domain Security
+name: Rigetti & Co Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Rigetti & Co, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Rigetti & Co

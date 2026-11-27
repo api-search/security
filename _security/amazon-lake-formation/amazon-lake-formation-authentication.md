@@ -30,18 +30,19 @@ provider_name: Amazon Lake Formation
 provider_slug: amazon-lake-formation
 scheme_count: 1
 schemes:
-- description: AWS Signature Version 4 authentication
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
   name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-lake-formation-openapi.yml
+  - openapi/amazon-lake-formation-operations-api-openapi.yml
+  - openapi/amazon-lake-formation-resources-api-openapi.yml
   type: apiKey
 slug: amazon-lake-formation-authentication
 source_filename: amazon-lake-formation-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-lake-formation-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4 authentication\n  sources:\n  - openapi/amazon-lake-formation-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-lake-formation-operations-api-openapi.yml, openapi/amazon-lake-formation-resources-api-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-lake-formation-operations-api-openapi.yml\n  - openapi/amazon-lake-formation-resources-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-lake-formation/authentication/amazon-lake-formation-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

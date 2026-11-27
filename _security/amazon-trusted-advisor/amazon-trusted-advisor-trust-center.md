@@ -96,6 +96,12 @@ api_specs:
   slug: amazon-trusted-advisor-resolvecase-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-resolvecase-api-openapi.yml
+- filename: amazon-trusted-advisor-operations-api-openapi.yml
+  format: yaml
+  label: Amazon Trusted Advisor Trusted Advisor Operations API
+  slug: amazon-trusted-advisor-operations-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/amazon-trusted-advisor/openapi/amazon-trusted-advisor-operations-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS

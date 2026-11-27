@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Riverse Trust Center
+name: Rainbow Trust Center
 name_suffix: Trust Center
 overview: Rainbow maintains a public trust center documenting note, programme, and information_security compliance.
 provider_name: Rainbow

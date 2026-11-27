@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Metricstream Authentication
+name: MetricStream Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MetricStream declares 0 security scheme(s) across its OpenAPI definitions.

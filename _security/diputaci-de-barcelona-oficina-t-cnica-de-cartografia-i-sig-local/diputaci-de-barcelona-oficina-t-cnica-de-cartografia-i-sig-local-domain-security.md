@@ -18,7 +18,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Diputaci De Barcelona Oficina T Cnica De Cartografia I Sig Local Domain Security
+name: Diputació de Barcelona-Oficina Tècnica de Cartografia i Sig Local Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Diputació de Barcelona-Oficina Tècnica de Cartografia i Sig Local, probed live across 1 host(s) and 1 registrable domain(s). 1 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=none).'
 provider_name: Diputació de Barcelona-Oficina Tècnica de Cartografia i Sig Local

@@ -158,7 +158,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Autonomous Solutions Authentication
+name: VenHub Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: VenHub declares 2 security scheme(s) across its OpenAPI definitions.

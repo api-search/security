@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Filetourl Org Authentication
+name: FileToUrl.org Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FileToUrl.org declares 1 security scheme(s) across its OpenAPI definitions.

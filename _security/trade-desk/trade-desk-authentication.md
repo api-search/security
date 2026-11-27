@@ -43,7 +43,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: searched
-name: Trade Desk Authentication
+name: The Trade Desk Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

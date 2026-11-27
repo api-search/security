@@ -411,7 +411,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Financegenius Ai Authentication
+name: FinanceGenius.AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: FinanceGenius.AI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.
@@ -433,7 +433,6 @@ source_yaml_url: https://artifacts.apis.io/financegenius-ai/authentication/finan
 summary_line: http · 1 scheme
 tags:
 - MCP
-- Model Context Protocol
 - Financial Services
 - India
 - Credit Cards

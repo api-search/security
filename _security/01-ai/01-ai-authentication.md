@@ -15,7 +15,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: 01 Ai Authentication
+name: 01.AI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: 01.AI secures its APIs with http across 1 declared security scheme, as derived from its OpenAPI definitions.

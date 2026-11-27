@@ -44,7 +44,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Leena Ai Trust Center
+name: Leena AI Trust Center
 name_suffix: Trust Center
 overview: Leena AI maintains a public trust center documenting SOC 2 Type 2, SOC 1, ISO/IEC 27001, ISO/IEC 27017:2015, ISO/IEC 27018:2019, ISO/IEC 27701, CSA STAR, HIPAA, and FedRAMP Certified Class C compliance.
 provider_name: Leena AI

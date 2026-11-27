@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Adlibraryspy Com Authentication
+name: AdLibrarySpy Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AdLibrarySpy declares 0 security scheme(s) across its OpenAPI definitions.
@@ -34,6 +34,5 @@ tags:
 - Advertising
 - Shopify
 - Meta Ads
-- Free Tools
 - Community
 ---

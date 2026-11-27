@@ -26,7 +26,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Streamnative Authentication
+name: StreamNative Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: StreamNative declares 2 security scheme(s) across its OpenAPI definitions.

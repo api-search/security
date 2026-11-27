@@ -11,7 +11,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Helloverify Trust Center
+name: HelloVerify Trust Center
 name_suffix: Trust Center
 overview: HelloVerify maintains a public trust center documenting ISO/IEC 27001:2022, ISO/IEC 27701:2019, ISO 9001:2015, ISO 22301:2019, Cyber Essentials, Cyber Essentials Plus, and GDPR compliance.
 provider_name: HelloVerify

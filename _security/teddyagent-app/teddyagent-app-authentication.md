@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Teddyagent App Authentication
+name: teddyagent-app Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: teddyagent-app declares 1 security scheme(s) across its OpenAPI definitions.

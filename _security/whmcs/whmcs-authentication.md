@@ -52,7 +52,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Whmcs Authentication
+name: WHMCS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: WHMCS secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -12,7 +12,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Starfishetl Trust Center
+name: Technology Advisors Trust Center
 name_suffix: Trust Center
 overview: Technology Advisors maintains a public trust center documenting GDPR compliance.
 provider_name: Technology Advisors

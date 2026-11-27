@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sourceryai Trust Center
+name: Sourcery.AI Trust Center
 name_suffix: Trust Center
 overview: Sourcery.AI maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: Sourcery.AI

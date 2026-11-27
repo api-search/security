@@ -110,7 +110,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Finance Foundation Authentication
+name: finance-foundation Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: finance-foundation declares 0 security scheme(s) across its OpenAPI definitions.

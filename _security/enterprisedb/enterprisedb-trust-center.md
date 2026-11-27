@@ -14,7 +14,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Enterprisedb Trust Center
+name: EDB Trust Center
 name_suffix: Trust Center
 overview: EDB maintains a public trust center documenting SOC 2, GDPR, and CSA STAR compliance.
 provider_name: EDB

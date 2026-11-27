@@ -93,7 +93,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Videoamp Authentication
+name: VideoAmp Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

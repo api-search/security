@@ -20,7 +20,7 @@ kind: authentication
 layout: security
 mechanism_count: 6
 method: probed
-name: Ustc Authentication
+name: University of Science and Technology of China Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Science and Technology of China declares 7 security scheme(s) across its OpenAPI definitions.

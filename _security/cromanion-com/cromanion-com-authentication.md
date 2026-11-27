@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cromanion Com Authentication
+name: Cromanion Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cromanion declares 1 security scheme(s) across its OpenAPI definitions.

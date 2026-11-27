@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: searched
-name: Meni Ge Authentication
+name: meni-ge Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: meni-ge declares 3 security scheme(s) across its OpenAPI definitions.

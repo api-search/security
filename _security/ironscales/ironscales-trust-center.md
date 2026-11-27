@@ -62,7 +62,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Ironscales Trust Center
+name: IRONSCALES Trust Center
 name_suffix: Trust Center
 overview: IRONSCALES maintains a public trust center documenting ISO/IEC 27001:2022, ISO/IEC 42001:2023, and SOC 2 Type 2 compliance.
 provider_name: IRONSCALES

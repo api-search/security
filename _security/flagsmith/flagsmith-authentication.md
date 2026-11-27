@@ -256,5 +256,4 @@ tags:
 - Open Source
 - Software-as-a-Service
 - MCP
-- Agent Ready
 ---

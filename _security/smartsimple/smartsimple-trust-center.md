@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Smartsimple Trust Center
+name: SmartSimple Trust Center
 name_suffix: Trust Center
 overview: SmartSimple maintains a public trust center documenting ISO 27001 and HIPAA compliance.
 provider_name: SmartSimple

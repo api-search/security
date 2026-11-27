@@ -17,7 +17,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mailerlite Trust Center
+name: MailerLite Trust Center
 name_suffix: Trust Center
 overview: MailerLite maintains a public trust center documenting ISO/IEC 27001:2022, PCI DSS, GDPR, EU-U.S. Data Privacy Framework, Swiss-U.S. Data Privacy Framework, and UK Extension to the EU-U.S. Data Privacy Framework compliance.
 provider_name: MailerLite

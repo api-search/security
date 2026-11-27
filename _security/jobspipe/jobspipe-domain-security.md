@@ -24,12 +24,6 @@ api_specs:
   slug: jobspipe-jobs-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-jobs-api-openapi.yml
-- filename: jobspipe-jobspipe-api-api-openapi.yml
-  format: yaml
-  label: JobsPipe JobsPipe API
-  slug: jobspipe-jobspipe-api-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/jobspipe/openapi/jobspipe-jobspipe-api-api-openapi.yml
 - filename: jobspipe-labour-market-insights-api-openapi.yml
   format: yaml
   label: JobsPipe Labour Market Insights API
@@ -108,7 +102,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Jobspipe Domain Security
+name: JobsPipe Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for JobsPipe, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 2 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: JobsPipe

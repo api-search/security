@@ -40,11 +40,11 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Cloro Dev Authentication
+name: Cloro Incorporation Ltd. Authentication
 name_suffix: Authentication
 oauth_flows: []
-overview: cloro secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.
-provider_name: cloro
+overview: Cloro Incorporation Ltd. secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.
+provider_name: Cloro Incorporation Ltd.
 provider_slug: cloro-dev
 scheme_count: 2
 schemes:

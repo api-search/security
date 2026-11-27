@@ -1314,6 +1314,18 @@ api_specs:
   slug: aws-glue-usage-profile-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/aws-glue/openapi/aws-glue-usage-profile-api-openapi.yml
+- filename: aws-glue-data-quality-evaluation-config-api-openapi.yml
+  format: yaml
+  label: AWS Glue Glue Data Quality Evaluation Config API
+  slug: aws-glue-data-quality-evaluation-config-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-glue/openapi/aws-glue-data-quality-evaluation-config-api-openapi.yml
+- filename: aws-glue-job-upgrade-analysis-api-openapi.yml
+  format: yaml
+  label: AWS Glue Glue Job Upgrade Analysis API
+  slug: aws-glue-job-upgrade-analysis-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/aws-glue/openapi/aws-glue-job-upgrade-analysis-api-openapi.yml
 certification_count: 5
 certifications:
 - PCI DSS
@@ -1324,7 +1336,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aws Glue Trust Center
+name: AWS Glue Trust Center
 name_suffix: Trust Center
 overview: AWS Glue maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: AWS Glue

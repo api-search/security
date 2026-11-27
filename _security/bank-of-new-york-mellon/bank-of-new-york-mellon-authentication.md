@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Bank Of New York Mellon Authentication
+name: BNY Mellon Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

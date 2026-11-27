@@ -54,32 +54,30 @@ api_specs:
   slug: attestwire-com-vat-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/attestwire-com/openapi/attestwire-com-vat-api-openapi.yml
-certification_count: 3
+certification_count: 1
 certifications:
-- SOC 2
-- ISO 27001
 - GDPR
 description: ''
 kind: trust-center
 layout: security
-name: Attestwire Com Trust Center
+name: Attestwire Trust Center
 name_suffix: Trust Center
-overview: Attestwire maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
+overview: Attestwire maintains a public trust center documenting GDPR compliance.
 provider_name: Attestwire
 provider_slug: attestwire-com
 slug: attestwire-com-trust-center
 source_filename: attestwire-com-trust-center.yml
 source_heading: Trust Center
 source_url: ''
-source_yaml: "generated: '2026-11-02'\nmethod: searched\nprobe: true\nsource: https://attestwire.com/security\nurl: https://attestwire.com/security\ncertifications:\n- SOC 2\n- ISO 27001\n- GDPR\nevidence:\n- source: https://attestwire.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\n"
+source_yaml: "generated: '2026-11-02'\nmethod: searched\nprobe: true\nsource: https://attestwire.com/security\nurl: https://attestwire.com/security\ncertifications:\n- GDPR\nevidence:\n- source: https://attestwire.com/security\n  keywords:\n  - soc 2\n  - iso 27001\n  - gdpr\ncertifications_not_held:\n- SOC 2\n- ISO 27001\ncertification_quotes:\n  SOC 2: payload is sent to Paddle. | Certifications? | No SOC 2 and no\n  ISO 27001: and no ISO 27001 today. | Penetration test? | No third-party penetration test today.\ncertifications_checked:\n  date: '2026-11-11'\n  by: probe-security-programs.classify_certs\n  note: a certification is listed only when the trust page states it as held (roadmap#1133)\n"
 source_yaml_url: https://artifacts.apis.io/attestwire-com/security/attestwire-com-trust-center.yml
-summary_line: SOC 2, ISO 27001, GDPR
+summary_line: GDPR
 tags:
 - Attestwire
-- E-invoice
+- e-invoice
 - Validation
 - XRechnung
-- PEPPOL
+- Peppol
 - MCP
 trust_url: https://attestwire.com/security
 ---

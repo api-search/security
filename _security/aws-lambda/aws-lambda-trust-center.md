@@ -100,7 +100,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aws Lambda Trust Center
+name: AWS Lambda Trust Center
 name_suffix: Trust Center
 overview: AWS Lambda maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: AWS Lambda

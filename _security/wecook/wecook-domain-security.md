@@ -13,7 +13,7 @@ hosts_probed: 1
 kind: domain-security
 layout: security
 method: probed
-name: Wecook Domain Security
+name: WeCook Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for WeCook, probed live across 1 host(s) and 1 registrable domain(s). Email/DNS controls: DNSSEC absent, SPF present, DMARC absent.'
 provider_name: WeCook

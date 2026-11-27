@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: probed
-name: Mailoptin Authentication
+name: MailOptin Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MailOptin declares 3 security scheme(s) across its OpenAPI definitions.

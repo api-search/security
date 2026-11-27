@@ -18,6 +18,18 @@ api_specs:
   slug: leadiq-prospects-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/leadiq/openapi/leadiq-prospects-api-openapi.yml
+- filename: leadiq-company-lists-api-openapi.yml
+  format: yaml
+  label: LeadIQ Company Lists API
+  slug: leadiq-company-lists-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-company-lists-api-openapi.yml
+- filename: leadiq-salesforce-api-openapi.yml
+  format: yaml
+  label: LeadIQ Salesforce API
+  slug: leadiq-salesforce-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/leadiq/openapi/leadiq-salesforce-api-openapi.yml
 - filename: leadiq-graph-ql-api-openapi.yml
   format: yaml
   label: LeadIQ Graph QL API
@@ -53,7 +65,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Leadiq Domain Security
+name: LeadIQ Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for LeadIQ, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=quarantine).'
 provider_name: LeadIQ

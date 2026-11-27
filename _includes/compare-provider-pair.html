@@ -13,7 +13,7 @@
 {% include compare-css.html %}
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","headline":{{ P.headline | jsonify }},"description":{{ P.summary | jsonify }},"dateModified":"{{ SC.fetched }}","datePublished":"{{ SC.fetched }}","url":"{{ page.url | prepend: site.url }}","publisher":{"@type":"Organization","name":"APIs.io","url":"https://apis.io"},"about":[{% for x in R.providers %}{"@type":"Organization","name":{{ x.name | jsonify }},"url":"https://apis.io/providers/{{ x.slug }}/"}{% unless forloop.last %},{% endunless %}{% endfor %}]}
+{"@context":"https://schema.org","@type":"Article","headline":{{ P.headline | jsonify }},"description":{{ P.summary | jsonify }},"dateModified":"{{ P.fetched | default: SC.fetched }}","datePublished":"{{ P.fetched | default: SC.fetched }}","url":"{{ page.url | prepend: site.url }}","publisher":{"@type":"Organization","name":"APIs.io","url":"https://apis.io"},"about":[{% for x in R.providers %}{"@type":"Organization","name":{{ x.name | jsonify }},"url":"https://apis.io/providers/{{ x.slug }}/"}{% unless forloop.last %},{% endunless %}{% endfor %}]}
 </script>
 
 <div class="cmp-crumb"><a href="/compare/">Compare</a> / <a href="/compare/providers/">Providers</a> / {{ A.name }} vs {{ B.name }}</div>

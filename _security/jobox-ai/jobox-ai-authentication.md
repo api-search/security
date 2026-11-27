@@ -188,7 +188,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: Jobox Ai Authentication
+name: JOBOX.ai Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: JOBOX.ai declares 2 security scheme(s) across its OpenAPI definitions.

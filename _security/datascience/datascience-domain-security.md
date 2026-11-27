@@ -34,7 +34,6 @@ tags:
 - Company
 - Artificial Intelligence
 - Data Analytics
-- Enterprise Solutions
 - Cloud
 - Financial Compliance
 ---

@@ -41,7 +41,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Akta Pro Authentication
+name: akta.pro Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: akta.pro secures its APIs with apiKey and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.

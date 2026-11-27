@@ -1195,7 +1195,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cisco Ise Trust Center
+name: Cisco Identity Services Engine Trust Center
 name_suffix: Trust Center
 overview: Cisco Identity Services Engine maintains a public trust center documenting FIPS 140-2 and FIPS 140-3 compliance.
 provider_name: Cisco Identity Services Engine

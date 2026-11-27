@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Bridgestackapi Authentication
+name: BridgeStackAPI Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BridgeStackAPI declares 1 security scheme(s) across its OpenAPI definitions.

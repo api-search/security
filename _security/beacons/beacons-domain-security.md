@@ -39,6 +39,6 @@ tags:
 - Company
 - Mobile
 - Creators
-- Link in Bio
+- Link-in-bio
 - Monetization
 ---

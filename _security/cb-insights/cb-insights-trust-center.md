@@ -75,7 +75,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cb Insights Trust Center
+name: CB Insights Trust Center
 name_suffix: Trust Center
 overview: CB Insights maintains a public trust center documenting SOC 2 Type II, GDPR, CCPA, and EU AI Act (deployer obligations) compliance.
 provider_name: CB Insights

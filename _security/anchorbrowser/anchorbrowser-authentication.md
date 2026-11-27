@@ -105,6 +105,30 @@ api_specs:
   slug: anchorbrowser-tools-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-tools-api-openapi.yml
+- filename: anchorbrowser-agent-access-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Agent Access API
+  slug: anchorbrowser-agent-access-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-agent-access-api-openapi.yml
+- filename: anchorbrowser-volume-files-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Volume Files API
+  slug: anchorbrowser-volume-files-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-volume-files-api-openapi.yml
+- filename: anchorbrowser-volumes-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Volumes API
+  slug: anchorbrowser-volumes-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-volumes-api-openapi.yml
+- filename: anchorbrowser-webhooks-api-openapi.yml
+  format: yaml
+  label: Anchor Browser Webhooks API
+  slug: anchorbrowser-webhooks-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/anchorbrowser/openapi/anchorbrowser-webhooks-api-openapi.yml
 auth_types:
 - apiKey
 description: ''
@@ -112,7 +136,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Anchorbrowser Authentication
+name: Anchor Browser Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Anchor Browser secures its APIs with apiKey across 1 declared security scheme, as derived from its OpenAPI definitions.

@@ -212,7 +212,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Anp2 Com Authentication
+name: ANP2 Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: ANP2 declares 4 security scheme(s) across its OpenAPI definitions.

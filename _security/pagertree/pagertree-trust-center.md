@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Pagertree Trust Center
+name: PagerTree Trust Center
 name_suffix: Trust Center
 overview: PagerTree maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: PagerTree

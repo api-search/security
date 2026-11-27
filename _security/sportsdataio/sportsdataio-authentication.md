@@ -209,7 +209,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: derived
-name: Sportsdataio Authentication
+name: SportsDataIO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: SportsDataIO secures its APIs with apiKey across 2 declared security schemes, as derived from its OpenAPI definitions.

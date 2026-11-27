@@ -50,7 +50,7 @@ kind: authentication
 layout: security
 mechanism_count: 4
 method: searched
-name: Beliefstate Ai Authentication
+name: BeliefState Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BeliefState declares 4 security scheme(s) across its OpenAPI definitions.

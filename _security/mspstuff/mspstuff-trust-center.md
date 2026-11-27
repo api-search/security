@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Mspstuff Trust Center
+name: AutomatedMSP, Trust Center
 name_suffix: Trust Center
 overview: AutomatedMSP, maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: AutomatedMSP,

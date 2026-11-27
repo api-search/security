@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Less Annoying Crm Authentication
+name: Less Annoying CRM Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Less Annoying CRM declares 1 security scheme(s) across its OpenAPI definitions.

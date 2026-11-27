@@ -120,7 +120,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Creatoriq Trust Center
+name: CreatorIQ Trust Center
 name_suffix: Trust Center
 overview: CreatorIQ maintains a public trust center documenting ISO/IEC 27001:2022 compliance.
 provider_name: CreatorIQ

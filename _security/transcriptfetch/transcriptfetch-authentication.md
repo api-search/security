@@ -22,7 +22,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Transcriptfetch Authentication
+name: TranscriptFetch Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: TranscriptFetch secures its APIs with http and oauth2 (MCP surface) across 2 declared security schemes, as derived from its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: probed
-name: A Mark Precious Metals Authentication
+name: A-Mark Precious Metals Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: A-Mark Precious Metals declares 2 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Pwsweather Authentication
+name: PWSweather Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: PWSweather declares 0 security scheme(s) across its OpenAPI definitions.

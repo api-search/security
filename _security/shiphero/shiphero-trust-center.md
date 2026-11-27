@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Shiphero Trust Center
+name: ShipHero Trust Center
 name_suffix: Trust Center
 overview: ShipHero maintains a public trust center documenting SOC 2 and GDPR compliance.
 provider_name: ShipHero

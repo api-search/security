@@ -115,7 +115,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Rainforest Qa Trust Center
+name: Rainforest QA Trust Center
 name_suffix: Trust Center
 overview: Rainforest QA maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Rainforest QA

@@ -74,7 +74,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Thrivecart Trust Center
+name: ThriveCart Trust Center
 name_suffix: Trust Center
 overview: ThriveCart maintains a public trust center documenting PCI DSS, GDPR, and CCPA compliance.
 provider_name: ThriveCart

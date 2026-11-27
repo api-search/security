@@ -166,7 +166,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Good Grants Trust Center
+name: GOOD Grants Trust Center
 name_suffix: Trust Center
 overview: GOOD Grants maintains a public trust center documenting SOC 2, ISO 27001, PCI DSS, HIPAA, and GDPR compliance.
 provider_name: GOOD Grants

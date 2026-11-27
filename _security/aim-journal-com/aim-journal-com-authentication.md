@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Aim Journal Com Authentication
+name: AIm Workout Journal Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AIm Workout Journal declares 1 security scheme(s) across its OpenAPI definitions.

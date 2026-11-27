@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Hpsf Authentication
+name: High Performance Software Foundation Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: High Performance Software Foundation secures its APIs with none and http across 2 declared security schemes, as derived from its OpenAPI definitions.

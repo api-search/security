@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Bidskim Authentication
+name: BidSkim Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: BidSkim declares 0 security scheme(s) across its OpenAPI definitions.

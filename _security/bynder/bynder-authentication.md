@@ -153,12 +153,6 @@ api_specs:
   slug: bynder-finish-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bynder/openapi/bynder-finish-api-openapi.yml
-- filename: bynder-groups-api-openapi.yml
-  format: yaml
-  label: Bynder Groups API
-  slug: bynder-groups-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bynder/openapi/bynder-groups-api-openapi.yml
 - filename: bynder-historical-data-api-openapi.yml
   format: yaml
   label: Bynder Historical Data API
@@ -219,36 +213,12 @@ api_specs:
   slug: bynder-media-options-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bynder/openapi/bynder-media-options-api-openapi.yml
-- filename: bynder-metaproperties-api-openapi.yml
-  format: yaml
-  label: Bynder Metaproperties API
-  slug: bynder-metaproperties-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bynder/openapi/bynder-metaproperties-api-openapi.yml
-- filename: bynder-metaproperty-operations-api-openapi.yml
-  format: yaml
-  label: Bynder Metaproperty operations API
-  slug: bynder-metaproperty-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bynder/openapi/bynder-metaproperty-operations-api-openapi.yml
 - filename: bynder-metaproperty-options-operations-api-openapi.yml
   format: yaml
   label: Bynder Metaproperty options operations API
   slug: bynder-metaproperty-options-operations-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bynder/openapi/bynder-metaproperty-options-operations-api-openapi.yml
-- filename: bynder-options-api-openapi.yml
-  format: yaml
-  label: Bynder Options API
-  slug: bynder-options-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bynder/openapi/bynder-options-api-openapi.yml
-- filename: bynder-options-v1-api-openapi.yml
-  format: yaml
-  label: Bynder Options V1 API
-  slug: bynder-options-v1-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bynder/openapi/bynder-options-v1-api-openapi.yml
 - filename: bynder-orders-api-openapi.yml
   format: yaml
   label: Bynder Orders API
@@ -309,12 +279,6 @@ api_specs:
   slug: bynder-scopes-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bynder/openapi/bynder-scopes-api-openapi.yml
-- filename: bynder-search-api-openapi.yml
-  format: yaml
-  label: Bynder Search API
-  slug: bynder-search-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bynder/openapi/bynder-search-api-openapi.yml
 - filename: bynder-search-usage-api-openapi.yml
   format: yaml
   label: Bynder Search Usage API
@@ -333,12 +297,6 @@ api_specs:
   slug: bynder-smartfilters-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bynder/openapi/bynder-smartfilters-api-openapi.yml
-- filename: bynder-specific-metaproperty-operations-api-openapi.yml
-  format: yaml
-  label: Bynder Specific metaproperty operations API
-  slug: bynder-specific-metaproperty-operations-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/bynder/openapi/bynder-specific-metaproperty-operations-api-openapi.yml
 - filename: bynder-specific-metaproperty-option-dependency-group-operations-api-openapi.yml
   format: yaml
   label: Bynder Specific metaproperty option dependency group operations API
@@ -405,6 +363,138 @@ api_specs:
   slug: bynder-users-id-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/bynder/openapi/bynder-users-id-api-openapi.yml
+- filename: bynder-agents-api-openapi.yml
+  format: yaml
+  label: Bynder Agents API
+  slug: bynder-agents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-agents-api-openapi.yml
+- filename: bynder-asset-enrichment-api-openapi.yml
+  format: yaml
+  label: Bynder Asset enrichment API
+  slug: bynder-asset-enrichment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-asset-enrichment-api-openapi.yml
+- filename: bynder-asset-ingestion-api-openapi.yml
+  format: yaml
+  label: Bynder Asset ingestion API
+  slug: bynder-asset-ingestion-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-asset-ingestion-api-openapi.yml
+- filename: bynder-authentication-api-openapi.yml
+  format: yaml
+  label: Bynder Authentication API
+  slug: bynder-authentication-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-authentication-api-openapi.yml
+- filename: bynder-automations-new-taxonomy-api-api-openapi.yml
+  format: yaml
+  label: Bynder Automations - New taxonomy API
+  slug: bynder-automations-new-taxonomy-api-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-automations-new-taxonomy-api-api-openapi.yml
+- filename: bynder-enrichment-api-openapi.yml
+  format: yaml
+  label: Bynder Enrichment API
+  slug: bynder-enrichment-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-enrichment-api-openapi.yml
+- filename: bynder-executions-api-openapi.yml
+  format: yaml
+  label: Bynder Executions API
+  slug: bynder-executions-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-executions-api-openapi.yml
+- filename: bynder-general-endpoints-api-openapi.yml
+  format: yaml
+  label: Bynder General endpoints API
+  slug: bynder-general-endpoints-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-general-endpoints-api-openapi.yml
+- filename: bynder-groups-legacy-api-openapi.yml
+  format: yaml
+  label: Bynder Groups (Legacy) API
+  slug: bynder-groups-legacy-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-groups-legacy-api-openapi.yml
+- filename: bynder-groups-preferred-api-openapi.yml
+  format: yaml
+  label: Bynder Groups (Preferred) API
+  slug: bynder-groups-preferred-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-groups-preferred-api-openapi.yml
+- filename: bynder-guides-api-openapi.yml
+  format: yaml
+  label: Bynder Guides API
+  slug: bynder-guides-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-guides-api-openapi.yml
+- filename: bynder-metaproperties-new-api-preferred-api-openapi.yml
+  format: yaml
+  label: Bynder Metaproperties - New API (Preferred) API
+  slug: bynder-metaproperties-new-api-preferred-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-metaproperties-new-api-preferred-api-openapi.yml
+- filename: bynder-metaproperties-old-api-please-use-new-api-if-possible-api-openapi.yml
+  format: yaml
+  label: Bynder Metaproperties - Old API (Please use new API if possible) API
+  slug: bynder-metaproperties-old-api-please-use-new-api-if-possible-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-metaproperties-old-api-please-use-new-api-if-possible-api-openapi.yml
+- filename: bynder-options-new-api-preferred-api-openapi.yml
+  format: yaml
+  label: Bynder Options - New API (Preferred) API
+  slug: bynder-options-new-api-preferred-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-options-new-api-preferred-api-openapi.yml
+- filename: bynder-options-old-api-please-use-new-api-if-possible-api-openapi.yml
+  format: yaml
+  label: Bynder Options - Old API (Please use new API if possible) API
+  slug: bynder-options-old-api-please-use-new-api-if-possible-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-options-old-api-please-use-new-api-if-possible-api-openapi.yml
+- filename: bynder-ranges-api-openapi.yml
+  format: yaml
+  label: Bynder Ranges API
+  slug: bynder-ranges-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-ranges-api-openapi.yml
+- filename: bynder-similarity-search-api-openapi.yml
+  format: yaml
+  label: Bynder Similarity Search API
+  slug: bynder-similarity-search-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-similarity-search-api-openapi.yml
+- filename: bynder-stages-api-openapi.yml
+  format: yaml
+  label: Bynder Stages API
+  slug: bynder-stages-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-stages-api-openapi.yml
+- filename: bynder-tags-api-openapi.yml
+  format: yaml
+  label: Bynder Tags API
+  slug: bynder-tags-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-tags-api-openapi.yml
+- filename: bynder-groups-api-openapi.yml
+  format: yaml
+  label: Bynder Groups API
+  slug: bynder-groups-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-groups-api-openapi.yml
+- filename: bynder-metaproperties-api-openapi.yml
+  format: yaml
+  label: Bynder Metaproperties API
+  slug: bynder-metaproperties-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-metaproperties-api-openapi.yml
+- filename: bynder-options-api-openapi.yml
+  format: yaml
+  label: Bynder Options API
+  slug: bynder-options-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/bynder/openapi/bynder-options-api-openapi.yml
 - filename: bynder-step-1-get-closest-amazons3-upload-endpoint-api-openapi.yml
   format: yaml
   label: Bynder Step 1 Get closest AmazonS3 upload endpoint API

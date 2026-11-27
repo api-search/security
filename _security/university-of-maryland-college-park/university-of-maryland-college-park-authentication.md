@@ -38,7 +38,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: probed
-name: University Of Maryland College Park Authentication
+name: University of Maryland College Park Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: University of Maryland College Park declares 0 security scheme(s) across its OpenAPI definitions.

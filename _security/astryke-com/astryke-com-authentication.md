@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Astryke Com Authentication
+name: Astryke Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Astryke declares 1 security scheme(s) across its OpenAPI definitions.

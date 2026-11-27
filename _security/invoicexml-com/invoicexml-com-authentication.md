@@ -74,7 +74,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Invoicexml Com Authentication
+name: invoicexml-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: invoicexml-com declares 0 security scheme(s) across its OpenAPI definitions.

@@ -185,7 +185,7 @@ kind: authentication
 layout: security
 mechanism_count: 3
 method: derived
-name: Philidor Io Authentication
+name: philidor-io Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: philidor-io secures its APIs with apiKey and http across 3 declared security schemes, as derived from its OpenAPI definitions.

@@ -6,7 +6,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Bind Ai Trust Center
+name: Bind AI Trust Center
 name_suffix: Trust Center
 overview: Bind AI maintains a public trust center documenting SOC 2 and HIPAA compliance.
 provider_name: Bind AI

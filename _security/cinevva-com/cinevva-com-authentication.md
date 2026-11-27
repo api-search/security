@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Cinevva Com Authentication
+name: Cinevva Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Cinevva declares 1 security scheme(s) across its OpenAPI definitions.

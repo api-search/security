@@ -10,7 +10,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Floqast Trust Center
+name: FloQast Trust Center
 name_suffix: Trust Center
 overview: FloQast maintains a public trust center documenting SOC 2 Type II, SOC 3, ISO 27001, ISO 27701, ISO 42001, and Data Privacy Framework compliance.
 provider_name: FloQast

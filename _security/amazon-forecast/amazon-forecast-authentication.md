@@ -120,18 +120,36 @@ provider_name: Amazon Forecast
 provider_slug: amazon-forecast
 scheme_count: 1
 schemes:
-- description: AWS Signature Version 4
+- description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256 signature over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary credentials). Not a bearer token.
   in: header
-  name: awsSigV4
+  name: sigv4
   parameter: Authorization
   sources:
-  - openapi/amazon-forecast-openapi.yml
+  - openapi/amazon-forecast-dataset-groups-api-openapi.yml
+  - openapi/amazon-forecast-dataset-import-job-api-openapi.yml
+  - openapi/amazon-forecast-datasets-api-openapi.yml
+  - openapi/amazon-forecast-explainability-api-openapi.yml
+  - openapi/amazon-forecast-explainability-export-api-openapi.yml
+  - openapi/amazon-forecast-export-jobs-api-openapi.yml
+  - openapi/amazon-forecast-forecast-export-job-api-openapi.yml
+  - openapi/amazon-forecast-forecasts-api-openapi.yml
+  - openapi/amazon-forecast-monitor-api-openapi.yml
+  - openapi/amazon-forecast-operations-api-openapi.yml
+  - openapi/amazon-forecast-predictor-backtest-export-job-api-openapi.yml
+  - openapi/amazon-forecast-predictors-api-openapi.yml
+  - openapi/amazon-forecast-resource-api-openapi.yml
+  - openapi/amazon-forecast-tags-api-openapi.yml
+  - openapi/amazon-forecast-what-if-analysis-api-openapi.yml
+  - openapi/amazon-forecast-what-if-forecast-api-openapi.yml
+  - openapi/amazon-forecast-what-if-forecast-export-api-openapi.yml
   type: apiKey
 slug: amazon-forecast-authentication
 source_filename: amazon-forecast-authentication.yml
 source_heading: Authentication Profile
 source_url: ''
-source_yaml: "generated: '2026-07-11'\nmethod: derived\nsource: openapi/amazon-forecast-openapi.yml\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: awsSigV4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4\n  sources:\n  - openapi/amazon-forecast-openapi.yml\n"
+source_yaml: "generated: '2026-11-11'\nmethod: derived\nsource: openapi/amazon-forecast-dataset-groups-api-openapi.yml, openapi/amazon-forecast-dataset-import-job-api-openapi.yml,\n  openapi/amazon-forecast-datasets-api-openapi.yml, openapi/amazon-forecast-explainability-api-openapi.yml,\n  openapi/amazon-forecast-explainability-export-api-openapi.yml, openapi/amazon-forecast-export-jobs-api-openapi.yml,\n  openapi/amazon-forecast-forecast-export-job-api-openapi.yml, openapi/amazon-forecast-forecasts-api-openapi.yml,\n  openapi/amazon-forecast-monitor-api-openapi.yml, openapi/amazon-forecast-operations-api-openapi.yml,\n  openapi/amazon-forecast-predictor-backtest-export-job-api-openapi.yml, openapi/amazon-forecast-predictors-api-openapi.yml\n  ...\nsummary:\n  types:\n  - apiKey\n  api_key_in:\n  - header\nschemes:\n- name: sigv4\n  type: apiKey\n  in: header\n  parameter: Authorization\n  description: AWS Signature Version 4. The Authorization header carries an AWS4-HMAC-SHA256\n    signature\
+  \ over the canonical request, with X-Amz-Date (and X-Amz-Security-Token for temporary\n    credentials). Not a bearer token.\n  sources:\n  - openapi/amazon-forecast-dataset-groups-api-openapi.yml\n  - openapi/amazon-forecast-dataset-import-job-api-openapi.yml\n  - openapi/amazon-forecast-datasets-api-openapi.yml\n  - openapi/amazon-forecast-explainability-api-openapi.yml\n  - openapi/amazon-forecast-explainability-export-api-openapi.yml\n  - openapi/amazon-forecast-export-jobs-api-openapi.yml\n  - openapi/amazon-forecast-forecast-export-job-api-openapi.yml\n  - openapi/amazon-forecast-forecasts-api-openapi.yml\n  - openapi/amazon-forecast-monitor-api-openapi.yml\n  - openapi/amazon-forecast-operations-api-openapi.yml\n  - openapi/amazon-forecast-predictor-backtest-export-job-api-openapi.yml\n  - openapi/amazon-forecast-predictors-api-openapi.yml\n  - openapi/amazon-forecast-resource-api-openapi.yml\n  - openapi/amazon-forecast-tags-api-openapi.yml\n  - openapi/amazon-forecast-what-if-analysis-api-openapi.yml\n\
+  \  - openapi/amazon-forecast-what-if-forecast-api-openapi.yml\n  - openapi/amazon-forecast-what-if-forecast-export-api-openapi.yml\n"
 source_yaml_url: https://artifacts.apis.io/amazon-forecast/authentication/amazon-forecast-authentication.yml
 summary_line: apiKey · 1 scheme
 tags:

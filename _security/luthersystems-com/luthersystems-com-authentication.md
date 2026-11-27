@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 5
 method: searched
-name: Luthersystems Com Authentication
+name: Luther Systems Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Luther Systems declares 6 security scheme(s) across its OpenAPI definitions.

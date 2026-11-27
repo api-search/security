@@ -2,18 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: metadao-meta-api-openapi.yml
-  format: yaml
-  label: MetaDAO Meta API
-  slug: metadao-meta-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/metadao/openapi/metadao-meta-api-openapi.yml
-- filename: metadao-supply-api-openapi.yml
-  format: yaml
-  label: MetaDAO Supply API
-  slug: metadao-supply-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/metadao/openapi/metadao-supply-api-openapi.yml
 - filename: metadao-tickers-api-openapi.yml
   format: yaml
   label: MetaDAO Tickers API
@@ -62,6 +50,18 @@ api_specs:
   slug: metadao-market-data-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/metadao/openapi/metadao-market-data-api-openapi.yml
+- filename: metadao-meta-api-openapi.yml
+  format: yaml
+  label: MetaDAO Meta API
+  slug: metadao-meta-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/metadao/openapi/metadao-meta-api-openapi.yml
+- filename: metadao-supply-api-openapi.yml
+  format: yaml
+  label: MetaDAO Supply API
+  slug: metadao-supply-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/metadao/openapi/metadao-supply-api-openapi.yml
 auth_types:
 - none
 description: ''
@@ -69,7 +69,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: searched
-name: Metadao Authentication
+name: MetaDAO Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: MetaDAO secures its APIs with none across 0 declared security schemes, as derived from its OpenAPI definitions.

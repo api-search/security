@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: probed
-name: Neurotherapia Authentication
+name: NeuroTherapia Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: NeuroTherapia secures its APIs with none and bearer-visitor-token across 2 declared security schemes, as derived from its OpenAPI definitions.

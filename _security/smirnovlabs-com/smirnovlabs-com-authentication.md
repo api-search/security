@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Smirnovlabs Com Authentication
+name: smirnovlabs-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: smirnovlabs-com declares 0 security scheme(s) across its OpenAPI definitions.

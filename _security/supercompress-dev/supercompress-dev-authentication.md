@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Supercompress Dev Authentication
+name: supercompress-dev Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: supercompress-dev declares 2 security scheme(s) across its OpenAPI definitions.

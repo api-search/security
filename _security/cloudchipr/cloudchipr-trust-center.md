@@ -72,7 +72,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Cloudchipr Trust Center
+name: CloudChipr Trust Center
 name_suffix: Trust Center
 overview: CloudChipr maintains a public trust center documenting SOC 2 compliance.
 provider_name: CloudChipr

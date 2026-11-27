@@ -74,7 +74,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Workboard Trust Center
+name: WorkBoard Trust Center
 name_suffix: Trust Center
 overview: WorkBoard maintains a public trust center documenting SOC 2 Type 2, ISO/IEC 27001, and GDPR compliance.
 provider_name: WorkBoard

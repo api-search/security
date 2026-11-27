@@ -14,7 +14,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Dalalos In Authentication
+name: DalalOS Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: DalalOS declares 2 security scheme(s) across its OpenAPI definitions.

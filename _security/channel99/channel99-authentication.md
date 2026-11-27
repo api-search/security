@@ -233,7 +233,6 @@ tags:
 - Account Based Marketing
 - Reporting
 - MCP
-- Agent Ready
 - Intent Data
 - Account Identification
 - Data Export

@@ -1,8 +1,14 @@
 ---
 api_specs:
+- filename: gcp-cloud-storage-anywherecaches-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Anywhere Caches API
+  slug: gcp-cloud-storage-anywherecaches-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-anywherecaches-api-openapi.yml
 - filename: gcp-cloud-storage-bucketaccesscontrols-api-openapi.yml
   format: yaml
-  label: Google Cloud Storage BucketAccessControls API
+  label: Google Cloud Storage Bucket Access Controls API
   slug: gcp-cloud-storage-bucketaccesscontrols-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-bucketaccesscontrols-api-openapi.yml
@@ -14,28 +20,10 @@ api_specs:
   url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-buckets-api-openapi.yml
 - filename: gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
   format: yaml
-  label: Google Cloud Storage DefaultObjectAccessControls API
+  label: Google Cloud Storage Default Object Access Controls API
   slug: gcp-cloud-storage-defaultobjectaccesscontrols-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-defaultobjectaccesscontrols-api-openapi.yml
-- filename: gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
-  format: yaml
-  label: Google Cloud Storage ObjectAccessControls API
-  slug: gcp-cloud-storage-objectaccesscontrols-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
-- filename: gcp-cloud-storage-objects-api-openapi.yml
-  format: yaml
-  label: Google Cloud Storage Objects API
-  slug: gcp-cloud-storage-objects-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objects-api-openapi.yml
-- filename: gcp-cloud-storage-anywherecaches-api-openapi.yml
-  format: yaml
-  label: Google Cloud Storage Anywhere Caches API
-  slug: gcp-cloud-storage-anywherecaches-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-anywherecaches-api-openapi.yml
 - filename: gcp-cloud-storage-folders-api-openapi.yml
   format: yaml
   label: Google Cloud Storage Folders API
@@ -54,6 +42,18 @@ api_specs:
   slug: gcp-cloud-storage-notifications-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-notifications-api-openapi.yml
+- filename: gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Object Access Controls API
+  slug: gcp-cloud-storage-objectaccesscontrols-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objectaccesscontrols-api-openapi.yml
+- filename: gcp-cloud-storage-objects-api-openapi.yml
+  format: yaml
+  label: Google Cloud Storage Objects API
+  slug: gcp-cloud-storage-objects-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/gcp-cloud-storage/openapi/gcp-cloud-storage-objects-api-openapi.yml
 - filename: gcp-cloud-storage-operations-api-openapi.yml
   format: yaml
   label: Google Cloud Storage Operations API
@@ -109,7 +109,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Gcp Cloud Storage Domain Security
+name: Google Cloud Storage Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Google Cloud Storage, probed live across 3 host(s) and 2 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Google Cloud Storage

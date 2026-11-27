@@ -32,7 +32,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Polly Io Authentication
+name: Polly Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Polly declares 2 security scheme(s) across its OpenAPI definitions.

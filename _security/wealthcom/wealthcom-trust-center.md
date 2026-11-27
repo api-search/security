@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Wealthcom Trust Center
+name: Wealth.com Trust Center
 name_suffix: Trust Center
 overview: Wealth.com maintains a public trust center documenting SOC 2 Type 2 compliance.
 provider_name: Wealth.com

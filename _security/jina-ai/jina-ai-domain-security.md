@@ -1,29 +1,11 @@
 ---
 api_specs:
-- filename: jina-ai-batch-api-openapi.yml
-  format: yaml
-  label: Jina AI Batch API
-  slug: jina-ai-batch-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-batch-api-openapi.yml
-- filename: jina-ai-embeddings-api-openapi.yml
-  format: yaml
-  label: Jina AI Embeddings API
-  slug: jina-ai-embeddings-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-embeddings-api-openapi.yml
 - filename: jina-ai-reader-api-openapi.yml
   format: yaml
   label: Jina AI Reader API
   slug: jina-ai-reader-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reader-api-openapi.yml
-- filename: jina-ai-reranker-api-openapi.yml
-  format: yaml
-  label: Jina AI Reranker API
-  slug: jina-ai-reranker-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/jina-ai/openapi/jina-ai-reranker-api-openapi.yml
 - filename: jina-ai-batch-embeddings-api-openapi.yml
   format: yaml
   label: Jina AI Batch Embeddings API
@@ -82,7 +64,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Jina Ai Domain Security
+name: Jina AI Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Jina AI, probed live across 3 host(s) and 1 registrable domain(s). 3 host(s) serve HTTPS (up to TLSv1.3); 0 advertise HSTS. Email/DNS controls: DNSSEC absent, SPF present, DMARC present (p=reject).'
 provider_name: Jina AI

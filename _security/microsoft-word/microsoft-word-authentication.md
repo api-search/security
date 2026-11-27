@@ -2,12 +2,6 @@
 anonymous_access: false
 api_key_in: []
 api_specs:
-- filename: microsoft-word-body-api-openapi.yml
-  format: yaml
-  label: Microsoft Word Body API
-  slug: microsoft-word-body-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-body-api-openapi.yml
 - filename: microsoft-word-checkout-api-openapi.yml
   format: yaml
   label: Microsoft Word Checkout API
@@ -32,12 +26,6 @@ api_specs:
   slug: microsoft-word-content-controls-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-content-controls-api-openapi.yml
-- filename: microsoft-word-documents-api-openapi.yml
-  format: yaml
-  label: Microsoft Word Documents API
-  slug: microsoft-word-documents-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-documents-api-openapi.yml
 - filename: microsoft-word-drive-items-api-openapi.yml
   format: yaml
   label: Microsoft Word Drive Items API
@@ -56,24 +44,12 @@ api_specs:
   slug: microsoft-word-images-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-images-api-openapi.yml
-- filename: microsoft-word-paragraphs-api-openapi.yml
-  format: yaml
-  label: Microsoft Word Paragraphs API
-  slug: microsoft-word-paragraphs-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-paragraphs-api-openapi.yml
 - filename: microsoft-word-permissions-api-openapi.yml
   format: yaml
   label: Microsoft Word Permissions API
   slug: microsoft-word-permissions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-permissions-api-openapi.yml
-- filename: microsoft-word-properties-api-openapi.yml
-  format: yaml
-  label: Microsoft Word Properties API
-  slug: microsoft-word-properties-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-properties-api-openapi.yml
 - filename: microsoft-word-search-api-openapi.yml
   format: yaml
   label: Microsoft Word Search API
@@ -86,18 +62,6 @@ api_specs:
   slug: microsoft-word-sections-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-sections-api-openapi.yml
-- filename: microsoft-word-styles-api-openapi.yml
-  format: yaml
-  label: Microsoft Word Styles API
-  slug: microsoft-word-styles-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-styles-api-openapi.yml
-- filename: microsoft-word-tables-api-openapi.yml
-  format: yaml
-  label: Microsoft Word Tables API
-  slug: microsoft-word-tables-api
-  spec_type: OpenAPI
-  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-tables-api-openapi.yml
 - filename: microsoft-word-thumbnails-api-openapi.yml
   format: yaml
   label: Microsoft Word Thumbnails API
@@ -110,6 +74,42 @@ api_specs:
   slug: microsoft-word-versions-api
   spec_type: OpenAPI
   url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-versions-api-openapi.yml
+- filename: microsoft-word-body-api-openapi.yml
+  format: yaml
+  label: Microsoft Word Body API
+  slug: microsoft-word-body-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-body-api-openapi.yml
+- filename: microsoft-word-documents-api-openapi.yml
+  format: yaml
+  label: Microsoft Word Documents API
+  slug: microsoft-word-documents-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-documents-api-openapi.yml
+- filename: microsoft-word-paragraphs-api-openapi.yml
+  format: yaml
+  label: Microsoft Word Paragraphs API
+  slug: microsoft-word-paragraphs-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-paragraphs-api-openapi.yml
+- filename: microsoft-word-properties-api-openapi.yml
+  format: yaml
+  label: Microsoft Word Properties API
+  slug: microsoft-word-properties-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-properties-api-openapi.yml
+- filename: microsoft-word-styles-api-openapi.yml
+  format: yaml
+  label: Microsoft Word Styles API
+  slug: microsoft-word-styles-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-styles-api-openapi.yml
+- filename: microsoft-word-tables-api-openapi.yml
+  format: yaml
+  label: Microsoft Word Tables API
+  slug: microsoft-word-tables-api
+  spec_type: OpenAPI
+  url: https://artifacts.apis.io/microsoft-word/openapi/microsoft-word-tables-api-openapi.yml
 auth_types:
 - oauth2
 description: ''

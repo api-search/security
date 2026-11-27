@@ -64,7 +64,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Aws Step Functions Trust Center
+name: AWS Step Functions Trust Center
 name_suffix: Trust Center
 overview: AWS Step Functions maintains a public trust center documenting PCI DSS, HIPAA, FedRAMP, GDPR, and FIPS 140 compliance.
 provider_name: AWS Step Functions
@@ -81,5 +81,7 @@ tags:
 - iPaaS
 - Orchestration
 - Serverless
+- Workflows
+- State Machines
 trust_url: https://aws.amazon.com/compliance/
 ---

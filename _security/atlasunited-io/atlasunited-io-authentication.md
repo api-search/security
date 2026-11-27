@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Atlasunited Io Authentication
+name: Atlas United Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Atlas United declares 1 security scheme(s) across its OpenAPI definitions.

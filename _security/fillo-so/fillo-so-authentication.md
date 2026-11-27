@@ -94,7 +94,7 @@ kind: authentication
 layout: security
 mechanism_count: 2
 method: searched
-name: Fillo So Authentication
+name: Fillo Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: Fillo secures its APIs with http and oauth2 across 2 declared security schemes, as derived from its OpenAPI definitions.
@@ -156,7 +156,7 @@ tags:
 - Form Builder
 - Developer Tools
 - Embeddable Widgets
-- Webhooks
+- Webhook
 - Validation
 - File Uploads
 - SDK

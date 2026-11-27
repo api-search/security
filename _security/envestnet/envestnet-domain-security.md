@@ -167,4 +167,8 @@ tags:
 - Wealth Management
 - Open Banking
 - Account Aggregation
+- Wealth Technology
+- Financial Planning
+- Portfolio Management
+- Financial Advisors
 ---

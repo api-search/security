@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Ai Translators Com Authentication
+name: AI-Translators.com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AI-Translators.com declares 0 security scheme(s) across its OpenAPI definitions.

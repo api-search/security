@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Rev Ai Trust Center
+name: Rev AI Trust Center
 name_suffix: Trust Center
 overview: Rev AI maintains a public trust center documenting SOC 2, HIPAA, and GDPR compliance.
 provider_name: Rev AI

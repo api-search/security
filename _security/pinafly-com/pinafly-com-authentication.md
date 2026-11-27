@@ -7,7 +7,7 @@ kind: authentication
 layout: security
 mechanism_count: 0
 method: none
-name: Pinafly Com Authentication
+name: pinafly-com Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: pinafly-com declares 0 security scheme(s) across its OpenAPI definitions.

@@ -7,7 +7,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Sliceglobal Com Trust Center
+name: Slice Trust Center
 name_suffix: Trust Center
 overview: Slice maintains a public trust center documenting SOC 2, ISO 27001, and GDPR compliance.
 provider_name: Slice

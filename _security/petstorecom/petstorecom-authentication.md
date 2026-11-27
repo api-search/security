@@ -9,7 +9,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: searched
-name: Petstorecom Authentication
+name: Petstore.com Authentication
 name_suffix: Authentication
 oauth_flows:
 - authorizationCode

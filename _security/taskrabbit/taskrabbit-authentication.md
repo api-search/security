@@ -39,7 +39,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Taskrabbit Authentication
+name: TaskRabbit Authentication
 name_suffix: Authentication
 oauth_flows:
 - clientCredentials

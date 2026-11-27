@@ -5,7 +5,7 @@ certifications:
 description: ''
 kind: trust-center
 layout: security
-name: Riskiq Trust Center
+name: RiskIQ Trust Center
 name_suffix: Trust Center
 overview: RiskIQ maintains a public trust center documenting GDPR compliance.
 provider_name: RiskIQ

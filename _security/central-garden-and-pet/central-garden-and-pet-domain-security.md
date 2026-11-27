@@ -25,7 +25,7 @@ hosts_probed: 3
 kind: domain-security
 layout: security
 method: probed
-name: Central Garden And Pet Domain Security
+name: Central Garden and Pet Domain Security
 name_suffix: Domain Security
 overview: 'Domain security posture for Central Garden and Pet, probed live across 3 host(s) and 1 registrable domain(s). 2 host(s) serve HTTPS (up to TLSv1.3); 1 advertise HSTS. Email/DNS controls: DNSSEC present, SPF present, DMARC present (p=reject).'
 provider_name: Central Garden and Pet

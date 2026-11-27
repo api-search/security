@@ -44,7 +44,7 @@ kind: authentication
 layout: security
 mechanism_count: 1
 method: derived
-name: Atlasyield Club Authentication
+name: AtlasYield Authentication
 name_suffix: Authentication
 oauth_flows: []
 overview: AtlasYield declares 1 security scheme(s) across its OpenAPI definitions.
